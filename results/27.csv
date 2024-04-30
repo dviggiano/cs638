@@ -1,425 +1,415 @@
 Task Class,Case,Prompt,Response,Expected
-Math,0,"Question: A food truck only sells grilled cheeses.  They source their bread for $3.00 a loaf and each loaf makes 10 sandwiches.  They spend $30.00 on different cheeses and condiments per 10 sandwiches.  If they sell 10 sandwiches for $7.00 each, what is their net profit?","First, let's calculate the cost per sandwich:
+Math,0,"Question: There are four schools competing at a basketball tournament. Each school has sent a girls’ basketball team and a boys’ basketball team and each team has 5 players each. Each school has also sent a coach for each team. In total, how many people have all of the schools sent?","Each school sent a total of 8 people (5 players + 1 coach for girls' team + 1 coach for boys' team + 1 coach for girls' team + 1 coach for boys' team) to the tournament. Since there are 4 schools competing, the total number of people sent by all schools is:
 
-Cost of bread per sandwich = $3.00 / 10 = $0.30
-Cost of cheese and condiments per sandwich = $30.00 / 10 = $3.00
+4 schools x 8 people/school = 32 people
 
-Total cost per sandwich = $0.30 + $3.00 = $3.30
-
-Revenue per 10 sandwiches = 10 sandwiches * $7.00 = $70.00
-Cost per 10 sandwiches = 10 sandwiches * $3.30 = $33.00
-
-Net profit = Revenue - Cost
-Net profit = $70.00 - $33.00 = $37.00
-
-The food truck's net profit for selling 10 grilled cheese sandwiches is $37.00.","They spend $3.00 on bread and $30.00 on cheese and condiments for a total of 3+30 = $<<3+30=33.00>>33.00
-They sell 10 sandwiches at $7.00 apiece for a total of 10*7 = $<<10*7=70.00>>70.00
-They made $70.00 and spent $33.00 for a net profit of 70-33 = $<<70-33=37.00>>37.00 per 10 sandwiches
-#### 37"
-Math,1a,"Question: Matt buys a massager.  At the lowest setting, it vibrates at 1600 vibrations per second.  At the highest setting, it vibrates 60% faster.  Matt uses it for 5 minutes at the highest setting.  How many vibrations does he experience?
-Answer: At the highest setting, it vibrates 1600*.6=<<1600*.6=960>>960 vibrations per second faster than the lowest setting
-So it vibrates at 1600+960=<<1600+960=2560>>2560 vibrations per second
-Matt uses it for 5 minutes so that is 5*60=<<5*60=300>>300 seconds
-That means he experienced 2560*300=<<2560*300=768000>>768,000 vibrations
-#### 768000
-Question: A small pizza can gives 4 slices, and a large pizza gives 8 slices.  George purchased 3 small and 2 large pizzas.  George would like to eat 3 pieces.  His friend Bob would like to eat one more piece than George.  Susie will eat half as many as Bob.  Bill, Fred and Mark would each like 3 pieces.  How many slices of pizza will be left over?
-Answer: George has 3 small pizzas * 4 slices = <<3*4=12>>12 pieces.
-George also has 2 large pizzas * 8 slices = <<2*8=16>>16 slices.
-Total, George has 12 + 16 slices = <<12+16=28>>28 slices of pizza.
-Bob will eat 3 slices + 1 = <<3+1=4>>4 slices.
-Susie will eat 1/2 * 4 slices = <<1/2*4=2>>2 slices.
-Bob, Fred and Mark will eat in total 3 + 3 + 3 = <<3+3+3=9>>9 pieces.
-Total slices of pizza eaten will be 3 + 4 + 2 + 9 = <<3+4+2+9=18>>18 pieces.
-Total pizza slices remaining will be 28 pieces - 18 = <<28-18=10>>10 slices left.
-#### 10
-Question: A food truck only sells grilled cheeses.  They source their bread for $3.00 a loaf and each loaf makes 10 sandwiches.  They spend $30.00 on different cheeses and condiments per 10 sandwiches.  If they sell 10 sandwiches for $7.00 each, what is their net profit?","Answer: The cost of bread per sandwich is $3.00 / 10 = $0.30.
-The cost of cheese and condiments per sandwich is $30.00 / 10 = $3.00.
-So the total cost per sandwich is $0.30 + $3.00 = $3.30.
-They sell 10 sandwiches for $7.00 each, so they make a total of $7.00 x 10 = $70.00 in revenue.
-Their total cost for the 10 sandwiches is $3.30 x 10 = $33.00.
-Therefore, their net profit is $70.00 - $33.00 = $37.00.
-#### $37.00","They spend $3.00 on bread and $30.00 on cheese and condiments for a total of 3+30 = $<<3+30=33.00>>33.00
-They sell 10 sandwiches at $7.00 apiece for a total of 10*7 = $<<10*7=70.00>>70.00
-They made $70.00 and spent $33.00 for a net profit of 70-33 = $<<70-33=37.00>>37.00 per 10 sandwiches
-#### 37"
-Math,1b,"Question: Will's mom gave him $74 to go shopping. He bought a sweater for $9, a T-shirt for $11 and a pair of shoes for $30. He then returned his shoes for a 90% refund.  How much money does Will have left?
-Answer: Will paid $30 for his shoes but then returned them and got 90% of the money back, so he lost 10% of the money, which means 10/100 * $30 = $<<10/100*30=3>>3 is gone.
-Will spent $9 + $11 + $3 = $<<9+11+3=23>>23.
-Will started with $74 - $23 that he spent = $<<74-23=51>>51 remaining.
-#### 51
-Question: A country used to have a tax rate of 20%.  They raised it to 30%.  In that same time frame, John went from making 1,000,000 a year to 1,500,000 a year.  How much more does he pay in taxes now compared to then?
-Answer: At 20% he paid .2*1000000=$<<.2*1000000=200000>>200,000
-Now he pays 1500000*.3=$<<1500000*.3=450000>>450,000
-So he pays an extra 450000-200000=$<<450000-200000=250000>>250000
-#### 250000
-Question: A food truck only sells grilled cheeses.  They source their bread for $3.00 a loaf and each loaf makes 10 sandwiches.  They spend $30.00 on different cheeses and condiments per 10 sandwiches.  If they sell 10 sandwiches for $7.00 each, what is their net profit?","Answer: The cost per sandwich for bread is $3.00/10 = $0.30.
-The total cost per sandwich is $0.30 (bread) + $30.00 (cheese and condiments) = $30.30.
-The revenue from selling 10 sandwiches is $7.00/sandwich * 10 sandwiches = $70.00.
-The total cost for making 10 sandwiches is $30.30/sandwich * 10 sandwiches = $30.30.
-Therefore, the net profit is $70.00 - $30.30 = $39.70.
-#### $39.70.","They spend $3.00 on bread and $30.00 on cheese and condiments for a total of 3+30 = $<<3+30=33.00>>33.00
-They sell 10 sandwiches at $7.00 apiece for a total of 10*7 = $<<10*7=70.00>>70.00
-They made $70.00 and spent $33.00 for a net profit of 70-33 = $<<70-33=37.00>>37.00 per 10 sandwiches
-#### 37"
-Math,2,"Question: Matt buys a massager.  At the lowest setting, it vibrates at 1600 vibrations per second.  At the highest setting, it vibrates 60% faster.  Matt uses it for 5 minutes at the highest setting.  How many vibrations does he experience?
-Answer: At the highest setting, it vibrates 1600*.6=<<1600*.6=960>>960 vibrations per second faster than the lowest setting
-So it vibrates at 1600+960=<<1600+960=2560>>2560 vibrations per second
-Matt uses it for 5 minutes so that is 5*60=<<5*60=300>>300 seconds
-That means he experienced 2560*300=<<2560*300=768000>>768,000 vibrations
-#### 768000
-Question: A small pizza can gives 4 slices, and a large pizza gives 8 slices.  George purchased 3 small and 2 large pizzas.  George would like to eat 3 pieces.  His friend Bob would like to eat one more piece than George.  Susie will eat half as many as Bob.  Bill, Fred and Mark would each like 3 pieces.  How many slices of pizza will be left over?
-Answer: George has 3 small pizzas * 4 slices = <<3*4=12>>12 pieces.
-George also has 2 large pizzas * 8 slices = <<2*8=16>>16 slices.
-Total, George has 12 + 16 slices = <<12+16=28>>28 slices of pizza.
-Bob will eat 3 slices + 1 = <<3+1=4>>4 slices.
-Susie will eat 1/2 * 4 slices = <<1/2*4=2>>2 slices.
-Bob, Fred and Mark will eat in total 3 + 3 + 3 = <<3+3+3=9>>9 pieces.
-Total slices of pizza eaten will be 3 + 4 + 2 + 9 = <<3+4+2+9=18>>18 pieces.
-Total pizza slices remaining will be 28 pieces - 18 = <<28-18=10>>10 slices left.
-#### 10
-Question: Will's mom gave him $74 to go shopping. He bought a sweater for $9, a T-shirt for $11 and a pair of shoes for $30. He then returned his shoes for a 90% refund.  How much money does Will have left?
-Answer: Will paid $30 for his shoes but then returned them and got 90% of the money back, so he lost 10% of the money, which means 10/100 * $30 = $<<10/100*30=3>>3 is gone.
-Will spent $9 + $11 + $3 = $<<9+11+3=23>>23.
-Will started with $74 - $23 that he spent = $<<74-23=51>>51 remaining.
-#### 51
-Question: A country used to have a tax rate of 20%.  They raised it to 30%.  In that same time frame, John went from making 1,000,000 a year to 1,500,000 a year.  How much more does he pay in taxes now compared to then?
-Answer: At 20% he paid .2*1000000=$<<.2*1000000=200000>>200,000
-Now he pays 1500000*.3=$<<1500000*.3=450000>>450,000
-So he pays an extra 450000-200000=$<<450000-200000=250000>>250000
-#### 250000
-Question: A food truck only sells grilled cheeses.  They source their bread for $3.00 a loaf and each loaf makes 10 sandwiches.  They spend $30.00 on different cheeses and condiments per 10 sandwiches.  If they sell 10 sandwiches for $7.00 each, what is their net profit?","Answer: Each sandwich costs $3.00 / 10 = $0.30 for the bread.
-Each sandwich costs $30.00 / 10 = $3.00 for cheese and condiments.
-Total cost per sandwich is $0.30 + $3.00 = $3.30.
-They sell 10 sandwiches for $7.00 each, so they make a total of 10 * $7.00 = $70.00.
-Their total cost for 10 sandwiches is 10 * $3.30 = $33.00.
-Their net profit is $70.00 - $33.00 = $37.00.
-#### 37.00","They spend $3.00 on bread and $30.00 on cheese and condiments for a total of 3+30 = $<<3+30=33.00>>33.00
-They sell 10 sandwiches at $7.00 apiece for a total of 10*7 = $<<10*7=70.00>>70.00
-They made $70.00 and spent $33.00 for a net profit of 70-33 = $<<70-33=37.00>>37.00 per 10 sandwiches
-#### 37"
-Math,3a,"Question: Matt buys a massager.  At the lowest setting, it vibrates at 1600 vibrations per second.  At the highest setting, it vibrates 60% faster.  Matt uses it for 5 minutes at the highest setting.  How many vibrations does he experience?
-Answer: At the highest setting, it vibrates 1600*.6=<<1600*.6=960>>960 vibrations per second faster than the lowest setting
-So it vibrates at 1600+960=<<1600+960=2560>>2560 vibrations per second
-Matt uses it for 5 minutes so that is 5*60=<<5*60=300>>300 seconds
-That means he experienced 2560*300=<<2560*300=768000>>768,000 vibrations
-#### 768000
-Question: A small pizza can gives 4 slices, and a large pizza gives 8 slices.  George purchased 3 small and 2 large pizzas.  George would like to eat 3 pieces.  His friend Bob would like to eat one more piece than George.  Susie will eat half as many as Bob.  Bill, Fred and Mark would each like 3 pieces.  How many slices of pizza will be left over?
-Answer: George has 3 small pizzas * 4 slices = <<3*4=12>>12 pieces.
-George also has 2 large pizzas * 8 slices = <<2*8=16>>16 slices.
-Total, George has 12 + 16 slices = <<12+16=28>>28 slices of pizza.
-Bob will eat 3 slices + 1 = <<3+1=4>>4 slices.
-Susie will eat 1/2 * 4 slices = <<1/2*4=2>>2 slices.
-Bob, Fred and Mark will eat in total 3 + 3 + 3 = <<3+3+3=9>>9 pieces.
-Total slices of pizza eaten will be 3 + 4 + 2 + 9 = <<3+4+2+9=18>>18 pieces.
-Total pizza slices remaining will be 28 pieces - 18 = <<28-18=10>>10 slices left.
-#### 10
-Question: Matt buys a massager.  At the lowest setting, it vibrates at 1600 vibrations per second.  At the highest setting, it vibrates 60% faster.  Matt uses it for 5 minutes at the highest setting.  How many vibrations does he experience?
-Answer: At the highest setting, it vibrates 1600*.6=<<1600*.6=960>>960 vibrations per second faster than the lowest setting
-So it vibrates at 1600+960=<<1600+960=2560>>2560 vibrations per second
-Matt uses it for 5 minutes so that is 5*60=<<5*60=300>>300 seconds
-That means he experienced 2560*300=<<2560*300=768000>>768,000 vibrations
-#### 768000
-Question: A small pizza can gives 4 slices, and a large pizza gives 8 slices.  George purchased 3 small and 2 large pizzas.  George would like to eat 3 pieces.  His friend Bob would like to eat one more piece than George.  Susie will eat half as many as Bob.  Bill, Fred and Mark would each like 3 pieces.  How many slices of pizza will be left over?
-Answer: George has 3 small pizzas * 4 slices = <<3*4=12>>12 pieces.
-George also has 2 large pizzas * 8 slices = <<2*8=16>>16 slices.
-Total, George has 12 + 16 slices = <<12+16=28>>28 slices of pizza.
-Bob will eat 3 slices + 1 = <<3+1=4>>4 slices.
-Susie will eat 1/2 * 4 slices = <<1/2*4=2>>2 slices.
-Bob, Fred and Mark will eat in total 3 + 3 + 3 = <<3+3+3=9>>9 pieces.
-Total slices of pizza eaten will be 3 + 4 + 2 + 9 = <<3+4+2+9=18>>18 pieces.
-Total pizza slices remaining will be 28 pieces - 18 = <<28-18=10>>10 slices left.
-#### 10
-Question: A food truck only sells grilled cheeses.  They source their bread for $3.00 a loaf and each loaf makes 10 sandwiches.  They spend $30.00 on different cheeses and condiments per 10 sandwiches.  If they sell 10 sandwiches for $7.00 each, what is their net profit?","To make 10 sandwiches, the food truck needs 1 loaf of bread which costs $3.00.
-They spend $30.00 on cheeses and condiments for 10 sandwiches.
-So, the total cost of making 10 sandwiches is $3.00 + $30.00 = $33.00.
-If they sell 10 sandwiches for $7.00 each, they make a total revenue of 10 * $7.00 = $70.00.
-Their net profit is revenue - cost, so $70.00 - $33.00 = $37.00.
-Therefore, the food truck's net profit is $37.00.","They spend $3.00 on bread and $30.00 on cheese and condiments for a total of 3+30 = $<<3+30=33.00>>33.00
-They sell 10 sandwiches at $7.00 apiece for a total of 10*7 = $<<10*7=70.00>>70.00
-They made $70.00 and spent $33.00 for a net profit of 70-33 = $<<70-33=37.00>>37.00 per 10 sandwiches
-#### 37"
-Math,3b,"Question: Will's mom gave him $74 to go shopping. He bought a sweater for $9, a T-shirt for $11 and a pair of shoes for $30. He then returned his shoes for a 90% refund.  How much money does Will have left?
-Answer: Will paid $30 for his shoes but then returned them and got 90% of the money back, so he lost 10% of the money, which means 10/100 * $30 = $<<10/100*30=3>>3 is gone.
-Will spent $9 + $11 + $3 = $<<9+11+3=23>>23.
-Will started with $74 - $23 that he spent = $<<74-23=51>>51 remaining.
-#### 51
-Question: A country used to have a tax rate of 20%.  They raised it to 30%.  In that same time frame, John went from making 1,000,000 a year to 1,500,000 a year.  How much more does he pay in taxes now compared to then?
-Answer: At 20% he paid .2*1000000=$<<.2*1000000=200000>>200,000
-Now he pays 1500000*.3=$<<1500000*.3=450000>>450,000
-So he pays an extra 450000-200000=$<<450000-200000=250000>>250000
-#### 250000
-Question: Will's mom gave him $74 to go shopping. He bought a sweater for $9, a T-shirt for $11 and a pair of shoes for $30. He then returned his shoes for a 90% refund.  How much money does Will have left?
-Answer: Will paid $30 for his shoes but then returned them and got 90% of the money back, so he lost 10% of the money, which means 10/100 * $30 = $<<10/100*30=3>>3 is gone.
-Will spent $9 + $11 + $3 = $<<9+11+3=23>>23.
-Will started with $74 - $23 that he spent = $<<74-23=51>>51 remaining.
-#### 51
-Question: A country used to have a tax rate of 20%.  They raised it to 30%.  In that same time frame, John went from making 1,000,000 a year to 1,500,000 a year.  How much more does he pay in taxes now compared to then?
-Answer: At 20% he paid .2*1000000=$<<.2*1000000=200000>>200,000
-Now he pays 1500000*.3=$<<1500000*.3=450000>>450,000
-So he pays an extra 450000-200000=$<<450000-200000=250000>>250000
-#### 250000
-Question: A food truck only sells grilled cheeses.  They source their bread for $3.00 a loaf and each loaf makes 10 sandwiches.  They spend $30.00 on different cheeses and condiments per 10 sandwiches.  If they sell 10 sandwiches for $7.00 each, what is their net profit?","Answer: The cost of bread per sandwich is $3.00 / 10 = $0.30.
-The total cost of ingredients per sandwich is $0.30 (bread) + $3.00 (cheese and condiments) = $3.30.
-The total cost of ingredients for 10 sandwiches is $3.30 * 10 = $33.00.
-The revenue from selling 10 sandwiches is $7.00 * 10 = $70.00.
-Therefore, the net profit is $70.00 (revenue) - $33.00 (cost) = $37.00.
-So, the net profit is $37.00.","They spend $3.00 on bread and $30.00 on cheese and condiments for a total of 3+30 = $<<3+30=33.00>>33.00
-They sell 10 sandwiches at $7.00 apiece for a total of 10*7 = $<<10*7=70.00>>70.00
-They made $70.00 and spent $33.00 for a net profit of 70-33 = $<<70-33=37.00>>37.00 per 10 sandwiches
-#### 37"
-CSQA,0,"Question: The drug kingpin told his man to run errands, this was code to go to all the dealers to do what they had?
-A: park
-B: make time for
-C: receive instructions
-D: take money
-E: leave work",D: take money,D
-CSQA,1a,"Question: John is walking an aisle full of children's clothes and ahead of him he sees televisions.  What sort of store is he probably shopping at?
-A: drugstore
-B: garage
-C: church
-D: department store
-E: grocery store
+Therefore, all of the schools have sent a total of 32 people to the tournament.","Each school has sent 1 girls’ basketball team + 1 boys’ basketball team = <<1+1=2>>2 teams.
+So each school has sent 2 teams * 5 players per team = <<2*5=10>>10 players.
+They have also each sent 2 teams * 1 coach per team = <<2*1=2>>2 coaches.
+In total, each school has sent 10 players + 2 coaches = <<10+2=12>>12 people.
+Therefore, the schools have sent a total of 12 people per school * 4 schools = <<12*4=48>>48 people.
+#### 48"
+Math,1a,"Question: Kim is an office manager. Every morning she spends 5 minutes making coffee, 2 minutes per employee getting a status update, and 3 minutes per employee updating payroll records. If there are 9 employees in the office, how long does Kim's morning routine take?
+Answer: First find how many minutes Kim spends on each employee: 2 minutes/employee + 3 minutes/employee = <<2+3=5>>5 minutes/employee
+Then multiply that time by the number of employees to find the total time spent on status and payroll updates: 5 minutes/employee * 9 employees = <<5*9=45>>45 minutes
+Finally, add that time to the time spent making coffee to find the total time: 45 minutes + 5 minutes = <<45+5=50>>50 minutes
+#### 50
+Question: 14 less than two times the number of koi fish in the pond is 64. How many koi fish will you find in the pond?
+Answer: Let k be the number of koi fish in the pond
+14-2*k=64
+2*k=64+14=78
+2k=78
+k=78/2=<<78/2=39>>39
+#### 39
+Question: There are four schools competing at a basketball tournament. Each school has sent a girls’ basketball team and a boys’ basketball team and each team has 5 players each. Each school has also sent a coach for each team. In total, how many people have all of the schools sent?","Answer: Each school sends 2 teams with 5 players each, so each school sends 2*5 = 10 players.
+With 4 schools competing, the total number of players from all schools is 4*10 = 40 players.
+Additionally, each school sends a coach for each team, so each school sends 2 coaches.
+Therefore, all of the schools together sent 4*2 = 8 coaches.
+Combining both players and coaches, all of the schools have sent 40 players + 8 coaches = 48 people in total.","Each school has sent 1 girls’ basketball team + 1 boys’ basketball team = <<1+1=2>>2 teams.
+So each school has sent 2 teams * 5 players per team = <<2*5=10>>10 players.
+They have also each sent 2 teams * 1 coach per team = <<2*1=2>>2 coaches.
+In total, each school has sent 10 players + 2 coaches = <<10+2=12>>12 people.
+Therefore, the schools have sent a total of 12 people per school * 4 schools = <<12*4=48>>48 people.
+#### 48"
+Math,1b,"Question: Mary and her two friends came up with the idea of collecting marbles each day for their play on weekends. From Monday to Friday, Mary collected twice as many red marbles as Jenny and half the number of blue marbles collected by Anie, who collected 20 more red marbles than Mary and twice the number of blue marbles Jenny collected. If Jenny collected 30 red marbles and 25 blue marbles, what's the total number of blue marbles collected by the friends together?
+Answer: If Mary collected twice the number of red marbles collected by Jenny, she got 2*30 = <<2*30=60>>60 red marbles.
+Anie collected 20 more red marbles than Mary, which is 60+20 = 80 red marbles.
+The total number of red marbles is 60+80+30 = <<60+80+30=170>>170 red marbles.
+If Anie collected twice the number of blue marbles collected by Jenny, then she got 2*25 = <<2*25=50>>50 blue marbles.
+Mary collected half the number of blue marbles collected by Anie, thus 1/2*50 = 25 marbles
+The total number of blue marbles collected is 50+25+25 = <<50+25+25=100>>100 blue marbles
+#### 100
+Question: Dexter went to the mall and saw that Apple products are on sale. He wants to buy an iPhone 12 with a 15% discount and an iWatch with a 10% discount. The price tag shows that an iPhone 12 costs $800 while an iWatch costs $300. Upon check out, he will receive a further 2% cashback discount. How much would the items cost in total after the discount and cashback?
+Answer: The discount for an iPhone 12 is $800 x 15/100 = $<<800*15/100=120>>120.
+So, the iPhone will now cost $800 - $120 = $<<800-120=680>>680.
+The discount for an iWatch is $300 x 10/100 = $<<300*10/100=30>>30.
+So, the iWatch will now cost $300 - $30 = $<<300-30=270>>270.
+The total cost of the iPhone and iWatch is $680 + $270 = $<<680+270=950>>950.
+The cashback will be $950 x 2/100 = $<<950*2/100=19>>19.
+Thus, Dexter will only pay $950 - $19 = $<<950-19=931>>931.
+#### 931
+Question: There are four schools competing at a basketball tournament. Each school has sent a girls’ basketball team and a boys’ basketball team and each team has 5 players each. Each school has also sent a coach for each team. In total, how many people have all of the schools sent?","Answer: Each school has sent 2 teams (girls' and boys' teams) with 5 players each, so that's a total of 2 x 5 = 10 players per school.
+Since there are 4 schools competing, the total number of players sent by all schools is 10 x 4 = 40 players.
+Each school also sent a coach for each team, so that's 2 coaches per school.
+Since there are 4 schools, the total number of coaches sent by all schools is 2 x 4 = 8 coaches.
+Therefore, in total, all of the schools have sent 40 players + 8 coaches = 48 people.","Each school has sent 1 girls’ basketball team + 1 boys’ basketball team = <<1+1=2>>2 teams.
+So each school has sent 2 teams * 5 players per team = <<2*5=10>>10 players.
+They have also each sent 2 teams * 1 coach per team = <<2*1=2>>2 coaches.
+In total, each school has sent 10 players + 2 coaches = <<10+2=12>>12 people.
+Therefore, the schools have sent a total of 12 people per school * 4 schools = <<12*4=48>>48 people.
+#### 48"
+Math,2,"Question: Kim is an office manager. Every morning she spends 5 minutes making coffee, 2 minutes per employee getting a status update, and 3 minutes per employee updating payroll records. If there are 9 employees in the office, how long does Kim's morning routine take?
+Answer: First find how many minutes Kim spends on each employee: 2 minutes/employee + 3 minutes/employee = <<2+3=5>>5 minutes/employee
+Then multiply that time by the number of employees to find the total time spent on status and payroll updates: 5 minutes/employee * 9 employees = <<5*9=45>>45 minutes
+Finally, add that time to the time spent making coffee to find the total time: 45 minutes + 5 minutes = <<45+5=50>>50 minutes
+#### 50
+Question: 14 less than two times the number of koi fish in the pond is 64. How many koi fish will you find in the pond?
+Answer: Let k be the number of koi fish in the pond
+14-2*k=64
+2*k=64+14=78
+2k=78
+k=78/2=<<78/2=39>>39
+#### 39
+Question: Mary and her two friends came up with the idea of collecting marbles each day for their play on weekends. From Monday to Friday, Mary collected twice as many red marbles as Jenny and half the number of blue marbles collected by Anie, who collected 20 more red marbles than Mary and twice the number of blue marbles Jenny collected. If Jenny collected 30 red marbles and 25 blue marbles, what's the total number of blue marbles collected by the friends together?
+Answer: If Mary collected twice the number of red marbles collected by Jenny, she got 2*30 = <<2*30=60>>60 red marbles.
+Anie collected 20 more red marbles than Mary, which is 60+20 = 80 red marbles.
+The total number of red marbles is 60+80+30 = <<60+80+30=170>>170 red marbles.
+If Anie collected twice the number of blue marbles collected by Jenny, then she got 2*25 = <<2*25=50>>50 blue marbles.
+Mary collected half the number of blue marbles collected by Anie, thus 1/2*50 = 25 marbles
+The total number of blue marbles collected is 50+25+25 = <<50+25+25=100>>100 blue marbles
+#### 100
+Question: Dexter went to the mall and saw that Apple products are on sale. He wants to buy an iPhone 12 with a 15% discount and an iWatch with a 10% discount. The price tag shows that an iPhone 12 costs $800 while an iWatch costs $300. Upon check out, he will receive a further 2% cashback discount. How much would the items cost in total after the discount and cashback?
+Answer: The discount for an iPhone 12 is $800 x 15/100 = $<<800*15/100=120>>120.
+So, the iPhone will now cost $800 - $120 = $<<800-120=680>>680.
+The discount for an iWatch is $300 x 10/100 = $<<300*10/100=30>>30.
+So, the iWatch will now cost $300 - $30 = $<<300-30=270>>270.
+The total cost of the iPhone and iWatch is $680 + $270 = $<<680+270=950>>950.
+The cashback will be $950 x 2/100 = $<<950*2/100=19>>19.
+Thus, Dexter will only pay $950 - $19 = $<<950-19=931>>931.
+#### 931
+Question: There are four schools competing at a basketball tournament. Each school has sent a girls’ basketball team and a boys’ basketball team and each team has 5 players each. Each school has also sent a coach for each team. In total, how many people have all of the schools sent?","Answer: Each school has sent a total of 2 (girls' and boys' team) + 1 (coach for girls' team) + 1 (coach for boys' team) = 4 people per school.
+Since there are 4 schools, the total number of people sent is 4 schools * 4 people per school = <<4*4=16>>16 people.","Each school has sent 1 girls’ basketball team + 1 boys’ basketball team = <<1+1=2>>2 teams.
+So each school has sent 2 teams * 5 players per team = <<2*5=10>>10 players.
+They have also each sent 2 teams * 1 coach per team = <<2*1=2>>2 coaches.
+In total, each school has sent 10 players + 2 coaches = <<10+2=12>>12 people.
+Therefore, the schools have sent a total of 12 people per school * 4 schools = <<12*4=48>>48 people.
+#### 48"
+Math,3a,"Question: Kim is an office manager. Every morning she spends 5 minutes making coffee, 2 minutes per employee getting a status update, and 3 minutes per employee updating payroll records. If there are 9 employees in the office, how long does Kim's morning routine take?
+Answer: First find how many minutes Kim spends on each employee: 2 minutes/employee + 3 minutes/employee = <<2+3=5>>5 minutes/employee
+Then multiply that time by the number of employees to find the total time spent on status and payroll updates: 5 minutes/employee * 9 employees = <<5*9=45>>45 minutes
+Finally, add that time to the time spent making coffee to find the total time: 45 minutes + 5 minutes = <<45+5=50>>50 minutes
+#### 50
+Question: 14 less than two times the number of koi fish in the pond is 64. How many koi fish will you find in the pond?
+Answer: Let k be the number of koi fish in the pond
+14-2*k=64
+2*k=64+14=78
+2k=78
+k=78/2=<<78/2=39>>39
+#### 39
+Question: Kim is an office manager. Every morning she spends 5 minutes making coffee, 2 minutes per employee getting a status update, and 3 minutes per employee updating payroll records. If there are 9 employees in the office, how long does Kim's morning routine take?
+Answer: First find how many minutes Kim spends on each employee: 2 minutes/employee + 3 minutes/employee = <<2+3=5>>5 minutes/employee
+Then multiply that time by the number of employees to find the total time spent on status and payroll updates: 5 minutes/employee * 9 employees = <<5*9=45>>45 minutes
+Finally, add that time to the time spent making coffee to find the total time: 45 minutes + 5 minutes = <<45+5=50>>50 minutes
+#### 50
+Question: 14 less than two times the number of koi fish in the pond is 64. How many koi fish will you find in the pond?
+Answer: Let k be the number of koi fish in the pond
+14-2*k=64
+2*k=64+14=78
+2k=78
+k=78/2=<<78/2=39>>39
+#### 39
+Question: There are four schools competing at a basketball tournament. Each school has sent a girls’ basketball team and a boys’ basketball team and each team has 5 players each. Each school has also sent a coach for each team. In total, how many people have all of the schools sent?","Answer: Each school has sent 10 players and 2 coaches (5 girls basketball players, 5 boys basketball players, 1 girls basketball coach, and 1 boys basketball coach). So for 4 schools, they have sent 4 * (10 players + 2 coaches) = 4 * 12 = <<4*12=48>>48 people in total.","Each school has sent 1 girls’ basketball team + 1 boys’ basketball team = <<1+1=2>>2 teams.
+So each school has sent 2 teams * 5 players per team = <<2*5=10>>10 players.
+They have also each sent 2 teams * 1 coach per team = <<2*1=2>>2 coaches.
+In total, each school has sent 10 players + 2 coaches = <<10+2=12>>12 people.
+Therefore, the schools have sent a total of 12 people per school * 4 schools = <<12*4=48>>48 people.
+#### 48"
+Math,3b,"Question: Mary and her two friends came up with the idea of collecting marbles each day for their play on weekends. From Monday to Friday, Mary collected twice as many red marbles as Jenny and half the number of blue marbles collected by Anie, who collected 20 more red marbles than Mary and twice the number of blue marbles Jenny collected. If Jenny collected 30 red marbles and 25 blue marbles, what's the total number of blue marbles collected by the friends together?
+Answer: If Mary collected twice the number of red marbles collected by Jenny, she got 2*30 = <<2*30=60>>60 red marbles.
+Anie collected 20 more red marbles than Mary, which is 60+20 = 80 red marbles.
+The total number of red marbles is 60+80+30 = <<60+80+30=170>>170 red marbles.
+If Anie collected twice the number of blue marbles collected by Jenny, then she got 2*25 = <<2*25=50>>50 blue marbles.
+Mary collected half the number of blue marbles collected by Anie, thus 1/2*50 = 25 marbles
+The total number of blue marbles collected is 50+25+25 = <<50+25+25=100>>100 blue marbles
+#### 100
+Question: Dexter went to the mall and saw that Apple products are on sale. He wants to buy an iPhone 12 with a 15% discount and an iWatch with a 10% discount. The price tag shows that an iPhone 12 costs $800 while an iWatch costs $300. Upon check out, he will receive a further 2% cashback discount. How much would the items cost in total after the discount and cashback?
+Answer: The discount for an iPhone 12 is $800 x 15/100 = $<<800*15/100=120>>120.
+So, the iPhone will now cost $800 - $120 = $<<800-120=680>>680.
+The discount for an iWatch is $300 x 10/100 = $<<300*10/100=30>>30.
+So, the iWatch will now cost $300 - $30 = $<<300-30=270>>270.
+The total cost of the iPhone and iWatch is $680 + $270 = $<<680+270=950>>950.
+The cashback will be $950 x 2/100 = $<<950*2/100=19>>19.
+Thus, Dexter will only pay $950 - $19 = $<<950-19=931>>931.
+#### 931
+Question: Mary and her two friends came up with the idea of collecting marbles each day for their play on weekends. From Monday to Friday, Mary collected twice as many red marbles as Jenny and half the number of blue marbles collected by Anie, who collected 20 more red marbles than Mary and twice the number of blue marbles Jenny collected. If Jenny collected 30 red marbles and 25 blue marbles, what's the total number of blue marbles collected by the friends together?
+Answer: If Mary collected twice the number of red marbles collected by Jenny, she got 2*30 = <<2*30=60>>60 red marbles.
+Anie collected 20 more red marbles than Mary, which is 60+20 = 80 red marbles.
+The total number of red marbles is 60+80+30 = <<60+80+30=170>>170 red marbles.
+If Anie collected twice the number of blue marbles collected by Jenny, then she got 2*25 = <<2*25=50>>50 blue marbles.
+Mary collected half the number of blue marbles collected by Anie, thus 1/2*50 = 25 marbles
+The total number of blue marbles collected is 50+25+25 = <<50+25+25=100>>100 blue marbles
+#### 100
+Question: Dexter went to the mall and saw that Apple products are on sale. He wants to buy an iPhone 12 with a 15% discount and an iWatch with a 10% discount. The price tag shows that an iPhone 12 costs $800 while an iWatch costs $300. Upon check out, he will receive a further 2% cashback discount. How much would the items cost in total after the discount and cashback?
+Answer: The discount for an iPhone 12 is $800 x 15/100 = $<<800*15/100=120>>120.
+So, the iPhone will now cost $800 - $120 = $<<800-120=680>>680.
+The discount for an iWatch is $300 x 10/100 = $<<300*10/100=30>>30.
+So, the iWatch will now cost $300 - $30 = $<<300-30=270>>270.
+The total cost of the iPhone and iWatch is $680 + $270 = $<<680+270=950>>950.
+The cashback will be $950 x 2/100 = $<<950*2/100=19>>19.
+Thus, Dexter will only pay $950 - $19 = $<<950-19=931>>931.
+#### 931
+Question: There are four schools competing at a basketball tournament. Each school has sent a girls’ basketball team and a boys’ basketball team and each team has 5 players each. Each school has also sent a coach for each team. In total, how many people have all of the schools sent?","Answer: Each school has sent 2 teams (girls' and boys' basketball) with 5 players each, so that's 2 * 5 = 10 players per school.
+In total, the 4 schools have sent 4 * 10 = 40 players.
+Each school has also sent a coach for each team, so that's an additional 4 * 2 = 8 coaches.
+Therefore, in total, all of the schools have sent 40 players + 8 coaches = 48 people.","Each school has sent 1 girls’ basketball team + 1 boys’ basketball team = <<1+1=2>>2 teams.
+So each school has sent 2 teams * 5 players per team = <<2*5=10>>10 players.
+They have also each sent 2 teams * 1 coach per team = <<2*1=2>>2 coaches.
+In total, each school has sent 10 players + 2 coaches = <<10+2=12>>12 people.
+Therefore, the schools have sent a total of 12 people per school * 4 schools = <<12*4=48>>48 people.
+#### 48"
+CSQA,0,"Question: Mark's semen was very thick, but after his vasectomy it was also what?
+A: blank
+B: sparse
+C: thin
+D: clear
+E: free flowing",C: thin,D
+CSQA,1a,"Question: Where do you keep a chess board?
+A: house
+B: basement
+C: toy store
+D: cabinet
+E: retirement community
 Answer: D
-Question: They were under several feet of dirt.  James always found it claustrophobic.  He hated using it.  What did he hate using?
-A: race track
-B: street
-C: bed
-D: subway
-E: fishing pole
+Question: He was climbing higher and higher, what was he scared of as he got higher?
+A: exhaustion
+B: accomplishment
+C: eagles
+D: exhilaration
+E: falling down
+Answer: E
+Question: Mark's semen was very thick, but after his vasectomy it was also what?
+A: blank
+B: sparse
+C: thin
+D: clear
+E: free flowing",Answer: C,D
+CSQA,1b,"Question: The man tried to run, but he could not. He could that he could only move by doing what?
+A: stand
+B: go quickly
+C: walking
+D: stand still
+E: walk slowly
+Answer: C
+Question: When you haven't seen someone since they were young and years have passed what has happened to them?
+A: senior
+B: grow
+C: mature
+D: old
+E: aged
+Answer: E
+Question: Mark's semen was very thick, but after his vasectomy it was also what?
+A: blank
+B: sparse
+C: thin
+D: clear
+E: free flowing",Answer: C,D
+CSQA,2,"Question: Where do you keep a chess board?
+A: house
+B: basement
+C: toy store
+D: cabinet
+E: retirement community
 Answer: D
-Question: The drug kingpin told his man to run errands, this was code to go to all the dealers to do what they had?
-A: park
-B: make time for
-C: receive instructions
-D: take money
-E: leave work",Answer: D,D
-CSQA,1b,"Question: What area would you find a large number of wheat fields?
-A: countryside
-B: mill
-C: bread
-D: eat cake
-E: farmer's field
-Answer: A
-Question: Fresh baked cookies are delicious, it is why they loved to go to Grandma's what?
-A: fridge
-B: jar
-C: plate
-D: house
-E: pantry
+Question: He was climbing higher and higher, what was he scared of as he got higher?
+A: exhaustion
+B: accomplishment
+C: eagles
+D: exhilaration
+E: falling down
+Answer: E
+Question: The man tried to run, but he could not. He could that he could only move by doing what?
+A: stand
+B: go quickly
+C: walking
+D: stand still
+E: walk slowly
+Answer: C
+Question: When you haven't seen someone since they were young and years have passed what has happened to them?
+A: senior
+B: grow
+C: mature
+D: old
+E: aged
+Answer: E
+Question: Mark's semen was very thick, but after his vasectomy it was also what?
+A: blank
+B: sparse
+C: thin
+D: clear
+E: free flowing",Answer: C,D
+CSQA,3a,"Question: Where do you keep a chess board?
+A: house
+B: basement
+C: toy store
+D: cabinet
+E: retirement community
 Answer: D
-Question: The drug kingpin told his man to run errands, this was code to go to all the dealers to do what they had?
-A: park
-B: make time for
-C: receive instructions
-D: take money
-E: leave work",Answer: C,D
-CSQA,2,"Question: John is walking an aisle full of children's clothes and ahead of him he sees televisions.  What sort of store is he probably shopping at?
-A: drugstore
-B: garage
-C: church
-D: department store
-E: grocery store
+Question: He was climbing higher and higher, what was he scared of as he got higher?
+A: exhaustion
+B: accomplishment
+C: eagles
+D: exhilaration
+E: falling down
+Answer: E
+Question: Where do you keep a chess board?
+A: house
+B: basement
+C: toy store
+D: cabinet
+E: retirement community
 Answer: D
-Question: They were under several feet of dirt.  James always found it claustrophobic.  He hated using it.  What did he hate using?
-A: race track
-B: street
-C: bed
-D: subway
-E: fishing pole
-Answer: D
-Question: What area would you find a large number of wheat fields?
-A: countryside
-B: mill
-C: bread
-D: eat cake
-E: farmer's field
-Answer: A
-Question: Fresh baked cookies are delicious, it is why they loved to go to Grandma's what?
-A: fridge
-B: jar
-C: plate
-D: house
-E: pantry
-Answer: D
-Question: The drug kingpin told his man to run errands, this was code to go to all the dealers to do what they had?
-A: park
-B: make time for
-C: receive instructions
-D: take money
-E: leave work",Answer: D,D
-CSQA,3a,"Question: John is walking an aisle full of children's clothes and ahead of him he sees televisions.  What sort of store is he probably shopping at?
-A: drugstore
-B: garage
-C: church
-D: department store
-E: grocery store
-Answer: D
-Question: They were under several feet of dirt.  James always found it claustrophobic.  He hated using it.  What did he hate using?
-A: race track
-B: street
-C: bed
-D: subway
-E: fishing pole
-Answer: D
-Question: John is walking an aisle full of children's clothes and ahead of him he sees televisions.  What sort of store is he probably shopping at?
-A: drugstore
-B: garage
-C: church
-D: department store
-E: grocery store
-Answer: D
-Question: They were under several feet of dirt.  James always found it claustrophobic.  He hated using it.  What did he hate using?
-A: race track
-B: street
-C: bed
-D: subway
-E: fishing pole
-Answer: D
-Question: The drug kingpin told his man to run errands, this was code to go to all the dealers to do what they had?
-A: park
-B: make time for
-C: receive instructions
-D: take money
-E: leave work",Answer: D,D
-CSQA,3b,"Question: What area would you find a large number of wheat fields?
-A: countryside
-B: mill
-C: bread
-D: eat cake
-E: farmer's field
-Answer: A
-Question: Fresh baked cookies are delicious, it is why they loved to go to Grandma's what?
-A: fridge
-B: jar
-C: plate
-D: house
-E: pantry
-Answer: D
-Question: What area would you find a large number of wheat fields?
-A: countryside
-B: mill
-C: bread
-D: eat cake
-E: farmer's field
-Answer: A
-Question: Fresh baked cookies are delicious, it is why they loved to go to Grandma's what?
-A: fridge
-B: jar
-C: plate
-D: house
-E: pantry
-Answer: D
-Question: The drug kingpin told his man to run errands, this was code to go to all the dealers to do what they had?
-A: park
-B: make time for
-C: receive instructions
-D: take money
-E: leave work",Answer: D,D
-StrategyQA,0,"Question: The winter solstice in the Northern Hemisphere happens in December. The winter solstice in the Southern Hemisphere happens in June.
-Is winter solstice in Northern Hemisphere closer to July than in Southern Hemisphere? ","No, the winter solstice in the Northern Hemisphere (December) is still closer to July than the winter solstice in the Southern Hemisphere (June). The winter solstice in the Northern Hemisphere is typically around December 21st, while the winter solstice in the Southern Hemisphere is typically around June 21st. This means that the Northern Hemisphere winter solstice is about 6 months away from July, while the Southern Hemisphere winter solstice is only about 5 months away from July.",False
-StrategyQA,1a,"Question: A false pope, or antipope, is someone that tries to claim they are the true pope but the church rejects them. Hippolytus (c. 170–235 AD) headed a schismatic group as a rival to the Bishop of Rome, thus becoming an antipope. Hippolytus (c. 170–235 AD) was named a saint in the Roman Catholic Church.
-Can a false pope become a saint?
-Answer: True
-Question: Hamas is a Sunni-Islam fundamentalist group that strictly prohibits the eating of a pig. Sunni Islam has a concept called the Law of Necessity. The Law of Necessity states that, ""That which is necessary makes the forbidden permissible.""
-Is starving Hamas agent eating pig bad?
+Question: He was climbing higher and higher, what was he scared of as he got higher?
+A: exhaustion
+B: accomplishment
+C: eagles
+D: exhilaration
+E: falling down
+Answer: E
+Question: Mark's semen was very thick, but after his vasectomy it was also what?
+A: blank
+B: sparse
+C: thin
+D: clear
+E: free flowing",Answer: C,D
+CSQA,3b,"Question: The man tried to run, but he could not. He could that he could only move by doing what?
+A: stand
+B: go quickly
+C: walking
+D: stand still
+E: walk slowly
+Answer: C
+Question: When you haven't seen someone since they were young and years have passed what has happened to them?
+A: senior
+B: grow
+C: mature
+D: old
+E: aged
+Answer: E
+Question: The man tried to run, but he could not. He could that he could only move by doing what?
+A: stand
+B: go quickly
+C: walking
+D: stand still
+E: walk slowly
+Answer: C
+Question: When you haven't seen someone since they were young and years have passed what has happened to them?
+A: senior
+B: grow
+C: mature
+D: old
+E: aged
+Answer: E
+Question: Mark's semen was very thick, but after his vasectomy it was also what?
+A: blank
+B: sparse
+C: thin
+D: clear
+E: free flowing",Answer: C,D
+StrategyQA,0,"Question: Abdulqawi Yusuf is the current president of the International Court of Justice The International Court of Justice is headquartered in The Hague
+Does Abdulqawi Yusuf go to the Hague on a typical work day?","Yes, as the president of the International Court of Justice, Abdulqawi Yusuf would typically go to The Hague on a typical work day as the court is headquartered there.",True
+StrategyQA,1a,"Question: Emma Roberts starred as Nancy Drew in the 2007 film titled Nancy Drew. A private investigator is hired by an individual to solve a crime. Nancy Drew from the 2007 film was described as an amateur sleuth. Nancy Drew in the 2007 film was interested in a case and decided to pursue it on her own, without being paid for it.
+Would Emma Roberts's Nancy Drew be considered a private investigator?
 Answer: False
-Question: The winter solstice in the Northern Hemisphere happens in December. The winter solstice in the Southern Hemisphere happens in June.
-Is winter solstice in Northern Hemisphere closer to July than in Southern Hemisphere? ",Answer: True,False
-StrategyQA,1b,"Question: Mosquitoes cannot survive in the climate of Antarctica. Zika virus is primarily spread through mosquito bites. 
-Do you need to worry about Zika virus in Antarctica? 
-Answer: False
-Question: A leap year has 366 total days. As of March 19th, 2018, every episode of the Young and the Restless would take 467 days and 2 hours to watch.
-Would a binge watch of entire Young and the Restless take longer than a leap year?
+Question: Solvent refers to the assets of a project being greater than the liabilities. The assets of a movie film are the box office receipts, and the liabilities is the budget. King Kong (2005) had box office receipts of 562 million. King Kong (2005) had a budget of 207 million.
+Was King Kong (2005 film) solvent?
 Answer: True
-Question: The winter solstice in the Northern Hemisphere happens in December. The winter solstice in the Southern Hemisphere happens in June.
-Is winter solstice in Northern Hemisphere closer to July than in Southern Hemisphere? ",Answer: True,False
-StrategyQA,2,"Question: A false pope, or antipope, is someone that tries to claim they are the true pope but the church rejects them. Hippolytus (c. 170–235 AD) headed a schismatic group as a rival to the Bishop of Rome, thus becoming an antipope. Hippolytus (c. 170–235 AD) was named a saint in the Roman Catholic Church.
-Can a false pope become a saint?
+Question: Abdulqawi Yusuf is the current president of the International Court of Justice The International Court of Justice is headquartered in The Hague
+Does Abdulqawi Yusuf go to the Hague on a typical work day?",Answer: True,True
+StrategyQA,1b,"Question: Steve Martin is allergic to shellfish. Shrimp are one of the many types of shellfish.
+Is Steve Martin someone who would refuse a dish of shrimp pasta?
 Answer: True
-Question: Hamas is a Sunni-Islam fundamentalist group that strictly prohibits the eating of a pig. Sunni Islam has a concept called the Law of Necessity. The Law of Necessity states that, ""That which is necessary makes the forbidden permissible.""
-Is starving Hamas agent eating pig bad?
-Answer: False
-Question: Mosquitoes cannot survive in the climate of Antarctica. Zika virus is primarily spread through mosquito bites. 
-Do you need to worry about Zika virus in Antarctica? 
-Answer: False
-Question: A leap year has 366 total days. As of March 19th, 2018, every episode of the Young and the Restless would take 467 days and 2 hours to watch.
-Would a binge watch of entire Young and the Restless take longer than a leap year?
+Question: Snowboarding involves descending a snow-covered slope while standing on a snowboard. Snow is formed by the freezing of water. Water has a freezing point of 32°F. Venus has a mean surface temperature of 737 K (464 °C; 867 °F).
+Would it be difficult to snowboard on Venus?
 Answer: True
-Question: The winter solstice in the Northern Hemisphere happens in December. The winter solstice in the Southern Hemisphere happens in June.
-Is winter solstice in Northern Hemisphere closer to July than in Southern Hemisphere? ",Answer: True,False
-StrategyQA,3a,"Question: A false pope, or antipope, is someone that tries to claim they are the true pope but the church rejects them. Hippolytus (c. 170–235 AD) headed a schismatic group as a rival to the Bishop of Rome, thus becoming an antipope. Hippolytus (c. 170–235 AD) was named a saint in the Roman Catholic Church.
-Can a false pope become a saint?
-Answer: True
-Question: Hamas is a Sunni-Islam fundamentalist group that strictly prohibits the eating of a pig. Sunni Islam has a concept called the Law of Necessity. The Law of Necessity states that, ""That which is necessary makes the forbidden permissible.""
-Is starving Hamas agent eating pig bad?
+Question: Abdulqawi Yusuf is the current president of the International Court of Justice The International Court of Justice is headquartered in The Hague
+Does Abdulqawi Yusuf go to the Hague on a typical work day?",Answer: True,True
+StrategyQA,2,"Question: Emma Roberts starred as Nancy Drew in the 2007 film titled Nancy Drew. A private investigator is hired by an individual to solve a crime. Nancy Drew from the 2007 film was described as an amateur sleuth. Nancy Drew in the 2007 film was interested in a case and decided to pursue it on her own, without being paid for it.
+Would Emma Roberts's Nancy Drew be considered a private investigator?
 Answer: False
-Question: A false pope, or antipope, is someone that tries to claim they are the true pope but the church rejects them. Hippolytus (c. 170–235 AD) headed a schismatic group as a rival to the Bishop of Rome, thus becoming an antipope. Hippolytus (c. 170–235 AD) was named a saint in the Roman Catholic Church.
-Can a false pope become a saint?
+Question: Solvent refers to the assets of a project being greater than the liabilities. The assets of a movie film are the box office receipts, and the liabilities is the budget. King Kong (2005) had box office receipts of 562 million. King Kong (2005) had a budget of 207 million.
+Was King Kong (2005 film) solvent?
 Answer: True
-Question: Hamas is a Sunni-Islam fundamentalist group that strictly prohibits the eating of a pig. Sunni Islam has a concept called the Law of Necessity. The Law of Necessity states that, ""That which is necessary makes the forbidden permissible.""
-Is starving Hamas agent eating pig bad?
-Answer: False
-Question: The winter solstice in the Northern Hemisphere happens in December. The winter solstice in the Southern Hemisphere happens in June.
-Is winter solstice in Northern Hemisphere closer to July than in Southern Hemisphere? ",Answer: True,False
-StrategyQA,3b,"Question: Mosquitoes cannot survive in the climate of Antarctica. Zika virus is primarily spread through mosquito bites. 
-Do you need to worry about Zika virus in Antarctica? 
-Answer: False
-Question: A leap year has 366 total days. As of March 19th, 2018, every episode of the Young and the Restless would take 467 days and 2 hours to watch.
-Would a binge watch of entire Young and the Restless take longer than a leap year?
+Question: Steve Martin is allergic to shellfish. Shrimp are one of the many types of shellfish.
+Is Steve Martin someone who would refuse a dish of shrimp pasta?
 Answer: True
-Question: Mosquitoes cannot survive in the climate of Antarctica. Zika virus is primarily spread through mosquito bites. 
-Do you need to worry about Zika virus in Antarctica? 
-Answer: False
-Question: A leap year has 366 total days. As of March 19th, 2018, every episode of the Young and the Restless would take 467 days and 2 hours to watch.
-Would a binge watch of entire Young and the Restless take longer than a leap year?
+Question: Snowboarding involves descending a snow-covered slope while standing on a snowboard. Snow is formed by the freezing of water. Water has a freezing point of 32°F. Venus has a mean surface temperature of 737 K (464 °C; 867 °F).
+Would it be difficult to snowboard on Venus?
 Answer: True
-Question: The winter solstice in the Northern Hemisphere happens in December. The winter solstice in the Southern Hemisphere happens in June.
-Is winter solstice in Northern Hemisphere closer to July than in Southern Hemisphere? ",Answer: True,False
-SayCan,0,Question: Provide step-by-step instructions for the following task: Bring me a drink and snack for lunch.,"1. Head to the kitchen or pantry to gather the necessary items for your drink and snack. This may include a bottle of water, a soda, juice, or any other beverage you prefer, as well as a bag of chips, a piece of fruit, a granola bar, or any other snack you have available.
-
-2. Once you have selected your drink and snack, place them on a tray or in a bag for easy transport.
-
-3. Carry the tray or bag to the designated lunch area, whether it's the dining table, a desk, or a cozy spot on the couch.
-
-4. Set the drink and snack down on the table or surface in front of you.
-
-5. Take a seat and enjoy your lunch break, savoring each bite and sip of your chosen items.
-
-6. After you finish your drink and snack, remember to clean up any crumbs or spills and put away any dishes or packaging to keep your lunch area neat and tidy.","1. find a water bottle, 2. pick up the water bottle, 3. bring it to you, 4. put down the water bottle, 5. find the multigrain chips, 6. pick up the multigrain chips, 7. bring it to you, 8. put down the multigrain chips, 9. done"
-SayCan,1a,"Question: Provide step-by-step instructions for the following task: Bring me a fruit that is not an apple.
-Answer: 1. find an orange, 2. pick up the orange, 3. bring it to you, 4. put down the orange, 5. done
-Question: Provide step-by-step instructions for the following task: How would you bring me an apple from the drawer?
-Answer: 1. go to the drawer, 2. open the drawer, 3. pick up the apple, 4. close the drawer, 5. bring it to you, 6. put down the apple, 7. done
-Question: Provide step-by-step instructions for the following task: Bring me a drink and snack for lunch.","Answer: 1. Go to the kitchen, 2. Open the pantry or fridge, 3. Select a drink, such as a bottle of water or juice box, 4. Select a snack, such as a granola bar or pack of crackers, 5. Place the drink and snack on a tray or plate, 6. Bring the tray or plate to you, 7. Place the tray or plate in front of you, 8. Done.","1. find a water bottle, 2. pick up the water bottle, 3. bring it to you, 4. put down the water bottle, 5. find the multigrain chips, 6. pick up the multigrain chips, 7. bring it to you, 8. put down the multigrain chips, 9. done"
-SayCan,1b,"Question: Provide step-by-step instructions for the following task: Throw away the apple.
-Answer: 1. find an apple, 2. pick up the apple, 3. go to the trash, 4. put down the apple, 5. done
-Question: Provide step-by-step instructions for the following task: Bring me a fruit that is not an apple.
-Answer: 1. find a orange, 2. pick up the orange, 3. bring it to you, 4. put down the orange, 5. done.
-Question: Provide step-by-step instructions for the following task: Bring me a drink and snack for lunch.","Answer: 1. Go to the kitchen, 2. grab a drink such as water or juice, 3. grab a snack such as chips or a granola bar, 4. bring the drink and snack to the dining table, 5. place them down on the table, 6. enjoy your lunch.","1. find a water bottle, 2. pick up the water bottle, 3. bring it to you, 4. put down the water bottle, 5. find the multigrain chips, 6. pick up the multigrain chips, 7. bring it to you, 8. put down the multigrain chips, 9. done"
-SayCan,2,"Question: Provide step-by-step instructions for the following task: Bring me a fruit that is not an apple.
-Answer: 1. find an orange, 2. pick up the orange, 3. bring it to you, 4. put down the orange, 5. done
-Question: Provide step-by-step instructions for the following task: How would you bring me an apple from the drawer?
-Answer: 1. go to the drawer, 2. open the drawer, 3. pick up the apple, 4. close the drawer, 5. bring it to you, 6. put down the apple, 7. done
-Question: Provide step-by-step instructions for the following task: Throw away the apple.
-Answer: 1. find an apple, 2. pick up the apple, 3. go to the trash, 4. put down the apple, 5. done
-Question: Provide step-by-step instructions for the following task: Bring me a fruit that is not an apple.
-Answer: 1. find a orange, 2. pick up the orange, 3. bring it to you, 4. put down the orange, 5. done.
-Question: Provide step-by-step instructions for the following task: Bring me a drink and snack for lunch.","Answer: 1. Go to the kitchen, 2. Open the fridge, 3. Take out a drink and snack, 4. Close the fridge, 5. Bring the drink and snack to you, 6. Put them down on the table, 7. Done.","1. find a water bottle, 2. pick up the water bottle, 3. bring it to you, 4. put down the water bottle, 5. find the multigrain chips, 6. pick up the multigrain chips, 7. bring it to you, 8. put down the multigrain chips, 9. done"
-SayCan,3a,"Question: Provide step-by-step instructions for the following task: Bring me a fruit that is not an apple.
-Answer: 1. find an orange, 2. pick up the orange, 3. bring it to you, 4. put down the orange, 5. done
-Question: Provide step-by-step instructions for the following task: How would you bring me an apple from the drawer?
-Answer: 1. go to the drawer, 2. open the drawer, 3. pick up the apple, 4. close the drawer, 5. bring it to you, 6. put down the apple, 7. done
-Question: Provide step-by-step instructions for the following task: Bring me a fruit that is not an apple.
-Answer: 1. find an orange, 2. pick up the orange, 3. bring it to you, 4. put down the orange, 5. done
-Question: Provide step-by-step instructions for the following task: How would you bring me an apple from the drawer?
-Answer: 1. go to the drawer, 2. open the drawer, 3. pick up the apple, 4. close the drawer, 5. bring it to you, 6. put down the apple, 7. done
-Question: Provide step-by-step instructions for the following task: Bring me a drink and snack for lunch.","Answer: 1. Go to the kitchen, 2. Open the fridge, 3. Take out a drink and a snack, 4. Close the fridge, 5. Bring the drink and snack to you, 6. Place them on the table, 7. Done.","1. find a water bottle, 2. pick up the water bottle, 3. bring it to you, 4. put down the water bottle, 5. find the multigrain chips, 6. pick up the multigrain chips, 7. bring it to you, 8. put down the multigrain chips, 9. done"
-SayCan,3b,"Question: Provide step-by-step instructions for the following task: Throw away the apple.
-Answer: 1. find an apple, 2. pick up the apple, 3. go to the trash, 4. put down the apple, 5. done
-Question: Provide step-by-step instructions for the following task: Bring me a fruit that is not an apple.
-Answer: 1. find a orange, 2. pick up the orange, 3. bring it to you, 4. put down the orange, 5. done.
-Question: Provide step-by-step instructions for the following task: Throw away the apple.
-Answer: 1. find an apple, 2. pick up the apple, 3. go to the trash, 4. put down the apple, 5. done
-Question: Provide step-by-step instructions for the following task: Bring me a fruit that is not an apple.
-Answer: 1. find a orange, 2. pick up the orange, 3. bring it to you, 4. put down the orange, 5. done.
-Question: Provide step-by-step instructions for the following task: Bring me a drink and snack for lunch.","Answer: 1. Find a drink (such as a bottle of water or a can of soda) and a snack (such as a bag of chips or a granola bar), 2. Gather the drink and snack together, 3. Bring them to the person requesting lunch, 4. Serve the drink and snack, 5. Done.","1. find a water bottle, 2. pick up the water bottle, 3. bring it to you, 4. put down the water bottle, 5. find the multigrain chips, 6. pick up the multigrain chips, 7. bring it to you, 8. put down the multigrain chips, 9. done"
+Question: Abdulqawi Yusuf is the current president of the International Court of Justice The International Court of Justice is headquartered in The Hague
+Does Abdulqawi Yusuf go to the Hague on a typical work day?",Answer: True,True
+StrategyQA,3a,"Question: Emma Roberts starred as Nancy Drew in the 2007 film titled Nancy Drew. A private investigator is hired by an individual to solve a crime. Nancy Drew from the 2007 film was described as an amateur sleuth. Nancy Drew in the 2007 film was interested in a case and decided to pursue it on her own, without being paid for it.
+Would Emma Roberts's Nancy Drew be considered a private investigator?
+Answer: False
+Question: Solvent refers to the assets of a project being greater than the liabilities. The assets of a movie film are the box office receipts, and the liabilities is the budget. King Kong (2005) had box office receipts of 562 million. King Kong (2005) had a budget of 207 million.
+Was King Kong (2005 film) solvent?
+Answer: True
+Question: Emma Roberts starred as Nancy Drew in the 2007 film titled Nancy Drew. A private investigator is hired by an individual to solve a crime. Nancy Drew from the 2007 film was described as an amateur sleuth. Nancy Drew in the 2007 film was interested in a case and decided to pursue it on her own, without being paid for it.
+Would Emma Roberts's Nancy Drew be considered a private investigator?
+Answer: False
+Question: Solvent refers to the assets of a project being greater than the liabilities. The assets of a movie film are the box office receipts, and the liabilities is the budget. King Kong (2005) had box office receipts of 562 million. King Kong (2005) had a budget of 207 million.
+Was King Kong (2005 film) solvent?
+Answer: True
+Question: Abdulqawi Yusuf is the current president of the International Court of Justice The International Court of Justice is headquartered in The Hague
+Does Abdulqawi Yusuf go to the Hague on a typical work day?",Answer: True,True
+StrategyQA,3b,"Question: Steve Martin is allergic to shellfish. Shrimp are one of the many types of shellfish.
+Is Steve Martin someone who would refuse a dish of shrimp pasta?
+Answer: True
+Question: Snowboarding involves descending a snow-covered slope while standing on a snowboard. Snow is formed by the freezing of water. Water has a freezing point of 32°F. Venus has a mean surface temperature of 737 K (464 °C; 867 °F).
+Would it be difficult to snowboard on Venus?
+Answer: True
+Question: Steve Martin is allergic to shellfish. Shrimp are one of the many types of shellfish.
+Is Steve Martin someone who would refuse a dish of shrimp pasta?
+Answer: True
+Question: Snowboarding involves descending a snow-covered slope while standing on a snowboard. Snow is formed by the freezing of water. Water has a freezing point of 32°F. Venus has a mean surface temperature of 737 K (464 °C; 867 °F).
+Would it be difficult to snowboard on Venus?
+Answer: True
+Question: Abdulqawi Yusuf is the current president of the International Court of Justice The International Court of Justice is headquartered in The Hague
+Does Abdulqawi Yusuf go to the Hague on a typical work day?",Answer: True,True
+SayCan,0,Question: I’d like a clear soda.,"Sure, would you like a classic clear soda like Sprite or Sierra Mist, or something more unique like a flavored sparkling water or ginger ale?","1. find a 7up, 2. pick up the 7up, 3. bring it to you, 4. put down the 7up, 5. done."
+SayCan,1a,"Question: How would you put a bag of chips and water bottle on the table?
+Answer: 1. find the bag of chips, 2. pick up the bag of chips, 3. go to the table, 4. put down the bag of chips, 5. find a water bottle, 6. pick up the water bottle, 7. go to the table, 8. put down the water bottle, 9. done
+Question: Throw the coke can away.
+Answer: 1. find a coke can, 2. pick up the coke can, 3. go to the trash, 4. put down the coke can, 5. done
+Question: I’d like a clear soda.","Answer: 1. Find a clear soda option such as Sprite or Sierra Mist, 2. Purchase the clear soda from a store or vending machine, 3. Open the clear soda and pour it into a glass or drink directly from the container, 4. Enjoy your clear soda.","1. find a 7up, 2. pick up the 7up, 3. bring it to you, 4. put down the 7up, 5. done."
+SayCan,1b,"Question: Throw away the sprite.
+Answer: 1. find a sprite can, 2. pick up the sprite can, 3. go to the trash, 4. put down the sprite can, 5. done
+Question: Bring me chips from the drawer.
+Answer: 1. go to the drawer, 2. open the drawer, 3. pick up the bag of chips, 4. close the drawer, 5. bring it to you, 6. put down the bag of chips, 7. done
+Question: I’d like a clear soda.","Answer: 1. find a clear soda, 2. pick up the clear soda, 3. bring it to you, 4. hand you the clear soda, 5. done","1. find a 7up, 2. pick up the 7up, 3. bring it to you, 4. put down the 7up, 5. done."
+SayCan,2,"Question: How would you put a bag of chips and water bottle on the table?
+Answer: 1. find the bag of chips, 2. pick up the bag of chips, 3. go to the table, 4. put down the bag of chips, 5. find a water bottle, 6. pick up the water bottle, 7. go to the table, 8. put down the water bottle, 9. done
+Question: Throw the coke can away.
+Answer: 1. find a coke can, 2. pick up the coke can, 3. go to the trash, 4. put down the coke can, 5. done
+Question: Throw away the sprite.
+Answer: 1. find a sprite can, 2. pick up the sprite can, 3. go to the trash, 4. put down the sprite can, 5. done
+Question: Bring me chips from the drawer.
+Answer: 1. go to the drawer, 2. open the drawer, 3. pick up the bag of chips, 4. close the drawer, 5. bring it to you, 6. put down the bag of chips, 7. done
+Question: I’d like a clear soda.","Answer: 1. find a clear soda, 2. pick up the clear soda, 3. bring it to you, 4. hand you the clear soda, 5. done","1. find a 7up, 2. pick up the 7up, 3. bring it to you, 4. put down the 7up, 5. done."
+SayCan,3a,"Question: How would you put a bag of chips and water bottle on the table?
+Answer: 1. find the bag of chips, 2. pick up the bag of chips, 3. go to the table, 4. put down the bag of chips, 5. find a water bottle, 6. pick up the water bottle, 7. go to the table, 8. put down the water bottle, 9. done
+Question: Throw the coke can away.
+Answer: 1. find a coke can, 2. pick up the coke can, 3. go to the trash, 4. put down the coke can, 5. done
+Question: How would you put a bag of chips and water bottle on the table?
+Answer: 1. find the bag of chips, 2. pick up the bag of chips, 3. go to the table, 4. put down the bag of chips, 5. find a water bottle, 6. pick up the water bottle, 7. go to the table, 8. put down the water bottle, 9. done
+Question: Throw the coke can away.
+Answer: 1. find a coke can, 2. pick up the coke can, 3. go to the trash, 4. put down the coke can, 5. done
+Question: I’d like a clear soda.","Answer: Sure, I will get you a clear soda.","1. find a 7up, 2. pick up the 7up, 3. bring it to you, 4. put down the 7up, 5. done."
+SayCan,3b,"Question: Throw away the sprite.
+Answer: 1. find a sprite can, 2. pick up the sprite can, 3. go to the trash, 4. put down the sprite can, 5. done
+Question: Bring me chips from the drawer.
+Answer: 1. go to the drawer, 2. open the drawer, 3. pick up the bag of chips, 4. close the drawer, 5. bring it to you, 6. put down the bag of chips, 7. done
+Question: Throw away the sprite.
+Answer: 1. find a sprite can, 2. pick up the sprite can, 3. go to the trash, 4. put down the sprite can, 5. done
+Question: Bring me chips from the drawer.
+Answer: 1. go to the drawer, 2. open the drawer, 3. pick up the bag of chips, 4. close the drawer, 5. bring it to you, 6. put down the bag of chips, 7. done
+Question: I’d like a clear soda.","Answer: 1. find a clear soda, 2. pick up the clear soda, 3. bring it to you, 4. hand you the clear soda, 5. done","1. find a 7up, 2. pick up the 7up, 3. bring it to you, 4. put down the 7up, 5. done."

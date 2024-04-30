@@ -1,397 +1,460 @@
 Task Class,Case,Prompt,Response,Expected
-Math,0,Question: Ryan’s allowance is $6 each week he completes his chores. He did his chores for 3 weeks. Then he bought ice cream cones for himself and 3 friends at $1.25 each. Now they all want to go to the movies and tickets cost $6.50 each. How many movie tickets can Ryan buy?,"Ryan earned $6 for each of the 3 weeks he completed his chores, so his total allowance is $6 x 3 = $18.
+Math,0,"Question: The red rope was four times the length of the blue rope. The blue rope was 7 centimeters shorter than the yellow rope. If the 3 ropes had a combined length of 37 centimeters, what was the length of the red rope in centimeters?","Let's represent the length of the blue rope as x centimeters. 
 
-He spent $1.25 x 4 = $5 on ice cream cones for himself and his 3 friends.
+Since the red rope was four times the length of the blue rope, its length would be 4x centimeters. 
 
-After buying ice cream, Ryan has $18 - $5 = $13 left.
+Given that the blue rope was 7 centimeters shorter than the yellow rope, we can represent the length of the yellow rope as x + 7 centimeters.
 
-Movie tickets cost $6.50 each, so Ryan can buy $13 / $6.50 = 2 movie tickets.
+The combined length of the 3 ropes is 37 centimeters, so we can set up the equation:
 
-Ryan can buy 2 movie tickets.","Ryan earned $6 x 3 weeks of chores = $<<6*3=18>>18.
-He bought 1 for himself + 3 for his friends = <<1+3=4>>4 ice creams.
-The ice cream cost $1.25 x 4 = $<<1.25*4=5>>5.
-Ryan has $18 - $5 = $<<18-5=13>>13 left.
-With the money he has left, Ryan can buy $13 / $6.50 = <<13/6.50=2>>2 movie tickets.
-#### 2"
-Math,1a,"Question: A library has a number of books. 35% of them are intended for children and 104 of them are for adults. How many books are in the library?
-Answer: 65% of the library books are for adults because 100 - 35 = <<100-35=65>>65
-There are 160 library books in total because 104 / .65 = <<104/.65=160>>160
-#### 160
-Question: Ryan wants to take 5 peanut butter sandwiches to the beach.  If each sandwich consists of 3 slices of bread how many slices does Ryan need to make 5 sandwiches?
-Answer: To make 1 sandwich, you need 3 slices so Ryan needs 1*3= <<1*3=3>>3 slices to make one sandwich.
-Since it takes 3 slices to make a sandwich, and Ryan wants 5 sandwiches to take to the beach he needs 3*5= <<3*5=15>>15 slices.
-#### 15
-Question: Ryan’s allowance is $6 each week he completes his chores. He did his chores for 3 weeks. Then he bought ice cream cones for himself and 3 friends at $1.25 each. Now they all want to go to the movies and tickets cost $6.50 each. How many movie tickets can Ryan buy?","Answer: Ryan earned $6 each week for doing his chores, so over 3 weeks he earned 3*$6 = $<<3*6=18>>18.
-He bought ice cream cones for himself and 3 friends at $1.25 each so spent 4*$1.25 = $<<4*1.25=5>>5
-He then wants to go to the movies and tickets cost $6.50 each. If he has $18 - $5 = $13 left, then he can buy $13 / $6.50 = <<13/6.50=2>>2 movie tickets.
-#### 2","Ryan earned $6 x 3 weeks of chores = $<<6*3=18>>18.
-He bought 1 for himself + 3 for his friends = <<1+3=4>>4 ice creams.
-The ice cream cost $1.25 x 4 = $<<1.25*4=5>>5.
-Ryan has $18 - $5 = $<<18-5=13>>13 left.
-With the money he has left, Ryan can buy $13 / $6.50 = <<13/6.50=2>>2 movie tickets.
-#### 2"
-Math,1b,"Question: Kim's TV uses 125 watts of electricity per hour.  She runs it for 4 hours a day.  If electricity cost 14 cents per kw/h how many cents does her TV cost to run for a week?
-Answer: She uses 4 hours/day * 125 watts/hour=<<4*125=500>>500 watt hours/day
-That means she uses 500 watt hours/day * 7 days/week = <<500*7=3500>>3500 watt hours/week
-This is 3500 watt hours / 1000 watts/kw = <<3500/1000=3.5>>3.5 kw hours
-So her TV cost 3.5 kw hours/week * $0.14/kw hour = $<<3.5*0.14=0.49>>0.49/week
-#### 49
-Question: Corveus sleeps 4 hours a day and his doctor recommended for him to sleep 6 hours a day. How many hours of sleep does Corveus lack in a week?
-Answer: Corveus lacks 6 - 4 = <<6-4=2>>2 hours of sleep every day.
-Therefore, Corveus' total hours of lack of sleep every week is 2 x 7 = <<2*7=14>>14.
-#### 14
-Question: Ryan’s allowance is $6 each week he completes his chores. He did his chores for 3 weeks. Then he bought ice cream cones for himself and 3 friends at $1.25 each. Now they all want to go to the movies and tickets cost $6.50 each. How many movie tickets can Ryan buy?","Answer: 
+x + 4x + (x + 7) = 37
+6x + 7 = 37
+6x = 30
+x = 5
 
-Ryan earned $6 * 3 = $18 from doing his chores for 3 weeks.
+Therefore, the length of the blue rope is 5 centimeters, the red rope is 4 * 5 = 20 centimeters, and the yellow rope is 5 + 7 = 12 centimeters. 
 
-He spent $1.25 * 4 = $5 on ice cream cones for himself and his 3 friends.
+Therefore, the length of the red rope is 20 centimeters.","Let Y = the length of the yellow rope in centimeters
+Blue rope = Y - 7
+Red rope = 4 * (Y - 7)
+Y + Y - 7 + 4 (Y - 7) = 37 cm
+6Y - 35 = 37
+6Y = 72
+Y = <<12=12>>12 cm
+The red rope was 20 cm long.
+#### 20"
+Math,1a,"Question: Annie plants 3 pots of basil, 9 pots of rosemary, and 6 pots of thyme. Each basil plant has 4 leaves, each rosemary plant has 18 leaves, and each thyme plant has 30 leaves. How many leaves are there total?
+Answer: First find the total number of basil leaves: 3 pots * 4 leaves/pot = <<3*4=12>>12 leaves
+Then find the total number of rosemary leaves: 9 pots * 18 leaves/pot = <<9*18=162>>162 leaves
+Then find the total number of thyme leaves: 6 pots * 30 leaves/pot = <<6*30=180>>180 leaves
+Then add the number of each type of leaf to find the total number of leaves: 12 leaves + 162 leaves + 180 leaves = <<12+162+180=354>>354 leaves
+#### 354
+Question: One student on a field trip counted 12 squirrels. Another counted a third more squirrels than the first student. How many squirrels did both students count combined?
+Answer: The second student counted 12/3 = 4 more squirrels than the first student.
+The second student counted 12+4 = <<12+4=16>>16 squirrels.
+Together, the first and second student counted 12+16 = <<12+16=28>>28 squirrels combined.
+#### 28
+Question: The red rope was four times the length of the blue rope. The blue rope was 7 centimeters shorter than the yellow rope. If the 3 ropes had a combined length of 37 centimeters, what was the length of the red rope in centimeters?","Let's represent the length of the blue rope as x centimeters.
 
-This means he has $18 - $5 = $13 left.
+Since the red rope was four times the length of the blue rope, the red rope's length is 4x centimeters.
 
-Each movie ticket costs $6.50, so Ryan can buy $13 / $6.50 = 2 movie tickets.
+Since the blue rope was 7 centimeters shorter than the yellow rope, the yellow rope's length is x + 7 centimeters.
 
-Therefore, Ryan can buy 2 movie tickets for himself and a friend.","Ryan earned $6 x 3 weeks of chores = $<<6*3=18>>18.
-He bought 1 for himself + 3 for his friends = <<1+3=4>>4 ice creams.
-The ice cream cost $1.25 x 4 = $<<1.25*4=5>>5.
-Ryan has $18 - $5 = $<<18-5=13>>13 left.
-With the money he has left, Ryan can buy $13 / $6.50 = <<13/6.50=2>>2 movie tickets.
-#### 2"
-Math,2,"Question: A library has a number of books. 35% of them are intended for children and 104 of them are for adults. How many books are in the library?
-Answer: 65% of the library books are for adults because 100 - 35 = <<100-35=65>>65
-There are 160 library books in total because 104 / .65 = <<104/.65=160>>160
-#### 160
-Question: Ryan wants to take 5 peanut butter sandwiches to the beach.  If each sandwich consists of 3 slices of bread how many slices does Ryan need to make 5 sandwiches?
-Answer: To make 1 sandwich, you need 3 slices so Ryan needs 1*3= <<1*3=3>>3 slices to make one sandwich.
-Since it takes 3 slices to make a sandwich, and Ryan wants 5 sandwiches to take to the beach he needs 3*5= <<3*5=15>>15 slices.
-#### 15
-Question: Kim's TV uses 125 watts of electricity per hour.  She runs it for 4 hours a day.  If electricity cost 14 cents per kw/h how many cents does her TV cost to run for a week?
-Answer: She uses 4 hours/day * 125 watts/hour=<<4*125=500>>500 watt hours/day
-That means she uses 500 watt hours/day * 7 days/week = <<500*7=3500>>3500 watt hours/week
-This is 3500 watt hours / 1000 watts/kw = <<3500/1000=3.5>>3.5 kw hours
-So her TV cost 3.5 kw hours/week * $0.14/kw hour = $<<3.5*0.14=0.49>>0.49/week
-#### 49
-Question: Corveus sleeps 4 hours a day and his doctor recommended for him to sleep 6 hours a day. How many hours of sleep does Corveus lack in a week?
-Answer: Corveus lacks 6 - 4 = <<6-4=2>>2 hours of sleep every day.
-Therefore, Corveus' total hours of lack of sleep every week is 2 x 7 = <<2*7=14>>14.
-#### 14
-Question: Ryan’s allowance is $6 each week he completes his chores. He did his chores for 3 weeks. Then he bought ice cream cones for himself and 3 friends at $1.25 each. Now they all want to go to the movies and tickets cost $6.50 each. How many movie tickets can Ryan buy?","Answer: Ryan earned $6 per week x 3 weeks = $18 from completing his chores.
-He spent $1.25 per ice cream cone x 4 cones = $5 on ice cream.
-He now has $18 - $5 = $13 left to spend on movie tickets.
-Therefore, Ryan can buy $13 / $6.50 per ticket = <<13/6.5=2>>2 movie tickets. 
-#### 2","Ryan earned $6 x 3 weeks of chores = $<<6*3=18>>18.
-He bought 1 for himself + 3 for his friends = <<1+3=4>>4 ice creams.
-The ice cream cost $1.25 x 4 = $<<1.25*4=5>>5.
-Ryan has $18 - $5 = $<<18-5=13>>13 left.
-With the money he has left, Ryan can buy $13 / $6.50 = <<13/6.50=2>>2 movie tickets.
-#### 2"
-Math,3a,"Question: A library has a number of books. 35% of them are intended for children and 104 of them are for adults. How many books are in the library?
-Answer: 65% of the library books are for adults because 100 - 35 = <<100-35=65>>65
-There are 160 library books in total because 104 / .65 = <<104/.65=160>>160
-#### 160
-Question: Ryan wants to take 5 peanut butter sandwiches to the beach.  If each sandwich consists of 3 slices of bread how many slices does Ryan need to make 5 sandwiches?
-Answer: To make 1 sandwich, you need 3 slices so Ryan needs 1*3= <<1*3=3>>3 slices to make one sandwich.
-Since it takes 3 slices to make a sandwich, and Ryan wants 5 sandwiches to take to the beach he needs 3*5= <<3*5=15>>15 slices.
-#### 15
-Question: A library has a number of books. 35% of them are intended for children and 104 of them are for adults. How many books are in the library?
-Answer: 65% of the library books are for adults because 100 - 35 = <<100-35=65>>65
-There are 160 library books in total because 104 / .65 = <<104/.65=160>>160
-#### 160
-Question: Ryan wants to take 5 peanut butter sandwiches to the beach.  If each sandwich consists of 3 slices of bread how many slices does Ryan need to make 5 sandwiches?
-Answer: To make 1 sandwich, you need 3 slices so Ryan needs 1*3= <<1*3=3>>3 slices to make one sandwich.
-Since it takes 3 slices to make a sandwich, and Ryan wants 5 sandwiches to take to the beach he needs 3*5= <<3*5=15>>15 slices.
-#### 15
-Question: Ryan’s allowance is $6 each week he completes his chores. He did his chores for 3 weeks. Then he bought ice cream cones for himself and 3 friends at $1.25 each. Now they all want to go to the movies and tickets cost $6.50 each. How many movie tickets can Ryan buy?","Answer: Ryan earned 6 * 3 = $ <<6*3=18>>18 from completing his chores for 3 weeks.
-He spent 4 * 1.25 = $ <<4*1.25=5>>5 on ice cream cones.
-He has 18 - 5 = $ <<18-5=13>>13 left.
-Each movie ticket costs $6.50, so he can buy 13 / 6.50 = <<13/6.50=2>>2 movie tickets.
-#### 2","Ryan earned $6 x 3 weeks of chores = $<<6*3=18>>18.
-He bought 1 for himself + 3 for his friends = <<1+3=4>>4 ice creams.
-The ice cream cost $1.25 x 4 = $<<1.25*4=5>>5.
-Ryan has $18 - $5 = $<<18-5=13>>13 left.
-With the money he has left, Ryan can buy $13 / $6.50 = <<13/6.50=2>>2 movie tickets.
-#### 2"
-Math,3b,"Question: Kim's TV uses 125 watts of electricity per hour.  She runs it for 4 hours a day.  If electricity cost 14 cents per kw/h how many cents does her TV cost to run for a week?
-Answer: She uses 4 hours/day * 125 watts/hour=<<4*125=500>>500 watt hours/day
-That means she uses 500 watt hours/day * 7 days/week = <<500*7=3500>>3500 watt hours/week
-This is 3500 watt hours / 1000 watts/kw = <<3500/1000=3.5>>3.5 kw hours
-So her TV cost 3.5 kw hours/week * $0.14/kw hour = $<<3.5*0.14=0.49>>0.49/week
-#### 49
-Question: Corveus sleeps 4 hours a day and his doctor recommended for him to sleep 6 hours a day. How many hours of sleep does Corveus lack in a week?
-Answer: Corveus lacks 6 - 4 = <<6-4=2>>2 hours of sleep every day.
-Therefore, Corveus' total hours of lack of sleep every week is 2 x 7 = <<2*7=14>>14.
-#### 14
-Question: Kim's TV uses 125 watts of electricity per hour.  She runs it for 4 hours a day.  If electricity cost 14 cents per kw/h how many cents does her TV cost to run for a week?
-Answer: She uses 4 hours/day * 125 watts/hour=<<4*125=500>>500 watt hours/day
-That means she uses 500 watt hours/day * 7 days/week = <<500*7=3500>>3500 watt hours/week
-This is 3500 watt hours / 1000 watts/kw = <<3500/1000=3.5>>3.5 kw hours
-So her TV cost 3.5 kw hours/week * $0.14/kw hour = $<<3.5*0.14=0.49>>0.49/week
-#### 49
-Question: Corveus sleeps 4 hours a day and his doctor recommended for him to sleep 6 hours a day. How many hours of sleep does Corveus lack in a week?
-Answer: Corveus lacks 6 - 4 = <<6-4=2>>2 hours of sleep every day.
-Therefore, Corveus' total hours of lack of sleep every week is 2 x 7 = <<2*7=14>>14.
-#### 14
-Question: Ryan’s allowance is $6 each week he completes his chores. He did his chores for 3 weeks. Then he bought ice cream cones for himself and 3 friends at $1.25 each. Now they all want to go to the movies and tickets cost $6.50 each. How many movie tickets can Ryan buy?","First, let's calculate how much money Ryan earned from doing his chores: $6/week * 3 weeks = $18
+The total length of all 3 ropes is x + 4x + x + 7 = 37.
 
-Next, let's calculate how much Ryan spent on ice cream cones: 4 people * $1.25 = $5
+Combining like terms, we get 6x + 7 = 37.
 
-Now, let's subtract the cost of the ice cream cones from the money Ryan earned: $18 - $5 = $13
+Subtracting 7 from both sides, we get 6x = 30.
 
-Now, let's calculate how many movie tickets Ryan can buy: $13 / $6.50 = 2
+Dividing by 6, we find x = 5.
 
-Ryan can buy 2 movie tickets with the remaining money.","Ryan earned $6 x 3 weeks of chores = $<<6*3=18>>18.
-He bought 1 for himself + 3 for his friends = <<1+3=4>>4 ice creams.
-The ice cream cost $1.25 x 4 = $<<1.25*4=5>>5.
-Ryan has $18 - $5 = $<<18-5=13>>13 left.
-With the money he has left, Ryan can buy $13 / $6.50 = <<13/6.50=2>>2 movie tickets.
-#### 2"
-CSQA,0,"Question: Sitting to close while watching TV can cause what sort of pain?
-A: brain problems
-B: laziness
-C: get fat
-D: headache
-E: laughter",D: headache,D
-CSQA,1a,"Question: The food simmering in the pan smelled delicious, the aroma filled the entire what?
-A: oven
-B: cabinet
-C: kitchen
-D: movie
-E: bathroom
+Therefore, the length of the red rope is 4 * x = 4 * 5 = 20 centimeters.","Let Y = the length of the yellow rope in centimeters
+Blue rope = Y - 7
+Red rope = 4 * (Y - 7)
+Y + Y - 7 + 4 (Y - 7) = 37 cm
+6Y - 35 = 37
+6Y = 72
+Y = <<12=12>>12 cm
+The red rope was 20 cm long.
+#### 20"
+Math,1b,"Question: Christian and Sue wanted to get a $50.00 bottle of perfume for their mom for her birthday.  Christian had $5.00 saved up and Sue had $7.00.  Christian then mowed 4 of his neighbors' yards, charging $5.00 each, while Sue walked 6 dogs for her neighbors, charging $2.00 per dog.  How much more money will Christian and Sue need to make in order to buy the bottle of perfume for their mom?
+Answer: Christian just mowed 4 yards at $5.00 each so he made 4*5 = $<<4*5=20.00>>20.00
+Sue just walked 6 dogs at $2.00 each so she made 6*2 = $<<6*2=12.00>>12.00
+Christian had $5.00 saved and just made $20.00 while Sue had $7.00 saved and just made $12.00 so together they had 5+20+7+12 = $<<5+20+7+12=44>>44
+The perfume cost $50.00 and they had $44.00 so they needed to make 50-44 = $<<50-44=6.00>>6.00 more dollars
+#### 6
+Question: Mr. Shaefer harvested 500 lychees in a carton and took them to the market. He sold half of them and took home the remaining number of lychees where they ate 3/5 of them. Calculate the number of lychees remaining.
+Answer: At the market, Mr. Shaefer sold half of the lychees, which is 1/2*500 = 250
+The remaining number of lychees is 500-250 = <<500-250=250>>250
+At home, they ate 3/5*250 = <<3/5*250=150>>150 lychees.
+The total number of lychees remaining is 250-150 = <<250-150=100>>100
+#### 100
+Question: The red rope was four times the length of the blue rope. The blue rope was 7 centimeters shorter than the yellow rope. If the 3 ropes had a combined length of 37 centimeters, what was the length of the red rope in centimeters?","Let x be the length of the blue rope.
+
+The red rope was 4 times the length of the blue rope, so it was 4x.
+
+The blue rope was 7 centimeters shorter than the yellow rope, so the yellow rope was x + 7.
+
+The total length of the 3 ropes is x + 4x + (x + 7) = 37.
+
+Combining like terms, we get 6x + 7 = 37.
+
+Subtracting 7 from both sides, we get 6x = 30.
+
+Dividing by 6, we get x = 5.
+
+Therefore, the length of the red rope, which is 4 times the length of the blue rope, is 4 * 5 = 20 centimeters.","Let Y = the length of the yellow rope in centimeters
+Blue rope = Y - 7
+Red rope = 4 * (Y - 7)
+Y + Y - 7 + 4 (Y - 7) = 37 cm
+6Y - 35 = 37
+6Y = 72
+Y = <<12=12>>12 cm
+The red rope was 20 cm long.
+#### 20"
+Math,2,"Question: Annie plants 3 pots of basil, 9 pots of rosemary, and 6 pots of thyme. Each basil plant has 4 leaves, each rosemary plant has 18 leaves, and each thyme plant has 30 leaves. How many leaves are there total?
+Answer: First find the total number of basil leaves: 3 pots * 4 leaves/pot = <<3*4=12>>12 leaves
+Then find the total number of rosemary leaves: 9 pots * 18 leaves/pot = <<9*18=162>>162 leaves
+Then find the total number of thyme leaves: 6 pots * 30 leaves/pot = <<6*30=180>>180 leaves
+Then add the number of each type of leaf to find the total number of leaves: 12 leaves + 162 leaves + 180 leaves = <<12+162+180=354>>354 leaves
+#### 354
+Question: One student on a field trip counted 12 squirrels. Another counted a third more squirrels than the first student. How many squirrels did both students count combined?
+Answer: The second student counted 12/3 = 4 more squirrels than the first student.
+The second student counted 12+4 = <<12+4=16>>16 squirrels.
+Together, the first and second student counted 12+16 = <<12+16=28>>28 squirrels combined.
+#### 28
+Question: Christian and Sue wanted to get a $50.00 bottle of perfume for their mom for her birthday.  Christian had $5.00 saved up and Sue had $7.00.  Christian then mowed 4 of his neighbors' yards, charging $5.00 each, while Sue walked 6 dogs for her neighbors, charging $2.00 per dog.  How much more money will Christian and Sue need to make in order to buy the bottle of perfume for their mom?
+Answer: Christian just mowed 4 yards at $5.00 each so he made 4*5 = $<<4*5=20.00>>20.00
+Sue just walked 6 dogs at $2.00 each so she made 6*2 = $<<6*2=12.00>>12.00
+Christian had $5.00 saved and just made $20.00 while Sue had $7.00 saved and just made $12.00 so together they had 5+20+7+12 = $<<5+20+7+12=44>>44
+The perfume cost $50.00 and they had $44.00 so they needed to make 50-44 = $<<50-44=6.00>>6.00 more dollars
+#### 6
+Question: Mr. Shaefer harvested 500 lychees in a carton and took them to the market. He sold half of them and took home the remaining number of lychees where they ate 3/5 of them. Calculate the number of lychees remaining.
+Answer: At the market, Mr. Shaefer sold half of the lychees, which is 1/2*500 = 250
+The remaining number of lychees is 500-250 = <<500-250=250>>250
+At home, they ate 3/5*250 = <<3/5*250=150>>150 lychees.
+The total number of lychees remaining is 250-150 = <<250-150=100>>100
+#### 100
+Question: The red rope was four times the length of the blue rope. The blue rope was 7 centimeters shorter than the yellow rope. If the 3 ropes had a combined length of 37 centimeters, what was the length of the red rope in centimeters?","Answer: Let's start by defining variables for the length of the blue rope as B, the length of the red rope as 4B, and the length of the yellow rope as B+7. 
+Since the combined length of all three ropes is 37 centimeters, we can set up the equation B + 4B + (B+7) = 37
+Combining like terms gives 6B + 7 = 37
+Subtracting 7 from both sides gives 6B = 30
+Dividing by 6 gives B = 5
+Therefore, the length of the red rope (4B) is 4*5 = 20 centimeters. 
+So, the length of the red rope is 20 centimeters.","Let Y = the length of the yellow rope in centimeters
+Blue rope = Y - 7
+Red rope = 4 * (Y - 7)
+Y + Y - 7 + 4 (Y - 7) = 37 cm
+6Y - 35 = 37
+6Y = 72
+Y = <<12=12>>12 cm
+The red rope was 20 cm long.
+#### 20"
+Math,3a,"Question: Annie plants 3 pots of basil, 9 pots of rosemary, and 6 pots of thyme. Each basil plant has 4 leaves, each rosemary plant has 18 leaves, and each thyme plant has 30 leaves. How many leaves are there total?
+Answer: First find the total number of basil leaves: 3 pots * 4 leaves/pot = <<3*4=12>>12 leaves
+Then find the total number of rosemary leaves: 9 pots * 18 leaves/pot = <<9*18=162>>162 leaves
+Then find the total number of thyme leaves: 6 pots * 30 leaves/pot = <<6*30=180>>180 leaves
+Then add the number of each type of leaf to find the total number of leaves: 12 leaves + 162 leaves + 180 leaves = <<12+162+180=354>>354 leaves
+#### 354
+Question: One student on a field trip counted 12 squirrels. Another counted a third more squirrels than the first student. How many squirrels did both students count combined?
+Answer: The second student counted 12/3 = 4 more squirrels than the first student.
+The second student counted 12+4 = <<12+4=16>>16 squirrels.
+Together, the first and second student counted 12+16 = <<12+16=28>>28 squirrels combined.
+#### 28
+Question: Annie plants 3 pots of basil, 9 pots of rosemary, and 6 pots of thyme. Each basil plant has 4 leaves, each rosemary plant has 18 leaves, and each thyme plant has 30 leaves. How many leaves are there total?
+Answer: First find the total number of basil leaves: 3 pots * 4 leaves/pot = <<3*4=12>>12 leaves
+Then find the total number of rosemary leaves: 9 pots * 18 leaves/pot = <<9*18=162>>162 leaves
+Then find the total number of thyme leaves: 6 pots * 30 leaves/pot = <<6*30=180>>180 leaves
+Then add the number of each type of leaf to find the total number of leaves: 12 leaves + 162 leaves + 180 leaves = <<12+162+180=354>>354 leaves
+#### 354
+Question: One student on a field trip counted 12 squirrels. Another counted a third more squirrels than the first student. How many squirrels did both students count combined?
+Answer: The second student counted 12/3 = 4 more squirrels than the first student.
+The second student counted 12+4 = <<12+4=16>>16 squirrels.
+Together, the first and second student counted 12+16 = <<12+16=28>>28 squirrels combined.
+#### 28
+Question: The red rope was four times the length of the blue rope. The blue rope was 7 centimeters shorter than the yellow rope. If the 3 ropes had a combined length of 37 centimeters, what was the length of the red rope in centimeters?","Let's represent the length of the blue rope as B.
+Since the red rope was four times the length of the blue rope, the red rope's length is 4B.
+Since the blue rope was 7 centimeters shorter than the yellow rope, the length of the yellow rope is B + 7.
+The combined length of the three ropes is B + 4B + (B + 7) = 37.
+
+Combining like terms, we get 6B + 7 = 37.
+Subtracting 7 from both sides gives us 6B = 30.
+Dividing by 6 gives B = 5.
+
+Therefore, the length of the red rope (4B) is 4 * 5 = 20 centimeters.","Let Y = the length of the yellow rope in centimeters
+Blue rope = Y - 7
+Red rope = 4 * (Y - 7)
+Y + Y - 7 + 4 (Y - 7) = 37 cm
+6Y - 35 = 37
+6Y = 72
+Y = <<12=12>>12 cm
+The red rope was 20 cm long.
+#### 20"
+Math,3b,"Question: Christian and Sue wanted to get a $50.00 bottle of perfume for their mom for her birthday.  Christian had $5.00 saved up and Sue had $7.00.  Christian then mowed 4 of his neighbors' yards, charging $5.00 each, while Sue walked 6 dogs for her neighbors, charging $2.00 per dog.  How much more money will Christian and Sue need to make in order to buy the bottle of perfume for their mom?
+Answer: Christian just mowed 4 yards at $5.00 each so he made 4*5 = $<<4*5=20.00>>20.00
+Sue just walked 6 dogs at $2.00 each so she made 6*2 = $<<6*2=12.00>>12.00
+Christian had $5.00 saved and just made $20.00 while Sue had $7.00 saved and just made $12.00 so together they had 5+20+7+12 = $<<5+20+7+12=44>>44
+The perfume cost $50.00 and they had $44.00 so they needed to make 50-44 = $<<50-44=6.00>>6.00 more dollars
+#### 6
+Question: Mr. Shaefer harvested 500 lychees in a carton and took them to the market. He sold half of them and took home the remaining number of lychees where they ate 3/5 of them. Calculate the number of lychees remaining.
+Answer: At the market, Mr. Shaefer sold half of the lychees, which is 1/2*500 = 250
+The remaining number of lychees is 500-250 = <<500-250=250>>250
+At home, they ate 3/5*250 = <<3/5*250=150>>150 lychees.
+The total number of lychees remaining is 250-150 = <<250-150=100>>100
+#### 100
+Question: Christian and Sue wanted to get a $50.00 bottle of perfume for their mom for her birthday.  Christian had $5.00 saved up and Sue had $7.00.  Christian then mowed 4 of his neighbors' yards, charging $5.00 each, while Sue walked 6 dogs for her neighbors, charging $2.00 per dog.  How much more money will Christian and Sue need to make in order to buy the bottle of perfume for their mom?
+Answer: Christian just mowed 4 yards at $5.00 each so he made 4*5 = $<<4*5=20.00>>20.00
+Sue just walked 6 dogs at $2.00 each so she made 6*2 = $<<6*2=12.00>>12.00
+Christian had $5.00 saved and just made $20.00 while Sue had $7.00 saved and just made $12.00 so together they had 5+20+7+12 = $<<5+20+7+12=44>>44
+The perfume cost $50.00 and they had $44.00 so they needed to make 50-44 = $<<50-44=6.00>>6.00 more dollars
+#### 6
+Question: Mr. Shaefer harvested 500 lychees in a carton and took them to the market. He sold half of them and took home the remaining number of lychees where they ate 3/5 of them. Calculate the number of lychees remaining.
+Answer: At the market, Mr. Shaefer sold half of the lychees, which is 1/2*500 = 250
+The remaining number of lychees is 500-250 = <<500-250=250>>250
+At home, they ate 3/5*250 = <<3/5*250=150>>150 lychees.
+The total number of lychees remaining is 250-150 = <<250-150=100>>100
+#### 100
+Question: The red rope was four times the length of the blue rope. The blue rope was 7 centimeters shorter than the yellow rope. If the 3 ropes had a combined length of 37 centimeters, what was the length of the red rope in centimeters?","Let's denote the length of the blue rope as x. 
+Since the red rope was four times the length of the blue rope, the red rope's length is 4x. 
+Since the blue rope was 7 centimeters shorter than the yellow rope, the yellow rope's length is x + 7. 
+
+The total combined length of the ropes is x + 4x + x + 7 = 37. 
+This simplifies to 6x + 7 = 37. 
+Subtracting 7 from both sides gives 6x = 30. 
+Dividing both sides by 6 gives x = 5. 
+
+Therefore, the length of the red rope, which is 4 times the length of the blue rope, is 4 * 5 = 20 centimeters.","Let Y = the length of the yellow rope in centimeters
+Blue rope = Y - 7
+Red rope = 4 * (Y - 7)
+Y + Y - 7 + 4 (Y - 7) = 37 cm
+6Y - 35 = 37
+6Y = 72
+Y = <<12=12>>12 cm
+The red rope was 20 cm long.
+#### 20"
+CSQA,0,"Question: What kind of place could have a seafood restaurant?
+A: new york
+B: coastal cities
+C: city
+D: coastal cities
+E: boston",B: Coastal cities,C
+CSQA,1a,"Question: How is cheese kept freshest?
+A: burger
+B: market
+C: refrigerator
+D: pizza
+E: plate
 Answer: C
-Question: Where do you bring a small dog if it needs to relieve itself?
-A: europe
-B: front porch
-C: heat
-D: basket
-E: outside
-Answer: E
-Question: Sitting to close while watching TV can cause what sort of pain?
-A: brain problems
-B: laziness
-C: get fat
-D: headache
-E: laughter",Answer: D,D
-CSQA,1b,"Question: He spent all work day at a computer, so he got a footstool for more comfort at his what?
-A: desk
-B: bathroom
-C: shoe shop
-D: family room
-E: living room
-Answer: A
-Question: Where could you find hundreds of thousands of mailbox?
-A: porch
-B: hardware store
-C: front yard
-D: diner
-E: downtown area
-Answer: E
-Question: Sitting to close while watching TV can cause what sort of pain?
-A: brain problems
-B: laziness
-C: get fat
-D: headache
-E: laughter",Answer: D,D
-CSQA,2,"Question: The food simmering in the pan smelled delicious, the aroma filled the entire what?
-A: oven
-B: cabinet
-C: kitchen
-D: movie
-E: bathroom
+Question: What might someone do too much  of if they are experiencing stress?
+A: clean house
+B: use drugs
+C: drink alcohol
+D: hang out at bar
+E: dream
 Answer: C
-Question: Where do you bring a small dog if it needs to relieve itself?
-A: europe
-B: front porch
-C: heat
-D: basket
-E: outside
-Answer: E
-Question: He spent all work day at a computer, so he got a footstool for more comfort at his what?
-A: desk
-B: bathroom
-C: shoe shop
-D: family room
-E: living room
+Question: What kind of place could have a seafood restaurant?
+A: new york
+B: coastal cities
+C: city
+D: coastal cities
+E: boston",Answer: D,C
+CSQA,1b,"Question: There was a bacteria scare, so bleach was added to the well what?
+A: water
+B: septic tank
+C: petri dish
+D: leg
+E: ground
 Answer: A
-Question: Where could you find hundreds of thousands of mailbox?
-A: porch
-B: hardware store
-C: front yard
-D: diner
-E: downtown area
-Answer: E
-Question: Sitting to close while watching TV can cause what sort of pain?
-A: brain problems
-B: laziness
-C: get fat
-D: headache
-E: laughter",Answer: D,D
-CSQA,3a,"Question: The food simmering in the pan smelled delicious, the aroma filled the entire what?
-A: oven
-B: cabinet
-C: kitchen
-D: movie
-E: bathroom
+Question: What can a police officer do if power is out?
+A: direct traffic
+B: retire
+C: case
+D: keep you waiting
+E: fine offender
+Answer: A
+Question: What kind of place could have a seafood restaurant?
+A: new york
+B: coastal cities
+C: city
+D: coastal cities
+E: boston",Answer: B,C
+CSQA,2,"Question: How is cheese kept freshest?
+A: burger
+B: market
+C: refrigerator
+D: pizza
+E: plate
 Answer: C
-Question: Where do you bring a small dog if it needs to relieve itself?
-A: europe
-B: front porch
-C: heat
-D: basket
-E: outside
-Answer: E
-Question: The food simmering in the pan smelled delicious, the aroma filled the entire what?
-A: oven
-B: cabinet
-C: kitchen
-D: movie
-E: bathroom
+Question: What might someone do too much  of if they are experiencing stress?
+A: clean house
+B: use drugs
+C: drink alcohol
+D: hang out at bar
+E: dream
 Answer: C
-Question: Where do you bring a small dog if it needs to relieve itself?
-A: europe
-B: front porch
-C: heat
-D: basket
-E: outside
-Answer: E
-Question: Sitting to close while watching TV can cause what sort of pain?
-A: brain problems
-B: laziness
-C: get fat
-D: headache
-E: laughter",Answer: D,D
-CSQA,3b,"Question: He spent all work day at a computer, so he got a footstool for more comfort at his what?
-A: desk
-B: bathroom
-C: shoe shop
-D: family room
-E: living room
+Question: There was a bacteria scare, so bleach was added to the well what?
+A: water
+B: septic tank
+C: petri dish
+D: leg
+E: ground
 Answer: A
-Question: Where could you find hundreds of thousands of mailbox?
-A: porch
-B: hardware store
-C: front yard
-D: diner
-E: downtown area
-Answer: E
-Question: He spent all work day at a computer, so he got a footstool for more comfort at his what?
-A: desk
-B: bathroom
-C: shoe shop
-D: family room
-E: living room
+Question: What can a police officer do if power is out?
+A: direct traffic
+B: retire
+C: case
+D: keep you waiting
+E: fine offender
 Answer: A
-Question: Where could you find hundreds of thousands of mailbox?
-A: porch
-B: hardware store
-C: front yard
-D: diner
-E: downtown area
-Answer: E
-Question: Sitting to close while watching TV can cause what sort of pain?
-A: brain problems
-B: laziness
-C: get fat
-D: headache
-E: laughter",Answer: D,D
-StrategyQA,0,"Question: Hostas are characterized by large green striped leaves. The green color in plants is attributed to chlorophyll. 
-For Hostas to look their best, do they need lots of chlorophyll?","Yes, hostas do require chlorophyll in order to thrive and achieve their characteristic large green striped leaves. Chlorophyll is responsible for the green color in plants and is essential for photosynthesis, the process by which plants convert sunlight into energy. Adequate chlorophyll production in hostas is important for healthy growth and optimal photosynthesis, thus contributing to the plant's overall appearance and vigor. However, excessive chlorophyll levels can sometimes lead to issues like yellowing or browning of leaves, so it is important to provide the right amount of sunlight, water, and nutrients for the hostas to maintain their green color and health.",True
-StrategyQA,1a,"Question: Kublai Khan was married multiple times and was said by some to have thousands of concubines. Kublai Khans grandfather was Genghis Khan. Genghis Khan had six wives and was said to have over 500 concubines.
-Did either Kublai Khan or his grandfather practice monogamy?
-Answer: False
-Question: A tag team wrestling match is contested between at least two teams of at least two wrestlers each There are only three people in the Powerpuff Girls
-Can the Powerpuff Girls form a complete tag team wrestling match?
-Answer: False
-Question: Hostas are characterized by large green striped leaves. The green color in plants is attributed to chlorophyll. 
-For Hostas to look their best, do they need lots of chlorophyll?","Answer: False. While chlorophyll is important for plant photosynthesis and overall health, the shade-loving Hostas do not necessarily need lots of chlorophyll to look their best. Their variegated green striped leaves are already attractive and desirable to gardeners.",True
-StrategyQA,1b,"Question: Mike Pence is Vice President of the United States. The Vice President must be a US citizen. The Vice President must be at least 35 years of age. Justin Bieber is a Canadian citizen. Justin Bieber is 26 years old in 2020.
-Will Justin Bieber take over Mike Pence's position in 2020?
-Answer: False
-Question: La Femme Nikita is a French movie about a beautiful female assassin. Models are known for their beauty and height. Peta Wilson and Maggie Q have played the lead role in La Femme Nikita spinoffs. Peta Wilson and Maggie Q have both done extensive modeling work.
-Would a model be appropriate to star in a LA Femme Nikita remake?
+Question: What kind of place could have a seafood restaurant?
+A: new york
+B: coastal cities
+C: city
+D: coastal cities
+E: boston",Answer: B,C
+CSQA,3a,"Question: How is cheese kept freshest?
+A: burger
+B: market
+C: refrigerator
+D: pizza
+E: plate
+Answer: C
+Question: What might someone do too much  of if they are experiencing stress?
+A: clean house
+B: use drugs
+C: drink alcohol
+D: hang out at bar
+E: dream
+Answer: C
+Question: How is cheese kept freshest?
+A: burger
+B: market
+C: refrigerator
+D: pizza
+E: plate
+Answer: C
+Question: What might someone do too much  of if they are experiencing stress?
+A: clean house
+B: use drugs
+C: drink alcohol
+D: hang out at bar
+E: dream
+Answer: C
+Question: What kind of place could have a seafood restaurant?
+A: new york
+B: coastal cities
+C: city
+D: coastal cities
+E: boston",Answer: D,C
+CSQA,3b,"Question: There was a bacteria scare, so bleach was added to the well what?
+A: water
+B: septic tank
+C: petri dish
+D: leg
+E: ground
+Answer: A
+Question: What can a police officer do if power is out?
+A: direct traffic
+B: retire
+C: case
+D: keep you waiting
+E: fine offender
+Answer: A
+Question: There was a bacteria scare, so bleach was added to the well what?
+A: water
+B: septic tank
+C: petri dish
+D: leg
+E: ground
+Answer: A
+Question: What can a police officer do if power is out?
+A: direct traffic
+B: retire
+C: case
+D: keep you waiting
+E: fine offender
+Answer: A
+Question: What kind of place could have a seafood restaurant?
+A: new york
+B: coastal cities
+C: city
+D: coastal cities
+E: boston",Answer: D,C
+StrategyQA,0,"Question: Depression is caused by low levels of serotonin, dopamine and norepinephrine. Monoamine Oxidase breaks down neurotransmitters and lowers levels of serotonin, dopamine and norepinephrine.
+Would a Monoamine Oxidase candy bar cheer up a depressed friend?","No, giving someone a Monoamine Oxidase candy bar would not cheer up a depressed friend. In fact, consuming a Monoamine Oxidase inhibitor could have harmful effects on someone's mental health and physical well-being. It is important for someone who is experiencing depression to seek professional help and treatment from a healthcare provider. It is not advisable to self-medicate or give potentially dangerous substances to someone who is struggling with mental health issues.",False
+StrategyQA,1a,"Question: Bees have an outer protective exoskeleton made of chitin, a polymer of glucose. The human stomach releases harsh acids that break down materials. The human stomach breaks down glucose in about 33 hours.
+Does the human stomach destroy a bee if ingested?
 Answer: True
-Question: Hostas are characterized by large green striped leaves. The green color in plants is attributed to chlorophyll. 
-For Hostas to look their best, do they need lots of chlorophyll?",False,True
-StrategyQA,2,"Question: Kublai Khan was married multiple times and was said by some to have thousands of concubines. Kublai Khans grandfather was Genghis Khan. Genghis Khan had six wives and was said to have over 500 concubines.
-Did either Kublai Khan or his grandfather practice monogamy?
+Question: Learning disabilities are neurological impairments Neurological impairments can result from genetic issues, developmental problems, and accidents like head trauma, malnutrition or exposure to toxins Penicillin is an antibiotic that treats bacterial infection
+Does penicillin cure a learning disability?
 Answer: False
-Question: A tag team wrestling match is contested between at least two teams of at least two wrestlers each There are only three people in the Powerpuff Girls
-Can the Powerpuff Girls form a complete tag team wrestling match?
-Answer: False
-Question: Mike Pence is Vice President of the United States. The Vice President must be a US citizen. The Vice President must be at least 35 years of age. Justin Bieber is a Canadian citizen. Justin Bieber is 26 years old in 2020.
-Will Justin Bieber take over Mike Pence's position in 2020?
-Answer: False
-Question: La Femme Nikita is a French movie about a beautiful female assassin. Models are known for their beauty and height. Peta Wilson and Maggie Q have played the lead role in La Femme Nikita spinoffs. Peta Wilson and Maggie Q have both done extensive modeling work.
-Would a model be appropriate to star in a LA Femme Nikita remake?
+Question: Depression is caused by low levels of serotonin, dopamine and norepinephrine. Monoamine Oxidase breaks down neurotransmitters and lowers levels of serotonin, dopamine and norepinephrine.
+Would a Monoamine Oxidase candy bar cheer up a depressed friend?",Answer: False,False
+StrategyQA,1b,"Question: Coopers make barrels. Barrels are used to store certain alcoholic beverages during production.
+Are coopers required in the beverage industry?
 Answer: True
-Question: Hostas are characterized by large green striped leaves. The green color in plants is attributed to chlorophyll. 
-For Hostas to look their best, do they need lots of chlorophyll?",Answer: False,True
-StrategyQA,3a,"Question: Kublai Khan was married multiple times and was said by some to have thousands of concubines. Kublai Khans grandfather was Genghis Khan. Genghis Khan had six wives and was said to have over 500 concubines.
-Did either Kublai Khan or his grandfather practice monogamy?
+Question: Eomer died in a skirmish with orcs outside Rohan at the beginning of Two Towers. Gandalf had been killed by the Balrog at the end of Fellowship of the Ring. Gandalf returns with improved powers later on in Two Towers.
+Was Gandalf present at the death of Eomer?
 Answer: False
-Question: A tag team wrestling match is contested between at least two teams of at least two wrestlers each There are only three people in the Powerpuff Girls
-Can the Powerpuff Girls form a complete tag team wrestling match?
-Answer: False
-Question: Kublai Khan was married multiple times and was said by some to have thousands of concubines. Kublai Khans grandfather was Genghis Khan. Genghis Khan had six wives and was said to have over 500 concubines.
-Did either Kublai Khan or his grandfather practice monogamy?
-Answer: False
-Question: A tag team wrestling match is contested between at least two teams of at least two wrestlers each There are only three people in the Powerpuff Girls
-Can the Powerpuff Girls form a complete tag team wrestling match?
-Answer: False
-Question: Hostas are characterized by large green striped leaves. The green color in plants is attributed to chlorophyll. 
-For Hostas to look their best, do they need lots of chlorophyll?",Answer: True,True
-StrategyQA,3b,"Question: Mike Pence is Vice President of the United States. The Vice President must be a US citizen. The Vice President must be at least 35 years of age. Justin Bieber is a Canadian citizen. Justin Bieber is 26 years old in 2020.
-Will Justin Bieber take over Mike Pence's position in 2020?
-Answer: False
-Question: La Femme Nikita is a French movie about a beautiful female assassin. Models are known for their beauty and height. Peta Wilson and Maggie Q have played the lead role in La Femme Nikita spinoffs. Peta Wilson and Maggie Q have both done extensive modeling work.
-Would a model be appropriate to star in a LA Femme Nikita remake?
+Question: Depression is caused by low levels of serotonin, dopamine and norepinephrine. Monoamine Oxidase breaks down neurotransmitters and lowers levels of serotonin, dopamine and norepinephrine.
+Would a Monoamine Oxidase candy bar cheer up a depressed friend?",Answer: False,False
+StrategyQA,2,"Question: Bees have an outer protective exoskeleton made of chitin, a polymer of glucose. The human stomach releases harsh acids that break down materials. The human stomach breaks down glucose in about 33 hours.
+Does the human stomach destroy a bee if ingested?
 Answer: True
-Question: Mike Pence is Vice President of the United States. The Vice President must be a US citizen. The Vice President must be at least 35 years of age. Justin Bieber is a Canadian citizen. Justin Bieber is 26 years old in 2020.
-Will Justin Bieber take over Mike Pence's position in 2020?
+Question: Learning disabilities are neurological impairments Neurological impairments can result from genetic issues, developmental problems, and accidents like head trauma, malnutrition or exposure to toxins Penicillin is an antibiotic that treats bacterial infection
+Does penicillin cure a learning disability?
 Answer: False
-Question: La Femme Nikita is a French movie about a beautiful female assassin. Models are known for their beauty and height. Peta Wilson and Maggie Q have played the lead role in La Femme Nikita spinoffs. Peta Wilson and Maggie Q have both done extensive modeling work.
-Would a model be appropriate to star in a LA Femme Nikita remake?
+Question: Coopers make barrels. Barrels are used to store certain alcoholic beverages during production.
+Are coopers required in the beverage industry?
 Answer: True
-Question: Hostas are characterized by large green striped leaves. The green color in plants is attributed to chlorophyll. 
-For Hostas to look their best, do they need lots of chlorophyll?",Answer: False,True
-SayCan,0,Question: Provide step-by-step instructions for the following task: How would you put a bag of chips and water bottle on the table?,"Step 1: Take the bag of chips in one hand and the water bottle in the other hand.
-Step 2: Walk over to the table where you want to place the items.
-Step 3: Place the bag of chips gently on the table, making sure it is centered and not tipped over.
-Step 4: Place the water bottle next to the bag of chips, ensuring it is standing upright and not rolling around.
-Step 5: Adjust the positioning of the items if needed to make them look neat and organized on the table.
-Step 6: Step back and admire your work, the bag of chips and water bottle are now successfully placed on the table.","1. find the bag of chips, 2. pick up the bag of chips, 3. go to the table, 4. put down the bag of chips, 5. find a water bottle, 6. pick up the water bottle, 7. go to the table, 8. put down the water bottle, 9. done"
-SayCan,1a,"Question: Provide step-by-step instructions for the following task: Find the table.
+Question: Eomer died in a skirmish with orcs outside Rohan at the beginning of Two Towers. Gandalf had been killed by the Balrog at the end of Fellowship of the Ring. Gandalf returns with improved powers later on in Two Towers.
+Was Gandalf present at the death of Eomer?
+Answer: False
+Question: Depression is caused by low levels of serotonin, dopamine and norepinephrine. Monoamine Oxidase breaks down neurotransmitters and lowers levels of serotonin, dopamine and norepinephrine.
+Would a Monoamine Oxidase candy bar cheer up a depressed friend?",Answer: False,False
+StrategyQA,3a,"Question: Bees have an outer protective exoskeleton made of chitin, a polymer of glucose. The human stomach releases harsh acids that break down materials. The human stomach breaks down glucose in about 33 hours.
+Does the human stomach destroy a bee if ingested?
+Answer: True
+Question: Learning disabilities are neurological impairments Neurological impairments can result from genetic issues, developmental problems, and accidents like head trauma, malnutrition or exposure to toxins Penicillin is an antibiotic that treats bacterial infection
+Does penicillin cure a learning disability?
+Answer: False
+Question: Bees have an outer protective exoskeleton made of chitin, a polymer of glucose. The human stomach releases harsh acids that break down materials. The human stomach breaks down glucose in about 33 hours.
+Does the human stomach destroy a bee if ingested?
+Answer: True
+Question: Learning disabilities are neurological impairments Neurological impairments can result from genetic issues, developmental problems, and accidents like head trauma, malnutrition or exposure to toxins Penicillin is an antibiotic that treats bacterial infection
+Does penicillin cure a learning disability?
+Answer: False
+Question: Depression is caused by low levels of serotonin, dopamine and norepinephrine. Monoamine Oxidase breaks down neurotransmitters and lowers levels of serotonin, dopamine and norepinephrine.
+Would a Monoamine Oxidase candy bar cheer up a depressed friend?",Answer: False,False
+StrategyQA,3b,"Question: Coopers make barrels. Barrels are used to store certain alcoholic beverages during production.
+Are coopers required in the beverage industry?
+Answer: True
+Question: Eomer died in a skirmish with orcs outside Rohan at the beginning of Two Towers. Gandalf had been killed by the Balrog at the end of Fellowship of the Ring. Gandalf returns with improved powers later on in Two Towers.
+Was Gandalf present at the death of Eomer?
+Answer: False
+Question: Coopers make barrels. Barrels are used to store certain alcoholic beverages during production.
+Are coopers required in the beverage industry?
+Answer: True
+Question: Eomer died in a skirmish with orcs outside Rohan at the beginning of Two Towers. Gandalf had been killed by the Balrog at the end of Fellowship of the Ring. Gandalf returns with improved powers later on in Two Towers.
+Was Gandalf present at the death of Eomer?
+Answer: False
+Question: Depression is caused by low levels of serotonin, dopamine and norepinephrine. Monoamine Oxidase breaks down neurotransmitters and lowers levels of serotonin, dopamine and norepinephrine.
+Would a Monoamine Oxidase candy bar cheer up a depressed friend?",Answer: False,False
+SayCan,0,Question: Put a bag of chips and water bottle on the table.,"I'm sorry, I'm unable to physically place objects on a table as I am a text-based AI. However, you can imagine placing a bag of chips and a water bottle on the table in front of you.","1. find the bag of chips, 2. pick up the bag of chips, 3. go to the table, 4. put down the bag of chips, 5. find a water bottle, 6. pick up the water bottle, 7. go to the table, 8. put down the water bottle, 9. done"
+SayCan,1a,"Question: Bring me a soda that isn’t a coke.
+Answer: 1. find a pepsi, 2. pick up the pepsi, 3. bring it to you, 4. put down the pepsi, 5. done
+Question: Could you get me a drink with caffeine?
+Answer: 1. find a coke, 2. pick up the coke, 3. bring it to you, 4. put down the coke, 5. done.
+Question: Put a bag of chips and water bottle on the table.","Answer: 1. find a bag of chips, 2. pick up the bag of chips, 3. place the bag of chips on the table, 4. find a water bottle, 5. pick up the water bottle, 6. place the water bottle on the table, 7. done.","1. find the bag of chips, 2. pick up the bag of chips, 3. go to the table, 4. put down the bag of chips, 5. find a water bottle, 6. pick up the water bottle, 7. go to the table, 8. put down the water bottle, 9. done"
+SayCan,1b,"Question: Bring me a drink that isn’t an water or a coke.
+Answer: 1. find the tea, 2. pick up the tea, 3. bring it to you, 4. put down the tea, 5. done
+Question: Navigate to the table.
 Answer: 1. go to the table, 2. done
-Question: Provide step-by-step instructions for the following task: How would you move the chips bag from the table to the counter?
-Answer: 1. find the bag of chips, 2. pick up the bag of chips, 3. go to the counter, 4. put down the bag of chips, 5. done
-Question: Provide step-by-step instructions for the following task: How would you put a bag of chips and water bottle on the table?","Answer: 1. Pick up the bag of chips, 2. place the bag of chips on the table, 3. pick up the water bottle, 4. place the water bottle next to the bag of chips on the table, 5. done","1. find the bag of chips, 2. pick up the bag of chips, 3. go to the table, 4. put down the bag of chips, 5. find a water bottle, 6. pick up the water bottle, 7. go to the table, 8. put down the water bottle, 9. done"
-SayCan,1b,"Question: Provide step-by-step instructions for the following task: I’m exhausted, can you bring me a drink?
-Answer: 1. find a redbull, 2. pick up the redbull, 3. bring it to you, 4. put down the redbull, 5. done
-Question: Provide step-by-step instructions for the following task: Bring me a fruit that is not an apple.
-Answer: 1. find an orange, 2. pick up the orange, 3. bring it to you, 4. put down the orange, 5. done
-Question: Provide step-by-step instructions for the following task: How would you put a bag of chips and water bottle on the table?","Answer: 1. Grab the bag of chips with one hand, 2. Grab the water bottle with the other hand, 3. Walk over to the table, 4. Place the bag of chips on the table, 5. Place the water bottle next to the bag of chips, 6. Adjust the positioning if needed, 7. Step back and admire your work.","1. find the bag of chips, 2. pick up the bag of chips, 3. go to the table, 4. put down the bag of chips, 5. find a water bottle, 6. pick up the water bottle, 7. go to the table, 8. put down the water bottle, 9. done"
-SayCan,2,"Question: Provide step-by-step instructions for the following task: Find the table.
+Question: Put a bag of chips and water bottle on the table.","Answer: 1. pick up the bag of chips and water bottle, 2. walk to the table, 3. place the bag of chips and water bottle on the table, 4. done","1. find the bag of chips, 2. pick up the bag of chips, 3. go to the table, 4. put down the bag of chips, 5. find a water bottle, 6. pick up the water bottle, 7. go to the table, 8. put down the water bottle, 9. done"
+SayCan,2,"Question: Bring me a soda that isn’t a coke.
+Answer: 1. find a pepsi, 2. pick up the pepsi, 3. bring it to you, 4. put down the pepsi, 5. done
+Question: Could you get me a drink with caffeine?
+Answer: 1. find a coke, 2. pick up the coke, 3. bring it to you, 4. put down the coke, 5. done.
+Question: Bring me a drink that isn’t an water or a coke.
+Answer: 1. find the tea, 2. pick up the tea, 3. bring it to you, 4. put down the tea, 5. done
+Question: Navigate to the table.
 Answer: 1. go to the table, 2. done
-Question: Provide step-by-step instructions for the following task: How would you move the chips bag from the table to the counter?
-Answer: 1. find the bag of chips, 2. pick up the bag of chips, 3. go to the counter, 4. put down the bag of chips, 5. done
-Question: Provide step-by-step instructions for the following task: I’m exhausted, can you bring me a drink?
-Answer: 1. find a redbull, 2. pick up the redbull, 3. bring it to you, 4. put down the redbull, 5. done
-Question: Provide step-by-step instructions for the following task: Bring me a fruit that is not an apple.
-Answer: 1. find an orange, 2. pick up the orange, 3. bring it to you, 4. put down the orange, 5. done
-Question: Provide step-by-step instructions for the following task: How would you put a bag of chips and water bottle on the table?","Answer: 1. Pick up the bag of chips, 2. Place the bag of chips on the table, 3. Pick up the water bottle, 4. Place the water bottle next to the bag of chips on the table, 5. Done.","1. find the bag of chips, 2. pick up the bag of chips, 3. go to the table, 4. put down the bag of chips, 5. find a water bottle, 6. pick up the water bottle, 7. go to the table, 8. put down the water bottle, 9. done"
-SayCan,3a,"Question: Provide step-by-step instructions for the following task: Find the table.
+Question: Put a bag of chips and water bottle on the table.","Answer: 1. pick up the bag of chips, 2. place it on the table, 3. pick up the water bottle, 4. place it on the table, 5. done.","1. find the bag of chips, 2. pick up the bag of chips, 3. go to the table, 4. put down the bag of chips, 5. find a water bottle, 6. pick up the water bottle, 7. go to the table, 8. put down the water bottle, 9. done"
+SayCan,3a,"Question: Bring me a soda that isn’t a coke.
+Answer: 1. find a pepsi, 2. pick up the pepsi, 3. bring it to you, 4. put down the pepsi, 5. done
+Question: Could you get me a drink with caffeine?
+Answer: 1. find a coke, 2. pick up the coke, 3. bring it to you, 4. put down the coke, 5. done.
+Question: Bring me a soda that isn’t a coke.
+Answer: 1. find a pepsi, 2. pick up the pepsi, 3. bring it to you, 4. put down the pepsi, 5. done
+Question: Could you get me a drink with caffeine?
+Answer: 1. find a coke, 2. pick up the coke, 3. bring it to you, 4. put down the coke, 5. done.
+Question: Put a bag of chips and water bottle on the table.","1. find a bag of chips, 2. pick up the bag of chips, 3. find a water bottle, 4. pick up the water bottle, 5. bring them to the table, 6. put down the bag of chips and water bottle, 7. done","1. find the bag of chips, 2. pick up the bag of chips, 3. go to the table, 4. put down the bag of chips, 5. find a water bottle, 6. pick up the water bottle, 7. go to the table, 8. put down the water bottle, 9. done"
+SayCan,3b,"Question: Bring me a drink that isn’t an water or a coke.
+Answer: 1. find the tea, 2. pick up the tea, 3. bring it to you, 4. put down the tea, 5. done
+Question: Navigate to the table.
 Answer: 1. go to the table, 2. done
-Question: Provide step-by-step instructions for the following task: How would you move the chips bag from the table to the counter?
-Answer: 1. find the bag of chips, 2. pick up the bag of chips, 3. go to the counter, 4. put down the bag of chips, 5. done
-Question: Provide step-by-step instructions for the following task: Find the table.
+Question: Bring me a drink that isn’t an water or a coke.
+Answer: 1. find the tea, 2. pick up the tea, 3. bring it to you, 4. put down the tea, 5. done
+Question: Navigate to the table.
 Answer: 1. go to the table, 2. done
-Question: Provide step-by-step instructions for the following task: How would you move the chips bag from the table to the counter?
-Answer: 1. find the bag of chips, 2. pick up the bag of chips, 3. go to the counter, 4. put down the bag of chips, 5. done
-Question: Provide step-by-step instructions for the following task: How would you put a bag of chips and water bottle on the table?","Answer: 1. Pick up the bag of chips, 2. Place the bag of chips on the table, 3. Pick up the water bottle, 4. Place the water bottle next to the bag of chips on the table, 5. Done","1. find the bag of chips, 2. pick up the bag of chips, 3. go to the table, 4. put down the bag of chips, 5. find a water bottle, 6. pick up the water bottle, 7. go to the table, 8. put down the water bottle, 9. done"
-SayCan,3b,"Question: Provide step-by-step instructions for the following task: I’m exhausted, can you bring me a drink?
-Answer: 1. find a redbull, 2. pick up the redbull, 3. bring it to you, 4. put down the redbull, 5. done
-Question: Provide step-by-step instructions for the following task: Bring me a fruit that is not an apple.
-Answer: 1. find an orange, 2. pick up the orange, 3. bring it to you, 4. put down the orange, 5. done
-Question: Provide step-by-step instructions for the following task: I’m exhausted, can you bring me a drink?
-Answer: 1. find a redbull, 2. pick up the redbull, 3. bring it to you, 4. put down the redbull, 5. done
-Question: Provide step-by-step instructions for the following task: Bring me a fruit that is not an apple.
-Answer: 1. find an orange, 2. pick up the orange, 3. bring it to you, 4. put down the orange, 5. done
-Question: Provide step-by-step instructions for the following task: How would you put a bag of chips and water bottle on the table?",Answer: 1. Pick up the bag of chips with one hand and the water bottle with the other hand. 2. Walk over to the table. 3. Place the bag of chips on the table. 4. Place the water bottle next to the bag of chips. 5. Done.,"1. find the bag of chips, 2. pick up the bag of chips, 3. go to the table, 4. put down the bag of chips, 5. find a water bottle, 6. pick up the water bottle, 7. go to the table, 8. put down the water bottle, 9. done"
+Question: Put a bag of chips and water bottle on the table.","Answer: 1. find the bag of chips and water bottle, 2. pick up the bag of chips and water bottle, 3. bring them to the table, 4. put down the bag of chips and water bottle, 5. done","1. find the bag of chips, 2. pick up the bag of chips, 3. go to the table, 4. put down the bag of chips, 5. find a water bottle, 6. pick up the water bottle, 7. go to the table, 8. put down the water bottle, 9. done"

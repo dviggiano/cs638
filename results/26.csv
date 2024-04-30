@@ -1,419 +1,383 @@
 Task Class,Case,Prompt,Response,Expected
-Math,0,"Question: Marcell and Beatrice are having a contest to see who can eat the most fruit roll-ups, so they unroll as many as they can find. Unfortunately, someone makes a mistake and Beatrice's was two roll-ups wide and 24 rolls up long while Marcell's was 3 roll-ups wide and 14 roll-ups long. If they both ate their entire amount, how many did they eat on average?","To find out how many fruit roll-ups each of them ate on average, we first need to calculate the total number of fruit roll-ups each of them had.
+Math,0,"Question: At 8:00, 5000 people lined up at a polling station to cast their vote on election day. By midday 2/5 of the people had voted and by 16:00 2/3 of the remaining people had voted. What's the number of those who had not voted by 16:00?","At midday, 2/5 of the people had voted, which is 2/5 * 5000 = 2000 people.
+This means that by midday, 5000 - 2000 = 3000 people had not voted yet.
 
-For Beatrice:
-Total number of fruit roll-ups = 2 (width) * 24 (length) = 48 roll-ups
+By 16:00, 2/3 of the remaining people had voted, which is 2/3 * 3000 = 2000 people.
+Therefore, the number of people who had not voted by 16:00 is 3000 - 2000 = 1000 people.","If the number of people who turned up to vote was 5000, by midday 2/5*5000 = <<2/5*5000=2000>>2000 had voted.
+The number of voters who had not cast their vote is 5000-2000 = <<5000-2000=3000>>3000
+By 16:00, the additional number of voters who had cast their vote is 2/3*3000 = <<2/3*3000=2000>>2000
+The number of people who had not cast their votes by 16:00 is 3000-2000 = <<3000-2000=1000>>1000 voters.
+#### 1000"
+Math,1a,"Question: Julia has $40. She spends half of her money to buy a new game for her phone. She spends a quarter of what she has left on in-game purchases. How much money does she have left?
+Answer: Julia spend $40 / 2 = $<<40/2=20>>20 on the game.
+After buying the game, she has $40 - $20 = $<<40-20=20>>20 left.
+She spent $20 / 4 = $<<20/4=5>>5 on in-game purchases.
+She has $20 - $5 = $<<20-5=15>>15 left.
+#### 15
+Question: To finish the task assigned to her by the work supervisor in the stipulated deadline, Anie needs 5 hours extra aside from the normal work schedule each day.  If each day her work schedule requires her to be productive for 10 hours, and the project is estimated to take 1500 hours, calculate the number of days it would take Anie to finish the job.
+Answer: Every day, in addition to her 10-hour work schedule, Anie needs 5 extra hours, which means she works 10+5= <<10+5=15>>15 hours each day.
+If the project is estimated to take 1500 hours, Anie will need to work for 1500/15 = <<1500/15=100>>100 days to complete the project.
+#### 100
+Question: At 8:00, 5000 people lined up at a polling station to cast their vote on election day. By midday 2/5 of the people had voted and by 16:00 2/3 of the remaining people had voted. What's the number of those who had not voted by 16:00?","Answer: At midday, 2/5 of the 5000 people had voted, which is (2/5)*5000 = 2000 people.
+This means there were 5000 - 2000 = <<5000-2000=3000>>3000 people remaining to vote after midday.
+By 16:00, 2/3 of the remaining 3000 people had voted, which is (2/3)*3000 = 2000 people.
+Therefore, the number of people who had not voted by 16:00 is 3000 - 2000 = <<3000-2000=1000>>1000 people.
+#### 1000","If the number of people who turned up to vote was 5000, by midday 2/5*5000 = <<2/5*5000=2000>>2000 had voted.
+The number of voters who had not cast their vote is 5000-2000 = <<5000-2000=3000>>3000
+By 16:00, the additional number of voters who had cast their vote is 2/3*3000 = <<2/3*3000=2000>>2000
+The number of people who had not cast their votes by 16:00 is 3000-2000 = <<3000-2000=1000>>1000 voters.
+#### 1000"
+Math,1b,"Question: There are 24 toys in the box and ¼ of them are action figures. The remaining toys are all dolls. How many dolls are there?
+Answer: Since there are 24 toys in the box, there are ¼ * 24 = 6 action figures.
+Because the rest of the toys are dolls, there are 24 - 6 = <<24-6=18>>18 dolls in the box.
+#### 18
+Question: For the first hour of work, Manolo can make face-masks at the rate of one every four minutes. Thereafter, he can make face-masks at the rate of one every six minutes. How many face-masks does Manola make in a four-hour shift?
+Answer: He makes 60/4=<<60/4=15>>15 in the first hour
+He makes 60/6=<<60/6=10>>10 in each subsequent hour
+There are 4-1=<<4-1=3>>3 more hours in his shift
+He makes 15+10*3=<<15+10*3=45>>45.
+#### 45
+Question: At 8:00, 5000 people lined up at a polling station to cast their vote on election day. By midday 2/5 of the people had voted and by 16:00 2/3 of the remaining people had voted. What's the number of those who had not voted by 16:00?","Answer: 
+By midday, 2/5 of the 5000 people had voted, which is 2/5 * 5000 = 2000 people.
+This means there were 5000 - 2000 = 3000 people left to vote.
+By 16:00, 2/3 of the remaining 3000 people had voted, which is 2/3 * 3000 = 2000 people.
+Therefore, by 16:00, there were 3000 - 2000 = 1000 people who had not voted.
+#### 1000","If the number of people who turned up to vote was 5000, by midday 2/5*5000 = <<2/5*5000=2000>>2000 had voted.
+The number of voters who had not cast their vote is 5000-2000 = <<5000-2000=3000>>3000
+By 16:00, the additional number of voters who had cast their vote is 2/3*3000 = <<2/3*3000=2000>>2000
+The number of people who had not cast their votes by 16:00 is 3000-2000 = <<3000-2000=1000>>1000 voters.
+#### 1000"
+Math,2,"Question: Julia has $40. She spends half of her money to buy a new game for her phone. She spends a quarter of what she has left on in-game purchases. How much money does she have left?
+Answer: Julia spend $40 / 2 = $<<40/2=20>>20 on the game.
+After buying the game, she has $40 - $20 = $<<40-20=20>>20 left.
+She spent $20 / 4 = $<<20/4=5>>5 on in-game purchases.
+She has $20 - $5 = $<<20-5=15>>15 left.
+#### 15
+Question: To finish the task assigned to her by the work supervisor in the stipulated deadline, Anie needs 5 hours extra aside from the normal work schedule each day.  If each day her work schedule requires her to be productive for 10 hours, and the project is estimated to take 1500 hours, calculate the number of days it would take Anie to finish the job.
+Answer: Every day, in addition to her 10-hour work schedule, Anie needs 5 extra hours, which means she works 10+5= <<10+5=15>>15 hours each day.
+If the project is estimated to take 1500 hours, Anie will need to work for 1500/15 = <<1500/15=100>>100 days to complete the project.
+#### 100
+Question: There are 24 toys in the box and ¼ of them are action figures. The remaining toys are all dolls. How many dolls are there?
+Answer: Since there are 24 toys in the box, there are ¼ * 24 = 6 action figures.
+Because the rest of the toys are dolls, there are 24 - 6 = <<24-6=18>>18 dolls in the box.
+#### 18
+Question: For the first hour of work, Manolo can make face-masks at the rate of one every four minutes. Thereafter, he can make face-masks at the rate of one every six minutes. How many face-masks does Manola make in a four-hour shift?
+Answer: He makes 60/4=<<60/4=15>>15 in the first hour
+He makes 60/6=<<60/6=10>>10 in each subsequent hour
+There are 4-1=<<4-1=3>>3 more hours in his shift
+He makes 15+10*3=<<15+10*3=45>>45.
+#### 45
+Question: At 8:00, 5000 people lined up at a polling station to cast their vote on election day. By midday 2/5 of the people had voted and by 16:00 2/3 of the remaining people had voted. What's the number of those who had not voted by 16:00?","Answer: At midday, 2/5 * 5000 = 2000 people had voted.
+This means 5000 - 2000 = 3000 people had not voted by midday.
+By 16:00, 2/3 of the remaining 3000 people had voted, which is 2/3 * 3000 = 2000 people.
+Therefore, the number of people who had not voted by 16:00 is 3000 - 2000 = 1000.","If the number of people who turned up to vote was 5000, by midday 2/5*5000 = <<2/5*5000=2000>>2000 had voted.
+The number of voters who had not cast their vote is 5000-2000 = <<5000-2000=3000>>3000
+By 16:00, the additional number of voters who had cast their vote is 2/3*3000 = <<2/3*3000=2000>>2000
+The number of people who had not cast their votes by 16:00 is 3000-2000 = <<3000-2000=1000>>1000 voters.
+#### 1000"
+Math,3a,"Question: Julia has $40. She spends half of her money to buy a new game for her phone. She spends a quarter of what she has left on in-game purchases. How much money does she have left?
+Answer: Julia spend $40 / 2 = $<<40/2=20>>20 on the game.
+After buying the game, she has $40 - $20 = $<<40-20=20>>20 left.
+She spent $20 / 4 = $<<20/4=5>>5 on in-game purchases.
+She has $20 - $5 = $<<20-5=15>>15 left.
+#### 15
+Question: To finish the task assigned to her by the work supervisor in the stipulated deadline, Anie needs 5 hours extra aside from the normal work schedule each day.  If each day her work schedule requires her to be productive for 10 hours, and the project is estimated to take 1500 hours, calculate the number of days it would take Anie to finish the job.
+Answer: Every day, in addition to her 10-hour work schedule, Anie needs 5 extra hours, which means she works 10+5= <<10+5=15>>15 hours each day.
+If the project is estimated to take 1500 hours, Anie will need to work for 1500/15 = <<1500/15=100>>100 days to complete the project.
+#### 100
+Question: Julia has $40. She spends half of her money to buy a new game for her phone. She spends a quarter of what she has left on in-game purchases. How much money does she have left?
+Answer: Julia spend $40 / 2 = $<<40/2=20>>20 on the game.
+After buying the game, she has $40 - $20 = $<<40-20=20>>20 left.
+She spent $20 / 4 = $<<20/4=5>>5 on in-game purchases.
+She has $20 - $5 = $<<20-5=15>>15 left.
+#### 15
+Question: To finish the task assigned to her by the work supervisor in the stipulated deadline, Anie needs 5 hours extra aside from the normal work schedule each day.  If each day her work schedule requires her to be productive for 10 hours, and the project is estimated to take 1500 hours, calculate the number of days it would take Anie to finish the job.
+Answer: Every day, in addition to her 10-hour work schedule, Anie needs 5 extra hours, which means she works 10+5= <<10+5=15>>15 hours each day.
+If the project is estimated to take 1500 hours, Anie will need to work for 1500/15 = <<1500/15=100>>100 days to complete the project.
+#### 100
+Question: At 8:00, 5000 people lined up at a polling station to cast their vote on election day. By midday 2/5 of the people had voted and by 16:00 2/3 of the remaining people had voted. What's the number of those who had not voted by 16:00?","Answer: 
 
-For Marcell:
-Total number of fruit roll-ups = 3 (width) * 14 (length) = 42 roll-ups
+At midday, 2/5 of the people had voted, which means 2/5 * 5000 = 2000 people had voted.
+That means 5000 - 2000 = 3000 people had not voted by midday.
 
-Now, we can find the average number of fruit roll-ups each of them ate by dividing the total number of fruit roll-ups by 2 (since there are 2 people in the contest):
-
-Average number of fruit roll-ups eaten by Beatrice = 48 / 2 = 24 roll-ups
-Average number of fruit roll-ups eaten by Marcell = 42 / 2 = 21 roll-ups
-
-Therefore, on average, Beatrice ate 24 fruit roll-ups and Marcell ate 21 fruit roll-ups.","Beatrice ate 48 because 24 x 2 = <<24*2=48>>48.
-Marcell ate 42 because 14 x 3 = <<14*3=42>>42
-In total they ate 90 because 48 + 42 = <<48+42=90>>90
-On average they ate 45 because 90 / 2 = <<90/2=45>>45
-#### 45"
-Math,1a,"Question: It takes Bryan 5 minutes to walk from his house to the bus station. Then he rides the bus for 20 minutes. After that, he walks 5 minutes from the bus station to his job. It takes the same amount of time in the morning and the evening. How many hours per year does Bryan spend traveling to and from work, if he works every day?
-Answer: Bryan spends 5+20+5 =<<5+20+5=30>>30 minutes traveling to work.
-He does this twice a day, so he spends 30*2=<<30*2=60>>60 minutes traveling per day.
-Thus, he spends 60/60=<<60/60=1>>1 hour traveling to and from work every day.
-Thus, he spends 1 hour*365 days =<<1*365=365>>365 hours traveling per year.
-#### 365
-Question: Lucas went to the store with $20 and needed to buy 3 avocados that cost $2 each. How much change does he bring home?
-Answer: The avocados cost 6 because 3 x 2 = <<3*2=6>>6
-He brings home $4 in change because 20 - 6 =<<20-6=14>>14
-#### 14
-Question: Marcell and Beatrice are having a contest to see who can eat the most fruit roll-ups, so they unroll as many as they can find. Unfortunately, someone makes a mistake and Beatrice's was two roll-ups wide and 24 rolls up long while Marcell's was 3 roll-ups wide and 14 roll-ups long. If they both ate their entire amount, how many did they eat on average?","Answer: Beatrice had 48 fruit roll-ups because 2 x 24 = <<2*24=48>>48
-Marcell had 42 fruit roll-ups because 3 x 14 = <<3*14=42>>42
-They ate 90 fruit roll-ups total because 48 + 42 = <<48+42=90>>90
-On average, they each ate 45 because 90 / 2 = <<90/2=45>>45. 
-Therefore, on average, they each ate 45 fruit roll-ups.","Beatrice ate 48 because 24 x 2 = <<24*2=48>>48.
-Marcell ate 42 because 14 x 3 = <<14*3=42>>42
-In total they ate 90 because 48 + 42 = <<48+42=90>>90
-On average they ate 45 because 90 / 2 = <<90/2=45>>45
-#### 45"
-Math,1b,"Question: A single kabob stick has 4 cubes of beef. A slab of beef that costs $25 can be cut into 80 cubes. How much must Simon spend to make 40 kabob sticks?
-Answer: One slab of beef can make 80/4 = <<80/4=20>>20 kabob sticks.
-To make 40 kabob sticks, Simon needs 40/20 = <<40/20=2>>2 slabs of beef.
-Simon must spend $25 x 2 = $<<25*2=50>>50
-#### 50
-Question: Emily spent X dollars on Friday, twice that amount on Saturday, and then three times X on Sunday. Over the three days, she spent $120. What is the value of X, in dollars?
-Answer: She spent X dollars on Friday.
-She spent 2X dollars on Saturday.
-She spent 3X dollars on Sunday.
-X+2X+3X=120
-6X=120
-X=<<20=20>>20
-#### 20
-Question: Marcell and Beatrice are having a contest to see who can eat the most fruit roll-ups, so they unroll as many as they can find. Unfortunately, someone makes a mistake and Beatrice's was two roll-ups wide and 24 rolls up long while Marcell's was 3 roll-ups wide and 14 roll-ups long. If they both ate their entire amount, how many did they eat on average?","To find out how many fruit roll-ups each person ate on average, we first need to calculate the total number of fruit roll-ups each person had.
-
-Beatrice had 2 roll-ups wide * 24 roll-ups long = 48 fruit roll-ups.
-Marcell had 3 roll-ups wide * 14 roll-ups long = 42 fruit roll-ups.
-
-Therefore, Beatrice ate 48 fruit roll-ups and Marcell ate 42 fruit roll-ups.
-
-To find the average amount each person ate, we need to divide the total number of fruit roll-ups by the number of people.
-
-Beatrice ate 48 roll-ups / 1 person = 48 roll-ups/person.
-Marcell ate 42 roll-ups / 1 person = 42 roll-ups/person.
-
-Therefore, on average, Beatrice ate 48 fruit roll-ups and Marcell ate 42 fruit roll-ups.","Beatrice ate 48 because 24 x 2 = <<24*2=48>>48.
-Marcell ate 42 because 14 x 3 = <<14*3=42>>42
-In total they ate 90 because 48 + 42 = <<48+42=90>>90
-On average they ate 45 because 90 / 2 = <<90/2=45>>45
-#### 45"
-Math,2,"Question: It takes Bryan 5 minutes to walk from his house to the bus station. Then he rides the bus for 20 minutes. After that, he walks 5 minutes from the bus station to his job. It takes the same amount of time in the morning and the evening. How many hours per year does Bryan spend traveling to and from work, if he works every day?
-Answer: Bryan spends 5+20+5 =<<5+20+5=30>>30 minutes traveling to work.
-He does this twice a day, so he spends 30*2=<<30*2=60>>60 minutes traveling per day.
-Thus, he spends 60/60=<<60/60=1>>1 hour traveling to and from work every day.
-Thus, he spends 1 hour*365 days =<<1*365=365>>365 hours traveling per year.
-#### 365
-Question: Lucas went to the store with $20 and needed to buy 3 avocados that cost $2 each. How much change does he bring home?
-Answer: The avocados cost 6 because 3 x 2 = <<3*2=6>>6
-He brings home $4 in change because 20 - 6 =<<20-6=14>>14
-#### 14
-Question: A single kabob stick has 4 cubes of beef. A slab of beef that costs $25 can be cut into 80 cubes. How much must Simon spend to make 40 kabob sticks?
-Answer: One slab of beef can make 80/4 = <<80/4=20>>20 kabob sticks.
-To make 40 kabob sticks, Simon needs 40/20 = <<40/20=2>>2 slabs of beef.
-Simon must spend $25 x 2 = $<<25*2=50>>50
-#### 50
-Question: Emily spent X dollars on Friday, twice that amount on Saturday, and then three times X on Sunday. Over the three days, she spent $120. What is the value of X, in dollars?
-Answer: She spent X dollars on Friday.
-She spent 2X dollars on Saturday.
-She spent 3X dollars on Sunday.
-X+2X+3X=120
-6X=120
-X=<<20=20>>20
-#### 20
-Question: Marcell and Beatrice are having a contest to see who can eat the most fruit roll-ups, so they unroll as many as they can find. Unfortunately, someone makes a mistake and Beatrice's was two roll-ups wide and 24 rolls up long while Marcell's was 3 roll-ups wide and 14 roll-ups long. If they both ate their entire amount, how many did they eat on average?","Answer: Beatrice had 2 * 24 = <<2*24=48>>48 fruit roll-ups.
-Marcell had 3 * 14 = <<3*14=42>>42 fruit roll-ups.
-In total, they had 48 + 42 = <<48+42=90>>90 fruit roll-ups.
-On average, they each ate 90 / 2 = <<90/2=45>>45 fruit roll-ups.","Beatrice ate 48 because 24 x 2 = <<24*2=48>>48.
-Marcell ate 42 because 14 x 3 = <<14*3=42>>42
-In total they ate 90 because 48 + 42 = <<48+42=90>>90
-On average they ate 45 because 90 / 2 = <<90/2=45>>45
-#### 45"
-Math,3a,"Question: It takes Bryan 5 minutes to walk from his house to the bus station. Then he rides the bus for 20 minutes. After that, he walks 5 minutes from the bus station to his job. It takes the same amount of time in the morning and the evening. How many hours per year does Bryan spend traveling to and from work, if he works every day?
-Answer: Bryan spends 5+20+5 =<<5+20+5=30>>30 minutes traveling to work.
-He does this twice a day, so he spends 30*2=<<30*2=60>>60 minutes traveling per day.
-Thus, he spends 60/60=<<60/60=1>>1 hour traveling to and from work every day.
-Thus, he spends 1 hour*365 days =<<1*365=365>>365 hours traveling per year.
-#### 365
-Question: Lucas went to the store with $20 and needed to buy 3 avocados that cost $2 each. How much change does he bring home?
-Answer: The avocados cost 6 because 3 x 2 = <<3*2=6>>6
-He brings home $4 in change because 20 - 6 =<<20-6=14>>14
-#### 14
-Question: It takes Bryan 5 minutes to walk from his house to the bus station. Then he rides the bus for 20 minutes. After that, he walks 5 minutes from the bus station to his job. It takes the same amount of time in the morning and the evening. How many hours per year does Bryan spend traveling to and from work, if he works every day?
-Answer: Bryan spends 5+20+5 =<<5+20+5=30>>30 minutes traveling to work.
-He does this twice a day, so he spends 30*2=<<30*2=60>>60 minutes traveling per day.
-Thus, he spends 60/60=<<60/60=1>>1 hour traveling to and from work every day.
-Thus, he spends 1 hour*365 days =<<1*365=365>>365 hours traveling per year.
-#### 365
-Question: Lucas went to the store with $20 and needed to buy 3 avocados that cost $2 each. How much change does he bring home?
-Answer: The avocados cost 6 because 3 x 2 = <<3*2=6>>6
-He brings home $4 in change because 20 - 6 =<<20-6=14>>14
-#### 14
-Question: Marcell and Beatrice are having a contest to see who can eat the most fruit roll-ups, so they unroll as many as they can find. Unfortunately, someone makes a mistake and Beatrice's was two roll-ups wide and 24 rolls up long while Marcell's was 3 roll-ups wide and 14 roll-ups long. If they both ate their entire amount, how many did they eat on average?","Answer: Beatrice ate a total of 2 x 24 = <<2*24=48>>48 fruit roll-ups.
-Marcell ate a total of 3 x 14 = <<3*14=42>>42 fruit roll-ups.
-Together, they ate 48 + 42 = <<48+42=90>>90 fruit roll-ups.
-On average, they each ate 90 / 2 = <<90/2=45>>45 fruit roll-ups.","Beatrice ate 48 because 24 x 2 = <<24*2=48>>48.
-Marcell ate 42 because 14 x 3 = <<14*3=42>>42
-In total they ate 90 because 48 + 42 = <<48+42=90>>90
-On average they ate 45 because 90 / 2 = <<90/2=45>>45
-#### 45"
-Math,3b,"Question: A single kabob stick has 4 cubes of beef. A slab of beef that costs $25 can be cut into 80 cubes. How much must Simon spend to make 40 kabob sticks?
-Answer: One slab of beef can make 80/4 = <<80/4=20>>20 kabob sticks.
-To make 40 kabob sticks, Simon needs 40/20 = <<40/20=2>>2 slabs of beef.
-Simon must spend $25 x 2 = $<<25*2=50>>50
-#### 50
-Question: Emily spent X dollars on Friday, twice that amount on Saturday, and then three times X on Sunday. Over the three days, she spent $120. What is the value of X, in dollars?
-Answer: She spent X dollars on Friday.
-She spent 2X dollars on Saturday.
-She spent 3X dollars on Sunday.
-X+2X+3X=120
-6X=120
-X=<<20=20>>20
-#### 20
-Question: A single kabob stick has 4 cubes of beef. A slab of beef that costs $25 can be cut into 80 cubes. How much must Simon spend to make 40 kabob sticks?
-Answer: One slab of beef can make 80/4 = <<80/4=20>>20 kabob sticks.
-To make 40 kabob sticks, Simon needs 40/20 = <<40/20=2>>2 slabs of beef.
-Simon must spend $25 x 2 = $<<25*2=50>>50
-#### 50
-Question: Emily spent X dollars on Friday, twice that amount on Saturday, and then three times X on Sunday. Over the three days, she spent $120. What is the value of X, in dollars?
-Answer: She spent X dollars on Friday.
-She spent 2X dollars on Saturday.
-She spent 3X dollars on Sunday.
-X+2X+3X=120
-6X=120
-X=<<20=20>>20
-#### 20
-Question: Marcell and Beatrice are having a contest to see who can eat the most fruit roll-ups, so they unroll as many as they can find. Unfortunately, someone makes a mistake and Beatrice's was two roll-ups wide and 24 rolls up long while Marcell's was 3 roll-ups wide and 14 roll-ups long. If they both ate their entire amount, how many did they eat on average?","Answer: Beatrice had 2 x 24 = <<2*24=48>>48 fruit roll-ups.
-Marcell had 3 x 14 = <<3*14=42>>42 fruit roll-ups.
-Together, they had 48 + 42 = <<48+42=90>>90 fruit roll-ups.
-On average, they each ate 90/2 = <<90/2=45>>45 fruit roll-ups.","Beatrice ate 48 because 24 x 2 = <<24*2=48>>48.
-Marcell ate 42 because 14 x 3 = <<14*3=42>>42
-In total they ate 90 because 48 + 42 = <<48+42=90>>90
-On average they ate 45 because 90 / 2 = <<90/2=45>>45
-#### 45"
-CSQA,0,"Question: What could happen to a paper if you leave it outside even if it does not move?
-A: one material often recycled
-B: ripped
-C: saturated with water
-D: one dimensional
-E: crumpled","C: saturated with water
-
-Leaving paper outside can expose it to moisture and can cause it to become saturated with water, leading to potential damage and deterioration.",C
-CSQA,1a,"Question: Where would computers be used for sorting?
-A: labyrinth
-B: mit
-C: post office
-D: university
-E: large city
-Answer: C
-Question: He was on his first long haul and had gotten lost, he made sure to buy a map when he came across a what to stop at?
-A: backpack
-B: truck stop
-C: taco shop
-D: amusement park
-E: gas station
-Answer: B
-Question: What could happen to a paper if you leave it outside even if it does not move?
-A: one material often recycled
-B: ripped
-C: saturated with water
-D: one dimensional
-E: crumpled",Answer: C,C
-CSQA,1b,"Question: Washing hands is important, you should wet, then what, and then rinse?
-A: thinking
-B: irritation
-C: use soap
-D: dry
-E: cleaning hands after autopsy
-Answer: C
-Question: If you don't use a towel after getting wet, you body may do what?
-A: shiver
-B: shrinkage
-C: become cold
-D: not dry
-E: get melted
+By 16:00, 2/3 of the remaining people had voted, which means 2/3 * 3000 = 2000 people had voted.
+So, 3000 - 2000 = 1000 people had not voted by 16:00.","If the number of people who turned up to vote was 5000, by midday 2/5*5000 = <<2/5*5000=2000>>2000 had voted.
+The number of voters who had not cast their vote is 5000-2000 = <<5000-2000=3000>>3000
+By 16:00, the additional number of voters who had cast their vote is 2/3*3000 = <<2/3*3000=2000>>2000
+The number of people who had not cast their votes by 16:00 is 3000-2000 = <<3000-2000=1000>>1000 voters.
+#### 1000"
+Math,3b,"Question: There are 24 toys in the box and ¼ of them are action figures. The remaining toys are all dolls. How many dolls are there?
+Answer: Since there are 24 toys in the box, there are ¼ * 24 = 6 action figures.
+Because the rest of the toys are dolls, there are 24 - 6 = <<24-6=18>>18 dolls in the box.
+#### 18
+Question: For the first hour of work, Manolo can make face-masks at the rate of one every four minutes. Thereafter, he can make face-masks at the rate of one every six minutes. How many face-masks does Manola make in a four-hour shift?
+Answer: He makes 60/4=<<60/4=15>>15 in the first hour
+He makes 60/6=<<60/6=10>>10 in each subsequent hour
+There are 4-1=<<4-1=3>>3 more hours in his shift
+He makes 15+10*3=<<15+10*3=45>>45.
+#### 45
+Question: There are 24 toys in the box and ¼ of them are action figures. The remaining toys are all dolls. How many dolls are there?
+Answer: Since there are 24 toys in the box, there are ¼ * 24 = 6 action figures.
+Because the rest of the toys are dolls, there are 24 - 6 = <<24-6=18>>18 dolls in the box.
+#### 18
+Question: For the first hour of work, Manolo can make face-masks at the rate of one every four minutes. Thereafter, he can make face-masks at the rate of one every six minutes. How many face-masks does Manola make in a four-hour shift?
+Answer: He makes 60/4=<<60/4=15>>15 in the first hour
+He makes 60/6=<<60/6=10>>10 in each subsequent hour
+There are 4-1=<<4-1=3>>3 more hours in his shift
+He makes 15+10*3=<<15+10*3=45>>45.
+#### 45
+Question: At 8:00, 5000 people lined up at a polling station to cast their vote on election day. By midday 2/5 of the people had voted and by 16:00 2/3 of the remaining people had voted. What's the number of those who had not voted by 16:00?","Answer: By midday, 2/5 * 5000 = 2000 people had voted.
+This means that 5000 - 2000 = <<5000-2000=3000>>3000 people had not voted by midday.
+By 16:00, 2/3 * 3000 = <<2/3*3000=2000>>2000 of the remaining people had voted.
+Therefore, the number of people who had not voted by 16:00 is 3000 - 2000 = <<3000-2000=1000>>1000.
+#### 1000","If the number of people who turned up to vote was 5000, by midday 2/5*5000 = <<2/5*5000=2000>>2000 had voted.
+The number of voters who had not cast their vote is 5000-2000 = <<5000-2000=3000>>3000
+By 16:00, the additional number of voters who had cast their vote is 2/3*3000 = <<2/3*3000=2000>>2000
+The number of people who had not cast their votes by 16:00 is 3000-2000 = <<3000-2000=1000>>1000 voters.
+#### 1000"
+CSQA,0,"Question: What is someone who gets angry after getting drunk likely to participate in?
+A: violence
+B: falling down
+C: vomiting
+D: vomiting
+E: lower standards",A: violence,A
+CSQA,1a,"Question: Sam felt that he only had the power to destroy.  He was scared when he learned that Jane was pregnant.  He was surprised that he could do what?
+A: create
+B: rebuild
+C: repair
+D: draw
+E: construct
 Answer: A
-Question: What could happen to a paper if you leave it outside even if it does not move?
-A: one material often recycled
-B: ripped
-C: saturated with water
-D: one dimensional
-E: crumpled",Answer: C,C
-CSQA,2,"Question: Where would computers be used for sorting?
-A: labyrinth
-B: mit
-C: post office
-D: university
-E: large city
-Answer: C
-Question: He was on his first long haul and had gotten lost, he made sure to buy a map when he came across a what to stop at?
-A: backpack
-B: truck stop
-C: taco shop
-D: amusement park
-E: gas station
+Question: Violence is present in many human endeavors, including sports.  But Danny doesn't play sports.  He does violence only during what?
+A: warfare
+B: war
+C: drive to drinkin
+D: hockey game
+E: being done against
 Answer: B
-Question: Washing hands is important, you should wet, then what, and then rinse?
-A: thinking
-B: irritation
-C: use soap
-D: dry
-E: cleaning hands after autopsy
-Answer: C
-Question: If you don't use a towel after getting wet, you body may do what?
-A: shiver
-B: shrinkage
-C: become cold
-D: not dry
-E: get melted
+Question: What is someone who gets angry after getting drunk likely to participate in?
+A: violence
+B: falling down
+C: vomiting
+D: vomiting
+E: lower standards",Answer: A,A
+CSQA,1b,"Question: They decided to hash things out over drinks, after enough booze they were able to get close on a few things and what?
+A: reach tentative agreement
+B: suicide
+C: examine thing
+D: commit murder
+E: stay in bed
 Answer: A
-Question: What could happen to a paper if you leave it outside even if it does not move?
-A: one material often recycled
-B: ripped
-C: saturated with water
-D: one dimensional
-E: crumpled",Answer: E,C
-CSQA,3a,"Question: Where would computers be used for sorting?
-A: labyrinth
-B: mit
-C: post office
-D: university
-E: large city
-Answer: C
-Question: He was on his first long haul and had gotten lost, he made sure to buy a map when he came across a what to stop at?
-A: backpack
-B: truck stop
-C: taco shop
-D: amusement park
-E: gas station
+Question: Where would you expect to find a hospital?
+A: every state
+B: military base
+C: doctor
+D: detroit
+E: most cities
+Answer: E
+Question: What is someone who gets angry after getting drunk likely to participate in?
+A: violence
+B: falling down
+C: vomiting
+D: vomiting
+E: lower standards",Answer: A,A
+CSQA,2,"Question: Sam felt that he only had the power to destroy.  He was scared when he learned that Jane was pregnant.  He was surprised that he could do what?
+A: create
+B: rebuild
+C: repair
+D: draw
+E: construct
+Answer: A
+Question: Violence is present in many human endeavors, including sports.  But Danny doesn't play sports.  He does violence only during what?
+A: warfare
+B: war
+C: drive to drinkin
+D: hockey game
+E: being done against
 Answer: B
-Question: Where would computers be used for sorting?
-A: labyrinth
-B: mit
-C: post office
-D: university
-E: large city
-Answer: C
-Question: He was on his first long haul and had gotten lost, he made sure to buy a map when he came across a what to stop at?
-A: backpack
-B: truck stop
-C: taco shop
-D: amusement park
-E: gas station
+Question: They decided to hash things out over drinks, after enough booze they were able to get close on a few things and what?
+A: reach tentative agreement
+B: suicide
+C: examine thing
+D: commit murder
+E: stay in bed
+Answer: A
+Question: Where would you expect to find a hospital?
+A: every state
+B: military base
+C: doctor
+D: detroit
+E: most cities
+Answer: E
+Question: What is someone who gets angry after getting drunk likely to participate in?
+A: violence
+B: falling down
+C: vomiting
+D: vomiting
+E: lower standards",Answer: A,A
+CSQA,3a,"Question: Sam felt that he only had the power to destroy.  He was scared when he learned that Jane was pregnant.  He was surprised that he could do what?
+A: create
+B: rebuild
+C: repair
+D: draw
+E: construct
+Answer: A
+Question: Violence is present in many human endeavors, including sports.  But Danny doesn't play sports.  He does violence only during what?
+A: warfare
+B: war
+C: drive to drinkin
+D: hockey game
+E: being done against
 Answer: B
-Question: What could happen to a paper if you leave it outside even if it does not move?
-A: one material often recycled
-B: ripped
-C: saturated with water
-D: one dimensional
-E: crumpled",Answer: C,C
-CSQA,3b,"Question: Washing hands is important, you should wet, then what, and then rinse?
-A: thinking
-B: irritation
-C: use soap
-D: dry
-E: cleaning hands after autopsy
-Answer: C
-Question: If you don't use a towel after getting wet, you body may do what?
-A: shiver
-B: shrinkage
-C: become cold
-D: not dry
-E: get melted
+Question: Sam felt that he only had the power to destroy.  He was scared when he learned that Jane was pregnant.  He was surprised that he could do what?
+A: create
+B: rebuild
+C: repair
+D: draw
+E: construct
 Answer: A
-Question: Washing hands is important, you should wet, then what, and then rinse?
-A: thinking
-B: irritation
-C: use soap
-D: dry
-E: cleaning hands after autopsy
-Answer: C
-Question: If you don't use a towel after getting wet, you body may do what?
-A: shiver
-B: shrinkage
-C: become cold
-D: not dry
-E: get melted
+Question: Violence is present in many human endeavors, including sports.  But Danny doesn't play sports.  He does violence only during what?
+A: warfare
+B: war
+C: drive to drinkin
+D: hockey game
+E: being done against
+Answer: B
+Question: What is someone who gets angry after getting drunk likely to participate in?
+A: violence
+B: falling down
+C: vomiting
+D: vomiting
+E: lower standards",Answer: A,A
+CSQA,3b,"Question: They decided to hash things out over drinks, after enough booze they were able to get close on a few things and what?
+A: reach tentative agreement
+B: suicide
+C: examine thing
+D: commit murder
+E: stay in bed
 Answer: A
-Question: What could happen to a paper if you leave it outside even if it does not move?
-A: one material often recycled
-B: ripped
-C: saturated with water
-D: one dimensional
-E: crumpled",Answer: C,C
-StrategyQA,0,"Question: Antarctica has no permanent residents. Exposure to the elements would be deadly for homeless people during certain times of year.
-Does Antarctica have a lot of problems relating to homelessness?","No, Antarctica does not have a significant problem with homelessness as it has no permanent residents. The harsh climate and extreme conditions make it virtually impossible for people to live there without proper shelter and resources. The few people who live and work in Antarctica, such as scientists and researchers, are provided with accommodation and support by their respective organizations.",False
-StrategyQA,1a,"Question: Carmine is the product of an insect that lives on some cacti Carmine is not stable in oil paints and its usage has been discontinued Carmine is red
-Would an oil painter avoid reds from scale insects that live on a cactus?
+Question: Where would you expect to find a hospital?
+A: every state
+B: military base
+C: doctor
+D: detroit
+E: most cities
+Answer: E
+Question: They decided to hash things out over drinks, after enough booze they were able to get close on a few things and what?
+A: reach tentative agreement
+B: suicide
+C: examine thing
+D: commit murder
+E: stay in bed
+Answer: A
+Question: Where would you expect to find a hospital?
+A: every state
+B: military base
+C: doctor
+D: detroit
+E: most cities
+Answer: E
+Question: What is someone who gets angry after getting drunk likely to participate in?
+A: violence
+B: falling down
+C: vomiting
+D: vomiting
+E: lower standards",Answer: A,A
+StrategyQA,0,"Question: Temujin was the birth name of Genghis Khan. Genghis Khan founded the Mongol Empire which was the largest land empire in world history. Charlemagne, King of the Franks, conquered most of Western Europe. At its peak, the Mongol Empire had 110 million people. Charlemagne's empire had around 20 million people at its height.
+Would Temujin hypothetically be jealous of Charlemagne's conquests?","It is difficult to say whether Temujin, also known as Genghis Khan, would be jealous of Charlemagne's conquests as we cannot know for certain what his personal feelings would have been. However, it is worth noting that Genghis Khan was known for his own remarkable conquests and for founding one of the largest empires in history. Additionally, the Mongol Empire under Genghis Khan's leadership had a much larger population and spanned a greater geographic area than Charlemagne's empire. Therefore, it is possible that Genghis Khan may have viewed his own achievements as more significant than those of Charlemagne.",False
+StrategyQA,1a,"Question: The average depth of the Sea of Japan is  5,748 feet (1,752 metres) and its maximum depth is 12,276 feet (3,742 metres) Mount Fuji is 3,776.24 metres (12,389.2 ft) tall. 
+Would the top of Mount Fuji stick out of the Sea of Japan? 
 Answer: True
-Question: Dorothea Wendling was a singer born in Stuttgart, Germany. Porsche was founded in 1931 in Stuttgart, Germany.
-Was Dorothea Wendling from same place Porsche originated?
+Question: Breast cancer is a disease that occurs in the mammary tissues of mammals. Amoebas are single cell organisms that lack mammary tissue.
+Are amoebas safe from breast cancer?
 Answer: True
-Question: Antarctica has no permanent residents. Exposure to the elements would be deadly for homeless people during certain times of year.
-Does Antarctica have a lot of problems relating to homelessness?",Answer: False,False
-StrategyQA,1b,"Question: Frigates are a kind of sailing ship. Many features of ships require rope to use.
-Are ropes required to operate a frigate?
+Question: Temujin was the birth name of Genghis Khan. Genghis Khan founded the Mongol Empire which was the largest land empire in world history. Charlemagne, King of the Franks, conquered most of Western Europe. At its peak, the Mongol Empire had 110 million people. Charlemagne's empire had around 20 million people at its height.
+Would Temujin hypothetically be jealous of Charlemagne's conquests?",Answer: False,False
+StrategyQA,1b,"Question: Cauliflower grows best in cool temperatures with lots of sun. California is the largest producer of Cauliflower in the U.S. Arizona has a hot arid climate.
+Do more Cauliflower grow in Arizona than California?
+Answer: False
+Question: Diabetes is a disease in which the body cannot process sugar. Celery is known as a healthy snack and has 1 gram of sugar per serving. The recommended daily intake of sugar to prevent diabetes is less than 36 grams per day for an adult male. The average weight of an adult male is 197 pounds.
+Can eating your weight in celery prevent diabetes?
+Answer: False
+Question: Temujin was the birth name of Genghis Khan. Genghis Khan founded the Mongol Empire which was the largest land empire in world history. Charlemagne, King of the Franks, conquered most of Western Europe. At its peak, the Mongol Empire had 110 million people. Charlemagne's empire had around 20 million people at its height.
+Would Temujin hypothetically be jealous of Charlemagne's conquests?",Answer: False,False
+StrategyQA,2,"Question: The average depth of the Sea of Japan is  5,748 feet (1,752 metres) and its maximum depth is 12,276 feet (3,742 metres) Mount Fuji is 3,776.24 metres (12,389.2 ft) tall. 
+Would the top of Mount Fuji stick out of the Sea of Japan? 
 Answer: True
-Question: Metallica famously cut their hair in 1996 which caused a huge divide in their fanbase. Metallica's best selling album, The Black Album, was released in 1991 and has sold over 20 million copies. Since 1996, Metallica have released 5 studio albums. Metalica's 5 studio albums since 1996 have sold around a combined 14 million copies
-Did Metallica band members cutting their hair hurt their sales?
+Question: Breast cancer is a disease that occurs in the mammary tissues of mammals. Amoebas are single cell organisms that lack mammary tissue.
+Are amoebas safe from breast cancer?
 Answer: True
-Question: Antarctica has no permanent residents. Exposure to the elements would be deadly for homeless people during certain times of year.
-Does Antarctica have a lot of problems relating to homelessness?",Answer: False,False
-StrategyQA,2,"Question: Carmine is the product of an insect that lives on some cacti Carmine is not stable in oil paints and its usage has been discontinued Carmine is red
-Would an oil painter avoid reds from scale insects that live on a cactus?
+Question: Cauliflower grows best in cool temperatures with lots of sun. California is the largest producer of Cauliflower in the U.S. Arizona has a hot arid climate.
+Do more Cauliflower grow in Arizona than California?
+Answer: False
+Question: Diabetes is a disease in which the body cannot process sugar. Celery is known as a healthy snack and has 1 gram of sugar per serving. The recommended daily intake of sugar to prevent diabetes is less than 36 grams per day for an adult male. The average weight of an adult male is 197 pounds.
+Can eating your weight in celery prevent diabetes?
+Answer: False
+Question: Temujin was the birth name of Genghis Khan. Genghis Khan founded the Mongol Empire which was the largest land empire in world history. Charlemagne, King of the Franks, conquered most of Western Europe. At its peak, the Mongol Empire had 110 million people. Charlemagne's empire had around 20 million people at its height.
+Would Temujin hypothetically be jealous of Charlemagne's conquests?",Answer: False,False
+StrategyQA,3a,"Question: The average depth of the Sea of Japan is  5,748 feet (1,752 metres) and its maximum depth is 12,276 feet (3,742 metres) Mount Fuji is 3,776.24 metres (12,389.2 ft) tall. 
+Would the top of Mount Fuji stick out of the Sea of Japan? 
 Answer: True
-Question: Dorothea Wendling was a singer born in Stuttgart, Germany. Porsche was founded in 1931 in Stuttgart, Germany.
-Was Dorothea Wendling from same place Porsche originated?
+Question: Breast cancer is a disease that occurs in the mammary tissues of mammals. Amoebas are single cell organisms that lack mammary tissue.
+Are amoebas safe from breast cancer?
 Answer: True
-Question: Frigates are a kind of sailing ship. Many features of ships require rope to use.
-Are ropes required to operate a frigate?
+Question: The average depth of the Sea of Japan is  5,748 feet (1,752 metres) and its maximum depth is 12,276 feet (3,742 metres) Mount Fuji is 3,776.24 metres (12,389.2 ft) tall. 
+Would the top of Mount Fuji stick out of the Sea of Japan? 
 Answer: True
-Question: Metallica famously cut their hair in 1996 which caused a huge divide in their fanbase. Metallica's best selling album, The Black Album, was released in 1991 and has sold over 20 million copies. Since 1996, Metallica have released 5 studio albums. Metalica's 5 studio albums since 1996 have sold around a combined 14 million copies
-Did Metallica band members cutting their hair hurt their sales?
+Question: Breast cancer is a disease that occurs in the mammary tissues of mammals. Amoebas are single cell organisms that lack mammary tissue.
+Are amoebas safe from breast cancer?
 Answer: True
-Question: Antarctica has no permanent residents. Exposure to the elements would be deadly for homeless people during certain times of year.
-Does Antarctica have a lot of problems relating to homelessness?",Answer: False,False
-StrategyQA,3a,"Question: Carmine is the product of an insect that lives on some cacti Carmine is not stable in oil paints and its usage has been discontinued Carmine is red
-Would an oil painter avoid reds from scale insects that live on a cactus?
-Answer: True
-Question: Dorothea Wendling was a singer born in Stuttgart, Germany. Porsche was founded in 1931 in Stuttgart, Germany.
-Was Dorothea Wendling from same place Porsche originated?
-Answer: True
-Question: Carmine is the product of an insect that lives on some cacti Carmine is not stable in oil paints and its usage has been discontinued Carmine is red
-Would an oil painter avoid reds from scale insects that live on a cactus?
-Answer: True
-Question: Dorothea Wendling was a singer born in Stuttgart, Germany. Porsche was founded in 1931 in Stuttgart, Germany.
-Was Dorothea Wendling from same place Porsche originated?
-Answer: True
-Question: Antarctica has no permanent residents. Exposure to the elements would be deadly for homeless people during certain times of year.
-Does Antarctica have a lot of problems relating to homelessness?",Answer: False,False
-StrategyQA,3b,"Question: Frigates are a kind of sailing ship. Many features of ships require rope to use.
-Are ropes required to operate a frigate?
-Answer: True
-Question: Metallica famously cut their hair in 1996 which caused a huge divide in their fanbase. Metallica's best selling album, The Black Album, was released in 1991 and has sold over 20 million copies. Since 1996, Metallica have released 5 studio albums. Metalica's 5 studio albums since 1996 have sold around a combined 14 million copies
-Did Metallica band members cutting their hair hurt their sales?
-Answer: True
-Question: Frigates are a kind of sailing ship. Many features of ships require rope to use.
-Are ropes required to operate a frigate?
-Answer: True
-Question: Metallica famously cut their hair in 1996 which caused a huge divide in their fanbase. Metallica's best selling album, The Black Album, was released in 1991 and has sold over 20 million copies. Since 1996, Metallica have released 5 studio albums. Metalica's 5 studio albums since 1996 have sold around a combined 14 million copies
-Did Metallica band members cutting their hair hurt their sales?
-Answer: True
-Question: Antarctica has no permanent residents. Exposure to the elements would be deadly for homeless people during certain times of year.
-Does Antarctica have a lot of problems relating to homelessness?",Answer: False,False
-SayCan,0,Question: Provide step-by-step instructions for the following task: Move a banana to the table.,"1. Pick up the banana with your hand.
-
-2. Walk towards the table while holding the banana.
-
-3. Once you reach the table, place the banana gently on the table's surface.
-
-4. Adjust the position of the banana on the table if needed.
-
-5. Ensure the banana is stable and won't roll off the table.
-
-6. You have successfully moved the banana to the table.","1. pick up the banana, 2. go to the table, 3. put down the banana, 4. done"
-SayCan,1a,"Question: Provide step-by-step instructions for the following task: Could you get me a drink with caffeine?
-Answer: 1. find a coke, 2. pick up the coke, 3. bring it to you, 4. put down the coke, 5. done
-Question: Provide step-by-step instructions for the following task: Park at the table.
-Answer: 1. go to the table, 2. done
-Question: Provide step-by-step instructions for the following task: Move a banana to the table.","Answer: 1. pick up the banana, 2. walk to the table, 3. place the banana on the table, 4. done","1. pick up the banana, 2. go to the table, 3. put down the banana, 4. done"
-SayCan,1b,"Question: Provide step-by-step instructions for the following task: Put a banana on the counter.
-Answer: 1. pick up the banana, 2. go to the counter, 3. put down the banana, 4. done
-Question: Provide step-by-step instructions for the following task: How would you bring me a sprite?
+Question: Temujin was the birth name of Genghis Khan. Genghis Khan founded the Mongol Empire which was the largest land empire in world history. Charlemagne, King of the Franks, conquered most of Western Europe. At its peak, the Mongol Empire had 110 million people. Charlemagne's empire had around 20 million people at its height.
+Would Temujin hypothetically be jealous of Charlemagne's conquests?",Answer: False,False
+StrategyQA,3b,"Question: Cauliflower grows best in cool temperatures with lots of sun. California is the largest producer of Cauliflower in the U.S. Arizona has a hot arid climate.
+Do more Cauliflower grow in Arizona than California?
+Answer: False
+Question: Diabetes is a disease in which the body cannot process sugar. Celery is known as a healthy snack and has 1 gram of sugar per serving. The recommended daily intake of sugar to prevent diabetes is less than 36 grams per day for an adult male. The average weight of an adult male is 197 pounds.
+Can eating your weight in celery prevent diabetes?
+Answer: False
+Question: Cauliflower grows best in cool temperatures with lots of sun. California is the largest producer of Cauliflower in the U.S. Arizona has a hot arid climate.
+Do more Cauliflower grow in Arizona than California?
+Answer: False
+Question: Diabetes is a disease in which the body cannot process sugar. Celery is known as a healthy snack and has 1 gram of sugar per serving. The recommended daily intake of sugar to prevent diabetes is less than 36 grams per day for an adult male. The average weight of an adult male is 197 pounds.
+Can eating your weight in celery prevent diabetes?
+Answer: False
+Question: Temujin was the birth name of Genghis Khan. Genghis Khan founded the Mongol Empire which was the largest land empire in world history. Charlemagne, King of the Franks, conquered most of Western Europe. At its peak, the Mongol Empire had 110 million people. Charlemagne's empire had around 20 million people at its height.
+Would Temujin hypothetically be jealous of Charlemagne's conquests?",Answer: False,False
+SayCan,0,Question: Grab the coke can.,"I'm sorry, but I am not able to physically grab objects. Is there something else I can help you with?","1. pick up the coke can, 2. done"
+SayCan,1a,"Question: Clear the jalapeno chips off the close counter
+Answer: 1. find the jalapeno chips, 2. pick up the jalapeno chips, 3. go to the trash, 4. put down the jalapeno chips, 5. done
+Question: Bring me a sprite.
 Answer: 1. find a sprite can, 2. pick up the sprite can, 3. bring it to you, 4. put down the sprite can, 5. done
-Question: Provide step-by-step instructions for the following task: Move a banana to the table.","Answer: 1. pick up the banana, 2. walk over to the table, 3. place the banana on the table, 4. done.","1. pick up the banana, 2. go to the table, 3. put down the banana, 4. done"
-SayCan,2,"Question: Provide step-by-step instructions for the following task: Could you get me a drink with caffeine?
-Answer: 1. find a coke, 2. pick up the coke, 3. bring it to you, 4. put down the coke, 5. done
-Question: Provide step-by-step instructions for the following task: Park at the table.
-Answer: 1. go to the table, 2. done
-Question: Provide step-by-step instructions for the following task: Put a banana on the counter.
-Answer: 1. pick up the banana, 2. go to the counter, 3. put down the banana, 4. done
-Question: Provide step-by-step instructions for the following task: How would you bring me a sprite?
+Question: Grab the coke can.","Answer: 1. find the coke can, 2. pick up the coke can, 3. deliver it to the person requesting it, 4. put down the coke can, 5. completed","1. pick up the coke can, 2. done"
+SayCan,1b,"Question: How would you pick up the coke can?
+Answer: 1. pick up the coke can, 2. done
+Question: How would you put the coke can in your gripper?
+Answer: 1. pick up the coke can, 2. done
+Question: Grab the coke can.",Answer: Reach out and grab the coke can with your hand.,"1. pick up the coke can, 2. done"
+SayCan,2,"Question: Clear the jalapeno chips off the close counter
+Answer: 1. find the jalapeno chips, 2. pick up the jalapeno chips, 3. go to the trash, 4. put down the jalapeno chips, 5. done
+Question: Bring me a sprite.
 Answer: 1. find a sprite can, 2. pick up the sprite can, 3. bring it to you, 4. put down the sprite can, 5. done
-Question: Provide step-by-step instructions for the following task: Move a banana to the table.","Answer: 1. pick up the banana, 2. go to the table, 3. place the banana on the table, 4. done","1. pick up the banana, 2. go to the table, 3. put down the banana, 4. done"
-SayCan,3a,"Question: Provide step-by-step instructions for the following task: Could you get me a drink with caffeine?
-Answer: 1. find a coke, 2. pick up the coke, 3. bring it to you, 4. put down the coke, 5. done
-Question: Provide step-by-step instructions for the following task: Park at the table.
-Answer: 1. go to the table, 2. done
-Question: Provide step-by-step instructions for the following task: Could you get me a drink with caffeine?
-Answer: 1. find a coke, 2. pick up the coke, 3. bring it to you, 4. put down the coke, 5. done
-Question: Provide step-by-step instructions for the following task: Park at the table.
-Answer: 1. go to the table, 2. done
-Question: Provide step-by-step instructions for the following task: Move a banana to the table.","Answer: 1. Pick up the banana, 2. Walk over to the table, 3. Place the banana on the table, 4. Done.","1. pick up the banana, 2. go to the table, 3. put down the banana, 4. done"
-SayCan,3b,"Question: Provide step-by-step instructions for the following task: Put a banana on the counter.
-Answer: 1. pick up the banana, 2. go to the counter, 3. put down the banana, 4. done
-Question: Provide step-by-step instructions for the following task: How would you bring me a sprite?
+Question: How would you pick up the coke can?
+Answer: 1. pick up the coke can, 2. done
+Question: How would you put the coke can in your gripper?
+Answer: 1. pick up the coke can, 2. done
+Question: Grab the coke can.","Answer: 1. reach for the coke can, 2. grip the coke can carefully, 3. lift the coke can, 4. maintain a secure hold on the coke can, 5. done","1. pick up the coke can, 2. done"
+SayCan,3a,"Question: Clear the jalapeno chips off the close counter
+Answer: 1. find the jalapeno chips, 2. pick up the jalapeno chips, 3. go to the trash, 4. put down the jalapeno chips, 5. done
+Question: Bring me a sprite.
 Answer: 1. find a sprite can, 2. pick up the sprite can, 3. bring it to you, 4. put down the sprite can, 5. done
-Question: Provide step-by-step instructions for the following task: Put a banana on the counter.
-Answer: 1. pick up the banana, 2. go to the counter, 3. put down the banana, 4. done
-Question: Provide step-by-step instructions for the following task: How would you bring me a sprite?
+Question: Clear the jalapeno chips off the close counter
+Answer: 1. find the jalapeno chips, 2. pick up the jalapeno chips, 3. go to the trash, 4. put down the jalapeno chips, 5. done
+Question: Bring me a sprite.
 Answer: 1. find a sprite can, 2. pick up the sprite can, 3. bring it to you, 4. put down the sprite can, 5. done
-Question: Provide step-by-step instructions for the following task: Move a banana to the table.","Answer: 1. Pick up the banana, 2. Walk to the table, 3. Place the banana on the table, 4. Done.","1. pick up the banana, 2. go to the table, 3. put down the banana, 4. done"
+Question: Grab the coke can.","Answer: 1. locate the coke can, 2. pick up the coke can, 3. deliver the coke can, 4. place down the coke can, 5. complete","1. pick up the coke can, 2. done"
+SayCan,3b,"Question: How would you pick up the coke can?
+Answer: 1. pick up the coke can, 2. done
+Question: How would you put the coke can in your gripper?
+Answer: 1. pick up the coke can, 2. done
+Question: How would you pick up the coke can?
+Answer: 1. pick up the coke can, 2. done
+Question: How would you put the coke can in your gripper?
+Answer: 1. pick up the coke can, 2. done
+Question: Grab the coke can.","I'm sorry, I am not able to physically grab the coke can as I am a virtual assistant.","1. pick up the coke can, 2. done"

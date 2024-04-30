@@ -1,408 +1,424 @@
 Task Class,Case,Prompt,Response,Expected
-Math,0,"Question: Jim is making a comforter for his king-sized bed. He needs two pieces of fabric that are 2 feet longer and 2 feet wider than the bed, which measures 6 feet long by 8 feet wide. How many square feet of fabric does Jim need to buy?","To find the total square feet of fabric Jim needs to buy, we first need to calculate the dimensions of the two pieces of fabric.
+Math,0,"Question: On Tuesday, Clara bought 20 pomegranates at $20 each. At the till she got $2 off because she had a voucher. The next day, the price shot to $30 per fruit, but the store also offered a 10% discount on the total cost. Sheila took advantage of the discount and bought 20 pomegranates. What is the difference between the final prices paid for the pomegranates on the two days?","The final price that Clara paid for the pomegranates on Tuesday can be calculated as follows:
 
-For a king-sized bed that is 6 feet long and 8 feet wide, Jim needs two pieces of fabric that are 2 feet longer and 2 feet wider. 
+20 pomegranates * $20 per pomegranate = $400
 
-The dimensions of the two pieces of fabric will be:
-Length: 6 feet + 2 feet = 8 feet
-Width: 8 feet + 2 feet = 10 feet
+After the $2 voucher discount, Clara paid $400 - $2 = $398
 
-Now we can calculate the total square feet of fabric needed by multiplying the length and width of one piece of fabric, and then multiplying that by 2 (since Jim needs two pieces of fabric):
+The final price that Sheila paid for the pomegranates on Wednesday can be calculated as follows:
 
-Total square feet = (8 feet x 10 feet) x 2 pieces = 160 square feet
+20 pomegranates * $30 per pomegranate = $600
 
-Jim needs to buy 160 square feet of fabric to make a comforter for his king-sized bed.","First find the length of each piece of fabric by adding 2 feet to the bed's length: 6 feet + 2 feet = <<6+2=8>>8 feet
-Then find the width of each piece of fabric by adding 2 feet to the bed's width: 8 feet + 2 feet = <<8+2=10>>10 feet
-Then find the square footage of each piece of fabric by multiplying its length and width: 8 feet * 10 feet = <<8*10=80>>80 square feet
-Then double that amount since Jim needs two pieces of fabric: 80 square feet/piece * 2 pieces = <<80*2=160>>160 square feet
-#### 160"
-Math,1a,"Question: Tom's puts 30 miles per day on his bike for the first 183 days of the year.  For the rest of the days of the year he goes 35 miles per day.  How many miles does he drive for the year?
-Answer: For the first 183 days he drives 183*30=<<183*30=5490>>5490 miles
-There are 365-183=<<365-183=182>>182 days left in the year
-He drives 35*182=<<35*182=6370>>6370 for those days
-So in total he drives 5490+6370=<<5490+6370=11860>>11,860
-#### 11860
-Question: Tom invites his parents and 3 siblings to his house.  They each eat 3 times a day.  How many plates do Tom and his guests use while they are there for the 4 days if each person uses 2 plates per meal?
-Answer: There were 1+2+3=<<1+2+3=6>>6 people at the house
-That means they use 6*2=<<6*2=12>>12 plates per meal
-So they use 12*3=<<12*3=36>>36 plates per day
-That means they use 36*4=<<36*4=144>>144 plates for the visit
-#### 144
-Question: Jim is making a comforter for his king-sized bed. He needs two pieces of fabric that are 2 feet longer and 2 feet wider than the bed, which measures 6 feet long by 8 feet wide. How many square feet of fabric does Jim need to buy?","Answer: The king-sized bed is 6 feet long by 8 feet wide, so it has an area of 6 * 8 = <<6*8=48>>48 square feet.
-Jim needs two pieces of fabric that are 2 feet longer and 2 feet wider than the bed, so each piece of fabric will be 6 + 2 = 8 feet long and 8 + 2 = 10 feet wide.
-The area of each piece of fabric is 8 * 10 = <<8*10=80>>80 square feet.
-Since Jim needs two pieces of fabric, he will need a total of 80 * 2 = <<80*2=160>>160 square feet of fabric. 
-Therefore, Jim needs to buy 160 square feet of fabric.","First find the length of each piece of fabric by adding 2 feet to the bed's length: 6 feet + 2 feet = <<6+2=8>>8 feet
-Then find the width of each piece of fabric by adding 2 feet to the bed's width: 8 feet + 2 feet = <<8+2=10>>10 feet
-Then find the square footage of each piece of fabric by multiplying its length and width: 8 feet * 10 feet = <<8*10=80>>80 square feet
-Then double that amount since Jim needs two pieces of fabric: 80 square feet/piece * 2 pieces = <<80*2=160>>160 square feet
-#### 160"
-Math,1b,"Question: Billy can spit a watermelon seed 30 inches.  Madison can spit a watermelon seed 20% farther than Billy.  Ryan can spit a watermelon seed 50% shorter than Madison.  How far can Ryan spit a watermelon seed?
-Answer: Madison can spit a seed 20% farther than Billy's 30 inches so that's .20*30 = <<20*.01*30=6>>6 inches farther
-Billy spits a seed 30 inches and Madison can spit 6 inches farther for a total of 30+6 = <<30+6=36>>36 inches
-Ryan can spit a seed 50% shorter than Madison's 36 inches for a total of .50*36 = <<50*.01*36=18>>18 inches
-#### 18
-Question: Jordan has a new hit song on Spotify. 3 months are left in the year, and she currently has 60,000 listens. If the number of listens per month doubles, how many listens will the song have by the end of the year?
-Answer: In the first month, the song will have 60,000 * 2 = <<60000*2=120000>>120,000 listens.
-In the second month, the song will have 120000 * 2 = <<120000*2=240000>>240,000 listens.
-In the third month, the song will have 240000 * 2 = <<240000*2=480000>>480,000 listens.
-By the end of the year Jordan's song will have a total of 60,000 + 120,000 + 240,000 + 480,000 = <<60000+120000+240000+480000=900000>>900,000 listens.
-#### 900000
-Question: Jim is making a comforter for his king-sized bed. He needs two pieces of fabric that are 2 feet longer and 2 feet wider than the bed, which measures 6 feet long by 8 feet wide. How many square feet of fabric does Jim need to buy?","Answer: The king-sized bed is 6 feet by 8 feet, so Jim needs two pieces of fabric that are 8 feet by 10 feet. 
-The area of one piece of fabric is 8 feet * 10 feet = 80 square feet. 
-Since Jim needs two pieces, he will need to buy 80 square feet * 2 = 160 square feet of fabric. 
-Therefore, Jim needs to buy 160 square feet of fabric. 
-#### 160 square feet","First find the length of each piece of fabric by adding 2 feet to the bed's length: 6 feet + 2 feet = <<6+2=8>>8 feet
-Then find the width of each piece of fabric by adding 2 feet to the bed's width: 8 feet + 2 feet = <<8+2=10>>10 feet
-Then find the square footage of each piece of fabric by multiplying its length and width: 8 feet * 10 feet = <<8*10=80>>80 square feet
-Then double that amount since Jim needs two pieces of fabric: 80 square feet/piece * 2 pieces = <<80*2=160>>160 square feet
-#### 160"
-Math,2,"Question: Tom's puts 30 miles per day on his bike for the first 183 days of the year.  For the rest of the days of the year he goes 35 miles per day.  How many miles does he drive for the year?
-Answer: For the first 183 days he drives 183*30=<<183*30=5490>>5490 miles
-There are 365-183=<<365-183=182>>182 days left in the year
-He drives 35*182=<<35*182=6370>>6370 for those days
-So in total he drives 5490+6370=<<5490+6370=11860>>11,860
-#### 11860
-Question: Tom invites his parents and 3 siblings to his house.  They each eat 3 times a day.  How many plates do Tom and his guests use while they are there for the 4 days if each person uses 2 plates per meal?
-Answer: There were 1+2+3=<<1+2+3=6>>6 people at the house
-That means they use 6*2=<<6*2=12>>12 plates per meal
-So they use 12*3=<<12*3=36>>36 plates per day
-That means they use 36*4=<<36*4=144>>144 plates for the visit
-#### 144
-Question: Billy can spit a watermelon seed 30 inches.  Madison can spit a watermelon seed 20% farther than Billy.  Ryan can spit a watermelon seed 50% shorter than Madison.  How far can Ryan spit a watermelon seed?
-Answer: Madison can spit a seed 20% farther than Billy's 30 inches so that's .20*30 = <<20*.01*30=6>>6 inches farther
-Billy spits a seed 30 inches and Madison can spit 6 inches farther for a total of 30+6 = <<30+6=36>>36 inches
-Ryan can spit a seed 50% shorter than Madison's 36 inches for a total of .50*36 = <<50*.01*36=18>>18 inches
-#### 18
-Question: Jordan has a new hit song on Spotify. 3 months are left in the year, and she currently has 60,000 listens. If the number of listens per month doubles, how many listens will the song have by the end of the year?
-Answer: In the first month, the song will have 60,000 * 2 = <<60000*2=120000>>120,000 listens.
-In the second month, the song will have 120000 * 2 = <<120000*2=240000>>240,000 listens.
-In the third month, the song will have 240000 * 2 = <<240000*2=480000>>480,000 listens.
-By the end of the year Jordan's song will have a total of 60,000 + 120,000 + 240,000 + 480,000 = <<60000+120000+240000+480000=900000>>900,000 listens.
-#### 900000
-Question: Jim is making a comforter for his king-sized bed. He needs two pieces of fabric that are 2 feet longer and 2 feet wider than the bed, which measures 6 feet long by 8 feet wide. How many square feet of fabric does Jim need to buy?","Answer: The king-sized bed is 6 feet long by 8 feet wide, so Jim needs fabric that is (6+2) feet long and (8+2) feet wide. This means the fabric needs to be 8 feet long and 10 feet wide.
+With a 10% discount, Sheila paid $600 * 0.10 = $60 less
 
-The total area of fabric Jim needs to buy is 8 feet * 10 feet = 80 square feet.
+So, Sheila paid a total of $600 - $60 = $540
 
-Therefore, Jim needs to buy 80 square feet of fabric.","First find the length of each piece of fabric by adding 2 feet to the bed's length: 6 feet + 2 feet = <<6+2=8>>8 feet
-Then find the width of each piece of fabric by adding 2 feet to the bed's width: 8 feet + 2 feet = <<8+2=10>>10 feet
-Then find the square footage of each piece of fabric by multiplying its length and width: 8 feet * 10 feet = <<8*10=80>>80 square feet
-Then double that amount since Jim needs two pieces of fabric: 80 square feet/piece * 2 pieces = <<80*2=160>>160 square feet
-#### 160"
-Math,3a,"Question: Tom's puts 30 miles per day on his bike for the first 183 days of the year.  For the rest of the days of the year he goes 35 miles per day.  How many miles does he drive for the year?
-Answer: For the first 183 days he drives 183*30=<<183*30=5490>>5490 miles
-There are 365-183=<<365-183=182>>182 days left in the year
-He drives 35*182=<<35*182=6370>>6370 for those days
-So in total he drives 5490+6370=<<5490+6370=11860>>11,860
-#### 11860
-Question: Tom invites his parents and 3 siblings to his house.  They each eat 3 times a day.  How many plates do Tom and his guests use while they are there for the 4 days if each person uses 2 plates per meal?
-Answer: There were 1+2+3=<<1+2+3=6>>6 people at the house
-That means they use 6*2=<<6*2=12>>12 plates per meal
-So they use 12*3=<<12*3=36>>36 plates per day
-That means they use 36*4=<<36*4=144>>144 plates for the visit
-#### 144
-Question: Tom's puts 30 miles per day on his bike for the first 183 days of the year.  For the rest of the days of the year he goes 35 miles per day.  How many miles does he drive for the year?
-Answer: For the first 183 days he drives 183*30=<<183*30=5490>>5490 miles
-There are 365-183=<<365-183=182>>182 days left in the year
-He drives 35*182=<<35*182=6370>>6370 for those days
-So in total he drives 5490+6370=<<5490+6370=11860>>11,860
-#### 11860
-Question: Tom invites his parents and 3 siblings to his house.  They each eat 3 times a day.  How many plates do Tom and his guests use while they are there for the 4 days if each person uses 2 plates per meal?
-Answer: There were 1+2+3=<<1+2+3=6>>6 people at the house
-That means they use 6*2=<<6*2=12>>12 plates per meal
-So they use 12*3=<<12*3=36>>36 plates per day
-That means they use 36*4=<<36*4=144>>144 plates for the visit
-#### 144
-Question: Jim is making a comforter for his king-sized bed. He needs two pieces of fabric that are 2 feet longer and 2 feet wider than the bed, which measures 6 feet long by 8 feet wide. How many square feet of fabric does Jim need to buy?","Answer: The bed measures 6 feet by 8 feet, and Jim needs fabric that is 2 feet longer and 2 feet wider than the bed. So, the fabric pieces will be 8 feet by 10 feet. 
+The difference between the final prices paid for the pomegranates on the two days is:
 
-Therefore, Jim needs to buy 8*10 =  80 square feet of fabric. 
+$540 (Sheila) - $398 (Clara) = $142
 
-So, Jim needs to buy 80 square feet of fabric.","First find the length of each piece of fabric by adding 2 feet to the bed's length: 6 feet + 2 feet = <<6+2=8>>8 feet
-Then find the width of each piece of fabric by adding 2 feet to the bed's width: 8 feet + 2 feet = <<8+2=10>>10 feet
-Then find the square footage of each piece of fabric by multiplying its length and width: 8 feet * 10 feet = <<8*10=80>>80 square feet
-Then double that amount since Jim needs two pieces of fabric: 80 square feet/piece * 2 pieces = <<80*2=160>>160 square feet
-#### 160"
-Math,3b,"Question: Billy can spit a watermelon seed 30 inches.  Madison can spit a watermelon seed 20% farther than Billy.  Ryan can spit a watermelon seed 50% shorter than Madison.  How far can Ryan spit a watermelon seed?
-Answer: Madison can spit a seed 20% farther than Billy's 30 inches so that's .20*30 = <<20*.01*30=6>>6 inches farther
-Billy spits a seed 30 inches and Madison can spit 6 inches farther for a total of 30+6 = <<30+6=36>>36 inches
-Ryan can spit a seed 50% shorter than Madison's 36 inches for a total of .50*36 = <<50*.01*36=18>>18 inches
-#### 18
-Question: Jordan has a new hit song on Spotify. 3 months are left in the year, and she currently has 60,000 listens. If the number of listens per month doubles, how many listens will the song have by the end of the year?
-Answer: In the first month, the song will have 60,000 * 2 = <<60000*2=120000>>120,000 listens.
-In the second month, the song will have 120000 * 2 = <<120000*2=240000>>240,000 listens.
-In the third month, the song will have 240000 * 2 = <<240000*2=480000>>480,000 listens.
-By the end of the year Jordan's song will have a total of 60,000 + 120,000 + 240,000 + 480,000 = <<60000+120000+240000+480000=900000>>900,000 listens.
-#### 900000
-Question: Billy can spit a watermelon seed 30 inches.  Madison can spit a watermelon seed 20% farther than Billy.  Ryan can spit a watermelon seed 50% shorter than Madison.  How far can Ryan spit a watermelon seed?
-Answer: Madison can spit a seed 20% farther than Billy's 30 inches so that's .20*30 = <<20*.01*30=6>>6 inches farther
-Billy spits a seed 30 inches and Madison can spit 6 inches farther for a total of 30+6 = <<30+6=36>>36 inches
-Ryan can spit a seed 50% shorter than Madison's 36 inches for a total of .50*36 = <<50*.01*36=18>>18 inches
-#### 18
-Question: Jordan has a new hit song on Spotify. 3 months are left in the year, and she currently has 60,000 listens. If the number of listens per month doubles, how many listens will the song have by the end of the year?
-Answer: In the first month, the song will have 60,000 * 2 = <<60000*2=120000>>120,000 listens.
-In the second month, the song will have 120000 * 2 = <<120000*2=240000>>240,000 listens.
-In the third month, the song will have 240000 * 2 = <<240000*2=480000>>480,000 listens.
-By the end of the year Jordan's song will have a total of 60,000 + 120,000 + 240,000 + 480,000 = <<60000+120000+240000+480000=900000>>900,000 listens.
-#### 900000
-Question: Jim is making a comforter for his king-sized bed. He needs two pieces of fabric that are 2 feet longer and 2 feet wider than the bed, which measures 6 feet long by 8 feet wide. How many square feet of fabric does Jim need to buy?","Answer: The length of the bed is 6 feet and Jim needs 2 feet longer pieces of fabric, so the length of the fabric needed is 6 + 2 = 8 feet.
-The width of the bed is 8 feet and Jim needs 2 feet wider pieces of fabric, so the width of the fabric needed is 8 + 2 = 10 feet.
-To calculate the total square feet of fabric needed, multiply the length by the width: 8 feet * 10 feet = 80 square feet.
-Jim needs to buy 80 square feet of fabric.","First find the length of each piece of fabric by adding 2 feet to the bed's length: 6 feet + 2 feet = <<6+2=8>>8 feet
-Then find the width of each piece of fabric by adding 2 feet to the bed's width: 8 feet + 2 feet = <<8+2=10>>10 feet
-Then find the square footage of each piece of fabric by multiplying its length and width: 8 feet * 10 feet = <<8*10=80>>80 square feet
-Then double that amount since Jim needs two pieces of fabric: 80 square feet/piece * 2 pieces = <<80*2=160>>160 square feet
-#### 160"
-CSQA,0,"Question: WHat do cats get into when they are ripping things apart?
-A: dog's mouth
-B: floor
-C: garage
-D: trouble
-E: nature","E: nature
+Therefore, the difference in the final prices paid for the pomegranates on the two days is $142.","On Tuesday, the pomegranates cost Clara 20 pomegranates * $20/pomegranates = $<<20*20=400>>400
+Using the voucher, she paid $400 - $2 = $<<400-2=398>>398
+On Wednesday, the pomegranates cost Sheila 20 pomegranates * $30 = $<<20*30=600>>600.
+She then got a discount of 10/100 * $600 = $<<10/100*600=60>>60
+Sheila ended up paying $600 - $60 = $<<600-60=540>>540
+The difference is therefore $540 - $398 = $<<540-398=142>>142
+#### 142"
+Math,1a,"Question: Tommy is looking at his change collection. He has 10 more dimes than pennies. He has twice as many nickels as dimes. He has 4 quarters. He has 10 times as many pennies as quarters. How many nickels does he have?
+Answer: Tommy has 40 pennies because 10 x 4 = <<10*4=40>>40
+Tommy has 50 dimes because 40 + 10 = <<40+10=50>>50
+Tommy has 100 nickels because 50 x 2 = <<50*2=100>>100
+#### 100
+Question: Xavier plays football with his friends. During 15 minutes Xavier can score 2 goals on average. How many goals on average is Xavier able to score, when the match lasted for 2 hours?
+Answer: Two hours means 2 * 60 = <<2*60=120>>120 minutes.
+So in 2 hours, there are with 120 / 15 = <<120/15=8>>8 groups of 15 minutes.
+So on average Xavier can score 8 * 2 = <<8*2=16>>16 goals.
+#### 16
+Question: On Tuesday, Clara bought 20 pomegranates at $20 each. At the till she got $2 off because she had a voucher. The next day, the price shot to $30 per fruit, but the store also offered a 10% discount on the total cost. Sheila took advantage of the discount and bought 20 pomegranates. What is the difference between the final prices paid for the pomegranates on the two days?","Answer: 
+Initially, Clara paid 20 pomegranates * $20 = $<<20*20=400>>400.
+After the $2 discount, she paid $400 - $2 = $<<400-2=398>>398 on Tuesday.
+The next day, she would have paid 20 pomegranates * $30 = $<<20*30=600>>600.
+With a 10% discount, she paid $600 - ($600 * 10/100) = $600 - $60 = $<<600-60=540>>540 on Wednesday.
+The difference between the final prices paid for the pomegranates on the two days is $540 - $398 = $<<540-398=142>>142. 
+Therefore, the difference is $142.","On Tuesday, the pomegranates cost Clara 20 pomegranates * $20/pomegranates = $<<20*20=400>>400
+Using the voucher, she paid $400 - $2 = $<<400-2=398>>398
+On Wednesday, the pomegranates cost Sheila 20 pomegranates * $30 = $<<20*30=600>>600.
+She then got a discount of 10/100 * $600 = $<<10/100*600=60>>60
+Sheila ended up paying $600 - $60 = $<<600-60=540>>540
+The difference is therefore $540 - $398 = $<<540-398=142>>142
+#### 142"
+Math,1b,"Question: Suzie and 5 of her friends decide to rent an Airbnb at Lake Tahoe for 4 days from Thursday to Sunday. The rental rate for weekdays is $420 per day. The weekend rental rate is $540 per day. They all decide to split the rental evenly. How much does each person have to pay?
+Answer: The cost of the rental for Thursday and Friday comes to $420 * 2 = $<<420*2=840>>840.
+The cost of the rental for Saturday and Sunday comes to $540 * 2 = $<<540*2=1080>>1080.
+The total cost of the rental comes to $840 + 1080 = $<<840+1080=1920>>1920.
+The payment required for each person comes to $1920 / 6 = $<<1920/6=320>>320.
+#### 320
+Question: Kristine has 7 more CDs than Dawn. If Dawn has 10 CDs, how many CDs do they have together?
+Answer: Kristine has 10 + 7 = <<10+7=17>>17 CDs.
+Thus, they both have 10 + 17 = <<10+17=27>>27 CDs together.
+#### 27
+Question: On Tuesday, Clara bought 20 pomegranates at $20 each. At the till she got $2 off because she had a voucher. The next day, the price shot to $30 per fruit, but the store also offered a 10% discount on the total cost. Sheila took advantage of the discount and bought 20 pomegranates. What is the difference between the final prices paid for the pomegranates on the two days?","Answer: 
+The original cost for Clara's pomegranates on Tuesday was 20 * $20 = $400.
+After the $2 voucher discount, she paid $400 - $2 = $398.
+Sheila paid 20 * $30 = $600 for her pomegranates on Wednesday.
+Sheila's 10% discount on Wednesday amounted to $600 * 0.10 = $60.
+Therefore, Sheila paid $600 - $60 = $540 for her pomegranates.
+The difference in the final prices paid for the pomegranates on the two days is $540 - $398 = $142.","On Tuesday, the pomegranates cost Clara 20 pomegranates * $20/pomegranates = $<<20*20=400>>400
+Using the voucher, she paid $400 - $2 = $<<400-2=398>>398
+On Wednesday, the pomegranates cost Sheila 20 pomegranates * $30 = $<<20*30=600>>600.
+She then got a discount of 10/100 * $600 = $<<10/100*600=60>>60
+Sheila ended up paying $600 - $60 = $<<600-60=540>>540
+The difference is therefore $540 - $398 = $<<540-398=142>>142
+#### 142"
+Math,2,"Question: Tommy is looking at his change collection. He has 10 more dimes than pennies. He has twice as many nickels as dimes. He has 4 quarters. He has 10 times as many pennies as quarters. How many nickels does he have?
+Answer: Tommy has 40 pennies because 10 x 4 = <<10*4=40>>40
+Tommy has 50 dimes because 40 + 10 = <<40+10=50>>50
+Tommy has 100 nickels because 50 x 2 = <<50*2=100>>100
+#### 100
+Question: Xavier plays football with his friends. During 15 minutes Xavier can score 2 goals on average. How many goals on average is Xavier able to score, when the match lasted for 2 hours?
+Answer: Two hours means 2 * 60 = <<2*60=120>>120 minutes.
+So in 2 hours, there are with 120 / 15 = <<120/15=8>>8 groups of 15 minutes.
+So on average Xavier can score 8 * 2 = <<8*2=16>>16 goals.
+#### 16
+Question: Suzie and 5 of her friends decide to rent an Airbnb at Lake Tahoe for 4 days from Thursday to Sunday. The rental rate for weekdays is $420 per day. The weekend rental rate is $540 per day. They all decide to split the rental evenly. How much does each person have to pay?
+Answer: The cost of the rental for Thursday and Friday comes to $420 * 2 = $<<420*2=840>>840.
+The cost of the rental for Saturday and Sunday comes to $540 * 2 = $<<540*2=1080>>1080.
+The total cost of the rental comes to $840 + 1080 = $<<840+1080=1920>>1920.
+The payment required for each person comes to $1920 / 6 = $<<1920/6=320>>320.
+#### 320
+Question: Kristine has 7 more CDs than Dawn. If Dawn has 10 CDs, how many CDs do they have together?
+Answer: Kristine has 10 + 7 = <<10+7=17>>17 CDs.
+Thus, they both have 10 + 17 = <<10+17=27>>27 CDs together.
+#### 27
+Question: On Tuesday, Clara bought 20 pomegranates at $20 each. At the till she got $2 off because she had a voucher. The next day, the price shot to $30 per fruit, but the store also offered a 10% discount on the total cost. Sheila took advantage of the discount and bought 20 pomegranates. What is the difference between the final prices paid for the pomegranates on the two days?","Answer: 
 
-Cats may get into things like plants, furniture, paper, and other household items when they are ripping things apart.",D
-CSQA,1a,"Question: Getting drunk and using stairs can be dangerous, one might find themselves what?
-A: falling down
-B: tripping
-C: death
-D: lower standards
-E: slurred speech
-Answer: A
-Question: What does an animal do when it becomes old?
-A: live long
-B: leave home
-C: feel pain
-D: eating
-E: sense fear in human
+On Tuesday, without the discount, Clara paid 20 * $20 = $<<20*20=400>>400 for the pomegranates.
+With the $2 discount, she paid $400 - $2 = $<<400-2=398>>398 on Tuesday.
+
+On Wednesday, without the discount, Sheila would have paid 20 * $30 = $<<20*30=600>>600 for the pomegranates.
+With the 10% discount, she paid $600 * 0.1 = $60 less than the original price.
+So, she paid $600 - $60 = $<<600-60=540>>540 on Wednesday.
+
+Therefore, the difference in the final prices paid on the two days is $540 - $398 = $142.","On Tuesday, the pomegranates cost Clara 20 pomegranates * $20/pomegranates = $<<20*20=400>>400
+Using the voucher, she paid $400 - $2 = $<<400-2=398>>398
+On Wednesday, the pomegranates cost Sheila 20 pomegranates * $30 = $<<20*30=600>>600.
+She then got a discount of 10/100 * $600 = $<<10/100*600=60>>60
+Sheila ended up paying $600 - $60 = $<<600-60=540>>540
+The difference is therefore $540 - $398 = $<<540-398=142>>142
+#### 142"
+Math,3a,"Question: Tommy is looking at his change collection. He has 10 more dimes than pennies. He has twice as many nickels as dimes. He has 4 quarters. He has 10 times as many pennies as quarters. How many nickels does he have?
+Answer: Tommy has 40 pennies because 10 x 4 = <<10*4=40>>40
+Tommy has 50 dimes because 40 + 10 = <<40+10=50>>50
+Tommy has 100 nickels because 50 x 2 = <<50*2=100>>100
+#### 100
+Question: Xavier plays football with his friends. During 15 minutes Xavier can score 2 goals on average. How many goals on average is Xavier able to score, when the match lasted for 2 hours?
+Answer: Two hours means 2 * 60 = <<2*60=120>>120 minutes.
+So in 2 hours, there are with 120 / 15 = <<120/15=8>>8 groups of 15 minutes.
+So on average Xavier can score 8 * 2 = <<8*2=16>>16 goals.
+#### 16
+Question: Tommy is looking at his change collection. He has 10 more dimes than pennies. He has twice as many nickels as dimes. He has 4 quarters. He has 10 times as many pennies as quarters. How many nickels does he have?
+Answer: Tommy has 40 pennies because 10 x 4 = <<10*4=40>>40
+Tommy has 50 dimes because 40 + 10 = <<40+10=50>>50
+Tommy has 100 nickels because 50 x 2 = <<50*2=100>>100
+#### 100
+Question: Xavier plays football with his friends. During 15 minutes Xavier can score 2 goals on average. How many goals on average is Xavier able to score, when the match lasted for 2 hours?
+Answer: Two hours means 2 * 60 = <<2*60=120>>120 minutes.
+So in 2 hours, there are with 120 / 15 = <<120/15=8>>8 groups of 15 minutes.
+So on average Xavier can score 8 * 2 = <<8*2=16>>16 goals.
+#### 16
+Question: On Tuesday, Clara bought 20 pomegranates at $20 each. At the till she got $2 off because she had a voucher. The next day, the price shot to $30 per fruit, but the store also offered a 10% discount on the total cost. Sheila took advantage of the discount and bought 20 pomegranates. What is the difference between the final prices paid for the pomegranates on the two days?","Answer: 
+The total cost of the pomegranates on Tuesday before the discount was 20 * $20 = $<<20*20=400>>400.
+After the discount, the total cost on Tuesday was $400 - $2 = $<<400-2=398>>398.
+The total cost of the pomegranates on Wednesday before the discount was 20 * $30 = $<<20*30=600>>600.
+After the 10% discount, Sheila paid $600 - ($600 * 10%) = $600 - $60 = $<<600-60=540>>540.
+The difference in prices paid is $540 - $398 = $<<540-398=142>>142. 
+Therefore, the difference between the final prices paid for the pomegranates on the two days is $142.","On Tuesday, the pomegranates cost Clara 20 pomegranates * $20/pomegranates = $<<20*20=400>>400
+Using the voucher, she paid $400 - $2 = $<<400-2=398>>398
+On Wednesday, the pomegranates cost Sheila 20 pomegranates * $30 = $<<20*30=600>>600.
+She then got a discount of 10/100 * $600 = $<<10/100*600=60>>60
+Sheila ended up paying $600 - $60 = $<<600-60=540>>540
+The difference is therefore $540 - $398 = $<<540-398=142>>142
+#### 142"
+Math,3b,"Question: Suzie and 5 of her friends decide to rent an Airbnb at Lake Tahoe for 4 days from Thursday to Sunday. The rental rate for weekdays is $420 per day. The weekend rental rate is $540 per day. They all decide to split the rental evenly. How much does each person have to pay?
+Answer: The cost of the rental for Thursday and Friday comes to $420 * 2 = $<<420*2=840>>840.
+The cost of the rental for Saturday and Sunday comes to $540 * 2 = $<<540*2=1080>>1080.
+The total cost of the rental comes to $840 + 1080 = $<<840+1080=1920>>1920.
+The payment required for each person comes to $1920 / 6 = $<<1920/6=320>>320.
+#### 320
+Question: Kristine has 7 more CDs than Dawn. If Dawn has 10 CDs, how many CDs do they have together?
+Answer: Kristine has 10 + 7 = <<10+7=17>>17 CDs.
+Thus, they both have 10 + 17 = <<10+17=27>>27 CDs together.
+#### 27
+Question: Suzie and 5 of her friends decide to rent an Airbnb at Lake Tahoe for 4 days from Thursday to Sunday. The rental rate for weekdays is $420 per day. The weekend rental rate is $540 per day. They all decide to split the rental evenly. How much does each person have to pay?
+Answer: The cost of the rental for Thursday and Friday comes to $420 * 2 = $<<420*2=840>>840.
+The cost of the rental for Saturday and Sunday comes to $540 * 2 = $<<540*2=1080>>1080.
+The total cost of the rental comes to $840 + 1080 = $<<840+1080=1920>>1920.
+The payment required for each person comes to $1920 / 6 = $<<1920/6=320>>320.
+#### 320
+Question: Kristine has 7 more CDs than Dawn. If Dawn has 10 CDs, how many CDs do they have together?
+Answer: Kristine has 10 + 7 = <<10+7=17>>17 CDs.
+Thus, they both have 10 + 17 = <<10+17=27>>27 CDs together.
+#### 27
+Question: On Tuesday, Clara bought 20 pomegranates at $20 each. At the till she got $2 off because she had a voucher. The next day, the price shot to $30 per fruit, but the store also offered a 10% discount on the total cost. Sheila took advantage of the discount and bought 20 pomegranates. What is the difference between the final prices paid for the pomegranates on the two days?","Answer: 
+The initial cost of the pomegranates on Tuesday was 20 * $20 = $400.
+After the $2 discount, the total cost became $400 - $2 = $398.
+Therefore, Clara paid $398 for the pomegranates on Tuesday.
+
+The cost of the pomegranates on Wednesday was 20 * $30 = $600.
+With a 10% discount, Sheila paid $600 * 0.9 = $540 for the pomegranates on Wednesday.
+
+The difference in the final prices paid for the pomegranates on the two days is $600 - $540 = $60.
+Therefore, the difference between the final prices paid for the pomegranates on the two days is $60.","On Tuesday, the pomegranates cost Clara 20 pomegranates * $20/pomegranates = $<<20*20=400>>400
+Using the voucher, she paid $400 - $2 = $<<400-2=398>>398
+On Wednesday, the pomegranates cost Sheila 20 pomegranates * $30 = $<<20*30=600>>600.
+She then got a discount of 10/100 * $600 = $<<10/100*600=60>>60
+Sheila ended up paying $600 - $60 = $<<600-60=540>>540
+The difference is therefore $540 - $398 = $<<540-398=142>>142
+#### 142"
+CSQA,0,"Question: Which entrance would you use if you do not want to use the back entrance?
+A: side
+B: main
+C: anterior
+D: current
+E: front","B: main
+E: front",B
+CSQA,1a,"Question: What do you call a metal that is not cheap?
+A: expensive
+B: dear
+C: precious
+D: inexpensive
+E: spendthrift
 Answer: C
-Question: WHat do cats get into when they are ripping things apart?
-A: dog's mouth
-B: floor
-C: garage
-D: trouble
-E: nature",Answer: D,D
-CSQA,1b,"Question: I needed more knowledge and had a reputation for truancy, what did I need to go to more of?
-A: church
-B: meeting
-C: encyclopedia
-D: university
-E: class
-Answer: E
-Question: The first or second floor is the safest from fire when you sleep where away from home?
-A: house
-B: office building
-C: parking space
-D: school
-E: hotel
-Answer: E
-Question: WHat do cats get into when they are ripping things apart?
-A: dog's mouth
-B: floor
-C: garage
-D: trouble
-E: nature",Answer: D,D
-CSQA,2,"Question: Getting drunk and using stairs can be dangerous, one might find themselves what?
-A: falling down
-B: tripping
-C: death
-D: lower standards
-E: slurred speech
-Answer: A
-Question: What does an animal do when it becomes old?
-A: live long
-B: leave home
-C: feel pain
-D: eating
-E: sense fear in human
+Question: Where is a blanket useful to cover a horse?
+A: bedroom
+B: hospital
+C: michigan
+D: backpack
+E: shoe
 Answer: C
-Question: I needed more knowledge and had a reputation for truancy, what did I need to go to more of?
-A: church
-B: meeting
-C: encyclopedia
-D: university
-E: class
+Question: Which entrance would you use if you do not want to use the back entrance?
+A: side
+B: main
+C: anterior
+D: current
+E: front",Answer: B,B
+CSQA,1b,"Question: What part of the apple is typically left behind after eating?
+A: grocery store
+B: peel
+C: seeds inside
+D: farmers market
+E: stems
 Answer: E
-Question: The first or second floor is the safest from fire when you sleep where away from home?
-A: house
-B: office building
-C: parking space
-D: school
-E: hotel
-Answer: E
-Question: WHat do cats get into when they are ripping things apart?
-A: dog's mouth
-B: floor
-C: garage
-D: trouble
-E: nature",Answer: D,D
-CSQA,3a,"Question: Getting drunk and using stairs can be dangerous, one might find themselves what?
-A: falling down
-B: tripping
-C: death
-D: lower standards
-E: slurred speech
+Question: Where do families tend to store a lot of boxes?
+A: basement
+B: mail
+C: shoe store
+D: warehouse
+E: cellar
 Answer: A
-Question: What does an animal do when it becomes old?
-A: live long
-B: leave home
-C: feel pain
-D: eating
-E: sense fear in human
+Question: Which entrance would you use if you do not want to use the back entrance?
+A: side
+B: main
+C: anterior
+D: current
+E: front",Answer: E,B
+CSQA,2,"Question: What do you call a metal that is not cheap?
+A: expensive
+B: dear
+C: precious
+D: inexpensive
+E: spendthrift
 Answer: C
-Question: Getting drunk and using stairs can be dangerous, one might find themselves what?
-A: falling down
-B: tripping
-C: death
-D: lower standards
-E: slurred speech
+Question: Where is a blanket useful to cover a horse?
+A: bedroom
+B: hospital
+C: michigan
+D: backpack
+E: shoe
+Answer: C
+Question: What part of the apple is typically left behind after eating?
+A: grocery store
+B: peel
+C: seeds inside
+D: farmers market
+E: stems
+Answer: E
+Question: Where do families tend to store a lot of boxes?
+A: basement
+B: mail
+C: shoe store
+D: warehouse
+E: cellar
 Answer: A
-Question: What does an animal do when it becomes old?
-A: live long
-B: leave home
-C: feel pain
-D: eating
-E: sense fear in human
+Question: Which entrance would you use if you do not want to use the back entrance?
+A: side
+B: main
+C: anterior
+D: current
+E: front",Answer: E,B
+CSQA,3a,"Question: What do you call a metal that is not cheap?
+A: expensive
+B: dear
+C: precious
+D: inexpensive
+E: spendthrift
 Answer: C
-Question: WHat do cats get into when they are ripping things apart?
-A: dog's mouth
-B: floor
-C: garage
-D: trouble
-E: nature",Answer: D,D
-CSQA,3b,"Question: I needed more knowledge and had a reputation for truancy, what did I need to go to more of?
-A: church
-B: meeting
-C: encyclopedia
-D: university
-E: class
+Question: Where is a blanket useful to cover a horse?
+A: bedroom
+B: hospital
+C: michigan
+D: backpack
+E: shoe
+Answer: C
+Question: What do you call a metal that is not cheap?
+A: expensive
+B: dear
+C: precious
+D: inexpensive
+E: spendthrift
+Answer: C
+Question: Where is a blanket useful to cover a horse?
+A: bedroom
+B: hospital
+C: michigan
+D: backpack
+E: shoe
+Answer: C
+Question: Which entrance would you use if you do not want to use the back entrance?
+A: side
+B: main
+C: anterior
+D: current
+E: front",Answer: A,B
+CSQA,3b,"Question: What part of the apple is typically left behind after eating?
+A: grocery store
+B: peel
+C: seeds inside
+D: farmers market
+E: stems
 Answer: E
-Question: The first or second floor is the safest from fire when you sleep where away from home?
-A: house
-B: office building
-C: parking space
-D: school
-E: hotel
+Question: Where do families tend to store a lot of boxes?
+A: basement
+B: mail
+C: shoe store
+D: warehouse
+E: cellar
+Answer: A
+Question: What part of the apple is typically left behind after eating?
+A: grocery store
+B: peel
+C: seeds inside
+D: farmers market
+E: stems
 Answer: E
-Question: I needed more knowledge and had a reputation for truancy, what did I need to go to more of?
-A: church
-B: meeting
-C: encyclopedia
-D: university
-E: class
-Answer: E
-Question: The first or second floor is the safest from fire when you sleep where away from home?
-A: house
-B: office building
-C: parking space
-D: school
-E: hotel
-Answer: E
-Question: WHat do cats get into when they are ripping things apart?
-A: dog's mouth
-B: floor
-C: garage
-D: trouble
-E: nature",Answer: D,D
-StrategyQA,0,"Question: ""A Tale of Two Cities"" is a historical fiction novel. Popular science books focus on scientific facts presented to a mainstream audience. Fiction is not fact.
-Is ""A Tale of Two Cities"" a popular science novel?","No, ""A Tale of Two Cities"" is not a popular science novel. It is a historical fiction novel, which means that while it may incorporate historical events and details, it is ultimately a work of fiction and not focused on presenting scientific facts or theories to a mainstream audience.",False
-StrategyQA,1a,"Question: The Jackson 5 was composed of: Jackie, Tito, Jermaine, Marlon and Michael. The Osmonds consisted of:  Alan, Wayne, Merrill, Jay and Donny.
-Did Jackson 5 members exceed number in The Osmonds?
-Answer: False
-Question: Issac Newton claimed to have contemplated gravity for the first time after seeing an apple fall. In most illustrations of Issac Newton discovering gravity, the apple shown falling is red.
-Is Issac Newton often associated with a red fruit?
+Question: Where do families tend to store a lot of boxes?
+A: basement
+B: mail
+C: shoe store
+D: warehouse
+E: cellar
+Answer: A
+Question: Which entrance would you use if you do not want to use the back entrance?
+A: side
+B: main
+C: anterior
+D: current
+E: front",Answer: B,B
+StrategyQA,0,"Question: ABBA was a Swedish pop group composed of four members. The Mamas & The Papas was an American band composed of four members. The members of ABBA are Björn Ulvaeus (male), Benny Andersson (male), Agnetha Fältskog (female), and Anni-Frid Lyngstad (female).. The members of The Mamas & The Papas are John Phillips (male), Denny Doherty (male), Cass Elliot (female), and Michelle Phillips (female).
+Does ABBA have similar gender configuration to The Mamas & The Papas?","No, ABBA and The Mamas & The Papas do not have a similar gender configuration. ABBA had two male members and two female members, while The Mamas & The Papas had two male members and two female members as well.",True
+StrategyQA,1a,"Question: A coat is a garment used to keep a person warm. The surface temperatures on Phobos range from about −4 °C (25 °F) on the sunlit side to −112 °C (−170 °F) on the shadowed side.
+Would you have to wear a coat when on Phobos?
 Answer: True
-Question: ""A Tale of Two Cities"" is a historical fiction novel. Popular science books focus on scientific facts presented to a mainstream audience. Fiction is not fact.
-Is ""A Tale of Two Cities"" a popular science novel?",Answer: False,False
-StrategyQA,1b,"Question: Audi R8 V-10 Plus is the fastest car produced by Audi. The Audi R8 V-10 Plus has a top speed of 205 MPH. To break the sound barrier, a jet must reach a speed of 770 MPH.
-Is sound barrier too much for Audi R8 V-10 Plus to break?
+Question: Mickey Mouse is a Disney character that has starred in numerous movies and TV specials. Mickey Mouse wears a pair of red pants and never wears a shirt. Zazzle is a website that specializes in custom T-shirts.
+Is Mickey Mouse hypothetically unlikely to make a purchase at Zazzle?
 Answer: True
-Question: A false pope, or antipope, is someone that tries to claim they are the true pope but the church rejects them. Hippolytus (c. 170–235 AD) headed a schismatic group as a rival to the Bishop of Rome, thus becoming an antipope. Hippolytus (c. 170–235 AD) was named a saint in the Roman Catholic Church.
-Can a false pope become a saint?
+Question: ABBA was a Swedish pop group composed of four members. The Mamas & The Papas was an American band composed of four members. The members of ABBA are Björn Ulvaeus (male), Benny Andersson (male), Agnetha Fältskog (female), and Anni-Frid Lyngstad (female).. The members of The Mamas & The Papas are John Phillips (male), Denny Doherty (male), Cass Elliot (female), and Michelle Phillips (female).
+Does ABBA have similar gender configuration to The Mamas & The Papas?",False,True
+StrategyQA,1b,"Question: Snowden scored above 145 on two separate IQ tests. The minimum accepted IQ score for MENSA on the Stanford–Binet is 132, while for the Cattell it is 148.
+Could Edward Snowden join MENSA?
 Answer: True
-Question: ""A Tale of Two Cities"" is a historical fiction novel. Popular science books focus on scientific facts presented to a mainstream audience. Fiction is not fact.
-Is ""A Tale of Two Cities"" a popular science novel?",Answer: False,False
-StrategyQA,2,"Question: The Jackson 5 was composed of: Jackie, Tito, Jermaine, Marlon and Michael. The Osmonds consisted of:  Alan, Wayne, Merrill, Jay and Donny.
-Did Jackson 5 members exceed number in The Osmonds?
-Answer: False
-Question: Issac Newton claimed to have contemplated gravity for the first time after seeing an apple fall. In most illustrations of Issac Newton discovering gravity, the apple shown falling is red.
-Is Issac Newton often associated with a red fruit?
+Question: A table tennis game is won by the player first scoring 11 points. 11 is a prime number.
+Does table tennis use prime numbers?
 Answer: True
-Question: Audi R8 V-10 Plus is the fastest car produced by Audi. The Audi R8 V-10 Plus has a top speed of 205 MPH. To break the sound barrier, a jet must reach a speed of 770 MPH.
-Is sound barrier too much for Audi R8 V-10 Plus to break?
+Question: ABBA was a Swedish pop group composed of four members. The Mamas & The Papas was an American band composed of four members. The members of ABBA are Björn Ulvaeus (male), Benny Andersson (male), Agnetha Fältskog (female), and Anni-Frid Lyngstad (female).. The members of The Mamas & The Papas are John Phillips (male), Denny Doherty (male), Cass Elliot (female), and Michelle Phillips (female).
+Does ABBA have similar gender configuration to The Mamas & The Papas?",False,True
+StrategyQA,2,"Question: A coat is a garment used to keep a person warm. The surface temperatures on Phobos range from about −4 °C (25 °F) on the sunlit side to −112 °C (−170 °F) on the shadowed side.
+Would you have to wear a coat when on Phobos?
 Answer: True
-Question: A false pope, or antipope, is someone that tries to claim they are the true pope but the church rejects them. Hippolytus (c. 170–235 AD) headed a schismatic group as a rival to the Bishop of Rome, thus becoming an antipope. Hippolytus (c. 170–235 AD) was named a saint in the Roman Catholic Church.
-Can a false pope become a saint?
+Question: Mickey Mouse is a Disney character that has starred in numerous movies and TV specials. Mickey Mouse wears a pair of red pants and never wears a shirt. Zazzle is a website that specializes in custom T-shirts.
+Is Mickey Mouse hypothetically unlikely to make a purchase at Zazzle?
 Answer: True
-Question: ""A Tale of Two Cities"" is a historical fiction novel. Popular science books focus on scientific facts presented to a mainstream audience. Fiction is not fact.
-Is ""A Tale of Two Cities"" a popular science novel?",Answer: False,False
-StrategyQA,3a,"Question: The Jackson 5 was composed of: Jackie, Tito, Jermaine, Marlon and Michael. The Osmonds consisted of:  Alan, Wayne, Merrill, Jay and Donny.
-Did Jackson 5 members exceed number in The Osmonds?
-Answer: False
-Question: Issac Newton claimed to have contemplated gravity for the first time after seeing an apple fall. In most illustrations of Issac Newton discovering gravity, the apple shown falling is red.
-Is Issac Newton often associated with a red fruit?
+Question: Snowden scored above 145 on two separate IQ tests. The minimum accepted IQ score for MENSA on the Stanford–Binet is 132, while for the Cattell it is 148.
+Could Edward Snowden join MENSA?
 Answer: True
-Question: The Jackson 5 was composed of: Jackie, Tito, Jermaine, Marlon and Michael. The Osmonds consisted of:  Alan, Wayne, Merrill, Jay and Donny.
-Did Jackson 5 members exceed number in The Osmonds?
-Answer: False
-Question: Issac Newton claimed to have contemplated gravity for the first time after seeing an apple fall. In most illustrations of Issac Newton discovering gravity, the apple shown falling is red.
-Is Issac Newton often associated with a red fruit?
+Question: A table tennis game is won by the player first scoring 11 points. 11 is a prime number.
+Does table tennis use prime numbers?
 Answer: True
-Question: ""A Tale of Two Cities"" is a historical fiction novel. Popular science books focus on scientific facts presented to a mainstream audience. Fiction is not fact.
-Is ""A Tale of Two Cities"" a popular science novel?",Answer: False,False
-StrategyQA,3b,"Question: Audi R8 V-10 Plus is the fastest car produced by Audi. The Audi R8 V-10 Plus has a top speed of 205 MPH. To break the sound barrier, a jet must reach a speed of 770 MPH.
-Is sound barrier too much for Audi R8 V-10 Plus to break?
+Question: ABBA was a Swedish pop group composed of four members. The Mamas & The Papas was an American band composed of four members. The members of ABBA are Björn Ulvaeus (male), Benny Andersson (male), Agnetha Fältskog (female), and Anni-Frid Lyngstad (female).. The members of The Mamas & The Papas are John Phillips (male), Denny Doherty (male), Cass Elliot (female), and Michelle Phillips (female).
+Does ABBA have similar gender configuration to The Mamas & The Papas?",True,True
+StrategyQA,3a,"Question: A coat is a garment used to keep a person warm. The surface temperatures on Phobos range from about −4 °C (25 °F) on the sunlit side to −112 °C (−170 °F) on the shadowed side.
+Would you have to wear a coat when on Phobos?
 Answer: True
-Question: A false pope, or antipope, is someone that tries to claim they are the true pope but the church rejects them. Hippolytus (c. 170–235 AD) headed a schismatic group as a rival to the Bishop of Rome, thus becoming an antipope. Hippolytus (c. 170–235 AD) was named a saint in the Roman Catholic Church.
-Can a false pope become a saint?
+Question: Mickey Mouse is a Disney character that has starred in numerous movies and TV specials. Mickey Mouse wears a pair of red pants and never wears a shirt. Zazzle is a website that specializes in custom T-shirts.
+Is Mickey Mouse hypothetically unlikely to make a purchase at Zazzle?
 Answer: True
-Question: Audi R8 V-10 Plus is the fastest car produced by Audi. The Audi R8 V-10 Plus has a top speed of 205 MPH. To break the sound barrier, a jet must reach a speed of 770 MPH.
-Is sound barrier too much for Audi R8 V-10 Plus to break?
+Question: A coat is a garment used to keep a person warm. The surface temperatures on Phobos range from about −4 °C (25 °F) on the sunlit side to −112 °C (−170 °F) on the shadowed side.
+Would you have to wear a coat when on Phobos?
 Answer: True
-Question: A false pope, or antipope, is someone that tries to claim they are the true pope but the church rejects them. Hippolytus (c. 170–235 AD) headed a schismatic group as a rival to the Bishop of Rome, thus becoming an antipope. Hippolytus (c. 170–235 AD) was named a saint in the Roman Catholic Church.
-Can a false pope become a saint?
+Question: Mickey Mouse is a Disney character that has starred in numerous movies and TV specials. Mickey Mouse wears a pair of red pants and never wears a shirt. Zazzle is a website that specializes in custom T-shirts.
+Is Mickey Mouse hypothetically unlikely to make a purchase at Zazzle?
 Answer: True
-Question: ""A Tale of Two Cities"" is a historical fiction novel. Popular science books focus on scientific facts presented to a mainstream audience. Fiction is not fact.
-Is ""A Tale of Two Cities"" a popular science novel?",Answer: False,False
-SayCan,0,Question: Provide step-by-step instructions for the following task: Can I have a redbull please?,"1. Approach the person you wish to ask for a Redbull.
-2. Politely greet them, for example, ""Hello"" or ""Excuse me"".
-3. Ask for a Redbull by saying, ""Can I have a Redbull please?""
-4. Wait for their response.
-5. If they agree, thank them by saying, ""Thank you"".
-6. Receive the Redbull from them.
-7. Enjoy your drink!","1. find a redbull can, 2. pick up the redbull can, 3. bring it to you, 4. put down the redbull can, 5. done"
-SayCan,1a,"Question: Provide step-by-step instructions for the following task: Bring me something that is not an apple.
-Answer: 1. find a orange, 2. pick up the orange, 3. bring it to you, 4. put down the orange, 5. done.
-Question: Provide step-by-step instructions for the following task: Could you get me a soda that is not caffeinated?
-Answer: 1. find a 7up, 2. pick up the 7up, 3. bring it to you, 4. put down the 7up, 5. done
-Question: Provide step-by-step instructions for the following task: Can I have a redbull please?","Answer: 1. find a Redbull, 2. pick up the Redbull, 3. bring it to you, 4. give you the Redbull, 5. done.","1. find a redbull can, 2. pick up the redbull can, 3. bring it to you, 4. put down the redbull can, 5. done"
-SayCan,1b,"Question: Provide step-by-step instructions for the following task: Bring me an apple from the drawer.
-Answer: 1. go to the drawer, 2. open the drawer, 3. pick up the apple, 4. close the drawer, 5. bring it to you, 6. put down the apple, 7. done
-Question: Provide step-by-step instructions for the following task: Move a banana to the table.
-Answer: 1. pick up the banana, 2. go to the table, 3. put down the banana, 4. done
-Question: Provide step-by-step instructions for the following task: Can I have a redbull please?","Answer: 1. Go to the fridge or wherever the Redbull is stored, 2. Take out a Redbull can, 3. Hand it to the person requesting it, 4. Done","1. find a redbull can, 2. pick up the redbull can, 3. bring it to you, 4. put down the redbull can, 5. done"
-SayCan,2,"Question: Provide step-by-step instructions for the following task: Bring me something that is not an apple.
-Answer: 1. find a orange, 2. pick up the orange, 3. bring it to you, 4. put down the orange, 5. done.
-Question: Provide step-by-step instructions for the following task: Could you get me a soda that is not caffeinated?
-Answer: 1. find a 7up, 2. pick up the 7up, 3. bring it to you, 4. put down the 7up, 5. done
-Question: Provide step-by-step instructions for the following task: Bring me an apple from the drawer.
-Answer: 1. go to the drawer, 2. open the drawer, 3. pick up the apple, 4. close the drawer, 5. bring it to you, 6. put down the apple, 7. done
-Question: Provide step-by-step instructions for the following task: Move a banana to the table.
-Answer: 1. pick up the banana, 2. go to the table, 3. put down the banana, 4. done
-Question: Provide step-by-step instructions for the following task: Can I have a redbull please?","Answer: 1. find a Red Bull energy drink, 2. pick up the Red Bull, 3. bring it to you, 4. give you the Red Bull, 5. done","1. find a redbull can, 2. pick up the redbull can, 3. bring it to you, 4. put down the redbull can, 5. done"
-SayCan,3a,"Question: Provide step-by-step instructions for the following task: Bring me something that is not an apple.
-Answer: 1. find a orange, 2. pick up the orange, 3. bring it to you, 4. put down the orange, 5. done.
-Question: Provide step-by-step instructions for the following task: Could you get me a soda that is not caffeinated?
-Answer: 1. find a 7up, 2. pick up the 7up, 3. bring it to you, 4. put down the 7up, 5. done
-Question: Provide step-by-step instructions for the following task: Bring me something that is not an apple.
-Answer: 1. find a orange, 2. pick up the orange, 3. bring it to you, 4. put down the orange, 5. done.
-Question: Provide step-by-step instructions for the following task: Could you get me a soda that is not caffeinated?
-Answer: 1. find a 7up, 2. pick up the 7up, 3. bring it to you, 4. put down the 7up, 5. done
-Question: Provide step-by-step instructions for the following task: Can I have a redbull please?","Answer: 1. find a Redbull, 2. pick up the Redbull, 3. bring it to you, 4. give you the Redbull, 5. done.","1. find a redbull can, 2. pick up the redbull can, 3. bring it to you, 4. put down the redbull can, 5. done"
-SayCan,3b,"Question: Provide step-by-step instructions for the following task: Bring me an apple from the drawer.
-Answer: 1. go to the drawer, 2. open the drawer, 3. pick up the apple, 4. close the drawer, 5. bring it to you, 6. put down the apple, 7. done
-Question: Provide step-by-step instructions for the following task: Move a banana to the table.
-Answer: 1. pick up the banana, 2. go to the table, 3. put down the banana, 4. done
-Question: Provide step-by-step instructions for the following task: Bring me an apple from the drawer.
-Answer: 1. go to the drawer, 2. open the drawer, 3. pick up the apple, 4. close the drawer, 5. bring it to you, 6. put down the apple, 7. done
-Question: Provide step-by-step instructions for the following task: Move a banana to the table.
-Answer: 1. pick up the banana, 2. go to the table, 3. put down the banana, 4. done
-Question: Provide step-by-step instructions for the following task: Can I have a redbull please?","Answer: 1. Go to the fridge or wherever the Redbull is stored, 2. Take out a Redbull, 3. Bring it to the person requesting it, 4. Hand them the Redbull, 5. Done.","1. find a redbull can, 2. pick up the redbull can, 3. bring it to you, 4. put down the redbull can, 5. done"
+Question: ABBA was a Swedish pop group composed of four members. The Mamas & The Papas was an American band composed of four members. The members of ABBA are Björn Ulvaeus (male), Benny Andersson (male), Agnetha Fältskog (female), and Anni-Frid Lyngstad (female).. The members of The Mamas & The Papas are John Phillips (male), Denny Doherty (male), Cass Elliot (female), and Michelle Phillips (female).
+Does ABBA have similar gender configuration to The Mamas & The Papas?",Answer: True,True
+StrategyQA,3b,"Question: Snowden scored above 145 on two separate IQ tests. The minimum accepted IQ score for MENSA on the Stanford–Binet is 132, while for the Cattell it is 148.
+Could Edward Snowden join MENSA?
+Answer: True
+Question: A table tennis game is won by the player first scoring 11 points. 11 is a prime number.
+Does table tennis use prime numbers?
+Answer: True
+Question: Snowden scored above 145 on two separate IQ tests. The minimum accepted IQ score for MENSA on the Stanford–Binet is 132, while for the Cattell it is 148.
+Could Edward Snowden join MENSA?
+Answer: True
+Question: A table tennis game is won by the player first scoring 11 points. 11 is a prime number.
+Does table tennis use prime numbers?
+Answer: True
+Question: ABBA was a Swedish pop group composed of four members. The Mamas & The Papas was an American band composed of four members. The members of ABBA are Björn Ulvaeus (male), Benny Andersson (male), Agnetha Fältskog (female), and Anni-Frid Lyngstad (female).. The members of The Mamas & The Papas are John Phillips (male), Denny Doherty (male), Cass Elliot (female), and Michelle Phillips (female).
+Does ABBA have similar gender configuration to The Mamas & The Papas?",Answer: True,True
+SayCan,0,Question: How would you go to the table and the counter?,"To go to the table and the counter, you would simply walk over to them using your legs and feet. You can navigate around any obstacles in the room and approach the table and counter directly. If there are chairs or other items blocking your path, you may need to move them out of the way to access the table and counter.","1. go to the table, 2. go to the counter, 3. done"
+SayCan,1a,"Question: How would you throw a coke can away?
+Answer: 1. find a coke can, 2. pick up the coke can, 3. go to the trash, 4. put down the coke can, 5. done
+Question: I love spice, can you get something to eat?
+Answer: 1. find a jalapeno chips, 2. pick up the jalapeno chips, 3. bring it to you, 4. put down the jalapeno chips, 5. done.
+Question: How would you go to the table and the counter?","Answer: 1. Stand up from your current location, 2. Walk towards the table, 3. Reach the table and stop, 4. Turn towards the counter, 5. Walk towards the counter, 6. Reach the counter and stop.","1. go to the table, 2. go to the counter, 3. done"
+SayCan,1b,"Question: Could you get me something refreshing?
+Answer: 1. find a water bottle, 2. pick up the water bottle, 3. bring it to you, 4. put down the water bottle, 5. done
+Question: Put a banana on the counter.
+Answer: 1. pick up the banana, 2. go to the counter, 3. put down the banana, 4. done
+Question: How would you go to the table and the counter?","Answer: 1. Stand up from your current location, 2. Walk towards the table, 3. Reach the table and stop, 4. Turn towards the counter, 5. Walk towards the counter, 6. Reach the counter and stop.","1. go to the table, 2. go to the counter, 3. done"
+SayCan,2,"Question: How would you throw a coke can away?
+Answer: 1. find a coke can, 2. pick up the coke can, 3. go to the trash, 4. put down the coke can, 5. done
+Question: I love spice, can you get something to eat?
+Answer: 1. find a jalapeno chips, 2. pick up the jalapeno chips, 3. bring it to you, 4. put down the jalapeno chips, 5. done.
+Question: Could you get me something refreshing?
+Answer: 1. find a water bottle, 2. pick up the water bottle, 3. bring it to you, 4. put down the water bottle, 5. done
+Question: Put a banana on the counter.
+Answer: 1. pick up the banana, 2. go to the counter, 3. put down the banana, 4. done
+Question: How would you go to the table and the counter?","Answer: 1. Stand up, 2. Walk to the table, 3. Place item on the table, 4. Walk to the counter, 5. Place item on the counter, 6. Done.","1. go to the table, 2. go to the counter, 3. done"
+SayCan,3a,"Question: How would you throw a coke can away?
+Answer: 1. find a coke can, 2. pick up the coke can, 3. go to the trash, 4. put down the coke can, 5. done
+Question: I love spice, can you get something to eat?
+Answer: 1. find a jalapeno chips, 2. pick up the jalapeno chips, 3. bring it to you, 4. put down the jalapeno chips, 5. done.
+Question: How would you throw a coke can away?
+Answer: 1. find a coke can, 2. pick up the coke can, 3. go to the trash, 4. put down the coke can, 5. done
+Question: I love spice, can you get something to eat?
+Answer: 1. find a jalapeno chips, 2. pick up the jalapeno chips, 3. bring it to you, 4. put down the jalapeno chips, 5. done.
+Question: How would you go to the table and the counter?","Answer: 1. stand up from your current location, 2. walk towards the table, 3. reach the table, 4. stand up from the table, 5. walk towards the counter, 6. reach the counter, 7. done.","1. go to the table, 2. go to the counter, 3. done"
+SayCan,3b,"Question: Could you get me something refreshing?
+Answer: 1. find a water bottle, 2. pick up the water bottle, 3. bring it to you, 4. put down the water bottle, 5. done
+Question: Put a banana on the counter.
+Answer: 1. pick up the banana, 2. go to the counter, 3. put down the banana, 4. done
+Question: Could you get me something refreshing?
+Answer: 1. find a water bottle, 2. pick up the water bottle, 3. bring it to you, 4. put down the water bottle, 5. done
+Question: Put a banana on the counter.
+Answer: 1. pick up the banana, 2. go to the counter, 3. put down the banana, 4. done
+Question: How would you go to the table and the counter?","Answer: 1. stand up, 2. walk to the table, 3. place item on the table, 4. walk to the counter, 5. place item on the counter, 6. done","1. go to the table, 2. go to the counter, 3. done"

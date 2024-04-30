@@ -1,358 +1,431 @@
 Task Class,Case,Prompt,Response,Expected
-Math,0,Question: Billy sells DVDs. He has 8 customers on Tuesday. His first 3 customers buy one DVD each.  His next 2 customers buy 2 DVDs each.  His last 3 customers don't buy any DVDs. How many DVDs did Billy sell on Tuesday?,"Billy sold:
-3 customers x 1 DVD each = 3 DVDs
-2 customers x 2 DVDs each = 4 DVDs
-So, Billy sold a total of 3 + 4 = 7 DVDs on Tuesday.","His first 3 customers buy 3 * 1 = <<3*1=3>>3 DVDs.
-His next 2 buy 2 * 2 = <<2*2=4>>4 DVDs.
-He sells a total of 3 + 4 + 0 = <<3+4+0=7>>7 DVDs.
-#### 7"
-Math,1a,"Question: How much money did you make if you sold 220 chocolate cookies at $1 per cookie and 70 vanilla cookies at $2 per cookie?
-Answer: You sold 220 chocolate cookies at $1 per cookie earning 220 x 1 = $<<220*1=220>>220
-You sold 70 vanilla cookies at $2 per cookie earning 70 x 2 =$<<70*2=140>>140.
-In total you earned 220 + 140 = $<<220+140=360>>360
-#### 360
-Question: Roger uses his lunch break to walk the stairs in his office building.  He can walk 2,000 steps in 30 minutes.  If his daily goal is 10,000 steps, how many minutes will it take him to reach his goal?
-Answer: Each step Roger walks for 30/2000 = <<30/2000=0.015>>0.015 minutes
-To walk 10000 steps he'll take 0.015*10000 = <<0.015*10000=150>>150
-#### 150
-Question: Billy sells DVDs. He has 8 customers on Tuesday. His first 3 customers buy one DVD each.  His next 2 customers buy 2 DVDs each.  His last 3 customers don't buy any DVDs. How many DVDs did Billy sell on Tuesday?","Answer: Billy sold 3 DVDs to his first 3 customers, 2 * 2 = 4 DVDs to his next 2 customers, for a total of 3 + 4 = <<3+4=7>>7 DVDs sold. 
-Billy sold a total of 7 DVDs on Tuesday.","His first 3 customers buy 3 * 1 = <<3*1=3>>3 DVDs.
-His next 2 buy 2 * 2 = <<2*2=4>>4 DVDs.
-He sells a total of 3 + 4 + 0 = <<3+4+0=7>>7 DVDs.
-#### 7"
-Math,1b,"Question: A desert garden’s sprinkler system runs twice a day during the cool morning and evening hours. It waters the garden with four liters of water in the morning and six liters in the evening. How many days does it take the sprinkler system to use 50 liters of water?
-Answer: Every day, the sprinkler uses 4 + 6 = <<4+6=10>>10 liters of water.
-Hence, it takes the sprinkler system 50 / 10 = <<50/10=5>>5 days to use 50 liters of water.
-#### 5
-Question: Nina wants to buy a new video game with her allowance money. The game cost 50 dollars. Nina also has learned that there is a 10 percent sales tax. She receives 10 dollars a week as an allowance, and thinks she can save half of that. How many weeks will it take for Nina to be able to buy the new video game with her savings?
-Answer: The 10 percent tax on 50 dollars will be 10 / 100 x 50 = <<10/100*50=5>>5 dollars.
-The cost of the game and the tax will be 50 + 5 = <<50+5=55>>55 dollars.
-Nina will save half of her allowance every week, or 10 / 2 = <<10/2=5>>5 dollars per week.
-The total cost of the game and tax, divided by Nina's weekly savings is 55 / 5 = <<55/5=11>>11 weeks.
-#### 11
-Question: Billy sells DVDs. He has 8 customers on Tuesday. His first 3 customers buy one DVD each.  His next 2 customers buy 2 DVDs each.  His last 3 customers don't buy any DVDs. How many DVDs did Billy sell on Tuesday?",Answer: Billy sold a total of 3 + 3 + 2 + 2 = 10 DVDs on Tuesday.,"His first 3 customers buy 3 * 1 = <<3*1=3>>3 DVDs.
-His next 2 buy 2 * 2 = <<2*2=4>>4 DVDs.
-He sells a total of 3 + 4 + 0 = <<3+4+0=7>>7 DVDs.
-#### 7"
-Math,2,"Question: How much money did you make if you sold 220 chocolate cookies at $1 per cookie and 70 vanilla cookies at $2 per cookie?
-Answer: You sold 220 chocolate cookies at $1 per cookie earning 220 x 1 = $<<220*1=220>>220
-You sold 70 vanilla cookies at $2 per cookie earning 70 x 2 =$<<70*2=140>>140.
-In total you earned 220 + 140 = $<<220+140=360>>360
-#### 360
-Question: Roger uses his lunch break to walk the stairs in his office building.  He can walk 2,000 steps in 30 minutes.  If his daily goal is 10,000 steps, how many minutes will it take him to reach his goal?
-Answer: Each step Roger walks for 30/2000 = <<30/2000=0.015>>0.015 minutes
-To walk 10000 steps he'll take 0.015*10000 = <<0.015*10000=150>>150
-#### 150
-Question: A desert garden’s sprinkler system runs twice a day during the cool morning and evening hours. It waters the garden with four liters of water in the morning and six liters in the evening. How many days does it take the sprinkler system to use 50 liters of water?
-Answer: Every day, the sprinkler uses 4 + 6 = <<4+6=10>>10 liters of water.
-Hence, it takes the sprinkler system 50 / 10 = <<50/10=5>>5 days to use 50 liters of water.
-#### 5
-Question: Nina wants to buy a new video game with her allowance money. The game cost 50 dollars. Nina also has learned that there is a 10 percent sales tax. She receives 10 dollars a week as an allowance, and thinks she can save half of that. How many weeks will it take for Nina to be able to buy the new video game with her savings?
-Answer: The 10 percent tax on 50 dollars will be 10 / 100 x 50 = <<10/100*50=5>>5 dollars.
-The cost of the game and the tax will be 50 + 5 = <<50+5=55>>55 dollars.
-Nina will save half of her allowance every week, or 10 / 2 = <<10/2=5>>5 dollars per week.
-The total cost of the game and tax, divided by Nina's weekly savings is 55 / 5 = <<55/5=11>>11 weeks.
-#### 11
-Question: Billy sells DVDs. He has 8 customers on Tuesday. His first 3 customers buy one DVD each.  His next 2 customers buy 2 DVDs each.  His last 3 customers don't buy any DVDs. How many DVDs did Billy sell on Tuesday?","Answer: The first 3 customers bought 1 DVD each, so he sold 3 * 1 = <<3*1=3>>3 DVDs.
-The next 2 customers bought 2 DVDs each, so he sold 2 * 2 = <<2*2=4>>4 DVDs.
-Therefore, Billy sold a total of 3 + 4 = <<3+4=7>>7 DVDs on Tuesday.","His first 3 customers buy 3 * 1 = <<3*1=3>>3 DVDs.
-His next 2 buy 2 * 2 = <<2*2=4>>4 DVDs.
-He sells a total of 3 + 4 + 0 = <<3+4+0=7>>7 DVDs.
-#### 7"
-Math,3a,"Question: How much money did you make if you sold 220 chocolate cookies at $1 per cookie and 70 vanilla cookies at $2 per cookie?
-Answer: You sold 220 chocolate cookies at $1 per cookie earning 220 x 1 = $<<220*1=220>>220
-You sold 70 vanilla cookies at $2 per cookie earning 70 x 2 =$<<70*2=140>>140.
-In total you earned 220 + 140 = $<<220+140=360>>360
-#### 360
-Question: Roger uses his lunch break to walk the stairs in his office building.  He can walk 2,000 steps in 30 minutes.  If his daily goal is 10,000 steps, how many minutes will it take him to reach his goal?
-Answer: Each step Roger walks for 30/2000 = <<30/2000=0.015>>0.015 minutes
-To walk 10000 steps he'll take 0.015*10000 = <<0.015*10000=150>>150
-#### 150
-Question: How much money did you make if you sold 220 chocolate cookies at $1 per cookie and 70 vanilla cookies at $2 per cookie?
-Answer: You sold 220 chocolate cookies at $1 per cookie earning 220 x 1 = $<<220*1=220>>220
-You sold 70 vanilla cookies at $2 per cookie earning 70 x 2 =$<<70*2=140>>140.
-In total you earned 220 + 140 = $<<220+140=360>>360
-#### 360
-Question: Roger uses his lunch break to walk the stairs in his office building.  He can walk 2,000 steps in 30 minutes.  If his daily goal is 10,000 steps, how many minutes will it take him to reach his goal?
-Answer: Each step Roger walks for 30/2000 = <<30/2000=0.015>>0.015 minutes
-To walk 10000 steps he'll take 0.015*10000 = <<0.015*10000=150>>150
-#### 150
-Question: Billy sells DVDs. He has 8 customers on Tuesday. His first 3 customers buy one DVD each.  His next 2 customers buy 2 DVDs each.  His last 3 customers don't buy any DVDs. How many DVDs did Billy sell on Tuesday?","Answer: Billy sold 3 DVDs to his first 3 customers, 2*2=4 DVDs to his next 2 customers, and didn't sell any DVDs to his last 3 customers. In total, Billy sold 3 + 4 + 0 = 7 DVDs on Tuesday.","His first 3 customers buy 3 * 1 = <<3*1=3>>3 DVDs.
-His next 2 buy 2 * 2 = <<2*2=4>>4 DVDs.
-He sells a total of 3 + 4 + 0 = <<3+4+0=7>>7 DVDs.
-#### 7"
-Math,3b,"Question: A desert garden’s sprinkler system runs twice a day during the cool morning and evening hours. It waters the garden with four liters of water in the morning and six liters in the evening. How many days does it take the sprinkler system to use 50 liters of water?
-Answer: Every day, the sprinkler uses 4 + 6 = <<4+6=10>>10 liters of water.
-Hence, it takes the sprinkler system 50 / 10 = <<50/10=5>>5 days to use 50 liters of water.
-#### 5
-Question: Nina wants to buy a new video game with her allowance money. The game cost 50 dollars. Nina also has learned that there is a 10 percent sales tax. She receives 10 dollars a week as an allowance, and thinks she can save half of that. How many weeks will it take for Nina to be able to buy the new video game with her savings?
-Answer: The 10 percent tax on 50 dollars will be 10 / 100 x 50 = <<10/100*50=5>>5 dollars.
-The cost of the game and the tax will be 50 + 5 = <<50+5=55>>55 dollars.
-Nina will save half of her allowance every week, or 10 / 2 = <<10/2=5>>5 dollars per week.
-The total cost of the game and tax, divided by Nina's weekly savings is 55 / 5 = <<55/5=11>>11 weeks.
-#### 11
-Question: A desert garden’s sprinkler system runs twice a day during the cool morning and evening hours. It waters the garden with four liters of water in the morning and six liters in the evening. How many days does it take the sprinkler system to use 50 liters of water?
-Answer: Every day, the sprinkler uses 4 + 6 = <<4+6=10>>10 liters of water.
-Hence, it takes the sprinkler system 50 / 10 = <<50/10=5>>5 days to use 50 liters of water.
-#### 5
-Question: Nina wants to buy a new video game with her allowance money. The game cost 50 dollars. Nina also has learned that there is a 10 percent sales tax. She receives 10 dollars a week as an allowance, and thinks she can save half of that. How many weeks will it take for Nina to be able to buy the new video game with her savings?
-Answer: The 10 percent tax on 50 dollars will be 10 / 100 x 50 = <<10/100*50=5>>5 dollars.
-The cost of the game and the tax will be 50 + 5 = <<50+5=55>>55 dollars.
-Nina will save half of her allowance every week, or 10 / 2 = <<10/2=5>>5 dollars per week.
-The total cost of the game and tax, divided by Nina's weekly savings is 55 / 5 = <<55/5=11>>11 weeks.
-#### 11
-Question: Billy sells DVDs. He has 8 customers on Tuesday. His first 3 customers buy one DVD each.  His next 2 customers buy 2 DVDs each.  His last 3 customers don't buy any DVDs. How many DVDs did Billy sell on Tuesday?",Answer: Billy sold a total of 3 + 3 + 2*2 = 10 DVDs on Tuesday.,"His first 3 customers buy 3 * 1 = <<3*1=3>>3 DVDs.
-His next 2 buy 2 * 2 = <<2*2=4>>4 DVDs.
-He sells a total of 3 + 4 + 0 = <<3+4+0=7>>7 DVDs.
-#### 7"
-CSQA,0,"Question: Jame's bare feet were burned as he walked, because the sunshine had made the surface hot.  Where might he have been?
-A: disneyland
-B: snow
-C: windowsill
-D: street
-E: summer",E: summer,D
-CSQA,1a,"Question: Along what feature will you find a rosebush?
-A: park
-B: in the ground
-C: hedgerow
-D: temperate climate
-E: botanical gardens
-Answer: C
-Question: The college student wanted to meet people, but he didn't really like to what?
-A: take class
-B: friendly
-C: go to parties
-D: go outside
-E: go outside
-Answer: C
-Question: Jame's bare feet were burned as he walked, because the sunshine had made the surface hot.  Where might he have been?
-A: disneyland
-B: snow
-C: windowsill
-D: street
-E: summer",Answer: D,D
-CSQA,1b,"Question: John traveled deeper and deeper.  As he went, the light faded away until it was pitch black. Where might he be?
-A: porch
-B: attic
-C: beach
-D: ocean
-E: universe
+Math,0,"Question: On Tuesday, Clara bought 20 pomegranates at $20 each. At the till she got $2 off because she had a voucher. The next day, the price shot to $30 per fruit, but the store also offered a 10% discount on the total cost. Sheila took advantage of the discount and bought 20 pomegranates. What is the difference between the final prices paid for the pomegranates on the two days?","First, let's calculate the total cost for Clara's purchase on Tuesday:
+
+20 pomegranates at $20 each = 20 * $20 = $400
+After applying the $2 voucher, the total cost becomes $400 - $2 = $398
+
+Next, let's calculate the total cost for Sheila's purchase on Wednesday:
+
+20 pomegranates at $30 each = 20 * $30 = $600
+Sheila received a 10% discount, so the total cost becomes $600 - (10% of $600) = $600 - $60 = $540
+
+The difference between the final prices paid for the pomegranates on the two days is $540 - $398 = $142. 
+
+Therefore, the difference between the final prices paid for the pomegranates on the two days is $142.","On Tuesday, the pomegranates cost Clara 20 pomegranates * $20/pomegranates = $<<20*20=400>>400
+Using the voucher, she paid $400 - $2 = $<<400-2=398>>398
+On Wednesday, the pomegranates cost Sheila 20 pomegranates * $30 = $<<20*30=600>>600.
+She then got a discount of 10/100 * $600 = $<<10/100*600=60>>60
+Sheila ended up paying $600 - $60 = $<<600-60=540>>540
+The difference is therefore $540 - $398 = $<<540-398=142>>142
+#### 142"
+Math,1a,"Question: During a soccer game, in the first half, Team A scored 8 points, and Team B scored only half as many points. In the second half, Team B was able to get as many points as Team A in the first half, and Team A scored only 2 goals less than Team B. How many goals did both teams score during the whole match?
+Answer: During the first half Team, B scored only 8 * 0.5 = <<8*0.5=4>>4 points.
+In the second half Team A scored 2 goals less than Team B, so they scored 8 - 2 = <<8-2=6>>6 points.
+So in total both teams scored 8 + 4 + 6 + 8 = <<8+4+6+8=26>>26 points.
+#### 26
+Question: Walter works 5 days a week in a fast-food chain and earns $5 per hour. Since he is a working student, he can only work 4 hours a day and allocates 3/4 of his weekly earning for his schooling. How much does he allocate for school?
+Answer: Walter's daily earning is $5 x 4 = $<<5*4=20>>20.
+So he earns $20 x 5 = $<<20*5=100>>100 per week.
+Therefore, he allocates $100 x 3/4 = $<<100*3/4=75>>75 for his school.
+#### 75
+Question: On Tuesday, Clara bought 20 pomegranates at $20 each. At the till she got $2 off because she had a voucher. The next day, the price shot to $30 per fruit, but the store also offered a 10% discount on the total cost. Sheila took advantage of the discount and bought 20 pomegranates. What is the difference between the final prices paid for the pomegranates on the two days?","Answer: 
+
+The total cost of the pomegranates on Tuesday was 20 pomegranates x $20 = $400.
+With the $2 discount, Clara paid $400 - $2 = $398.
+
+The total cost of the pomegranates on Wednesday was 20 pomegranates x $30 = $600.
+With the 10% discount, Sheila paid $600 - ($600 x 0.10) = $600 - $60 = $540.
+
+The difference between the final prices paid for the pomegranates on the two days is $540 - $398 = $142.","On Tuesday, the pomegranates cost Clara 20 pomegranates * $20/pomegranates = $<<20*20=400>>400
+Using the voucher, she paid $400 - $2 = $<<400-2=398>>398
+On Wednesday, the pomegranates cost Sheila 20 pomegranates * $30 = $<<20*30=600>>600.
+She then got a discount of 10/100 * $600 = $<<10/100*600=60>>60
+Sheila ended up paying $600 - $60 = $<<600-60=540>>540
+The difference is therefore $540 - $398 = $<<540-398=142>>142
+#### 142"
+Math,1b,"Question: Alexander was 50 inches on his 8th birthday. If he grows 1/2 a foot a year, how many inches tall will he be on his 12th birthday?
+Answer: He grows six inches a year because 12 x .5 = <<12*.5=6>>6
+He will grow 24 inches between his 8th and 12th birthday because 4 x 6 = <<4*6=24>>24
+He will be 74 inches tall because 50 + 24 = <<50+24=74>>74
+#### 74
+Question: Natalie's father has saved up $10,000 to split up between his kids.  Natalie will get half, as she is the oldest.  Rick will get 60 percent of the remaining money, and Lucy will get whatever is left after Natilie and Rick get paid.  How much money does Lucy get?
+Answer: Natalie: 10000/2=<<10000/2=5000>>5000$
+10000-5000=<<10000-5000=5000>>5000
+Rick:5000(.60)=3000$
+5000-3000=<<5000-3000=2000>>2000$ left for Lucy.
+#### 2000
+Question: On Tuesday, Clara bought 20 pomegranates at $20 each. At the till she got $2 off because she had a voucher. The next day, the price shot to $30 per fruit, but the store also offered a 10% discount on the total cost. Sheila took advantage of the discount and bought 20 pomegranates. What is the difference between the final prices paid for the pomegranates on the two days?","Answer: 
+Total cost on Tuesday before discount: 20 pomegranates * $20 = $400
+Total cost on Tuesday after discount: $400 - $2 = $398
+Total cost on Wednesday before discount: 20 pomegranates * $30 = $600
+Total discount on Wednesday: 10% of $600 = $60
+Total cost on Wednesday after discount: $600 - $60 = $540
+
+Difference in prices paid: $540 (Wednesday) - $398 (Tuesday) = $142
+
+Therefore, the difference between the final prices paid for the pomegranates on the two days is $142.","On Tuesday, the pomegranates cost Clara 20 pomegranates * $20/pomegranates = $<<20*20=400>>400
+Using the voucher, she paid $400 - $2 = $<<400-2=398>>398
+On Wednesday, the pomegranates cost Sheila 20 pomegranates * $30 = $<<20*30=600>>600.
+She then got a discount of 10/100 * $600 = $<<10/100*600=60>>60
+Sheila ended up paying $600 - $60 = $<<600-60=540>>540
+The difference is therefore $540 - $398 = $<<540-398=142>>142
+#### 142"
+Math,2,"Question: During a soccer game, in the first half, Team A scored 8 points, and Team B scored only half as many points. In the second half, Team B was able to get as many points as Team A in the first half, and Team A scored only 2 goals less than Team B. How many goals did both teams score during the whole match?
+Answer: During the first half Team, B scored only 8 * 0.5 = <<8*0.5=4>>4 points.
+In the second half Team A scored 2 goals less than Team B, so they scored 8 - 2 = <<8-2=6>>6 points.
+So in total both teams scored 8 + 4 + 6 + 8 = <<8+4+6+8=26>>26 points.
+#### 26
+Question: Walter works 5 days a week in a fast-food chain and earns $5 per hour. Since he is a working student, he can only work 4 hours a day and allocates 3/4 of his weekly earning for his schooling. How much does he allocate for school?
+Answer: Walter's daily earning is $5 x 4 = $<<5*4=20>>20.
+So he earns $20 x 5 = $<<20*5=100>>100 per week.
+Therefore, he allocates $100 x 3/4 = $<<100*3/4=75>>75 for his school.
+#### 75
+Question: Alexander was 50 inches on his 8th birthday. If he grows 1/2 a foot a year, how many inches tall will he be on his 12th birthday?
+Answer: He grows six inches a year because 12 x .5 = <<12*.5=6>>6
+He will grow 24 inches between his 8th and 12th birthday because 4 x 6 = <<4*6=24>>24
+He will be 74 inches tall because 50 + 24 = <<50+24=74>>74
+#### 74
+Question: Natalie's father has saved up $10,000 to split up between his kids.  Natalie will get half, as she is the oldest.  Rick will get 60 percent of the remaining money, and Lucy will get whatever is left after Natilie and Rick get paid.  How much money does Lucy get?
+Answer: Natalie: 10000/2=<<10000/2=5000>>5000$
+10000-5000=<<10000-5000=5000>>5000
+Rick:5000(.60)=3000$
+5000-3000=<<5000-3000=2000>>2000$ left for Lucy.
+#### 2000
+Question: On Tuesday, Clara bought 20 pomegranates at $20 each. At the till she got $2 off because she had a voucher. The next day, the price shot to $30 per fruit, but the store also offered a 10% discount on the total cost. Sheila took advantage of the discount and bought 20 pomegranates. What is the difference between the final prices paid for the pomegranates on the two days?","Answer: 
+
+The total cost of the pomegranates on Tuesday before the discount was 20 * $20 = $400.
+After the $2 voucher discount, Clara paid $400 - $2 = $398.
+
+The total cost of the pomegranates on Wednesday before the discount was 20 * $30 = $600.
+After the 10% discount, Sheila paid $600 - ($600 * 0.10) = $540.
+
+The difference between the final prices paid for the pomegranates on the two days is $540 - $398 = $142.
+Therefore, the difference is $142.","On Tuesday, the pomegranates cost Clara 20 pomegranates * $20/pomegranates = $<<20*20=400>>400
+Using the voucher, she paid $400 - $2 = $<<400-2=398>>398
+On Wednesday, the pomegranates cost Sheila 20 pomegranates * $30 = $<<20*30=600>>600.
+She then got a discount of 10/100 * $600 = $<<10/100*600=60>>60
+Sheila ended up paying $600 - $60 = $<<600-60=540>>540
+The difference is therefore $540 - $398 = $<<540-398=142>>142
+#### 142"
+Math,3a,"Question: During a soccer game, in the first half, Team A scored 8 points, and Team B scored only half as many points. In the second half, Team B was able to get as many points as Team A in the first half, and Team A scored only 2 goals less than Team B. How many goals did both teams score during the whole match?
+Answer: During the first half Team, B scored only 8 * 0.5 = <<8*0.5=4>>4 points.
+In the second half Team A scored 2 goals less than Team B, so they scored 8 - 2 = <<8-2=6>>6 points.
+So in total both teams scored 8 + 4 + 6 + 8 = <<8+4+6+8=26>>26 points.
+#### 26
+Question: Walter works 5 days a week in a fast-food chain and earns $5 per hour. Since he is a working student, he can only work 4 hours a day and allocates 3/4 of his weekly earning for his schooling. How much does he allocate for school?
+Answer: Walter's daily earning is $5 x 4 = $<<5*4=20>>20.
+So he earns $20 x 5 = $<<20*5=100>>100 per week.
+Therefore, he allocates $100 x 3/4 = $<<100*3/4=75>>75 for his school.
+#### 75
+Question: During a soccer game, in the first half, Team A scored 8 points, and Team B scored only half as many points. In the second half, Team B was able to get as many points as Team A in the first half, and Team A scored only 2 goals less than Team B. How many goals did both teams score during the whole match?
+Answer: During the first half Team, B scored only 8 * 0.5 = <<8*0.5=4>>4 points.
+In the second half Team A scored 2 goals less than Team B, so they scored 8 - 2 = <<8-2=6>>6 points.
+So in total both teams scored 8 + 4 + 6 + 8 = <<8+4+6+8=26>>26 points.
+#### 26
+Question: Walter works 5 days a week in a fast-food chain and earns $5 per hour. Since he is a working student, he can only work 4 hours a day and allocates 3/4 of his weekly earning for his schooling. How much does he allocate for school?
+Answer: Walter's daily earning is $5 x 4 = $<<5*4=20>>20.
+So he earns $20 x 5 = $<<20*5=100>>100 per week.
+Therefore, he allocates $100 x 3/4 = $<<100*3/4=75>>75 for his school.
+#### 75
+Question: On Tuesday, Clara bought 20 pomegranates at $20 each. At the till she got $2 off because she had a voucher. The next day, the price shot to $30 per fruit, but the store also offered a 10% discount on the total cost. Sheila took advantage of the discount and bought 20 pomegranates. What is the difference between the final prices paid for the pomegranates on the two days?","Let's calculate the total cost for each day:
+
+On Tuesday:
+20 pomegranates at $20 each = 20 * $20 = $400
+With the $2 voucher discount, she paid $400 - $2 = $398
+
+On Wednesday:
+20 pomegranates at $30 each = 20 * $30 = $600
+10% discount on $600 = 0.1 * $600 = $60
+So, she paid $600 - $60 = $540
+
+The difference in the final prices paid for the pomegranates on the two days is $540 - $398 = $142. 
+
+Therefore, the difference is $142.","On Tuesday, the pomegranates cost Clara 20 pomegranates * $20/pomegranates = $<<20*20=400>>400
+Using the voucher, she paid $400 - $2 = $<<400-2=398>>398
+On Wednesday, the pomegranates cost Sheila 20 pomegranates * $30 = $<<20*30=600>>600.
+She then got a discount of 10/100 * $600 = $<<10/100*600=60>>60
+Sheila ended up paying $600 - $60 = $<<600-60=540>>540
+The difference is therefore $540 - $398 = $<<540-398=142>>142
+#### 142"
+Math,3b,"Question: Alexander was 50 inches on his 8th birthday. If he grows 1/2 a foot a year, how many inches tall will he be on his 12th birthday?
+Answer: He grows six inches a year because 12 x .5 = <<12*.5=6>>6
+He will grow 24 inches between his 8th and 12th birthday because 4 x 6 = <<4*6=24>>24
+He will be 74 inches tall because 50 + 24 = <<50+24=74>>74
+#### 74
+Question: Natalie's father has saved up $10,000 to split up between his kids.  Natalie will get half, as she is the oldest.  Rick will get 60 percent of the remaining money, and Lucy will get whatever is left after Natilie and Rick get paid.  How much money does Lucy get?
+Answer: Natalie: 10000/2=<<10000/2=5000>>5000$
+10000-5000=<<10000-5000=5000>>5000
+Rick:5000(.60)=3000$
+5000-3000=<<5000-3000=2000>>2000$ left for Lucy.
+#### 2000
+Question: Alexander was 50 inches on his 8th birthday. If he grows 1/2 a foot a year, how many inches tall will he be on his 12th birthday?
+Answer: He grows six inches a year because 12 x .5 = <<12*.5=6>>6
+He will grow 24 inches between his 8th and 12th birthday because 4 x 6 = <<4*6=24>>24
+He will be 74 inches tall because 50 + 24 = <<50+24=74>>74
+#### 74
+Question: Natalie's father has saved up $10,000 to split up between his kids.  Natalie will get half, as she is the oldest.  Rick will get 60 percent of the remaining money, and Lucy will get whatever is left after Natilie and Rick get paid.  How much money does Lucy get?
+Answer: Natalie: 10000/2=<<10000/2=5000>>5000$
+10000-5000=<<10000-5000=5000>>5000
+Rick:5000(.60)=3000$
+5000-3000=<<5000-3000=2000>>2000$ left for Lucy.
+#### 2000
+Question: On Tuesday, Clara bought 20 pomegranates at $20 each. At the till she got $2 off because she had a voucher. The next day, the price shot to $30 per fruit, but the store also offered a 10% discount on the total cost. Sheila took advantage of the discount and bought 20 pomegranates. What is the difference between the final prices paid for the pomegranates on the two days?","Answer: 
+Initially, Clara paid 20 x $20 = $<<20*20=400>>400 for the pomegranates.
+After the $2 voucher discount, she paid $400 - $2 = $<<400-2=398>>398.
+
+The next day, the total cost for 20 pomegranates would be 20 x $30 = $<<20*30=600>>600.
+With a 10% discount, the final price Sheila paid would be $600 - ($600 x 0.10) = $<<600-(600*0.10)=540>>540.
+
+The difference between the final prices paid on the two days is $540 - $398 = $<<540-398=142>>142.","On Tuesday, the pomegranates cost Clara 20 pomegranates * $20/pomegranates = $<<20*20=400>>400
+Using the voucher, she paid $400 - $2 = $<<400-2=398>>398
+On Wednesday, the pomegranates cost Sheila 20 pomegranates * $30 = $<<20*30=600>>600.
+She then got a discount of 10/100 * $600 = $<<10/100*600=60>>60
+Sheila ended up paying $600 - $60 = $<<600-60=540>>540
+The difference is therefore $540 - $398 = $<<540-398=142>>142
+#### 142"
+CSQA,0,"Question: Stanley had a dream that was very vivid and scary. He had trouble telling it from what?
+A: reality
+B: imagination
+C: dreamworker
+D: nightmare
+E: awake",A: reality,A
+CSQA,1a,"Question: The science major was planning on digging in the earth one day, his favorite class was what?
+A: religion
+B: faith
+C: health
+D: geography
+E: history studies
 Answer: D
-Question: How can music help someone who is down?
-A: beautifull
-B: express feelings
-C: they cannot heal and feel beautiful
-D: provide comfort
-E: sound good
+Question: Mom is tidying a house, where would she put the loose dictionary?
+A: shelf
+B: library
+C: classroom
+D: table
+E: desk
+Answer: A
+Question: Stanley had a dream that was very vivid and scary. He had trouble telling it from what?
+A: reality
+B: imagination
+C: dreamworker
+D: nightmare
+E: awake",Answer: A,A
+CSQA,1b,"Question: What can cause someone to want to go somewhere else because it's so smelly?
+A: rose bush
+B: go back
+C: die
+D: arrive there
+E: fart
+Answer: E
+Question: Some horses are white others are black, but many are this color which might lead some people to think their milk would taste like chocolate?
+A: big but gentle
+B: kept in stables
+C: cuddly
+D: brown
+E: running in herd
 Answer: D
-Question: Jame's bare feet were burned as he walked, because the sunshine had made the surface hot.  Where might he have been?
-A: disneyland
-B: snow
-C: windowsill
-D: street
-E: summer",Answer: D,D
-CSQA,2,"Question: Along what feature will you find a rosebush?
-A: park
-B: in the ground
-C: hedgerow
-D: temperate climate
-E: botanical gardens
-Answer: C
-Question: The college student wanted to meet people, but he didn't really like to what?
-A: take class
-B: friendly
-C: go to parties
-D: go outside
-E: go outside
-Answer: C
-Question: John traveled deeper and deeper.  As he went, the light faded away until it was pitch black. Where might he be?
-A: porch
-B: attic
-C: beach
-D: ocean
-E: universe
+Question: Stanley had a dream that was very vivid and scary. He had trouble telling it from what?
+A: reality
+B: imagination
+C: dreamworker
+D: nightmare
+E: awake",Answer: A,A
+CSQA,2,"Question: The science major was planning on digging in the earth one day, his favorite class was what?
+A: religion
+B: faith
+C: health
+D: geography
+E: history studies
 Answer: D
-Question: How can music help someone who is down?
-A: beautifull
-B: express feelings
-C: they cannot heal and feel beautiful
-D: provide comfort
-E: sound good
+Question: Mom is tidying a house, where would she put the loose dictionary?
+A: shelf
+B: library
+C: classroom
+D: table
+E: desk
+Answer: A
+Question: What can cause someone to want to go somewhere else because it's so smelly?
+A: rose bush
+B: go back
+C: die
+D: arrive there
+E: fart
+Answer: E
+Question: Some horses are white others are black, but many are this color which might lead some people to think their milk would taste like chocolate?
+A: big but gentle
+B: kept in stables
+C: cuddly
+D: brown
+E: running in herd
 Answer: D
-Question: Jame's bare feet were burned as he walked, because the sunshine had made the surface hot.  Where might he have been?
-A: disneyland
-B: snow
-C: windowsill
-D: street
-E: summer",Answer: D,D
-CSQA,3a,"Question: Along what feature will you find a rosebush?
-A: park
-B: in the ground
-C: hedgerow
-D: temperate climate
-E: botanical gardens
-Answer: C
-Question: The college student wanted to meet people, but he didn't really like to what?
-A: take class
-B: friendly
-C: go to parties
-D: go outside
-E: go outside
-Answer: C
-Question: Along what feature will you find a rosebush?
-A: park
-B: in the ground
-C: hedgerow
-D: temperate climate
-E: botanical gardens
-Answer: C
-Question: The college student wanted to meet people, but he didn't really like to what?
-A: take class
-B: friendly
-C: go to parties
-D: go outside
-E: go outside
-Answer: C
-Question: Jame's bare feet were burned as he walked, because the sunshine had made the surface hot.  Where might he have been?
-A: disneyland
-B: snow
-C: windowsill
-D: street
-E: summer",Answer: D,D
-CSQA,3b,"Question: John traveled deeper and deeper.  As he went, the light faded away until it was pitch black. Where might he be?
-A: porch
-B: attic
-C: beach
-D: ocean
-E: universe
+Question: Stanley had a dream that was very vivid and scary. He had trouble telling it from what?
+A: reality
+B: imagination
+C: dreamworker
+D: nightmare
+E: awake",Answer: A,A
+CSQA,3a,"Question: The science major was planning on digging in the earth one day, his favorite class was what?
+A: religion
+B: faith
+C: health
+D: geography
+E: history studies
 Answer: D
-Question: How can music help someone who is down?
-A: beautifull
-B: express feelings
-C: they cannot heal and feel beautiful
-D: provide comfort
-E: sound good
+Question: Mom is tidying a house, where would she put the loose dictionary?
+A: shelf
+B: library
+C: classroom
+D: table
+E: desk
+Answer: A
+Question: The science major was planning on digging in the earth one day, his favorite class was what?
+A: religion
+B: faith
+C: health
+D: geography
+E: history studies
 Answer: D
-Question: John traveled deeper and deeper.  As he went, the light faded away until it was pitch black. Where might he be?
-A: porch
-B: attic
-C: beach
-D: ocean
-E: universe
+Question: Mom is tidying a house, where would she put the loose dictionary?
+A: shelf
+B: library
+C: classroom
+D: table
+E: desk
+Answer: A
+Question: Stanley had a dream that was very vivid and scary. He had trouble telling it from what?
+A: reality
+B: imagination
+C: dreamworker
+D: nightmare
+E: awake",Answer: A,A
+CSQA,3b,"Question: What can cause someone to want to go somewhere else because it's so smelly?
+A: rose bush
+B: go back
+C: die
+D: arrive there
+E: fart
+Answer: E
+Question: Some horses are white others are black, but many are this color which might lead some people to think their milk would taste like chocolate?
+A: big but gentle
+B: kept in stables
+C: cuddly
+D: brown
+E: running in herd
 Answer: D
-Question: How can music help someone who is down?
-A: beautifull
-B: express feelings
-C: they cannot heal and feel beautiful
-D: provide comfort
-E: sound good
+Question: What can cause someone to want to go somewhere else because it's so smelly?
+A: rose bush
+B: go back
+C: die
+D: arrive there
+E: fart
+Answer: E
+Question: Some horses are white others are black, but many are this color which might lead some people to think their milk would taste like chocolate?
+A: big but gentle
+B: kept in stables
+C: cuddly
+D: brown
+E: running in herd
 Answer: D
-Question: Jame's bare feet were burned as he walked, because the sunshine had made the surface hot.  Where might he have been?
-A: disneyland
-B: snow
-C: windowsill
-D: street
-E: summer",Answer: D,D
-StrategyQA,0,"Question: The Pyramid at the Louvre is made of glass and metal. The Louvre Pyramid glass is 10mm thick. 10mm thick glass is not unbreakable.
-Is the Louvre's pyramid known for being unbreakable? ","No, the Louvre Pyramid is not known for being unbreakable, as the glass used in its construction is only 10mm thick and therefore not unbreakable.",False
-StrategyQA,1a,"Question: Tonsure refers to the religious hairstyle in which hair from the top of the head is shaved off. Winners of the ancient Olympics were given a laurel crown to wear. A laurel crown involves leaves arranged in a circle that cover only the edges of the head.
-Does ancient Olympics crown fail to hide tonsure?
+Question: Stanley had a dream that was very vivid and scary. He had trouble telling it from what?
+A: reality
+B: imagination
+C: dreamworker
+D: nightmare
+E: awake",Answer: A,A
+StrategyQA,0,"Question: Lactobacillus species convert sugars they digest to lactic acid  The lactic acid of some Lactobacillus species is associated with tooth decay Dental procedures can be expensive without insurance
+Is overfeeding Lactobacillus unwise for people without dental insurance?","Yes, it would be unwise for people without dental insurance to overfeed Lactobacillus species that produce lactic acid, as this can contribute to tooth decay. Without insurance, dental procedures can be expensive, so it's important to prioritize oral health and avoid behaviors that may lead to dental issues, such as consuming excessive amounts of foods that promote the growth of decay-causing bacteria. It would be best to maintain a balanced diet and practice good oral hygiene habits to prevent tooth decay and reduce the need for costly dental treatments.",True
+StrategyQA,1a,"Question: Marco Polo died in 1324. Christopher Columbus was born in 1451.
+Did Marco Polo travel with Christopher Columbus?
+Answer: False
+Question: The bottom of the gulf is one of the world's largest ship cemeteries. Because of the low salinity and cold waters, and no shipworms, the ships are relatively well preserved. RMS Titanic was a British passenger ship.
+Would the Titanic be well preserved at the bottom of the Gulf of Finland?
 Answer: True
-Question: Maroon 5 formed in 2001. Nirvana's final performances were in 1994.
-Did Maroon 5 go on tour with Nirvana?
+Question: Lactobacillus species convert sugars they digest to lactic acid  The lactic acid of some Lactobacillus species is associated with tooth decay Dental procedures can be expensive without insurance
+Is overfeeding Lactobacillus unwise for people without dental insurance?",Answer: True,True
+StrategyQA,1b,"Question: A robusto is a short, fat cigar that is very popular in America. The Central Park Zoo has several rules including: no feeding the animals and no smoking. NYPD's 19th precinct is only an 11 minute walk away from the Central Park Zoo.
+Would it be wise to bring a robusto into Central Park Zoo?
 Answer: False
-Question: The Pyramid at the Louvre is made of glass and metal. The Louvre Pyramid glass is 10mm thick. 10mm thick glass is not unbreakable.
-Is the Louvre's pyramid known for being unbreakable? ",Answer: False,False
-StrategyQA,1b,"Question: Scavengers are defined as animals that feed on dead carcasses of animals they have not killed themselves. Vultures are scavengers that hover in the air and swoop down to feed once they see an animal killed by another animal. The Golden eagle has sharp talons to hunt its own prey. Golden eagles kill and feed on hares, rabbits, and ground squirrels.
-Is the Golden eagle considered a scavenger bird?
+Question: The Warsaw Ghetto existed during the second world war. Cell phones with video recording capability did not exist until the 2000s.
+Did the population of the Warsaw Ghetto record secret police on cell phones?
 Answer: False
-Question: Apartheid lasted from 1948 until the early 1990s. Actress Elle Fanning was born on April 9, 1998.
-Did Elle Fanning play an essential part in ending apartheid?
+Question: Lactobacillus species convert sugars they digest to lactic acid  The lactic acid of some Lactobacillus species is associated with tooth decay Dental procedures can be expensive without insurance
+Is overfeeding Lactobacillus unwise for people without dental insurance?","Answer: True. Overfeeding Lactobacillus can increase the risk of tooth decay, which, in turn, can lead to expensive dental procedures for individuals without insurance.",True
+StrategyQA,2,"Question: Marco Polo died in 1324. Christopher Columbus was born in 1451.
+Did Marco Polo travel with Christopher Columbus?
 Answer: False
-Question: The Pyramid at the Louvre is made of glass and metal. The Louvre Pyramid glass is 10mm thick. 10mm thick glass is not unbreakable.
-Is the Louvre's pyramid known for being unbreakable? ",Answer: False,False
-StrategyQA,2,"Question: Tonsure refers to the religious hairstyle in which hair from the top of the head is shaved off. Winners of the ancient Olympics were given a laurel crown to wear. A laurel crown involves leaves arranged in a circle that cover only the edges of the head.
-Does ancient Olympics crown fail to hide tonsure?
+Question: The bottom of the gulf is one of the world's largest ship cemeteries. Because of the low salinity and cold waters, and no shipworms, the ships are relatively well preserved. RMS Titanic was a British passenger ship.
+Would the Titanic be well preserved at the bottom of the Gulf of Finland?
 Answer: True
-Question: Maroon 5 formed in 2001. Nirvana's final performances were in 1994.
-Did Maroon 5 go on tour with Nirvana?
+Question: A robusto is a short, fat cigar that is very popular in America. The Central Park Zoo has several rules including: no feeding the animals and no smoking. NYPD's 19th precinct is only an 11 minute walk away from the Central Park Zoo.
+Would it be wise to bring a robusto into Central Park Zoo?
 Answer: False
-Question: Scavengers are defined as animals that feed on dead carcasses of animals they have not killed themselves. Vultures are scavengers that hover in the air and swoop down to feed once they see an animal killed by another animal. The Golden eagle has sharp talons to hunt its own prey. Golden eagles kill and feed on hares, rabbits, and ground squirrels.
-Is the Golden eagle considered a scavenger bird?
+Question: The Warsaw Ghetto existed during the second world war. Cell phones with video recording capability did not exist until the 2000s.
+Did the population of the Warsaw Ghetto record secret police on cell phones?
 Answer: False
-Question: Apartheid lasted from 1948 until the early 1990s. Actress Elle Fanning was born on April 9, 1998.
-Did Elle Fanning play an essential part in ending apartheid?
+Question: Lactobacillus species convert sugars they digest to lactic acid  The lactic acid of some Lactobacillus species is associated with tooth decay Dental procedures can be expensive without insurance
+Is overfeeding Lactobacillus unwise for people without dental insurance?",Answer: True,True
+StrategyQA,3a,"Question: Marco Polo died in 1324. Christopher Columbus was born in 1451.
+Did Marco Polo travel with Christopher Columbus?
 Answer: False
-Question: The Pyramid at the Louvre is made of glass and metal. The Louvre Pyramid glass is 10mm thick. 10mm thick glass is not unbreakable.
-Is the Louvre's pyramid known for being unbreakable? ",Answer: False,False
-StrategyQA,3a,"Question: Tonsure refers to the religious hairstyle in which hair from the top of the head is shaved off. Winners of the ancient Olympics were given a laurel crown to wear. A laurel crown involves leaves arranged in a circle that cover only the edges of the head.
-Does ancient Olympics crown fail to hide tonsure?
+Question: The bottom of the gulf is one of the world's largest ship cemeteries. Because of the low salinity and cold waters, and no shipworms, the ships are relatively well preserved. RMS Titanic was a British passenger ship.
+Would the Titanic be well preserved at the bottom of the Gulf of Finland?
 Answer: True
-Question: Maroon 5 formed in 2001. Nirvana's final performances were in 1994.
-Did Maroon 5 go on tour with Nirvana?
+Question: Marco Polo died in 1324. Christopher Columbus was born in 1451.
+Did Marco Polo travel with Christopher Columbus?
 Answer: False
-Question: Tonsure refers to the religious hairstyle in which hair from the top of the head is shaved off. Winners of the ancient Olympics were given a laurel crown to wear. A laurel crown involves leaves arranged in a circle that cover only the edges of the head.
-Does ancient Olympics crown fail to hide tonsure?
+Question: The bottom of the gulf is one of the world's largest ship cemeteries. Because of the low salinity and cold waters, and no shipworms, the ships are relatively well preserved. RMS Titanic was a British passenger ship.
+Would the Titanic be well preserved at the bottom of the Gulf of Finland?
 Answer: True
-Question: Maroon 5 formed in 2001. Nirvana's final performances were in 1994.
-Did Maroon 5 go on tour with Nirvana?
+Question: Lactobacillus species convert sugars they digest to lactic acid  The lactic acid of some Lactobacillus species is associated with tooth decay Dental procedures can be expensive without insurance
+Is overfeeding Lactobacillus unwise for people without dental insurance?",Answer: True,True
+StrategyQA,3b,"Question: A robusto is a short, fat cigar that is very popular in America. The Central Park Zoo has several rules including: no feeding the animals and no smoking. NYPD's 19th precinct is only an 11 minute walk away from the Central Park Zoo.
+Would it be wise to bring a robusto into Central Park Zoo?
 Answer: False
-Question: The Pyramid at the Louvre is made of glass and metal. The Louvre Pyramid glass is 10mm thick. 10mm thick glass is not unbreakable.
-Is the Louvre's pyramid known for being unbreakable? ",Answer: False,False
-StrategyQA,3b,"Question: Scavengers are defined as animals that feed on dead carcasses of animals they have not killed themselves. Vultures are scavengers that hover in the air and swoop down to feed once they see an animal killed by another animal. The Golden eagle has sharp talons to hunt its own prey. Golden eagles kill and feed on hares, rabbits, and ground squirrels.
-Is the Golden eagle considered a scavenger bird?
+Question: The Warsaw Ghetto existed during the second world war. Cell phones with video recording capability did not exist until the 2000s.
+Did the population of the Warsaw Ghetto record secret police on cell phones?
 Answer: False
-Question: Apartheid lasted from 1948 until the early 1990s. Actress Elle Fanning was born on April 9, 1998.
-Did Elle Fanning play an essential part in ending apartheid?
+Question: A robusto is a short, fat cigar that is very popular in America. The Central Park Zoo has several rules including: no feeding the animals and no smoking. NYPD's 19th precinct is only an 11 minute walk away from the Central Park Zoo.
+Would it be wise to bring a robusto into Central Park Zoo?
 Answer: False
-Question: Scavengers are defined as animals that feed on dead carcasses of animals they have not killed themselves. Vultures are scavengers that hover in the air and swoop down to feed once they see an animal killed by another animal. The Golden eagle has sharp talons to hunt its own prey. Golden eagles kill and feed on hares, rabbits, and ground squirrels.
-Is the Golden eagle considered a scavenger bird?
+Question: The Warsaw Ghetto existed during the second world war. Cell phones with video recording capability did not exist until the 2000s.
+Did the population of the Warsaw Ghetto record secret police on cell phones?
 Answer: False
-Question: Apartheid lasted from 1948 until the early 1990s. Actress Elle Fanning was born on April 9, 1998.
-Did Elle Fanning play an essential part in ending apartheid?
-Answer: False
-Question: The Pyramid at the Louvre is made of glass and metal. The Louvre Pyramid glass is 10mm thick. 10mm thick glass is not unbreakable.
-Is the Louvre's pyramid known for being unbreakable? ",Answer: False,False
-SayCan,0,Question: Provide step-by-step instructions for the following task: Move a banana to the table.,"1. Pick up the banana with your hand, ensuring you have a firm grip on it.
-2. Stand up and walk towards the table.
-3. Position yourself in front of the table with the banana still in your hand.
-4. Extend your arm and gently place the banana on the table's surface.
-5. Ensure that the banana is stable on the table and will not roll off.
-6. Step back and admire your successfully completed task of moving the banana to the table.","1. pick up the banana, 2. go to the table, 3. put down the banana, 4. done"
-SayCan,1a,"Question: Provide step-by-step instructions for the following task: How would you go to the table and the counter?
-Answer: 1. go to the table, 2. go to the counter, 3. done
-Question: Provide step-by-step instructions for the following task: How would you bring me an apple from the drawer?
-Answer: 1. go to the drawer, 2. open the drawer, 3. pick up the apple, 4. close the drawer, 5. bring it to you, 6. put down the apple, 7. done
-Question: Provide step-by-step instructions for the following task: Move a banana to the table.","Answer: 1. Pick up the banana, 2. Walk to the table, 3. Place the banana on the table, 4. Done.","1. pick up the banana, 2. go to the table, 3. put down the banana, 4. done"
-SayCan,1b,"Question: Provide step-by-step instructions for the following task: Can I have a redbull please.
-Answer: 1. find a redbull can, 2. pick up the redbull can, 3. bring it to you, 4. put down the redbull can, 5. done
-Question: Provide step-by-step instructions for the following task: Throw away all the fruits on the table.
-Answer: 1. go to the table, 2. pick up the apple, 3. go to the trash, 4. put down the apple, 5. go to the table, 6. pick up the orange, 7. go to the trash, 8. put down the orange, 9. done
-Question: Provide step-by-step instructions for the following task: Move a banana to the table.","Answer: 1. Go to where the banana is located, 2. Pick up the banana, 3. Walk over to the table, 4. Place the banana on the table, 5. Done","1. pick up the banana, 2. go to the table, 3. put down the banana, 4. done"
-SayCan,2,"Question: Provide step-by-step instructions for the following task: How would you go to the table and the counter?
-Answer: 1. go to the table, 2. go to the counter, 3. done
-Question: Provide step-by-step instructions for the following task: How would you bring me an apple from the drawer?
-Answer: 1. go to the drawer, 2. open the drawer, 3. pick up the apple, 4. close the drawer, 5. bring it to you, 6. put down the apple, 7. done
-Question: Provide step-by-step instructions for the following task: Can I have a redbull please.
-Answer: 1. find a redbull can, 2. pick up the redbull can, 3. bring it to you, 4. put down the redbull can, 5. done
-Question: Provide step-by-step instructions for the following task: Throw away all the fruits on the table.
-Answer: 1. go to the table, 2. pick up the apple, 3. go to the trash, 4. put down the apple, 5. go to the table, 6. pick up the orange, 7. go to the trash, 8. put down the orange, 9. done
-Question: Provide step-by-step instructions for the following task: Move a banana to the table.","Answer: 1. go to the counter, 2. pick up the banana, 3. go to the table, 4. put down the banana, 5. done","1. pick up the banana, 2. go to the table, 3. put down the banana, 4. done"
-SayCan,3a,"Question: Provide step-by-step instructions for the following task: How would you go to the table and the counter?
-Answer: 1. go to the table, 2. go to the counter, 3. done
-Question: Provide step-by-step instructions for the following task: How would you bring me an apple from the drawer?
-Answer: 1. go to the drawer, 2. open the drawer, 3. pick up the apple, 4. close the drawer, 5. bring it to you, 6. put down the apple, 7. done
-Question: Provide step-by-step instructions for the following task: How would you go to the table and the counter?
-Answer: 1. go to the table, 2. go to the counter, 3. done
-Question: Provide step-by-step instructions for the following task: How would you bring me an apple from the drawer?
-Answer: 1. go to the drawer, 2. open the drawer, 3. pick up the apple, 4. close the drawer, 5. bring it to you, 6. put down the apple, 7. done
-Question: Provide step-by-step instructions for the following task: Move a banana to the table.","Answer: 1. Go to where the banana is located, 2. Pick up the banana, 3. Walk to the table, 4. Place the banana on the table, 5. Done.","1. pick up the banana, 2. go to the table, 3. put down the banana, 4. done"
-SayCan,3b,"Question: Provide step-by-step instructions for the following task: Can I have a redbull please.
-Answer: 1. find a redbull can, 2. pick up the redbull can, 3. bring it to you, 4. put down the redbull can, 5. done
-Question: Provide step-by-step instructions for the following task: Throw away all the fruits on the table.
-Answer: 1. go to the table, 2. pick up the apple, 3. go to the trash, 4. put down the apple, 5. go to the table, 6. pick up the orange, 7. go to the trash, 8. put down the orange, 9. done
-Question: Provide step-by-step instructions for the following task: Can I have a redbull please.
-Answer: 1. find a redbull can, 2. pick up the redbull can, 3. bring it to you, 4. put down the redbull can, 5. done
-Question: Provide step-by-step instructions for the following task: Throw away all the fruits on the table.
-Answer: 1. go to the table, 2. pick up the apple, 3. go to the trash, 4. put down the apple, 5. go to the table, 6. pick up the orange, 7. go to the trash, 8. put down the orange, 9. done
-Question: Provide step-by-step instructions for the following task: Move a banana to the table.","Answer: 1. Locate a banana, 2. Pick up the banana, 3. Walk over to the table, 4. Place the banana on the table, 5. Done","1. pick up the banana, 2. go to the table, 3. put down the banana, 4. done"
+Question: Lactobacillus species convert sugars they digest to lactic acid  The lactic acid of some Lactobacillus species is associated with tooth decay Dental procedures can be expensive without insurance
+Is overfeeding Lactobacillus unwise for people without dental insurance?",Answer: True,True
+SayCan,0,Question: Move a banana to the table.,"I'm sorry, but I am not able to physically move objects. However, you can easily move a banana to the table by using your hands to pick it up and place it on the table.","1. pick up the banana, 2. go to the table, 3. put down the banana, 4. done"
+SayCan,1a,"Question: Can you bring me a spicy snack?
+Answer: 1. find a jalapeno chips, 2. pick up the jalapeno chips, 3. bring it to you, 4. put down the jalapeno chips, 5. done.
+Question: Bring me a drink that isn’t an water or a coke.
+Answer: 1. find the tea, 2. pick up the tea, 3. bring it to you, 4. put down the tea, 5. done
+Question: Move a banana to the table.","Answer: 1. Find the banana, 2. Pick up the banana, 3. Move the banana to the table, 4. Put down the banana, 5. Done.","1. pick up the banana, 2. go to the table, 3. put down the banana, 4. done"
+SayCan,1b,"Question: Could you get me something caffeinated?
+Answer: 1. find a pepsi, 2. pick up the pepsi, 3. bring it to you, 4. put down the pepsi, 5. done.
+Question: Throw away the apple.
+Answer: 1. find an apple, 2. pick up the apple, 3. go to the trash, 4. put down the apple, 5. done
+Question: Move a banana to the table.","Answer: 1. find a banana, 2. pick up the banana, 3. carry it to the table, 4. place the banana on the table, 5. done.","1. pick up the banana, 2. go to the table, 3. put down the banana, 4. done"
+SayCan,2,"Question: Can you bring me a spicy snack?
+Answer: 1. find a jalapeno chips, 2. pick up the jalapeno chips, 3. bring it to you, 4. put down the jalapeno chips, 5. done.
+Question: Bring me a drink that isn’t an water or a coke.
+Answer: 1. find the tea, 2. pick up the tea, 3. bring it to you, 4. put down the tea, 5. done
+Question: Could you get me something caffeinated?
+Answer: 1. find a pepsi, 2. pick up the pepsi, 3. bring it to you, 4. put down the pepsi, 5. done.
+Question: Throw away the apple.
+Answer: 1. find an apple, 2. pick up the apple, 3. go to the trash, 4. put down the apple, 5. done
+Question: Move a banana to the table.","Answer: 1. find a banana, 2. pick up the banana, 3. carry it to the table, 4. place the banana on the table, 5. done.","1. pick up the banana, 2. go to the table, 3. put down the banana, 4. done"
+SayCan,3a,"Question: Can you bring me a spicy snack?
+Answer: 1. find a jalapeno chips, 2. pick up the jalapeno chips, 3. bring it to you, 4. put down the jalapeno chips, 5. done.
+Question: Bring me a drink that isn’t an water or a coke.
+Answer: 1. find the tea, 2. pick up the tea, 3. bring it to you, 4. put down the tea, 5. done
+Question: Can you bring me a spicy snack?
+Answer: 1. find a jalapeno chips, 2. pick up the jalapeno chips, 3. bring it to you, 4. put down the jalapeno chips, 5. done.
+Question: Bring me a drink that isn’t an water or a coke.
+Answer: 1. find the tea, 2. pick up the tea, 3. bring it to you, 4. put down the tea, 5. done
+Question: Move a banana to the table.","Answer: 1. locate the banana, 2. pick up the banana, 3. carry the banana to the table, 4. place the banana on the table, 5. done.","1. pick up the banana, 2. go to the table, 3. put down the banana, 4. done"
+SayCan,3b,"Question: Could you get me something caffeinated?
+Answer: 1. find a pepsi, 2. pick up the pepsi, 3. bring it to you, 4. put down the pepsi, 5. done.
+Question: Throw away the apple.
+Answer: 1. find an apple, 2. pick up the apple, 3. go to the trash, 4. put down the apple, 5. done
+Question: Could you get me something caffeinated?
+Answer: 1. find a pepsi, 2. pick up the pepsi, 3. bring it to you, 4. put down the pepsi, 5. done.
+Question: Throw away the apple.
+Answer: 1. find an apple, 2. pick up the apple, 3. go to the trash, 4. put down the apple, 5. done
+Question: Move a banana to the table.","Answer: 1. find a banana, 2. pick up the banana, 3. bring it to the table, 4. put down the banana, 5. done.","1. pick up the banana, 2. go to the table, 3. put down the banana, 4. done"

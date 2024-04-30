@@ -1,415 +1,438 @@
 Task Class,Case,Prompt,Response,Expected
-Math,0,"Question: John is raising money for a school trip. He has applied for help from the school, which has decided to cover half the cost of the trip. How much money is John missing if he has $50 and the trip costs $300?","John has $50 and the school is covering half of the cost of the trip. This means the school will cover $150 of the $300 trip cost. 
+Math,0,"Question: Rory orders 2 subs for $7.50 each, 2 bags of chips for $1.50 each and 2 cookies for $1.00 each for delivery.  There’s a 20% delivery fee added at check out and she wants to add a $5.00 tip.  What will her delivery order cost?","First, calculate the total cost of the subs, chips, and cookies:
+2 subs x $7.50 = $15.00
+2 bags of chips x $1.50 = $3.00
+2 cookies x $1.00 = $2.00
 
-Therefore, John will still need to come up with $150 on his own. 
+Total cost of food = $15.00 + $3.00 + $2.00 = $20.00
 
-So, John is missing $150 to cover the total cost of the trip.","John's school has decided to pay 300 / 2 = $<<300/2=150>>150 for his trip.
-In total John has covered 150 + 50 = $<<150+50=200>>200 for his trip
-Therefore, John needs 300 - 200 = $<<300-200=100>>100 more for the trip.
-#### 100"
-Math,1a,"Question: Jack makes his own cold brew coffee.  He makes it in batches of 1.5 gallons.  He drinks 96 ounces of coffee every 2 days.  It takes 20 hours to make coffee.  How long does he spend making coffee over 24 days?
-Answer: He makes it in batches of 1.5*128=<<1.5*128=192>>192 ounces
-He drinks 96/2=<<96/2=48>>48 ounces of coffee a day
-So he drinks the coffee in 192/48=<<192/48=4>>4 days
-So in 24 days he makes 24/4=<<24/4=6>>6 batches
-That means he spends 6*20=<<6*20=120>>120 hours making coffee
-#### 120
-Question: There are 10 books on the table. Two-fifths of them are reading books and three-tenths of them are math books. There is one fewer science book than math books and the rest are history books. How many history books are there?
-Answer: Out of the 10 books, 10 x 2/5 = <<10*2/5=4>>4 are reading books.
-While 10 x 3/10 = <<10*3/10=3>>3 are math books.
-There are 3 - 1 = <<3-1=2>>2 science books.
-So, the total number of reading, math, and science books is 4 + 3 + 2 = <<4+3+2=9>>9.
-Thus, there is only 10 - 9 = <<10-9=1>>1 history book.
-#### 1
-Question: John is raising money for a school trip. He has applied for help from the school, which has decided to cover half the cost of the trip. How much money is John missing if he has $50 and the trip costs $300?","Answer: The school covers 300/2 = $<<300/2=150>>150 of the trip cost.
-So, John is missing 300 - 150 = $<<300-150=150>>150.
-Therefore, John is missing $150 - $50 = $<<150-50=100>>100.
-#### 100","John's school has decided to pay 300 / 2 = $<<300/2=150>>150 for his trip.
-In total John has covered 150 + 50 = $<<150+50=200>>200 for his trip
-Therefore, John needs 300 - 200 = $<<300-200=100>>100 more for the trip.
-#### 100"
-Math,1b,"Question: It takes 1 hour for refrigerated dough to come to room temperature.  It takes 15 minutes to shape the dough and 2 hours to proof.  The bread takes 30 minutes to bake and 15 minutes to cool.  If the bakery opens at 6:00 am, what is the latest time the head baker can make it to the store to start working?
-Answer: It takes 1 hour to bring the dough to room temp and 2 hours to proof the dough so that's 1+2 = <<1+2=3>>3 hours
-It takes 15 minutes to shape the dough, 30 minutes to bake and another 15 minutes to cool for a total of 15+30+15 = <<15+30+15=60>>60 minutes
-There are 60 minutes in 1 hour so that takes him 60/60 = <<60/60=1>>1 hour
-In total it takes 3+1 = <<3+1=4>>4 hours from start to finish to make the bread
-If the bakery opens at 6:00 am and it takes 4 hours to prep then the latest the head baker can show up is 6-4 = <<6-4=2>>2:00 am
-#### 2
-Question: For breakfast, Anna bought a bagel for $0.95 and a glass of orange juice for $0.85. At lunch, Anna spent $4.65 on a sandwich and $1.15 on a carton of milk. How much more money did Anna spend on lunch than on breakfast?
-Answer: The total cost of breakfast is $0.95 + $0.85 = $<<0.95+0.85=1.80>>1.80.
-The total cost of lunch is $4.65 + $1.15 = $<<4.65+1.15=5.80>>5.80.
-Anna spent $5.80 − $1.80 = $4 more on lunch than breakfast.
-#### 4
-Question: John is raising money for a school trip. He has applied for help from the school, which has decided to cover half the cost of the trip. How much money is John missing if he has $50 and the trip costs $300?","Answer: The school is covering half the cost of the trip, which means they are covering $300 / 2 = $150.
-John has $50, so he is missing $300 - $150 - $50 = $100 for the trip.","John's school has decided to pay 300 / 2 = $<<300/2=150>>150 for his trip.
-In total John has covered 150 + 50 = $<<150+50=200>>200 for his trip
-Therefore, John needs 300 - 200 = $<<300-200=100>>100 more for the trip.
-#### 100"
-Math,2,"Question: Jack makes his own cold brew coffee.  He makes it in batches of 1.5 gallons.  He drinks 96 ounces of coffee every 2 days.  It takes 20 hours to make coffee.  How long does he spend making coffee over 24 days?
-Answer: He makes it in batches of 1.5*128=<<1.5*128=192>>192 ounces
-He drinks 96/2=<<96/2=48>>48 ounces of coffee a day
-So he drinks the coffee in 192/48=<<192/48=4>>4 days
-So in 24 days he makes 24/4=<<24/4=6>>6 batches
-That means he spends 6*20=<<6*20=120>>120 hours making coffee
-#### 120
-Question: There are 10 books on the table. Two-fifths of them are reading books and three-tenths of them are math books. There is one fewer science book than math books and the rest are history books. How many history books are there?
-Answer: Out of the 10 books, 10 x 2/5 = <<10*2/5=4>>4 are reading books.
-While 10 x 3/10 = <<10*3/10=3>>3 are math books.
-There are 3 - 1 = <<3-1=2>>2 science books.
-So, the total number of reading, math, and science books is 4 + 3 + 2 = <<4+3+2=9>>9.
-Thus, there is only 10 - 9 = <<10-9=1>>1 history book.
-#### 1
-Question: It takes 1 hour for refrigerated dough to come to room temperature.  It takes 15 minutes to shape the dough and 2 hours to proof.  The bread takes 30 minutes to bake and 15 minutes to cool.  If the bakery opens at 6:00 am, what is the latest time the head baker can make it to the store to start working?
-Answer: It takes 1 hour to bring the dough to room temp and 2 hours to proof the dough so that's 1+2 = <<1+2=3>>3 hours
-It takes 15 minutes to shape the dough, 30 minutes to bake and another 15 minutes to cool for a total of 15+30+15 = <<15+30+15=60>>60 minutes
-There are 60 minutes in 1 hour so that takes him 60/60 = <<60/60=1>>1 hour
-In total it takes 3+1 = <<3+1=4>>4 hours from start to finish to make the bread
-If the bakery opens at 6:00 am and it takes 4 hours to prep then the latest the head baker can show up is 6-4 = <<6-4=2>>2:00 am
-#### 2
-Question: For breakfast, Anna bought a bagel for $0.95 and a glass of orange juice for $0.85. At lunch, Anna spent $4.65 on a sandwich and $1.15 on a carton of milk. How much more money did Anna spend on lunch than on breakfast?
-Answer: The total cost of breakfast is $0.95 + $0.85 = $<<0.95+0.85=1.80>>1.80.
-The total cost of lunch is $4.65 + $1.15 = $<<4.65+1.15=5.80>>5.80.
-Anna spent $5.80 − $1.80 = $4 more on lunch than breakfast.
-#### 4
-Question: John is raising money for a school trip. He has applied for help from the school, which has decided to cover half the cost of the trip. How much money is John missing if he has $50 and the trip costs $300?","Answer: The school will cover half the cost of the trip, which is 300/2 = $<<300/2=150>>150.
-So, John is missing 300 - 150 = $<<300-150=150>>150 for the trip.
-Since he already has $50, John is missing 150 - 50 = $<<150-50=100>>100 for the trip.","John's school has decided to pay 300 / 2 = $<<300/2=150>>150 for his trip.
-In total John has covered 150 + 50 = $<<150+50=200>>200 for his trip
-Therefore, John needs 300 - 200 = $<<300-200=100>>100 more for the trip.
-#### 100"
-Math,3a,"Question: Jack makes his own cold brew coffee.  He makes it in batches of 1.5 gallons.  He drinks 96 ounces of coffee every 2 days.  It takes 20 hours to make coffee.  How long does he spend making coffee over 24 days?
-Answer: He makes it in batches of 1.5*128=<<1.5*128=192>>192 ounces
-He drinks 96/2=<<96/2=48>>48 ounces of coffee a day
-So he drinks the coffee in 192/48=<<192/48=4>>4 days
-So in 24 days he makes 24/4=<<24/4=6>>6 batches
-That means he spends 6*20=<<6*20=120>>120 hours making coffee
-#### 120
-Question: There are 10 books on the table. Two-fifths of them are reading books and three-tenths of them are math books. There is one fewer science book than math books and the rest are history books. How many history books are there?
-Answer: Out of the 10 books, 10 x 2/5 = <<10*2/5=4>>4 are reading books.
-While 10 x 3/10 = <<10*3/10=3>>3 are math books.
-There are 3 - 1 = <<3-1=2>>2 science books.
-So, the total number of reading, math, and science books is 4 + 3 + 2 = <<4+3+2=9>>9.
-Thus, there is only 10 - 9 = <<10-9=1>>1 history book.
-#### 1
-Question: Jack makes his own cold brew coffee.  He makes it in batches of 1.5 gallons.  He drinks 96 ounces of coffee every 2 days.  It takes 20 hours to make coffee.  How long does he spend making coffee over 24 days?
-Answer: He makes it in batches of 1.5*128=<<1.5*128=192>>192 ounces
-He drinks 96/2=<<96/2=48>>48 ounces of coffee a day
-So he drinks the coffee in 192/48=<<192/48=4>>4 days
-So in 24 days he makes 24/4=<<24/4=6>>6 batches
-That means he spends 6*20=<<6*20=120>>120 hours making coffee
-#### 120
-Question: There are 10 books on the table. Two-fifths of them are reading books and three-tenths of them are math books. There is one fewer science book than math books and the rest are history books. How many history books are there?
-Answer: Out of the 10 books, 10 x 2/5 = <<10*2/5=4>>4 are reading books.
-While 10 x 3/10 = <<10*3/10=3>>3 are math books.
-There are 3 - 1 = <<3-1=2>>2 science books.
-So, the total number of reading, math, and science books is 4 + 3 + 2 = <<4+3+2=9>>9.
-Thus, there is only 10 - 9 = <<10-9=1>>1 history book.
-#### 1
-Question: John is raising money for a school trip. He has applied for help from the school, which has decided to cover half the cost of the trip. How much money is John missing if he has $50 and the trip costs $300?","Answer: The school will cover $300/2 = $150 for the trip.
-So, John is missing $300 - $150 = $150 for the trip. 
-Therefore, John is missing $150 - $50 = $<<150-50=100>>100. 
-#### $100","John's school has decided to pay 300 / 2 = $<<300/2=150>>150 for his trip.
-In total John has covered 150 + 50 = $<<150+50=200>>200 for his trip
-Therefore, John needs 300 - 200 = $<<300-200=100>>100 more for the trip.
-#### 100"
-Math,3b,"Question: It takes 1 hour for refrigerated dough to come to room temperature.  It takes 15 minutes to shape the dough and 2 hours to proof.  The bread takes 30 minutes to bake and 15 minutes to cool.  If the bakery opens at 6:00 am, what is the latest time the head baker can make it to the store to start working?
-Answer: It takes 1 hour to bring the dough to room temp and 2 hours to proof the dough so that's 1+2 = <<1+2=3>>3 hours
-It takes 15 minutes to shape the dough, 30 minutes to bake and another 15 minutes to cool for a total of 15+30+15 = <<15+30+15=60>>60 minutes
-There are 60 minutes in 1 hour so that takes him 60/60 = <<60/60=1>>1 hour
-In total it takes 3+1 = <<3+1=4>>4 hours from start to finish to make the bread
-If the bakery opens at 6:00 am and it takes 4 hours to prep then the latest the head baker can show up is 6-4 = <<6-4=2>>2:00 am
-#### 2
-Question: For breakfast, Anna bought a bagel for $0.95 and a glass of orange juice for $0.85. At lunch, Anna spent $4.65 on a sandwich and $1.15 on a carton of milk. How much more money did Anna spend on lunch than on breakfast?
-Answer: The total cost of breakfast is $0.95 + $0.85 = $<<0.95+0.85=1.80>>1.80.
-The total cost of lunch is $4.65 + $1.15 = $<<4.65+1.15=5.80>>5.80.
-Anna spent $5.80 − $1.80 = $4 more on lunch than breakfast.
-#### 4
-Question: It takes 1 hour for refrigerated dough to come to room temperature.  It takes 15 minutes to shape the dough and 2 hours to proof.  The bread takes 30 minutes to bake and 15 minutes to cool.  If the bakery opens at 6:00 am, what is the latest time the head baker can make it to the store to start working?
-Answer: It takes 1 hour to bring the dough to room temp and 2 hours to proof the dough so that's 1+2 = <<1+2=3>>3 hours
-It takes 15 minutes to shape the dough, 30 minutes to bake and another 15 minutes to cool for a total of 15+30+15 = <<15+30+15=60>>60 minutes
-There are 60 minutes in 1 hour so that takes him 60/60 = <<60/60=1>>1 hour
-In total it takes 3+1 = <<3+1=4>>4 hours from start to finish to make the bread
-If the bakery opens at 6:00 am and it takes 4 hours to prep then the latest the head baker can show up is 6-4 = <<6-4=2>>2:00 am
-#### 2
-Question: For breakfast, Anna bought a bagel for $0.95 and a glass of orange juice for $0.85. At lunch, Anna spent $4.65 on a sandwich and $1.15 on a carton of milk. How much more money did Anna spend on lunch than on breakfast?
-Answer: The total cost of breakfast is $0.95 + $0.85 = $<<0.95+0.85=1.80>>1.80.
-The total cost of lunch is $4.65 + $1.15 = $<<4.65+1.15=5.80>>5.80.
-Anna spent $5.80 − $1.80 = $4 more on lunch than breakfast.
-#### 4
-Question: John is raising money for a school trip. He has applied for help from the school, which has decided to cover half the cost of the trip. How much money is John missing if he has $50 and the trip costs $300?","Answer: The school will cover half the cost of the trip, which is $300/2 = $150.
-John has $50, so he is missing $300 - $150 - $50 = $<<300-150-50=100>>100 for the trip.","John's school has decided to pay 300 / 2 = $<<300/2=150>>150 for his trip.
-In total John has covered 150 + 50 = $<<150+50=200>>200 for his trip
-Therefore, John needs 300 - 200 = $<<300-200=100>>100 more for the trip.
-#### 100"
-CSQA,0,"Question: Stanley had a dream that was very vivid and scary. He had trouble telling it from what?
-A: reality
-B: imagination
-C: dreamworker
-D: nightmare
-E: awake",A: reality,A
-CSQA,1a,"Question: What is something that you feel when you go to the opera?
-A: fall asleep
-B: headache
-C: boredom
-D: relaxation
-E: sick
-Answer: D
-Question: Why would someone bring suit against a total stranger?
-A: aggravation
-B: randomness
-C: going to court
-D: tensions
-E: anger
+Next, calculate the delivery fee:
+20% of $20.00 = 0.20 x $20.00 = $4.00
+
+Add the delivery fee to the total cost of the food:
+$20.00 + $4.00 = $24.00
+
+Finally, add the $5.00 tip to get the total delivery order cost:
+$24.00 + $5.00 = $29.00
+
+The delivery order will cost $29.00.","2 subs are $7.50 each so that’s 2*7.50 = $<<2*7.5=15.00>>15.00
+2 bags of chips are $1.50 each so that’s 2*1.50 = $<<2*1.50=3.00>>3.00
+2 cookies are $1.00 each so that’s 2*1 = $<<2*1=2.00>>2.00
+Her delivery order will be 15+3+2= $<<15+3+2=20.00>>20.00
+There’s a 20% delivery fee on the $20.00 which adds .20*20 = $4.00 to her bill
+The delivery order is $20.00, there’s a $4.00 delivery fee and she adds a $5.00 tip for a total of 20+4+5 = $<<20+4+5=29.00>>29.00
+#### 29"
+Math,1a,"Question: Tim spent $50.00 on Chinese take-out.  80% of the cost went to 4 entrees.  The rest of the money went to 2 appetizers that each cost the same amount.  How much was the price of a single appetizer?
+Answer: He spent $50.00 and 80% of the meal went to entrees so he spent 50*.80 = $40.00 on entrees
+He spent $50.00 and $40.00 went to entrees so that leaves $50 - $40 = $<<50-40=10.00>>10.00 for appetizers
+Each appetizer costs the same amount and he spent $10.00 all together so each appetizer is $10/2 = $<<10/2=5.00>>5.00
+#### 5
+Question: If eight liters is 20% the capacity of a container filled with water, calculate the total capacity of 40 such containers filled with water.
+Answer: If eight liters is 20% the capacity of a container filled with water, when the container is full, which is 100%, the container will contain 100%/20% * 8 liters= 40 liters.
+The total capacity of 40 such containers filled with water is 40*40 = <<40*40=1600>>1600 liters
+#### 1600
+Question: Rory orders 2 subs for $7.50 each, 2 bags of chips for $1.50 each and 2 cookies for $1.00 each for delivery.  There’s a 20% delivery fee added at check out and she wants to add a $5.00 tip.  What will her delivery order cost?","First, let's calculate the cost of the subs, chips, and cookies. 
+
+2 subs at $7.50 each = 2 * $7.50 = $15.00
+2 bags of chips at $1.50 each = 2 * $1.50 = $3.00
+2 cookies at $1.00 each = 2 * $1.00 = $2.00
+
+The total cost of the subs, chips, and cookies is $15.00 + $3.00 + $2.00 = $20.00
+
+Next, let's calculate the delivery fee, which is 20% of $20.00:
+Delivery fee = 20% of $20.00 = 0.20 * $20.00 = $4.00
+
+Now, let's add the delivery fee and the tip to the total cost:
+Total cost = $20.00 + $4.00 + $5.00 = $29.00
+
+Therefore, Rory's delivery order will cost $29.00.","2 subs are $7.50 each so that’s 2*7.50 = $<<2*7.5=15.00>>15.00
+2 bags of chips are $1.50 each so that’s 2*1.50 = $<<2*1.50=3.00>>3.00
+2 cookies are $1.00 each so that’s 2*1 = $<<2*1=2.00>>2.00
+Her delivery order will be 15+3+2= $<<15+3+2=20.00>>20.00
+There’s a 20% delivery fee on the $20.00 which adds .20*20 = $4.00 to her bill
+The delivery order is $20.00, there’s a $4.00 delivery fee and she adds a $5.00 tip for a total of 20+4+5 = $<<20+4+5=29.00>>29.00
+#### 29"
+Math,1b,"Question: A school cafeteria uses ground mince to cook lasagnas and cottage pies. They make 100 lasagnas, which use 2 pounds of ground mince each, and cottage pies, which use 3 pounds of ground mince each. If the cafeteria has used 500 pounds of ground mince in total, how many cottage pies did they make?
+Answer: The cafeteria used 100 lasagnas * 2 pounds of ground mince = <<100*2=200>>200 pounds of ground mince for the lasagnas.
+This means they used 500 pounds of ground mince in total – 200 pounds of ground mince for the lasagnas = 300 pounds of ground mince for the cottage pies.
+So they must have made 300 pounds of ground mince for the cottage pies / 3 pounds of ground mince per cottage pie = <<300/3=100>>100 cottage pies.
+#### 100
+Question: Charlotte is making a pie. She can't decide if she will make cherry or blueberry. So she decides to make whichever pie is cheapest. Both pies will need $2 for flour, $1 for sugar and $1.5 for eggs and butter to make the crust. The blueberry pie needs 3 pounds of blueberries. The blueberries come in 8 oz containers for $2.25. For the cherry pie, she needs 4 pounds and they come in a four-pound bag for $14. What is the total price to make the cheapest pie?
+Answer: The crust will cost $4.5 because 2 + 1 + 1.5 = <<2+1+1.5=4.5>>4.5
+She will need 6 containers for blueberries because 3 x (8/16) = 6
+The blueberries will cost $13.5 because 6 x 2.25 = <<6*2.25=13.5>>13.5
+The blueberries are cheaper because 13.5 < 14
+The blueberry pie will cost $18 to make because 4.5 + 13.5 = <<4.5+13.5=18>>18
+#### 18
+Question: Rory orders 2 subs for $7.50 each, 2 bags of chips for $1.50 each and 2 cookies for $1.00 each for delivery.  There’s a 20% delivery fee added at check out and she wants to add a $5.00 tip.  What will her delivery order cost?","First, let's calculate the total cost of the subs, chips, and cookies before the delivery fee and tip:
+
+2 subs at $7.50 each = 2 x $7.50 = $15.00
+2 bags of chips at $1.50 each = 2 x $1.50 = $3.00
+2 cookies at $1.00 each = 2 x $1.00 = $2.00
+
+Total cost of the food items = $15.00 + $3.00 + $2.00 = $20.00
+
+Next, let's calculate the delivery fee, which is 20% of the total cost of the food items:
+
+Delivery fee = 20% of $20.00 = 0.20 x $20.00 = $4.00
+
+Now, let's calculate the total cost of the delivery order including the delivery fee and tip:
+
+Total cost = Total cost of food items + Delivery fee + Tip
+Total cost = $20.00 + $4.00 + $5.00
+Total cost = $29.00
+
+Therefore, Rory's delivery order will cost $29.00 in total.","2 subs are $7.50 each so that’s 2*7.50 = $<<2*7.5=15.00>>15.00
+2 bags of chips are $1.50 each so that’s 2*1.50 = $<<2*1.50=3.00>>3.00
+2 cookies are $1.00 each so that’s 2*1 = $<<2*1=2.00>>2.00
+Her delivery order will be 15+3+2= $<<15+3+2=20.00>>20.00
+There’s a 20% delivery fee on the $20.00 which adds .20*20 = $4.00 to her bill
+The delivery order is $20.00, there’s a $4.00 delivery fee and she adds a $5.00 tip for a total of 20+4+5 = $<<20+4+5=29.00>>29.00
+#### 29"
+Math,2,"Question: Tim spent $50.00 on Chinese take-out.  80% of the cost went to 4 entrees.  The rest of the money went to 2 appetizers that each cost the same amount.  How much was the price of a single appetizer?
+Answer: He spent $50.00 and 80% of the meal went to entrees so he spent 50*.80 = $40.00 on entrees
+He spent $50.00 and $40.00 went to entrees so that leaves $50 - $40 = $<<50-40=10.00>>10.00 for appetizers
+Each appetizer costs the same amount and he spent $10.00 all together so each appetizer is $10/2 = $<<10/2=5.00>>5.00
+#### 5
+Question: If eight liters is 20% the capacity of a container filled with water, calculate the total capacity of 40 such containers filled with water.
+Answer: If eight liters is 20% the capacity of a container filled with water, when the container is full, which is 100%, the container will contain 100%/20% * 8 liters= 40 liters.
+The total capacity of 40 such containers filled with water is 40*40 = <<40*40=1600>>1600 liters
+#### 1600
+Question: A school cafeteria uses ground mince to cook lasagnas and cottage pies. They make 100 lasagnas, which use 2 pounds of ground mince each, and cottage pies, which use 3 pounds of ground mince each. If the cafeteria has used 500 pounds of ground mince in total, how many cottage pies did they make?
+Answer: The cafeteria used 100 lasagnas * 2 pounds of ground mince = <<100*2=200>>200 pounds of ground mince for the lasagnas.
+This means they used 500 pounds of ground mince in total – 200 pounds of ground mince for the lasagnas = 300 pounds of ground mince for the cottage pies.
+So they must have made 300 pounds of ground mince for the cottage pies / 3 pounds of ground mince per cottage pie = <<300/3=100>>100 cottage pies.
+#### 100
+Question: Charlotte is making a pie. She can't decide if she will make cherry or blueberry. So she decides to make whichever pie is cheapest. Both pies will need $2 for flour, $1 for sugar and $1.5 for eggs and butter to make the crust. The blueberry pie needs 3 pounds of blueberries. The blueberries come in 8 oz containers for $2.25. For the cherry pie, she needs 4 pounds and they come in a four-pound bag for $14. What is the total price to make the cheapest pie?
+Answer: The crust will cost $4.5 because 2 + 1 + 1.5 = <<2+1+1.5=4.5>>4.5
+She will need 6 containers for blueberries because 3 x (8/16) = 6
+The blueberries will cost $13.5 because 6 x 2.25 = <<6*2.25=13.5>>13.5
+The blueberries are cheaper because 13.5 < 14
+The blueberry pie will cost $18 to make because 4.5 + 13.5 = <<4.5+13.5=18>>18
+#### 18
+Question: Rory orders 2 subs for $7.50 each, 2 bags of chips for $1.50 each and 2 cookies for $1.00 each for delivery.  There’s a 20% delivery fee added at check out and she wants to add a $5.00 tip.  What will her delivery order cost?","Answer: The total cost of the subs is 2 * $7.50 = $15.00
+The total cost of the chips is 2 * $1.50 = $3.00
+The total cost of the cookies is 2 * $1.00 = $2.00
+The subtotal of the order is $15.00 + $3.00 + $2.00 = $20.00
+The delivery fee is 20% of $20.00 = $4.00
+Adding the $5.00 tip, the total cost of Rory's delivery order will be $20.00 + $4.00 + $5.00 = $29.00. 
+Therefore, Rory's delivery order will cost $29.00.","2 subs are $7.50 each so that’s 2*7.50 = $<<2*7.5=15.00>>15.00
+2 bags of chips are $1.50 each so that’s 2*1.50 = $<<2*1.50=3.00>>3.00
+2 cookies are $1.00 each so that’s 2*1 = $<<2*1=2.00>>2.00
+Her delivery order will be 15+3+2= $<<15+3+2=20.00>>20.00
+There’s a 20% delivery fee on the $20.00 which adds .20*20 = $4.00 to her bill
+The delivery order is $20.00, there’s a $4.00 delivery fee and she adds a $5.00 tip for a total of 20+4+5 = $<<20+4+5=29.00>>29.00
+#### 29"
+Math,3a,"Question: Tim spent $50.00 on Chinese take-out.  80% of the cost went to 4 entrees.  The rest of the money went to 2 appetizers that each cost the same amount.  How much was the price of a single appetizer?
+Answer: He spent $50.00 and 80% of the meal went to entrees so he spent 50*.80 = $40.00 on entrees
+He spent $50.00 and $40.00 went to entrees so that leaves $50 - $40 = $<<50-40=10.00>>10.00 for appetizers
+Each appetizer costs the same amount and he spent $10.00 all together so each appetizer is $10/2 = $<<10/2=5.00>>5.00
+#### 5
+Question: If eight liters is 20% the capacity of a container filled with water, calculate the total capacity of 40 such containers filled with water.
+Answer: If eight liters is 20% the capacity of a container filled with water, when the container is full, which is 100%, the container will contain 100%/20% * 8 liters= 40 liters.
+The total capacity of 40 such containers filled with water is 40*40 = <<40*40=1600>>1600 liters
+#### 1600
+Question: Tim spent $50.00 on Chinese take-out.  80% of the cost went to 4 entrees.  The rest of the money went to 2 appetizers that each cost the same amount.  How much was the price of a single appetizer?
+Answer: He spent $50.00 and 80% of the meal went to entrees so he spent 50*.80 = $40.00 on entrees
+He spent $50.00 and $40.00 went to entrees so that leaves $50 - $40 = $<<50-40=10.00>>10.00 for appetizers
+Each appetizer costs the same amount and he spent $10.00 all together so each appetizer is $10/2 = $<<10/2=5.00>>5.00
+#### 5
+Question: If eight liters is 20% the capacity of a container filled with water, calculate the total capacity of 40 such containers filled with water.
+Answer: If eight liters is 20% the capacity of a container filled with water, when the container is full, which is 100%, the container will contain 100%/20% * 8 liters= 40 liters.
+The total capacity of 40 such containers filled with water is 40*40 = <<40*40=1600>>1600 liters
+#### 1600
+Question: Rory orders 2 subs for $7.50 each, 2 bags of chips for $1.50 each and 2 cookies for $1.00 each for delivery.  There’s a 20% delivery fee added at check out and she wants to add a $5.00 tip.  What will her delivery order cost?","First, calculate the total cost of the subs, chips, and cookies: $7.50/sub * 2 subs + $1.50/chip * 2 chips + $1.00/cookie * 2 cookies = $<<7.50*2+1.50*2+1*2=19.00>>19.00
+Next, calculate the delivery fee: $19.00 * 0.20 = $<<19*0.20=3.80>>3.80
+Add the cost of the food and the delivery fee together: $19.00 + $3.80 = $<<19+3.80=22.80>>22.80
+Finally, add the tip: $22.80 + $5.00 = $<<22.80+5=27.80>>27.80
+Her delivery order will cost $27.80.","2 subs are $7.50 each so that’s 2*7.50 = $<<2*7.5=15.00>>15.00
+2 bags of chips are $1.50 each so that’s 2*1.50 = $<<2*1.50=3.00>>3.00
+2 cookies are $1.00 each so that’s 2*1 = $<<2*1=2.00>>2.00
+Her delivery order will be 15+3+2= $<<15+3+2=20.00>>20.00
+There’s a 20% delivery fee on the $20.00 which adds .20*20 = $4.00 to her bill
+The delivery order is $20.00, there’s a $4.00 delivery fee and she adds a $5.00 tip for a total of 20+4+5 = $<<20+4+5=29.00>>29.00
+#### 29"
+Math,3b,"Question: A school cafeteria uses ground mince to cook lasagnas and cottage pies. They make 100 lasagnas, which use 2 pounds of ground mince each, and cottage pies, which use 3 pounds of ground mince each. If the cafeteria has used 500 pounds of ground mince in total, how many cottage pies did they make?
+Answer: The cafeteria used 100 lasagnas * 2 pounds of ground mince = <<100*2=200>>200 pounds of ground mince for the lasagnas.
+This means they used 500 pounds of ground mince in total – 200 pounds of ground mince for the lasagnas = 300 pounds of ground mince for the cottage pies.
+So they must have made 300 pounds of ground mince for the cottage pies / 3 pounds of ground mince per cottage pie = <<300/3=100>>100 cottage pies.
+#### 100
+Question: Charlotte is making a pie. She can't decide if she will make cherry or blueberry. So she decides to make whichever pie is cheapest. Both pies will need $2 for flour, $1 for sugar and $1.5 for eggs and butter to make the crust. The blueberry pie needs 3 pounds of blueberries. The blueberries come in 8 oz containers for $2.25. For the cherry pie, she needs 4 pounds and they come in a four-pound bag for $14. What is the total price to make the cheapest pie?
+Answer: The crust will cost $4.5 because 2 + 1 + 1.5 = <<2+1+1.5=4.5>>4.5
+She will need 6 containers for blueberries because 3 x (8/16) = 6
+The blueberries will cost $13.5 because 6 x 2.25 = <<6*2.25=13.5>>13.5
+The blueberries are cheaper because 13.5 < 14
+The blueberry pie will cost $18 to make because 4.5 + 13.5 = <<4.5+13.5=18>>18
+#### 18
+Question: A school cafeteria uses ground mince to cook lasagnas and cottage pies. They make 100 lasagnas, which use 2 pounds of ground mince each, and cottage pies, which use 3 pounds of ground mince each. If the cafeteria has used 500 pounds of ground mince in total, how many cottage pies did they make?
+Answer: The cafeteria used 100 lasagnas * 2 pounds of ground mince = <<100*2=200>>200 pounds of ground mince for the lasagnas.
+This means they used 500 pounds of ground mince in total – 200 pounds of ground mince for the lasagnas = 300 pounds of ground mince for the cottage pies.
+So they must have made 300 pounds of ground mince for the cottage pies / 3 pounds of ground mince per cottage pie = <<300/3=100>>100 cottage pies.
+#### 100
+Question: Charlotte is making a pie. She can't decide if she will make cherry or blueberry. So she decides to make whichever pie is cheapest. Both pies will need $2 for flour, $1 for sugar and $1.5 for eggs and butter to make the crust. The blueberry pie needs 3 pounds of blueberries. The blueberries come in 8 oz containers for $2.25. For the cherry pie, she needs 4 pounds and they come in a four-pound bag for $14. What is the total price to make the cheapest pie?
+Answer: The crust will cost $4.5 because 2 + 1 + 1.5 = <<2+1+1.5=4.5>>4.5
+She will need 6 containers for blueberries because 3 x (8/16) = 6
+The blueberries will cost $13.5 because 6 x 2.25 = <<6*2.25=13.5>>13.5
+The blueberries are cheaper because 13.5 < 14
+The blueberry pie will cost $18 to make because 4.5 + 13.5 = <<4.5+13.5=18>>18
+#### 18
+Question: Rory orders 2 subs for $7.50 each, 2 bags of chips for $1.50 each and 2 cookies for $1.00 each for delivery.  There’s a 20% delivery fee added at check out and she wants to add a $5.00 tip.  What will her delivery order cost?","Answer: 
+The total cost of the subs is $7.50 x 2 = $15.
+The total cost of the chips is $1.50 x 2 = $3.
+The total cost of the cookies is $1.00 x 2 = $2.
+The total cost of the items before delivery and tip is $15 + $3 + $2 = $20.
+The delivery fee is 20% of $20 = $4.
+Adding the delivery fee, the total cost becomes $20 + $4 = $24.
+Adding a $5 tip, the final delivery order cost will be $24 + $5 = $29.","2 subs are $7.50 each so that’s 2*7.50 = $<<2*7.5=15.00>>15.00
+2 bags of chips are $1.50 each so that’s 2*1.50 = $<<2*1.50=3.00>>3.00
+2 cookies are $1.00 each so that’s 2*1 = $<<2*1=2.00>>2.00
+Her delivery order will be 15+3+2= $<<15+3+2=20.00>>20.00
+There’s a 20% delivery fee on the $20.00 which adds .20*20 = $4.00 to her bill
+The delivery order is $20.00, there’s a $4.00 delivery fee and she adds a $5.00 tip for a total of 20+4+5 = $<<20+4+5=29.00>>29.00
+#### 29"
+CSQA,0,"Question: What home entertainment equipment requires cable?
+A: radio shack
+B: substation
+C: cabinet
+D: television
+E: desk",D: television,D
+CSQA,1a,"Question: When attending school, if I misbehave, what could happen to me after school?
+A: stupidity
+B: detention
+C: much work
+D: boredom
+E: trouble
 Answer: B
-Question: Stanley had a dream that was very vivid and scary. He had trouble telling it from what?
-A: reality
-B: imagination
-C: dreamworker
-D: nightmare
-E: awake",Answer: A,A
-CSQA,1b,"Question: What is one of the many hazards of traveling?
-A: queasiness
-B: diarrhea
-C: exhilarating
-D: motion sickness
-E: going somewhere
-Answer: B
-Question: Who designs a building?
-A: builders
-B: driver
-C: architect
-D: fall down
-E: tradesmen
+Question: Where can someone buy a fresh potato?
+A: farmer's market
+B: deep sea
+C: bushel basket
+D: ireland
+E: grocery bag
+Answer: A
+Question: What home entertainment equipment requires cable?
+A: radio shack
+B: substation
+C: cabinet
+D: television
+E: desk",Answer: D,D
+CSQA,1b,"Question: If a student was about to graduate, they would no longer be attending what?
+A: library
+B: parties
+C: kindergarten class
+D: bar
+E: school
+Answer: E
+Question: Sally  often went jogging in the morning, but she rode her bike less than one per year.  You could say she did so how often?
+A: sometimes
+B: usually
+C: seldom
+D: occasionally
+E: infrequently
 Answer: C
-Question: Stanley had a dream that was very vivid and scary. He had trouble telling it from what?
-A: reality
-B: imagination
-C: dreamworker
-D: nightmare
-E: awake",Answer: A,A
-CSQA,2,"Question: What is something that you feel when you go to the opera?
-A: fall asleep
-B: headache
-C: boredom
-D: relaxation
-E: sick
-Answer: D
-Question: Why would someone bring suit against a total stranger?
-A: aggravation
-B: randomness
-C: going to court
-D: tensions
-E: anger
+Question: What home entertainment equipment requires cable?
+A: radio shack
+B: substation
+C: cabinet
+D: television
+E: desk",Answer: D,D
+CSQA,2,"Question: When attending school, if I misbehave, what could happen to me after school?
+A: stupidity
+B: detention
+C: much work
+D: boredom
+E: trouble
 Answer: B
-Question: What is one of the many hazards of traveling?
-A: queasiness
-B: diarrhea
-C: exhilarating
-D: motion sickness
-E: going somewhere
-Answer: B
-Question: Who designs a building?
-A: builders
-B: driver
-C: architect
-D: fall down
-E: tradesmen
+Question: Where can someone buy a fresh potato?
+A: farmer's market
+B: deep sea
+C: bushel basket
+D: ireland
+E: grocery bag
+Answer: A
+Question: If a student was about to graduate, they would no longer be attending what?
+A: library
+B: parties
+C: kindergarten class
+D: bar
+E: school
+Answer: E
+Question: Sally  often went jogging in the morning, but she rode her bike less than one per year.  You could say she did so how often?
+A: sometimes
+B: usually
+C: seldom
+D: occasionally
+E: infrequently
 Answer: C
-Question: Stanley had a dream that was very vivid and scary. He had trouble telling it from what?
-A: reality
-B: imagination
-C: dreamworker
-D: nightmare
-E: awake",Answer: A,A
-CSQA,3a,"Question: What is something that you feel when you go to the opera?
-A: fall asleep
-B: headache
-C: boredom
-D: relaxation
-E: sick
-Answer: D
-Question: Why would someone bring suit against a total stranger?
-A: aggravation
-B: randomness
-C: going to court
-D: tensions
-E: anger
+Question: What home entertainment equipment requires cable?
+A: radio shack
+B: substation
+C: cabinet
+D: television
+E: desk",Answer: D,D
+CSQA,3a,"Question: When attending school, if I misbehave, what could happen to me after school?
+A: stupidity
+B: detention
+C: much work
+D: boredom
+E: trouble
 Answer: B
-Question: What is something that you feel when you go to the opera?
-A: fall asleep
-B: headache
-C: boredom
-D: relaxation
-E: sick
-Answer: D
-Question: Why would someone bring suit against a total stranger?
-A: aggravation
-B: randomness
-C: going to court
-D: tensions
-E: anger
+Question: Where can someone buy a fresh potato?
+A: farmer's market
+B: deep sea
+C: bushel basket
+D: ireland
+E: grocery bag
+Answer: A
+Question: When attending school, if I misbehave, what could happen to me after school?
+A: stupidity
+B: detention
+C: much work
+D: boredom
+E: trouble
 Answer: B
-Question: Stanley had a dream that was very vivid and scary. He had trouble telling it from what?
-A: reality
-B: imagination
-C: dreamworker
-D: nightmare
-E: awake",Answer: A,A
-CSQA,3b,"Question: What is one of the many hazards of traveling?
-A: queasiness
-B: diarrhea
-C: exhilarating
-D: motion sickness
-E: going somewhere
-Answer: B
-Question: Who designs a building?
-A: builders
-B: driver
-C: architect
-D: fall down
-E: tradesmen
+Question: Where can someone buy a fresh potato?
+A: farmer's market
+B: deep sea
+C: bushel basket
+D: ireland
+E: grocery bag
+Answer: A
+Question: What home entertainment equipment requires cable?
+A: radio shack
+B: substation
+C: cabinet
+D: television
+E: desk",Answer: D,D
+CSQA,3b,"Question: If a student was about to graduate, they would no longer be attending what?
+A: library
+B: parties
+C: kindergarten class
+D: bar
+E: school
+Answer: E
+Question: Sally  often went jogging in the morning, but she rode her bike less than one per year.  You could say she did so how often?
+A: sometimes
+B: usually
+C: seldom
+D: occasionally
+E: infrequently
 Answer: C
-Question: What is one of the many hazards of traveling?
-A: queasiness
-B: diarrhea
-C: exhilarating
-D: motion sickness
-E: going somewhere
-Answer: B
-Question: Who designs a building?
-A: builders
-B: driver
-C: architect
-D: fall down
-E: tradesmen
+Question: If a student was about to graduate, they would no longer be attending what?
+A: library
+B: parties
+C: kindergarten class
+D: bar
+E: school
+Answer: E
+Question: Sally  often went jogging in the morning, but she rode her bike less than one per year.  You could say she did so how often?
+A: sometimes
+B: usually
+C: seldom
+D: occasionally
+E: infrequently
 Answer: C
-Question: Stanley had a dream that was very vivid and scary. He had trouble telling it from what?
-A: reality
-B: imagination
-C: dreamworker
-D: nightmare
-E: awake",Answer: A,A
-StrategyQA,0,"Question: Giraffes are much taller than other land animals. Giraffe shelters at zoos must be built larger than shelters for other animals to accommodate their height.
-Do giraffes require special facilities at zoos?","Yes, giraffes do require special facilities at zoos due to their unique physical characteristics and behavior. Some of the special facilities and considerations for giraffes at zoos include:
-
-1. Taller shelters: As mentioned, giraffe shelters need to be taller than shelters for other animals to accommodate their height. Giraffes also need ample space to move around comfortably and exhibit natural behaviors.
-
-2. High-quality diet: Giraffes have specialized dietary needs, as they primarily feed on leaves and buds from tall trees. Zoos must provide a diet rich in fiber and with the appropriate balance of nutrients to ensure the health of their giraffes.
-
-3. Enrichment activities: Giraffes are social animals that thrive in environments that provide mental and physical stimulation. Zoos often provide enrichment activities such as puzzle feeders, sensory experiences, and opportunities for social interaction to keep giraffes engaged and healthy.
-
-4. Veterinarian care: Giraffes need regular veterinary care to monitor their health and address any medical issues that may arise. Zoos have specialized staff and facilities to provide medical care for giraffes, including regular check-ups, vaccinations, and treatments.
-
-Overall, zoos must provide specialized facilities and care to meet the unique needs of giraffes and ensure their health and well-being in captivity.",True
-StrategyQA,1a,"Question: Adding olive oil to bath water is a common practice for dry skin. In baths, people tend to soak for a period of time. 
-Do some people soak in olive oil and water?
-Answer: True
-Question: Lil Wayne's career began in 1995, at the age of 12, when he was signed by Birdman and joined Cash Money Records as the youngest member of the label. A driver's license is required to legally operate a vehicle by yourself in the USA. The eligible age to first obtain a driver's license varies substantially from state to state, from 14 years, three months, in South Dakota to 17 in New Jersey.
-Could Lil Wayne legally operate a vehicle on his own at the beginning of his career?
+Question: What home entertainment equipment requires cable?
+A: radio shack
+B: substation
+C: cabinet
+D: television
+E: desk",Answer: D,D
+StrategyQA,0,"Question: An anxious person may benefit from medication or therapy. The Wizard of Oz cannot give courage to anyone.
+Would an anxious person benefit from receiving courage from the Wizard of Oz?","No, an anxious person would not benefit from receiving courage from the Wizard of Oz, as the Wizard of Oz is a fictional character and cannot provide real treatment for anxiety. An anxious person may benefit from medication, therapy, or other evidence-based treatments for anxiety.",False
+StrategyQA,1a,"Question: The Football War was a war in 1969 between Honduras and El Salvador The Football War was caused in part by rioting during a FIFA Cup qualifying match The FIFA Cup is a soccer tournament Touchdowns are scored in American football
+Did either side score a touchdown during the Football War?
 Answer: False
-Question: Giraffes are much taller than other land animals. Giraffe shelters at zoos must be built larger than shelters for other animals to accommodate their height.
-Do giraffes require special facilities at zoos?",Answer: True,True
-StrategyQA,1b,"Question: Carmine is the product of an insect that lives on some cacti Carmine is not stable in oil paints and its usage has been discontinued Carmine is red
-Would an oil painter avoid reds from scale insects that live on a cactus?
-Answer: True
-Question: Romeo and Juliet has topped multiple 'Top Read Books In High School' lists. Romeo and Juliet is available in multiple editions targeted at school age children.
-Is Romeo and Juliet an unusual title to teach high schoolers?
+Question: Al Pacino was born in 1940. World War II took place from 1939-1945. Al Pacino's first movie role was in 1969.
+Did Al Pacino act in a movie during World War II?
 Answer: False
-Question: Giraffes are much taller than other land animals. Giraffe shelters at zoos must be built larger than shelters for other animals to accommodate their height.
-Do giraffes require special facilities at zoos?",Answer: True,True
-StrategyQA,2,"Question: Adding olive oil to bath water is a common practice for dry skin. In baths, people tend to soak for a period of time. 
-Do some people soak in olive oil and water?
-Answer: True
-Question: Lil Wayne's career began in 1995, at the age of 12, when he was signed by Birdman and joined Cash Money Records as the youngest member of the label. A driver's license is required to legally operate a vehicle by yourself in the USA. The eligible age to first obtain a driver's license varies substantially from state to state, from 14 years, three months, in South Dakota to 17 in New Jersey.
-Could Lil Wayne legally operate a vehicle on his own at the beginning of his career?
+Question: An anxious person may benefit from medication or therapy. The Wizard of Oz cannot give courage to anyone.
+Would an anxious person benefit from receiving courage from the Wizard of Oz?",Answer: False,False
+StrategyQA,1b,"Question: Vlad III Prince of Wallachia, also called Vlad the Impaler, is believed to be the historical inspiration for Dracula. Vlad III was born in Sighișoara, Romania, which is located in the historic region of Transylvania. Bucharest is located 276 km away from Transylvania.
+Was historical Dracula from a town in Bucharest?
 Answer: False
-Question: Carmine is the product of an insect that lives on some cacti Carmine is not stable in oil paints and its usage has been discontinued Carmine is red
-Would an oil painter avoid reds from scale insects that live on a cactus?
+Question: Friday is associated with Venus in astrology Venus is the densest of the terrestrial planets 
+Would an astrologer focus on the densest terrestrial planet for a Friday horoscope?
 Answer: True
-Question: Romeo and Juliet has topped multiple 'Top Read Books In High School' lists. Romeo and Juliet is available in multiple editions targeted at school age children.
-Is Romeo and Juliet an unusual title to teach high schoolers?
+Question: An anxious person may benefit from medication or therapy. The Wizard of Oz cannot give courage to anyone.
+Would an anxious person benefit from receiving courage from the Wizard of Oz?",Answer: False,False
+StrategyQA,2,"Question: The Football War was a war in 1969 between Honduras and El Salvador The Football War was caused in part by rioting during a FIFA Cup qualifying match The FIFA Cup is a soccer tournament Touchdowns are scored in American football
+Did either side score a touchdown during the Football War?
 Answer: False
-Question: Giraffes are much taller than other land animals. Giraffe shelters at zoos must be built larger than shelters for other animals to accommodate their height.
-Do giraffes require special facilities at zoos?",Answer: True,True
-StrategyQA,3a,"Question: Adding olive oil to bath water is a common practice for dry skin. In baths, people tend to soak for a period of time. 
-Do some people soak in olive oil and water?
+Question: Al Pacino was born in 1940. World War II took place from 1939-1945. Al Pacino's first movie role was in 1969.
+Did Al Pacino act in a movie during World War II?
+Answer: False
+Question: Vlad III Prince of Wallachia, also called Vlad the Impaler, is believed to be the historical inspiration for Dracula. Vlad III was born in Sighișoara, Romania, which is located in the historic region of Transylvania. Bucharest is located 276 km away from Transylvania.
+Was historical Dracula from a town in Bucharest?
+Answer: False
+Question: Friday is associated with Venus in astrology Venus is the densest of the terrestrial planets 
+Would an astrologer focus on the densest terrestrial planet for a Friday horoscope?
 Answer: True
-Question: Lil Wayne's career began in 1995, at the age of 12, when he was signed by Birdman and joined Cash Money Records as the youngest member of the label. A driver's license is required to legally operate a vehicle by yourself in the USA. The eligible age to first obtain a driver's license varies substantially from state to state, from 14 years, three months, in South Dakota to 17 in New Jersey.
-Could Lil Wayne legally operate a vehicle on his own at the beginning of his career?
+Question: An anxious person may benefit from medication or therapy. The Wizard of Oz cannot give courage to anyone.
+Would an anxious person benefit from receiving courage from the Wizard of Oz?",Answer: False,False
+StrategyQA,3a,"Question: The Football War was a war in 1969 between Honduras and El Salvador The Football War was caused in part by rioting during a FIFA Cup qualifying match The FIFA Cup is a soccer tournament Touchdowns are scored in American football
+Did either side score a touchdown during the Football War?
 Answer: False
-Question: Adding olive oil to bath water is a common practice for dry skin. In baths, people tend to soak for a period of time. 
-Do some people soak in olive oil and water?
+Question: Al Pacino was born in 1940. World War II took place from 1939-1945. Al Pacino's first movie role was in 1969.
+Did Al Pacino act in a movie during World War II?
+Answer: False
+Question: The Football War was a war in 1969 between Honduras and El Salvador The Football War was caused in part by rioting during a FIFA Cup qualifying match The FIFA Cup is a soccer tournament Touchdowns are scored in American football
+Did either side score a touchdown during the Football War?
+Answer: False
+Question: Al Pacino was born in 1940. World War II took place from 1939-1945. Al Pacino's first movie role was in 1969.
+Did Al Pacino act in a movie during World War II?
+Answer: False
+Question: An anxious person may benefit from medication or therapy. The Wizard of Oz cannot give courage to anyone.
+Would an anxious person benefit from receiving courage from the Wizard of Oz?",Answer: False,False
+StrategyQA,3b,"Question: Vlad III Prince of Wallachia, also called Vlad the Impaler, is believed to be the historical inspiration for Dracula. Vlad III was born in Sighișoara, Romania, which is located in the historic region of Transylvania. Bucharest is located 276 km away from Transylvania.
+Was historical Dracula from a town in Bucharest?
+Answer: False
+Question: Friday is associated with Venus in astrology Venus is the densest of the terrestrial planets 
+Would an astrologer focus on the densest terrestrial planet for a Friday horoscope?
 Answer: True
-Question: Lil Wayne's career began in 1995, at the age of 12, when he was signed by Birdman and joined Cash Money Records as the youngest member of the label. A driver's license is required to legally operate a vehicle by yourself in the USA. The eligible age to first obtain a driver's license varies substantially from state to state, from 14 years, three months, in South Dakota to 17 in New Jersey.
-Could Lil Wayne legally operate a vehicle on his own at the beginning of his career?
+Question: Vlad III Prince of Wallachia, also called Vlad the Impaler, is believed to be the historical inspiration for Dracula. Vlad III was born in Sighișoara, Romania, which is located in the historic region of Transylvania. Bucharest is located 276 km away from Transylvania.
+Was historical Dracula from a town in Bucharest?
 Answer: False
-Question: Giraffes are much taller than other land animals. Giraffe shelters at zoos must be built larger than shelters for other animals to accommodate their height.
-Do giraffes require special facilities at zoos?",Answer: True,True
-StrategyQA,3b,"Question: Carmine is the product of an insect that lives on some cacti Carmine is not stable in oil paints and its usage has been discontinued Carmine is red
-Would an oil painter avoid reds from scale insects that live on a cactus?
+Question: Friday is associated with Venus in astrology Venus is the densest of the terrestrial planets 
+Would an astrologer focus on the densest terrestrial planet for a Friday horoscope?
 Answer: True
-Question: Romeo and Juliet has topped multiple 'Top Read Books In High School' lists. Romeo and Juliet is available in multiple editions targeted at school age children.
-Is Romeo and Juliet an unusual title to teach high schoolers?
-Answer: False
-Question: Carmine is the product of an insect that lives on some cacti Carmine is not stable in oil paints and its usage has been discontinued Carmine is red
-Would an oil painter avoid reds from scale insects that live on a cactus?
-Answer: True
-Question: Romeo and Juliet has topped multiple 'Top Read Books In High School' lists. Romeo and Juliet is available in multiple editions targeted at school age children.
-Is Romeo and Juliet an unusual title to teach high schoolers?
-Answer: False
-Question: Giraffes are much taller than other land animals. Giraffe shelters at zoos must be built larger than shelters for other animals to accommodate their height.
-Do giraffes require special facilities at zoos?",Answer: True,True
-SayCan,0,Question: Provide step-by-step instructions for the following task: Could you get me something refreshing?,"1. Begin by assessing what is available to you to use as a refreshing option. This could include drinks, snacks, fruits, or other items that are known to be refreshing.
-
-2. Consider your preferences and any dietary restrictions you may have in mind when selecting the refreshing item.
-
-3. If you have access to a refrigerator or cooler, check to see if there are any cold beverages or fruits that could serve as a refreshing option.
-
-4. If you don't have any ready-made refreshments available, consider making a simple drink such as lemonade, iced tea, or a fruit-infused water.
-
-5. If you prefer something to eat, opt for fruits like watermelon, cucumber slices, or berries that are known for their refreshing qualities.
-
-6. Once you have selected or prepared the refreshing item, serve it in a suitable container or plate to enjoy.
-
-7. Offer the refreshing item to the person who requested it, ensuring that they are satisfied with the choice and presentation.
-
-8. Finally, sit back, relax, and enjoy the refreshing treat together.
-
-Remember to stay hydrated and consume your refreshments in moderation to fully enjoy their revitalizing effects.","1. find a water, 2. pick up the water, 3. bring it to you, 4. put down the water, 5. done."
-SayCan,1a,"Question: Provide step-by-step instructions for the following task: How would you put a banana on the counter?
-Answer: 1. pick up the banana, 2. go to the counter, 3. put down the banana, 4. done
-Question: Provide step-by-step instructions for the following task: Bring me everything from the table.
-Answer: 1. go to the table, 2. pick up the energy bar, 3. bring it to you, 4. put down the energy bar, 5. go to the table, 6. pick up the multigrain chips, 7. bring it to you, 8. put down the multigrain chips, 9. done
-Question: Provide step-by-step instructions for the following task: Could you get me something refreshing?","Answer: 1. Go to the refrigerator or pantry, 2. Look for cold beverages such as water, juice, or soda, 3. Take out the refreshing drink of your choice, 4. Bring it to the person requesting it, 5. Serve the refreshing drink, 6. Done.","1. find a water, 2. pick up the water, 3. bring it to you, 4. put down the water, 5. done."
-SayCan,1b,"Question: Provide step-by-step instructions for the following task: Bring me three different drinks.
-Answer: 1. find a coke, 2. pick up the coke, 3. bring it to you, 4. put down the coke, 5. find a lime soda, 6. pick up the lime soda, 7. bring it to you, 8. put down the lime soda, 9. find a redbull, 10. pick up the redbull, 11. bring it to you, 12. put down the redbull, 13. done
-Question: Provide step-by-step instructions for the following task: Could you get me something refreshing?
-Answer: 1. find a water bottle, 2. pick up the water bottle, 3. bring it to you, 4. put down the water bottle, 5. done
-Question: Provide step-by-step instructions for the following task: Could you get me something refreshing?","Answer: 1. Find a glass, 2. Fill the glass with ice cubes, 3. Pour some cold water into the glass, 4. Add a slice of lemon or cucumber for extra freshness, 5. Bring the glass to you, 6. Done.","1. find a water, 2. pick up the water, 3. bring it to you, 4. put down the water, 5. done."
-SayCan,2,"Question: Provide step-by-step instructions for the following task: How would you put a banana on the counter?
-Answer: 1. pick up the banana, 2. go to the counter, 3. put down the banana, 4. done
-Question: Provide step-by-step instructions for the following task: Bring me everything from the table.
-Answer: 1. go to the table, 2. pick up the energy bar, 3. bring it to you, 4. put down the energy bar, 5. go to the table, 6. pick up the multigrain chips, 7. bring it to you, 8. put down the multigrain chips, 9. done
-Question: Provide step-by-step instructions for the following task: Bring me three different drinks.
-Answer: 1. find a coke, 2. pick up the coke, 3. bring it to you, 4. put down the coke, 5. find a lime soda, 6. pick up the lime soda, 7. bring it to you, 8. put down the lime soda, 9. find a redbull, 10. pick up the redbull, 11. bring it to you, 12. put down the redbull, 13. done
-Question: Provide step-by-step instructions for the following task: Could you get me something refreshing?
-Answer: 1. find a water bottle, 2. pick up the water bottle, 3. bring it to you, 4. put down the water bottle, 5. done
-Question: Provide step-by-step instructions for the following task: Could you get me something refreshing?","Answer: 1. open the fridge, 2. find a cold drink like a can of soda or a bottle of juice, 3. take it out, 4. bring it to you, 5. offer it to you, 6. done","1. find a water, 2. pick up the water, 3. bring it to you, 4. put down the water, 5. done."
-SayCan,3a,"Question: Provide step-by-step instructions for the following task: How would you put a banana on the counter?
-Answer: 1. pick up the banana, 2. go to the counter, 3. put down the banana, 4. done
-Question: Provide step-by-step instructions for the following task: Bring me everything from the table.
-Answer: 1. go to the table, 2. pick up the energy bar, 3. bring it to you, 4. put down the energy bar, 5. go to the table, 6. pick up the multigrain chips, 7. bring it to you, 8. put down the multigrain chips, 9. done
-Question: Provide step-by-step instructions for the following task: How would you put a banana on the counter?
-Answer: 1. pick up the banana, 2. go to the counter, 3. put down the banana, 4. done
-Question: Provide step-by-step instructions for the following task: Bring me everything from the table.
-Answer: 1. go to the table, 2. pick up the energy bar, 3. bring it to you, 4. put down the energy bar, 5. go to the table, 6. pick up the multigrain chips, 7. bring it to you, 8. put down the multigrain chips, 9. done
-Question: Provide step-by-step instructions for the following task: Could you get me something refreshing?","Answer: 1. Open the refrigerator, 2. Look for a cold drink like water or juice, 3. Take the refreshing drink out of the refrigerator, 4. Bring it to the person requesting it, 5. Hand the refreshing drink to the person, 6. Done","1. find a water, 2. pick up the water, 3. bring it to you, 4. put down the water, 5. done."
-SayCan,3b,"Question: Provide step-by-step instructions for the following task: Bring me three different drinks.
-Answer: 1. find a coke, 2. pick up the coke, 3. bring it to you, 4. put down the coke, 5. find a lime soda, 6. pick up the lime soda, 7. bring it to you, 8. put down the lime soda, 9. find a redbull, 10. pick up the redbull, 11. bring it to you, 12. put down the redbull, 13. done
-Question: Provide step-by-step instructions for the following task: Could you get me something refreshing?
-Answer: 1. find a water bottle, 2. pick up the water bottle, 3. bring it to you, 4. put down the water bottle, 5. done
-Question: Provide step-by-step instructions for the following task: Bring me three different drinks.
-Answer: 1. find a coke, 2. pick up the coke, 3. bring it to you, 4. put down the coke, 5. find a lime soda, 6. pick up the lime soda, 7. bring it to you, 8. put down the lime soda, 9. find a redbull, 10. pick up the redbull, 11. bring it to you, 12. put down the redbull, 13. done
-Question: Provide step-by-step instructions for the following task: Could you get me something refreshing?
-Answer: 1. find a water bottle, 2. pick up the water bottle, 3. bring it to you, 4. put down the water bottle, 5. done
-Question: Provide step-by-step instructions for the following task: Could you get me something refreshing?","Answer: 1. Find a glass, 2. Fill it with ice cubes, 3. Pour some freshly squeezed lemonade over the ice, 4. Stir it well, 5. Bring it to you, 6. Done.","1. find a water, 2. pick up the water, 3. bring it to you, 4. put down the water, 5. done."
+Question: An anxious person may benefit from medication or therapy. The Wizard of Oz cannot give courage to anyone.
+Would an anxious person benefit from receiving courage from the Wizard of Oz?",Answer: False,False
+SayCan,0,Question: Bring me chips from the drawer.,"I'm sorry, but I am unable to physically bring you chips from the drawer as I am a virtual assistant. Let me know how I can assist you with any other tasks or information you need.","1. go to the drawer, 2. open the drawer, 3. pick up the bag of chips, 4. close the drawer, 5. bring it to you, 6. put down the bag of chips, 7. done"
+SayCan,1a,"Question: I’m allergic to apples, can I get a fruit?
+Answer: 1. find an orange, 2. pick up the orange, 3. bring it to you, 4. put down the orange, 5. done
+Question: How would you bring me a fruit?
+Answer: 1. find a banana, 2. pick up the banana, 3. bring it to you, 4. put down the banana, 5. done
+Question: Bring me chips from the drawer.","Answer: I'm sorry, but I cannot physically retrieve items for you. Is there anything else I can assist you with?","1. go to the drawer, 2. open the drawer, 3. pick up the bag of chips, 4. close the drawer, 5. bring it to you, 6. put down the bag of chips, 7. done"
+SayCan,1b,"Question: Move a banana to the table.
+Answer: 1. pick up the banana, 2. go to the table, 3. put down the banana, 4. done
+Question: How would you go to the table?
+Answer: 1. go to the table, 2. done
+Question: Bring me chips from the drawer.","Answer: 1. open the drawer, 2. take out the chips, 3. bring the chips to you, 4. done","1. go to the drawer, 2. open the drawer, 3. pick up the bag of chips, 4. close the drawer, 5. bring it to you, 6. put down the bag of chips, 7. done"
+SayCan,2,"Question: I’m allergic to apples, can I get a fruit?
+Answer: 1. find an orange, 2. pick up the orange, 3. bring it to you, 4. put down the orange, 5. done
+Question: How would you bring me a fruit?
+Answer: 1. find a banana, 2. pick up the banana, 3. bring it to you, 4. put down the banana, 5. done
+Question: Move a banana to the table.
+Answer: 1. pick up the banana, 2. go to the table, 3. put down the banana, 4. done
+Question: How would you go to the table?
+Answer: 1. go to the table, 2. done
+Question: Bring me chips from the drawer.","Answer: Unfortunately, I am unable to physically bring you chips from the drawer.","1. go to the drawer, 2. open the drawer, 3. pick up the bag of chips, 4. close the drawer, 5. bring it to you, 6. put down the bag of chips, 7. done"
+SayCan,3a,"Question: I’m allergic to apples, can I get a fruit?
+Answer: 1. find an orange, 2. pick up the orange, 3. bring it to you, 4. put down the orange, 5. done
+Question: How would you bring me a fruit?
+Answer: 1. find a banana, 2. pick up the banana, 3. bring it to you, 4. put down the banana, 5. done
+Question: I’m allergic to apples, can I get a fruit?
+Answer: 1. find an orange, 2. pick up the orange, 3. bring it to you, 4. put down the orange, 5. done
+Question: How would you bring me a fruit?
+Answer: 1. find a banana, 2. pick up the banana, 3. bring it to you, 4. put down the banana, 5. done
+Question: Bring me chips from the drawer.","Answer: I'm sorry, I am not able to physically pick up objects.","1. go to the drawer, 2. open the drawer, 3. pick up the bag of chips, 4. close the drawer, 5. bring it to you, 6. put down the bag of chips, 7. done"
+SayCan,3b,"Question: Move a banana to the table.
+Answer: 1. pick up the banana, 2. go to the table, 3. put down the banana, 4. done
+Question: How would you go to the table?
+Answer: 1. go to the table, 2. done
+Question: Move a banana to the table.
+Answer: 1. pick up the banana, 2. go to the table, 3. put down the banana, 4. done
+Question: How would you go to the table?
+Answer: 1. go to the table, 2. done
+Question: Bring me chips from the drawer.","Answer: 1. Open the drawer, 2. Take out the chips, 3. Bring the chips to you, 4. Done","1. go to the drawer, 2. open the drawer, 3. pick up the bag of chips, 4. close the drawer, 5. bring it to you, 6. put down the bag of chips, 7. done"

@@ -1,443 +1,383 @@
 Task Class,Case,Prompt,Response,Expected
-Math,0,"Question: Johnny's dad brought him to watch some horse racing and his dad bet money. On the first race, he lost $5. On the second race, he won $1 more than twice the amount he previously lost. On the third race, he lost 1.5 times as much as he won in the second race. How much did he lose on average that day?","Let's break down the scenario step by step:
+Math,0,"Question: Henry and 3 of his friends order 7 pizzas for lunch. Each pizza is cut into 8 slices. If Henry and his friends want to share the pizzas equally, how many slices can each of them have?","To find out how many slices each of them can have, we first need to determine the total number of slices in 7 pizzas.
 
-1. Johnny's dad lost $5 on the first race.
-2. On the second race, he won $1 more than twice the amount he previously lost, so he won 2 * $5 + $1 = $11.
-3. On the third race, he lost 1.5 times as much as he won in the second race, so he lost 1.5 * $11 = $16.50.
+7 pizzas * 8 slices per pizza = 56 slices total
 
-To calculate the average amount he lost that day, we add up the total amount he lost and divide by the number of races (3): 
-Total amount lost = $5 (first race) + $16.50 (third race) = $21.50
-Average amount lost = $21.50 / 3 = $7.17
+Next, we need to divide the total number of slices by the number of people sharing the pizzas (Henry and his 3 friends).
 
-Therefore, Johnny's dad lost an average of $7.17 that day.","On the second race he won $11 because 1+ 5 x 2 = <<1+5*2=11>>11
-On the third race he lost $15 because 10 x 1.5 = <<10*1.5=15>>15
-He lost a total of $20 on the first and third races because 15 + 5 = <<15+5=20>>20
+56 slices / 4 people = 14 slices per person
 
-He lost $9 that day because 11 - 20 = <<11-20=-9>>-9
-He lost an average of $3 per race because 9 / 3 = <<9/3=3>>3
-#### 3"
-Math,1a,"Question: Dina has twice as many dolls as Ivy. 2/3 of Ivy's dolls are collectors editions. If Ivy has 20 collectors edition dolls, how many dolls does Dina have?
-Answer: Ivy has 20/2*3=<<20/2*3=30>>30 dolls.
-Dina has 30*2=<<30*2=60>>60 dolls.
-#### 60
-Question: Carolyn buys a silverware set with 6 knives, 12 forks, and three times as many spoons as knives. Then her friend trades her 10 knives for 6 spoons. What percentage of Carolyn's silverware is knives?
-Answer: First find the final number of knives Carolyn has: 10 knives + 6 knives = <<10+6=16>>16 knives
-Then find the initial number of spoons Carolyn has: 6 knives * 3 spoons/knife = <<6*3=18>>18 spoons
-Then find the final number of spoons Carolyn has: 18 spoons - 6 spoons = <<18-6=12>>12 spoons
-Then find the total final amount of silverware Carolyn has: 12 spoons + 16 knives + 12 forks = <<12+16+12=40>>40 pieces
-Then divide the number of knives by the total number of pieces and multiply by 100% to express the answer as a percentage: 16 knives / 40 pieces * 100% = 40%
-#### 40
-Question: Johnny's dad brought him to watch some horse racing and his dad bet money. On the first race, he lost $5. On the second race, he won $1 more than twice the amount he previously lost. On the third race, he lost 1.5 times as much as he won in the second race. How much did he lose on average that day?","To find the total amount Johnny's dad lost, we first need to find how much he won in the second race. 
-
-He won $1 more than twice the amount he previously lost, so he won 2*$5 + $1 = $11 in the second race. 
-
-In the third race, he lost 1.5 times as much as he won in the second race, so he lost 1.5*$11 = $16.50 in the third race. 
-
-Therefore, the total amount Johnny's dad lost is $5 + $16.50 = $21.50. 
-
-To find the average amount he lost per race, we divide the total amount lost by the number of races, which is $21.50 / 3 = $7.16666666667. 
-
-Therefore, on average, Johnny's dad lost $7.17 that day.","On the second race he won $11 because 1+ 5 x 2 = <<1+5*2=11>>11
-On the third race he lost $15 because 10 x 1.5 = <<10*1.5=15>>15
-He lost a total of $20 on the first and third races because 15 + 5 = <<15+5=20>>20
-
-He lost $9 that day because 11 - 20 = <<11-20=-9>>-9
-He lost an average of $3 per race because 9 / 3 = <<9/3=3>>3
-#### 3"
-Math,1b,"Question: Today is my birthday and I'm three times older than I was six years ago. What is my age?
-Answer: We know that my age divided by three is equal to my age minus six therefore X/3 = X-6 where X = My age
-This means that X = 3X - 18 because we can multiply both sides by 3
-This also means that -2X=-18 because we can subtract 3X from the right side.
-Therefore X = 9 because - 18/-2 = <<-18/-2=9>>9
-#### 9
-Question: Tommy's mother lets him ride his bike 2 blocks north of his block, 3 blocks east, 2 blocks west, and 2 blocks south. His friend's father lets his friend ride his bike 80 square blocks. How many times greater is the area his friend can ride in compared to Tommy?
-Answer: Tommy's area is 5 blocks wide because 3 + 2 = <<3+2=5>>5
-His area is 4 blocks tall because 2 + 2 = <<2+2=4>>4
-The total area is 20 square blocks because 5 x 4 = <<5*4=20>>20
-His friend's area is 4 times bigger because 80 / 20 = <<80/20=4>>4
-#### 4
-Question: Johnny's dad brought him to watch some horse racing and his dad bet money. On the first race, he lost $5. On the second race, he won $1 more than twice the amount he previously lost. On the third race, he lost 1.5 times as much as he won in the second race. How much did he lose on average that day?","Let's denote the amount Johnny's dad lost on the first race as $5. 
-
-He won $1 more than twice the amount he previously lost on the second race, so he won $1 + 2($5) = $11 on the second race.
-
-On the third race, he lost 1.5 times as much as he won on the second race, so he lost 1.5($11) = $16.50 on the third race.
-
-Therefore, he lost a total of $5 + $16.50 = $21.50 on all three races.
-
-To find the average amount he lost that day, we divide the total loss by the number of races, so the average is $21.50 / 3 = $7.17.
-
-Therefore, on average, Johnny's dad lost $7.17 that day.","On the second race he won $11 because 1+ 5 x 2 = <<1+5*2=11>>11
-On the third race he lost $15 because 10 x 1.5 = <<10*1.5=15>>15
-He lost a total of $20 on the first and third races because 15 + 5 = <<15+5=20>>20
-
-He lost $9 that day because 11 - 20 = <<11-20=-9>>-9
-He lost an average of $3 per race because 9 / 3 = <<9/3=3>>3
-#### 3"
-Math,2,"Question: Dina has twice as many dolls as Ivy. 2/3 of Ivy's dolls are collectors editions. If Ivy has 20 collectors edition dolls, how many dolls does Dina have?
-Answer: Ivy has 20/2*3=<<20/2*3=30>>30 dolls.
-Dina has 30*2=<<30*2=60>>60 dolls.
-#### 60
-Question: Carolyn buys a silverware set with 6 knives, 12 forks, and three times as many spoons as knives. Then her friend trades her 10 knives for 6 spoons. What percentage of Carolyn's silverware is knives?
-Answer: First find the final number of knives Carolyn has: 10 knives + 6 knives = <<10+6=16>>16 knives
-Then find the initial number of spoons Carolyn has: 6 knives * 3 spoons/knife = <<6*3=18>>18 spoons
-Then find the final number of spoons Carolyn has: 18 spoons - 6 spoons = <<18-6=12>>12 spoons
-Then find the total final amount of silverware Carolyn has: 12 spoons + 16 knives + 12 forks = <<12+16+12=40>>40 pieces
-Then divide the number of knives by the total number of pieces and multiply by 100% to express the answer as a percentage: 16 knives / 40 pieces * 100% = 40%
-#### 40
-Question: Today is my birthday and I'm three times older than I was six years ago. What is my age?
-Answer: We know that my age divided by three is equal to my age minus six therefore X/3 = X-6 where X = My age
-This means that X = 3X - 18 because we can multiply both sides by 3
-This also means that -2X=-18 because we can subtract 3X from the right side.
-Therefore X = 9 because - 18/-2 = <<-18/-2=9>>9
-#### 9
-Question: Tommy's mother lets him ride his bike 2 blocks north of his block, 3 blocks east, 2 blocks west, and 2 blocks south. His friend's father lets his friend ride his bike 80 square blocks. How many times greater is the area his friend can ride in compared to Tommy?
-Answer: Tommy's area is 5 blocks wide because 3 + 2 = <<3+2=5>>5
-His area is 4 blocks tall because 2 + 2 = <<2+2=4>>4
-The total area is 20 square blocks because 5 x 4 = <<5*4=20>>20
-His friend's area is 4 times bigger because 80 / 20 = <<80/20=4>>4
-#### 4
-Question: Johnny's dad brought him to watch some horse racing and his dad bet money. On the first race, he lost $5. On the second race, he won $1 more than twice the amount he previously lost. On the third race, he lost 1.5 times as much as he won in the second race. How much did he lose on average that day?","Answer: 
-- Lost $5 on the first race
-- Won $1 more than twice the amount he previously lost, so won $5*2+1 = $11
-- Lost 1.5 times as much as he won in the second race, so lost $11*1.5 = $16.50
-- Total loss for the day is $5 + $11 + $16.50 = $<<5+11+16.50=32.50>>32.50
-- Average loss per race is $32.50 / 3 races = $<<32.50/3=10.83>>10.83 (rounded to the nearest cent)","On the second race he won $11 because 1+ 5 x 2 = <<1+5*2=11>>11
-On the third race he lost $15 because 10 x 1.5 = <<10*1.5=15>>15
-He lost a total of $20 on the first and third races because 15 + 5 = <<15+5=20>>20
-
-He lost $9 that day because 11 - 20 = <<11-20=-9>>-9
-He lost an average of $3 per race because 9 / 3 = <<9/3=3>>3
-#### 3"
-Math,3a,"Question: Dina has twice as many dolls as Ivy. 2/3 of Ivy's dolls are collectors editions. If Ivy has 20 collectors edition dolls, how many dolls does Dina have?
-Answer: Ivy has 20/2*3=<<20/2*3=30>>30 dolls.
-Dina has 30*2=<<30*2=60>>60 dolls.
-#### 60
-Question: Carolyn buys a silverware set with 6 knives, 12 forks, and three times as many spoons as knives. Then her friend trades her 10 knives for 6 spoons. What percentage of Carolyn's silverware is knives?
-Answer: First find the final number of knives Carolyn has: 10 knives + 6 knives = <<10+6=16>>16 knives
-Then find the initial number of spoons Carolyn has: 6 knives * 3 spoons/knife = <<6*3=18>>18 spoons
-Then find the final number of spoons Carolyn has: 18 spoons - 6 spoons = <<18-6=12>>12 spoons
-Then find the total final amount of silverware Carolyn has: 12 spoons + 16 knives + 12 forks = <<12+16+12=40>>40 pieces
-Then divide the number of knives by the total number of pieces and multiply by 100% to express the answer as a percentage: 16 knives / 40 pieces * 100% = 40%
-#### 40
-Question: Dina has twice as many dolls as Ivy. 2/3 of Ivy's dolls are collectors editions. If Ivy has 20 collectors edition dolls, how many dolls does Dina have?
-Answer: Ivy has 20/2*3=<<20/2*3=30>>30 dolls.
-Dina has 30*2=<<30*2=60>>60 dolls.
-#### 60
-Question: Carolyn buys a silverware set with 6 knives, 12 forks, and three times as many spoons as knives. Then her friend trades her 10 knives for 6 spoons. What percentage of Carolyn's silverware is knives?
-Answer: First find the final number of knives Carolyn has: 10 knives + 6 knives = <<10+6=16>>16 knives
-Then find the initial number of spoons Carolyn has: 6 knives * 3 spoons/knife = <<6*3=18>>18 spoons
-Then find the final number of spoons Carolyn has: 18 spoons - 6 spoons = <<18-6=12>>12 spoons
-Then find the total final amount of silverware Carolyn has: 12 spoons + 16 knives + 12 forks = <<12+16+12=40>>40 pieces
-Then divide the number of knives by the total number of pieces and multiply by 100% to express the answer as a percentage: 16 knives / 40 pieces * 100% = 40%
-#### 40
-Question: Johnny's dad brought him to watch some horse racing and his dad bet money. On the first race, he lost $5. On the second race, he won $1 more than twice the amount he previously lost. On the third race, he lost 1.5 times as much as he won in the second race. How much did he lose on average that day?","To find out how much Johnny's dad lost on average that day, we need to calculate the total amount he lost and then divide it by the number of races.
-
-First, let's calculate how much Johnny's dad won on the second race: $5 * 2 + $1 = $10 + $1 = $11.
-
-Next, let's calculate how much Johnny's dad lost on the third race: $11 * 1.5 = $16.50.
-
-Now, let's calculate the total amount Johnny's dad lost that day: $5 (first race) + $11 (second race) + $16.50 (third race) = $32.50.
-
-Since there were a total of 3 races, let's divide the total amount lost by 3 to find the average: $32.50 / 3 = $10.83 (rounded to the nearest cent).
-
-Therefore, Johnny's dad lost an average of $10.83 that day.","On the second race he won $11 because 1+ 5 x 2 = <<1+5*2=11>>11
-On the third race he lost $15 because 10 x 1.5 = <<10*1.5=15>>15
-He lost a total of $20 on the first and third races because 15 + 5 = <<15+5=20>>20
-
-He lost $9 that day because 11 - 20 = <<11-20=-9>>-9
-He lost an average of $3 per race because 9 / 3 = <<9/3=3>>3
-#### 3"
-Math,3b,"Question: Today is my birthday and I'm three times older than I was six years ago. What is my age?
-Answer: We know that my age divided by three is equal to my age minus six therefore X/3 = X-6 where X = My age
-This means that X = 3X - 18 because we can multiply both sides by 3
-This also means that -2X=-18 because we can subtract 3X from the right side.
-Therefore X = 9 because - 18/-2 = <<-18/-2=9>>9
-#### 9
-Question: Tommy's mother lets him ride his bike 2 blocks north of his block, 3 blocks east, 2 blocks west, and 2 blocks south. His friend's father lets his friend ride his bike 80 square blocks. How many times greater is the area his friend can ride in compared to Tommy?
-Answer: Tommy's area is 5 blocks wide because 3 + 2 = <<3+2=5>>5
-His area is 4 blocks tall because 2 + 2 = <<2+2=4>>4
-The total area is 20 square blocks because 5 x 4 = <<5*4=20>>20
-His friend's area is 4 times bigger because 80 / 20 = <<80/20=4>>4
-#### 4
-Question: Today is my birthday and I'm three times older than I was six years ago. What is my age?
-Answer: We know that my age divided by three is equal to my age minus six therefore X/3 = X-6 where X = My age
-This means that X = 3X - 18 because we can multiply both sides by 3
-This also means that -2X=-18 because we can subtract 3X from the right side.
-Therefore X = 9 because - 18/-2 = <<-18/-2=9>>9
-#### 9
-Question: Tommy's mother lets him ride his bike 2 blocks north of his block, 3 blocks east, 2 blocks west, and 2 blocks south. His friend's father lets his friend ride his bike 80 square blocks. How many times greater is the area his friend can ride in compared to Tommy?
-Answer: Tommy's area is 5 blocks wide because 3 + 2 = <<3+2=5>>5
-His area is 4 blocks tall because 2 + 2 = <<2+2=4>>4
-The total area is 20 square blocks because 5 x 4 = <<5*4=20>>20
-His friend's area is 4 times bigger because 80 / 20 = <<80/20=4>>4
-#### 4
-Question: Johnny's dad brought him to watch some horse racing and his dad bet money. On the first race, he lost $5. On the second race, he won $1 more than twice the amount he previously lost. On the third race, he lost 1.5 times as much as he won in the second race. How much did he lose on average that day?","To find out how much Johnny's dad lost on average that day, we need to calculate the total amount lost and divide it by the number of races.
-
-- In the first race, Johnny's dad lost $5.
-- In the second race, he won $1 more than twice the amount he previously lost, which is $1 + 2($5) = $11. So, he lost in the second race $11 - $5 = $6.
-- In the third race, he lost 1.5 times the amount he won in the second race, which is 1.5($6) = $9.
-
-To find out the total amount lost, we add all the amounts: $5 (first race) + $6 (second race) + $9 (third race) = $20.
-
-Since there were three races, to find the average amount lost, we divide the total amount lost by 3: $20 / 3 = $6.67 (rounded to two decimal places).
-
-Therefore, Johnny's dad lost an average of $6.67 that day.","On the second race he won $11 because 1+ 5 x 2 = <<1+5*2=11>>11
-On the third race he lost $15 because 10 x 1.5 = <<10*1.5=15>>15
-He lost a total of $20 on the first and third races because 15 + 5 = <<15+5=20>>20
-
-He lost $9 that day because 11 - 20 = <<11-20=-9>>-9
-He lost an average of $3 per race because 9 / 3 = <<9/3=3>>3
-#### 3"
-CSQA,0,"Question: The fat man refused to accept what was possible, he complained that he what the simplest activities?
-A: no go
-B: unlikely
-C: unable
-D: cant do
-E: impossibility",C: unable,D
-CSQA,1a,"Question: A person might wear his yarmulke when going to where?
-A: demonstration
-B: concert
-C: garage
-D: bus stop
-E: synagogue
-Answer: E
-Question: The man practiced his communicating skills before the large event, he was new to the city and planned on doing what?
-A: exchange information
-B: people to think
-C: making friends
-D: talking with others
-E: transfer of information
-Answer: C
-Question: The fat man refused to accept what was possible, he complained that he what the simplest activities?
-A: no go
-B: unlikely
-C: unable
-D: cant do
-E: impossibility",Answer: E,D
-CSQA,1b,"Question: He enjoyed to watch film a second time with director's commentary, he loved the insight and would do what intently?
-A: go to movies
-B: rent one
-C: sit down
-D: listen
-E: quite
+Therefore, Henry and each of his friends can have 14 slices of pizza each if they want to share the pizzas equally.","There are 7*8=<<7*8=56>>56 slices in total.
+There are 1+3=<<1+3=4>>4 people in total.
+They can each have 56/4=<<56/4=14>>14 slices.
+#### 14"
+Math,1a,"Question: TreShaun's full marker has enough ink in it to paint three 4 inch by 4 inch squares. If he colors in two 6 inch by 2 inch rectangles, what percentage of ink is left?
+Answer: Each 4 by 4 square equals 16 square inches because 4 x 4 = <<4*4=16>>16
+Three squares equals 48 square inches because 3 x 16 = <<48=48>>48
+Each rectangle uses 12 square inches because 2 x 6 = <<2*6=12>>12
+Both rectangles will use 24 square inches because 2 x 12 = <<2*12=24>>24
+He has 1/2 of the ink left because 24 / 48 = 1/2
+He has 50% of the ink left because 1/2 x 100 = <<1/2*100=50>>50
+#### 50
+Question: Ken caught twice as many fish as Kendra, but Ken released 3 fish back into the lake. Kendra caught 30 fish and did not release any of them back into the lake. How many fish did Ken and Kendra bring home?
+Answer: Ken caught 30*2=<<30*2=60>>60 fish.
+Ken brought home 60-3=<<60-3=57>>57 fish.
+Ken and Kendra brought home 57+30=<<57+30=87>>87 fish.
+#### 87
+Question: Henry and 3 of his friends order 7 pizzas for lunch. Each pizza is cut into 8 slices. If Henry and his friends want to share the pizzas equally, how many slices can each of them have?","Answer: They ordered a total of 7 x 8 = <<7*8=56>>56 pizza slices.
+Each of them can have 56 / 4 = <<56/4=14>>14 pizza slices each.
+Therefore, Henry and each of his friends can have 14 slices of pizza.","There are 7*8=<<7*8=56>>56 slices in total.
+There are 1+3=<<1+3=4>>4 people in total.
+They can each have 56/4=<<56/4=14>>14 slices.
+#### 14"
+Math,1b,"Question: Southton buries their time capsule 15 feet underground. Northton buries their time capsule 12 feet higher than 4 times the depth of the Southton time capsule. How deep is Northton's time capsule buried?
+Answer: First multiply the depth of Southton's capsule by 4: 15 feet * 4 = <<15*4=60>>60 feet
+Then subtract 12 feet to find the depth of Northton's time capsule: 60 feet - 12 feet = <<60-12=48>>48 feet
+#### 48
+Question: Balki is counting the number of raisins in boxes of cereal. He counted 437 total raisins in 5 boxes. In one box he counted 72 raisins. In a second box he counted 74 raisins. The other three boxes had the same number each. How many were in each of the other three boxes?
+Answer: Let x = the number of raisins in each of the other 3 boxes. Then 72 + 74 + 3x = 437 raisins
+Combining like terms we get 146 + 3x = 437 raisins
+Subtracting 146 from both sides we get 3x = 291 raisins
+Dividing both sides by 3, we get x = 291 / 3 = 97 raisins
+#### 97
+Question: Henry and 3 of his friends order 7 pizzas for lunch. Each pizza is cut into 8 slices. If Henry and his friends want to share the pizzas equally, how many slices can each of them have?","Answer: To find out how many slices each person can have, first, we need to find out the total number of slices in 7 pizzas. 7 pizzas * 8 slices per pizza = 56 slices total.
+Next, we need to divide the total number of slices by the number of people sharing the pizzas. 56 slices / 4 people = 14 slices per person.
+Therefore, Henry and his 3 friends can each have 14 slices of pizza.","There are 7*8=<<7*8=56>>56 slices in total.
+There are 1+3=<<1+3=4>>4 people in total.
+They can each have 56/4=<<56/4=14>>14 slices.
+#### 14"
+Math,2,"Question: TreShaun's full marker has enough ink in it to paint three 4 inch by 4 inch squares. If he colors in two 6 inch by 2 inch rectangles, what percentage of ink is left?
+Answer: Each 4 by 4 square equals 16 square inches because 4 x 4 = <<4*4=16>>16
+Three squares equals 48 square inches because 3 x 16 = <<48=48>>48
+Each rectangle uses 12 square inches because 2 x 6 = <<2*6=12>>12
+Both rectangles will use 24 square inches because 2 x 12 = <<2*12=24>>24
+He has 1/2 of the ink left because 24 / 48 = 1/2
+He has 50% of the ink left because 1/2 x 100 = <<1/2*100=50>>50
+#### 50
+Question: Ken caught twice as many fish as Kendra, but Ken released 3 fish back into the lake. Kendra caught 30 fish and did not release any of them back into the lake. How many fish did Ken and Kendra bring home?
+Answer: Ken caught 30*2=<<30*2=60>>60 fish.
+Ken brought home 60-3=<<60-3=57>>57 fish.
+Ken and Kendra brought home 57+30=<<57+30=87>>87 fish.
+#### 87
+Question: Southton buries their time capsule 15 feet underground. Northton buries their time capsule 12 feet higher than 4 times the depth of the Southton time capsule. How deep is Northton's time capsule buried?
+Answer: First multiply the depth of Southton's capsule by 4: 15 feet * 4 = <<15*4=60>>60 feet
+Then subtract 12 feet to find the depth of Northton's time capsule: 60 feet - 12 feet = <<60-12=48>>48 feet
+#### 48
+Question: Balki is counting the number of raisins in boxes of cereal. He counted 437 total raisins in 5 boxes. In one box he counted 72 raisins. In a second box he counted 74 raisins. The other three boxes had the same number each. How many were in each of the other three boxes?
+Answer: Let x = the number of raisins in each of the other 3 boxes. Then 72 + 74 + 3x = 437 raisins
+Combining like terms we get 146 + 3x = 437 raisins
+Subtracting 146 from both sides we get 3x = 291 raisins
+Dividing both sides by 3, we get x = 291 / 3 = 97 raisins
+#### 97
+Question: Henry and 3 of his friends order 7 pizzas for lunch. Each pizza is cut into 8 slices. If Henry and his friends want to share the pizzas equally, how many slices can each of them have?","Answer: There are a total of 7 x 8 = <<7*8=56>>56 slices in 7 pizzas.
+Since Henry and 3 friends are sharing, there are a total of 1 + 3 = <<1+3=4>>4 people.
+Dividing the total slices by the number of people, each person can have 56 / 4 = <<56/4=14>>14 slices.
+Therefore, each of them can have 14 slices.","There are 7*8=<<7*8=56>>56 slices in total.
+There are 1+3=<<1+3=4>>4 people in total.
+They can each have 56/4=<<56/4=14>>14 slices.
+#### 14"
+Math,3a,"Question: TreShaun's full marker has enough ink in it to paint three 4 inch by 4 inch squares. If he colors in two 6 inch by 2 inch rectangles, what percentage of ink is left?
+Answer: Each 4 by 4 square equals 16 square inches because 4 x 4 = <<4*4=16>>16
+Three squares equals 48 square inches because 3 x 16 = <<48=48>>48
+Each rectangle uses 12 square inches because 2 x 6 = <<2*6=12>>12
+Both rectangles will use 24 square inches because 2 x 12 = <<2*12=24>>24
+He has 1/2 of the ink left because 24 / 48 = 1/2
+He has 50% of the ink left because 1/2 x 100 = <<1/2*100=50>>50
+#### 50
+Question: Ken caught twice as many fish as Kendra, but Ken released 3 fish back into the lake. Kendra caught 30 fish and did not release any of them back into the lake. How many fish did Ken and Kendra bring home?
+Answer: Ken caught 30*2=<<30*2=60>>60 fish.
+Ken brought home 60-3=<<60-3=57>>57 fish.
+Ken and Kendra brought home 57+30=<<57+30=87>>87 fish.
+#### 87
+Question: TreShaun's full marker has enough ink in it to paint three 4 inch by 4 inch squares. If he colors in two 6 inch by 2 inch rectangles, what percentage of ink is left?
+Answer: Each 4 by 4 square equals 16 square inches because 4 x 4 = <<4*4=16>>16
+Three squares equals 48 square inches because 3 x 16 = <<48=48>>48
+Each rectangle uses 12 square inches because 2 x 6 = <<2*6=12>>12
+Both rectangles will use 24 square inches because 2 x 12 = <<2*12=24>>24
+He has 1/2 of the ink left because 24 / 48 = 1/2
+He has 50% of the ink left because 1/2 x 100 = <<1/2*100=50>>50
+#### 50
+Question: Ken caught twice as many fish as Kendra, but Ken released 3 fish back into the lake. Kendra caught 30 fish and did not release any of them back into the lake. How many fish did Ken and Kendra bring home?
+Answer: Ken caught 30*2=<<30*2=60>>60 fish.
+Ken brought home 60-3=<<60-3=57>>57 fish.
+Ken and Kendra brought home 57+30=<<57+30=87>>87 fish.
+#### 87
+Question: Henry and 3 of his friends order 7 pizzas for lunch. Each pizza is cut into 8 slices. If Henry and his friends want to share the pizzas equally, how many slices can each of them have?","Answer: 7 pizzas x 8 slices = 56 total slices
+Henry and his 3 friends make 4 people in total
+Each person can have 56 slices / 4 people = 14 slices
+Therefore, each person can have 14 slices of pizza.","There are 7*8=<<7*8=56>>56 slices in total.
+There are 1+3=<<1+3=4>>4 people in total.
+They can each have 56/4=<<56/4=14>>14 slices.
+#### 14"
+Math,3b,"Question: Southton buries their time capsule 15 feet underground. Northton buries their time capsule 12 feet higher than 4 times the depth of the Southton time capsule. How deep is Northton's time capsule buried?
+Answer: First multiply the depth of Southton's capsule by 4: 15 feet * 4 = <<15*4=60>>60 feet
+Then subtract 12 feet to find the depth of Northton's time capsule: 60 feet - 12 feet = <<60-12=48>>48 feet
+#### 48
+Question: Balki is counting the number of raisins in boxes of cereal. He counted 437 total raisins in 5 boxes. In one box he counted 72 raisins. In a second box he counted 74 raisins. The other three boxes had the same number each. How many were in each of the other three boxes?
+Answer: Let x = the number of raisins in each of the other 3 boxes. Then 72 + 74 + 3x = 437 raisins
+Combining like terms we get 146 + 3x = 437 raisins
+Subtracting 146 from both sides we get 3x = 291 raisins
+Dividing both sides by 3, we get x = 291 / 3 = 97 raisins
+#### 97
+Question: Southton buries their time capsule 15 feet underground. Northton buries their time capsule 12 feet higher than 4 times the depth of the Southton time capsule. How deep is Northton's time capsule buried?
+Answer: First multiply the depth of Southton's capsule by 4: 15 feet * 4 = <<15*4=60>>60 feet
+Then subtract 12 feet to find the depth of Northton's time capsule: 60 feet - 12 feet = <<60-12=48>>48 feet
+#### 48
+Question: Balki is counting the number of raisins in boxes of cereal. He counted 437 total raisins in 5 boxes. In one box he counted 72 raisins. In a second box he counted 74 raisins. The other three boxes had the same number each. How many were in each of the other three boxes?
+Answer: Let x = the number of raisins in each of the other 3 boxes. Then 72 + 74 + 3x = 437 raisins
+Combining like terms we get 146 + 3x = 437 raisins
+Subtracting 146 from both sides we get 3x = 291 raisins
+Dividing both sides by 3, we get x = 291 / 3 = 97 raisins
+#### 97
+Question: Henry and 3 of his friends order 7 pizzas for lunch. Each pizza is cut into 8 slices. If Henry and his friends want to share the pizzas equally, how many slices can each of them have?","Answer: There are a total of 7 pizzas * 8 slices per pizza = <<7*8=56>>56 slices.
+Henry and his 3 friends will be sharing the slices equally, so they will each get 56 slices / 4 people = <<56/4=14>>14 slices each.
+#### 14","There are 7*8=<<7*8=56>>56 slices in total.
+There are 1+3=<<1+3=4>>4 people in total.
+They can each have 56/4=<<56/4=14>>14 slices.
+#### 14"
+CSQA,0,"Question: He wanted a house that was gated off from other places, where should he start looking?
+A: neighborhood
+B: subdivision
+C: city
+D: suburbs
+E: street",B: subdivision,B
+CSQA,1a,"Question: Some people are morning people, others don't get going until after lunch in the what?
+A: night time
+B: dusk
+C: nighttime
+D: afternoon
+E: morning
 Answer: D
-Question: Where are adults likely to be paid to to sit at a desk?
-A: bathroom
-B: office building
-C: library
-D: garage sale
-E: schoolroom
-Answer: B
-Question: The fat man refused to accept what was possible, he complained that he what the simplest activities?
-A: no go
-B: unlikely
-C: unable
-D: cant do
-E: impossibility",Answer: C,D
-CSQA,2,"Question: A person might wear his yarmulke when going to where?
-A: demonstration
-B: concert
-C: garage
-D: bus stop
-E: synagogue
-Answer: E
-Question: The man practiced his communicating skills before the large event, he was new to the city and planned on doing what?
-A: exchange information
-B: people to think
-C: making friends
-D: talking with others
-E: transfer of information
+Question: The entrance hall had the host standing inside, what was the host?
+A: palace
+B: school
+C: person
+D: yoda
+E: house
 Answer: C
-Question: He enjoyed to watch film a second time with director's commentary, he loved the insight and would do what intently?
-A: go to movies
-B: rent one
-C: sit down
-D: listen
-E: quite
+Question: He wanted a house that was gated off from other places, where should he start looking?
+A: neighborhood
+B: subdivision
+C: city
+D: suburbs
+E: street",Answer: B,B
+CSQA,1b,"Question: What could cause you to stop before running twenty six miles?
+A: sweat
+B: drink water
+C: choke
+D: collapse
+E: breath
 Answer: D
-Question: Where are adults likely to be paid to to sit at a desk?
-A: bathroom
-B: office building
-C: library
-D: garage sale
-E: schoolroom
-Answer: B
-Question: The fat man refused to accept what was possible, he complained that he what the simplest activities?
-A: no go
-B: unlikely
-C: unable
-D: cant do
-E: impossibility",Answer: E,D
-CSQA,3a,"Question: A person might wear his yarmulke when going to where?
-A: demonstration
-B: concert
-C: garage
-D: bus stop
-E: synagogue
-Answer: E
-Question: The man practiced his communicating skills before the large event, he was new to the city and planned on doing what?
-A: exchange information
-B: people to think
-C: making friends
-D: talking with others
-E: transfer of information
+Question: Where would a bathroom towel be found?
+A: locker room
+B: at hotel
+C: cupboard
+D: linen closet
+E: behind the bathroom door
+Answer: D
+Question: He wanted a house that was gated off from other places, where should he start looking?
+A: neighborhood
+B: subdivision
+C: city
+D: suburbs
+E: street",Answer: B,B
+CSQA,2,"Question: Some people are morning people, others don't get going until after lunch in the what?
+A: night time
+B: dusk
+C: nighttime
+D: afternoon
+E: morning
+Answer: D
+Question: The entrance hall had the host standing inside, what was the host?
+A: palace
+B: school
+C: person
+D: yoda
+E: house
 Answer: C
-Question: A person might wear his yarmulke when going to where?
-A: demonstration
-B: concert
-C: garage
-D: bus stop
-E: synagogue
-Answer: E
-Question: The man practiced his communicating skills before the large event, he was new to the city and planned on doing what?
-A: exchange information
-B: people to think
-C: making friends
-D: talking with others
-E: transfer of information
+Question: What could cause you to stop before running twenty six miles?
+A: sweat
+B: drink water
+C: choke
+D: collapse
+E: breath
+Answer: D
+Question: Where would a bathroom towel be found?
+A: locker room
+B: at hotel
+C: cupboard
+D: linen closet
+E: behind the bathroom door
+Answer: D
+Question: He wanted a house that was gated off from other places, where should he start looking?
+A: neighborhood
+B: subdivision
+C: city
+D: suburbs
+E: street",Answer: B,B
+CSQA,3a,"Question: Some people are morning people, others don't get going until after lunch in the what?
+A: night time
+B: dusk
+C: nighttime
+D: afternoon
+E: morning
+Answer: D
+Question: The entrance hall had the host standing inside, what was the host?
+A: palace
+B: school
+C: person
+D: yoda
+E: house
 Answer: C
-Question: The fat man refused to accept what was possible, he complained that he what the simplest activities?
-A: no go
-B: unlikely
-C: unable
-D: cant do
-E: impossibility",Answer: C,D
-CSQA,3b,"Question: He enjoyed to watch film a second time with director's commentary, he loved the insight and would do what intently?
-A: go to movies
-B: rent one
-C: sit down
-D: listen
-E: quite
+Question: Some people are morning people, others don't get going until after lunch in the what?
+A: night time
+B: dusk
+C: nighttime
+D: afternoon
+E: morning
 Answer: D
-Question: Where are adults likely to be paid to to sit at a desk?
-A: bathroom
-B: office building
-C: library
-D: garage sale
-E: schoolroom
-Answer: B
-Question: He enjoyed to watch film a second time with director's commentary, he loved the insight and would do what intently?
-A: go to movies
-B: rent one
-C: sit down
-D: listen
-E: quite
+Question: The entrance hall had the host standing inside, what was the host?
+A: palace
+B: school
+C: person
+D: yoda
+E: house
+Answer: C
+Question: He wanted a house that was gated off from other places, where should he start looking?
+A: neighborhood
+B: subdivision
+C: city
+D: suburbs
+E: street",Answer: B,B
+CSQA,3b,"Question: What could cause you to stop before running twenty six miles?
+A: sweat
+B: drink water
+C: choke
+D: collapse
+E: breath
 Answer: D
-Question: Where are adults likely to be paid to to sit at a desk?
-A: bathroom
-B: office building
-C: library
-D: garage sale
-E: schoolroom
-Answer: B
-Question: The fat man refused to accept what was possible, he complained that he what the simplest activities?
-A: no go
-B: unlikely
-C: unable
-D: cant do
-E: impossibility",Answer: E,D
-StrategyQA,0,"Question: Cookie Monster is a Sesame Street character that eats copious amounts of chocolate chip cookies. The Paleo diet includes foods made from ingredients found during the Paleolithic area. Chocolate chip cookies contain soy lecithin and artificial grains. Lecithin is used in complex modern industrial processes.
-Is Cookie Monster's diet Paleo friendly?","No, Cookie Monster's diet is not Paleo friendly. The Paleo diet emphasizes eating whole, unprocessed foods that were available to our Paleolithic ancestors, such as meat, fish, fruits, vegetables, nuts, and seeds. Chocolate chip cookies, which contain soy lecithin and artificial grains, do not align with the principles of the Paleo diet.",False
-StrategyQA,1a,"Question: Aretha Franklin was born in 1942. Aretha Franklin had her second child in 1957. You must be at least 18 years old to vote in a presidential election in the United States.
-Could Aretha Franklin vote for a president when her second child was born?
-Answer: False
-Question: The Book of Daniel is a book in the Old Testament of the Bible. The Bible is divided into the Old Testament and the New Testament. The New Testament focuses on four Gospels regarding the life of Jesus.
-Was Daniel thrown into the lion's den in the New Testament?
-Answer: False
-Question: Cookie Monster is a Sesame Street character that eats copious amounts of chocolate chip cookies. The Paleo diet includes foods made from ingredients found during the Paleolithic area. Chocolate chip cookies contain soy lecithin and artificial grains. Lecithin is used in complex modern industrial processes.
-Is Cookie Monster's diet Paleo friendly?",Answer: False,False
-StrategyQA,1b,"Question: Some of the things geologists study include gemstones, minerals, and stone Lapidarists work with stone, minerals and gemstones
-Does a lapidary work with items that are studied by geologists?
+Question: Where would a bathroom towel be found?
+A: locker room
+B: at hotel
+C: cupboard
+D: linen closet
+E: behind the bathroom door
+Answer: D
+Question: What could cause you to stop before running twenty six miles?
+A: sweat
+B: drink water
+C: choke
+D: collapse
+E: breath
+Answer: D
+Question: Where would a bathroom towel be found?
+A: locker room
+B: at hotel
+C: cupboard
+D: linen closet
+E: behind the bathroom door
+Answer: D
+Question: He wanted a house that was gated off from other places, where should he start looking?
+A: neighborhood
+B: subdivision
+C: city
+D: suburbs
+E: street",Answer: B,B
+StrategyQA,0,"Question: The saltwater crocodile is native to saltwater habitats and brackish wetlands from India's east coast across Southeast Asia and the Sundaic region to northern Australia and Micronesia. Memphis is a city in the United States.
+Would you take a photo of a Saltwater crocodile in Memphis?","No, it would not be possible to take a photo of a saltwater crocodile in Memphis, as they are not native to that area. Saltwater crocodiles are typically found in the regions mentioned in the question.",False
+StrategyQA,1a,"Question: A baker's dozen refers to 13 of anything. Brazilian jiu-jitsu was founded by Carlos and Helio Gracie.   Helio Gracie had 9 children. Carlos Gracie had 11 children.
+Did Brazilian jiu-jitsu Gracie founders have at least a baker's dozen of kids between them?
 Answer: True
-Question: Huma Abedin was Hillary Clinton's deputy chief of staff in 2009 Huma Abedin is an American Muslim Baptism is a Christian tradition
-Was Hillary Clinton's deputy chief of staff in 2009 baptised?
+Question: Jack Black is 5'6"" tall. The CDC recommends people stay 6 feet apart.
+Is Jack Black's height enough to satisfy Coronavirus distancing?
 Answer: False
-Question: Cookie Monster is a Sesame Street character that eats copious amounts of chocolate chip cookies. The Paleo diet includes foods made from ingredients found during the Paleolithic area. Chocolate chip cookies contain soy lecithin and artificial grains. Lecithin is used in complex modern industrial processes.
-Is Cookie Monster's diet Paleo friendly?",Answer: False,False
-StrategyQA,2,"Question: Aretha Franklin was born in 1942. Aretha Franklin had her second child in 1957. You must be at least 18 years old to vote in a presidential election in the United States.
-Could Aretha Franklin vote for a president when her second child was born?
-Answer: False
-Question: The Book of Daniel is a book in the Old Testament of the Bible. The Bible is divided into the Old Testament and the New Testament. The New Testament focuses on four Gospels regarding the life of Jesus.
-Was Daniel thrown into the lion's den in the New Testament?
-Answer: False
-Question: Some of the things geologists study include gemstones, minerals, and stone Lapidarists work with stone, minerals and gemstones
-Does a lapidary work with items that are studied by geologists?
+Question: The saltwater crocodile is native to saltwater habitats and brackish wetlands from India's east coast across Southeast Asia and the Sundaic region to northern Australia and Micronesia. Memphis is a city in the United States.
+Would you take a photo of a Saltwater crocodile in Memphis?",Answer: False,False
+StrategyQA,1b,"Question: The Medieval Times show is popular in the United States. The United States does not actually bestow knighthood on its citizens. Authentic knights are citizens of certain countries, mainly the United Kingdom, who are given the honorary title by their country.
+Are the knights in the Medieval Times show not authentic knights?
 Answer: True
-Question: Huma Abedin was Hillary Clinton's deputy chief of staff in 2009 Huma Abedin is an American Muslim Baptism is a Christian tradition
-Was Hillary Clinton's deputy chief of staff in 2009 baptised?
+Question: Gujarati script is an abugida script Kanji is an adopted logographic script 
+Is the Gujarati script the same category of script as Kanji?
 Answer: False
-Question: Cookie Monster is a Sesame Street character that eats copious amounts of chocolate chip cookies. The Paleo diet includes foods made from ingredients found during the Paleolithic area. Chocolate chip cookies contain soy lecithin and artificial grains. Lecithin is used in complex modern industrial processes.
-Is Cookie Monster's diet Paleo friendly?",Answer: False,False
-StrategyQA,3a,"Question: Aretha Franklin was born in 1942. Aretha Franklin had her second child in 1957. You must be at least 18 years old to vote in a presidential election in the United States.
-Could Aretha Franklin vote for a president when her second child was born?
-Answer: False
-Question: The Book of Daniel is a book in the Old Testament of the Bible. The Bible is divided into the Old Testament and the New Testament. The New Testament focuses on four Gospels regarding the life of Jesus.
-Was Daniel thrown into the lion's den in the New Testament?
-Answer: False
-Question: Aretha Franklin was born in 1942. Aretha Franklin had her second child in 1957. You must be at least 18 years old to vote in a presidential election in the United States.
-Could Aretha Franklin vote for a president when her second child was born?
-Answer: False
-Question: The Book of Daniel is a book in the Old Testament of the Bible. The Bible is divided into the Old Testament and the New Testament. The New Testament focuses on four Gospels regarding the life of Jesus.
-Was Daniel thrown into the lion's den in the New Testament?
-Answer: False
-Question: Cookie Monster is a Sesame Street character that eats copious amounts of chocolate chip cookies. The Paleo diet includes foods made from ingredients found during the Paleolithic area. Chocolate chip cookies contain soy lecithin and artificial grains. Lecithin is used in complex modern industrial processes.
-Is Cookie Monster's diet Paleo friendly?",Answer: False,False
-StrategyQA,3b,"Question: Some of the things geologists study include gemstones, minerals, and stone Lapidarists work with stone, minerals and gemstones
-Does a lapidary work with items that are studied by geologists?
+Question: The saltwater crocodile is native to saltwater habitats and brackish wetlands from India's east coast across Southeast Asia and the Sundaic region to northern Australia and Micronesia. Memphis is a city in the United States.
+Would you take a photo of a Saltwater crocodile in Memphis?",Answer: False,False
+StrategyQA,2,"Question: A baker's dozen refers to 13 of anything. Brazilian jiu-jitsu was founded by Carlos and Helio Gracie.   Helio Gracie had 9 children. Carlos Gracie had 11 children.
+Did Brazilian jiu-jitsu Gracie founders have at least a baker's dozen of kids between them?
 Answer: True
-Question: Huma Abedin was Hillary Clinton's deputy chief of staff in 2009 Huma Abedin is an American Muslim Baptism is a Christian tradition
-Was Hillary Clinton's deputy chief of staff in 2009 baptised?
+Question: Jack Black is 5'6"" tall. The CDC recommends people stay 6 feet apart.
+Is Jack Black's height enough to satisfy Coronavirus distancing?
 Answer: False
-Question: Some of the things geologists study include gemstones, minerals, and stone Lapidarists work with stone, minerals and gemstones
-Does a lapidary work with items that are studied by geologists?
+Question: The Medieval Times show is popular in the United States. The United States does not actually bestow knighthood on its citizens. Authentic knights are citizens of certain countries, mainly the United Kingdom, who are given the honorary title by their country.
+Are the knights in the Medieval Times show not authentic knights?
 Answer: True
-Question: Huma Abedin was Hillary Clinton's deputy chief of staff in 2009 Huma Abedin is an American Muslim Baptism is a Christian tradition
-Was Hillary Clinton's deputy chief of staff in 2009 baptised?
+Question: Gujarati script is an abugida script Kanji is an adopted logographic script 
+Is the Gujarati script the same category of script as Kanji?
 Answer: False
-Question: Cookie Monster is a Sesame Street character that eats copious amounts of chocolate chip cookies. The Paleo diet includes foods made from ingredients found during the Paleolithic area. Chocolate chip cookies contain soy lecithin and artificial grains. Lecithin is used in complex modern industrial processes.
-Is Cookie Monster's diet Paleo friendly?",Answer: False,False
-SayCan,0,Question: Provide step-by-step instructions for the following task: Bring me a sprite.,"1. Locate a store or vending machine that sells Sprite soda.
-2. Approach the store or vending machine and find the Sprite bottles or cans.
-3. Select a Sprite bottle or can, making sure to check the expiration date and condition of the packaging.
-4. If purchasing from a store, proceed to the checkout counter and pay for the Sprite.
-5. If using a vending machine, insert the required amount of money and select the Sprite option.
-6. Retrieve the Sprite bottle or can from the store or vending machine once it is dispensed.
-7. Check the bottle or can for any damage or leaks before bringing it to the person requesting it.
-8. Bring the Sprite to the person who asked for it, making sure to handle it carefully and deliver it promptly.","1. find a sprite can, 2. pick up the sprite can, 3. bring it to you, 4. put down the sprite can, 5. done"
-SayCan,1a,"Question: Provide step-by-step instructions for the following task: Move the chips bag from the table to the counter.
-Answer: 1. find the bag of chips, 2. pick up the bag of chips, 3. go to the counter, 4. put down the bag of chips, 5. done
-Question: Provide step-by-step instructions for the following task: Bring me an apple from the drawer.
-Answer: 1. go to the drawer, 2. open the drawer, 3. pick up the apple, 4. close the drawer, 5. bring it to you, 6. put down the apple, 7. done
-Question: Provide step-by-step instructions for the following task: Bring me a sprite.","Answer: 1. Open the refrigerator, 2. locate the sprite, 3. take out the sprite, 4. close the refrigerator, 5. bring the sprite to you, 6. hand you the sprite, 7. done","1. find a sprite can, 2. pick up the sprite can, 3. bring it to you, 4. put down the sprite can, 5. done"
-SayCan,1b,"Question: Provide step-by-step instructions for the following task: How would you throw a coke can away?
-Answer: 1. find a coke can, 2. pick up the coke can, 3. go to the trash, 4. put down the coke can, 5. done
-Question: Provide step-by-step instructions for the following task: Can you bring me something spicy?
-Answer: 1. find a jalapeno chips, 2. pick up the jalapeno chips, 3. bring it to you, 4. put down the jalapeno chips, 5. done.
-Question: Provide step-by-step instructions for the following task: Bring me a sprite.","Answer: 1. Go to the refrigerator, 2. open the door, 3. look for a bottle or can of Sprite, 4. take out the Sprite, 5. close the refrigerator door, 6. bring the Sprite to you, 7. hand you the Sprite, 8. done.","1. find a sprite can, 2. pick up the sprite can, 3. bring it to you, 4. put down the sprite can, 5. done"
-SayCan,2,"Question: Provide step-by-step instructions for the following task: Move the chips bag from the table to the counter.
-Answer: 1. find the bag of chips, 2. pick up the bag of chips, 3. go to the counter, 4. put down the bag of chips, 5. done
-Question: Provide step-by-step instructions for the following task: Bring me an apple from the drawer.
-Answer: 1. go to the drawer, 2. open the drawer, 3. pick up the apple, 4. close the drawer, 5. bring it to you, 6. put down the apple, 7. done
-Question: Provide step-by-step instructions for the following task: How would you throw a coke can away?
-Answer: 1. find a coke can, 2. pick up the coke can, 3. go to the trash, 4. put down the coke can, 5. done
-Question: Provide step-by-step instructions for the following task: Can you bring me something spicy?
-Answer: 1. find a jalapeno chips, 2. pick up the jalapeno chips, 3. bring it to you, 4. put down the jalapeno chips, 5. done.
-Question: Provide step-by-step instructions for the following task: Bring me a sprite.","Answer: 1. find a sprite can or bottle, 2. pick up the sprite, 3. bring it to you, 4. put down the sprite, 5. done.","1. find a sprite can, 2. pick up the sprite can, 3. bring it to you, 4. put down the sprite can, 5. done"
-SayCan,3a,"Question: Provide step-by-step instructions for the following task: Move the chips bag from the table to the counter.
-Answer: 1. find the bag of chips, 2. pick up the bag of chips, 3. go to the counter, 4. put down the bag of chips, 5. done
-Question: Provide step-by-step instructions for the following task: Bring me an apple from the drawer.
-Answer: 1. go to the drawer, 2. open the drawer, 3. pick up the apple, 4. close the drawer, 5. bring it to you, 6. put down the apple, 7. done
-Question: Provide step-by-step instructions for the following task: Move the chips bag from the table to the counter.
-Answer: 1. find the bag of chips, 2. pick up the bag of chips, 3. go to the counter, 4. put down the bag of chips, 5. done
-Question: Provide step-by-step instructions for the following task: Bring me an apple from the drawer.
-Answer: 1. go to the drawer, 2. open the drawer, 3. pick up the apple, 4. close the drawer, 5. bring it to you, 6. put down the apple, 7. done
-Question: Provide step-by-step instructions for the following task: Bring me a sprite.","Answer: 1. Locate where the sprite is stored, 2. Open the refrigerator or designated area where the sprite is kept, 3. Grab the sprite, 4. Close the refrigerator or area, 5. Bring the sprite to you, 6. Hand you the sprite, 7. Done.","1. find a sprite can, 2. pick up the sprite can, 3. bring it to you, 4. put down the sprite can, 5. done"
-SayCan,3b,"Question: Provide step-by-step instructions for the following task: How would you throw a coke can away?
-Answer: 1. find a coke can, 2. pick up the coke can, 3. go to the trash, 4. put down the coke can, 5. done
-Question: Provide step-by-step instructions for the following task: Can you bring me something spicy?
-Answer: 1. find a jalapeno chips, 2. pick up the jalapeno chips, 3. bring it to you, 4. put down the jalapeno chips, 5. done.
-Question: Provide step-by-step instructions for the following task: How would you throw a coke can away?
-Answer: 1. find a coke can, 2. pick up the coke can, 3. go to the trash, 4. put down the coke can, 5. done
-Question: Provide step-by-step instructions for the following task: Can you bring me something spicy?
-Answer: 1. find a jalapeno chips, 2. pick up the jalapeno chips, 3. bring it to you, 4. put down the jalapeno chips, 5. done.
-Question: Provide step-by-step instructions for the following task: Bring me a sprite.","Answer: 1. locate a Sprite bottle or can, 2. pick up the Sprite, 3. bring it to you, 4. hand you the Sprite, 5. done.","1. find a sprite can, 2. pick up the sprite can, 3. bring it to you, 4. put down the sprite can, 5. done"
+Question: The saltwater crocodile is native to saltwater habitats and brackish wetlands from India's east coast across Southeast Asia and the Sundaic region to northern Australia and Micronesia. Memphis is a city in the United States.
+Would you take a photo of a Saltwater crocodile in Memphis?",Answer: False,False
+StrategyQA,3a,"Question: A baker's dozen refers to 13 of anything. Brazilian jiu-jitsu was founded by Carlos and Helio Gracie.   Helio Gracie had 9 children. Carlos Gracie had 11 children.
+Did Brazilian jiu-jitsu Gracie founders have at least a baker's dozen of kids between them?
+Answer: True
+Question: Jack Black is 5'6"" tall. The CDC recommends people stay 6 feet apart.
+Is Jack Black's height enough to satisfy Coronavirus distancing?
+Answer: False
+Question: A baker's dozen refers to 13 of anything. Brazilian jiu-jitsu was founded by Carlos and Helio Gracie.   Helio Gracie had 9 children. Carlos Gracie had 11 children.
+Did Brazilian jiu-jitsu Gracie founders have at least a baker's dozen of kids between them?
+Answer: True
+Question: Jack Black is 5'6"" tall. The CDC recommends people stay 6 feet apart.
+Is Jack Black's height enough to satisfy Coronavirus distancing?
+Answer: False
+Question: The saltwater crocodile is native to saltwater habitats and brackish wetlands from India's east coast across Southeast Asia and the Sundaic region to northern Australia and Micronesia. Memphis is a city in the United States.
+Would you take a photo of a Saltwater crocodile in Memphis?",Answer: False,False
+StrategyQA,3b,"Question: The Medieval Times show is popular in the United States. The United States does not actually bestow knighthood on its citizens. Authentic knights are citizens of certain countries, mainly the United Kingdom, who are given the honorary title by their country.
+Are the knights in the Medieval Times show not authentic knights?
+Answer: True
+Question: Gujarati script is an abugida script Kanji is an adopted logographic script 
+Is the Gujarati script the same category of script as Kanji?
+Answer: False
+Question: The Medieval Times show is popular in the United States. The United States does not actually bestow knighthood on its citizens. Authentic knights are citizens of certain countries, mainly the United Kingdom, who are given the honorary title by their country.
+Are the knights in the Medieval Times show not authentic knights?
+Answer: True
+Question: Gujarati script is an abugida script Kanji is an adopted logographic script 
+Is the Gujarati script the same category of script as Kanji?
+Answer: False
+Question: The saltwater crocodile is native to saltwater habitats and brackish wetlands from India's east coast across Southeast Asia and the Sundaic region to northern Australia and Micronesia. Memphis is a city in the United States.
+Would you take a photo of a Saltwater crocodile in Memphis?",Answer: No,False
+SayCan,0,"Question: I love spice, can you get something to eat?","Of course! There are many delicious spicy foods you can try such as spicy chili, hot wings, curry dishes, jalapeno poppers, or spicy noodles. Let me know if you have any specific preferences so I can suggest something that suits your taste. Enjoy your spicy meal!","1. find the jalapeno chips, 2. pick up the jalapeno chips, 3. bring it to you, 4. put down the jalapeno chips, 5. done"
+SayCan,1a,"Question: Can you bring me a salty snack?
+Answer: 1. find a sea salt chips, 2. pick up the sea salt chips, 3. bring it to you, 4. put down the sea salt chips, 5. done.
+Question: How would you put a bag of chips and water bottle on the table?
+Answer: 1. find the bag of chips, 2. pick up the bag of chips, 3. go to the table, 4. put down the bag of chips, 5. find a water bottle, 6. pick up the water bottle, 7. go to the table, 8. put down the water bottle, 9. done
+Question: I love spice, can you get something to eat?","Answer: 1. find a spicy snack, 2. pick up the spicy snack, 3. bring it to you, 4. put down the spicy snack, 5. done.","1. find the jalapeno chips, 2. pick up the jalapeno chips, 3. bring it to you, 4. put down the jalapeno chips, 5. done"
+SayCan,1b,"Question: I’d like a clear soda.
+Answer: 1. find a 7up, 2. pick up the 7up, 3. bring it to you, 4. put down the 7up, 5. done.
+Question: Can you bring all the snacks on the table?
+Answer: 1. go to the table, 2. pick up the energy bar, 3. bring it to you, 4. put down the energy bar, 5. go to the table, 6. pick up the multigrain chips, 7. bring it to you, 8. put down the multigrain chips, 9. go to the table, 10. done.
+Question: I love spice, can you get something to eat?","Answer: 1. find something spicy, 2. pick it up, 3. bring it to you, 4. put it down, 5. enjoy!","1. find the jalapeno chips, 2. pick up the jalapeno chips, 3. bring it to you, 4. put down the jalapeno chips, 5. done"
+SayCan,2,"Question: Can you bring me a salty snack?
+Answer: 1. find a sea salt chips, 2. pick up the sea salt chips, 3. bring it to you, 4. put down the sea salt chips, 5. done.
+Question: How would you put a bag of chips and water bottle on the table?
+Answer: 1. find the bag of chips, 2. pick up the bag of chips, 3. go to the table, 4. put down the bag of chips, 5. find a water bottle, 6. pick up the water bottle, 7. go to the table, 8. put down the water bottle, 9. done
+Question: I’d like a clear soda.
+Answer: 1. find a 7up, 2. pick up the 7up, 3. bring it to you, 4. put down the 7up, 5. done.
+Question: Can you bring all the snacks on the table?
+Answer: 1. go to the table, 2. pick up the energy bar, 3. bring it to you, 4. put down the energy bar, 5. go to the table, 6. pick up the multigrain chips, 7. bring it to you, 8. put down the multigrain chips, 9. go to the table, 10. done.
+Question: I love spice, can you get something to eat?","Answer: 1. find some spicy tortilla chips, 2. pick up the spicy tortilla chips, 3. bring it to you, 4. put down the spicy tortilla chips, 5. done.","1. find the jalapeno chips, 2. pick up the jalapeno chips, 3. bring it to you, 4. put down the jalapeno chips, 5. done"
+SayCan,3a,"Question: Can you bring me a salty snack?
+Answer: 1. find a sea salt chips, 2. pick up the sea salt chips, 3. bring it to you, 4. put down the sea salt chips, 5. done.
+Question: How would you put a bag of chips and water bottle on the table?
+Answer: 1. find the bag of chips, 2. pick up the bag of chips, 3. go to the table, 4. put down the bag of chips, 5. find a water bottle, 6. pick up the water bottle, 7. go to the table, 8. put down the water bottle, 9. done
+Question: Can you bring me a salty snack?
+Answer: 1. find a sea salt chips, 2. pick up the sea salt chips, 3. bring it to you, 4. put down the sea salt chips, 5. done.
+Question: How would you put a bag of chips and water bottle on the table?
+Answer: 1. find the bag of chips, 2. pick up the bag of chips, 3. go to the table, 4. put down the bag of chips, 5. find a water bottle, 6. pick up the water bottle, 7. go to the table, 8. put down the water bottle, 9. done
+Question: I love spice, can you get something to eat?",Answer: Sure! I'll find something spicy for you to eat.,"1. find the jalapeno chips, 2. pick up the jalapeno chips, 3. bring it to you, 4. put down the jalapeno chips, 5. done"
+SayCan,3b,"Question: I’d like a clear soda.
+Answer: 1. find a 7up, 2. pick up the 7up, 3. bring it to you, 4. put down the 7up, 5. done.
+Question: Can you bring all the snacks on the table?
+Answer: 1. go to the table, 2. pick up the energy bar, 3. bring it to you, 4. put down the energy bar, 5. go to the table, 6. pick up the multigrain chips, 7. bring it to you, 8. put down the multigrain chips, 9. go to the table, 10. done.
+Question: I’d like a clear soda.
+Answer: 1. find a 7up, 2. pick up the 7up, 3. bring it to you, 4. put down the 7up, 5. done.
+Question: Can you bring all the snacks on the table?
+Answer: 1. go to the table, 2. pick up the energy bar, 3. bring it to you, 4. put down the energy bar, 5. go to the table, 6. pick up the multigrain chips, 7. bring it to you, 8. put down the multigrain chips, 9. go to the table, 10. done.
+Question: I love spice, can you get something to eat?","Answer: 1. find a spicy dish or snack, 2. bring it to you, 3. enjoy!","1. find the jalapeno chips, 2. pick up the jalapeno chips, 3. bring it to you, 4. put down the jalapeno chips, 5. done"

@@ -1,404 +1,431 @@
 Task Class,Case,Prompt,Response,Expected
-Math,0,"Question: The population of porcupines in a park is 50. The number of female porcupines is 3/5 of the total population. If each female porcupine gives birth to 4 babies every month, how many porcupines will be in the park after a year?","First, we need to calculate the number of female porcupines in the park:
+Math,0,"Question: Candy has 15 light blue spools of thread, 45 dark blue spools of thread, 40 light green spools of thread, and 50 dark green spools of thread. What percent of her spools are blue?","First, we need to find the total number of spools Candy has. 
 
-Number of female porcupines = (3/5) * 50 = 30
+Total spools = 15 light blue + 45 dark blue + 40 light green + 50 dark green
+Total spools = 150 spools
 
-Now, we need to calculate the number of babies born each month:
+Next, we need to find the total number of blue spools Candy has.
 
-Number of babies born each month = 30 * 4 = 120
+Total blue spools = 15 light blue + 45 dark blue
+Total blue spools = 60 spools
 
-Since each female porcupine gives birth to 4 babies every month, the total number of porcupines born each month is 120.
+Finally, we can calculate the percentage of blue spools Candy has.
 
-After a year (12 months), the total number of porcupines in the park will be:
+Percentage of blue spools = (Total blue spools / Total spools) * 100
+Percentage of blue spools = (60 / 150) * 100
+Percentage of blue spools = 40%
 
-Total number of porcupines = 50 (original population) + 120 (babies born each month * 12 months) = 50 + 1440 = 1490
+Therefore, 40% of Candy's spools are blue.","First find the number of blue spools: 15 spools + 45 spools = <<15+45=60>>60 spools
+Then find the total number of spools: 40 spools + 50 spools + 60 spools = <<40+50+60=150>>150 spools
+Then divide the number of blue spools by the total number of spools and multiply by 100% to express the answer as a percentage: 60 spools / 150 spools * 100% = 40%
+#### 40"
+Math,1a,"Question: Kristy, a sales representative earns a basic salary of $7.50 per hour plus a 16% commission on everything she sells. This month, she worked for 160 hours and sold $25000 worth of items. Her monthly budget for food, clothing, rent, transportation, bills and savings is 95% of her total monthly earnings and the rest will be put towards insurance. How much did she allocate to insurance?
+Answer: Kristy earns a basic salary of $7.50 x 160 = $<<7.5*160=1200>>1200.
+Her total commission is $25000 x 16/100 = $<<25000*16/100=4000>>4000.
+Thus, her total earning is $1200 + $4000 = $<<1200+4000=5200>>5200.
+Her monthly budget aside from the insurance is $5200 x 95/100 = $<<5200*95/100=4940>>4940.
+Therefore, she allocated $5200 - $4940 = $<<5200-4940=260>>260 on insurance.
+#### 260
+Question: Mickey and Johnny are having a contest to see who can run around their block the most. One time around the block equals 200 meters. Johnny runs around the block 4 times. Mickey runs around the block half as many times as Johnny. What is the average distance run by Johnny and Mickey?
+Answer: Mickey runs around the block twice because half of 4 is <<4/2=2>>2.
+Mickey runs 400 meters in total because 2 times 200 equals <<2*200=400>>400.
+Johnny runs 800 meters because 4 times 200 equals <<4*200=800>>800.
+In total, they run 1200 meters because 400 plus 800 equals 1200.
+On average, they run 600 meters because 1200 divided by 2 equals <<1200/2=600>>600
+#### 600
+Question: Candy has 15 light blue spools of thread, 45 dark blue spools of thread, 40 light green spools of thread, and 50 dark green spools of thread. What percent of her spools are blue?","Answer: Candy has a total of 15 + 45 = 60 blue spools of thread.
+She has a total of 15 + 45 + 40 + 50 = 150 spools of thread in total.
+To find the percentage of blue spools, we take (60/150) * 100% = 40%.
+Therefore, 40% of Candy's spools are blue. 
+#### 40%","First find the number of blue spools: 15 spools + 45 spools = <<15+45=60>>60 spools
+Then find the total number of spools: 40 spools + 50 spools + 60 spools = <<40+50+60=150>>150 spools
+Then divide the number of blue spools by the total number of spools and multiply by 100% to express the answer as a percentage: 60 spools / 150 spools * 100% = 40%
+#### 40"
+Math,1b,"Question: Three frogs are trying to hop across the road. The first frog takes 4 times as many hops as the second.  The second frog takes twice as many as the third.  If the three frogs took a total of 99 hops, how many hops did it take the second frog to cross the road?
+Answer: Let x represent the number of hops it took the third frog
+The second frog:2x
+First frog:4(2x)=8x
+Total:x+2x+8x=99
+11x=99
+x=<<9=9>>9
+Second frog:2(9)=18 hops
+#### 18
+Question: Tyrah has six times as many pencils as Sarah has. Tim has eight times as many pencils as Sarah. If Tyrah has 12 pencils, how many does Tim have?
+Answer: Sarah has 12/6=<<12/6=2>>2 pencils
+Tim has 8*2=<<8*2=16>>16 pencils
+#### 16
+Question: Candy has 15 light blue spools of thread, 45 dark blue spools of thread, 40 light green spools of thread, and 50 dark green spools of thread. What percent of her spools are blue?","Answer: Candy has a total of 15 light blue + 45 dark blue = <<15+45=60>>60 blue spools of thread.
+She has a total of 15 light blue + 45 dark blue + 40 light green + 50 dark green = <<15+45+40+50=150>>150 spools in total.
+Therefore, the percentage of her spools that are blue is (60/150) * 100% = 40%.
+#### 40%","First find the number of blue spools: 15 spools + 45 spools = <<15+45=60>>60 spools
+Then find the total number of spools: 40 spools + 50 spools + 60 spools = <<40+50+60=150>>150 spools
+Then divide the number of blue spools by the total number of spools and multiply by 100% to express the answer as a percentage: 60 spools / 150 spools * 100% = 40%
+#### 40"
+Math,2,"Question: Kristy, a sales representative earns a basic salary of $7.50 per hour plus a 16% commission on everything she sells. This month, she worked for 160 hours and sold $25000 worth of items. Her monthly budget for food, clothing, rent, transportation, bills and savings is 95% of her total monthly earnings and the rest will be put towards insurance. How much did she allocate to insurance?
+Answer: Kristy earns a basic salary of $7.50 x 160 = $<<7.5*160=1200>>1200.
+Her total commission is $25000 x 16/100 = $<<25000*16/100=4000>>4000.
+Thus, her total earning is $1200 + $4000 = $<<1200+4000=5200>>5200.
+Her monthly budget aside from the insurance is $5200 x 95/100 = $<<5200*95/100=4940>>4940.
+Therefore, she allocated $5200 - $4940 = $<<5200-4940=260>>260 on insurance.
+#### 260
+Question: Mickey and Johnny are having a contest to see who can run around their block the most. One time around the block equals 200 meters. Johnny runs around the block 4 times. Mickey runs around the block half as many times as Johnny. What is the average distance run by Johnny and Mickey?
+Answer: Mickey runs around the block twice because half of 4 is <<4/2=2>>2.
+Mickey runs 400 meters in total because 2 times 200 equals <<2*200=400>>400.
+Johnny runs 800 meters because 4 times 200 equals <<4*200=800>>800.
+In total, they run 1200 meters because 400 plus 800 equals 1200.
+On average, they run 600 meters because 1200 divided by 2 equals <<1200/2=600>>600
+#### 600
+Question: Three frogs are trying to hop across the road. The first frog takes 4 times as many hops as the second.  The second frog takes twice as many as the third.  If the three frogs took a total of 99 hops, how many hops did it take the second frog to cross the road?
+Answer: Let x represent the number of hops it took the third frog
+The second frog:2x
+First frog:4(2x)=8x
+Total:x+2x+8x=99
+11x=99
+x=<<9=9>>9
+Second frog:2(9)=18 hops
+#### 18
+Question: Tyrah has six times as many pencils as Sarah has. Tim has eight times as many pencils as Sarah. If Tyrah has 12 pencils, how many does Tim have?
+Answer: Sarah has 12/6=<<12/6=2>>2 pencils
+Tim has 8*2=<<8*2=16>>16 pencils
+#### 16
+Question: Candy has 15 light blue spools of thread, 45 dark blue spools of thread, 40 light green spools of thread, and 50 dark green spools of thread. What percent of her spools are blue?","Answer: Candy has a total of 15 light blue + 45 dark blue = 60 blue spools of thread.
+She has a total of 15 light blue + 45 dark blue + 40 light green + 50 dark green = 150 spools of thread in total.
+To find the percentage of blue spools, we divide the number of blue spools (60) by the total number of spools (150) and then multiply by 100 to get the percentage.
+Therefore, the percentage of blue spools Candy has is (60/150) * 100 = 40%.","First find the number of blue spools: 15 spools + 45 spools = <<15+45=60>>60 spools
+Then find the total number of spools: 40 spools + 50 spools + 60 spools = <<40+50+60=150>>150 spools
+Then divide the number of blue spools by the total number of spools and multiply by 100% to express the answer as a percentage: 60 spools / 150 spools * 100% = 40%
+#### 40"
+Math,3a,"Question: Kristy, a sales representative earns a basic salary of $7.50 per hour plus a 16% commission on everything she sells. This month, she worked for 160 hours and sold $25000 worth of items. Her monthly budget for food, clothing, rent, transportation, bills and savings is 95% of her total monthly earnings and the rest will be put towards insurance. How much did she allocate to insurance?
+Answer: Kristy earns a basic salary of $7.50 x 160 = $<<7.5*160=1200>>1200.
+Her total commission is $25000 x 16/100 = $<<25000*16/100=4000>>4000.
+Thus, her total earning is $1200 + $4000 = $<<1200+4000=5200>>5200.
+Her monthly budget aside from the insurance is $5200 x 95/100 = $<<5200*95/100=4940>>4940.
+Therefore, she allocated $5200 - $4940 = $<<5200-4940=260>>260 on insurance.
+#### 260
+Question: Mickey and Johnny are having a contest to see who can run around their block the most. One time around the block equals 200 meters. Johnny runs around the block 4 times. Mickey runs around the block half as many times as Johnny. What is the average distance run by Johnny and Mickey?
+Answer: Mickey runs around the block twice because half of 4 is <<4/2=2>>2.
+Mickey runs 400 meters in total because 2 times 200 equals <<2*200=400>>400.
+Johnny runs 800 meters because 4 times 200 equals <<4*200=800>>800.
+In total, they run 1200 meters because 400 plus 800 equals 1200.
+On average, they run 600 meters because 1200 divided by 2 equals <<1200/2=600>>600
+#### 600
+Question: Kristy, a sales representative earns a basic salary of $7.50 per hour plus a 16% commission on everything she sells. This month, she worked for 160 hours and sold $25000 worth of items. Her monthly budget for food, clothing, rent, transportation, bills and savings is 95% of her total monthly earnings and the rest will be put towards insurance. How much did she allocate to insurance?
+Answer: Kristy earns a basic salary of $7.50 x 160 = $<<7.5*160=1200>>1200.
+Her total commission is $25000 x 16/100 = $<<25000*16/100=4000>>4000.
+Thus, her total earning is $1200 + $4000 = $<<1200+4000=5200>>5200.
+Her monthly budget aside from the insurance is $5200 x 95/100 = $<<5200*95/100=4940>>4940.
+Therefore, she allocated $5200 - $4940 = $<<5200-4940=260>>260 on insurance.
+#### 260
+Question: Mickey and Johnny are having a contest to see who can run around their block the most. One time around the block equals 200 meters. Johnny runs around the block 4 times. Mickey runs around the block half as many times as Johnny. What is the average distance run by Johnny and Mickey?
+Answer: Mickey runs around the block twice because half of 4 is <<4/2=2>>2.
+Mickey runs 400 meters in total because 2 times 200 equals <<2*200=400>>400.
+Johnny runs 800 meters because 4 times 200 equals <<4*200=800>>800.
+In total, they run 1200 meters because 400 plus 800 equals 1200.
+On average, they run 600 meters because 1200 divided by 2 equals <<1200/2=600>>600
+#### 600
+Question: Candy has 15 light blue spools of thread, 45 dark blue spools of thread, 40 light green spools of thread, and 50 dark green spools of thread. What percent of her spools are blue?","To find the total number of blue spools of thread, we add the number of light blue and dark blue spools:
 
-Therefore, there will be 1490 porcupines in the park after a year.","The number of female porcupines in the park is 3/5*50 = <<3/5*50=30>>30.
-In a month, the 30 female porcupines give birth to 30*4 = <<30*4=120>>120 new babies.
-After a year, with 12 months, the total number of new porcupines in the park is 120*12 = <<120*12=1440>>1440
-The total population of porcupines in the park after a year is 50+1440 = <<50+1440=1490>>1490
-#### 1490"
-Math,1a,"Question: 4/5 of the Easter eggs are blue and 1/5 are purple. Half the purple eggs have five pieces of candy each, and 1/4 of the blue eggs do. The rest of the eggs only have one piece of candy. If Jerry opens one egg at random, what is the percentage chance he'll get 5 pieces of candy?
-Answer: First find the probability Jerry gets a blue egg with 5 pieces of candy by multiplying the independent probabilities: 4/5 * 1/4 = 1/5 = 20%
-Then find the probability he gets a purple egg with 5 pieces of candy the same way: 1/5 * 1/2 = 1/10 = 10%
-Then add the probabilities of the two possible ways to get 5 pieces of candy to find the total probability: 20% + 10% = 30%
-#### 30
-Question: Jamie and Oliver are planning to go on a vacation. A plane ticket costs $24 for each person and a hotel stay costs $12 for each person per day. How much money will they spend on the vacation if they stay for 3 days?
-Answer: Jamie and Oliver will spend $24 x 2 = $<<24*2=48>>48 for the plane ticket.
-They will spend $12 x 2 = $<<12*2=24>>24 for staying in the hotel per day.
-So, the total amount they will spend on the hotel for a 3-day stay is $24 x 3 = $<<24*3=72>>72.
-Therefore, the total amount they will spend on their vacation is $72 + $48 = $<<72+48=120>>120.
-#### 120
-Question: The population of porcupines in a park is 50. The number of female porcupines is 3/5 of the total population. If each female porcupine gives birth to 4 babies every month, how many porcupines will be in the park after a year?","Answer: The number of female porcupines is 3/5 * 50 = <<3/5*50=30>>30.
-If each female porcupine gives birth to 4 babies every month, the total number of babies born in a month is 30 * 4 = <<30*4=120>>120.
-After a year (12 months), the total number of new porcupines born will be 120 * 12 = <<120*12=1440>>1440.
-Adding this to the current population, the total number of porcupines in the park after a year will be 50 (current population) + 1440 (new porcupines born) = <<50+1440=1490>>1490. 
-Therefore, there will be 1490 porcupines in the park after a year.","The number of female porcupines in the park is 3/5*50 = <<3/5*50=30>>30.
-In a month, the 30 female porcupines give birth to 30*4 = <<30*4=120>>120 new babies.
-After a year, with 12 months, the total number of new porcupines in the park is 120*12 = <<120*12=1440>>1440
-The total population of porcupines in the park after a year is 50+1440 = <<50+1440=1490>>1490
-#### 1490"
-Math,1b,"Question: Tiffany is looking at a lake full of turtles. The turtles are 60% female and the rest are male. Of the males, 1 in 4 has stripes. Of the ones with stripes, 4 are babies, while 60% are adults How many turtles are in the lake?
-Answer: Of the males with stripes, 40% are babies because 100 - 60 = <<100-60=40>>40
-There are 10 males with stripes because 4 / .4 = <<4/.4=10>>10
-There are 40 males because 10 / (1/4) = <<10/(1/4)=40>>40
-Males make up 40% of the pond's total, because 100 - 60 = <<100-60=40>>40
-There are 100 turtles in total 40 / .4 = <<40/.4=100>>100
-#### 100
-Question: A cookfire burns three logs every hour. It was built with six logs to start. If it gets two more logs added to it at the end of every hour, how many logs will be left after 3 hours?
-Answer: After 3 hours, it will have 3 * 2 = <<3*2=6>>6 logs added to it.
-After 3 hours, it will have burned 3 * 3 = <<3*3=9>>9 logs.
-After 3 hours, the cookfire will have 6 + 6 - 9 = <<6+6-9=3>>3 logs left.
-#### 3
-Question: The population of porcupines in a park is 50. The number of female porcupines is 3/5 of the total population. If each female porcupine gives birth to 4 babies every month, how many porcupines will be in the park after a year?","Answer: There are 30 female porcupines because 50 x (3/5) = <<50*(3/5)=30>>30
-There are 20 male porcupines because 50 - 30 = <<50-30=20>>20
-Each month, there are 30 x 4 = <<30*4=120>>120 baby porcupines born.
-After a year, there will be 50 + 1200 = <<50+1200=1250>>1250 porcupines in the park. 
-#### 1250","The number of female porcupines in the park is 3/5*50 = <<3/5*50=30>>30.
-In a month, the 30 female porcupines give birth to 30*4 = <<30*4=120>>120 new babies.
-After a year, with 12 months, the total number of new porcupines in the park is 120*12 = <<120*12=1440>>1440
-The total population of porcupines in the park after a year is 50+1440 = <<50+1440=1490>>1490
-#### 1490"
-Math,2,"Question: 4/5 of the Easter eggs are blue and 1/5 are purple. Half the purple eggs have five pieces of candy each, and 1/4 of the blue eggs do. The rest of the eggs only have one piece of candy. If Jerry opens one egg at random, what is the percentage chance he'll get 5 pieces of candy?
-Answer: First find the probability Jerry gets a blue egg with 5 pieces of candy by multiplying the independent probabilities: 4/5 * 1/4 = 1/5 = 20%
-Then find the probability he gets a purple egg with 5 pieces of candy the same way: 1/5 * 1/2 = 1/10 = 10%
-Then add the probabilities of the two possible ways to get 5 pieces of candy to find the total probability: 20% + 10% = 30%
-#### 30
-Question: Jamie and Oliver are planning to go on a vacation. A plane ticket costs $24 for each person and a hotel stay costs $12 for each person per day. How much money will they spend on the vacation if they stay for 3 days?
-Answer: Jamie and Oliver will spend $24 x 2 = $<<24*2=48>>48 for the plane ticket.
-They will spend $12 x 2 = $<<12*2=24>>24 for staying in the hotel per day.
-So, the total amount they will spend on the hotel for a 3-day stay is $24 x 3 = $<<24*3=72>>72.
-Therefore, the total amount they will spend on their vacation is $72 + $48 = $<<72+48=120>>120.
-#### 120
-Question: Tiffany is looking at a lake full of turtles. The turtles are 60% female and the rest are male. Of the males, 1 in 4 has stripes. Of the ones with stripes, 4 are babies, while 60% are adults How many turtles are in the lake?
-Answer: Of the males with stripes, 40% are babies because 100 - 60 = <<100-60=40>>40
-There are 10 males with stripes because 4 / .4 = <<4/.4=10>>10
-There are 40 males because 10 / (1/4) = <<10/(1/4)=40>>40
-Males make up 40% of the pond's total, because 100 - 60 = <<100-60=40>>40
-There are 100 turtles in total 40 / .4 = <<40/.4=100>>100
-#### 100
-Question: A cookfire burns three logs every hour. It was built with six logs to start. If it gets two more logs added to it at the end of every hour, how many logs will be left after 3 hours?
-Answer: After 3 hours, it will have 3 * 2 = <<3*2=6>>6 logs added to it.
-After 3 hours, it will have burned 3 * 3 = <<3*3=9>>9 logs.
-After 3 hours, the cookfire will have 6 + 6 - 9 = <<6+6-9=3>>3 logs left.
-#### 3
-Question: The population of porcupines in a park is 50. The number of female porcupines is 3/5 of the total population. If each female porcupine gives birth to 4 babies every month, how many porcupines will be in the park after a year?","Answer: The number of female porcupines is 50 * 3/5 = <<50*3/5=30>>30.
-Each female porcupine gives birth to 4 babies every month, so the total number of babies born every month is 30 * 4 = <<30*4=120>>120.
-After a year, there will be 120 * 12 = <<120*12=1440>>1440 new porcupines born.
-Adding the new porcupines to the original population, the total number of porcupines in the park after a year will be 1440 + 50 = <<1440+50=1490>>1490. 
-#### 1490","The number of female porcupines in the park is 3/5*50 = <<3/5*50=30>>30.
-In a month, the 30 female porcupines give birth to 30*4 = <<30*4=120>>120 new babies.
-After a year, with 12 months, the total number of new porcupines in the park is 120*12 = <<120*12=1440>>1440
-The total population of porcupines in the park after a year is 50+1440 = <<50+1440=1490>>1490
-#### 1490"
-Math,3a,"Question: 4/5 of the Easter eggs are blue and 1/5 are purple. Half the purple eggs have five pieces of candy each, and 1/4 of the blue eggs do. The rest of the eggs only have one piece of candy. If Jerry opens one egg at random, what is the percentage chance he'll get 5 pieces of candy?
-Answer: First find the probability Jerry gets a blue egg with 5 pieces of candy by multiplying the independent probabilities: 4/5 * 1/4 = 1/5 = 20%
-Then find the probability he gets a purple egg with 5 pieces of candy the same way: 1/5 * 1/2 = 1/10 = 10%
-Then add the probabilities of the two possible ways to get 5 pieces of candy to find the total probability: 20% + 10% = 30%
-#### 30
-Question: Jamie and Oliver are planning to go on a vacation. A plane ticket costs $24 for each person and a hotel stay costs $12 for each person per day. How much money will they spend on the vacation if they stay for 3 days?
-Answer: Jamie and Oliver will spend $24 x 2 = $<<24*2=48>>48 for the plane ticket.
-They will spend $12 x 2 = $<<12*2=24>>24 for staying in the hotel per day.
-So, the total amount they will spend on the hotel for a 3-day stay is $24 x 3 = $<<24*3=72>>72.
-Therefore, the total amount they will spend on their vacation is $72 + $48 = $<<72+48=120>>120.
-#### 120
-Question: 4/5 of the Easter eggs are blue and 1/5 are purple. Half the purple eggs have five pieces of candy each, and 1/4 of the blue eggs do. The rest of the eggs only have one piece of candy. If Jerry opens one egg at random, what is the percentage chance he'll get 5 pieces of candy?
-Answer: First find the probability Jerry gets a blue egg with 5 pieces of candy by multiplying the independent probabilities: 4/5 * 1/4 = 1/5 = 20%
-Then find the probability he gets a purple egg with 5 pieces of candy the same way: 1/5 * 1/2 = 1/10 = 10%
-Then add the probabilities of the two possible ways to get 5 pieces of candy to find the total probability: 20% + 10% = 30%
-#### 30
-Question: Jamie and Oliver are planning to go on a vacation. A plane ticket costs $24 for each person and a hotel stay costs $12 for each person per day. How much money will they spend on the vacation if they stay for 3 days?
-Answer: Jamie and Oliver will spend $24 x 2 = $<<24*2=48>>48 for the plane ticket.
-They will spend $12 x 2 = $<<12*2=24>>24 for staying in the hotel per day.
-So, the total amount they will spend on the hotel for a 3-day stay is $24 x 3 = $<<24*3=72>>72.
-Therefore, the total amount they will spend on their vacation is $72 + $48 = $<<72+48=120>>120.
-#### 120
-Question: The population of porcupines in a park is 50. The number of female porcupines is 3/5 of the total population. If each female porcupine gives birth to 4 babies every month, how many porcupines will be in the park after a year?","Answer: The number of female porcupines in the park is 50 * 3/5 = 30.
-Each female porcupine gives birth to 4 babies every month, so the total number of babies born each month is 30 * 4 = 120.
-After one year (12 months), the total number of babies born is 120 * 12 = 1440.
-Adding this to the initial population of 50, the total number of porcupines in the park after a year will be 1440 + 50 = 1490.","The number of female porcupines in the park is 3/5*50 = <<3/5*50=30>>30.
-In a month, the 30 female porcupines give birth to 30*4 = <<30*4=120>>120 new babies.
-After a year, with 12 months, the total number of new porcupines in the park is 120*12 = <<120*12=1440>>1440
-The total population of porcupines in the park after a year is 50+1440 = <<50+1440=1490>>1490
-#### 1490"
-Math,3b,"Question: Tiffany is looking at a lake full of turtles. The turtles are 60% female and the rest are male. Of the males, 1 in 4 has stripes. Of the ones with stripes, 4 are babies, while 60% are adults How many turtles are in the lake?
-Answer: Of the males with stripes, 40% are babies because 100 - 60 = <<100-60=40>>40
-There are 10 males with stripes because 4 / .4 = <<4/.4=10>>10
-There are 40 males because 10 / (1/4) = <<10/(1/4)=40>>40
-Males make up 40% of the pond's total, because 100 - 60 = <<100-60=40>>40
-There are 100 turtles in total 40 / .4 = <<40/.4=100>>100
-#### 100
-Question: A cookfire burns three logs every hour. It was built with six logs to start. If it gets two more logs added to it at the end of every hour, how many logs will be left after 3 hours?
-Answer: After 3 hours, it will have 3 * 2 = <<3*2=6>>6 logs added to it.
-After 3 hours, it will have burned 3 * 3 = <<3*3=9>>9 logs.
-After 3 hours, the cookfire will have 6 + 6 - 9 = <<6+6-9=3>>3 logs left.
-#### 3
-Question: Tiffany is looking at a lake full of turtles. The turtles are 60% female and the rest are male. Of the males, 1 in 4 has stripes. Of the ones with stripes, 4 are babies, while 60% are adults How many turtles are in the lake?
-Answer: Of the males with stripes, 40% are babies because 100 - 60 = <<100-60=40>>40
-There are 10 males with stripes because 4 / .4 = <<4/.4=10>>10
-There are 40 males because 10 / (1/4) = <<10/(1/4)=40>>40
-Males make up 40% of the pond's total, because 100 - 60 = <<100-60=40>>40
-There are 100 turtles in total 40 / .4 = <<40/.4=100>>100
-#### 100
-Question: A cookfire burns three logs every hour. It was built with six logs to start. If it gets two more logs added to it at the end of every hour, how many logs will be left after 3 hours?
-Answer: After 3 hours, it will have 3 * 2 = <<3*2=6>>6 logs added to it.
-After 3 hours, it will have burned 3 * 3 = <<3*3=9>>9 logs.
-After 3 hours, the cookfire will have 6 + 6 - 9 = <<6+6-9=3>>3 logs left.
-#### 3
-Question: The population of porcupines in a park is 50. The number of female porcupines is 3/5 of the total population. If each female porcupine gives birth to 4 babies every month, how many porcupines will be in the park after a year?","Answer: There are 30 female porcupines in the park because 50 x (3/5) = 30
-Each month, 30 x 4 = 120 baby porcupines are born.
-After a year, there will be 50 (original population) + 120 x 12 = 1490 porcupines in the park.","The number of female porcupines in the park is 3/5*50 = <<3/5*50=30>>30.
-In a month, the 30 female porcupines give birth to 30*4 = <<30*4=120>>120 new babies.
-After a year, with 12 months, the total number of new porcupines in the park is 120*12 = <<120*12=1440>>1440
-The total population of porcupines in the park after a year is 50+1440 = <<50+1440=1490>>1490
-#### 1490"
-CSQA,0,"Question: Where could you see an advertisement while reading news?
-A: television
-B: bus
-C: email
-D: web page
-E: la ville",D: web page,D
-CSQA,1a,"Question: This is a great way to move across water in one of its more popular states.
-A: ocean
-B: ice cube
-C: humidifier
-D: skating rink
-E: rowboat
-Answer: D
-Question: You can buy a pen here.
-A: briefcase
-B: pocket
-C: friend's house
-D: office supply store
-E: classroom
-Answer: D
-Question: Where could you see an advertisement while reading news?
-A: television
-B: bus
-C: email
-D: web page
-E: la ville",Answer: D,D
-CSQA,1b,"Question: If you're traveling along a highway what item made of paper can you use to find your way?
-A: united states
-B: atlas
-C: developed land
-D: park
-E: countryside
-Answer: B
-Question: The shelf was showing signs of instability, what should the carpenter fix to avoid any issues?
-A: roof
-B: corner
-C: school building
-D: wall
-E: cupboard
-Answer: D
-Question: Where could you see an advertisement while reading news?
-A: television
-B: bus
-C: email
-D: web page
-E: la ville",Answer: D,D
-CSQA,2,"Question: This is a great way to move across water in one of its more popular states.
-A: ocean
-B: ice cube
-C: humidifier
-D: skating rink
-E: rowboat
-Answer: D
-Question: You can buy a pen here.
-A: briefcase
-B: pocket
-C: friend's house
-D: office supply store
-E: classroom
-Answer: D
-Question: If you're traveling along a highway what item made of paper can you use to find your way?
-A: united states
-B: atlas
-C: developed land
-D: park
-E: countryside
-Answer: B
-Question: The shelf was showing signs of instability, what should the carpenter fix to avoid any issues?
-A: roof
-B: corner
-C: school building
-D: wall
-E: cupboard
-Answer: D
-Question: Where could you see an advertisement while reading news?
-A: television
-B: bus
-C: email
-D: web page
-E: la ville",Answer: D,D
-CSQA,3a,"Question: This is a great way to move across water in one of its more popular states.
-A: ocean
-B: ice cube
-C: humidifier
-D: skating rink
-E: rowboat
-Answer: D
-Question: You can buy a pen here.
-A: briefcase
-B: pocket
-C: friend's house
-D: office supply store
-E: classroom
-Answer: D
-Question: This is a great way to move across water in one of its more popular states.
-A: ocean
-B: ice cube
-C: humidifier
-D: skating rink
-E: rowboat
-Answer: D
-Question: You can buy a pen here.
-A: briefcase
-B: pocket
-C: friend's house
-D: office supply store
-E: classroom
-Answer: D
-Question: Where could you see an advertisement while reading news?
-A: television
-B: bus
-C: email
-D: web page
-E: la ville",Answer: D,D
-CSQA,3b,"Question: If you're traveling along a highway what item made of paper can you use to find your way?
-A: united states
-B: atlas
-C: developed land
-D: park
-E: countryside
-Answer: B
-Question: The shelf was showing signs of instability, what should the carpenter fix to avoid any issues?
-A: roof
-B: corner
-C: school building
-D: wall
-E: cupboard
-Answer: D
-Question: If you're traveling along a highway what item made of paper can you use to find your way?
-A: united states
-B: atlas
-C: developed land
-D: park
-E: countryside
-Answer: B
-Question: The shelf was showing signs of instability, what should the carpenter fix to avoid any issues?
-A: roof
-B: corner
-C: school building
-D: wall
-E: cupboard
-Answer: D
-Question: Where could you see an advertisement while reading news?
-A: television
-B: bus
-C: email
-D: web page
-E: la ville",Answer: D,D
-StrategyQA,0,"Question: March is named after the Roman god Mars. Mars was the son of the Roman gods Jupiter and Juno.
-Is March named after Jupiter's son in Roman mythology?","No, March is not named after Jupiter's son in Roman mythology. March is actually named after the Roman god Mars, who was originally a god of agriculture and fertility before becoming associated with war. Mars was the son of Jupiter and Juno, but the month of March is specifically named after him.",True
-StrategyQA,1a,"Question: Mollusks are a group of invertebrate animals including snails and slugs. Purple dye was used in the early 15th century BC to color clothing. The purple dye used in ancient Tyre was made from a liquid extracted from a gland in snails.
-Were mollusks an ingredient in the color purple?
+15 light blue + 45 dark blue = 60 blue spools
+
+To find the total number of spools Candy has, we add all the different colors of spools:
+
+15 light blue + 45 dark blue + 40 light green + 50 dark green = 150 total spools
+
+To find the percentage of blue spools in Candy's collection, we divide the number of blue spools by the total number of spools and multiply by 100:
+
+(60 / 150) * 100 = 40%
+
+Therefore, 40% of Candy's spools are blue.","First find the number of blue spools: 15 spools + 45 spools = <<15+45=60>>60 spools
+Then find the total number of spools: 40 spools + 50 spools + 60 spools = <<40+50+60=150>>150 spools
+Then divide the number of blue spools by the total number of spools and multiply by 100% to express the answer as a percentage: 60 spools / 150 spools * 100% = 40%
+#### 40"
+Math,3b,"Question: Three frogs are trying to hop across the road. The first frog takes 4 times as many hops as the second.  The second frog takes twice as many as the third.  If the three frogs took a total of 99 hops, how many hops did it take the second frog to cross the road?
+Answer: Let x represent the number of hops it took the third frog
+The second frog:2x
+First frog:4(2x)=8x
+Total:x+2x+8x=99
+11x=99
+x=<<9=9>>9
+Second frog:2(9)=18 hops
+#### 18
+Question: Tyrah has six times as many pencils as Sarah has. Tim has eight times as many pencils as Sarah. If Tyrah has 12 pencils, how many does Tim have?
+Answer: Sarah has 12/6=<<12/6=2>>2 pencils
+Tim has 8*2=<<8*2=16>>16 pencils
+#### 16
+Question: Three frogs are trying to hop across the road. The first frog takes 4 times as many hops as the second.  The second frog takes twice as many as the third.  If the three frogs took a total of 99 hops, how many hops did it take the second frog to cross the road?
+Answer: Let x represent the number of hops it took the third frog
+The second frog:2x
+First frog:4(2x)=8x
+Total:x+2x+8x=99
+11x=99
+x=<<9=9>>9
+Second frog:2(9)=18 hops
+#### 18
+Question: Tyrah has six times as many pencils as Sarah has. Tim has eight times as many pencils as Sarah. If Tyrah has 12 pencils, how many does Tim have?
+Answer: Sarah has 12/6=<<12/6=2>>2 pencils
+Tim has 8*2=<<8*2=16>>16 pencils
+#### 16
+Question: Candy has 15 light blue spools of thread, 45 dark blue spools of thread, 40 light green spools of thread, and 50 dark green spools of thread. What percent of her spools are blue?","First, calculate the total number of blue spools of thread Candy has:
+
+15 (light blue) + 45 (dark blue) = 60 blue spools
+
+Next, calculate the total number of spools Candy has:
+
+15 (light blue) + 45 (dark blue) + 40 (light green) + 50 (dark green) = 150 total spools
+
+Now, calculate the percentage of blue spools Candy has:
+
+(60 blue spools / 150 total spools) * 100 = 40%
+
+Therefore, 40% of Candy's spools are blue.","First find the number of blue spools: 15 spools + 45 spools = <<15+45=60>>60 spools
+Then find the total number of spools: 40 spools + 50 spools + 60 spools = <<40+50+60=150>>150 spools
+Then divide the number of blue spools by the total number of spools and multiply by 100% to express the answer as a percentage: 60 spools / 150 spools * 100% = 40%
+#### 40"
+CSQA,0,"Question: Where can meat last a long time?
+A: backery
+B: ham sandwich
+C: fridge
+D: butcher shop
+E: freezer","E: freezer
+
+Meat can last a long time when stored in the freezer, as the low temperatures help to prevent bacterial growth and preserve the meat for an extended period.",E
+CSQA,1a,"Question: The glass bottle ha a symbol on the bottom.  This symbol told customers what about the bottle?
+A: combustible
+B: dirty
+C: clear
+D: very fragile
+E: recyclable
+Answer: E
+Question: They began moving car with their bare hands to save the child trapped underneath, nobody could explain where they got the what to do so?
+A: strength
+B: energy
+C: force
+D: drive
+E: mood
+Answer: A
+Question: Where can meat last a long time?
+A: backery
+B: ham sandwich
+C: fridge
+D: butcher shop
+E: freezer",Answer: E,E
+CSQA,1b,"Question: David hurt all over. He was tired, he was shaking, and he was in pain.  He hadn't gotten what he needed in a long time.  He was suffering from what?
+A: addiction
+B: fatigue
+C: relaxation
+D: headaches
+E: over eating
+Answer: A
+Question: The man finished mowing his lawn and enjoyed a glass of lemonade on his porch, he took a sip and told himself that life was what?
+A: good
+B: ending soon
+C: fleeting
+D: finite
+E: important
+Answer: A
+Question: Where can meat last a long time?
+A: backery
+B: ham sandwich
+C: fridge
+D: butcher shop
+E: freezer",Answer: E,E
+CSQA,2,"Question: The glass bottle ha a symbol on the bottom.  This symbol told customers what about the bottle?
+A: combustible
+B: dirty
+C: clear
+D: very fragile
+E: recyclable
+Answer: E
+Question: They began moving car with their bare hands to save the child trapped underneath, nobody could explain where they got the what to do so?
+A: strength
+B: energy
+C: force
+D: drive
+E: mood
+Answer: A
+Question: David hurt all over. He was tired, he was shaking, and he was in pain.  He hadn't gotten what he needed in a long time.  He was suffering from what?
+A: addiction
+B: fatigue
+C: relaxation
+D: headaches
+E: over eating
+Answer: A
+Question: The man finished mowing his lawn and enjoyed a glass of lemonade on his porch, he took a sip and told himself that life was what?
+A: good
+B: ending soon
+C: fleeting
+D: finite
+E: important
+Answer: A
+Question: Where can meat last a long time?
+A: backery
+B: ham sandwich
+C: fridge
+D: butcher shop
+E: freezer",Answer: E,E
+CSQA,3a,"Question: The glass bottle ha a symbol on the bottom.  This symbol told customers what about the bottle?
+A: combustible
+B: dirty
+C: clear
+D: very fragile
+E: recyclable
+Answer: E
+Question: They began moving car with their bare hands to save the child trapped underneath, nobody could explain where they got the what to do so?
+A: strength
+B: energy
+C: force
+D: drive
+E: mood
+Answer: A
+Question: The glass bottle ha a symbol on the bottom.  This symbol told customers what about the bottle?
+A: combustible
+B: dirty
+C: clear
+D: very fragile
+E: recyclable
+Answer: E
+Question: They began moving car with their bare hands to save the child trapped underneath, nobody could explain where they got the what to do so?
+A: strength
+B: energy
+C: force
+D: drive
+E: mood
+Answer: A
+Question: Where can meat last a long time?
+A: backery
+B: ham sandwich
+C: fridge
+D: butcher shop
+E: freezer",Answer: E: freezer,E
+CSQA,3b,"Question: David hurt all over. He was tired, he was shaking, and he was in pain.  He hadn't gotten what he needed in a long time.  He was suffering from what?
+A: addiction
+B: fatigue
+C: relaxation
+D: headaches
+E: over eating
+Answer: A
+Question: The man finished mowing his lawn and enjoyed a glass of lemonade on his porch, he took a sip and told himself that life was what?
+A: good
+B: ending soon
+C: fleeting
+D: finite
+E: important
+Answer: A
+Question: David hurt all over. He was tired, he was shaking, and he was in pain.  He hadn't gotten what he needed in a long time.  He was suffering from what?
+A: addiction
+B: fatigue
+C: relaxation
+D: headaches
+E: over eating
+Answer: A
+Question: The man finished mowing his lawn and enjoyed a glass of lemonade on his porch, he took a sip and told himself that life was what?
+A: good
+B: ending soon
+C: fleeting
+D: finite
+E: important
+Answer: A
+Question: Where can meat last a long time?
+A: backery
+B: ham sandwich
+C: fridge
+D: butcher shop
+E: freezer",Answer: E: freezer,E
+StrategyQA,0,"Question: Scholastic probation or academic dismissal, sometimes known as flunking out, is the termination of students at a higher educational institution as the result of poor academic achievement. Michael Crichton obtained his bachelor's degree in biological anthropology summa cum laude in 1964. Summa cum laude is the highest distinction a person can achieve in college for academic success. Someone who achieves summa cum laude cannot have even a single semester of poor grades.
+Was Michael Crichton ever in danger of flunking out of Harvard as an undergraduate?","Based on the information provided, it is highly unlikely that Michael Crichton was ever in danger of flunking out of Harvard as an undergraduate. Achieving a summa cum laude distinction requires consistently high academic performance throughout one's college career, and Crichton's accomplishment in receiving this honor indicates that he maintained a high level of academic success throughout his time at Harvard.",False
+StrategyQA,1a,"Question: The Black Death is a bacterial disease called bubonic plague. Yersinia pestis has been found to grow and thrive inside amoebas. Bubonic plague is caused by Yersinia pestis.
+Could amoebas have played a part in the Black Death?
 Answer: True
-Question: The Civil War was from 1861 - 1865. The Northern Army consisted of soldiers from states north of the Mason-Dixon line. Alaska did not become part of the United States until 1867.
-Was Alaska part of the Northern Army during the Civil War?
-Answer: False
-Question: March is named after the Roman god Mars. Mars was the son of the Roman gods Jupiter and Juno.
-Is March named after Jupiter's son in Roman mythology?",False,True
-StrategyQA,1b,"Question: The Kingdom of Hungary was a monarchy. Monarchies do not allow citizens to elect their own rulers.
-Did land owners elect their rulers in the Kingdom of Hungary?
-Answer: False
-Question: Charles Darwin developed the theory of evolution Pikachu is a Pokemon Pokemon rely on evolution in order to transform into stronger forms
-Does Pikachu like Charles Darwin?
+Question: Jean Harris spent 12 years in jail for killing her lover Herman Tarnower. Herman Tarnower was the creator of the Scarsdlae Diet. The Scarsdale Diet focuses on a simplified diet plan and forbids corn, beans, potatoes, lentils, and any beans except green beans.
+Would Jean Harris's victim have avoided lentils?
 Answer: True
-Question: March is named after the Roman god Mars. Mars was the son of the Roman gods Jupiter and Juno.
-Is March named after Jupiter's son in Roman mythology?",Answer: False,True
-StrategyQA,2,"Question: Mollusks are a group of invertebrate animals including snails and slugs. Purple dye was used in the early 15th century BC to color clothing. The purple dye used in ancient Tyre was made from a liquid extracted from a gland in snails.
-Were mollusks an ingredient in the color purple?
+Question: Scholastic probation or academic dismissal, sometimes known as flunking out, is the termination of students at a higher educational institution as the result of poor academic achievement. Michael Crichton obtained his bachelor's degree in biological anthropology summa cum laude in 1964. Summa cum laude is the highest distinction a person can achieve in college for academic success. Someone who achieves summa cum laude cannot have even a single semester of poor grades.
+Was Michael Crichton ever in danger of flunking out of Harvard as an undergraduate?",False,False
+StrategyQA,1b,"Question: Eddie Murphy has ten children. Basketball is played with two teams, each having five players on the court at one time.
+Could Eddie Murphy's children hypothetically fill a basketball court by themselves?
 Answer: True
-Question: The Civil War was from 1861 - 1865. The Northern Army consisted of soldiers from states north of the Mason-Dixon line. Alaska did not become part of the United States until 1867.
-Was Alaska part of the Northern Army during the Civil War?
-Answer: False
-Question: The Kingdom of Hungary was a monarchy. Monarchies do not allow citizens to elect their own rulers.
-Did land owners elect their rulers in the Kingdom of Hungary?
-Answer: False
-Question: Charles Darwin developed the theory of evolution Pikachu is a Pokemon Pokemon rely on evolution in order to transform into stronger forms
-Does Pikachu like Charles Darwin?
+Question: Steven Spielberg's 1998 film, Saving Private Ryan, takes place during World War II. World War II took place from 1939-1945. The 2011 movie War Horse takes place during World War I. World War I took place from 1914-1918.
+Does Steven Spielberg's 1998 film take place in a period after War Horse setting?
 Answer: True
-Question: March is named after the Roman god Mars. Mars was the son of the Roman gods Jupiter and Juno.
-Is March named after Jupiter's son in Roman mythology?",False,True
-StrategyQA,3a,"Question: Mollusks are a group of invertebrate animals including snails and slugs. Purple dye was used in the early 15th century BC to color clothing. The purple dye used in ancient Tyre was made from a liquid extracted from a gland in snails.
-Were mollusks an ingredient in the color purple?
+Question: Scholastic probation or academic dismissal, sometimes known as flunking out, is the termination of students at a higher educational institution as the result of poor academic achievement. Michael Crichton obtained his bachelor's degree in biological anthropology summa cum laude in 1964. Summa cum laude is the highest distinction a person can achieve in college for academic success. Someone who achieves summa cum laude cannot have even a single semester of poor grades.
+Was Michael Crichton ever in danger of flunking out of Harvard as an undergraduate?",Answer: False,False
+StrategyQA,2,"Question: The Black Death is a bacterial disease called bubonic plague. Yersinia pestis has been found to grow and thrive inside amoebas. Bubonic plague is caused by Yersinia pestis.
+Could amoebas have played a part in the Black Death?
 Answer: True
-Question: The Civil War was from 1861 - 1865. The Northern Army consisted of soldiers from states north of the Mason-Dixon line. Alaska did not become part of the United States until 1867.
-Was Alaska part of the Northern Army during the Civil War?
-Answer: False
-Question: Mollusks are a group of invertebrate animals including snails and slugs. Purple dye was used in the early 15th century BC to color clothing. The purple dye used in ancient Tyre was made from a liquid extracted from a gland in snails.
-Were mollusks an ingredient in the color purple?
+Question: Jean Harris spent 12 years in jail for killing her lover Herman Tarnower. Herman Tarnower was the creator of the Scarsdlae Diet. The Scarsdale Diet focuses on a simplified diet plan and forbids corn, beans, potatoes, lentils, and any beans except green beans.
+Would Jean Harris's victim have avoided lentils?
 Answer: True
-Question: The Civil War was from 1861 - 1865. The Northern Army consisted of soldiers from states north of the Mason-Dixon line. Alaska did not become part of the United States until 1867.
-Was Alaska part of the Northern Army during the Civil War?
-Answer: False
-Question: March is named after the Roman god Mars. Mars was the son of the Roman gods Jupiter and Juno.
-Is March named after Jupiter's son in Roman mythology?",Answer: False,True
-StrategyQA,3b,"Question: The Kingdom of Hungary was a monarchy. Monarchies do not allow citizens to elect their own rulers.
-Did land owners elect their rulers in the Kingdom of Hungary?
-Answer: False
-Question: Charles Darwin developed the theory of evolution Pikachu is a Pokemon Pokemon rely on evolution in order to transform into stronger forms
-Does Pikachu like Charles Darwin?
+Question: Eddie Murphy has ten children. Basketball is played with two teams, each having five players on the court at one time.
+Could Eddie Murphy's children hypothetically fill a basketball court by themselves?
 Answer: True
-Question: The Kingdom of Hungary was a monarchy. Monarchies do not allow citizens to elect their own rulers.
-Did land owners elect their rulers in the Kingdom of Hungary?
-Answer: False
-Question: Charles Darwin developed the theory of evolution Pikachu is a Pokemon Pokemon rely on evolution in order to transform into stronger forms
-Does Pikachu like Charles Darwin?
+Question: Steven Spielberg's 1998 film, Saving Private Ryan, takes place during World War II. World War II took place from 1939-1945. The 2011 movie War Horse takes place during World War I. World War I took place from 1914-1918.
+Does Steven Spielberg's 1998 film take place in a period after War Horse setting?
 Answer: True
-Question: March is named after the Roman god Mars. Mars was the son of the Roman gods Jupiter and Juno.
-Is March named after Jupiter's son in Roman mythology?",Answer: True,True
-SayCan,0,Question: Provide step-by-step instructions for the following task: Go to the table and the counter?,"1. Stand up from your current location.
-2. Walk towards the table and counter area in the room.
-3. Depending on the layout of the room, you may need to navigate around furniture or obstacles.
-4. Approach the table first, and if there is a counter adjacent to it, continue walking towards the counter.
-5. Once you reach the table and counter, you have successfully completed the task.","1. go to the table, 2. go to the counter, 3. done"
-SayCan,1a,"Question: Provide step-by-step instructions for the following task: Move a banana to the table.
-Answer: 1. pick up the banana, 2. go to the table, 3. put down the banana, 4. done
-Question: Provide step-by-step instructions for the following task: Throw away all the fruits on the table.
-Answer: 1. go to the table, 2. pick up the apple, 3. go to the trash, 4. put down the apple, 5. go to the table, 6. pick up the orange, 7. go to the trash, 8. put down the orange, 9. done
-Question: Provide step-by-step instructions for the following task: Go to the table and the counter?","Answer: 1. Start by standing up, 2. Walk to the table, 3. Once at the table, stop, 4. Turn around, 5. Walk to the counter, 6. Once at the counter, stop, 7. You have now reached both the table and the counter.","1. go to the table, 2. go to the counter, 3. done"
-SayCan,1b,"Question: Provide step-by-step instructions for the following task: How would you go to the table and the counter?
-Answer: 1. go to the table, 2. go to the counter, 3. done
-Question: Provide step-by-step instructions for the following task: Bring me a fruit that is not an apple.
-Answer: 1. find an orange, 2. pick up the orange, 3. bring it to you, 4. put down the orange, 5. done
-Question: Provide step-by-step instructions for the following task: Go to the table and the counter?","Answer: 1. Walk towards the table, 2. Stop at the table, 3. Turn towards the counter, 4. Walk towards the counter, 5. Stop at the counter, 6. done","1. go to the table, 2. go to the counter, 3. done"
-SayCan,2,"Question: Provide step-by-step instructions for the following task: Move a banana to the table.
-Answer: 1. pick up the banana, 2. go to the table, 3. put down the banana, 4. done
-Question: Provide step-by-step instructions for the following task: Throw away all the fruits on the table.
-Answer: 1. go to the table, 2. pick up the apple, 3. go to the trash, 4. put down the apple, 5. go to the table, 6. pick up the orange, 7. go to the trash, 8. put down the orange, 9. done
-Question: Provide step-by-step instructions for the following task: How would you go to the table and the counter?
-Answer: 1. go to the table, 2. go to the counter, 3. done
-Question: Provide step-by-step instructions for the following task: Bring me a fruit that is not an apple.
-Answer: 1. find an orange, 2. pick up the orange, 3. bring it to you, 4. put down the orange, 5. done
-Question: Provide step-by-step instructions for the following task: Go to the table and the counter?","Answer: 1. go to the table, 2. done.","1. go to the table, 2. go to the counter, 3. done"
-SayCan,3a,"Question: Provide step-by-step instructions for the following task: Move a banana to the table.
-Answer: 1. pick up the banana, 2. go to the table, 3. put down the banana, 4. done
-Question: Provide step-by-step instructions for the following task: Throw away all the fruits on the table.
-Answer: 1. go to the table, 2. pick up the apple, 3. go to the trash, 4. put down the apple, 5. go to the table, 6. pick up the orange, 7. go to the trash, 8. put down the orange, 9. done
-Question: Provide step-by-step instructions for the following task: Move a banana to the table.
-Answer: 1. pick up the banana, 2. go to the table, 3. put down the banana, 4. done
-Question: Provide step-by-step instructions for the following task: Throw away all the fruits on the table.
-Answer: 1. go to the table, 2. pick up the apple, 3. go to the trash, 4. put down the apple, 5. go to the table, 6. pick up the orange, 7. go to the trash, 8. put down the orange, 9. done
-Question: Provide step-by-step instructions for the following task: Go to the table and the counter?","Answer: 1. Start at your current location, 2. Walk towards the table, 3. Arrive at the table, 4. Turn around and walk towards the counter, 5. Arrive at the counter and done.","1. go to the table, 2. go to the counter, 3. done"
-SayCan,3b,"Question: Provide step-by-step instructions for the following task: How would you go to the table and the counter?
-Answer: 1. go to the table, 2. go to the counter, 3. done
-Question: Provide step-by-step instructions for the following task: Bring me a fruit that is not an apple.
-Answer: 1. find an orange, 2. pick up the orange, 3. bring it to you, 4. put down the orange, 5. done
-Question: Provide step-by-step instructions for the following task: How would you go to the table and the counter?
-Answer: 1. go to the table, 2. go to the counter, 3. done
-Question: Provide step-by-step instructions for the following task: Bring me a fruit that is not an apple.
-Answer: 1. find an orange, 2. pick up the orange, 3. bring it to you, 4. put down the orange, 5. done
-Question: Provide step-by-step instructions for the following task: Go to the table and the counter?","Answer: 1. Walk towards the table, 2. Once at the table, turn towards the counter, 3. Walk towards the counter, 4. Done.","1. go to the table, 2. go to the counter, 3. done"
+Question: Scholastic probation or academic dismissal, sometimes known as flunking out, is the termination of students at a higher educational institution as the result of poor academic achievement. Michael Crichton obtained his bachelor's degree in biological anthropology summa cum laude in 1964. Summa cum laude is the highest distinction a person can achieve in college for academic success. Someone who achieves summa cum laude cannot have even a single semester of poor grades.
+Was Michael Crichton ever in danger of flunking out of Harvard as an undergraduate?",Answer: False,False
+StrategyQA,3a,"Question: The Black Death is a bacterial disease called bubonic plague. Yersinia pestis has been found to grow and thrive inside amoebas. Bubonic plague is caused by Yersinia pestis.
+Could amoebas have played a part in the Black Death?
+Answer: True
+Question: Jean Harris spent 12 years in jail for killing her lover Herman Tarnower. Herman Tarnower was the creator of the Scarsdlae Diet. The Scarsdale Diet focuses on a simplified diet plan and forbids corn, beans, potatoes, lentils, and any beans except green beans.
+Would Jean Harris's victim have avoided lentils?
+Answer: True
+Question: The Black Death is a bacterial disease called bubonic plague. Yersinia pestis has been found to grow and thrive inside amoebas. Bubonic plague is caused by Yersinia pestis.
+Could amoebas have played a part in the Black Death?
+Answer: True
+Question: Jean Harris spent 12 years in jail for killing her lover Herman Tarnower. Herman Tarnower was the creator of the Scarsdlae Diet. The Scarsdale Diet focuses on a simplified diet plan and forbids corn, beans, potatoes, lentils, and any beans except green beans.
+Would Jean Harris's victim have avoided lentils?
+Answer: True
+Question: Scholastic probation or academic dismissal, sometimes known as flunking out, is the termination of students at a higher educational institution as the result of poor academic achievement. Michael Crichton obtained his bachelor's degree in biological anthropology summa cum laude in 1964. Summa cum laude is the highest distinction a person can achieve in college for academic success. Someone who achieves summa cum laude cannot have even a single semester of poor grades.
+Was Michael Crichton ever in danger of flunking out of Harvard as an undergraduate?",Answer: False,False
+StrategyQA,3b,"Question: Eddie Murphy has ten children. Basketball is played with two teams, each having five players on the court at one time.
+Could Eddie Murphy's children hypothetically fill a basketball court by themselves?
+Answer: True
+Question: Steven Spielberg's 1998 film, Saving Private Ryan, takes place during World War II. World War II took place from 1939-1945. The 2011 movie War Horse takes place during World War I. World War I took place from 1914-1918.
+Does Steven Spielberg's 1998 film take place in a period after War Horse setting?
+Answer: True
+Question: Eddie Murphy has ten children. Basketball is played with two teams, each having five players on the court at one time.
+Could Eddie Murphy's children hypothetically fill a basketball court by themselves?
+Answer: True
+Question: Steven Spielberg's 1998 film, Saving Private Ryan, takes place during World War II. World War II took place from 1939-1945. The 2011 movie War Horse takes place during World War I. World War I took place from 1914-1918.
+Does Steven Spielberg's 1998 film take place in a period after War Horse setting?
+Answer: True
+Question: Scholastic probation or academic dismissal, sometimes known as flunking out, is the termination of students at a higher educational institution as the result of poor academic achievement. Michael Crichton obtained his bachelor's degree in biological anthropology summa cum laude in 1964. Summa cum laude is the highest distinction a person can achieve in college for academic success. Someone who achieves summa cum laude cannot have even a single semester of poor grades.
+Was Michael Crichton ever in danger of flunking out of Harvard as an undergraduate?",Answer: False,False
+SayCan,0,Question: How would you pick up the coke can?,"To pick up the coke can, you would reach out with your hand, grasp the can firmly with your fingers, and lift it off the surface it is resting on. Make sure to hold onto the can securely to prevent it from slipping out of your grasp.","1. pick up the coke can, 2. done"
+SayCan,1a,"Question: Could you get me something caffeinated?
+Answer: 1. find a pepsi, 2. pick up the pepsi, 3. bring it to you, 4. put down the pepsi, 5. done
+Question: How would you bring me a fruit?
+Answer: 1. find a banana, 2. pick up the banana, 3. bring it to you, 4. put down the banana, 5. done
+Question: How would you pick up the coke can?","Answer: 1. Reach out for the coke can, 2. grasp it in your hand, 3. lift it up off the surface, 4. hold it securely, 5. bring it to you.","1. pick up the coke can, 2. done"
+SayCan,1b,"Question: How would you find the table?
+Answer: 1. go to the table, 2. done
+Question: Throw away the apple.
+Answer: 1. find an apple, 2. pick up the apple, 3. go to the trash, 4. put down the apple, 5. done
+Question: How would you pick up the coke can?","Answer: 1. find the coke can, 2. reach for the coke can, 3. grip the coke can, 4. pick up the coke can, 5. done","1. pick up the coke can, 2. done"
+SayCan,2,"Question: Could you get me something caffeinated?
+Answer: 1. find a pepsi, 2. pick up the pepsi, 3. bring it to you, 4. put down the pepsi, 5. done
+Question: How would you bring me a fruit?
+Answer: 1. find a banana, 2. pick up the banana, 3. bring it to you, 4. put down the banana, 5. done
+Question: How would you find the table?
+Answer: 1. go to the table, 2. done
+Question: Throw away the apple.
+Answer: 1. find an apple, 2. pick up the apple, 3. go to the trash, 4. put down the apple, 5. done
+Question: How would you pick up the coke can?","Answer: 1. locate the coke can, 2. reach for the coke can, 3. grasp the coke can, 4. lift the coke can, 5. done","1. pick up the coke can, 2. done"
+SayCan,3a,"Question: Could you get me something caffeinated?
+Answer: 1. find a pepsi, 2. pick up the pepsi, 3. bring it to you, 4. put down the pepsi, 5. done
+Question: How would you bring me a fruit?
+Answer: 1. find a banana, 2. pick up the banana, 3. bring it to you, 4. put down the banana, 5. done
+Question: Could you get me something caffeinated?
+Answer: 1. find a pepsi, 2. pick up the pepsi, 3. bring it to you, 4. put down the pepsi, 5. done
+Question: How would you bring me a fruit?
+Answer: 1. find a banana, 2. pick up the banana, 3. bring it to you, 4. put down the banana, 5. done
+Question: How would you pick up the coke can?","Answer: 1. Locate the coke can, 2. Reach for the coke can, 3. Grasp the coke can firmly, 4. Lift the coke can off the surface, 5. Hold onto the coke can securely, 6. Bring the coke can to you, 7. Present the coke can to you, 8. Release your grip on the coke can, 9. Place the coke can down, 10. Task completed.","1. pick up the coke can, 2. done"
+SayCan,3b,"Question: How would you find the table?
+Answer: 1. go to the table, 2. done
+Question: Throw away the apple.
+Answer: 1. find an apple, 2. pick up the apple, 3. go to the trash, 4. put down the apple, 5. done
+Question: How would you find the table?
+Answer: 1. go to the table, 2. done
+Question: Throw away the apple.
+Answer: 1. find an apple, 2. pick up the apple, 3. go to the trash, 4. put down the apple, 5. done
+Question: How would you pick up the coke can?","Answer: 1. locate the coke can, 2. reach for the coke can, 3. grasp the coke can firmly, 4. lift the coke can off the surface, 5. done","1. pick up the coke can, 2. done"

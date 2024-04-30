@@ -1,410 +1,366 @@
 Task Class,Case,Prompt,Response,Expected
-Math,0,"Question: Nate's dog can dig six holes a day. He digs for 14 days while Nate is on vacation. When Nate gets home, he starts filling in 9 holes a day, but the dog keeps digging 6 new holes every night. How many weeks does it take him to fill in all the holes?","First, we need to find out how many holes the dog dug while Nate was on vacation. Since the dog can dig 6 holes a day and dug for 14 days, the total number of holes dug by the dog is 6 holes/day * 14 days = 84 holes.
-
-When Nate gets home, he starts filling in 9 holes a day and the dog keeps digging 6 new holes every night. So, the net number of holes being filled in every day is 9 holes/day - 6 holes/day = 3 holes/day.
-
-To find out how many days it will take Nate to fill in all the holes, we divide the total number of holes dug by the net number of holes being filled in every day: 84 holes / 3 holes/day = 28 days.
-
-Since there are 7 days in a week, it will take Nate 28 days / 7 days/week = 4 weeks to fill in all the holes dug by the dog.","First find the number of holes the dog digs while Nate is on vacation: 14 days * 6 holes/day = <<14*6=84>>84 holes
-Then find the net number of holes Nate fill in each day: 9 holes/day - 6 holes/day = <<9-6=3>>3 holes/day
-Then divide the total number of holes by the daily decrease in the number of holes to find the number of days Nate spends filling in holes: 84 holes / 3 holes/day = <<84/3=28>>28 days
-Then divide the number of days by the number of days per week to convert the answer to weeks: 28 days / 7 days/week = <<28/7=4>>4 weeks
-#### 4"
-Math,1a,"Question: Rohan owns a 20-square meter coconut farm. Each square meter has 2 coconut trees and each tree has 6 coconuts. If the coconuts can be harvested every 3 months and each coconut costs $0.50, how much will he earn after 6 months?
-Answer: Rohan has a total of 20 x 2 = <<20*2=40>>40 coconut trees.
-And he has a total of 40 x 6 = <<40*6=240>>240 coconuts.
-So, the total coconut he will have after 6 months is 240 x 2= <<240*2=480>>480.
-Therefore, the total amount he will earn is 480 x $0.50 = $<<480*0.5=240>>240.
-#### 240
-Question: Ellie takes her little brother down to the pond to teach him how to skip stones. After he takes his first throw, she gives him pointers to improve his technique. His second throw skips two more times across the water than his first. His third throw skips twice as many times as his second. His fourth throw skips 3 fewer times than his third throw. His fifth throw skips one more time than the fourth throw. If his fifth throw skipped 8 times across the water, how many skips did he make in total between all of his throws?
-Answer: His fourth throw made 8 - 1 = <<8-1=7>>7 skips.
-His third throw made 7 + 3 = <<7+3=10>>10 skips.
-His second throw made 10 / 2 = <<10/2=5>>5 skips.
-His first throw made 5 - 2 = <<5-2=3>>3 skips.
-The total number of skips is 8 + 7 + 10 + 5 + 3 = <<8+7+10+5+3=33>>33 skips.
-#### 33
-Question: Nate's dog can dig six holes a day. He digs for 14 days while Nate is on vacation. When Nate gets home, he starts filling in 9 holes a day, but the dog keeps digging 6 new holes every night. How many weeks does it take him to fill in all the holes?","Let's calculate the total number of holes dug by the dog while Nate was on vacation: 6 holes/day x 14 days = 84 holes.
-
-Now, let's find out how many holes need to be filled in: 84 holes - 0 holes (since Nate just got back) = 84 holes.
-
-Every day, Nate fills in 9 holes, but the dog digs 6 new holes, so the net holes filled in per day is 9 holes - 6 holes = 3 holes.
-
-Therefore, it will take Nate 84 holes / 3 holes/day = 28 days to fill in all the holes.
-
-Since there are 7 days in a week, it will take Nate 28 days / 7 days/week = 4 weeks to fill in all the holes. 
-
-So, Nate will take 4 weeks to fill in all the holes.","First find the number of holes the dog digs while Nate is on vacation: 14 days * 6 holes/day = <<14*6=84>>84 holes
-Then find the net number of holes Nate fill in each day: 9 holes/day - 6 holes/day = <<9-6=3>>3 holes/day
-Then divide the total number of holes by the daily decrease in the number of holes to find the number of days Nate spends filling in holes: 84 holes / 3 holes/day = <<84/3=28>>28 days
-Then divide the number of days by the number of days per week to convert the answer to weeks: 28 days / 7 days/week = <<28/7=4>>4 weeks
-#### 4"
-Math,1b,"Question: Bernie has a collection of 18 unique postcards. He decided to sell half his collection for $15 per postcard. After he has successfully sold his postcards he decided to spend all the earned money to buy new postcards for $5 each. How many postcards does Bernie have after all his transactions?
-Answer: Half of Bernie's collection means 18 * 0.5 = <<18*0.5=9>>9 postcards.
-So he was able to sell 9 postcards for 9 * 15 = $<<9*15=135>>135.
-He decided to spend all of his money on new postcards for $5 each, so he was able to buy 135 / 5 = 27 new postcards.
-This means Bernie has 9 + 27 = <<9+27=36>>36 postcards after all.
-#### 36
-Question: Trent caught 180 tadpoles then let 75% of them go. How many did he keep?
-Answer: First find the number of tadpoles Trent released: 180 tadpoles * .75 = <<180*.75=135>>135 tadpoles
-Then subtract the number he let go from the total number to find the number of tadpoles he keeps: 180 tadpoles - 135 tadpoles = <<180-135=45>>45 tadpoles
-#### 45
-Question: Nate's dog can dig six holes a day. He digs for 14 days while Nate is on vacation. When Nate gets home, he starts filling in 9 holes a day, but the dog keeps digging 6 new holes every night. How many weeks does it take him to fill in all the holes?","Answer: During the 14 days Nate is on vacation, the dog digs 6 holes/day * 14 days = <<6*14=84>>84 holes.
-Since Nate starts filling in 9 holes/day and the dog keeps digging 6 holes/day, the net number of holes filled in each day is 9 holes/day - 6 holes/day = 3 holes/day.
-To fill in the remaining holes, Nate needs to fill in 84 holes - 0 holes (since the dog keeps digging) = <<84-0=84>>84 holes.
-Therefore, it will take Nate 84 holes / 3 holes/day = <<84/3=28>>28 days to fill in all the holes, or 28 days / 7 days/week = <<28/7=4>>4 weeks. 
-#### 4 weeks","First find the number of holes the dog digs while Nate is on vacation: 14 days * 6 holes/day = <<14*6=84>>84 holes
-Then find the net number of holes Nate fill in each day: 9 holes/day - 6 holes/day = <<9-6=3>>3 holes/day
-Then divide the total number of holes by the daily decrease in the number of holes to find the number of days Nate spends filling in holes: 84 holes / 3 holes/day = <<84/3=28>>28 days
-Then divide the number of days by the number of days per week to convert the answer to weeks: 28 days / 7 days/week = <<28/7=4>>4 weeks
-#### 4"
-Math,2,"Question: Rohan owns a 20-square meter coconut farm. Each square meter has 2 coconut trees and each tree has 6 coconuts. If the coconuts can be harvested every 3 months and each coconut costs $0.50, how much will he earn after 6 months?
-Answer: Rohan has a total of 20 x 2 = <<20*2=40>>40 coconut trees.
-And he has a total of 40 x 6 = <<40*6=240>>240 coconuts.
-So, the total coconut he will have after 6 months is 240 x 2= <<240*2=480>>480.
-Therefore, the total amount he will earn is 480 x $0.50 = $<<480*0.5=240>>240.
-#### 240
-Question: Ellie takes her little brother down to the pond to teach him how to skip stones. After he takes his first throw, she gives him pointers to improve his technique. His second throw skips two more times across the water than his first. His third throw skips twice as many times as his second. His fourth throw skips 3 fewer times than his third throw. His fifth throw skips one more time than the fourth throw. If his fifth throw skipped 8 times across the water, how many skips did he make in total between all of his throws?
-Answer: His fourth throw made 8 - 1 = <<8-1=7>>7 skips.
-His third throw made 7 + 3 = <<7+3=10>>10 skips.
-His second throw made 10 / 2 = <<10/2=5>>5 skips.
-His first throw made 5 - 2 = <<5-2=3>>3 skips.
-The total number of skips is 8 + 7 + 10 + 5 + 3 = <<8+7+10+5+3=33>>33 skips.
-#### 33
-Question: Bernie has a collection of 18 unique postcards. He decided to sell half his collection for $15 per postcard. After he has successfully sold his postcards he decided to spend all the earned money to buy new postcards for $5 each. How many postcards does Bernie have after all his transactions?
-Answer: Half of Bernie's collection means 18 * 0.5 = <<18*0.5=9>>9 postcards.
-So he was able to sell 9 postcards for 9 * 15 = $<<9*15=135>>135.
-He decided to spend all of his money on new postcards for $5 each, so he was able to buy 135 / 5 = 27 new postcards.
-This means Bernie has 9 + 27 = <<9+27=36>>36 postcards after all.
-#### 36
-Question: Trent caught 180 tadpoles then let 75% of them go. How many did he keep?
-Answer: First find the number of tadpoles Trent released: 180 tadpoles * .75 = <<180*.75=135>>135 tadpoles
-Then subtract the number he let go from the total number to find the number of tadpoles he keeps: 180 tadpoles - 135 tadpoles = <<180-135=45>>45 tadpoles
-#### 45
-Question: Nate's dog can dig six holes a day. He digs for 14 days while Nate is on vacation. When Nate gets home, he starts filling in 9 holes a day, but the dog keeps digging 6 new holes every night. How many weeks does it take him to fill in all the holes?","Answer: In 14 days, the dog digs a total of 6 holes/day * 14 days = <<6*14=84>>84 holes.
-After Nate gets home, the dog's hole digging is offset by Nate's hole filling by 9 holes/day - 6 holes/day = 3 holes/day.
-This means that each day, the total number of holes decreases by 3.
-Therefore, it will take Nate 84 holes / 3 holes/day = <<84/3=28>>28 days to fill in all the holes.
-Since there are 7 days in a week, it will take Nate 28 days / 7 days/week = <<28/7=4>>4 weeks to fill in all the holes. 
-#### 4 weeks","First find the number of holes the dog digs while Nate is on vacation: 14 days * 6 holes/day = <<14*6=84>>84 holes
-Then find the net number of holes Nate fill in each day: 9 holes/day - 6 holes/day = <<9-6=3>>3 holes/day
-Then divide the total number of holes by the daily decrease in the number of holes to find the number of days Nate spends filling in holes: 84 holes / 3 holes/day = <<84/3=28>>28 days
-Then divide the number of days by the number of days per week to convert the answer to weeks: 28 days / 7 days/week = <<28/7=4>>4 weeks
-#### 4"
-Math,3a,"Question: Rohan owns a 20-square meter coconut farm. Each square meter has 2 coconut trees and each tree has 6 coconuts. If the coconuts can be harvested every 3 months and each coconut costs $0.50, how much will he earn after 6 months?
-Answer: Rohan has a total of 20 x 2 = <<20*2=40>>40 coconut trees.
-And he has a total of 40 x 6 = <<40*6=240>>240 coconuts.
-So, the total coconut he will have after 6 months is 240 x 2= <<240*2=480>>480.
-Therefore, the total amount he will earn is 480 x $0.50 = $<<480*0.5=240>>240.
-#### 240
-Question: Ellie takes her little brother down to the pond to teach him how to skip stones. After he takes his first throw, she gives him pointers to improve his technique. His second throw skips two more times across the water than his first. His third throw skips twice as many times as his second. His fourth throw skips 3 fewer times than his third throw. His fifth throw skips one more time than the fourth throw. If his fifth throw skipped 8 times across the water, how many skips did he make in total between all of his throws?
-Answer: His fourth throw made 8 - 1 = <<8-1=7>>7 skips.
-His third throw made 7 + 3 = <<7+3=10>>10 skips.
-His second throw made 10 / 2 = <<10/2=5>>5 skips.
-His first throw made 5 - 2 = <<5-2=3>>3 skips.
-The total number of skips is 8 + 7 + 10 + 5 + 3 = <<8+7+10+5+3=33>>33 skips.
-#### 33
-Question: Rohan owns a 20-square meter coconut farm. Each square meter has 2 coconut trees and each tree has 6 coconuts. If the coconuts can be harvested every 3 months and each coconut costs $0.50, how much will he earn after 6 months?
-Answer: Rohan has a total of 20 x 2 = <<20*2=40>>40 coconut trees.
-And he has a total of 40 x 6 = <<40*6=240>>240 coconuts.
-So, the total coconut he will have after 6 months is 240 x 2= <<240*2=480>>480.
-Therefore, the total amount he will earn is 480 x $0.50 = $<<480*0.5=240>>240.
-#### 240
-Question: Ellie takes her little brother down to the pond to teach him how to skip stones. After he takes his first throw, she gives him pointers to improve his technique. His second throw skips two more times across the water than his first. His third throw skips twice as many times as his second. His fourth throw skips 3 fewer times than his third throw. His fifth throw skips one more time than the fourth throw. If his fifth throw skipped 8 times across the water, how many skips did he make in total between all of his throws?
-Answer: His fourth throw made 8 - 1 = <<8-1=7>>7 skips.
-His third throw made 7 + 3 = <<7+3=10>>10 skips.
-His second throw made 10 / 2 = <<10/2=5>>5 skips.
-His first throw made 5 - 2 = <<5-2=3>>3 skips.
-The total number of skips is 8 + 7 + 10 + 5 + 3 = <<8+7+10+5+3=33>>33 skips.
-#### 33
-Question: Nate's dog can dig six holes a day. He digs for 14 days while Nate is on vacation. When Nate gets home, he starts filling in 9 holes a day, but the dog keeps digging 6 new holes every night. How many weeks does it take him to fill in all the holes?","Answer: Nate's dog digs a total of 6 holes/day x 14 days = 84 holes while Nate is on vacation.
-After Nate gets home, the dog continues to dig 6 new holes/day x 14 days = 84 new holes.
-In total, there are 84 + 84 = 168 holes to fill in.
-Nate can fill in 9 holes/day, so it will take him 168 holes / 9 holes/day = 18.67 days to fill in all the holes.
-Since he can't have a fraction of a day, it will take him 19 days to fill in all the holes.
-Therefore, it will take him 19 days / 7 days/week = 2.71 weeks to fill in all the holes. 
-So, it will take him 3 weeks to fill in all the holes.","First find the number of holes the dog digs while Nate is on vacation: 14 days * 6 holes/day = <<14*6=84>>84 holes
-Then find the net number of holes Nate fill in each day: 9 holes/day - 6 holes/day = <<9-6=3>>3 holes/day
-Then divide the total number of holes by the daily decrease in the number of holes to find the number of days Nate spends filling in holes: 84 holes / 3 holes/day = <<84/3=28>>28 days
-Then divide the number of days by the number of days per week to convert the answer to weeks: 28 days / 7 days/week = <<28/7=4>>4 weeks
-#### 4"
-Math,3b,"Question: Bernie has a collection of 18 unique postcards. He decided to sell half his collection for $15 per postcard. After he has successfully sold his postcards he decided to spend all the earned money to buy new postcards for $5 each. How many postcards does Bernie have after all his transactions?
-Answer: Half of Bernie's collection means 18 * 0.5 = <<18*0.5=9>>9 postcards.
-So he was able to sell 9 postcards for 9 * 15 = $<<9*15=135>>135.
-He decided to spend all of his money on new postcards for $5 each, so he was able to buy 135 / 5 = 27 new postcards.
-This means Bernie has 9 + 27 = <<9+27=36>>36 postcards after all.
-#### 36
-Question: Trent caught 180 tadpoles then let 75% of them go. How many did he keep?
-Answer: First find the number of tadpoles Trent released: 180 tadpoles * .75 = <<180*.75=135>>135 tadpoles
-Then subtract the number he let go from the total number to find the number of tadpoles he keeps: 180 tadpoles - 135 tadpoles = <<180-135=45>>45 tadpoles
-#### 45
-Question: Bernie has a collection of 18 unique postcards. He decided to sell half his collection for $15 per postcard. After he has successfully sold his postcards he decided to spend all the earned money to buy new postcards for $5 each. How many postcards does Bernie have after all his transactions?
-Answer: Half of Bernie's collection means 18 * 0.5 = <<18*0.5=9>>9 postcards.
-So he was able to sell 9 postcards for 9 * 15 = $<<9*15=135>>135.
-He decided to spend all of his money on new postcards for $5 each, so he was able to buy 135 / 5 = 27 new postcards.
-This means Bernie has 9 + 27 = <<9+27=36>>36 postcards after all.
-#### 36
-Question: Trent caught 180 tadpoles then let 75% of them go. How many did he keep?
-Answer: First find the number of tadpoles Trent released: 180 tadpoles * .75 = <<180*.75=135>>135 tadpoles
-Then subtract the number he let go from the total number to find the number of tadpoles he keeps: 180 tadpoles - 135 tadpoles = <<180-135=45>>45 tadpoles
-#### 45
-Question: Nate's dog can dig six holes a day. He digs for 14 days while Nate is on vacation. When Nate gets home, he starts filling in 9 holes a day, but the dog keeps digging 6 new holes every night. How many weeks does it take him to fill in all the holes?","Answer: Nate's dog digs a total of 6 holes per day for 14 days, so he digs 6 * 14 = <<6*14=84>>84 holes.
-After Nate gets home, he fills in 9 holes per day. However, the dog digs 6 new holes every night, so the net number of holes filled in per day is 9 - 6 = 3 holes.
-To fill in all 84 holes, it will take Nate 84 / 3 = <<84/3=28>>28 days.
-Since there are 7 days in a week, it will take Nate 28 / 7 = <<28/7=4>>4 weeks to fill in all the holes. 
-#### 4 weeks","First find the number of holes the dog digs while Nate is on vacation: 14 days * 6 holes/day = <<14*6=84>>84 holes
-Then find the net number of holes Nate fill in each day: 9 holes/day - 6 holes/day = <<9-6=3>>3 holes/day
-Then divide the total number of holes by the daily decrease in the number of holes to find the number of days Nate spends filling in holes: 84 holes / 3 holes/day = <<84/3=28>>28 days
-Then divide the number of days by the number of days per week to convert the answer to weeks: 28 days / 7 days/week = <<28/7=4>>4 weeks
-#### 4"
-CSQA,0,"Question: Where is there usually a fiddle playing?
-A: music store
-B: dance hall
-C: orchestra
-D: symphony
-E: tennessee",B: dance hall,C
-CSQA,1a,"Question: What is likely the result of unprotected sex?
-A: orgasm
-B: children
-C: pregnancy
-D: giggle
-E: herpes
-Answer: C
-Question: Where would you play basketball outside?
-A: scoring
-B: sporting goods store
-C: park
-D: dribbling
-E: gymnasium
-Answer: C
-Question: Where is there usually a fiddle playing?
-A: music store
-B: dance hall
-C: orchestra
-D: symphony
-E: tennessee",Answer: E,C
-CSQA,1b,"Question: Billy cared about his opponent, in spite of their disagreements.  Because of that, when he lost the primary, Billy began to do what for him?
-A: proponent
-B: supporter
-C: falling down
-D: advocate
-E: dig up skeletons
-Answer: D
-Question: What do you experience after doing housework?
-A: boredom
-B: nice home
-C: tiredness
-D: house clean
-E: feeling satisfied
+Math,0,"Question: John likes to have a glass of water with breakfast, lunch and dinner.  Finally, he has one before he goes to bed as well.  John does this every weekday, but on the weekends he likes to relax and have a soda with dinner instead.  How many glasses of water does John drink in a week?","John drinks 4 glasses of water per day on weekdays (breakfast, lunch, dinner, and before bed) for a total of 20 glasses of water per week. On the weekends, he has a soda instead of water with dinner, so he drinks 3 glasses of water per day for a total of 6 glasses of water for the weekend. Therefore, in total, John drinks 26 glasses of water in a week.","John has 4 glasses of water a day on each of the 5 weekdays, for 4*5= <<4*5=20>>20 glasses.
+He has 3 glasses of water on both weekend days, for 3*2= <<3*2=6>>6 glasses of water.
+He has 20+6=<<20+6=26>>26 total glasses of water in a week.
+#### 26"
+Math,1a,"Question: Justin is 26 years old. When he was born his elder sister Jessica was 6 years old. James is their elder brother and is 7 years older than Jessica. How old will James be after 5 years?
+Answer: Jessica is 26 + 6 = <<26+6=32>>32 years old.
+James is 32 + 7 = <<32+7=39>>39 years old.
+After 5 years, James will become 39 + 5 = <<39+5=44>>44 years old.
+#### 44
+Question: My cat's empty bowl weighs 420 grams. If I give my cat 60 grams per day and I always fill her bowl every 3 days, how much does her bowl weigh if after I ended up refilling her empty bowl she only ate 14 grams?
+Answer: If I give my cat 60 grams per day and I fill it to last 3 days, then I put a total of 60*3 = <<60*3=180>>180 grams into her bowl
+If the empty bowl weighs 420 grams and I put 180 grams the total weight is = 420+180 = <<420+180=600>>600 grams
+If my cat only ate 14 grams then the bowl right now weighs 600-14 = <<600-14=586>>586 grams
+#### 586
+Question: John likes to have a glass of water with breakfast, lunch and dinner.  Finally, he has one before he goes to bed as well.  John does this every weekday, but on the weekends he likes to relax and have a soda with dinner instead.  How many glasses of water does John drink in a week?","Answer: John drinks 3 glasses of water each for breakfast, lunch, and dinner, totaling 3+3+3=9 glasses on weekdays. 
+Adding the one he drinks before bed, John drinks a total of 9+1=10 glasses of water each weekday.
+In a week, John drinks 10*5=50 glasses of water. 
+However, on the weekends, he only has a soda with dinner instead of water, so that's two days he skips a glass of water. 
+Therefore, during the week, John drinks 5*10=50 glasses of water, but on the weekends, he drinks 2 less glasses, making the total to be 50-2=48 glasses of water in a week.","John has 4 glasses of water a day on each of the 5 weekdays, for 4*5= <<4*5=20>>20 glasses.
+He has 3 glasses of water on both weekend days, for 3*2= <<3*2=6>>6 glasses of water.
+He has 20+6=<<20+6=26>>26 total glasses of water in a week.
+#### 26"
+Math,1b,"Question: John can play 200 beats per minute.  If he plays 2 hours a day for 3 days how many beats does he play?
+Answer: He trains 2*60=<<2*60=120>>120 minutes a day
+That means he played 200*120=<<200*120=24000>>24000 beats per day
+So he played 24000*3=<<24000*3=72000>>72000 beats
+#### 72000
+Question: If Buzz bought a pizza with 78 slices at a restaurant and then decided to share it with the waiter in the ratio of 5:8, with Buzz's ratio being 5, what's twenty less the number of slices of pizza that the waiter ate?
+Answer: The total ratio representing the slices of pizza that Buzz bought is 5+8=<<5+8=13>>13
+If he shared the slices of pizza with the waiter, the waiter received a fraction of 8/13 of the total number of slices, which totals 8/13 * 78 = <<8/13*78=48>>48 slices
+Twenty less the number of slices of pizza that the waiter ate is 48-20 = <<48-20=28>>28
+#### 28
+Question: John likes to have a glass of water with breakfast, lunch and dinner.  Finally, he has one before he goes to bed as well.  John does this every weekday, but on the weekends he likes to relax and have a soda with dinner instead.  How many glasses of water does John drink in a week?","Answer: John drinks a total of 3+3+3+3=<<3+3+3+3=12>>12 glasses of water during the weekdays.
+On the weekends, he drinks 3 glasses of water at breakfast, lunch, and before bed, totaling 3+3+3=9 glasses.
+In a week, John drinks a total of 12+9=<<12+9=21>>21 glasses of water.
+#### 21","John has 4 glasses of water a day on each of the 5 weekdays, for 4*5= <<4*5=20>>20 glasses.
+He has 3 glasses of water on both weekend days, for 3*2= <<3*2=6>>6 glasses of water.
+He has 20+6=<<20+6=26>>26 total glasses of water in a week.
+#### 26"
+Math,2,"Question: Justin is 26 years old. When he was born his elder sister Jessica was 6 years old. James is their elder brother and is 7 years older than Jessica. How old will James be after 5 years?
+Answer: Jessica is 26 + 6 = <<26+6=32>>32 years old.
+James is 32 + 7 = <<32+7=39>>39 years old.
+After 5 years, James will become 39 + 5 = <<39+5=44>>44 years old.
+#### 44
+Question: My cat's empty bowl weighs 420 grams. If I give my cat 60 grams per day and I always fill her bowl every 3 days, how much does her bowl weigh if after I ended up refilling her empty bowl she only ate 14 grams?
+Answer: If I give my cat 60 grams per day and I fill it to last 3 days, then I put a total of 60*3 = <<60*3=180>>180 grams into her bowl
+If the empty bowl weighs 420 grams and I put 180 grams the total weight is = 420+180 = <<420+180=600>>600 grams
+If my cat only ate 14 grams then the bowl right now weighs 600-14 = <<600-14=586>>586 grams
+#### 586
+Question: John can play 200 beats per minute.  If he plays 2 hours a day for 3 days how many beats does he play?
+Answer: He trains 2*60=<<2*60=120>>120 minutes a day
+That means he played 200*120=<<200*120=24000>>24000 beats per day
+So he played 24000*3=<<24000*3=72000>>72000 beats
+#### 72000
+Question: If Buzz bought a pizza with 78 slices at a restaurant and then decided to share it with the waiter in the ratio of 5:8, with Buzz's ratio being 5, what's twenty less the number of slices of pizza that the waiter ate?
+Answer: The total ratio representing the slices of pizza that Buzz bought is 5+8=<<5+8=13>>13
+If he shared the slices of pizza with the waiter, the waiter received a fraction of 8/13 of the total number of slices, which totals 8/13 * 78 = <<8/13*78=48>>48 slices
+Twenty less the number of slices of pizza that the waiter ate is 48-20 = <<48-20=28>>28
+#### 28
+Question: John likes to have a glass of water with breakfast, lunch and dinner.  Finally, he has one before he goes to bed as well.  John does this every weekday, but on the weekends he likes to relax and have a soda with dinner instead.  How many glasses of water does John drink in a week?","Answer: John drinks a total of 4 glasses of water each weekday, so that is 4*5 = <<4*5=20>>20 glasses of water in a week.
+Additionally, on the weekends, he drinks one less glass of water for a total of 3 glasses, so that's an additional 3*2 = <<3*2=6>>6 glasses of water on the weekends.
+Therefore, in a week, John drinks a total of 20+6 = <<20+6=26>>26 glasses of water. 
+#### 26","John has 4 glasses of water a day on each of the 5 weekdays, for 4*5= <<4*5=20>>20 glasses.
+He has 3 glasses of water on both weekend days, for 3*2= <<3*2=6>>6 glasses of water.
+He has 20+6=<<20+6=26>>26 total glasses of water in a week.
+#### 26"
+Math,3a,"Question: Justin is 26 years old. When he was born his elder sister Jessica was 6 years old. James is their elder brother and is 7 years older than Jessica. How old will James be after 5 years?
+Answer: Jessica is 26 + 6 = <<26+6=32>>32 years old.
+James is 32 + 7 = <<32+7=39>>39 years old.
+After 5 years, James will become 39 + 5 = <<39+5=44>>44 years old.
+#### 44
+Question: My cat's empty bowl weighs 420 grams. If I give my cat 60 grams per day and I always fill her bowl every 3 days, how much does her bowl weigh if after I ended up refilling her empty bowl she only ate 14 grams?
+Answer: If I give my cat 60 grams per day and I fill it to last 3 days, then I put a total of 60*3 = <<60*3=180>>180 grams into her bowl
+If the empty bowl weighs 420 grams and I put 180 grams the total weight is = 420+180 = <<420+180=600>>600 grams
+If my cat only ate 14 grams then the bowl right now weighs 600-14 = <<600-14=586>>586 grams
+#### 586
+Question: Justin is 26 years old. When he was born his elder sister Jessica was 6 years old. James is their elder brother and is 7 years older than Jessica. How old will James be after 5 years?
+Answer: Jessica is 26 + 6 = <<26+6=32>>32 years old.
+James is 32 + 7 = <<32+7=39>>39 years old.
+After 5 years, James will become 39 + 5 = <<39+5=44>>44 years old.
+#### 44
+Question: My cat's empty bowl weighs 420 grams. If I give my cat 60 grams per day and I always fill her bowl every 3 days, how much does her bowl weigh if after I ended up refilling her empty bowl she only ate 14 grams?
+Answer: If I give my cat 60 grams per day and I fill it to last 3 days, then I put a total of 60*3 = <<60*3=180>>180 grams into her bowl
+If the empty bowl weighs 420 grams and I put 180 grams the total weight is = 420+180 = <<420+180=600>>600 grams
+If my cat only ate 14 grams then the bowl right now weighs 600-14 = <<600-14=586>>586 grams
+#### 586
+Question: John likes to have a glass of water with breakfast, lunch and dinner.  Finally, he has one before he goes to bed as well.  John does this every weekday, but on the weekends he likes to relax and have a soda with dinner instead.  How many glasses of water does John drink in a week?","Answer: John drinks a total of 3 glasses of water on weekdays and 2 glasses on the weekend. So in total, John drinks 3+3+3+3+2= <<3+3+3+3+2=14>>14 glasses of water in a week. 
+#### 14","John has 4 glasses of water a day on each of the 5 weekdays, for 4*5= <<4*5=20>>20 glasses.
+He has 3 glasses of water on both weekend days, for 3*2= <<3*2=6>>6 glasses of water.
+He has 20+6=<<20+6=26>>26 total glasses of water in a week.
+#### 26"
+Math,3b,"Question: John can play 200 beats per minute.  If he plays 2 hours a day for 3 days how many beats does he play?
+Answer: He trains 2*60=<<2*60=120>>120 minutes a day
+That means he played 200*120=<<200*120=24000>>24000 beats per day
+So he played 24000*3=<<24000*3=72000>>72000 beats
+#### 72000
+Question: If Buzz bought a pizza with 78 slices at a restaurant and then decided to share it with the waiter in the ratio of 5:8, with Buzz's ratio being 5, what's twenty less the number of slices of pizza that the waiter ate?
+Answer: The total ratio representing the slices of pizza that Buzz bought is 5+8=<<5+8=13>>13
+If he shared the slices of pizza with the waiter, the waiter received a fraction of 8/13 of the total number of slices, which totals 8/13 * 78 = <<8/13*78=48>>48 slices
+Twenty less the number of slices of pizza that the waiter ate is 48-20 = <<48-20=28>>28
+#### 28
+Question: John can play 200 beats per minute.  If he plays 2 hours a day for 3 days how many beats does he play?
+Answer: He trains 2*60=<<2*60=120>>120 minutes a day
+That means he played 200*120=<<200*120=24000>>24000 beats per day
+So he played 24000*3=<<24000*3=72000>>72000 beats
+#### 72000
+Question: If Buzz bought a pizza with 78 slices at a restaurant and then decided to share it with the waiter in the ratio of 5:8, with Buzz's ratio being 5, what's twenty less the number of slices of pizza that the waiter ate?
+Answer: The total ratio representing the slices of pizza that Buzz bought is 5+8=<<5+8=13>>13
+If he shared the slices of pizza with the waiter, the waiter received a fraction of 8/13 of the total number of slices, which totals 8/13 * 78 = <<8/13*78=48>>48 slices
+Twenty less the number of slices of pizza that the waiter ate is 48-20 = <<48-20=28>>28
+#### 28
+Question: John likes to have a glass of water with breakfast, lunch and dinner.  Finally, he has one before he goes to bed as well.  John does this every weekday, but on the weekends he likes to relax and have a soda with dinner instead.  How many glasses of water does John drink in a week?","Answer: John drinks a total of 4 glasses of water every weekday, and 3 glasses of water on the weekends. In a week, he drinks 4*5=20 glasses of water on weekdays and 3*2=6 glasses of water on the weekends.
+So, he drinks a total of 20+6=26 glasses of water in a week. 
+#### 26","John has 4 glasses of water a day on each of the 5 weekdays, for 4*5= <<4*5=20>>20 glasses.
+He has 3 glasses of water on both weekend days, for 3*2= <<3*2=6>>6 glasses of water.
+He has 20+6=<<20+6=26>>26 total glasses of water in a week.
+#### 26"
+CSQA,0,"Question: Jim enjoyed killing people, but he did it too often and the cops found out.  What might the cops do to him?
+A: going to jail
+B: going to prison
+C: beat him up
+D: get arrested
+E: die","A: going to jail 
+B: going to prison 
+D: get arrested",D
+CSQA,1a,"Question: What do people do when they are bored?
+A: call friends
+B: learn from each other
+C: eat fish
+D: die of starvation
+E: write stories
 Answer: E
-Question: Where is there usually a fiddle playing?
-A: music store
-B: dance hall
-C: orchestra
-D: symphony
-E: tennessee",Answer: B,C
-CSQA,2,"Question: What is likely the result of unprotected sex?
-A: orgasm
-B: children
-C: pregnancy
-D: giggle
-E: herpes
-Answer: C
-Question: Where would you play basketball outside?
-A: scoring
-B: sporting goods store
-C: park
-D: dribbling
-E: gymnasium
-Answer: C
-Question: Billy cared about his opponent, in spite of their disagreements.  Because of that, when he lost the primary, Billy began to do what for him?
-A: proponent
-B: supporter
-C: falling down
-D: advocate
-E: dig up skeletons
+Question: Dying due to suffocation means you have what?
+A: getting cold
+B: would cease to exist
+C: no more air
+D: stop breathing
+E: death and decay
 Answer: D
-Question: What do you experience after doing housework?
-A: boredom
-B: nice home
-C: tiredness
-D: house clean
-E: feeling satisfied
-Answer: E
-Question: Where is there usually a fiddle playing?
-A: music store
-B: dance hall
-C: orchestra
-D: symphony
-E: tennessee",Answer: B,C
-CSQA,3a,"Question: What is likely the result of unprotected sex?
-A: orgasm
-B: children
-C: pregnancy
-D: giggle
-E: herpes
+Question: Jim enjoyed killing people, but he did it too often and the cops found out.  What might the cops do to him?
+A: going to jail
+B: going to prison
+C: beat him up
+D: get arrested
+E: die",Answer: B,D
+CSQA,1b,"Question: Boris was lying to Natasha. That dress did make her but look far.  But he wanted to avoid what?
+A: being fired
+B: trouble
+C: hurt feelings
+D: overweight
+E: being found out
 Answer: C
-Question: Where would you play basketball outside?
-A: scoring
-B: sporting goods store
-C: park
-D: dribbling
-E: gymnasium
-Answer: C
-Question: What is likely the result of unprotected sex?
-A: orgasm
-B: children
-C: pregnancy
-D: giggle
-E: herpes
-Answer: C
-Question: Where would you play basketball outside?
-A: scoring
-B: sporting goods store
-C: park
-D: dribbling
-E: gymnasium
-Answer: C
-Question: Where is there usually a fiddle playing?
-A: music store
-B: dance hall
-C: orchestra
-D: symphony
-E: tennessee",Answer: B,C
-CSQA,3b,"Question: Billy cared about his opponent, in spite of their disagreements.  Because of that, when he lost the primary, Billy began to do what for him?
-A: proponent
-B: supporter
-C: falling down
-D: advocate
-E: dig up skeletons
+Question: How do most people feel about a person they love?
+A: popularity
+B: know all
+C: own house
+D: care about
+E: flu
 Answer: D
-Question: What do you experience after doing housework?
-A: boredom
-B: nice home
-C: tiredness
-D: house clean
-E: feeling satisfied
+Question: Jim enjoyed killing people, but he did it too often and the cops found out.  What might the cops do to him?
+A: going to jail
+B: going to prison
+C: beat him up
+D: get arrested
+E: die",Answer: A,D
+CSQA,2,"Question: What do people do when they are bored?
+A: call friends
+B: learn from each other
+C: eat fish
+D: die of starvation
+E: write stories
 Answer: E
-Question: Billy cared about his opponent, in spite of their disagreements.  Because of that, when he lost the primary, Billy began to do what for him?
-A: proponent
-B: supporter
-C: falling down
-D: advocate
-E: dig up skeletons
+Question: Dying due to suffocation means you have what?
+A: getting cold
+B: would cease to exist
+C: no more air
+D: stop breathing
+E: death and decay
 Answer: D
-Question: What do you experience after doing housework?
-A: boredom
-B: nice home
-C: tiredness
-D: house clean
-E: feeling satisfied
+Question: Boris was lying to Natasha. That dress did make her but look far.  But he wanted to avoid what?
+A: being fired
+B: trouble
+C: hurt feelings
+D: overweight
+E: being found out
+Answer: C
+Question: How do most people feel about a person they love?
+A: popularity
+B: know all
+C: own house
+D: care about
+E: flu
+Answer: D
+Question: Jim enjoyed killing people, but he did it too often and the cops found out.  What might the cops do to him?
+A: going to jail
+B: going to prison
+C: beat him up
+D: get arrested
+E: die",Answer: B,D
+CSQA,3a,"Question: What do people do when they are bored?
+A: call friends
+B: learn from each other
+C: eat fish
+D: die of starvation
+E: write stories
 Answer: E
-Question: Where is there usually a fiddle playing?
-A: music store
-B: dance hall
-C: orchestra
-D: symphony
-E: tennessee",Answer: B,C
-StrategyQA,0,"Question: The main building of the Royal Observatory is the Octagon Room. A yield sign is shaped like a rounded triangle. Two figures are similar if they have the same shape but not necessarily the same size.
-In geometry terms, is the Royal Observatory in Greenwich similar to a yield sign?","No, the Royal Observatory in Greenwich is not similar to a yield sign in terms of geometry. Though both the Octagon Room and a yield sign are both geometric shapes, the Octagon Room is a polygon with eight sides, while a yield sign is a rounded triangle. In terms of geometry, two figures are considered similar if they have the same shape but not necessarily the same size. Since the Octagon Room and a yield sign have different shapes, they are not considered similar in geometry terms.",False
-StrategyQA,1a,"Question: Wrist slitting has only a 6% mortality rate. Many people cannot complete the action of slitting their wrists due to pain or shock.
-Is slitting your wrists an unreliable suicide method?
+Question: Dying due to suffocation means you have what?
+A: getting cold
+B: would cease to exist
+C: no more air
+D: stop breathing
+E: death and decay
+Answer: D
+Question: What do people do when they are bored?
+A: call friends
+B: learn from each other
+C: eat fish
+D: die of starvation
+E: write stories
+Answer: E
+Question: Dying due to suffocation means you have what?
+A: getting cold
+B: would cease to exist
+C: no more air
+D: stop breathing
+E: death and decay
+Answer: D
+Question: Jim enjoyed killing people, but he did it too often and the cops found out.  What might the cops do to him?
+A: going to jail
+B: going to prison
+C: beat him up
+D: get arrested
+E: die",Answer: A,D
+CSQA,3b,"Question: Boris was lying to Natasha. That dress did make her but look far.  But he wanted to avoid what?
+A: being fired
+B: trouble
+C: hurt feelings
+D: overweight
+E: being found out
+Answer: C
+Question: How do most people feel about a person they love?
+A: popularity
+B: know all
+C: own house
+D: care about
+E: flu
+Answer: D
+Question: Boris was lying to Natasha. That dress did make her but look far.  But he wanted to avoid what?
+A: being fired
+B: trouble
+C: hurt feelings
+D: overweight
+E: being found out
+Answer: C
+Question: How do most people feel about a person they love?
+A: popularity
+B: know all
+C: own house
+D: care about
+E: flu
+Answer: D
+Question: Jim enjoyed killing people, but he did it too often and the cops found out.  What might the cops do to him?
+A: going to jail
+B: going to prison
+C: beat him up
+D: get arrested
+E: die",A: going to jail,D
+StrategyQA,0,"Question: Voyager 2 was a probe that traveled to the interstellar medium of space. The interstellar medium is over 12,161,300,000 miles away from earth. The Hwasong-15 missile is a North Korean missile with a range of 8,000 miles.
+Could a Hwasong-15 missile hypothetically reach Voyager 2?","No, a Hwasong-15 missile would not be able to reach Voyager 2, as it only has a range of 8,000 miles while Voyager 2 is over 12,161,300,000 miles away from Earth in the interstellar medium of space. The Hwasong-15 missile is designed for terrestrial targets and is not capable of reaching objects in interstellar space.",False
+StrategyQA,1a,"Question: The density of an object determines if it will float. An object will float if it is less dense than the liquid it is placed in. Mercury is liquid at room temperature. The density of mercury is 13.56 g/cm3. The density of a penny is 7.15 g/cm3.
+Can you transport a coin along a sea of mercury?
 Answer: True
-Question: Diabetes is a disease in which the body cannot process sugar. Celery is known as a healthy snack and has 1 gram of sugar per serving. The recommended daily intake of sugar to prevent diabetes is less than 36 grams per day for an adult male. The average weight of an adult male is 197 pounds.
-Can eating your weight in celery prevent diabetes?
-Answer: False
-Question: The main building of the Royal Observatory is the Octagon Room. A yield sign is shaped like a rounded triangle. Two figures are similar if they have the same shape but not necessarily the same size.
-In geometry terms, is the Royal Observatory in Greenwich similar to a yield sign?",Answer: False,False
-StrategyQA,1b,"Question: Millie Bobby Brown is currently 16 years old. In the United States, the minimum legal age to purchase any alcohol beverage is 21 years old. Bartenders are usually responsible for confirming that customers meet the legal drinking age requirements before serving them alcoholic beverages. 
-Would a responsible bartender make a drink for Millie Bobby Brown?
-Answer: False
-Question: People with heart failure have to limit their sodium intake. Ramen is notorious for having incredibly high sodium levels. 
-Would ramen be bad for someone with heart failure?
+Question: Rurouni Kenshin is a manga series that comes from Japan. Nobunaga's Ambition is a video game series based on the experiences of Oda Nobunaga. Oda Nobunaga was a Japanese feudal lord.
+Is Rurouni Kenshin from same country as lead character in Nobunaga's Ambition?
 Answer: True
-Question: The main building of the Royal Observatory is the Octagon Room. A yield sign is shaped like a rounded triangle. Two figures are similar if they have the same shape but not necessarily the same size.
-In geometry terms, is the Royal Observatory in Greenwich similar to a yield sign?",Answer: False,False
-StrategyQA,2,"Question: Wrist slitting has only a 6% mortality rate. Many people cannot complete the action of slitting their wrists due to pain or shock.
-Is slitting your wrists an unreliable suicide method?
-Answer: True
-Question: Diabetes is a disease in which the body cannot process sugar. Celery is known as a healthy snack and has 1 gram of sugar per serving. The recommended daily intake of sugar to prevent diabetes is less than 36 grams per day for an adult male. The average weight of an adult male is 197 pounds.
-Can eating your weight in celery prevent diabetes?
+Question: Voyager 2 was a probe that traveled to the interstellar medium of space. The interstellar medium is over 12,161,300,000 miles away from earth. The Hwasong-15 missile is a North Korean missile with a range of 8,000 miles.
+Could a Hwasong-15 missile hypothetically reach Voyager 2?",Answer: False,False
+StrategyQA,1b,"Question: Modern Family is a television sitcom The Slammy Awards were presented to people involved in professional wrestling
+Did Modern Family win a Slammy award?
 Answer: False
-Question: Millie Bobby Brown is currently 16 years old. In the United States, the minimum legal age to purchase any alcohol beverage is 21 years old. Bartenders are usually responsible for confirming that customers meet the legal drinking age requirements before serving them alcoholic beverages. 
-Would a responsible bartender make a drink for Millie Bobby Brown?
+Question: Mixed Martial arts in the UFC takes place in an enclosed structure called The Octagon. The Roman Colosseum games were fought in enclosed arenas where combatants would fight until the last man was standing. Mixed martial arts contests are stopped when one of the combatants is incapacitated. The Roman Colosseum was performed in front of crowds that numbered in the tens of thousands. Over 56,000 people attended UFC 193.
+Is Mixed martial arts totally original from Roman Colosseum games?
 Answer: False
-Question: People with heart failure have to limit their sodium intake. Ramen is notorious for having incredibly high sodium levels. 
-Would ramen be bad for someone with heart failure?
+Question: Voyager 2 was a probe that traveled to the interstellar medium of space. The interstellar medium is over 12,161,300,000 miles away from earth. The Hwasong-15 missile is a North Korean missile with a range of 8,000 miles.
+Could a Hwasong-15 missile hypothetically reach Voyager 2?",Answer: True,False
+StrategyQA,2,"Question: The density of an object determines if it will float. An object will float if it is less dense than the liquid it is placed in. Mercury is liquid at room temperature. The density of mercury is 13.56 g/cm3. The density of a penny is 7.15 g/cm3.
+Can you transport a coin along a sea of mercury?
 Answer: True
-Question: The main building of the Royal Observatory is the Octagon Room. A yield sign is shaped like a rounded triangle. Two figures are similar if they have the same shape but not necessarily the same size.
-In geometry terms, is the Royal Observatory in Greenwich similar to a yield sign?",Answer: False,False
-StrategyQA,3a,"Question: Wrist slitting has only a 6% mortality rate. Many people cannot complete the action of slitting their wrists due to pain or shock.
-Is slitting your wrists an unreliable suicide method?
+Question: Rurouni Kenshin is a manga series that comes from Japan. Nobunaga's Ambition is a video game series based on the experiences of Oda Nobunaga. Oda Nobunaga was a Japanese feudal lord.
+Is Rurouni Kenshin from same country as lead character in Nobunaga's Ambition?
 Answer: True
-Question: Diabetes is a disease in which the body cannot process sugar. Celery is known as a healthy snack and has 1 gram of sugar per serving. The recommended daily intake of sugar to prevent diabetes is less than 36 grams per day for an adult male. The average weight of an adult male is 197 pounds.
-Can eating your weight in celery prevent diabetes?
+Question: Modern Family is a television sitcom The Slammy Awards were presented to people involved in professional wrestling
+Did Modern Family win a Slammy award?
 Answer: False
-Question: Wrist slitting has only a 6% mortality rate. Many people cannot complete the action of slitting their wrists due to pain or shock.
-Is slitting your wrists an unreliable suicide method?
-Answer: True
-Question: Diabetes is a disease in which the body cannot process sugar. Celery is known as a healthy snack and has 1 gram of sugar per serving. The recommended daily intake of sugar to prevent diabetes is less than 36 grams per day for an adult male. The average weight of an adult male is 197 pounds.
-Can eating your weight in celery prevent diabetes?
+Question: Mixed Martial arts in the UFC takes place in an enclosed structure called The Octagon. The Roman Colosseum games were fought in enclosed arenas where combatants would fight until the last man was standing. Mixed martial arts contests are stopped when one of the combatants is incapacitated. The Roman Colosseum was performed in front of crowds that numbered in the tens of thousands. Over 56,000 people attended UFC 193.
+Is Mixed martial arts totally original from Roman Colosseum games?
 Answer: False
-Question: The main building of the Royal Observatory is the Octagon Room. A yield sign is shaped like a rounded triangle. Two figures are similar if they have the same shape but not necessarily the same size.
-In geometry terms, is the Royal Observatory in Greenwich similar to a yield sign?",Answer: False,False
-StrategyQA,3b,"Question: Millie Bobby Brown is currently 16 years old. In the United States, the minimum legal age to purchase any alcohol beverage is 21 years old. Bartenders are usually responsible for confirming that customers meet the legal drinking age requirements before serving them alcoholic beverages. 
-Would a responsible bartender make a drink for Millie Bobby Brown?
-Answer: False
-Question: People with heart failure have to limit their sodium intake. Ramen is notorious for having incredibly high sodium levels. 
-Would ramen be bad for someone with heart failure?
+Question: Voyager 2 was a probe that traveled to the interstellar medium of space. The interstellar medium is over 12,161,300,000 miles away from earth. The Hwasong-15 missile is a North Korean missile with a range of 8,000 miles.
+Could a Hwasong-15 missile hypothetically reach Voyager 2?",Answer: True,False
+StrategyQA,3a,"Question: The density of an object determines if it will float. An object will float if it is less dense than the liquid it is placed in. Mercury is liquid at room temperature. The density of mercury is 13.56 g/cm3. The density of a penny is 7.15 g/cm3.
+Can you transport a coin along a sea of mercury?
 Answer: True
-Question: Millie Bobby Brown is currently 16 years old. In the United States, the minimum legal age to purchase any alcohol beverage is 21 years old. Bartenders are usually responsible for confirming that customers meet the legal drinking age requirements before serving them alcoholic beverages. 
-Would a responsible bartender make a drink for Millie Bobby Brown?
-Answer: False
-Question: People with heart failure have to limit their sodium intake. Ramen is notorious for having incredibly high sodium levels. 
-Would ramen be bad for someone with heart failure?
+Question: Rurouni Kenshin is a manga series that comes from Japan. Nobunaga's Ambition is a video game series based on the experiences of Oda Nobunaga. Oda Nobunaga was a Japanese feudal lord.
+Is Rurouni Kenshin from same country as lead character in Nobunaga's Ambition?
 Answer: True
-Question: The main building of the Royal Observatory is the Octagon Room. A yield sign is shaped like a rounded triangle. Two figures are similar if they have the same shape but not necessarily the same size.
-In geometry terms, is the Royal Observatory in Greenwich similar to a yield sign?",Answer: True,False
-SayCan,0,Question: Provide step-by-step instructions for the following task: Bring me a fruit that is not an apple.,"1. Go to the grocery store or a place where you can buy fresh fruits.
-2. Look for the fruit section in the store.
-3. Scan the different types of fruits available and select one that is not an apple. Some options could be oranges, bananas, grapes, watermelon, strawberries, etc.
-4. Check the quality of the fruit to ensure it is ripe and in good condition.
-5. Pick the chosen fruit and place it in a basket or bag.
-6. Head to the checkout counter to pay for the fruit.
-7. Once you have paid for the fruit, bring it to the person who requested a fruit that is not an apple.","1. find an orange, 2. pick up the orange, 3. bring it to you, 4. put down the orange, 5. done"
-SayCan,1a,"Question: Provide step-by-step instructions for the following task: Bring me a fruit.
-Answer: 1. find a banana, 2. pick up the banana, 3. bring it to you, 4. put down the banana, 5. done
-Question: Provide step-by-step instructions for the following task: Can you bring all the snacks on the table?
-Answer: 1. go to the table, 2. pick up the energy bar, 3. bring it to you, 4. put down the energy bar, 5. go to the table, 6. pick up the multigrain chips, 7. bring it to you, 8. put down the multigrain chips, 9. go to the table, 10. done.
-Question: Provide step-by-step instructions for the following task: Bring me a fruit that is not an apple.","Answer: 1. Find a fruit that is not an apple, such as a banana or an orange, 2. Pick up the fruit, 3. Bring it to you, 4. Put down the fruit, 5. Done.","1. find an orange, 2. pick up the orange, 3. bring it to you, 4. put down the orange, 5. done"
-SayCan,1b,"Question: Provide step-by-step instructions for the following task: Could you get me something caffeinated?
-Answer: 1. find a coke, 2. pick up the coke, 3. bring it to you, 4. put down the coke, 5. done.
-Question: Provide step-by-step instructions for the following task: How would you restock chips in the drawer?
-Answer: 1. find the bag of chips, 2. pick up the bag of chips, 3. go to the drawer, 4. put down the bag of chips, 5. open the drawer, 6. pick up the bag of chips, 7. put down the bag of chips, 8. close the drawer, 9. done
-Question: Provide step-by-step instructions for the following task: Bring me a fruit that is not an apple.","Answer: 1. find a banana, orange, or any other fruit that is not an apple, 2. pick up the fruit, 3. bring it to you, 4. put down the fruit, 5. done.","1. find an orange, 2. pick up the orange, 3. bring it to you, 4. put down the orange, 5. done"
-SayCan,2,"Question: Provide step-by-step instructions for the following task: Bring me a fruit.
-Answer: 1. find a banana, 2. pick up the banana, 3. bring it to you, 4. put down the banana, 5. done
-Question: Provide step-by-step instructions for the following task: Can you bring all the snacks on the table?
-Answer: 1. go to the table, 2. pick up the energy bar, 3. bring it to you, 4. put down the energy bar, 5. go to the table, 6. pick up the multigrain chips, 7. bring it to you, 8. put down the multigrain chips, 9. go to the table, 10. done.
-Question: Provide step-by-step instructions for the following task: Could you get me something caffeinated?
-Answer: 1. find a coke, 2. pick up the coke, 3. bring it to you, 4. put down the coke, 5. done.
-Question: Provide step-by-step instructions for the following task: How would you restock chips in the drawer?
-Answer: 1. find the bag of chips, 2. pick up the bag of chips, 3. go to the drawer, 4. put down the bag of chips, 5. open the drawer, 6. pick up the bag of chips, 7. put down the bag of chips, 8. close the drawer, 9. done
-Question: Provide step-by-step instructions for the following task: Bring me a fruit that is not an apple.","Answer: 1. find a banana or orange, 2. pick up the banana or orange, 3. bring it to you, 4. put down the banana or orange, 5. done.","1. find an orange, 2. pick up the orange, 3. bring it to you, 4. put down the orange, 5. done"
-SayCan,3a,"Question: Provide step-by-step instructions for the following task: Bring me a fruit.
-Answer: 1. find a banana, 2. pick up the banana, 3. bring it to you, 4. put down the banana, 5. done
-Question: Provide step-by-step instructions for the following task: Can you bring all the snacks on the table?
-Answer: 1. go to the table, 2. pick up the energy bar, 3. bring it to you, 4. put down the energy bar, 5. go to the table, 6. pick up the multigrain chips, 7. bring it to you, 8. put down the multigrain chips, 9. go to the table, 10. done.
-Question: Provide step-by-step instructions for the following task: Bring me a fruit.
-Answer: 1. find a banana, 2. pick up the banana, 3. bring it to you, 4. put down the banana, 5. done
-Question: Provide step-by-step instructions for the following task: Can you bring all the snacks on the table?
-Answer: 1. go to the table, 2. pick up the energy bar, 3. bring it to you, 4. put down the energy bar, 5. go to the table, 6. pick up the multigrain chips, 7. bring it to you, 8. put down the multigrain chips, 9. go to the table, 10. done.
-Question: Provide step-by-step instructions for the following task: Bring me a fruit that is not an apple.","Answer: 1. Look for fruits that are not apples, such as a banana or an orange, 2. Pick up the chosen fruit, 3. Bring it to you, 4. Put down the fruit, 5. Done.","1. find an orange, 2. pick up the orange, 3. bring it to you, 4. put down the orange, 5. done"
-SayCan,3b,"Question: Provide step-by-step instructions for the following task: Could you get me something caffeinated?
-Answer: 1. find a coke, 2. pick up the coke, 3. bring it to you, 4. put down the coke, 5. done.
-Question: Provide step-by-step instructions for the following task: How would you restock chips in the drawer?
-Answer: 1. find the bag of chips, 2. pick up the bag of chips, 3. go to the drawer, 4. put down the bag of chips, 5. open the drawer, 6. pick up the bag of chips, 7. put down the bag of chips, 8. close the drawer, 9. done
-Question: Provide step-by-step instructions for the following task: Could you get me something caffeinated?
-Answer: 1. find a coke, 2. pick up the coke, 3. bring it to you, 4. put down the coke, 5. done.
-Question: Provide step-by-step instructions for the following task: How would you restock chips in the drawer?
-Answer: 1. find the bag of chips, 2. pick up the bag of chips, 3. go to the drawer, 4. put down the bag of chips, 5. open the drawer, 6. pick up the bag of chips, 7. put down the bag of chips, 8. close the drawer, 9. done
-Question: Provide step-by-step instructions for the following task: Bring me a fruit that is not an apple.","Answer: 1. Find a banana, orange, pear, or any other fruit that is not an apple, 2. Pick up the fruit, 3. Bring it to you, 4. Put down the fruit, 5. Done.","1. find an orange, 2. pick up the orange, 3. bring it to you, 4. put down the orange, 5. done"
+Question: The density of an object determines if it will float. An object will float if it is less dense than the liquid it is placed in. Mercury is liquid at room temperature. The density of mercury is 13.56 g/cm3. The density of a penny is 7.15 g/cm3.
+Can you transport a coin along a sea of mercury?
+Answer: True
+Question: Rurouni Kenshin is a manga series that comes from Japan. Nobunaga's Ambition is a video game series based on the experiences of Oda Nobunaga. Oda Nobunaga was a Japanese feudal lord.
+Is Rurouni Kenshin from same country as lead character in Nobunaga's Ambition?
+Answer: True
+Question: Voyager 2 was a probe that traveled to the interstellar medium of space. The interstellar medium is over 12,161,300,000 miles away from earth. The Hwasong-15 missile is a North Korean missile with a range of 8,000 miles.
+Could a Hwasong-15 missile hypothetically reach Voyager 2?",Answer: False,False
+StrategyQA,3b,"Question: Modern Family is a television sitcom The Slammy Awards were presented to people involved in professional wrestling
+Did Modern Family win a Slammy award?
+Answer: False
+Question: Mixed Martial arts in the UFC takes place in an enclosed structure called The Octagon. The Roman Colosseum games were fought in enclosed arenas where combatants would fight until the last man was standing. Mixed martial arts contests are stopped when one of the combatants is incapacitated. The Roman Colosseum was performed in front of crowds that numbered in the tens of thousands. Over 56,000 people attended UFC 193.
+Is Mixed martial arts totally original from Roman Colosseum games?
+Answer: False
+Question: Modern Family is a television sitcom The Slammy Awards were presented to people involved in professional wrestling
+Did Modern Family win a Slammy award?
+Answer: False
+Question: Mixed Martial arts in the UFC takes place in an enclosed structure called The Octagon. The Roman Colosseum games were fought in enclosed arenas where combatants would fight until the last man was standing. Mixed martial arts contests are stopped when one of the combatants is incapacitated. The Roman Colosseum was performed in front of crowds that numbered in the tens of thousands. Over 56,000 people attended UFC 193.
+Is Mixed martial arts totally original from Roman Colosseum games?
+Answer: False
+Question: Voyager 2 was a probe that traveled to the interstellar medium of space. The interstellar medium is over 12,161,300,000 miles away from earth. The Hwasong-15 missile is a North Korean missile with a range of 8,000 miles.
+Could a Hwasong-15 missile hypothetically reach Voyager 2?",Answer: False,False
+SayCan,0,Question: Throw the coke can away.,"Sure, I will dispose of the coke can in the trash.","1. find a coke can, 2. pick up the coke can, 3. go to the trash, 4. put down the coke can, 5. done"
+SayCan,1a,"Question: Bring me something that is not an apple.
+Answer: 1. find an orange, 2. pick up the orange, 3. bring it to you, 4. put down the orange, 5. done
+Question: Could you get me something caffeinated?
+Answer: 1. find a pepsi, 2. pick up the pepsi, 3. bring it to you, 4. put down the pepsi, 5. done.
+Question: Throw the coke can away.","Answer: 1. pick up the coke can, 2. walk to the trash can, 3. throw the coke can away, 4. done.","1. find a coke can, 2. pick up the coke can, 3. go to the trash, 4. put down the coke can, 5. done"
+SayCan,1b,"Question: Clean off the table.
+Answer: 1. go to the table, 2. pick up the orange, 3. go to the trash, 4. put down the orange, 5. go to the table, 6. pick up the rice chips, 7. go to the trash, 8. put down the rice chips, 9. done
+Question: Can I have a redbull please.
+Answer: 1. find a redbull can, 2. pick up the redbull can, 3. bring it to you, 4. put down the redbull can, 5. done
+Question: Throw the coke can away.","Answer: 1. go to the coke can, 2. pick up the coke can, 3. go to the trash, 4. throw the coke can away, 5. done","1. find a coke can, 2. pick up the coke can, 3. go to the trash, 4. put down the coke can, 5. done"
+SayCan,2,"Question: Bring me something that is not an apple.
+Answer: 1. find an orange, 2. pick up the orange, 3. bring it to you, 4. put down the orange, 5. done
+Question: Could you get me something caffeinated?
+Answer: 1. find a pepsi, 2. pick up the pepsi, 3. bring it to you, 4. put down the pepsi, 5. done.
+Question: Clean off the table.
+Answer: 1. go to the table, 2. pick up the orange, 3. go to the trash, 4. put down the orange, 5. go to the table, 6. pick up the rice chips, 7. go to the trash, 8. put down the rice chips, 9. done
+Question: Can I have a redbull please.
+Answer: 1. find a redbull can, 2. pick up the redbull can, 3. bring it to you, 4. put down the redbull can, 5. done
+Question: Throw the coke can away.","Answer: 1. pick up the coke can, 2. go to the trash, 3. put down the coke can in the trash, 4. done","1. find a coke can, 2. pick up the coke can, 3. go to the trash, 4. put down the coke can, 5. done"
+SayCan,3a,"Question: Bring me something that is not an apple.
+Answer: 1. find an orange, 2. pick up the orange, 3. bring it to you, 4. put down the orange, 5. done
+Question: Could you get me something caffeinated?
+Answer: 1. find a pepsi, 2. pick up the pepsi, 3. bring it to you, 4. put down the pepsi, 5. done.
+Question: Bring me something that is not an apple.
+Answer: 1. find an orange, 2. pick up the orange, 3. bring it to you, 4. put down the orange, 5. done
+Question: Could you get me something caffeinated?
+Answer: 1. find a pepsi, 2. pick up the pepsi, 3. bring it to you, 4. put down the pepsi, 5. done.
+Question: Throw the coke can away.","Answer: 1. pick up the coke can, 2. walk to the trash can, 3. throw the coke can away, 4. come back, 5. done.","1. find a coke can, 2. pick up the coke can, 3. go to the trash, 4. put down the coke can, 5. done"
+SayCan,3b,"Question: Clean off the table.
+Answer: 1. go to the table, 2. pick up the orange, 3. go to the trash, 4. put down the orange, 5. go to the table, 6. pick up the rice chips, 7. go to the trash, 8. put down the rice chips, 9. done
+Question: Can I have a redbull please.
+Answer: 1. find a redbull can, 2. pick up the redbull can, 3. bring it to you, 4. put down the redbull can, 5. done
+Question: Clean off the table.
+Answer: 1. go to the table, 2. pick up the orange, 3. go to the trash, 4. put down the orange, 5. go to the table, 6. pick up the rice chips, 7. go to the trash, 8. put down the rice chips, 9. done
+Question: Can I have a redbull please.
+Answer: 1. find a redbull can, 2. pick up the redbull can, 3. bring it to you, 4. put down the redbull can, 5. done
+Question: Throw the coke can away.","Answer: 1. pick up the coke can, 2. go to the trash, 3. throw away the coke can, 4. done","1. find a coke can, 2. pick up the coke can, 3. go to the trash, 4. put down the coke can, 5. done"

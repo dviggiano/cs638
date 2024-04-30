@@ -1,410 +1,436 @@
 Task Class,Case,Prompt,Response,Expected
-Math,0,"Question: Chase and Rider can ride their bikes thrice a day for 5 days; but on two other days, they ride twice the times they do on usual days. How many times do they ride their bikes a week?","On usual days, Chase and Rider ride their bikes thrice a day for 5 days, which makes a total of 3 * 5 = 15 times.
-On two other days, they ride twice the times they do on usual days, so they ride 2 * 3 = 6 times each day on these days.
-So, on these two days, they ride a total of 6 * 2 = 12 times.
-Therefore, in total, they ride their bikes 15 + 12 = 27 times a week.","Each person rides his bike 3 x 5 = <<3*5=15>>15 times for 5 days.
-Together, they ride 15+15 = <<15+15=30>>30 times for five days.
-Each person rides his bike 3 x 2 = <<3*2=6>>6 times for every day of the other two days.
-This means each person rides 6*2 = <<6*2=12>>12 times on each day of the other two days.
-The total for the other two days is 12+12 = <<12+12=24>>24
-For the whole week the together ride 24+30 = <<24+30=54>>54 times
-#### 54"
-Math,1a,"Question: Beth had 150 students in her 10th-grade class.  The following year 30 more students join.  In her final year, 15 students left.  How many students did Beth have in her class at the end of her final year?
-Answer: Beth had 150 students her 10th-grade year, and added 30 more the following for a total of 150+30= <<150+30=180>>180 students
-In her final year, 15 students left her class, bringing her total to 180-15=165 students
-#### 165
-Question: Lola and Dora combined their allowance of $9 each to buy a deck of playing cards for $10, they also bought $2 boxes of stickers and split the boxes evenly. How many packs of stickers did Dora get?
-Answer: Lola and Dora together have $9/person x 2 people = $<<9*2=18>>18
-After buying the deck of cards they had $18 - $10 = $<<18-10=8>>8
-With 8 dollars they bought $8 / $2/pack = <<8/2=4>>4 packs of stickers
-Dora received 4 packs / 2 people = <<4/2=2>>2 packs of stickers
-#### 2
-Question: Chase and Rider can ride their bikes thrice a day for 5 days; but on two other days, they ride twice the times they do on usual days. How many times do they ride their bikes a week?","Answer: 
+Math,0,"Question: A jellyfish tank has numerous jellyfish in it. A fifth of the jellyfish are large, and a third of the large jellyfish change color from green to blue under UV light. The other jellyfish are small and always stay blue. When a UV light turned on, 6 jellyfish changed color. How many jellyfish are in the tank?","Let's denote the total number of jellyfish in the tank as 'T'.
 
-Chase and Rider ride their bikes thrice a day for 5 days, which means they ride 3 times/day x 5 days = 15 times in total.
-On the two other days, they ride twice the usual amount, so they ride 3 times x 2 = 6 times in total.
-Therefore, in a week, they ride 15 + 6 = <<15+6=21>>21 times. 
-#### 21","Each person rides his bike 3 x 5 = <<3*5=15>>15 times for 5 days.
-Together, they ride 15+15 = <<15+15=30>>30 times for five days.
-Each person rides his bike 3 x 2 = <<3*2=6>>6 times for every day of the other two days.
-This means each person rides 6*2 = <<6*2=12>>12 times on each day of the other two days.
-The total for the other two days is 12+12 = <<12+12=24>>24
-For the whole week the together ride 24+30 = <<24+30=54>>54 times
-#### 54"
-Math,1b,"Question: A Statistics student wants to find out the average daily allowance of the middle school students. According to his survey, 2/3 of the students receive an average of $6 allowance per day while the rest gets an average of $4 a day. If he surveyed 60 students, what is the total amount of money those 60 students get in a day?
-Answer: There are 60 students x 2/3 = <<60*2/3=40>>40 students who have a $6 daily allowance.
-While there are 60 students - 40 students = <<60-40=20>>20 students who have a $4 daily allowance.
-The sum of the allowances of the 40 students who received $6 daily is 40 students x $6/day = $<<40*6=240>>240.
-The sum of the allowances of the 20 students who received $4 daily is 20 students x $4/day = $<<20*4=80>>80.
-The total daily amount of money of those 60 students is $240 + $80 = $<<240+80=320>>320.
-#### 320
-Question: John can read a book 60% faster than his brother.  If his brother takes 8 hours to read a book, how long would it take John to read 3 books?
-Answer: Reading 60% faster means John's brother takes 1+.6=1.6 times as long as John to read
-So John reads a book in 8/1.6=<<8/1.6=5>>5 hours
-So it would take John 5*3=<<5*3=15>>15 hours to read 3 books
-#### 15
-Question: Chase and Rider can ride their bikes thrice a day for 5 days; but on two other days, they ride twice the times they do on usual days. How many times do they ride their bikes a week?","Chase and Rider ride their bikes 3 times a day for 5 days, so they ride 3*5 = <<3*5=15>>15 times in total on those days.
-On the two other days, they ride twice the usual times, so they ride 3*2 = <<3*2=6>>6 times on each of those days.
-Therefore, on those two days, they ride a total of 6*2 = <<6*2=12>>12 times.
-So, in total, they ride 15 + 12 = <<15+12=27>>27 times in a week. 
-Answer: 27","Each person rides his bike 3 x 5 = <<3*5=15>>15 times for 5 days.
-Together, they ride 15+15 = <<15+15=30>>30 times for five days.
-Each person rides his bike 3 x 2 = <<3*2=6>>6 times for every day of the other two days.
-This means each person rides 6*2 = <<6*2=12>>12 times on each day of the other two days.
-The total for the other two days is 12+12 = <<12+12=24>>24
-For the whole week the together ride 24+30 = <<24+30=54>>54 times
-#### 54"
-Math,2,"Question: Beth had 150 students in her 10th-grade class.  The following year 30 more students join.  In her final year, 15 students left.  How many students did Beth have in her class at the end of her final year?
-Answer: Beth had 150 students her 10th-grade year, and added 30 more the following for a total of 150+30= <<150+30=180>>180 students
-In her final year, 15 students left her class, bringing her total to 180-15=165 students
-#### 165
-Question: Lola and Dora combined their allowance of $9 each to buy a deck of playing cards for $10, they also bought $2 boxes of stickers and split the boxes evenly. How many packs of stickers did Dora get?
-Answer: Lola and Dora together have $9/person x 2 people = $<<9*2=18>>18
-After buying the deck of cards they had $18 - $10 = $<<18-10=8>>8
-With 8 dollars they bought $8 / $2/pack = <<8/2=4>>4 packs of stickers
-Dora received 4 packs / 2 people = <<4/2=2>>2 packs of stickers
-#### 2
-Question: A Statistics student wants to find out the average daily allowance of the middle school students. According to his survey, 2/3 of the students receive an average of $6 allowance per day while the rest gets an average of $4 a day. If he surveyed 60 students, what is the total amount of money those 60 students get in a day?
-Answer: There are 60 students x 2/3 = <<60*2/3=40>>40 students who have a $6 daily allowance.
-While there are 60 students - 40 students = <<60-40=20>>20 students who have a $4 daily allowance.
-The sum of the allowances of the 40 students who received $6 daily is 40 students x $6/day = $<<40*6=240>>240.
-The sum of the allowances of the 20 students who received $4 daily is 20 students x $4/day = $<<20*4=80>>80.
-The total daily amount of money of those 60 students is $240 + $80 = $<<240+80=320>>320.
-#### 320
-Question: John can read a book 60% faster than his brother.  If his brother takes 8 hours to read a book, how long would it take John to read 3 books?
-Answer: Reading 60% faster means John's brother takes 1+.6=1.6 times as long as John to read
-So John reads a book in 8/1.6=<<8/1.6=5>>5 hours
-So it would take John 5*3=<<5*3=15>>15 hours to read 3 books
-#### 15
-Question: Chase and Rider can ride their bikes thrice a day for 5 days; but on two other days, they ride twice the times they do on usual days. How many times do they ride their bikes a week?","Answer: On usual days, Chase and Rider ride their bikes thrice a day for 5 days, which is 3 rides/day * 5 days = <<3*5=15>>15 rides.
-On the two other days, they ride twice the usual amount, so they ride 3 rides * 2 = 6 rides each.
-In total, for the two other days, they ride a total of 6 rides * 2 people = <<6*2=12>>12 rides.
-So in total, they ride 15 usual rides + 12 extra rides = <<15+12=27>>27 times a week.","Each person rides his bike 3 x 5 = <<3*5=15>>15 times for 5 days.
-Together, they ride 15+15 = <<15+15=30>>30 times for five days.
-Each person rides his bike 3 x 2 = <<3*2=6>>6 times for every day of the other two days.
-This means each person rides 6*2 = <<6*2=12>>12 times on each day of the other two days.
-The total for the other two days is 12+12 = <<12+12=24>>24
-For the whole week the together ride 24+30 = <<24+30=54>>54 times
-#### 54"
-Math,3a,"Question: Beth had 150 students in her 10th-grade class.  The following year 30 more students join.  In her final year, 15 students left.  How many students did Beth have in her class at the end of her final year?
-Answer: Beth had 150 students her 10th-grade year, and added 30 more the following for a total of 150+30= <<150+30=180>>180 students
-In her final year, 15 students left her class, bringing her total to 180-15=165 students
-#### 165
-Question: Lola and Dora combined their allowance of $9 each to buy a deck of playing cards for $10, they also bought $2 boxes of stickers and split the boxes evenly. How many packs of stickers did Dora get?
-Answer: Lola and Dora together have $9/person x 2 people = $<<9*2=18>>18
-After buying the deck of cards they had $18 - $10 = $<<18-10=8>>8
-With 8 dollars they bought $8 / $2/pack = <<8/2=4>>4 packs of stickers
-Dora received 4 packs / 2 people = <<4/2=2>>2 packs of stickers
-#### 2
-Question: Beth had 150 students in her 10th-grade class.  The following year 30 more students join.  In her final year, 15 students left.  How many students did Beth have in her class at the end of her final year?
-Answer: Beth had 150 students her 10th-grade year, and added 30 more the following for a total of 150+30= <<150+30=180>>180 students
-In her final year, 15 students left her class, bringing her total to 180-15=165 students
-#### 165
-Question: Lola and Dora combined their allowance of $9 each to buy a deck of playing cards for $10, they also bought $2 boxes of stickers and split the boxes evenly. How many packs of stickers did Dora get?
-Answer: Lola and Dora together have $9/person x 2 people = $<<9*2=18>>18
-After buying the deck of cards they had $18 - $10 = $<<18-10=8>>8
-With 8 dollars they bought $8 / $2/pack = <<8/2=4>>4 packs of stickers
-Dora received 4 packs / 2 people = <<4/2=2>>2 packs of stickers
-#### 2
-Question: Chase and Rider can ride their bikes thrice a day for 5 days; but on two other days, they ride twice the times they do on usual days. How many times do they ride their bikes a week?","Answer: Chase and Rider ride their bikes 3 times a day for 5 days, totaling 3*5 = <<3*5=15>>15 rides
-On the other 2 days, they ride twice as much, so they ride 3*2 = <<3*2=6>>6 times
-Therefore, they ride their bikes a total of 15+6 = <<15+6=21>>21 times a week.","Each person rides his bike 3 x 5 = <<3*5=15>>15 times for 5 days.
-Together, they ride 15+15 = <<15+15=30>>30 times for five days.
-Each person rides his bike 3 x 2 = <<3*2=6>>6 times for every day of the other two days.
-This means each person rides 6*2 = <<6*2=12>>12 times on each day of the other two days.
-The total for the other two days is 12+12 = <<12+12=24>>24
-For the whole week the together ride 24+30 = <<24+30=54>>54 times
-#### 54"
-Math,3b,"Question: A Statistics student wants to find out the average daily allowance of the middle school students. According to his survey, 2/3 of the students receive an average of $6 allowance per day while the rest gets an average of $4 a day. If he surveyed 60 students, what is the total amount of money those 60 students get in a day?
-Answer: There are 60 students x 2/3 = <<60*2/3=40>>40 students who have a $6 daily allowance.
-While there are 60 students - 40 students = <<60-40=20>>20 students who have a $4 daily allowance.
-The sum of the allowances of the 40 students who received $6 daily is 40 students x $6/day = $<<40*6=240>>240.
-The sum of the allowances of the 20 students who received $4 daily is 20 students x $4/day = $<<20*4=80>>80.
-The total daily amount of money of those 60 students is $240 + $80 = $<<240+80=320>>320.
-#### 320
-Question: John can read a book 60% faster than his brother.  If his brother takes 8 hours to read a book, how long would it take John to read 3 books?
-Answer: Reading 60% faster means John's brother takes 1+.6=1.6 times as long as John to read
-So John reads a book in 8/1.6=<<8/1.6=5>>5 hours
-So it would take John 5*3=<<5*3=15>>15 hours to read 3 books
-#### 15
-Question: A Statistics student wants to find out the average daily allowance of the middle school students. According to his survey, 2/3 of the students receive an average of $6 allowance per day while the rest gets an average of $4 a day. If he surveyed 60 students, what is the total amount of money those 60 students get in a day?
-Answer: There are 60 students x 2/3 = <<60*2/3=40>>40 students who have a $6 daily allowance.
-While there are 60 students - 40 students = <<60-40=20>>20 students who have a $4 daily allowance.
-The sum of the allowances of the 40 students who received $6 daily is 40 students x $6/day = $<<40*6=240>>240.
-The sum of the allowances of the 20 students who received $4 daily is 20 students x $4/day = $<<20*4=80>>80.
-The total daily amount of money of those 60 students is $240 + $80 = $<<240+80=320>>320.
-#### 320
-Question: John can read a book 60% faster than his brother.  If his brother takes 8 hours to read a book, how long would it take John to read 3 books?
-Answer: Reading 60% faster means John's brother takes 1+.6=1.6 times as long as John to read
-So John reads a book in 8/1.6=<<8/1.6=5>>5 hours
-So it would take John 5*3=<<5*3=15>>15 hours to read 3 books
-#### 15
-Question: Chase and Rider can ride their bikes thrice a day for 5 days; but on two other days, they ride twice the times they do on usual days. How many times do they ride their bikes a week?","Answer: On usual days, Chase and Rider ride their bikes 3 times a day x 5 days = 15 times.
-On the two other days, they ride 3 x 2 = 6 times each.
-So on those two days, they ride 6 + 6 = 12 times.
-Therefore, in a week, they ride their bikes a total of 15 + 12 = 27 times.","Each person rides his bike 3 x 5 = <<3*5=15>>15 times for 5 days.
-Together, they ride 15+15 = <<15+15=30>>30 times for five days.
-Each person rides his bike 3 x 2 = <<3*2=6>>6 times for every day of the other two days.
-This means each person rides 6*2 = <<6*2=12>>12 times on each day of the other two days.
-The total for the other two days is 12+12 = <<12+12=24>>24
-For the whole week the together ride 24+30 = <<24+30=54>>54 times
-#### 54"
-CSQA,0,"Question: When you play around with your dog they will have?
-A: alive
-B: health
-C: fun
-D: playing dead
-E: black",C: fun,C
-CSQA,1a,"Question: The only place you'd find a marmoset in what gold rush region would be in a zoo?
-A: in wild
-B: your moms house
-C: burrow
-D: american west
-E: national park
+From the information given, we know that a fifth of the jellyfish are large, which means there are (1/5)T large jellyfish in the tank. 
+Out of the large jellyfish, a third change color from green to blue under UV light, so (1/3)((1/5)T) = (1/15)T large jellyfish change color when the UV light is turned on.
+
+The rest of the jellyfish are small and always stay blue, so the number of small jellyfish in the tank is T - (1/5)T = (4/5)T. 
+Since all the small jellyfish stay blue, none of them change color under UV light.
+
+Therefore, the total number of jellyfish that change color under UV light is (1/15)T (large jellyfish) + 6 (total number of jellyfish that change color) = 6.
+
+Solving the equation, we get (1/15)T + 6 = 6
+(1/15)T = 0
+T = 0
+
+Therefore, there are no jellyfish in the tank.","A third of the large jellyfish change color, so there are 6 * 3 = <<6*3=18>>18 large jellyfish.
+A fifth of the jellyfish are large, so there are 18 * 5 = <<18*5=90>>90 jellyfish in the tank.
+#### 90"
+Math,1a,"Question: In one day, 200 people visit The Metropolitan Museum of Art in New York City. Half of the visitors are residents of New York City. Of the NYC residents, 30% are college students. If the cost of a college student ticket is $4, how much money does the museum get from college students that are residents of NYC?
+Answer: The number of visitors that are residents of NYC is 200 / 2 = <<200/2=100>>100 visitors
+The number of NYC resident visitors that are college students is 100 * 0.30 = <<100*0.30=30>>30 visitors
+The money from the college students that are residents of NYC is 30 * $4 = $<<30*4=120>>120
+#### 120
+Question: Tyson can swim at a speed of 3 miles per hour in a lake and 2.5 mph in an ocean. This season, half his races happened in lakes and half his races happened in the ocean. He had ten total races, each of which was 3 miles long. How much time did he spend in his races?
+Answer: He did 5 races in the lake because 10 / 2 = <<10/2=5>>5
+He did 5 races in the ocean because 10 / 2 = <<10/2=5>>5
+He raced 15 miles in the lake because 5 x 3 = <<5*3=15>>15
+His lake races took 6 hours because 15 / 2.5 = <<15/2.5=6>>6
+He raced 15 miles in the ocean because 5 x 3 = <<5*3=15>>15
+His ocean races took 5 hours because 15 / 3 = <<15/3=5>>5
+He spent 11 hours racing because 5 + 6 = <<5+6=11>>11
+#### 11
+Question: A jellyfish tank has numerous jellyfish in it. A fifth of the jellyfish are large, and a third of the large jellyfish change color from green to blue under UV light. The other jellyfish are small and always stay blue. When a UV light turned on, 6 jellyfish changed color. How many jellyfish are in the tank?","Answer: Let's assume there are a total of x jellyfish in the tank.
+The number of large jellyfish is x/5.
+Out of the large jellyfish, x/5 * 1/3 = x/15 jellyfish change color.
+So, the number of small jellyfish is x - x/5 = 4x/5.
+Out of the small jellyfish, 6 jellyfish change color.
+Since only large jellyfish change color, 6 = x/15.
+Solving for x, we get x = 90.
+Therefore, there are 90 jellyfish in the tank.","A third of the large jellyfish change color, so there are 6 * 3 = <<6*3=18>>18 large jellyfish.
+A fifth of the jellyfish are large, so there are 18 * 5 = <<18*5=90>>90 jellyfish in the tank.
+#### 90"
+Math,1b,"Question: Beth is a scuba diver.  She is excavating a sunken ship off the coast of a small Caribbean island and she must remain underwater for long periods.  Her primary tank, which she wears when she first enters the water, has enough oxygen to allow her to stay underwater for 2 hours.  She also has several 1-hour supplemental tanks that she takes with her as well as stores on the ocean floor so she can change tanks underwater without having to come up to the surface.  She will need to be underwater for 8 hours.  How many supplemental tanks will she need?
+Answer: For an 8-hour dive, she will use her 2-hour primary tanks and will need supplemental tanks for 8-2=<<8-2=6>>6 additional hours.
+Since each supplemental tank holds 1 hour of oxygen, for 6 hours she will need 6/1=<<6/1=6>>6 supplemental tanks.
+#### 6
+Question: Bonny just bought her 13th pair of shoes, which is 5 less than twice as many pairs of shoes as Becky owns.  Bobby has 3 times as many pairs of shoes as Becky has.  How many shoes does Bobby have?
+Answer: Let x be the number of pairs of shoes that Becky owns.
+Since 13 pairs is 5 less than twice as many pairs as Becky owns, then the relationship is 2x-5=13.
+Adding 5 to each side of the equation, we get 2x=18.
+Solving for x, we get x=<<9=9>>9.
+Since Bobby has 3 times as many pairs of shoes as Becky has, then Becky has 3*9=<<3*9=27>>27 pairs of shoes.
+#### 27
+Question: A jellyfish tank has numerous jellyfish in it. A fifth of the jellyfish are large, and a third of the large jellyfish change color from green to blue under UV light. The other jellyfish are small and always stay blue. When a UV light turned on, 6 jellyfish changed color. How many jellyfish are in the tank?","Let x be the total number of jellyfish in the tank.
+
+The number of large jellyfish is (1/5)x, and the number of small jellyfish is (4/5)x.
+
+The number of large jellyfish that changed color is (1/3)*(1/5)x = x/15.
+
+The number of small jellyfish that changed color is 6 - x/15.
+
+Since the total number of jellyfish that changed color is 6:
+x/15 + 6 - x/15 = 6
+6 = 6
+x = 100
+
+Therefore, there are 100 jellyfish in the tank.","A third of the large jellyfish change color, so there are 6 * 3 = <<6*3=18>>18 large jellyfish.
+A fifth of the jellyfish are large, so there are 18 * 5 = <<18*5=90>>90 jellyfish in the tank.
+#### 90"
+Math,2,"Question: In one day, 200 people visit The Metropolitan Museum of Art in New York City. Half of the visitors are residents of New York City. Of the NYC residents, 30% are college students. If the cost of a college student ticket is $4, how much money does the museum get from college students that are residents of NYC?
+Answer: The number of visitors that are residents of NYC is 200 / 2 = <<200/2=100>>100 visitors
+The number of NYC resident visitors that are college students is 100 * 0.30 = <<100*0.30=30>>30 visitors
+The money from the college students that are residents of NYC is 30 * $4 = $<<30*4=120>>120
+#### 120
+Question: Tyson can swim at a speed of 3 miles per hour in a lake and 2.5 mph in an ocean. This season, half his races happened in lakes and half his races happened in the ocean. He had ten total races, each of which was 3 miles long. How much time did he spend in his races?
+Answer: He did 5 races in the lake because 10 / 2 = <<10/2=5>>5
+He did 5 races in the ocean because 10 / 2 = <<10/2=5>>5
+He raced 15 miles in the lake because 5 x 3 = <<5*3=15>>15
+His lake races took 6 hours because 15 / 2.5 = <<15/2.5=6>>6
+He raced 15 miles in the ocean because 5 x 3 = <<5*3=15>>15
+His ocean races took 5 hours because 15 / 3 = <<15/3=5>>5
+He spent 11 hours racing because 5 + 6 = <<5+6=11>>11
+#### 11
+Question: Beth is a scuba diver.  She is excavating a sunken ship off the coast of a small Caribbean island and she must remain underwater for long periods.  Her primary tank, which she wears when she first enters the water, has enough oxygen to allow her to stay underwater for 2 hours.  She also has several 1-hour supplemental tanks that she takes with her as well as stores on the ocean floor so she can change tanks underwater without having to come up to the surface.  She will need to be underwater for 8 hours.  How many supplemental tanks will she need?
+Answer: For an 8-hour dive, she will use her 2-hour primary tanks and will need supplemental tanks for 8-2=<<8-2=6>>6 additional hours.
+Since each supplemental tank holds 1 hour of oxygen, for 6 hours she will need 6/1=<<6/1=6>>6 supplemental tanks.
+#### 6
+Question: Bonny just bought her 13th pair of shoes, which is 5 less than twice as many pairs of shoes as Becky owns.  Bobby has 3 times as many pairs of shoes as Becky has.  How many shoes does Bobby have?
+Answer: Let x be the number of pairs of shoes that Becky owns.
+Since 13 pairs is 5 less than twice as many pairs as Becky owns, then the relationship is 2x-5=13.
+Adding 5 to each side of the equation, we get 2x=18.
+Solving for x, we get x=<<9=9>>9.
+Since Bobby has 3 times as many pairs of shoes as Becky has, then Becky has 3*9=<<3*9=27>>27 pairs of shoes.
+#### 27
+Question: A jellyfish tank has numerous jellyfish in it. A fifth of the jellyfish are large, and a third of the large jellyfish change color from green to blue under UV light. The other jellyfish are small and always stay blue. When a UV light turned on, 6 jellyfish changed color. How many jellyfish are in the tank?","Let's denote the total number of jellyfish in the tank as J.
+
+Given that a fifth of the jellyfish are large, the number of large jellyfish is J/5.
+And since a third of the large jellyfish change color from green to blue, the number of large jellyfish changing color is (1/3)*(J/5) = J/15.
+
+The number of small jellyfish in the tank is 4J/5 (since a fifth are large).
+
+Therefore, the total number of jellyfish changing color when the UV light is turned on is J/15 + 6.
+This is equal to the total number of large jellyfish changing color plus the small jellyfish changing color, so:
+J/15 + 6 = J/15 + 4J/5.
+
+Solving for J:
+J/15 + 6 = J/15 + 4J/5
+Multiplying the whole equation by 15 to remove the fractions:
+J + 90 = J + 12J
+Combining like terms:
+90 = 13J
+J = 90/13
+J = 6.92
+
+Since you can't have a fraction of a jellyfish, the number of jellyfish in the tank must be 7.","A third of the large jellyfish change color, so there are 6 * 3 = <<6*3=18>>18 large jellyfish.
+A fifth of the jellyfish are large, so there are 18 * 5 = <<18*5=90>>90 jellyfish in the tank.
+#### 90"
+Math,3a,"Question: In one day, 200 people visit The Metropolitan Museum of Art in New York City. Half of the visitors are residents of New York City. Of the NYC residents, 30% are college students. If the cost of a college student ticket is $4, how much money does the museum get from college students that are residents of NYC?
+Answer: The number of visitors that are residents of NYC is 200 / 2 = <<200/2=100>>100 visitors
+The number of NYC resident visitors that are college students is 100 * 0.30 = <<100*0.30=30>>30 visitors
+The money from the college students that are residents of NYC is 30 * $4 = $<<30*4=120>>120
+#### 120
+Question: Tyson can swim at a speed of 3 miles per hour in a lake and 2.5 mph in an ocean. This season, half his races happened in lakes and half his races happened in the ocean. He had ten total races, each of which was 3 miles long. How much time did he spend in his races?
+Answer: He did 5 races in the lake because 10 / 2 = <<10/2=5>>5
+He did 5 races in the ocean because 10 / 2 = <<10/2=5>>5
+He raced 15 miles in the lake because 5 x 3 = <<5*3=15>>15
+His lake races took 6 hours because 15 / 2.5 = <<15/2.5=6>>6
+He raced 15 miles in the ocean because 5 x 3 = <<5*3=15>>15
+His ocean races took 5 hours because 15 / 3 = <<15/3=5>>5
+He spent 11 hours racing because 5 + 6 = <<5+6=11>>11
+#### 11
+Question: In one day, 200 people visit The Metropolitan Museum of Art in New York City. Half of the visitors are residents of New York City. Of the NYC residents, 30% are college students. If the cost of a college student ticket is $4, how much money does the museum get from college students that are residents of NYC?
+Answer: The number of visitors that are residents of NYC is 200 / 2 = <<200/2=100>>100 visitors
+The number of NYC resident visitors that are college students is 100 * 0.30 = <<100*0.30=30>>30 visitors
+The money from the college students that are residents of NYC is 30 * $4 = $<<30*4=120>>120
+#### 120
+Question: Tyson can swim at a speed of 3 miles per hour in a lake and 2.5 mph in an ocean. This season, half his races happened in lakes and half his races happened in the ocean. He had ten total races, each of which was 3 miles long. How much time did he spend in his races?
+Answer: He did 5 races in the lake because 10 / 2 = <<10/2=5>>5
+He did 5 races in the ocean because 10 / 2 = <<10/2=5>>5
+He raced 15 miles in the lake because 5 x 3 = <<5*3=15>>15
+His lake races took 6 hours because 15 / 2.5 = <<15/2.5=6>>6
+He raced 15 miles in the ocean because 5 x 3 = <<5*3=15>>15
+His ocean races took 5 hours because 15 / 3 = <<15/3=5>>5
+He spent 11 hours racing because 5 + 6 = <<5+6=11>>11
+#### 11
+Question: A jellyfish tank has numerous jellyfish in it. A fifth of the jellyfish are large, and a third of the large jellyfish change color from green to blue under UV light. The other jellyfish are small and always stay blue. When a UV light turned on, 6 jellyfish changed color. How many jellyfish are in the tank?","Let the total number of jellyfish in the tank be J.
+
+The number of large jellyfish in the tank is J/5.
+Out of these large jellyfish, 1/3 change color, so the number of large jellyfish that changed color is (J/5)*(1/3) = J/15.
+
+Since 6 jellyfish changed color, we have J/15 = 6.
+Multiplying by 15 on both sides, we get J = 90.
+
+Therefore, there are 90 jellyfish in the tank.","A third of the large jellyfish change color, so there are 6 * 3 = <<6*3=18>>18 large jellyfish.
+A fifth of the jellyfish are large, so there are 18 * 5 = <<18*5=90>>90 jellyfish in the tank.
+#### 90"
+Math,3b,"Question: Beth is a scuba diver.  She is excavating a sunken ship off the coast of a small Caribbean island and she must remain underwater for long periods.  Her primary tank, which she wears when she first enters the water, has enough oxygen to allow her to stay underwater for 2 hours.  She also has several 1-hour supplemental tanks that she takes with her as well as stores on the ocean floor so she can change tanks underwater without having to come up to the surface.  She will need to be underwater for 8 hours.  How many supplemental tanks will she need?
+Answer: For an 8-hour dive, she will use her 2-hour primary tanks and will need supplemental tanks for 8-2=<<8-2=6>>6 additional hours.
+Since each supplemental tank holds 1 hour of oxygen, for 6 hours she will need 6/1=<<6/1=6>>6 supplemental tanks.
+#### 6
+Question: Bonny just bought her 13th pair of shoes, which is 5 less than twice as many pairs of shoes as Becky owns.  Bobby has 3 times as many pairs of shoes as Becky has.  How many shoes does Bobby have?
+Answer: Let x be the number of pairs of shoes that Becky owns.
+Since 13 pairs is 5 less than twice as many pairs as Becky owns, then the relationship is 2x-5=13.
+Adding 5 to each side of the equation, we get 2x=18.
+Solving for x, we get x=<<9=9>>9.
+Since Bobby has 3 times as many pairs of shoes as Becky has, then Becky has 3*9=<<3*9=27>>27 pairs of shoes.
+#### 27
+Question: Beth is a scuba diver.  She is excavating a sunken ship off the coast of a small Caribbean island and she must remain underwater for long periods.  Her primary tank, which she wears when she first enters the water, has enough oxygen to allow her to stay underwater for 2 hours.  She also has several 1-hour supplemental tanks that she takes with her as well as stores on the ocean floor so she can change tanks underwater without having to come up to the surface.  She will need to be underwater for 8 hours.  How many supplemental tanks will she need?
+Answer: For an 8-hour dive, she will use her 2-hour primary tanks and will need supplemental tanks for 8-2=<<8-2=6>>6 additional hours.
+Since each supplemental tank holds 1 hour of oxygen, for 6 hours she will need 6/1=<<6/1=6>>6 supplemental tanks.
+#### 6
+Question: Bonny just bought her 13th pair of shoes, which is 5 less than twice as many pairs of shoes as Becky owns.  Bobby has 3 times as many pairs of shoes as Becky has.  How many shoes does Bobby have?
+Answer: Let x be the number of pairs of shoes that Becky owns.
+Since 13 pairs is 5 less than twice as many pairs as Becky owns, then the relationship is 2x-5=13.
+Adding 5 to each side of the equation, we get 2x=18.
+Solving for x, we get x=<<9=9>>9.
+Since Bobby has 3 times as many pairs of shoes as Becky has, then Becky has 3*9=<<3*9=27>>27 pairs of shoes.
+#### 27
+Question: A jellyfish tank has numerous jellyfish in it. A fifth of the jellyfish are large, and a third of the large jellyfish change color from green to blue under UV light. The other jellyfish are small and always stay blue. When a UV light turned on, 6 jellyfish changed color. How many jellyfish are in the tank?","Let x be the total number of jellyfish in the tank.
+
+The number of large jellyfish is x/5.
+The number of large jellyfish that change color is (x/5)/3 = x/15.
+
+Since 6 jellyfish changed color, we can create the equation x/15 = 6.
+
+Multiplying both sides by 15, we get x = 90.
+
+Therefore, there are 90 jellyfish in the tank.","A third of the large jellyfish change color, so there are 6 * 3 = <<6*3=18>>18 large jellyfish.
+A fifth of the jellyfish are large, so there are 18 * 5 = <<18*5=90>>90 jellyfish in the tank.
+#### 90"
+CSQA,0,"Question: A beaver can destroy a machines functionality if they build their dam in this?
+A: strip club
+B: pocket
+C: millpond
+D: ontario
+E: lake or river",C: millpond,C
+CSQA,1a,"Question: What would happen too you if you are playing game?
+A: fall down
+B: stress
+C: competition
+D: having fun
+E: entertain
 Answer: D
-Question: Where would you put a light?
-A: ocean
-B: desk
-C: universe
-D: attic
-E: chair
-Answer: B
-Question: When you play around with your dog they will have?
-A: alive
-B: health
-C: fun
-D: playing dead
-E: black",Answer: C,C
-CSQA,1b,"Question: The man had spent all day collecting old appliance and such, he took the metal to get scrapped where?
-A: car
-B: junkyard
-C: instruments
-D: ore
-E: farm
-Answer: B
-Question: The mother finished wrapping the very last gift, she then placed it under the what?
-A: department store
-B: fraizer fur
-C: specialty store
-D: christmas tree
-E: christmas stocking
+Question: You'll often find wine and crackers served by men in robes where?
+A: garden centre
+B: bar
+C: spaghetti sauce
+D: church
+E: basement
 Answer: D
-Question: When you play around with your dog they will have?
-A: alive
-B: health
-C: fun
-D: playing dead
-E: black",Answer: C,C
-CSQA,2,"Question: The only place you'd find a marmoset in what gold rush region would be in a zoo?
-A: in wild
-B: your moms house
-C: burrow
-D: american west
-E: national park
-Answer: D
-Question: Where would you put a light?
-A: ocean
-B: desk
-C: universe
-D: attic
-E: chair
+Question: A beaver can destroy a machines functionality if they build their dam in this?
+A: strip club
+B: pocket
+C: millpond
+D: ontario
+E: lake or river",Answer: C,C
+CSQA,1b,"Question: Where is a good place for a safabed to be so it can also be used for seating?
+A: garage
+B: sitting room
+C: spare room
+D: livingroom
+E: dinning roam
 Answer: B
-Question: The man had spent all day collecting old appliance and such, he took the metal to get scrapped where?
-A: car
-B: junkyard
-C: instruments
-D: ore
-E: farm
+Question: At the casino I end up playing cards, what is a reason I would do this?
+A: having fun
+B: win money
+C: break even
+D: wasting time
+E: losing money
 Answer: B
-Question: The mother finished wrapping the very last gift, she then placed it under the what?
-A: department store
-B: fraizer fur
-C: specialty store
-D: christmas tree
-E: christmas stocking
+Question: A beaver can destroy a machines functionality if they build their dam in this?
+A: strip club
+B: pocket
+C: millpond
+D: ontario
+E: lake or river",Answer: C,C
+CSQA,2,"Question: What would happen too you if you are playing game?
+A: fall down
+B: stress
+C: competition
+D: having fun
+E: entertain
 Answer: D
-Question: When you play around with your dog they will have?
-A: alive
-B: health
-C: fun
-D: playing dead
-E: black",Answer: C,C
-CSQA,3a,"Question: The only place you'd find a marmoset in what gold rush region would be in a zoo?
-A: in wild
-B: your moms house
-C: burrow
-D: american west
-E: national park
+Question: You'll often find wine and crackers served by men in robes where?
+A: garden centre
+B: bar
+C: spaghetti sauce
+D: church
+E: basement
 Answer: D
-Question: Where would you put a light?
-A: ocean
-B: desk
-C: universe
-D: attic
-E: chair
+Question: Where is a good place for a safabed to be so it can also be used for seating?
+A: garage
+B: sitting room
+C: spare room
+D: livingroom
+E: dinning roam
 Answer: B
-Question: The only place you'd find a marmoset in what gold rush region would be in a zoo?
-A: in wild
-B: your moms house
-C: burrow
-D: american west
-E: national park
-Answer: D
-Question: Where would you put a light?
-A: ocean
-B: desk
-C: universe
-D: attic
-E: chair
+Question: At the casino I end up playing cards, what is a reason I would do this?
+A: having fun
+B: win money
+C: break even
+D: wasting time
+E: losing money
 Answer: B
-Question: When you play around with your dog they will have?
-A: alive
-B: health
-C: fun
-D: playing dead
-E: black",Answer: C,C
-CSQA,3b,"Question: The man had spent all day collecting old appliance and such, he took the metal to get scrapped where?
-A: car
-B: junkyard
-C: instruments
-D: ore
-E: farm
-Answer: B
-Question: The mother finished wrapping the very last gift, she then placed it under the what?
-A: department store
-B: fraizer fur
-C: specialty store
-D: christmas tree
-E: christmas stocking
+Question: A beaver can destroy a machines functionality if they build their dam in this?
+A: strip club
+B: pocket
+C: millpond
+D: ontario
+E: lake or river",Answer: C,C
+CSQA,3a,"Question: What would happen too you if you are playing game?
+A: fall down
+B: stress
+C: competition
+D: having fun
+E: entertain
 Answer: D
-Question: The man had spent all day collecting old appliance and such, he took the metal to get scrapped where?
-A: car
-B: junkyard
-C: instruments
-D: ore
-E: farm
-Answer: B
-Question: The mother finished wrapping the very last gift, she then placed it under the what?
-A: department store
-B: fraizer fur
-C: specialty store
-D: christmas tree
-E: christmas stocking
+Question: You'll often find wine and crackers served by men in robes where?
+A: garden centre
+B: bar
+C: spaghetti sauce
+D: church
+E: basement
 Answer: D
-Question: When you play around with your dog they will have?
-A: alive
-B: health
-C: fun
-D: playing dead
-E: black",Answer: C,C
-StrategyQA,0,"Question: Jack Sparrow is the main character of the popular 'Pirates of the Caribbean' movie franchise. Jack Sparrow is the captain of a pirate ship. Jack Sparrow sings many songs while on the sea.
-Does Jack Sparrow know any sea shantys?","Yes, Jack Sparrow is known for singing sea shanties while on the sea in the 'Pirates of the Caribbean' movies. Some popular sea shanties sung by Jack Sparrow include ""A Pirate's Life for Me"" and ""Yo Ho (A Pirate's Life for Me).""",True
-StrategyQA,1a,"Question: Mesopotamia occupies an area of land called the Fertile Crescent which is part of what is currently known as the Middle East. China is much further East, beyond the Stans and India.
-Was Mesopotamia part of what is now China?
-Answer: False
-Question: Freemasonry is a group of fraternal organizations rooted in fraternities of stonemasons of the fourteenth century. Buzz Aldrin was initiated into the Freemason fraternity in 1955 Buzz Aldrin and Neil Armstrong were the first men to land on the moon in 1969.
-Has Freemasonry been represented on the Moon?
+Question: What would happen too you if you are playing game?
+A: fall down
+B: stress
+C: competition
+D: having fun
+E: entertain
+Answer: D
+Question: You'll often find wine and crackers served by men in robes where?
+A: garden centre
+B: bar
+C: spaghetti sauce
+D: church
+E: basement
+Answer: D
+Question: A beaver can destroy a machines functionality if they build their dam in this?
+A: strip club
+B: pocket
+C: millpond
+D: ontario
+E: lake or river",Answer: C,C
+CSQA,3b,"Question: Where is a good place for a safabed to be so it can also be used for seating?
+A: garage
+B: sitting room
+C: spare room
+D: livingroom
+E: dinning roam
+Answer: B
+Question: At the casino I end up playing cards, what is a reason I would do this?
+A: having fun
+B: win money
+C: break even
+D: wasting time
+E: losing money
+Answer: B
+Question: Where is a good place for a safabed to be so it can also be used for seating?
+A: garage
+B: sitting room
+C: spare room
+D: livingroom
+E: dinning roam
+Answer: B
+Question: At the casino I end up playing cards, what is a reason I would do this?
+A: having fun
+B: win money
+C: break even
+D: wasting time
+E: losing money
+Answer: B
+Question: A beaver can destroy a machines functionality if they build their dam in this?
+A: strip club
+B: pocket
+C: millpond
+D: ontario
+E: lake or river",Answer: C,C
+StrategyQA,0,"Question: Julia Roberts played the clarinet in her school band. Blast beats are a drum beat that originated in hardcore punk and grindcore, and is often associated with certain styles of extreme metal, namely black metal and death metal.
+Did Julia Roberts practice blast beats as a child?","There is no information available to suggest that Julia Roberts practiced blast beats as a child. It is known that she played the clarinet in her school band, but there is no evidence to suggest she was involved in playing drums or specifically practicing blast beats.",False
+StrategyQA,1a,"Question: Project Semicolon is an American nonprofit organization known for its advocacy of mental health wellness and its focus as an anti-suicide initiative. During the last years of his life, Cobain struggled with heroin addiction and chronic health problems such as depression. Cobain died at the age of 27 from apparent suicide by gunshot.
+Would Kurt Cobain have benefited from Project Semicolon?
 Answer: True
-Question: Jack Sparrow is the main character of the popular 'Pirates of the Caribbean' movie franchise. Jack Sparrow is the captain of a pirate ship. Jack Sparrow sings many songs while on the sea.
-Does Jack Sparrow know any sea shantys?",Answer: True,True
-StrategyQA,1b,"Question: The Book of Daniel is a book in the Old Testament of the Bible. The Bible is divided into the Old Testament and the New Testament. The New Testament focuses on four Gospels regarding the life of Jesus.
-Was Daniel thrown into the lion's den in the New Testament?
+Question: Super Mario follows the adventures of a plumber named Mario. Mario wears a red shirt and plumber's overalls.
+Does Super Mario mainly focus on a man in green?
 Answer: False
-Question: Black Salt has is a kiln-fired rock salt that contains sulfur. When black salt is cooked with, it smells similar to rotten eggs.  Rotten eggs smell like sulfur.
-Would food made with black salt smell of sulfur?
-Answer: True
-Question: Jack Sparrow is the main character of the popular 'Pirates of the Caribbean' movie franchise. Jack Sparrow is the captain of a pirate ship. Jack Sparrow sings many songs while on the sea.
-Does Jack Sparrow know any sea shantys?",Answer: True,True
-StrategyQA,2,"Question: Mesopotamia occupies an area of land called the Fertile Crescent which is part of what is currently known as the Middle East. China is much further East, beyond the Stans and India.
-Was Mesopotamia part of what is now China?
+Question: Julia Roberts played the clarinet in her school band. Blast beats are a drum beat that originated in hardcore punk and grindcore, and is often associated with certain styles of extreme metal, namely black metal and death metal.
+Did Julia Roberts practice blast beats as a child?",Answer: False,False
+StrategyQA,1b,"Question: A fully grown horseradish plant can reach a height of 4.9 feet. Newborn children are typically between 14-20 inches tall in first world countries.
+Could a newborn look over the top of a fully grown horseradish plant?
 Answer: False
-Question: Freemasonry is a group of fraternal organizations rooted in fraternities of stonemasons of the fourteenth century. Buzz Aldrin was initiated into the Freemason fraternity in 1955 Buzz Aldrin and Neil Armstrong were the first men to land on the moon in 1969.
-Has Freemasonry been represented on the Moon?
+Question: Actress Natalie Portman resumed her vegan diet in 2018 after giving birth, and has been vegan ever since. Vegans do not eat animal products. Snickers contains egg whites as an ingredient.
+Would 2019 Natalie Portman avoid a Snickers bar due to her diet?
 Answer: True
-Question: The Book of Daniel is a book in the Old Testament of the Bible. The Bible is divided into the Old Testament and the New Testament. The New Testament focuses on four Gospels regarding the life of Jesus.
-Was Daniel thrown into the lion's den in the New Testament?
+Question: Julia Roberts played the clarinet in her school band. Blast beats are a drum beat that originated in hardcore punk and grindcore, and is often associated with certain styles of extreme metal, namely black metal and death metal.
+Did Julia Roberts practice blast beats as a child?",Answer: False,False
+StrategyQA,2,"Question: Project Semicolon is an American nonprofit organization known for its advocacy of mental health wellness and its focus as an anti-suicide initiative. During the last years of his life, Cobain struggled with heroin addiction and chronic health problems such as depression. Cobain died at the age of 27 from apparent suicide by gunshot.
+Would Kurt Cobain have benefited from Project Semicolon?
+Answer: True
+Question: Super Mario follows the adventures of a plumber named Mario. Mario wears a red shirt and plumber's overalls.
+Does Super Mario mainly focus on a man in green?
 Answer: False
-Question: Black Salt has is a kiln-fired rock salt that contains sulfur. When black salt is cooked with, it smells similar to rotten eggs.  Rotten eggs smell like sulfur.
-Would food made with black salt smell of sulfur?
-Answer: True
-Question: Jack Sparrow is the main character of the popular 'Pirates of the Caribbean' movie franchise. Jack Sparrow is the captain of a pirate ship. Jack Sparrow sings many songs while on the sea.
-Does Jack Sparrow know any sea shantys?",Answer: True,True
-StrategyQA,3a,"Question: Mesopotamia occupies an area of land called the Fertile Crescent which is part of what is currently known as the Middle East. China is much further East, beyond the Stans and India.
-Was Mesopotamia part of what is now China?
+Question: A fully grown horseradish plant can reach a height of 4.9 feet. Newborn children are typically between 14-20 inches tall in first world countries.
+Could a newborn look over the top of a fully grown horseradish plant?
 Answer: False
-Question: Freemasonry is a group of fraternal organizations rooted in fraternities of stonemasons of the fourteenth century. Buzz Aldrin was initiated into the Freemason fraternity in 1955 Buzz Aldrin and Neil Armstrong were the first men to land on the moon in 1969.
-Has Freemasonry been represented on the Moon?
+Question: Actress Natalie Portman resumed her vegan diet in 2018 after giving birth, and has been vegan ever since. Vegans do not eat animal products. Snickers contains egg whites as an ingredient.
+Would 2019 Natalie Portman avoid a Snickers bar due to her diet?
 Answer: True
-Question: Mesopotamia occupies an area of land called the Fertile Crescent which is part of what is currently known as the Middle East. China is much further East, beyond the Stans and India.
-Was Mesopotamia part of what is now China?
+Question: Julia Roberts played the clarinet in her school band. Blast beats are a drum beat that originated in hardcore punk and grindcore, and is often associated with certain styles of extreme metal, namely black metal and death metal.
+Did Julia Roberts practice blast beats as a child?",False,False
+StrategyQA,3a,"Question: Project Semicolon is an American nonprofit organization known for its advocacy of mental health wellness and its focus as an anti-suicide initiative. During the last years of his life, Cobain struggled with heroin addiction and chronic health problems such as depression. Cobain died at the age of 27 from apparent suicide by gunshot.
+Would Kurt Cobain have benefited from Project Semicolon?
+Answer: True
+Question: Super Mario follows the adventures of a plumber named Mario. Mario wears a red shirt and plumber's overalls.
+Does Super Mario mainly focus on a man in green?
 Answer: False
-Question: Freemasonry is a group of fraternal organizations rooted in fraternities of stonemasons of the fourteenth century. Buzz Aldrin was initiated into the Freemason fraternity in 1955 Buzz Aldrin and Neil Armstrong were the first men to land on the moon in 1969.
-Has Freemasonry been represented on the Moon?
+Question: Project Semicolon is an American nonprofit organization known for its advocacy of mental health wellness and its focus as an anti-suicide initiative. During the last years of his life, Cobain struggled with heroin addiction and chronic health problems such as depression. Cobain died at the age of 27 from apparent suicide by gunshot.
+Would Kurt Cobain have benefited from Project Semicolon?
 Answer: True
-Question: Jack Sparrow is the main character of the popular 'Pirates of the Caribbean' movie franchise. Jack Sparrow is the captain of a pirate ship. Jack Sparrow sings many songs while on the sea.
-Does Jack Sparrow know any sea shantys?",Answer: True,True
-StrategyQA,3b,"Question: The Book of Daniel is a book in the Old Testament of the Bible. The Bible is divided into the Old Testament and the New Testament. The New Testament focuses on four Gospels regarding the life of Jesus.
-Was Daniel thrown into the lion's den in the New Testament?
+Question: Super Mario follows the adventures of a plumber named Mario. Mario wears a red shirt and plumber's overalls.
+Does Super Mario mainly focus on a man in green?
 Answer: False
-Question: Black Salt has is a kiln-fired rock salt that contains sulfur. When black salt is cooked with, it smells similar to rotten eggs.  Rotten eggs smell like sulfur.
-Would food made with black salt smell of sulfur?
-Answer: True
-Question: The Book of Daniel is a book in the Old Testament of the Bible. The Bible is divided into the Old Testament and the New Testament. The New Testament focuses on four Gospels regarding the life of Jesus.
-Was Daniel thrown into the lion's den in the New Testament?
+Question: Julia Roberts played the clarinet in her school band. Blast beats are a drum beat that originated in hardcore punk and grindcore, and is often associated with certain styles of extreme metal, namely black metal and death metal.
+Did Julia Roberts practice blast beats as a child?",Answer: False,False
+StrategyQA,3b,"Question: A fully grown horseradish plant can reach a height of 4.9 feet. Newborn children are typically between 14-20 inches tall in first world countries.
+Could a newborn look over the top of a fully grown horseradish plant?
 Answer: False
-Question: Black Salt has is a kiln-fired rock salt that contains sulfur. When black salt is cooked with, it smells similar to rotten eggs.  Rotten eggs smell like sulfur.
-Would food made with black salt smell of sulfur?
+Question: Actress Natalie Portman resumed her vegan diet in 2018 after giving birth, and has been vegan ever since. Vegans do not eat animal products. Snickers contains egg whites as an ingredient.
+Would 2019 Natalie Portman avoid a Snickers bar due to her diet?
 Answer: True
-Question: Jack Sparrow is the main character of the popular 'Pirates of the Caribbean' movie franchise. Jack Sparrow is the captain of a pirate ship. Jack Sparrow sings many songs while on the sea.
-Does Jack Sparrow know any sea shantys?",Answer: True,True
-SayCan,0,Question: Provide step-by-step instructions for the following task: Lift the coke,"1. Identify where the coke is located, ensuring there is enough space around it to lift it safely.
-2. Stand facing the coke with your feet shoulder-width apart for stability.
-3. Bend your knees slightly to prepare for lifting.
-4. Keep your back straight and engage your core muscles to support your spine.
-5. Reach down with both hands and firmly grip the coke container or bottle.
-6. Use your leg muscles to push up from the ground as you straighten your legs, lifting the coke off the ground.
-7. Keep the coke close to your body as you lift it to prevent strain on your back.
-8. Once the coke is lifted, hold it securely with both hands and slowly stand up completely.
-9. Take small steps if necessary to move the coke to its desired location.
-10. When placing the coke down, bend your knees and lower it gently to the ground using your leg muscles.
-11. Release your grip on the coke once it is securely on the ground.
-12. Remember to always lift with your legs, not your back, to prevent injury.","1. pick up the coke, 2. done"
-SayCan,1a,"Question: Provide step-by-step instructions for the following task: I’d like a clear soda.
-Answer: 1. find a 7up, 2. pick up the 7up, 3. bring it to you, 4. put down the 7up, 5. done
-Question: Provide step-by-step instructions for the following task: Can you bring me a spicy snack?
-Answer: 1. find a jalapeno chips, 2. pick up the jalapeno chips, 3. bring it to you, 4. put down the jalapeno chips, 5. done.
-Question: Provide step-by-step instructions for the following task: Lift the coke","Answer: 1. Find a bottle or can of Coke, 2. Pick up the bottle or can of Coke, 3. Lift the bottle or can of Coke to the desired height, 4. Hold the bottle or can of Coke in that position for as long as needed, 5. Lower the bottle or can of Coke back down when finished, 6. Done.","1. pick up the coke, 2. done"
-SayCan,1b,"Question: Provide step-by-step instructions for the following task: I’m allergic to apples, can I get a fruit?
-Answer: 1. find an orange, 2. pick up the orange, 3. bring it to you, 4. put down the orange, 5. done
-Question: Provide step-by-step instructions for the following task: How would you grab the coke can?
+Question: A fully grown horseradish plant can reach a height of 4.9 feet. Newborn children are typically between 14-20 inches tall in first world countries.
+Could a newborn look over the top of a fully grown horseradish plant?
+Answer: False
+Question: Actress Natalie Portman resumed her vegan diet in 2018 after giving birth, and has been vegan ever since. Vegans do not eat animal products. Snickers contains egg whites as an ingredient.
+Would 2019 Natalie Portman avoid a Snickers bar due to her diet?
+Answer: True
+Question: Julia Roberts played the clarinet in her school band. Blast beats are a drum beat that originated in hardcore punk and grindcore, and is often associated with certain styles of extreme metal, namely black metal and death metal.
+Did Julia Roberts practice blast beats as a child?",Answer: False,False
+SayCan,0,Question: Move the chips bag from the table to the counter.,"Sure, I'll move the chips bag from the table to the counter.","1. find the bag of chips, 2. pick up the bag of chips, 3. go to the counter, 4. put down the bag of chips, 5. done"
+SayCan,1a,"Question: Park at the table.
+Answer: 1. go to the table, 2. done
+Question: How would you grab the coke can?
 Answer: 1. pick up the coke can, 2. done
-Question: Provide step-by-step instructions for the following task: Lift the coke","can to your mouth and take a sip.
-Answer: 1. Hold the coke can in one hand, 2. Bring the can up to your mouth, 3. Tilt the can slightly to let the liquid flow out, 4. Take a sip, 5. Lower the can back down, 6. Done.","1. pick up the coke, 2. done"
-SayCan,2,"Question: Provide step-by-step instructions for the following task: I’d like a clear soda.
-Answer: 1. find a 7up, 2. pick up the 7up, 3. bring it to you, 4. put down the 7up, 5. done
-Question: Provide step-by-step instructions for the following task: Can you bring me a spicy snack?
-Answer: 1. find a jalapeno chips, 2. pick up the jalapeno chips, 3. bring it to you, 4. put down the jalapeno chips, 5. done.
-Question: Provide step-by-step instructions for the following task: I’m allergic to apples, can I get a fruit?
-Answer: 1. find an orange, 2. pick up the orange, 3. bring it to you, 4. put down the orange, 5. done
-Question: Provide step-by-step instructions for the following task: How would you grab the coke can?
+Question: Move the chips bag from the table to the counter.","Answer: 1. pick up the chips bag, 2. walk to the counter, 3. place the chips bag on the counter, 4. done","1. find the bag of chips, 2. pick up the bag of chips, 3. go to the counter, 4. put down the bag of chips, 5. done"
+SayCan,1b,"Question: Put a banana on the counter.
+Answer: 1. pick up the banana, 2. go to the counter, 3. put down the banana, 4. done
+Question: Could you get me a drink with caffeine?
+Answer: 1. find a coke, 2. pick up the coke, 3. bring it to you, 4. put down the coke, 5. done.
+Question: Move the chips bag from the table to the counter.","Answer: 1. pick up the chips bag, 2. go to the counter, 3. put down the chips bag, 4. done.","1. find the bag of chips, 2. pick up the bag of chips, 3. go to the counter, 4. put down the bag of chips, 5. done"
+SayCan,2,"Question: Park at the table.
+Answer: 1. go to the table, 2. done
+Question: How would you grab the coke can?
 Answer: 1. pick up the coke can, 2. done
-Question: Provide step-by-step instructions for the following task: Lift the coke","can from the table.
-Answer: 1. Reach for the coke can on the table, 2. Grip the can with your hand, 3. Lift the can off the table, 4. Hold the can securely, 5. Done.","1. pick up the coke, 2. done"
-SayCan,3a,"Question: Provide step-by-step instructions for the following task: I’d like a clear soda.
-Answer: 1. find a 7up, 2. pick up the 7up, 3. bring it to you, 4. put down the 7up, 5. done
-Question: Provide step-by-step instructions for the following task: Can you bring me a spicy snack?
-Answer: 1. find a jalapeno chips, 2. pick up the jalapeno chips, 3. bring it to you, 4. put down the jalapeno chips, 5. done.
-Question: Provide step-by-step instructions for the following task: I’d like a clear soda.
-Answer: 1. find a 7up, 2. pick up the 7up, 3. bring it to you, 4. put down the 7up, 5. done
-Question: Provide step-by-step instructions for the following task: Can you bring me a spicy snack?
-Answer: 1. find a jalapeno chips, 2. pick up the jalapeno chips, 3. bring it to you, 4. put down the jalapeno chips, 5. done.
-Question: Provide step-by-step instructions for the following task: Lift the coke","Answer: 1. Pick up the can or bottle of coke, 2. Hold it with your hand or hands, 3. Lift it upwards, 4. Raise it to your desired height, 5. Hold it steady, 6. Lower it back down when you are finished.","1. pick up the coke, 2. done"
-SayCan,3b,"Question: Provide step-by-step instructions for the following task: I’m allergic to apples, can I get a fruit?
-Answer: 1. find an orange, 2. pick up the orange, 3. bring it to you, 4. put down the orange, 5. done
-Question: Provide step-by-step instructions for the following task: How would you grab the coke can?
+Question: Put a banana on the counter.
+Answer: 1. pick up the banana, 2. go to the counter, 3. put down the banana, 4. done
+Question: Could you get me a drink with caffeine?
+Answer: 1. find a coke, 2. pick up the coke, 3. bring it to you, 4. put down the coke, 5. done.
+Question: Move the chips bag from the table to the counter.","Answer: 1. pick up the chips bag, 2. go to the counter, 3. put down the chips bag, 4. done","1. find the bag of chips, 2. pick up the bag of chips, 3. go to the counter, 4. put down the bag of chips, 5. done"
+SayCan,3a,"Question: Park at the table.
+Answer: 1. go to the table, 2. done
+Question: How would you grab the coke can?
 Answer: 1. pick up the coke can, 2. done
-Question: Provide step-by-step instructions for the following task: I’m allergic to apples, can I get a fruit?
-Answer: 1. find an orange, 2. pick up the orange, 3. bring it to you, 4. put down the orange, 5. done
-Question: Provide step-by-step instructions for the following task: How would you grab the coke can?
+Question: Park at the table.
+Answer: 1. go to the table, 2. done
+Question: How would you grab the coke can?
 Answer: 1. pick up the coke can, 2. done
-Question: Provide step-by-step instructions for the following task: Lift the coke","Answer: 1. Place your hand on the coke can, 2. Use your fingers to grip the sides of the can, 3. Lift the can upwards using your hand, 4. Hold the can securely to prevent it from slipping, 5. Done.","1. pick up the coke, 2. done"
+Question: Move the chips bag from the table to the counter.","Answer: 1. grab the chips bag, 2. walk to the counter, 3. place the chips bag on the counter, 4. done","1. find the bag of chips, 2. pick up the bag of chips, 3. go to the counter, 4. put down the bag of chips, 5. done"
+SayCan,3b,"Question: Put a banana on the counter.
+Answer: 1. pick up the banana, 2. go to the counter, 3. put down the banana, 4. done
+Question: Could you get me a drink with caffeine?
+Answer: 1. find a coke, 2. pick up the coke, 3. bring it to you, 4. put down the coke, 5. done.
+Question: Put a banana on the counter.
+Answer: 1. pick up the banana, 2. go to the counter, 3. put down the banana, 4. done
+Question: Could you get me a drink with caffeine?
+Answer: 1. find a coke, 2. pick up the coke, 3. bring it to you, 4. put down the coke, 5. done.
+Question: Move the chips bag from the table to the counter.","Answer: 1. pick up the chips bag, 2. go to the counter, 3. put down the chips bag, 4. done","1. find the bag of chips, 2. pick up the bag of chips, 3. go to the counter, 4. put down the bag of chips, 5. done"

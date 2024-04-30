@@ -66,7 +66,6 @@ def process_trial(t: int):
 
     strategyqa_task = random.choice(strategyqa_dataset['test'])
     saycan_task = saycan_dataset.pop(random.randint(0, len(saycan_dataset)))
-    saycan_task['q'] = "Provide step-by-step instructions for the following task: " + saycan_task['q']
 
     tasks_by_task_class = {
         "Math": {
@@ -110,9 +109,6 @@ def process_trial(t: int):
         })
 
     examples_by_task_class["SayCan"] = random.sample(saycan_dataset, NUM_EXAMPLES)
-
-    for example in examples_by_task_class["SayCan"]:
-        example['q'] = "Provide step-by-step instructions for the following task: " + example['q']
 
     results = [["Task Class", "Case", "Prompt", "Response", "Expected"]]
 

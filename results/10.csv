@@ -1,404 +1,498 @@
 Task Class,Case,Prompt,Response,Expected
-Math,0,"Question: John is very tired. He decides to take a nap, but he wants to finish his homework first. If John has 20 minutes of math homework, 40 minutes of reading homework, and 20 minutes of history homework and 3 hours before he has to eat dinner, how many minutes does John have to nap?","To find out how many minutes John has to nap, we need to first calculate the total time he needs to finish his homework.
+Math,0,"Question: Jerry has a flock of chickens. The red chickens produce 3 eggs a day, and the white chickens produce 5 eggs a day. Every day Jerry collects 42 eggs. If he has two more white chickens than red chickens, how many red chickens does he have?","Let's represent the number of red chickens as R and the number of white chickens as W.
 
-Total time for homework = 20 minutes (math) + 40 minutes (reading) + 20 minutes (history)
-Total time for homework = 80 minutes
+We know that the red chickens produce 3 eggs per day, so the total number of eggs produced by red chickens is 3R.
 
-Now, we need to subtract this total time from the time John has before dinner to find out how many minutes he has to nap.
+Similarly, the white chickens produce 5 eggs per day, so the total number of eggs produced by white chickens is 5W.
 
-Time before dinner = 3 hours = 3 hours x 60 minutes/hour = 180 minutes
+We also know that Jerry collects 42 eggs every day, so we can write the equation:
 
-Minutes John has to nap = Time before dinner - Total time for homework
-Minutes John has to nap = 180 minutes - 80 minutes
-Minutes John has to nap = 100 minutes
+3R + 5W = 42
 
-Therefore, John has 100 minutes to nap before he has to eat dinner.","John has to spend 20+40+20 = <<20+40+20=80>>80 minutes on homework.
-John has 3 hours*60 minutes= <<3*60=180>>180 minutes before dinner.
-Thus, John has 180-80=<<180-80=100>>100 minutes for his nap.
-#### 100"
-Math,1a,"Question: Jordan read 120 French novels last holiday. His brother Alexandre read 1/10 of what Jordan read. How many more novels did Jordan read than Alexandre?
-Answer: Alexandre read 120 * 1/10 = <<120*1/10=12>>12 novels.
-So, Jordan read 120 - 12 = <<120-12=108>>108 novels more than Alexandre.
-#### 108
-Question: Francie saves up her allowance for several weeks. She receives an allowance of $5 a week for 8 weeks. Then her dad raises her allowance, and she receives $6 a week for 6 weeks. Francie uses half of the money to buy new clothes. With the remaining money, she buys a video game that costs $35. How much money does Francie have remaining after buying the video game?
-Answer: When her allowance is $5 a week, Francie gets a total of $5 * 8 = $<<5*8=40>>40
-When her allowance is $6 a week, Francie gets a total of $6 * 6 = $<<6*6=36>>36
-The total amount of money Francie gets is $40 + $36 = $<<40+36=76>>76
-After purchasing new clothes, she has $76 / 2 = $<<76/2=38>>38 remaining
-After buying the video game, Francie has $38 - $35 = $<<38-35=3>>3 remaining
-#### 3
-Question: John is very tired. He decides to take a nap, but he wants to finish his homework first. If John has 20 minutes of math homework, 40 minutes of reading homework, and 20 minutes of history homework and 3 hours before he has to eat dinner, how many minutes does John have to nap?","Answer: John has a total of 20 + 40 + 20 = <<20+40+20=80>>80 minutes of homework.
-Three hours is equal to 3 * 60 = <<3*60=180>>180 minutes.
-Subtracting the time for homework, John has 180 - 80 = <<180-80=100>>100 minutes to nap.
-#### 100","John has to spend 20+40+20 = <<20+40+20=80>>80 minutes on homework.
-John has 3 hours*60 minutes= <<3*60=180>>180 minutes before dinner.
-Thus, John has 180-80=<<180-80=100>>100 minutes for his nap.
-#### 100"
-Math,1b,"Question: Gabe has three songs on his playlist. “The Best Day” is 3 minutes, “Raise the Roof” is 2 minutes, and “Rap Battle” is 3 minutes. How many times can Gabe listen to his entire playlist on the 40-minute ride to his wrestling match?
-Answer: If you add all the songs together, Gabe’s playlist is 3 + 2 + 3 = <<3+2+3=8>>8 minutes long.
-During the 40-minute car ride, Gabe can listen to his 8-minute playlist 40 / 8 = <<40/8=5>>5 times.
-#### 5
-Question: Carly is making burgers for a neighborhood BBQ. Each burger needs to be cooked for 4 minutes on each side. Carly can fit 5 burgers on the grill at once. If half her 30 guests want 2 burgers and the other half each want 1, how long will it take Carly to cook all the burgers?
-Answer: First find half the number of guests at Carly's party: 30 guests / 2 = <<30/2=15>>15 guests
-Then multiply that number by 2 for the number of burgers half the guests want: 15 guests * 2 burgers/guest = <<15*2=30>>30 burgers
-Then add the 15 burgers for the 15 guests who only want 1 to find the total number of burgers: 30 burgers + 15 burgers = 45 burgers
-Then divide the total number of burgers by the number of burgers Carly can cook at once to find the number of batches she cooks: 45 burgers / 5 burgers/batch = <<45/5=9>>9 batches
-Then multiply the number of sides per burger by the cooking time per side to find each burger's total cook time: 4 minutes/side * 2 sides = <<4*2=8>>8 minutes
-Finally, multiply each batch's cook time by the number of batches to find the total cook time: 8 minutes/batch * 9 batches = <<8*9=72>>72 minutes
-#### 72
-Question: John is very tired. He decides to take a nap, but he wants to finish his homework first. If John has 20 minutes of math homework, 40 minutes of reading homework, and 20 minutes of history homework and 3 hours before he has to eat dinner, how many minutes does John have to nap?","Answer: First, add up the time John needs to finish all his homework: 20 minutes + 40 minutes + 20 minutes = 80 minutes
-Next, convert 3 hours into minutes: 3 hours * 60 minutes/hour = 180 minutes
-Subtract the time needed to finish homework from the total time John has before dinner: 180 minutes - 80 minutes = <<180-80=100>>100 minutes
-Therefore, John has 100 minutes to take a nap before he has to eat dinner.","John has to spend 20+40+20 = <<20+40+20=80>>80 minutes on homework.
-John has 3 hours*60 minutes= <<3*60=180>>180 minutes before dinner.
-Thus, John has 180-80=<<180-80=100>>100 minutes for his nap.
-#### 100"
-Math,2,"Question: Jordan read 120 French novels last holiday. His brother Alexandre read 1/10 of what Jordan read. How many more novels did Jordan read than Alexandre?
-Answer: Alexandre read 120 * 1/10 = <<120*1/10=12>>12 novels.
-So, Jordan read 120 - 12 = <<120-12=108>>108 novels more than Alexandre.
-#### 108
-Question: Francie saves up her allowance for several weeks. She receives an allowance of $5 a week for 8 weeks. Then her dad raises her allowance, and she receives $6 a week for 6 weeks. Francie uses half of the money to buy new clothes. With the remaining money, she buys a video game that costs $35. How much money does Francie have remaining after buying the video game?
-Answer: When her allowance is $5 a week, Francie gets a total of $5 * 8 = $<<5*8=40>>40
-When her allowance is $6 a week, Francie gets a total of $6 * 6 = $<<6*6=36>>36
-The total amount of money Francie gets is $40 + $36 = $<<40+36=76>>76
-After purchasing new clothes, she has $76 / 2 = $<<76/2=38>>38 remaining
-After buying the video game, Francie has $38 - $35 = $<<38-35=3>>3 remaining
-#### 3
-Question: Gabe has three songs on his playlist. “The Best Day” is 3 minutes, “Raise the Roof” is 2 minutes, and “Rap Battle” is 3 minutes. How many times can Gabe listen to his entire playlist on the 40-minute ride to his wrestling match?
-Answer: If you add all the songs together, Gabe’s playlist is 3 + 2 + 3 = <<3+2+3=8>>8 minutes long.
-During the 40-minute car ride, Gabe can listen to his 8-minute playlist 40 / 8 = <<40/8=5>>5 times.
-#### 5
-Question: Carly is making burgers for a neighborhood BBQ. Each burger needs to be cooked for 4 minutes on each side. Carly can fit 5 burgers on the grill at once. If half her 30 guests want 2 burgers and the other half each want 1, how long will it take Carly to cook all the burgers?
-Answer: First find half the number of guests at Carly's party: 30 guests / 2 = <<30/2=15>>15 guests
-Then multiply that number by 2 for the number of burgers half the guests want: 15 guests * 2 burgers/guest = <<15*2=30>>30 burgers
-Then add the 15 burgers for the 15 guests who only want 1 to find the total number of burgers: 30 burgers + 15 burgers = 45 burgers
-Then divide the total number of burgers by the number of burgers Carly can cook at once to find the number of batches she cooks: 45 burgers / 5 burgers/batch = <<45/5=9>>9 batches
-Then multiply the number of sides per burger by the cooking time per side to find each burger's total cook time: 4 minutes/side * 2 sides = <<4*2=8>>8 minutes
-Finally, multiply each batch's cook time by the number of batches to find the total cook time: 8 minutes/batch * 9 batches = <<8*9=72>>72 minutes
-#### 72
-Question: John is very tired. He decides to take a nap, but he wants to finish his homework first. If John has 20 minutes of math homework, 40 minutes of reading homework, and 20 minutes of history homework and 3 hours before he has to eat dinner, how many minutes does John have to nap?","Answer: First, calculate the total time John's homework will take by adding the time for each subject: 20 minutes + 40 minutes + 20 minutes = <<20+40+20=80>>80 minutes
-Convert the 3 hours before dinner to minutes: 3 hours * 60 minutes/hour = <<3*60=180>>180 minutes
-Subtract the time John's homework will take from the time before dinner to find the time he has to nap: 180 minutes - 80 minutes = <<180-80=100>>100 minutes
-John has 100 minutes to nap before he has to eat dinner.","John has to spend 20+40+20 = <<20+40+20=80>>80 minutes on homework.
-John has 3 hours*60 minutes= <<3*60=180>>180 minutes before dinner.
-Thus, John has 180-80=<<180-80=100>>100 minutes for his nap.
-#### 100"
-Math,3a,"Question: Jordan read 120 French novels last holiday. His brother Alexandre read 1/10 of what Jordan read. How many more novels did Jordan read than Alexandre?
-Answer: Alexandre read 120 * 1/10 = <<120*1/10=12>>12 novels.
-So, Jordan read 120 - 12 = <<120-12=108>>108 novels more than Alexandre.
-#### 108
-Question: Francie saves up her allowance for several weeks. She receives an allowance of $5 a week for 8 weeks. Then her dad raises her allowance, and she receives $6 a week for 6 weeks. Francie uses half of the money to buy new clothes. With the remaining money, she buys a video game that costs $35. How much money does Francie have remaining after buying the video game?
-Answer: When her allowance is $5 a week, Francie gets a total of $5 * 8 = $<<5*8=40>>40
-When her allowance is $6 a week, Francie gets a total of $6 * 6 = $<<6*6=36>>36
-The total amount of money Francie gets is $40 + $36 = $<<40+36=76>>76
-After purchasing new clothes, she has $76 / 2 = $<<76/2=38>>38 remaining
-After buying the video game, Francie has $38 - $35 = $<<38-35=3>>3 remaining
-#### 3
-Question: Jordan read 120 French novels last holiday. His brother Alexandre read 1/10 of what Jordan read. How many more novels did Jordan read than Alexandre?
-Answer: Alexandre read 120 * 1/10 = <<120*1/10=12>>12 novels.
-So, Jordan read 120 - 12 = <<120-12=108>>108 novels more than Alexandre.
-#### 108
-Question: Francie saves up her allowance for several weeks. She receives an allowance of $5 a week for 8 weeks. Then her dad raises her allowance, and she receives $6 a week for 6 weeks. Francie uses half of the money to buy new clothes. With the remaining money, she buys a video game that costs $35. How much money does Francie have remaining after buying the video game?
-Answer: When her allowance is $5 a week, Francie gets a total of $5 * 8 = $<<5*8=40>>40
-When her allowance is $6 a week, Francie gets a total of $6 * 6 = $<<6*6=36>>36
-The total amount of money Francie gets is $40 + $36 = $<<40+36=76>>76
-After purchasing new clothes, she has $76 / 2 = $<<76/2=38>>38 remaining
-After buying the video game, Francie has $38 - $35 = $<<38-35=3>>3 remaining
-#### 3
-Question: John is very tired. He decides to take a nap, but he wants to finish his homework first. If John has 20 minutes of math homework, 40 minutes of reading homework, and 20 minutes of history homework and 3 hours before he has to eat dinner, how many minutes does John have to nap?","First, let's add up all the time John needs to finish his homework:
-20 minutes + 40 minutes + 20 minutes = 80 minutes
+We are also given that Jerry has two more white chickens than red chickens, so we can write another equation:
 
-Next, convert 3 hours to minutes:
-3 hours * 60 minutes/hour = 180 minutes
+W = R + 2
 
-Now, subtract the time needed for homework from the total time before dinner:
-180 minutes - 80 minutes = 100 minutes
+Now we can substitute the second equation into the first equation to find the value of R:
 
-So, John has 100 minutes to nap before he has to eat dinner.","John has to spend 20+40+20 = <<20+40+20=80>>80 minutes on homework.
-John has 3 hours*60 minutes= <<3*60=180>>180 minutes before dinner.
-Thus, John has 180-80=<<180-80=100>>100 minutes for his nap.
-#### 100"
-Math,3b,"Question: Gabe has three songs on his playlist. “The Best Day” is 3 minutes, “Raise the Roof” is 2 minutes, and “Rap Battle” is 3 minutes. How many times can Gabe listen to his entire playlist on the 40-minute ride to his wrestling match?
-Answer: If you add all the songs together, Gabe’s playlist is 3 + 2 + 3 = <<3+2+3=8>>8 minutes long.
-During the 40-minute car ride, Gabe can listen to his 8-minute playlist 40 / 8 = <<40/8=5>>5 times.
-#### 5
-Question: Carly is making burgers for a neighborhood BBQ. Each burger needs to be cooked for 4 minutes on each side. Carly can fit 5 burgers on the grill at once. If half her 30 guests want 2 burgers and the other half each want 1, how long will it take Carly to cook all the burgers?
-Answer: First find half the number of guests at Carly's party: 30 guests / 2 = <<30/2=15>>15 guests
-Then multiply that number by 2 for the number of burgers half the guests want: 15 guests * 2 burgers/guest = <<15*2=30>>30 burgers
-Then add the 15 burgers for the 15 guests who only want 1 to find the total number of burgers: 30 burgers + 15 burgers = 45 burgers
-Then divide the total number of burgers by the number of burgers Carly can cook at once to find the number of batches she cooks: 45 burgers / 5 burgers/batch = <<45/5=9>>9 batches
-Then multiply the number of sides per burger by the cooking time per side to find each burger's total cook time: 4 minutes/side * 2 sides = <<4*2=8>>8 minutes
-Finally, multiply each batch's cook time by the number of batches to find the total cook time: 8 minutes/batch * 9 batches = <<8*9=72>>72 minutes
-#### 72
-Question: Gabe has three songs on his playlist. “The Best Day” is 3 minutes, “Raise the Roof” is 2 minutes, and “Rap Battle” is 3 minutes. How many times can Gabe listen to his entire playlist on the 40-minute ride to his wrestling match?
-Answer: If you add all the songs together, Gabe’s playlist is 3 + 2 + 3 = <<3+2+3=8>>8 minutes long.
-During the 40-minute car ride, Gabe can listen to his 8-minute playlist 40 / 8 = <<40/8=5>>5 times.
-#### 5
-Question: Carly is making burgers for a neighborhood BBQ. Each burger needs to be cooked for 4 minutes on each side. Carly can fit 5 burgers on the grill at once. If half her 30 guests want 2 burgers and the other half each want 1, how long will it take Carly to cook all the burgers?
-Answer: First find half the number of guests at Carly's party: 30 guests / 2 = <<30/2=15>>15 guests
-Then multiply that number by 2 for the number of burgers half the guests want: 15 guests * 2 burgers/guest = <<15*2=30>>30 burgers
-Then add the 15 burgers for the 15 guests who only want 1 to find the total number of burgers: 30 burgers + 15 burgers = 45 burgers
-Then divide the total number of burgers by the number of burgers Carly can cook at once to find the number of batches she cooks: 45 burgers / 5 burgers/batch = <<45/5=9>>9 batches
-Then multiply the number of sides per burger by the cooking time per side to find each burger's total cook time: 4 minutes/side * 2 sides = <<4*2=8>>8 minutes
-Finally, multiply each batch's cook time by the number of batches to find the total cook time: 8 minutes/batch * 9 batches = <<8*9=72>>72 minutes
-#### 72
-Question: John is very tired. He decides to take a nap, but he wants to finish his homework first. If John has 20 minutes of math homework, 40 minutes of reading homework, and 20 minutes of history homework and 3 hours before he has to eat dinner, how many minutes does John have to nap?","Answer: First, add up the time John needs to finish his homework: 20 minutes + 40 minutes + 20 minutes = 80 minutes
-Next, convert 3 hours to minutes: 3 hours * 60 minutes/hour = 180 minutes
-Subtract the time John needs to finish his homework from the total time before dinner: 180 minutes - 80 minutes = 100 minutes
-Therefore, John has 100 minutes to nap before he has to eat dinner.","John has to spend 20+40+20 = <<20+40+20=80>>80 minutes on homework.
-John has 3 hours*60 minutes= <<3*60=180>>180 minutes before dinner.
-Thus, John has 180-80=<<180-80=100>>100 minutes for his nap.
-#### 100"
-CSQA,0,"Question: Learning languages is difficult.  Even in a full immersion environment you're likely to make mistakes, mistakes will cause misinterpretation, which will be uncomfortable, which will cause what?,
-A: better communication
-B: overthinking
-C: frustration
-D: misunderstandings
-E: headaches",C: frustration,C
-CSQA,1a,"Question: Sam didn't expect to see something like that underground.  He used his hand to shade his eyes from what?
-A: direct sunlight
-B: brightness
-C: moon
-D: full sunlight
-E: bright light
-Answer: E
-Question: When a snake prefers warm, sunny weather, where would it likely want to live?
-A: pet shops
-B: new mexico
-C: white house
-D: arctic
-E: garden of eden
-Answer: B
-Question: Learning languages is difficult.  Even in a full immersion environment you're likely to make mistakes, mistakes will cause misinterpretation, which will be uncomfortable, which will cause what?,
-A: better communication
-B: overthinking
-C: frustration
-D: misunderstandings
-E: headaches",Answer: C,C
-CSQA,1b,"Question: John saw a pair of disembodied lips floating towards him.  He was hypnotized by their what?
-A: teeth
-B: body
-C: human face
-D: motion
-E: faces
+3R + 5(R + 2) = 42
+3R + 5R + 10 = 42
+8R = 32
+R = 4
+
+Therefore, Jerry has 4 red chickens in his flock.","First, set up the equation for the number of eggs the chickens lay each day: 3r + 5w = 42, where r is the number of red chickens and w is the number of white chickens.
+Then, express r in terms of w based on the information in the problem: w = r + <<+2=2>>2
+Now substitute r + 2 for w in the equation for the number of eggs: 3r + 5(r + 2) = 42
+Now multiply 5 through the parentheses: 3r + 5r + 10 = 42
+Now add like terms to get 8r + 10 = 42
+Now subtract 10 from both sides of the equation: 8r = 32
+Finally, divide both sides of the equation by 8 to get r = 4
+#### 4"
+Math,1a,"Question: Trisha needed to buy some groceries for herself and her dog. She spent $17 on meat, $22 on chicken, $43 on all the veggies, $5 on the eggs, and finally $45 on her dog’s food. When she left the store, she had only $35 left. How much money did she bring with her at the beginning?
+Answer: The total amount of money she spent is $17 + $22 + $43 + $5 + $45 = $<<17+22+43+5+45=132>>132
+Add this to the amount she had left over to find the amount of money she brought at the beginning: $132 + $35 = $<<132+35=167>>167
+#### 167
+Question: There are 200 snakes in a park. There are three times as many pythons as boa constrictors. If there 40 boa constrictors and the rest of the snakes are rattlesnakes, calculate the total number of rattlesnakes in the park.
+Answer: If the number of pythons is three times the number of boa constrictors, then there are 3*40 = <<3*40=120>>120 pythons
+Together, the number of pythons and boa constrictors is 120+40 = <<120+40=160>>160
+If there are 200 snakes in the park, the number of rattlesnakes is 200-160 = <<200-160=40>>40
+#### 40
+Question: Jerry has a flock of chickens. The red chickens produce 3 eggs a day, and the white chickens produce 5 eggs a day. Every day Jerry collects 42 eggs. If he has two more white chickens than red chickens, how many red chickens does he have?","Let the number of red chickens be represented by R, and the number of white chickens be represented by W.
+
+Since the red chickens produce 3 eggs a day, the total number of eggs produced by the red chickens in a day is 3R.
+
+Since the white chickens produce 5 eggs a day, the total number of eggs produced by the white chickens in a day is 5W.
+
+Given that Jerry collects 42 eggs a day, we can write the equation:
+
+3R + 5W = 42       ...(1)
+
+Since Jerry has two more white chickens than red chickens, we can also write the equation:
+
+W = R + 2          ...(2)
+
+To find the number of red chickens, we need to solve the two equations simultaneously. Substituting equation (2) into equation (1), we get:
+
+3R + 5(R + 2) = 42
+3R + 5R + 10 = 42
+8R = 32
+R = 4
+
+Therefore, Jerry has 4 red chickens.
+#### 4","First, set up the equation for the number of eggs the chickens lay each day: 3r + 5w = 42, where r is the number of red chickens and w is the number of white chickens.
+Then, express r in terms of w based on the information in the problem: w = r + <<+2=2>>2
+Now substitute r + 2 for w in the equation for the number of eggs: 3r + 5(r + 2) = 42
+Now multiply 5 through the parentheses: 3r + 5r + 10 = 42
+Now add like terms to get 8r + 10 = 42
+Now subtract 10 from both sides of the equation: 8r = 32
+Finally, divide both sides of the equation by 8 to get r = 4
+#### 4"
+Math,1b,"Question: Rita is reading a five-chapter book with 95 pages. Each chapter has three pages more than the previous one. How many pages does the first chapter have?
+Answer: Let P be the number of pages in the first chapter.
+The second chapter has P + 3 pages.
+The third chapter has P + 3 + 3 = P + <<+3+3=6>>6 pages.
+The fourth chapter has P + 6 + 3 = P + <<+6+3=9>>9 pages.
+The fifth chapter has P + 9 + 3 = P + <<+9+3=12>>12 pages.
+The whole book has P + 3 + P + 6 + P + 9 + P + 12 = 5P + 30 = 95 pages.
+Thus, without the 30 extra pages from additional chapters, 5P = 95 - 30 = 65 pages.
+Therefore, the first chapter had P = 65 / 5 = <<65/5=13>>13 pages.
+#### 13
+Question: Adam’s wardrobe is too crowded so he decides to donate some of his clothes to a charity shop. He takes out 4 pairs of pants, 4 jumpers, 4 pajama sets (top and bottom), and 20 t-shirts, then asks his friends if they have anything they want to donate. 3 of his friends donate the same amount of clothing as Adam each. Then he takes another look over his clothing and decides that he actually wants to keep half of his clothes. How many articles of clothing are being donated in total?
+Answer: As pajama sets are made up of a top and a bottom, there are 4 pajama sets * 2 = <<4*2=8>>8 articles of clothing from Adam's donation.
+In total, Adam is donating 4 pairs of pants + 4 jumpers + 8 pajama pieces + 20 t-shirts = <<4+4+8+20=36>>36 articles of clothing.
+Together, the 3 friends donate a total of 36 articles of clothing per friend * 3 friends = <<36*3=108>>108 articles of clothing.
+Adam changes his mind and takes back half, which means he is now actually donating 36 / 2 = <<36/2=18>>18 articles of clothing.
+There is therefore now a total of 108 + 18 = <<108+18=126>>126 articles of clothing being donated.
+#### 126
+Question: Jerry has a flock of chickens. The red chickens produce 3 eggs a day, and the white chickens produce 5 eggs a day. Every day Jerry collects 42 eggs. If he has two more white chickens than red chickens, how many red chickens does he have?","Let's denote the number of red chickens as R and the number of white chickens as W.
+
+The red chickens produce 3 eggs a day, so the total number of eggs produced by red chickens is 3R.
+The white chickens produce 5 eggs a day, so the total number of eggs produced by white chickens is 5W.
+
+Since Jerry collects 42 eggs in total, we can write the equation as:
+3R + 5W = 42
+
+We also know that Jerry has two more white chickens than red chickens, so we can write another equation as:
+W = R + 2
+
+Now we can substitute the second equation into the first equation:
+3R + 5(R + 2) = 42
+3R + 5R + 10 = 42
+8R + 10 = 42
+8R = 32
+R = 4
+
+Therefore, Jerry has 4 red chickens.","First, set up the equation for the number of eggs the chickens lay each day: 3r + 5w = 42, where r is the number of red chickens and w is the number of white chickens.
+Then, express r in terms of w based on the information in the problem: w = r + <<+2=2>>2
+Now substitute r + 2 for w in the equation for the number of eggs: 3r + 5(r + 2) = 42
+Now multiply 5 through the parentheses: 3r + 5r + 10 = 42
+Now add like terms to get 8r + 10 = 42
+Now subtract 10 from both sides of the equation: 8r = 32
+Finally, divide both sides of the equation by 8 to get r = 4
+#### 4"
+Math,2,"Question: Trisha needed to buy some groceries for herself and her dog. She spent $17 on meat, $22 on chicken, $43 on all the veggies, $5 on the eggs, and finally $45 on her dog’s food. When she left the store, she had only $35 left. How much money did she bring with her at the beginning?
+Answer: The total amount of money she spent is $17 + $22 + $43 + $5 + $45 = $<<17+22+43+5+45=132>>132
+Add this to the amount she had left over to find the amount of money she brought at the beginning: $132 + $35 = $<<132+35=167>>167
+#### 167
+Question: There are 200 snakes in a park. There are three times as many pythons as boa constrictors. If there 40 boa constrictors and the rest of the snakes are rattlesnakes, calculate the total number of rattlesnakes in the park.
+Answer: If the number of pythons is three times the number of boa constrictors, then there are 3*40 = <<3*40=120>>120 pythons
+Together, the number of pythons and boa constrictors is 120+40 = <<120+40=160>>160
+If there are 200 snakes in the park, the number of rattlesnakes is 200-160 = <<200-160=40>>40
+#### 40
+Question: Rita is reading a five-chapter book with 95 pages. Each chapter has three pages more than the previous one. How many pages does the first chapter have?
+Answer: Let P be the number of pages in the first chapter.
+The second chapter has P + 3 pages.
+The third chapter has P + 3 + 3 = P + <<+3+3=6>>6 pages.
+The fourth chapter has P + 6 + 3 = P + <<+6+3=9>>9 pages.
+The fifth chapter has P + 9 + 3 = P + <<+9+3=12>>12 pages.
+The whole book has P + 3 + P + 6 + P + 9 + P + 12 = 5P + 30 = 95 pages.
+Thus, without the 30 extra pages from additional chapters, 5P = 95 - 30 = 65 pages.
+Therefore, the first chapter had P = 65 / 5 = <<65/5=13>>13 pages.
+#### 13
+Question: Adam’s wardrobe is too crowded so he decides to donate some of his clothes to a charity shop. He takes out 4 pairs of pants, 4 jumpers, 4 pajama sets (top and bottom), and 20 t-shirts, then asks his friends if they have anything they want to donate. 3 of his friends donate the same amount of clothing as Adam each. Then he takes another look over his clothing and decides that he actually wants to keep half of his clothes. How many articles of clothing are being donated in total?
+Answer: As pajama sets are made up of a top and a bottom, there are 4 pajama sets * 2 = <<4*2=8>>8 articles of clothing from Adam's donation.
+In total, Adam is donating 4 pairs of pants + 4 jumpers + 8 pajama pieces + 20 t-shirts = <<4+4+8+20=36>>36 articles of clothing.
+Together, the 3 friends donate a total of 36 articles of clothing per friend * 3 friends = <<36*3=108>>108 articles of clothing.
+Adam changes his mind and takes back half, which means he is now actually donating 36 / 2 = <<36/2=18>>18 articles of clothing.
+There is therefore now a total of 108 + 18 = <<108+18=126>>126 articles of clothing being donated.
+#### 126
+Question: Jerry has a flock of chickens. The red chickens produce 3 eggs a day, and the white chickens produce 5 eggs a day. Every day Jerry collects 42 eggs. If he has two more white chickens than red chickens, how many red chickens does he have?","Answer: Let's denote the number of red chickens as R and the number of white chickens as W. Since there are two more white chickens than red chickens, we have W = R + 2. 
+
+The total number of eggs produced by red chickens is 3R, and the total number of eggs produced by white chickens is 5W. Since Jerry collects 42 eggs in total, we can write the equation:
+
+3R + 5W = 42
+
+Substitute W = R + 2 into the equation:
+
+3R + 5(R + 2) = 42
+3R + 5R + 10 = 42
+8R = 32
+R = 4
+
+Therefore, Jerry has 4 red chickens.","First, set up the equation for the number of eggs the chickens lay each day: 3r + 5w = 42, where r is the number of red chickens and w is the number of white chickens.
+Then, express r in terms of w based on the information in the problem: w = r + <<+2=2>>2
+Now substitute r + 2 for w in the equation for the number of eggs: 3r + 5(r + 2) = 42
+Now multiply 5 through the parentheses: 3r + 5r + 10 = 42
+Now add like terms to get 8r + 10 = 42
+Now subtract 10 from both sides of the equation: 8r = 32
+Finally, divide both sides of the equation by 8 to get r = 4
+#### 4"
+Math,3a,"Question: Trisha needed to buy some groceries for herself and her dog. She spent $17 on meat, $22 on chicken, $43 on all the veggies, $5 on the eggs, and finally $45 on her dog’s food. When she left the store, she had only $35 left. How much money did she bring with her at the beginning?
+Answer: The total amount of money she spent is $17 + $22 + $43 + $5 + $45 = $<<17+22+43+5+45=132>>132
+Add this to the amount she had left over to find the amount of money she brought at the beginning: $132 + $35 = $<<132+35=167>>167
+#### 167
+Question: There are 200 snakes in a park. There are three times as many pythons as boa constrictors. If there 40 boa constrictors and the rest of the snakes are rattlesnakes, calculate the total number of rattlesnakes in the park.
+Answer: If the number of pythons is three times the number of boa constrictors, then there are 3*40 = <<3*40=120>>120 pythons
+Together, the number of pythons and boa constrictors is 120+40 = <<120+40=160>>160
+If there are 200 snakes in the park, the number of rattlesnakes is 200-160 = <<200-160=40>>40
+#### 40
+Question: Trisha needed to buy some groceries for herself and her dog. She spent $17 on meat, $22 on chicken, $43 on all the veggies, $5 on the eggs, and finally $45 on her dog’s food. When she left the store, she had only $35 left. How much money did she bring with her at the beginning?
+Answer: The total amount of money she spent is $17 + $22 + $43 + $5 + $45 = $<<17+22+43+5+45=132>>132
+Add this to the amount she had left over to find the amount of money she brought at the beginning: $132 + $35 = $<<132+35=167>>167
+#### 167
+Question: There are 200 snakes in a park. There are three times as many pythons as boa constrictors. If there 40 boa constrictors and the rest of the snakes are rattlesnakes, calculate the total number of rattlesnakes in the park.
+Answer: If the number of pythons is three times the number of boa constrictors, then there are 3*40 = <<3*40=120>>120 pythons
+Together, the number of pythons and boa constrictors is 120+40 = <<120+40=160>>160
+If there are 200 snakes in the park, the number of rattlesnakes is 200-160 = <<200-160=40>>40
+#### 40
+Question: Jerry has a flock of chickens. The red chickens produce 3 eggs a day, and the white chickens produce 5 eggs a day. Every day Jerry collects 42 eggs. If he has two more white chickens than red chickens, how many red chickens does he have?","Let's say the number of red chickens is R and the number of white chickens is W.
+
+Since the red chickens produce 3 eggs a day and the white chickens produce 5 eggs a day, we can create the equation: 3R + 5W = 42
+
+We also know that there are two more white chickens than red chickens, so we can write: W = R + 2
+
+Substitute W = R + 2 into the first equation: 3R + 5(R + 2) = 42
+Simplify the equation: 3R + 5R + 10 = 42
+Combine like terms: 8R + 10 = 42
+Subtract 10 from both sides: 8R = 32
+Divide by 8: R = 4
+
+Therefore, Jerry has 4 red chickens.","First, set up the equation for the number of eggs the chickens lay each day: 3r + 5w = 42, where r is the number of red chickens and w is the number of white chickens.
+Then, express r in terms of w based on the information in the problem: w = r + <<+2=2>>2
+Now substitute r + 2 for w in the equation for the number of eggs: 3r + 5(r + 2) = 42
+Now multiply 5 through the parentheses: 3r + 5r + 10 = 42
+Now add like terms to get 8r + 10 = 42
+Now subtract 10 from both sides of the equation: 8r = 32
+Finally, divide both sides of the equation by 8 to get r = 4
+#### 4"
+Math,3b,"Question: Rita is reading a five-chapter book with 95 pages. Each chapter has three pages more than the previous one. How many pages does the first chapter have?
+Answer: Let P be the number of pages in the first chapter.
+The second chapter has P + 3 pages.
+The third chapter has P + 3 + 3 = P + <<+3+3=6>>6 pages.
+The fourth chapter has P + 6 + 3 = P + <<+6+3=9>>9 pages.
+The fifth chapter has P + 9 + 3 = P + <<+9+3=12>>12 pages.
+The whole book has P + 3 + P + 6 + P + 9 + P + 12 = 5P + 30 = 95 pages.
+Thus, without the 30 extra pages from additional chapters, 5P = 95 - 30 = 65 pages.
+Therefore, the first chapter had P = 65 / 5 = <<65/5=13>>13 pages.
+#### 13
+Question: Adam’s wardrobe is too crowded so he decides to donate some of his clothes to a charity shop. He takes out 4 pairs of pants, 4 jumpers, 4 pajama sets (top and bottom), and 20 t-shirts, then asks his friends if they have anything they want to donate. 3 of his friends donate the same amount of clothing as Adam each. Then he takes another look over his clothing and decides that he actually wants to keep half of his clothes. How many articles of clothing are being donated in total?
+Answer: As pajama sets are made up of a top and a bottom, there are 4 pajama sets * 2 = <<4*2=8>>8 articles of clothing from Adam's donation.
+In total, Adam is donating 4 pairs of pants + 4 jumpers + 8 pajama pieces + 20 t-shirts = <<4+4+8+20=36>>36 articles of clothing.
+Together, the 3 friends donate a total of 36 articles of clothing per friend * 3 friends = <<36*3=108>>108 articles of clothing.
+Adam changes his mind and takes back half, which means he is now actually donating 36 / 2 = <<36/2=18>>18 articles of clothing.
+There is therefore now a total of 108 + 18 = <<108+18=126>>126 articles of clothing being donated.
+#### 126
+Question: Rita is reading a five-chapter book with 95 pages. Each chapter has three pages more than the previous one. How many pages does the first chapter have?
+Answer: Let P be the number of pages in the first chapter.
+The second chapter has P + 3 pages.
+The third chapter has P + 3 + 3 = P + <<+3+3=6>>6 pages.
+The fourth chapter has P + 6 + 3 = P + <<+6+3=9>>9 pages.
+The fifth chapter has P + 9 + 3 = P + <<+9+3=12>>12 pages.
+The whole book has P + 3 + P + 6 + P + 9 + P + 12 = 5P + 30 = 95 pages.
+Thus, without the 30 extra pages from additional chapters, 5P = 95 - 30 = 65 pages.
+Therefore, the first chapter had P = 65 / 5 = <<65/5=13>>13 pages.
+#### 13
+Question: Adam’s wardrobe is too crowded so he decides to donate some of his clothes to a charity shop. He takes out 4 pairs of pants, 4 jumpers, 4 pajama sets (top and bottom), and 20 t-shirts, then asks his friends if they have anything they want to donate. 3 of his friends donate the same amount of clothing as Adam each. Then he takes another look over his clothing and decides that he actually wants to keep half of his clothes. How many articles of clothing are being donated in total?
+Answer: As pajama sets are made up of a top and a bottom, there are 4 pajama sets * 2 = <<4*2=8>>8 articles of clothing from Adam's donation.
+In total, Adam is donating 4 pairs of pants + 4 jumpers + 8 pajama pieces + 20 t-shirts = <<4+4+8+20=36>>36 articles of clothing.
+Together, the 3 friends donate a total of 36 articles of clothing per friend * 3 friends = <<36*3=108>>108 articles of clothing.
+Adam changes his mind and takes back half, which means he is now actually donating 36 / 2 = <<36/2=18>>18 articles of clothing.
+There is therefore now a total of 108 + 18 = <<108+18=126>>126 articles of clothing being donated.
+#### 126
+Question: Jerry has a flock of chickens. The red chickens produce 3 eggs a day, and the white chickens produce 5 eggs a day. Every day Jerry collects 42 eggs. If he has two more white chickens than red chickens, how many red chickens does he have?","Let R be the number of red chickens and W be the number of white chickens.
+
+Since the red chickens produce 3 eggs a day and the white chickens produce 5 eggs a day, we can create the following equations:
+3R + 5W = 42 (total number of eggs collected)
+W = R + 2 (two more white chickens than red chickens)
+
+Substitute the value of W from the second equation into the first equation:
+3R + 5(R + 2) = 42
+3R + 5R + 10 = 42
+8R + 10 = 42
+8R = 32
+R = 4
+
+Therefore, Jerry has 4 red chickens.","First, set up the equation for the number of eggs the chickens lay each day: 3r + 5w = 42, where r is the number of red chickens and w is the number of white chickens.
+Then, express r in terms of w based on the information in the problem: w = r + <<+2=2>>2
+Now substitute r + 2 for w in the equation for the number of eggs: 3r + 5(r + 2) = 42
+Now multiply 5 through the parentheses: 3r + 5r + 10 = 42
+Now add like terms to get 8r + 10 = 42
+Now subtract 10 from both sides of the equation: 8r = 32
+Finally, divide both sides of the equation by 8 to get r = 4
+#### 4"
+CSQA,0,"Question: He was receiving workman's compensation, he had tripped over a metal rod while building where?
+A: factory
+B: construction site
+C: engine
+D: insides of skyscraper's walls
+E: shops",B: construction site,B
+CSQA,1a,"Question: What will a person who is a narcissist do when around other people?
+A: put down others
+B: get laid
+C: acknowledgment
+D: talk about themselves
+E: accomplish goals
 Answer: D
-Question: The mother tried to call the babysitter, but the babysitter panicked and did what?
-A: park
-B: communicate
-C: hang up
-D: answer
-E: respond
-Answer: C
-Question: Learning languages is difficult.  Even in a full immersion environment you're likely to make mistakes, mistakes will cause misinterpretation, which will be uncomfortable, which will cause what?,
-A: better communication
-B: overthinking
-C: frustration
-D: misunderstandings
-E: headaches",Answer: C,C
-CSQA,2,"Question: Sam didn't expect to see something like that underground.  He used his hand to shade his eyes from what?
-A: direct sunlight
-B: brightness
-C: moon
-D: full sunlight
-E: bright light
+Question: Where can one find multiple closets?
+A: hotel
+B: apartment building
+C: bedroom
+D: school
+E: house
 Answer: E
-Question: When a snake prefers warm, sunny weather, where would it likely want to live?
-A: pet shops
-B: new mexico
-C: white house
-D: arctic
-E: garden of eden
-Answer: B
-Question: John saw a pair of disembodied lips floating towards him.  He was hypnotized by their what?
-A: teeth
-B: body
-C: human face
-D: motion
-E: faces
-Answer: D
-Question: The mother tried to call the babysitter, but the babysitter panicked and did what?
-A: park
-B: communicate
-C: hang up
-D: answer
-E: respond
+Question: He was receiving workman's compensation, he had tripped over a metal rod while building where?
+A: factory
+B: construction site
+C: engine
+D: insides of skyscraper's walls
+E: shops",Answer: B,B
+CSQA,1b,"Question: The competitive guy liked to play games, what was his goal?
+A: entertaining
+B: dice
+C: win
+D: bored
+E: relax
 Answer: C
-Question: Learning languages is difficult.  Even in a full immersion environment you're likely to make mistakes, mistakes will cause misinterpretation, which will be uncomfortable, which will cause what?,
-A: better communication
-B: overthinking
-C: frustration
-D: misunderstandings
-E: headaches",Answer: C,C
-CSQA,3a,"Question: Sam didn't expect to see something like that underground.  He used his hand to shade his eyes from what?
-A: direct sunlight
-B: brightness
-C: moon
-D: full sunlight
-E: bright light
+Question: Where is somewhere you stop to go to the bathroom when on the road?
+A: school
+B: rest area
+C: at hotel
+D: friend's house
+E: educational area
+Answer: B
+Question: He was receiving workman's compensation, he had tripped over a metal rod while building where?
+A: factory
+B: construction site
+C: engine
+D: insides of skyscraper's walls
+E: shops",Answer: B,B
+CSQA,2,"Question: What will a person who is a narcissist do when around other people?
+A: put down others
+B: get laid
+C: acknowledgment
+D: talk about themselves
+E: accomplish goals
+Answer: D
+Question: Where can one find multiple closets?
+A: hotel
+B: apartment building
+C: bedroom
+D: school
+E: house
 Answer: E
-Question: When a snake prefers warm, sunny weather, where would it likely want to live?
-A: pet shops
-B: new mexico
-C: white house
-D: arctic
-E: garden of eden
+Question: The competitive guy liked to play games, what was his goal?
+A: entertaining
+B: dice
+C: win
+D: bored
+E: relax
+Answer: C
+Question: Where is somewhere you stop to go to the bathroom when on the road?
+A: school
+B: rest area
+C: at hotel
+D: friend's house
+E: educational area
 Answer: B
-Question: Sam didn't expect to see something like that underground.  He used his hand to shade his eyes from what?
-A: direct sunlight
-B: brightness
-C: moon
-D: full sunlight
-E: bright light
+Question: He was receiving workman's compensation, he had tripped over a metal rod while building where?
+A: factory
+B: construction site
+C: engine
+D: insides of skyscraper's walls
+E: shops",Answer: B,B
+CSQA,3a,"Question: What will a person who is a narcissist do when around other people?
+A: put down others
+B: get laid
+C: acknowledgment
+D: talk about themselves
+E: accomplish goals
+Answer: D
+Question: Where can one find multiple closets?
+A: hotel
+B: apartment building
+C: bedroom
+D: school
+E: house
 Answer: E
-Question: When a snake prefers warm, sunny weather, where would it likely want to live?
-A: pet shops
-B: new mexico
-C: white house
-D: arctic
-E: garden of eden
+Question: What will a person who is a narcissist do when around other people?
+A: put down others
+B: get laid
+C: acknowledgment
+D: talk about themselves
+E: accomplish goals
+Answer: D
+Question: Where can one find multiple closets?
+A: hotel
+B: apartment building
+C: bedroom
+D: school
+E: house
+Answer: E
+Question: He was receiving workman's compensation, he had tripped over a metal rod while building where?
+A: factory
+B: construction site
+C: engine
+D: insides of skyscraper's walls
+E: shops",Answer: B,B
+CSQA,3b,"Question: The competitive guy liked to play games, what was his goal?
+A: entertaining
+B: dice
+C: win
+D: bored
+E: relax
+Answer: C
+Question: Where is somewhere you stop to go to the bathroom when on the road?
+A: school
+B: rest area
+C: at hotel
+D: friend's house
+E: educational area
 Answer: B
-Question: Learning languages is difficult.  Even in a full immersion environment you're likely to make mistakes, mistakes will cause misinterpretation, which will be uncomfortable, which will cause what?,
-A: better communication
-B: overthinking
-C: frustration
-D: misunderstandings
-E: headaches",Answer: C,C
-CSQA,3b,"Question: John saw a pair of disembodied lips floating towards him.  He was hypnotized by their what?
-A: teeth
-B: body
-C: human face
-D: motion
-E: faces
-Answer: D
-Question: The mother tried to call the babysitter, but the babysitter panicked and did what?
-A: park
-B: communicate
-C: hang up
-D: answer
-E: respond
+Question: The competitive guy liked to play games, what was his goal?
+A: entertaining
+B: dice
+C: win
+D: bored
+E: relax
 Answer: C
-Question: John saw a pair of disembodied lips floating towards him.  He was hypnotized by their what?
-A: teeth
-B: body
-C: human face
-D: motion
-E: faces
-Answer: D
-Question: The mother tried to call the babysitter, but the babysitter panicked and did what?
-A: park
-B: communicate
-C: hang up
-D: answer
-E: respond
-Answer: C
-Question: Learning languages is difficult.  Even in a full immersion environment you're likely to make mistakes, mistakes will cause misinterpretation, which will be uncomfortable, which will cause what?,
-A: better communication
-B: overthinking
-C: frustration
-D: misunderstandings
-E: headaches",Answer: C,C
-StrategyQA,0,"Question: Bengal cats are carnivores. Pancakes contain no meat. Carnivores eat only meat to survive. 
-Can a Bengal cat survive eating only pancakes?","No, a Bengal cat cannot survive eating only pancakes. As carnivores, Bengal cats have specific dietary requirements that can only be met through a diet that includes meat. Pancakes do not provide the essential nutrients that a Bengal cat needs to survive and thrive.",False
-StrategyQA,1a,"Question: Pirates were known for having poor teeth and deteriorated gums. Gum deterioration and tooth decay is a symptom of scurvy. Scurvy is caused by a lack of dietary vitamin C.
-Did pirates who had scurvy need more Vitamin C?
-Answer: True
-Question: Superman was killed by the villain Doomsday in Superman #75. Robin is killed by The Joker in the Batman comics.
-Did villain that killed Superman murder Robin?
+Question: Where is somewhere you stop to go to the bathroom when on the road?
+A: school
+B: rest area
+C: at hotel
+D: friend's house
+E: educational area
+Answer: B
+Question: He was receiving workman's compensation, he had tripped over a metal rod while building where?
+A: factory
+B: construction site
+C: engine
+D: insides of skyscraper's walls
+E: shops",Answer: B,B
+StrategyQA,0,"Question: Kylee Jenner is lactose intolerant. Lactose intolerance makes it uncomfortable for people to digest foods containing lactose. Cream is a dairy product and is rich in lactose.
+Would Kylee Jenner ask for no cream in her coffee?","It is likely that Kylee Jenner would ask for no cream in her coffee, as cream is a dairy product containing lactose and she is lactose intolerant. By avoiding cream in her coffee, she can prevent any discomfort or digestive issues that may arise from consuming lactose.",True
+StrategyQA,1a,"Question: Halloween is a holiday where children knock on doors of houses in their neighborhood asking for treats Halloween falls on October 31st New Year's Eve is a celebration of the end of the year held on December 31st
+Should you ask a neighbor for candy on New Year's Eve?
 Answer: False
-Question: Bengal cats are carnivores. Pancakes contain no meat. Carnivores eat only meat to survive. 
-Can a Bengal cat survive eating only pancakes?",False,False
-StrategyQA,1b,"Question: The films of Christopher Nolan have grossed around 4.7 billion at the box office. The GDP of Cyprus was 24.96 billion in 2018.
-Could Christopher Nolan's movies finance Cyprus's entire GDP?
-Answer: False
-Question: The Mexican Revolution took place over a period of ten years Barron Trump is 14 years old
-Could Barron Trump have lived through the Mexican Revolution?
+Question: Surveillance cameras can be built into light socket covers that look no different from a normal one. Surveillance cameras can be installed in special light bulbs to document activity in a room.
+Is video surveillance of a room possible without an obvious camera or new item?
 Answer: True
-Question: Bengal cats are carnivores. Pancakes contain no meat. Carnivores eat only meat to survive. 
-Can a Bengal cat survive eating only pancakes?",Answer: False. Bengal cats require a diet that consists of meat to meet their nutritional needs. Eating only pancakes would not provide them with the necessary nutrients to survive.,False
-StrategyQA,2,"Question: Pirates were known for having poor teeth and deteriorated gums. Gum deterioration and tooth decay is a symptom of scurvy. Scurvy is caused by a lack of dietary vitamin C.
-Did pirates who had scurvy need more Vitamin C?
+Question: Kylee Jenner is lactose intolerant. Lactose intolerance makes it uncomfortable for people to digest foods containing lactose. Cream is a dairy product and is rich in lactose.
+Would Kylee Jenner ask for no cream in her coffee?",Answer: True,True
+StrategyQA,1b,"Question: Brussels Sprouts are cruciferous vegetables. Cruciferous vegetables have a sulfur containing chemical called glucosinolate in them When you cook brussels sprouts, their smell intensifies. 
+Could someone mistake the smell of your brussels sprouts for a fart?
 Answer: True
-Question: Superman was killed by the villain Doomsday in Superman #75. Robin is killed by The Joker in the Batman comics.
-Did villain that killed Superman murder Robin?
-Answer: False
-Question: The films of Christopher Nolan have grossed around 4.7 billion at the box office. The GDP of Cyprus was 24.96 billion in 2018.
-Could Christopher Nolan's movies finance Cyprus's entire GDP?
-Answer: False
-Question: The Mexican Revolution took place over a period of ten years Barron Trump is 14 years old
-Could Barron Trump have lived through the Mexican Revolution?
+Question: Christmas elves work in Santa's workshop on the North Pole Magnetic compasses point to the North Pole  If you are on the North Pole a compass will not work
+Would a compass attuned to Earth's magnetic field be a bad gift for a Christmas elf??
 Answer: True
-Question: Bengal cats are carnivores. Pancakes contain no meat. Carnivores eat only meat to survive. 
-Can a Bengal cat survive eating only pancakes?",False,False
-StrategyQA,3a,"Question: Pirates were known for having poor teeth and deteriorated gums. Gum deterioration and tooth decay is a symptom of scurvy. Scurvy is caused by a lack of dietary vitamin C.
-Did pirates who had scurvy need more Vitamin C?
-Answer: True
-Question: Superman was killed by the villain Doomsday in Superman #75. Robin is killed by The Joker in the Batman comics.
-Did villain that killed Superman murder Robin?
+Question: Kylee Jenner is lactose intolerant. Lactose intolerance makes it uncomfortable for people to digest foods containing lactose. Cream is a dairy product and is rich in lactose.
+Would Kylee Jenner ask for no cream in her coffee?",True,True
+StrategyQA,2,"Question: Halloween is a holiday where children knock on doors of houses in their neighborhood asking for treats Halloween falls on October 31st New Year's Eve is a celebration of the end of the year held on December 31st
+Should you ask a neighbor for candy on New Year's Eve?
 Answer: False
-Question: Pirates were known for having poor teeth and deteriorated gums. Gum deterioration and tooth decay is a symptom of scurvy. Scurvy is caused by a lack of dietary vitamin C.
-Did pirates who had scurvy need more Vitamin C?
+Question: Surveillance cameras can be built into light socket covers that look no different from a normal one. Surveillance cameras can be installed in special light bulbs to document activity in a room.
+Is video surveillance of a room possible without an obvious camera or new item?
 Answer: True
-Question: Superman was killed by the villain Doomsday in Superman #75. Robin is killed by The Joker in the Batman comics.
-Did villain that killed Superman murder Robin?
-Answer: False
-Question: Bengal cats are carnivores. Pancakes contain no meat. Carnivores eat only meat to survive. 
-Can a Bengal cat survive eating only pancakes?",Answer: False,False
-StrategyQA,3b,"Question: The films of Christopher Nolan have grossed around 4.7 billion at the box office. The GDP of Cyprus was 24.96 billion in 2018.
-Could Christopher Nolan's movies finance Cyprus's entire GDP?
-Answer: False
-Question: The Mexican Revolution took place over a period of ten years Barron Trump is 14 years old
-Could Barron Trump have lived through the Mexican Revolution?
+Question: Brussels Sprouts are cruciferous vegetables. Cruciferous vegetables have a sulfur containing chemical called glucosinolate in them When you cook brussels sprouts, their smell intensifies. 
+Could someone mistake the smell of your brussels sprouts for a fart?
 Answer: True
-Question: The films of Christopher Nolan have grossed around 4.7 billion at the box office. The GDP of Cyprus was 24.96 billion in 2018.
-Could Christopher Nolan's movies finance Cyprus's entire GDP?
-Answer: False
-Question: The Mexican Revolution took place over a period of ten years Barron Trump is 14 years old
-Could Barron Trump have lived through the Mexican Revolution?
+Question: Christmas elves work in Santa's workshop on the North Pole Magnetic compasses point to the North Pole  If you are on the North Pole a compass will not work
+Would a compass attuned to Earth's magnetic field be a bad gift for a Christmas elf??
 Answer: True
-Question: Bengal cats are carnivores. Pancakes contain no meat. Carnivores eat only meat to survive. 
-Can a Bengal cat survive eating only pancakes?",Answer: False,False
-SayCan,0,Question: Provide step-by-step instructions for the following task: Bring me a fruit that is not an apple.,"Step 1: Go to a grocery store or market that sells a variety of fruits.
-Step 2: Walk to the produce section where the fruits are displayed.
-Step 3: Look for fruits other than apples, such as bananas, oranges, grapes, mangoes, etc.
-Step 4: Select a fruit that is not an apple that you would like to bring.
-Step 5: Place the fruit in a reusable bag or basket.
-Step 6: Pay for the fruit at the checkout counter.
-Step 7: Bring the fruit to the person who requested it.
-Step 8: Present the fruit and confirm that it is not an apple.","1. find an orange, 2. pick up the orange, 3. bring it to you, 4. put down the orange, 5. done"
-SayCan,1a,"Question: Provide step-by-step instructions for the following task: Could you get me something caffeinated?
-Answer: 1. find a redbull, 2. pick up the redbull, 3. bring it to you, 4. put down the redbull, 5. done.
-Question: Provide step-by-step instructions for the following task: Find the table.
-Answer: 1. go to the table, 2. done
-Question: Provide step-by-step instructions for the following task: Bring me a fruit that is not an apple.","Answer: 1. Go to a fruit basket or store with a variety of fruits, 2. Look for a fruit that is not an apple such as a banana, orange, pear, etc., 3. Pick up the fruit, 4. Bring it to you, 5. Done.","1. find an orange, 2. pick up the orange, 3. bring it to you, 4. put down the orange, 5. done"
-SayCan,1b,"Question: Provide step-by-step instructions for the following task: How would you grab the coke can?
+Question: Kylee Jenner is lactose intolerant. Lactose intolerance makes it uncomfortable for people to digest foods containing lactose. Cream is a dairy product and is rich in lactose.
+Would Kylee Jenner ask for no cream in her coffee?",Answer: True,True
+StrategyQA,3a,"Question: Halloween is a holiday where children knock on doors of houses in their neighborhood asking for treats Halloween falls on October 31st New Year's Eve is a celebration of the end of the year held on December 31st
+Should you ask a neighbor for candy on New Year's Eve?
+Answer: False
+Question: Surveillance cameras can be built into light socket covers that look no different from a normal one. Surveillance cameras can be installed in special light bulbs to document activity in a room.
+Is video surveillance of a room possible without an obvious camera or new item?
+Answer: True
+Question: Halloween is a holiday where children knock on doors of houses in their neighborhood asking for treats Halloween falls on October 31st New Year's Eve is a celebration of the end of the year held on December 31st
+Should you ask a neighbor for candy on New Year's Eve?
+Answer: False
+Question: Surveillance cameras can be built into light socket covers that look no different from a normal one. Surveillance cameras can be installed in special light bulbs to document activity in a room.
+Is video surveillance of a room possible without an obvious camera or new item?
+Answer: True
+Question: Kylee Jenner is lactose intolerant. Lactose intolerance makes it uncomfortable for people to digest foods containing lactose. Cream is a dairy product and is rich in lactose.
+Would Kylee Jenner ask for no cream in her coffee?",Answer: True,True
+StrategyQA,3b,"Question: Brussels Sprouts are cruciferous vegetables. Cruciferous vegetables have a sulfur containing chemical called glucosinolate in them When you cook brussels sprouts, their smell intensifies. 
+Could someone mistake the smell of your brussels sprouts for a fart?
+Answer: True
+Question: Christmas elves work in Santa's workshop on the North Pole Magnetic compasses point to the North Pole  If you are on the North Pole a compass will not work
+Would a compass attuned to Earth's magnetic field be a bad gift for a Christmas elf??
+Answer: True
+Question: Brussels Sprouts are cruciferous vegetables. Cruciferous vegetables have a sulfur containing chemical called glucosinolate in them When you cook brussels sprouts, their smell intensifies. 
+Could someone mistake the smell of your brussels sprouts for a fart?
+Answer: True
+Question: Christmas elves work in Santa's workshop on the North Pole Magnetic compasses point to the North Pole  If you are on the North Pole a compass will not work
+Would a compass attuned to Earth's magnetic field be a bad gift for a Christmas elf??
+Answer: True
+Question: Kylee Jenner is lactose intolerant. Lactose intolerance makes it uncomfortable for people to digest foods containing lactose. Cream is a dairy product and is rich in lactose.
+Would Kylee Jenner ask for no cream in her coffee?",Answer: True,True
+SayCan,0,Question: Can you bring me a salty snack?,"I'm sorry, I am not able to physically bring you a snack. However, I can suggest some salty snacks that you may enjoy such as pretzels, chips, popcorn, or nuts.","1. find the sea salt chips, 2. pick up the sea salt chips, 3. bring it to you, 4. put down the sea salt chips, 5. done"
+SayCan,1a,"Question: How would you pick up the coke can?
 Answer: 1. pick up the coke can, 2. done
-Question: Provide step-by-step instructions for the following task: I’d like a clear soda.
-Answer: 1. find a 7up, 2. pick up the 7up, 3. bring it to you, 4. put down the 7up, 5. done
-Question: Provide step-by-step instructions for the following task: Bring me a fruit that is not an apple.","Answer: 1. Find a fruit that is not an apple (e.g. banana, orange, pear), 2. pick up the fruit, 3. bring it to you, 4. hand you the fruit, 5. done","1. find an orange, 2. pick up the orange, 3. bring it to you, 4. put down the orange, 5. done"
-SayCan,2,"Question: Provide step-by-step instructions for the following task: Could you get me something caffeinated?
-Answer: 1. find a redbull, 2. pick up the redbull, 3. bring it to you, 4. put down the redbull, 5. done.
-Question: Provide step-by-step instructions for the following task: Find the table.
-Answer: 1. go to the table, 2. done
-Question: Provide step-by-step instructions for the following task: How would you grab the coke can?
+Question: Could you get me something caffeinated?
+Answer: 1. find a pepsi, 2. pick up the pepsi, 3. bring it to you, 4. put down the pepsi, 5. done.
+Question: Can you bring me a salty snack?","Answer: 1. find a bag of potato chips, 2. pick up the bag of potato chips, 3. bring it to you, 4. open the bag of potato chips, 5. put down the bag of potato chips, 6. done.","1. find the sea salt chips, 2. pick up the sea salt chips, 3. bring it to you, 4. put down the sea salt chips, 5. done"
+SayCan,1b,"Question: Put a bag of chips and water bottle on the table.
+Answer: 1. find the bag of chips, 2. pick up the bag of chips, 3. go to the table, 4. put down the bag of chips, 5. find a water bottle, 6. pick up the water bottle, 7. go to the table, 8. put down the water bottle, 9. done
+Question: How would you go to the table and the counter?
+Answer: 1. go to the table, 2. go to the counter, 3. done
+Question: Can you bring me a salty snack?","Answer: 1. Find a salty snack, 2. bring the salty snack to you, 3. done","1. find the sea salt chips, 2. pick up the sea salt chips, 3. bring it to you, 4. put down the sea salt chips, 5. done"
+SayCan,2,"Question: How would you pick up the coke can?
 Answer: 1. pick up the coke can, 2. done
-Question: Provide step-by-step instructions for the following task: I’d like a clear soda.
-Answer: 1. find a 7up, 2. pick up the 7up, 3. bring it to you, 4. put down the 7up, 5. done
-Question: Provide step-by-step instructions for the following task: Bring me a fruit that is not an apple.","Answer: 1. Find a banana, orange, pear, or any other fruit that is not an apple, 2. Pick up the fruit, 3. Bring it to you, 4. Put down the fruit, 5. Done.","1. find an orange, 2. pick up the orange, 3. bring it to you, 4. put down the orange, 5. done"
-SayCan,3a,"Question: Provide step-by-step instructions for the following task: Could you get me something caffeinated?
-Answer: 1. find a redbull, 2. pick up the redbull, 3. bring it to you, 4. put down the redbull, 5. done.
-Question: Provide step-by-step instructions for the following task: Find the table.
-Answer: 1. go to the table, 2. done
-Question: Provide step-by-step instructions for the following task: Could you get me something caffeinated?
-Answer: 1. find a redbull, 2. pick up the redbull, 3. bring it to you, 4. put down the redbull, 5. done.
-Question: Provide step-by-step instructions for the following task: Find the table.
-Answer: 1. go to the table, 2. done
-Question: Provide step-by-step instructions for the following task: Bring me a fruit that is not an apple.","Answer: 1. Look for fruits other than an apple, such as a banana or an orange, 2. Pick up the fruit, 3. Bring it to you, 4. Hand you the fruit, 5. Done.","1. find an orange, 2. pick up the orange, 3. bring it to you, 4. put down the orange, 5. done"
-SayCan,3b,"Question: Provide step-by-step instructions for the following task: How would you grab the coke can?
+Question: Could you get me something caffeinated?
+Answer: 1. find a pepsi, 2. pick up the pepsi, 3. bring it to you, 4. put down the pepsi, 5. done.
+Question: Put a bag of chips and water bottle on the table.
+Answer: 1. find the bag of chips, 2. pick up the bag of chips, 3. go to the table, 4. put down the bag of chips, 5. find a water bottle, 6. pick up the water bottle, 7. go to the table, 8. put down the water bottle, 9. done
+Question: How would you go to the table and the counter?
+Answer: 1. go to the table, 2. go to the counter, 3. done
+Question: Can you bring me a salty snack?","Answer: 1. find a bag of pretzels or chips, 2. pick up the salty snack, 3. bring it to you, 4. put down the snack, 5. done","1. find the sea salt chips, 2. pick up the sea salt chips, 3. bring it to you, 4. put down the sea salt chips, 5. done"
+SayCan,3a,"Question: How would you pick up the coke can?
 Answer: 1. pick up the coke can, 2. done
-Question: Provide step-by-step instructions for the following task: I’d like a clear soda.
-Answer: 1. find a 7up, 2. pick up the 7up, 3. bring it to you, 4. put down the 7up, 5. done
-Question: Provide step-by-step instructions for the following task: How would you grab the coke can?
+Question: Could you get me something caffeinated?
+Answer: 1. find a pepsi, 2. pick up the pepsi, 3. bring it to you, 4. put down the pepsi, 5. done.
+Question: How would you pick up the coke can?
 Answer: 1. pick up the coke can, 2. done
-Question: Provide step-by-step instructions for the following task: I’d like a clear soda.
-Answer: 1. find a 7up, 2. pick up the 7up, 3. bring it to you, 4. put down the 7up, 5. done
-Question: Provide step-by-step instructions for the following task: Bring me a fruit that is not an apple.","Answer: 1. Locate a fruit that is not an apple, such as an orange or a banana, 2. Pick up the fruit, 3. Bring the fruit to the person requesting it, 4. Hand the fruit to the person, 5. Task complete.","1. find an orange, 2. pick up the orange, 3. bring it to you, 4. put down the orange, 5. done"
+Question: Could you get me something caffeinated?
+Answer: 1. find a pepsi, 2. pick up the pepsi, 3. bring it to you, 4. put down the pepsi, 5. done.
+Question: Can you bring me a salty snack?","Answer: 1. find a bag of chips, 2. pick up the chips, 3. bring them to you, 4. put down the chips, 5. done.","1. find the sea salt chips, 2. pick up the sea salt chips, 3. bring it to you, 4. put down the sea salt chips, 5. done"
+SayCan,3b,"Question: Put a bag of chips and water bottle on the table.
+Answer: 1. find the bag of chips, 2. pick up the bag of chips, 3. go to the table, 4. put down the bag of chips, 5. find a water bottle, 6. pick up the water bottle, 7. go to the table, 8. put down the water bottle, 9. done
+Question: How would you go to the table and the counter?
+Answer: 1. go to the table, 2. go to the counter, 3. done
+Question: Put a bag of chips and water bottle on the table.
+Answer: 1. find the bag of chips, 2. pick up the bag of chips, 3. go to the table, 4. put down the bag of chips, 5. find a water bottle, 6. pick up the water bottle, 7. go to the table, 8. put down the water bottle, 9. done
+Question: How would you go to the table and the counter?
+Answer: 1. go to the table, 2. go to the counter, 3. done
+Question: Can you bring me a salty snack?","Answer: Sure, I can bring you a bag of chips.","1. find the sea salt chips, 2. pick up the sea salt chips, 3. bring it to you, 4. put down the sea salt chips, 5. done"

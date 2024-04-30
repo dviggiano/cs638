@@ -1,378 +1,382 @@
 Task Class,Case,Prompt,Response,Expected
-Math,0,Question: Ashley's pizza delivery costs $15. What is the total amount that Ashley should give the delivery man if she wants to give a tip that is equal to 1/5 of the amount she ordered?,"Ashley ordered $15 worth of pizza. 
+Math,0,Question: Lorie earns $10 per hour. Karen earns twice what Lorie earns. How much does Karen earn in two days if she works 3 hours per day?,"Karen earns $20 per hour (twice what Lorie earns).
 
-1/5 of $15 is $3. 
+If Karen works 3 hours per day, she earns $20 * 3 = $60 per day.
 
-To give a tip that is equal to 1/5 of the amount she ordered, Ashley should give the delivery man $3. 
+In two days, Karen earns $60/day * 2 days = $120. 
 
-Therefore, the total amount that Ashley should give the delivery man is $15 (cost of pizza) + $3 (tip) = $18.","The tip that Ashley wants to give amounts to $15 x 1/5 = $<<15*1/5=3>>3.
-Hence, she will give a total of $15 + $3 = $<<15+3=18>>18 to the delivery man.
-#### 18"
-Math,1a,"Question: There were 80 cars in a parking lot. At lunchtime, 13 cars left the parking lot but 5 more cars went in than left. How many cars are in the parking lot now?
-Answer: There are 80 - 13 = <<80-13=67>>67 cars in the parking lot after 13 went out.
-13 + 5 = <<13+5=18>>18 cars went in the parking lot at lunchtime.
-So, there are 67 + 18 = <<67+18=85>>85 cars in the parking lot now.
-#### 85
-Question: Nancy carves statues out of jade. A giraffe statue takes 120 grams of jade and sells for $150. An elephant statue takes twice as much jade and sells for $350. If Nancy has 1920 grams of jade, how much more money will she make turning it all into elephants instead of giraffes?
-Answer: First find how many giraffe statues Nancy can make by dividing the total amount of jade by the amount used per giraffe statue: 1920 g / 120 g/giraffe = <<1920/120=16>>16 giraffes
-Then multiply that number by the price per giraffe to find how much Nancy earns total from giraffes: 16 giraffes * $150/giraffe = $<<16*150=2400>>2400
-Then find how much jade each elephant statue uses by doubling the jade used by the giraffe statues: 120 g/giraffe * 2 = <<120*2=240>>240 g/elephant
-Then find how many elephant statues Nancy can make by dividing the total amount of jade by the amount used per elephant statue: 1920 g / 240 g/elephant = <<1920/240=8>>8 elephant
-Multiply that number by the price per elephant to find Nancy's total earnings from elephants: 8 elephants * $350/elephant = $<<8*350=2800>>2800
-Finally, subtract Nancy's total earnings from the giraffes from her total earnings from the elephants to find the difference: $2800 - $2400 = $<<2800-2400=400>>400
-#### 400
-Question: Ashley's pizza delivery costs $15. What is the total amount that Ashley should give the delivery man if she wants to give a tip that is equal to 1/5 of the amount she ordered?","Answer: To find the tip amount, first calculate 1/5 of the total bill: $15 * 1/5 = $<<15*1/5=3>>3
-Then add that amount to the cost of the pizza delivery to find the total amount Ashley should give the delivery man: $15 + $3 = $<<15+3=18>>18
-Therefore, Ashley should give the delivery man a total of $18.","The tip that Ashley wants to give amounts to $15 x 1/5 = $<<15*1/5=3>>3.
-Hence, she will give a total of $15 + $3 = $<<15+3=18>>18 to the delivery man.
-#### 18"
-Math,1b,"Question: Giselle is in charge of the relay run on track and field day. Last year, the race was 300 meters. This year, it will be 4 times as long. Giselle needs to set up 6 tables for the relay run. The distance between the tables must be the same and the last table will be at the finish line. What is the distance between table 1 and table 3 in meters?
-Answer: The relay run is 4 times the length of last year’s race, so 300 meters x 4 = <<300*4=1200>>1200 meters.
-With 6 tables along the route, the distance between tables is 1200 meters / 6 tables = <<1200/6=200>>200 meters.
-The distance between tables 1 and 3 is 200 meters x 2 = <<200*2=400>>400 meters.
-#### 400
-Question: A psychiatrist has 4 patients that need 25 sessions in total. One of the patients needs 6 sessions. Another patient needs 5 more than that. How many sessions would the remaining patients need?
-Answer: The second patient needs 6+5 = <<6+5=11>>11 sessions.
-The first two patients need 6+11=<<6+11=17>>17 sessions total.
-25-17=<<25-17=8>>8 sessions.
-#### 8
-Question: Ashley's pizza delivery costs $15. What is the total amount that Ashley should give the delivery man if she wants to give a tip that is equal to 1/5 of the amount she ordered?","Answer: 1/5 of $15 is $15/5 = $3.
-So, Ashley should give the delivery man $15 + $3 = $18 in total.","The tip that Ashley wants to give amounts to $15 x 1/5 = $<<15*1/5=3>>3.
-Hence, she will give a total of $15 + $3 = $<<15+3=18>>18 to the delivery man.
-#### 18"
-Math,2,"Question: There were 80 cars in a parking lot. At lunchtime, 13 cars left the parking lot but 5 more cars went in than left. How many cars are in the parking lot now?
-Answer: There are 80 - 13 = <<80-13=67>>67 cars in the parking lot after 13 went out.
-13 + 5 = <<13+5=18>>18 cars went in the parking lot at lunchtime.
-So, there are 67 + 18 = <<67+18=85>>85 cars in the parking lot now.
-#### 85
-Question: Nancy carves statues out of jade. A giraffe statue takes 120 grams of jade and sells for $150. An elephant statue takes twice as much jade and sells for $350. If Nancy has 1920 grams of jade, how much more money will she make turning it all into elephants instead of giraffes?
-Answer: First find how many giraffe statues Nancy can make by dividing the total amount of jade by the amount used per giraffe statue: 1920 g / 120 g/giraffe = <<1920/120=16>>16 giraffes
-Then multiply that number by the price per giraffe to find how much Nancy earns total from giraffes: 16 giraffes * $150/giraffe = $<<16*150=2400>>2400
-Then find how much jade each elephant statue uses by doubling the jade used by the giraffe statues: 120 g/giraffe * 2 = <<120*2=240>>240 g/elephant
-Then find how many elephant statues Nancy can make by dividing the total amount of jade by the amount used per elephant statue: 1920 g / 240 g/elephant = <<1920/240=8>>8 elephant
-Multiply that number by the price per elephant to find Nancy's total earnings from elephants: 8 elephants * $350/elephant = $<<8*350=2800>>2800
-Finally, subtract Nancy's total earnings from the giraffes from her total earnings from the elephants to find the difference: $2800 - $2400 = $<<2800-2400=400>>400
-#### 400
-Question: Giselle is in charge of the relay run on track and field day. Last year, the race was 300 meters. This year, it will be 4 times as long. Giselle needs to set up 6 tables for the relay run. The distance between the tables must be the same and the last table will be at the finish line. What is the distance between table 1 and table 3 in meters?
-Answer: The relay run is 4 times the length of last year’s race, so 300 meters x 4 = <<300*4=1200>>1200 meters.
-With 6 tables along the route, the distance between tables is 1200 meters / 6 tables = <<1200/6=200>>200 meters.
-The distance between tables 1 and 3 is 200 meters x 2 = <<200*2=400>>400 meters.
-#### 400
-Question: A psychiatrist has 4 patients that need 25 sessions in total. One of the patients needs 6 sessions. Another patient needs 5 more than that. How many sessions would the remaining patients need?
-Answer: The second patient needs 6+5 = <<6+5=11>>11 sessions.
-The first two patients need 6+11=<<6+11=17>>17 sessions total.
-25-17=<<25-17=8>>8 sessions.
-#### 8
-Question: Ashley's pizza delivery costs $15. What is the total amount that Ashley should give the delivery man if she wants to give a tip that is equal to 1/5 of the amount she ordered?","Answer: Ashley ordered $15 worth of pizza, so her tip should be $15 * 1/5 = $<<15*1/5=3>>3.
-Therefore, the total amount Ashley should give the delivery man is $15 + $3 = $<<15+3=18>>18.","The tip that Ashley wants to give amounts to $15 x 1/5 = $<<15*1/5=3>>3.
-Hence, she will give a total of $15 + $3 = $<<15+3=18>>18 to the delivery man.
-#### 18"
-Math,3a,"Question: There were 80 cars in a parking lot. At lunchtime, 13 cars left the parking lot but 5 more cars went in than left. How many cars are in the parking lot now?
-Answer: There are 80 - 13 = <<80-13=67>>67 cars in the parking lot after 13 went out.
-13 + 5 = <<13+5=18>>18 cars went in the parking lot at lunchtime.
-So, there are 67 + 18 = <<67+18=85>>85 cars in the parking lot now.
-#### 85
-Question: Nancy carves statues out of jade. A giraffe statue takes 120 grams of jade and sells for $150. An elephant statue takes twice as much jade and sells for $350. If Nancy has 1920 grams of jade, how much more money will she make turning it all into elephants instead of giraffes?
-Answer: First find how many giraffe statues Nancy can make by dividing the total amount of jade by the amount used per giraffe statue: 1920 g / 120 g/giraffe = <<1920/120=16>>16 giraffes
-Then multiply that number by the price per giraffe to find how much Nancy earns total from giraffes: 16 giraffes * $150/giraffe = $<<16*150=2400>>2400
-Then find how much jade each elephant statue uses by doubling the jade used by the giraffe statues: 120 g/giraffe * 2 = <<120*2=240>>240 g/elephant
-Then find how many elephant statues Nancy can make by dividing the total amount of jade by the amount used per elephant statue: 1920 g / 240 g/elephant = <<1920/240=8>>8 elephant
-Multiply that number by the price per elephant to find Nancy's total earnings from elephants: 8 elephants * $350/elephant = $<<8*350=2800>>2800
-Finally, subtract Nancy's total earnings from the giraffes from her total earnings from the elephants to find the difference: $2800 - $2400 = $<<2800-2400=400>>400
-#### 400
-Question: There were 80 cars in a parking lot. At lunchtime, 13 cars left the parking lot but 5 more cars went in than left. How many cars are in the parking lot now?
-Answer: There are 80 - 13 = <<80-13=67>>67 cars in the parking lot after 13 went out.
-13 + 5 = <<13+5=18>>18 cars went in the parking lot at lunchtime.
-So, there are 67 + 18 = <<67+18=85>>85 cars in the parking lot now.
-#### 85
-Question: Nancy carves statues out of jade. A giraffe statue takes 120 grams of jade and sells for $150. An elephant statue takes twice as much jade and sells for $350. If Nancy has 1920 grams of jade, how much more money will she make turning it all into elephants instead of giraffes?
-Answer: First find how many giraffe statues Nancy can make by dividing the total amount of jade by the amount used per giraffe statue: 1920 g / 120 g/giraffe = <<1920/120=16>>16 giraffes
-Then multiply that number by the price per giraffe to find how much Nancy earns total from giraffes: 16 giraffes * $150/giraffe = $<<16*150=2400>>2400
-Then find how much jade each elephant statue uses by doubling the jade used by the giraffe statues: 120 g/giraffe * 2 = <<120*2=240>>240 g/elephant
-Then find how many elephant statues Nancy can make by dividing the total amount of jade by the amount used per elephant statue: 1920 g / 240 g/elephant = <<1920/240=8>>8 elephant
-Multiply that number by the price per elephant to find Nancy's total earnings from elephants: 8 elephants * $350/elephant = $<<8*350=2800>>2800
-Finally, subtract Nancy's total earnings from the giraffes from her total earnings from the elephants to find the difference: $2800 - $2400 = $<<2800-2400=400>>400
-#### 400
-Question: Ashley's pizza delivery costs $15. What is the total amount that Ashley should give the delivery man if she wants to give a tip that is equal to 1/5 of the amount she ordered?","Answer: The total amount Ashley should give the delivery man, including the tip, is $15 + ($15 * 1/5) = $15 + $3 = $18.","The tip that Ashley wants to give amounts to $15 x 1/5 = $<<15*1/5=3>>3.
-Hence, she will give a total of $15 + $3 = $<<15+3=18>>18 to the delivery man.
-#### 18"
-Math,3b,"Question: Giselle is in charge of the relay run on track and field day. Last year, the race was 300 meters. This year, it will be 4 times as long. Giselle needs to set up 6 tables for the relay run. The distance between the tables must be the same and the last table will be at the finish line. What is the distance between table 1 and table 3 in meters?
-Answer: The relay run is 4 times the length of last year’s race, so 300 meters x 4 = <<300*4=1200>>1200 meters.
-With 6 tables along the route, the distance between tables is 1200 meters / 6 tables = <<1200/6=200>>200 meters.
-The distance between tables 1 and 3 is 200 meters x 2 = <<200*2=400>>400 meters.
-#### 400
-Question: A psychiatrist has 4 patients that need 25 sessions in total. One of the patients needs 6 sessions. Another patient needs 5 more than that. How many sessions would the remaining patients need?
-Answer: The second patient needs 6+5 = <<6+5=11>>11 sessions.
-The first two patients need 6+11=<<6+11=17>>17 sessions total.
-25-17=<<25-17=8>>8 sessions.
-#### 8
-Question: Giselle is in charge of the relay run on track and field day. Last year, the race was 300 meters. This year, it will be 4 times as long. Giselle needs to set up 6 tables for the relay run. The distance between the tables must be the same and the last table will be at the finish line. What is the distance between table 1 and table 3 in meters?
-Answer: The relay run is 4 times the length of last year’s race, so 300 meters x 4 = <<300*4=1200>>1200 meters.
-With 6 tables along the route, the distance between tables is 1200 meters / 6 tables = <<1200/6=200>>200 meters.
-The distance between tables 1 and 3 is 200 meters x 2 = <<200*2=400>>400 meters.
-#### 400
-Question: A psychiatrist has 4 patients that need 25 sessions in total. One of the patients needs 6 sessions. Another patient needs 5 more than that. How many sessions would the remaining patients need?
-Answer: The second patient needs 6+5 = <<6+5=11>>11 sessions.
-The first two patients need 6+11=<<6+11=17>>17 sessions total.
-25-17=<<25-17=8>>8 sessions.
-#### 8
-Question: Ashley's pizza delivery costs $15. What is the total amount that Ashley should give the delivery man if she wants to give a tip that is equal to 1/5 of the amount she ordered?","To calculate the tip amount, we need to find 1/5 of the total amount she ordered, which is 1/5 x $15 = $3.
+Therefore, Karen earns $120 in two days working 3 hours per day.","Karen earns $10 x 2 = $<<10*2=20>>20 per hour.
+So she earns $20 x 3 = $<<20*3=60>>60 per day.
+Thus, she earns $60 x 2 = $<<60*2=120>>120 in two days.
+#### 120"
+Math,1a,"Question: The faucet in Betsy's bathroom is broken. Every minute it drips about 10 times. What amount of water is wasted during one hour if each drop contains 0.05 mL?
+Answer: Every minute, 10 * 0.05 = <<10*0.05=0.5>>0.5 mL of water are wasted.
+Every hour, 0.5 * 60 =<<0.5*60=30>>30 mL of water are wasted.
+#### 30
+Question: Jennie drives to her son’s house in 5 hours when there is heavy traffic. When there is no traffic the same trip takes only 4 hours. If her son's house is 200 miles away, what is the difference between her average speed when there is heavy traffic and when there is no traffic?
+Answer: Jennie can cover the 200-mile distance in 5 hours when there is heavy traffic, so her average speed is 200/5 = <<200/5=40>>40mph
+She can cover the same distance in 4 hours when there is no traffic for an average speed of 200/4 = <<200/4=50>>50mph
+The difference in average speed between the two scenarios is (50-40)mph = <<(50-40)=10>>10mph
+#### 10
+Question: Lorie earns $10 per hour. Karen earns twice what Lorie earns. How much does Karen earn in two days if she works 3 hours per day?","Answer: Karen earns $10 * 2 = $<<10*2=20>>20 per hour.
+Karen earns $20 * 3 = $<<20*3=60>>60 per day.
+In two days, Karen earns $60 * 2 = $<<60*2=120>>120.
+Therefore, Karen earns $120 in two days.","Karen earns $10 x 2 = $<<10*2=20>>20 per hour.
+So she earns $20 x 3 = $<<20*3=60>>60 per day.
+Thus, she earns $60 x 2 = $<<60*2=120>>120 in two days.
+#### 120"
+Math,1b,"Question: One serving of soup has 1 cup of vegetables and 2.5 cups of broth. How many pints of vegetables and broth combined would be needed for 8 servings?
+Answer: One serving = 1 + 2.5 = <<1+2.5=3.5>>3.5 cups
+Eight servings = 8 * 3.5 = <<8*3.5=28>>28 cups
+28 cups = 14 pints
+Eight servings would need 14 pints of vegetables and broth.
+#### 14
+Question: If a basket is capable of holding 40 fruit altogether, and there are 3 times as many apples as oranges, how many oranges are there?
+Answer: Since the ratio of apples to oranges is 3:1, that means for every 3 apples there is 1 orange. The size of this group is therefore 3+1=<<3+1=4>>4.
+We then divide this group size into the total amount of fruit the basket is holding at this time, which is 40. This means there are 40/4=<<40/4=10>>10 of these groups in total.
+Since there are 10 of these groups in total, that means there are 10*1=<<10*1=10>>10 oranges in the basket.
+#### 10
+Question: Lorie earns $10 per hour. Karen earns twice what Lorie earns. How much does Karen earn in two days if she works 3 hours per day?","Answer: 
 
-Therefore, the total amount that Ashley should give the delivery man, including the tip, is $15 (pizza cost) + $3 (tip) = $18. 
+Karen earns $10 x 2 = $20 per hour.
 
-So, Ashley should give the delivery man a total of $18.","The tip that Ashley wants to give amounts to $15 x 1/5 = $<<15*1/5=3>>3.
-Hence, she will give a total of $15 + $3 = $<<15+3=18>>18 to the delivery man.
-#### 18"
-CSQA,0,"Question: What kind of driving leads to accidents?
-A: stressful
-B: dangerous
-C: fun
-D: illegal
-E: deadly","B: dangerous 
-E: deadly",B
-CSQA,1a,"Question: Joe learned some relaxing exercises from his therapist.  They all centered around what sort of action?
-A: feeling good
-B: deep breathing
-C: sleeping
-D: taking a bath
-E: fall asleep
+In one day, Karen earns $20 x 3 = $60.
+
+In two days, Karen earns $60 x 2 = $120.
+
+Karen earns $120 in two days.","Karen earns $10 x 2 = $<<10*2=20>>20 per hour.
+So she earns $20 x 3 = $<<20*3=60>>60 per day.
+Thus, she earns $60 x 2 = $<<60*2=120>>120 in two days.
+#### 120"
+Math,2,"Question: The faucet in Betsy's bathroom is broken. Every minute it drips about 10 times. What amount of water is wasted during one hour if each drop contains 0.05 mL?
+Answer: Every minute, 10 * 0.05 = <<10*0.05=0.5>>0.5 mL of water are wasted.
+Every hour, 0.5 * 60 =<<0.5*60=30>>30 mL of water are wasted.
+#### 30
+Question: Jennie drives to her son’s house in 5 hours when there is heavy traffic. When there is no traffic the same trip takes only 4 hours. If her son's house is 200 miles away, what is the difference between her average speed when there is heavy traffic and when there is no traffic?
+Answer: Jennie can cover the 200-mile distance in 5 hours when there is heavy traffic, so her average speed is 200/5 = <<200/5=40>>40mph
+She can cover the same distance in 4 hours when there is no traffic for an average speed of 200/4 = <<200/4=50>>50mph
+The difference in average speed between the two scenarios is (50-40)mph = <<(50-40)=10>>10mph
+#### 10
+Question: One serving of soup has 1 cup of vegetables and 2.5 cups of broth. How many pints of vegetables and broth combined would be needed for 8 servings?
+Answer: One serving = 1 + 2.5 = <<1+2.5=3.5>>3.5 cups
+Eight servings = 8 * 3.5 = <<8*3.5=28>>28 cups
+28 cups = 14 pints
+Eight servings would need 14 pints of vegetables and broth.
+#### 14
+Question: If a basket is capable of holding 40 fruit altogether, and there are 3 times as many apples as oranges, how many oranges are there?
+Answer: Since the ratio of apples to oranges is 3:1, that means for every 3 apples there is 1 orange. The size of this group is therefore 3+1=<<3+1=4>>4.
+We then divide this group size into the total amount of fruit the basket is holding at this time, which is 40. This means there are 40/4=<<40/4=10>>10 of these groups in total.
+Since there are 10 of these groups in total, that means there are 10*1=<<10*1=10>>10 oranges in the basket.
+#### 10
+Question: Lorie earns $10 per hour. Karen earns twice what Lorie earns. How much does Karen earn in two days if she works 3 hours per day?","Answer: Karen earns $10/hour * 2 = $20 per hour.
+Karen works 3 hours per day, so she earns $20/hour * 3 hours = $60 per day.
+In two days, Karen earns $60/day * 2 days = $120.
+Therefore, Karen earns $120 in two days.","Karen earns $10 x 2 = $<<10*2=20>>20 per hour.
+So she earns $20 x 3 = $<<20*3=60>>60 per day.
+Thus, she earns $60 x 2 = $<<60*2=120>>120 in two days.
+#### 120"
+Math,3a,"Question: The faucet in Betsy's bathroom is broken. Every minute it drips about 10 times. What amount of water is wasted during one hour if each drop contains 0.05 mL?
+Answer: Every minute, 10 * 0.05 = <<10*0.05=0.5>>0.5 mL of water are wasted.
+Every hour, 0.5 * 60 =<<0.5*60=30>>30 mL of water are wasted.
+#### 30
+Question: Jennie drives to her son’s house in 5 hours when there is heavy traffic. When there is no traffic the same trip takes only 4 hours. If her son's house is 200 miles away, what is the difference between her average speed when there is heavy traffic and when there is no traffic?
+Answer: Jennie can cover the 200-mile distance in 5 hours when there is heavy traffic, so her average speed is 200/5 = <<200/5=40>>40mph
+She can cover the same distance in 4 hours when there is no traffic for an average speed of 200/4 = <<200/4=50>>50mph
+The difference in average speed between the two scenarios is (50-40)mph = <<(50-40)=10>>10mph
+#### 10
+Question: The faucet in Betsy's bathroom is broken. Every minute it drips about 10 times. What amount of water is wasted during one hour if each drop contains 0.05 mL?
+Answer: Every minute, 10 * 0.05 = <<10*0.05=0.5>>0.5 mL of water are wasted.
+Every hour, 0.5 * 60 =<<0.5*60=30>>30 mL of water are wasted.
+#### 30
+Question: Jennie drives to her son’s house in 5 hours when there is heavy traffic. When there is no traffic the same trip takes only 4 hours. If her son's house is 200 miles away, what is the difference between her average speed when there is heavy traffic and when there is no traffic?
+Answer: Jennie can cover the 200-mile distance in 5 hours when there is heavy traffic, so her average speed is 200/5 = <<200/5=40>>40mph
+She can cover the same distance in 4 hours when there is no traffic for an average speed of 200/4 = <<200/4=50>>50mph
+The difference in average speed between the two scenarios is (50-40)mph = <<(50-40)=10>>10mph
+#### 10
+Question: Lorie earns $10 per hour. Karen earns twice what Lorie earns. How much does Karen earn in two days if she works 3 hours per day?","Answer: Karen earns $10 x 2 = $20 per hour.
+In one day, Karen earns $20 x 3 = $60.
+In two days, Karen earns $60 x 2 = $120.
+Therefore, Karen earns $120 in two days.","Karen earns $10 x 2 = $<<10*2=20>>20 per hour.
+So she earns $20 x 3 = $<<20*3=60>>60 per day.
+Thus, she earns $60 x 2 = $<<60*2=120>>120 in two days.
+#### 120"
+Math,3b,"Question: One serving of soup has 1 cup of vegetables and 2.5 cups of broth. How many pints of vegetables and broth combined would be needed for 8 servings?
+Answer: One serving = 1 + 2.5 = <<1+2.5=3.5>>3.5 cups
+Eight servings = 8 * 3.5 = <<8*3.5=28>>28 cups
+28 cups = 14 pints
+Eight servings would need 14 pints of vegetables and broth.
+#### 14
+Question: If a basket is capable of holding 40 fruit altogether, and there are 3 times as many apples as oranges, how many oranges are there?
+Answer: Since the ratio of apples to oranges is 3:1, that means for every 3 apples there is 1 orange. The size of this group is therefore 3+1=<<3+1=4>>4.
+We then divide this group size into the total amount of fruit the basket is holding at this time, which is 40. This means there are 40/4=<<40/4=10>>10 of these groups in total.
+Since there are 10 of these groups in total, that means there are 10*1=<<10*1=10>>10 oranges in the basket.
+#### 10
+Question: One serving of soup has 1 cup of vegetables and 2.5 cups of broth. How many pints of vegetables and broth combined would be needed for 8 servings?
+Answer: One serving = 1 + 2.5 = <<1+2.5=3.5>>3.5 cups
+Eight servings = 8 * 3.5 = <<8*3.5=28>>28 cups
+28 cups = 14 pints
+Eight servings would need 14 pints of vegetables and broth.
+#### 14
+Question: If a basket is capable of holding 40 fruit altogether, and there are 3 times as many apples as oranges, how many oranges are there?
+Answer: Since the ratio of apples to oranges is 3:1, that means for every 3 apples there is 1 orange. The size of this group is therefore 3+1=<<3+1=4>>4.
+We then divide this group size into the total amount of fruit the basket is holding at this time, which is 40. This means there are 40/4=<<40/4=10>>10 of these groups in total.
+Since there are 10 of these groups in total, that means there are 10*1=<<10*1=10>>10 oranges in the basket.
+#### 10
+Question: Lorie earns $10 per hour. Karen earns twice what Lorie earns. How much does Karen earn in two days if she works 3 hours per day?","To find out how much Karen earns in two days, we first need to calculate her daily earnings.
+
+Karen earns $10/hour * 2 = $20 per hour.
+
+If she works 3 hours per day, her daily earnings would be $20/hour * 3 hours = $60.
+
+Therefore, in two days, Karen would earn $60/day * 2 days = $120.
+
+Karen would earn $120 in two days.","Karen earns $10 x 2 = $<<10*2=20>>20 per hour.
+So she earns $20 x 3 = $<<20*3=60>>60 per day.
+Thus, she earns $60 x 2 = $<<60*2=120>>120 in two days.
+#### 120"
+CSQA,0,"Question: The skin was cut while chopping onions, where was this skin likely cut?
+A: good health
+B: finger
+C: meat
+D: body
+E: own family",B: finger,B
+CSQA,1a,"Question: A good musician has a keen ear, they pick up much more than the normal person when they what?
+A: play violin
+B: hear sounds
+C: ocean
+D: blow trumpet
+E: stage
 Answer: B
-Question: He appreciated the small park and its taste of nature, living in the city just felt so what?
-A: very hard
-B: city
-C: man made
-D: indoors
-E: artificial
-Answer: E
-Question: What kind of driving leads to accidents?
-A: stressful
-B: dangerous
-C: fun
-D: illegal
-E: deadly",Answer: B,B
-CSQA,1b,"Question: You're not traveling but you need to put your shirt somewhere, what is the name of the object that you'd put it in?
-A: suitcase
-B: garment bag
-C: drawer
-D: dirty laundry basket
-E: dresser
-Answer: E
-Question: The man was bad at getting a job because of his poor references, what did he need to work on being?
-A: famous
-B: sufficient
-C: benevolent
-D: reputable
-E: first class
+Question: The children all got their shot to become actors, the school was putting on a what?
+A: movies
+B: television
+C: fancy dress
+D: play
+E: show
 Answer: D
-Question: What kind of driving leads to accidents?
-A: stressful
-B: dangerous
-C: fun
-D: illegal
-E: deadly",Answer: B,B
-CSQA,2,"Question: Joe learned some relaxing exercises from his therapist.  They all centered around what sort of action?
-A: feeling good
-B: deep breathing
-C: sleeping
-D: taking a bath
-E: fall asleep
+Question: The skin was cut while chopping onions, where was this skin likely cut?
+A: good health
+B: finger
+C: meat
+D: body
+E: own family",Answer: B,B
+CSQA,1b,"Question: Where can you take your automobile to go as fast as you can?
+A: garage
+B: parkling lot
+C: freeway
+D: racetrack
+E: side of road
+Answer: D
+Question: If something is occurring at an altar, what might the occasion be?
+A: praying
+B: temple
+C: church services
+D: ceremony
+E: sanctuary
+Answer: D
+Question: The skin was cut while chopping onions, where was this skin likely cut?
+A: good health
+B: finger
+C: meat
+D: body
+E: own family",Answer: B,B
+CSQA,2,"Question: A good musician has a keen ear, they pick up much more than the normal person when they what?
+A: play violin
+B: hear sounds
+C: ocean
+D: blow trumpet
+E: stage
 Answer: B
-Question: He appreciated the small park and its taste of nature, living in the city just felt so what?
-A: very hard
-B: city
-C: man made
-D: indoors
-E: artificial
-Answer: E
-Question: You're not traveling but you need to put your shirt somewhere, what is the name of the object that you'd put it in?
-A: suitcase
-B: garment bag
-C: drawer
-D: dirty laundry basket
-E: dresser
-Answer: E
-Question: The man was bad at getting a job because of his poor references, what did he need to work on being?
-A: famous
-B: sufficient
-C: benevolent
-D: reputable
-E: first class
+Question: The children all got their shot to become actors, the school was putting on a what?
+A: movies
+B: television
+C: fancy dress
+D: play
+E: show
 Answer: D
-Question: What kind of driving leads to accidents?
-A: stressful
-B: dangerous
-C: fun
-D: illegal
-E: deadly",Answer: B,B
-CSQA,3a,"Question: Joe learned some relaxing exercises from his therapist.  They all centered around what sort of action?
-A: feeling good
-B: deep breathing
-C: sleeping
-D: taking a bath
-E: fall asleep
+Question: Where can you take your automobile to go as fast as you can?
+A: garage
+B: parkling lot
+C: freeway
+D: racetrack
+E: side of road
+Answer: D
+Question: If something is occurring at an altar, what might the occasion be?
+A: praying
+B: temple
+C: church services
+D: ceremony
+E: sanctuary
+Answer: D
+Question: The skin was cut while chopping onions, where was this skin likely cut?
+A: good health
+B: finger
+C: meat
+D: body
+E: own family",Answer: B,B
+CSQA,3a,"Question: A good musician has a keen ear, they pick up much more than the normal person when they what?
+A: play violin
+B: hear sounds
+C: ocean
+D: blow trumpet
+E: stage
 Answer: B
-Question: He appreciated the small park and its taste of nature, living in the city just felt so what?
-A: very hard
-B: city
-C: man made
-D: indoors
-E: artificial
-Answer: E
-Question: Joe learned some relaxing exercises from his therapist.  They all centered around what sort of action?
-A: feeling good
-B: deep breathing
-C: sleeping
-D: taking a bath
-E: fall asleep
+Question: The children all got their shot to become actors, the school was putting on a what?
+A: movies
+B: television
+C: fancy dress
+D: play
+E: show
+Answer: D
+Question: A good musician has a keen ear, they pick up much more than the normal person when they what?
+A: play violin
+B: hear sounds
+C: ocean
+D: blow trumpet
+E: stage
 Answer: B
-Question: He appreciated the small park and its taste of nature, living in the city just felt so what?
-A: very hard
-B: city
-C: man made
-D: indoors
-E: artificial
-Answer: E
-Question: What kind of driving leads to accidents?
-A: stressful
-B: dangerous
-C: fun
-D: illegal
-E: deadly",Answer: B,B
-CSQA,3b,"Question: You're not traveling but you need to put your shirt somewhere, what is the name of the object that you'd put it in?
-A: suitcase
-B: garment bag
-C: drawer
-D: dirty laundry basket
-E: dresser
-Answer: E
-Question: The man was bad at getting a job because of his poor references, what did he need to work on being?
-A: famous
-B: sufficient
-C: benevolent
-D: reputable
-E: first class
+Question: The children all got their shot to become actors, the school was putting on a what?
+A: movies
+B: television
+C: fancy dress
+D: play
+E: show
 Answer: D
-Question: You're not traveling but you need to put your shirt somewhere, what is the name of the object that you'd put it in?
-A: suitcase
-B: garment bag
-C: drawer
-D: dirty laundry basket
-E: dresser
-Answer: E
-Question: The man was bad at getting a job because of his poor references, what did he need to work on being?
-A: famous
-B: sufficient
-C: benevolent
-D: reputable
-E: first class
+Question: The skin was cut while chopping onions, where was this skin likely cut?
+A: good health
+B: finger
+C: meat
+D: body
+E: own family",Answer: B,B
+CSQA,3b,"Question: Where can you take your automobile to go as fast as you can?
+A: garage
+B: parkling lot
+C: freeway
+D: racetrack
+E: side of road
 Answer: D
-Question: What kind of driving leads to accidents?
-A: stressful
-B: dangerous
-C: fun
-D: illegal
-E: deadly",Answer: B,B
-StrategyQA,0,"Question: Carl Friedrich Gauss was born in 1777. Speaking to someone 100 miles away requires a telephone. The telephone was invented in 1876.
-Could Carl Friedrich Gauss speak to someone 100 miles away?","No, Carl Friedrich Gauss would not have been able to speak to someone 100 miles away because the telephone was not invented until 1876, almost a century after Gauss was born.",False
-StrategyQA,1a,"Question: Jack Dempsey died in 1983 The current WBC heavyweight champion is Tyson Fury Tyson Fury was born in 1988
-Did Jack Dempsey fight the current WBC heavyweight champion?
+Question: If something is occurring at an altar, what might the occasion be?
+A: praying
+B: temple
+C: church services
+D: ceremony
+E: sanctuary
+Answer: D
+Question: Where can you take your automobile to go as fast as you can?
+A: garage
+B: parkling lot
+C: freeway
+D: racetrack
+E: side of road
+Answer: D
+Question: If something is occurring at an altar, what might the occasion be?
+A: praying
+B: temple
+C: church services
+D: ceremony
+E: sanctuary
+Answer: D
+Question: The skin was cut while chopping onions, where was this skin likely cut?
+A: good health
+B: finger
+C: meat
+D: body
+E: own family",Answer: B,B
+StrategyQA,0,"Question: The Viper Room has a capacity of 250 people. The National Diet building has two wings with over 700 seats.
+Can Viper Room concert hypothetically be held at National Diet building?","No, a Viper Room concert could not hypothetically be held at the National Diet building as the Viper Room has a capacity of 250 people, while the National Diet building has over 700 seats, which would likely be too large of a venue for a Viper Room concert. Additionally, the National Diet building is a government building in Tokyo, Japan and may not be appropriate for hosting a concert.",True
+StrategyQA,1a,"Question: The Yellow Pages is a book that contains alphabetized phone listings. Yellow pages involves going through many listings and remembering your alphabet. Google allows a person to type in a name quickly and look for a phone number. Household AI assistants like Echo allow people to merely speak a name and ask for number.
+Is the Yellow Pages the fastest way to find a phone number?
 Answer: False
-Question: An urban legend is commonly accepted folk lore.  Urban means related to a city. Many urban legends occur in rural towns that lack dense population. Most Urban legends are unverified due to lack of witnesses. 
-Do urban legends always have to occur in cities?
-Answer: False
-Question: Carl Friedrich Gauss was born in 1777. Speaking to someone 100 miles away requires a telephone. The telephone was invented in 1876.
-Could Carl Friedrich Gauss speak to someone 100 miles away?",Answer: False,False
-StrategyQA,1b,"Question: The Morris County was named after Colonel Lewis Morris. Colonel Lewis Morris was the chief justice of New York.
-Was Morris County named after a chief justice?
+Question: Amazonas is mostly tropical jungle. Tropical jungles contain dangerous creatures. Dangerous creatures put people's lives at risk.
+Does walking across Amazonas put a person's life at risk?
 Answer: True
-Question: Astronomer study the actual science of the stars. Horoscopes are written by astrologers, not astronomers.
-Do astronomers write horoscopes?
-Answer: False
-Question: Carl Friedrich Gauss was born in 1777. Speaking to someone 100 miles away requires a telephone. The telephone was invented in 1876.
-Could Carl Friedrich Gauss speak to someone 100 miles away?",Answer: No,False
-StrategyQA,2,"Question: Jack Dempsey died in 1983 The current WBC heavyweight champion is Tyson Fury Tyson Fury was born in 1988
-Did Jack Dempsey fight the current WBC heavyweight champion?
-Answer: False
-Question: An urban legend is commonly accepted folk lore.  Urban means related to a city. Many urban legends occur in rural towns that lack dense population. Most Urban legends are unverified due to lack of witnesses. 
-Do urban legends always have to occur in cities?
-Answer: False
-Question: The Morris County was named after Colonel Lewis Morris. Colonel Lewis Morris was the chief justice of New York.
-Was Morris County named after a chief justice?
+Question: The Viper Room has a capacity of 250 people. The National Diet building has two wings with over 700 seats.
+Can Viper Room concert hypothetically be held at National Diet building?",Answer: False,True
+StrategyQA,1b,"Question: Naomi Watts starred in King Kong (2005 film). Naomi Watts has starred in several movies such as Divergent and the RIng. Divergent: Insurgent made 295 million at the box office worldwide . The Ring made 248 million at the box office worldwide . King Kong (2005 film) made 550 million at the box office worldwide.
+Was King Kong (2005 film) the lead actress's biggest box office role?
 Answer: True
-Question: Astronomer study the actual science of the stars. Horoscopes are written by astrologers, not astronomers.
-Do astronomers write horoscopes?
-Answer: False
-Question: Carl Friedrich Gauss was born in 1777. Speaking to someone 100 miles away requires a telephone. The telephone was invented in 1876.
-Could Carl Friedrich Gauss speak to someone 100 miles away?",Answer: True,False
-StrategyQA,3a,"Question: Jack Dempsey died in 1983 The current WBC heavyweight champion is Tyson Fury Tyson Fury was born in 1988
-Did Jack Dempsey fight the current WBC heavyweight champion?
-Answer: False
-Question: An urban legend is commonly accepted folk lore.  Urban means related to a city. Many urban legends occur in rural towns that lack dense population. Most Urban legends are unverified due to lack of witnesses. 
-Do urban legends always have to occur in cities?
-Answer: False
-Question: Jack Dempsey died in 1983 The current WBC heavyweight champion is Tyson Fury Tyson Fury was born in 1988
-Did Jack Dempsey fight the current WBC heavyweight champion?
-Answer: False
-Question: An urban legend is commonly accepted folk lore.  Urban means related to a city. Many urban legends occur in rural towns that lack dense population. Most Urban legends are unverified due to lack of witnesses. 
-Do urban legends always have to occur in cities?
-Answer: False
-Question: Carl Friedrich Gauss was born in 1777. Speaking to someone 100 miles away requires a telephone. The telephone was invented in 1876.
-Could Carl Friedrich Gauss speak to someone 100 miles away?",Answer: False,False
-StrategyQA,3b,"Question: The Morris County was named after Colonel Lewis Morris. Colonel Lewis Morris was the chief justice of New York.
-Was Morris County named after a chief justice?
+Question: Richard III lived until the age of 32. Richard, Duke of York, Richard III's father, lived until the age of 49.
+Did Richard III's father have greater longevity than him?
 Answer: True
-Question: Astronomer study the actual science of the stars. Horoscopes are written by astrologers, not astronomers.
-Do astronomers write horoscopes?
+Question: The Viper Room has a capacity of 250 people. The National Diet building has two wings with over 700 seats.
+Can Viper Room concert hypothetically be held at National Diet building?",Answer: False,True
+StrategyQA,2,"Question: The Yellow Pages is a book that contains alphabetized phone listings. Yellow pages involves going through many listings and remembering your alphabet. Google allows a person to type in a name quickly and look for a phone number. Household AI assistants like Echo allow people to merely speak a name and ask for number.
+Is the Yellow Pages the fastest way to find a phone number?
 Answer: False
-Question: The Morris County was named after Colonel Lewis Morris. Colonel Lewis Morris was the chief justice of New York.
-Was Morris County named after a chief justice?
+Question: Amazonas is mostly tropical jungle. Tropical jungles contain dangerous creatures. Dangerous creatures put people's lives at risk.
+Does walking across Amazonas put a person's life at risk?
 Answer: True
-Question: Astronomer study the actual science of the stars. Horoscopes are written by astrologers, not astronomers.
-Do astronomers write horoscopes?
+Question: Naomi Watts starred in King Kong (2005 film). Naomi Watts has starred in several movies such as Divergent and the RIng. Divergent: Insurgent made 295 million at the box office worldwide . The Ring made 248 million at the box office worldwide . King Kong (2005 film) made 550 million at the box office worldwide.
+Was King Kong (2005 film) the lead actress's biggest box office role?
+Answer: True
+Question: Richard III lived until the age of 32. Richard, Duke of York, Richard III's father, lived until the age of 49.
+Did Richard III's father have greater longevity than him?
+Answer: True
+Question: The Viper Room has a capacity of 250 people. The National Diet building has two wings with over 700 seats.
+Can Viper Room concert hypothetically be held at National Diet building?",Answer: False,True
+StrategyQA,3a,"Question: The Yellow Pages is a book that contains alphabetized phone listings. Yellow pages involves going through many listings and remembering your alphabet. Google allows a person to type in a name quickly and look for a phone number. Household AI assistants like Echo allow people to merely speak a name and ask for number.
+Is the Yellow Pages the fastest way to find a phone number?
 Answer: False
-Question: Carl Friedrich Gauss was born in 1777. Speaking to someone 100 miles away requires a telephone. The telephone was invented in 1876.
-Could Carl Friedrich Gauss speak to someone 100 miles away?",Answer: False,False
-SayCan,0,Question: Provide step-by-step instructions for the following task: Throw the coke can away.,"1. Hold the coke can in one hand.
-2. Locate the nearest trash bin or recycling bin.
-3. Walk over to the bin and open the lid if necessary.
-4. With your free hand, use your thumb to press down on the top of the can to crush it slightly.
-5. Hold the can over the bin and drop it in.
-6. Close the lid of the bin if applicable.
-7. Make sure the can has landed securely in the bin before walking away.","1. find a coke can, 2. pick up the coke can, 3. go to the trash, 4. put down the coke can, 5. done"
-SayCan,1a,"Question: Provide step-by-step instructions for the following task: I love spice, can you get something to eat?
-Answer: 1. find the jalapeno chips, 2. pick up the jalapeno chips, 3. bring it to you, 4. put down the jalapeno chips, 5. done
-Question: Provide step-by-step instructions for the following task: How would you navigate to the table?
-Answer: 1. go to the table, 2. done
-Question: Provide step-by-step instructions for the following task: Throw the coke can away.","Answer: 1. Pick up the coke can, 2. walk to the nearest trash can, 3. open the lid of the trash can, 4. drop the coke can into the trash can, 5. close the lid of the trash can, 6. done.","1. find a coke can, 2. pick up the coke can, 3. go to the trash, 4. put down the coke can, 5. done"
-SayCan,1b,"Question: Provide step-by-step instructions for the following task: Bring me a sprite.
-Answer: 1. find a sprite can, 2. pick up the sprite can, 3. bring it to you, 4. put down the sprite can, 5. done
-Question: Provide step-by-step instructions for the following task: How would you grab the coke can?
+Question: Amazonas is mostly tropical jungle. Tropical jungles contain dangerous creatures. Dangerous creatures put people's lives at risk.
+Does walking across Amazonas put a person's life at risk?
+Answer: True
+Question: The Yellow Pages is a book that contains alphabetized phone listings. Yellow pages involves going through many listings and remembering your alphabet. Google allows a person to type in a name quickly and look for a phone number. Household AI assistants like Echo allow people to merely speak a name and ask for number.
+Is the Yellow Pages the fastest way to find a phone number?
+Answer: False
+Question: Amazonas is mostly tropical jungle. Tropical jungles contain dangerous creatures. Dangerous creatures put people's lives at risk.
+Does walking across Amazonas put a person's life at risk?
+Answer: True
+Question: The Viper Room has a capacity of 250 people. The National Diet building has two wings with over 700 seats.
+Can Viper Room concert hypothetically be held at National Diet building?",Answer: False,True
+StrategyQA,3b,"Question: Naomi Watts starred in King Kong (2005 film). Naomi Watts has starred in several movies such as Divergent and the RIng. Divergent: Insurgent made 295 million at the box office worldwide . The Ring made 248 million at the box office worldwide . King Kong (2005 film) made 550 million at the box office worldwide.
+Was King Kong (2005 film) the lead actress's biggest box office role?
+Answer: True
+Question: Richard III lived until the age of 32. Richard, Duke of York, Richard III's father, lived until the age of 49.
+Did Richard III's father have greater longevity than him?
+Answer: True
+Question: Naomi Watts starred in King Kong (2005 film). Naomi Watts has starred in several movies such as Divergent and the RIng. Divergent: Insurgent made 295 million at the box office worldwide . The Ring made 248 million at the box office worldwide . King Kong (2005 film) made 550 million at the box office worldwide.
+Was King Kong (2005 film) the lead actress's biggest box office role?
+Answer: True
+Question: Richard III lived until the age of 32. Richard, Duke of York, Richard III's father, lived until the age of 49.
+Did Richard III's father have greater longevity than him?
+Answer: True
+Question: The Viper Room has a capacity of 250 people. The National Diet building has two wings with over 700 seats.
+Can Viper Room concert hypothetically be held at National Diet building?",Answer: False,True
+SayCan,0,Question: Throw away the sprite.,"Response: Okay, I will dispose of the Sprite.","1. find a sprite can, 2. pick up the sprite can, 3. go to the trash, 4. put down the sprite can, 5. done"
+SayCan,1a,"Question: Grab the coke can.
 Answer: 1. pick up the coke can, 2. done
-Question: Provide step-by-step instructions for the following task: Throw the coke can away.","Answer: 1. Hold the coke can, 2. Walk to a trash can, 3. Open the lid of the trash can, 4. Throw the coke can into the trash can, 5. Close the lid of the trash can, 6. done.","1. find a coke can, 2. pick up the coke can, 3. go to the trash, 4. put down the coke can, 5. done"
-SayCan,2,"Question: Provide step-by-step instructions for the following task: I love spice, can you get something to eat?
-Answer: 1. find the jalapeno chips, 2. pick up the jalapeno chips, 3. bring it to you, 4. put down the jalapeno chips, 5. done
-Question: Provide step-by-step instructions for the following task: How would you navigate to the table?
+Question: How would you bring me a fruit?
+Answer: 1. find a banana, 2. pick up the banana, 3. bring it to you, 4. put down the banana, 5. done
+Question: Throw away the sprite.","Answer: 1. find the sprite can, 2. pick it up, 3. throw it away in the trash, 4. done","1. find a sprite can, 2. pick up the sprite can, 3. go to the trash, 4. put down the sprite can, 5. done"
+SayCan,1b,"Question: How would you throw away the apple?
+Answer: 1. find an apple, 2. pick up the apple, 3. go to the trash, 4. put down the apple, 5. done
+Question: Find the table.
 Answer: 1. go to the table, 2. done
-Question: Provide step-by-step instructions for the following task: Bring me a sprite.
-Answer: 1. find a sprite can, 2. pick up the sprite can, 3. bring it to you, 4. put down the sprite can, 5. done
-Question: Provide step-by-step instructions for the following task: How would you grab the coke can?
+Question: Throw away the sprite.","Answer: 1. find a can or bottle of sprite, 2. pick up the sprite, 3. go to the trash, 4. put down the sprite, 5. done","1. find a sprite can, 2. pick up the sprite can, 3. go to the trash, 4. put down the sprite can, 5. done"
+SayCan,2,"Question: Grab the coke can.
 Answer: 1. pick up the coke can, 2. done
-Question: Provide step-by-step instructions for the following task: Throw the coke can away.","Answer: 1. find a trash can, 2. open the lid of the trash can, 3. throw the coke can into the trash can, 4. close the lid of the trash can, 5. done","1. find a coke can, 2. pick up the coke can, 3. go to the trash, 4. put down the coke can, 5. done"
-SayCan,3a,"Question: Provide step-by-step instructions for the following task: I love spice, can you get something to eat?
-Answer: 1. find the jalapeno chips, 2. pick up the jalapeno chips, 3. bring it to you, 4. put down the jalapeno chips, 5. done
-Question: Provide step-by-step instructions for the following task: How would you navigate to the table?
+Question: How would you bring me a fruit?
+Answer: 1. find a banana, 2. pick up the banana, 3. bring it to you, 4. put down the banana, 5. done
+Question: How would you throw away the apple?
+Answer: 1. find an apple, 2. pick up the apple, 3. go to the trash, 4. put down the apple, 5. done
+Question: Find the table.
 Answer: 1. go to the table, 2. done
-Question: Provide step-by-step instructions for the following task: I love spice, can you get something to eat?
-Answer: 1. find the jalapeno chips, 2. pick up the jalapeno chips, 3. bring it to you, 4. put down the jalapeno chips, 5. done
-Question: Provide step-by-step instructions for the following task: How would you navigate to the table?
+Question: Throw away the sprite.","Answer: 1. find a sprite, 2. pick up the sprite, 3. go to the trash, 4. put down the sprite, 5. done","1. find a sprite can, 2. pick up the sprite can, 3. go to the trash, 4. put down the sprite can, 5. done"
+SayCan,3a,"Question: Grab the coke can.
+Answer: 1. pick up the coke can, 2. done
+Question: How would you bring me a fruit?
+Answer: 1. find a banana, 2. pick up the banana, 3. bring it to you, 4. put down the banana, 5. done
+Question: Grab the coke can.
+Answer: 1. pick up the coke can, 2. done
+Question: How would you bring me a fruit?
+Answer: 1. find a banana, 2. pick up the banana, 3. bring it to you, 4. put down the banana, 5. done
+Question: Throw away the sprite.","Answer: 1. pick up the sprite can, 2. walk to the trash can, 3. throw away the sprite can, 4. done","1. find a sprite can, 2. pick up the sprite can, 3. go to the trash, 4. put down the sprite can, 5. done"
+SayCan,3b,"Question: How would you throw away the apple?
+Answer: 1. find an apple, 2. pick up the apple, 3. go to the trash, 4. put down the apple, 5. done
+Question: Find the table.
 Answer: 1. go to the table, 2. done
-Question: Provide step-by-step instructions for the following task: Throw the coke can away.","Answer: 1. Pick up the coke can, 2. Walk to the nearest trash bin, 3. Open the trash bin, 4. Drop the coke can in the trash bin, 5. Close the trash bin, 6. Done.","1. find a coke can, 2. pick up the coke can, 3. go to the trash, 4. put down the coke can, 5. done"
-SayCan,3b,"Question: Provide step-by-step instructions for the following task: Bring me a sprite.
-Answer: 1. find a sprite can, 2. pick up the sprite can, 3. bring it to you, 4. put down the sprite can, 5. done
-Question: Provide step-by-step instructions for the following task: How would you grab the coke can?
-Answer: 1. pick up the coke can, 2. done
-Question: Provide step-by-step instructions for the following task: Bring me a sprite.
-Answer: 1. find a sprite can, 2. pick up the sprite can, 3. bring it to you, 4. put down the sprite can, 5. done
-Question: Provide step-by-step instructions for the following task: How would you grab the coke can?
-Answer: 1. pick up the coke can, 2. done
-Question: Provide step-by-step instructions for the following task: Throw the coke can away.","Answer: 1. Hold the coke can in your hand, 2. Walk over to a trash can, 3. Open the lid of the trash can, 4. Drop the coke can into the trash can, 5. Close the lid of the trash can, 6. Done.","1. find a coke can, 2. pick up the coke can, 3. go to the trash, 4. put down the coke can, 5. done"
+Question: How would you throw away the apple?
+Answer: 1. find an apple, 2. pick up the apple, 3. go to the trash, 4. put down the apple, 5. done
+Question: Find the table.
+Answer: 1. go to the table, 2. done
+Question: Throw away the sprite.","Answer: 1. find a can of sprite, 2. go to the trash, 3. dispose of the sprite in the trash, 4. done","1. find a sprite can, 2. pick up the sprite can, 3. go to the trash, 4. put down the sprite can, 5. done"

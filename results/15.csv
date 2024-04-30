@@ -1,386 +1,386 @@
 Task Class,Case,Prompt,Response,Expected
-Math,0,"Question: Christina records her mood every day on a calendar. Over the past thirty days of moods, she had twelve good days and eight bad days and the rest were neutral. Her first eight days were good, her second eight days were bad, and her third eight days were neutral. If the next three days were good, neutral, and good, how many good days were left in the month?","Based on the information provided, Christina had 12 good days over the span of 30 days. She had 8 good days in the first 8 days, so in the next 8 days there were 8-8=0 good days.
-In the next 8 days, there were 8-0=8 neutral days.
-Thus far, we know that there are 12 good days, 8 neutral days, and 8 bad days accounted for.
-For the next three days: 1 good day, 1 neutral day, and 1 good day.
-Therefore, the total number of good days at the end of the month is 12 (known good days) + 1 (from the next 3 days) = 13 good days left in the month.","Christina had 30 - 12 - 8 = <<30-12-8=10>>10 neutral days in the month.
-After the first three 8-day periods, she had 30 - 8 * 3 = 30 - 24 = <<30-8*3=6>>6 days of moods left.
-Of those days, 12 - 8 = <<12-8=4>>4 days were good.
-After the next 3 days with 2 good days, Christina had 4 - 2 = <<4-2=2>>2 good days left.
-#### 2"
-Math,1a,"Question: Jim had 365 trading cards. He gives 8 sets of cards to his brother, 5 sets of cards to his sister, and 2 sets of cards to his friend. How many cards did he give away, assuming 1 set has 13 trading cards?
-Answer: Jim gave 8*13 = <<8*13=104>>104 trading cards to his brother.
-Jim gave 5*13 = <<5*13=65>>65 trading cards to his sister.
-Jim gave 2*13 = <<2*13=26>>26 trading cards to his friends.
-Jim gave away a total of 104+65+26 = <<104+65+26=195>>195 trading cards.
-#### 195
-Question: Jude bought three chairs for his house, all at the same price. He also bought a table that costs $50 and two sets of plates at $20 for each set. After giving the cashier $130, Jude got a $4 change. How much did each of the chairs cost?
-Answer: The two sets of plates amount to $20 x 2 = $<<20*2=40>>40.
-So the table and the two sets of plates amount to $50 + $40 = $<<50+40=90>>90 in all.
-Since Jude received a $4 change, then he paid a total of $130 - $4 = $<<130-4=126>>126 for the chairs, tables, and plates.
-Thus, the three chairs cost $126 - $90 = $<<126-90=36>>36.
-Therefore, each chair cost $36/3 = $<<36/3=12>>12.
-#### 12
-Question: Christina records her mood every day on a calendar. Over the past thirty days of moods, she had twelve good days and eight bad days and the rest were neutral. Her first eight days were good, her second eight days were bad, and her third eight days were neutral. If the next three days were good, neutral, and good, how many good days were left in the month?","Answer: From the given information, we can see that Christina had a total of 12 good days over 30 days, with 8 good days in the first 8 days and 3 good days in the next 3 days. This leaves 12 - 8 - 3 = <<12-8-3=1>>1 good day left for the rest of the month.
-Therefore, there is 1 good day left for the remainder of the month.
-#### 1","Christina had 30 - 12 - 8 = <<30-12-8=10>>10 neutral days in the month.
-After the first three 8-day periods, she had 30 - 8 * 3 = 30 - 24 = <<30-8*3=6>>6 days of moods left.
-Of those days, 12 - 8 = <<12-8=4>>4 days were good.
-After the next 3 days with 2 good days, Christina had 4 - 2 = <<4-2=2>>2 good days left.
-#### 2"
-Math,1b,"Question: Diana is twice as old as Grace is today. If Grace turned 3 a year ago, how old is Diana today?
-Answer: Today, Grace is 3 + 1 = <<3+1=4>>4 years old.
-So, Diana is 4*2 = <<4*2=8>>8 years old today.
-#### 8
-Question: Diego can carry 20 pounds of fruit home in his bookbag. If he buys a pound of watermelon, a pound of grapes, and a pound of oranges, how many pounds of apples can he buy?
-Answer: He is able to carry 3 pounds of watermelon, grapes, and oranges because1+1+ 1 = <<3=3>>3
-He can buy 17 pounds of apple because20-3 = <<20-3=17>>17
-#### 17
-Question: Christina records her mood every day on a calendar. Over the past thirty days of moods, she had twelve good days and eight bad days and the rest were neutral. Her first eight days were good, her second eight days were bad, and her third eight days were neutral. If the next three days were good, neutral, and good, how many good days were left in the month?","Answer: Out of the thirty days, Christina had a total of 12 good days, 8 bad days, and 10 neutral days.
-Since the first 8 days were good, the next 8 were bad, and the third set of 8 were neutral, we know that the past 24 days were accounted for.
-This means there are 6 days left in the month, with 3 of them being good, 1 being neutral, and 2 being good.
-So, there are 5 good days left in the month.","Christina had 30 - 12 - 8 = <<30-12-8=10>>10 neutral days in the month.
-After the first three 8-day periods, she had 30 - 8 * 3 = 30 - 24 = <<30-8*3=6>>6 days of moods left.
-Of those days, 12 - 8 = <<12-8=4>>4 days were good.
-After the next 3 days with 2 good days, Christina had 4 - 2 = <<4-2=2>>2 good days left.
-#### 2"
-Math,2,"Question: Jim had 365 trading cards. He gives 8 sets of cards to his brother, 5 sets of cards to his sister, and 2 sets of cards to his friend. How many cards did he give away, assuming 1 set has 13 trading cards?
-Answer: Jim gave 8*13 = <<8*13=104>>104 trading cards to his brother.
-Jim gave 5*13 = <<5*13=65>>65 trading cards to his sister.
-Jim gave 2*13 = <<2*13=26>>26 trading cards to his friends.
-Jim gave away a total of 104+65+26 = <<104+65+26=195>>195 trading cards.
-#### 195
-Question: Jude bought three chairs for his house, all at the same price. He also bought a table that costs $50 and two sets of plates at $20 for each set. After giving the cashier $130, Jude got a $4 change. How much did each of the chairs cost?
-Answer: The two sets of plates amount to $20 x 2 = $<<20*2=40>>40.
-So the table and the two sets of plates amount to $50 + $40 = $<<50+40=90>>90 in all.
-Since Jude received a $4 change, then he paid a total of $130 - $4 = $<<130-4=126>>126 for the chairs, tables, and plates.
-Thus, the three chairs cost $126 - $90 = $<<126-90=36>>36.
-Therefore, each chair cost $36/3 = $<<36/3=12>>12.
-#### 12
-Question: Diana is twice as old as Grace is today. If Grace turned 3 a year ago, how old is Diana today?
-Answer: Today, Grace is 3 + 1 = <<3+1=4>>4 years old.
-So, Diana is 4*2 = <<4*2=8>>8 years old today.
-#### 8
-Question: Diego can carry 20 pounds of fruit home in his bookbag. If he buys a pound of watermelon, a pound of grapes, and a pound of oranges, how many pounds of apples can he buy?
-Answer: He is able to carry 3 pounds of watermelon, grapes, and oranges because1+1+ 1 = <<3=3>>3
-He can buy 17 pounds of apple because20-3 = <<20-3=17>>17
-#### 17
-Question: Christina records her mood every day on a calendar. Over the past thirty days of moods, she had twelve good days and eight bad days and the rest were neutral. Her first eight days were good, her second eight days were bad, and her third eight days were neutral. If the next three days were good, neutral, and good, how many good days were left in the month?","Answer: Christina had a total of 12 good days over the past thirty days. Since her first eight days were good, her second eight days were bad, and her third eight days were neutral, she used 8+8+8 = <<8+8+8=24>>24 days.
-This means she had 30-24 = <<30-24=6>>6 days left.
-Since the next three days were good, neutral, and good, she used up 3 more days, so she had 6-3 = <<6-3=3>>3 good days left in the month.
-#### 3","Christina had 30 - 12 - 8 = <<30-12-8=10>>10 neutral days in the month.
-After the first three 8-day periods, she had 30 - 8 * 3 = 30 - 24 = <<30-8*3=6>>6 days of moods left.
-Of those days, 12 - 8 = <<12-8=4>>4 days were good.
-After the next 3 days with 2 good days, Christina had 4 - 2 = <<4-2=2>>2 good days left.
-#### 2"
-Math,3a,"Question: Jim had 365 trading cards. He gives 8 sets of cards to his brother, 5 sets of cards to his sister, and 2 sets of cards to his friend. How many cards did he give away, assuming 1 set has 13 trading cards?
-Answer: Jim gave 8*13 = <<8*13=104>>104 trading cards to his brother.
-Jim gave 5*13 = <<5*13=65>>65 trading cards to his sister.
-Jim gave 2*13 = <<2*13=26>>26 trading cards to his friends.
-Jim gave away a total of 104+65+26 = <<104+65+26=195>>195 trading cards.
-#### 195
-Question: Jude bought three chairs for his house, all at the same price. He also bought a table that costs $50 and two sets of plates at $20 for each set. After giving the cashier $130, Jude got a $4 change. How much did each of the chairs cost?
-Answer: The two sets of plates amount to $20 x 2 = $<<20*2=40>>40.
-So the table and the two sets of plates amount to $50 + $40 = $<<50+40=90>>90 in all.
-Since Jude received a $4 change, then he paid a total of $130 - $4 = $<<130-4=126>>126 for the chairs, tables, and plates.
-Thus, the three chairs cost $126 - $90 = $<<126-90=36>>36.
-Therefore, each chair cost $36/3 = $<<36/3=12>>12.
-#### 12
-Question: Jim had 365 trading cards. He gives 8 sets of cards to his brother, 5 sets of cards to his sister, and 2 sets of cards to his friend. How many cards did he give away, assuming 1 set has 13 trading cards?
-Answer: Jim gave 8*13 = <<8*13=104>>104 trading cards to his brother.
-Jim gave 5*13 = <<5*13=65>>65 trading cards to his sister.
-Jim gave 2*13 = <<2*13=26>>26 trading cards to his friends.
-Jim gave away a total of 104+65+26 = <<104+65+26=195>>195 trading cards.
-#### 195
-Question: Jude bought three chairs for his house, all at the same price. He also bought a table that costs $50 and two sets of plates at $20 for each set. After giving the cashier $130, Jude got a $4 change. How much did each of the chairs cost?
-Answer: The two sets of plates amount to $20 x 2 = $<<20*2=40>>40.
-So the table and the two sets of plates amount to $50 + $40 = $<<50+40=90>>90 in all.
-Since Jude received a $4 change, then he paid a total of $130 - $4 = $<<130-4=126>>126 for the chairs, tables, and plates.
-Thus, the three chairs cost $126 - $90 = $<<126-90=36>>36.
-Therefore, each chair cost $36/3 = $<<36/3=12>>12.
-#### 12
-Question: Christina records her mood every day on a calendar. Over the past thirty days of moods, she had twelve good days and eight bad days and the rest were neutral. Her first eight days were good, her second eight days were bad, and her third eight days were neutral. If the next three days were good, neutral, and good, how many good days were left in the month?","Answer: Since Christina had 12 good days in total and the first 8 days were good, then she had 12 - 8 = <<12-8=4>>4 good days left.
-After the next three days, she would have used up those 4 days, leaving her with no more remaining good days.
-Therefore, there are 0 good days left in the month.","Christina had 30 - 12 - 8 = <<30-12-8=10>>10 neutral days in the month.
-After the first three 8-day periods, she had 30 - 8 * 3 = 30 - 24 = <<30-8*3=6>>6 days of moods left.
-Of those days, 12 - 8 = <<12-8=4>>4 days were good.
-After the next 3 days with 2 good days, Christina had 4 - 2 = <<4-2=2>>2 good days left.
-#### 2"
-Math,3b,"Question: Diana is twice as old as Grace is today. If Grace turned 3 a year ago, how old is Diana today?
-Answer: Today, Grace is 3 + 1 = <<3+1=4>>4 years old.
-So, Diana is 4*2 = <<4*2=8>>8 years old today.
-#### 8
-Question: Diego can carry 20 pounds of fruit home in his bookbag. If he buys a pound of watermelon, a pound of grapes, and a pound of oranges, how many pounds of apples can he buy?
-Answer: He is able to carry 3 pounds of watermelon, grapes, and oranges because1+1+ 1 = <<3=3>>3
-He can buy 17 pounds of apple because20-3 = <<20-3=17>>17
-#### 17
-Question: Diana is twice as old as Grace is today. If Grace turned 3 a year ago, how old is Diana today?
-Answer: Today, Grace is 3 + 1 = <<3+1=4>>4 years old.
-So, Diana is 4*2 = <<4*2=8>>8 years old today.
-#### 8
-Question: Diego can carry 20 pounds of fruit home in his bookbag. If he buys a pound of watermelon, a pound of grapes, and a pound of oranges, how many pounds of apples can he buy?
-Answer: He is able to carry 3 pounds of watermelon, grapes, and oranges because1+1+ 1 = <<3=3>>3
-He can buy 17 pounds of apple because20-3 = <<20-3=17>>17
-#### 17
-Question: Christina records her mood every day on a calendar. Over the past thirty days of moods, she had twelve good days and eight bad days and the rest were neutral. Her first eight days were good, her second eight days were bad, and her third eight days were neutral. If the next three days were good, neutral, and good, how many good days were left in the month?",Answer: There are 12 - 8 = <<12-8=4>>4 good days left in the month.,"Christina had 30 - 12 - 8 = <<30-12-8=10>>10 neutral days in the month.
-After the first three 8-day periods, she had 30 - 8 * 3 = 30 - 24 = <<30-8*3=6>>6 days of moods left.
-Of those days, 12 - 8 = <<12-8=4>>4 days were good.
-After the next 3 days with 2 good days, Christina had 4 - 2 = <<4-2=2>>2 good days left.
-#### 2"
-CSQA,0,"Question: Mark's semen was very thick, but after his vasectomy it was also what?
-A: blank
-B: sparse
-C: thin
-D: clear
-E: free flowing",C: thin,D
-CSQA,1a,"Question: Why does the guy try cashing in his check?
-A: extra money
-B: get paid
-C: great joy
-D: quitting
-E: profit
+Math,0,"Question: A DVD can be played 1000 times before it breaks. There are two DVDs in the public library, one has been played 356 times and the other has been played 135 times. How many total times can both DVDs be played before they break?","Both DVDs can be played a total of 865 times before they break. 
+
+The first DVD has been played 356 times, so it can be played 644 more times before it breaks (1000 - 356 = 644). 
+
+The second DVD has been played 135 times, so it can be played 865 more times before it breaks (1000 - 135 = 865). 
+
+Therefore, the total number of times both DVDs can be played before they break is 644 (first DVD) + 865 (second DVD) = 1509 times.","1000-356=<<1000-356=644>>644 times
+1000-135=<<1000-135=865>>865 times
+644+865=<<644+865=1509>>1509 times
+#### 1509"
+Math,1a,"Question: Marites internet speed is 10 megabits per second and her monthly internet bill is $20. Marites is planning to upgrade her service and choosing between 20 Mbps and 30 Mbps. If the price of the 30 Mbps is twice the amount of her current monthly bill and the price of the 20 Mbps is $10 more than her current monthly bill, how much will she save per year if she chooses the 20 Mbps than 30 Mbps?
+Answer: The total monthly bill for 30 Mbps is $20 x 2= $<<20*2=40>>40.
+She will have to pay $40 x 12 = $<<40*12=480>>480 every year for 30mbps.
+The total monthly bill for 20 Mbps is $20 + $10= $<<20+10=30>>30.
+So, she will have to pay $30 x 12 = $<<30*12=360>>360 for 20 Mbps per year.
+Therefore the amount she will save per year if she chooses the 20mbps is $480 - $360 = $<<480-360=120>>120
+#### 120
+Question: Out of the 400 emails that Antonia received in her mail, 1/4 were spam emails, while 2/5 of the remaining emails were promotional messages. If the rest of the emails were important emails, calculate the total number of important emails in her inbox.
+Answer: Out of the 400 emails, 1/4*400 = <<400*1/4=100>>100 emails were spam emails.
+The number of emails that were not spam emails is 400-100 = <<400-100=300>>300
+2/5 of the emails which were not spam were promotional emails, a total of 2/5*300=<<2/5*300=120>>120 emails.
+If the rest of the emails were important emails, there were 300-120 = <<300-120=180>>180 important emails.
+#### 180
+Question: A DVD can be played 1000 times before it breaks. There are two DVDs in the public library, one has been played 356 times and the other has been played 135 times. How many total times can both DVDs be played before they break?","Answer: The first DVD can be played 1000 - 356 = <<1000-356=644>>644 more times.
+The second DVD can be played 1000 - 135 = <<1000-135=865>>865 more times.
+Therefore, the total number of times both DVDs can be played before they break is 644 + 865 = <<644+865=1509>>1509 times.
+#### 1509","1000-356=<<1000-356=644>>644 times
+1000-135=<<1000-135=865>>865 times
+644+865=<<644+865=1509>>1509 times
+#### 1509"
+Math,1b,"Question: James and 4 of his friends volunteered to plant flowers. In 2 days, they were able to plant a total of 200 flowers. If each of them planted the same number of flowers, how many flowers did James plant in a day?
+Answer: There were 1 + 4 = <<1+4=5>>5 of them who volunteered to plant flowers.
+Each day, the 5 of them planted a total of 200/2 = <<200/2=100>>100 flowers.
+Thus, James planted 100/5 = <<100/5=20>>20 flowers in a day.
+#### 20
+Question: Edith is a receptionist at a local office and is organizing files into cabinets. She had 60 files and finished organizing half of them this morning. She has another 15 files to organize in the afternoon and the rest of the files are missing. How many files are missing?
+Answer: Edith has already organized 60 files / 2 = <<60/2=30>>30 files in the morning.
+She has files left to organize so she must still have 30 + 15 = <<30+15=45>>45 files in the office.
+This means there are 60 total files – 45 organized files = <<60-45=15>>15 missing files.
+#### 15
+Question: A DVD can be played 1000 times before it breaks. There are two DVDs in the public library, one has been played 356 times and the other has been played 135 times. How many total times can both DVDs be played before they break?","Answer: The first DVD has been played 356 times and the second DVD has been played 135 times, so they have been played a total of 356 + 135 = 491 times.
+Since each DVD can be played 1000 times before breaking, both DVDs can be played a total of 1000 + 1000 = <<1000+1000=2000>>2000 times before they break.
+Therefore, both DVDs can still be played a total of 2000 - 491 = <<2000-491=1509>>1509 times before they break.
+#### 1509","1000-356=<<1000-356=644>>644 times
+1000-135=<<1000-135=865>>865 times
+644+865=<<644+865=1509>>1509 times
+#### 1509"
+Math,2,"Question: Marites internet speed is 10 megabits per second and her monthly internet bill is $20. Marites is planning to upgrade her service and choosing between 20 Mbps and 30 Mbps. If the price of the 30 Mbps is twice the amount of her current monthly bill and the price of the 20 Mbps is $10 more than her current monthly bill, how much will she save per year if she chooses the 20 Mbps than 30 Mbps?
+Answer: The total monthly bill for 30 Mbps is $20 x 2= $<<20*2=40>>40.
+She will have to pay $40 x 12 = $<<40*12=480>>480 every year for 30mbps.
+The total monthly bill for 20 Mbps is $20 + $10= $<<20+10=30>>30.
+So, she will have to pay $30 x 12 = $<<30*12=360>>360 for 20 Mbps per year.
+Therefore the amount she will save per year if she chooses the 20mbps is $480 - $360 = $<<480-360=120>>120
+#### 120
+Question: Out of the 400 emails that Antonia received in her mail, 1/4 were spam emails, while 2/5 of the remaining emails were promotional messages. If the rest of the emails were important emails, calculate the total number of important emails in her inbox.
+Answer: Out of the 400 emails, 1/4*400 = <<400*1/4=100>>100 emails were spam emails.
+The number of emails that were not spam emails is 400-100 = <<400-100=300>>300
+2/5 of the emails which were not spam were promotional emails, a total of 2/5*300=<<2/5*300=120>>120 emails.
+If the rest of the emails were important emails, there were 300-120 = <<300-120=180>>180 important emails.
+#### 180
+Question: James and 4 of his friends volunteered to plant flowers. In 2 days, they were able to plant a total of 200 flowers. If each of them planted the same number of flowers, how many flowers did James plant in a day?
+Answer: There were 1 + 4 = <<1+4=5>>5 of them who volunteered to plant flowers.
+Each day, the 5 of them planted a total of 200/2 = <<200/2=100>>100 flowers.
+Thus, James planted 100/5 = <<100/5=20>>20 flowers in a day.
+#### 20
+Question: Edith is a receptionist at a local office and is organizing files into cabinets. She had 60 files and finished organizing half of them this morning. She has another 15 files to organize in the afternoon and the rest of the files are missing. How many files are missing?
+Answer: Edith has already organized 60 files / 2 = <<60/2=30>>30 files in the morning.
+She has files left to organize so she must still have 30 + 15 = <<30+15=45>>45 files in the office.
+This means there are 60 total files – 45 organized files = <<60-45=15>>15 missing files.
+#### 15
+Question: A DVD can be played 1000 times before it breaks. There are two DVDs in the public library, one has been played 356 times and the other has been played 135 times. How many total times can both DVDs be played before they break?","Answer: The first DVD has been played 356 times and the second DVD has been played 135 times, so they have been played a total of 356 + 135 = 491 times.
+Therefore, both DVDs can be played a total of 1000 + 1000 = 2000 times before they break.
+However, since they have already been played 491 times, they can be played 2000 - 491 = 1509 more times before they break.
+#### 1509","1000-356=<<1000-356=644>>644 times
+1000-135=<<1000-135=865>>865 times
+644+865=<<644+865=1509>>1509 times
+#### 1509"
+Math,3a,"Question: Marites internet speed is 10 megabits per second and her monthly internet bill is $20. Marites is planning to upgrade her service and choosing between 20 Mbps and 30 Mbps. If the price of the 30 Mbps is twice the amount of her current monthly bill and the price of the 20 Mbps is $10 more than her current monthly bill, how much will she save per year if she chooses the 20 Mbps than 30 Mbps?
+Answer: The total monthly bill for 30 Mbps is $20 x 2= $<<20*2=40>>40.
+She will have to pay $40 x 12 = $<<40*12=480>>480 every year for 30mbps.
+The total monthly bill for 20 Mbps is $20 + $10= $<<20+10=30>>30.
+So, she will have to pay $30 x 12 = $<<30*12=360>>360 for 20 Mbps per year.
+Therefore the amount she will save per year if she chooses the 20mbps is $480 - $360 = $<<480-360=120>>120
+#### 120
+Question: Out of the 400 emails that Antonia received in her mail, 1/4 were spam emails, while 2/5 of the remaining emails were promotional messages. If the rest of the emails were important emails, calculate the total number of important emails in her inbox.
+Answer: Out of the 400 emails, 1/4*400 = <<400*1/4=100>>100 emails were spam emails.
+The number of emails that were not spam emails is 400-100 = <<400-100=300>>300
+2/5 of the emails which were not spam were promotional emails, a total of 2/5*300=<<2/5*300=120>>120 emails.
+If the rest of the emails were important emails, there were 300-120 = <<300-120=180>>180 important emails.
+#### 180
+Question: Marites internet speed is 10 megabits per second and her monthly internet bill is $20. Marites is planning to upgrade her service and choosing between 20 Mbps and 30 Mbps. If the price of the 30 Mbps is twice the amount of her current monthly bill and the price of the 20 Mbps is $10 more than her current monthly bill, how much will she save per year if she chooses the 20 Mbps than 30 Mbps?
+Answer: The total monthly bill for 30 Mbps is $20 x 2= $<<20*2=40>>40.
+She will have to pay $40 x 12 = $<<40*12=480>>480 every year for 30mbps.
+The total monthly bill for 20 Mbps is $20 + $10= $<<20+10=30>>30.
+So, she will have to pay $30 x 12 = $<<30*12=360>>360 for 20 Mbps per year.
+Therefore the amount she will save per year if she chooses the 20mbps is $480 - $360 = $<<480-360=120>>120
+#### 120
+Question: Out of the 400 emails that Antonia received in her mail, 1/4 were spam emails, while 2/5 of the remaining emails were promotional messages. If the rest of the emails were important emails, calculate the total number of important emails in her inbox.
+Answer: Out of the 400 emails, 1/4*400 = <<400*1/4=100>>100 emails were spam emails.
+The number of emails that were not spam emails is 400-100 = <<400-100=300>>300
+2/5 of the emails which were not spam were promotional emails, a total of 2/5*300=<<2/5*300=120>>120 emails.
+If the rest of the emails were important emails, there were 300-120 = <<300-120=180>>180 important emails.
+#### 180
+Question: A DVD can be played 1000 times before it breaks. There are two DVDs in the public library, one has been played 356 times and the other has been played 135 times. How many total times can both DVDs be played before they break?","To find out how many total times both DVDs can be played before they break, you need to add the number of times each DVD has been played.
+
+DVD 1 has been played 356 times.
+DVD 2 has been played 135 times.
+
+Therefore, the total number of times both DVDs can be played before they break is 356 + 135 = 491 times.","1000-356=<<1000-356=644>>644 times
+1000-135=<<1000-135=865>>865 times
+644+865=<<644+865=1509>>1509 times
+#### 1509"
+Math,3b,"Question: James and 4 of his friends volunteered to plant flowers. In 2 days, they were able to plant a total of 200 flowers. If each of them planted the same number of flowers, how many flowers did James plant in a day?
+Answer: There were 1 + 4 = <<1+4=5>>5 of them who volunteered to plant flowers.
+Each day, the 5 of them planted a total of 200/2 = <<200/2=100>>100 flowers.
+Thus, James planted 100/5 = <<100/5=20>>20 flowers in a day.
+#### 20
+Question: Edith is a receptionist at a local office and is organizing files into cabinets. She had 60 files and finished organizing half of them this morning. She has another 15 files to organize in the afternoon and the rest of the files are missing. How many files are missing?
+Answer: Edith has already organized 60 files / 2 = <<60/2=30>>30 files in the morning.
+She has files left to organize so she must still have 30 + 15 = <<30+15=45>>45 files in the office.
+This means there are 60 total files – 45 organized files = <<60-45=15>>15 missing files.
+#### 15
+Question: James and 4 of his friends volunteered to plant flowers. In 2 days, they were able to plant a total of 200 flowers. If each of them planted the same number of flowers, how many flowers did James plant in a day?
+Answer: There were 1 + 4 = <<1+4=5>>5 of them who volunteered to plant flowers.
+Each day, the 5 of them planted a total of 200/2 = <<200/2=100>>100 flowers.
+Thus, James planted 100/5 = <<100/5=20>>20 flowers in a day.
+#### 20
+Question: Edith is a receptionist at a local office and is organizing files into cabinets. She had 60 files and finished organizing half of them this morning. She has another 15 files to organize in the afternoon and the rest of the files are missing. How many files are missing?
+Answer: Edith has already organized 60 files / 2 = <<60/2=30>>30 files in the morning.
+She has files left to organize so she must still have 30 + 15 = <<30+15=45>>45 files in the office.
+This means there are 60 total files – 45 organized files = <<60-45=15>>15 missing files.
+#### 15
+Question: A DVD can be played 1000 times before it breaks. There are two DVDs in the public library, one has been played 356 times and the other has been played 135 times. How many total times can both DVDs be played before they break?","Answer: The first DVD can be played 1000 - 356 = 644 more times.
+The second DVD can be played 1000 - 135 = 865 more times.
+Therefore, the total number of times both DVDs can be played before they break is 644 + 865 = 1509 times. 
+#### 1509","1000-356=<<1000-356=644>>644 times
+1000-135=<<1000-135=865>>865 times
+644+865=<<644+865=1509>>1509 times
+#### 1509"
+CSQA,0,"Question: What is eating too much dinner likely to result in?
+A: tiredness
+B: living longer
+C: stomach ache
+D: illness
+E: acid reflux",C: stomach ache,C
+CSQA,1a,"Question: What would a person do if he or she just woke up?
+A: drink tea
+B: thank god
+C: open eyes
+D: feel angry
+E: complete sentence
 Answer: A
-Question: She was worried about driving car, she was worried what might flare up during a long drive?
-A: michigan
-B: car crash
-C: automobile accidents
-D: backache
-E: getting tired
-Answer: D
-Question: Mark's semen was very thick, but after his vasectomy it was also what?
-A: blank
-B: sparse
-C: thin
-D: clear
-E: free flowing",Answer: C,D
-CSQA,1b,"Question: After procreating what can't some people handle that makes them turn to the government?
-A: triplets
-B: having children
-C: added responsibilities
-D: quintuplets
-E: large family
-Answer: C
-Question: Where can a television be stored and hidden?
-A: apartment
-B: living room
-C: bedroom
-D: kitchen
-E: cabinet
-Answer: E
-Question: Mark's semen was very thick, but after his vasectomy it was also what?
-A: blank
-B: sparse
-C: thin
-D: clear
-E: free flowing",Answer: C,D
-CSQA,2,"Question: Why does the guy try cashing in his check?
-A: extra money
-B: get paid
-C: great joy
-D: quitting
-E: profit
+Question: What is the most likely feature of a cat that you can see in the dark?
+A: eyes
+B: litter of kittens
+C: four legs
+D: nose
+E: flippers
 Answer: A
-Question: She was worried about driving car, she was worried what might flare up during a long drive?
-A: michigan
-B: car crash
-C: automobile accidents
-D: backache
-E: getting tired
-Answer: D
-Question: After procreating what can't some people handle that makes them turn to the government?
-A: triplets
-B: having children
-C: added responsibilities
-D: quintuplets
-E: large family
-Answer: C
-Question: Where can a television be stored and hidden?
-A: apartment
-B: living room
-C: bedroom
-D: kitchen
-E: cabinet
-Answer: E
-Question: Mark's semen was very thick, but after his vasectomy it was also what?
-A: blank
-B: sparse
-C: thin
-D: clear
-E: free flowing",Answer: C,D
-CSQA,3a,"Question: Why does the guy try cashing in his check?
-A: extra money
-B: get paid
-C: great joy
-D: quitting
-E: profit
+Question: What is eating too much dinner likely to result in?
+A: tiredness
+B: living longer
+C: stomach ache
+D: illness
+E: acid reflux",Answer: C,C
+CSQA,1b,"Question: If you about to go on stage and are dressed in costume you are likely about to be what?
+A: in play
+B: going to bed
+C: have talent
+D: teach
+E: climb stairs
 Answer: A
-Question: She was worried about driving car, she was worried what might flare up during a long drive?
-A: michigan
-B: car crash
-C: automobile accidents
-D: backache
-E: getting tired
-Answer: D
-Question: Why does the guy try cashing in his check?
-A: extra money
-B: get paid
-C: great joy
-D: quitting
-E: profit
+Question: What would a parent do if their child is missing?
+A: call child
+B: call the police
+C: experience fear
+D: homeschool
+E: close box
+Answer: C
+Question: What is eating too much dinner likely to result in?
+A: tiredness
+B: living longer
+C: stomach ache
+D: illness
+E: acid reflux",Answer: C,C
+CSQA,2,"Question: What would a person do if he or she just woke up?
+A: drink tea
+B: thank god
+C: open eyes
+D: feel angry
+E: complete sentence
 Answer: A
-Question: She was worried about driving car, she was worried what might flare up during a long drive?
-A: michigan
-B: car crash
-C: automobile accidents
-D: backache
-E: getting tired
-Answer: D
-Question: Mark's semen was very thick, but after his vasectomy it was also what?
-A: blank
-B: sparse
-C: thin
-D: clear
-E: free flowing",Answer: C,D
-CSQA,3b,"Question: After procreating what can't some people handle that makes them turn to the government?
-A: triplets
-B: having children
-C: added responsibilities
-D: quintuplets
-E: large family
+Question: What is the most likely feature of a cat that you can see in the dark?
+A: eyes
+B: litter of kittens
+C: four legs
+D: nose
+E: flippers
+Answer: A
+Question: If you about to go on stage and are dressed in costume you are likely about to be what?
+A: in play
+B: going to bed
+C: have talent
+D: teach
+E: climb stairs
+Answer: A
+Question: What would a parent do if their child is missing?
+A: call child
+B: call the police
+C: experience fear
+D: homeschool
+E: close box
 Answer: C
-Question: Where can a television be stored and hidden?
-A: apartment
-B: living room
-C: bedroom
-D: kitchen
-E: cabinet
-Answer: E
-Question: After procreating what can't some people handle that makes them turn to the government?
-A: triplets
-B: having children
-C: added responsibilities
-D: quintuplets
-E: large family
+Question: What is eating too much dinner likely to result in?
+A: tiredness
+B: living longer
+C: stomach ache
+D: illness
+E: acid reflux",Answer: C,C
+CSQA,3a,"Question: What would a person do if he or she just woke up?
+A: drink tea
+B: thank god
+C: open eyes
+D: feel angry
+E: complete sentence
+Answer: A
+Question: What is the most likely feature of a cat that you can see in the dark?
+A: eyes
+B: litter of kittens
+C: four legs
+D: nose
+E: flippers
+Answer: A
+Question: What would a person do if he or she just woke up?
+A: drink tea
+B: thank god
+C: open eyes
+D: feel angry
+E: complete sentence
+Answer: A
+Question: What is the most likely feature of a cat that you can see in the dark?
+A: eyes
+B: litter of kittens
+C: four legs
+D: nose
+E: flippers
+Answer: A
+Question: What is eating too much dinner likely to result in?
+A: tiredness
+B: living longer
+C: stomach ache
+D: illness
+E: acid reflux",Answer: C,C
+CSQA,3b,"Question: If you about to go on stage and are dressed in costume you are likely about to be what?
+A: in play
+B: going to bed
+C: have talent
+D: teach
+E: climb stairs
+Answer: A
+Question: What would a parent do if their child is missing?
+A: call child
+B: call the police
+C: experience fear
+D: homeschool
+E: close box
 Answer: C
-Question: Where can a television be stored and hidden?
-A: apartment
-B: living room
-C: bedroom
-D: kitchen
-E: cabinet
-Answer: E
-Question: Mark's semen was very thick, but after his vasectomy it was also what?
-A: blank
-B: sparse
-C: thin
-D: clear
-E: free flowing",Answer: C,D
-StrategyQA,0,"Question: Adam Sandler is Jewish. Jewish religious people do not celebrate Easter.
-Does Adam Sandler skip celebrating Easter?","Yes, as a Jewish person, Adam Sandler likely does not celebrate Easter, as it is a Christian holiday. Jewish people typically do not observe Easter as it is not part of their religious tradition.",True
-StrategyQA,1a,"Question: The President of South Korea lives in the Blue House The Blue House finished construction in early 1991 The World Trade Center complex was completed in 1987
-Did Moon Jae-in's residence exist when the World Trade Center was completed?
+Question: If you about to go on stage and are dressed in costume you are likely about to be what?
+A: in play
+B: going to bed
+C: have talent
+D: teach
+E: climb stairs
+Answer: A
+Question: What would a parent do if their child is missing?
+A: call child
+B: call the police
+C: experience fear
+D: homeschool
+E: close box
+Answer: C
+Question: What is eating too much dinner likely to result in?
+A: tiredness
+B: living longer
+C: stomach ache
+D: illness
+E: acid reflux",Answer: C,C
+StrategyQA,0,"Question: Wednesday is often referred to as 'hump day' as a joke. Camels are known for having a significant hump. 
+Does the anatomy of a camel lend itself to jokes on Wednesdays?","Yes, the fact that camels have a significant hump on their backs lends itself perfectly to the joke about Wednesday being 'hump day'. It adds a humorous visual element to the play on words and makes the joke more memorable and amusing.",True
+StrategyQA,1a,"Question: Paulo Coelho's wife is Christina Oiticica. Christina Oiticica is a Brazilian artist. Artists make a living through drawing things, which is done by their hands. Speech is typically performed with one's mouth.
+Does Paulo Coelho's wife make a living through speech?
 Answer: False
-Question: The headquarters of All Nippon Airways are located in Shiodome City Center in the Shiodome area of the Minato ward of Tokyo. Tokyo is a metropolitan area. A beach is a landform alongside a body of water. Metropolitan areas typically do not have bodies of water in the surrounding area.
-Are the headquarters of All Nippon Airways near a beach?
-Answer: False
-Question: Adam Sandler is Jewish. Jewish religious people do not celebrate Easter.
-Does Adam Sandler skip celebrating Easter?",Answer: True,True
-StrategyQA,1b,"Question: The average high temperature in Hollywood in July is 77.2°F. The average low temperature in Hollywood in July is 61.5°F. A coat is a garment worn on the upper body for warmth.
-Is it normally unnecessary to wear a coat in Hollywood in July?
+Question: The minimum age for driving in the US is 16. Child labor laws in the US require a child to be 14 years of age or older to work.
+Is it legal for a licensed child driving Mercedes-Benz to be employed in US?
 Answer: True
-Question: Casts encase a limb and prevent it from moving. Movement of limbs under resistance promote muscle growth. An absence of limb movement will result in decreased muscle size. The goal of bodybuilding is to increase the size of your muscles. Individuals are not happy when they are prevented from pursuing their goals.
-Would a bodybuilder enjoy wearing a cast for several weeks?
-Answer: False
-Question: Adam Sandler is Jewish. Jewish religious people do not celebrate Easter.
-Does Adam Sandler skip celebrating Easter?",Answer: True,True
-StrategyQA,2,"Question: The President of South Korea lives in the Blue House The Blue House finished construction in early 1991 The World Trade Center complex was completed in 1987
-Did Moon Jae-in's residence exist when the World Trade Center was completed?
-Answer: False
-Question: The headquarters of All Nippon Airways are located in Shiodome City Center in the Shiodome area of the Minato ward of Tokyo. Tokyo is a metropolitan area. A beach is a landform alongside a body of water. Metropolitan areas typically do not have bodies of water in the surrounding area.
-Are the headquarters of All Nippon Airways near a beach?
-Answer: False
-Question: The average high temperature in Hollywood in July is 77.2°F. The average low temperature in Hollywood in July is 61.5°F. A coat is a garment worn on the upper body for warmth.
-Is it normally unnecessary to wear a coat in Hollywood in July?
+Question: Wednesday is often referred to as 'hump day' as a joke. Camels are known for having a significant hump. 
+Does the anatomy of a camel lend itself to jokes on Wednesdays?",Answer: True,True
+StrategyQA,1b,"Question: Final Fantasy VI is the sixth entry into the Final Fantasy series of video games. There are 15 total games in the main Final Fantasy series of video games as of 2020.
+Is Final Fantasy VI closer to beginning than end of its franchise?
 Answer: True
-Question: Casts encase a limb and prevent it from moving. Movement of limbs under resistance promote muscle growth. An absence of limb movement will result in decreased muscle size. The goal of bodybuilding is to increase the size of your muscles. Individuals are not happy when they are prevented from pursuing their goals.
-Would a bodybuilder enjoy wearing a cast for several weeks?
-Answer: False
-Question: Adam Sandler is Jewish. Jewish religious people do not celebrate Easter.
-Does Adam Sandler skip celebrating Easter?",Answer: True,True
-StrategyQA,3a,"Question: The President of South Korea lives in the Blue House The Blue House finished construction in early 1991 The World Trade Center complex was completed in 1987
-Did Moon Jae-in's residence exist when the World Trade Center was completed?
-Answer: False
-Question: The headquarters of All Nippon Airways are located in Shiodome City Center in the Shiodome area of the Minato ward of Tokyo. Tokyo is a metropolitan area. A beach is a landform alongside a body of water. Metropolitan areas typically do not have bodies of water in the surrounding area.
-Are the headquarters of All Nippon Airways near a beach?
-Answer: False
-Question: The President of South Korea lives in the Blue House The Blue House finished construction in early 1991 The World Trade Center complex was completed in 1987
-Did Moon Jae-in's residence exist when the World Trade Center was completed?
-Answer: False
-Question: The headquarters of All Nippon Airways are located in Shiodome City Center in the Shiodome area of the Minato ward of Tokyo. Tokyo is a metropolitan area. A beach is a landform alongside a body of water. Metropolitan areas typically do not have bodies of water in the surrounding area.
-Are the headquarters of All Nippon Airways near a beach?
-Answer: False
-Question: Adam Sandler is Jewish. Jewish religious people do not celebrate Easter.
-Does Adam Sandler skip celebrating Easter?",Answer: True,True
-StrategyQA,3b,"Question: The average high temperature in Hollywood in July is 77.2°F. The average low temperature in Hollywood in July is 61.5°F. A coat is a garment worn on the upper body for warmth.
-Is it normally unnecessary to wear a coat in Hollywood in July?
+Question: Pea pods on average have 5 to 6 peas inside. A standard chess board has 64 squares.
+Will twenty pea pods contents cover entire chess board?
 Answer: True
-Question: Casts encase a limb and prevent it from moving. Movement of limbs under resistance promote muscle growth. An absence of limb movement will result in decreased muscle size. The goal of bodybuilding is to increase the size of your muscles. Individuals are not happy when they are prevented from pursuing their goals.
-Would a bodybuilder enjoy wearing a cast for several weeks?
+Question: Wednesday is often referred to as 'hump day' as a joke. Camels are known for having a significant hump. 
+Does the anatomy of a camel lend itself to jokes on Wednesdays?",True,True
+StrategyQA,2,"Question: Paulo Coelho's wife is Christina Oiticica. Christina Oiticica is a Brazilian artist. Artists make a living through drawing things, which is done by their hands. Speech is typically performed with one's mouth.
+Does Paulo Coelho's wife make a living through speech?
 Answer: False
-Question: The average high temperature in Hollywood in July is 77.2°F. The average low temperature in Hollywood in July is 61.5°F. A coat is a garment worn on the upper body for warmth.
-Is it normally unnecessary to wear a coat in Hollywood in July?
+Question: The minimum age for driving in the US is 16. Child labor laws in the US require a child to be 14 years of age or older to work.
+Is it legal for a licensed child driving Mercedes-Benz to be employed in US?
 Answer: True
-Question: Casts encase a limb and prevent it from moving. Movement of limbs under resistance promote muscle growth. An absence of limb movement will result in decreased muscle size. The goal of bodybuilding is to increase the size of your muscles. Individuals are not happy when they are prevented from pursuing their goals.
-Would a bodybuilder enjoy wearing a cast for several weeks?
+Question: Final Fantasy VI is the sixth entry into the Final Fantasy series of video games. There are 15 total games in the main Final Fantasy series of video games as of 2020.
+Is Final Fantasy VI closer to beginning than end of its franchise?
+Answer: True
+Question: Pea pods on average have 5 to 6 peas inside. A standard chess board has 64 squares.
+Will twenty pea pods contents cover entire chess board?
+Answer: True
+Question: Wednesday is often referred to as 'hump day' as a joke. Camels are known for having a significant hump. 
+Does the anatomy of a camel lend itself to jokes on Wednesdays?",Answer: True,True
+StrategyQA,3a,"Question: Paulo Coelho's wife is Christina Oiticica. Christina Oiticica is a Brazilian artist. Artists make a living through drawing things, which is done by their hands. Speech is typically performed with one's mouth.
+Does Paulo Coelho's wife make a living through speech?
 Answer: False
-Question: Adam Sandler is Jewish. Jewish religious people do not celebrate Easter.
-Does Adam Sandler skip celebrating Easter?",True,True
-SayCan,0,Question: Provide step-by-step instructions for the following task: How would you put a bag of chips and water bottle on the table?,"1. Pick up the bag of chips with one hand and the water bottle with the other hand.
-2. Stand in front of the table with the bag of chips and water bottle in hand.
-3. Gently place the bag of chips on the table, making sure it is stable and not leaning to one side.
-4. Place the water bottle next to the bag of chips on the table.
-5. Adjust the positioning of the bag of chips and water bottle on the table to ensure they are centered and aesthetically pleasing.
-6. Step back and admire your work of putting the bag of chips and water bottle on the table.","1. find the bag of chips, 2. pick up the bag of chips, 3. go to the table, 4. put down the bag of chips, 5. find a water bottle, 6. pick up the water bottle, 7. go to the table, 8. put down the water bottle, 9. done"
-SayCan,1a,"Question: Provide step-by-step instructions for the following task: Can you bring me a spicy snack?
-Answer: 1. find the jalapeno chips, 2. pick up the jalapeno chips, 3. bring it to you, 4. put down the jalapeno chips, 5. done
-Question: Provide step-by-step instructions for the following task: Throw away the sprite.
-Answer: 1. find a sprite can, 2. pick up the sprite can, 3. go to the trash, 4. put down the sprite can, 5. done
-Question: Provide step-by-step instructions for the following task: How would you put a bag of chips and water bottle on the table?",Answer: 1. Hold the bag of chips in one hand and the water bottle in the other hand. 2. Walk over to the table. 3. Place the bag of chips on the table. 4. Put the water bottle next to the bag of chips on the table. 5. Adjust the items as desired. 6. Done.,"1. find the bag of chips, 2. pick up the bag of chips, 3. go to the table, 4. put down the bag of chips, 5. find a water bottle, 6. pick up the water bottle, 7. go to the table, 8. put down the water bottle, 9. done"
-SayCan,1b,"Question: Provide step-by-step instructions for the following task: How would you put the coke can in your gripper?
-Answer: 1. pick up the coke can, 2. done
-Question: Provide step-by-step instructions for the following task: How would you put a banana on the counter?
-Answer: 1. pick up the banana, 2. go to the counter, 3. put down the banana, 4. done
-Question: Provide step-by-step instructions for the following task: How would you put a bag of chips and water bottle on the table?","Answer: 1. Pick up the bag of chips and water bottle, 2. Walk to the table, 3. Place the bag of chips and water bottle on the table, 4. Adjust their positions as needed, 5. Done","1. find the bag of chips, 2. pick up the bag of chips, 3. go to the table, 4. put down the bag of chips, 5. find a water bottle, 6. pick up the water bottle, 7. go to the table, 8. put down the water bottle, 9. done"
-SayCan,2,"Question: Provide step-by-step instructions for the following task: Can you bring me a spicy snack?
-Answer: 1. find the jalapeno chips, 2. pick up the jalapeno chips, 3. bring it to you, 4. put down the jalapeno chips, 5. done
-Question: Provide step-by-step instructions for the following task: Throw away the sprite.
-Answer: 1. find a sprite can, 2. pick up the sprite can, 3. go to the trash, 4. put down the sprite can, 5. done
-Question: Provide step-by-step instructions for the following task: How would you put the coke can in your gripper?
-Answer: 1. pick up the coke can, 2. done
-Question: Provide step-by-step instructions for the following task: How would you put a banana on the counter?
-Answer: 1. pick up the banana, 2. go to the counter, 3. put down the banana, 4. done
-Question: Provide step-by-step instructions for the following task: How would you put a bag of chips and water bottle on the table?","Answer: 1. pick up the bag of chips, 2. pick up the water bottle, 3. go to the table, 4. put down the bag of chips, 5. put down the water bottle, 6. done","1. find the bag of chips, 2. pick up the bag of chips, 3. go to the table, 4. put down the bag of chips, 5. find a water bottle, 6. pick up the water bottle, 7. go to the table, 8. put down the water bottle, 9. done"
-SayCan,3a,"Question: Provide step-by-step instructions for the following task: Can you bring me a spicy snack?
-Answer: 1. find the jalapeno chips, 2. pick up the jalapeno chips, 3. bring it to you, 4. put down the jalapeno chips, 5. done
-Question: Provide step-by-step instructions for the following task: Throw away the sprite.
-Answer: 1. find a sprite can, 2. pick up the sprite can, 3. go to the trash, 4. put down the sprite can, 5. done
-Question: Provide step-by-step instructions for the following task: Can you bring me a spicy snack?
-Answer: 1. find the jalapeno chips, 2. pick up the jalapeno chips, 3. bring it to you, 4. put down the jalapeno chips, 5. done
-Question: Provide step-by-step instructions for the following task: Throw away the sprite.
-Answer: 1. find a sprite can, 2. pick up the sprite can, 3. go to the trash, 4. put down the sprite can, 5. done
-Question: Provide step-by-step instructions for the following task: How would you put a bag of chips and water bottle on the table?","Answer: 1. Hold the bag of chips in one hand and the water bottle in the other hand, 2. Walk over to the table, 3. Place the bag of chips on the table first, making sure it is centered, 4. Place the water bottle next to the bag of chips, 5. Step back and ensure both items are placed securely on the table, 6. Done.","1. find the bag of chips, 2. pick up the bag of chips, 3. go to the table, 4. put down the bag of chips, 5. find a water bottle, 6. pick up the water bottle, 7. go to the table, 8. put down the water bottle, 9. done"
-SayCan,3b,"Question: Provide step-by-step instructions for the following task: How would you put the coke can in your gripper?
-Answer: 1. pick up the coke can, 2. done
-Question: Provide step-by-step instructions for the following task: How would you put a banana on the counter?
-Answer: 1. pick up the banana, 2. go to the counter, 3. put down the banana, 4. done
-Question: Provide step-by-step instructions for the following task: How would you put the coke can in your gripper?
-Answer: 1. pick up the coke can, 2. done
-Question: Provide step-by-step instructions for the following task: How would you put a banana on the counter?
-Answer: 1. pick up the banana, 2. go to the counter, 3. put down the banana, 4. done
-Question: Provide step-by-step instructions for the following task: How would you put a bag of chips and water bottle on the table?","1. Pick up the bag of chips
-2. Pick up the water bottle
-3. Carry both items to the table
-4. Place the bag of chips on the table
-5. Place the water bottle on the table
-6. Arrange them neatly if desired
-7. Done","1. find the bag of chips, 2. pick up the bag of chips, 3. go to the table, 4. put down the bag of chips, 5. find a water bottle, 6. pick up the water bottle, 7. go to the table, 8. put down the water bottle, 9. done"
+Question: The minimum age for driving in the US is 16. Child labor laws in the US require a child to be 14 years of age or older to work.
+Is it legal for a licensed child driving Mercedes-Benz to be employed in US?
+Answer: True
+Question: Paulo Coelho's wife is Christina Oiticica. Christina Oiticica is a Brazilian artist. Artists make a living through drawing things, which is done by their hands. Speech is typically performed with one's mouth.
+Does Paulo Coelho's wife make a living through speech?
+Answer: False
+Question: The minimum age for driving in the US is 16. Child labor laws in the US require a child to be 14 years of age or older to work.
+Is it legal for a licensed child driving Mercedes-Benz to be employed in US?
+Answer: True
+Question: Wednesday is often referred to as 'hump day' as a joke. Camels are known for having a significant hump. 
+Does the anatomy of a camel lend itself to jokes on Wednesdays?",Answer: True,True
+StrategyQA,3b,"Question: Final Fantasy VI is the sixth entry into the Final Fantasy series of video games. There are 15 total games in the main Final Fantasy series of video games as of 2020.
+Is Final Fantasy VI closer to beginning than end of its franchise?
+Answer: True
+Question: Pea pods on average have 5 to 6 peas inside. A standard chess board has 64 squares.
+Will twenty pea pods contents cover entire chess board?
+Answer: True
+Question: Final Fantasy VI is the sixth entry into the Final Fantasy series of video games. There are 15 total games in the main Final Fantasy series of video games as of 2020.
+Is Final Fantasy VI closer to beginning than end of its franchise?
+Answer: True
+Question: Pea pods on average have 5 to 6 peas inside. A standard chess board has 64 squares.
+Will twenty pea pods contents cover entire chess board?
+Answer: True
+Question: Wednesday is often referred to as 'hump day' as a joke. Camels are known for having a significant hump. 
+Does the anatomy of a camel lend itself to jokes on Wednesdays?",Answer: True,True
+SayCan,0,Question: Can you bring me something spicy?,"Response: I'm sorry, I am not able to physically bring you something spicy as I am a virtual assistant. However, I can certainly provide you with some spicy recipe ideas or suggestions for spicy food items you can order or make yourself. Would you like some recommendations?","1. find the jalapeno chips, 2. pick up the jalapeno chips, 3. bring it to you, 4. put down the jalapeno chips, 5. done"
+SayCan,1a,"Question: Can you bring me something salty?
+Answer: 1. find a sea salt chips, 2. pick up the sea salt chips, 3. bring it to you, 4. put down the sea salt chips, 5. done.
+Question: Restock chips in the drawer.
+Answer: 1. find the bag of chips, 2. pick up the bag of chips, 3. go to the drawer, 4. put down the bag of chips, 5. open the drawer, 6. pick up the bag of chips, 7. put down the bag of chips, 8. close the drawer, 9. done
+Question: Can you bring me something spicy?","Answer: 1. find a bag of spicy chips, 2. pick up the bag of spicy chips, 3. bring it to you, 4. put down the bag of spicy chips, 5. done.","1. find the jalapeno chips, 2. pick up the jalapeno chips, 3. bring it to you, 4. put down the jalapeno chips, 5. done"
+SayCan,1b,"Question: How would you move the chips bag from the table to the counter?
+Answer: 1. find the bag of chips, 2. pick up the bag of chips, 3. go to the counter, 4. put down the bag of chips, 5. done
+Question: Could you get me something caffeinated?
+Answer: 1. find a redbull, 2. pick up the redbull, 3. bring it to you, 4. put down the redbull, 5. done.
+Question: Can you bring me something spicy?","Answer: 1. find something spicy, like hot sauce or spicy chips, 2. pick up the spicy item, 3. bring it to you, 4. put it down in front of you, 5. done.","1. find the jalapeno chips, 2. pick up the jalapeno chips, 3. bring it to you, 4. put down the jalapeno chips, 5. done"
+SayCan,2,"Question: Can you bring me something salty?
+Answer: 1. find a sea salt chips, 2. pick up the sea salt chips, 3. bring it to you, 4. put down the sea salt chips, 5. done.
+Question: Restock chips in the drawer.
+Answer: 1. find the bag of chips, 2. pick up the bag of chips, 3. go to the drawer, 4. put down the bag of chips, 5. open the drawer, 6. pick up the bag of chips, 7. put down the bag of chips, 8. close the drawer, 9. done
+Question: How would you move the chips bag from the table to the counter?
+Answer: 1. find the bag of chips, 2. pick up the bag of chips, 3. go to the counter, 4. put down the bag of chips, 5. done
+Question: Could you get me something caffeinated?
+Answer: 1. find a redbull, 2. pick up the redbull, 3. bring it to you, 4. put down the redbull, 5. done.
+Question: Can you bring me something spicy?","Answer: 1. find a bag of spicy chips, 2. pick up the bag of spicy chips, 3. bring it to you, 4. put down the bag of spicy chips, 5. done.","1. find the jalapeno chips, 2. pick up the jalapeno chips, 3. bring it to you, 4. put down the jalapeno chips, 5. done"
+SayCan,3a,"Question: Can you bring me something salty?
+Answer: 1. find a sea salt chips, 2. pick up the sea salt chips, 3. bring it to you, 4. put down the sea salt chips, 5. done.
+Question: Restock chips in the drawer.
+Answer: 1. find the bag of chips, 2. pick up the bag of chips, 3. go to the drawer, 4. put down the bag of chips, 5. open the drawer, 6. pick up the bag of chips, 7. put down the bag of chips, 8. close the drawer, 9. done
+Question: Can you bring me something salty?
+Answer: 1. find a sea salt chips, 2. pick up the sea salt chips, 3. bring it to you, 4. put down the sea salt chips, 5. done.
+Question: Restock chips in the drawer.
+Answer: 1. find the bag of chips, 2. pick up the bag of chips, 3. go to the drawer, 4. put down the bag of chips, 5. open the drawer, 6. pick up the bag of chips, 7. put down the bag of chips, 8. close the drawer, 9. done
+Question: Can you bring me something spicy?","Answer: 1. find a bag of spicy chips or a container of hot sauce, 2. pick up the spicy snack or sauce, 3. bring it to you, 4. put down the spicy item, 5. done.","1. find the jalapeno chips, 2. pick up the jalapeno chips, 3. bring it to you, 4. put down the jalapeno chips, 5. done"
+SayCan,3b,"Question: How would you move the chips bag from the table to the counter?
+Answer: 1. find the bag of chips, 2. pick up the bag of chips, 3. go to the counter, 4. put down the bag of chips, 5. done
+Question: Could you get me something caffeinated?
+Answer: 1. find a redbull, 2. pick up the redbull, 3. bring it to you, 4. put down the redbull, 5. done.
+Question: How would you move the chips bag from the table to the counter?
+Answer: 1. find the bag of chips, 2. pick up the bag of chips, 3. go to the counter, 4. put down the bag of chips, 5. done
+Question: Could you get me something caffeinated?
+Answer: 1. find a redbull, 2. pick up the redbull, 3. bring it to you, 4. put down the redbull, 5. done.
+Question: Can you bring me something spicy?","Answer: 1. find something spicy, 2. pick up the spicy item, 3. bring it to you, 4. put down the spicy item, 5. done.","1. find the jalapeno chips, 2. pick up the jalapeno chips, 3. bring it to you, 4. put down the jalapeno chips, 5. done"

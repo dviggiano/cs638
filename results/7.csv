@@ -1,405 +1,395 @@
 Task Class,Case,Prompt,Response,Expected
-Math,0,"Question: Bob is in charge of doing laundry for a large hotel. Each room has two sheets, one comforter, twice as many pillow cases as sheets and twice as many towels as pillow cases. How many pieces of laundry are there in 80 rooms?","In each room, there are:
-- 2 sheets
-- 1 comforter
-- 4 pillow cases
-- 8 towels
+Math,0,"Question: Elaina is holding the final concert in her tour. To celebrate her final concert, she makes the concert twice as long as her usual concerts. At the end of the concert, she also performs a 15-minute encore. If the runtime of this final concert is 65 minutes then how long, in minutes, do her usual concerts run for?","Let x be the length of Elaina's usual concerts.
 
-So, for each room, there are a total of 2+1+4+8 = 15 pieces of laundry.
+Given that her final concert is twice as long as her usual concerts plus a 15-minute encore, we can create the following equation:
 
-In 80 rooms, there would be a total of 80 x 15 = 1200 pieces of laundry.","First find the number of pillow cases in each room: 2 sheets * 2 pillow cases/sheet = <<2*2=4>>4 pillow cases
-Then find the number of towels in each room: 4 pillow cases * 2 towels/pillow case = <<4*2=8>>8 towels
-Then find the number of pieces of laundry in each room: 4 pillow cases + 8 towels + 2 sheets + 1 comforter = <<4+8+2+1=15>>15 pieces of laundry
-Then multiply the number of pieces of laundry in each room by the number of rooms to find the total: 15 pieces of laundry/room * 80 rooms = <<15*80=1200>>1200 pieces
-#### 1200"
-Math,1a,"Question: Cecil has $600. Catherine has $250 less than twice as much as Cecil while Carmela has $50 more than twice Cecil's money. How much money do they have altogether?
-Answer: Twice as much as Cecil's money is $600 x 2 = $<<600*2=1200>>1200.
-So, Catherine has $1200 - $250 = $<<1200-250=950>>950.
-While Carmela has $1200 + $50 = $<<1200+50=1250>>1250.
-Hence, they have a total of $600 + $950 + $1250 = $<<600+950+1250=2800>>2800.
-#### 2800
-Question: Julie started her own landscaping business. She charges $4 an hour for mowing lawns and $8 for pulling weeds. In September she mowed lawns for 25 hours and pulled weeds for 3 hours. If she worked the same number of hours in October, how much money did she earn in September and October?
-Answer: She mowed lawns for 25 hours in September, so earned 25 * $4= $<<25*4=100>>100.
-She pulled weeds for 3 hours in September, so earned 3 * $8= $<<3*8=24>>24.
-She earned $100 + $24 = $<<100+24=124>>124 in September.
-Finally, for two months working the same hours she earned $124 * 2 = $<<124*2=248>>248.
-#### 248
-Question: Bob is in charge of doing laundry for a large hotel. Each room has two sheets, one comforter, twice as many pillow cases as sheets and twice as many towels as pillow cases. How many pieces of laundry are there in 80 rooms?","Answer: 
-Each room has 2 sheets + 1 comforter + 2 x number of sheets pillow cases + 2 x number of pillow cases towels = 2 + 1 + 2(2) + 2(2 x 2) = 2 + 1 + 4 + 8 = 15 pieces of laundry per room.
-Therefore, for 80 rooms, there are 80 x 15 = 1200 pieces of laundry in total. 
-#### 1200 pieces of laundry.","First find the number of pillow cases in each room: 2 sheets * 2 pillow cases/sheet = <<2*2=4>>4 pillow cases
-Then find the number of towels in each room: 4 pillow cases * 2 towels/pillow case = <<4*2=8>>8 towels
-Then find the number of pieces of laundry in each room: 4 pillow cases + 8 towels + 2 sheets + 1 comforter = <<4+8+2+1=15>>15 pieces of laundry
-Then multiply the number of pieces of laundry in each room by the number of rooms to find the total: 15 pieces of laundry/room * 80 rooms = <<15*80=1200>>1200 pieces
-#### 1200"
-Math,1b,"Question: Kendra wants enough shirts that she only has to do laundry once every two weeks. She wears one shirt to school for each of the five weekdays. Three days a week, she changes into a different shirt for an after-school club. On Saturday, she wears one shirt all day. On Sunday, she wears a different shirt to church than she does for the rest of the day. How many shirts does she need to be able to only do laundry once every two weeks?
-Answer: Kendra wears 1 * 5 = <<1*5=5>>5 shirts for school days.
-She wears 1 * 3 = <<1*3=3>>3 extra shirts for her after-school club.
-She wears 1 + 1 = <<1+1=2>>2 shirts on Sunday.
-With her shirt on Saturday, she wears 5 + 3 + 1 + 2 = <<5+3+1+2=11>>11 shirts each week.
-She wants to have 2 weeks’ worth of shirts, so she needs 11 * 2 = <<11*2=22>>22 shirts.
-#### 22
-Question: Adam needs a new laptop and has two choices. The first laptop is $500, and the second laptop is 3 times as costly as the first laptop. How much would Adam have to spend if he decides to buy both?
-Answer: The second laptop costs $500*3=$<<500*3=1500>>1500.
-Adam needs to spend $1500+$500=$<<1500+500=2000>>2000 for both.
-#### 2,000
-Question: Bob is in charge of doing laundry for a large hotel. Each room has two sheets, one comforter, twice as many pillow cases as sheets and twice as many towels as pillow cases. How many pieces of laundry are there in 80 rooms?","Answer: In each room, there are 2 sheets, 1 comforter, 4 pillow cases (twice as many as sheets), and 8 towels (twice as many as pillow cases), so a total of 2 + 1 + 4 + 8 = <<2+1+4+8=15>>15 pieces of laundry per room.
-With 80 rooms, the total number of pieces of laundry would be 80 * 15 = <<80*15=1200>>1200.
-#### 1,200","First find the number of pillow cases in each room: 2 sheets * 2 pillow cases/sheet = <<2*2=4>>4 pillow cases
-Then find the number of towels in each room: 4 pillow cases * 2 towels/pillow case = <<4*2=8>>8 towels
-Then find the number of pieces of laundry in each room: 4 pillow cases + 8 towels + 2 sheets + 1 comforter = <<4+8+2+1=15>>15 pieces of laundry
-Then multiply the number of pieces of laundry in each room by the number of rooms to find the total: 15 pieces of laundry/room * 80 rooms = <<15*80=1200>>1200 pieces
-#### 1200"
-Math,2,"Question: Cecil has $600. Catherine has $250 less than twice as much as Cecil while Carmela has $50 more than twice Cecil's money. How much money do they have altogether?
-Answer: Twice as much as Cecil's money is $600 x 2 = $<<600*2=1200>>1200.
-So, Catherine has $1200 - $250 = $<<1200-250=950>>950.
-While Carmela has $1200 + $50 = $<<1200+50=1250>>1250.
-Hence, they have a total of $600 + $950 + $1250 = $<<600+950+1250=2800>>2800.
-#### 2800
-Question: Julie started her own landscaping business. She charges $4 an hour for mowing lawns and $8 for pulling weeds. In September she mowed lawns for 25 hours and pulled weeds for 3 hours. If she worked the same number of hours in October, how much money did she earn in September and October?
-Answer: She mowed lawns for 25 hours in September, so earned 25 * $4= $<<25*4=100>>100.
-She pulled weeds for 3 hours in September, so earned 3 * $8= $<<3*8=24>>24.
-She earned $100 + $24 = $<<100+24=124>>124 in September.
-Finally, for two months working the same hours she earned $124 * 2 = $<<124*2=248>>248.
-#### 248
-Question: Kendra wants enough shirts that she only has to do laundry once every two weeks. She wears one shirt to school for each of the five weekdays. Three days a week, she changes into a different shirt for an after-school club. On Saturday, she wears one shirt all day. On Sunday, she wears a different shirt to church than she does for the rest of the day. How many shirts does she need to be able to only do laundry once every two weeks?
-Answer: Kendra wears 1 * 5 = <<1*5=5>>5 shirts for school days.
-She wears 1 * 3 = <<1*3=3>>3 extra shirts for her after-school club.
-She wears 1 + 1 = <<1+1=2>>2 shirts on Sunday.
-With her shirt on Saturday, she wears 5 + 3 + 1 + 2 = <<5+3+1+2=11>>11 shirts each week.
-She wants to have 2 weeks’ worth of shirts, so she needs 11 * 2 = <<11*2=22>>22 shirts.
-#### 22
-Question: Adam needs a new laptop and has two choices. The first laptop is $500, and the second laptop is 3 times as costly as the first laptop. How much would Adam have to spend if he decides to buy both?
-Answer: The second laptop costs $500*3=$<<500*3=1500>>1500.
-Adam needs to spend $1500+$500=$<<1500+500=2000>>2000 for both.
-#### 2,000
-Question: Bob is in charge of doing laundry for a large hotel. Each room has two sheets, one comforter, twice as many pillow cases as sheets and twice as many towels as pillow cases. How many pieces of laundry are there in 80 rooms?","Answer: 
-Since each room has 2 sheets, there are 2 * 2 = 4 pillow cases per room.
-There are 4 * 2 = 8 towels per room.
-So, in total, there are 2 (sheets) + 1 (comforter) + 4 (pillow cases) + 8 (towels) = 15 pieces of laundry per room.
-Therefore, for 80 rooms, there are 80 * 15 = 1200 pieces of laundry.","First find the number of pillow cases in each room: 2 sheets * 2 pillow cases/sheet = <<2*2=4>>4 pillow cases
-Then find the number of towels in each room: 4 pillow cases * 2 towels/pillow case = <<4*2=8>>8 towels
-Then find the number of pieces of laundry in each room: 4 pillow cases + 8 towels + 2 sheets + 1 comforter = <<4+8+2+1=15>>15 pieces of laundry
-Then multiply the number of pieces of laundry in each room by the number of rooms to find the total: 15 pieces of laundry/room * 80 rooms = <<15*80=1200>>1200 pieces
-#### 1200"
-Math,3a,"Question: Cecil has $600. Catherine has $250 less than twice as much as Cecil while Carmela has $50 more than twice Cecil's money. How much money do they have altogether?
-Answer: Twice as much as Cecil's money is $600 x 2 = $<<600*2=1200>>1200.
-So, Catherine has $1200 - $250 = $<<1200-250=950>>950.
-While Carmela has $1200 + $50 = $<<1200+50=1250>>1250.
-Hence, they have a total of $600 + $950 + $1250 = $<<600+950+1250=2800>>2800.
-#### 2800
-Question: Julie started her own landscaping business. She charges $4 an hour for mowing lawns and $8 for pulling weeds. In September she mowed lawns for 25 hours and pulled weeds for 3 hours. If she worked the same number of hours in October, how much money did she earn in September and October?
-Answer: She mowed lawns for 25 hours in September, so earned 25 * $4= $<<25*4=100>>100.
-She pulled weeds for 3 hours in September, so earned 3 * $8= $<<3*8=24>>24.
-She earned $100 + $24 = $<<100+24=124>>124 in September.
-Finally, for two months working the same hours she earned $124 * 2 = $<<124*2=248>>248.
-#### 248
-Question: Cecil has $600. Catherine has $250 less than twice as much as Cecil while Carmela has $50 more than twice Cecil's money. How much money do they have altogether?
-Answer: Twice as much as Cecil's money is $600 x 2 = $<<600*2=1200>>1200.
-So, Catherine has $1200 - $250 = $<<1200-250=950>>950.
-While Carmela has $1200 + $50 = $<<1200+50=1250>>1250.
-Hence, they have a total of $600 + $950 + $1250 = $<<600+950+1250=2800>>2800.
-#### 2800
-Question: Julie started her own landscaping business. She charges $4 an hour for mowing lawns and $8 for pulling weeds. In September she mowed lawns for 25 hours and pulled weeds for 3 hours. If she worked the same number of hours in October, how much money did she earn in September and October?
-Answer: She mowed lawns for 25 hours in September, so earned 25 * $4= $<<25*4=100>>100.
-She pulled weeds for 3 hours in September, so earned 3 * $8= $<<3*8=24>>24.
-She earned $100 + $24 = $<<100+24=124>>124 in September.
-Finally, for two months working the same hours she earned $124 * 2 = $<<124*2=248>>248.
-#### 248
-Question: Bob is in charge of doing laundry for a large hotel. Each room has two sheets, one comforter, twice as many pillow cases as sheets and twice as many towels as pillow cases. How many pieces of laundry are there in 80 rooms?","Answer: 
-Each room has:
-- 2 sheets
-- 1 comforter
-- 2 pillow cases
-- 4 towels
+2x + 15 = 65
 
-So, that's a total of 2 + 1 + 2 + 4 = 9 pieces of laundry per room.
+Solving for x:
 
-For 80 rooms, there would be 80 * 9 = 720 pieces of laundry in total.","First find the number of pillow cases in each room: 2 sheets * 2 pillow cases/sheet = <<2*2=4>>4 pillow cases
-Then find the number of towels in each room: 4 pillow cases * 2 towels/pillow case = <<4*2=8>>8 towels
-Then find the number of pieces of laundry in each room: 4 pillow cases + 8 towels + 2 sheets + 1 comforter = <<4+8+2+1=15>>15 pieces of laundry
-Then multiply the number of pieces of laundry in each room by the number of rooms to find the total: 15 pieces of laundry/room * 80 rooms = <<15*80=1200>>1200 pieces
-#### 1200"
-Math,3b,"Question: Kendra wants enough shirts that she only has to do laundry once every two weeks. She wears one shirt to school for each of the five weekdays. Three days a week, she changes into a different shirt for an after-school club. On Saturday, she wears one shirt all day. On Sunday, she wears a different shirt to church than she does for the rest of the day. How many shirts does she need to be able to only do laundry once every two weeks?
-Answer: Kendra wears 1 * 5 = <<1*5=5>>5 shirts for school days.
-She wears 1 * 3 = <<1*3=3>>3 extra shirts for her after-school club.
-She wears 1 + 1 = <<1+1=2>>2 shirts on Sunday.
-With her shirt on Saturday, she wears 5 + 3 + 1 + 2 = <<5+3+1+2=11>>11 shirts each week.
-She wants to have 2 weeks’ worth of shirts, so she needs 11 * 2 = <<11*2=22>>22 shirts.
-#### 22
-Question: Adam needs a new laptop and has two choices. The first laptop is $500, and the second laptop is 3 times as costly as the first laptop. How much would Adam have to spend if he decides to buy both?
-Answer: The second laptop costs $500*3=$<<500*3=1500>>1500.
-Adam needs to spend $1500+$500=$<<1500+500=2000>>2000 for both.
-#### 2,000
-Question: Kendra wants enough shirts that she only has to do laundry once every two weeks. She wears one shirt to school for each of the five weekdays. Three days a week, she changes into a different shirt for an after-school club. On Saturday, she wears one shirt all day. On Sunday, she wears a different shirt to church than she does for the rest of the day. How many shirts does she need to be able to only do laundry once every two weeks?
-Answer: Kendra wears 1 * 5 = <<1*5=5>>5 shirts for school days.
-She wears 1 * 3 = <<1*3=3>>3 extra shirts for her after-school club.
-She wears 1 + 1 = <<1+1=2>>2 shirts on Sunday.
-With her shirt on Saturday, she wears 5 + 3 + 1 + 2 = <<5+3+1+2=11>>11 shirts each week.
-She wants to have 2 weeks’ worth of shirts, so she needs 11 * 2 = <<11*2=22>>22 shirts.
-#### 22
-Question: Adam needs a new laptop and has two choices. The first laptop is $500, and the second laptop is 3 times as costly as the first laptop. How much would Adam have to spend if he decides to buy both?
-Answer: The second laptop costs $500*3=$<<500*3=1500>>1500.
-Adam needs to spend $1500+$500=$<<1500+500=2000>>2000 for both.
-#### 2,000
-Question: Bob is in charge of doing laundry for a large hotel. Each room has two sheets, one comforter, twice as many pillow cases as sheets and twice as many towels as pillow cases. How many pieces of laundry are there in 80 rooms?","Answer: In each room, there are 2 sheets, 1 comforter, 2*2 = 4 pillow cases, and 4*2 = 8 towels.
-In total, each room has 2 + 1 + 4 + 8 = 15 pieces of laundry.
-For 80 rooms, there are 80 * 15 = 1200 pieces of laundry.","First find the number of pillow cases in each room: 2 sheets * 2 pillow cases/sheet = <<2*2=4>>4 pillow cases
-Then find the number of towels in each room: 4 pillow cases * 2 towels/pillow case = <<4*2=8>>8 towels
-Then find the number of pieces of laundry in each room: 4 pillow cases + 8 towels + 2 sheets + 1 comforter = <<4+8+2+1=15>>15 pieces of laundry
-Then multiply the number of pieces of laundry in each room by the number of rooms to find the total: 15 pieces of laundry/room * 80 rooms = <<15*80=1200>>1200 pieces
-#### 1200"
-CSQA,0,"Question: Sammy wanted to go to where the people were.  Where might he go?
-A: race track
-B: populated areas
-C: the desert
-D: apartment
-E: roadblock",B: populated areas,B
-CSQA,1a,"Question: Joe hated taking phone calls during lunch.  He found anything that interrupted his meal to be a what?
-A: decisions
-B: delight
-C: communication
-D: regret
-E: irritation
-Answer: E
-Question: She told her child it was okay he was that way, and that everyone is what?
-A: afraid of
-B: part old
-C: different
-D: good at
-E: smart
+2x = 65 - 15
+2x = 50
+x = 25
+
+Therefore, Elaina's usual concerts run for 25 minutes.","The concert, minus the encore, lasted for 65-minute concert – 15-minute encore = <<65-15=50>>50 minutes.
+This is twice as long as her usual concerts so her usual concert must have a runtime of 50 minutes / 2 = <<50/2=25>>25 minutes.
+#### 25"
+Math,1a,"Question: John has a sneezing fit for 2 minutes.  He sneezes once every 3 seconds.  How many times does he sneeze?
+Answer: He was sneezing for 2*60=<<2*60=120>>120 seconds
+So he sneezed 120/3=<<120/3=40>>40 times
+#### 40
+Question: Armand is playing a guessing game with his dad where he has to guess a number his dad is thinking of. His dad tells him that the number, when multiplied by 3, is three less than twice 51. What is the number?
+Answer: 102 is twice 51 because 2 x 51 = <<2*51=102>>102
+Three less than 102 is 99 because 102 -3 = <<102-3=99>>99
+The number is 33 because 99 / 3 = <<99/3=33>>33
+#### 33
+Question: Elaina is holding the final concert in her tour. To celebrate her final concert, she makes the concert twice as long as her usual concerts. At the end of the concert, she also performs a 15-minute encore. If the runtime of this final concert is 65 minutes then how long, in minutes, do her usual concerts run for?","Answer: The final concert without the encore is 65-15=<<65-15=50>>50 minutes
+Her usual concerts run for 50/2=<<50/2=25>>25 minutes
+#### 25","The concert, minus the encore, lasted for 65-minute concert – 15-minute encore = <<65-15=50>>50 minutes.
+This is twice as long as her usual concerts so her usual concert must have a runtime of 50 minutes / 2 = <<50/2=25>>25 minutes.
+#### 25"
+Math,1b,"Question: Sara is checking out two different stores to buy a computer. The first store offers a device for $950 with a 6% discount. The second sells the same computer for €920 with a 5% discount. What is the difference in price between the two stores?
+Answer: The amount of discount in the first store 950 x 6/100 = $<<950*6/100=57>>57.
+So, the device costs 950 - 57 = $<<950-57=893>>893 in the first store.
+The amount of discount in the second store is 920 x 5/100 = $<<920*5/100=46>>46.
+So, the device costs 920 - 46 = $<<920-46=874>>874 in the second store.
+The difference in price is 893 - 874 = $<<893-874=19>>19.
+#### 19
+Question: On Mary's birthday, her brother surprised her with $100. She spent a quarter of it on a new video game and then used a fifth of what was left on swimming goggles. How much money did she have left?
+Answer: Mary spent 100/4= <<100/4=25>>25 dollars on a new video game.
+So, after the video game purchase, Mary was left with 100 - 25 = <<100-25=75>>75 dollars.
+Mary then bought swimming goggles for 75/5 = <<75/5=15>>15 dollars
+Mary had 75 - 15 = <<75-15=60>>60 dollars left
+#### 60
+Question: Elaina is holding the final concert in her tour. To celebrate her final concert, she makes the concert twice as long as her usual concerts. At the end of the concert, she also performs a 15-minute encore. If the runtime of this final concert is 65 minutes then how long, in minutes, do her usual concerts run for?","Let the usual length of Elaina's concerts be x minutes.
+
+During her final concert, Elaina performs for 2x (twice as long as usual) + 15 minutes for the encore, which totals to 2x + 15 minutes.
+
+Given that the final concert is 65 minutes long, we can set up the equation: 2x + 15 = 65
+
+Subtracting 15 from both sides gives: 2x = 50
+
+Dividing by 2 on both sides gives: x = 25
+
+Therefore, Elaina's usual concerts run for 25 minutes.","The concert, minus the encore, lasted for 65-minute concert – 15-minute encore = <<65-15=50>>50 minutes.
+This is twice as long as her usual concerts so her usual concert must have a runtime of 50 minutes / 2 = <<50/2=25>>25 minutes.
+#### 25"
+Math,2,"Question: John has a sneezing fit for 2 minutes.  He sneezes once every 3 seconds.  How many times does he sneeze?
+Answer: He was sneezing for 2*60=<<2*60=120>>120 seconds
+So he sneezed 120/3=<<120/3=40>>40 times
+#### 40
+Question: Armand is playing a guessing game with his dad where he has to guess a number his dad is thinking of. His dad tells him that the number, when multiplied by 3, is three less than twice 51. What is the number?
+Answer: 102 is twice 51 because 2 x 51 = <<2*51=102>>102
+Three less than 102 is 99 because 102 -3 = <<102-3=99>>99
+The number is 33 because 99 / 3 = <<99/3=33>>33
+#### 33
+Question: Sara is checking out two different stores to buy a computer. The first store offers a device for $950 with a 6% discount. The second sells the same computer for €920 with a 5% discount. What is the difference in price between the two stores?
+Answer: The amount of discount in the first store 950 x 6/100 = $<<950*6/100=57>>57.
+So, the device costs 950 - 57 = $<<950-57=893>>893 in the first store.
+The amount of discount in the second store is 920 x 5/100 = $<<920*5/100=46>>46.
+So, the device costs 920 - 46 = $<<920-46=874>>874 in the second store.
+The difference in price is 893 - 874 = $<<893-874=19>>19.
+#### 19
+Question: On Mary's birthday, her brother surprised her with $100. She spent a quarter of it on a new video game and then used a fifth of what was left on swimming goggles. How much money did she have left?
+Answer: Mary spent 100/4= <<100/4=25>>25 dollars on a new video game.
+So, after the video game purchase, Mary was left with 100 - 25 = <<100-25=75>>75 dollars.
+Mary then bought swimming goggles for 75/5 = <<75/5=15>>15 dollars
+Mary had 75 - 15 = <<75-15=60>>60 dollars left
+#### 60
+Question: Elaina is holding the final concert in her tour. To celebrate her final concert, she makes the concert twice as long as her usual concerts. At the end of the concert, she also performs a 15-minute encore. If the runtime of this final concert is 65 minutes then how long, in minutes, do her usual concerts run for?","Answer: The final concert runs for 65 - 15 = <<65-15=50>>50 minutes excluding the encore.
+Since the final concert is twice as long as her usual concerts, her usual concerts run for 50/2 = <<50/2=25>>25 minutes.","The concert, minus the encore, lasted for 65-minute concert – 15-minute encore = <<65-15=50>>50 minutes.
+This is twice as long as her usual concerts so her usual concert must have a runtime of 50 minutes / 2 = <<50/2=25>>25 minutes.
+#### 25"
+Math,3a,"Question: John has a sneezing fit for 2 minutes.  He sneezes once every 3 seconds.  How many times does he sneeze?
+Answer: He was sneezing for 2*60=<<2*60=120>>120 seconds
+So he sneezed 120/3=<<120/3=40>>40 times
+#### 40
+Question: Armand is playing a guessing game with his dad where he has to guess a number his dad is thinking of. His dad tells him that the number, when multiplied by 3, is three less than twice 51. What is the number?
+Answer: 102 is twice 51 because 2 x 51 = <<2*51=102>>102
+Three less than 102 is 99 because 102 -3 = <<102-3=99>>99
+The number is 33 because 99 / 3 = <<99/3=33>>33
+#### 33
+Question: John has a sneezing fit for 2 minutes.  He sneezes once every 3 seconds.  How many times does he sneeze?
+Answer: He was sneezing for 2*60=<<2*60=120>>120 seconds
+So he sneezed 120/3=<<120/3=40>>40 times
+#### 40
+Question: Armand is playing a guessing game with his dad where he has to guess a number his dad is thinking of. His dad tells him that the number, when multiplied by 3, is three less than twice 51. What is the number?
+Answer: 102 is twice 51 because 2 x 51 = <<2*51=102>>102
+Three less than 102 is 99 because 102 -3 = <<102-3=99>>99
+The number is 33 because 99 / 3 = <<99/3=33>>33
+#### 33
+Question: Elaina is holding the final concert in her tour. To celebrate her final concert, she makes the concert twice as long as her usual concerts. At the end of the concert, she also performs a 15-minute encore. If the runtime of this final concert is 65 minutes then how long, in minutes, do her usual concerts run for?","Let x be the length of Elaina's usual concerts.
+The final concert is twice as long as her usual concerts, so it runs for 2x minutes.
+Including the 15-minute encore, the final concert runs for 2x + 15 minutes.
+We are given that the final concert runs for 65 minutes, so 2x + 15 = 65.
+Subtracting 15 from both sides, we get 2x = 50.
+Dividing by 2, we find that x = 25.
+Therefore, Elaina's usual concerts run for 25 minutes.","The concert, minus the encore, lasted for 65-minute concert – 15-minute encore = <<65-15=50>>50 minutes.
+This is twice as long as her usual concerts so her usual concert must have a runtime of 50 minutes / 2 = <<50/2=25>>25 minutes.
+#### 25"
+Math,3b,"Question: Sara is checking out two different stores to buy a computer. The first store offers a device for $950 with a 6% discount. The second sells the same computer for €920 with a 5% discount. What is the difference in price between the two stores?
+Answer: The amount of discount in the first store 950 x 6/100 = $<<950*6/100=57>>57.
+So, the device costs 950 - 57 = $<<950-57=893>>893 in the first store.
+The amount of discount in the second store is 920 x 5/100 = $<<920*5/100=46>>46.
+So, the device costs 920 - 46 = $<<920-46=874>>874 in the second store.
+The difference in price is 893 - 874 = $<<893-874=19>>19.
+#### 19
+Question: On Mary's birthday, her brother surprised her with $100. She spent a quarter of it on a new video game and then used a fifth of what was left on swimming goggles. How much money did she have left?
+Answer: Mary spent 100/4= <<100/4=25>>25 dollars on a new video game.
+So, after the video game purchase, Mary was left with 100 - 25 = <<100-25=75>>75 dollars.
+Mary then bought swimming goggles for 75/5 = <<75/5=15>>15 dollars
+Mary had 75 - 15 = <<75-15=60>>60 dollars left
+#### 60
+Question: Sara is checking out two different stores to buy a computer. The first store offers a device for $950 with a 6% discount. The second sells the same computer for €920 with a 5% discount. What is the difference in price between the two stores?
+Answer: The amount of discount in the first store 950 x 6/100 = $<<950*6/100=57>>57.
+So, the device costs 950 - 57 = $<<950-57=893>>893 in the first store.
+The amount of discount in the second store is 920 x 5/100 = $<<920*5/100=46>>46.
+So, the device costs 920 - 46 = $<<920-46=874>>874 in the second store.
+The difference in price is 893 - 874 = $<<893-874=19>>19.
+#### 19
+Question: On Mary's birthday, her brother surprised her with $100. She spent a quarter of it on a new video game and then used a fifth of what was left on swimming goggles. How much money did she have left?
+Answer: Mary spent 100/4= <<100/4=25>>25 dollars on a new video game.
+So, after the video game purchase, Mary was left with 100 - 25 = <<100-25=75>>75 dollars.
+Mary then bought swimming goggles for 75/5 = <<75/5=15>>15 dollars
+Mary had 75 - 15 = <<75-15=60>>60 dollars left
+#### 60
+Question: Elaina is holding the final concert in her tour. To celebrate her final concert, she makes the concert twice as long as her usual concerts. At the end of the concert, she also performs a 15-minute encore. If the runtime of this final concert is 65 minutes then how long, in minutes, do her usual concerts run for?","Let the usual length of Elaina's concerts be x minutes.
+
+Since the final concert is twice as long as her usual concerts, the length of the final concert is 2x minutes.
+
+Adding the 15-minute encore to the final concert, the total runtime of the final concert is 2x + 15 = 65 minutes.
+
+So, 2x = 65 - 15
+2x = 50
+x = 50/2
+x = 25
+
+Therefore, Elaina's usual concerts run for 25 minutes.","The concert, minus the encore, lasted for 65-minute concert – 15-minute encore = <<65-15=50>>50 minutes.
+This is twice as long as her usual concerts so her usual concert must have a runtime of 50 minutes / 2 = <<50/2=25>>25 minutes.
+#### 25"
+CSQA,0,"Question: Sean was lying about the body, but he was very scared.  He constantly worried about what?
+A: the reward money
+B: hurt feelings
+C: being found out
+D: problems
+E: trouble",C: being found out,C
+CSQA,1a,"Question: If you're known to buy presents for others often you would be called what?
+A: go shopping
+B: generous
+C: earn money
+D: have money
+E: gift buyer
+Answer: B
+Question: The plants are hungry, what do they need to do for satiation?
+A: reproduce asexually
+B: dont drink water
+C: bear fruits and vegetables
+D: photosynthesis
+E: grow tall
+Answer: D
+Question: Sean was lying about the body, but he was very scared.  He constantly worried about what?
+A: the reward money
+B: hurt feelings
+C: being found out
+D: problems
+E: trouble",Answer: C,C
+CSQA,1b,"Question: The human wanted to give a bone as a reward, where did he put it?
+A: skeleton
+B: human body
+C: dog's mouth
+D: fresh fish
+E: barn
 Answer: C
-Question: Sammy wanted to go to where the people were.  Where might he go?
-A: race track
-B: populated areas
-C: the desert
-D: apartment
-E: roadblock",Answer: B,B
-CSQA,1b,"Question: He moved to check and accidentally said ""king me"", he got an odd look from his opponent since they were playing a what?
-A: scrabble
-B: chess game
-C: chess set
-D: deck of cards
-E: castle
-Answer: B
-Question: The therapist said they needed to work on what, and that just talking to one another is the first step?
-A: persuaded
-B: communication
-C: laughing
-D: learn
-E: friendship
-Answer: B
-Question: Sammy wanted to go to where the people were.  Where might he go?
-A: race track
-B: populated areas
-C: the desert
-D: apartment
-E: roadblock",Answer: B,B
-CSQA,2,"Question: Joe hated taking phone calls during lunch.  He found anything that interrupted his meal to be a what?
-A: decisions
-B: delight
-C: communication
-D: regret
-E: irritation
+Question: Where do spirits haunt outside?
+A: bar
+B: funeral home
+C: haunted house
+D: liquor cabinet
+E: cemetary
 Answer: E
-Question: She told her child it was okay he was that way, and that everyone is what?
-A: afraid of
-B: part old
-C: different
-D: good at
-E: smart
+Question: Sean was lying about the body, but he was very scared.  He constantly worried about what?
+A: the reward money
+B: hurt feelings
+C: being found out
+D: problems
+E: trouble",Answer: C,C
+CSQA,2,"Question: If you're known to buy presents for others often you would be called what?
+A: go shopping
+B: generous
+C: earn money
+D: have money
+E: gift buyer
+Answer: B
+Question: The plants are hungry, what do they need to do for satiation?
+A: reproduce asexually
+B: dont drink water
+C: bear fruits and vegetables
+D: photosynthesis
+E: grow tall
+Answer: D
+Question: The human wanted to give a bone as a reward, where did he put it?
+A: skeleton
+B: human body
+C: dog's mouth
+D: fresh fish
+E: barn
 Answer: C
-Question: He moved to check and accidentally said ""king me"", he got an odd look from his opponent since they were playing a what?
-A: scrabble
-B: chess game
-C: chess set
-D: deck of cards
-E: castle
-Answer: B
-Question: The therapist said they needed to work on what, and that just talking to one another is the first step?
-A: persuaded
-B: communication
-C: laughing
-D: learn
-E: friendship
-Answer: B
-Question: Sammy wanted to go to where the people were.  Where might he go?
-A: race track
-B: populated areas
-C: the desert
-D: apartment
-E: roadblock",Answer: B,B
-CSQA,3a,"Question: Joe hated taking phone calls during lunch.  He found anything that interrupted his meal to be a what?
-A: decisions
-B: delight
-C: communication
-D: regret
-E: irritation
+Question: Where do spirits haunt outside?
+A: bar
+B: funeral home
+C: haunted house
+D: liquor cabinet
+E: cemetary
 Answer: E
-Question: She told her child it was okay he was that way, and that everyone is what?
-A: afraid of
-B: part old
-C: different
-D: good at
-E: smart
+Question: Sean was lying about the body, but he was very scared.  He constantly worried about what?
+A: the reward money
+B: hurt feelings
+C: being found out
+D: problems
+E: trouble",Answer: C,C
+CSQA,3a,"Question: If you're known to buy presents for others often you would be called what?
+A: go shopping
+B: generous
+C: earn money
+D: have money
+E: gift buyer
+Answer: B
+Question: The plants are hungry, what do they need to do for satiation?
+A: reproduce asexually
+B: dont drink water
+C: bear fruits and vegetables
+D: photosynthesis
+E: grow tall
+Answer: D
+Question: If you're known to buy presents for others often you would be called what?
+A: go shopping
+B: generous
+C: earn money
+D: have money
+E: gift buyer
+Answer: B
+Question: The plants are hungry, what do they need to do for satiation?
+A: reproduce asexually
+B: dont drink water
+C: bear fruits and vegetables
+D: photosynthesis
+E: grow tall
+Answer: D
+Question: Sean was lying about the body, but he was very scared.  He constantly worried about what?
+A: the reward money
+B: hurt feelings
+C: being found out
+D: problems
+E: trouble",Answer: C,C
+CSQA,3b,"Question: The human wanted to give a bone as a reward, where did he put it?
+A: skeleton
+B: human body
+C: dog's mouth
+D: fresh fish
+E: barn
 Answer: C
-Question: Joe hated taking phone calls during lunch.  He found anything that interrupted his meal to be a what?
-A: decisions
-B: delight
-C: communication
-D: regret
-E: irritation
+Question: Where do spirits haunt outside?
+A: bar
+B: funeral home
+C: haunted house
+D: liquor cabinet
+E: cemetary
 Answer: E
-Question: She told her child it was okay he was that way, and that everyone is what?
-A: afraid of
-B: part old
-C: different
-D: good at
-E: smart
+Question: The human wanted to give a bone as a reward, where did he put it?
+A: skeleton
+B: human body
+C: dog's mouth
+D: fresh fish
+E: barn
 Answer: C
-Question: Sammy wanted to go to where the people were.  Where might he go?
-A: race track
-B: populated areas
-C: the desert
-D: apartment
-E: roadblock",Answer: B,B
-CSQA,3b,"Question: He moved to check and accidentally said ""king me"", he got an odd look from his opponent since they were playing a what?
-A: scrabble
-B: chess game
-C: chess set
-D: deck of cards
-E: castle
-Answer: B
-Question: The therapist said they needed to work on what, and that just talking to one another is the first step?
-A: persuaded
-B: communication
-C: laughing
-D: learn
-E: friendship
-Answer: B
-Question: He moved to check and accidentally said ""king me"", he got an odd look from his opponent since they were playing a what?
-A: scrabble
-B: chess game
-C: chess set
-D: deck of cards
-E: castle
-Answer: B
-Question: The therapist said they needed to work on what, and that just talking to one another is the first step?
-A: persuaded
-B: communication
-C: laughing
-D: learn
-E: friendship
-Answer: B
-Question: Sammy wanted to go to where the people were.  Where might he go?
-A: race track
-B: populated areas
-C: the desert
-D: apartment
-E: roadblock",Answer: B,B
-StrategyQA,0,"Question: Hot reading is a technique used by people presenting themselves as psychics to acquire information about a subject prior to the psychic session. Hot reading is considered deception in the psychic community.
-Would a psychic who admits to hot reading be trustworthy?","No, a psychic who admits to hot reading would not be trustworthy. Admitting to using deceptive practices undermines the credibility and authenticity of their psychic abilities. It suggests that they manipulate information to give the appearance of having psychic powers, rather than genuinely connecting with intuition or spiritual abilities. This lack of honesty and integrity calls into question the legitimacy of their readings and the trustworthiness of their services.",False
-StrategyQA,1a,"Question: TMNT is an abbreviation for 'Teenage Mutant Ninja Turtles'. The Teenage Mutant Ninja Turtles canonically only ever ate pizza in the animated series. 
-Would a TMNT coloring book have pizza in it?
+Question: Where do spirits haunt outside?
+A: bar
+B: funeral home
+C: haunted house
+D: liquor cabinet
+E: cemetary
+Answer: E
+Question: Sean was lying about the body, but he was very scared.  He constantly worried about what?
+A: the reward money
+B: hurt feelings
+C: being found out
+D: problems
+E: trouble",Answer: C,C
+StrategyQA,0,"Question: The average cost of a US Boeing 737 plane is 1.6 million dollars. Wonder Woman (2017 film) grossed over 800 million dollars at the box office.
+Is a Boeing 737 cost covered by Wonder Woman (2017 film) box office receipts?","No, the gross revenue generated by Wonder Woman (2017 film) is not enough to cover the cost of a Boeing 737 plane. The film's box office receipts were over 800 million dollars, while the average cost of a Boeing 737 plane is 1.6 million dollars. Therefore, the revenue from the film would not be able to cover the cost of the plane.",True
+StrategyQA,1a,"Question: Crocodiles belong to the family Crocodylinae. Alligators belong to the family Alligatoridae. Crocodylinae and Alligatoridae both belong to the order Crocodilia.
+Are saltwater crocodiles related to alligators?
 Answer: True
-Question: Christina Aguilera is a judge on the voice. Kelly Clarkson is a judge on the voice. Judges only turn their chairs around for competitors.  Kelly Clarkson has not competed on the voice.
-Did Christina Aguilera turn her chair around for Kelly Clarkson on The Voice?
-Answer: False
-Question: Hot reading is a technique used by people presenting themselves as psychics to acquire information about a subject prior to the psychic session. Hot reading is considered deception in the psychic community.
-Would a psychic who admits to hot reading be trustworthy?",Answer: False,False
-StrategyQA,1b,"Question: Diabetes is a disease in which the body cannot process sugar. Celery is known as a healthy snack and has 1 gram of sugar per serving. The recommended daily intake of sugar to prevent diabetes is less than 36 grams per day for an adult male. The average weight of an adult male is 197 pounds.
-Can eating your weight in celery prevent diabetes?
-Answer: False
-Question: Viscose is a rayon fiber invented in 1892. Elizabeth I of England died in the 1600s.
-Did Elizabeth I of England own any viscose fiber?
-Answer: False
-Question: Hot reading is a technique used by people presenting themselves as psychics to acquire information about a subject prior to the psychic session. Hot reading is considered deception in the psychic community.
-Would a psychic who admits to hot reading be trustworthy?",Answer: False,False
-StrategyQA,2,"Question: TMNT is an abbreviation for 'Teenage Mutant Ninja Turtles'. The Teenage Mutant Ninja Turtles canonically only ever ate pizza in the animated series. 
-Would a TMNT coloring book have pizza in it?
+Question: Pizza is an Italian food. Anchovies are occasionally used as a pizza topping.
+Are anchovies associated with Italian food?
 Answer: True
-Question: Christina Aguilera is a judge on the voice. Kelly Clarkson is a judge on the voice. Judges only turn their chairs around for competitors.  Kelly Clarkson has not competed on the voice.
-Did Christina Aguilera turn her chair around for Kelly Clarkson on The Voice?
+Question: The average cost of a US Boeing 737 plane is 1.6 million dollars. Wonder Woman (2017 film) grossed over 800 million dollars at the box office.
+Is a Boeing 737 cost covered by Wonder Woman (2017 film) box office receipts?",Answer: False,True
+StrategyQA,1b,"Question: The Paramount leader is the highest leader of China Titanic was produced by Paramount Pictures Paramount Pictures is an American film studio
+Did the Paramount leader produce Titanic?
 Answer: False
-Question: Diabetes is a disease in which the body cannot process sugar. Celery is known as a healthy snack and has 1 gram of sugar per serving. The recommended daily intake of sugar to prevent diabetes is less than 36 grams per day for an adult male. The average weight of an adult male is 197 pounds.
-Can eating your weight in celery prevent diabetes?
-Answer: False
-Question: Viscose is a rayon fiber invented in 1892. Elizabeth I of England died in the 1600s.
-Did Elizabeth I of England own any viscose fiber?
-Answer: False
-Question: Hot reading is a technique used by people presenting themselves as psychics to acquire information about a subject prior to the psychic session. Hot reading is considered deception in the psychic community.
-Would a psychic who admits to hot reading be trustworthy?",Answer: False,False
-StrategyQA,3a,"Question: TMNT is an abbreviation for 'Teenage Mutant Ninja Turtles'. The Teenage Mutant Ninja Turtles canonically only ever ate pizza in the animated series. 
-Would a TMNT coloring book have pizza in it?
+Question: Amazon is worth over $1 trillion and had a revenue of $232.887 billion in 2018. The Mona Lisa had an insurance valuation equivalent to $650 million as of 2018.
+Could Amazon afford The Mona Lisa?
 Answer: True
-Question: Christina Aguilera is a judge on the voice. Kelly Clarkson is a judge on the voice. Judges only turn their chairs around for competitors.  Kelly Clarkson has not competed on the voice.
-Did Christina Aguilera turn her chair around for Kelly Clarkson on The Voice?
-Answer: False
-Question: TMNT is an abbreviation for 'Teenage Mutant Ninja Turtles'. The Teenage Mutant Ninja Turtles canonically only ever ate pizza in the animated series. 
-Would a TMNT coloring book have pizza in it?
+Question: The average cost of a US Boeing 737 plane is 1.6 million dollars. Wonder Woman (2017 film) grossed over 800 million dollars at the box office.
+Is a Boeing 737 cost covered by Wonder Woman (2017 film) box office receipts?",Answer: False,True
+StrategyQA,2,"Question: Crocodiles belong to the family Crocodylinae. Alligators belong to the family Alligatoridae. Crocodylinae and Alligatoridae both belong to the order Crocodilia.
+Are saltwater crocodiles related to alligators?
 Answer: True
-Question: Christina Aguilera is a judge on the voice. Kelly Clarkson is a judge on the voice. Judges only turn their chairs around for competitors.  Kelly Clarkson has not competed on the voice.
-Did Christina Aguilera turn her chair around for Kelly Clarkson on The Voice?
+Question: Pizza is an Italian food. Anchovies are occasionally used as a pizza topping.
+Are anchovies associated with Italian food?
+Answer: True
+Question: The Paramount leader is the highest leader of China Titanic was produced by Paramount Pictures Paramount Pictures is an American film studio
+Did the Paramount leader produce Titanic?
 Answer: False
-Question: Hot reading is a technique used by people presenting themselves as psychics to acquire information about a subject prior to the psychic session. Hot reading is considered deception in the psychic community.
-Would a psychic who admits to hot reading be trustworthy?","Answer: No, a psychic who admits to hot reading would not be considered trustworthy as it involves deception and obtaining information through means other than psychic abilities.",False
-StrategyQA,3b,"Question: Diabetes is a disease in which the body cannot process sugar. Celery is known as a healthy snack and has 1 gram of sugar per serving. The recommended daily intake of sugar to prevent diabetes is less than 36 grams per day for an adult male. The average weight of an adult male is 197 pounds.
-Can eating your weight in celery prevent diabetes?
+Question: Amazon is worth over $1 trillion and had a revenue of $232.887 billion in 2018. The Mona Lisa had an insurance valuation equivalent to $650 million as of 2018.
+Could Amazon afford The Mona Lisa?
+Answer: True
+Question: The average cost of a US Boeing 737 plane is 1.6 million dollars. Wonder Woman (2017 film) grossed over 800 million dollars at the box office.
+Is a Boeing 737 cost covered by Wonder Woman (2017 film) box office receipts?",True,True
+StrategyQA,3a,"Question: Crocodiles belong to the family Crocodylinae. Alligators belong to the family Alligatoridae. Crocodylinae and Alligatoridae both belong to the order Crocodilia.
+Are saltwater crocodiles related to alligators?
+Answer: True
+Question: Pizza is an Italian food. Anchovies are occasionally used as a pizza topping.
+Are anchovies associated with Italian food?
+Answer: True
+Question: Crocodiles belong to the family Crocodylinae. Alligators belong to the family Alligatoridae. Crocodylinae and Alligatoridae both belong to the order Crocodilia.
+Are saltwater crocodiles related to alligators?
+Answer: True
+Question: Pizza is an Italian food. Anchovies are occasionally used as a pizza topping.
+Are anchovies associated with Italian food?
+Answer: True
+Question: The average cost of a US Boeing 737 plane is 1.6 million dollars. Wonder Woman (2017 film) grossed over 800 million dollars at the box office.
+Is a Boeing 737 cost covered by Wonder Woman (2017 film) box office receipts?",Answer: False,True
+StrategyQA,3b,"Question: The Paramount leader is the highest leader of China Titanic was produced by Paramount Pictures Paramount Pictures is an American film studio
+Did the Paramount leader produce Titanic?
 Answer: False
-Question: Viscose is a rayon fiber invented in 1892. Elizabeth I of England died in the 1600s.
-Did Elizabeth I of England own any viscose fiber?
+Question: Amazon is worth over $1 trillion and had a revenue of $232.887 billion in 2018. The Mona Lisa had an insurance valuation equivalent to $650 million as of 2018.
+Could Amazon afford The Mona Lisa?
+Answer: True
+Question: The Paramount leader is the highest leader of China Titanic was produced by Paramount Pictures Paramount Pictures is an American film studio
+Did the Paramount leader produce Titanic?
 Answer: False
-Question: Diabetes is a disease in which the body cannot process sugar. Celery is known as a healthy snack and has 1 gram of sugar per serving. The recommended daily intake of sugar to prevent diabetes is less than 36 grams per day for an adult male. The average weight of an adult male is 197 pounds.
-Can eating your weight in celery prevent diabetes?
-Answer: False
-Question: Viscose is a rayon fiber invented in 1892. Elizabeth I of England died in the 1600s.
-Did Elizabeth I of England own any viscose fiber?
-Answer: False
-Question: Hot reading is a technique used by people presenting themselves as psychics to acquire information about a subject prior to the psychic session. Hot reading is considered deception in the psychic community.
-Would a psychic who admits to hot reading be trustworthy?",Answer: False,False
-SayCan,0,Question: Provide step-by-step instructions for the following task: How would you move a banana to the table?,"1. Start by picking up the banana from wherever it is currently located.
-2. Hold the banana securely in your hand to prevent it from falling.
-3. Walk over to the table where you want to place the banana.
-4. Once you reach the table, carefully place the banana on the table's surface.
-5. Adjust the position of the banana on the table if needed to make sure it is placed securely and neatly.
-6. Step back and admire your accomplishment of successfully moving the banana to the table.","1. pick up the banana, 2. go to the table, 3. put down the banana, 4. done, I opened a sprite earlier."
-SayCan,1a,"Question: Provide step-by-step instructions for the following task: Restock chips in the drawer.
-Answer: 1. find the bag of chips, 2. pick up the bag of chips, 3. go to the drawer, 4. put down the bag of chips, 5. open the drawer, 6. pick up the bag of chips, 7. put down the bag of chips, 8. close the drawer, 9. done
-Question: Provide step-by-step instructions for the following task: Visit the counter and the table in the kitchen.
-Answer: 1. go to the counter, 2. go to the table, 3. done
-Question: Provide step-by-step instructions for the following task: How would you move a banana to the table?","Answer: 1. Pick up the banana, 2. Walk over to the table, 3. Place the banana on the table, 4. Done.","1. pick up the banana, 2. go to the table, 3. put down the banana, 4. done, I opened a sprite earlier."
-SayCan,1b,"Question: Provide step-by-step instructions for the following task: How would you throw a coke can away?
-Answer: 1. find a coke can, 2. pick up the coke can, 3. go to the trash, 4. put down the coke can, 5. done
-Question: Provide step-by-step instructions for the following task: Throw the coke can away.
-Answer: 1. find a coke can, 2. pick up the coke can, 3. go to the trash, 4. put down the coke can, 5. done
-Question: Provide step-by-step instructions for the following task: How would you move a banana to the table?","Answer: 1. Find a banana, 2. Pick up the banana, 3. Walk over to the table, 4. Place the banana on the table, 5. Done.","1. pick up the banana, 2. go to the table, 3. put down the banana, 4. done, I opened a sprite earlier."
-SayCan,2,"Question: Provide step-by-step instructions for the following task: Restock chips in the drawer.
-Answer: 1. find the bag of chips, 2. pick up the bag of chips, 3. go to the drawer, 4. put down the bag of chips, 5. open the drawer, 6. pick up the bag of chips, 7. put down the bag of chips, 8. close the drawer, 9. done
-Question: Provide step-by-step instructions for the following task: Visit the counter and the table in the kitchen.
-Answer: 1. go to the counter, 2. go to the table, 3. done
-Question: Provide step-by-step instructions for the following task: How would you throw a coke can away?
-Answer: 1. find a coke can, 2. pick up the coke can, 3. go to the trash, 4. put down the coke can, 5. done
-Question: Provide step-by-step instructions for the following task: Throw the coke can away.
-Answer: 1. find a coke can, 2. pick up the coke can, 3. go to the trash, 4. put down the coke can, 5. done
-Question: Provide step-by-step instructions for the following task: How would you move a banana to the table?","Answer: 1. Find the banana, 2. Pick up the banana, 3. Go to the table, 4. Put down the banana on the table, 5. Done","1. pick up the banana, 2. go to the table, 3. put down the banana, 4. done, I opened a sprite earlier."
-SayCan,3a,"Question: Provide step-by-step instructions for the following task: Restock chips in the drawer.
-Answer: 1. find the bag of chips, 2. pick up the bag of chips, 3. go to the drawer, 4. put down the bag of chips, 5. open the drawer, 6. pick up the bag of chips, 7. put down the bag of chips, 8. close the drawer, 9. done
-Question: Provide step-by-step instructions for the following task: Visit the counter and the table in the kitchen.
-Answer: 1. go to the counter, 2. go to the table, 3. done
-Question: Provide step-by-step instructions for the following task: Restock chips in the drawer.
-Answer: 1. find the bag of chips, 2. pick up the bag of chips, 3. go to the drawer, 4. put down the bag of chips, 5. open the drawer, 6. pick up the bag of chips, 7. put down the bag of chips, 8. close the drawer, 9. done
-Question: Provide step-by-step instructions for the following task: Visit the counter and the table in the kitchen.
-Answer: 1. go to the counter, 2. go to the table, 3. done
-Question: Provide step-by-step instructions for the following task: How would you move a banana to the table?","1. Pick up the banana
-2. Walk over to the table
-3. Place the banana on the table
-4. Done","1. pick up the banana, 2. go to the table, 3. put down the banana, 4. done, I opened a sprite earlier."
-SayCan,3b,"Question: Provide step-by-step instructions for the following task: How would you throw a coke can away?
-Answer: 1. find a coke can, 2. pick up the coke can, 3. go to the trash, 4. put down the coke can, 5. done
-Question: Provide step-by-step instructions for the following task: Throw the coke can away.
-Answer: 1. find a coke can, 2. pick up the coke can, 3. go to the trash, 4. put down the coke can, 5. done
-Question: Provide step-by-step instructions for the following task: How would you throw a coke can away?
-Answer: 1. find a coke can, 2. pick up the coke can, 3. go to the trash, 4. put down the coke can, 5. done
-Question: Provide step-by-step instructions for the following task: Throw the coke can away.
-Answer: 1. find a coke can, 2. pick up the coke can, 3. go to the trash, 4. put down the coke can, 5. done
-Question: Provide step-by-step instructions for the following task: How would you move a banana to the table?","Answer: 1. Pick up the banana, 2. Walk over to the table, 3. Place the banana on the table, 4. Done.","1. pick up the banana, 2. go to the table, 3. put down the banana, 4. done, I opened a sprite earlier."
+Question: Amazon is worth over $1 trillion and had a revenue of $232.887 billion in 2018. The Mona Lisa had an insurance valuation equivalent to $650 million as of 2018.
+Could Amazon afford The Mona Lisa?
+Answer: True
+Question: The average cost of a US Boeing 737 plane is 1.6 million dollars. Wonder Woman (2017 film) grossed over 800 million dollars at the box office.
+Is a Boeing 737 cost covered by Wonder Woman (2017 film) box office receipts?",Answer: True,True
+SayCan,0,Question: Can you bring me something spicy?,"Response: Sure, I can bring you something spicy. What type of spicy food would you like?","1. find a jalapeno chips, 2. pick up the jalapeno chips, 3. bring it to you, 4. put down the jalapeno chips, 5. done."
+SayCan,1a,"Question: Throw away all the fruits on the table.
+Answer: 1. go to the table, 2. pick up the apple, 3. go to the trash, 4. put down the apple, 5. go to the table, 6. pick up the orange, 7. go to the trash, 8. put down the orange, 9. done
+Question: Can you bring me a salty snack?
+Answer: 1. find a sea salt chips, 2. pick up the sea salt chips, 3. bring it to you, 4. put down the sea salt chips, 5. done.
+Question: Can you bring me something spicy?","Answer: 1. find a container of hot sauce, 2. pick up the container of hot sauce, 3. bring it to you, 4. put down the container of hot sauce, 5. done.","1. find a jalapeno chips, 2. pick up the jalapeno chips, 3. bring it to you, 4. put down the jalapeno chips, 5. done."
+SayCan,1b,"Question: How would you pick up the coke can?
+Answer: 1. pick up the coke can, 2. done
+Question: Can you bring me something salty?
+Answer: 1. find the sea salt chips, 2. pick up the sea salt chips, 3. bring it to you, 4. put down the sea salt chips, 5. done
+Question: Can you bring me something spicy?","Answer: 1. find the spicy snack, 2. pick up the spicy snack, 3. bring it to you, 4. put down the spicy snack, 5. done","1. find a jalapeno chips, 2. pick up the jalapeno chips, 3. bring it to you, 4. put down the jalapeno chips, 5. done."
+SayCan,2,"Question: Throw away all the fruits on the table.
+Answer: 1. go to the table, 2. pick up the apple, 3. go to the trash, 4. put down the apple, 5. go to the table, 6. pick up the orange, 7. go to the trash, 8. put down the orange, 9. done
+Question: Can you bring me a salty snack?
+Answer: 1. find a sea salt chips, 2. pick up the sea salt chips, 3. bring it to you, 4. put down the sea salt chips, 5. done.
+Question: How would you pick up the coke can?
+Answer: 1. pick up the coke can, 2. done
+Question: Can you bring me something salty?
+Answer: 1. find the sea salt chips, 2. pick up the sea salt chips, 3. bring it to you, 4. put down the sea salt chips, 5. done
+Question: Can you bring me something spicy?","Answer: 1. find the spicy peanuts, 2. pick up the spicy peanuts, 3. bring it to you, 4. put down the spicy peanuts, 5. done","1. find a jalapeno chips, 2. pick up the jalapeno chips, 3. bring it to you, 4. put down the jalapeno chips, 5. done."
+SayCan,3a,"Question: Throw away all the fruits on the table.
+Answer: 1. go to the table, 2. pick up the apple, 3. go to the trash, 4. put down the apple, 5. go to the table, 6. pick up the orange, 7. go to the trash, 8. put down the orange, 9. done
+Question: Can you bring me a salty snack?
+Answer: 1. find a sea salt chips, 2. pick up the sea salt chips, 3. bring it to you, 4. put down the sea salt chips, 5. done.
+Question: Throw away all the fruits on the table.
+Answer: 1. go to the table, 2. pick up the apple, 3. go to the trash, 4. put down the apple, 5. go to the table, 6. pick up the orange, 7. go to the trash, 8. put down the orange, 9. done
+Question: Can you bring me a salty snack?
+Answer: 1. find a sea salt chips, 2. pick up the sea salt chips, 3. bring it to you, 4. put down the sea salt chips, 5. done.
+Question: Can you bring me something spicy?","Answer: 1. find some hot sauce or spicy chips, 2. pick up the spicy item, 3. bring it to you, 4. put down the spicy item, 5. done.","1. find a jalapeno chips, 2. pick up the jalapeno chips, 3. bring it to you, 4. put down the jalapeno chips, 5. done."
+SayCan,3b,"Question: How would you pick up the coke can?
+Answer: 1. pick up the coke can, 2. done
+Question: Can you bring me something salty?
+Answer: 1. find the sea salt chips, 2. pick up the sea salt chips, 3. bring it to you, 4. put down the sea salt chips, 5. done
+Question: How would you pick up the coke can?
+Answer: 1. pick up the coke can, 2. done
+Question: Can you bring me something salty?
+Answer: 1. find the sea salt chips, 2. pick up the sea salt chips, 3. bring it to you, 4. put down the sea salt chips, 5. done
+Question: Can you bring me something spicy?","Answer: 1. find the hot salsa, 2. pick up the hot salsa, 3. bring it to you, 4. put down the hot salsa, 5. done","1. find a jalapeno chips, 2. pick up the jalapeno chips, 3. bring it to you, 4. put down the jalapeno chips, 5. done."

@@ -1,429 +1,378 @@
 Task Class,Case,Prompt,Response,Expected
-Math,0,"Question: In a room, there are various toys: 5 red cars, 3 action figures, and a doll. The doll cost as much as 3 action figures and one red car cost $4. How much are all toys worth, of an action figure costs $5?","Let's calculate the total cost of each type of toy:
+Math,0,"Question: A bag of flour is divided into 8 portions of 2 kilograms each. How much flour (in kilograms) was in three bags in total, before it was divided into portions?","The total amount of flour in three bags before they were divided into portions is:
 
-1 doll = 3 action figures
-3 action figures = 3 * $5 = $15
-1 doll = $15
+3 bags x 8 portions x 2 kilograms = 48 kilograms
 
-1 red car = $4
-5 red cars = 5 * $4 = $20
-
-Total cost of toys:
-5 red cars + 3 action figures + 1 doll = $20 + $15 + $15 = $50
-
-Therefore, all toys are worth $50.","Three actions figures are worth 3 * 5 = $<<3*5=15>>15, as much as the doll.
-The red cars are worth 5 * 4 = $<<5*4=20>>20.
-So all toys are worth 20 + 15 + 15 = $<<20+15+15=50>>50.
-#### 50"
-Math,1a,"Question: Emily can type 60 words per minute. How many hours does it take her to write 10,800 words?
-Answer: In an hour, Emily can type 60 words *60 minutes = <<60*60=3600>>3600 words.
-It will take her 10800/3600 = <<10800/3600=3>>3 hours to write 10800 words.
-#### 3
-Question: Tiffany attends the carnival and her mother gives her $3 to play on a ring toss game. For every red bucket she tosses a ring into she gets 2 points. For every green bucket she gets three points. She gets zero points for a miss. Every play costs her $1 and she gets 5 rings per play. She's played two games and already gotten 4 red buckets and 5 green buckets. If she plays until her money runs out, what is the most total points she can get for all three games?
-Answer: She has 8 points from red buckets because 4 x 2 = <<4*2=8>>8
-She has 15 points from green buckets because 5 x 3 = <<5*3=15>>15
-She has spent $2 on games because 2 x 1 = <<2*1=2>>2
-She has $1 left to spend because 3 - 2 = <<3-2=1>>1
-She can play one more game because 1 / 1 = <<1/1=1>>1
-The best bucket gives three points because 3 > 2
-The most she can earn in the final game is 15 because 5 x 3 = <<5*3=15>>15
-The most she can score overall is 38 because 8 + 15 + 15 = <<8+15+15=38>>38
-#### 38
-Question: In a room, there are various toys: 5 red cars, 3 action figures, and a doll. The doll cost as much as 3 action figures and one red car cost $4. How much are all toys worth, of an action figure costs $5?","Answer: 
-
-The doll is equal to 3 action figures, so it is worth 3 x $5 = $15.
-
-An action figure costs $5, so 3 action figures are worth 3 x $5 = $15.
-
-The 5 red cars are worth 5 x $4 = $20.
-
-Adding the value of all the toys, we get $15 (doll) + $15 (action figures) + $20 (red cars) = $50.
-
-Therefore, all the toys are worth $50.","Three actions figures are worth 3 * 5 = $<<3*5=15>>15, as much as the doll.
-The red cars are worth 5 * 4 = $<<5*4=20>>20.
-So all toys are worth 20 + 15 + 15 = $<<20+15+15=50>>50.
-#### 50"
-Math,1b,"Question: The math teacher would be happy if the class average test score was at least 85. There are 10 students in the class, 5 of which scored a 92 on the test and 4 of which scored an 80. What would the last student have to score to at least make the teacher happy?
-Answer: 5 students scored a combined total of 92 * 5 = <<92*5=460>>460
-4 additional students scored a combined total of 80 * 4 = <<80*4=320>>320
-9 students therefore scored a combined total of 460 + 320 = <<460+320=780>>780
-We know the total combined score for 10 students must be at least 85 average * 10 students = <<85*10=850>>850
-Therefore, the last student must score at least an 850 - 780 = <<850-780=70>>70
-#### 70
-Question: Kyle bakes 60 cookies and 32 brownies. Kyle eats 2 cookies and 2 brownies. Kyle's mom eats 1 cookie and 2 brownies. If Kyle sells a cookie for $1 and a brownie for $1.50, how much money will Kyle make if he sells all of his baked goods?
-Answer: Kyle and his mom eat a total of 2 + 1 = <<2+1=3>>3 cookies
-Kyle and his mom eat a total of 2 + 2 = <<2+2=4>>4 brownies
-The number of cookies remaining is 60 - 3 = <<60-3=57>>57 cookies
-The number of brownies remaining is 32 - 4 = <<32-4=28>>28 brownies
-From selling his cookies, Kyle makes 57 * $1 = $<<57*1=57>>57
-From selling his brownies, Kyle makes 28 * $1.50 = $<<28*1.5=42>>42
-Kyle would make a total of $57 + $42 = $<<57+42=99>>99 if he sold all of his baked goods
-#### 99
-Question: In a room, there are various toys: 5 red cars, 3 action figures, and a doll. The doll cost as much as 3 action figures and one red car cost $4. How much are all toys worth, of an action figure costs $5?","Answer: 
-The doll costs 3 * $5 = $15
-One red car costs $4, so 5 red cars cost 5 * $4 = $20
-In total, the toys are worth $15 (doll) + $20 (red cars) + $15 (action figures) = $<<15+20+15=50>>50.
-Therefore, all the toys are worth $50.","Three actions figures are worth 3 * 5 = $<<3*5=15>>15, as much as the doll.
-The red cars are worth 5 * 4 = $<<5*4=20>>20.
-So all toys are worth 20 + 15 + 15 = $<<20+15+15=50>>50.
-#### 50"
-Math,2,"Question: Emily can type 60 words per minute. How many hours does it take her to write 10,800 words?
-Answer: In an hour, Emily can type 60 words *60 minutes = <<60*60=3600>>3600 words.
-It will take her 10800/3600 = <<10800/3600=3>>3 hours to write 10800 words.
-#### 3
-Question: Tiffany attends the carnival and her mother gives her $3 to play on a ring toss game. For every red bucket she tosses a ring into she gets 2 points. For every green bucket she gets three points. She gets zero points for a miss. Every play costs her $1 and she gets 5 rings per play. She's played two games and already gotten 4 red buckets and 5 green buckets. If she plays until her money runs out, what is the most total points she can get for all three games?
-Answer: She has 8 points from red buckets because 4 x 2 = <<4*2=8>>8
-She has 15 points from green buckets because 5 x 3 = <<5*3=15>>15
-She has spent $2 on games because 2 x 1 = <<2*1=2>>2
-She has $1 left to spend because 3 - 2 = <<3-2=1>>1
-She can play one more game because 1 / 1 = <<1/1=1>>1
-The best bucket gives three points because 3 > 2
-The most she can earn in the final game is 15 because 5 x 3 = <<5*3=15>>15
-The most she can score overall is 38 because 8 + 15 + 15 = <<8+15+15=38>>38
-#### 38
-Question: The math teacher would be happy if the class average test score was at least 85. There are 10 students in the class, 5 of which scored a 92 on the test and 4 of which scored an 80. What would the last student have to score to at least make the teacher happy?
-Answer: 5 students scored a combined total of 92 * 5 = <<92*5=460>>460
-4 additional students scored a combined total of 80 * 4 = <<80*4=320>>320
-9 students therefore scored a combined total of 460 + 320 = <<460+320=780>>780
-We know the total combined score for 10 students must be at least 85 average * 10 students = <<85*10=850>>850
-Therefore, the last student must score at least an 850 - 780 = <<850-780=70>>70
-#### 70
-Question: Kyle bakes 60 cookies and 32 brownies. Kyle eats 2 cookies and 2 brownies. Kyle's mom eats 1 cookie and 2 brownies. If Kyle sells a cookie for $1 and a brownie for $1.50, how much money will Kyle make if he sells all of his baked goods?
-Answer: Kyle and his mom eat a total of 2 + 1 = <<2+1=3>>3 cookies
-Kyle and his mom eat a total of 2 + 2 = <<2+2=4>>4 brownies
-The number of cookies remaining is 60 - 3 = <<60-3=57>>57 cookies
-The number of brownies remaining is 32 - 4 = <<32-4=28>>28 brownies
-From selling his cookies, Kyle makes 57 * $1 = $<<57*1=57>>57
-From selling his brownies, Kyle makes 28 * $1.50 = $<<28*1.5=42>>42
-Kyle would make a total of $57 + $42 = $<<57+42=99>>99 if he sold all of his baked goods
-#### 99
-Question: In a room, there are various toys: 5 red cars, 3 action figures, and a doll. The doll cost as much as 3 action figures and one red car cost $4. How much are all toys worth, of an action figure costs $5?","Answer: The doll is equal in value to 3 action figures, which means it costs 3 * $5 = $15.
-Since one red car costs $4, the 5 red cars cost 5 * $4 = $20.
-Therefore, the total cost of all toys in the room is $15 + $20 + 3 * $5 = $<<15+20+3*5=50>>50.","Three actions figures are worth 3 * 5 = $<<3*5=15>>15, as much as the doll.
-The red cars are worth 5 * 4 = $<<5*4=20>>20.
-So all toys are worth 20 + 15 + 15 = $<<20+15+15=50>>50.
-#### 50"
-Math,3a,"Question: Emily can type 60 words per minute. How many hours does it take her to write 10,800 words?
-Answer: In an hour, Emily can type 60 words *60 minutes = <<60*60=3600>>3600 words.
-It will take her 10800/3600 = <<10800/3600=3>>3 hours to write 10800 words.
-#### 3
-Question: Tiffany attends the carnival and her mother gives her $3 to play on a ring toss game. For every red bucket she tosses a ring into she gets 2 points. For every green bucket she gets three points. She gets zero points for a miss. Every play costs her $1 and she gets 5 rings per play. She's played two games and already gotten 4 red buckets and 5 green buckets. If she plays until her money runs out, what is the most total points she can get for all three games?
-Answer: She has 8 points from red buckets because 4 x 2 = <<4*2=8>>8
-She has 15 points from green buckets because 5 x 3 = <<5*3=15>>15
-She has spent $2 on games because 2 x 1 = <<2*1=2>>2
-She has $1 left to spend because 3 - 2 = <<3-2=1>>1
-She can play one more game because 1 / 1 = <<1/1=1>>1
-The best bucket gives three points because 3 > 2
-The most she can earn in the final game is 15 because 5 x 3 = <<5*3=15>>15
-The most she can score overall is 38 because 8 + 15 + 15 = <<8+15+15=38>>38
-#### 38
-Question: Emily can type 60 words per minute. How many hours does it take her to write 10,800 words?
-Answer: In an hour, Emily can type 60 words *60 minutes = <<60*60=3600>>3600 words.
-It will take her 10800/3600 = <<10800/3600=3>>3 hours to write 10800 words.
-#### 3
-Question: Tiffany attends the carnival and her mother gives her $3 to play on a ring toss game. For every red bucket she tosses a ring into she gets 2 points. For every green bucket she gets three points. She gets zero points for a miss. Every play costs her $1 and she gets 5 rings per play. She's played two games and already gotten 4 red buckets and 5 green buckets. If she plays until her money runs out, what is the most total points she can get for all three games?
-Answer: She has 8 points from red buckets because 4 x 2 = <<4*2=8>>8
-She has 15 points from green buckets because 5 x 3 = <<5*3=15>>15
-She has spent $2 on games because 2 x 1 = <<2*1=2>>2
-She has $1 left to spend because 3 - 2 = <<3-2=1>>1
-She can play one more game because 1 / 1 = <<1/1=1>>1
-The best bucket gives three points because 3 > 2
-The most she can earn in the final game is 15 because 5 x 3 = <<5*3=15>>15
-The most she can score overall is 38 because 8 + 15 + 15 = <<8+15+15=38>>38
-#### 38
-Question: In a room, there are various toys: 5 red cars, 3 action figures, and a doll. The doll cost as much as 3 action figures and one red car cost $4. How much are all toys worth, of an action figure costs $5?","Answer: The doll costs 3 x 5 = $15.
-The total cost of the red cars is 5 x 4 = $20.
-The total cost of all the toys is 15 + 20 + 3 x 5 = $60.","Three actions figures are worth 3 * 5 = $<<3*5=15>>15, as much as the doll.
-The red cars are worth 5 * 4 = $<<5*4=20>>20.
-So all toys are worth 20 + 15 + 15 = $<<20+15+15=50>>50.
-#### 50"
-Math,3b,"Question: The math teacher would be happy if the class average test score was at least 85. There are 10 students in the class, 5 of which scored a 92 on the test and 4 of which scored an 80. What would the last student have to score to at least make the teacher happy?
-Answer: 5 students scored a combined total of 92 * 5 = <<92*5=460>>460
-4 additional students scored a combined total of 80 * 4 = <<80*4=320>>320
-9 students therefore scored a combined total of 460 + 320 = <<460+320=780>>780
-We know the total combined score for 10 students must be at least 85 average * 10 students = <<85*10=850>>850
-Therefore, the last student must score at least an 850 - 780 = <<850-780=70>>70
-#### 70
-Question: Kyle bakes 60 cookies and 32 brownies. Kyle eats 2 cookies and 2 brownies. Kyle's mom eats 1 cookie and 2 brownies. If Kyle sells a cookie for $1 and a brownie for $1.50, how much money will Kyle make if he sells all of his baked goods?
-Answer: Kyle and his mom eat a total of 2 + 1 = <<2+1=3>>3 cookies
-Kyle and his mom eat a total of 2 + 2 = <<2+2=4>>4 brownies
-The number of cookies remaining is 60 - 3 = <<60-3=57>>57 cookies
-The number of brownies remaining is 32 - 4 = <<32-4=28>>28 brownies
-From selling his cookies, Kyle makes 57 * $1 = $<<57*1=57>>57
-From selling his brownies, Kyle makes 28 * $1.50 = $<<28*1.5=42>>42
-Kyle would make a total of $57 + $42 = $<<57+42=99>>99 if he sold all of his baked goods
-#### 99
-Question: The math teacher would be happy if the class average test score was at least 85. There are 10 students in the class, 5 of which scored a 92 on the test and 4 of which scored an 80. What would the last student have to score to at least make the teacher happy?
-Answer: 5 students scored a combined total of 92 * 5 = <<92*5=460>>460
-4 additional students scored a combined total of 80 * 4 = <<80*4=320>>320
-9 students therefore scored a combined total of 460 + 320 = <<460+320=780>>780
-We know the total combined score for 10 students must be at least 85 average * 10 students = <<85*10=850>>850
-Therefore, the last student must score at least an 850 - 780 = <<850-780=70>>70
-#### 70
-Question: Kyle bakes 60 cookies and 32 brownies. Kyle eats 2 cookies and 2 brownies. Kyle's mom eats 1 cookie and 2 brownies. If Kyle sells a cookie for $1 and a brownie for $1.50, how much money will Kyle make if he sells all of his baked goods?
-Answer: Kyle and his mom eat a total of 2 + 1 = <<2+1=3>>3 cookies
-Kyle and his mom eat a total of 2 + 2 = <<2+2=4>>4 brownies
-The number of cookies remaining is 60 - 3 = <<60-3=57>>57 cookies
-The number of brownies remaining is 32 - 4 = <<32-4=28>>28 brownies
-From selling his cookies, Kyle makes 57 * $1 = $<<57*1=57>>57
-From selling his brownies, Kyle makes 28 * $1.50 = $<<28*1.5=42>>42
-Kyle would make a total of $57 + $42 = $<<57+42=99>>99 if he sold all of his baked goods
-#### 99
-Question: In a room, there are various toys: 5 red cars, 3 action figures, and a doll. The doll cost as much as 3 action figures and one red car cost $4. How much are all toys worth, of an action figure costs $5?","Answer: The doll cost 3 action figures, so it costs 3 * $5 = $15.
-One red car costs $4, so 5 red cars cost 5 * $4 = $<<5*4=20>>20.
-Thus, all toys are worth $15 + $20 = $<<15+20=35>>35.","Three actions figures are worth 3 * 5 = $<<3*5=15>>15, as much as the doll.
-The red cars are worth 5 * 4 = $<<5*4=20>>20.
-So all toys are worth 20 + 15 + 15 = $<<20+15+15=50>>50.
-#### 50"
-CSQA,0,"Question: You can share files with someone if you have a connection to a what?
-A: freeway
-B: radio
-C: wires
-D: computer network
-E: electrical circuit",D: computer network,D
-CSQA,1a,"Question: A single grain of sand can cause what to make a precious stone?
-A: clam
-B: itchy
-C: eye
-D: bathing suit
-E: beach
-Answer: A
-Question: John put  salt on his salad.  Mary suggested that he should spritz what on it, instead?
-A: peppers
-B: black pepper
-C: vinegar
-D: cure meat
-E: adding flavor
+Therefore, there was a total of 48 kilograms of flour in three bags before they were divided into portions.","A bag of flour has 8 x 2 = <<8*2=16>>16 kilograms.
+So, there are 16 x 3 = <<16*3=48>>48 kilograms of flour in 3 bags.
+#### 48"
+Math,1a,"Question: A store transports fresh vegetables in crates and cartons using its delivery truck. One crate of vegetables weighs 4 kilograms and one carton 3 kilograms. How much will a load of 12 crates, and 16 cartons of vegetables weigh?
+Answer: The weight of 12 crates of vegetables is 12 * 4 = <<12*4=48>>48 kilograms.
+The weight of 16 cartons of vegetables is 16 * 3 = <<16*3=48>>48 kilograms.
+So the total weight of all crates and cartons is 48 + 48 = <<48+48=96>>96 kilograms.
+#### 96
+Question: Bruce buys 5 packs of crayons at $5 each, 10 books at $5 each, and 3 calculators at $5 each. If he has $200, how many bags can he buy with the change if one costs $10 each?
+Answer: He pays 5*5=$<<5*5=25>>25 for buying crayons.
+He pays 10*5=$<<10*5=50>>50 for buying books.
+He pays 3*5=$<<3*5=15>>15 for buying calculators.
+The change he has for buying bags is 200-25-50-15=$<<200-25-50-15=110>>110.
+The number of bags he can buy is 110/10=<<110/10=11>>11 bags.
+#### 11
+Question: A bag of flour is divided into 8 portions of 2 kilograms each. How much flour (in kilograms) was in three bags in total, before it was divided into portions?","Answer: Each bag contains 8 portions * 2kg = <<8*2=16>>16kg of flour.
+Therefore, three bags contain 3 bags * 16kg/bag = <<3*16=48>>48kg of flour in total.","A bag of flour has 8 x 2 = <<8*2=16>>16 kilograms.
+So, there are 16 x 3 = <<16*3=48>>48 kilograms of flour in 3 bags.
+#### 48"
+Math,1b,"Question: If you double a number and add 5 to the result, then that's 20 more than half of the original number. What's the original number?
+Answer: Let x be the original number.
+2*x+5=20+x/2
+2*x-x/2=15
+4*x-x=30
+3*x=30
+x=<<10=10>>10
+#### 4
+Question: Apollo pulls the sun across the sky every night. Once a month, his fiery chariot’s wheels need to be replaced. He trades golden apples to Hephaestus the blacksmith to get Hephaestus to make him new wheels. Hephaestus raised his rates halfway through the year and now demands twice as many golden apples as before. He charged three golden apples for the first six months. How many golden apples does Apollo have to pay for the entire year of chariot wheels?
+Answer: Apollo had to pay 3 * 6 = <<3*6=18>>18 golden apples for the first six months.
+For the second six months, he had to pay twice that amount, or 18 * 2 = <<18*2=36>>36 golden apples.
+Thus, Apollo had to pay 18 + 36 = <<18+36=54>>54 golden apples for a year of chariot wheels.
+#### 54
+Question: A bag of flour is divided into 8 portions of 2 kilograms each. How much flour (in kilograms) was in three bags in total, before it was divided into portions?","Answer: Since each bag is divided into 8 portions of 2 kilograms each, one bag contains 8 * 2 = <<8*2=16>>16 kilograms of flour.
+Three bags contain 3 * 16 = <<3*16=48>>48 kilograms of flour in total before being divided into portions. 
+Therefore, there were 48 kilograms of flour in three bags in total. 
+#### 48","A bag of flour has 8 x 2 = <<8*2=16>>16 kilograms.
+So, there are 16 x 3 = <<16*3=48>>48 kilograms of flour in 3 bags.
+#### 48"
+Math,2,"Question: A store transports fresh vegetables in crates and cartons using its delivery truck. One crate of vegetables weighs 4 kilograms and one carton 3 kilograms. How much will a load of 12 crates, and 16 cartons of vegetables weigh?
+Answer: The weight of 12 crates of vegetables is 12 * 4 = <<12*4=48>>48 kilograms.
+The weight of 16 cartons of vegetables is 16 * 3 = <<16*3=48>>48 kilograms.
+So the total weight of all crates and cartons is 48 + 48 = <<48+48=96>>96 kilograms.
+#### 96
+Question: Bruce buys 5 packs of crayons at $5 each, 10 books at $5 each, and 3 calculators at $5 each. If he has $200, how many bags can he buy with the change if one costs $10 each?
+Answer: He pays 5*5=$<<5*5=25>>25 for buying crayons.
+He pays 10*5=$<<10*5=50>>50 for buying books.
+He pays 3*5=$<<3*5=15>>15 for buying calculators.
+The change he has for buying bags is 200-25-50-15=$<<200-25-50-15=110>>110.
+The number of bags he can buy is 110/10=<<110/10=11>>11 bags.
+#### 11
+Question: If you double a number and add 5 to the result, then that's 20 more than half of the original number. What's the original number?
+Answer: Let x be the original number.
+2*x+5=20+x/2
+2*x-x/2=15
+4*x-x=30
+3*x=30
+x=<<10=10>>10
+#### 4
+Question: Apollo pulls the sun across the sky every night. Once a month, his fiery chariot’s wheels need to be replaced. He trades golden apples to Hephaestus the blacksmith to get Hephaestus to make him new wheels. Hephaestus raised his rates halfway through the year and now demands twice as many golden apples as before. He charged three golden apples for the first six months. How many golden apples does Apollo have to pay for the entire year of chariot wheels?
+Answer: Apollo had to pay 3 * 6 = <<3*6=18>>18 golden apples for the first six months.
+For the second six months, he had to pay twice that amount, or 18 * 2 = <<18*2=36>>36 golden apples.
+Thus, Apollo had to pay 18 + 36 = <<18+36=54>>54 golden apples for a year of chariot wheels.
+#### 54
+Question: A bag of flour is divided into 8 portions of 2 kilograms each. How much flour (in kilograms) was in three bags in total, before it was divided into portions?","Answer: Each bag contains 8 portions of 2 kilograms each, so each bag contains a total of 8 * 2 = <<8*2=16>>16 kilograms of flour.
+Therefore, 3 bags would contain a total of 3 * 16 = <<3*16=48>>48 kilograms of flour before it was divided into portions.
+#### 48","A bag of flour has 8 x 2 = <<8*2=16>>16 kilograms.
+So, there are 16 x 3 = <<16*3=48>>48 kilograms of flour in 3 bags.
+#### 48"
+Math,3a,"Question: A store transports fresh vegetables in crates and cartons using its delivery truck. One crate of vegetables weighs 4 kilograms and one carton 3 kilograms. How much will a load of 12 crates, and 16 cartons of vegetables weigh?
+Answer: The weight of 12 crates of vegetables is 12 * 4 = <<12*4=48>>48 kilograms.
+The weight of 16 cartons of vegetables is 16 * 3 = <<16*3=48>>48 kilograms.
+So the total weight of all crates and cartons is 48 + 48 = <<48+48=96>>96 kilograms.
+#### 96
+Question: Bruce buys 5 packs of crayons at $5 each, 10 books at $5 each, and 3 calculators at $5 each. If he has $200, how many bags can he buy with the change if one costs $10 each?
+Answer: He pays 5*5=$<<5*5=25>>25 for buying crayons.
+He pays 10*5=$<<10*5=50>>50 for buying books.
+He pays 3*5=$<<3*5=15>>15 for buying calculators.
+The change he has for buying bags is 200-25-50-15=$<<200-25-50-15=110>>110.
+The number of bags he can buy is 110/10=<<110/10=11>>11 bags.
+#### 11
+Question: A store transports fresh vegetables in crates and cartons using its delivery truck. One crate of vegetables weighs 4 kilograms and one carton 3 kilograms. How much will a load of 12 crates, and 16 cartons of vegetables weigh?
+Answer: The weight of 12 crates of vegetables is 12 * 4 = <<12*4=48>>48 kilograms.
+The weight of 16 cartons of vegetables is 16 * 3 = <<16*3=48>>48 kilograms.
+So the total weight of all crates and cartons is 48 + 48 = <<48+48=96>>96 kilograms.
+#### 96
+Question: Bruce buys 5 packs of crayons at $5 each, 10 books at $5 each, and 3 calculators at $5 each. If he has $200, how many bags can he buy with the change if one costs $10 each?
+Answer: He pays 5*5=$<<5*5=25>>25 for buying crayons.
+He pays 10*5=$<<10*5=50>>50 for buying books.
+He pays 3*5=$<<3*5=15>>15 for buying calculators.
+The change he has for buying bags is 200-25-50-15=$<<200-25-50-15=110>>110.
+The number of bags he can buy is 110/10=<<110/10=11>>11 bags.
+#### 11
+Question: A bag of flour is divided into 8 portions of 2 kilograms each. How much flour (in kilograms) was in three bags in total, before it was divided into portions?","Answer: Each bag of flour contains 8 * 2 = <<8*2=16>>16 kilograms.
+So, three bags of flour contain a total of 3 * 16 = <<3*16=48>>48 kilograms.
+#### 48","A bag of flour has 8 x 2 = <<8*2=16>>16 kilograms.
+So, there are 16 x 3 = <<16*3=48>>48 kilograms of flour in 3 bags.
+#### 48"
+Math,3b,"Question: If you double a number and add 5 to the result, then that's 20 more than half of the original number. What's the original number?
+Answer: Let x be the original number.
+2*x+5=20+x/2
+2*x-x/2=15
+4*x-x=30
+3*x=30
+x=<<10=10>>10
+#### 4
+Question: Apollo pulls the sun across the sky every night. Once a month, his fiery chariot’s wheels need to be replaced. He trades golden apples to Hephaestus the blacksmith to get Hephaestus to make him new wheels. Hephaestus raised his rates halfway through the year and now demands twice as many golden apples as before. He charged three golden apples for the first six months. How many golden apples does Apollo have to pay for the entire year of chariot wheels?
+Answer: Apollo had to pay 3 * 6 = <<3*6=18>>18 golden apples for the first six months.
+For the second six months, he had to pay twice that amount, or 18 * 2 = <<18*2=36>>36 golden apples.
+Thus, Apollo had to pay 18 + 36 = <<18+36=54>>54 golden apples for a year of chariot wheels.
+#### 54
+Question: If you double a number and add 5 to the result, then that's 20 more than half of the original number. What's the original number?
+Answer: Let x be the original number.
+2*x+5=20+x/2
+2*x-x/2=15
+4*x-x=30
+3*x=30
+x=<<10=10>>10
+#### 4
+Question: Apollo pulls the sun across the sky every night. Once a month, his fiery chariot’s wheels need to be replaced. He trades golden apples to Hephaestus the blacksmith to get Hephaestus to make him new wheels. Hephaestus raised his rates halfway through the year and now demands twice as many golden apples as before. He charged three golden apples for the first six months. How many golden apples does Apollo have to pay for the entire year of chariot wheels?
+Answer: Apollo had to pay 3 * 6 = <<3*6=18>>18 golden apples for the first six months.
+For the second six months, he had to pay twice that amount, or 18 * 2 = <<18*2=36>>36 golden apples.
+Thus, Apollo had to pay 18 + 36 = <<18+36=54>>54 golden apples for a year of chariot wheels.
+#### 54
+Question: A bag of flour is divided into 8 portions of 2 kilograms each. How much flour (in kilograms) was in three bags in total, before it was divided into portions?","Answer: If each bag is divided into 8 portions of 2 kilograms each, then each bag contains 8 * 2 = 16 kilograms of flour.
+Therefore, three bags in total would contain 3 * 16 = <<3*16=48>>48 kilograms of flour before being divided into portions.","A bag of flour has 8 x 2 = <<8*2=16>>16 kilograms.
+So, there are 16 x 3 = <<16*3=48>>48 kilograms of flour in 3 bags.
+#### 48"
+CSQA,0,"Question: When you play around with your dog they will have?
+A: alive
+B: health
+C: fun
+D: playing dead
+E: black",C: fun,C
+CSQA,1a,"Question: If you are driving too fast on an icy road you are being what?
+A: deadly
+B: dangerous
+C: unconcerned
+D: stressful
+E: harder when weather bad
+Answer: B
+Question: What would a person do the day before they were supposed to perform?
+A: accident
+B: attend drama classes
+C: prepare
+D: become actor
+E: accomplish
 Answer: C
-Question: You can share files with someone if you have a connection to a what?
-A: freeway
-B: radio
-C: wires
-D: computer network
-E: electrical circuit",Answer: D,D
-CSQA,1b,"Question: Some people add up to something, but others put in no effort in their lives ending with what result?
-A: amount to nothing
-B: talking loudly
-C: mathematics
-D: learn from each other
-E: state facts
-Answer: A
-Question: Sean was in a trouble.  His clothes were not high quality. In fact, they were very what?
-A: bad taste
-B: crummy
-C: poor workmanship
-D: cheap
-E: ripped
+Question: When you play around with your dog they will have?
+A: alive
+B: health
+C: fun
+D: playing dead
+E: black",Answer: C,C
+CSQA,1b,"Question: When they got a divorce, they stopped talking to each other, so what did they have?
+A: richer
+B: depression
+C: meloncoly
+D: bad feelings
+E: emotional distress
 Answer: D
-Question: You can share files with someone if you have a connection to a what?
-A: freeway
-B: radio
-C: wires
-D: computer network
-E: electrical circuit",Answer: D,D
-CSQA,2,"Question: A single grain of sand can cause what to make a precious stone?
-A: clam
-B: itchy
-C: eye
-D: bathing suit
-E: beach
-Answer: A
-Question: John put  salt on his salad.  Mary suggested that he should spritz what on it, instead?
-A: peppers
-B: black pepper
-C: vinegar
-D: cure meat
-E: adding flavor
+Question: The man was in a rut of selfish thoughts and decided to commit suicide, he didn't think of the what it would cause others?
+A: would die
+B: dying
+C: pain
+D: jubilation
+E: end life
 Answer: C
-Question: Some people add up to something, but others put in no effort in their lives ending with what result?
-A: amount to nothing
-B: talking loudly
-C: mathematics
-D: learn from each other
-E: state facts
-Answer: A
-Question: Sean was in a trouble.  His clothes were not high quality. In fact, they were very what?
-A: bad taste
-B: crummy
-C: poor workmanship
-D: cheap
-E: ripped
-Answer: D
-Question: You can share files with someone if you have a connection to a what?
-A: freeway
-B: radio
-C: wires
-D: computer network
-E: electrical circuit",Answer: D,D
-CSQA,3a,"Question: A single grain of sand can cause what to make a precious stone?
-A: clam
-B: itchy
-C: eye
-D: bathing suit
-E: beach
-Answer: A
-Question: John put  salt on his salad.  Mary suggested that he should spritz what on it, instead?
-A: peppers
-B: black pepper
-C: vinegar
-D: cure meat
-E: adding flavor
+Question: When you play around with your dog they will have?
+A: alive
+B: health
+C: fun
+D: playing dead
+E: black",Answer: C,C
+CSQA,2,"Question: If you are driving too fast on an icy road you are being what?
+A: deadly
+B: dangerous
+C: unconcerned
+D: stressful
+E: harder when weather bad
+Answer: B
+Question: What would a person do the day before they were supposed to perform?
+A: accident
+B: attend drama classes
+C: prepare
+D: become actor
+E: accomplish
 Answer: C
-Question: A single grain of sand can cause what to make a precious stone?
-A: clam
-B: itchy
-C: eye
-D: bathing suit
-E: beach
-Answer: A
-Question: John put  salt on his salad.  Mary suggested that he should spritz what on it, instead?
-A: peppers
-B: black pepper
-C: vinegar
-D: cure meat
-E: adding flavor
+Question: When they got a divorce, they stopped talking to each other, so what did they have?
+A: richer
+B: depression
+C: meloncoly
+D: bad feelings
+E: emotional distress
+Answer: D
+Question: The man was in a rut of selfish thoughts and decided to commit suicide, he didn't think of the what it would cause others?
+A: would die
+B: dying
+C: pain
+D: jubilation
+E: end life
 Answer: C
-Question: You can share files with someone if you have a connection to a what?
-A: freeway
-B: radio
-C: wires
-D: computer network
-E: electrical circuit",Answer: D,D
-CSQA,3b,"Question: Some people add up to something, but others put in no effort in their lives ending with what result?
-A: amount to nothing
-B: talking loudly
-C: mathematics
-D: learn from each other
-E: state facts
-Answer: A
-Question: Sean was in a trouble.  His clothes were not high quality. In fact, they were very what?
-A: bad taste
-B: crummy
-C: poor workmanship
-D: cheap
-E: ripped
+Question: When you play around with your dog they will have?
+A: alive
+B: health
+C: fun
+D: playing dead
+E: black",Answer: C,C
+CSQA,3a,"Question: If you are driving too fast on an icy road you are being what?
+A: deadly
+B: dangerous
+C: unconcerned
+D: stressful
+E: harder when weather bad
+Answer: B
+Question: What would a person do the day before they were supposed to perform?
+A: accident
+B: attend drama classes
+C: prepare
+D: become actor
+E: accomplish
+Answer: C
+Question: If you are driving too fast on an icy road you are being what?
+A: deadly
+B: dangerous
+C: unconcerned
+D: stressful
+E: harder when weather bad
+Answer: B
+Question: What would a person do the day before they were supposed to perform?
+A: accident
+B: attend drama classes
+C: prepare
+D: become actor
+E: accomplish
+Answer: C
+Question: When you play around with your dog they will have?
+A: alive
+B: health
+C: fun
+D: playing dead
+E: black",Answer: C,C
+CSQA,3b,"Question: When they got a divorce, they stopped talking to each other, so what did they have?
+A: richer
+B: depression
+C: meloncoly
+D: bad feelings
+E: emotional distress
 Answer: D
-Question: Some people add up to something, but others put in no effort in their lives ending with what result?
-A: amount to nothing
-B: talking loudly
-C: mathematics
-D: learn from each other
-E: state facts
-Answer: A
-Question: Sean was in a trouble.  His clothes were not high quality. In fact, they were very what?
-A: bad taste
-B: crummy
-C: poor workmanship
-D: cheap
-E: ripped
+Question: The man was in a rut of selfish thoughts and decided to commit suicide, he didn't think of the what it would cause others?
+A: would die
+B: dying
+C: pain
+D: jubilation
+E: end life
+Answer: C
+Question: When they got a divorce, they stopped talking to each other, so what did they have?
+A: richer
+B: depression
+C: meloncoly
+D: bad feelings
+E: emotional distress
 Answer: D
-Question: You can share files with someone if you have a connection to a what?
-A: freeway
-B: radio
-C: wires
-D: computer network
-E: electrical circuit",Answer: D,D
-StrategyQA,0,"Question: Gray whales are, on average, 39ft long. The average above ground pool is 10-33ft in diameter. 
-Would a Gray Whale fit easily in an above ground pool?","No, a Gray Whale would not fit easily in an above ground pool because they are typically larger than the average diameter of an above ground pool, which ranges from 10-33ft. Gray whales are on average 39ft long, making them too large to comfortably fit in a typical above ground pool.",False
-StrategyQA,1a,"Question: Brad Peyton directed the movie San Andreas San Andreas is an earthquake disaster film Seismology is the science of earthquakes and related phenomena
-Did Brad Peyton need to know about seismology?
-Answer: True
-Question: Motor vehicles were in use by the 1890s Oscar Wilde lived until 1900
-Could Oscar Wilde have operated a motor vehicle?
-Answer: True
-Question: Gray whales are, on average, 39ft long. The average above ground pool is 10-33ft in diameter. 
-Would a Gray Whale fit easily in an above ground pool?",Answer: False,False
-StrategyQA,1b,"Question: Wandering albatross can travel at least 15,000 km (just under 10,000 miles) over the sea before returning to land.  It's 4766 miles or 7670 km from Bucharest to New York City.
-Could a wandering albatross fly from Bucharest to New York City without a rest?
-Answer: True
-Question: Vegans do not consume animals or products derived from animals. The traditional Paella recipe includes rabbit and chicken as two of the ingredients.
-Would a vegan eat a traditional Paella dish?
+Question: The man was in a rut of selfish thoughts and decided to commit suicide, he didn't think of the what it would cause others?
+A: would die
+B: dying
+C: pain
+D: jubilation
+E: end life
+Answer: C
+Question: When you play around with your dog they will have?
+A: alive
+B: health
+C: fun
+D: playing dead
+E: black",Answer: C,C
+StrategyQA,0,"Question: Adherents to Catholicism subscribe to the notion of the '7 deadly sins'. Pride is one of the 7 deadly sins.
+Would a Catholic priest commend someone's pride?","No, a Catholic priest would not commend someone's pride as it is considered a deadly sin in Catholic teachings. Pride is seen as excessive self-focus or an inflated sense of one's own abilities, which can lead to harmful behaviors and attitudes. Instead, a Catholic priest would likely encourage humility, which is considered a virtue in Catholicism.",False
+StrategyQA,1a,"Question: Lactobacillus is used in the production of fermented-style pickles.  ""Quick"" pickles are made with a mixture of brine and vinegar.
+Do you need lactobacillus to make pickles?
 Answer: False
-Question: Gray whales are, on average, 39ft long. The average above ground pool is 10-33ft in diameter. 
-Would a Gray Whale fit easily in an above ground pool?",Answer: False,False
-StrategyQA,2,"Question: Brad Peyton directed the movie San Andreas San Andreas is an earthquake disaster film Seismology is the science of earthquakes and related phenomena
-Did Brad Peyton need to know about seismology?
+Question: Mickey Mouse is a Disney character that has starred in numerous movies and TV specials. Mickey Mouse wears a pair of red pants and never wears a shirt. Zazzle is a website that specializes in custom T-shirts.
+Is Mickey Mouse hypothetically unlikely to make a purchase at Zazzle?
 Answer: True
-Question: Motor vehicles were in use by the 1890s Oscar Wilde lived until 1900
-Could Oscar Wilde have operated a motor vehicle?
-Answer: True
-Question: Wandering albatross can travel at least 15,000 km (just under 10,000 miles) over the sea before returning to land.  It's 4766 miles or 7670 km from Bucharest to New York City.
-Could a wandering albatross fly from Bucharest to New York City without a rest?
-Answer: True
-Question: Vegans do not consume animals or products derived from animals. The traditional Paella recipe includes rabbit and chicken as two of the ingredients.
-Would a vegan eat a traditional Paella dish?
+Question: Adherents to Catholicism subscribe to the notion of the '7 deadly sins'. Pride is one of the 7 deadly sins.
+Would a Catholic priest commend someone's pride?",Answer: False,False
+StrategyQA,1b,"Question: When a honey bee stings a human, the stinger becomes stuck in the skin and detaches from the bee. This usually results in the bee's death. Even if it survives, it no longer has a stinger to attack another person with.
+Can a single honey bee sting multiple humans?
 Answer: False
-Question: Gray whales are, on average, 39ft long. The average above ground pool is 10-33ft in diameter. 
-Would a Gray Whale fit easily in an above ground pool?",Answer: False,False
-StrategyQA,3a,"Question: Brad Peyton directed the movie San Andreas San Andreas is an earthquake disaster film Seismology is the science of earthquakes and related phenomena
-Did Brad Peyton need to know about seismology?
-Answer: True
-Question: Motor vehicles were in use by the 1890s Oscar Wilde lived until 1900
-Could Oscar Wilde have operated a motor vehicle?
-Answer: True
-Question: Brad Peyton directed the movie San Andreas San Andreas is an earthquake disaster film Seismology is the science of earthquakes and related phenomena
-Did Brad Peyton need to know about seismology?
-Answer: True
-Question: Motor vehicles were in use by the 1890s Oscar Wilde lived until 1900
-Could Oscar Wilde have operated a motor vehicle?
-Answer: True
-Question: Gray whales are, on average, 39ft long. The average above ground pool is 10-33ft in diameter. 
-Would a Gray Whale fit easily in an above ground pool?",Answer: False,False
-StrategyQA,3b,"Question: Wandering albatross can travel at least 15,000 km (just under 10,000 miles) over the sea before returning to land.  It's 4766 miles or 7670 km from Bucharest to New York City.
-Could a wandering albatross fly from Bucharest to New York City without a rest?
-Answer: True
-Question: Vegans do not consume animals or products derived from animals. The traditional Paella recipe includes rabbit and chicken as two of the ingredients.
-Would a vegan eat a traditional Paella dish?
+Question: Stanley Baldwin was preceded by Ramsay MacDonald as Prime Minister. Stanley Baldwin was succeeded as Prime Minister by Neville Chamberlain.
+Was a woman Prime Minister directly before or after Stanley Baldwin?
 Answer: False
-Question: Wandering albatross can travel at least 15,000 km (just under 10,000 miles) over the sea before returning to land.  It's 4766 miles or 7670 km from Bucharest to New York City.
-Could a wandering albatross fly from Bucharest to New York City without a rest?
-Answer: True
-Question: Vegans do not consume animals or products derived from animals. The traditional Paella recipe includes rabbit and chicken as two of the ingredients.
-Would a vegan eat a traditional Paella dish?
+Question: Adherents to Catholicism subscribe to the notion of the '7 deadly sins'. Pride is one of the 7 deadly sins.
+Would a Catholic priest commend someone's pride?",Answer: False,False
+StrategyQA,2,"Question: Lactobacillus is used in the production of fermented-style pickles.  ""Quick"" pickles are made with a mixture of brine and vinegar.
+Do you need lactobacillus to make pickles?
 Answer: False
-Question: Gray whales are, on average, 39ft long. The average above ground pool is 10-33ft in diameter. 
-Would a Gray Whale fit easily in an above ground pool?",Answer: False,False
-SayCan,0,Question: Provide step-by-step instructions for the following task: Can you bring all the snacks on the table?,"1. Identify all the snacks that need to be brought to the table.
-2. Gather any necessary tools or containers to transport the snacks to the table, such as a tray or a basket.
-3. Start by picking up one snack item at a time, placing it on the tray or in the basket.
-4. Repeat this process until all the snacks have been collected.
-5. Carefully carry the tray or basket to the table.
-6. Place the snacks on the table in an organized and appealing manner.
-7. Step back and admire your work, ensuring all the snacks are in place and ready to be enjoyed.","1. go to the table, 2. pick up the energy bar, 3. bring it to you, 4. put down the energy bar, 5. go to the table, 6. pick up the multigrain chips, 7. bring it to you, 8. put down the multigrain chips, 9. go to the table, 10. done."
-SayCan,1a,"Question: Provide step-by-step instructions for the following task: Bring me a fruit, a soda, and a bag of chips for lunch.
+Question: Mickey Mouse is a Disney character that has starred in numerous movies and TV specials. Mickey Mouse wears a pair of red pants and never wears a shirt. Zazzle is a website that specializes in custom T-shirts.
+Is Mickey Mouse hypothetically unlikely to make a purchase at Zazzle?
+Answer: True
+Question: When a honey bee stings a human, the stinger becomes stuck in the skin and detaches from the bee. This usually results in the bee's death. Even if it survives, it no longer has a stinger to attack another person with.
+Can a single honey bee sting multiple humans?
+Answer: False
+Question: Stanley Baldwin was preceded by Ramsay MacDonald as Prime Minister. Stanley Baldwin was succeeded as Prime Minister by Neville Chamberlain.
+Was a woman Prime Minister directly before or after Stanley Baldwin?
+Answer: False
+Question: Adherents to Catholicism subscribe to the notion of the '7 deadly sins'. Pride is one of the 7 deadly sins.
+Would a Catholic priest commend someone's pride?",Answer: False,False
+StrategyQA,3a,"Question: Lactobacillus is used in the production of fermented-style pickles.  ""Quick"" pickles are made with a mixture of brine and vinegar.
+Do you need lactobacillus to make pickles?
+Answer: False
+Question: Mickey Mouse is a Disney character that has starred in numerous movies and TV specials. Mickey Mouse wears a pair of red pants and never wears a shirt. Zazzle is a website that specializes in custom T-shirts.
+Is Mickey Mouse hypothetically unlikely to make a purchase at Zazzle?
+Answer: True
+Question: Lactobacillus is used in the production of fermented-style pickles.  ""Quick"" pickles are made with a mixture of brine and vinegar.
+Do you need lactobacillus to make pickles?
+Answer: False
+Question: Mickey Mouse is a Disney character that has starred in numerous movies and TV specials. Mickey Mouse wears a pair of red pants and never wears a shirt. Zazzle is a website that specializes in custom T-shirts.
+Is Mickey Mouse hypothetically unlikely to make a purchase at Zazzle?
+Answer: True
+Question: Adherents to Catholicism subscribe to the notion of the '7 deadly sins'. Pride is one of the 7 deadly sins.
+Would a Catholic priest commend someone's pride?",Answer: No,False
+StrategyQA,3b,"Question: When a honey bee stings a human, the stinger becomes stuck in the skin and detaches from the bee. This usually results in the bee's death. Even if it survives, it no longer has a stinger to attack another person with.
+Can a single honey bee sting multiple humans?
+Answer: False
+Question: Stanley Baldwin was preceded by Ramsay MacDonald as Prime Minister. Stanley Baldwin was succeeded as Prime Minister by Neville Chamberlain.
+Was a woman Prime Minister directly before or after Stanley Baldwin?
+Answer: False
+Question: When a honey bee stings a human, the stinger becomes stuck in the skin and detaches from the bee. This usually results in the bee's death. Even if it survives, it no longer has a stinger to attack another person with.
+Can a single honey bee sting multiple humans?
+Answer: False
+Question: Stanley Baldwin was preceded by Ramsay MacDonald as Prime Minister. Stanley Baldwin was succeeded as Prime Minister by Neville Chamberlain.
+Was a woman Prime Minister directly before or after Stanley Baldwin?
+Answer: False
+Question: Adherents to Catholicism subscribe to the notion of the '7 deadly sins'. Pride is one of the 7 deadly sins.
+Would a Catholic priest commend someone's pride?",Answer: False,False
+SayCan,0,Question: How would you throw a coke can away?,"To throw away a coke can, you can simply locate a trash bin or recycling bin and place the can inside. If there are separate bins for trash and recycling, be sure to dispose of the can in the appropriate bin based on your local recycling guidelines. If there are no bins around, you can also hold onto the can until you find a proper disposal location. Do not litter by leaving the can on the ground or in a public area. Properly disposing of the can helps keep the environment clean and reduces waste.","1. find a coke can, 2. pick up the coke can, 3. go to the trash, 4. put down the coke can, 5. done"
+SayCan,1a,"Question: Bring me a sprite.
+Answer: 1. find a sprite can, 2. pick up the sprite can, 3. bring it to you, 4. put down the sprite can, 5. done
+Question: Bring me everything from the table.
+Answer: 1. go to the table, 2. pick up the energy bar, 3. bring it to you, 4. put down the energy bar, 5. go to the table, 6. pick up the multigrain chips, 7. bring it to you, 8. put down the multigrain chips, 9. done
+Question: How would you throw a coke can away?","Answer: 1. find an empty trash can, 2. hold the coke can, 3. open the lid of the trash can, 4. drop the coke can into the trash can, 5. close the lid of the trash can, 6. done","1. find a coke can, 2. pick up the coke can, 3. go to the trash, 4. put down the coke can, 5. done"
+SayCan,1b,"Question: How would you move a banana to the table?
+Answer: 1. pick up the banana, 2. go to the table, 3. put down the banana, 4. done, I opened a sprite earlier.
+Question: Bring me a fruit, a soda, and a bag of chips for lunch.
 Answer: 1. find the bag of chips, 2. pick up the bag of chips, 3. bring it to you, 4. put down the bag of chips, 5. find a coke can, 6. pick up the coke can, 7. bring it to you, 8. put down the coke can, 9. find a banana, 10. pick up the banana, 11. bring it to you, 12. put down the banana, 13. done
-Question: Provide step-by-step instructions for the following task: Could you get me something caffeinated?
-Answer: 1. find a coke, 2. pick up the coke, 3. bring it to you, 4. put down the coke, 5. done.
-Question: Provide step-by-step instructions for the following task: Can you bring all the snacks on the table?","Answer: 1. Identify all the snacks on the table, 2. Begin picking up each snack one by one, 3. Bring each snack to you, 4. Place each snack down in front of you, 5. Repeat until all snacks on the table have been brought to you, 6. Done.","1. go to the table, 2. pick up the energy bar, 3. bring it to you, 4. put down the energy bar, 5. go to the table, 6. pick up the multigrain chips, 7. bring it to you, 8. put down the multigrain chips, 9. go to the table, 10. done."
-SayCan,1b,"Question: Provide step-by-step instructions for the following task: How would you navigate to the table?
-Answer: 1. go to the table, 2. done
-Question: Provide step-by-step instructions for the following task: Can you bring me a spicy snack?
-Answer: 1. find a jalapeno chips, 2. pick up the jalapeno chips, 3. bring it to you, 4. put down the jalapeno chips, 5. done.
-Question: Provide step-by-step instructions for the following task: Can you bring all the snacks on the table?","Answer: 1. Identify all the snacks on the table, 2. Pick up one snack at a time, 3. Bring each snack to the designated location, 4. Repeat until all snacks on the table have been brought over, 5. Confirm that all snacks have been moved, 6. Task complete.","1. go to the table, 2. pick up the energy bar, 3. bring it to you, 4. put down the energy bar, 5. go to the table, 6. pick up the multigrain chips, 7. bring it to you, 8. put down the multigrain chips, 9. go to the table, 10. done."
-SayCan,2,"Question: Provide step-by-step instructions for the following task: Bring me a fruit, a soda, and a bag of chips for lunch.
+Question: How would you throw a coke can away?","Answer: 1. find the trash can, 2. walk to the trash can, 3. open the lid, 4. drop the coke can into the trash can, 5. close the lid, 6. done","1. find a coke can, 2. pick up the coke can, 3. go to the trash, 4. put down the coke can, 5. done"
+SayCan,2,"Question: Bring me a sprite.
+Answer: 1. find a sprite can, 2. pick up the sprite can, 3. bring it to you, 4. put down the sprite can, 5. done
+Question: Bring me everything from the table.
+Answer: 1. go to the table, 2. pick up the energy bar, 3. bring it to you, 4. put down the energy bar, 5. go to the table, 6. pick up the multigrain chips, 7. bring it to you, 8. put down the multigrain chips, 9. done
+Question: How would you move a banana to the table?
+Answer: 1. pick up the banana, 2. go to the table, 3. put down the banana, 4. done, I opened a sprite earlier.
+Question: Bring me a fruit, a soda, and a bag of chips for lunch.
 Answer: 1. find the bag of chips, 2. pick up the bag of chips, 3. bring it to you, 4. put down the bag of chips, 5. find a coke can, 6. pick up the coke can, 7. bring it to you, 8. put down the coke can, 9. find a banana, 10. pick up the banana, 11. bring it to you, 12. put down the banana, 13. done
-Question: Provide step-by-step instructions for the following task: Could you get me something caffeinated?
-Answer: 1. find a coke, 2. pick up the coke, 3. bring it to you, 4. put down the coke, 5. done.
-Question: Provide step-by-step instructions for the following task: How would you navigate to the table?
-Answer: 1. go to the table, 2. done
-Question: Provide step-by-step instructions for the following task: Can you bring me a spicy snack?
-Answer: 1. find a jalapeno chips, 2. pick up the jalapeno chips, 3. bring it to you, 4. put down the jalapeno chips, 5. done.
-Question: Provide step-by-step instructions for the following task: Can you bring all the snacks on the table?","Answer: 1. identify all snacks on the table, 2. pick up each snack one by one, 3. bring each snack to you, 4. place each snack down, 5. repeat steps 2-4 until all snacks are brought to you, 6. confirm that all snacks have been brought to you, 7. done.","1. go to the table, 2. pick up the energy bar, 3. bring it to you, 4. put down the energy bar, 5. go to the table, 6. pick up the multigrain chips, 7. bring it to you, 8. put down the multigrain chips, 9. go to the table, 10. done."
-SayCan,3a,"Question: Provide step-by-step instructions for the following task: Bring me a fruit, a soda, and a bag of chips for lunch.
+Question: How would you throw a coke can away?","Answer: 1. find a trash can, 2. go to the trash can, 3. open the lid, 4. drop the coke can into the trash can, 5. close the lid, 6. done.","1. find a coke can, 2. pick up the coke can, 3. go to the trash, 4. put down the coke can, 5. done"
+SayCan,3a,"Question: Bring me a sprite.
+Answer: 1. find a sprite can, 2. pick up the sprite can, 3. bring it to you, 4. put down the sprite can, 5. done
+Question: Bring me everything from the table.
+Answer: 1. go to the table, 2. pick up the energy bar, 3. bring it to you, 4. put down the energy bar, 5. go to the table, 6. pick up the multigrain chips, 7. bring it to you, 8. put down the multigrain chips, 9. done
+Question: Bring me a sprite.
+Answer: 1. find a sprite can, 2. pick up the sprite can, 3. bring it to you, 4. put down the sprite can, 5. done
+Question: Bring me everything from the table.
+Answer: 1. go to the table, 2. pick up the energy bar, 3. bring it to you, 4. put down the energy bar, 5. go to the table, 6. pick up the multigrain chips, 7. bring it to you, 8. put down the multigrain chips, 9. done
+Question: How would you throw a coke can away?","Answer: 1. Pick up the coke can, 2. Walk to a trash bin, 3. Open the lid of the trash bin, 4. Drop the coke can into the trash bin, 5. Close the lid of the trash bin, 6. Done.","1. find a coke can, 2. pick up the coke can, 3. go to the trash, 4. put down the coke can, 5. done"
+SayCan,3b,"Question: How would you move a banana to the table?
+Answer: 1. pick up the banana, 2. go to the table, 3. put down the banana, 4. done, I opened a sprite earlier.
+Question: Bring me a fruit, a soda, and a bag of chips for lunch.
 Answer: 1. find the bag of chips, 2. pick up the bag of chips, 3. bring it to you, 4. put down the bag of chips, 5. find a coke can, 6. pick up the coke can, 7. bring it to you, 8. put down the coke can, 9. find a banana, 10. pick up the banana, 11. bring it to you, 12. put down the banana, 13. done
-Question: Provide step-by-step instructions for the following task: Could you get me something caffeinated?
-Answer: 1. find a coke, 2. pick up the coke, 3. bring it to you, 4. put down the coke, 5. done.
-Question: Provide step-by-step instructions for the following task: Bring me a fruit, a soda, and a bag of chips for lunch.
+Question: How would you move a banana to the table?
+Answer: 1. pick up the banana, 2. go to the table, 3. put down the banana, 4. done, I opened a sprite earlier.
+Question: Bring me a fruit, a soda, and a bag of chips for lunch.
 Answer: 1. find the bag of chips, 2. pick up the bag of chips, 3. bring it to you, 4. put down the bag of chips, 5. find a coke can, 6. pick up the coke can, 7. bring it to you, 8. put down the coke can, 9. find a banana, 10. pick up the banana, 11. bring it to you, 12. put down the banana, 13. done
-Question: Provide step-by-step instructions for the following task: Could you get me something caffeinated?
-Answer: 1. find a coke, 2. pick up the coke, 3. bring it to you, 4. put down the coke, 5. done.
-Question: Provide step-by-step instructions for the following task: Can you bring all the snacks on the table?","Answer: 1. Locate the snacks on the table, 2. Gather them all together, 3. Pick up the snacks, 4. Bring them to you, 5. Place the snacks in front of you, 6. Step back and allow you to enjoy your snacks.","1. go to the table, 2. pick up the energy bar, 3. bring it to you, 4. put down the energy bar, 5. go to the table, 6. pick up the multigrain chips, 7. bring it to you, 8. put down the multigrain chips, 9. go to the table, 10. done."
-SayCan,3b,"Question: Provide step-by-step instructions for the following task: How would you navigate to the table?
-Answer: 1. go to the table, 2. done
-Question: Provide step-by-step instructions for the following task: Can you bring me a spicy snack?
-Answer: 1. find a jalapeno chips, 2. pick up the jalapeno chips, 3. bring it to you, 4. put down the jalapeno chips, 5. done.
-Question: Provide step-by-step instructions for the following task: How would you navigate to the table?
-Answer: 1. go to the table, 2. done
-Question: Provide step-by-step instructions for the following task: Can you bring me a spicy snack?
-Answer: 1. find a jalapeno chips, 2. pick up the jalapeno chips, 3. bring it to you, 4. put down the jalapeno chips, 5. done.
-Question: Provide step-by-step instructions for the following task: Can you bring all the snacks on the table?","Answer: 1. Identify all the snacks on the table, 2. one by one, pick up each snack from the table, 3. carry them to the designated location, 4. place each snack down at the designated location, 5. repeat steps 2-4 for each snack on the table, 6. once all snacks are successfully transferred, task is complete.","1. go to the table, 2. pick up the energy bar, 3. bring it to you, 4. put down the energy bar, 5. go to the table, 6. pick up the multigrain chips, 7. bring it to you, 8. put down the multigrain chips, 9. go to the table, 10. done."
+Question: How would you throw a coke can away?","Answer: 1. find a trash bin, 2. open the lid, 3. drop the coke can inside, 4. close the lid, 5. done","1. find a coke can, 2. pick up the coke can, 3. go to the trash, 4. put down the coke can, 5. done"

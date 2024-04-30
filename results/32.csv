@@ -1,380 +1,402 @@
 Task Class,Case,Prompt,Response,Expected
-Math,0,"Question: Jenna has 4 roommates. Each month the electricity bill is $100. How much will each roommate pay per year for electricity, if they divide the share equally?","If Jenna has 4 roommates and the electricity bill is $100 per month, the total electricity bill for the 5 of them is $500 per month.
+Math,0,"Question: Becky, Jake, and Silvia shared 4 pizzas. Each pizza had 8 slices. Becky ate 3 more slices than Jake did. Silvia ate twice as many slices than Jake did. If Becky ate 10 slices, how many total slices did they eat?","Let x be the number of slices Jake ate. 
 
-In a year, they will pay a total of $500 x 12 months = $6000 for electricity.
+Since Becky ate 3 more slices than Jake, she ate x + 3 slices. 
 
-If they divide the share equally, each roommate will pay $6000 / 5 people = $120 per year for electricity.","There are 12 months in a year, so the total electricity for the year will cost 100*12 =$<<100*12=1200>>1200.
-Since there are 5 roommates, each roommate will pay 1200/5=$<<1200/5=240>>240 in a year.
-#### 240"
-Math,1a,"Question: Every 4 weeks, Helen hand washes her silk pillowcases.  It takes 30 minutes to hand wash all of them.  In 1 year, how much time does Helen spend hand washing her pillowcases?
-Answer: She hand washes them every 4 weeks and there are 52 weeks in a year so she washes them 52/4 = <<52/4=13>>13 times per year
-It takes her 30 minutes to hand wash the pillowcases and she does this 13 times per year for a total of 30*13 = <<30*13=390>>390 minutes per year
-#### 390
-Question: Mary has 300 sheep and Bob has double the number of sheep as Mary plus another 35. How many sheep must Mary buy to have 69 fewer sheep than Bob?
-Answer: Bob has (300*2) + 35 = <<300*2+35=635>>635 sheep
-For Mary to have 69 sheep fewer than Bob she must own 635 – 69 = 566 sheep
-As Mary has already 300 sheep she must buy 566 – 300 = <<566-300=266>>266 sheep
-#### 266
-Question: Jenna has 4 roommates. Each month the electricity bill is $100. How much will each roommate pay per year for electricity, if they divide the share equally?","Answer: The total electricity bill for the year is $100 * 12 months = $1200.
-If Jenna has 4 roommates, they will divide the bill equally, so each roommate will pay $1200 / 5 people = $240 per year.
-Therefore, each roommate will pay $240 per year for electricity.","There are 12 months in a year, so the total electricity for the year will cost 100*12 =$<<100*12=1200>>1200.
-Since there are 5 roommates, each roommate will pay 1200/5=$<<1200/5=240>>240 in a year.
-#### 240"
-Math,1b,"Question: Farmer Brown raises emus, large birds. His flock has a total of 60 heads and legs. How many emus are in his flock?
-Answer: Each emu has 1+2=<<1+2=3>>3 heads and legs.
-Then the flock has 60/3=<<60/3=20>>20 animals.
-#### 20
-Question: At the supermarket, the price paid for oranges is proportional to the mass purchased. Annie paid $6 for 2 kg of oranges. How much will Annie pay for 12 kg of oranges?
-Answer: The price of 1 kg of oranges is $6 / 2 kg = $<<6/2=3>>3/kg
-So Ali will pay 12 kg * $3/kg = $<<12*3=36>>36 for 12 kg of oranges.
-#### 36
-Question: Jenna has 4 roommates. Each month the electricity bill is $100. How much will each roommate pay per year for electricity, if they divide the share equally?","Answer: The total electricity bill for the year is $100/month * 12 months = $1200.
-If the bill is divided equally among 5 people, each person will pay $1200 / 5 = $<<1200/5=240>>240 per year.
-#### 240","There are 12 months in a year, so the total electricity for the year will cost 100*12 =$<<100*12=1200>>1200.
-Since there are 5 roommates, each roommate will pay 1200/5=$<<1200/5=240>>240 in a year.
-#### 240"
-Math,2,"Question: Every 4 weeks, Helen hand washes her silk pillowcases.  It takes 30 minutes to hand wash all of them.  In 1 year, how much time does Helen spend hand washing her pillowcases?
-Answer: She hand washes them every 4 weeks and there are 52 weeks in a year so she washes them 52/4 = <<52/4=13>>13 times per year
-It takes her 30 minutes to hand wash the pillowcases and she does this 13 times per year for a total of 30*13 = <<30*13=390>>390 minutes per year
-#### 390
-Question: Mary has 300 sheep and Bob has double the number of sheep as Mary plus another 35. How many sheep must Mary buy to have 69 fewer sheep than Bob?
-Answer: Bob has (300*2) + 35 = <<300*2+35=635>>635 sheep
-For Mary to have 69 sheep fewer than Bob she must own 635 – 69 = 566 sheep
-As Mary has already 300 sheep she must buy 566 – 300 = <<566-300=266>>266 sheep
-#### 266
-Question: Farmer Brown raises emus, large birds. His flock has a total of 60 heads and legs. How many emus are in his flock?
-Answer: Each emu has 1+2=<<1+2=3>>3 heads and legs.
-Then the flock has 60/3=<<60/3=20>>20 animals.
-#### 20
-Question: At the supermarket, the price paid for oranges is proportional to the mass purchased. Annie paid $6 for 2 kg of oranges. How much will Annie pay for 12 kg of oranges?
-Answer: The price of 1 kg of oranges is $6 / 2 kg = $<<6/2=3>>3/kg
-So Ali will pay 12 kg * $3/kg = $<<12*3=36>>36 for 12 kg of oranges.
-#### 36
-Question: Jenna has 4 roommates. Each month the electricity bill is $100. How much will each roommate pay per year for electricity, if they divide the share equally?","Answer: The total yearly electricity bill is $100 * 12 months = $1200. 
-If there are 5 roommates including Jenna, each roommate will pay $1200 / 5 = $<<1200/5=240>>240 per year for electricity. 
-Therefore, each of Jenna's 4 roommates will pay $240 per year for electricity. 
-#### 240","There are 12 months in a year, so the total electricity for the year will cost 100*12 =$<<100*12=1200>>1200.
-Since there are 5 roommates, each roommate will pay 1200/5=$<<1200/5=240>>240 in a year.
-#### 240"
-Math,3a,"Question: Every 4 weeks, Helen hand washes her silk pillowcases.  It takes 30 minutes to hand wash all of them.  In 1 year, how much time does Helen spend hand washing her pillowcases?
-Answer: She hand washes them every 4 weeks and there are 52 weeks in a year so she washes them 52/4 = <<52/4=13>>13 times per year
-It takes her 30 minutes to hand wash the pillowcases and she does this 13 times per year for a total of 30*13 = <<30*13=390>>390 minutes per year
-#### 390
-Question: Mary has 300 sheep and Bob has double the number of sheep as Mary plus another 35. How many sheep must Mary buy to have 69 fewer sheep than Bob?
-Answer: Bob has (300*2) + 35 = <<300*2+35=635>>635 sheep
-For Mary to have 69 sheep fewer than Bob she must own 635 – 69 = 566 sheep
-As Mary has already 300 sheep she must buy 566 – 300 = <<566-300=266>>266 sheep
-#### 266
-Question: Every 4 weeks, Helen hand washes her silk pillowcases.  It takes 30 minutes to hand wash all of them.  In 1 year, how much time does Helen spend hand washing her pillowcases?
-Answer: She hand washes them every 4 weeks and there are 52 weeks in a year so she washes them 52/4 = <<52/4=13>>13 times per year
-It takes her 30 minutes to hand wash the pillowcases and she does this 13 times per year for a total of 30*13 = <<30*13=390>>390 minutes per year
-#### 390
-Question: Mary has 300 sheep and Bob has double the number of sheep as Mary plus another 35. How many sheep must Mary buy to have 69 fewer sheep than Bob?
-Answer: Bob has (300*2) + 35 = <<300*2+35=635>>635 sheep
-For Mary to have 69 sheep fewer than Bob she must own 635 – 69 = 566 sheep
-As Mary has already 300 sheep she must buy 566 – 300 = <<566-300=266>>266 sheep
-#### 266
-Question: Jenna has 4 roommates. Each month the electricity bill is $100. How much will each roommate pay per year for electricity, if they divide the share equally?","Answer: The total cost of the electricity bill for the year is $100 per month * 12 months = $1200.
-If Jenna has 4 roommates, they will split the cost equally, so each roommate will pay $1200 / 5 people = $240 per year.
-Therefore, each roommate will pay $240 per year for electricity.","There are 12 months in a year, so the total electricity for the year will cost 100*12 =$<<100*12=1200>>1200.
-Since there are 5 roommates, each roommate will pay 1200/5=$<<1200/5=240>>240 in a year.
-#### 240"
-Math,3b,"Question: Farmer Brown raises emus, large birds. His flock has a total of 60 heads and legs. How many emus are in his flock?
-Answer: Each emu has 1+2=<<1+2=3>>3 heads and legs.
-Then the flock has 60/3=<<60/3=20>>20 animals.
-#### 20
-Question: At the supermarket, the price paid for oranges is proportional to the mass purchased. Annie paid $6 for 2 kg of oranges. How much will Annie pay for 12 kg of oranges?
-Answer: The price of 1 kg of oranges is $6 / 2 kg = $<<6/2=3>>3/kg
-So Ali will pay 12 kg * $3/kg = $<<12*3=36>>36 for 12 kg of oranges.
-#### 36
-Question: Farmer Brown raises emus, large birds. His flock has a total of 60 heads and legs. How many emus are in his flock?
-Answer: Each emu has 1+2=<<1+2=3>>3 heads and legs.
-Then the flock has 60/3=<<60/3=20>>20 animals.
-#### 20
-Question: At the supermarket, the price paid for oranges is proportional to the mass purchased. Annie paid $6 for 2 kg of oranges. How much will Annie pay for 12 kg of oranges?
-Answer: The price of 1 kg of oranges is $6 / 2 kg = $<<6/2=3>>3/kg
-So Ali will pay 12 kg * $3/kg = $<<12*3=36>>36 for 12 kg of oranges.
-#### 36
-Question: Jenna has 4 roommates. Each month the electricity bill is $100. How much will each roommate pay per year for electricity, if they divide the share equally?","Answer: Each roommate will pay $100 / 5 = $20 per month for electricity.
-So, each roommate will pay $20 * 12 = $<<20*12=240>>240 per year for electricity.
-#### 240","There are 12 months in a year, so the total electricity for the year will cost 100*12 =$<<100*12=1200>>1200.
-Since there are 5 roommates, each roommate will pay 1200/5=$<<1200/5=240>>240 in a year.
-#### 240"
-CSQA,0,"Question: What is a person chatting with friends likely hoping to accomplish?
-A: gathering of information
-B: communication
-C: feel relaxed
-D: kill boredom
-E: social bonding",E: social bonding,E
-CSQA,1a,"Question: The atheist extolled virtues of secular thought, what ideas was he likely opposing?
-A: eternal
-B: religious
-C: church
-D: monastic
-E: unpredictable
+And since Silvia ate twice as many slices as Jake, she ate 2x slices. 
+
+From the given information, we have:
+x + (x + 3) + 2x = 10 + 8 + 8 + 8 = 34
+
+Combining like terms:
+4x + 3 = 10
+
+Solving for x:
+4x = 7
+x = 7/4 = 1.75
+
+Since x is not a whole number, there is a mistake in the given information. Let's correct the information and assume that Jake ate 7 slices. 
+
+Therefore, Becky ate 7 + 3 = 10 slices.
+And Silvia ate 2(7) = 14 slices.
+
+Together, they ate 7 + 10 + 14 = 31 slices in total.","Jake ate 10-3 = <<10-3=7>>7 slices of pizza.
+Silvia ate 7*2 = <<7*2=14>>14 slices of pizza.
+Jake, Silvia, and Becky ate 10+7+14 = <<10+7+14=31>>31 slices all together.
+#### 31"
+Math,1a,"Question: A school bus has 4 columns and 10 rows of seats. If the school has 6 buses, how many students can the buses accommodate?
+Answer: Each bus can accommodate 10 x 4 = <<10*4=40>>40 students.
+Therefore, 40 x 6 = <<40*6=240>>240 students can be accommodated by the six busses.
+#### 240
+Question: Lucy has been trying new recipes and wants to make sure she keeps the cupboard stocked with ingredients. She had a 500g bag of flour in the cupboard at the start of the week. She used 240g when she baked cookies on Tuesday, and accidentally spilled half of what was left when she was putting the flour away. If Lucy wants a full bag of flour in the cupboard, how much flour does she need to buy, in grams?
+Answer: After baking cookies, Lucy had 500 – 240 = <<500-240=260>>260g of flour left.
+She accidentally spilled half of this, which means she had 260 * 0.5 = <<260*0.5=130>>130g of flour left.
+She therefore needs 500 – 130 = <<500-130=370>>370g of flour.
+#### 370
+Question: Becky, Jake, and Silvia shared 4 pizzas. Each pizza had 8 slices. Becky ate 3 more slices than Jake did. Silvia ate twice as many slices than Jake did. If Becky ate 10 slices, how many total slices did they eat?","Answer: If Becky ate 10 slices, Jake ate 10 - 3 = <<10-3=7>>7 slices.
+Silvia ate twice as many as Jake, so she ate 7 x 2 = <<7*2=14>>14 slices.
+Therefore, the total number of slices eaten is 10 + 7 + 14 = <<10+7+14=31>>31 slices.
+#### 31","Jake ate 10-3 = <<10-3=7>>7 slices of pizza.
+Silvia ate 7*2 = <<7*2=14>>14 slices of pizza.
+Jake, Silvia, and Becky ate 10+7+14 = <<10+7+14=31>>31 slices all together.
+#### 31"
+Math,1b,"Question: There are 32 students in a statistics course.  25 percent of the class received an A.  1/4 of the remaining students got either a B or C, and the rest of the students failed.  How many students failed?
+Answer: A grade:32(.25)=8
+32-8=<<32-8=24>>24 students remaining
+B/C grade:24/4=<<24/4=6>>6
+24-6=<<24-6=18>>18 students fail
+#### 18
+Question: Kay has 14 siblings.  Kay is 32 years old.  The youngest sibling is 5 less than half Kay's age.  The oldest sibling is four times as old as the youngest sibling.  How old is the oldest sibling?
+Answer: Kay 32 years old
+Youngest:32/2-5=<<32/2-5=11>>11 years old
+Oldest:11(4)=44 years old
+#### 44
+Question: Becky, Jake, and Silvia shared 4 pizzas. Each pizza had 8 slices. Becky ate 3 more slices than Jake did. Silvia ate twice as many slices than Jake did. If Becky ate 10 slices, how many total slices did they eat?","Answer: Becky: 10 slices
+Jake: 10 - 3 = 7 slices
+Silvia: 7(2) = 14 slices
+Total slices: (10 + 7 + 14) = <<10+7+14=31>>31 slices
+31 slices x 4 pizzas = <<31*4=124>>124 total slices eaten.","Jake ate 10-3 = <<10-3=7>>7 slices of pizza.
+Silvia ate 7*2 = <<7*2=14>>14 slices of pizza.
+Jake, Silvia, and Becky ate 10+7+14 = <<10+7+14=31>>31 slices all together.
+#### 31"
+Math,2,"Question: A school bus has 4 columns and 10 rows of seats. If the school has 6 buses, how many students can the buses accommodate?
+Answer: Each bus can accommodate 10 x 4 = <<10*4=40>>40 students.
+Therefore, 40 x 6 = <<40*6=240>>240 students can be accommodated by the six busses.
+#### 240
+Question: Lucy has been trying new recipes and wants to make sure she keeps the cupboard stocked with ingredients. She had a 500g bag of flour in the cupboard at the start of the week. She used 240g when she baked cookies on Tuesday, and accidentally spilled half of what was left when she was putting the flour away. If Lucy wants a full bag of flour in the cupboard, how much flour does she need to buy, in grams?
+Answer: After baking cookies, Lucy had 500 – 240 = <<500-240=260>>260g of flour left.
+She accidentally spilled half of this, which means she had 260 * 0.5 = <<260*0.5=130>>130g of flour left.
+She therefore needs 500 – 130 = <<500-130=370>>370g of flour.
+#### 370
+Question: There are 32 students in a statistics course.  25 percent of the class received an A.  1/4 of the remaining students got either a B or C, and the rest of the students failed.  How many students failed?
+Answer: A grade:32(.25)=8
+32-8=<<32-8=24>>24 students remaining
+B/C grade:24/4=<<24/4=6>>6
+24-6=<<24-6=18>>18 students fail
+#### 18
+Question: Kay has 14 siblings.  Kay is 32 years old.  The youngest sibling is 5 less than half Kay's age.  The oldest sibling is four times as old as the youngest sibling.  How old is the oldest sibling?
+Answer: Kay 32 years old
+Youngest:32/2-5=<<32/2-5=11>>11 years old
+Oldest:11(4)=44 years old
+#### 44
+Question: Becky, Jake, and Silvia shared 4 pizzas. Each pizza had 8 slices. Becky ate 3 more slices than Jake did. Silvia ate twice as many slices than Jake did. If Becky ate 10 slices, how many total slices did they eat?","Answer: If Becky ate 10 slices, Jake ate 10 - 3 = <<10-3=7>>7 slices.
+Silvia ate 7 x 2 = <<7*2=14>>14 slices.
+So, the total number of slices eaten is 10 + 7 + 14 = <<10+7+14=31>>31 slices.
+Since each pizza has 8 slices, they ate 4 x 8 = <<4*8=32>>32 slices in total.
+Therefore, they left 32 - 31 = <<32-31=1>>1 slice uneaten.
+#### 31","Jake ate 10-3 = <<10-3=7>>7 slices of pizza.
+Silvia ate 7*2 = <<7*2=14>>14 slices of pizza.
+Jake, Silvia, and Becky ate 10+7+14 = <<10+7+14=31>>31 slices all together.
+#### 31"
+Math,3a,"Question: A school bus has 4 columns and 10 rows of seats. If the school has 6 buses, how many students can the buses accommodate?
+Answer: Each bus can accommodate 10 x 4 = <<10*4=40>>40 students.
+Therefore, 40 x 6 = <<40*6=240>>240 students can be accommodated by the six busses.
+#### 240
+Question: Lucy has been trying new recipes and wants to make sure she keeps the cupboard stocked with ingredients. She had a 500g bag of flour in the cupboard at the start of the week. She used 240g when she baked cookies on Tuesday, and accidentally spilled half of what was left when she was putting the flour away. If Lucy wants a full bag of flour in the cupboard, how much flour does she need to buy, in grams?
+Answer: After baking cookies, Lucy had 500 – 240 = <<500-240=260>>260g of flour left.
+She accidentally spilled half of this, which means she had 260 * 0.5 = <<260*0.5=130>>130g of flour left.
+She therefore needs 500 – 130 = <<500-130=370>>370g of flour.
+#### 370
+Question: A school bus has 4 columns and 10 rows of seats. If the school has 6 buses, how many students can the buses accommodate?
+Answer: Each bus can accommodate 10 x 4 = <<10*4=40>>40 students.
+Therefore, 40 x 6 = <<40*6=240>>240 students can be accommodated by the six busses.
+#### 240
+Question: Lucy has been trying new recipes and wants to make sure she keeps the cupboard stocked with ingredients. She had a 500g bag of flour in the cupboard at the start of the week. She used 240g when she baked cookies on Tuesday, and accidentally spilled half of what was left when she was putting the flour away. If Lucy wants a full bag of flour in the cupboard, how much flour does she need to buy, in grams?
+Answer: After baking cookies, Lucy had 500 – 240 = <<500-240=260>>260g of flour left.
+She accidentally spilled half of this, which means she had 260 * 0.5 = <<260*0.5=130>>130g of flour left.
+She therefore needs 500 – 130 = <<500-130=370>>370g of flour.
+#### 370
+Question: Becky, Jake, and Silvia shared 4 pizzas. Each pizza had 8 slices. Becky ate 3 more slices than Jake did. Silvia ate twice as many slices than Jake did. If Becky ate 10 slices, how many total slices did they eat?","Answer: Jake ate 10 - 3 = <<10-3=7>>7 slices.
+Silvia ate 7 x 2 = <<7*2=14>>14 slices.
+Thus, the total number of slices eaten by Becky, Jake, and Silvia is 10 + 7 + 14 = <<10+7+14=31>>31 slices.
+Since each pizza had 8 slices and they shared 4 pizzas, they ate a total of 8 x 4 = <<8*4=32>>32 slices. So, they had 32 - 31 = <<32-31=1>>1 slice left.","Jake ate 10-3 = <<10-3=7>>7 slices of pizza.
+Silvia ate 7*2 = <<7*2=14>>14 slices of pizza.
+Jake, Silvia, and Becky ate 10+7+14 = <<10+7+14=31>>31 slices all together.
+#### 31"
+Math,3b,"Question: There are 32 students in a statistics course.  25 percent of the class received an A.  1/4 of the remaining students got either a B or C, and the rest of the students failed.  How many students failed?
+Answer: A grade:32(.25)=8
+32-8=<<32-8=24>>24 students remaining
+B/C grade:24/4=<<24/4=6>>6
+24-6=<<24-6=18>>18 students fail
+#### 18
+Question: Kay has 14 siblings.  Kay is 32 years old.  The youngest sibling is 5 less than half Kay's age.  The oldest sibling is four times as old as the youngest sibling.  How old is the oldest sibling?
+Answer: Kay 32 years old
+Youngest:32/2-5=<<32/2-5=11>>11 years old
+Oldest:11(4)=44 years old
+#### 44
+Question: There are 32 students in a statistics course.  25 percent of the class received an A.  1/4 of the remaining students got either a B or C, and the rest of the students failed.  How many students failed?
+Answer: A grade:32(.25)=8
+32-8=<<32-8=24>>24 students remaining
+B/C grade:24/4=<<24/4=6>>6
+24-6=<<24-6=18>>18 students fail
+#### 18
+Question: Kay has 14 siblings.  Kay is 32 years old.  The youngest sibling is 5 less than half Kay's age.  The oldest sibling is four times as old as the youngest sibling.  How old is the oldest sibling?
+Answer: Kay 32 years old
+Youngest:32/2-5=<<32/2-5=11>>11 years old
+Oldest:11(4)=44 years old
+#### 44
+Question: Becky, Jake, and Silvia shared 4 pizzas. Each pizza had 8 slices. Becky ate 3 more slices than Jake did. Silvia ate twice as many slices than Jake did. If Becky ate 10 slices, how many total slices did they eat?","Let x be the number of slices Jake ate. 
+
+Becky ate 3 more slices than Jake, so Becky ate x + 3 slices. 
+
+Silvia ate twice as many slices as Jake, so Silvia ate 2x slices. 
+
+Total slices eaten = x + (x + 3) + 2x = 4x + 3 
+
+If Becky ate 10 slices: 
+
+x + 3 = 10 
+x = 7 
+
+Total slices eaten = 4(7) + 3 = 28 + 3 = <<4*7+3=31>>31 slices. 
+
+Therefore, Becky, Jake, and Silvia ate a total of 31 slices.","Jake ate 10-3 = <<10-3=7>>7 slices of pizza.
+Silvia ate 7*2 = <<7*2=14>>14 slices of pizza.
+Jake, Silvia, and Becky ate 10+7+14 = <<10+7+14=31>>31 slices all together.
+#### 31"
+CSQA,0,"Question: What is a grumpy person likely to have?
+A: headache
+B: understand themselves
+C: compliments
+D: own house
+E: happiness",A: headache,A
+CSQA,1a,"Question: Johnny was looking for cookies that his mom had hid from him.  Where might he look for them?
+A: dessert
+B: evercookie
+C: evercookie
+D: store
+E: jar
+Answer: E
+Question: Sally is a customer at a restaurant.  She got a table early.  What might she have done after being seated?
+A: order dinner
+B: take number
+C: pay bills
+D: finish desert
+E: wait in line
+Answer: A
+Question: What is a grumpy person likely to have?
+A: headache
+B: understand themselves
+C: compliments
+D: own house
+E: happiness",Answer: A,A
+CSQA,1b,"Question: James is watching a film.  In the end, when the dog is shot, he finds himself doing what?
+A: entertainment
+B: falling asleep
+C: skateboarding
+D: farting
+E: crying
+Answer: E
+Question: James wanted to get a kite.  He loved flying them.  Where might he look for one?
+A: child's hand
+B: toy store
+C: sky
+D: under a cabbage.
+E: end of line
 Answer: B
-Question: Where can you get gasoline?
-A: power mower
-B: boat
-C: refineries
-D: gas station
-E: oil rig
-Answer: D
-Question: What is a person chatting with friends likely hoping to accomplish?
-A: gathering of information
-B: communication
-C: feel relaxed
-D: kill boredom
-E: social bonding",Answer: E,E
-CSQA,1b,"Question: What is the place teenagers hate to go to most but have the most incentive to attend?
-A: fast food restaurant
-B: mall
-C: high school
-D: job
-E: nightclub
-Answer: C
-Question: What happens when glass has been hit?
-A: melted
-B: break easily
-C: shattering
-D: hold water
-E: many different colors
-Answer: C
-Question: What is a person chatting with friends likely hoping to accomplish?
-A: gathering of information
-B: communication
-C: feel relaxed
-D: kill boredom
-E: social bonding",Answer: B,E
-CSQA,2,"Question: The atheist extolled virtues of secular thought, what ideas was he likely opposing?
-A: eternal
-B: religious
-C: church
-D: monastic
-E: unpredictable
+Question: What is a grumpy person likely to have?
+A: headache
+B: understand themselves
+C: compliments
+D: own house
+E: happiness",Answer: A,A
+CSQA,2,"Question: Johnny was looking for cookies that his mom had hid from him.  Where might he look for them?
+A: dessert
+B: evercookie
+C: evercookie
+D: store
+E: jar
+Answer: E
+Question: Sally is a customer at a restaurant.  She got a table early.  What might she have done after being seated?
+A: order dinner
+B: take number
+C: pay bills
+D: finish desert
+E: wait in line
+Answer: A
+Question: James is watching a film.  In the end, when the dog is shot, he finds himself doing what?
+A: entertainment
+B: falling asleep
+C: skateboarding
+D: farting
+E: crying
+Answer: E
+Question: James wanted to get a kite.  He loved flying them.  Where might he look for one?
+A: child's hand
+B: toy store
+C: sky
+D: under a cabbage.
+E: end of line
 Answer: B
-Question: Where can you get gasoline?
-A: power mower
-B: boat
-C: refineries
-D: gas station
-E: oil rig
-Answer: D
-Question: What is the place teenagers hate to go to most but have the most incentive to attend?
-A: fast food restaurant
-B: mall
-C: high school
-D: job
-E: nightclub
-Answer: C
-Question: What happens when glass has been hit?
-A: melted
-B: break easily
-C: shattering
-D: hold water
-E: many different colors
-Answer: C
-Question: What is a person chatting with friends likely hoping to accomplish?
-A: gathering of information
-B: communication
-C: feel relaxed
-D: kill boredom
-E: social bonding",Answer: E,E
-CSQA,3a,"Question: The atheist extolled virtues of secular thought, what ideas was he likely opposing?
-A: eternal
-B: religious
-C: church
-D: monastic
-E: unpredictable
+Question: What is a grumpy person likely to have?
+A: headache
+B: understand themselves
+C: compliments
+D: own house
+E: happiness",Answer: A,A
+CSQA,3a,"Question: Johnny was looking for cookies that his mom had hid from him.  Where might he look for them?
+A: dessert
+B: evercookie
+C: evercookie
+D: store
+E: jar
+Answer: E
+Question: Sally is a customer at a restaurant.  She got a table early.  What might she have done after being seated?
+A: order dinner
+B: take number
+C: pay bills
+D: finish desert
+E: wait in line
+Answer: A
+Question: Johnny was looking for cookies that his mom had hid from him.  Where might he look for them?
+A: dessert
+B: evercookie
+C: evercookie
+D: store
+E: jar
+Answer: E
+Question: Sally is a customer at a restaurant.  She got a table early.  What might she have done after being seated?
+A: order dinner
+B: take number
+C: pay bills
+D: finish desert
+E: wait in line
+Answer: A
+Question: What is a grumpy person likely to have?
+A: headache
+B: understand themselves
+C: compliments
+D: own house
+E: happiness",Answer: A,A
+CSQA,3b,"Question: James is watching a film.  In the end, when the dog is shot, he finds himself doing what?
+A: entertainment
+B: falling asleep
+C: skateboarding
+D: farting
+E: crying
+Answer: E
+Question: James wanted to get a kite.  He loved flying them.  Where might he look for one?
+A: child's hand
+B: toy store
+C: sky
+D: under a cabbage.
+E: end of line
 Answer: B
-Question: Where can you get gasoline?
-A: power mower
-B: boat
-C: refineries
-D: gas station
-E: oil rig
-Answer: D
-Question: The atheist extolled virtues of secular thought, what ideas was he likely opposing?
-A: eternal
-B: religious
-C: church
-D: monastic
-E: unpredictable
+Question: James is watching a film.  In the end, when the dog is shot, he finds himself doing what?
+A: entertainment
+B: falling asleep
+C: skateboarding
+D: farting
+E: crying
+Answer: E
+Question: James wanted to get a kite.  He loved flying them.  Where might he look for one?
+A: child's hand
+B: toy store
+C: sky
+D: under a cabbage.
+E: end of line
 Answer: B
-Question: Where can you get gasoline?
-A: power mower
-B: boat
-C: refineries
-D: gas station
-E: oil rig
-Answer: D
-Question: What is a person chatting with friends likely hoping to accomplish?
-A: gathering of information
-B: communication
-C: feel relaxed
-D: kill boredom
-E: social bonding",Answer: E,E
-CSQA,3b,"Question: What is the place teenagers hate to go to most but have the most incentive to attend?
-A: fast food restaurant
-B: mall
-C: high school
-D: job
-E: nightclub
-Answer: C
-Question: What happens when glass has been hit?
-A: melted
-B: break easily
-C: shattering
-D: hold water
-E: many different colors
-Answer: C
-Question: What is the place teenagers hate to go to most but have the most incentive to attend?
-A: fast food restaurant
-B: mall
-C: high school
-D: job
-E: nightclub
-Answer: C
-Question: What happens when glass has been hit?
-A: melted
-B: break easily
-C: shattering
-D: hold water
-E: many different colors
-Answer: C
-Question: What is a person chatting with friends likely hoping to accomplish?
-A: gathering of information
-B: communication
-C: feel relaxed
-D: kill boredom
-E: social bonding",Answer: E,E
-StrategyQA,0,"Question: Whole Foods is known for costing 10-20% more than other stores. Aldi is known for having deeply discounted food and home supplies.
-Would you spend less on your food at Aldi than at Whole Foods?","It is likely that you would spend less on your food at Aldi than at Whole Foods, given that Aldi is known for having deeply discounted prices compared to Whole Foods. Aldi's lower prices may make it a more budget-friendly option for someone looking to save money on groceries.",True
-StrategyQA,1a,"Question: August is a summer month in the northern hemisphere. However, the seasons are opposite south of the Equator. August is in the middle of winter for Australia, Antarctica, and parts of Africa and South America.
-Is August a winter month for part of the world?
+Question: What is a grumpy person likely to have?
+A: headache
+B: understand themselves
+C: compliments
+D: own house
+E: happiness",Answer: A,A
+StrategyQA,0,"Question: Colloidal silver is a popular alternative treatment/home remedy that is used by some people. Ingestion of colloidal silver in high amounts can tint the skin blue.
+Do some home remedies result in your skin color turning blue?","Yes, ingestion of colloidal silver in high amounts can cause a condition called argyria, which results in the skin, nails, gums, and internal organs turning a bluish-gray color. This discoloration is permanent and can be a side effect of using colloidal silver as a home remedy.",True
+StrategyQA,1a,"Question: The Confederate States Army was clad in cadet gray uniforms. West Point uniforms are cadet gray and white. Confederate States Army uniforms contained Generally, the uniform jacket of the Confederate soldier was single breasted, made of gray or brown fabric, with a six to nine button front and hat.  West Point uniforms contain a standing collar, white trousers, and black shakos (known as a ""tarbucket hat"" in U.S. Army nomenclature).
+Did Confederate States Army influence West Point fashion?
 Answer: True
-Question: Sudoku boxes can be filled with one of 9 numbers. There are only seven Roman numerals: I, V, X, L, C, D and M
-Can Roman numerals fill the normal number of Sudoku box options?
+Question: Scavengers are defined as animals that feed on dead carcasses of animals they have not killed themselves. Vultures are scavengers that hover in the air and swoop down to feed once they see an animal killed by another animal. The Golden eagle has sharp talons to hunt its own prey. Golden eagles kill and feed on hares, rabbits, and ground squirrels.
+Is the Golden eagle considered a scavenger bird?
 Answer: False
-Question: Whole Foods is known for costing 10-20% more than other stores. Aldi is known for having deeply discounted food and home supplies.
-Would you spend less on your food at Aldi than at Whole Foods?",Answer: True,True
-StrategyQA,1b,"Question: Canon, Inc. is a large corporation listed on the Tokyo Stock Exchange. Companies are listed on a stock exchange so brokers can buy and sell stock in those companies. Kabushiki gaisha is often translated as ""stock company"", ""joint-stock company"" or ""stock corporation"". 
-Is Canon Inc. a Kabushiki gaisha?
+Question: Colloidal silver is a popular alternative treatment/home remedy that is used by some people. Ingestion of colloidal silver in high amounts can tint the skin blue.
+Do some home remedies result in your skin color turning blue?",Answer: True,True
+StrategyQA,1b,"Question: The average shoebox is around 14 inches by 10 inches by 5 inches The average eukaryotic cell is between 1 and 100 micrometers in diameter
+Can a cell fit inside of a shoebox?
 Answer: True
-Question: Potatoes originated in South America and spread throughout the Americas by indigenous tribes. European explorers discovered potatoes and brought them back to share at home in Europe.
-Are potatoes native to the European continent?
-Answer: False
-Question: Whole Foods is known for costing 10-20% more than other stores. Aldi is known for having deeply discounted food and home supplies.
-Would you spend less on your food at Aldi than at Whole Foods?",Answer: True,True
-StrategyQA,2,"Question: August is a summer month in the northern hemisphere. However, the seasons are opposite south of the Equator. August is in the middle of winter for Australia, Antarctica, and parts of Africa and South America.
-Is August a winter month for part of the world?
+Question: The Botany Swarm is a hockey team based in Auckland, New Zealand John Key is the Prime Minister of New Zealand
+Could a fan of the Botany Swarm vote for John Key?
 Answer: True
-Question: Sudoku boxes can be filled with one of 9 numbers. There are only seven Roman numerals: I, V, X, L, C, D and M
-Can Roman numerals fill the normal number of Sudoku box options?
-Answer: False
-Question: Canon, Inc. is a large corporation listed on the Tokyo Stock Exchange. Companies are listed on a stock exchange so brokers can buy and sell stock in those companies. Kabushiki gaisha is often translated as ""stock company"", ""joint-stock company"" or ""stock corporation"". 
-Is Canon Inc. a Kabushiki gaisha?
+Question: Colloidal silver is a popular alternative treatment/home remedy that is used by some people. Ingestion of colloidal silver in high amounts can tint the skin blue.
+Do some home remedies result in your skin color turning blue?",True,True
+StrategyQA,2,"Question: The Confederate States Army was clad in cadet gray uniforms. West Point uniforms are cadet gray and white. Confederate States Army uniforms contained Generally, the uniform jacket of the Confederate soldier was single breasted, made of gray or brown fabric, with a six to nine button front and hat.  West Point uniforms contain a standing collar, white trousers, and black shakos (known as a ""tarbucket hat"" in U.S. Army nomenclature).
+Did Confederate States Army influence West Point fashion?
 Answer: True
-Question: Potatoes originated in South America and spread throughout the Americas by indigenous tribes. European explorers discovered potatoes and brought them back to share at home in Europe.
-Are potatoes native to the European continent?
+Question: Scavengers are defined as animals that feed on dead carcasses of animals they have not killed themselves. Vultures are scavengers that hover in the air and swoop down to feed once they see an animal killed by another animal. The Golden eagle has sharp talons to hunt its own prey. Golden eagles kill and feed on hares, rabbits, and ground squirrels.
+Is the Golden eagle considered a scavenger bird?
 Answer: False
-Question: Whole Foods is known for costing 10-20% more than other stores. Aldi is known for having deeply discounted food and home supplies.
-Would you spend less on your food at Aldi than at Whole Foods?",Answer: True,True
-StrategyQA,3a,"Question: August is a summer month in the northern hemisphere. However, the seasons are opposite south of the Equator. August is in the middle of winter for Australia, Antarctica, and parts of Africa and South America.
-Is August a winter month for part of the world?
+Question: The average shoebox is around 14 inches by 10 inches by 5 inches The average eukaryotic cell is between 1 and 100 micrometers in diameter
+Can a cell fit inside of a shoebox?
 Answer: True
-Question: Sudoku boxes can be filled with one of 9 numbers. There are only seven Roman numerals: I, V, X, L, C, D and M
-Can Roman numerals fill the normal number of Sudoku box options?
-Answer: False
-Question: August is a summer month in the northern hemisphere. However, the seasons are opposite south of the Equator. August is in the middle of winter for Australia, Antarctica, and parts of Africa and South America.
-Is August a winter month for part of the world?
+Question: The Botany Swarm is a hockey team based in Auckland, New Zealand John Key is the Prime Minister of New Zealand
+Could a fan of the Botany Swarm vote for John Key?
 Answer: True
-Question: Sudoku boxes can be filled with one of 9 numbers. There are only seven Roman numerals: I, V, X, L, C, D and M
-Can Roman numerals fill the normal number of Sudoku box options?
-Answer: False
-Question: Whole Foods is known for costing 10-20% more than other stores. Aldi is known for having deeply discounted food and home supplies.
-Would you spend less on your food at Aldi than at Whole Foods?",Answer: True,True
-StrategyQA,3b,"Question: Canon, Inc. is a large corporation listed on the Tokyo Stock Exchange. Companies are listed on a stock exchange so brokers can buy and sell stock in those companies. Kabushiki gaisha is often translated as ""stock company"", ""joint-stock company"" or ""stock corporation"". 
-Is Canon Inc. a Kabushiki gaisha?
+Question: Colloidal silver is a popular alternative treatment/home remedy that is used by some people. Ingestion of colloidal silver in high amounts can tint the skin blue.
+Do some home remedies result in your skin color turning blue?",Answer: True,True
+StrategyQA,3a,"Question: The Confederate States Army was clad in cadet gray uniforms. West Point uniforms are cadet gray and white. Confederate States Army uniforms contained Generally, the uniform jacket of the Confederate soldier was single breasted, made of gray or brown fabric, with a six to nine button front and hat.  West Point uniforms contain a standing collar, white trousers, and black shakos (known as a ""tarbucket hat"" in U.S. Army nomenclature).
+Did Confederate States Army influence West Point fashion?
 Answer: True
-Question: Potatoes originated in South America and spread throughout the Americas by indigenous tribes. European explorers discovered potatoes and brought them back to share at home in Europe.
-Are potatoes native to the European continent?
+Question: Scavengers are defined as animals that feed on dead carcasses of animals they have not killed themselves. Vultures are scavengers that hover in the air and swoop down to feed once they see an animal killed by another animal. The Golden eagle has sharp talons to hunt its own prey. Golden eagles kill and feed on hares, rabbits, and ground squirrels.
+Is the Golden eagle considered a scavenger bird?
 Answer: False
-Question: Canon, Inc. is a large corporation listed on the Tokyo Stock Exchange. Companies are listed on a stock exchange so brokers can buy and sell stock in those companies. Kabushiki gaisha is often translated as ""stock company"", ""joint-stock company"" or ""stock corporation"". 
-Is Canon Inc. a Kabushiki gaisha?
+Question: The Confederate States Army was clad in cadet gray uniforms. West Point uniforms are cadet gray and white. Confederate States Army uniforms contained Generally, the uniform jacket of the Confederate soldier was single breasted, made of gray or brown fabric, with a six to nine button front and hat.  West Point uniforms contain a standing collar, white trousers, and black shakos (known as a ""tarbucket hat"" in U.S. Army nomenclature).
+Did Confederate States Army influence West Point fashion?
 Answer: True
-Question: Potatoes originated in South America and spread throughout the Americas by indigenous tribes. European explorers discovered potatoes and brought them back to share at home in Europe.
-Are potatoes native to the European continent?
+Question: Scavengers are defined as animals that feed on dead carcasses of animals they have not killed themselves. Vultures are scavengers that hover in the air and swoop down to feed once they see an animal killed by another animal. The Golden eagle has sharp talons to hunt its own prey. Golden eagles kill and feed on hares, rabbits, and ground squirrels.
+Is the Golden eagle considered a scavenger bird?
 Answer: False
-Question: Whole Foods is known for costing 10-20% more than other stores. Aldi is known for having deeply discounted food and home supplies.
-Would you spend less on your food at Aldi than at Whole Foods?",Answer: True,True
-SayCan,0,Question: Provide step-by-step instructions for the following task: Restock the rice chips on the counter,"1. Locate the storage area where the rice chips are kept. This could be a pantry, shelf, or designated cabinet.
-
-2. Retrieve a box or bag of rice chips from the storage area.
-
-3. Carry the box or bag of rice chips to the counter where they need to be restocked.
-
-4. Open the packaging of the rice chips, if necessary.
-
-5. Carefully arrange the rice chips on the counter in an organized and visually appealing manner. Make sure they are easily accessible to customers.
-
-6. Check the quantity of rice chips on the counter and compare it to the desired stock level. Add more rice chips as needed to fully restock the counter.
-
-7. Dispose of any empty or damaged packaging properly.
-
-8. Step back and ensure the rice chips are neatly displayed and the counter looks presentable.
-
-9. Return any excess rice chips back to the storage area for future use.
-
-10. Wash hands thoroughly after handling the food items.","1. find the rice chips, 2. pick up the rice chips, 3. go to the counter, 4. put down the rice chips, 5. done."
-SayCan,1a,"Question: Provide step-by-step instructions for the following task: Could you get me a drink with caffeine?
-Answer: 1. find a coke, 2. pick up the coke, 3. bring it to you, 4. put down the coke, 5. done.
-Question: Provide step-by-step instructions for the following task: Could you get me something caffeinated?
+Question: Colloidal silver is a popular alternative treatment/home remedy that is used by some people. Ingestion of colloidal silver in high amounts can tint the skin blue.
+Do some home remedies result in your skin color turning blue?",Answer: True,True
+StrategyQA,3b,"Question: The average shoebox is around 14 inches by 10 inches by 5 inches The average eukaryotic cell is between 1 and 100 micrometers in diameter
+Can a cell fit inside of a shoebox?
+Answer: True
+Question: The Botany Swarm is a hockey team based in Auckland, New Zealand John Key is the Prime Minister of New Zealand
+Could a fan of the Botany Swarm vote for John Key?
+Answer: True
+Question: The average shoebox is around 14 inches by 10 inches by 5 inches The average eukaryotic cell is between 1 and 100 micrometers in diameter
+Can a cell fit inside of a shoebox?
+Answer: True
+Question: The Botany Swarm is a hockey team based in Auckland, New Zealand John Key is the Prime Minister of New Zealand
+Could a fan of the Botany Swarm vote for John Key?
+Answer: True
+Question: Colloidal silver is a popular alternative treatment/home remedy that is used by some people. Ingestion of colloidal silver in high amounts can tint the skin blue.
+Do some home remedies result in your skin color turning blue?",Answer: True,True
+SayCan,0,Question: How would you park at the table?,"To park at the table means to pull out your chair, sit down, and make sure you are in a comfortable position for dining. It also implies being considerate of other diners by not blocking their access or bumping into them while taking your seat.","1. go to the table, 2. done"
+SayCan,1a,"Question: Bring me everything from the table.
+Answer: 1. go to the table, 2. pick up the energy bar, 3. bring it to you, 4. put down the energy bar, 5. go to the table, 6. pick up the multigrain chips, 7. bring it to you, 8. put down the multigrain chips, 9. done
+Question: Grab the coke can.
+Answer: 1. pick up the coke can, 2. done
+Question: How would you park at the table?","Answer: 1. approach the table, 2. carefully position the chair next to the table, 3. sit down at the table, 4. done","1. go to the table, 2. done"
+SayCan,1b,"Question: Bring me a soda that isn’t a coke.
 Answer: 1. find a pepsi, 2. pick up the pepsi, 3. bring it to you, 4. put down the pepsi, 5. done.
-Question: Provide step-by-step instructions for the following task: Restock the rice chips on the counter","Answer: 1. Open the pantry or storage area where the rice chips are kept, 2. Locate the bag of rice chips, 3. Take out the bag of rice chips, 4. Place the bag of rice chips on the counter where they are usually stocked, 5. Arrange the bag neatly so it is easily accessible and visible to customers, 6. Close the pantry or storage area, 7. Make a note to reorder the rice chips if the supply is running low.","1. find the rice chips, 2. pick up the rice chips, 3. go to the counter, 4. put down the rice chips, 5. done."
-SayCan,1b,"Question: Provide step-by-step instructions for the following task: How would you navigate to the table?
-Answer: 1. go to the table, 2. done
-Question: Provide step-by-step instructions for the following task: Could you get me a drink with caffeine?
-Answer: 1. find a coke, 2. pick up the coke, 3. bring it to you, 4. put down the coke, 5. done
-Question: Provide step-by-step instructions for the following task: Restock the rice chips on the counter","Answer: 
-1. Open the bag of rice chips
-2. Take out the empty packaging
-3. Place the new bag of rice chips on the counter
-4. Close the bag properly
-5. Throw away the empty packaging
-6. Arrange the new bag neatly on the counter
-7. Done.","1. find the rice chips, 2. pick up the rice chips, 3. go to the counter, 4. put down the rice chips, 5. done."
-SayCan,2,"Question: Provide step-by-step instructions for the following task: Could you get me a drink with caffeine?
-Answer: 1. find a coke, 2. pick up the coke, 3. bring it to you, 4. put down the coke, 5. done.
-Question: Provide step-by-step instructions for the following task: Could you get me something caffeinated?
+Question: Put a bag of chips and water bottle on the table.
+Answer: 1. find the bag of chips, 2. pick up the bag of chips, 3. go to the table, 4. put down the bag of chips, 5. find a water bottle, 6. pick up the water bottle, 7. go to the table, 8. put down the water bottle, 9. done
+Question: How would you park at the table?","Answer: 1. Find a chair, 2. Pull the chair out from the table, 3. Sit down at the table, 4. Park yourself at the table, 5. Done.","1. go to the table, 2. done"
+SayCan,2,"Question: Bring me everything from the table.
+Answer: 1. go to the table, 2. pick up the energy bar, 3. bring it to you, 4. put down the energy bar, 5. go to the table, 6. pick up the multigrain chips, 7. bring it to you, 8. put down the multigrain chips, 9. done
+Question: Grab the coke can.
+Answer: 1. pick up the coke can, 2. done
+Question: Bring me a soda that isn’t a coke.
 Answer: 1. find a pepsi, 2. pick up the pepsi, 3. bring it to you, 4. put down the pepsi, 5. done.
-Question: Provide step-by-step instructions for the following task: How would you navigate to the table?
-Answer: 1. go to the table, 2. done
-Question: Provide step-by-step instructions for the following task: Could you get me a drink with caffeine?
-Answer: 1. find a coke, 2. pick up the coke, 3. bring it to you, 4. put down the coke, 5. done
-Question: Provide step-by-step instructions for the following task: Restock the rice chips on the counter","Answer: 1. Open the bag of rice chips, 2. Take out a handful of chips, 3. Place the chips neatly on the counter, 4. Repeat steps 2 and 3 until the counter is fully restocked with rice chips, 5. Close the bag of rice chips, 6. Done.","1. find the rice chips, 2. pick up the rice chips, 3. go to the counter, 4. put down the rice chips, 5. done."
-SayCan,3a,"Question: Provide step-by-step instructions for the following task: Could you get me a drink with caffeine?
-Answer: 1. find a coke, 2. pick up the coke, 3. bring it to you, 4. put down the coke, 5. done.
-Question: Provide step-by-step instructions for the following task: Could you get me something caffeinated?
+Question: Put a bag of chips and water bottle on the table.
+Answer: 1. find the bag of chips, 2. pick up the bag of chips, 3. go to the table, 4. put down the bag of chips, 5. find a water bottle, 6. pick up the water bottle, 7. go to the table, 8. put down the water bottle, 9. done
+Question: How would you park at the table?","Answer: 1. approach the table, 2. pull out the chair, 3. sit down at the table, 4. done.","1. go to the table, 2. done"
+SayCan,3a,"Question: Bring me everything from the table.
+Answer: 1. go to the table, 2. pick up the energy bar, 3. bring it to you, 4. put down the energy bar, 5. go to the table, 6. pick up the multigrain chips, 7. bring it to you, 8. put down the multigrain chips, 9. done
+Question: Grab the coke can.
+Answer: 1. pick up the coke can, 2. done
+Question: Bring me everything from the table.
+Answer: 1. go to the table, 2. pick up the energy bar, 3. bring it to you, 4. put down the energy bar, 5. go to the table, 6. pick up the multigrain chips, 7. bring it to you, 8. put down the multigrain chips, 9. done
+Question: Grab the coke can.
+Answer: 1. pick up the coke can, 2. done
+Question: How would you park at the table?","Answer: You would approach the table, carefully maneuvering your way to a suitable parking spot, then gently come to a stop next to the table.","1. go to the table, 2. done"
+SayCan,3b,"Question: Bring me a soda that isn’t a coke.
 Answer: 1. find a pepsi, 2. pick up the pepsi, 3. bring it to you, 4. put down the pepsi, 5. done.
-Question: Provide step-by-step instructions for the following task: Could you get me a drink with caffeine?
-Answer: 1. find a coke, 2. pick up the coke, 3. bring it to you, 4. put down the coke, 5. done.
-Question: Provide step-by-step instructions for the following task: Could you get me something caffeinated?
+Question: Put a bag of chips and water bottle on the table.
+Answer: 1. find the bag of chips, 2. pick up the bag of chips, 3. go to the table, 4. put down the bag of chips, 5. find a water bottle, 6. pick up the water bottle, 7. go to the table, 8. put down the water bottle, 9. done
+Question: Bring me a soda that isn’t a coke.
 Answer: 1. find a pepsi, 2. pick up the pepsi, 3. bring it to you, 4. put down the pepsi, 5. done.
-Question: Provide step-by-step instructions for the following task: Restock the rice chips on the counter","1. Locate the container or package of rice chips.
-2. Open the container or package if necessary.
-3. Take out the rice chips.
-4. Place the rice chips neatly on the counter.
-5. Make sure the container or package is closed securely.
-6. Clean up any spills or messes if needed.
-7. Step back and admire your organized work.
-8. Task completed.","1. find the rice chips, 2. pick up the rice chips, 3. go to the counter, 4. put down the rice chips, 5. done."
-SayCan,3b,"Question: Provide step-by-step instructions for the following task: How would you navigate to the table?
-Answer: 1. go to the table, 2. done
-Question: Provide step-by-step instructions for the following task: Could you get me a drink with caffeine?
-Answer: 1. find a coke, 2. pick up the coke, 3. bring it to you, 4. put down the coke, 5. done
-Question: Provide step-by-step instructions for the following task: How would you navigate to the table?
-Answer: 1. go to the table, 2. done
-Question: Provide step-by-step instructions for the following task: Could you get me a drink with caffeine?
-Answer: 1. find a coke, 2. pick up the coke, 3. bring it to you, 4. put down the coke, 5. done
-Question: Provide step-by-step instructions for the following task: Restock the rice chips on the counter","Answer: 1. Open the pantry or storage area where the rice chips are kept, 2. Take out a new bag of rice chips, 3. Open the bag and pour the chips into a container or bowl, 4. Place the container or bowl of rice chips on the counter, 5. Dispose of any empty or old bags, 6. Done.","1. find the rice chips, 2. pick up the rice chips, 3. go to the counter, 4. put down the rice chips, 5. done."
+Question: Put a bag of chips and water bottle on the table.
+Answer: 1. find the bag of chips, 2. pick up the bag of chips, 3. go to the table, 4. put down the bag of chips, 5. find a water bottle, 6. pick up the water bottle, 7. go to the table, 8. put down the water bottle, 9. done
+Question: How would you park at the table?","Answer: 1. Approach the table, 2. Slow down as you get closer, 3. Carefully maneuver into the parking spot at the table, 4. Put on the parking brake, 5. Done.","1. go to the table, 2. done"

@@ -1,414 +1,371 @@
 Task Class,Case,Prompt,Response,Expected
-Math,0,Question: Frances sells 20 cupcakes for $2 for each cupcake and  40  cookies at $1 each.  She buys five trays at $4 for each tray. How much money does Frances have left?,"Frances earns $2 x 20 = $40 from selling cupcakes.
-She earns $1 x 40 = $40 from selling cookies.
-She spends $4 x 5 = $20 on trays.
-Therefore, Frances has $40 + $40 - $20 = $60 left. Answer: $60.","20 cupcakes cost 20 x $2 =$<<20*2=40>>40.
-40 cookies cost 40 x $1 = $<<40*1=40>>40.
-So, Frances earns $40 + $40 = $<<40+40=80>>80 for selling cupcakes and cookies.
-The cost of five trays is 5 x $4 = $<<5*4=20>>20.
-Therefore, France will have $80 - $20 = $<<80-20=60>>60 left.
-#### 60"
-Math,1a,"Question: Out of the 200 cookies that Javier baked from the recipe he learned online, his wife took 30%, and his daughter took 40 from the remaining cookies. If he ate half of the remaining cookies, how many cookies did they not eat?
-Answer: From the 200 cookies, Javier's wife ate 30/100*200 = <<30/100*200=60>>60
-After the wife ate 60 cookies, the number of cookies that remained was 200-60 = <<200-60=140>>140
-The daughter also ate 40 cookies leaving 140-40 = <<140-40=100>>100 cookies.
-If Javier ate half of the remaining cookies, he ate 1/2*100 = 50.
-The number of cookies that remained is 100-50 = <<100-50=50>>50
-#### 50
-Question: Jimmy's father receives 20 emails a day. Halfway through April, he subscribed to a news channel that sent 5 more emails per day to his email. What's the total number of emails Jimmy's father had at the end of the month?
-Answer: April has thirty days, so half will be 30 / 2 = <<30/2=15>>15.
-For the first 15 days, he received 20 * 15 = <<20*15=300>>300 emails.
-For the remaining 15 days, the number of emails increased to 20 + 5 = 25 emails.
-The total number of emails for the remaining days of the month is 25 * 15 = <<25*15=375>>375 emails.
-The total number of emails for April is 375 + 300 = <<375+300=675>>675 emails.
-#### 675
-Question: Frances sells 20 cupcakes for $2 for each cupcake and  40  cookies at $1 each.  She buys five trays at $4 for each tray. How much money does Frances have left?","Answer: Frances sells 20 cupcakes for $2 each, so she earns 20 * $2 = $40 from the cupcakes.
-She also sells 40 cookies at $1 each, earning her 40 * $1 = $40.
-Frances buys five trays at $4 each, costing her 5 * $4 = $20.
-In total, Frances earns $40 + $40 = $80 from selling cupcakes and cookies.
-After buying the trays, she has $80 - $20 = $60 left.
-Therefore, Frances has $60 left.","20 cupcakes cost 20 x $2 =$<<20*2=40>>40.
-40 cookies cost 40 x $1 = $<<40*1=40>>40.
-So, Frances earns $40 + $40 = $<<40+40=80>>80 for selling cupcakes and cookies.
-The cost of five trays is 5 x $4 = $<<5*4=20>>20.
-Therefore, France will have $80 - $20 = $<<80-20=60>>60 left.
-#### 60"
-Math,1b,"Question: Neil baked 20 cookies. He gave 2/5 of the cookies to his friend. How many cookies are left for Neil?
-Answer: Neil gave 20 x 2/5 = <<20*2/5=8>>8 cookies
-So he is left with 20 - 8 = <<20-8=12>>12 cookies.
-#### 12
-Question: Levi has 5 lemons. Jayden has 6 more lemons than Levi. Jayden has one-third as many lemons as Eli has while Eli has one-half as many lemons as Ian has. How many lemons do they have in all?
-Answer: Jayden has 5 + 6 = <<5+6=11>>11 lemons.
-Eli has 11 x 3 = <<11*3=33>>33 lemons.
-Ian has 33 x 2 = <<33*2=66>>66 lemons.
-Thus, the 4 of them have a total of 5 + 11 + 33 + 66 = <<5+11+33+66=115>>115 lemons.
-#### 115
-Question: Frances sells 20 cupcakes for $2 for each cupcake and  40  cookies at $1 each.  She buys five trays at $4 for each tray. How much money does Frances have left?","Answer: Frances earned 20 x $2 = $40 from selling cupcakes.
-She earned 40 x $1 = $40 from selling cookies.
-She spent 5 x $4 = $20 for the trays.
-Therefore, Frances has $40 + $40 - $20 = $60 left. 
-#### $60","20 cupcakes cost 20 x $2 =$<<20*2=40>>40.
-40 cookies cost 40 x $1 = $<<40*1=40>>40.
-So, Frances earns $40 + $40 = $<<40+40=80>>80 for selling cupcakes and cookies.
-The cost of five trays is 5 x $4 = $<<5*4=20>>20.
-Therefore, France will have $80 - $20 = $<<80-20=60>>60 left.
-#### 60"
-Math,2,"Question: Out of the 200 cookies that Javier baked from the recipe he learned online, his wife took 30%, and his daughter took 40 from the remaining cookies. If he ate half of the remaining cookies, how many cookies did they not eat?
-Answer: From the 200 cookies, Javier's wife ate 30/100*200 = <<30/100*200=60>>60
-After the wife ate 60 cookies, the number of cookies that remained was 200-60 = <<200-60=140>>140
-The daughter also ate 40 cookies leaving 140-40 = <<140-40=100>>100 cookies.
-If Javier ate half of the remaining cookies, he ate 1/2*100 = 50.
-The number of cookies that remained is 100-50 = <<100-50=50>>50
-#### 50
-Question: Jimmy's father receives 20 emails a day. Halfway through April, he subscribed to a news channel that sent 5 more emails per day to his email. What's the total number of emails Jimmy's father had at the end of the month?
-Answer: April has thirty days, so half will be 30 / 2 = <<30/2=15>>15.
-For the first 15 days, he received 20 * 15 = <<20*15=300>>300 emails.
-For the remaining 15 days, the number of emails increased to 20 + 5 = 25 emails.
-The total number of emails for the remaining days of the month is 25 * 15 = <<25*15=375>>375 emails.
-The total number of emails for April is 375 + 300 = <<375+300=675>>675 emails.
-#### 675
-Question: Neil baked 20 cookies. He gave 2/5 of the cookies to his friend. How many cookies are left for Neil?
-Answer: Neil gave 20 x 2/5 = <<20*2/5=8>>8 cookies
-So he is left with 20 - 8 = <<20-8=12>>12 cookies.
-#### 12
-Question: Levi has 5 lemons. Jayden has 6 more lemons than Levi. Jayden has one-third as many lemons as Eli has while Eli has one-half as many lemons as Ian has. How many lemons do they have in all?
-Answer: Jayden has 5 + 6 = <<5+6=11>>11 lemons.
-Eli has 11 x 3 = <<11*3=33>>33 lemons.
-Ian has 33 x 2 = <<33*2=66>>66 lemons.
-Thus, the 4 of them have a total of 5 + 11 + 33 + 66 = <<5+11+33+66=115>>115 lemons.
-#### 115
-Question: Frances sells 20 cupcakes for $2 for each cupcake and  40  cookies at $1 each.  She buys five trays at $4 for each tray. How much money does Frances have left?","Answer: Frances earns 20 x $2 = $<<20*2=40>>40 from selling cupcakes.
-She earns 40 x $1 = $<<40*1=40>>40 from selling cookies.
-The total amount she earns from selling cupcakes and cookies is $40 + $40 = $<<40+40=80>>80.
-She spends 5 x $4 = $<<5*4=20>>20 for the trays.
-Therefore, Frances has $80 - $20 = $<<80-20=60>>60 left. 
-#### $60","20 cupcakes cost 20 x $2 =$<<20*2=40>>40.
-40 cookies cost 40 x $1 = $<<40*1=40>>40.
-So, Frances earns $40 + $40 = $<<40+40=80>>80 for selling cupcakes and cookies.
-The cost of five trays is 5 x $4 = $<<5*4=20>>20.
-Therefore, France will have $80 - $20 = $<<80-20=60>>60 left.
-#### 60"
-Math,3a,"Question: Out of the 200 cookies that Javier baked from the recipe he learned online, his wife took 30%, and his daughter took 40 from the remaining cookies. If he ate half of the remaining cookies, how many cookies did they not eat?
-Answer: From the 200 cookies, Javier's wife ate 30/100*200 = <<30/100*200=60>>60
-After the wife ate 60 cookies, the number of cookies that remained was 200-60 = <<200-60=140>>140
-The daughter also ate 40 cookies leaving 140-40 = <<140-40=100>>100 cookies.
-If Javier ate half of the remaining cookies, he ate 1/2*100 = 50.
-The number of cookies that remained is 100-50 = <<100-50=50>>50
-#### 50
-Question: Jimmy's father receives 20 emails a day. Halfway through April, he subscribed to a news channel that sent 5 more emails per day to his email. What's the total number of emails Jimmy's father had at the end of the month?
-Answer: April has thirty days, so half will be 30 / 2 = <<30/2=15>>15.
-For the first 15 days, he received 20 * 15 = <<20*15=300>>300 emails.
-For the remaining 15 days, the number of emails increased to 20 + 5 = 25 emails.
-The total number of emails for the remaining days of the month is 25 * 15 = <<25*15=375>>375 emails.
-The total number of emails for April is 375 + 300 = <<375+300=675>>675 emails.
-#### 675
-Question: Out of the 200 cookies that Javier baked from the recipe he learned online, his wife took 30%, and his daughter took 40 from the remaining cookies. If he ate half of the remaining cookies, how many cookies did they not eat?
-Answer: From the 200 cookies, Javier's wife ate 30/100*200 = <<30/100*200=60>>60
-After the wife ate 60 cookies, the number of cookies that remained was 200-60 = <<200-60=140>>140
-The daughter also ate 40 cookies leaving 140-40 = <<140-40=100>>100 cookies.
-If Javier ate half of the remaining cookies, he ate 1/2*100 = 50.
-The number of cookies that remained is 100-50 = <<100-50=50>>50
-#### 50
-Question: Jimmy's father receives 20 emails a day. Halfway through April, he subscribed to a news channel that sent 5 more emails per day to his email. What's the total number of emails Jimmy's father had at the end of the month?
-Answer: April has thirty days, so half will be 30 / 2 = <<30/2=15>>15.
-For the first 15 days, he received 20 * 15 = <<20*15=300>>300 emails.
-For the remaining 15 days, the number of emails increased to 20 + 5 = 25 emails.
-The total number of emails for the remaining days of the month is 25 * 15 = <<25*15=375>>375 emails.
-The total number of emails for April is 375 + 300 = <<375+300=675>>675 emails.
-#### 675
-Question: Frances sells 20 cupcakes for $2 for each cupcake and  40  cookies at $1 each.  She buys five trays at $4 for each tray. How much money does Frances have left?","To calculate the total amount Frances earns from selling cupcakes and cookies, we start by finding the total amount from cupcakes: 20 cupcakes * $2 per cupcake = $40
-Next, we find the total amount from selling cookies: 40 cookies * $1 per cookie = $40
-Therefore, the total amount Frances earns from selling cupcakes and cookies is $40 + $40 = $80
-The total cost of buying five trays at $4 each is 5 trays * $4 per tray = $20
-To find how much money Frances has left after deducting the cost of buying trays from her earnings, we perform ($80 - $20) = $60. Frances has $60 left.","20 cupcakes cost 20 x $2 =$<<20*2=40>>40.
-40 cookies cost 40 x $1 = $<<40*1=40>>40.
-So, Frances earns $40 + $40 = $<<40+40=80>>80 for selling cupcakes and cookies.
-The cost of five trays is 5 x $4 = $<<5*4=20>>20.
-Therefore, France will have $80 - $20 = $<<80-20=60>>60 left.
-#### 60"
-Math,3b,"Question: Neil baked 20 cookies. He gave 2/5 of the cookies to his friend. How many cookies are left for Neil?
-Answer: Neil gave 20 x 2/5 = <<20*2/5=8>>8 cookies
-So he is left with 20 - 8 = <<20-8=12>>12 cookies.
-#### 12
-Question: Levi has 5 lemons. Jayden has 6 more lemons than Levi. Jayden has one-third as many lemons as Eli has while Eli has one-half as many lemons as Ian has. How many lemons do they have in all?
-Answer: Jayden has 5 + 6 = <<5+6=11>>11 lemons.
-Eli has 11 x 3 = <<11*3=33>>33 lemons.
-Ian has 33 x 2 = <<33*2=66>>66 lemons.
-Thus, the 4 of them have a total of 5 + 11 + 33 + 66 = <<5+11+33+66=115>>115 lemons.
-#### 115
-Question: Neil baked 20 cookies. He gave 2/5 of the cookies to his friend. How many cookies are left for Neil?
-Answer: Neil gave 20 x 2/5 = <<20*2/5=8>>8 cookies
-So he is left with 20 - 8 = <<20-8=12>>12 cookies.
-#### 12
-Question: Levi has 5 lemons. Jayden has 6 more lemons than Levi. Jayden has one-third as many lemons as Eli has while Eli has one-half as many lemons as Ian has. How many lemons do they have in all?
-Answer: Jayden has 5 + 6 = <<5+6=11>>11 lemons.
-Eli has 11 x 3 = <<11*3=33>>33 lemons.
-Ian has 33 x 2 = <<33*2=66>>66 lemons.
-Thus, the 4 of them have a total of 5 + 11 + 33 + 66 = <<5+11+33+66=115>>115 lemons.
-#### 115
-Question: Frances sells 20 cupcakes for $2 for each cupcake and  40  cookies at $1 each.  She buys five trays at $4 for each tray. How much money does Frances have left?","To find out how much money Frances has left, we first calculate the total amount she earned and then subtract her expenses.
+Math,0,"Question: Carmen goes to an auction to win an antique desk. She accepts the opening bid of $200 and continues bidding until she wins. The bids on the desk rise by $50 each time and 3 other people each bid once. Carmen bids after each of the 3 other people and eventually wins. How much money, in dollars, does the desk cost her?","Carmen accepted the opening bid of $200 and bids after each of the 3 other people. Since the bids rise by $50 each time, Carmen's bids will be $200 + $50 = $250 after the first person bids.
+After the second person bids, Carmen's bid will be $250 + $50 = $300.
+After the third person bids, Carmen's bid will be $300 + $50 = $350.
+Therefore, to win the antique desk, Carmen will have to pay $350.","3 other people are bidding on the desk so there are 3 bids * $50 per bid = $<<3*50=150>>150 added to the cost of the desk by other people.
+Carmen also has to bid against each person, so she also adds 3 bids * $50 per bid = $<<3*50=150>>150 to the overall cost.
+So in these bids, there has been a total of $150 + $150 = $<<150+150=300>>300 added to the initial cost of the desk.
+The desk therefore costs $200 opening bid + $300 added cost = $<<200+300=500>>500.
+#### 500"
+Math,1a,"Question: Daisy’s milk cow provides 16 cups of milk per day.  75% of the milk is consumed by Daisy’s kids.  Daisy uses 50% of the remaining milk to cook with.  How much milk is left over?
+Answer: The cow provides 16 cups of milk per day and the kids consume 75% so they drink 16*.75 = <<16*.75=12>>12 cups of milk
+The cow provides 16 cups of milk and the kids drink 12 cups leaving 16-12 = <<16-12=4>>4 cups of milk
+Daisy uses 50% of the remaining 4 cups of milk to cook with so she uses .50*4 = <<50*.01*4=2>>2 cups of milk
+She had 4 cups of milk and used 2 cups to cook with so that leaves 4-2 = <<4-2=2>>2 cups of milk
+#### 2
+Question: Olaf is sailing across the ocean with 25 men, including himself. He needs 1/2 a gallon of water per day per man. The boat can go 200 miles per day and he needs to travel 4,000 miles. How many gallons of water does he need?
+Answer: He needs 12.5 gallons per day because 25 x .5 = <<25*.5=12.5>>12.5
+It will take 20 days of travel because 4,000 / 200 = <<4000/200=20>>20
+He will need 250 gallons of water because 20 x 12.5 = <<20*12.5=250>>250
+#### 250
+Question: Carmen goes to an auction to win an antique desk. She accepts the opening bid of $200 and continues bidding until she wins. The bids on the desk rise by $50 each time and 3 other people each bid once. Carmen bids after each of the 3 other people and eventually wins. How much money, in dollars, does the desk cost her?","Answer: The opening bid was $200 and each subsequent bid increases by $50, so the total number of bids must be 200 + 50n, where n is the number of bids made by Carmen. Since each of the 3 other people bid once, Carmens must make 3 bids in total. Thus, the total cost of the desk to Carmen is 200 + 50(3) = 200 + 150 = $350.","3 other people are bidding on the desk so there are 3 bids * $50 per bid = $<<3*50=150>>150 added to the cost of the desk by other people.
+Carmen also has to bid against each person, so she also adds 3 bids * $50 per bid = $<<3*50=150>>150 to the overall cost.
+So in these bids, there has been a total of $150 + $150 = $<<150+150=300>>300 added to the initial cost of the desk.
+The desk therefore costs $200 opening bid + $300 added cost = $<<200+300=500>>500.
+#### 500"
+Math,1b,"Question: A cafe has 9 indoor tables and 11 outdoor tables. Each indoor table has 10 chairs, and each outdoor table has 3 chairs. How many chairs are there in all?
+Answer: There are 9 indoor tables * 10 chairs = <<9*10=90>>90 chairs.
+There are 11 outdoor tables * 3 chairs = <<11*3=33>>33 chairs.
+The total number of chairs is 90 chairs + 33 chairs = <<90+33=123>>123 chairs.
+#### 123
+Question: In a show, there can be 5 actors at a time. Every actor is in the show for about 15 minutes, and then another 5 actors come in. How many actors can there be on the show in 1 hour?
+Answer: One hour is 60 minutes, so there can be 60 / 15 = <<60/15=4>>4 different sets of actors.
+This means, that during one hour there can be 4 * 5 = <<4*5=20>>20 different actors in the show.
+#### 20
+Question: Carmen goes to an auction to win an antique desk. She accepts the opening bid of $200 and continues bidding until she wins. The bids on the desk rise by $50 each time and 3 other people each bid once. Carmen bids after each of the 3 other people and eventually wins. How much money, in dollars, does the desk cost her?","Answer: Since the bids on the desk rise by $50 each time, Carmen's winning bid is $200 + (3 * $50) = $200 + $150 = $350.
+Therefore, the desk costs Carmen $350.","3 other people are bidding on the desk so there are 3 bids * $50 per bid = $<<3*50=150>>150 added to the cost of the desk by other people.
+Carmen also has to bid against each person, so she also adds 3 bids * $50 per bid = $<<3*50=150>>150 to the overall cost.
+So in these bids, there has been a total of $150 + $150 = $<<150+150=300>>300 added to the initial cost of the desk.
+The desk therefore costs $200 opening bid + $300 added cost = $<<200+300=500>>500.
+#### 500"
+Math,2,"Question: Daisy’s milk cow provides 16 cups of milk per day.  75% of the milk is consumed by Daisy’s kids.  Daisy uses 50% of the remaining milk to cook with.  How much milk is left over?
+Answer: The cow provides 16 cups of milk per day and the kids consume 75% so they drink 16*.75 = <<16*.75=12>>12 cups of milk
+The cow provides 16 cups of milk and the kids drink 12 cups leaving 16-12 = <<16-12=4>>4 cups of milk
+Daisy uses 50% of the remaining 4 cups of milk to cook with so she uses .50*4 = <<50*.01*4=2>>2 cups of milk
+She had 4 cups of milk and used 2 cups to cook with so that leaves 4-2 = <<4-2=2>>2 cups of milk
+#### 2
+Question: Olaf is sailing across the ocean with 25 men, including himself. He needs 1/2 a gallon of water per day per man. The boat can go 200 miles per day and he needs to travel 4,000 miles. How many gallons of water does he need?
+Answer: He needs 12.5 gallons per day because 25 x .5 = <<25*.5=12.5>>12.5
+It will take 20 days of travel because 4,000 / 200 = <<4000/200=20>>20
+He will need 250 gallons of water because 20 x 12.5 = <<20*12.5=250>>250
+#### 250
+Question: A cafe has 9 indoor tables and 11 outdoor tables. Each indoor table has 10 chairs, and each outdoor table has 3 chairs. How many chairs are there in all?
+Answer: There are 9 indoor tables * 10 chairs = <<9*10=90>>90 chairs.
+There are 11 outdoor tables * 3 chairs = <<11*3=33>>33 chairs.
+The total number of chairs is 90 chairs + 33 chairs = <<90+33=123>>123 chairs.
+#### 123
+Question: In a show, there can be 5 actors at a time. Every actor is in the show for about 15 minutes, and then another 5 actors come in. How many actors can there be on the show in 1 hour?
+Answer: One hour is 60 minutes, so there can be 60 / 15 = <<60/15=4>>4 different sets of actors.
+This means, that during one hour there can be 4 * 5 = <<4*5=20>>20 different actors in the show.
+#### 20
+Question: Carmen goes to an auction to win an antique desk. She accepts the opening bid of $200 and continues bidding until she wins. The bids on the desk rise by $50 each time and 3 other people each bid once. Carmen bids after each of the 3 other people and eventually wins. How much money, in dollars, does the desk cost her?","Answer: The first bid was $200, and each subsequent bid increased by $50, meaning Carmen bid $200 + ($50 * 3) = $200 + $150 = $350. Since she bid three times, the total cost of the desk was $350 * 3 = $1050. Therefore, the antique desk cost Carmen $1050.","3 other people are bidding on the desk so there are 3 bids * $50 per bid = $<<3*50=150>>150 added to the cost of the desk by other people.
+Carmen also has to bid against each person, so she also adds 3 bids * $50 per bid = $<<3*50=150>>150 to the overall cost.
+So in these bids, there has been a total of $150 + $150 = $<<150+150=300>>300 added to the initial cost of the desk.
+The desk therefore costs $200 opening bid + $300 added cost = $<<200+300=500>>500.
+#### 500"
+Math,3a,"Question: Daisy’s milk cow provides 16 cups of milk per day.  75% of the milk is consumed by Daisy’s kids.  Daisy uses 50% of the remaining milk to cook with.  How much milk is left over?
+Answer: The cow provides 16 cups of milk per day and the kids consume 75% so they drink 16*.75 = <<16*.75=12>>12 cups of milk
+The cow provides 16 cups of milk and the kids drink 12 cups leaving 16-12 = <<16-12=4>>4 cups of milk
+Daisy uses 50% of the remaining 4 cups of milk to cook with so she uses .50*4 = <<50*.01*4=2>>2 cups of milk
+She had 4 cups of milk and used 2 cups to cook with so that leaves 4-2 = <<4-2=2>>2 cups of milk
+#### 2
+Question: Olaf is sailing across the ocean with 25 men, including himself. He needs 1/2 a gallon of water per day per man. The boat can go 200 miles per day and he needs to travel 4,000 miles. How many gallons of water does he need?
+Answer: He needs 12.5 gallons per day because 25 x .5 = <<25*.5=12.5>>12.5
+It will take 20 days of travel because 4,000 / 200 = <<4000/200=20>>20
+He will need 250 gallons of water because 20 x 12.5 = <<20*12.5=250>>250
+#### 250
+Question: Daisy’s milk cow provides 16 cups of milk per day.  75% of the milk is consumed by Daisy’s kids.  Daisy uses 50% of the remaining milk to cook with.  How much milk is left over?
+Answer: The cow provides 16 cups of milk per day and the kids consume 75% so they drink 16*.75 = <<16*.75=12>>12 cups of milk
+The cow provides 16 cups of milk and the kids drink 12 cups leaving 16-12 = <<16-12=4>>4 cups of milk
+Daisy uses 50% of the remaining 4 cups of milk to cook with so she uses .50*4 = <<50*.01*4=2>>2 cups of milk
+She had 4 cups of milk and used 2 cups to cook with so that leaves 4-2 = <<4-2=2>>2 cups of milk
+#### 2
+Question: Olaf is sailing across the ocean with 25 men, including himself. He needs 1/2 a gallon of water per day per man. The boat can go 200 miles per day and he needs to travel 4,000 miles. How many gallons of water does he need?
+Answer: He needs 12.5 gallons per day because 25 x .5 = <<25*.5=12.5>>12.5
+It will take 20 days of travel because 4,000 / 200 = <<4000/200=20>>20
+He will need 250 gallons of water because 20 x 12.5 = <<20*12.5=250>>250
+#### 250
+Question: Carmen goes to an auction to win an antique desk. She accepts the opening bid of $200 and continues bidding until she wins. The bids on the desk rise by $50 each time and 3 other people each bid once. Carmen bids after each of the 3 other people and eventually wins. How much money, in dollars, does the desk cost her?","Answer: The opening bid was $200 and each subsequent bid was $50 higher, so Carmen had to bid $200 + $50 + $50 + $50 = $<<200+50+50+50=350>>350 total bids to win the auction.
+Therefore, the antique desk ends up costing Carmen $350.","3 other people are bidding on the desk so there are 3 bids * $50 per bid = $<<3*50=150>>150 added to the cost of the desk by other people.
+Carmen also has to bid against each person, so she also adds 3 bids * $50 per bid = $<<3*50=150>>150 to the overall cost.
+So in these bids, there has been a total of $150 + $150 = $<<150+150=300>>300 added to the initial cost of the desk.
+The desk therefore costs $200 opening bid + $300 added cost = $<<200+300=500>>500.
+#### 500"
+Math,3b,"Question: A cafe has 9 indoor tables and 11 outdoor tables. Each indoor table has 10 chairs, and each outdoor table has 3 chairs. How many chairs are there in all?
+Answer: There are 9 indoor tables * 10 chairs = <<9*10=90>>90 chairs.
+There are 11 outdoor tables * 3 chairs = <<11*3=33>>33 chairs.
+The total number of chairs is 90 chairs + 33 chairs = <<90+33=123>>123 chairs.
+#### 123
+Question: In a show, there can be 5 actors at a time. Every actor is in the show for about 15 minutes, and then another 5 actors come in. How many actors can there be on the show in 1 hour?
+Answer: One hour is 60 minutes, so there can be 60 / 15 = <<60/15=4>>4 different sets of actors.
+This means, that during one hour there can be 4 * 5 = <<4*5=20>>20 different actors in the show.
+#### 20
+Question: A cafe has 9 indoor tables and 11 outdoor tables. Each indoor table has 10 chairs, and each outdoor table has 3 chairs. How many chairs are there in all?
+Answer: There are 9 indoor tables * 10 chairs = <<9*10=90>>90 chairs.
+There are 11 outdoor tables * 3 chairs = <<11*3=33>>33 chairs.
+The total number of chairs is 90 chairs + 33 chairs = <<90+33=123>>123 chairs.
+#### 123
+Question: In a show, there can be 5 actors at a time. Every actor is in the show for about 15 minutes, and then another 5 actors come in. How many actors can there be on the show in 1 hour?
+Answer: One hour is 60 minutes, so there can be 60 / 15 = <<60/15=4>>4 different sets of actors.
+This means, that during one hour there can be 4 * 5 = <<4*5=20>>20 different actors in the show.
+#### 20
+Question: Carmen goes to an auction to win an antique desk. She accepts the opening bid of $200 and continues bidding until she wins. The bids on the desk rise by $50 each time and 3 other people each bid once. Carmen bids after each of the 3 other people and eventually wins. How much money, in dollars, does the desk cost her?","Let's break it down:
 
-From the cupcakes, Frances earns $2 x 20 = $<<2*20=40>>40.
-From the cookies, Frances earns $1 x 40 = $<<1*40=40>>40.
-So, the total amount Frances earned is $40 + $40 = $<<40+40=80>>80.
+- The opening bid was $200.
+- After each of the 3 other people bid, the price increases by $50. So, the desk's price after the first bid is $200 + $50 = $250.
+- The price after the second bid is $250 + $50 = $300.
+- And the price after the third bid is $300 + $50 = $350.
 
-She bought 5 trays at $4 each, so her total expenses are $4 x 5 = $<<4*5=20>>20.
+Therefore, Carmen wins the desk for $350.
 
-Therefore, Frances has $80 - $20 = $<<80-20=60>>60 left. 
-Frances has $60 left.","20 cupcakes cost 20 x $2 =$<<20*2=40>>40.
-40 cookies cost 40 x $1 = $<<40*1=40>>40.
-So, Frances earns $40 + $40 = $<<40+40=80>>80 for selling cupcakes and cookies.
-The cost of five trays is 5 x $4 = $<<5*4=20>>20.
-Therefore, France will have $80 - $20 = $<<80-20=60>>60 left.
-#### 60"
-CSQA,0,"Question: What might you feel after doing housework for hours?
-A: anger
-B: not boredom
-C: stress
-D: boredom
-E: anxiety",C: stress,C
-CSQA,1a,"Question: When a couple is together, what does drinking alcohol lead to?
-A: death
-B: sickness
-C: children
-D: having sex
-E: disorientation
+So, the desk costs her $350.","3 other people are bidding on the desk so there are 3 bids * $50 per bid = $<<3*50=150>>150 added to the cost of the desk by other people.
+Carmen also has to bid against each person, so she also adds 3 bids * $50 per bid = $<<3*50=150>>150 to the overall cost.
+So in these bids, there has been a total of $150 + $150 = $<<150+150=300>>300 added to the initial cost of the desk.
+The desk therefore costs $200 opening bid + $300 added cost = $<<200+300=500>>500.
+#### 500"
+CSQA,0,"Question: Learning languages is difficult.  Even in a full immersion environment you're likely to make mistakes, mistakes will cause misinterpretation, which will be uncomfortable, which will cause what?,
+A: better communication
+B: overthinking
+C: frustration
+D: misunderstandings
+E: headaches",C: frustration,C
+CSQA,1a,"Question: Where should a cat be in a house?
+A: backyard
+B: rug
+C: room
+D: back yard
+E: floor
+Answer: E
+Question: Where would you get a ball if you do not have one?
+A: bowling alley
+B: soccer field
+C: sporting event
+D: sporting goods store
+E: cuddle
 Answer: D
-Question: John needed to go across the country so he ordered tickets online and got into his car.  Where might he be going?
-A: train station
-B: opera
-C: car rental shop
-D: show
-E: race track
-Answer: A
-Question: What might you feel after doing housework for hours?
-A: anger
-B: not boredom
-C: stress
-D: boredom
-E: anxiety",Answer: C,C
-CSQA,1b,"Question: Learning about science can cause what emotion?
-A: smiles
-B: feeling hot
-C: invent
-D: excitement
-E: frustration
+Question: Learning languages is difficult.  Even in a full immersion environment you're likely to make mistakes, mistakes will cause misinterpretation, which will be uncomfortable, which will cause what?,
+A: better communication
+B: overthinking
+C: frustration
+D: misunderstandings
+E: headaches",Answer: C,C
+CSQA,1b,"Question: Where might astronauts who miss a landing end up?
+A: spaceship
+B: suface of moon
+C: space shuttle
+D: at the
+E: orbit
 Answer: E
-Question: The person had always assumed, but discovering the truth came as a what?
-A: hurt
-B: satisfaction
-C: understanding
-D: joy
-E: shock
+Question: Where would you likely find a laser in a university?
+A: cd players
+B: laboratory
+C: aircraft
+D: hospital
+E: cdrom drive
+Answer: B
+Question: Learning languages is difficult.  Even in a full immersion environment you're likely to make mistakes, mistakes will cause misinterpretation, which will be uncomfortable, which will cause what?,
+A: better communication
+B: overthinking
+C: frustration
+D: misunderstandings
+E: headaches",Answer: C,C
+CSQA,2,"Question: Where should a cat be in a house?
+A: backyard
+B: rug
+C: room
+D: back yard
+E: floor
 Answer: E
-Question: What might you feel after doing housework for hours?
-A: anger
-B: not boredom
-C: stress
-D: boredom
-E: anxiety",Answer: D,C
-CSQA,2,"Question: When a couple is together, what does drinking alcohol lead to?
-A: death
-B: sickness
-C: children
-D: having sex
-E: disorientation
+Question: Where would you get a ball if you do not have one?
+A: bowling alley
+B: soccer field
+C: sporting event
+D: sporting goods store
+E: cuddle
 Answer: D
-Question: John needed to go across the country so he ordered tickets online and got into his car.  Where might he be going?
-A: train station
-B: opera
-C: car rental shop
-D: show
-E: race track
-Answer: A
-Question: Learning about science can cause what emotion?
-A: smiles
-B: feeling hot
-C: invent
-D: excitement
-E: frustration
+Question: Where might astronauts who miss a landing end up?
+A: spaceship
+B: suface of moon
+C: space shuttle
+D: at the
+E: orbit
 Answer: E
-Question: The person had always assumed, but discovering the truth came as a what?
-A: hurt
-B: satisfaction
-C: understanding
-D: joy
-E: shock
+Question: Where would you likely find a laser in a university?
+A: cd players
+B: laboratory
+C: aircraft
+D: hospital
+E: cdrom drive
+Answer: B
+Question: Learning languages is difficult.  Even in a full immersion environment you're likely to make mistakes, mistakes will cause misinterpretation, which will be uncomfortable, which will cause what?,
+A: better communication
+B: overthinking
+C: frustration
+D: misunderstandings
+E: headaches",Answer: C,C
+CSQA,3a,"Question: Where should a cat be in a house?
+A: backyard
+B: rug
+C: room
+D: back yard
+E: floor
 Answer: E
-Question: What might you feel after doing housework for hours?
-A: anger
-B: not boredom
-C: stress
-D: boredom
-E: anxiety",Answer: C,C
-CSQA,3a,"Question: When a couple is together, what does drinking alcohol lead to?
-A: death
-B: sickness
-C: children
-D: having sex
-E: disorientation
+Question: Where would you get a ball if you do not have one?
+A: bowling alley
+B: soccer field
+C: sporting event
+D: sporting goods store
+E: cuddle
 Answer: D
-Question: John needed to go across the country so he ordered tickets online and got into his car.  Where might he be going?
-A: train station
-B: opera
-C: car rental shop
-D: show
-E: race track
-Answer: A
-Question: When a couple is together, what does drinking alcohol lead to?
-A: death
-B: sickness
-C: children
-D: having sex
-E: disorientation
+Question: Where should a cat be in a house?
+A: backyard
+B: rug
+C: room
+D: back yard
+E: floor
+Answer: E
+Question: Where would you get a ball if you do not have one?
+A: bowling alley
+B: soccer field
+C: sporting event
+D: sporting goods store
+E: cuddle
 Answer: D
-Question: John needed to go across the country so he ordered tickets online and got into his car.  Where might he be going?
-A: train station
-B: opera
-C: car rental shop
-D: show
-E: race track
-Answer: A
-Question: What might you feel after doing housework for hours?
-A: anger
-B: not boredom
-C: stress
-D: boredom
-E: anxiety",Answer: C,C
-CSQA,3b,"Question: Learning about science can cause what emotion?
-A: smiles
-B: feeling hot
-C: invent
-D: excitement
-E: frustration
+Question: Learning languages is difficult.  Even in a full immersion environment you're likely to make mistakes, mistakes will cause misinterpretation, which will be uncomfortable, which will cause what?,
+A: better communication
+B: overthinking
+C: frustration
+D: misunderstandings
+E: headaches",Answer: C: frustration,C
+CSQA,3b,"Question: Where might astronauts who miss a landing end up?
+A: spaceship
+B: suface of moon
+C: space shuttle
+D: at the
+E: orbit
 Answer: E
-Question: The person had always assumed, but discovering the truth came as a what?
-A: hurt
-B: satisfaction
-C: understanding
-D: joy
-E: shock
+Question: Where would you likely find a laser in a university?
+A: cd players
+B: laboratory
+C: aircraft
+D: hospital
+E: cdrom drive
+Answer: B
+Question: Where might astronauts who miss a landing end up?
+A: spaceship
+B: suface of moon
+C: space shuttle
+D: at the
+E: orbit
 Answer: E
-Question: Learning about science can cause what emotion?
-A: smiles
-B: feeling hot
-C: invent
-D: excitement
-E: frustration
-Answer: E
-Question: The person had always assumed, but discovering the truth came as a what?
-A: hurt
-B: satisfaction
-C: understanding
-D: joy
-E: shock
-Answer: E
-Question: What might you feel after doing housework for hours?
-A: anger
-B: not boredom
-C: stress
-D: boredom
-E: anxiety",Answer: D,C
-StrategyQA,0,"Question: Ethiopian cuisine specializes in vegetables and spicy meat dishes. Ethiopia is a landlocked country without access to seas or oceans.
-Is shrimp prevalent in Ethiopian cuisine?","No, shrimp is not prevalent in Ethiopian cuisine, as the country is landlocked and does not have access to seas or oceans. Ethiopian cuisine typically consists of vegetables, grains, and different types of meat, such as spicy meat dishes like doro wat (chicken stew) or kitfo (ground beef dish). Seafood, including shrimp, is not commonly found in traditional Ethiopian dishes.",False
-StrategyQA,1a,"Question: The Common Era has lasted for over 2,000 years as of 2020. A tree named Methuselah, from California's White Mountains, is almost 5,000 years old.
-Is entire Common Era minuscule to lifespan of some trees?
+Question: Where would you likely find a laser in a university?
+A: cd players
+B: laboratory
+C: aircraft
+D: hospital
+E: cdrom drive
+Answer: B
+Question: Learning languages is difficult.  Even in a full immersion environment you're likely to make mistakes, mistakes will cause misinterpretation, which will be uncomfortable, which will cause what?,
+A: better communication
+B: overthinking
+C: frustration
+D: misunderstandings
+E: headaches",Answer: C,C
+StrategyQA,0,"Question: A zoot suit was a man's suit of an exaggerated style popular in the 1940s. Triton is one of the coldest planets in the solar system. Triton is located about 2.8 billion miles from the warmth of the sun. Triton has an average temperature of -235.0°C A zoot suit is made of thin material such as cloth.
+Would hypothermia be a concern for a human wearing zoot suit on Triton?","Yes, hypothermia would definitely be a concern for a human wearing a zoot suit on Triton. The average temperature on Triton is extremely cold at -235.0°C, which is far below freezing. The thin material of a zoot suit would provide very little insulation against such extreme cold temperatures, putting the wearer at risk of hypothermia very quickly. Additional protective clothing and equipment would be necessary to survive in such frigid conditions.",True
+StrategyQA,1a,"Question: A pound sterling is fiat money. Fiat money is backed by government decree and has no intrinsic value. One pound sterling is worth about 1.24 US dollars by May of 2020.
+Is a pound sterling valuable?
+Answer: False
+Question: A CPU circuit chip is about an inch across. A housekey is generally less than a half-inch across.
+Would a modern central processing unit circuit chip fit on a housekey?
+Answer: False
+Question: A zoot suit was a man's suit of an exaggerated style popular in the 1940s. Triton is one of the coldest planets in the solar system. Triton is located about 2.8 billion miles from the warmth of the sun. Triton has an average temperature of -235.0°C A zoot suit is made of thin material such as cloth.
+Would hypothermia be a concern for a human wearing zoot suit on Triton?",Answer: True,True
+StrategyQA,1b,"Question: Beauty and the Beast features a castle full of items that move and speak on their own.  An inanimate object is one that is not alive in any way. Main characters of Beauty and the Beast include a talking teacup and a sassy duster.
+Do inanimate objects come alive in Beauty and the Beast?
 Answer: True
-Question: J. S. Dorton Arena is a 7,610-seat multi-purpose arena located in Raleigh, North Carolina. On an average day in fiscal 2013, about 12,000 people boarded or left trains at 30th Street.
-Could all of the people who pass through 30th Street Station every day fit in Dorton Arena?
+Question: The small intestine does not digest cellulose  Cotton fiber is 90% cellulose
+Will the small intenstine break down a cotton ball?
 Answer: False
-Question: Ethiopian cuisine specializes in vegetables and spicy meat dishes. Ethiopia is a landlocked country without access to seas or oceans.
-Is shrimp prevalent in Ethiopian cuisine?",Answer: False,False
-StrategyQA,1b,"Question: A church is a place of worship in Christianity. Jesus Christ is worshiped by adherents of Christianity. 666 is a symbolic representation of the Antichrist. An Antichrist is someone that opposes Jesus Christ.
-Would the number 666 appear in a church?
+Question: A zoot suit was a man's suit of an exaggerated style popular in the 1940s. Triton is one of the coldest planets in the solar system. Triton is located about 2.8 billion miles from the warmth of the sun. Triton has an average temperature of -235.0°C A zoot suit is made of thin material such as cloth.
+Would hypothermia be a concern for a human wearing zoot suit on Triton?",Answer: True,True
+StrategyQA,2,"Question: A pound sterling is fiat money. Fiat money is backed by government decree and has no intrinsic value. One pound sterling is worth about 1.24 US dollars by May of 2020.
+Is a pound sterling valuable?
 Answer: False
-Question: Rowing is a sport involving propelling boats. Boats need a large body of water in order to move. There are no indoor facilities big enough to host a pool with enough size for a boating competition.
-Can rowing competitions take place indoors?
+Question: A CPU circuit chip is about an inch across. A housekey is generally less than a half-inch across.
+Would a modern central processing unit circuit chip fit on a housekey?
 Answer: False
-Question: Ethiopian cuisine specializes in vegetables and spicy meat dishes. Ethiopia is a landlocked country without access to seas or oceans.
-Is shrimp prevalent in Ethiopian cuisine?",Answer: False,False
-StrategyQA,2,"Question: The Common Era has lasted for over 2,000 years as of 2020. A tree named Methuselah, from California's White Mountains, is almost 5,000 years old.
-Is entire Common Era minuscule to lifespan of some trees?
+Question: Beauty and the Beast features a castle full of items that move and speak on their own.  An inanimate object is one that is not alive in any way. Main characters of Beauty and the Beast include a talking teacup and a sassy duster.
+Do inanimate objects come alive in Beauty and the Beast?
 Answer: True
-Question: J. S. Dorton Arena is a 7,610-seat multi-purpose arena located in Raleigh, North Carolina. On an average day in fiscal 2013, about 12,000 people boarded or left trains at 30th Street.
-Could all of the people who pass through 30th Street Station every day fit in Dorton Arena?
+Question: The small intestine does not digest cellulose  Cotton fiber is 90% cellulose
+Will the small intenstine break down a cotton ball?
 Answer: False
-Question: A church is a place of worship in Christianity. Jesus Christ is worshiped by adherents of Christianity. 666 is a symbolic representation of the Antichrist. An Antichrist is someone that opposes Jesus Christ.
-Would the number 666 appear in a church?
+Question: A zoot suit was a man's suit of an exaggerated style popular in the 1940s. Triton is one of the coldest planets in the solar system. Triton is located about 2.8 billion miles from the warmth of the sun. Triton has an average temperature of -235.0°C A zoot suit is made of thin material such as cloth.
+Would hypothermia be a concern for a human wearing zoot suit on Triton?",True,True
+StrategyQA,3a,"Question: A pound sterling is fiat money. Fiat money is backed by government decree and has no intrinsic value. One pound sterling is worth about 1.24 US dollars by May of 2020.
+Is a pound sterling valuable?
 Answer: False
-Question: Rowing is a sport involving propelling boats. Boats need a large body of water in order to move. There are no indoor facilities big enough to host a pool with enough size for a boating competition.
-Can rowing competitions take place indoors?
+Question: A CPU circuit chip is about an inch across. A housekey is generally less than a half-inch across.
+Would a modern central processing unit circuit chip fit on a housekey?
 Answer: False
-Question: Ethiopian cuisine specializes in vegetables and spicy meat dishes. Ethiopia is a landlocked country without access to seas or oceans.
-Is shrimp prevalent in Ethiopian cuisine?",True,False
-StrategyQA,3a,"Question: The Common Era has lasted for over 2,000 years as of 2020. A tree named Methuselah, from California's White Mountains, is almost 5,000 years old.
-Is entire Common Era minuscule to lifespan of some trees?
+Question: A pound sterling is fiat money. Fiat money is backed by government decree and has no intrinsic value. One pound sterling is worth about 1.24 US dollars by May of 2020.
+Is a pound sterling valuable?
+Answer: False
+Question: A CPU circuit chip is about an inch across. A housekey is generally less than a half-inch across.
+Would a modern central processing unit circuit chip fit on a housekey?
+Answer: False
+Question: A zoot suit was a man's suit of an exaggerated style popular in the 1940s. Triton is one of the coldest planets in the solar system. Triton is located about 2.8 billion miles from the warmth of the sun. Triton has an average temperature of -235.0°C A zoot suit is made of thin material such as cloth.
+Would hypothermia be a concern for a human wearing zoot suit on Triton?",Answer: True,True
+StrategyQA,3b,"Question: Beauty and the Beast features a castle full of items that move and speak on their own.  An inanimate object is one that is not alive in any way. Main characters of Beauty and the Beast include a talking teacup and a sassy duster.
+Do inanimate objects come alive in Beauty and the Beast?
 Answer: True
-Question: J. S. Dorton Arena is a 7,610-seat multi-purpose arena located in Raleigh, North Carolina. On an average day in fiscal 2013, about 12,000 people boarded or left trains at 30th Street.
-Could all of the people who pass through 30th Street Station every day fit in Dorton Arena?
+Question: The small intestine does not digest cellulose  Cotton fiber is 90% cellulose
+Will the small intenstine break down a cotton ball?
 Answer: False
-Question: The Common Era has lasted for over 2,000 years as of 2020. A tree named Methuselah, from California's White Mountains, is almost 5,000 years old.
-Is entire Common Era minuscule to lifespan of some trees?
+Question: Beauty and the Beast features a castle full of items that move and speak on their own.  An inanimate object is one that is not alive in any way. Main characters of Beauty and the Beast include a talking teacup and a sassy duster.
+Do inanimate objects come alive in Beauty and the Beast?
 Answer: True
-Question: J. S. Dorton Arena is a 7,610-seat multi-purpose arena located in Raleigh, North Carolina. On an average day in fiscal 2013, about 12,000 people boarded or left trains at 30th Street.
-Could all of the people who pass through 30th Street Station every day fit in Dorton Arena?
+Question: The small intestine does not digest cellulose  Cotton fiber is 90% cellulose
+Will the small intenstine break down a cotton ball?
 Answer: False
-Question: Ethiopian cuisine specializes in vegetables and spicy meat dishes. Ethiopia is a landlocked country without access to seas or oceans.
-Is shrimp prevalent in Ethiopian cuisine?",Answer: False,False
-StrategyQA,3b,"Question: A church is a place of worship in Christianity. Jesus Christ is worshiped by adherents of Christianity. 666 is a symbolic representation of the Antichrist. An Antichrist is someone that opposes Jesus Christ.
-Would the number 666 appear in a church?
-Answer: False
-Question: Rowing is a sport involving propelling boats. Boats need a large body of water in order to move. There are no indoor facilities big enough to host a pool with enough size for a boating competition.
-Can rowing competitions take place indoors?
-Answer: False
-Question: A church is a place of worship in Christianity. Jesus Christ is worshiped by adherents of Christianity. 666 is a symbolic representation of the Antichrist. An Antichrist is someone that opposes Jesus Christ.
-Would the number 666 appear in a church?
-Answer: False
-Question: Rowing is a sport involving propelling boats. Boats need a large body of water in order to move. There are no indoor facilities big enough to host a pool with enough size for a boating competition.
-Can rowing competitions take place indoors?
-Answer: False
-Question: Ethiopian cuisine specializes in vegetables and spicy meat dishes. Ethiopia is a landlocked country without access to seas or oceans.
-Is shrimp prevalent in Ethiopian cuisine?",Answer: False,False
-SayCan,0,Question: Provide step-by-step instructions for the following task: Navigate to the table.,"1. Stand up or adjust your position to face the general direction of where the table is located.
-2. Walk towards the table, making sure to avoid any obstacles or other people in your path.
-3. Once you are close to the table, identify the specific table you are looking for if there are multiple tables in the area.
-4. If needed, ask for assistance or guidance to help you locate the table.
-5. Approach the table and position yourself in front of it or around it, depending on the purpose of your visit to the table.
-6. Once you have successfully navigated to the table, you have completed the task.","1. go to the table, 2. done"
-SayCan,1a,"Question: Provide step-by-step instructions for the following task: How would you restock chips in the drawer?
-Answer: 1. find the bag of chips, 2. pick up the bag of chips, 3. go to the drawer, 4. put down the bag of chips, 5. open the drawer, 6. pick up the bag of chips, 7. put down the bag of chips, 8. close the drawer, 9. done
-Question: Provide step-by-step instructions for the following task: Could you get me something refreshing?
-Answer: 1. find a water, 2. pick up the water, 3. bring it to you, 4. put down the water, 5. done.
-Question: Provide step-by-step instructions for the following task: Navigate to the table.","Answer: 1. Stand up from your current location, 2. Walk towards the table, 3. Pay attention to your surroundings to avoid obstacles, 4. Arrive at the table, 5. Complete the task.","1. go to the table, 2. done"
-SayCan,1b,"Question: Provide step-by-step instructions for the following task: Could you get me a soda that is not caffeinated?
-Answer: 1. find a 7up, 2. pick up the 7up, 3. bring it to you, 4. put down the 7up, 5. done
-Question: Provide step-by-step instructions for the following task: Grab the coke can.
+Question: A zoot suit was a man's suit of an exaggerated style popular in the 1940s. Triton is one of the coldest planets in the solar system. Triton is located about 2.8 billion miles from the warmth of the sun. Triton has an average temperature of -235.0°C A zoot suit is made of thin material such as cloth.
+Would hypothermia be a concern for a human wearing zoot suit on Triton?",Answer: True,True
+SayCan,0,Question: Could you get me something caffeinated?,"Sure, how about a cup of coffee, a can of soda, or a shot of espresso? Let me know your preference.","1. find a coke, 2. pick up the coke, 3. bring it to you, 4. put down the coke, 5. done."
+SayCan,1a,"Question: Pick up the coke can.
 Answer: 1. pick up the coke can, 2. done
-Question: Provide step-by-step instructions for the following task: Navigate to the table.","Answer: 1. Stand up from your current location, 2. Turn towards the direction of the table, 3. Walk towards the table, 4. Stop when you reach the table, 5. Done","1. go to the table, 2. done"
-SayCan,2,"Question: Provide step-by-step instructions for the following task: How would you restock chips in the drawer?
-Answer: 1. find the bag of chips, 2. pick up the bag of chips, 3. go to the drawer, 4. put down the bag of chips, 5. open the drawer, 6. pick up the bag of chips, 7. put down the bag of chips, 8. close the drawer, 9. done
-Question: Provide step-by-step instructions for the following task: Could you get me something refreshing?
-Answer: 1. find a water, 2. pick up the water, 3. bring it to you, 4. put down the water, 5. done.
-Question: Provide step-by-step instructions for the following task: Could you get me a soda that is not caffeinated?
-Answer: 1. find a 7up, 2. pick up the 7up, 3. bring it to you, 4. put down the 7up, 5. done
-Question: Provide step-by-step instructions for the following task: Grab the coke can.
+Question: How would you grab the coke can?
 Answer: 1. pick up the coke can, 2. done
-Question: Provide step-by-step instructions for the following task: Navigate to the table.","Answer: 1. Stand up from your current location, 2. walk towards the table, 3. reach the table, 4. done.","1. go to the table, 2. done"
-SayCan,3a,"Question: Provide step-by-step instructions for the following task: How would you restock chips in the drawer?
-Answer: 1. find the bag of chips, 2. pick up the bag of chips, 3. go to the drawer, 4. put down the bag of chips, 5. open the drawer, 6. pick up the bag of chips, 7. put down the bag of chips, 8. close the drawer, 9. done
-Question: Provide step-by-step instructions for the following task: Could you get me something refreshing?
-Answer: 1. find a water, 2. pick up the water, 3. bring it to you, 4. put down the water, 5. done.
-Question: Provide step-by-step instructions for the following task: How would you restock chips in the drawer?
-Answer: 1. find the bag of chips, 2. pick up the bag of chips, 3. go to the drawer, 4. put down the bag of chips, 5. open the drawer, 6. pick up the bag of chips, 7. put down the bag of chips, 8. close the drawer, 9. done
-Question: Provide step-by-step instructions for the following task: Could you get me something refreshing?
-Answer: 1. find a water, 2. pick up the water, 3. bring it to you, 4. put down the water, 5. done.
-Question: Provide step-by-step instructions for the following task: Navigate to the table.","Answer: 1. Stand up from your current position, 2. Walk towards the table, 3. Keep moving until you reach the table, 4. Stop at the table, 5. Done.","1. go to the table, 2. done"
-SayCan,3b,"Question: Provide step-by-step instructions for the following task: Could you get me a soda that is not caffeinated?
-Answer: 1. find a 7up, 2. pick up the 7up, 3. bring it to you, 4. put down the 7up, 5. done
-Question: Provide step-by-step instructions for the following task: Grab the coke can.
+Question: Could you get me something caffeinated?","Answer: Sure, would you like a Coke?","1. find a coke, 2. pick up the coke, 3. bring it to you, 4. put down the coke, 5. done."
+SayCan,1b,"Question: Go to the table.
+Answer: 1. go to the table, 2. done
+Question: Bring me everything from the table.
+Answer: 1. go to the table, 2. pick up the energy bar, 3. bring it to you, 4. put down the energy bar, 5. go to the table, 6. pick up the multigrain chips, 7. bring it to you, 8. put down the multigrain chips, 9. done
+Question: Could you get me something caffeinated?","Answer: 1. go to the kitchen, 2. find a caffeinated drink, 3. bring it to you, 4. done","1. find a coke, 2. pick up the coke, 3. bring it to you, 4. put down the coke, 5. done."
+SayCan,2,"Question: Pick up the coke can.
 Answer: 1. pick up the coke can, 2. done
-Question: Provide step-by-step instructions for the following task: Could you get me a soda that is not caffeinated?
-Answer: 1. find a 7up, 2. pick up the 7up, 3. bring it to you, 4. put down the 7up, 5. done
-Question: Provide step-by-step instructions for the following task: Grab the coke can.
+Question: How would you grab the coke can?
 Answer: 1. pick up the coke can, 2. done
-Question: Provide step-by-step instructions for the following task: Navigate to the table.","Answer: 1. Stand up from your current position, 2. Walk towards the table, 3. Stop once you reach the table, 4. Done.","1. go to the table, 2. done"
+Question: Go to the table.
+Answer: 1. go to the table, 2. done
+Question: Bring me everything from the table.
+Answer: 1. go to the table, 2. pick up the energy bar, 3. bring it to you, 4. put down the energy bar, 5. go to the table, 6. pick up the multigrain chips, 7. bring it to you, 8. put down the multigrain chips, 9. done
+Question: Could you get me something caffeinated?","Answer: 1. go to the kitchen, 2. pick up the coffee canister, 3. bring it to you, 4. done","1. find a coke, 2. pick up the coke, 3. bring it to you, 4. put down the coke, 5. done."
+SayCan,3a,"Question: Pick up the coke can.
+Answer: 1. pick up the coke can, 2. done
+Question: How would you grab the coke can?
+Answer: 1. pick up the coke can, 2. done
+Question: Pick up the coke can.
+Answer: 1. pick up the coke can, 2. done
+Question: How would you grab the coke can?
+Answer: 1. pick up the coke can, 2. done
+Question: Could you get me something caffeinated?","Answer: Sure, would you like a Coke?","1. find a coke, 2. pick up the coke, 3. bring it to you, 4. put down the coke, 5. done."
+SayCan,3b,"Question: Go to the table.
+Answer: 1. go to the table, 2. done
+Question: Bring me everything from the table.
+Answer: 1. go to the table, 2. pick up the energy bar, 3. bring it to you, 4. put down the energy bar, 5. go to the table, 6. pick up the multigrain chips, 7. bring it to you, 8. put down the multigrain chips, 9. done
+Question: Go to the table.
+Answer: 1. go to the table, 2. done
+Question: Bring me everything from the table.
+Answer: 1. go to the table, 2. pick up the energy bar, 3. bring it to you, 4. put down the energy bar, 5. go to the table, 6. pick up the multigrain chips, 7. bring it to you, 8. put down the multigrain chips, 9. done
+Question: Could you get me something caffeinated?","Answer: 1. go to the kitchen, 2. find the coffee, 3. bring it to you, 4. done","1. find a coke, 2. pick up the coke, 3. bring it to you, 4. put down the coke, 5. done."

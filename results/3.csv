@@ -1,403 +1,351 @@
 Task Class,Case,Prompt,Response,Expected
-Math,0,"Question: Michael is traveling on the interstate at an average speed of 50km/hr (taking into account all the necessary stops for gas, relaxation, etc.). If he goes on like this for 3 days, and the distance between Alaska and Texas is 6000 km, what percentage of this distance has he covered?","First, let's calculate how far Michael travels in 3 days:
+Math,0,"Question: Carol and Jennifer are sisters from Los Angeles who love collecting signatures from celebrities. During their summer break from school, the sisters spend every afternoon collecting signatures. After five weeks, Carol and Jennifer compare their autograph books, counting up the number of signatures each sister has collected. Carol has 20 signatures in her book, and Jennifer has 44. The sisters have three more weeks of summer vacation, and they decide they want to reach 100 signatures between them by the end of the summer. How many signatures do the sisters need to collect to reach their goal?","In total, Carol and Jennifer currently have 20 + 44 = 64 signatures.
+To reach their goal of 100 signatures, they need to collect 100 - 64 = 36 more signatures.","Carol and Jennifer have already collected 20 + 44 signatures = <<20+44=64>>64 signatures.
+Since their goal is 100, they need to collect 100 - 64 signatures. 100 - 64 = <<100-64=36>>36 signatures
+#### 36"
+Math,1a,"Question: Bob enters cycling competitions every single week and hopes to win the 100 dollar grand prize each time. For the first 2 weeks, he managed first place and got 100 dollars each week. He is saving up for a puppy that costs 1000 dollars. What is the minimum number of additional weeks Bob must win first place?
+Answer: Two weeks already passed and Bob has 200 dollars.
+Bob needs 1000-200=<<1000-200=800>>800 more dollars.
+Bob needs to win the competition for at least 800/100=<<800/100=8>>8 more weeks.
+#### 8
+Question: John bought a tennis racket. He also bought sneakers that cost $200 and a sports outfit that cost $250. He spent a total of $750 for all those items. What was the price of the racket?
+Answer: Total amount spent for athletic shoes and sportswear is $200 + $250 = $<<200+250=450>>450.
+The price of the racket is $750 - $450 = $<<750-450=300>>300.
+#### 300
+Question: Carol and Jennifer are sisters from Los Angeles who love collecting signatures from celebrities. During their summer break from school, the sisters spend every afternoon collecting signatures. After five weeks, Carol and Jennifer compare their autograph books, counting up the number of signatures each sister has collected. Carol has 20 signatures in her book, and Jennifer has 44. The sisters have three more weeks of summer vacation, and they decide they want to reach 100 signatures between them by the end of the summer. How many signatures do the sisters need to collect to reach their goal?","Answer: Between Carol and Jennifer, they currently have 20 + 44 = <<20+44=64>>64 signatures.
+They need to collect 100 - 64 = <<100-64=36>>36 more signatures to reach their goal.
+#### 36","Carol and Jennifer have already collected 20 + 44 signatures = <<20+44=64>>64 signatures.
+Since their goal is 100, they need to collect 100 - 64 signatures. 100 - 64 = <<100-64=36>>36 signatures
+#### 36"
+Math,1b,"Question: Daragh had 20 stuffed bears. She took out her favorite 8 bears and then equally divided the other bears among her 3 sisters. Daragh's youngest sister, Eden, already had 10 stuffed bears. How many stuffed bears does Eden have now?
+Answer: Take the number of bears Daragh has left after taking her favorite 8 bears out: 20 bears - 8 bears = <<20-8=12>>12 bears.
+Divide these amongst Daragh's 3 sisters: 12 bears / 3 sisters = <<12/3=4>>4 bears per sister.
+Add the 4 bears to Eden's current bears: 10 bears + 4 bears = <<10+4=14>>14 bears.
+#### 14
+Question: Elizabeth has 10 reusable water bottles. She loses 2 water bottles at school. Then someone steals 1 of her water bottles at dance practice. To avoid any future theft of her water bottles, Elizabeth places 3 stickers on each of her remaining bottles. How many stickers does Elizabeth use in total on her water bottles?
+Answer: Elizabeth has 10 - 2 - 1 = <<10-2-1=7>>7 water bottles
+Elizabeth uses 7 * 3 = <<7*3=21>>21 stickers
+#### 21
+Question: Carol and Jennifer are sisters from Los Angeles who love collecting signatures from celebrities. During their summer break from school, the sisters spend every afternoon collecting signatures. After five weeks, Carol and Jennifer compare their autograph books, counting up the number of signatures each sister has collected. Carol has 20 signatures in her book, and Jennifer has 44. The sisters have three more weeks of summer vacation, and they decide they want to reach 100 signatures between them by the end of the summer. How many signatures do the sisters need to collect to reach their goal?","Answer: 
 
-Speed = 50 km/hr
-Time = 3 days = 3 days x 24 hours/day = 72 hours
-
-Distance = Speed x Time
-Distance = 50 km/hr x 72 hr
-Distance = 3600 km
-
-Now, let's calculate the percentage of the distance between Alaska and Texas that Michael has covered:
-
-Percentage Covered = (Distance Covered / Total Distance) x 100%
-Percentage Covered = (3600 km / 6000 km) x 100%
-Percentage Covered = 0.60 x 100%
-Percentage Covered = 60%
-
-Therefore, Michael has covered 60% of the distance between Alaska and Texas in 3 days.","There are 24 hours in each day, so he has been traveling for a total of 3*24 = <<24*3=72>>72 hours
-At a rate of 50km/hr he has covered 50*72 = <<50*72=3600>>3600 km
-3600km as a percentage of 6000km is (3600/6000)*100% = 60%
-#### 60"
-Math,1a,"Question: Keegan is in school for 7.5 hours each day and he is taking 7 classes. He has history and chemistry classes for a combined total of 1.5 hours. How many minutes does Keegan spend in one of his other classes on average?
-Answer: He has 7-2=<<7-2=5>>5 other classes
-7.5 hours - 1.5 hours = <<7.5-1.5=6>>6 hours
-6 hours = <<6*60=360>>360 minutes
-360/5 = <<360/5=72>>72 minutes
-Keegan spends 72 minutes in one of his other classes.
-#### 72
-Question: Bogan laid out 10 maggots for her pet beetle. The beetle only ate 1 and Bogan had to throw out the rest. Later that day, she tried feeding again and the beetle ate 3. If Bogan served 20 maggots in total, how many did she attempt to feed the beetle the second time?
-Answer: Bogan served a total of <<20=20>>20 maggots
-Bogan gave the beetles 10 maggots in the first feeding
-Bogan gave the beetles 20-10=<<20-10=10>>10 maggots in the second feeding
-#### 10
-Question: Michael is traveling on the interstate at an average speed of 50km/hr (taking into account all the necessary stops for gas, relaxation, etc.). If he goes on like this for 3 days, and the distance between Alaska and Texas is 6000 km, what percentage of this distance has he covered?","Answer: 
-
-Michael travels at 50 km/hr for 3 days, so he covers a total distance of 50 km/hr * 24 hr/day * 3 days = 3600 km.
-
-Therefore, Michael has covered 3600 km / 6000 km = 0.6 or 60% of the total distance between Alaska and Texas.","There are 24 hours in each day, so he has been traveling for a total of 3*24 = <<24*3=72>>72 hours
-At a rate of 50km/hr he has covered 50*72 = <<50*72=3600>>3600 km
-3600km as a percentage of 6000km is (3600/6000)*100% = 60%
-#### 60"
-Math,1b,"Question: If Joe spent 1/9 of his pocket money of $450 on chocolates and 2/5 on fruits, how much money does he have left?
-Answer: Joe spent 1/9 * $450 = $<<1/9*450=50>>50 on chocolate.
-Joe spent 2/5 * $450 = $<<2/5*450=180>>180 on fruits.
-Joe has $450 - $50 - $180 = $<<450-50-180=220>>220 left.
-#### 220
-Question: For Halloween, Taquon, Mack and Jafari put their candy together and they had 418 pieces of candy. If Taquon and Mack each had 171 pieces of candy, how many pieces of candy did Jafari start with?
-Answer: Taquon + Mack = 2 * 171 = 342 pieces
-418 - 342 = <<418-342=76>>76 pieces
-Jafari started with 76 pieces of candy.
-#### 76
-Question: Michael is traveling on the interstate at an average speed of 50km/hr (taking into account all the necessary stops for gas, relaxation, etc.). If he goes on like this for 3 days, and the distance between Alaska and Texas is 6000 km, what percentage of this distance has he covered?","Answer: In 3 days, Michael travels for 3 * 50 = <<3*50=150>>150 km.
-Therefore, he covers 150 * 3 = <<150*3=450>>450 km in total.
-The percentage he has covered is (450 / 6000) * 100% = 7.5%.
-#### 7.5%","There are 24 hours in each day, so he has been traveling for a total of 3*24 = <<24*3=72>>72 hours
-At a rate of 50km/hr he has covered 50*72 = <<50*72=3600>>3600 km
-3600km as a percentage of 6000km is (3600/6000)*100% = 60%
-#### 60"
-Math,2,"Question: Keegan is in school for 7.5 hours each day and he is taking 7 classes. He has history and chemistry classes for a combined total of 1.5 hours. How many minutes does Keegan spend in one of his other classes on average?
-Answer: He has 7-2=<<7-2=5>>5 other classes
-7.5 hours - 1.5 hours = <<7.5-1.5=6>>6 hours
-6 hours = <<6*60=360>>360 minutes
-360/5 = <<360/5=72>>72 minutes
-Keegan spends 72 minutes in one of his other classes.
-#### 72
-Question: Bogan laid out 10 maggots for her pet beetle. The beetle only ate 1 and Bogan had to throw out the rest. Later that day, she tried feeding again and the beetle ate 3. If Bogan served 20 maggots in total, how many did she attempt to feed the beetle the second time?
-Answer: Bogan served a total of <<20=20>>20 maggots
-Bogan gave the beetles 10 maggots in the first feeding
-Bogan gave the beetles 20-10=<<20-10=10>>10 maggots in the second feeding
-#### 10
-Question: If Joe spent 1/9 of his pocket money of $450 on chocolates and 2/5 on fruits, how much money does he have left?
-Answer: Joe spent 1/9 * $450 = $<<1/9*450=50>>50 on chocolate.
-Joe spent 2/5 * $450 = $<<2/5*450=180>>180 on fruits.
-Joe has $450 - $50 - $180 = $<<450-50-180=220>>220 left.
-#### 220
-Question: For Halloween, Taquon, Mack and Jafari put their candy together and they had 418 pieces of candy. If Taquon and Mack each had 171 pieces of candy, how many pieces of candy did Jafari start with?
-Answer: Taquon + Mack = 2 * 171 = 342 pieces
-418 - 342 = <<418-342=76>>76 pieces
-Jafari started with 76 pieces of candy.
-#### 76
-Question: Michael is traveling on the interstate at an average speed of 50km/hr (taking into account all the necessary stops for gas, relaxation, etc.). If he goes on like this for 3 days, and the distance between Alaska and Texas is 6000 km, what percentage of this distance has he covered?","Answer: In 3 days, Michael travels a total of 3 days * 24 hours = <<3*24=72>>72 hours.
-So, in 3 days, he covers a distance of 72 hours * 50 km/hr = <<72*50=3600>>3600 km.
-Therefore, he has covered 3600 km / 6000 km * 100% = <<3600/6000*100=60>>60% of the distance between Alaska and Texas.","There are 24 hours in each day, so he has been traveling for a total of 3*24 = <<24*3=72>>72 hours
-At a rate of 50km/hr he has covered 50*72 = <<50*72=3600>>3600 km
-3600km as a percentage of 6000km is (3600/6000)*100% = 60%
-#### 60"
-Math,3a,"Question: Keegan is in school for 7.5 hours each day and he is taking 7 classes. He has history and chemistry classes for a combined total of 1.5 hours. How many minutes does Keegan spend in one of his other classes on average?
-Answer: He has 7-2=<<7-2=5>>5 other classes
-7.5 hours - 1.5 hours = <<7.5-1.5=6>>6 hours
-6 hours = <<6*60=360>>360 minutes
-360/5 = <<360/5=72>>72 minutes
-Keegan spends 72 minutes in one of his other classes.
-#### 72
-Question: Bogan laid out 10 maggots for her pet beetle. The beetle only ate 1 and Bogan had to throw out the rest. Later that day, she tried feeding again and the beetle ate 3. If Bogan served 20 maggots in total, how many did she attempt to feed the beetle the second time?
-Answer: Bogan served a total of <<20=20>>20 maggots
-Bogan gave the beetles 10 maggots in the first feeding
-Bogan gave the beetles 20-10=<<20-10=10>>10 maggots in the second feeding
-#### 10
-Question: Keegan is in school for 7.5 hours each day and he is taking 7 classes. He has history and chemistry classes for a combined total of 1.5 hours. How many minutes does Keegan spend in one of his other classes on average?
-Answer: He has 7-2=<<7-2=5>>5 other classes
-7.5 hours - 1.5 hours = <<7.5-1.5=6>>6 hours
-6 hours = <<6*60=360>>360 minutes
-360/5 = <<360/5=72>>72 minutes
-Keegan spends 72 minutes in one of his other classes.
-#### 72
-Question: Bogan laid out 10 maggots for her pet beetle. The beetle only ate 1 and Bogan had to throw out the rest. Later that day, she tried feeding again and the beetle ate 3. If Bogan served 20 maggots in total, how many did she attempt to feed the beetle the second time?
-Answer: Bogan served a total of <<20=20>>20 maggots
-Bogan gave the beetles 10 maggots in the first feeding
-Bogan gave the beetles 20-10=<<20-10=10>>10 maggots in the second feeding
-#### 10
-Question: Michael is traveling on the interstate at an average speed of 50km/hr (taking into account all the necessary stops for gas, relaxation, etc.). If he goes on like this for 3 days, and the distance between Alaska and Texas is 6000 km, what percentage of this distance has he covered?","Answer: In 3 days, Michael will cover 50km/hr * 24 hrs/day * 3 days = 3600 km
-To find the percentage of the distance covered, we calculate (3600 km / 6000 km) * 100 = 60%
-Michael has covered 60% of the distance between Alaska and Texas.","There are 24 hours in each day, so he has been traveling for a total of 3*24 = <<24*3=72>>72 hours
-At a rate of 50km/hr he has covered 50*72 = <<50*72=3600>>3600 km
-3600km as a percentage of 6000km is (3600/6000)*100% = 60%
-#### 60"
-Math,3b,"Question: If Joe spent 1/9 of his pocket money of $450 on chocolates and 2/5 on fruits, how much money does he have left?
-Answer: Joe spent 1/9 * $450 = $<<1/9*450=50>>50 on chocolate.
-Joe spent 2/5 * $450 = $<<2/5*450=180>>180 on fruits.
-Joe has $450 - $50 - $180 = $<<450-50-180=220>>220 left.
-#### 220
-Question: For Halloween, Taquon, Mack and Jafari put their candy together and they had 418 pieces of candy. If Taquon and Mack each had 171 pieces of candy, how many pieces of candy did Jafari start with?
-Answer: Taquon + Mack = 2 * 171 = 342 pieces
-418 - 342 = <<418-342=76>>76 pieces
-Jafari started with 76 pieces of candy.
-#### 76
-Question: If Joe spent 1/9 of his pocket money of $450 on chocolates and 2/5 on fruits, how much money does he have left?
-Answer: Joe spent 1/9 * $450 = $<<1/9*450=50>>50 on chocolate.
-Joe spent 2/5 * $450 = $<<2/5*450=180>>180 on fruits.
-Joe has $450 - $50 - $180 = $<<450-50-180=220>>220 left.
-#### 220
-Question: For Halloween, Taquon, Mack and Jafari put their candy together and they had 418 pieces of candy. If Taquon and Mack each had 171 pieces of candy, how many pieces of candy did Jafari start with?
-Answer: Taquon + Mack = 2 * 171 = 342 pieces
-418 - 342 = <<418-342=76>>76 pieces
-Jafari started with 76 pieces of candy.
-#### 76
-Question: Michael is traveling on the interstate at an average speed of 50km/hr (taking into account all the necessary stops for gas, relaxation, etc.). If he goes on like this for 3 days, and the distance between Alaska and Texas is 6000 km, what percentage of this distance has he covered?","Answer: In 3 days, Michael covers a distance of 3 * 50 = 150 km.
-Therefore, he covers 150 / 6000 * 100% = <<150/6000*100=2.5>>2.5% of the distance between Alaska and Texas.","There are 24 hours in each day, so he has been traveling for a total of 3*24 = <<24*3=72>>72 hours
-At a rate of 50km/hr he has covered 50*72 = <<50*72=3600>>3600 km
-3600km as a percentage of 6000km is (3600/6000)*100% = 60%
-#### 60"
-CSQA,0,"Question: He wanted a house that was gated off from other places, where should he start looking?
-A: neighborhood
-B: subdivision
-C: city
-D: suburbs
-E: street",B: subdivision,B
-CSQA,1a,"Question: What would answering questions cause if the questions are not interesting?
-A: discussion
-B: getting tired
-C: sharing information
-D: boredom
-E: flatulence
-Answer: D
-Question: What is the closest place to eat when you are not out on the town?
-A: serving drinks
-B: food court
-C: shopping center
-D: own house
-E: downtown
-Answer: D
-Question: He wanted a house that was gated off from other places, where should he start looking?
-A: neighborhood
-B: subdivision
-C: city
-D: suburbs
-E: street",Answer: B,B
-CSQA,1b,"Question: If something is occurring at an altar, what might the occasion be?
-A: praying
-B: temple
-C: church services
-D: ceremony
-E: sanctuary
-Answer: D
-Question: When a play starts in an auditorium, what tends to fade out?
-A: lights
-B: theater
-C: other people
-D: crowd
-E: high school
+Between Carol and Jennifer, they currently have 20 + 44 = <<20+44=64>>64 signatures.
+To reach their goal of 100 signatures, they need to collect an additional 100 - 64 = <<100-64=36>>36 signatures.
+Therefore, the sisters need to collect 36 more signatures in the remaining three weeks of summer vacation in order to reach their goal.","Carol and Jennifer have already collected 20 + 44 signatures = <<20+44=64>>64 signatures.
+Since their goal is 100, they need to collect 100 - 64 signatures. 100 - 64 = <<100-64=36>>36 signatures
+#### 36"
+Math,2,"Question: Bob enters cycling competitions every single week and hopes to win the 100 dollar grand prize each time. For the first 2 weeks, he managed first place and got 100 dollars each week. He is saving up for a puppy that costs 1000 dollars. What is the minimum number of additional weeks Bob must win first place?
+Answer: Two weeks already passed and Bob has 200 dollars.
+Bob needs 1000-200=<<1000-200=800>>800 more dollars.
+Bob needs to win the competition for at least 800/100=<<800/100=8>>8 more weeks.
+#### 8
+Question: John bought a tennis racket. He also bought sneakers that cost $200 and a sports outfit that cost $250. He spent a total of $750 for all those items. What was the price of the racket?
+Answer: Total amount spent for athletic shoes and sportswear is $200 + $250 = $<<200+250=450>>450.
+The price of the racket is $750 - $450 = $<<750-450=300>>300.
+#### 300
+Question: Daragh had 20 stuffed bears. She took out her favorite 8 bears and then equally divided the other bears among her 3 sisters. Daragh's youngest sister, Eden, already had 10 stuffed bears. How many stuffed bears does Eden have now?
+Answer: Take the number of bears Daragh has left after taking her favorite 8 bears out: 20 bears - 8 bears = <<20-8=12>>12 bears.
+Divide these amongst Daragh's 3 sisters: 12 bears / 3 sisters = <<12/3=4>>4 bears per sister.
+Add the 4 bears to Eden's current bears: 10 bears + 4 bears = <<10+4=14>>14 bears.
+#### 14
+Question: Elizabeth has 10 reusable water bottles. She loses 2 water bottles at school. Then someone steals 1 of her water bottles at dance practice. To avoid any future theft of her water bottles, Elizabeth places 3 stickers on each of her remaining bottles. How many stickers does Elizabeth use in total on her water bottles?
+Answer: Elizabeth has 10 - 2 - 1 = <<10-2-1=7>>7 water bottles
+Elizabeth uses 7 * 3 = <<7*3=21>>21 stickers
+#### 21
+Question: Carol and Jennifer are sisters from Los Angeles who love collecting signatures from celebrities. During their summer break from school, the sisters spend every afternoon collecting signatures. After five weeks, Carol and Jennifer compare their autograph books, counting up the number of signatures each sister has collected. Carol has 20 signatures in her book, and Jennifer has 44. The sisters have three more weeks of summer vacation, and they decide they want to reach 100 signatures between them by the end of the summer. How many signatures do the sisters need to collect to reach their goal?","Answer: Between them, Carol and Jennifer currently have 20 + 44 = <<20+44=64>>64 signatures.
+They want to reach a total of 100 signatures, so they need to collect 100 - 64 = <<100-64=36>>36 more signatures.
+#### 36","Carol and Jennifer have already collected 20 + 44 signatures = <<20+44=64>>64 signatures.
+Since their goal is 100, they need to collect 100 - 64 signatures. 100 - 64 = <<100-64=36>>36 signatures
+#### 36"
+Math,3a,"Question: Bob enters cycling competitions every single week and hopes to win the 100 dollar grand prize each time. For the first 2 weeks, he managed first place and got 100 dollars each week. He is saving up for a puppy that costs 1000 dollars. What is the minimum number of additional weeks Bob must win first place?
+Answer: Two weeks already passed and Bob has 200 dollars.
+Bob needs 1000-200=<<1000-200=800>>800 more dollars.
+Bob needs to win the competition for at least 800/100=<<800/100=8>>8 more weeks.
+#### 8
+Question: John bought a tennis racket. He also bought sneakers that cost $200 and a sports outfit that cost $250. He spent a total of $750 for all those items. What was the price of the racket?
+Answer: Total amount spent for athletic shoes and sportswear is $200 + $250 = $<<200+250=450>>450.
+The price of the racket is $750 - $450 = $<<750-450=300>>300.
+#### 300
+Question: Bob enters cycling competitions every single week and hopes to win the 100 dollar grand prize each time. For the first 2 weeks, he managed first place and got 100 dollars each week. He is saving up for a puppy that costs 1000 dollars. What is the minimum number of additional weeks Bob must win first place?
+Answer: Two weeks already passed and Bob has 200 dollars.
+Bob needs 1000-200=<<1000-200=800>>800 more dollars.
+Bob needs to win the competition for at least 800/100=<<800/100=8>>8 more weeks.
+#### 8
+Question: John bought a tennis racket. He also bought sneakers that cost $200 and a sports outfit that cost $250. He spent a total of $750 for all those items. What was the price of the racket?
+Answer: Total amount spent for athletic shoes and sportswear is $200 + $250 = $<<200+250=450>>450.
+The price of the racket is $750 - $450 = $<<750-450=300>>300.
+#### 300
+Question: Carol and Jennifer are sisters from Los Angeles who love collecting signatures from celebrities. During their summer break from school, the sisters spend every afternoon collecting signatures. After five weeks, Carol and Jennifer compare their autograph books, counting up the number of signatures each sister has collected. Carol has 20 signatures in her book, and Jennifer has 44. The sisters have three more weeks of summer vacation, and they decide they want to reach 100 signatures between them by the end of the summer. How many signatures do the sisters need to collect to reach their goal?","Answer: Together, Carol and Jennifer currently have 20 + 44 = <<20+44=64>>64 signatures.
+They need to collect 100 - 64 = <<100-64=36>>36 more signatures to reach their goal.
+#### 36","Carol and Jennifer have already collected 20 + 44 signatures = <<20+44=64>>64 signatures.
+Since their goal is 100, they need to collect 100 - 64 signatures. 100 - 64 = <<100-64=36>>36 signatures
+#### 36"
+Math,3b,"Question: Daragh had 20 stuffed bears. She took out her favorite 8 bears and then equally divided the other bears among her 3 sisters. Daragh's youngest sister, Eden, already had 10 stuffed bears. How many stuffed bears does Eden have now?
+Answer: Take the number of bears Daragh has left after taking her favorite 8 bears out: 20 bears - 8 bears = <<20-8=12>>12 bears.
+Divide these amongst Daragh's 3 sisters: 12 bears / 3 sisters = <<12/3=4>>4 bears per sister.
+Add the 4 bears to Eden's current bears: 10 bears + 4 bears = <<10+4=14>>14 bears.
+#### 14
+Question: Elizabeth has 10 reusable water bottles. She loses 2 water bottles at school. Then someone steals 1 of her water bottles at dance practice. To avoid any future theft of her water bottles, Elizabeth places 3 stickers on each of her remaining bottles. How many stickers does Elizabeth use in total on her water bottles?
+Answer: Elizabeth has 10 - 2 - 1 = <<10-2-1=7>>7 water bottles
+Elizabeth uses 7 * 3 = <<7*3=21>>21 stickers
+#### 21
+Question: Daragh had 20 stuffed bears. She took out her favorite 8 bears and then equally divided the other bears among her 3 sisters. Daragh's youngest sister, Eden, already had 10 stuffed bears. How many stuffed bears does Eden have now?
+Answer: Take the number of bears Daragh has left after taking her favorite 8 bears out: 20 bears - 8 bears = <<20-8=12>>12 bears.
+Divide these amongst Daragh's 3 sisters: 12 bears / 3 sisters = <<12/3=4>>4 bears per sister.
+Add the 4 bears to Eden's current bears: 10 bears + 4 bears = <<10+4=14>>14 bears.
+#### 14
+Question: Elizabeth has 10 reusable water bottles. She loses 2 water bottles at school. Then someone steals 1 of her water bottles at dance practice. To avoid any future theft of her water bottles, Elizabeth places 3 stickers on each of her remaining bottles. How many stickers does Elizabeth use in total on her water bottles?
+Answer: Elizabeth has 10 - 2 - 1 = <<10-2-1=7>>7 water bottles
+Elizabeth uses 7 * 3 = <<7*3=21>>21 stickers
+#### 21
+Question: Carol and Jennifer are sisters from Los Angeles who love collecting signatures from celebrities. During their summer break from school, the sisters spend every afternoon collecting signatures. After five weeks, Carol and Jennifer compare their autograph books, counting up the number of signatures each sister has collected. Carol has 20 signatures in her book, and Jennifer has 44. The sisters have three more weeks of summer vacation, and they decide they want to reach 100 signatures between them by the end of the summer. How many signatures do the sisters need to collect to reach their goal?","Answer: 
+Between Carol and Jennifer, they currently have 20 + 44 = 64 signatures.
+They need to collect 100 - 64 = 36 more signatures to reach their goal. 
+Therefore, the sisters need to collect 36 signatures to reach their goal.","Carol and Jennifer have already collected 20 + 44 signatures = <<20+44=64>>64 signatures.
+Since their goal is 100, they need to collect 100 - 64 signatures. 100 - 64 = <<100-64=36>>36 signatures
+#### 36"
+CSQA,0,"Question: He made another call, he did this all day hoping people would what well to his offer?
+A: hang up
+B: respond
+C: contact
+D: answer
+E: attracting ducks",B: respond,B
+CSQA,1a,"Question: A condom is a form of contraceptive for a penis, meanwhile a diaphragm is one designed for a what?
+A: drawer
+B: vagina
+C: arm
+D: health center
+E: medicine cabinet
+Answer: B
+Question: On an average day, going to work could make you feel like what?
+A: feeling good
+B: anger
+C: revelation
+D: being fired
+E: tardiness
 Answer: A
-Question: He wanted a house that was gated off from other places, where should he start looking?
-A: neighborhood
-B: subdivision
-C: city
-D: suburbs
-E: street",Answer: B,B
-CSQA,2,"Question: What would answering questions cause if the questions are not interesting?
-A: discussion
-B: getting tired
-C: sharing information
-D: boredom
-E: flatulence
-Answer: D
-Question: What is the closest place to eat when you are not out on the town?
-A: serving drinks
-B: food court
-C: shopping center
-D: own house
-E: downtown
-Answer: D
-Question: If something is occurring at an altar, what might the occasion be?
-A: praying
-B: temple
-C: church services
-D: ceremony
-E: sanctuary
-Answer: D
-Question: When a play starts in an auditorium, what tends to fade out?
-A: lights
-B: theater
-C: other people
-D: crowd
-E: high school
+Question: He made another call, he did this all day hoping people would what well to his offer?
+A: hang up
+B: respond
+C: contact
+D: answer
+E: attracting ducks",Answer: B,B
+CSQA,1b,"Question: What do people do at a night club on the floor?
+A: own cars
+B: dance together
+C: talk to each other
+D: speak words
+E: kissing one another
+Answer: B
+Question: After being on his feet all day he told his boss he was taking a break and doing what on the bench?
+A: not working
+B: relaxation
+C: renewal
+D: sleep
+E: sitting down
+Answer: E
+Question: He made another call, he did this all day hoping people would what well to his offer?
+A: hang up
+B: respond
+C: contact
+D: answer
+E: attracting ducks",Answer: B,B
+CSQA,2,"Question: A condom is a form of contraceptive for a penis, meanwhile a diaphragm is one designed for a what?
+A: drawer
+B: vagina
+C: arm
+D: health center
+E: medicine cabinet
+Answer: B
+Question: On an average day, going to work could make you feel like what?
+A: feeling good
+B: anger
+C: revelation
+D: being fired
+E: tardiness
 Answer: A
-Question: He wanted a house that was gated off from other places, where should he start looking?
-A: neighborhood
-B: subdivision
-C: city
-D: suburbs
-E: street",Answer: B,B
-CSQA,3a,"Question: What would answering questions cause if the questions are not interesting?
-A: discussion
-B: getting tired
-C: sharing information
-D: boredom
-E: flatulence
-Answer: D
-Question: What is the closest place to eat when you are not out on the town?
-A: serving drinks
-B: food court
-C: shopping center
-D: own house
-E: downtown
-Answer: D
-Question: What would answering questions cause if the questions are not interesting?
-A: discussion
-B: getting tired
-C: sharing information
-D: boredom
-E: flatulence
-Answer: D
-Question: What is the closest place to eat when you are not out on the town?
-A: serving drinks
-B: food court
-C: shopping center
-D: own house
-E: downtown
-Answer: D
-Question: He wanted a house that was gated off from other places, where should he start looking?
-A: neighborhood
-B: subdivision
-C: city
-D: suburbs
-E: street",Answer: B,B
-CSQA,3b,"Question: If something is occurring at an altar, what might the occasion be?
-A: praying
-B: temple
-C: church services
-D: ceremony
-E: sanctuary
-Answer: D
-Question: When a play starts in an auditorium, what tends to fade out?
-A: lights
-B: theater
-C: other people
-D: crowd
-E: high school
+Question: What do people do at a night club on the floor?
+A: own cars
+B: dance together
+C: talk to each other
+D: speak words
+E: kissing one another
+Answer: B
+Question: After being on his feet all day he told his boss he was taking a break and doing what on the bench?
+A: not working
+B: relaxation
+C: renewal
+D: sleep
+E: sitting down
+Answer: E
+Question: He made another call, he did this all day hoping people would what well to his offer?
+A: hang up
+B: respond
+C: contact
+D: answer
+E: attracting ducks",Answer: B,B
+CSQA,3a,"Question: A condom is a form of contraceptive for a penis, meanwhile a diaphragm is one designed for a what?
+A: drawer
+B: vagina
+C: arm
+D: health center
+E: medicine cabinet
+Answer: B
+Question: On an average day, going to work could make you feel like what?
+A: feeling good
+B: anger
+C: revelation
+D: being fired
+E: tardiness
 Answer: A
-Question: If something is occurring at an altar, what might the occasion be?
-A: praying
-B: temple
-C: church services
-D: ceremony
-E: sanctuary
-Answer: D
-Question: When a play starts in an auditorium, what tends to fade out?
-A: lights
-B: theater
-C: other people
-D: crowd
-E: high school
+Question: A condom is a form of contraceptive for a penis, meanwhile a diaphragm is one designed for a what?
+A: drawer
+B: vagina
+C: arm
+D: health center
+E: medicine cabinet
+Answer: B
+Question: On an average day, going to work could make you feel like what?
+A: feeling good
+B: anger
+C: revelation
+D: being fired
+E: tardiness
 Answer: A
-Question: He wanted a house that was gated off from other places, where should he start looking?
-A: neighborhood
-B: subdivision
-C: city
-D: suburbs
-E: street",Answer: B,B
-StrategyQA,0,"Question: Peach trees bloom in the spring. Andromeda is visible in the fall.
-Will you see peach blossoms and Andromeda at the same time?","No, peach trees bloom in the spring, typically between March and May, while Andromeda is visible in the fall, around September to November. Therefore, you would not see peach blossoms and Andromeda at the same time.",False
-StrategyQA,1a,"Question: My home is a location on earth where I live.  Latitude and Longitude are geographic coordinate systems that identify east/west and north/south locations. Specific Latitude and Longitude coordinates can be used to pinpoint specific locations.  Every point on the earth has a corresponding latitude and longitude coordinate. 
-Can I find my home with latitude and longitude?
+Question: He made another call, he did this all day hoping people would what well to his offer?
+A: hang up
+B: respond
+C: contact
+D: answer
+E: attracting ducks",Answer: B,B
+CSQA,3b,"Question: What do people do at a night club on the floor?
+A: own cars
+B: dance together
+C: talk to each other
+D: speak words
+E: kissing one another
+Answer: B
+Question: After being on his feet all day he told his boss he was taking a break and doing what on the bench?
+A: not working
+B: relaxation
+C: renewal
+D: sleep
+E: sitting down
+Answer: E
+Question: What do people do at a night club on the floor?
+A: own cars
+B: dance together
+C: talk to each other
+D: speak words
+E: kissing one another
+Answer: B
+Question: After being on his feet all day he told his boss he was taking a break and doing what on the bench?
+A: not working
+B: relaxation
+C: renewal
+D: sleep
+E: sitting down
+Answer: E
+Question: He made another call, he did this all day hoping people would what well to his offer?
+A: hang up
+B: respond
+C: contact
+D: answer
+E: attracting ducks",Answer: B,B
+StrategyQA,0,"Question: Grey seals have no ear flaps and their ears canals are filled with wax. Grey seals hear better underwater when their ears open like a valve. Dogs have sensitive ears that can hear as far as a quarter of a mile away.
+Would a dog respond to bell before Grey seal?","It is likely that a dog would respond to a bell before a grey seal, as dogs have highly sensitive hearing and can detect sounds from a far distance. However, it is also possible that a grey seal may be trained to respond to certain auditory cues, such as a bell, in a controlled environment. Ultimately, the responsiveness of a dog versus a grey seal to a bell would depend on various factors such as training, familiarity with the sound, and the context in which the sound is presented.",True
+StrategyQA,1a,"Question: Watermelons are plants grown in climates from tropical to temperate, needing temperatures higher than about 25 °C (77 °F) to thrive. The climate of Antarctica is the coldest on Earth. The climate of Brazil comprises a wide range of weather conditions across a large area and varied topography, but most of the country is tropical.
+Are more watermelons grown in Brazil than Antarctica?
 Answer: True
-Question: Leipzig is derived from the Slavic word Lipsk Lipsk means ""settlement where the linden trees stand"" Linden trees are deciduous trees
-Is the tree species that the name Leipzig refers to an evergeen tree?
+Question: Breakdancing was created by the African American youth in the early 1970s. World War II was a global war that lasted from 1939 to 1945.
+Did breakdancing grow in popularity during WW2?
 Answer: False
-Question: Peach trees bloom in the spring. Andromeda is visible in the fall.
-Will you see peach blossoms and Andromeda at the same time?",Answer: False,False
-StrategyQA,1b,"Question: June of 2020 was marked by a global pandemic. During a global pandemic, large events are not permitted to proceed fully.
-Was the Parc des Princes fully operational during June of 2020?
-Answer: False
-Question: Greek philosopher Chrysippus was said to have died from laughter after seeing a donkey eating figs. There are only a handful of deaths attributed to jokes throughout history including King Martin of Aragon. There are an average of 30 deaths by rat attacks every century. The plague which is sometimes associated with diseased rats killed millions of people.
-Have jokes killed more people than rats in history?
-Answer: False
-Question: Peach trees bloom in the spring. Andromeda is visible in the fall.
-Will you see peach blossoms and Andromeda at the same time?",Answer: False,False
-StrategyQA,2,"Question: My home is a location on earth where I live.  Latitude and Longitude are geographic coordinate systems that identify east/west and north/south locations. Specific Latitude and Longitude coordinates can be used to pinpoint specific locations.  Every point on the earth has a corresponding latitude and longitude coordinate. 
-Can I find my home with latitude and longitude?
+Question: Grey seals have no ear flaps and their ears canals are filled with wax. Grey seals hear better underwater when their ears open like a valve. Dogs have sensitive ears that can hear as far as a quarter of a mile away.
+Would a dog respond to bell before Grey seal?",True,True
+StrategyQA,1b,"Question: Ariel, the princess from Disney's the Little Mermaid, has red hair. The Little Mermaid is one of several Disney animated classics that was adapted for the stage and performed on Broadway.
+Does a Disney princess on Broadway have red hair?
 Answer: True
-Question: Leipzig is derived from the Slavic word Lipsk Lipsk means ""settlement where the linden trees stand"" Linden trees are deciduous trees
-Is the tree species that the name Leipzig refers to an evergeen tree?
+Question: The Pantheon in Paris is a historical monument. The Pantheon was a former Roman temple in antiquity. The Pantheon is a mythical or imaginary creature used in heraldry, particularly in Britain often depicted as white deer with the tail of a fox with purple stars along their back.
+Does Pantheon in Paris have a unique name?
 Answer: False
-Question: June of 2020 was marked by a global pandemic. During a global pandemic, large events are not permitted to proceed fully.
-Was the Parc des Princes fully operational during June of 2020?
-Answer: False
-Question: Greek philosopher Chrysippus was said to have died from laughter after seeing a donkey eating figs. There are only a handful of deaths attributed to jokes throughout history including King Martin of Aragon. There are an average of 30 deaths by rat attacks every century. The plague which is sometimes associated with diseased rats killed millions of people.
-Have jokes killed more people than rats in history?
-Answer: False
-Question: Peach trees bloom in the spring. Andromeda is visible in the fall.
-Will you see peach blossoms and Andromeda at the same time?",Answer: False,False
-StrategyQA,3a,"Question: My home is a location on earth where I live.  Latitude and Longitude are geographic coordinate systems that identify east/west and north/south locations. Specific Latitude and Longitude coordinates can be used to pinpoint specific locations.  Every point on the earth has a corresponding latitude and longitude coordinate. 
-Can I find my home with latitude and longitude?
+Question: Grey seals have no ear flaps and their ears canals are filled with wax. Grey seals hear better underwater when their ears open like a valve. Dogs have sensitive ears that can hear as far as a quarter of a mile away.
+Would a dog respond to bell before Grey seal?",True,True
+StrategyQA,2,"Question: Watermelons are plants grown in climates from tropical to temperate, needing temperatures higher than about 25 °C (77 °F) to thrive. The climate of Antarctica is the coldest on Earth. The climate of Brazil comprises a wide range of weather conditions across a large area and varied topography, but most of the country is tropical.
+Are more watermelons grown in Brazil than Antarctica?
 Answer: True
-Question: Leipzig is derived from the Slavic word Lipsk Lipsk means ""settlement where the linden trees stand"" Linden trees are deciduous trees
-Is the tree species that the name Leipzig refers to an evergeen tree?
+Question: Breakdancing was created by the African American youth in the early 1970s. World War II was a global war that lasted from 1939 to 1945.
+Did breakdancing grow in popularity during WW2?
 Answer: False
-Question: My home is a location on earth where I live.  Latitude and Longitude are geographic coordinate systems that identify east/west and north/south locations. Specific Latitude and Longitude coordinates can be used to pinpoint specific locations.  Every point on the earth has a corresponding latitude and longitude coordinate. 
-Can I find my home with latitude and longitude?
+Question: Ariel, the princess from Disney's the Little Mermaid, has red hair. The Little Mermaid is one of several Disney animated classics that was adapted for the stage and performed on Broadway.
+Does a Disney princess on Broadway have red hair?
 Answer: True
-Question: Leipzig is derived from the Slavic word Lipsk Lipsk means ""settlement where the linden trees stand"" Linden trees are deciduous trees
-Is the tree species that the name Leipzig refers to an evergeen tree?
+Question: The Pantheon in Paris is a historical monument. The Pantheon was a former Roman temple in antiquity. The Pantheon is a mythical or imaginary creature used in heraldry, particularly in Britain often depicted as white deer with the tail of a fox with purple stars along their back.
+Does Pantheon in Paris have a unique name?
 Answer: False
-Question: Peach trees bloom in the spring. Andromeda is visible in the fall.
-Will you see peach blossoms and Andromeda at the same time?",Answer: No,False
-StrategyQA,3b,"Question: June of 2020 was marked by a global pandemic. During a global pandemic, large events are not permitted to proceed fully.
-Was the Parc des Princes fully operational during June of 2020?
+Question: Grey seals have no ear flaps and their ears canals are filled with wax. Grey seals hear better underwater when their ears open like a valve. Dogs have sensitive ears that can hear as far as a quarter of a mile away.
+Would a dog respond to bell before Grey seal?",True,True
+StrategyQA,3a,"Question: Watermelons are plants grown in climates from tropical to temperate, needing temperatures higher than about 25 °C (77 °F) to thrive. The climate of Antarctica is the coldest on Earth. The climate of Brazil comprises a wide range of weather conditions across a large area and varied topography, but most of the country is tropical.
+Are more watermelons grown in Brazil than Antarctica?
+Answer: True
+Question: Breakdancing was created by the African American youth in the early 1970s. World War II was a global war that lasted from 1939 to 1945.
+Did breakdancing grow in popularity during WW2?
 Answer: False
-Question: Greek philosopher Chrysippus was said to have died from laughter after seeing a donkey eating figs. There are only a handful of deaths attributed to jokes throughout history including King Martin of Aragon. There are an average of 30 deaths by rat attacks every century. The plague which is sometimes associated with diseased rats killed millions of people.
-Have jokes killed more people than rats in history?
+Question: Watermelons are plants grown in climates from tropical to temperate, needing temperatures higher than about 25 °C (77 °F) to thrive. The climate of Antarctica is the coldest on Earth. The climate of Brazil comprises a wide range of weather conditions across a large area and varied topography, but most of the country is tropical.
+Are more watermelons grown in Brazil than Antarctica?
+Answer: True
+Question: Breakdancing was created by the African American youth in the early 1970s. World War II was a global war that lasted from 1939 to 1945.
+Did breakdancing grow in popularity during WW2?
 Answer: False
-Question: June of 2020 was marked by a global pandemic. During a global pandemic, large events are not permitted to proceed fully.
-Was the Parc des Princes fully operational during June of 2020?
+Question: Grey seals have no ear flaps and their ears canals are filled with wax. Grey seals hear better underwater when their ears open like a valve. Dogs have sensitive ears that can hear as far as a quarter of a mile away.
+Would a dog respond to bell before Grey seal?",True,True
+StrategyQA,3b,"Question: Ariel, the princess from Disney's the Little Mermaid, has red hair. The Little Mermaid is one of several Disney animated classics that was adapted for the stage and performed on Broadway.
+Does a Disney princess on Broadway have red hair?
+Answer: True
+Question: The Pantheon in Paris is a historical monument. The Pantheon was a former Roman temple in antiquity. The Pantheon is a mythical or imaginary creature used in heraldry, particularly in Britain often depicted as white deer with the tail of a fox with purple stars along their back.
+Does Pantheon in Paris have a unique name?
 Answer: False
-Question: Greek philosopher Chrysippus was said to have died from laughter after seeing a donkey eating figs. There are only a handful of deaths attributed to jokes throughout history including King Martin of Aragon. There are an average of 30 deaths by rat attacks every century. The plague which is sometimes associated with diseased rats killed millions of people.
-Have jokes killed more people than rats in history?
+Question: Ariel, the princess from Disney's the Little Mermaid, has red hair. The Little Mermaid is one of several Disney animated classics that was adapted for the stage and performed on Broadway.
+Does a Disney princess on Broadway have red hair?
+Answer: True
+Question: The Pantheon in Paris is a historical monument. The Pantheon was a former Roman temple in antiquity. The Pantheon is a mythical or imaginary creature used in heraldry, particularly in Britain often depicted as white deer with the tail of a fox with purple stars along their back.
+Does Pantheon in Paris have a unique name?
 Answer: False
-Question: Peach trees bloom in the spring. Andromeda is visible in the fall.
-Will you see peach blossoms and Andromeda at the same time?",Answer: False,False
-SayCan,0,Question: Provide step-by-step instructions for the following task: How would you lift the coke can?,"1. Begin by first assessing the weight of the coke can to ensure that you are able to lift it safely. A standard 12-ounce coke can weighs approximately 0.4 pounds.
-
-2. Stand in front of the coke can with your feet shoulder-width apart and bend your knees slightly to prepare for the lift.
-
-3. Extend your arms downward and grasp the coke can with one hand, making sure to use a firm grip to avoid dropping it.
-
-4. Engage your core muscles and keep your back straight as you lift the coke can off the surface.
-
-5. Use your legs to power the lift, pushing through your heels and straightening your legs to lift the coke can upward.
-
-6. Lift the coke can to your desired height, keeping it close to your body to maintain control and avoid strain.
-
-7. To lower the coke can back down, reverse the lifting motion by bending your knees and lowering it back to the surface.
-
-8. Place the coke can down gently to avoid spilling its contents or causing any damage.
-
-9. Remember to lift with proper form and technique to avoid injury or strain. If the coke can is too heavy to lift safely on your own, consider asking for assistance or using a lifting aid.","1. pick up the coke can, 2. done"
-SayCan,1a,"Question: Provide step-by-step instructions for the following task: How would you park at the table?
-Answer: 1. go to the table, 2. done
-Question: Provide step-by-step instructions for the following task: Throw away the apple.
-Answer: 1. find an apple, 2. pick up the apple, 3. go to the trash, 4. put down the apple, 5. done
-Question: Provide step-by-step instructions for the following task: How would you lift the coke can?","Answer: 1. Reach for the coke can, 2. Use your fingers to grasp the can around its middle, 3. Lift the can using your arm strength, 4. Be careful not to drop or spill the contents, 5. Done.","1. pick up the coke can, 2. done"
-SayCan,1b,"Question: Provide step-by-step instructions for the following task: Could you get me something caffeinated?
-Answer: 1. find a redbull, 2. pick up the redbull, 3. bring it to you, 4. put down the redbull, 5. done.
-Question: Provide step-by-step instructions for the following task: Bring me everything from the table.
-Answer: 1. go to the table, 2. pick up the energy bar, 3. bring it to you, 4. put down the energy bar, 5. go to the table, 6. pick up the multigrain chips, 7. bring it to you, 8. put down the multigrain chips, 9. done
-Question: Provide step-by-step instructions for the following task: How would you lift the coke can?","Answer: 1. Reach out and grab the coke can with your hand, 2. Lift it up gently using your arm muscles, 3. Hold the coke can at a comfortable height, 4. To set it down, lower your arm while maintaining a firm grip, 5. Place the coke can on a stable surface, 6. Done.","1. pick up the coke can, 2. done"
-SayCan,2,"Question: Provide step-by-step instructions for the following task: How would you park at the table?
-Answer: 1. go to the table, 2. done
-Question: Provide step-by-step instructions for the following task: Throw away the apple.
-Answer: 1. find an apple, 2. pick up the apple, 3. go to the trash, 4. put down the apple, 5. done
-Question: Provide step-by-step instructions for the following task: Could you get me something caffeinated?
-Answer: 1. find a redbull, 2. pick up the redbull, 3. bring it to you, 4. put down the redbull, 5. done.
-Question: Provide step-by-step instructions for the following task: Bring me everything from the table.
-Answer: 1. go to the table, 2. pick up the energy bar, 3. bring it to you, 4. put down the energy bar, 5. go to the table, 6. pick up the multigrain chips, 7. bring it to you, 8. put down the multigrain chips, 9. done
-Question: Provide step-by-step instructions for the following task: How would you lift the coke can?","Answer: 1. Find the coke can, 2. Reach for the coke can, 3. Grasp the coke can with your hand, 4. Lift the coke can off the surface, 5. Hold the coke can steadily, 6. Done.","1. pick up the coke can, 2. done"
-SayCan,3a,"Question: Provide step-by-step instructions for the following task: How would you park at the table?
-Answer: 1. go to the table, 2. done
-Question: Provide step-by-step instructions for the following task: Throw away the apple.
-Answer: 1. find an apple, 2. pick up the apple, 3. go to the trash, 4. put down the apple, 5. done
-Question: Provide step-by-step instructions for the following task: How would you park at the table?
-Answer: 1. go to the table, 2. done
-Question: Provide step-by-step instructions for the following task: Throw away the apple.
-Answer: 1. find an apple, 2. pick up the apple, 3. go to the trash, 4. put down the apple, 5. done
-Question: Provide step-by-step instructions for the following task: How would you lift the coke can?","Answer: 1. Locate the coke can, 2. Reach down and grip the can with your hand, 3. Lift the can upwards, 4. Hold the can securely, 5. Done.","1. pick up the coke can, 2. done"
-SayCan,3b,"Question: Provide step-by-step instructions for the following task: Could you get me something caffeinated?
-Answer: 1. find a redbull, 2. pick up the redbull, 3. bring it to you, 4. put down the redbull, 5. done.
-Question: Provide step-by-step instructions for the following task: Bring me everything from the table.
-Answer: 1. go to the table, 2. pick up the energy bar, 3. bring it to you, 4. put down the energy bar, 5. go to the table, 6. pick up the multigrain chips, 7. bring it to you, 8. put down the multigrain chips, 9. done
-Question: Provide step-by-step instructions for the following task: Could you get me something caffeinated?
-Answer: 1. find a redbull, 2. pick up the redbull, 3. bring it to you, 4. put down the redbull, 5. done.
-Question: Provide step-by-step instructions for the following task: Bring me everything from the table.
-Answer: 1. go to the table, 2. pick up the energy bar, 3. bring it to you, 4. put down the energy bar, 5. go to the table, 6. pick up the multigrain chips, 7. bring it to you, 8. put down the multigrain chips, 9. done
-Question: Provide step-by-step instructions for the following task: How would you lift the coke can?","Answer: 1. Reach out and grab the coke can with your hand, making sure to firmly grip it. 2. Lift the coke can off the surface by using your arm strength. 3. Hold the can steady as you bring it towards you or wherever you need to place it. 4. Slowly release your grip on the can once it is in the desired position.","1. pick up the coke can, 2. done"
+Question: Grey seals have no ear flaps and their ears canals are filled with wax. Grey seals hear better underwater when their ears open like a valve. Dogs have sensitive ears that can hear as far as a quarter of a mile away.
+Would a dog respond to bell before Grey seal?",True,True
+SayCan,0,Question: Find the table.,"I'm sorry, but I cannot physically locate a table as I am a text-based AI and do not have the ability to physically interact with objects. However, I can provide information or assistance related to tables if needed.","1. go to the table, 2. done"
+SayCan,1a,"Question: Clear the jalapeno chips off the close counter
+Answer: 1. find the jalapeno chips, 2. pick up the jalapeno chips, 3. go to the trash, 4. put down the jalapeno chips, 5. done
+Question: Bring me a sprite.
+Answer: 1. find a sprite can, 2. pick up the sprite can, 3. bring it to you, 4. put down the sprite can, 5. done
+Question: Find the table.","Answer: 1. Look around the room, 2. Locate the table, 3. Go to the table, 4. Done","1. go to the table, 2. done"
+SayCan,1b,"Question: Throw away the sprite.
+Answer: 1. find a sprite can, 2. pick up the sprite can, 3. go to the trash, 4. put down the sprite can, 5. done
+Question: How would you pick up the coke can?
+Answer: 1. pick up the coke can, 2. done
+Question: Find the table.","Answer: 1. look around for a table, 2. walk towards the table, 3. identify the table, 4. done","1. go to the table, 2. done"
+SayCan,2,"Question: Clear the jalapeno chips off the close counter
+Answer: 1. find the jalapeno chips, 2. pick up the jalapeno chips, 3. go to the trash, 4. put down the jalapeno chips, 5. done
+Question: Bring me a sprite.
+Answer: 1. find a sprite can, 2. pick up the sprite can, 3. bring it to you, 4. put down the sprite can, 5. done
+Question: Throw away the sprite.
+Answer: 1. find a sprite can, 2. pick up the sprite can, 3. go to the trash, 4. put down the sprite can, 5. done
+Question: How would you pick up the coke can?
+Answer: 1. pick up the coke can, 2. done
+Question: Find the table.","Answer: 1. look around for a table, 2. once found, point to the table, 3. done","1. go to the table, 2. done"
+SayCan,3a,"Question: Clear the jalapeno chips off the close counter
+Answer: 1. find the jalapeno chips, 2. pick up the jalapeno chips, 3. go to the trash, 4. put down the jalapeno chips, 5. done
+Question: Bring me a sprite.
+Answer: 1. find a sprite can, 2. pick up the sprite can, 3. bring it to you, 4. put down the sprite can, 5. done
+Question: Clear the jalapeno chips off the close counter
+Answer: 1. find the jalapeno chips, 2. pick up the jalapeno chips, 3. go to the trash, 4. put down the jalapeno chips, 5. done
+Question: Bring me a sprite.
+Answer: 1. find a sprite can, 2. pick up the sprite can, 3. bring it to you, 4. put down the sprite can, 5. done
+Question: Find the table.","Answer: 1. Look around for a table, 2. Identify the table, 3. Point to the table or describe its location, 4. Confirm that the table has been found, 5. Done","1. go to the table, 2. done"
+SayCan,3b,"Question: Throw away the sprite.
+Answer: 1. find a sprite can, 2. pick up the sprite can, 3. go to the trash, 4. put down the sprite can, 5. done
+Question: How would you pick up the coke can?
+Answer: 1. pick up the coke can, 2. done
+Question: Throw away the sprite.
+Answer: 1. find a sprite can, 2. pick up the sprite can, 3. go to the trash, 4. put down the sprite can, 5. done
+Question: How would you pick up the coke can?
+Answer: 1. pick up the coke can, 2. done
+Question: Find the table.","Answer: 1. look around for the table, 2. once located, approach the table, 3. done","1. go to the table, 2. done"

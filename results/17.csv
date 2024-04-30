@@ -1,396 +1,379 @@
 Task Class,Case,Prompt,Response,Expected
-Math,0,"Question: Zack's locker is half as big as Timothy's locker. Peter's locker is 1/4 as big as Zack's locker. If Peter's locker is 5 cubic inches, how big is Timothy's locker in cubic inches?","Let's first find the size of Zack's locker:
-
-Peter's locker is 1/4 as big as Zack's locker, so Zack's locker is 4 times bigger than Peter's locker.
-
-If Peter's locker is 5 cubic inches, then Zack's locker is 4 * 5 = 20 cubic inches.
-
-Since Zack's locker is half as big as Timothy's locker, Timothy's locker is 2 * 20 = 40 cubic inches. 
-
-Therefore, Timothy's locker is 40 cubic inches in size.","Zack's locker is 5*4=<<5*4=20>>20 cubic inches.
-Timothy's locker is 20*2=<<20*2=40>>40 cubic inches.
-#### 40"
-Math,1a,"Question: One white rhino weighs 5100 pounds and one black rhino weighs 1 ton. How many pounds would 7 white rhinos and 8 black rhinos weigh in total?
-Answer: 5100 * 7 = <<5100*7=35700>>35,700 pounds
-1 ton = <<2000=2000>>2000 pounds
-8 * 2000 = <<8*2000=16000>>16000 pounds
-35,700 + 16,000 = <<35700+16000=51700>>51,700
-Seven white rhinos and 8 black rhinos would weigh 51,700 pounds.
-#### 51700
-Question: Andy needs to drive from Salt Lake City to Los Angeles. The drive from Salt Lake City to Las Vegas is 420 miles. The drive from Las Vegas to Los Angeles is 273 miles. He wants to make the drive in 11 hours. What's the average minimum speed that Andy needs to drive to reach Los Angeles in 11 hours?
-Answer: The total distance of the trip is 420 + 273 = <<420+273=693>>693 miles.
-To make the trip Andy must drive 693 miles / 11 hours = <<693/11=63>>63 miles per hour.
-#### 63
-Question: Zack's locker is half as big as Timothy's locker. Peter's locker is 1/4 as big as Zack's locker. If Peter's locker is 5 cubic inches, how big is Timothy's locker in cubic inches?","Answer: Since Peter's locker is 1/4 the size of Zack's locker, Zack's locker is 5 * 4 = <<5*4=20>>20 cubic inches.
-Since Zack's locker is half the size of Timothy's locker, Timothy's locker is 20 * 2 = <<20*2=40>>40 cubic inches. 
-Timothy's locker is 40 cubic inches.","Zack's locker is 5*4=<<5*4=20>>20 cubic inches.
-Timothy's locker is 20*2=<<20*2=40>>40 cubic inches.
-#### 40"
-Math,1b,"Question: Jenny wants to sell some girl scout cookies and has the choice of two neighborhoods to visit.  Neighborhood A has 10 homes which each will buy 2 boxes of cookies.  Neighborhood B has 5 homes, each of which will buy 5 boxes of cookies.  Assuming each box of cookies costs $2, how much will Jenny make at the better choice of the two neighborhoods?
-Answer: First, we need to determine which neighborhood is the better choice by comparing the number of boxes sold. A has 10 houses which will buy 2 boxes each, meaning A will give Jenny 10*2=<<10*2=20>>20 box sales
-Neighborhood B has 5 homes which will each buy 5 boxes, meaning she will sell 5*5=<<5*5=25>>25 boxes by going to that neighborhood.
-Since 25>20, this means Jenny should choose neighborhood B.
-Since Jenny earns $2 per box sold, this means she will earn 25*2=<<25*2=50>>50 dollars by choosing neighborhood B.
-#### 50
-Question: Grady has 20 red numbered cubes and 15 blue numbered cubes. He gives his friend Gage 2/5 of his red numbered cubes and 1/3 of the blue numbered cubes. If Gage had 10 red numbered cubes and 12 blue numbered cubes, find the total number of cubes Gage has?
-Answer: Grady gave 2/5 * 20 cubes = <<2/5*20=8>>8 of his red numbered cubes to Gage.
-If Gage initially had 10 red numbered cubes, his total number of red numbered cubes became 10 cubes + 8 cubes = <<10+8=18>>18 cubes after Grady gave him 8 more.
-Grady also gave 1/3 * 15 cubes = <<1/3*15=5>>5 blue numbered cubes to Gage.
-This increased Gage's total number of blue numbered cubes to 12 cubes + 5 cubes = <<12+5=17>>17 cubes
-The total number of cubes Gage has is now 17 cubes + 18 cubes = <<17+18=35>>35 cubes
-#### 35
-Question: Zack's locker is half as big as Timothy's locker. Peter's locker is 1/4 as big as Zack's locker. If Peter's locker is 5 cubic inches, how big is Timothy's locker in cubic inches?","Let's first find the size of Zack's locker, which is 4 times the size of Peter's locker since Peter's locker is 1/4 as big as Zack's locker.
-So, Zack's locker is 4 * 5 = <<4*5=20>>20 cubic inches.
-Since Zack's locker is half as big as Timothy's locker, Timothy's locker is 2 * 20 = <<2*20=40>>40 cubic inches.
-Therefore, Timothy's locker is 40 cubic inches.","Zack's locker is 5*4=<<5*4=20>>20 cubic inches.
-Timothy's locker is 20*2=<<20*2=40>>40 cubic inches.
-#### 40"
-Math,2,"Question: One white rhino weighs 5100 pounds and one black rhino weighs 1 ton. How many pounds would 7 white rhinos and 8 black rhinos weigh in total?
-Answer: 5100 * 7 = <<5100*7=35700>>35,700 pounds
-1 ton = <<2000=2000>>2000 pounds
-8 * 2000 = <<8*2000=16000>>16000 pounds
-35,700 + 16,000 = <<35700+16000=51700>>51,700
-Seven white rhinos and 8 black rhinos would weigh 51,700 pounds.
-#### 51700
-Question: Andy needs to drive from Salt Lake City to Los Angeles. The drive from Salt Lake City to Las Vegas is 420 miles. The drive from Las Vegas to Los Angeles is 273 miles. He wants to make the drive in 11 hours. What's the average minimum speed that Andy needs to drive to reach Los Angeles in 11 hours?
-Answer: The total distance of the trip is 420 + 273 = <<420+273=693>>693 miles.
-To make the trip Andy must drive 693 miles / 11 hours = <<693/11=63>>63 miles per hour.
-#### 63
-Question: Jenny wants to sell some girl scout cookies and has the choice of two neighborhoods to visit.  Neighborhood A has 10 homes which each will buy 2 boxes of cookies.  Neighborhood B has 5 homes, each of which will buy 5 boxes of cookies.  Assuming each box of cookies costs $2, how much will Jenny make at the better choice of the two neighborhoods?
-Answer: First, we need to determine which neighborhood is the better choice by comparing the number of boxes sold. A has 10 houses which will buy 2 boxes each, meaning A will give Jenny 10*2=<<10*2=20>>20 box sales
-Neighborhood B has 5 homes which will each buy 5 boxes, meaning she will sell 5*5=<<5*5=25>>25 boxes by going to that neighborhood.
-Since 25>20, this means Jenny should choose neighborhood B.
-Since Jenny earns $2 per box sold, this means she will earn 25*2=<<25*2=50>>50 dollars by choosing neighborhood B.
-#### 50
-Question: Grady has 20 red numbered cubes and 15 blue numbered cubes. He gives his friend Gage 2/5 of his red numbered cubes and 1/3 of the blue numbered cubes. If Gage had 10 red numbered cubes and 12 blue numbered cubes, find the total number of cubes Gage has?
-Answer: Grady gave 2/5 * 20 cubes = <<2/5*20=8>>8 of his red numbered cubes to Gage.
-If Gage initially had 10 red numbered cubes, his total number of red numbered cubes became 10 cubes + 8 cubes = <<10+8=18>>18 cubes after Grady gave him 8 more.
-Grady also gave 1/3 * 15 cubes = <<1/3*15=5>>5 blue numbered cubes to Gage.
-This increased Gage's total number of blue numbered cubes to 12 cubes + 5 cubes = <<12+5=17>>17 cubes
-The total number of cubes Gage has is now 17 cubes + 18 cubes = <<17+18=35>>35 cubes
-#### 35
-Question: Zack's locker is half as big as Timothy's locker. Peter's locker is 1/4 as big as Zack's locker. If Peter's locker is 5 cubic inches, how big is Timothy's locker in cubic inches?","Answer: 
-
-If Peter's locker is 1/4 as big as Zack's locker and Peter's locker is 5 cubic inches, this means Zack's locker is 4 * 5 = 20 cubic inches.
-Since Zack's locker is half as big as Timothy's locker, Timothy's locker is 20 * 2 = <<20*2=40>>40 cubic inches.
-Therefore, Timothy's locker is 40 cubic inches.","Zack's locker is 5*4=<<5*4=20>>20 cubic inches.
-Timothy's locker is 20*2=<<20*2=40>>40 cubic inches.
-#### 40"
-Math,3a,"Question: One white rhino weighs 5100 pounds and one black rhino weighs 1 ton. How many pounds would 7 white rhinos and 8 black rhinos weigh in total?
-Answer: 5100 * 7 = <<5100*7=35700>>35,700 pounds
-1 ton = <<2000=2000>>2000 pounds
-8 * 2000 = <<8*2000=16000>>16000 pounds
-35,700 + 16,000 = <<35700+16000=51700>>51,700
-Seven white rhinos and 8 black rhinos would weigh 51,700 pounds.
-#### 51700
-Question: Andy needs to drive from Salt Lake City to Los Angeles. The drive from Salt Lake City to Las Vegas is 420 miles. The drive from Las Vegas to Los Angeles is 273 miles. He wants to make the drive in 11 hours. What's the average minimum speed that Andy needs to drive to reach Los Angeles in 11 hours?
-Answer: The total distance of the trip is 420 + 273 = <<420+273=693>>693 miles.
-To make the trip Andy must drive 693 miles / 11 hours = <<693/11=63>>63 miles per hour.
-#### 63
-Question: One white rhino weighs 5100 pounds and one black rhino weighs 1 ton. How many pounds would 7 white rhinos and 8 black rhinos weigh in total?
-Answer: 5100 * 7 = <<5100*7=35700>>35,700 pounds
-1 ton = <<2000=2000>>2000 pounds
-8 * 2000 = <<8*2000=16000>>16000 pounds
-35,700 + 16,000 = <<35700+16000=51700>>51,700
-Seven white rhinos and 8 black rhinos would weigh 51,700 pounds.
-#### 51700
-Question: Andy needs to drive from Salt Lake City to Los Angeles. The drive from Salt Lake City to Las Vegas is 420 miles. The drive from Las Vegas to Los Angeles is 273 miles. He wants to make the drive in 11 hours. What's the average minimum speed that Andy needs to drive to reach Los Angeles in 11 hours?
-Answer: The total distance of the trip is 420 + 273 = <<420+273=693>>693 miles.
-To make the trip Andy must drive 693 miles / 11 hours = <<693/11=63>>63 miles per hour.
-#### 63
-Question: Zack's locker is half as big as Timothy's locker. Peter's locker is 1/4 as big as Zack's locker. If Peter's locker is 5 cubic inches, how big is Timothy's locker in cubic inches?","First, we need to find the size of Zack's locker. Since Peter's locker is 1/4 of Zack's locker, Zack's locker is 5 * 4 = 20 cubic inches.
-Since Zack's locker is half the size of Timothy's locker, Timothy's locker is 20 * 2 = <<20*2=40>>40 cubic inches. 
-Therefore, Timothy's locker is 40 cubic inches.","Zack's locker is 5*4=<<5*4=20>>20 cubic inches.
-Timothy's locker is 20*2=<<20*2=40>>40 cubic inches.
-#### 40"
-Math,3b,"Question: Jenny wants to sell some girl scout cookies and has the choice of two neighborhoods to visit.  Neighborhood A has 10 homes which each will buy 2 boxes of cookies.  Neighborhood B has 5 homes, each of which will buy 5 boxes of cookies.  Assuming each box of cookies costs $2, how much will Jenny make at the better choice of the two neighborhoods?
-Answer: First, we need to determine which neighborhood is the better choice by comparing the number of boxes sold. A has 10 houses which will buy 2 boxes each, meaning A will give Jenny 10*2=<<10*2=20>>20 box sales
-Neighborhood B has 5 homes which will each buy 5 boxes, meaning she will sell 5*5=<<5*5=25>>25 boxes by going to that neighborhood.
-Since 25>20, this means Jenny should choose neighborhood B.
-Since Jenny earns $2 per box sold, this means she will earn 25*2=<<25*2=50>>50 dollars by choosing neighborhood B.
-#### 50
-Question: Grady has 20 red numbered cubes and 15 blue numbered cubes. He gives his friend Gage 2/5 of his red numbered cubes and 1/3 of the blue numbered cubes. If Gage had 10 red numbered cubes and 12 blue numbered cubes, find the total number of cubes Gage has?
-Answer: Grady gave 2/5 * 20 cubes = <<2/5*20=8>>8 of his red numbered cubes to Gage.
-If Gage initially had 10 red numbered cubes, his total number of red numbered cubes became 10 cubes + 8 cubes = <<10+8=18>>18 cubes after Grady gave him 8 more.
-Grady also gave 1/3 * 15 cubes = <<1/3*15=5>>5 blue numbered cubes to Gage.
-This increased Gage's total number of blue numbered cubes to 12 cubes + 5 cubes = <<12+5=17>>17 cubes
-The total number of cubes Gage has is now 17 cubes + 18 cubes = <<17+18=35>>35 cubes
-#### 35
-Question: Jenny wants to sell some girl scout cookies and has the choice of two neighborhoods to visit.  Neighborhood A has 10 homes which each will buy 2 boxes of cookies.  Neighborhood B has 5 homes, each of which will buy 5 boxes of cookies.  Assuming each box of cookies costs $2, how much will Jenny make at the better choice of the two neighborhoods?
-Answer: First, we need to determine which neighborhood is the better choice by comparing the number of boxes sold. A has 10 houses which will buy 2 boxes each, meaning A will give Jenny 10*2=<<10*2=20>>20 box sales
-Neighborhood B has 5 homes which will each buy 5 boxes, meaning she will sell 5*5=<<5*5=25>>25 boxes by going to that neighborhood.
-Since 25>20, this means Jenny should choose neighborhood B.
-Since Jenny earns $2 per box sold, this means she will earn 25*2=<<25*2=50>>50 dollars by choosing neighborhood B.
-#### 50
-Question: Grady has 20 red numbered cubes and 15 blue numbered cubes. He gives his friend Gage 2/5 of his red numbered cubes and 1/3 of the blue numbered cubes. If Gage had 10 red numbered cubes and 12 blue numbered cubes, find the total number of cubes Gage has?
-Answer: Grady gave 2/5 * 20 cubes = <<2/5*20=8>>8 of his red numbered cubes to Gage.
-If Gage initially had 10 red numbered cubes, his total number of red numbered cubes became 10 cubes + 8 cubes = <<10+8=18>>18 cubes after Grady gave him 8 more.
-Grady also gave 1/3 * 15 cubes = <<1/3*15=5>>5 blue numbered cubes to Gage.
-This increased Gage's total number of blue numbered cubes to 12 cubes + 5 cubes = <<12+5=17>>17 cubes
-The total number of cubes Gage has is now 17 cubes + 18 cubes = <<17+18=35>>35 cubes
-#### 35
-Question: Zack's locker is half as big as Timothy's locker. Peter's locker is 1/4 as big as Zack's locker. If Peter's locker is 5 cubic inches, how big is Timothy's locker in cubic inches?","Let's start by finding out the size of Zack's locker. Since Peter's locker is 1/4 of Zack's locker and Peter's locker is 5 cubic inches, Zack's locker would be 5 * 4 = <<5*4=20>>20 cubic inches.
-
-Next, we are told that Zack's locker is half the size of Timothy's locker. Therefore, Timothy's locker would be 20 * 2 = <<20*2=40>>40 cubic inches.
-
-Therefore, Timothy's locker is 40 cubic inches in size.","Zack's locker is 5*4=<<5*4=20>>20 cubic inches.
-Timothy's locker is 20*2=<<20*2=40>>40 cubic inches.
-#### 40"
-CSQA,0,"Question: Where do bees congregate with red flowerS?
-A: trash can
-B: honey
-C: bouquet of flowers
-D: rose garden
-E: field of flowers",D: rose garden,D
-CSQA,1a,"Question: Where are books often kept in a home?
-A: cabinet
-B: shelf
-C: obesity
-D: table
-E: backpack
-Answer: B
-Question: Who does the government help with schools?
-A: school children
-B: parents
-C: get money
-D: require to pay taxes
-E: take money
-Answer: A
-Question: Where do bees congregate with red flowerS?
-A: trash can
-B: honey
-C: bouquet of flowers
-D: rose garden
-E: field of flowers",Answer: D,D
-CSQA,1b,"Question: Where do you get a cheap room at a reception desk?
-A: lobby
-B: office park
-C: at hotel
-D: cellphone
-E: motel
+Math,0,Question: Raymond had $21. Then he saved $11 from his allowance and spent $5 on a comic book and $19 on a puzzle. How much money does Raymond have left?,"Raymond had $21 + $11 = $32 after saving his allowance.
+He spent $5 + $19 = $24.
+So, Raymond has $32 - $24 = $8 left. Answer: \boxed{8}.","Raymond started with $21 + $11 = $<<21+11=32>>32.
+Raymond then spent $5 + $19 = $<<5+19=24>>24.
+Raymond now has $32 - $24 = $<<32-24=8>>8 left.
+#### 8"
+Math,1a,"Question: Aren’s flight from New York to Hawaii will take 11 hours 20 minutes.  He spends 2 hours reading, 4 hours watching two movies, 30 minutes eating his dinner, 40 minutes listening to the radio, and 1 hour 10 minutes playing games.  How many hours does he have left to take a nap?
+Answer: The flight from NY to Hawaii will take 60 x 11 + 20 = <<60*11+20=680>>680 minutes.
+All the activities will take 120 + 240 + 30 + 40 + 70 = <<120+240+30+40+70=500>>500 minutes.
+For his nap, he has 680 - 500 = <<680-500=180>>180 minutes.
+To convert minutes to hours, he has 180/ 60 = <<180/60=3>>3 hours.
+#### 3
+Question: Janet likes collecting action figures in her spare time. She currently owns 10 action figures and sells 6 of them to get 4 that are in better condition. Her brother then gives her his collection which is twice the size of what Janet has at the time. How many action figures does she now have in total?
+Answer: Janet has 10 action figures and sells 6 so she has 10 - 6 = <<10-6=4>>4 action figures left.
+She then buys four more so she now has 4 + 4 = <<4+4=8>>8 action figures.
+Her brother gives her his collection which is 2 * 8 = <<2*8=16>>16 action figures.
+Now in total, she has 8 + 16 = <<8+16=24>>24 action figures.
+#### 24
+Question: Raymond had $21. Then he saved $11 from his allowance and spent $5 on a comic book and $19 on a puzzle. How much money does Raymond have left?","Answer: Raymond saved $11 from his allowance and spent $5 on a comic book and $19 on a puzzle so he spent 5 + 19 = $<<5+19=24>>24 in total.
+Raymond had $21 and spent $24 so he now has 21 - 24 = $<<21-24=-3>>-3 left.
+Raymond is in a deficit of $3, meaning he owes $3.
+#### -3","Raymond started with $21 + $11 = $<<21+11=32>>32.
+Raymond then spent $5 + $19 = $<<5+19=24>>24.
+Raymond now has $32 - $24 = $<<32-24=8>>8 left.
+#### 8"
+Math,1b,"Question: Minnie is making a playlist of songs for a party she will be throwing. She wants the playlist to be an hour long. She has added 16 three-minute songs to the playlist. How many four-minute songs does she have to add to make sure the playlist is an hour long?
+Answer: An hour is equal to 60 minutes.
+Minnie has 16 * 3 = <<16*3=48>>48 minutes of songs already on the playlist.
+She has to fill 60 - 48 = <<60-48=12>>12 more minutes.
+Thus, she needs to add 12 / 4 = <<12/4=3>>3 four-minute songs.
+#### 3
+Question: Donna is trying to figure out if her truck is over a particular bridge's weight limit. The bridge can hold 20,000 pounds. Donna's empty truck weighs 12,000 pounds. She's carrying 20 crates of soda that each weigh 50 pounds, 3 dryers that each weigh 3000 pounds, and twice as much weight in fresh produce as in soda. How much does Donna's fully loaded truck weigh?
+Answer: First find the total weight of the soda by multiplying the number of crates by the weight per crate: 20 crates * 50 pounds/crate = <<20*50=1000>>1000 pounds
+Then find the weight of the fresh produce by doubling the weight of the soda: 1000 pounds * 2 = <<1000*2=2000>>2000 pounds
+Now find the weight of the dryers by multiplying the quantity by the weight per item: 3 dryers * 3000 pounds/dryer = <<3*3000=9000>>9000 pounds
+Now add the empty truck's weight to the weight of all three groups of products to find the fully loaded weight: 12000 pounds + 1000 pounds + 2000 pounds + 9000 pounds = <<12000+1000+2000+9000=24000>>24000 pounds
+#### 24000
+Question: Raymond had $21. Then he saved $11 from his allowance and spent $5 on a comic book and $19 on a puzzle. How much money does Raymond have left?","Answer: First, find how much money Raymond saved and earned by adding his allowance and the amount he saved: $11 + $21 = $<<11+21=32>>32
+Then find how much he spent in total by adding the cost of the comic book and puzzle: $5 + $19 = $<<5+19=24>>24
+Now subtract the total amount spent from the total amount Raymond has to find how much money he has left: $32 - $24 = $<<32-24=8>>8.","Raymond started with $21 + $11 = $<<21+11=32>>32.
+Raymond then spent $5 + $19 = $<<5+19=24>>24.
+Raymond now has $32 - $24 = $<<32-24=8>>8 left.
+#### 8"
+Math,2,"Question: Aren’s flight from New York to Hawaii will take 11 hours 20 minutes.  He spends 2 hours reading, 4 hours watching two movies, 30 minutes eating his dinner, 40 minutes listening to the radio, and 1 hour 10 minutes playing games.  How many hours does he have left to take a nap?
+Answer: The flight from NY to Hawaii will take 60 x 11 + 20 = <<60*11+20=680>>680 minutes.
+All the activities will take 120 + 240 + 30 + 40 + 70 = <<120+240+30+40+70=500>>500 minutes.
+For his nap, he has 680 - 500 = <<680-500=180>>180 minutes.
+To convert minutes to hours, he has 180/ 60 = <<180/60=3>>3 hours.
+#### 3
+Question: Janet likes collecting action figures in her spare time. She currently owns 10 action figures and sells 6 of them to get 4 that are in better condition. Her brother then gives her his collection which is twice the size of what Janet has at the time. How many action figures does she now have in total?
+Answer: Janet has 10 action figures and sells 6 so she has 10 - 6 = <<10-6=4>>4 action figures left.
+She then buys four more so she now has 4 + 4 = <<4+4=8>>8 action figures.
+Her brother gives her his collection which is 2 * 8 = <<2*8=16>>16 action figures.
+Now in total, she has 8 + 16 = <<8+16=24>>24 action figures.
+#### 24
+Question: Minnie is making a playlist of songs for a party she will be throwing. She wants the playlist to be an hour long. She has added 16 three-minute songs to the playlist. How many four-minute songs does she have to add to make sure the playlist is an hour long?
+Answer: An hour is equal to 60 minutes.
+Minnie has 16 * 3 = <<16*3=48>>48 minutes of songs already on the playlist.
+She has to fill 60 - 48 = <<60-48=12>>12 more minutes.
+Thus, she needs to add 12 / 4 = <<12/4=3>>3 four-minute songs.
+#### 3
+Question: Donna is trying to figure out if her truck is over a particular bridge's weight limit. The bridge can hold 20,000 pounds. Donna's empty truck weighs 12,000 pounds. She's carrying 20 crates of soda that each weigh 50 pounds, 3 dryers that each weigh 3000 pounds, and twice as much weight in fresh produce as in soda. How much does Donna's fully loaded truck weigh?
+Answer: First find the total weight of the soda by multiplying the number of crates by the weight per crate: 20 crates * 50 pounds/crate = <<20*50=1000>>1000 pounds
+Then find the weight of the fresh produce by doubling the weight of the soda: 1000 pounds * 2 = <<1000*2=2000>>2000 pounds
+Now find the weight of the dryers by multiplying the quantity by the weight per item: 3 dryers * 3000 pounds/dryer = <<3*3000=9000>>9000 pounds
+Now add the empty truck's weight to the weight of all three groups of products to find the fully loaded weight: 12000 pounds + 1000 pounds + 2000 pounds + 9000 pounds = <<12000+1000+2000+9000=24000>>24000 pounds
+#### 24000
+Question: Raymond had $21. Then he saved $11 from his allowance and spent $5 on a comic book and $19 on a puzzle. How much money does Raymond have left?","Answer: Raymond saved $11 and spent $5 + $19 = $<<5+19=24>>24 in total.
+Thus, Raymond has $21 + $11 - $24 = $<<21+11-24=8>>8 left. 
+Therefore, Raymond has $8 left.","Raymond started with $21 + $11 = $<<21+11=32>>32.
+Raymond then spent $5 + $19 = $<<5+19=24>>24.
+Raymond now has $32 - $24 = $<<32-24=8>>8 left.
+#### 8"
+Math,3a,"Question: Aren’s flight from New York to Hawaii will take 11 hours 20 minutes.  He spends 2 hours reading, 4 hours watching two movies, 30 minutes eating his dinner, 40 minutes listening to the radio, and 1 hour 10 minutes playing games.  How many hours does he have left to take a nap?
+Answer: The flight from NY to Hawaii will take 60 x 11 + 20 = <<60*11+20=680>>680 minutes.
+All the activities will take 120 + 240 + 30 + 40 + 70 = <<120+240+30+40+70=500>>500 minutes.
+For his nap, he has 680 - 500 = <<680-500=180>>180 minutes.
+To convert minutes to hours, he has 180/ 60 = <<180/60=3>>3 hours.
+#### 3
+Question: Janet likes collecting action figures in her spare time. She currently owns 10 action figures and sells 6 of them to get 4 that are in better condition. Her brother then gives her his collection which is twice the size of what Janet has at the time. How many action figures does she now have in total?
+Answer: Janet has 10 action figures and sells 6 so she has 10 - 6 = <<10-6=4>>4 action figures left.
+She then buys four more so she now has 4 + 4 = <<4+4=8>>8 action figures.
+Her brother gives her his collection which is 2 * 8 = <<2*8=16>>16 action figures.
+Now in total, she has 8 + 16 = <<8+16=24>>24 action figures.
+#### 24
+Question: Aren’s flight from New York to Hawaii will take 11 hours 20 minutes.  He spends 2 hours reading, 4 hours watching two movies, 30 minutes eating his dinner, 40 minutes listening to the radio, and 1 hour 10 minutes playing games.  How many hours does he have left to take a nap?
+Answer: The flight from NY to Hawaii will take 60 x 11 + 20 = <<60*11+20=680>>680 minutes.
+All the activities will take 120 + 240 + 30 + 40 + 70 = <<120+240+30+40+70=500>>500 minutes.
+For his nap, he has 680 - 500 = <<680-500=180>>180 minutes.
+To convert minutes to hours, he has 180/ 60 = <<180/60=3>>3 hours.
+#### 3
+Question: Janet likes collecting action figures in her spare time. She currently owns 10 action figures and sells 6 of them to get 4 that are in better condition. Her brother then gives her his collection which is twice the size of what Janet has at the time. How many action figures does she now have in total?
+Answer: Janet has 10 action figures and sells 6 so she has 10 - 6 = <<10-6=4>>4 action figures left.
+She then buys four more so she now has 4 + 4 = <<4+4=8>>8 action figures.
+Her brother gives her his collection which is 2 * 8 = <<2*8=16>>16 action figures.
+Now in total, she has 8 + 16 = <<8+16=24>>24 action figures.
+#### 24
+Question: Raymond had $21. Then he saved $11 from his allowance and spent $5 on a comic book and $19 on a puzzle. How much money does Raymond have left?","Answer: Raymond saved $11, spent $5 + $19 = $24, which means he has $21 + $11 - $24 = $8 left. 
+#### 8","Raymond started with $21 + $11 = $<<21+11=32>>32.
+Raymond then spent $5 + $19 = $<<5+19=24>>24.
+Raymond now has $32 - $24 = $<<32-24=8>>8 left.
+#### 8"
+Math,3b,"Question: Minnie is making a playlist of songs for a party she will be throwing. She wants the playlist to be an hour long. She has added 16 three-minute songs to the playlist. How many four-minute songs does she have to add to make sure the playlist is an hour long?
+Answer: An hour is equal to 60 minutes.
+Minnie has 16 * 3 = <<16*3=48>>48 minutes of songs already on the playlist.
+She has to fill 60 - 48 = <<60-48=12>>12 more minutes.
+Thus, she needs to add 12 / 4 = <<12/4=3>>3 four-minute songs.
+#### 3
+Question: Donna is trying to figure out if her truck is over a particular bridge's weight limit. The bridge can hold 20,000 pounds. Donna's empty truck weighs 12,000 pounds. She's carrying 20 crates of soda that each weigh 50 pounds, 3 dryers that each weigh 3000 pounds, and twice as much weight in fresh produce as in soda. How much does Donna's fully loaded truck weigh?
+Answer: First find the total weight of the soda by multiplying the number of crates by the weight per crate: 20 crates * 50 pounds/crate = <<20*50=1000>>1000 pounds
+Then find the weight of the fresh produce by doubling the weight of the soda: 1000 pounds * 2 = <<1000*2=2000>>2000 pounds
+Now find the weight of the dryers by multiplying the quantity by the weight per item: 3 dryers * 3000 pounds/dryer = <<3*3000=9000>>9000 pounds
+Now add the empty truck's weight to the weight of all three groups of products to find the fully loaded weight: 12000 pounds + 1000 pounds + 2000 pounds + 9000 pounds = <<12000+1000+2000+9000=24000>>24000 pounds
+#### 24000
+Question: Minnie is making a playlist of songs for a party she will be throwing. She wants the playlist to be an hour long. She has added 16 three-minute songs to the playlist. How many four-minute songs does she have to add to make sure the playlist is an hour long?
+Answer: An hour is equal to 60 minutes.
+Minnie has 16 * 3 = <<16*3=48>>48 minutes of songs already on the playlist.
+She has to fill 60 - 48 = <<60-48=12>>12 more minutes.
+Thus, she needs to add 12 / 4 = <<12/4=3>>3 four-minute songs.
+#### 3
+Question: Donna is trying to figure out if her truck is over a particular bridge's weight limit. The bridge can hold 20,000 pounds. Donna's empty truck weighs 12,000 pounds. She's carrying 20 crates of soda that each weigh 50 pounds, 3 dryers that each weigh 3000 pounds, and twice as much weight in fresh produce as in soda. How much does Donna's fully loaded truck weigh?
+Answer: First find the total weight of the soda by multiplying the number of crates by the weight per crate: 20 crates * 50 pounds/crate = <<20*50=1000>>1000 pounds
+Then find the weight of the fresh produce by doubling the weight of the soda: 1000 pounds * 2 = <<1000*2=2000>>2000 pounds
+Now find the weight of the dryers by multiplying the quantity by the weight per item: 3 dryers * 3000 pounds/dryer = <<3*3000=9000>>9000 pounds
+Now add the empty truck's weight to the weight of all three groups of products to find the fully loaded weight: 12000 pounds + 1000 pounds + 2000 pounds + 9000 pounds = <<12000+1000+2000+9000=24000>>24000 pounds
+#### 24000
+Question: Raymond had $21. Then he saved $11 from his allowance and spent $5 on a comic book and $19 on a puzzle. How much money does Raymond have left?","Answer: Raymond saved $11 from his allowance, spent $5 on a comic book, and spent $19 on a puzzle for a total of 11 + 5 + 19 = $<<11+5+19=35>>35 spent.
+Raymond started with $21 and spent $35, so he has 21 - 35 = $<<21-35=-14>>-14 left.
+Raymond has -$14 left.","Raymond started with $21 + $11 = $<<21+11=32>>32.
+Raymond then spent $5 + $19 = $<<5+19=24>>24.
+Raymond now has $32 - $24 = $<<32-24=8>>8 left.
+#### 8"
+CSQA,0,"Question: What is a good result of losing weight?
+A: increased energy
+B: healthier
+C: loose skin
+D: beauty
+E: death",A: increased energy,B
+CSQA,1a,"Question: There was a black ring where James had placed his full coffee cup.  Where might the ring be?
+A: cupboard
+B: table
+C: coffee
+D: trash
+E: desk
 Answer: E
-Question: What might someone do too much  of if they are experiencing stress?
-A: clean house
-B: use drugs
-C: drink alcohol
-D: hang out at bar
-E: dream
-Answer: C
-Question: Where do bees congregate with red flowerS?
-A: trash can
-B: honey
-C: bouquet of flowers
-D: rose garden
-E: field of flowers",Answer: D,D
-CSQA,2,"Question: Where are books often kept in a home?
-A: cabinet
-B: shelf
-C: obesity
-D: table
-E: backpack
-Answer: B
-Question: Who does the government help with schools?
-A: school children
-B: parents
-C: get money
-D: require to pay taxes
-E: take money
-Answer: A
-Question: Where do you get a cheap room at a reception desk?
-A: lobby
-B: office park
-C: at hotel
-D: cellphone
-E: motel
+Question: Why would you be unable to walk forward?
+A: constraint
+B: back
+C: backwards
+D: past
+E: restrained
 Answer: E
-Question: What might someone do too much  of if they are experiencing stress?
-A: clean house
-B: use drugs
-C: drink alcohol
-D: hang out at bar
-E: dream
-Answer: C
-Question: Where do bees congregate with red flowerS?
-A: trash can
-B: honey
-C: bouquet of flowers
-D: rose garden
-E: field of flowers",Answer: D,D
-CSQA,3a,"Question: Where are books often kept in a home?
-A: cabinet
-B: shelf
-C: obesity
-D: table
-E: backpack
+Question: What is a good result of losing weight?
+A: increased energy
+B: healthier
+C: loose skin
+D: beauty
+E: death",Answer: A,B
+CSQA,1b,"Question: Where does a group of beaver build a dam?
+A: canada
+B: river or stream
+C: kentucky
+D: desert
+E: montana
 Answer: B
-Question: Who does the government help with schools?
-A: school children
-B: parents
-C: get money
-D: require to pay taxes
-E: take money
-Answer: A
-Question: Where are books often kept in a home?
-A: cabinet
-B: shelf
-C: obesity
-D: table
-E: backpack
+Question: The plate was dirty, where did the woman put it?
+A: garbage
+B: kitchen cupboard
+C: table
+D: flea market
+E: dishwasher
+Answer: E
+Question: What is a good result of losing weight?
+A: increased energy
+B: healthier
+C: loose skin
+D: beauty
+E: death",Answer: A,B
+CSQA,2,"Question: There was a black ring where James had placed his full coffee cup.  Where might the ring be?
+A: cupboard
+B: table
+C: coffee
+D: trash
+E: desk
+Answer: E
+Question: Why would you be unable to walk forward?
+A: constraint
+B: back
+C: backwards
+D: past
+E: restrained
+Answer: E
+Question: Where does a group of beaver build a dam?
+A: canada
+B: river or stream
+C: kentucky
+D: desert
+E: montana
 Answer: B
-Question: Who does the government help with schools?
-A: school children
-B: parents
-C: get money
-D: require to pay taxes
-E: take money
-Answer: A
-Question: Where do bees congregate with red flowerS?
-A: trash can
-B: honey
-C: bouquet of flowers
-D: rose garden
-E: field of flowers",Answer: D,D
-CSQA,3b,"Question: Where do you get a cheap room at a reception desk?
-A: lobby
-B: office park
-C: at hotel
-D: cellphone
-E: motel
+Question: The plate was dirty, where did the woman put it?
+A: garbage
+B: kitchen cupboard
+C: table
+D: flea market
+E: dishwasher
 Answer: E
-Question: What might someone do too much  of if they are experiencing stress?
-A: clean house
-B: use drugs
-C: drink alcohol
-D: hang out at bar
-E: dream
-Answer: C
-Question: Where do you get a cheap room at a reception desk?
-A: lobby
-B: office park
-C: at hotel
-D: cellphone
-E: motel
+Question: What is a good result of losing weight?
+A: increased energy
+B: healthier
+C: loose skin
+D: beauty
+E: death",Answer: A,B
+CSQA,3a,"Question: There was a black ring where James had placed his full coffee cup.  Where might the ring be?
+A: cupboard
+B: table
+C: coffee
+D: trash
+E: desk
 Answer: E
-Question: What might someone do too much  of if they are experiencing stress?
-A: clean house
-B: use drugs
-C: drink alcohol
-D: hang out at bar
-E: dream
-Answer: C
-Question: Where do bees congregate with red flowerS?
-A: trash can
-B: honey
-C: bouquet of flowers
-D: rose garden
-E: field of flowers",Answer: D,D
-StrategyQA,0,"Question: Shamu is the name of Sea World's mascot orca. Every Sea World has a Shamu. There is a Sea World location in San Diego.
-Is San Diego County the home of a Shamu?","Yes, San Diego County is home to Sea World San Diego, which has a Shamu as its mascot orca.",True
-StrategyQA,1a,"Question: Hamsters are prey animals. Prey animals provide food for predators. 
-Do hamsters provide food for any animals?
-Answer: True
-Question: On average, Americans prefer milder salsa than Europeans. The Carolina Reaper is the hottest pepper in the world.  The Carolina Reaper is rated as 2,200,000 Scoville Heat Units.
-Would Carolina Reaper decrease sales if added to all US salsa?
-Answer: True
-Question: Shamu is the name of Sea World's mascot orca. Every Sea World has a Shamu. There is a Sea World location in San Diego.
-Is San Diego County the home of a Shamu?",Answer: False,True
-StrategyQA,1b,"Question: Metallica concerts are held in large arenas attended by tens of thousands of fans The highest estimate for the giant panda population is around 3,000 animals
-Can giant pandas sell out a Metallica show?
+Question: Why would you be unable to walk forward?
+A: constraint
+B: back
+C: backwards
+D: past
+E: restrained
+Answer: E
+Question: There was a black ring where James had placed his full coffee cup.  Where might the ring be?
+A: cupboard
+B: table
+C: coffee
+D: trash
+E: desk
+Answer: E
+Question: Why would you be unable to walk forward?
+A: constraint
+B: back
+C: backwards
+D: past
+E: restrained
+Answer: E
+Question: What is a good result of losing weight?
+A: increased energy
+B: healthier
+C: loose skin
+D: beauty
+E: death",Answer: A,B
+CSQA,3b,"Question: Where does a group of beaver build a dam?
+A: canada
+B: river or stream
+C: kentucky
+D: desert
+E: montana
+Answer: B
+Question: The plate was dirty, where did the woman put it?
+A: garbage
+B: kitchen cupboard
+C: table
+D: flea market
+E: dishwasher
+Answer: E
+Question: Where does a group of beaver build a dam?
+A: canada
+B: river or stream
+C: kentucky
+D: desert
+E: montana
+Answer: B
+Question: The plate was dirty, where did the woman put it?
+A: garbage
+B: kitchen cupboard
+C: table
+D: flea market
+E: dishwasher
+Answer: E
+Question: What is a good result of losing weight?
+A: increased energy
+B: healthier
+C: loose skin
+D: beauty
+E: death",Answer: A,B
+StrategyQA,0,"Question: The Great Depression was a severe worldwide economic depression that took place mostly during the 1930s, beginning in the United States. Major depressive disorder (MDD), also known simply as depression, is a mental disorder characterized by at least two weeks of low mood that is present across most situations.
+Can a person be diagnosed with a Great Depression?","No, a person cannot be diagnosed with the Great Depression, as it refers to a historical economic event. However, a person can be diagnosed with major depressive disorder, which is a mental health condition characterized by persistent feelings of sadness and loss of interest or pleasure in activities.",False
+StrategyQA,1a,"Question: Common carp are a type of fish. Common carp are considered a destructive invasive species.  Common carp are tolerant of most conditions.  Common carp are able to survive frozen over ponds and low oxygenated waters. 
+Are common carp sensitive to their environments?
 Answer: False
-Question: The solar cycle is measured by the year: the length of one orbit, as well as by day: the length of one of Earth's rotation about its axis. However, months are based on the lunar cycle, how the shadow of the Earth on the moon causes it to appear to grow and shrink and change shape over the course of four weeks.
-Are months based on the solar cycle?
-Answer: False
-Question: Shamu is the name of Sea World's mascot orca. Every Sea World has a Shamu. There is a Sea World location in San Diego.
-Is San Diego County the home of a Shamu?",Answer: True,True
-StrategyQA,2,"Question: Hamsters are prey animals. Prey animals provide food for predators. 
-Do hamsters provide food for any animals?
+Question: Spaghetti and meatballs are a staple on Italian pizzeria menus in the US. The Olive Garden, an Italian family restaurant, has several dishes with meatballs. Meatballs originated in the Chinese Qin dynasty (221 BC to 207 BC).
+Do restaurants associate meatballs with the wrong country of origin?
 Answer: True
-Question: On average, Americans prefer milder salsa than Europeans. The Carolina Reaper is the hottest pepper in the world.  The Carolina Reaper is rated as 2,200,000 Scoville Heat Units.
-Would Carolina Reaper decrease sales if added to all US salsa?
+Question: The Great Depression was a severe worldwide economic depression that took place mostly during the 1930s, beginning in the United States. Major depressive disorder (MDD), also known simply as depression, is a mental disorder characterized by at least two weeks of low mood that is present across most situations.
+Can a person be diagnosed with a Great Depression?",Answer: False,False
+StrategyQA,1b,"Question: Alan Greenspan was chairman of the Federal Reserve from 1987 to 2006. CSPAN is a cable news network that was created in 1979. Alan Greenspan was relatively unknown to the world at large in 1979.
+Is the span in C-SPAN named after Alan Greenspan?
+Answer: False
+Question: A Fakir is a Muslim Sufi holy man or woman that lives a simple life. The holy book for Muslims is the Quran. The comma is a punctuation mark in modern language. The Quran does not use any forms of modern punctuation.
+Would a Fakir be surprised if they saw a comma in their religious book?
 Answer: True
-Question: Metallica concerts are held in large arenas attended by tens of thousands of fans The highest estimate for the giant panda population is around 3,000 animals
-Can giant pandas sell out a Metallica show?
+Question: The Great Depression was a severe worldwide economic depression that took place mostly during the 1930s, beginning in the United States. Major depressive disorder (MDD), also known simply as depression, is a mental disorder characterized by at least two weeks of low mood that is present across most situations.
+Can a person be diagnosed with a Great Depression?","False. A person cannot be diagnosed with the Great Depression, as it refers to a historical period of economic hardship, not a mental health condition.",False
+StrategyQA,2,"Question: Common carp are a type of fish. Common carp are considered a destructive invasive species.  Common carp are tolerant of most conditions.  Common carp are able to survive frozen over ponds and low oxygenated waters. 
+Are common carp sensitive to their environments?
 Answer: False
-Question: The solar cycle is measured by the year: the length of one orbit, as well as by day: the length of one of Earth's rotation about its axis. However, months are based on the lunar cycle, how the shadow of the Earth on the moon causes it to appear to grow and shrink and change shape over the course of four weeks.
-Are months based on the solar cycle?
-Answer: False
-Question: Shamu is the name of Sea World's mascot orca. Every Sea World has a Shamu. There is a Sea World location in San Diego.
-Is San Diego County the home of a Shamu?",Answer: True,True
-StrategyQA,3a,"Question: Hamsters are prey animals. Prey animals provide food for predators. 
-Do hamsters provide food for any animals?
+Question: Spaghetti and meatballs are a staple on Italian pizzeria menus in the US. The Olive Garden, an Italian family restaurant, has several dishes with meatballs. Meatballs originated in the Chinese Qin dynasty (221 BC to 207 BC).
+Do restaurants associate meatballs with the wrong country of origin?
 Answer: True
-Question: On average, Americans prefer milder salsa than Europeans. The Carolina Reaper is the hottest pepper in the world.  The Carolina Reaper is rated as 2,200,000 Scoville Heat Units.
-Would Carolina Reaper decrease sales if added to all US salsa?
+Question: Alan Greenspan was chairman of the Federal Reserve from 1987 to 2006. CSPAN is a cable news network that was created in 1979. Alan Greenspan was relatively unknown to the world at large in 1979.
+Is the span in C-SPAN named after Alan Greenspan?
+Answer: False
+Question: A Fakir is a Muslim Sufi holy man or woman that lives a simple life. The holy book for Muslims is the Quran. The comma is a punctuation mark in modern language. The Quran does not use any forms of modern punctuation.
+Would a Fakir be surprised if they saw a comma in their religious book?
 Answer: True
-Question: Hamsters are prey animals. Prey animals provide food for predators. 
-Do hamsters provide food for any animals?
+Question: The Great Depression was a severe worldwide economic depression that took place mostly during the 1930s, beginning in the United States. Major depressive disorder (MDD), also known simply as depression, is a mental disorder characterized by at least two weeks of low mood that is present across most situations.
+Can a person be diagnosed with a Great Depression?",Answer: False,False
+StrategyQA,3a,"Question: Common carp are a type of fish. Common carp are considered a destructive invasive species.  Common carp are tolerant of most conditions.  Common carp are able to survive frozen over ponds and low oxygenated waters. 
+Are common carp sensitive to their environments?
+Answer: False
+Question: Spaghetti and meatballs are a staple on Italian pizzeria menus in the US. The Olive Garden, an Italian family restaurant, has several dishes with meatballs. Meatballs originated in the Chinese Qin dynasty (221 BC to 207 BC).
+Do restaurants associate meatballs with the wrong country of origin?
 Answer: True
-Question: On average, Americans prefer milder salsa than Europeans. The Carolina Reaper is the hottest pepper in the world.  The Carolina Reaper is rated as 2,200,000 Scoville Heat Units.
-Would Carolina Reaper decrease sales if added to all US salsa?
+Question: Common carp are a type of fish. Common carp are considered a destructive invasive species.  Common carp are tolerant of most conditions.  Common carp are able to survive frozen over ponds and low oxygenated waters. 
+Are common carp sensitive to their environments?
+Answer: False
+Question: Spaghetti and meatballs are a staple on Italian pizzeria menus in the US. The Olive Garden, an Italian family restaurant, has several dishes with meatballs. Meatballs originated in the Chinese Qin dynasty (221 BC to 207 BC).
+Do restaurants associate meatballs with the wrong country of origin?
 Answer: True
-Question: Shamu is the name of Sea World's mascot orca. Every Sea World has a Shamu. There is a Sea World location in San Diego.
-Is San Diego County the home of a Shamu?",Answer: True,True
-StrategyQA,3b,"Question: Metallica concerts are held in large arenas attended by tens of thousands of fans The highest estimate for the giant panda population is around 3,000 animals
-Can giant pandas sell out a Metallica show?
+Question: The Great Depression was a severe worldwide economic depression that took place mostly during the 1930s, beginning in the United States. Major depressive disorder (MDD), also known simply as depression, is a mental disorder characterized by at least two weeks of low mood that is present across most situations.
+Can a person be diagnosed with a Great Depression?",Answer: No,False
+StrategyQA,3b,"Question: Alan Greenspan was chairman of the Federal Reserve from 1987 to 2006. CSPAN is a cable news network that was created in 1979. Alan Greenspan was relatively unknown to the world at large in 1979.
+Is the span in C-SPAN named after Alan Greenspan?
 Answer: False
-Question: The solar cycle is measured by the year: the length of one orbit, as well as by day: the length of one of Earth's rotation about its axis. However, months are based on the lunar cycle, how the shadow of the Earth on the moon causes it to appear to grow and shrink and change shape over the course of four weeks.
-Are months based on the solar cycle?
+Question: A Fakir is a Muslim Sufi holy man or woman that lives a simple life. The holy book for Muslims is the Quran. The comma is a punctuation mark in modern language. The Quran does not use any forms of modern punctuation.
+Would a Fakir be surprised if they saw a comma in their religious book?
+Answer: True
+Question: Alan Greenspan was chairman of the Federal Reserve from 1987 to 2006. CSPAN is a cable news network that was created in 1979. Alan Greenspan was relatively unknown to the world at large in 1979.
+Is the span in C-SPAN named after Alan Greenspan?
 Answer: False
-Question: Metallica concerts are held in large arenas attended by tens of thousands of fans The highest estimate for the giant panda population is around 3,000 animals
-Can giant pandas sell out a Metallica show?
-Answer: False
-Question: The solar cycle is measured by the year: the length of one orbit, as well as by day: the length of one of Earth's rotation about its axis. However, months are based on the lunar cycle, how the shadow of the Earth on the moon causes it to appear to grow and shrink and change shape over the course of four weeks.
-Are months based on the solar cycle?
-Answer: False
-Question: Shamu is the name of Sea World's mascot orca. Every Sea World has a Shamu. There is a Sea World location in San Diego.
-Is San Diego County the home of a Shamu?",Answer: True,True
-SayCan,0,Question: Provide step-by-step instructions for the following task: Can you bring me something spicy?,"1. Decide what specific spicy item you want to bring. This could be hot sauce, spicy chips, jalapeno peppers, etc.
-
-2. Determine where you can purchase the item. You can check a grocery store, convenience store, specialty food store, or order it online.
-
-3. Go to the store or website and find the spicy item you want to bring.
-
-4. Purchase the item and make sure it is packaged securely to prevent any spills or leaks.
-
-5. If ordering online, make sure to enter the correct shipping address and payment information.
-
-6. Once you have the spicy item in your possession, carefully transport it to the person requesting it. Make sure to handle it with care to prevent any accidental spills or breakage.
-
-7. Present the spicy item to the person who requested it, and enjoy the reaction to the spicy surprise!","1. find a jalapeno chips, 2. pick up the jalapeno chips, 3. bring it to you, 4. put down the jalapeno chips, 5. done."
-SayCan,1a,"Question: Provide step-by-step instructions for the following task: Can you bring me a salty snack?
-Answer: 1. find a sea salt chips, 2. pick up the sea salt chips, 3. bring it to you, 4. put down the sea salt chips, 5. done.
-Question: Provide step-by-step instructions for the following task: Put a banana on the counter.
-Answer: 1. pick up the banana, 2. go to the counter, 3. put down the banana, 4. done
-Question: Provide step-by-step instructions for the following task: Can you bring me something spicy?","Answer: 1. Find a spicy snack or dish, such as hot chili chips or a spicy curry. 2. Pick up the spicy item, 3. Bring it to you, 4. Put it down in front of you, 5. Done.","1. find a jalapeno chips, 2. pick up the jalapeno chips, 3. bring it to you, 4. put down the jalapeno chips, 5. done."
-SayCan,1b,"Question: Provide step-by-step instructions for the following task: Can you bring me a spicy snack?
-Answer: 1. find the jalapeno chips, 2. pick up the jalapeno chips, 3. bring it to you, 4. put down the jalapeno chips, 5. done
-Question: Provide step-by-step instructions for the following task: How would you go to the table?
-Answer: 1. go to the table, 2. done
-Question: Provide step-by-step instructions for the following task: Can you bring me something spicy?","Answer: 1. Look for any spicy snack or condiment available, such as hot sauce or chili powder, 2. Bring the spicy item to you, 3. Place it on the table or hand it to you, 4. Done.","1. find a jalapeno chips, 2. pick up the jalapeno chips, 3. bring it to you, 4. put down the jalapeno chips, 5. done."
-SayCan,2,"Question: Provide step-by-step instructions for the following task: Can you bring me a salty snack?
-Answer: 1. find a sea salt chips, 2. pick up the sea salt chips, 3. bring it to you, 4. put down the sea salt chips, 5. done.
-Question: Provide step-by-step instructions for the following task: Put a banana on the counter.
-Answer: 1. pick up the banana, 2. go to the counter, 3. put down the banana, 4. done
-Question: Provide step-by-step instructions for the following task: Can you bring me a spicy snack?
-Answer: 1. find the jalapeno chips, 2. pick up the jalapeno chips, 3. bring it to you, 4. put down the jalapeno chips, 5. done
-Question: Provide step-by-step instructions for the following task: How would you go to the table?
-Answer: 1. go to the table, 2. done
-Question: Provide step-by-step instructions for the following task: Can you bring me something spicy?","Answer: 1. Find a snack or dish with spicy seasoning or ingredients, such as hot wings or spicy noodles. 2. Pick up the spicy snack or dish, 3. Bring it to you, 4. Put it down in front of you, 5. Done.","1. find a jalapeno chips, 2. pick up the jalapeno chips, 3. bring it to you, 4. put down the jalapeno chips, 5. done."
-SayCan,3a,"Question: Provide step-by-step instructions for the following task: Can you bring me a salty snack?
-Answer: 1. find a sea salt chips, 2. pick up the sea salt chips, 3. bring it to you, 4. put down the sea salt chips, 5. done.
-Question: Provide step-by-step instructions for the following task: Put a banana on the counter.
-Answer: 1. pick up the banana, 2. go to the counter, 3. put down the banana, 4. done
-Question: Provide step-by-step instructions for the following task: Can you bring me a salty snack?
-Answer: 1. find a sea salt chips, 2. pick up the sea salt chips, 3. bring it to you, 4. put down the sea salt chips, 5. done.
-Question: Provide step-by-step instructions for the following task: Put a banana on the counter.
-Answer: 1. pick up the banana, 2. go to the counter, 3. put down the banana, 4. done
-Question: Provide step-by-step instructions for the following task: Can you bring me something spicy?","Answer: 1. Find a spicy snack or dish, such as spicy chips or hot sauce. 2. Pick up the spicy item. 3. Bring it to you. 4. Put down the spicy item. 5. Done.","1. find a jalapeno chips, 2. pick up the jalapeno chips, 3. bring it to you, 4. put down the jalapeno chips, 5. done."
-SayCan,3b,"Question: Provide step-by-step instructions for the following task: Can you bring me a spicy snack?
-Answer: 1. find the jalapeno chips, 2. pick up the jalapeno chips, 3. bring it to you, 4. put down the jalapeno chips, 5. done
-Question: Provide step-by-step instructions for the following task: How would you go to the table?
-Answer: 1. go to the table, 2. done
-Question: Provide step-by-step instructions for the following task: Can you bring me a spicy snack?
-Answer: 1. find the jalapeno chips, 2. pick up the jalapeno chips, 3. bring it to you, 4. put down the jalapeno chips, 5. done
-Question: Provide step-by-step instructions for the following task: How would you go to the table?
-Answer: 1. go to the table, 2. done
-Question: Provide step-by-step instructions for the following task: Can you bring me something spicy?","Answer: 1. Locate a spicy snack or dish, such as hot wings or spicy popcorn, 2. Pick up the spicy snack or dish, 3. Bring it to the person requesting something spicy, 4. Present the spicy snack or dish to the person, 5. Done.","1. find a jalapeno chips, 2. pick up the jalapeno chips, 3. bring it to you, 4. put down the jalapeno chips, 5. done."
+Question: A Fakir is a Muslim Sufi holy man or woman that lives a simple life. The holy book for Muslims is the Quran. The comma is a punctuation mark in modern language. The Quran does not use any forms of modern punctuation.
+Would a Fakir be surprised if they saw a comma in their religious book?
+Answer: True
+Question: The Great Depression was a severe worldwide economic depression that took place mostly during the 1930s, beginning in the United States. Major depressive disorder (MDD), also known simply as depression, is a mental disorder characterized by at least two weeks of low mood that is present across most situations.
+Can a person be diagnosed with a Great Depression?",Answer: False,False
+SayCan,0,Question: Navigate to the table.,"Sure, please provide the specific information or details you are looking for in the table so that I can help you navigate to the relevant section.","1. go to the table, 2. done"
+SayCan,1a,"Question: I’m allergic to apples, can I get a fruit?
+Answer: 1. find an orange, 2. pick up the orange, 3. bring it to you, 4. put down the orange, 5. done
+Question: Lift and hold the coke can up.
+Answer: 1. pick up the coke, 2. done
+Question: Navigate to the table.","Answer: 1. Walk to the table, 2. done","1. go to the table, 2. done"
+SayCan,1b,"Question: Put the coke can in your gripper.
+Answer: 1. pick up the coke can, 2. done
+Question: Put the coke can in your gripper.
+Answer: 1. pick up the coke, 2. done
+Question: Navigate to the table.","Answer: 1. Turn left, 2. Walk straight ahead, 3. Table is on your right.","1. go to the table, 2. done"
+SayCan,2,"Question: I’m allergic to apples, can I get a fruit?
+Answer: 1. find an orange, 2. pick up the orange, 3. bring it to you, 4. put down the orange, 5. done
+Question: Lift and hold the coke can up.
+Answer: 1. pick up the coke, 2. done
+Question: Put the coke can in your gripper.
+Answer: 1. pick up the coke can, 2. done
+Question: Put the coke can in your gripper.
+Answer: 1. pick up the coke, 2. done
+Question: Navigate to the table.","Answer: 1. Locate the table, 2. Move towards the table, 3. Arrive at the table, 4. Done","1. go to the table, 2. done"
+SayCan,3a,"Question: I’m allergic to apples, can I get a fruit?
+Answer: 1. find an orange, 2. pick up the orange, 3. bring it to you, 4. put down the orange, 5. done
+Question: Lift and hold the coke can up.
+Answer: 1. pick up the coke, 2. done
+Question: I’m allergic to apples, can I get a fruit?
+Answer: 1. find an orange, 2. pick up the orange, 3. bring it to you, 4. put down the orange, 5. done
+Question: Lift and hold the coke can up.
+Answer: 1. pick up the coke, 2. done
+Question: Navigate to the table.","Answer: 1. Walk to the table, 2. Arrive at the table","1. go to the table, 2. done"
+SayCan,3b,"Question: Put the coke can in your gripper.
+Answer: 1. pick up the coke can, 2. done
+Question: Put the coke can in your gripper.
+Answer: 1. pick up the coke, 2. done
+Question: Put the coke can in your gripper.
+Answer: 1. pick up the coke can, 2. done
+Question: Put the coke can in your gripper.
+Answer: 1. pick up the coke, 2. done
+Question: Navigate to the table.","Answer: 1. Move towards the table, 2. Stop at the table.","1. go to the table, 2. done"

@@ -1,386 +1,374 @@
 Task Class,Case,Prompt,Response,Expected
-Math,0,"Question: Carson lives in an old house where the pipes will freeze if the temperature inside the house falls below 32 degrees. Every log of wood Carson burns heats the house up by 5 degrees. If it was 45 degrees during the day, and it's 33 degrees colder during the night compared to the day, how many logs does Carson need to burn to prevent the pipes from freezing?","Carson needs to prevent the temperature from dropping below 32 degrees in order to prevent the pipes from freezing. 
+Math,0,"Question: Mary and John got married last weekend.  There were 20 private cars and 12 buses parked outside the church.  After the ceremony, each bus carried 35 people and each car carried 3 people. How many people were inside the church?","To find the total number of people inside the church, we first need to calculate the total number of people who arrived in private cars and buses.
 
-During the day, the temperature is 45 degrees. 
-At night, the temperature drops by 33 degrees, so the temperature at night is 45 - 33 = 12 degrees. 
+Number of people in private cars = 20 cars * 3 people per car = 60 people
+Number of people in buses = 12 buses * 35 people per bus = 420 people
 
-Carson needs to raise the temperature by at least 20 degrees (from 12 degrees to 32 degrees) in order to prevent the pipes from freezing. 
+Total number of people who arrived = 60 people (private cars) + 420 people (buses) = 480 people
 
-Each log of wood raises the temperature by 5 degrees. 
-Therefore, Carson needs to burn 20 / 5 = 4 logs of wood to prevent the pipes from freezing. 
+Therefore, there were 480 people inside the church for Mary and John's wedding.","There were 20 private cars * 3 people = <<20*3=60>>60 people.
+There were 12 buses * 35 people = <<12*35=420>>420 people.
+Total inside the church was 60 people + 420 people = <<60+420=480>>480 people.
+#### 480"
+Math,1a,"Question: Lennon is a sales rep and is paid $0.36 in mileage reimbursement when he travels to meet with clients.  On Monday he drove 18 miles.  Tuesday he drove 26 miles.  Wednesday and Thursday he drove 20 miles each day and on Friday he drove 16 miles.  How much money will he be reimbursed?
+Answer: In one week he drove 18+26+20+20+16 = <<18+26+20+20+16=100>>100 miles
+He is reimbursed $0.36 per mile of travel, and he travels 100 miles so he will receive .36*100 = $<<.36*100=36.00>>36.00
+#### 36
+Question: Sara is 6 inches taller than her brother Joe. Joe is 3 inches taller than his friend Roy. If Roy is 36 inches tall, how tall is Sara?
+Answer: Roy is <<36=36>>36 inches tall
+Joe is 3+36=<<3+36=39>>39 inches tall
+Sara is 6+39=<<6+39=45>>45 inches tall
+#### 45
+Question: Mary and John got married last weekend.  There were 20 private cars and 12 buses parked outside the church.  After the ceremony, each bus carried 35 people and each car carried 3 people. How many people were inside the church?","Answer: The buses carried 12*35 = <<12*35=420>>420 people
+The cars carried 20*3 = <<20*3=60>>60 people
+In total, there were 420+60 = <<420+60=480>>480 people inside the church.","There were 20 private cars * 3 people = <<20*3=60>>60 people.
+There were 12 buses * 35 people = <<12*35=420>>420 people.
+Total inside the church was 60 people + 420 people = <<60+420=480>>480 people.
+#### 480"
+Math,1b,"Question: For every white duck at the lake there are 5 fish.  For every black duck there are 10 fish and for every multicolor duck there are 12 fish.  Currently there are 3 white ducks, 7 black ducks and 6 multicolored ducks.  How many fish are in the lake?
+Answer: For every white duck there are 5 fish and there are 3 white ducks for a total of 5*3 = <<5*3=15>>15 fish
+For every black duck there are 10 fish and there are 7 black ducks for a total of 10*7 = <<10*7=70>>70 fish
+For every multicolored duck there are 12 fish and there are 6 multicolored ducks for a total of 12*6 = <<12*6=72>>72 fish
+All total there are 15+70+72 = <<15+70+72=157>>157 fish in the lake
+#### 157
+Question: Jason is trying to figure out whether he can afford a new car. The car he wants costs $32,000, and he can make a down payment of $8,000. He'll have to get a loan for the rest of the amount and make 48 equal monthly payments on it. Each month, he also has to pay interest equal to 5% of that month's payment. How much will Jason's monthly payments be?
+Answer: First figure out how much the loan will be: $32,000 - $8,000 = $<<32000-8000=24000>>24,000
+Then divide the loan amount by the number of payments to find the monthly payment before interest: $24,000 / 48 months = $<<24000/48=500>>500/month
+Then multiply the loan amount by 5% to find out how much the interest is: $500/month * .05 = $<<500*.05=25>>25/month
+Then add the interest to the payment amount to find the total monthly payment: $500/month + $25/month = $<<500+25=525>>525/month
+#### 525
+Question: Mary and John got married last weekend.  There were 20 private cars and 12 buses parked outside the church.  After the ceremony, each bus carried 35 people and each car carried 3 people. How many people were inside the church?","Answer: The number of people in the buses is 12 buses * 35 people/bus = 420 people.
+The number of people in the cars is 20 cars * 3 people/car = 60 people.
+Thus, the total number of people inside the church is 420 people + 60 people = 480 people.","There were 20 private cars * 3 people = <<20*3=60>>60 people.
+There were 12 buses * 35 people = <<12*35=420>>420 people.
+Total inside the church was 60 people + 420 people = <<60+420=480>>480 people.
+#### 480"
+Math,2,"Question: Lennon is a sales rep and is paid $0.36 in mileage reimbursement when he travels to meet with clients.  On Monday he drove 18 miles.  Tuesday he drove 26 miles.  Wednesday and Thursday he drove 20 miles each day and on Friday he drove 16 miles.  How much money will he be reimbursed?
+Answer: In one week he drove 18+26+20+20+16 = <<18+26+20+20+16=100>>100 miles
+He is reimbursed $0.36 per mile of travel, and he travels 100 miles so he will receive .36*100 = $<<.36*100=36.00>>36.00
+#### 36
+Question: Sara is 6 inches taller than her brother Joe. Joe is 3 inches taller than his friend Roy. If Roy is 36 inches tall, how tall is Sara?
+Answer: Roy is <<36=36>>36 inches tall
+Joe is 3+36=<<3+36=39>>39 inches tall
+Sara is 6+39=<<6+39=45>>45 inches tall
+#### 45
+Question: For every white duck at the lake there are 5 fish.  For every black duck there are 10 fish and for every multicolor duck there are 12 fish.  Currently there are 3 white ducks, 7 black ducks and 6 multicolored ducks.  How many fish are in the lake?
+Answer: For every white duck there are 5 fish and there are 3 white ducks for a total of 5*3 = <<5*3=15>>15 fish
+For every black duck there are 10 fish and there are 7 black ducks for a total of 10*7 = <<10*7=70>>70 fish
+For every multicolored duck there are 12 fish and there are 6 multicolored ducks for a total of 12*6 = <<12*6=72>>72 fish
+All total there are 15+70+72 = <<15+70+72=157>>157 fish in the lake
+#### 157
+Question: Jason is trying to figure out whether he can afford a new car. The car he wants costs $32,000, and he can make a down payment of $8,000. He'll have to get a loan for the rest of the amount and make 48 equal monthly payments on it. Each month, he also has to pay interest equal to 5% of that month's payment. How much will Jason's monthly payments be?
+Answer: First figure out how much the loan will be: $32,000 - $8,000 = $<<32000-8000=24000>>24,000
+Then divide the loan amount by the number of payments to find the monthly payment before interest: $24,000 / 48 months = $<<24000/48=500>>500/month
+Then multiply the loan amount by 5% to find out how much the interest is: $500/month * .05 = $<<500*.05=25>>25/month
+Then add the interest to the payment amount to find the total monthly payment: $500/month + $25/month = $<<500+25=525>>525/month
+#### 525
+Question: Mary and John got married last weekend.  There were 20 private cars and 12 buses parked outside the church.  After the ceremony, each bus carried 35 people and each car carried 3 people. How many people were inside the church?","Answer: The number of people in the buses is 12 buses * 35 people/bus = 420 people
+The number of people in the cars is 20 cars * 3 people/car = 60 people
+In total, there were 420 people in buses + 60 people in cars = <<420+60=480>>480 people inside the church.","There were 20 private cars * 3 people = <<20*3=60>>60 people.
+There were 12 buses * 35 people = <<12*35=420>>420 people.
+Total inside the church was 60 people + 420 people = <<60+420=480>>480 people.
+#### 480"
+Math,3a,"Question: Lennon is a sales rep and is paid $0.36 in mileage reimbursement when he travels to meet with clients.  On Monday he drove 18 miles.  Tuesday he drove 26 miles.  Wednesday and Thursday he drove 20 miles each day and on Friday he drove 16 miles.  How much money will he be reimbursed?
+Answer: In one week he drove 18+26+20+20+16 = <<18+26+20+20+16=100>>100 miles
+He is reimbursed $0.36 per mile of travel, and he travels 100 miles so he will receive .36*100 = $<<.36*100=36.00>>36.00
+#### 36
+Question: Sara is 6 inches taller than her brother Joe. Joe is 3 inches taller than his friend Roy. If Roy is 36 inches tall, how tall is Sara?
+Answer: Roy is <<36=36>>36 inches tall
+Joe is 3+36=<<3+36=39>>39 inches tall
+Sara is 6+39=<<6+39=45>>45 inches tall
+#### 45
+Question: Lennon is a sales rep and is paid $0.36 in mileage reimbursement when he travels to meet with clients.  On Monday he drove 18 miles.  Tuesday he drove 26 miles.  Wednesday and Thursday he drove 20 miles each day and on Friday he drove 16 miles.  How much money will he be reimbursed?
+Answer: In one week he drove 18+26+20+20+16 = <<18+26+20+20+16=100>>100 miles
+He is reimbursed $0.36 per mile of travel, and he travels 100 miles so he will receive .36*100 = $<<.36*100=36.00>>36.00
+#### 36
+Question: Sara is 6 inches taller than her brother Joe. Joe is 3 inches taller than his friend Roy. If Roy is 36 inches tall, how tall is Sara?
+Answer: Roy is <<36=36>>36 inches tall
+Joe is 3+36=<<3+36=39>>39 inches tall
+Sara is 6+39=<<6+39=45>>45 inches tall
+#### 45
+Question: Mary and John got married last weekend.  There were 20 private cars and 12 buses parked outside the church.  After the ceremony, each bus carried 35 people and each car carried 3 people. How many people were inside the church?","Answer: 
 
-Carson needs to burn 4 logs of wood to prevent the pipes from freezing.","First find the night-time temperature: 45 degrees - 33 degrees = <<45-33=12>>12 degrees
-Then find how much Carson needs to heat his house to avoid the pipes freezing: 32 degrees - 12 degrees = <<32-12=20>>20 degrees
-Then divide the amount of heat Carson needs by the amount of heat each log produces: 20 degrees / 5 degrees/log = <<20/5=4>>4 logs
-#### 4"
-Math,1a,"Question: Savannah is wrapping presents for her friends and family for Christmas. She has bought 3 rolls of wrapping paper to wrap 12 gifts. If it takes 1 roll to wrap 3 gifts and 1 roll to wrap 5 other gifts, if there is no wrapping paper leftover after Savannah wraps the rest of the gifts, how many gifts did she wrap with the third roll of paper?
-Answer: Savannah has 12 gifts to give her friends and family and has already wrapped 3 gifts + 5 gifts = 8 gifts already wrapped with the first two rolls of paper.
-She started off with 12 gifts to wrap and has already wrapped 8, 12 - 8 = <<12-8=4>>4 gifts she wraps with the third roll of paper.
-#### 4
-Question: Pauline is buying school supplies. The total amount of all the items she wants to buy add up to $150 before sales tax. Sales tax is 8% of the total amount purchased. How much will Pauline spend on all the items, including sales tax?
-Answer: Sales tax is 8/100 x $150= $<<8/100*150=12>>12.
-Therefore, Pauline wil spend $150 + $12 = $<<150+12=162>>162, including sales tax.
-#### 162
-Question: Carson lives in an old house where the pipes will freeze if the temperature inside the house falls below 32 degrees. Every log of wood Carson burns heats the house up by 5 degrees. If it was 45 degrees during the day, and it's 33 degrees colder during the night compared to the day, how many logs does Carson need to burn to prevent the pipes from freezing?","Answer: At night, the temperature is 45 - 33 = 12 degrees.
-Carson needs to raise the temperature by 32 - 12 = 20 degrees to prevent the pipes from freezing.
-Therefore, Carson needs to burn 20 / 5 = <<20/5=4>>4 logs of wood to prevent the pipes from freezing. 
-#### 4","First find the night-time temperature: 45 degrees - 33 degrees = <<45-33=12>>12 degrees
-Then find how much Carson needs to heat his house to avoid the pipes freezing: 32 degrees - 12 degrees = <<32-12=20>>20 degrees
-Then divide the amount of heat Carson needs by the amount of heat each log produces: 20 degrees / 5 degrees/log = <<20/5=4>>4 logs
-#### 4"
-Math,1b,"Question: Luis is driving 80 miles in 2 hours. How far will he go in 15 minutes?
-Answer: Luis drives 80/2 = <<80/2=40>>40 miles in 1 hour.
-Since there are 60 minutes in 1 hour, then he drives 40/60 = 2/3 of a mile in 1 minute.
-So in 15 minutes, he will go 2/3 x 15 = <<2/3*15=10>>10 miles far.
-#### 10
-Question: Out of the 150 students, 60% are girls and the rest are boys. Only 1/3 of the boys joined varsity clubs. How many of the boys did not join varsity clubs?
-Answer: Out of the 150 students, 100% - 60% = 40% are boys.
-So, there are 150 x 40/100 = <<150*40/100=60>>60 boys.
-Out of the 60 boys, 60 x 1/3 = <<60*1/3=20>>20 joined varsity clubs.
-Therefore, 60 - 20 = <<60-20=40>>40 boys did not join varsity clubs.
-#### 40
-Question: Carson lives in an old house where the pipes will freeze if the temperature inside the house falls below 32 degrees. Every log of wood Carson burns heats the house up by 5 degrees. If it was 45 degrees during the day, and it's 33 degrees colder during the night compared to the day, how many logs does Carson need to burn to prevent the pipes from freezing?","Answer: Since it's 33 degrees colder at night compared to the day, then the temperature at night is 45 - 33 = 12 degrees.
-Carson needs to heat the house up to prevent the pipes from freezing, so he needs to increase the temperature by 32 - 12 = 20 degrees.
-Since burning one log of wood heats the house up by 5 degrees, Carson needs to burn 20 / 5 = <<20/5=4>>4 logs of wood.
-Therefore, Carson needs to burn 4 logs of wood to prevent the pipes from freezing.","First find the night-time temperature: 45 degrees - 33 degrees = <<45-33=12>>12 degrees
-Then find how much Carson needs to heat his house to avoid the pipes freezing: 32 degrees - 12 degrees = <<32-12=20>>20 degrees
-Then divide the amount of heat Carson needs by the amount of heat each log produces: 20 degrees / 5 degrees/log = <<20/5=4>>4 logs
-#### 4"
-Math,2,"Question: Savannah is wrapping presents for her friends and family for Christmas. She has bought 3 rolls of wrapping paper to wrap 12 gifts. If it takes 1 roll to wrap 3 gifts and 1 roll to wrap 5 other gifts, if there is no wrapping paper leftover after Savannah wraps the rest of the gifts, how many gifts did she wrap with the third roll of paper?
-Answer: Savannah has 12 gifts to give her friends and family and has already wrapped 3 gifts + 5 gifts = 8 gifts already wrapped with the first two rolls of paper.
-She started off with 12 gifts to wrap and has already wrapped 8, 12 - 8 = <<12-8=4>>4 gifts she wraps with the third roll of paper.
-#### 4
-Question: Pauline is buying school supplies. The total amount of all the items she wants to buy add up to $150 before sales tax. Sales tax is 8% of the total amount purchased. How much will Pauline spend on all the items, including sales tax?
-Answer: Sales tax is 8/100 x $150= $<<8/100*150=12>>12.
-Therefore, Pauline wil spend $150 + $12 = $<<150+12=162>>162, including sales tax.
-#### 162
-Question: Luis is driving 80 miles in 2 hours. How far will he go in 15 minutes?
-Answer: Luis drives 80/2 = <<80/2=40>>40 miles in 1 hour.
-Since there are 60 minutes in 1 hour, then he drives 40/60 = 2/3 of a mile in 1 minute.
-So in 15 minutes, he will go 2/3 x 15 = <<2/3*15=10>>10 miles far.
-#### 10
-Question: Out of the 150 students, 60% are girls and the rest are boys. Only 1/3 of the boys joined varsity clubs. How many of the boys did not join varsity clubs?
-Answer: Out of the 150 students, 100% - 60% = 40% are boys.
-So, there are 150 x 40/100 = <<150*40/100=60>>60 boys.
-Out of the 60 boys, 60 x 1/3 = <<60*1/3=20>>20 joined varsity clubs.
-Therefore, 60 - 20 = <<60-20=40>>40 boys did not join varsity clubs.
-#### 40
-Question: Carson lives in an old house where the pipes will freeze if the temperature inside the house falls below 32 degrees. Every log of wood Carson burns heats the house up by 5 degrees. If it was 45 degrees during the day, and it's 33 degrees colder during the night compared to the day, how many logs does Carson need to burn to prevent the pipes from freezing?","Answer: The temperature at night is 45 - 33 = 12 degrees.
-Carson needs to raise the temperature by 32 - 12 = 20 degrees to prevent the pipes from freezing.
-Therefore, Carson needs to burn 20 / 5 = <<20/5=4>>4 logs of wood to prevent the pipes from freezing. 
-#### 4","First find the night-time temperature: 45 degrees - 33 degrees = <<45-33=12>>12 degrees
-Then find how much Carson needs to heat his house to avoid the pipes freezing: 32 degrees - 12 degrees = <<32-12=20>>20 degrees
-Then divide the amount of heat Carson needs by the amount of heat each log produces: 20 degrees / 5 degrees/log = <<20/5=4>>4 logs
-#### 4"
-Math,3a,"Question: Savannah is wrapping presents for her friends and family for Christmas. She has bought 3 rolls of wrapping paper to wrap 12 gifts. If it takes 1 roll to wrap 3 gifts and 1 roll to wrap 5 other gifts, if there is no wrapping paper leftover after Savannah wraps the rest of the gifts, how many gifts did she wrap with the third roll of paper?
-Answer: Savannah has 12 gifts to give her friends and family and has already wrapped 3 gifts + 5 gifts = 8 gifts already wrapped with the first two rolls of paper.
-She started off with 12 gifts to wrap and has already wrapped 8, 12 - 8 = <<12-8=4>>4 gifts she wraps with the third roll of paper.
-#### 4
-Question: Pauline is buying school supplies. The total amount of all the items she wants to buy add up to $150 before sales tax. Sales tax is 8% of the total amount purchased. How much will Pauline spend on all the items, including sales tax?
-Answer: Sales tax is 8/100 x $150= $<<8/100*150=12>>12.
-Therefore, Pauline wil spend $150 + $12 = $<<150+12=162>>162, including sales tax.
-#### 162
-Question: Savannah is wrapping presents for her friends and family for Christmas. She has bought 3 rolls of wrapping paper to wrap 12 gifts. If it takes 1 roll to wrap 3 gifts and 1 roll to wrap 5 other gifts, if there is no wrapping paper leftover after Savannah wraps the rest of the gifts, how many gifts did she wrap with the third roll of paper?
-Answer: Savannah has 12 gifts to give her friends and family and has already wrapped 3 gifts + 5 gifts = 8 gifts already wrapped with the first two rolls of paper.
-She started off with 12 gifts to wrap and has already wrapped 8, 12 - 8 = <<12-8=4>>4 gifts she wraps with the third roll of paper.
-#### 4
-Question: Pauline is buying school supplies. The total amount of all the items she wants to buy add up to $150 before sales tax. Sales tax is 8% of the total amount purchased. How much will Pauline spend on all the items, including sales tax?
-Answer: Sales tax is 8/100 x $150= $<<8/100*150=12>>12.
-Therefore, Pauline wil spend $150 + $12 = $<<150+12=162>>162, including sales tax.
-#### 162
-Question: Carson lives in an old house where the pipes will freeze if the temperature inside the house falls below 32 degrees. Every log of wood Carson burns heats the house up by 5 degrees. If it was 45 degrees during the day, and it's 33 degrees colder during the night compared to the day, how many logs does Carson need to burn to prevent the pipes from freezing?","Answer: The temperature during the night is 45 - 33 = 12 degrees.
-Carson needs to raise the temperature by 32 - 12 = 20 degrees to prevent the pipes from freezing.
-Therefore, Carson needs to burn 20 / 5 = <<20/5=4>>4 logs of wood to prevent the pipes from freezing.","First find the night-time temperature: 45 degrees - 33 degrees = <<45-33=12>>12 degrees
-Then find how much Carson needs to heat his house to avoid the pipes freezing: 32 degrees - 12 degrees = <<32-12=20>>20 degrees
-Then divide the amount of heat Carson needs by the amount of heat each log produces: 20 degrees / 5 degrees/log = <<20/5=4>>4 logs
-#### 4"
-Math,3b,"Question: Luis is driving 80 miles in 2 hours. How far will he go in 15 minutes?
-Answer: Luis drives 80/2 = <<80/2=40>>40 miles in 1 hour.
-Since there are 60 minutes in 1 hour, then he drives 40/60 = 2/3 of a mile in 1 minute.
-So in 15 minutes, he will go 2/3 x 15 = <<2/3*15=10>>10 miles far.
-#### 10
-Question: Out of the 150 students, 60% are girls and the rest are boys. Only 1/3 of the boys joined varsity clubs. How many of the boys did not join varsity clubs?
-Answer: Out of the 150 students, 100% - 60% = 40% are boys.
-So, there are 150 x 40/100 = <<150*40/100=60>>60 boys.
-Out of the 60 boys, 60 x 1/3 = <<60*1/3=20>>20 joined varsity clubs.
-Therefore, 60 - 20 = <<60-20=40>>40 boys did not join varsity clubs.
-#### 40
-Question: Luis is driving 80 miles in 2 hours. How far will he go in 15 minutes?
-Answer: Luis drives 80/2 = <<80/2=40>>40 miles in 1 hour.
-Since there are 60 minutes in 1 hour, then he drives 40/60 = 2/3 of a mile in 1 minute.
-So in 15 minutes, he will go 2/3 x 15 = <<2/3*15=10>>10 miles far.
-#### 10
-Question: Out of the 150 students, 60% are girls and the rest are boys. Only 1/3 of the boys joined varsity clubs. How many of the boys did not join varsity clubs?
-Answer: Out of the 150 students, 100% - 60% = 40% are boys.
-So, there are 150 x 40/100 = <<150*40/100=60>>60 boys.
-Out of the 60 boys, 60 x 1/3 = <<60*1/3=20>>20 joined varsity clubs.
-Therefore, 60 - 20 = <<60-20=40>>40 boys did not join varsity clubs.
-#### 40
-Question: Carson lives in an old house where the pipes will freeze if the temperature inside the house falls below 32 degrees. Every log of wood Carson burns heats the house up by 5 degrees. If it was 45 degrees during the day, and it's 33 degrees colder during the night compared to the day, how many logs does Carson need to burn to prevent the pipes from freezing?","First, we need to determine the nighttime temperature. If it was 45 degrees during the day and 33 degrees colder at night, the nighttime temperature is 45 - 33 = 12 degrees.
-
-Carson needs the temperature inside the house to be above 32 degrees to prevent the pipes from freezing. Since the nighttime temperature is 12 degrees, the temperature needs to be raised by 32 - 12 = 20 degrees.
-
-Since each log of wood raises the temperature by 5 degrees, Carson needs to burn 20 / 5 = <<20/5=4>>4 logs of wood to prevent the pipes from freezing.","First find the night-time temperature: 45 degrees - 33 degrees = <<45-33=12>>12 degrees
-Then find how much Carson needs to heat his house to avoid the pipes freezing: 32 degrees - 12 degrees = <<32-12=20>>20 degrees
-Then divide the amount of heat Carson needs by the amount of heat each log produces: 20 degrees / 5 degrees/log = <<20/5=4>>4 logs
-#### 4"
-CSQA,0,"Question: To locate a choker not located in a jewelry box or boutique where would you go?
-A: jewelry store
-B: neck
-C: jewlery box
-D: jewelry box
-E: boutique","B: neck
-
-There may be a chance that the choker is already around someone's neck, so you would go to the person's neck to locate it.",A
-CSQA,1a,"Question: The keyboard instrument took great talent, but he just looked goofy playing it onstage next to the drums and guitar as part of the what?
-A: orchestra
-B: music store
-C: band
-D: eating
-E: piano store
-Answer: C
-Question: To become great at fiddling you need lots of?
-A: knowledge of music
-B: skill
-C: candy
-D: dexterity
-E: practice
+20 private cars carrying 3 people each = 20 * 3 = 60 people
+12 buses carrying 35 people each = 12 * 35 = 420 people
+Total number of people inside the church = 60 (from cars) + 420 (from buses) = 480 people.","There were 20 private cars * 3 people = <<20*3=60>>60 people.
+There were 12 buses * 35 people = <<12*35=420>>420 people.
+Total inside the church was 60 people + 420 people = <<60+420=480>>480 people.
+#### 480"
+Math,3b,"Question: For every white duck at the lake there are 5 fish.  For every black duck there are 10 fish and for every multicolor duck there are 12 fish.  Currently there are 3 white ducks, 7 black ducks and 6 multicolored ducks.  How many fish are in the lake?
+Answer: For every white duck there are 5 fish and there are 3 white ducks for a total of 5*3 = <<5*3=15>>15 fish
+For every black duck there are 10 fish and there are 7 black ducks for a total of 10*7 = <<10*7=70>>70 fish
+For every multicolored duck there are 12 fish and there are 6 multicolored ducks for a total of 12*6 = <<12*6=72>>72 fish
+All total there are 15+70+72 = <<15+70+72=157>>157 fish in the lake
+#### 157
+Question: Jason is trying to figure out whether he can afford a new car. The car he wants costs $32,000, and he can make a down payment of $8,000. He'll have to get a loan for the rest of the amount and make 48 equal monthly payments on it. Each month, he also has to pay interest equal to 5% of that month's payment. How much will Jason's monthly payments be?
+Answer: First figure out how much the loan will be: $32,000 - $8,000 = $<<32000-8000=24000>>24,000
+Then divide the loan amount by the number of payments to find the monthly payment before interest: $24,000 / 48 months = $<<24000/48=500>>500/month
+Then multiply the loan amount by 5% to find out how much the interest is: $500/month * .05 = $<<500*.05=25>>25/month
+Then add the interest to the payment amount to find the total monthly payment: $500/month + $25/month = $<<500+25=525>>525/month
+#### 525
+Question: For every white duck at the lake there are 5 fish.  For every black duck there are 10 fish and for every multicolor duck there are 12 fish.  Currently there are 3 white ducks, 7 black ducks and 6 multicolored ducks.  How many fish are in the lake?
+Answer: For every white duck there are 5 fish and there are 3 white ducks for a total of 5*3 = <<5*3=15>>15 fish
+For every black duck there are 10 fish and there are 7 black ducks for a total of 10*7 = <<10*7=70>>70 fish
+For every multicolored duck there are 12 fish and there are 6 multicolored ducks for a total of 12*6 = <<12*6=72>>72 fish
+All total there are 15+70+72 = <<15+70+72=157>>157 fish in the lake
+#### 157
+Question: Jason is trying to figure out whether he can afford a new car. The car he wants costs $32,000, and he can make a down payment of $8,000. He'll have to get a loan for the rest of the amount and make 48 equal monthly payments on it. Each month, he also has to pay interest equal to 5% of that month's payment. How much will Jason's monthly payments be?
+Answer: First figure out how much the loan will be: $32,000 - $8,000 = $<<32000-8000=24000>>24,000
+Then divide the loan amount by the number of payments to find the monthly payment before interest: $24,000 / 48 months = $<<24000/48=500>>500/month
+Then multiply the loan amount by 5% to find out how much the interest is: $500/month * .05 = $<<500*.05=25>>25/month
+Then add the interest to the payment amount to find the total monthly payment: $500/month + $25/month = $<<500+25=525>>525/month
+#### 525
+Question: Mary and John got married last weekend.  There were 20 private cars and 12 buses parked outside the church.  After the ceremony, each bus carried 35 people and each car carried 3 people. How many people were inside the church?","Answer: The 12 buses carried 12 * 35 = <<12*35=420>>420 people.
+The 20 cars carried 20 * 3 = <<20*3=60>>60 people.
+Therefore, the total number of people inside the church was 420 + 60 = <<420+60=480>>480.","There were 20 private cars * 3 people = <<20*3=60>>60 people.
+There were 12 buses * 35 people = <<12*35=420>>420 people.
+Total inside the church was 60 people + 420 people = <<60+420=480>>480 people.
+#### 480"
+CSQA,0,"Question: When eating everything on the tasting menu, what does one tend to feel?
+A: full stomach
+B: getting full
+C: gaining weight
+D: sick
+E: satisfaction",E: satisfaction,B
+CSQA,1a,"Question: If a student is staring at the ceiling while bored, where are they likely to be?
+A: most architectural structures
+B: loft
+C: house
+D: temple
+E: classroom
 Answer: E
-Question: To locate a choker not located in a jewelry box or boutique where would you go?
-A: jewelry store
-B: neck
-C: jewlery box
-D: jewelry box
-E: boutique",Answer: B,A
-CSQA,1b,"Question: Where is the ticket booth often outside the building?
-A: train station
-B: stadium
-C: auditorium
-D: subway
-E: venue
-Answer: C
-Question: The champagne was good, it was both sweet and what?
-A: bitter
-B: decaying
-C: spicy
-D: sour
-E: dry
+Question: Their first kiss was ruined, his bad choice of smoking had given him what?
+A: lung disease
+B: persistent cough
+C: birth defects
+D: bad breath
+E: ashtray
+Answer: D
+Question: When eating everything on the tasting menu, what does one tend to feel?
+A: full stomach
+B: getting full
+C: gaining weight
+D: sick
+E: satisfaction",Answer: E,B
+CSQA,1b,"Question: The religious community was having a bake sale, it took place in the basement of the what?
+A: closet
+B: parking lot
+C: office building
+D: own house
+E: church
 Answer: E
-Question: To locate a choker not located in a jewelry box or boutique where would you go?
-A: jewelry store
-B: neck
-C: jewlery box
-D: jewelry box
-E: boutique",Answer: B,A
-CSQA,2,"Question: The keyboard instrument took great talent, but he just looked goofy playing it onstage next to the drums and guitar as part of the what?
-A: orchestra
-B: music store
-C: band
-D: eating
-E: piano store
-Answer: C
-Question: To become great at fiddling you need lots of?
-A: knowledge of music
-B: skill
-C: candy
-D: dexterity
-E: practice
+Question: John wants to buy a writing instrument and paperclips. Where would be go?
+A: desk drawer
+B: office supply store
+C: writer's hand
+D: stationery store
+E: purse
+Answer: B
+Question: When eating everything on the tasting menu, what does one tend to feel?
+A: full stomach
+B: getting full
+C: gaining weight
+D: sick
+E: satisfaction",Answer: E,B
+CSQA,2,"Question: If a student is staring at the ceiling while bored, where are they likely to be?
+A: most architectural structures
+B: loft
+C: house
+D: temple
+E: classroom
 Answer: E
-Question: Where is the ticket booth often outside the building?
-A: train station
-B: stadium
-C: auditorium
-D: subway
-E: venue
-Answer: C
-Question: The champagne was good, it was both sweet and what?
-A: bitter
-B: decaying
-C: spicy
-D: sour
-E: dry
+Question: Their first kiss was ruined, his bad choice of smoking had given him what?
+A: lung disease
+B: persistent cough
+C: birth defects
+D: bad breath
+E: ashtray
+Answer: D
+Question: The religious community was having a bake sale, it took place in the basement of the what?
+A: closet
+B: parking lot
+C: office building
+D: own house
+E: church
 Answer: E
-Question: To locate a choker not located in a jewelry box or boutique where would you go?
-A: jewelry store
-B: neck
-C: jewlery box
-D: jewelry box
-E: boutique",Answer: B,A
-CSQA,3a,"Question: The keyboard instrument took great talent, but he just looked goofy playing it onstage next to the drums and guitar as part of the what?
-A: orchestra
-B: music store
-C: band
-D: eating
-E: piano store
-Answer: C
-Question: To become great at fiddling you need lots of?
-A: knowledge of music
-B: skill
-C: candy
-D: dexterity
-E: practice
+Question: John wants to buy a writing instrument and paperclips. Where would be go?
+A: desk drawer
+B: office supply store
+C: writer's hand
+D: stationery store
+E: purse
+Answer: B
+Question: When eating everything on the tasting menu, what does one tend to feel?
+A: full stomach
+B: getting full
+C: gaining weight
+D: sick
+E: satisfaction",Answer: E,B
+CSQA,3a,"Question: If a student is staring at the ceiling while bored, where are they likely to be?
+A: most architectural structures
+B: loft
+C: house
+D: temple
+E: classroom
 Answer: E
-Question: The keyboard instrument took great talent, but he just looked goofy playing it onstage next to the drums and guitar as part of the what?
-A: orchestra
-B: music store
-C: band
-D: eating
-E: piano store
-Answer: C
-Question: To become great at fiddling you need lots of?
-A: knowledge of music
-B: skill
-C: candy
-D: dexterity
-E: practice
+Question: Their first kiss was ruined, his bad choice of smoking had given him what?
+A: lung disease
+B: persistent cough
+C: birth defects
+D: bad breath
+E: ashtray
+Answer: D
+Question: If a student is staring at the ceiling while bored, where are they likely to be?
+A: most architectural structures
+B: loft
+C: house
+D: temple
+E: classroom
 Answer: E
-Question: To locate a choker not located in a jewelry box or boutique where would you go?
-A: jewelry store
-B: neck
-C: jewlery box
-D: jewelry box
-E: boutique",Answer: B,A
-CSQA,3b,"Question: Where is the ticket booth often outside the building?
-A: train station
-B: stadium
-C: auditorium
-D: subway
-E: venue
-Answer: C
-Question: The champagne was good, it was both sweet and what?
-A: bitter
-B: decaying
-C: spicy
-D: sour
-E: dry
+Question: Their first kiss was ruined, his bad choice of smoking had given him what?
+A: lung disease
+B: persistent cough
+C: birth defects
+D: bad breath
+E: ashtray
+Answer: D
+Question: When eating everything on the tasting menu, what does one tend to feel?
+A: full stomach
+B: getting full
+C: gaining weight
+D: sick
+E: satisfaction",Answer: E,B
+CSQA,3b,"Question: The religious community was having a bake sale, it took place in the basement of the what?
+A: closet
+B: parking lot
+C: office building
+D: own house
+E: church
 Answer: E
-Question: Where is the ticket booth often outside the building?
-A: train station
-B: stadium
-C: auditorium
-D: subway
-E: venue
-Answer: C
-Question: The champagne was good, it was both sweet and what?
-A: bitter
-B: decaying
-C: spicy
-D: sour
-E: dry
+Question: John wants to buy a writing instrument and paperclips. Where would be go?
+A: desk drawer
+B: office supply store
+C: writer's hand
+D: stationery store
+E: purse
+Answer: B
+Question: The religious community was having a bake sale, it took place in the basement of the what?
+A: closet
+B: parking lot
+C: office building
+D: own house
+E: church
 Answer: E
-Question: To locate a choker not located in a jewelry box or boutique where would you go?
-A: jewelry store
-B: neck
-C: jewlery box
-D: jewelry box
-E: boutique",Answer: B,A
-StrategyQA,0,"Question: Julia Roberts played the clarinet in her school band. Blast beats are a drum beat that originated in hardcore punk and grindcore, and is often associated with certain styles of extreme metal, namely black metal and death metal.
-Did Julia Roberts practice blast beats as a child?","It is highly unlikely that Julia Roberts practiced blast beats as a child, as blast beats are a complex and aggressive drumming technique that is not commonly taught in school band programs. Additionally, blast beats are typically associated with extreme metal genres, which are very different from the music that would typically be played in a school band.",False
-StrategyQA,1a,"Question: Shrimp scampi is a dish made with shrimp. Shrimp have been found to contain microplastics. Microplastics are plastic material.
-Is shrimp scampi definitely free of plastic?
+Question: John wants to buy a writing instrument and paperclips. Where would be go?
+A: desk drawer
+B: office supply store
+C: writer's hand
+D: stationery store
+E: purse
+Answer: B
+Question: When eating everything on the tasting menu, what does one tend to feel?
+A: full stomach
+B: getting full
+C: gaining weight
+D: sick
+E: satisfaction",Answer: E,B
+StrategyQA,0,"Question: American Starbucks sells a number of coffee beverages like Lattes and Cappucino. The Chinese Starbucks menu focuses on teas such as Blackcurrant Raspberry Juiced Tea and Iced Shaken Mango Herbal Juiced Tea. Mooncakes, Chinese bakery products traditionally eaten during the Mid-Autumn Festival, are popular items at Chinese Starbucks.
+Would menu at Chinese Starbucks be familiar to an American?","The menu at Chinese Starbucks would likely not be very familiar to an American, as it focuses more on teas and Chinese bakery products like mooncakes. However, there may still be some familiar items like coffee beverages and some standard Starbucks snacks and pastries.",False
+StrategyQA,1a,"Question: Hades alone can allow passage out of the Underworld. Hades created a terribly difficult task for Orpheus to complete to bring Eurydice from the Underworld.  The subjects of Hades in the Underworld are under his complete control.
+Does Hades have a loose grip on the Underworld?
 Answer: False
-Question: The Jackson 5 was composed of: Jackie, Tito, Jermaine, Marlon and Michael. The Osmonds consisted of:  Alan, Wayne, Merrill, Jay and Donny.
-Did Jackson 5 members exceed number in The Osmonds?
+Question: Allicin is the component of garlic that makes it 'spicy' feeling in the mouth. When garlic is cooked, the Allicin in it is removed.
+Are fresh garlic cloves as easy to eat as roasted garlic cloves?
 Answer: False
-Question: Julia Roberts played the clarinet in her school band. Blast beats are a drum beat that originated in hardcore punk and grindcore, and is often associated with certain styles of extreme metal, namely black metal and death metal.
-Did Julia Roberts practice blast beats as a child?",False,False
-StrategyQA,1b,"Question: It was believed that computers might not know how to change from 1999 to 2000 on New Years Day. People were concerned that human services and utilities that were computerized might crash due to the Y2K bug. People believed that the year 2000 would cause computers to crash due to the 'Y2K' bug.
-Were some people afraid of New Years Day coming in 1999?
+Question: American Starbucks sells a number of coffee beverages like Lattes and Cappucino. The Chinese Starbucks menu focuses on teas such as Blackcurrant Raspberry Juiced Tea and Iced Shaken Mango Herbal Juiced Tea. Mooncakes, Chinese bakery products traditionally eaten during the Mid-Autumn Festival, are popular items at Chinese Starbucks.
+Would menu at Chinese Starbucks be familiar to an American?",Answer: False,False
+StrategyQA,1b,"Question: A baker's dozen refers to 13 of anything. Brazilian jiu-jitsu was founded by Carlos and Helio Gracie.   Helio Gracie had 9 children. Carlos Gracie had 11 children.
+Did Brazilian jiu-jitsu Gracie founders have at least a baker's dozen of kids between them?
 Answer: True
-Question: Jamie Brewer is a famous actress with down syndrome. Individuals with down syndrome are disqualified from military service.
-Could Jamie Brewer have attended the United States Naval Academy?
-Answer: False
-Question: Julia Roberts played the clarinet in her school band. Blast beats are a drum beat that originated in hardcore punk and grindcore, and is often associated with certain styles of extreme metal, namely black metal and death metal.
-Did Julia Roberts practice blast beats as a child?",Answer: False,False
-StrategyQA,2,"Question: Shrimp scampi is a dish made with shrimp. Shrimp have been found to contain microplastics. Microplastics are plastic material.
-Is shrimp scampi definitely free of plastic?
-Answer: False
-Question: The Jackson 5 was composed of: Jackie, Tito, Jermaine, Marlon and Michael. The Osmonds consisted of:  Alan, Wayne, Merrill, Jay and Donny.
-Did Jackson 5 members exceed number in The Osmonds?
-Answer: False
-Question: It was believed that computers might not know how to change from 1999 to 2000 on New Years Day. People were concerned that human services and utilities that were computerized might crash due to the Y2K bug. People believed that the year 2000 would cause computers to crash due to the 'Y2K' bug.
-Were some people afraid of New Years Day coming in 1999?
+Question: Hippos are large and have large teeth. If threatened, they aggressively defend themselves.
+Are hippos dangerous to humans?
 Answer: True
-Question: Jamie Brewer is a famous actress with down syndrome. Individuals with down syndrome are disqualified from military service.
-Could Jamie Brewer have attended the United States Naval Academy?
+Question: American Starbucks sells a number of coffee beverages like Lattes and Cappucino. The Chinese Starbucks menu focuses on teas such as Blackcurrant Raspberry Juiced Tea and Iced Shaken Mango Herbal Juiced Tea. Mooncakes, Chinese bakery products traditionally eaten during the Mid-Autumn Festival, are popular items at Chinese Starbucks.
+Would menu at Chinese Starbucks be familiar to an American?",Answer: False,False
+StrategyQA,2,"Question: Hades alone can allow passage out of the Underworld. Hades created a terribly difficult task for Orpheus to complete to bring Eurydice from the Underworld.  The subjects of Hades in the Underworld are under his complete control.
+Does Hades have a loose grip on the Underworld?
 Answer: False
-Question: Julia Roberts played the clarinet in her school band. Blast beats are a drum beat that originated in hardcore punk and grindcore, and is often associated with certain styles of extreme metal, namely black metal and death metal.
-Did Julia Roberts practice blast beats as a child?",Answer: False,False
-StrategyQA,3a,"Question: Shrimp scampi is a dish made with shrimp. Shrimp have been found to contain microplastics. Microplastics are plastic material.
-Is shrimp scampi definitely free of plastic?
+Question: Allicin is the component of garlic that makes it 'spicy' feeling in the mouth. When garlic is cooked, the Allicin in it is removed.
+Are fresh garlic cloves as easy to eat as roasted garlic cloves?
 Answer: False
-Question: The Jackson 5 was composed of: Jackie, Tito, Jermaine, Marlon and Michael. The Osmonds consisted of:  Alan, Wayne, Merrill, Jay and Donny.
-Did Jackson 5 members exceed number in The Osmonds?
-Answer: False
-Question: Shrimp scampi is a dish made with shrimp. Shrimp have been found to contain microplastics. Microplastics are plastic material.
-Is shrimp scampi definitely free of plastic?
-Answer: False
-Question: The Jackson 5 was composed of: Jackie, Tito, Jermaine, Marlon and Michael. The Osmonds consisted of:  Alan, Wayne, Merrill, Jay and Donny.
-Did Jackson 5 members exceed number in The Osmonds?
-Answer: False
-Question: Julia Roberts played the clarinet in her school band. Blast beats are a drum beat that originated in hardcore punk and grindcore, and is often associated with certain styles of extreme metal, namely black metal and death metal.
-Did Julia Roberts practice blast beats as a child?",Answer: False,False
-StrategyQA,3b,"Question: It was believed that computers might not know how to change from 1999 to 2000 on New Years Day. People were concerned that human services and utilities that were computerized might crash due to the Y2K bug. People believed that the year 2000 would cause computers to crash due to the 'Y2K' bug.
-Were some people afraid of New Years Day coming in 1999?
+Question: A baker's dozen refers to 13 of anything. Brazilian jiu-jitsu was founded by Carlos and Helio Gracie.   Helio Gracie had 9 children. Carlos Gracie had 11 children.
+Did Brazilian jiu-jitsu Gracie founders have at least a baker's dozen of kids between them?
 Answer: True
-Question: Jamie Brewer is a famous actress with down syndrome. Individuals with down syndrome are disqualified from military service.
-Could Jamie Brewer have attended the United States Naval Academy?
-Answer: False
-Question: It was believed that computers might not know how to change from 1999 to 2000 on New Years Day. People were concerned that human services and utilities that were computerized might crash due to the Y2K bug. People believed that the year 2000 would cause computers to crash due to the 'Y2K' bug.
-Were some people afraid of New Years Day coming in 1999?
+Question: Hippos are large and have large teeth. If threatened, they aggressively defend themselves.
+Are hippos dangerous to humans?
 Answer: True
-Question: Jamie Brewer is a famous actress with down syndrome. Individuals with down syndrome are disqualified from military service.
-Could Jamie Brewer have attended the United States Naval Academy?
+Question: American Starbucks sells a number of coffee beverages like Lattes and Cappucino. The Chinese Starbucks menu focuses on teas such as Blackcurrant Raspberry Juiced Tea and Iced Shaken Mango Herbal Juiced Tea. Mooncakes, Chinese bakery products traditionally eaten during the Mid-Autumn Festival, are popular items at Chinese Starbucks.
+Would menu at Chinese Starbucks be familiar to an American?",Answer: False,False
+StrategyQA,3a,"Question: Hades alone can allow passage out of the Underworld. Hades created a terribly difficult task for Orpheus to complete to bring Eurydice from the Underworld.  The subjects of Hades in the Underworld are under his complete control.
+Does Hades have a loose grip on the Underworld?
 Answer: False
-Question: Julia Roberts played the clarinet in her school band. Blast beats are a drum beat that originated in hardcore punk and grindcore, and is often associated with certain styles of extreme metal, namely black metal and death metal.
-Did Julia Roberts practice blast beats as a child?",Answer: False,False
-SayCan,0,Question: Provide step-by-step instructions for the following task: Could you get me something caffeinated?,"1. Decide what kind of caffeinated beverage you want - coffee, tea, energy drink, etc.
-
-2. If you are making it at home, gather the necessary ingredients and equipment. If you are ordering it from a coffee shop or store, determine where you want to go.
-
-3. If you are making coffee, start by measuring out the desired amount of coffee grounds and water. If you are making tea, choose your preferred tea bag or loose-leaf tea.
-
-4. Brew the coffee or tea according to the instructions. If you are making an energy drink, simply open the can or bottle.
-
-5. If you are ordering from a store or coffee shop, go to the establishment and order your desired caffeinated beverage. Be sure to specify any customizations or preferences you may have.
-
-6. Pay for your drink if necessary.
-
-7. Once you have your caffeinated beverage, enjoy and savor the energy boost!","1. find a pepsi, 2. pick up the pepsi, 3. bring it to you, 4. put down the pepsi, 5. done"
-SayCan,1a,"Question: Provide step-by-step instructions for the following task: Can you bring me something salty?
-Answer: 1. find the sea salt chips, 2. pick up the sea salt chips, 3. bring it to you, 4. put down the sea salt chips, 5. done
-Question: Provide step-by-step instructions for the following task: Can you bring me a salty snack?
+Question: Allicin is the component of garlic that makes it 'spicy' feeling in the mouth. When garlic is cooked, the Allicin in it is removed.
+Are fresh garlic cloves as easy to eat as roasted garlic cloves?
+Answer: False
+Question: Hades alone can allow passage out of the Underworld. Hades created a terribly difficult task for Orpheus to complete to bring Eurydice from the Underworld.  The subjects of Hades in the Underworld are under his complete control.
+Does Hades have a loose grip on the Underworld?
+Answer: False
+Question: Allicin is the component of garlic that makes it 'spicy' feeling in the mouth. When garlic is cooked, the Allicin in it is removed.
+Are fresh garlic cloves as easy to eat as roasted garlic cloves?
+Answer: False
+Question: American Starbucks sells a number of coffee beverages like Lattes and Cappucino. The Chinese Starbucks menu focuses on teas such as Blackcurrant Raspberry Juiced Tea and Iced Shaken Mango Herbal Juiced Tea. Mooncakes, Chinese bakery products traditionally eaten during the Mid-Autumn Festival, are popular items at Chinese Starbucks.
+Would menu at Chinese Starbucks be familiar to an American?",Answer: False,False
+StrategyQA,3b,"Question: A baker's dozen refers to 13 of anything. Brazilian jiu-jitsu was founded by Carlos and Helio Gracie.   Helio Gracie had 9 children. Carlos Gracie had 11 children.
+Did Brazilian jiu-jitsu Gracie founders have at least a baker's dozen of kids between them?
+Answer: True
+Question: Hippos are large and have large teeth. If threatened, they aggressively defend themselves.
+Are hippos dangerous to humans?
+Answer: True
+Question: A baker's dozen refers to 13 of anything. Brazilian jiu-jitsu was founded by Carlos and Helio Gracie.   Helio Gracie had 9 children. Carlos Gracie had 11 children.
+Did Brazilian jiu-jitsu Gracie founders have at least a baker's dozen of kids between them?
+Answer: True
+Question: Hippos are large and have large teeth. If threatened, they aggressively defend themselves.
+Are hippos dangerous to humans?
+Answer: True
+Question: American Starbucks sells a number of coffee beverages like Lattes and Cappucino. The Chinese Starbucks menu focuses on teas such as Blackcurrant Raspberry Juiced Tea and Iced Shaken Mango Herbal Juiced Tea. Mooncakes, Chinese bakery products traditionally eaten during the Mid-Autumn Festival, are popular items at Chinese Starbucks.
+Would menu at Chinese Starbucks be familiar to an American?",Answer: False,False
+SayCan,0,Question: How would you bring me a sprite?,"I'm sorry, but as a text-based AI, I am unable to physically bring you a sprite. However, you can easily get a sprite by going to a store that sells beverages and purchasing one. Alternatively, you could ask someone nearby to bring you a sprite, or have it delivered to you through a food delivery service.","1. find a sprite can, 2. pick up the sprite can, 3. bring it to you, 4. put down the sprite can, 5. done"
+SayCan,1a,"Question: Park at the table.
+Answer: 1. go to the table, 2. done
+Question: I love spice, can you get something to eat?
+Answer: 1. find a jalapeno chips, 2. pick up the jalapeno chips, 3. bring it to you, 4. put down the jalapeno chips, 5. done.
+Question: How would you bring me a sprite?","Answer: 1. go to the fridge, 2. grab a sprite, 3. walk back to you, 4. hand you the sprite, 5. done.","1. find a sprite can, 2. pick up the sprite can, 3. bring it to you, 4. put down the sprite can, 5. done"
+SayCan,1b,"Question: Could you get me something refreshing?
+Answer: 1. find a water, 2. pick up the water, 3. bring it to you, 4. put down the water, 5. done.
+Question: Can you bring me something salty?
 Answer: 1. find a sea salt chips, 2. pick up the sea salt chips, 3. bring it to you, 4. put down the sea salt chips, 5. done.
-Question: Provide step-by-step instructions for the following task: Could you get me something caffeinated?","Answer: 1. Locate the coffee machine or energy drink, 2. Prepare a cup of coffee or open the energy drink, 3. Bring it to you, 4. Hand it to you, 5. done.","1. find a pepsi, 2. pick up the pepsi, 3. bring it to you, 4. put down the pepsi, 5. done"
-SayCan,1b,"Question: Provide step-by-step instructions for the following task: Can you bring all the snacks on the table?
-Answer: 1. go to the table, 2. pick up the energy bar, 3. bring it to you, 4. put down the energy bar, 5. go to the table, 6. pick up the multigrain chips, 7. bring it to you, 8. put down the multigrain chips, 9. go to the table, 10. done.
-Question: Provide step-by-step instructions for the following task: Throw away all the fruits on the table.
-Answer: 1. go to the table, 2. pick up the apple, 3. go to the trash, 4. put down the apple, 5. go to the table, 6. pick up the orange, 7. go to the trash, 8. put down the orange, 9. done
-Question: Provide step-by-step instructions for the following task: Could you get me something caffeinated?","Answer: 1. Go to the kitchen or pantry, 2. Open the cabinet or refrigerator where caffeinated beverages are stored, 3. Choose a caffeinated beverage such as coffee, tea, or soda, 4. Take the chosen beverage out of the cabinet or refrigerator, 5. Bring the beverage to the person requesting it, 6. Give the beverage to the person, 7. Done.","1. find a pepsi, 2. pick up the pepsi, 3. bring it to you, 4. put down the pepsi, 5. done"
-SayCan,2,"Question: Provide step-by-step instructions for the following task: Can you bring me something salty?
-Answer: 1. find the sea salt chips, 2. pick up the sea salt chips, 3. bring it to you, 4. put down the sea salt chips, 5. done
-Question: Provide step-by-step instructions for the following task: Can you bring me a salty snack?
+Question: How would you bring me a sprite?","Answer: 1. find a sprite soda, 2. pick up the sprite soda, 3. bring it to you, 4. put down the sprite soda, 5. done.","1. find a sprite can, 2. pick up the sprite can, 3. bring it to you, 4. put down the sprite can, 5. done"
+SayCan,2,"Question: Park at the table.
+Answer: 1. go to the table, 2. done
+Question: I love spice, can you get something to eat?
+Answer: 1. find a jalapeno chips, 2. pick up the jalapeno chips, 3. bring it to you, 4. put down the jalapeno chips, 5. done.
+Question: Could you get me something refreshing?
+Answer: 1. find a water, 2. pick up the water, 3. bring it to you, 4. put down the water, 5. done.
+Question: Can you bring me something salty?
 Answer: 1. find a sea salt chips, 2. pick up the sea salt chips, 3. bring it to you, 4. put down the sea salt chips, 5. done.
-Question: Provide step-by-step instructions for the following task: Can you bring all the snacks on the table?
-Answer: 1. go to the table, 2. pick up the energy bar, 3. bring it to you, 4. put down the energy bar, 5. go to the table, 6. pick up the multigrain chips, 7. bring it to you, 8. put down the multigrain chips, 9. go to the table, 10. done.
-Question: Provide step-by-step instructions for the following task: Throw away all the fruits on the table.
-Answer: 1. go to the table, 2. pick up the apple, 3. go to the trash, 4. put down the apple, 5. go to the table, 6. pick up the orange, 7. go to the trash, 8. put down the orange, 9. done
-Question: Provide step-by-step instructions for the following task: Could you get me something caffeinated?","Answer: 1. go to the kitchen, 2. open the pantry, 3. find the coffee beans, 4. grind the coffee beans, 5. brew a cup of coffee, 6. bring it to you, 7. put down the coffee cup, 8. done","1. find a pepsi, 2. pick up the pepsi, 3. bring it to you, 4. put down the pepsi, 5. done"
-SayCan,3a,"Question: Provide step-by-step instructions for the following task: Can you bring me something salty?
-Answer: 1. find the sea salt chips, 2. pick up the sea salt chips, 3. bring it to you, 4. put down the sea salt chips, 5. done
-Question: Provide step-by-step instructions for the following task: Can you bring me a salty snack?
+Question: How would you bring me a sprite?","Answer: 1. find a Sprite soda, 2. pick up the Sprite soda, 3. bring it to you, 4. put down the Sprite soda, 5. done.","1. find a sprite can, 2. pick up the sprite can, 3. bring it to you, 4. put down the sprite can, 5. done"
+SayCan,3a,"Question: Park at the table.
+Answer: 1. go to the table, 2. done
+Question: I love spice, can you get something to eat?
+Answer: 1. find a jalapeno chips, 2. pick up the jalapeno chips, 3. bring it to you, 4. put down the jalapeno chips, 5. done.
+Question: Park at the table.
+Answer: 1. go to the table, 2. done
+Question: I love spice, can you get something to eat?
+Answer: 1. find a jalapeno chips, 2. pick up the jalapeno chips, 3. bring it to you, 4. put down the jalapeno chips, 5. done.
+Question: How would you bring me a sprite?","Answer: 1. locate a can of sprite, 2. pick up the can of sprite, 3. bring it to you, 4. hand you the can of sprite, 5. done.","1. find a sprite can, 2. pick up the sprite can, 3. bring it to you, 4. put down the sprite can, 5. done"
+SayCan,3b,"Question: Could you get me something refreshing?
+Answer: 1. find a water, 2. pick up the water, 3. bring it to you, 4. put down the water, 5. done.
+Question: Can you bring me something salty?
 Answer: 1. find a sea salt chips, 2. pick up the sea salt chips, 3. bring it to you, 4. put down the sea salt chips, 5. done.
-Question: Provide step-by-step instructions for the following task: Can you bring me something salty?
-Answer: 1. find the sea salt chips, 2. pick up the sea salt chips, 3. bring it to you, 4. put down the sea salt chips, 5. done
-Question: Provide step-by-step instructions for the following task: Can you bring me a salty snack?
+Question: Could you get me something refreshing?
+Answer: 1. find a water, 2. pick up the water, 3. bring it to you, 4. put down the water, 5. done.
+Question: Can you bring me something salty?
 Answer: 1. find a sea salt chips, 2. pick up the sea salt chips, 3. bring it to you, 4. put down the sea salt chips, 5. done.
-Question: Provide step-by-step instructions for the following task: Could you get me something caffeinated?","Answer: 1. Look for a caffeinated beverage such as coffee or energy drink, 2. Grab the caffeinated beverage, 3. Bring it to you, 4. Place the beverage down in front of you, 5. Done.","1. find a pepsi, 2. pick up the pepsi, 3. bring it to you, 4. put down the pepsi, 5. done"
-SayCan,3b,"Question: Provide step-by-step instructions for the following task: Can you bring all the snacks on the table?
-Answer: 1. go to the table, 2. pick up the energy bar, 3. bring it to you, 4. put down the energy bar, 5. go to the table, 6. pick up the multigrain chips, 7. bring it to you, 8. put down the multigrain chips, 9. go to the table, 10. done.
-Question: Provide step-by-step instructions for the following task: Throw away all the fruits on the table.
-Answer: 1. go to the table, 2. pick up the apple, 3. go to the trash, 4. put down the apple, 5. go to the table, 6. pick up the orange, 7. go to the trash, 8. put down the orange, 9. done
-Question: Provide step-by-step instructions for the following task: Can you bring all the snacks on the table?
-Answer: 1. go to the table, 2. pick up the energy bar, 3. bring it to you, 4. put down the energy bar, 5. go to the table, 6. pick up the multigrain chips, 7. bring it to you, 8. put down the multigrain chips, 9. go to the table, 10. done.
-Question: Provide step-by-step instructions for the following task: Throw away all the fruits on the table.
-Answer: 1. go to the table, 2. pick up the apple, 3. go to the trash, 4. put down the apple, 5. go to the table, 6. pick up the orange, 7. go to the trash, 8. put down the orange, 9. done
-Question: Provide step-by-step instructions for the following task: Could you get me something caffeinated?","Answer: 1. Go to the kitchen or pantry, 2. Look for coffee, tea, or any other caffeinated beverage, 3. Take out the chosen caffeinated beverage, 4. Bring it to the person requesting it, 5. Serve the caffeinated beverage, 6. Done.","1. find a pepsi, 2. pick up the pepsi, 3. bring it to you, 4. put down the pepsi, 5. done"
+Question: How would you bring me a sprite?","Answer: 1. find a sprite, 2. pick up the sprite, 3. bring it to you, 4. put down the sprite, 5. done.","1. find a sprite can, 2. pick up the sprite can, 3. bring it to you, 4. put down the sprite can, 5. done"

@@ -1,393 +1,374 @@
 Task Class,Case,Prompt,Response,Expected
-Math,0,"Question: On a certain day, the total cost of filling up 20 helium balloons was $900. Two days later, the cost of filling each balloon was increased by $20. How much did Bentley pay to fill 170 balloons if he went to fill them after the price increase?","First, we need to find the original cost of filling each balloon. 
+Math,0,"Question: In 7 days, Sofie will walk twice as far as Brian. If Sofie plans to walk 10 miles every day, how many miles will Brian walk in seven days?","If Sofie plans to walk 10 miles every day for 7 days, she will walk a total of 10 * 7 = 70 miles.
 
-Total cost of filling 20 balloons = $900
-Cost of filling each balloon initially = $900 / 20 = $45
+Since Sofie will walk twice as far as Brian, Brian will walk half the distance that Sofie walks.
 
-After the price increase of $20, the new cost of filling each balloon = $45 + $20 = $65
+Therefore, Brian will walk 70 / 2 = 35 miles in seven days.","If Sofie walks 10 miles each day, she will walk 7*10 = <<10*7=70>>70 miles in seven days.
+Since Sofie is walking twice as far as Brian, Brian will walk 70/2 = <<70/2=35>>35 miles in seven days.
+#### 35"
+Math,1a,"Question: A bird watcher records the number of birds he sees each day.  One Monday he sees 70 birds.  On Tuesday he sees half as many birds as he did on Monday.  On Wednesday he sees 8 more birds than he did on Tuesday.  How many total birds did the bird watcher see from Monday to Wednesday?
+Answer: Monday:70
+Tuesday:70/2=<<70/2=35>>35
+Wednesday:35+8=<<35+8=43>>43
+Total:70+35+43=<<70+35+43=148>>148 birds
+#### 148
+Question: Allie picked 44 wildflowers.  Thirteen of the flowers were yellow and white, seventeen of the flowers were red and yellow, and 14 of the flowers were red and white.  How many more flowers contained the color red than contained the color white?
+Answer: 13 were yellow and white, and 14 red and white, for a total of 13+14=<<13+14=27>>27 flowers containing the color white.
+17 were red and yellow, and 14 were red and white, for a total of 17+14=<<17+14=31>>31 flowers containing the color red.
+Thus, there were 31-27=<<31-27=4>>4 more flowers that contained the color red than the color white.
+#### 4
+Question: In 7 days, Sofie will walk twice as far as Brian. If Sofie plans to walk 10 miles every day, how many miles will Brian walk in seven days?","Let x be the number of miles Brian will walk in seven days.
 
-Therefore, the total cost of filling 170 balloons after the price increase = $65 * 170 = $11050
+In 7 days, Sofie will walk 10 * 7 = 70 miles.
+Since Sofie will walk twice as far as Brian, Brian will walk x miles in 7 days.
 
-Bentley paid $11,050 to fill 170 balloons after the price increase.","If the total cost of filling up 20 helium balloons was $900 before the price increase, the cost of filling one balloon was $900/20=$<<900/20=45>>45
-Two days later, the cost of filling each balloon was increased by $20 to $45+$20=$<<45+20=65>>65
-If Bentley had 170 balloons that he wanted to fill, after the price increase, Bentley paid 170*$65=$<<170*65=11050>>11050 to fill 170 balloons.
-#### 11050"
-Math,1a,"Question: Martin is casting three bells for the church's belfry. The first bell takes 50 pounds of bronze, the second bell is twice the size of the first bell, and the third bell is four times the size of the second bell. How much bronze does he need total?
-Answer: First find the size of the second bell: 50 pounds * 2 = <<50*2=100>>100 pounds
-Then find the size of the third bell: 100 pounds * 4 = <<100*4=400>>400 pounds
-Then add the amount of bronze used for each bell to find the total: 100 pounds + 400 pounds + 50 pounds = <<100+400+50=550>>550 pounds
-#### 550
-Question: A bag of dozen apples costs $14 and Brian has already spent $10 on kiwis and half that much on bananas. What's the maximum number of apples Brian can buy if he left his house with only $50 and needs to pay the $3.50 subway fare each way?
-Answer: Brian requires a total of $3.50 + $3.50 = $<<3.5+3.5=7>>7 to pay for the round trip subway fare
-We also know he has spent half (1/2) the amount he spent on kiwis on bananas, so he'll spend (1/2) * $10 = $5 on bananas
-So far in total he has spent $7 for his subway fare + $5 on bananas + $10 on kiwis = $7 + $5 + $10 = $<<7+5+10=22>>22
-If he left his house with only $50, then all he will have left for apples would be $50 - $22 = $<<50-22=28>>28
-If a bag of apples costs $14, then Brian would only be able to buy a maximum of $28/$14 = 2 bags of apples
-If each bag of apples has a dozen (12) apples, then (2) two bags will have 12*2= <<2*12=24>>24 apples
-#### 24
-Question: On a certain day, the total cost of filling up 20 helium balloons was $900. Two days later, the cost of filling each balloon was increased by $20. How much did Bentley pay to fill 170 balloons if he went to fill them after the price increase?","Let's first find the cost of filling one balloon on the certain day. We divide the total cost by the number of balloons: $900 / 20 balloons = $45 per balloon.
+Therefore, x = 70 / 2 = 35 miles.
 
-After the price increase, the cost to fill each balloon is $45 + $20 = $65 per balloon.
+Brian will walk 35 miles in seven days. 
+#### 35","If Sofie walks 10 miles each day, she will walk 7*10 = <<10*7=70>>70 miles in seven days.
+Since Sofie is walking twice as far as Brian, Brian will walk 70/2 = <<70/2=35>>35 miles in seven days.
+#### 35"
+Math,1b,"Question: Legoland has 5 kangaroos for each koala. If Legoland has 180 kangaroos, how many koalas and kangaroos are there altogether?
+Answer: For every 5 kangaroos, there is one koala, meaning for the 180 kangaroos, there are 180/5 = <<180/5=36>>36 koalas.
+Altogether, there are 36+180 = <<36+180=216>>216 koalas and kangaroos.
+#### 216
+Question: Nick has 60 cans. Each can takes up 30 square inches of space before being compacted and 20% of that amount after being compacted. How much space do all the cans take up after being compacted?
+Answer: First find the total amount of space the cans take up before being compacted: 60 cans * 30 sq in / can = <<60*30=1800>>1800 sq in
+Then multiply that amount by the percentage of space they take up after being compacted: 1800 sq in * 20% = <<1800*20*.01=360>>360 sq in
+#### 360
+Question: In 7 days, Sofie will walk twice as far as Brian. If Sofie plans to walk 10 miles every day, how many miles will Brian walk in seven days?","First, find the total distance Sofie will walk in 7 days: 10 miles/day * 7 days = 70 miles
+Then divide that amount by 2 to find how far Brian will walk: 70 miles / 2 = <<70/2=35>>35 miles
+Brian will walk 35 miles in seven days.","If Sofie walks 10 miles each day, she will walk 7*10 = <<10*7=70>>70 miles in seven days.
+Since Sofie is walking twice as far as Brian, Brian will walk 70/2 = <<70/2=35>>35 miles in seven days.
+#### 35"
+Math,2,"Question: A bird watcher records the number of birds he sees each day.  One Monday he sees 70 birds.  On Tuesday he sees half as many birds as he did on Monday.  On Wednesday he sees 8 more birds than he did on Tuesday.  How many total birds did the bird watcher see from Monday to Wednesday?
+Answer: Monday:70
+Tuesday:70/2=<<70/2=35>>35
+Wednesday:35+8=<<35+8=43>>43
+Total:70+35+43=<<70+35+43=148>>148 birds
+#### 148
+Question: Allie picked 44 wildflowers.  Thirteen of the flowers were yellow and white, seventeen of the flowers were red and yellow, and 14 of the flowers were red and white.  How many more flowers contained the color red than contained the color white?
+Answer: 13 were yellow and white, and 14 red and white, for a total of 13+14=<<13+14=27>>27 flowers containing the color white.
+17 were red and yellow, and 14 were red and white, for a total of 17+14=<<17+14=31>>31 flowers containing the color red.
+Thus, there were 31-27=<<31-27=4>>4 more flowers that contained the color red than the color white.
+#### 4
+Question: Legoland has 5 kangaroos for each koala. If Legoland has 180 kangaroos, how many koalas and kangaroos are there altogether?
+Answer: For every 5 kangaroos, there is one koala, meaning for the 180 kangaroos, there are 180/5 = <<180/5=36>>36 koalas.
+Altogether, there are 36+180 = <<36+180=216>>216 koalas and kangaroos.
+#### 216
+Question: Nick has 60 cans. Each can takes up 30 square inches of space before being compacted and 20% of that amount after being compacted. How much space do all the cans take up after being compacted?
+Answer: First find the total amount of space the cans take up before being compacted: 60 cans * 30 sq in / can = <<60*30=1800>>1800 sq in
+Then multiply that amount by the percentage of space they take up after being compacted: 1800 sq in * 20% = <<1800*20*.01=360>>360 sq in
+#### 360
+Question: In 7 days, Sofie will walk twice as far as Brian. If Sofie plans to walk 10 miles every day, how many miles will Brian walk in seven days?","Answer: Sofie will walk a total of 10 miles/day * 7 days = <<10*7=70>>70 miles in 7 days.
+Since Sofie will walk twice as far as Brian, Brian will walk 70 miles / 2 = <<70/2=35>>35 miles in 7 days. 
+Therefore, Brian will walk 35 miles in seven days.","If Sofie walks 10 miles each day, she will walk 7*10 = <<10*7=70>>70 miles in seven days.
+Since Sofie is walking twice as far as Brian, Brian will walk 70/2 = <<70/2=35>>35 miles in seven days.
+#### 35"
+Math,3a,"Question: A bird watcher records the number of birds he sees each day.  One Monday he sees 70 birds.  On Tuesday he sees half as many birds as he did on Monday.  On Wednesday he sees 8 more birds than he did on Tuesday.  How many total birds did the bird watcher see from Monday to Wednesday?
+Answer: Monday:70
+Tuesday:70/2=<<70/2=35>>35
+Wednesday:35+8=<<35+8=43>>43
+Total:70+35+43=<<70+35+43=148>>148 birds
+#### 148
+Question: Allie picked 44 wildflowers.  Thirteen of the flowers were yellow and white, seventeen of the flowers were red and yellow, and 14 of the flowers were red and white.  How many more flowers contained the color red than contained the color white?
+Answer: 13 were yellow and white, and 14 red and white, for a total of 13+14=<<13+14=27>>27 flowers containing the color white.
+17 were red and yellow, and 14 were red and white, for a total of 17+14=<<17+14=31>>31 flowers containing the color red.
+Thus, there were 31-27=<<31-27=4>>4 more flowers that contained the color red than the color white.
+#### 4
+Question: A bird watcher records the number of birds he sees each day.  One Monday he sees 70 birds.  On Tuesday he sees half as many birds as he did on Monday.  On Wednesday he sees 8 more birds than he did on Tuesday.  How many total birds did the bird watcher see from Monday to Wednesday?
+Answer: Monday:70
+Tuesday:70/2=<<70/2=35>>35
+Wednesday:35+8=<<35+8=43>>43
+Total:70+35+43=<<70+35+43=148>>148 birds
+#### 148
+Question: Allie picked 44 wildflowers.  Thirteen of the flowers were yellow and white, seventeen of the flowers were red and yellow, and 14 of the flowers were red and white.  How many more flowers contained the color red than contained the color white?
+Answer: 13 were yellow and white, and 14 red and white, for a total of 13+14=<<13+14=27>>27 flowers containing the color white.
+17 were red and yellow, and 14 were red and white, for a total of 17+14=<<17+14=31>>31 flowers containing the color red.
+Thus, there were 31-27=<<31-27=4>>4 more flowers that contained the color red than the color white.
+#### 4
+Question: In 7 days, Sofie will walk twice as far as Brian. If Sofie plans to walk 10 miles every day, how many miles will Brian walk in seven days?","Let x be the number of miles Brian will walk in seven days.
 
-So to fill 170 balloons after the price increase, Bentley paid 170 balloons * $65 per balloon = $11,050. 
+Since Sofie will walk twice as far as Brian in 7 days, she will walk 10 * 2 = 20 miles every day.
 
-Therefore, Bentley paid $11,050 to fill 170 balloons after the price increase.","If the total cost of filling up 20 helium balloons was $900 before the price increase, the cost of filling one balloon was $900/20=$<<900/20=45>>45
-Two days later, the cost of filling each balloon was increased by $20 to $45+$20=$<<45+20=65>>65
-If Bentley had 170 balloons that he wanted to fill, after the price increase, Bentley paid 170*$65=$<<170*65=11050>>11050 to fill 170 balloons.
-#### 11050"
-Math,1b,"Question: A store is selling mobile phones. This store contains 20 units of phones but the owner found out that there were 5 defective units. After he got rid of the defective units, he started to sell the rest of his units to customer A who bought 3 units, customer B who bought a certain amount of units, and customer C who bought 7 units. In the end, all non-defective units were sold. How many units were sold to Customer B?
-Answer: There were 20 - 5 = <<20-5=15>>15 units of non-defective smartphones.
-There were 3 + 7 = <<3+7=10>>10 units sold to customers A and C.
-So, 15 - 10 = <<15-10=5>>5 units were sold to customer B.
-#### 5
-Question: A school principal is booking hotel rooms for a class of 30 students to stay at during an overnight field trip.  Each of the hotel's rooms has two queen size beds, which can fit two students each, and a pull-out couch, which can fit one student.  How many rooms does the principal need to book to fit all of the students in the class?
-Answer: Each room can fit 2*2 + 1 = <<2*2+1=5>>5 students.
-Thus, the principal needs to book 30/5 = <<30/5=6>>6 rooms to fit everyone.
-#### 6
-Question: On a certain day, the total cost of filling up 20 helium balloons was $900. Two days later, the cost of filling each balloon was increased by $20. How much did Bentley pay to fill 170 balloons if he went to fill them after the price increase?","Answer: The cost of filling up 20 balloons on the day Bentley went was $900, so each balloon cost $900/20 = $45.
-After the price increase, each balloon cost $45 + $20 = $65.
-Therefore, Bentley paid $65 x 170 = $11,050 to fill up 170 balloons.","If the total cost of filling up 20 helium balloons was $900 before the price increase, the cost of filling one balloon was $900/20=$<<900/20=45>>45
-Two days later, the cost of filling each balloon was increased by $20 to $45+$20=$<<45+20=65>>65
-If Bentley had 170 balloons that he wanted to fill, after the price increase, Bentley paid 170*$65=$<<170*65=11050>>11050 to fill 170 balloons.
-#### 11050"
-Math,2,"Question: Martin is casting three bells for the church's belfry. The first bell takes 50 pounds of bronze, the second bell is twice the size of the first bell, and the third bell is four times the size of the second bell. How much bronze does he need total?
-Answer: First find the size of the second bell: 50 pounds * 2 = <<50*2=100>>100 pounds
-Then find the size of the third bell: 100 pounds * 4 = <<100*4=400>>400 pounds
-Then add the amount of bronze used for each bell to find the total: 100 pounds + 400 pounds + 50 pounds = <<100+400+50=550>>550 pounds
-#### 550
-Question: A bag of dozen apples costs $14 and Brian has already spent $10 on kiwis and half that much on bananas. What's the maximum number of apples Brian can buy if he left his house with only $50 and needs to pay the $3.50 subway fare each way?
-Answer: Brian requires a total of $3.50 + $3.50 = $<<3.5+3.5=7>>7 to pay for the round trip subway fare
-We also know he has spent half (1/2) the amount he spent on kiwis on bananas, so he'll spend (1/2) * $10 = $5 on bananas
-So far in total he has spent $7 for his subway fare + $5 on bananas + $10 on kiwis = $7 + $5 + $10 = $<<7+5+10=22>>22
-If he left his house with only $50, then all he will have left for apples would be $50 - $22 = $<<50-22=28>>28
-If a bag of apples costs $14, then Brian would only be able to buy a maximum of $28/$14 = 2 bags of apples
-If each bag of apples has a dozen (12) apples, then (2) two bags will have 12*2= <<2*12=24>>24 apples
-#### 24
-Question: A store is selling mobile phones. This store contains 20 units of phones but the owner found out that there were 5 defective units. After he got rid of the defective units, he started to sell the rest of his units to customer A who bought 3 units, customer B who bought a certain amount of units, and customer C who bought 7 units. In the end, all non-defective units were sold. How many units were sold to Customer B?
-Answer: There were 20 - 5 = <<20-5=15>>15 units of non-defective smartphones.
-There were 3 + 7 = <<3+7=10>>10 units sold to customers A and C.
-So, 15 - 10 = <<15-10=5>>5 units were sold to customer B.
-#### 5
-Question: A school principal is booking hotel rooms for a class of 30 students to stay at during an overnight field trip.  Each of the hotel's rooms has two queen size beds, which can fit two students each, and a pull-out couch, which can fit one student.  How many rooms does the principal need to book to fit all of the students in the class?
-Answer: Each room can fit 2*2 + 1 = <<2*2+1=5>>5 students.
-Thus, the principal needs to book 30/5 = <<30/5=6>>6 rooms to fit everyone.
-#### 6
-Question: On a certain day, the total cost of filling up 20 helium balloons was $900. Two days later, the cost of filling each balloon was increased by $20. How much did Bentley pay to fill 170 balloons if he went to fill them after the price increase?","Answer: Since the cost of filling each balloon was increased by $20, the total cost to fill 20 balloons is now $900 + 20*20 = $1300. 
-Therefore, the cost to fill 170 balloons would be 170/20 * $1300 = $<<170/20*1300=11050>>11050. 
-Bentley paid $11050 to fill 170 balloons after the price increase. 
-#### 11050","If the total cost of filling up 20 helium balloons was $900 before the price increase, the cost of filling one balloon was $900/20=$<<900/20=45>>45
-Two days later, the cost of filling each balloon was increased by $20 to $45+$20=$<<45+20=65>>65
-If Bentley had 170 balloons that he wanted to fill, after the price increase, Bentley paid 170*$65=$<<170*65=11050>>11050 to fill 170 balloons.
-#### 11050"
-Math,3a,"Question: Martin is casting three bells for the church's belfry. The first bell takes 50 pounds of bronze, the second bell is twice the size of the first bell, and the third bell is four times the size of the second bell. How much bronze does he need total?
-Answer: First find the size of the second bell: 50 pounds * 2 = <<50*2=100>>100 pounds
-Then find the size of the third bell: 100 pounds * 4 = <<100*4=400>>400 pounds
-Then add the amount of bronze used for each bell to find the total: 100 pounds + 400 pounds + 50 pounds = <<100+400+50=550>>550 pounds
-#### 550
-Question: A bag of dozen apples costs $14 and Brian has already spent $10 on kiwis and half that much on bananas. What's the maximum number of apples Brian can buy if he left his house with only $50 and needs to pay the $3.50 subway fare each way?
-Answer: Brian requires a total of $3.50 + $3.50 = $<<3.5+3.5=7>>7 to pay for the round trip subway fare
-We also know he has spent half (1/2) the amount he spent on kiwis on bananas, so he'll spend (1/2) * $10 = $5 on bananas
-So far in total he has spent $7 for his subway fare + $5 on bananas + $10 on kiwis = $7 + $5 + $10 = $<<7+5+10=22>>22
-If he left his house with only $50, then all he will have left for apples would be $50 - $22 = $<<50-22=28>>28
-If a bag of apples costs $14, then Brian would only be able to buy a maximum of $28/$14 = 2 bags of apples
-If each bag of apples has a dozen (12) apples, then (2) two bags will have 12*2= <<2*12=24>>24 apples
-#### 24
-Question: Martin is casting three bells for the church's belfry. The first bell takes 50 pounds of bronze, the second bell is twice the size of the first bell, and the third bell is four times the size of the second bell. How much bronze does he need total?
-Answer: First find the size of the second bell: 50 pounds * 2 = <<50*2=100>>100 pounds
-Then find the size of the third bell: 100 pounds * 4 = <<100*4=400>>400 pounds
-Then add the amount of bronze used for each bell to find the total: 100 pounds + 400 pounds + 50 pounds = <<100+400+50=550>>550 pounds
-#### 550
-Question: A bag of dozen apples costs $14 and Brian has already spent $10 on kiwis and half that much on bananas. What's the maximum number of apples Brian can buy if he left his house with only $50 and needs to pay the $3.50 subway fare each way?
-Answer: Brian requires a total of $3.50 + $3.50 = $<<3.5+3.5=7>>7 to pay for the round trip subway fare
-We also know he has spent half (1/2) the amount he spent on kiwis on bananas, so he'll spend (1/2) * $10 = $5 on bananas
-So far in total he has spent $7 for his subway fare + $5 on bananas + $10 on kiwis = $7 + $5 + $10 = $<<7+5+10=22>>22
-If he left his house with only $50, then all he will have left for apples would be $50 - $22 = $<<50-22=28>>28
-If a bag of apples costs $14, then Brian would only be able to buy a maximum of $28/$14 = 2 bags of apples
-If each bag of apples has a dozen (12) apples, then (2) two bags will have 12*2= <<2*12=24>>24 apples
-#### 24
-Question: On a certain day, the total cost of filling up 20 helium balloons was $900. Two days later, the cost of filling each balloon was increased by $20. How much did Bentley pay to fill 170 balloons if he went to fill them after the price increase?","Answer: First, find the cost of filling one balloon originally by dividing the total cost by the number of balloons: $900 / 20 balloons = $<<900/20=45>>45 per balloon
-Then find the new cost per balloon after the price increase: $45 + $20 = $<<45+20=65>>65 per balloon
-Multiply the new cost per balloon by the total number of balloons Bentley filled to find the total cost: $65 * 170 balloons = $<<65*170=11050>>11,050
-Bentley paid $11,050 to fill 170 balloons after the price increase.","If the total cost of filling up 20 helium balloons was $900 before the price increase, the cost of filling one balloon was $900/20=$<<900/20=45>>45
-Two days later, the cost of filling each balloon was increased by $20 to $45+$20=$<<45+20=65>>65
-If Bentley had 170 balloons that he wanted to fill, after the price increase, Bentley paid 170*$65=$<<170*65=11050>>11050 to fill 170 balloons.
-#### 11050"
-Math,3b,"Question: A store is selling mobile phones. This store contains 20 units of phones but the owner found out that there were 5 defective units. After he got rid of the defective units, he started to sell the rest of his units to customer A who bought 3 units, customer B who bought a certain amount of units, and customer C who bought 7 units. In the end, all non-defective units were sold. How many units were sold to Customer B?
-Answer: There were 20 - 5 = <<20-5=15>>15 units of non-defective smartphones.
-There were 3 + 7 = <<3+7=10>>10 units sold to customers A and C.
-So, 15 - 10 = <<15-10=5>>5 units were sold to customer B.
-#### 5
-Question: A school principal is booking hotel rooms for a class of 30 students to stay at during an overnight field trip.  Each of the hotel's rooms has two queen size beds, which can fit two students each, and a pull-out couch, which can fit one student.  How many rooms does the principal need to book to fit all of the students in the class?
-Answer: Each room can fit 2*2 + 1 = <<2*2+1=5>>5 students.
-Thus, the principal needs to book 30/5 = <<30/5=6>>6 rooms to fit everyone.
-#### 6
-Question: A store is selling mobile phones. This store contains 20 units of phones but the owner found out that there were 5 defective units. After he got rid of the defective units, he started to sell the rest of his units to customer A who bought 3 units, customer B who bought a certain amount of units, and customer C who bought 7 units. In the end, all non-defective units were sold. How many units were sold to Customer B?
-Answer: There were 20 - 5 = <<20-5=15>>15 units of non-defective smartphones.
-There were 3 + 7 = <<3+7=10>>10 units sold to customers A and C.
-So, 15 - 10 = <<15-10=5>>5 units were sold to customer B.
-#### 5
-Question: A school principal is booking hotel rooms for a class of 30 students to stay at during an overnight field trip.  Each of the hotel's rooms has two queen size beds, which can fit two students each, and a pull-out couch, which can fit one student.  How many rooms does the principal need to book to fit all of the students in the class?
-Answer: Each room can fit 2*2 + 1 = <<2*2+1=5>>5 students.
-Thus, the principal needs to book 30/5 = <<30/5=6>>6 rooms to fit everyone.
-#### 6
-Question: On a certain day, the total cost of filling up 20 helium balloons was $900. Two days later, the cost of filling each balloon was increased by $20. How much did Bentley pay to fill 170 balloons if he went to fill them after the price increase?","First, let's find the cost of filling one balloon on the day Bentley went to fill them. Since the total cost of filling 20 balloons was $900, each balloon cost $900/20 = $45.
+In 7 days, Sofie will walk 7 * 20 = 140 miles.
 
-After the price increase of $20 per balloon, the new cost per balloon is $45 + $20 = $65.
+Since Brian will walk x miles in 7 days, then:
 
-Therefore, filling 170 balloons at $65 per balloon would cost Bentley 170 * $65 = $11,050.
-Bentley paid $11,050 to fill 170 balloons after the price increase.","If the total cost of filling up 20 helium balloons was $900 before the price increase, the cost of filling one balloon was $900/20=$<<900/20=45>>45
-Two days later, the cost of filling each balloon was increased by $20 to $45+$20=$<<45+20=65>>65
-If Bentley had 170 balloons that he wanted to fill, after the price increase, Bentley paid 170*$65=$<<170*65=11050>>11050 to fill 170 balloons.
-#### 11050"
-CSQA,0,"Question: Who was the head of the branch yelling at?
-A: owner
-B: foot
-C: subordinate
-D: base
-E: point",C: subordinate,C
-CSQA,1a,"Question: Where can you see a mammoth in NYC?
-A: refrigerator
-B: museum exhibit
-C: prehistoric times
-D: museum of natural history
-E: forest
-Answer: D
-Question: James couldn't get into the event, because the ticket office was sold out.  He was sad, but not that sad.  He didn't like football, anyway.  Where might James have been?
-A: auditorium
-B: stadium
-C: arena
-D: city
-E: area
+x = 140 / 2
+x = 70
+
+Therefore, Brian will walk 70 miles in seven days.","If Sofie walks 10 miles each day, she will walk 7*10 = <<10*7=70>>70 miles in seven days.
+Since Sofie is walking twice as far as Brian, Brian will walk 70/2 = <<70/2=35>>35 miles in seven days.
+#### 35"
+Math,3b,"Question: Legoland has 5 kangaroos for each koala. If Legoland has 180 kangaroos, how many koalas and kangaroos are there altogether?
+Answer: For every 5 kangaroos, there is one koala, meaning for the 180 kangaroos, there are 180/5 = <<180/5=36>>36 koalas.
+Altogether, there are 36+180 = <<36+180=216>>216 koalas and kangaroos.
+#### 216
+Question: Nick has 60 cans. Each can takes up 30 square inches of space before being compacted and 20% of that amount after being compacted. How much space do all the cans take up after being compacted?
+Answer: First find the total amount of space the cans take up before being compacted: 60 cans * 30 sq in / can = <<60*30=1800>>1800 sq in
+Then multiply that amount by the percentage of space they take up after being compacted: 1800 sq in * 20% = <<1800*20*.01=360>>360 sq in
+#### 360
+Question: Legoland has 5 kangaroos for each koala. If Legoland has 180 kangaroos, how many koalas and kangaroos are there altogether?
+Answer: For every 5 kangaroos, there is one koala, meaning for the 180 kangaroos, there are 180/5 = <<180/5=36>>36 koalas.
+Altogether, there are 36+180 = <<36+180=216>>216 koalas and kangaroos.
+#### 216
+Question: Nick has 60 cans. Each can takes up 30 square inches of space before being compacted and 20% of that amount after being compacted. How much space do all the cans take up after being compacted?
+Answer: First find the total amount of space the cans take up before being compacted: 60 cans * 30 sq in / can = <<60*30=1800>>1800 sq in
+Then multiply that amount by the percentage of space they take up after being compacted: 1800 sq in * 20% = <<1800*20*.01=360>>360 sq in
+#### 360
+Question: In 7 days, Sofie will walk twice as far as Brian. If Sofie plans to walk 10 miles every day, how many miles will Brian walk in seven days?","First find the total distance Sofie will walk in 7 days: 10 miles/day * 7 days = 70 miles
+Then divide that amount by the distance ratio between Sofie and Brian to find how far Brian will walk: 70 miles / 2 = <<70/2=35>>35 miles
+Brian will walk 35 miles in 7 days.","If Sofie walks 10 miles each day, she will walk 7*10 = <<10*7=70>>70 miles in seven days.
+Since Sofie is walking twice as far as Brian, Brian will walk 70/2 = <<70/2=35>>35 miles in seven days.
+#### 35"
+CSQA,0,"Question: What do drugs do?
+A: damage
+B: cloud mind
+C: lower i.q
+D: cause illness
+E: cause accidents","A: damage
+B: cloud mind
+C: lower i.q
+D: cause illness
+E: cause accidents",E
+CSQA,1a,"Question: Where could you keep you stamps while traveling?
+A: suitcase
+B: cabinet
+C: wallet
+D: desk
+E: drawer
+Answer: A
+Question: What is an adult in love likely to do ?
+A: work
+B: marry
+C: settle childrens argument
+D: go into seclusion
+E: drive train
 Answer: B
-Question: Who was the head of the branch yelling at?
-A: owner
-B: foot
-C: subordinate
-D: base
-E: point",Answer: C,C
-CSQA,1b,"Question: Where is a crowded motorway likely to be?
-A: europe
-B: city
-C: england
-D: garage
-E: new jersey
+Question: What do drugs do?
+A: damage
+B: cloud mind
+C: lower i.q
+D: cause illness
+E: cause accidents",Answer: A,E
+CSQA,1b,"Question: Louisiana is one of fifty, together they make up the what?
+A: deep south
+B: united states
+C: gulf states
+D: swamp
+E: 98 of world's crayfish
 Answer: B
-Question: Where is a church found at?
-A: zoo
-B: populated area
-C: city
-D: christian community
-E: every town
-Answer: E
-Question: Who was the head of the branch yelling at?
-A: owner
-B: foot
-C: subordinate
-D: base
-E: point",Answer: C,C
-CSQA,2,"Question: Where can you see a mammoth in NYC?
-A: refrigerator
-B: museum exhibit
-C: prehistoric times
-D: museum of natural history
-E: forest
-Answer: D
-Question: James couldn't get into the event, because the ticket office was sold out.  He was sad, but not that sad.  He didn't like football, anyway.  Where might James have been?
-A: auditorium
-B: stadium
-C: arena
-D: city
-E: area
+Question: Who is likely to use too much salt?
+A: shaker
+B: fast food restaurant
+C: kitchen cupboard
+D: people
+E: table
 Answer: B
-Question: Where is a crowded motorway likely to be?
-A: europe
-B: city
-C: england
-D: garage
-E: new jersey
+Question: What do drugs do?
+A: damage
+B: cloud mind
+C: lower i.q
+D: cause illness
+E: cause accidents",Answer: A,E
+CSQA,2,"Question: Where could you keep you stamps while traveling?
+A: suitcase
+B: cabinet
+C: wallet
+D: desk
+E: drawer
+Answer: A
+Question: What is an adult in love likely to do ?
+A: work
+B: marry
+C: settle childrens argument
+D: go into seclusion
+E: drive train
 Answer: B
-Question: Where is a church found at?
-A: zoo
-B: populated area
-C: city
-D: christian community
-E: every town
-Answer: E
-Question: Who was the head of the branch yelling at?
-A: owner
-B: foot
-C: subordinate
-D: base
-E: point",Answer: C,C
-CSQA,3a,"Question: Where can you see a mammoth in NYC?
-A: refrigerator
-B: museum exhibit
-C: prehistoric times
-D: museum of natural history
-E: forest
-Answer: D
-Question: James couldn't get into the event, because the ticket office was sold out.  He was sad, but not that sad.  He didn't like football, anyway.  Where might James have been?
-A: auditorium
-B: stadium
-C: arena
-D: city
-E: area
+Question: Louisiana is one of fifty, together they make up the what?
+A: deep south
+B: united states
+C: gulf states
+D: swamp
+E: 98 of world's crayfish
 Answer: B
-Question: Where can you see a mammoth in NYC?
-A: refrigerator
-B: museum exhibit
-C: prehistoric times
-D: museum of natural history
-E: forest
-Answer: D
-Question: James couldn't get into the event, because the ticket office was sold out.  He was sad, but not that sad.  He didn't like football, anyway.  Where might James have been?
-A: auditorium
-B: stadium
-C: arena
-D: city
-E: area
+Question: Who is likely to use too much salt?
+A: shaker
+B: fast food restaurant
+C: kitchen cupboard
+D: people
+E: table
 Answer: B
-Question: Who was the head of the branch yelling at?
-A: owner
-B: foot
-C: subordinate
-D: base
-E: point",Answer: C,C
-CSQA,3b,"Question: Where is a crowded motorway likely to be?
-A: europe
-B: city
-C: england
-D: garage
-E: new jersey
+Question: What do drugs do?
+A: damage
+B: cloud mind
+C: lower i.q
+D: cause illness
+E: cause accidents",Answer: A,E
+CSQA,3a,"Question: Where could you keep you stamps while traveling?
+A: suitcase
+B: cabinet
+C: wallet
+D: desk
+E: drawer
+Answer: A
+Question: What is an adult in love likely to do ?
+A: work
+B: marry
+C: settle childrens argument
+D: go into seclusion
+E: drive train
 Answer: B
-Question: Where is a church found at?
-A: zoo
-B: populated area
-C: city
-D: christian community
-E: every town
-Answer: E
-Question: Where is a crowded motorway likely to be?
-A: europe
-B: city
-C: england
-D: garage
-E: new jersey
+Question: Where could you keep you stamps while traveling?
+A: suitcase
+B: cabinet
+C: wallet
+D: desk
+E: drawer
+Answer: A
+Question: What is an adult in love likely to do ?
+A: work
+B: marry
+C: settle childrens argument
+D: go into seclusion
+E: drive train
 Answer: B
-Question: Where is a church found at?
-A: zoo
-B: populated area
-C: city
-D: christian community
-E: every town
-Answer: E
-Question: Who was the head of the branch yelling at?
-A: owner
-B: foot
-C: subordinate
-D: base
-E: point",Answer: C,C
-StrategyQA,0,"Question: Space Mountain is an attraction at Disney theme parks Bugs Bunny is a Warner Bros. character Warner Bros. characters appear at Six Flags theme parks
-Can you find Bugs Bunny at Space Mountain?","No, Bugs Bunny is a Warner Bros. character and would not be found at Space Mountain, which is an attraction at Disney theme parks. Bugs Bunny characters are often found at Six Flags theme parks instead.",False
+Question: What do drugs do?
+A: damage
+B: cloud mind
+C: lower i.q
+D: cause illness
+E: cause accidents",Answer: A,E
+CSQA,3b,"Question: Louisiana is one of fifty, together they make up the what?
+A: deep south
+B: united states
+C: gulf states
+D: swamp
+E: 98 of world's crayfish
+Answer: B
+Question: Who is likely to use too much salt?
+A: shaker
+B: fast food restaurant
+C: kitchen cupboard
+D: people
+E: table
+Answer: B
+Question: Louisiana is one of fifty, together they make up the what?
+A: deep south
+B: united states
+C: gulf states
+D: swamp
+E: 98 of world's crayfish
+Answer: B
+Question: Who is likely to use too much salt?
+A: shaker
+B: fast food restaurant
+C: kitchen cupboard
+D: people
+E: table
+Answer: B
+Question: What do drugs do?
+A: damage
+B: cloud mind
+C: lower i.q
+D: cause illness
+E: cause accidents",Answer: A,E
+StrategyQA,0,"Question: Reiki practitioners use a technique called palm healing or hands-on healing through which a ""universal energy"" is said to be transferred through the palms of the practitioner to the patient in order to encourage emotional or physical healing. Medications are typically stored in pill bottles.
+Can Reiki be stored in a bottle?","Reiki energy cannot be stored in a physical bottle like medications. Reiki is considered a form of energy healing that flows through the practitioner and cannot be contained or stored in a physical form. It is believed to flow from the practitioner to the recipient in real-time during a Reiki session. The practice of Reiki involves the channeling of universal energy, rather than the administration of a physical substance that can be stored.",False
 StrategyQA,1a,"Question: The body naturally produces and uses lactic acid to convert glucose into energy Lactic acid bacteria are particularly good for digestive health.
 Is it bad to have lactic acid in your body?
 Answer: False
-Question: Almond trees can grow up to 10 meters high The Lusotitan adult was over 10 meters high
-Would a stool be useful for a Lusotitan to reach the top of an almond tree?
-Answer: False
-Question: Space Mountain is an attraction at Disney theme parks Bugs Bunny is a Warner Bros. character Warner Bros. characters appear at Six Flags theme parks
-Can you find Bugs Bunny at Space Mountain?",Answer: False,False
-StrategyQA,1b,"Question: Beam me up is an expression from Star Trek. Much to the annoyance of fans, Star Trek and Star Wars are often confused for one another. 
-Do Star Wars fans say ""beam me up"" often?
-Answer: False
-Question: Dem Bones is a spiritual song composed by James Weldon Johnson. The lyrics to Dem Bones mention the hip bone, back bone, and knee bone among others. The back bone is the spine, which is connected to the first 7 rib sets. The sternum, or breastbone, is a flat bone at the front center of the chest. The sternum and ribs are connected and make up the ribcage.
-Is sternum connected to any of the bones mentioned in James Weldon Johnson's Dem Bones?
+Question: The Lannister's are a wealthy family in the Song of Ice and Fire book series. French Toast is made from bread dipped in an egg batter. Salmonella is a deadly bacteria that can be carried by spoiled eggs.
+Can French Toast hypothetically kill a Lannister?
 Answer: True
-Question: Space Mountain is an attraction at Disney theme parks Bugs Bunny is a Warner Bros. character Warner Bros. characters appear at Six Flags theme parks
-Can you find Bugs Bunny at Space Mountain?",Answer: False,False
+Question: Reiki practitioners use a technique called palm healing or hands-on healing through which a ""universal energy"" is said to be transferred through the palms of the practitioner to the patient in order to encourage emotional or physical healing. Medications are typically stored in pill bottles.
+Can Reiki be stored in a bottle?",Answer: False,False
+StrategyQA,1b,"Question: A cleric is the term for a Muslim priest. Celibate people remain chaste and do not engage in relations with others. Stoning is a penalty in Somalia used to punish adulterers. Many Islamic militants have been in control of various parts of Somalia.
+Will a celibate cleric likely suffer a stoning in Somalia?
+Answer: False
+Question: The cory catfish is a fish that is described as a bottom feeder. The cory catfish feeds on food located at the bottom of an ocean. Fish cannot live too deep in oceans for very long because of the intense water pressure. The bottom of oceans is populated by algae, coral, and microorganisms.
+Is a cory catfish likely to eat another living fish?
+Answer: False
+Question: Reiki practitioners use a technique called palm healing or hands-on healing through which a ""universal energy"" is said to be transferred through the palms of the practitioner to the patient in order to encourage emotional or physical healing. Medications are typically stored in pill bottles.
+Can Reiki be stored in a bottle?",Answer: False,False
 StrategyQA,2,"Question: The body naturally produces and uses lactic acid to convert glucose into energy Lactic acid bacteria are particularly good for digestive health.
 Is it bad to have lactic acid in your body?
 Answer: False
-Question: Almond trees can grow up to 10 meters high The Lusotitan adult was over 10 meters high
-Would a stool be useful for a Lusotitan to reach the top of an almond tree?
-Answer: False
-Question: Beam me up is an expression from Star Trek. Much to the annoyance of fans, Star Trek and Star Wars are often confused for one another. 
-Do Star Wars fans say ""beam me up"" often?
-Answer: False
-Question: Dem Bones is a spiritual song composed by James Weldon Johnson. The lyrics to Dem Bones mention the hip bone, back bone, and knee bone among others. The back bone is the spine, which is connected to the first 7 rib sets. The sternum, or breastbone, is a flat bone at the front center of the chest. The sternum and ribs are connected and make up the ribcage.
-Is sternum connected to any of the bones mentioned in James Weldon Johnson's Dem Bones?
+Question: The Lannister's are a wealthy family in the Song of Ice and Fire book series. French Toast is made from bread dipped in an egg batter. Salmonella is a deadly bacteria that can be carried by spoiled eggs.
+Can French Toast hypothetically kill a Lannister?
 Answer: True
-Question: Space Mountain is an attraction at Disney theme parks Bugs Bunny is a Warner Bros. character Warner Bros. characters appear at Six Flags theme parks
-Can you find Bugs Bunny at Space Mountain?",Answer: False,False
+Question: A cleric is the term for a Muslim priest. Celibate people remain chaste and do not engage in relations with others. Stoning is a penalty in Somalia used to punish adulterers. Many Islamic militants have been in control of various parts of Somalia.
+Will a celibate cleric likely suffer a stoning in Somalia?
+Answer: False
+Question: The cory catfish is a fish that is described as a bottom feeder. The cory catfish feeds on food located at the bottom of an ocean. Fish cannot live too deep in oceans for very long because of the intense water pressure. The bottom of oceans is populated by algae, coral, and microorganisms.
+Is a cory catfish likely to eat another living fish?
+Answer: False
+Question: Reiki practitioners use a technique called palm healing or hands-on healing through which a ""universal energy"" is said to be transferred through the palms of the practitioner to the patient in order to encourage emotional or physical healing. Medications are typically stored in pill bottles.
+Can Reiki be stored in a bottle?",Answer: False,False
 StrategyQA,3a,"Question: The body naturally produces and uses lactic acid to convert glucose into energy Lactic acid bacteria are particularly good for digestive health.
 Is it bad to have lactic acid in your body?
 Answer: False
-Question: Almond trees can grow up to 10 meters high The Lusotitan adult was over 10 meters high
-Would a stool be useful for a Lusotitan to reach the top of an almond tree?
-Answer: False
+Question: The Lannister's are a wealthy family in the Song of Ice and Fire book series. French Toast is made from bread dipped in an egg batter. Salmonella is a deadly bacteria that can be carried by spoiled eggs.
+Can French Toast hypothetically kill a Lannister?
+Answer: True
 Question: The body naturally produces and uses lactic acid to convert glucose into energy Lactic acid bacteria are particularly good for digestive health.
 Is it bad to have lactic acid in your body?
 Answer: False
-Question: Almond trees can grow up to 10 meters high The Lusotitan adult was over 10 meters high
-Would a stool be useful for a Lusotitan to reach the top of an almond tree?
-Answer: False
-Question: Space Mountain is an attraction at Disney theme parks Bugs Bunny is a Warner Bros. character Warner Bros. characters appear at Six Flags theme parks
-Can you find Bugs Bunny at Space Mountain?",Answer: False,False
-StrategyQA,3b,"Question: Beam me up is an expression from Star Trek. Much to the annoyance of fans, Star Trek and Star Wars are often confused for one another. 
-Do Star Wars fans say ""beam me up"" often?
-Answer: False
-Question: Dem Bones is a spiritual song composed by James Weldon Johnson. The lyrics to Dem Bones mention the hip bone, back bone, and knee bone among others. The back bone is the spine, which is connected to the first 7 rib sets. The sternum, or breastbone, is a flat bone at the front center of the chest. The sternum and ribs are connected and make up the ribcage.
-Is sternum connected to any of the bones mentioned in James Weldon Johnson's Dem Bones?
+Question: The Lannister's are a wealthy family in the Song of Ice and Fire book series. French Toast is made from bread dipped in an egg batter. Salmonella is a deadly bacteria that can be carried by spoiled eggs.
+Can French Toast hypothetically kill a Lannister?
 Answer: True
-Question: Beam me up is an expression from Star Trek. Much to the annoyance of fans, Star Trek and Star Wars are often confused for one another. 
-Do Star Wars fans say ""beam me up"" often?
+Question: Reiki practitioners use a technique called palm healing or hands-on healing through which a ""universal energy"" is said to be transferred through the palms of the practitioner to the patient in order to encourage emotional or physical healing. Medications are typically stored in pill bottles.
+Can Reiki be stored in a bottle?",Answer: False,False
+StrategyQA,3b,"Question: A cleric is the term for a Muslim priest. Celibate people remain chaste and do not engage in relations with others. Stoning is a penalty in Somalia used to punish adulterers. Many Islamic militants have been in control of various parts of Somalia.
+Will a celibate cleric likely suffer a stoning in Somalia?
 Answer: False
-Question: Dem Bones is a spiritual song composed by James Weldon Johnson. The lyrics to Dem Bones mention the hip bone, back bone, and knee bone among others. The back bone is the spine, which is connected to the first 7 rib sets. The sternum, or breastbone, is a flat bone at the front center of the chest. The sternum and ribs are connected and make up the ribcage.
-Is sternum connected to any of the bones mentioned in James Weldon Johnson's Dem Bones?
-Answer: True
-Question: Space Mountain is an attraction at Disney theme parks Bugs Bunny is a Warner Bros. character Warner Bros. characters appear at Six Flags theme parks
-Can you find Bugs Bunny at Space Mountain?",Answer: No,False
-SayCan,0,Question: Provide step-by-step instructions for the following task: Lift and hold the coke can up.,"1. Begin by placing your dominant hand around the lower portion of the coke can, ensuring a secure grip.
-2. Use your other hand to support the can from the bottom.
-3. Slowly lift the coke can up by straightening your arms and keeping a firm grip.
-4. Hold the can at your desired height, ensuring that your grip is steady and secure.
-5. To maintain the position, use your arm muscles to stabilize the can and avoid any sudden movements.
-6. When you are ready to lower the can, do so gradually to prevent spilling the contents.
-7. Remember to always hold the can away from your body and over a stable surface to avoid accidents.","1. pick up the coke, 2. done"
-SayCan,1a,"Question: Provide step-by-step instructions for the following task: Bring me a soda that isn’t a coke.
-Answer: 1. find a pepsi, 2. pick up the pepsi, 3. bring it to you, 4. put down the pepsi, 5. done.
-Question: Provide step-by-step instructions for the following task: Can you clear off the close counter table?
-Answer: 1. go to the close counter, 2. pick up the energy bar, 3. go to the trash, 4. put down the energy bar, 5. go to the close counter, 6. pick up the jalapeno chips, 7. go to the trash, 8. put down the jalapeno chips, 9. go to the close counter, 10. pick up the grapefruit soda, 11. go to the trash, 12. put down the grapefruit soda, 13. go to the close counter, 14. done.
-Question: Provide step-by-step instructions for the following task: Lift and hold the coke can up.","Answer: 1. Locate the coke can, 2. Pick up the coke can with one hand, 3. Raise your arm and hold the coke can in the air, 4. Maintain a steady grip on the coke can to keep it lifted, 5. Hold the coke can up for as long as desired, 6. When finished, slowly lower your arm and place the coke can back down.","1. pick up the coke, 2. done"
-SayCan,1b,"Question: Provide step-by-step instructions for the following task: Park at the table.
-Answer: 1. go to the table, 2. done
-Question: Provide step-by-step instructions for the following task: Move a banana to the table.
-Answer: 1. pick up the banana, 2. go to the table, 3. put down the banana, 4. done
-Question: Provide step-by-step instructions for the following task: Lift and hold the coke can up.","Answer: 1. Reach for the coke can, 2. Grasp the can firmly, 3. Lift the can up to a desired height, 4. Hold the can steady, 5. Release the can when ready, 6. Done.","1. pick up the coke, 2. done"
-SayCan,2,"Question: Provide step-by-step instructions for the following task: Bring me a soda that isn’t a coke.
-Answer: 1. find a pepsi, 2. pick up the pepsi, 3. bring it to you, 4. put down the pepsi, 5. done.
-Question: Provide step-by-step instructions for the following task: Can you clear off the close counter table?
-Answer: 1. go to the close counter, 2. pick up the energy bar, 3. go to the trash, 4. put down the energy bar, 5. go to the close counter, 6. pick up the jalapeno chips, 7. go to the trash, 8. put down the jalapeno chips, 9. go to the close counter, 10. pick up the grapefruit soda, 11. go to the trash, 12. put down the grapefruit soda, 13. go to the close counter, 14. done.
-Question: Provide step-by-step instructions for the following task: Park at the table.
-Answer: 1. go to the table, 2. done
-Question: Provide step-by-step instructions for the following task: Move a banana to the table.
-Answer: 1. pick up the banana, 2. go to the table, 3. put down the banana, 4. done
-Question: Provide step-by-step instructions for the following task: Lift and hold the coke can up.","Answer: 1. pick up the coke can, 2. hold the coke can up, 3. done.","1. pick up the coke, 2. done"
-SayCan,3a,"Question: Provide step-by-step instructions for the following task: Bring me a soda that isn’t a coke.
-Answer: 1. find a pepsi, 2. pick up the pepsi, 3. bring it to you, 4. put down the pepsi, 5. done.
-Question: Provide step-by-step instructions for the following task: Can you clear off the close counter table?
-Answer: 1. go to the close counter, 2. pick up the energy bar, 3. go to the trash, 4. put down the energy bar, 5. go to the close counter, 6. pick up the jalapeno chips, 7. go to the trash, 8. put down the jalapeno chips, 9. go to the close counter, 10. pick up the grapefruit soda, 11. go to the trash, 12. put down the grapefruit soda, 13. go to the close counter, 14. done.
-Question: Provide step-by-step instructions for the following task: Bring me a soda that isn’t a coke.
-Answer: 1. find a pepsi, 2. pick up the pepsi, 3. bring it to you, 4. put down the pepsi, 5. done.
-Question: Provide step-by-step instructions for the following task: Can you clear off the close counter table?
-Answer: 1. go to the close counter, 2. pick up the energy bar, 3. go to the trash, 4. put down the energy bar, 5. go to the close counter, 6. pick up the jalapeno chips, 7. go to the trash, 8. put down the jalapeno chips, 9. go to the close counter, 10. pick up the grapefruit soda, 11. go to the trash, 12. put down the grapefruit soda, 13. go to the close counter, 14. done.
-Question: Provide step-by-step instructions for the following task: Lift and hold the coke can up.","Answer: 1. Locate the coke can, 2. Reach out and grab the coke can, 3. Lift the coke can up, 4. Hold the coke can in the air, 5. Done.","1. pick up the coke, 2. done"
-SayCan,3b,"Question: Provide step-by-step instructions for the following task: Park at the table.
-Answer: 1. go to the table, 2. done
-Question: Provide step-by-step instructions for the following task: Move a banana to the table.
-Answer: 1. pick up the banana, 2. go to the table, 3. put down the banana, 4. done
-Question: Provide step-by-step instructions for the following task: Park at the table.
-Answer: 1. go to the table, 2. done
-Question: Provide step-by-step instructions for the following task: Move a banana to the table.
-Answer: 1. pick up the banana, 2. go to the table, 3. put down the banana, 4. done
-Question: Provide step-by-step instructions for the following task: Lift and hold the coke can up.","Answer: 1. Pick up the coke can with one hand, 2. Raise your arm holding the can, 3. Hold the can in the lifted position, 4. Done.","1. pick up the coke, 2. done"
+Question: The cory catfish is a fish that is described as a bottom feeder. The cory catfish feeds on food located at the bottom of an ocean. Fish cannot live too deep in oceans for very long because of the intense water pressure. The bottom of oceans is populated by algae, coral, and microorganisms.
+Is a cory catfish likely to eat another living fish?
+Answer: False
+Question: A cleric is the term for a Muslim priest. Celibate people remain chaste and do not engage in relations with others. Stoning is a penalty in Somalia used to punish adulterers. Many Islamic militants have been in control of various parts of Somalia.
+Will a celibate cleric likely suffer a stoning in Somalia?
+Answer: False
+Question: The cory catfish is a fish that is described as a bottom feeder. The cory catfish feeds on food located at the bottom of an ocean. Fish cannot live too deep in oceans for very long because of the intense water pressure. The bottom of oceans is populated by algae, coral, and microorganisms.
+Is a cory catfish likely to eat another living fish?
+Answer: False
+Question: Reiki practitioners use a technique called palm healing or hands-on healing through which a ""universal energy"" is said to be transferred through the palms of the practitioner to the patient in order to encourage emotional or physical healing. Medications are typically stored in pill bottles.
+Can Reiki be stored in a bottle?",Answer: False,False
+SayCan,0,Question: How would you navigate to the table?,"To navigate to the table, you can simply walk towards it by moving in the direction where the table is located. If you are in a room, you can visually identify the table and walk towards it. If you are in a larger space or building, you can use signs, directions, or ask someone for guidance to help you locate the table.","1. go to the table, 2. done"
+SayCan,1a,"Question: Could you get me a soda that is not caffeinated?
+Answer: 1. find a 7up, 2. pick up the 7up, 3. bring it to you, 4. put down the 7up, 5. done.
+Question: Can you bring me a spicy snack?
+Answer: 1. find the jalapeno chips, 2. pick up the jalapeno chips, 3. bring it to you, 4. put down the jalapeno chips, 5. done
+Question: How would you navigate to the table?","Answer: 1. Stand up from current position, 2. Walk towards the table, 3. Avoid any obstacles in the way, 4. Arrive at the table, 5. Done.","1. go to the table, 2. done"
+SayCan,1b,"Question: I’m allergic to apples, can I get a fruit?
+Answer: 1. find an orange, 2. pick up the orange, 3. bring it to you, 4. put down the orange, 5. done
+Question: How would you bring me chips from the drawer?
+Answer: 1. go to the drawer, 2. open the drawer, 3. pick up the bag of chips, 4. close the drawer, 5. bring it to you, 6. put down the bag of chips, 7. done
+Question: How would you navigate to the table?","Answer: 1. stand up, 2. turn towards the table, 3. walk towards the table, 4. stop at the table, 5. done","1. go to the table, 2. done"
+SayCan,2,"Question: Could you get me a soda that is not caffeinated?
+Answer: 1. find a 7up, 2. pick up the 7up, 3. bring it to you, 4. put down the 7up, 5. done.
+Question: Can you bring me a spicy snack?
+Answer: 1. find the jalapeno chips, 2. pick up the jalapeno chips, 3. bring it to you, 4. put down the jalapeno chips, 5. done
+Question: I’m allergic to apples, can I get a fruit?
+Answer: 1. find an orange, 2. pick up the orange, 3. bring it to you, 4. put down the orange, 5. done
+Question: How would you bring me chips from the drawer?
+Answer: 1. go to the drawer, 2. open the drawer, 3. pick up the bag of chips, 4. close the drawer, 5. bring it to you, 6. put down the bag of chips, 7. done
+Question: How would you navigate to the table?","Answer: 1. stand up from your current location, 2. walk towards the table, 3. carefully maneuver around any obstacles in your path, 4. reach the table, 5. place your hand on the table or sit down at the table, 6. done","1. go to the table, 2. done"
+SayCan,3a,"Question: Could you get me a soda that is not caffeinated?
+Answer: 1. find a 7up, 2. pick up the 7up, 3. bring it to you, 4. put down the 7up, 5. done.
+Question: Can you bring me a spicy snack?
+Answer: 1. find the jalapeno chips, 2. pick up the jalapeno chips, 3. bring it to you, 4. put down the jalapeno chips, 5. done
+Question: Could you get me a soda that is not caffeinated?
+Answer: 1. find a 7up, 2. pick up the 7up, 3. bring it to you, 4. put down the 7up, 5. done.
+Question: Can you bring me a spicy snack?
+Answer: 1. find the jalapeno chips, 2. pick up the jalapeno chips, 3. bring it to you, 4. put down the jalapeno chips, 5. done
+Question: How would you navigate to the table?","Answer: 1. Stand up from your current location, 2. Walk towards the table, 3. Avoid any obstacles in your path, 4. Reach the table.","1. go to the table, 2. done"
+SayCan,3b,"Question: I’m allergic to apples, can I get a fruit?
+Answer: 1. find an orange, 2. pick up the orange, 3. bring it to you, 4. put down the orange, 5. done
+Question: How would you bring me chips from the drawer?
+Answer: 1. go to the drawer, 2. open the drawer, 3. pick up the bag of chips, 4. close the drawer, 5. bring it to you, 6. put down the bag of chips, 7. done
+Question: I’m allergic to apples, can I get a fruit?
+Answer: 1. find an orange, 2. pick up the orange, 3. bring it to you, 4. put down the orange, 5. done
+Question: How would you bring me chips from the drawer?
+Answer: 1. go to the drawer, 2. open the drawer, 3. pick up the bag of chips, 4. close the drawer, 5. bring it to you, 6. put down the bag of chips, 7. done
+Question: How would you navigate to the table?","Answer: 1. Stand up from your current location, 2. Walk towards the table, 3. Avoid any obstacles in your path, 4. Reach the table, 5. Stop at the table, 6. Done","1. go to the table, 2. done"
