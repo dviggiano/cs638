@@ -1,0 +1,466 @@
+Task Class,Case,Prompt,Response,Expected
+Math,1a,"Question: Roman and Remy took separate showers. Remy used 1 more gallon than 3 times the number of gallons that Roman used for his shower. Together the boys used 33 gallons of water.  How many gallons did Remy use?
+Answer: Let R = Roman's gallons
+Remy = 3R + 1
+4R + 1 = 33
+4R = <<32=32>>32
+R = <<8=8>>8
+Remy used 25 gallons of water for his shower.
+#### 25
+Question: On March 1st the sun sets at 6 PM.  Every day after the sun sets 1.2 minutes later.  It is 6:10 PM and 40 days after March 1st.  How many minutes until the sun sets?
+Answer: The sun will set 40*1.2=<<40*1.2=48>>48 minutes later than it does on March 1st.
+That means the sun will set at 6:00+48=6:48 PM
+So that means the time until sunset is 6:48-6:10=<<648-610=38>>38 minutes
+#### 38
+Q: Michael is replacing the carpet in his bedroom.  The new carpet he's chosen costs $12 per square foot, plus $2 per square foot for padding underneath.  His contractor charges $4 per square foot to remove the old carpet, and $34 per square foot to install the new carpet.  His bedroom measures 18 feet by 12 feet.  How much will it cost Michael to replace the carpet?","A: 
+First, calculate the total area of the bedroom:
+Area = length x width
+Area = 18 ft x 12 ft
+Area = 216 sq ft
+
+Next, calculate the cost of the new carpet:
+Cost of carpet = ($12/sq ft + $2/sq ft) x 216 sq ft
+Cost of carpet = $14/sq ft x 216 sq ft
+Cost of carpet = $3024
+
+Then, calculate the cost of removing the old carpet:
+Cost of removing old carpet = $4/sq ft x 216 sq ft
+Cost of removing old carpet = $864
+
+Next, calculate the cost of installation:
+Cost of installation = $34/sq ft x 216 sq ft
+Cost of installation = $7344
+
+Finally, add up all the costs to find the total cost:
+Total cost = Cost of carpet + Cost of removing old carpet + Cost of installation
+Total cost = $3024 + $864 + $7344
+Total cost = $11232
+
+Therefore, it will cost Michael $11,232 to replace the carpet in his bedroom.","The room measures 18 * 12 = <<18*12=216>>216 square feet.
+The new carpet costs $12 * 216 = $<<12*216=2592>>2,592.
+The new carpet padding costs $2 * 216 = $<<2*216=432>>432.
+To remove the old carpet, the contractor will charge $4 * 216 = $<<4*216=864>>864.
+To install the new carpet, the contractor will charge $34 * 216 = $<<34*216=7344>>7,344.
+The total cost will be $864 + $2,592 + $432 + $7,344 = $11,232.
+#### 11232"
+Math,1a,"Question: Nalani had two female dogs that were expecting and after a month gave birth to 10 puppies each. She then sold 3/4 of the puppies after they came of age, each at $200. Calculate the total amount of money she received from the sale of the puppies.
+Answer: If the two expectant dogs gave birth to 10 puppies each, the total number of puppies Nalani had is 10+10= <<10+10=20>>20
+When they came of age, Nalani sold 3/4 of the dogs, a total of 3/4*20 = <<3/4*20=15>>15 dogs.
+If each dog sold for $200, Nalani received 15*200 = $<<15*200=3000>>3000 from the sale of the dogs.
+#### 3000
+Question: For her gift present, Lisa has saved $1200. She asks her mother, as well as her brother, to help her raise the total amount of money she needs to buy the gift.,If her mother gave her 3/5 times of what she had saved and her brother gave her twice the amount her mother gave her, calculate the price of the gift she wanted to buy if she still had $400 less.
+Answer: Lisa's mother gave her 3/5*$1200 = $<<3/5*1200=720>>720 for her birthday gift.
+She also received 2*$720 = $<<2*720=1440>>1440 from her brother for the gift.
+If she still had to find $400 to fully reach her birthday gift cost, it means her gift's total cost was $1200+$1440+$720+$400 = $<<1200+1440+720+400=3760>>3760
+#### 3760
+Q: Michael is replacing the carpet in his bedroom.  The new carpet he's chosen costs $12 per square foot, plus $2 per square foot for padding underneath.  His contractor charges $4 per square foot to remove the old carpet, and $34 per square foot to install the new carpet.  His bedroom measures 18 feet by 12 feet.  How much will it cost Michael to replace the carpet?","A: The total area of Michael's bedroom is 18 feet * 12 feet = 216 square feet.
+
+The cost of the new carpet per square foot is $12 + $2 = $14.
+
+So the cost of the new carpet for the entire room is 216 square feet * $14 = $3024.
+
+The cost to remove the old carpet is 216 square feet * $4 = $864.
+
+The cost to install the new carpet is 216 square feet * $34 = $7344.
+
+Therefore, the total cost for Michael to replace the carpet in his bedroom is $3024 + $864 + $7344 = $11232. 
+
+So, it will cost Michael $11,232 to replace the carpet in his bedroom.","The room measures 18 * 12 = <<18*12=216>>216 square feet.
+The new carpet costs $12 * 216 = $<<12*216=2592>>2,592.
+The new carpet padding costs $2 * 216 = $<<2*216=432>>432.
+To remove the old carpet, the contractor will charge $4 * 216 = $<<4*216=864>>864.
+To install the new carpet, the contractor will charge $34 * 216 = $<<34*216=7344>>7,344.
+The total cost will be $864 + $2,592 + $432 + $7,344 = $11,232.
+#### 11232"
+Math,2,"Question: Roman and Remy took separate showers. Remy used 1 more gallon than 3 times the number of gallons that Roman used for his shower. Together the boys used 33 gallons of water.  How many gallons did Remy use?
+Answer: Let R = Roman's gallons
+Remy = 3R + 1
+4R + 1 = 33
+4R = <<32=32>>32
+R = <<8=8>>8
+Remy used 25 gallons of water for his shower.
+#### 25
+Question: On March 1st the sun sets at 6 PM.  Every day after the sun sets 1.2 minutes later.  It is 6:10 PM and 40 days after March 1st.  How many minutes until the sun sets?
+Answer: The sun will set 40*1.2=<<40*1.2=48>>48 minutes later than it does on March 1st.
+That means the sun will set at 6:00+48=6:48 PM
+So that means the time until sunset is 6:48-6:10=<<648-610=38>>38 minutes
+#### 38
+Question: Nalani had two female dogs that were expecting and after a month gave birth to 10 puppies each. She then sold 3/4 of the puppies after they came of age, each at $200. Calculate the total amount of money she received from the sale of the puppies.
+Answer: If the two expectant dogs gave birth to 10 puppies each, the total number of puppies Nalani had is 10+10= <<10+10=20>>20
+When they came of age, Nalani sold 3/4 of the dogs, a total of 3/4*20 = <<3/4*20=15>>15 dogs.
+If each dog sold for $200, Nalani received 15*200 = $<<15*200=3000>>3000 from the sale of the dogs.
+#### 3000
+Question: For her gift present, Lisa has saved $1200. She asks her mother, as well as her brother, to help her raise the total amount of money she needs to buy the gift.,If her mother gave her 3/5 times of what she had saved and her brother gave her twice the amount her mother gave her, calculate the price of the gift she wanted to buy if she still had $400 less.
+Answer: Lisa's mother gave her 3/5*$1200 = $<<3/5*1200=720>>720 for her birthday gift.
+She also received 2*$720 = $<<2*720=1440>>1440 from her brother for the gift.
+If she still had to find $400 to fully reach her birthday gift cost, it means her gift's total cost was $1200+$1440+$720+$400 = $<<1200+1440+720+400=3760>>3760
+#### 3760
+Q: Michael is replacing the carpet in his bedroom.  The new carpet he's chosen costs $12 per square foot, plus $2 per square foot for padding underneath.  His contractor charges $4 per square foot to remove the old carpet, and $34 per square foot to install the new carpet.  His bedroom measures 18 feet by 12 feet.  How much will it cost Michael to replace the carpet?","A: 
+To find the total cost for replacing the carpet, we first calculate the total square footage of the room:
+
+Total square footage = Length x Width
+Total square footage = 18 ft x 12 ft
+Total square footage = 216 sq ft
+
+Next, we calculate the cost of the new carpet and padding:
+
+Cost of new carpet = Cost per sq ft x Total sq ft
+Cost of new carpet = ($12 + $2) x 216
+Cost of new carpet = $14 x 216
+Cost of new carpet = $3024
+
+Next, we calculate the cost of removing the old carpet:
+
+Cost of removing old carpet = Cost per sq ft x Total sq ft
+Cost of removing old carpet = $4 x 216
+Cost of removing old carpet = $864
+
+Next, we calculate the cost of installation:
+
+Cost of installation = Cost per sq ft x Total sq ft
+Cost of installation = $34 x 216
+Cost of installation = $7344
+
+Finally, we add up all the costs:
+
+Total cost = Cost of new carpet + Cost of removing old carpet + Cost of installation
+Total cost = $3024 + $864 + $7344
+Total cost = $11232
+
+Therefore, it will cost Michael $11,232 to replace the carpet in his bedroom.","The room measures 18 * 12 = <<18*12=216>>216 square feet.
+The new carpet costs $12 * 216 = $<<12*216=2592>>2,592.
+The new carpet padding costs $2 * 216 = $<<2*216=432>>432.
+To remove the old carpet, the contractor will charge $4 * 216 = $<<4*216=864>>864.
+To install the new carpet, the contractor will charge $34 * 216 = $<<34*216=7344>>7,344.
+The total cost will be $864 + $2,592 + $432 + $7,344 = $11,232.
+#### 11232"
+Math,3a,"Question: Roman and Remy took separate showers. Remy used 1 more gallon than 3 times the number of gallons that Roman used for his shower. Together the boys used 33 gallons of water.  How many gallons did Remy use?
+Answer: Let R = Roman's gallons
+Remy = 3R + 1
+4R + 1 = 33
+4R = <<32=32>>32
+R = <<8=8>>8
+Remy used 25 gallons of water for his shower.
+#### 25
+Question: On March 1st the sun sets at 6 PM.  Every day after the sun sets 1.2 minutes later.  It is 6:10 PM and 40 days after March 1st.  How many minutes until the sun sets?
+Answer: The sun will set 40*1.2=<<40*1.2=48>>48 minutes later than it does on March 1st.
+That means the sun will set at 6:00+48=6:48 PM
+So that means the time until sunset is 6:48-6:10=<<648-610=38>>38 minutes
+#### 38
+Question: Roman and Remy took separate showers. Remy used 1 more gallon than 3 times the number of gallons that Roman used for his shower. Together the boys used 33 gallons of water.  How many gallons did Remy use?
+Answer: Let R = Roman's gallons
+Remy = 3R + 1
+4R + 1 = 33
+4R = <<32=32>>32
+R = <<8=8>>8
+Remy used 25 gallons of water for his shower.
+#### 25
+Question: On March 1st the sun sets at 6 PM.  Every day after the sun sets 1.2 minutes later.  It is 6:10 PM and 40 days after March 1st.  How many minutes until the sun sets?
+Answer: The sun will set 40*1.2=<<40*1.2=48>>48 minutes later than it does on March 1st.
+That means the sun will set at 6:00+48=6:48 PM
+So that means the time until sunset is 6:48-6:10=<<648-610=38>>38 minutes
+#### 38
+Q: Michael is replacing the carpet in his bedroom.  The new carpet he's chosen costs $12 per square foot, plus $2 per square foot for padding underneath.  His contractor charges $4 per square foot to remove the old carpet, and $34 per square foot to install the new carpet.  His bedroom measures 18 feet by 12 feet.  How much will it cost Michael to replace the carpet?","To calculate the total cost for Michael to replace the carpet, we need to consider the cost of the new carpet, padding, removal of the old carpet, and installation of the new carpet.
+
+First, find the total square footage of the bedroom:
+18 feet x 12 feet = 216 square feet
+
+Cost of the new carpet:
+$12 per square foot x 216 square feet = $2,592
+
+Cost of padding:
+$2 per square foot x 216 square feet = $432
+
+Cost of removing the old carpet:
+$4 per square foot x 216 square feet = $864
+
+Cost of installing the new carpet:
+$34 per square foot x 216 square feet = $7,344
+
+Total cost:
+$2,592 (new carpet) + $432 (padding) + $864 (removal) + $7,344 (installation) = $11,232
+
+Therefore, it will cost Michael $11,232 to replace the carpet in his bedroom.","The room measures 18 * 12 = <<18*12=216>>216 square feet.
+The new carpet costs $12 * 216 = $<<12*216=2592>>2,592.
+The new carpet padding costs $2 * 216 = $<<2*216=432>>432.
+To remove the old carpet, the contractor will charge $4 * 216 = $<<4*216=864>>864.
+To install the new carpet, the contractor will charge $34 * 216 = $<<34*216=7344>>7,344.
+The total cost will be $864 + $2,592 + $432 + $7,344 = $11,232.
+#### 11232"
+Math,3b,"Question: Nalani had two female dogs that were expecting and after a month gave birth to 10 puppies each. She then sold 3/4 of the puppies after they came of age, each at $200. Calculate the total amount of money she received from the sale of the puppies.
+Answer: If the two expectant dogs gave birth to 10 puppies each, the total number of puppies Nalani had is 10+10= <<10+10=20>>20
+When they came of age, Nalani sold 3/4 of the dogs, a total of 3/4*20 = <<3/4*20=15>>15 dogs.
+If each dog sold for $200, Nalani received 15*200 = $<<15*200=3000>>3000 from the sale of the dogs.
+#### 3000
+Question: For her gift present, Lisa has saved $1200. She asks her mother, as well as her brother, to help her raise the total amount of money she needs to buy the gift.,If her mother gave her 3/5 times of what she had saved and her brother gave her twice the amount her mother gave her, calculate the price of the gift she wanted to buy if she still had $400 less.
+Answer: Lisa's mother gave her 3/5*$1200 = $<<3/5*1200=720>>720 for her birthday gift.
+She also received 2*$720 = $<<2*720=1440>>1440 from her brother for the gift.
+If she still had to find $400 to fully reach her birthday gift cost, it means her gift's total cost was $1200+$1440+$720+$400 = $<<1200+1440+720+400=3760>>3760
+#### 3760
+Question: Nalani had two female dogs that were expecting and after a month gave birth to 10 puppies each. She then sold 3/4 of the puppies after they came of age, each at $200. Calculate the total amount of money she received from the sale of the puppies.
+Answer: If the two expectant dogs gave birth to 10 puppies each, the total number of puppies Nalani had is 10+10= <<10+10=20>>20
+When they came of age, Nalani sold 3/4 of the dogs, a total of 3/4*20 = <<3/4*20=15>>15 dogs.
+If each dog sold for $200, Nalani received 15*200 = $<<15*200=3000>>3000 from the sale of the dogs.
+#### 3000
+Question: For her gift present, Lisa has saved $1200. She asks her mother, as well as her brother, to help her raise the total amount of money she needs to buy the gift.,If her mother gave her 3/5 times of what she had saved and her brother gave her twice the amount her mother gave her, calculate the price of the gift she wanted to buy if she still had $400 less.
+Answer: Lisa's mother gave her 3/5*$1200 = $<<3/5*1200=720>>720 for her birthday gift.
+She also received 2*$720 = $<<2*720=1440>>1440 from her brother for the gift.
+If she still had to find $400 to fully reach her birthday gift cost, it means her gift's total cost was $1200+$1440+$720+$400 = $<<1200+1440+720+400=3760>>3760
+#### 3760
+Q: Michael is replacing the carpet in his bedroom.  The new carpet he's chosen costs $12 per square foot, plus $2 per square foot for padding underneath.  His contractor charges $4 per square foot to remove the old carpet, and $34 per square foot to install the new carpet.  His bedroom measures 18 feet by 12 feet.  How much will it cost Michael to replace the carpet?","First, we need to calculate the total square footage of Michael's bedroom. The bedroom measures 18 feet by 12 feet, so the total square footage is 18 * 12 = 216 square feet.
+
+The cost of the new carpet per square foot is $12, and the padding costs $2 per square foot. So the total cost of the carpet and padding per square foot is $12 + $2 = $14.
+
+The cost of removing the old carpet is $4 per square foot, and the total cost of installing the new carpet is $34 per square foot.
+
+To calculate the total cost for replacing the carpet, we need to add the cost of the new carpet and padding, the cost of removing the old carpet, and the cost of installation.
+
+Total cost = (Cost of carpet + padding per square foot * Total square footage) + (Cost of removing old carpet per square foot * Total square footage) + (Cost of installation per square foot * Total square footage) 
+Total cost = ($14 * 216) + ($4 * 216) + ($34 * 216)
+Total cost = $3024 + $864 + $7344
+Total cost = $11368
+
+Therefore, it will cost Michael $11,368 to replace the carpet in his bedroom.","The room measures 18 * 12 = <<18*12=216>>216 square feet.
+The new carpet costs $12 * 216 = $<<12*216=2592>>2,592.
+The new carpet padding costs $2 * 216 = $<<2*216=432>>432.
+To remove the old carpet, the contractor will charge $4 * 216 = $<<4*216=864>>864.
+To install the new carpet, the contractor will charge $34 * 216 = $<<34*216=7344>>7,344.
+The total cost will be $864 + $2,592 + $432 + $7,344 = $11,232.
+#### 11232"
+CSQA,1a,"Question: What's it called when you change a contract?
+A: signed
+B: revised
+C: folded
+D: written on paper
+E: rejected
+Answer: B
+Question: What is the result of getting drunk?
+A: intoxication
+B: death
+C: erections
+D: hangover
+E: being sick
+Answer: D
+Q: He was receiving workman's compensation, he had tripped over a metal rod while building where?
+A: factory
+B: construction site
+C: engine
+D: insides of skyscraper's walls
+E: shops",Answer: B,B
+CSQA,1a,"Question: The police had been stumped for years, the grieving family hired a private investigator in a hope to what?
+A: notice physical evidence
+B: arrest criminal
+C: gather evidence
+D: discover truth
+E: gathering facts
+Answer: D
+Question: Where would you store your hair gel near where you get clean?
+A: barbers
+B: bathroom
+C: bath
+D: perfumery
+E: beauty salon
+Answer: B
+Q: He was receiving workman's compensation, he had tripped over a metal rod while building where?
+A: factory
+B: construction site
+C: engine
+D: insides of skyscraper's walls
+E: shops",Answer: B,B
+CSQA,2,"Question: What's it called when you change a contract?
+A: signed
+B: revised
+C: folded
+D: written on paper
+E: rejected
+Answer: B
+Question: What is the result of getting drunk?
+A: intoxication
+B: death
+C: erections
+D: hangover
+E: being sick
+Answer: D
+Question: The police had been stumped for years, the grieving family hired a private investigator in a hope to what?
+A: notice physical evidence
+B: arrest criminal
+C: gather evidence
+D: discover truth
+E: gathering facts
+Answer: D
+Question: Where would you store your hair gel near where you get clean?
+A: barbers
+B: bathroom
+C: bath
+D: perfumery
+E: beauty salon
+Answer: B
+Q: He was receiving workman's compensation, he had tripped over a metal rod while building where?
+A: factory
+B: construction site
+C: engine
+D: insides of skyscraper's walls
+E: shops",Answer: B,B
+CSQA,3a,"Question: What's it called when you change a contract?
+A: signed
+B: revised
+C: folded
+D: written on paper
+E: rejected
+Answer: B
+Question: What is the result of getting drunk?
+A: intoxication
+B: death
+C: erections
+D: hangover
+E: being sick
+Answer: D
+Question: What's it called when you change a contract?
+A: signed
+B: revised
+C: folded
+D: written on paper
+E: rejected
+Answer: B
+Question: What is the result of getting drunk?
+A: intoxication
+B: death
+C: erections
+D: hangover
+E: being sick
+Answer: D
+Q: He was receiving workman's compensation, he had tripped over a metal rod while building where?
+A: factory
+B: construction site
+C: engine
+D: insides of skyscraper's walls
+E: shops",Answer: B,B
+CSQA,3b,"Question: The police had been stumped for years, the grieving family hired a private investigator in a hope to what?
+A: notice physical evidence
+B: arrest criminal
+C: gather evidence
+D: discover truth
+E: gathering facts
+Answer: D
+Question: Where would you store your hair gel near where you get clean?
+A: barbers
+B: bathroom
+C: bath
+D: perfumery
+E: beauty salon
+Answer: B
+Question: The police had been stumped for years, the grieving family hired a private investigator in a hope to what?
+A: notice physical evidence
+B: arrest criminal
+C: gather evidence
+D: discover truth
+E: gathering facts
+Answer: D
+Question: Where would you store your hair gel near where you get clean?
+A: barbers
+B: bathroom
+C: bath
+D: perfumery
+E: beauty salon
+Answer: B
+Q: He was receiving workman's compensation, he had tripped over a metal rod while building where?
+A: factory
+B: construction site
+C: engine
+D: insides of skyscraper's walls
+E: shops",Answer: B,B
+StrategyQA,1a,"Question: Lorenzo de Medici was a great patron of the arts in Florence and served as a patron for Leonardo Da Vinci. Lorenzo de Medici was also a patron of the artist Sandro Boticelli. Leonardo Da Vinci had many patrons including Ludovico Sforza and Cesare Borgia.
+Was Lorenzo de Medici's patronage of Da Vinci exclusive?
+Answer: False
+Question: The Kingdom of Hungary ended in 1946.  The Walkman was invented in 1979.
+Were Walkman's used in the Kingdom of Hungary?
+Answer: False
+Q: Vietnam was ranked as one of the countries with the shortest people on average, in 2019. The average height of a Vietnamese man is 5 feet 4.74 inches. The average height of an NBA player in 2018 was 6 foot 7 inches tall.
+Are the Vietnamese people a great untapped resource for NBA players?",A: False,False
+StrategyQA,1a,"Question: In Boom!, System of a Down condemns globalization. The lead vocalist of the band System of a Down is outspoken against globalization. 
+Are System of a Down opposed to globalization?
+Answer: True
+Question: The giant panda is a mammal that is black and white in color. Yin yang is an ancient Chinese concept represented by the colors black and white.
+Does giant panda have colors that differ from yin yang?
+Answer: False
+Q: Vietnam was ranked as one of the countries with the shortest people on average, in 2019. The average height of a Vietnamese man is 5 feet 4.74 inches. The average height of an NBA player in 2018 was 6 foot 7 inches tall.
+Are the Vietnamese people a great untapped resource for NBA players?",A: False,False
+StrategyQA,2,"Question: Lorenzo de Medici was a great patron of the arts in Florence and served as a patron for Leonardo Da Vinci. Lorenzo de Medici was also a patron of the artist Sandro Boticelli. Leonardo Da Vinci had many patrons including Ludovico Sforza and Cesare Borgia.
+Was Lorenzo de Medici's patronage of Da Vinci exclusive?
+Answer: False
+Question: The Kingdom of Hungary ended in 1946.  The Walkman was invented in 1979.
+Were Walkman's used in the Kingdom of Hungary?
+Answer: False
+Question: In Boom!, System of a Down condemns globalization. The lead vocalist of the band System of a Down is outspoken against globalization. 
+Are System of a Down opposed to globalization?
+Answer: True
+Question: The giant panda is a mammal that is black and white in color. Yin yang is an ancient Chinese concept represented by the colors black and white.
+Does giant panda have colors that differ from yin yang?
+Answer: False
+Q: Vietnam was ranked as one of the countries with the shortest people on average, in 2019. The average height of a Vietnamese man is 5 feet 4.74 inches. The average height of an NBA player in 2018 was 6 foot 7 inches tall.
+Are the Vietnamese people a great untapped resource for NBA players?",Answer: False,False
+StrategyQA,3a,"Question: Lorenzo de Medici was a great patron of the arts in Florence and served as a patron for Leonardo Da Vinci. Lorenzo de Medici was also a patron of the artist Sandro Boticelli. Leonardo Da Vinci had many patrons including Ludovico Sforza and Cesare Borgia.
+Was Lorenzo de Medici's patronage of Da Vinci exclusive?
+Answer: False
+Question: The Kingdom of Hungary ended in 1946.  The Walkman was invented in 1979.
+Were Walkman's used in the Kingdom of Hungary?
+Answer: False
+Question: Lorenzo de Medici was a great patron of the arts in Florence and served as a patron for Leonardo Da Vinci. Lorenzo de Medici was also a patron of the artist Sandro Boticelli. Leonardo Da Vinci had many patrons including Ludovico Sforza and Cesare Borgia.
+Was Lorenzo de Medici's patronage of Da Vinci exclusive?
+Answer: False
+Question: The Kingdom of Hungary ended in 1946.  The Walkman was invented in 1979.
+Were Walkman's used in the Kingdom of Hungary?
+Answer: False
+Q: Vietnam was ranked as one of the countries with the shortest people on average, in 2019. The average height of a Vietnamese man is 5 feet 4.74 inches. The average height of an NBA player in 2018 was 6 foot 7 inches tall.
+Are the Vietnamese people a great untapped resource for NBA players?","A: False. While there may be talented athletes in Vietnam, height alone does not determine success in basketball. Many other factors such as skills, athleticism, and training play a significant role in becoming an NBA player.",False
+StrategyQA,3b,"Question: In Boom!, System of a Down condemns globalization. The lead vocalist of the band System of a Down is outspoken against globalization. 
+Are System of a Down opposed to globalization?
+Answer: True
+Question: The giant panda is a mammal that is black and white in color. Yin yang is an ancient Chinese concept represented by the colors black and white.
+Does giant panda have colors that differ from yin yang?
+Answer: False
+Question: In Boom!, System of a Down condemns globalization. The lead vocalist of the band System of a Down is outspoken against globalization. 
+Are System of a Down opposed to globalization?
+Answer: True
+Question: The giant panda is a mammal that is black and white in color. Yin yang is an ancient Chinese concept represented by the colors black and white.
+Does giant panda have colors that differ from yin yang?
+Answer: False
+Q: Vietnam was ranked as one of the countries with the shortest people on average, in 2019. The average height of a Vietnamese man is 5 feet 4.74 inches. The average height of an NBA player in 2018 was 6 foot 7 inches tall.
+Are the Vietnamese people a great untapped resource for NBA players?",Answer: False,False
+SayCan,1a,"Question: Can you clear off the close counter table?
+Answer: 1. go to the close counter, 2. pick up the energy bar, 3. go to the trash, 4. put down the energy bar, 5. go to the close counter, 6. pick up the jalapeno chips, 7. go to the trash, 8. put down the jalapeno chips, 9. go to the close counter, 10. pick up the grapefruit soda, 11. go to the trash, 12. put down the grapefruit soda, 13. go to the close counter, 14. done.
+Question: Could you get me something caffeinated?
+Answer: 1. find a pepsi, 2. pick up the pepsi, 3. bring it to you, 4. put down the pepsi, 5. done.
+Q: Bring me three different drinks.","A: 1. Find a water bottle, 2. pick up the water bottle, 3. find an iced coffee, 4. pick up the iced coffee, 5. find a can of soda, 6. pick up the can of soda, 7. bring all three drinks to you, 8. put them down, 9. done.","1. find a coke, 2. pick up the coke, 3. bring it to you, 4. put down the coke, 5. find a lime soda, 6. pick up the lime soda, 7. bring it to you, 8. put down the lime soda, 9. find a redbull, 10. pick up the redbull, 11. bring it to you, 12. put down the redbull, 13. done"
+SayCan,1a,"Question: How would you restock chips in the drawer?
+Answer: 1. find the bag of chips, 2. pick up the bag of chips, 3. go to the drawer, 4. put down the bag of chips, 5. open the drawer, 6. pick up the bag of chips, 7. put down the bag of chips, 8. close the drawer, 9. done
+Question: Go to the table.
+Answer: 1. go to the table, 2. done
+Q: Bring me three different drinks.","A: 1. find three different drinks, 2. pick up the first drink, 3. go to the table, 4. put down the first drink, 5. repeat steps 2-4 for the second and third drinks, 6. done","1. find a coke, 2. pick up the coke, 3. bring it to you, 4. put down the coke, 5. find a lime soda, 6. pick up the lime soda, 7. bring it to you, 8. put down the lime soda, 9. find a redbull, 10. pick up the redbull, 11. bring it to you, 12. put down the redbull, 13. done"
+SayCan,2,"Question: Can you clear off the close counter table?
+Answer: 1. go to the close counter, 2. pick up the energy bar, 3. go to the trash, 4. put down the energy bar, 5. go to the close counter, 6. pick up the jalapeno chips, 7. go to the trash, 8. put down the jalapeno chips, 9. go to the close counter, 10. pick up the grapefruit soda, 11. go to the trash, 12. put down the grapefruit soda, 13. go to the close counter, 14. done.
+Question: Could you get me something caffeinated?
+Answer: 1. find a pepsi, 2. pick up the pepsi, 3. bring it to you, 4. put down the pepsi, 5. done.
+Question: How would you restock chips in the drawer?
+Answer: 1. find the bag of chips, 2. pick up the bag of chips, 3. go to the drawer, 4. put down the bag of chips, 5. open the drawer, 6. pick up the bag of chips, 7. put down the bag of chips, 8. close the drawer, 9. done
+Question: Go to the table.
+Answer: 1. go to the table, 2. done
+Q: Bring me three different drinks.","A: 1. Find three different drinks (e.g. water, soda, juice), 2. Pick up the first drink, 3. Bring it to you, 4. Put down the first drink, 5. Repeat steps 2-4 for the other two drinks, 6. Done.","1. find a coke, 2. pick up the coke, 3. bring it to you, 4. put down the coke, 5. find a lime soda, 6. pick up the lime soda, 7. bring it to you, 8. put down the lime soda, 9. find a redbull, 10. pick up the redbull, 11. bring it to you, 12. put down the redbull, 13. done"
+SayCan,3a,"Question: Can you clear off the close counter table?
+Answer: 1. go to the close counter, 2. pick up the energy bar, 3. go to the trash, 4. put down the energy bar, 5. go to the close counter, 6. pick up the jalapeno chips, 7. go to the trash, 8. put down the jalapeno chips, 9. go to the close counter, 10. pick up the grapefruit soda, 11. go to the trash, 12. put down the grapefruit soda, 13. go to the close counter, 14. done.
+Question: Could you get me something caffeinated?
+Answer: 1. find a pepsi, 2. pick up the pepsi, 3. bring it to you, 4. put down the pepsi, 5. done.
+Question: Can you clear off the close counter table?
+Answer: 1. go to the close counter, 2. pick up the energy bar, 3. go to the trash, 4. put down the energy bar, 5. go to the close counter, 6. pick up the jalapeno chips, 7. go to the trash, 8. put down the jalapeno chips, 9. go to the close counter, 10. pick up the grapefruit soda, 11. go to the trash, 12. put down the grapefruit soda, 13. go to the close counter, 14. done.
+Question: Could you get me something caffeinated?
+Answer: 1. find a pepsi, 2. pick up the pepsi, 3. bring it to you, 4. put down the pepsi, 5. done.
+Q: Bring me three different drinks.","A: 1. Find a water bottle, 2. Pick up the water bottle, 3. Find an orange juice, 4. Pick up the orange juice, 5. Find a coffee can, 6. Pick up the coffee can, 7. Bring all three drinks to you, 8. Put down the drinks, 9. Done.","1. find a coke, 2. pick up the coke, 3. bring it to you, 4. put down the coke, 5. find a lime soda, 6. pick up the lime soda, 7. bring it to you, 8. put down the lime soda, 9. find a redbull, 10. pick up the redbull, 11. bring it to you, 12. put down the redbull, 13. done"
+SayCan,3b,"Question: How would you restock chips in the drawer?
+Answer: 1. find the bag of chips, 2. pick up the bag of chips, 3. go to the drawer, 4. put down the bag of chips, 5. open the drawer, 6. pick up the bag of chips, 7. put down the bag of chips, 8. close the drawer, 9. done
+Question: Go to the table.
+Answer: 1. go to the table, 2. done
+Question: How would you restock chips in the drawer?
+Answer: 1. find the bag of chips, 2. pick up the bag of chips, 3. go to the drawer, 4. put down the bag of chips, 5. open the drawer, 6. pick up the bag of chips, 7. put down the bag of chips, 8. close the drawer, 9. done
+Question: Go to the table.
+Answer: 1. go to the table, 2. done
+Q: Bring me three different drinks.","A: 1. find three different drinks, 2. pick up the first drink, 3. bring the first drink to the table, 4. pick up the second drink, 5. bring the second drink to the table, 6. pick up the third drink, 7. bring the third drink to the table, 8. done","1. find a coke, 2. pick up the coke, 3. bring it to you, 4. put down the coke, 5. find a lime soda, 6. pick up the lime soda, 7. bring it to you, 8. put down the lime soda, 9. find a redbull, 10. pick up the redbull, 11. bring it to you, 12. put down the redbull, 13. done"

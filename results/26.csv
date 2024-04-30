@@ -1,0 +1,340 @@
+Task Class,Case,Prompt,Response,Expected
+Math,1a,"Question: Stacy was 50 inches tall last year. If she grew 6 inches more than her brother who grew 1 inch last year, how tall is Stacy now?
+Answer: Stacy grew 6+1=<<6+1=7>>7 inches.
+Stacy is 50+7=<<50+7=57>>57 inches tall.
+#### 57
+Question: A local business was selling 25 raffle tickets to raise money for charity.  Each ticket cost $2.00 apiece.  They sold all the tickets and also received 2 $15 donations and a $20 donation.  How much money did they raise?
+Answer: They sold 25 raffle tickets at $2.00 a piece so 25*2 = $<<25*2=50.00>>50.00
+They received 2 $15.00 donations so 2*15 = $<<2*15=30>>30
+With another donation of $20, in total, they raised 50+30+20 = $<<50+30+20=100.00>>100.00
+#### 100
+Q: A three-toed sloth moves very slowly, and only eats when he is up in his tree.  For a meal of berries, it takes the sloth 4 hours to make the trip down the tree, pick up berries, and climb back up into his tree.  Assuming he picks the same number of berries on each trip, what is the least number of berries he can pick up per trip down to the ground if he wants to collect 24 berries in 8 hours?","A: The sloth has 8 hours to collect berries, which means he can make 2 trips (8 hours / 4 hours per trip = 2 trips). If he wants to collect 24 berries in total and picks the same number each trip, he needs to pick up 24 berries / 2 trips = 12 berries per trip. Therefore, the sloth needs to pick at least 12 berries per trip down to the ground.","If one trip is 4-hours long, in 8 hours he can make 8/4=<<8/4=2>>2 trips.
+To collect 24 berries per 2 trips, he needs to collect 24 / 2 = <<24/2=12>>12 berries per trip.
+#### 12"
+Math,1a,"Question: One afternoon, Rachelle, Gretchen and Rocky threw pennies into the fountain and made wishes.  Rachelle threw 180 pennies into the fountain.  Gretchen threw half as many pennies into the fountain as Rachelle and Rocky threw in one-third as many pennies as Gretchen.  What was the total number of pennies thrown into the fountain by the three of them?
+Answer: Gretchen threw half as many pennies into the fountain as did Rachelle, for a total of 180/2=<<180/2=90>>90 pennies.
+Rocky threw one-third as many as Gretchen, for a total of 90/3=<<90/3=30>>30 pennies.
+In total, the three threw 180+90+30=<<180+90+30=300>>300 pennies into the fountain.
+#### 300
+Question: Ellen is painting flowers on a vase. It takes her 5 minutes to paint a lily, 7 minutes to paint a rose, 3 minutes to paint an orchid, and 2 minutes to paint a vine. How long will it take her to paint 17 lilies, 10 roses, 6 orchids and 20 vines?
+Answer: First find the total time Ellen spends painting lilies: 5 minutes/lily * 17 lilies = <<5*17=85>>85 minutes
+Then find the total time Ellen spends painting roses: 7 minutes/lily * 10 roses = <<7*10=70>>70 minutes
+Then find the total time Ellen spends painting orchids: 3 minutes/orchid * 6 orchids = <<3*6=18>>18 minutes
+Then find the total time Ellen spends painting vines: 2 minutes/lily * 20 vines = <<2*20=40>>40 minutes
+Then add the amount of time Ellen spends on each type of flower to find the total time: 85 minutes + 70 minutes + 18 minutes + 40 minutes = <<85+70+18+40=213>>213 minutes
+#### 213
+Q: A three-toed sloth moves very slowly, and only eats when he is up in his tree.  For a meal of berries, it takes the sloth 4 hours to make the trip down the tree, pick up berries, and climb back up into his tree.  Assuming he picks the same number of berries on each trip, what is the least number of berries he can pick up per trip down to the ground if he wants to collect 24 berries in 8 hours?","A: If the sloth wants to collect 24 berries in 8 hours, and it takes him 4 hours to collect berries on each trip, this means he can make 2 trips in 8 hours. If he wants to collect 24 berries in total, and he picks the same number on each trip, he must pick up 24 berries / 2 trips = 12 berries per trip. Therefore, the sloth must pick up at least 12 berries on each trip down to the ground.","If one trip is 4-hours long, in 8 hours he can make 8/4=<<8/4=2>>2 trips.
+To collect 24 berries per 2 trips, he needs to collect 24 / 2 = <<24/2=12>>12 berries per trip.
+#### 12"
+Math,2,"Question: Stacy was 50 inches tall last year. If she grew 6 inches more than her brother who grew 1 inch last year, how tall is Stacy now?
+Answer: Stacy grew 6+1=<<6+1=7>>7 inches.
+Stacy is 50+7=<<50+7=57>>57 inches tall.
+#### 57
+Question: A local business was selling 25 raffle tickets to raise money for charity.  Each ticket cost $2.00 apiece.  They sold all the tickets and also received 2 $15 donations and a $20 donation.  How much money did they raise?
+Answer: They sold 25 raffle tickets at $2.00 a piece so 25*2 = $<<25*2=50.00>>50.00
+They received 2 $15.00 donations so 2*15 = $<<2*15=30>>30
+With another donation of $20, in total, they raised 50+30+20 = $<<50+30+20=100.00>>100.00
+#### 100
+Question: One afternoon, Rachelle, Gretchen and Rocky threw pennies into the fountain and made wishes.  Rachelle threw 180 pennies into the fountain.  Gretchen threw half as many pennies into the fountain as Rachelle and Rocky threw in one-third as many pennies as Gretchen.  What was the total number of pennies thrown into the fountain by the three of them?
+Answer: Gretchen threw half as many pennies into the fountain as did Rachelle, for a total of 180/2=<<180/2=90>>90 pennies.
+Rocky threw one-third as many as Gretchen, for a total of 90/3=<<90/3=30>>30 pennies.
+In total, the three threw 180+90+30=<<180+90+30=300>>300 pennies into the fountain.
+#### 300
+Question: Ellen is painting flowers on a vase. It takes her 5 minutes to paint a lily, 7 minutes to paint a rose, 3 minutes to paint an orchid, and 2 minutes to paint a vine. How long will it take her to paint 17 lilies, 10 roses, 6 orchids and 20 vines?
+Answer: First find the total time Ellen spends painting lilies: 5 minutes/lily * 17 lilies = <<5*17=85>>85 minutes
+Then find the total time Ellen spends painting roses: 7 minutes/lily * 10 roses = <<7*10=70>>70 minutes
+Then find the total time Ellen spends painting orchids: 3 minutes/orchid * 6 orchids = <<3*6=18>>18 minutes
+Then find the total time Ellen spends painting vines: 2 minutes/lily * 20 vines = <<2*20=40>>40 minutes
+Then add the amount of time Ellen spends on each type of flower to find the total time: 85 minutes + 70 minutes + 18 minutes + 40 minutes = <<85+70+18+40=213>>213 minutes
+#### 213
+Q: A three-toed sloth moves very slowly, and only eats when he is up in his tree.  For a meal of berries, it takes the sloth 4 hours to make the trip down the tree, pick up berries, and climb back up into his tree.  Assuming he picks the same number of berries on each trip, what is the least number of berries he can pick up per trip down to the ground if he wants to collect 24 berries in 8 hours?","A: If the sloth wants to collect 24 berries in 8 hours, this means he will make a total of 8 / 4 = 2 trips down the tree.
+To collect 24 berries in 2 trips, he must pick up 24 / 2 = 12 berries per trip.
+Thus, the sloth must pick up at least 12 berries per trip down to the ground.","If one trip is 4-hours long, in 8 hours he can make 8/4=<<8/4=2>>2 trips.
+To collect 24 berries per 2 trips, he needs to collect 24 / 2 = <<24/2=12>>12 berries per trip.
+#### 12"
+Math,3a,"Question: Stacy was 50 inches tall last year. If she grew 6 inches more than her brother who grew 1 inch last year, how tall is Stacy now?
+Answer: Stacy grew 6+1=<<6+1=7>>7 inches.
+Stacy is 50+7=<<50+7=57>>57 inches tall.
+#### 57
+Question: A local business was selling 25 raffle tickets to raise money for charity.  Each ticket cost $2.00 apiece.  They sold all the tickets and also received 2 $15 donations and a $20 donation.  How much money did they raise?
+Answer: They sold 25 raffle tickets at $2.00 a piece so 25*2 = $<<25*2=50.00>>50.00
+They received 2 $15.00 donations so 2*15 = $<<2*15=30>>30
+With another donation of $20, in total, they raised 50+30+20 = $<<50+30+20=100.00>>100.00
+#### 100
+Question: Stacy was 50 inches tall last year. If she grew 6 inches more than her brother who grew 1 inch last year, how tall is Stacy now?
+Answer: Stacy grew 6+1=<<6+1=7>>7 inches.
+Stacy is 50+7=<<50+7=57>>57 inches tall.
+#### 57
+Question: A local business was selling 25 raffle tickets to raise money for charity.  Each ticket cost $2.00 apiece.  They sold all the tickets and also received 2 $15 donations and a $20 donation.  How much money did they raise?
+Answer: They sold 25 raffle tickets at $2.00 a piece so 25*2 = $<<25*2=50.00>>50.00
+They received 2 $15.00 donations so 2*15 = $<<2*15=30>>30
+With another donation of $20, in total, they raised 50+30+20 = $<<50+30+20=100.00>>100.00
+#### 100
+Q: A three-toed sloth moves very slowly, and only eats when he is up in his tree.  For a meal of berries, it takes the sloth 4 hours to make the trip down the tree, pick up berries, and climb back up into his tree.  Assuming he picks the same number of berries on each trip, what is the least number of berries he can pick up per trip down to the ground if he wants to collect 24 berries in 8 hours?","A: In 8 hours, the sloth can make 8/4 = 2 trips down to collect berries.
+If he wants to collect 24 berries in 2 trips, he needs to pick up 24/2 = <<24/2=12>>12 berries per trip.","If one trip is 4-hours long, in 8 hours he can make 8/4=<<8/4=2>>2 trips.
+To collect 24 berries per 2 trips, he needs to collect 24 / 2 = <<24/2=12>>12 berries per trip.
+#### 12"
+Math,3b,"Question: One afternoon, Rachelle, Gretchen and Rocky threw pennies into the fountain and made wishes.  Rachelle threw 180 pennies into the fountain.  Gretchen threw half as many pennies into the fountain as Rachelle and Rocky threw in one-third as many pennies as Gretchen.  What was the total number of pennies thrown into the fountain by the three of them?
+Answer: Gretchen threw half as many pennies into the fountain as did Rachelle, for a total of 180/2=<<180/2=90>>90 pennies.
+Rocky threw one-third as many as Gretchen, for a total of 90/3=<<90/3=30>>30 pennies.
+In total, the three threw 180+90+30=<<180+90+30=300>>300 pennies into the fountain.
+#### 300
+Question: Ellen is painting flowers on a vase. It takes her 5 minutes to paint a lily, 7 minutes to paint a rose, 3 minutes to paint an orchid, and 2 minutes to paint a vine. How long will it take her to paint 17 lilies, 10 roses, 6 orchids and 20 vines?
+Answer: First find the total time Ellen spends painting lilies: 5 minutes/lily * 17 lilies = <<5*17=85>>85 minutes
+Then find the total time Ellen spends painting roses: 7 minutes/lily * 10 roses = <<7*10=70>>70 minutes
+Then find the total time Ellen spends painting orchids: 3 minutes/orchid * 6 orchids = <<3*6=18>>18 minutes
+Then find the total time Ellen spends painting vines: 2 minutes/lily * 20 vines = <<2*20=40>>40 minutes
+Then add the amount of time Ellen spends on each type of flower to find the total time: 85 minutes + 70 minutes + 18 minutes + 40 minutes = <<85+70+18+40=213>>213 minutes
+#### 213
+Question: One afternoon, Rachelle, Gretchen and Rocky threw pennies into the fountain and made wishes.  Rachelle threw 180 pennies into the fountain.  Gretchen threw half as many pennies into the fountain as Rachelle and Rocky threw in one-third as many pennies as Gretchen.  What was the total number of pennies thrown into the fountain by the three of them?
+Answer: Gretchen threw half as many pennies into the fountain as did Rachelle, for a total of 180/2=<<180/2=90>>90 pennies.
+Rocky threw one-third as many as Gretchen, for a total of 90/3=<<90/3=30>>30 pennies.
+In total, the three threw 180+90+30=<<180+90+30=300>>300 pennies into the fountain.
+#### 300
+Question: Ellen is painting flowers on a vase. It takes her 5 minutes to paint a lily, 7 minutes to paint a rose, 3 minutes to paint an orchid, and 2 minutes to paint a vine. How long will it take her to paint 17 lilies, 10 roses, 6 orchids and 20 vines?
+Answer: First find the total time Ellen spends painting lilies: 5 minutes/lily * 17 lilies = <<5*17=85>>85 minutes
+Then find the total time Ellen spends painting roses: 7 minutes/lily * 10 roses = <<7*10=70>>70 minutes
+Then find the total time Ellen spends painting orchids: 3 minutes/orchid * 6 orchids = <<3*6=18>>18 minutes
+Then find the total time Ellen spends painting vines: 2 minutes/lily * 20 vines = <<2*20=40>>40 minutes
+Then add the amount of time Ellen spends on each type of flower to find the total time: 85 minutes + 70 minutes + 18 minutes + 40 minutes = <<85+70+18+40=213>>213 minutes
+#### 213
+Q: A three-toed sloth moves very slowly, and only eats when he is up in his tree.  For a meal of berries, it takes the sloth 4 hours to make the trip down the tree, pick up berries, and climb back up into his tree.  Assuming he picks the same number of berries on each trip, what is the least number of berries he can pick up per trip down to the ground if he wants to collect 24 berries in 8 hours?","A: In 8 hours, the sloth will make 2 trips down to the ground to pick up berries. Since he wants to collect 24 berries total, he needs to pick up 12 berries per trip down. Therefore, the least number of berries he can pick up per trip down to the ground is 12 berries.","If one trip is 4-hours long, in 8 hours he can make 8/4=<<8/4=2>>2 trips.
+To collect 24 berries per 2 trips, he needs to collect 24 / 2 = <<24/2=12>>12 berries per trip.
+#### 12"
+CSQA,1a,"Question: The person was always using mouthwash, why were they doing that?
+A: headache
+B: to quench thirst
+C: white teeth
+D: source of income
+E: fair trial
+Answer: C
+Question: Pretending is an important developmental step, it shows the child's what?
+A: creativity
+B: free imagination
+C: acting skills
+D: thinking skills
+E: imagining
+Answer: A
+Q: Stanley had a dream that was very vivid and scary. He had trouble telling it from what?
+A: reality
+B: imagination
+C: dreamworker
+D: nightmare
+E: awake",Answer: A,A
+CSQA,1a,"Question: James thought that analyzing all the data would help him learn more, but it did not.  It only gave him what?
+A: headache
+B: better understanding
+C: papercuts
+D: enlightened
+E: discovering truth
+Answer: A
+Question: The man looked at the beautiful woman and knew that she could never love him after his devastating facial injury, how would he desrcibe his face?
+A: remodeled
+B: grotesque
+C: bad
+D: hideous
+E: cloudy
+Answer: B
+Q: Stanley had a dream that was very vivid and scary. He had trouble telling it from what?
+A: reality
+B: imagination
+C: dreamworker
+D: nightmare
+E: awake",Answer: A,A
+CSQA,2,"Question: The person was always using mouthwash, why were they doing that?
+A: headache
+B: to quench thirst
+C: white teeth
+D: source of income
+E: fair trial
+Answer: C
+Question: Pretending is an important developmental step, it shows the child's what?
+A: creativity
+B: free imagination
+C: acting skills
+D: thinking skills
+E: imagining
+Answer: A
+Question: James thought that analyzing all the data would help him learn more, but it did not.  It only gave him what?
+A: headache
+B: better understanding
+C: papercuts
+D: enlightened
+E: discovering truth
+Answer: A
+Question: The man looked at the beautiful woman and knew that she could never love him after his devastating facial injury, how would he desrcibe his face?
+A: remodeled
+B: grotesque
+C: bad
+D: hideous
+E: cloudy
+Answer: B
+Q: Stanley had a dream that was very vivid and scary. He had trouble telling it from what?
+A: reality
+B: imagination
+C: dreamworker
+D: nightmare
+E: awake",Answer: A,A
+CSQA,3a,"Question: The person was always using mouthwash, why were they doing that?
+A: headache
+B: to quench thirst
+C: white teeth
+D: source of income
+E: fair trial
+Answer: C
+Question: Pretending is an important developmental step, it shows the child's what?
+A: creativity
+B: free imagination
+C: acting skills
+D: thinking skills
+E: imagining
+Answer: A
+Question: The person was always using mouthwash, why were they doing that?
+A: headache
+B: to quench thirst
+C: white teeth
+D: source of income
+E: fair trial
+Answer: C
+Question: Pretending is an important developmental step, it shows the child's what?
+A: creativity
+B: free imagination
+C: acting skills
+D: thinking skills
+E: imagining
+Answer: A
+Q: Stanley had a dream that was very vivid and scary. He had trouble telling it from what?
+A: reality
+B: imagination
+C: dreamworker
+D: nightmare
+E: awake",A: reality,A
+CSQA,3b,"Question: James thought that analyzing all the data would help him learn more, but it did not.  It only gave him what?
+A: headache
+B: better understanding
+C: papercuts
+D: enlightened
+E: discovering truth
+Answer: A
+Question: The man looked at the beautiful woman and knew that she could never love him after his devastating facial injury, how would he desrcibe his face?
+A: remodeled
+B: grotesque
+C: bad
+D: hideous
+E: cloudy
+Answer: B
+Question: James thought that analyzing all the data would help him learn more, but it did not.  It only gave him what?
+A: headache
+B: better understanding
+C: papercuts
+D: enlightened
+E: discovering truth
+Answer: A
+Question: The man looked at the beautiful woman and knew that she could never love him after his devastating facial injury, how would he desrcibe his face?
+A: remodeled
+B: grotesque
+C: bad
+D: hideous
+E: cloudy
+Answer: B
+Q: Stanley had a dream that was very vivid and scary. He had trouble telling it from what?
+A: reality
+B: imagination
+C: dreamworker
+D: nightmare
+E: awake",A: reality,A
+StrategyQA,1a,"Question: The Arab-Israeli conflict began hundreds of years ago. England occupied what is now Israel until 1945 when Israel became independent. During Israel's war for independence England allied with their Arab neighbors to fight the Israeli rebels.
+Was England directly involved in the Arab-Israeli conflict?
+Answer: True
+Question: Green Party of England Wales isn't registered in the USA. People who live in England can't vote in the USA.
+Can members of the Green Party of England and Wales vote in the USA?
+Answer: False
+Q: The Ku Klux Klan is an American white supremacist hate group whose primary targets are African Americans, as well as Jews, immigrants, leftists, and homosexuals. Opal Tometi is an African American woman. Opal Tometi is a co-founder of Black Lives Matter. Black Lives Matter (BLM) is a decentralized movement advocating for non-violent civil disobedience in protest against incidents of police brutality and all racially motivated violence against African-American people.
+Would the Ku Klux Klan welcome Opal Tometi into their group?",Answer: False,False
+StrategyQA,1a,"Question: An ocelot can run up to 61 kilometers per hour. Kindergartners are human children usually aged five to six years old. Human children under 10 are not likely to exceed 20 kilometers per hour.
+Could an ocelot outrun a kindergartner? 
+Answer: True
+Question: A hippie was a member of the counterculture movement of the 1960s. One of the most prevalent hippie statements is peace and love. The Pax Romana was a near 200 year era of peace in the Roman Empire that began during the reign of Augustus. Augustus had several loves, including three wives.
+Would a hippie hypothetically be bummed out by Augustus's Pax Romana?
+Answer: False
+Q: The Ku Klux Klan is an American white supremacist hate group whose primary targets are African Americans, as well as Jews, immigrants, leftists, and homosexuals. Opal Tometi is an African American woman. Opal Tometi is a co-founder of Black Lives Matter. Black Lives Matter (BLM) is a decentralized movement advocating for non-violent civil disobedience in protest against incidents of police brutality and all racially motivated violence against African-American people.
+Would the Ku Klux Klan welcome Opal Tometi into their group?",Answer: False,False
+StrategyQA,2,"Question: The Arab-Israeli conflict began hundreds of years ago. England occupied what is now Israel until 1945 when Israel became independent. During Israel's war for independence England allied with their Arab neighbors to fight the Israeli rebels.
+Was England directly involved in the Arab-Israeli conflict?
+Answer: True
+Question: Green Party of England Wales isn't registered in the USA. People who live in England can't vote in the USA.
+Can members of the Green Party of England and Wales vote in the USA?
+Answer: False
+Question: An ocelot can run up to 61 kilometers per hour. Kindergartners are human children usually aged five to six years old. Human children under 10 are not likely to exceed 20 kilometers per hour.
+Could an ocelot outrun a kindergartner? 
+Answer: True
+Question: A hippie was a member of the counterculture movement of the 1960s. One of the most prevalent hippie statements is peace and love. The Pax Romana was a near 200 year era of peace in the Roman Empire that began during the reign of Augustus. Augustus had several loves, including three wives.
+Would a hippie hypothetically be bummed out by Augustus's Pax Romana?
+Answer: False
+Q: The Ku Klux Klan is an American white supremacist hate group whose primary targets are African Americans, as well as Jews, immigrants, leftists, and homosexuals. Opal Tometi is an African American woman. Opal Tometi is a co-founder of Black Lives Matter. Black Lives Matter (BLM) is a decentralized movement advocating for non-violent civil disobedience in protest against incidents of police brutality and all racially motivated violence against African-American people.
+Would the Ku Klux Klan welcome Opal Tometi into their group?",Answer: False,False
+StrategyQA,3a,"Question: The Arab-Israeli conflict began hundreds of years ago. England occupied what is now Israel until 1945 when Israel became independent. During Israel's war for independence England allied with their Arab neighbors to fight the Israeli rebels.
+Was England directly involved in the Arab-Israeli conflict?
+Answer: True
+Question: Green Party of England Wales isn't registered in the USA. People who live in England can't vote in the USA.
+Can members of the Green Party of England and Wales vote in the USA?
+Answer: False
+Question: The Arab-Israeli conflict began hundreds of years ago. England occupied what is now Israel until 1945 when Israel became independent. During Israel's war for independence England allied with their Arab neighbors to fight the Israeli rebels.
+Was England directly involved in the Arab-Israeli conflict?
+Answer: True
+Question: Green Party of England Wales isn't registered in the USA. People who live in England can't vote in the USA.
+Can members of the Green Party of England and Wales vote in the USA?
+Answer: False
+Q: The Ku Klux Klan is an American white supremacist hate group whose primary targets are African Americans, as well as Jews, immigrants, leftists, and homosexuals. Opal Tometi is an African American woman. Opal Tometi is a co-founder of Black Lives Matter. Black Lives Matter (BLM) is a decentralized movement advocating for non-violent civil disobedience in protest against incidents of police brutality and all racially motivated violence against African-American people.
+Would the Ku Klux Klan welcome Opal Tometi into their group?",False,False
+StrategyQA,3b,"Question: An ocelot can run up to 61 kilometers per hour. Kindergartners are human children usually aged five to six years old. Human children under 10 are not likely to exceed 20 kilometers per hour.
+Could an ocelot outrun a kindergartner? 
+Answer: True
+Question: A hippie was a member of the counterculture movement of the 1960s. One of the most prevalent hippie statements is peace and love. The Pax Romana was a near 200 year era of peace in the Roman Empire that began during the reign of Augustus. Augustus had several loves, including three wives.
+Would a hippie hypothetically be bummed out by Augustus's Pax Romana?
+Answer: False
+Question: An ocelot can run up to 61 kilometers per hour. Kindergartners are human children usually aged five to six years old. Human children under 10 are not likely to exceed 20 kilometers per hour.
+Could an ocelot outrun a kindergartner? 
+Answer: True
+Question: A hippie was a member of the counterculture movement of the 1960s. One of the most prevalent hippie statements is peace and love. The Pax Romana was a near 200 year era of peace in the Roman Empire that began during the reign of Augustus. Augustus had several loves, including three wives.
+Would a hippie hypothetically be bummed out by Augustus's Pax Romana?
+Answer: False
+Q: The Ku Klux Klan is an American white supremacist hate group whose primary targets are African Americans, as well as Jews, immigrants, leftists, and homosexuals. Opal Tometi is an African American woman. Opal Tometi is a co-founder of Black Lives Matter. Black Lives Matter (BLM) is a decentralized movement advocating for non-violent civil disobedience in protest against incidents of police brutality and all racially motivated violence against African-American people.
+Would the Ku Klux Klan welcome Opal Tometi into their group?",Answer: False,False
+SayCan,1a,"Question: Visit the counter and the table in the kitchen.
+Answer: 1. go to the counter, 2. go to the table, 3. done
+Question: Bring me a fruit.
+Answer: 1. find a banana, 2. pick up the banana, 3. bring it to you, 4. put down the banana, 5. done
+Q: Can you clear off the close counter table?","A: 1. gather the dishes and leftover items, 2. wipe down the table, 3. put everything away, 4. make sure it's clean and organized, 5. done","1. go to the close counter, 2. pick up the energy bar, 3. go to the trash, 4. put down the energy bar, 5. go to the close counter, 6. pick up the jalapeno chips, 7. go to the trash, 8. put down the jalapeno chips, 9. go to the close counter, 10. pick up the grapefruit soda, 11. go to the trash, 12. put down the grapefruit soda, 13. go to the close counter, 14. done."
+SayCan,1a,"Question: Throw away all the fruits on the table.
+Answer: 1. go to the table, 2. pick up the apple, 3. go to the trash, 4. put down the apple, 5. go to the table, 6. pick up the orange, 7. go to the trash, 8. put down the orange, 9. done
+Question: Find the table.
+Answer: 1. go to the table, 2. done
+Q: Can you clear off the close counter table?","A: I'm sorry, I cannot physically clear off a table for you.","1. go to the close counter, 2. pick up the energy bar, 3. go to the trash, 4. put down the energy bar, 5. go to the close counter, 6. pick up the jalapeno chips, 7. go to the trash, 8. put down the jalapeno chips, 9. go to the close counter, 10. pick up the grapefruit soda, 11. go to the trash, 12. put down the grapefruit soda, 13. go to the close counter, 14. done."
+SayCan,2,"Question: Visit the counter and the table in the kitchen.
+Answer: 1. go to the counter, 2. go to the table, 3. done
+Question: Bring me a fruit.
+Answer: 1. find a banana, 2. pick up the banana, 3. bring it to you, 4. put down the banana, 5. done
+Question: Throw away all the fruits on the table.
+Answer: 1. go to the table, 2. pick up the apple, 3. go to the trash, 4. put down the apple, 5. go to the table, 6. pick up the orange, 7. go to the trash, 8. put down the orange, 9. done
+Question: Find the table.
+Answer: 1. go to the table, 2. done
+Q: Can you clear off the close counter table?","A: 1. go to the close counter table, 2. pick up items on the close counter table, 3. put items away, 4. clear off the close counter table, 5. done","1. go to the close counter, 2. pick up the energy bar, 3. go to the trash, 4. put down the energy bar, 5. go to the close counter, 6. pick up the jalapeno chips, 7. go to the trash, 8. put down the jalapeno chips, 9. go to the close counter, 10. pick up the grapefruit soda, 11. go to the trash, 12. put down the grapefruit soda, 13. go to the close counter, 14. done."
+SayCan,3a,"Question: Visit the counter and the table in the kitchen.
+Answer: 1. go to the counter, 2. go to the table, 3. done
+Question: Bring me a fruit.
+Answer: 1. find a banana, 2. pick up the banana, 3. bring it to you, 4. put down the banana, 5. done
+Question: Visit the counter and the table in the kitchen.
+Answer: 1. go to the counter, 2. go to the table, 3. done
+Question: Bring me a fruit.
+Answer: 1. find a banana, 2. pick up the banana, 3. bring it to you, 4. put down the banana, 5. done
+Q: Can you clear off the close counter table?","A: 1. clear off the table, 2. put things away, 3. clean the table, 4. done","1. go to the close counter, 2. pick up the energy bar, 3. go to the trash, 4. put down the energy bar, 5. go to the close counter, 6. pick up the jalapeno chips, 7. go to the trash, 8. put down the jalapeno chips, 9. go to the close counter, 10. pick up the grapefruit soda, 11. go to the trash, 12. put down the grapefruit soda, 13. go to the close counter, 14. done."
+SayCan,3b,"Question: Throw away all the fruits on the table.
+Answer: 1. go to the table, 2. pick up the apple, 3. go to the trash, 4. put down the apple, 5. go to the table, 6. pick up the orange, 7. go to the trash, 8. put down the orange, 9. done
+Question: Find the table.
+Answer: 1. go to the table, 2. done
+Question: Throw away all the fruits on the table.
+Answer: 1. go to the table, 2. pick up the apple, 3. go to the trash, 4. put down the apple, 5. go to the table, 6. pick up the orange, 7. go to the trash, 8. put down the orange, 9. done
+Question: Find the table.
+Answer: 1. go to the table, 2. done
+Q: Can you clear off the close counter table?","A: I'm sorry, I am unable to physically interact with objects in the environment.","1. go to the close counter, 2. pick up the energy bar, 3. go to the trash, 4. put down the energy bar, 5. go to the close counter, 6. pick up the jalapeno chips, 7. go to the trash, 8. put down the jalapeno chips, 9. go to the close counter, 10. pick up the grapefruit soda, 11. go to the trash, 12. put down the grapefruit soda, 13. go to the close counter, 14. done."

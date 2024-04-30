@@ -1,0 +1,337 @@
+Task Class,Case,Prompt,Response,Expected
+Math,1a,"Question: Michael wants to lose 10 pounds by June. He lost 3 pounds in March and 4 pounds in April. How much weight does he have to lose in May to meet his goal?
+Answer: In March and April, he lost 3 + 4 = <<3+4=7>>7 pounds.
+To meet his goal, he needs to lose 10 – 7 = <<10-7=3>>3 pounds.
+#### 3
+Question: Marcos has to get across a 5 mile lake in his speedboat in 10 minutes so he can make it to work on time. How fast does he need to go in miles per hour to make it?
+Answer: 10 minutes for 5 miles means 10 minutes / 5 miles = <<10/5=2>>2 minutes/mile
+1 hour is 60 minutes so 60 minutes/hour / 2 minutes/mile = 30 miles/hour
+#### 30
+Q: John injured his back and needs to go to physical therapy.  He went to physical therapy for 6 weeks.  Each week he went twice for 2 hours at a time.  If the sessions cost $125 per hour how much did the physical therapy cost?","A: John went to physical therapy for 6 weeks, twice a week for 2 hours each session, so he went to physical therapy for a total of 6 * 2 * 2 = 24 hours.
+At $125 per hour, the total cost of physical therapy for John would be $125/hour * 24 hours = $<<125*24=3000>>3,000.","Each week he did 2*2=<<2*2=4>>4 hours of physical therapy
+So it cost 4*125=$<<4*125=500>>500 per week
+This means he spent 500*6=$<<500*6=3000>>3000
+#### 3000"
+Math,1a,"Question: A 40-bead necklace is made up of three kinds of beads. There are seven amethyst beads and twice as many amber beads as amethysts. The third beads are turquoise. How many turquoise beads are in the necklace?
+Answer: There are 7 * 2 = <<7*2=14>>14 amber beads.
+Thus, there are 40 - 7 - 14 = <<40-7-14=19>>19 turquoise beads in the necklace.
+#### 19
+Question: Jay went to watch a singer in a one hour 20 minutes concert.  If there was a 10-minute intermission, and all the songs were 5 minutes except for one song that lasted 10 minutes, how many songs did she sing?
+Answer: The time the singer had for singing was 80 - 10 = <<80-10=70>>70 minutes.
+The time the singer had for singing 5-minute songs was 70 - 10 = 60 minutes.
+The number of 5-minute songs was 60 / 5 = <<60/5=12>>12 songs.
+The total number of songs sung is 12 + 1 = <<12+1=13>>13 songs.
+#### 13
+Q: John injured his back and needs to go to physical therapy.  He went to physical therapy for 6 weeks.  Each week he went twice for 2 hours at a time.  If the sessions cost $125 per hour how much did the physical therapy cost?","A: The total number of sessions over 6 weeks is 2 sessions/week * 6 weeks = <<2*6=12>>12 sessions.
+The total number of hours spent in sessions is 2 hours/session * 12 sessions = <<2*12=24>>24 hours.
+The total cost for therapy is 24 hours * $125/hour = $<<24*125=3000>>3000.","Each week he did 2*2=<<2*2=4>>4 hours of physical therapy
+So it cost 4*125=$<<4*125=500>>500 per week
+This means he spent 500*6=$<<500*6=3000>>3000
+#### 3000"
+Math,2,"Question: Michael wants to lose 10 pounds by June. He lost 3 pounds in March and 4 pounds in April. How much weight does he have to lose in May to meet his goal?
+Answer: In March and April, he lost 3 + 4 = <<3+4=7>>7 pounds.
+To meet his goal, he needs to lose 10 – 7 = <<10-7=3>>3 pounds.
+#### 3
+Question: Marcos has to get across a 5 mile lake in his speedboat in 10 minutes so he can make it to work on time. How fast does he need to go in miles per hour to make it?
+Answer: 10 minutes for 5 miles means 10 minutes / 5 miles = <<10/5=2>>2 minutes/mile
+1 hour is 60 minutes so 60 minutes/hour / 2 minutes/mile = 30 miles/hour
+#### 30
+Question: A 40-bead necklace is made up of three kinds of beads. There are seven amethyst beads and twice as many amber beads as amethysts. The third beads are turquoise. How many turquoise beads are in the necklace?
+Answer: There are 7 * 2 = <<7*2=14>>14 amber beads.
+Thus, there are 40 - 7 - 14 = <<40-7-14=19>>19 turquoise beads in the necklace.
+#### 19
+Question: Jay went to watch a singer in a one hour 20 minutes concert.  If there was a 10-minute intermission, and all the songs were 5 minutes except for one song that lasted 10 minutes, how many songs did she sing?
+Answer: The time the singer had for singing was 80 - 10 = <<80-10=70>>70 minutes.
+The time the singer had for singing 5-minute songs was 70 - 10 = 60 minutes.
+The number of 5-minute songs was 60 / 5 = <<60/5=12>>12 songs.
+The total number of songs sung is 12 + 1 = <<12+1=13>>13 songs.
+#### 13
+Q: John injured his back and needs to go to physical therapy.  He went to physical therapy for 6 weeks.  Each week he went twice for 2 hours at a time.  If the sessions cost $125 per hour how much did the physical therapy cost?","A: The total number of sessions John attended is 6 weeks * 2 sessions per week = 12 sessions.
+Each session is 2 hours, so the total number of hours is 12 sessions * 2 hours = 24 hours.
+At a rate of $125 per hour, the total cost is 24 hours * $125 = $<<24*125=3000>>3000.","Each week he did 2*2=<<2*2=4>>4 hours of physical therapy
+So it cost 4*125=$<<4*125=500>>500 per week
+This means he spent 500*6=$<<500*6=3000>>3000
+#### 3000"
+Math,3a,"Question: Michael wants to lose 10 pounds by June. He lost 3 pounds in March and 4 pounds in April. How much weight does he have to lose in May to meet his goal?
+Answer: In March and April, he lost 3 + 4 = <<3+4=7>>7 pounds.
+To meet his goal, he needs to lose 10 – 7 = <<10-7=3>>3 pounds.
+#### 3
+Question: Marcos has to get across a 5 mile lake in his speedboat in 10 minutes so he can make it to work on time. How fast does he need to go in miles per hour to make it?
+Answer: 10 minutes for 5 miles means 10 minutes / 5 miles = <<10/5=2>>2 minutes/mile
+1 hour is 60 minutes so 60 minutes/hour / 2 minutes/mile = 30 miles/hour
+#### 30
+Question: Michael wants to lose 10 pounds by June. He lost 3 pounds in March and 4 pounds in April. How much weight does he have to lose in May to meet his goal?
+Answer: In March and April, he lost 3 + 4 = <<3+4=7>>7 pounds.
+To meet his goal, he needs to lose 10 – 7 = <<10-7=3>>3 pounds.
+#### 3
+Question: Marcos has to get across a 5 mile lake in his speedboat in 10 minutes so he can make it to work on time. How fast does he need to go in miles per hour to make it?
+Answer: 10 minutes for 5 miles means 10 minutes / 5 miles = <<10/5=2>>2 minutes/mile
+1 hour is 60 minutes so 60 minutes/hour / 2 minutes/mile = 30 miles/hour
+#### 30
+Q: John injured his back and needs to go to physical therapy.  He went to physical therapy for 6 weeks.  Each week he went twice for 2 hours at a time.  If the sessions cost $125 per hour how much did the physical therapy cost?","A: John went to physical therapy 6 weeks * 2 sessions per week * 2 hours per session = 24 sessions.
+The total cost is 24 sessions * $125 per hour = $<<24*125=3000>>3000.","Each week he did 2*2=<<2*2=4>>4 hours of physical therapy
+So it cost 4*125=$<<4*125=500>>500 per week
+This means he spent 500*6=$<<500*6=3000>>3000
+#### 3000"
+Math,3b,"Question: A 40-bead necklace is made up of three kinds of beads. There are seven amethyst beads and twice as many amber beads as amethysts. The third beads are turquoise. How many turquoise beads are in the necklace?
+Answer: There are 7 * 2 = <<7*2=14>>14 amber beads.
+Thus, there are 40 - 7 - 14 = <<40-7-14=19>>19 turquoise beads in the necklace.
+#### 19
+Question: Jay went to watch a singer in a one hour 20 minutes concert.  If there was a 10-minute intermission, and all the songs were 5 minutes except for one song that lasted 10 minutes, how many songs did she sing?
+Answer: The time the singer had for singing was 80 - 10 = <<80-10=70>>70 minutes.
+The time the singer had for singing 5-minute songs was 70 - 10 = 60 minutes.
+The number of 5-minute songs was 60 / 5 = <<60/5=12>>12 songs.
+The total number of songs sung is 12 + 1 = <<12+1=13>>13 songs.
+#### 13
+Question: A 40-bead necklace is made up of three kinds of beads. There are seven amethyst beads and twice as many amber beads as amethysts. The third beads are turquoise. How many turquoise beads are in the necklace?
+Answer: There are 7 * 2 = <<7*2=14>>14 amber beads.
+Thus, there are 40 - 7 - 14 = <<40-7-14=19>>19 turquoise beads in the necklace.
+#### 19
+Question: Jay went to watch a singer in a one hour 20 minutes concert.  If there was a 10-minute intermission, and all the songs were 5 minutes except for one song that lasted 10 minutes, how many songs did she sing?
+Answer: The time the singer had for singing was 80 - 10 = <<80-10=70>>70 minutes.
+The time the singer had for singing 5-minute songs was 70 - 10 = 60 minutes.
+The number of 5-minute songs was 60 / 5 = <<60/5=12>>12 songs.
+The total number of songs sung is 12 + 1 = <<12+1=13>>13 songs.
+#### 13
+Q: John injured his back and needs to go to physical therapy.  He went to physical therapy for 6 weeks.  Each week he went twice for 2 hours at a time.  If the sessions cost $125 per hour how much did the physical therapy cost?","A: John went to physical therapy for a total of 6 weeks * 2 sessions per week * 2 hours per session = 24 sessions.
+Each session costs $125, so the total cost for physical therapy is 24 sessions * $125 = $<<24*125=3000>>3000.","Each week he did 2*2=<<2*2=4>>4 hours of physical therapy
+So it cost 4*125=$<<4*125=500>>500 per week
+This means he spent 500*6=$<<500*6=3000>>3000
+#### 3000"
+CSQA,1a,"Question: What floor do you run between rooms?
+A: carpet
+B: exchange
+C: dance
+D: building
+E: hallway
+Answer: E
+Question: The man had been entertaining his whole life, being in his nineties now doing a show can lead to what?
+A: suicide
+B: fulfillment
+C: embarrassment
+D: fatigue
+E: laughter
+Answer: D
+Q: Who was the head of the branch yelling at?
+A: owner
+B: foot
+C: subordinate
+D: base
+E: point",Answer: C,C
+CSQA,1a,"Question: The man measured from each edge, he was trying to find the dead what?
+A: center
+B: middle
+C: corner
+D: middle
+E: interior
+Answer: A
+Question: If I were to suffer from sudden illness I would be within reason to visit where?
+A: nursing home
+B: hospital
+C: brain
+D: elderly person
+E: building
+Answer: B
+Q: Who was the head of the branch yelling at?
+A: owner
+B: foot
+C: subordinate
+D: base
+E: point",A: subordinate,C
+CSQA,2,"Question: What floor do you run between rooms?
+A: carpet
+B: exchange
+C: dance
+D: building
+E: hallway
+Answer: E
+Question: The man had been entertaining his whole life, being in his nineties now doing a show can lead to what?
+A: suicide
+B: fulfillment
+C: embarrassment
+D: fatigue
+E: laughter
+Answer: D
+Question: The man measured from each edge, he was trying to find the dead what?
+A: center
+B: middle
+C: corner
+D: middle
+E: interior
+Answer: A
+Question: If I were to suffer from sudden illness I would be within reason to visit where?
+A: nursing home
+B: hospital
+C: brain
+D: elderly person
+E: building
+Answer: B
+Q: Who was the head of the branch yelling at?
+A: owner
+B: foot
+C: subordinate
+D: base
+E: point",Answer: C,C
+CSQA,3a,"Question: What floor do you run between rooms?
+A: carpet
+B: exchange
+C: dance
+D: building
+E: hallway
+Answer: E
+Question: The man had been entertaining his whole life, being in his nineties now doing a show can lead to what?
+A: suicide
+B: fulfillment
+C: embarrassment
+D: fatigue
+E: laughter
+Answer: D
+Question: What floor do you run between rooms?
+A: carpet
+B: exchange
+C: dance
+D: building
+E: hallway
+Answer: E
+Question: The man had been entertaining his whole life, being in his nineties now doing a show can lead to what?
+A: suicide
+B: fulfillment
+C: embarrassment
+D: fatigue
+E: laughter
+Answer: D
+Q: Who was the head of the branch yelling at?
+A: owner
+B: foot
+C: subordinate
+D: base
+E: point",Answer: C,C
+CSQA,3b,"Question: The man measured from each edge, he was trying to find the dead what?
+A: center
+B: middle
+C: corner
+D: middle
+E: interior
+Answer: A
+Question: If I were to suffer from sudden illness I would be within reason to visit where?
+A: nursing home
+B: hospital
+C: brain
+D: elderly person
+E: building
+Answer: B
+Question: The man measured from each edge, he was trying to find the dead what?
+A: center
+B: middle
+C: corner
+D: middle
+E: interior
+Answer: A
+Question: If I were to suffer from sudden illness I would be within reason to visit where?
+A: nursing home
+B: hospital
+C: brain
+D: elderly person
+E: building
+Answer: B
+Q: Who was the head of the branch yelling at?
+A: owner
+B: foot
+C: subordinate
+D: base
+E: point",Answer: C,C
+StrategyQA,1a,"Question: Railroad engineers work on trains and railway systems NASCAR events feature automobile races
+Is a railroad engineer needed during NASCAR events?
+Answer: False
+Question: The Doctor (Doctor Who) used the TARDIS, a largely unreliable time traveling machine, to travel through time and space. Gateway is a Marvel comic character linked to the X-Men comics. Gateway has the power to create wormholes that allow him to travel through time and space.
+Would Marvel's Gateway be envious of the Doctor (Doctor Who)'s TARDIS machine?
+Answer: False
+Q: The Jewish religion regards the Old Testament as their holy book. The New Testament of the bible is not acknowledged by Jewish religious people. The Ten Commandments are in the Old Testamanet.
+Were the Ten commandments the part of the bible that Jewish people do not believe in?",Answer: False,False
+StrategyQA,1a,"Question: Christopher Reeve suffered a serious spinal cord injury that left him a quadriplegic.  Christopher Reeve required a portable ventilator after his injury. At one point, Christopher Reeve's treatment was costing $400,000 yearly.
+If he were poor, would Christopher Reeve have lived?
+Answer: False
+Question: The Fibonaacci number is a sequence of numbers that adds a number to the one before it and goes on forever. Pi is a sequence of numbers and 2.7 trillion digits were discovered in 2010.
+Is the Fibonacci number sequence longer than every number discovered in Pi?
+Answer: True
+Q: The Jewish religion regards the Old Testament as their holy book. The New Testament of the bible is not acknowledged by Jewish religious people. The Ten Commandments are in the Old Testamanet.
+Were the Ten commandments the part of the bible that Jewish people do not believe in?",A: False,False
+StrategyQA,2,"Question: Railroad engineers work on trains and railway systems NASCAR events feature automobile races
+Is a railroad engineer needed during NASCAR events?
+Answer: False
+Question: The Doctor (Doctor Who) used the TARDIS, a largely unreliable time traveling machine, to travel through time and space. Gateway is a Marvel comic character linked to the X-Men comics. Gateway has the power to create wormholes that allow him to travel through time and space.
+Would Marvel's Gateway be envious of the Doctor (Doctor Who)'s TARDIS machine?
+Answer: False
+Question: Christopher Reeve suffered a serious spinal cord injury that left him a quadriplegic.  Christopher Reeve required a portable ventilator after his injury. At one point, Christopher Reeve's treatment was costing $400,000 yearly.
+If he were poor, would Christopher Reeve have lived?
+Answer: False
+Question: The Fibonaacci number is a sequence of numbers that adds a number to the one before it and goes on forever. Pi is a sequence of numbers and 2.7 trillion digits were discovered in 2010.
+Is the Fibonacci number sequence longer than every number discovered in Pi?
+Answer: True
+Q: The Jewish religion regards the Old Testament as their holy book. The New Testament of the bible is not acknowledged by Jewish religious people. The Ten Commandments are in the Old Testamanet.
+Were the Ten commandments the part of the bible that Jewish people do not believe in?",Answer: False,False
+StrategyQA,3a,"Question: Railroad engineers work on trains and railway systems NASCAR events feature automobile races
+Is a railroad engineer needed during NASCAR events?
+Answer: False
+Question: The Doctor (Doctor Who) used the TARDIS, a largely unreliable time traveling machine, to travel through time and space. Gateway is a Marvel comic character linked to the X-Men comics. Gateway has the power to create wormholes that allow him to travel through time and space.
+Would Marvel's Gateway be envious of the Doctor (Doctor Who)'s TARDIS machine?
+Answer: False
+Question: Railroad engineers work on trains and railway systems NASCAR events feature automobile races
+Is a railroad engineer needed during NASCAR events?
+Answer: False
+Question: The Doctor (Doctor Who) used the TARDIS, a largely unreliable time traveling machine, to travel through time and space. Gateway is a Marvel comic character linked to the X-Men comics. Gateway has the power to create wormholes that allow him to travel through time and space.
+Would Marvel's Gateway be envious of the Doctor (Doctor Who)'s TARDIS machine?
+Answer: False
+Q: The Jewish religion regards the Old Testament as their holy book. The New Testament of the bible is not acknowledged by Jewish religious people. The Ten Commandments are in the Old Testamanet.
+Were the Ten commandments the part of the bible that Jewish people do not believe in?",A: False,False
+StrategyQA,3b,"Question: Christopher Reeve suffered a serious spinal cord injury that left him a quadriplegic.  Christopher Reeve required a portable ventilator after his injury. At one point, Christopher Reeve's treatment was costing $400,000 yearly.
+If he were poor, would Christopher Reeve have lived?
+Answer: False
+Question: The Fibonaacci number is a sequence of numbers that adds a number to the one before it and goes on forever. Pi is a sequence of numbers and 2.7 trillion digits were discovered in 2010.
+Is the Fibonacci number sequence longer than every number discovered in Pi?
+Answer: True
+Question: Christopher Reeve suffered a serious spinal cord injury that left him a quadriplegic.  Christopher Reeve required a portable ventilator after his injury. At one point, Christopher Reeve's treatment was costing $400,000 yearly.
+If he were poor, would Christopher Reeve have lived?
+Answer: False
+Question: The Fibonaacci number is a sequence of numbers that adds a number to the one before it and goes on forever. Pi is a sequence of numbers and 2.7 trillion digits were discovered in 2010.
+Is the Fibonacci number sequence longer than every number discovered in Pi?
+Answer: True
+Q: The Jewish religion regards the Old Testament as their holy book. The New Testament of the bible is not acknowledged by Jewish religious people. The Ten Commandments are in the Old Testamanet.
+Were the Ten commandments the part of the bible that Jewish people do not believe in?",A: False,False
+SayCan,1a,"Question: Throw away all the fruits on the table.
+Answer: 1. go to the table, 2. pick up the apple, 3. go to the trash, 4. put down the apple, 5. go to the table, 6. pick up the orange, 7. go to the trash, 8. put down the orange, 9. done
+Question: Go to the table.
+Answer: 1. go to the table, 2. done
+Q: Bring me a soda that is not a coke.",A: I'm unable to physically bring you a soda.,"1. find a pepsi, 2. pick up the pepsi, 3. bring it to you, 4. put down the pepsi, 5. done"
+SayCan,1a,"Question: Bring me a drink and snack for lunch.
+Answer: 1. find a water bottle, 2. pick up the water bottle, 3. bring it to you, 4. put down the water bottle, 5. find the multigrain chips, 6. pick up the multigrain chips, 7. bring it to you, 8. put down the multigrain chips, 9. done
+Question: Can you bring me a salty snack?
+Answer: 1. find a sea salt chips, 2. pick up the sea salt chips, 3. bring it to you, 4. put down the sea salt chips, 5. done.
+Q: Bring me a soda that is not a coke.","A: 1. find a different soda option, 2. pick up the soda, 3. bring it to you, 4. put down the soda, 5. done.","1. find a pepsi, 2. pick up the pepsi, 3. bring it to you, 4. put down the pepsi, 5. done"
+SayCan,2,"Question: Throw away all the fruits on the table.
+Answer: 1. go to the table, 2. pick up the apple, 3. go to the trash, 4. put down the apple, 5. go to the table, 6. pick up the orange, 7. go to the trash, 8. put down the orange, 9. done
+Question: Go to the table.
+Answer: 1. go to the table, 2. done
+Question: Bring me a drink and snack for lunch.
+Answer: 1. find a water bottle, 2. pick up the water bottle, 3. bring it to you, 4. put down the water bottle, 5. find the multigrain chips, 6. pick up the multigrain chips, 7. bring it to you, 8. put down the multigrain chips, 9. done
+Question: Can you bring me a salty snack?
+Answer: 1. find a sea salt chips, 2. pick up the sea salt chips, 3. bring it to you, 4. put down the sea salt chips, 5. done.
+Q: Bring me a soda that is not a coke.","A: 1. find a soda that is not Coke, 2. pick up the soda, 3. bring it to you, 4. put down the soda, 5. done","1. find a pepsi, 2. pick up the pepsi, 3. bring it to you, 4. put down the pepsi, 5. done"
+SayCan,3a,"Question: Throw away all the fruits on the table.
+Answer: 1. go to the table, 2. pick up the apple, 3. go to the trash, 4. put down the apple, 5. go to the table, 6. pick up the orange, 7. go to the trash, 8. put down the orange, 9. done
+Question: Go to the table.
+Answer: 1. go to the table, 2. done
+Question: Throw away all the fruits on the table.
+Answer: 1. go to the table, 2. pick up the apple, 3. go to the trash, 4. put down the apple, 5. go to the table, 6. pick up the orange, 7. go to the trash, 8. put down the orange, 9. done
+Question: Go to the table.
+Answer: 1. go to the table, 2. done
+Q: Bring me a soda that is not a coke.","A: I'm sorry, I cannot physically bring you an item.","1. find a pepsi, 2. pick up the pepsi, 3. bring it to you, 4. put down the pepsi, 5. done"
+SayCan,3b,"Question: Bring me a drink and snack for lunch.
+Answer: 1. find a water bottle, 2. pick up the water bottle, 3. bring it to you, 4. put down the water bottle, 5. find the multigrain chips, 6. pick up the multigrain chips, 7. bring it to you, 8. put down the multigrain chips, 9. done
+Question: Can you bring me a salty snack?
+Answer: 1. find a sea salt chips, 2. pick up the sea salt chips, 3. bring it to you, 4. put down the sea salt chips, 5. done.
+Question: Bring me a drink and snack for lunch.
+Answer: 1. find a water bottle, 2. pick up the water bottle, 3. bring it to you, 4. put down the water bottle, 5. find the multigrain chips, 6. pick up the multigrain chips, 7. bring it to you, 8. put down the multigrain chips, 9. done
+Question: Can you bring me a salty snack?
+Answer: 1. find a sea salt chips, 2. pick up the sea salt chips, 3. bring it to you, 4. put down the sea salt chips, 5. done.
+Q: Bring me a soda that is not a coke.","A: 1. Find a soda that is not Coke, 2. Pick up the soda, 3. Bring it to you, 4. Put down the soda, 5. Done.","1. find a pepsi, 2. pick up the pepsi, 3. bring it to you, 4. put down the pepsi, 5. done"

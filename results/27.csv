@@ -1,0 +1,387 @@
+Task Class,Case,Prompt,Response,Expected
+Math,1a,"Question: Janet is getting paid to moderate social media posts. She gets paid 25 cents per post she checks. If it takes her 10 seconds to check a post, how much does she earn per hour?
+Answer: First find the number of seconds in an hour: 1 hour * 60 minutes/hour * 60 seconds/minute = <<1*60*60=3600>>3600 seconds/hour.
+Then divide the total number of seconds per hour by the number of seconds it takes Janet to read one post: 3600 seconds/hour / 10 seconds/post = <<3600/10=360>>360 posts/hour.
+Then multiply the number of posts she checks per hour by her pay per post to find her hourly pay: $0.25/post * 360 posts/hour = $<<0.25*360=90>>90/hour.
+#### 90
+Question: Dustin and Sam are both reading. Dustin can read 75 pages in an hour. Sam can read 24 pages in an hour. How many more pages does Dustin read in 40 minutes compared to Sam?
+Answer: Dustin reads 1.25 pages a minute because 75 / 60 = <<75/60=1.25>>1.25
+Dustin reads 50 pages in 40 minutes because 40 x 1.25 = <<40*1.25=50>>50
+Sam reads .4 pages a minute because 24 / 60 = <<24/60=.4>>.4
+Sam reads 16 pages in 40 minutes because 40 x .4 = <<40*.4=16>>16
+Dustin reads 34 more pages than Sam because 50 - 16 = <<34=34>>34
+#### 34
+Q: Nate is feeding his livestock hay. Each goat needs 5 pounds, and each sheep needs 3 pounds less than twice the amount each goat needs. If there are 15 goats and 12 sheep, how many pounds of hay does Nate need?","First, calculate how much hay each sheep needs. Twice the amount each goat needs is 5 * 2 = 10 pounds.
+Since each sheep needs 3 pounds less than twice the amount each goat needs, each sheep needs 10 - 3 = 7 pounds.
+Calculate the total amount of hay needed for the sheep by multiplying the amount each sheep needs by the number of sheep: 12 sheep * 7 pounds/sheep = 84 pounds.
+Calculate the total amount of hay needed for the goats by multiplying the amount each goat needs by the number of goats: 15 goats * 5 pounds/goat = 75 pounds.
+Add the amount of hay needed for the goats and the amount needed for the sheep to find the total amount of hay needed: 84 pounds + 75 pounds = 159 pounds. 
+Nate needs 159 pounds of hay in total.","First figure out how much hay each sheep needs: 5 pounds * 2 - 3 = <<5*2-3=7>>7 pounds/sheep
+Now figure out how much hay total the sheep need: 7 pounds/sheep * 12 sheep = <<7*12=84>>84 pounds
+Now figure out how much hay total the goats need: 5 pounds/goat * 15 goats = <<5*15=75>>75 pounds
+Now add the two amounts of hay to find the total: 84 pounds + 75 pounds = <<84+75=159>>159 pounds
+#### 159"
+Math,1a,"Question: Juanita enters a drumming contest. It costs $10 to enter. She has 2 minutes to hit as many drums as she can. If she hits 200 drums, she can start to make money, equal to 2.5 cents for every drum hit. How many drums does she hit if she lost $7.5 for joining the contest?
+Answer: She made $2.5 from hitting drums because 10 - 7.5 = <<10-7.5=2.5>>2.5
+She hit 200 drums to start making money
+She hit 100 drums in order to make the $2.5 because 2.5/.025 = 100
+She hit 300 drums in total because 100 + 200 = <<100+200=300>>300
+#### 300
+Question: Levi has 5 lemons. Jayden has 6 more lemons than Levi. Jayden has one-third as many lemons as Eli has while Eli has one-half as many lemons as Ian has. How many lemons do they have in all?
+Answer: Jayden has 5 + 6 = <<5+6=11>>11 lemons.
+Eli has 11 x 3 = <<11*3=33>>33 lemons.
+Ian has 33 x 2 = <<33*2=66>>66 lemons.
+Thus, the 4 of them have a total of 5 + 11 + 33 + 66 = <<5+11+33+66=115>>115 lemons.
+#### 115
+Q: Nate is feeding his livestock hay. Each goat needs 5 pounds, and each sheep needs 3 pounds less than twice the amount each goat needs. If there are 15 goats and 12 sheep, how many pounds of hay does Nate need?","A goat needs 5 pounds of hay.
+Twice the amount a goat needs is 5 x 2 = <<5*2=10>>10 pounds.
+So, a sheep needs 10 - 3 = <<10-3=7>>7 pounds of hay.
+Nate needs 15 goats x 5 pounds = <<15*5=75>>75 pounds of hay for the goats.
+He also needs 12 sheep x 7 pounds = <<12*7=84>>84 pounds of hay for the sheep.
+Therefore, Nate needs a total of 75 + 84 = <<75+84=159>>159 pounds of hay.
+#### 159","First figure out how much hay each sheep needs: 5 pounds * 2 - 3 = <<5*2-3=7>>7 pounds/sheep
+Now figure out how much hay total the sheep need: 7 pounds/sheep * 12 sheep = <<7*12=84>>84 pounds
+Now figure out how much hay total the goats need: 5 pounds/goat * 15 goats = <<5*15=75>>75 pounds
+Now add the two amounts of hay to find the total: 84 pounds + 75 pounds = <<84+75=159>>159 pounds
+#### 159"
+Math,2,"Question: Janet is getting paid to moderate social media posts. She gets paid 25 cents per post she checks. If it takes her 10 seconds to check a post, how much does she earn per hour?
+Answer: First find the number of seconds in an hour: 1 hour * 60 minutes/hour * 60 seconds/minute = <<1*60*60=3600>>3600 seconds/hour.
+Then divide the total number of seconds per hour by the number of seconds it takes Janet to read one post: 3600 seconds/hour / 10 seconds/post = <<3600/10=360>>360 posts/hour.
+Then multiply the number of posts she checks per hour by her pay per post to find her hourly pay: $0.25/post * 360 posts/hour = $<<0.25*360=90>>90/hour.
+#### 90
+Question: Dustin and Sam are both reading. Dustin can read 75 pages in an hour. Sam can read 24 pages in an hour. How many more pages does Dustin read in 40 minutes compared to Sam?
+Answer: Dustin reads 1.25 pages a minute because 75 / 60 = <<75/60=1.25>>1.25
+Dustin reads 50 pages in 40 minutes because 40 x 1.25 = <<40*1.25=50>>50
+Sam reads .4 pages a minute because 24 / 60 = <<24/60=.4>>.4
+Sam reads 16 pages in 40 minutes because 40 x .4 = <<40*.4=16>>16
+Dustin reads 34 more pages than Sam because 50 - 16 = <<34=34>>34
+#### 34
+Question: Juanita enters a drumming contest. It costs $10 to enter. She has 2 minutes to hit as many drums as she can. If she hits 200 drums, she can start to make money, equal to 2.5 cents for every drum hit. How many drums does she hit if she lost $7.5 for joining the contest?
+Answer: She made $2.5 from hitting drums because 10 - 7.5 = <<10-7.5=2.5>>2.5
+She hit 200 drums to start making money
+She hit 100 drums in order to make the $2.5 because 2.5/.025 = 100
+She hit 300 drums in total because 100 + 200 = <<100+200=300>>300
+#### 300
+Question: Levi has 5 lemons. Jayden has 6 more lemons than Levi. Jayden has one-third as many lemons as Eli has while Eli has one-half as many lemons as Ian has. How many lemons do they have in all?
+Answer: Jayden has 5 + 6 = <<5+6=11>>11 lemons.
+Eli has 11 x 3 = <<11*3=33>>33 lemons.
+Ian has 33 x 2 = <<33*2=66>>66 lemons.
+Thus, the 4 of them have a total of 5 + 11 + 33 + 66 = <<5+11+33+66=115>>115 lemons.
+#### 115
+Q: Nate is feeding his livestock hay. Each goat needs 5 pounds, and each sheep needs 3 pounds less than twice the amount each goat needs. If there are 15 goats and 12 sheep, how many pounds of hay does Nate need?","A goat needs 5 pounds of hay, so each sheep needs (2*5)-3=7 pounds of hay.
+There are 15 goats in total, so they need 15*5=75 pounds of hay.
+There are 12 sheep in total, so they need 12*7=84 pounds of hay.
+Therefore, Nate needs 75+84=159 pounds of hay in total.","First figure out how much hay each sheep needs: 5 pounds * 2 - 3 = <<5*2-3=7>>7 pounds/sheep
+Now figure out how much hay total the sheep need: 7 pounds/sheep * 12 sheep = <<7*12=84>>84 pounds
+Now figure out how much hay total the goats need: 5 pounds/goat * 15 goats = <<5*15=75>>75 pounds
+Now add the two amounts of hay to find the total: 84 pounds + 75 pounds = <<84+75=159>>159 pounds
+#### 159"
+Math,3a,"Question: Janet is getting paid to moderate social media posts. She gets paid 25 cents per post she checks. If it takes her 10 seconds to check a post, how much does she earn per hour?
+Answer: First find the number of seconds in an hour: 1 hour * 60 minutes/hour * 60 seconds/minute = <<1*60*60=3600>>3600 seconds/hour.
+Then divide the total number of seconds per hour by the number of seconds it takes Janet to read one post: 3600 seconds/hour / 10 seconds/post = <<3600/10=360>>360 posts/hour.
+Then multiply the number of posts she checks per hour by her pay per post to find her hourly pay: $0.25/post * 360 posts/hour = $<<0.25*360=90>>90/hour.
+#### 90
+Question: Dustin and Sam are both reading. Dustin can read 75 pages in an hour. Sam can read 24 pages in an hour. How many more pages does Dustin read in 40 minutes compared to Sam?
+Answer: Dustin reads 1.25 pages a minute because 75 / 60 = <<75/60=1.25>>1.25
+Dustin reads 50 pages in 40 minutes because 40 x 1.25 = <<40*1.25=50>>50
+Sam reads .4 pages a minute because 24 / 60 = <<24/60=.4>>.4
+Sam reads 16 pages in 40 minutes because 40 x .4 = <<40*.4=16>>16
+Dustin reads 34 more pages than Sam because 50 - 16 = <<34=34>>34
+#### 34
+Question: Janet is getting paid to moderate social media posts. She gets paid 25 cents per post she checks. If it takes her 10 seconds to check a post, how much does she earn per hour?
+Answer: First find the number of seconds in an hour: 1 hour * 60 minutes/hour * 60 seconds/minute = <<1*60*60=3600>>3600 seconds/hour.
+Then divide the total number of seconds per hour by the number of seconds it takes Janet to read one post: 3600 seconds/hour / 10 seconds/post = <<3600/10=360>>360 posts/hour.
+Then multiply the number of posts she checks per hour by her pay per post to find her hourly pay: $0.25/post * 360 posts/hour = $<<0.25*360=90>>90/hour.
+#### 90
+Question: Dustin and Sam are both reading. Dustin can read 75 pages in an hour. Sam can read 24 pages in an hour. How many more pages does Dustin read in 40 minutes compared to Sam?
+Answer: Dustin reads 1.25 pages a minute because 75 / 60 = <<75/60=1.25>>1.25
+Dustin reads 50 pages in 40 minutes because 40 x 1.25 = <<40*1.25=50>>50
+Sam reads .4 pages a minute because 24 / 60 = <<24/60=.4>>.4
+Sam reads 16 pages in 40 minutes because 40 x .4 = <<40*.4=16>>16
+Dustin reads 34 more pages than Sam because 50 - 16 = <<34=34>>34
+#### 34
+Q: Nate is feeding his livestock hay. Each goat needs 5 pounds, and each sheep needs 3 pounds less than twice the amount each goat needs. If there are 15 goats and 12 sheep, how many pounds of hay does Nate need?","A: First, calculate the total amount of hay needed for the goats: 5 pounds/goat * 15 goats = 75 pounds.
+Next, calculate the amount of hay needed for each sheep: 2 * 5 pounds/goat - 3 pounds = 10 pounds/goat - 3 pounds = 7 pounds/sheep.
+Then calculate the total amount of hay needed for the sheep: 7 pounds/sheep * 12 sheep = 84 pounds.
+Finally, add the total amount of hay needed for the goats and sheep to find the total amount of hay Nate needs: 75 pounds + 84 pounds = 159 pounds. 
+Therefore, Nate needs 159 pounds of hay.","First figure out how much hay each sheep needs: 5 pounds * 2 - 3 = <<5*2-3=7>>7 pounds/sheep
+Now figure out how much hay total the sheep need: 7 pounds/sheep * 12 sheep = <<7*12=84>>84 pounds
+Now figure out how much hay total the goats need: 5 pounds/goat * 15 goats = <<5*15=75>>75 pounds
+Now add the two amounts of hay to find the total: 84 pounds + 75 pounds = <<84+75=159>>159 pounds
+#### 159"
+Math,3b,"Question: Juanita enters a drumming contest. It costs $10 to enter. She has 2 minutes to hit as many drums as she can. If she hits 200 drums, she can start to make money, equal to 2.5 cents for every drum hit. How many drums does she hit if she lost $7.5 for joining the contest?
+Answer: She made $2.5 from hitting drums because 10 - 7.5 = <<10-7.5=2.5>>2.5
+She hit 200 drums to start making money
+She hit 100 drums in order to make the $2.5 because 2.5/.025 = 100
+She hit 300 drums in total because 100 + 200 = <<100+200=300>>300
+#### 300
+Question: Levi has 5 lemons. Jayden has 6 more lemons than Levi. Jayden has one-third as many lemons as Eli has while Eli has one-half as many lemons as Ian has. How many lemons do they have in all?
+Answer: Jayden has 5 + 6 = <<5+6=11>>11 lemons.
+Eli has 11 x 3 = <<11*3=33>>33 lemons.
+Ian has 33 x 2 = <<33*2=66>>66 lemons.
+Thus, the 4 of them have a total of 5 + 11 + 33 + 66 = <<5+11+33+66=115>>115 lemons.
+#### 115
+Question: Juanita enters a drumming contest. It costs $10 to enter. She has 2 minutes to hit as many drums as she can. If she hits 200 drums, she can start to make money, equal to 2.5 cents for every drum hit. How many drums does she hit if she lost $7.5 for joining the contest?
+Answer: She made $2.5 from hitting drums because 10 - 7.5 = <<10-7.5=2.5>>2.5
+She hit 200 drums to start making money
+She hit 100 drums in order to make the $2.5 because 2.5/.025 = 100
+She hit 300 drums in total because 100 + 200 = <<100+200=300>>300
+#### 300
+Question: Levi has 5 lemons. Jayden has 6 more lemons than Levi. Jayden has one-third as many lemons as Eli has while Eli has one-half as many lemons as Ian has. How many lemons do they have in all?
+Answer: Jayden has 5 + 6 = <<5+6=11>>11 lemons.
+Eli has 11 x 3 = <<11*3=33>>33 lemons.
+Ian has 33 x 2 = <<33*2=66>>66 lemons.
+Thus, the 4 of them have a total of 5 + 11 + 33 + 66 = <<5+11+33+66=115>>115 lemons.
+#### 115
+Q: Nate is feeding his livestock hay. Each goat needs 5 pounds, and each sheep needs 3 pounds less than twice the amount each goat needs. If there are 15 goats and 12 sheep, how many pounds of hay does Nate need?","A goat needs 5 pounds of hay.
+
+Twice the amount a goat needs is 5 x 2 = 10 pounds.
+
+Each sheep needs 10 - 3 = <<10-3=7>>7 pounds of hay.
+
+Nate needs 15 x 5 = <<15*5=75>>75 pounds for the goats.
+
+Nate needs 12 x 7 = <<12*7=84>>84 pounds for the sheep.
+
+In total, Nate needs 75 + 84 = <<75+84=159>>159 pounds of hay.","First figure out how much hay each sheep needs: 5 pounds * 2 - 3 = <<5*2-3=7>>7 pounds/sheep
+Now figure out how much hay total the sheep need: 7 pounds/sheep * 12 sheep = <<7*12=84>>84 pounds
+Now figure out how much hay total the goats need: 5 pounds/goat * 15 goats = <<5*15=75>>75 pounds
+Now add the two amounts of hay to find the total: 84 pounds + 75 pounds = <<84+75=159>>159 pounds
+#### 159"
+CSQA,1a,"Question: Danny was visiting a museum.  He spent all day looking at exhibits.  He studied them all careful.  In the end, he went home.  Why might he have gone home?
+A: tired feet
+B: pondering
+C: gaining knowledge
+D: exhilaration
+E: wonder
+Answer: A
+Question: Where could you put some olives to keep them fresh?
+A: jar
+B: pressed for thier oil
+C: ice box
+D: pizza
+E: refrigerator
+Answer: E
+Q: What is a person chatting with friends likely hoping to accomplish?
+A: gathering of information
+B: communication
+C: feel relaxed
+D: kill boredom
+E: social bonding",Answer: E,E
+CSQA,1a,"Question: What could a dog get completely dirty?
+A: table
+B: pet store
+C: outside
+D: car
+E: rug
+Answer: E
+Question: Someone charged with killing people is likely to reside where?
+A: going to jail
+B: terrible
+C: murder
+D: home
+E: get arrested
+Answer: A
+Q: What is a person chatting with friends likely hoping to accomplish?
+A: gathering of information
+B: communication
+C: feel relaxed
+D: kill boredom
+E: social bonding",Answer: E,E
+CSQA,2,"Question: Danny was visiting a museum.  He spent all day looking at exhibits.  He studied them all careful.  In the end, he went home.  Why might he have gone home?
+A: tired feet
+B: pondering
+C: gaining knowledge
+D: exhilaration
+E: wonder
+Answer: A
+Question: Where could you put some olives to keep them fresh?
+A: jar
+B: pressed for thier oil
+C: ice box
+D: pizza
+E: refrigerator
+Answer: E
+Question: What could a dog get completely dirty?
+A: table
+B: pet store
+C: outside
+D: car
+E: rug
+Answer: E
+Question: Someone charged with killing people is likely to reside where?
+A: going to jail
+B: terrible
+C: murder
+D: home
+E: get arrested
+Answer: A
+Q: What is a person chatting with friends likely hoping to accomplish?
+A: gathering of information
+B: communication
+C: feel relaxed
+D: kill boredom
+E: social bonding",Answer: C,E
+CSQA,3a,"Question: Danny was visiting a museum.  He spent all day looking at exhibits.  He studied them all careful.  In the end, he went home.  Why might he have gone home?
+A: tired feet
+B: pondering
+C: gaining knowledge
+D: exhilaration
+E: wonder
+Answer: A
+Question: Where could you put some olives to keep them fresh?
+A: jar
+B: pressed for thier oil
+C: ice box
+D: pizza
+E: refrigerator
+Answer: E
+Question: Danny was visiting a museum.  He spent all day looking at exhibits.  He studied them all careful.  In the end, he went home.  Why might he have gone home?
+A: tired feet
+B: pondering
+C: gaining knowledge
+D: exhilaration
+E: wonder
+Answer: A
+Question: Where could you put some olives to keep them fresh?
+A: jar
+B: pressed for thier oil
+C: ice box
+D: pizza
+E: refrigerator
+Answer: E
+Q: What is a person chatting with friends likely hoping to accomplish?
+A: gathering of information
+B: communication
+C: feel relaxed
+D: kill boredom
+E: social bonding",Answer: E: social bonding,E
+CSQA,3b,"Question: What could a dog get completely dirty?
+A: table
+B: pet store
+C: outside
+D: car
+E: rug
+Answer: E
+Question: Someone charged with killing people is likely to reside where?
+A: going to jail
+B: terrible
+C: murder
+D: home
+E: get arrested
+Answer: A
+Question: What could a dog get completely dirty?
+A: table
+B: pet store
+C: outside
+D: car
+E: rug
+Answer: E
+Question: Someone charged with killing people is likely to reside where?
+A: going to jail
+B: terrible
+C: murder
+D: home
+E: get arrested
+Answer: A
+Q: What is a person chatting with friends likely hoping to accomplish?
+A: gathering of information
+B: communication
+C: feel relaxed
+D: kill boredom
+E: social bonding",Answer: E,E
+StrategyQA,1a,"Question: Internet Trolls flock to any popular platform on the internet. Reddit is the 19th most popular website online.
+Can you avoid internet trolls on reddit?
+Answer: False
+Question: Nissan's headquarters are located in Yokohama, Japan. It is customary to eat with chopsticks in East Asian countries. Japan is a country in East Asia.
+Do workers at Nissan's headquarters eat with chopsticks?
+Answer: True
+Q: Lucille Ball was the star of ""I Love Lucy"". On ""I Love Lucy"", Lucille's character fails miserably while stomping grapes for wine.
+Do people remember Lucille Ball's winemaking as successful?",A: False,False
+StrategyQA,1a,"Question: On average, Americans prefer milder salsa than Europeans. The Carolina Reaper is the hottest pepper in the world.  The Carolina Reaper is rated as 2,200,000 Scoville Heat Units.
+Would Carolina Reaper decrease sales if added to all US salsa?
+Answer: True
+Question: The cosmic microwave background is faint electromagnetic radiation in space that is a remnant of the Big Bang. Food can be cooked in a microwave oven, but not in the remnants of space radiation.
+Can food be cooked in the cosmic microwave background?
+Answer: False
+Q: Lucille Ball was the star of ""I Love Lucy"". On ""I Love Lucy"", Lucille's character fails miserably while stomping grapes for wine.
+Do people remember Lucille Ball's winemaking as successful?",A: False,False
+StrategyQA,2,"Question: Internet Trolls flock to any popular platform on the internet. Reddit is the 19th most popular website online.
+Can you avoid internet trolls on reddit?
+Answer: False
+Question: Nissan's headquarters are located in Yokohama, Japan. It is customary to eat with chopsticks in East Asian countries. Japan is a country in East Asia.
+Do workers at Nissan's headquarters eat with chopsticks?
+Answer: True
+Question: On average, Americans prefer milder salsa than Europeans. The Carolina Reaper is the hottest pepper in the world.  The Carolina Reaper is rated as 2,200,000 Scoville Heat Units.
+Would Carolina Reaper decrease sales if added to all US salsa?
+Answer: True
+Question: The cosmic microwave background is faint electromagnetic radiation in space that is a remnant of the Big Bang. Food can be cooked in a microwave oven, but not in the remnants of space radiation.
+Can food be cooked in the cosmic microwave background?
+Answer: False
+Q: Lucille Ball was the star of ""I Love Lucy"". On ""I Love Lucy"", Lucille's character fails miserably while stomping grapes for wine.
+Do people remember Lucille Ball's winemaking as successful?",A: False,False
+StrategyQA,3a,"Question: Internet Trolls flock to any popular platform on the internet. Reddit is the 19th most popular website online.
+Can you avoid internet trolls on reddit?
+Answer: False
+Question: Nissan's headquarters are located in Yokohama, Japan. It is customary to eat with chopsticks in East Asian countries. Japan is a country in East Asia.
+Do workers at Nissan's headquarters eat with chopsticks?
+Answer: True
+Question: Internet Trolls flock to any popular platform on the internet. Reddit is the 19th most popular website online.
+Can you avoid internet trolls on reddit?
+Answer: False
+Question: Nissan's headquarters are located in Yokohama, Japan. It is customary to eat with chopsticks in East Asian countries. Japan is a country in East Asia.
+Do workers at Nissan's headquarters eat with chopsticks?
+Answer: True
+Q: Lucille Ball was the star of ""I Love Lucy"". On ""I Love Lucy"", Lucille's character fails miserably while stomping grapes for wine.
+Do people remember Lucille Ball's winemaking as successful?",A: False,False
+StrategyQA,3b,"Question: On average, Americans prefer milder salsa than Europeans. The Carolina Reaper is the hottest pepper in the world.  The Carolina Reaper is rated as 2,200,000 Scoville Heat Units.
+Would Carolina Reaper decrease sales if added to all US salsa?
+Answer: True
+Question: The cosmic microwave background is faint electromagnetic radiation in space that is a remnant of the Big Bang. Food can be cooked in a microwave oven, but not in the remnants of space radiation.
+Can food be cooked in the cosmic microwave background?
+Answer: False
+Question: On average, Americans prefer milder salsa than Europeans. The Carolina Reaper is the hottest pepper in the world.  The Carolina Reaper is rated as 2,200,000 Scoville Heat Units.
+Would Carolina Reaper decrease sales if added to all US salsa?
+Answer: True
+Question: The cosmic microwave background is faint electromagnetic radiation in space that is a remnant of the Big Bang. Food can be cooked in a microwave oven, but not in the remnants of space radiation.
+Can food be cooked in the cosmic microwave background?
+Answer: False
+Q: Lucille Ball was the star of ""I Love Lucy"". On ""I Love Lucy"", Lucille's character fails miserably while stomping grapes for wine.
+Do people remember Lucille Ball's winemaking as successful?",A: False,False
+SayCan,1a,"Question: Can you bring me a salty snack?
+Answer: 1. find a sea salt chips, 2. pick up the sea salt chips, 3. bring it to you, 4. put down the sea salt chips, 5. done.
+Question: How would you go to the table?
+Answer: 1. go to the table, 2. done
+Q: How would you move a banana to the table?","A: 1. pick up the banana, 2. walk to the table, 3. place the banana on the table, 4. done.","1. pick up the banana, 2. go to the table, 3. put down the banana, 4. done, I opened a sprite earlier."
+SayCan,1a,"Question: How would you pick up the coke can?
+Answer: 1. pick up the coke can, 2. done
+Question: Deliver the red bull to the close counter
+Answer: 1. find a redbull, 2. pick up the redbull, 3. go to the counter, 4. put down the redbull, 5. done.
+Q: How would you move a banana to the table?","A: 1. pick up the banana, 2. walk over to the table, 3. place the banana on the table, 4. done.","1. pick up the banana, 2. go to the table, 3. put down the banana, 4. done, I opened a sprite earlier."
+SayCan,2,"Question: Can you bring me a salty snack?
+Answer: 1. find a sea salt chips, 2. pick up the sea salt chips, 3. bring it to you, 4. put down the sea salt chips, 5. done.
+Question: How would you go to the table?
+Answer: 1. go to the table, 2. done
+Question: How would you pick up the coke can?
+Answer: 1. pick up the coke can, 2. done
+Question: Deliver the red bull to the close counter
+Answer: 1. find a redbull, 2. pick up the redbull, 3. go to the counter, 4. put down the redbull, 5. done.
+Q: How would you move a banana to the table?","A: 1. Pick up the banana, 2. Walk to the table, 3. Place the banana on the table, 4. Done.","1. pick up the banana, 2. go to the table, 3. put down the banana, 4. done, I opened a sprite earlier."
+SayCan,3a,"Question: Can you bring me a salty snack?
+Answer: 1. find a sea salt chips, 2. pick up the sea salt chips, 3. bring it to you, 4. put down the sea salt chips, 5. done.
+Question: How would you go to the table?
+Answer: 1. go to the table, 2. done
+Question: Can you bring me a salty snack?
+Answer: 1. find a sea salt chips, 2. pick up the sea salt chips, 3. bring it to you, 4. put down the sea salt chips, 5. done.
+Question: How would you go to the table?
+Answer: 1. go to the table, 2. done
+Q: How would you move a banana to the table?","A: 1. pick up the banana, 2. walk to the table, 3. place the banana on the table, 4. done.","1. pick up the banana, 2. go to the table, 3. put down the banana, 4. done, I opened a sprite earlier."
+SayCan,3b,"Question: How would you pick up the coke can?
+Answer: 1. pick up the coke can, 2. done
+Question: Deliver the red bull to the close counter
+Answer: 1. find a redbull, 2. pick up the redbull, 3. go to the counter, 4. put down the redbull, 5. done.
+Question: How would you pick up the coke can?
+Answer: 1. pick up the coke can, 2. done
+Question: Deliver the red bull to the close counter
+Answer: 1. find a redbull, 2. pick up the redbull, 3. go to the counter, 4. put down the redbull, 5. done.
+Q: How would you move a banana to the table?","A: 1. Pick up the banana, 2. walk to the table, 3. place the banana on the table, 4. done.","1. pick up the banana, 2. go to the table, 3. put down the banana, 4. done, I opened a sprite earlier."

@@ -1,0 +1,408 @@
+Task Class,Case,Prompt,Response,Expected
+Math,1a,"Question: Tom decides to get a new floor for his room.  It cost $50 to remove the floor.  The new floor costs $1.25 per square foot and Tom's room is 8*7 feet.  How much did it cost to replace the floor?
+Answer: The room is 8*7=<<8*7=56>>56 square feet
+So the new carpet cost 56*1.25=$<<56*1.25=70>>70
+So the total cost was 50+70=$<<50+70=120>>120
+#### 120
+Question: Bridgette has 2 dogs, 3 cats, and 4 birds. She gives the dogs a bath twice a month. She gives the cats a bath once a month. She gives the birds a bath once every 4 months. In a year, how many baths does she give?
+Answer: Each dog gets 24 baths a year because 2 x 12 = <<2*12=24>>24
+Each cat gets 12 baths a year because 1 x 12 = <<1*12=12>>12
+Each bird averages .25 baths per month because 1 / 4 = <<1/4=.25>>.25
+Each bird gets 3 baths a year because .25 x 12 = <<.25*12=3>>3
+She gives 48 dog baths because 2 x 24 = <<2*24=48>>48
+She gives 72 cat baths because 3 x 12 = 36
+She gives 12 bird baths a year because 4 x 3 = <<4*3=12>>12
+She gives 132 baths a year because 48 + 36+ 12 = <<48+36+12=96>>96
+#### 96
+Q: A pirate crew is digging for buried treasure on the island marked X on a map. They dug ten holes the first day, thirteen holes the second day, and eight holes the third day. They stopped digging early on the third day to fill in two holes the pirates kept falling in. On the fourth day of digging, they unearthed a treasure chest full of gold, jewels, and an aged hat. The island had four times as many holes by then as it did at the end of the first day. How many holes did the pirates dig on the fourth day before finding the treasure?","A total of 10 + 13 + 8 = <<10+13+8=31>>31 holes were dug in the first three days.
+After filling in two holes, there were 31 - 2 = 29 holes remaining.
+At the end of the fourth day, there were 4 * 10 = <<4*10=40>>40 holes dug in total.
+Therefore, 40 - 29 = <<40-29=11>>11 holes were dug on the fourth day before finding the treasure.","Let X mark the number of holes they dug on the fourth day.
+The island had 4 * 10 = <<4*10=40>>40 holes when they found the treasure.
+They dug 10 + 13 + 8 = <<10+13+8=31>>31 holes the first three days.
+After filling in 2 holes, they had 31 - 2 = <<31-2=29>>29 holes dug.
+When they found the treasure, they had 29 + X = 40 holes dug.
+Thus, the pirates dug 40 - 29 = <<40-29=11>>11 holes on the fourth day.
+#### 11"
+Math,1a,"Question: Malcolm has 240 followers on Instagram and 500 followers on Facebook. The number of followers he has on Twitter is half the number of followers he has on Instagram and Facebook combined. Meanwhile, the number of followers he has on TikTok is 3 times the number of followers is has on Twitter, and he has 510 more followers on Youtube than he has on TikTok. How many followers does Malcolm have on all his social media?
+Answer: Malcolm has 240 followers + 500 followers = <<240+500=740>>740 followers on Instagram and Facebook.
+He has 740 followers / 2 = <<740/2=370>>370 followers on Twitter.
+He has 370 followers x 3 = <<370*3=1110>>1110 followers on Tiktok.
+He has 1110 followers + 510 followers = <<1110+510=1620>>1620 followers on Youtube.
+Altogether, Malcolm has 740 followers + 370 followers + 1110 followers + 1620 followers = <<740+370+1110+1620=3840>>3840 followers on social media.
+#### 3840
+Question: For every loaf of bread that Ted buys, he needs an additional 2 packs of sandwich meat and 2 packs of sliced cheese to make 10 sandwiches.  The bread costs $4.00, the sandwich meat costs $5.00 per pack and the cheese costs $4.00 per pack.  He has a $1.00 off  coupon for one pack of cheese and an additional $1.00 coupon for one pack of meat.  How much does each sandwich cost?
+Answer: He buys 2 packs of sandwich meat at $5.00 a pack so 2*5.00 = $<<2*5=10.00>>10.00
+He buys 2 packs of cheese at $4.00 a pack so 2*4.00 = $<<2*4=8.00>>8.00
+The loaf of bread cost $4.00 plus $10.00 for meat and $8.00 for cheese so his total is 4+10+8 = $<<4+10+8=22.00>>22.00
+He has coupons to use a checkout so his new total is 22-1-1 = $<<22-1-1=20.00>>20.00
+He can make 10 sandwiches from his purchase and his purchase total is $20 so 20/10 = $<<20/10=2.00>>2.00
+#### 2
+Q: A pirate crew is digging for buried treasure on the island marked X on a map. They dug ten holes the first day, thirteen holes the second day, and eight holes the third day. They stopped digging early on the third day to fill in two holes the pirates kept falling in. On the fourth day of digging, they unearthed a treasure chest full of gold, jewels, and an aged hat. The island had four times as many holes by then as it did at the end of the first day. How many holes did the pirates dig on the fourth day before finding the treasure?","A: The total number of holes dug in the first three days is 10 + 13 + 8 = 31.
+The number of holes left after filling in 2 holes is 31 - 2 = 29.
+The number of holes on the fourth day is 4 * 10 = 40.
+Therefore, the pirates dug 40 - 29 = 11 holes on the fourth day before finding the treasure.
+#### 11","Let X mark the number of holes they dug on the fourth day.
+The island had 4 * 10 = <<4*10=40>>40 holes when they found the treasure.
+They dug 10 + 13 + 8 = <<10+13+8=31>>31 holes the first three days.
+After filling in 2 holes, they had 31 - 2 = <<31-2=29>>29 holes dug.
+When they found the treasure, they had 29 + X = 40 holes dug.
+Thus, the pirates dug 40 - 29 = <<40-29=11>>11 holes on the fourth day.
+#### 11"
+Math,2,"Question: Tom decides to get a new floor for his room.  It cost $50 to remove the floor.  The new floor costs $1.25 per square foot and Tom's room is 8*7 feet.  How much did it cost to replace the floor?
+Answer: The room is 8*7=<<8*7=56>>56 square feet
+So the new carpet cost 56*1.25=$<<56*1.25=70>>70
+So the total cost was 50+70=$<<50+70=120>>120
+#### 120
+Question: Bridgette has 2 dogs, 3 cats, and 4 birds. She gives the dogs a bath twice a month. She gives the cats a bath once a month. She gives the birds a bath once every 4 months. In a year, how many baths does she give?
+Answer: Each dog gets 24 baths a year because 2 x 12 = <<2*12=24>>24
+Each cat gets 12 baths a year because 1 x 12 = <<1*12=12>>12
+Each bird averages .25 baths per month because 1 / 4 = <<1/4=.25>>.25
+Each bird gets 3 baths a year because .25 x 12 = <<.25*12=3>>3
+She gives 48 dog baths because 2 x 24 = <<2*24=48>>48
+She gives 72 cat baths because 3 x 12 = 36
+She gives 12 bird baths a year because 4 x 3 = <<4*3=12>>12
+She gives 132 baths a year because 48 + 36+ 12 = <<48+36+12=96>>96
+#### 96
+Question: Malcolm has 240 followers on Instagram and 500 followers on Facebook. The number of followers he has on Twitter is half the number of followers he has on Instagram and Facebook combined. Meanwhile, the number of followers he has on TikTok is 3 times the number of followers is has on Twitter, and he has 510 more followers on Youtube than he has on TikTok. How many followers does Malcolm have on all his social media?
+Answer: Malcolm has 240 followers + 500 followers = <<240+500=740>>740 followers on Instagram and Facebook.
+He has 740 followers / 2 = <<740/2=370>>370 followers on Twitter.
+He has 370 followers x 3 = <<370*3=1110>>1110 followers on Tiktok.
+He has 1110 followers + 510 followers = <<1110+510=1620>>1620 followers on Youtube.
+Altogether, Malcolm has 740 followers + 370 followers + 1110 followers + 1620 followers = <<740+370+1110+1620=3840>>3840 followers on social media.
+#### 3840
+Question: For every loaf of bread that Ted buys, he needs an additional 2 packs of sandwich meat and 2 packs of sliced cheese to make 10 sandwiches.  The bread costs $4.00, the sandwich meat costs $5.00 per pack and the cheese costs $4.00 per pack.  He has a $1.00 off  coupon for one pack of cheese and an additional $1.00 coupon for one pack of meat.  How much does each sandwich cost?
+Answer: He buys 2 packs of sandwich meat at $5.00 a pack so 2*5.00 = $<<2*5=10.00>>10.00
+He buys 2 packs of cheese at $4.00 a pack so 2*4.00 = $<<2*4=8.00>>8.00
+The loaf of bread cost $4.00 plus $10.00 for meat and $8.00 for cheese so his total is 4+10+8 = $<<4+10+8=22.00>>22.00
+He has coupons to use a checkout so his new total is 22-1-1 = $<<22-1-1=20.00>>20.00
+He can make 10 sandwiches from his purchase and his purchase total is $20 so 20/10 = $<<20/10=2.00>>2.00
+#### 2
+Q: A pirate crew is digging for buried treasure on the island marked X on a map. They dug ten holes the first day, thirteen holes the second day, and eight holes the third day. They stopped digging early on the third day to fill in two holes the pirates kept falling in. On the fourth day of digging, they unearthed a treasure chest full of gold, jewels, and an aged hat. The island had four times as many holes by then as it did at the end of the first day. How many holes did the pirates dig on the fourth day before finding the treasure?","A: The pirates dug a total of 10 + 13 + 8 = <<10+13+8=31>>31 holes in the first three days.
+They filled in two holes, leaving 31 - 2 = <<31-2=29>>29 holes.
+The island had four times as many holes by the fourth day as it did at the end of the first day, so there were 10 * 4 = <<10*4=40>>40 holes on the fourth day.
+Therefore, the pirates dug 40 - 29 = <<40-29=11>>11 holes on the fourth day before finding the treasure.","Let X mark the number of holes they dug on the fourth day.
+The island had 4 * 10 = <<4*10=40>>40 holes when they found the treasure.
+They dug 10 + 13 + 8 = <<10+13+8=31>>31 holes the first three days.
+After filling in 2 holes, they had 31 - 2 = <<31-2=29>>29 holes dug.
+When they found the treasure, they had 29 + X = 40 holes dug.
+Thus, the pirates dug 40 - 29 = <<40-29=11>>11 holes on the fourth day.
+#### 11"
+Math,3a,"Question: Tom decides to get a new floor for his room.  It cost $50 to remove the floor.  The new floor costs $1.25 per square foot and Tom's room is 8*7 feet.  How much did it cost to replace the floor?
+Answer: The room is 8*7=<<8*7=56>>56 square feet
+So the new carpet cost 56*1.25=$<<56*1.25=70>>70
+So the total cost was 50+70=$<<50+70=120>>120
+#### 120
+Question: Bridgette has 2 dogs, 3 cats, and 4 birds. She gives the dogs a bath twice a month. She gives the cats a bath once a month. She gives the birds a bath once every 4 months. In a year, how many baths does she give?
+Answer: Each dog gets 24 baths a year because 2 x 12 = <<2*12=24>>24
+Each cat gets 12 baths a year because 1 x 12 = <<1*12=12>>12
+Each bird averages .25 baths per month because 1 / 4 = <<1/4=.25>>.25
+Each bird gets 3 baths a year because .25 x 12 = <<.25*12=3>>3
+She gives 48 dog baths because 2 x 24 = <<2*24=48>>48
+She gives 72 cat baths because 3 x 12 = 36
+She gives 12 bird baths a year because 4 x 3 = <<4*3=12>>12
+She gives 132 baths a year because 48 + 36+ 12 = <<48+36+12=96>>96
+#### 96
+Question: Tom decides to get a new floor for his room.  It cost $50 to remove the floor.  The new floor costs $1.25 per square foot and Tom's room is 8*7 feet.  How much did it cost to replace the floor?
+Answer: The room is 8*7=<<8*7=56>>56 square feet
+So the new carpet cost 56*1.25=$<<56*1.25=70>>70
+So the total cost was 50+70=$<<50+70=120>>120
+#### 120
+Question: Bridgette has 2 dogs, 3 cats, and 4 birds. She gives the dogs a bath twice a month. She gives the cats a bath once a month. She gives the birds a bath once every 4 months. In a year, how many baths does she give?
+Answer: Each dog gets 24 baths a year because 2 x 12 = <<2*12=24>>24
+Each cat gets 12 baths a year because 1 x 12 = <<1*12=12>>12
+Each bird averages .25 baths per month because 1 / 4 = <<1/4=.25>>.25
+Each bird gets 3 baths a year because .25 x 12 = <<.25*12=3>>3
+She gives 48 dog baths because 2 x 24 = <<2*24=48>>48
+She gives 72 cat baths because 3 x 12 = 36
+She gives 12 bird baths a year because 4 x 3 = <<4*3=12>>12
+She gives 132 baths a year because 48 + 36+ 12 = <<48+36+12=96>>96
+#### 96
+Q: A pirate crew is digging for buried treasure on the island marked X on a map. They dug ten holes the first day, thirteen holes the second day, and eight holes the third day. They stopped digging early on the third day to fill in two holes the pirates kept falling in. On the fourth day of digging, they unearthed a treasure chest full of gold, jewels, and an aged hat. The island had four times as many holes by then as it did at the end of the first day. How many holes did the pirates dig on the fourth day before finding the treasure?","A: The total number of holes dug by the pirates on the first day is 10, the second day is 13, and the third day is 8. So, the total number of holes dug in the first three days is 10 + 13 + 8 = 31 holes.
+
+Since the pirates filled in 2 holes on the third day, the total number of remaining holes after the third day is 31 - 2 = 29 holes.
+
+If the island had four times as many holes by the fourth day as it did at the end of the first day, then 4 x 10 = 40 holes were on the island by the fourth day.
+
+Therefore, the pirates dug 40 - 29 = 11 holes on the fourth day before finding the treasure. So, they dug 11 holes on the fourth day.","Let X mark the number of holes they dug on the fourth day.
+The island had 4 * 10 = <<4*10=40>>40 holes when they found the treasure.
+They dug 10 + 13 + 8 = <<10+13+8=31>>31 holes the first three days.
+After filling in 2 holes, they had 31 - 2 = <<31-2=29>>29 holes dug.
+When they found the treasure, they had 29 + X = 40 holes dug.
+Thus, the pirates dug 40 - 29 = <<40-29=11>>11 holes on the fourth day.
+#### 11"
+Math,3b,"Question: Malcolm has 240 followers on Instagram and 500 followers on Facebook. The number of followers he has on Twitter is half the number of followers he has on Instagram and Facebook combined. Meanwhile, the number of followers he has on TikTok is 3 times the number of followers is has on Twitter, and he has 510 more followers on Youtube than he has on TikTok. How many followers does Malcolm have on all his social media?
+Answer: Malcolm has 240 followers + 500 followers = <<240+500=740>>740 followers on Instagram and Facebook.
+He has 740 followers / 2 = <<740/2=370>>370 followers on Twitter.
+He has 370 followers x 3 = <<370*3=1110>>1110 followers on Tiktok.
+He has 1110 followers + 510 followers = <<1110+510=1620>>1620 followers on Youtube.
+Altogether, Malcolm has 740 followers + 370 followers + 1110 followers + 1620 followers = <<740+370+1110+1620=3840>>3840 followers on social media.
+#### 3840
+Question: For every loaf of bread that Ted buys, he needs an additional 2 packs of sandwich meat and 2 packs of sliced cheese to make 10 sandwiches.  The bread costs $4.00, the sandwich meat costs $5.00 per pack and the cheese costs $4.00 per pack.  He has a $1.00 off  coupon for one pack of cheese and an additional $1.00 coupon for one pack of meat.  How much does each sandwich cost?
+Answer: He buys 2 packs of sandwich meat at $5.00 a pack so 2*5.00 = $<<2*5=10.00>>10.00
+He buys 2 packs of cheese at $4.00 a pack so 2*4.00 = $<<2*4=8.00>>8.00
+The loaf of bread cost $4.00 plus $10.00 for meat and $8.00 for cheese so his total is 4+10+8 = $<<4+10+8=22.00>>22.00
+He has coupons to use a checkout so his new total is 22-1-1 = $<<22-1-1=20.00>>20.00
+He can make 10 sandwiches from his purchase and his purchase total is $20 so 20/10 = $<<20/10=2.00>>2.00
+#### 2
+Question: Malcolm has 240 followers on Instagram and 500 followers on Facebook. The number of followers he has on Twitter is half the number of followers he has on Instagram and Facebook combined. Meanwhile, the number of followers he has on TikTok is 3 times the number of followers is has on Twitter, and he has 510 more followers on Youtube than he has on TikTok. How many followers does Malcolm have on all his social media?
+Answer: Malcolm has 240 followers + 500 followers = <<240+500=740>>740 followers on Instagram and Facebook.
+He has 740 followers / 2 = <<740/2=370>>370 followers on Twitter.
+He has 370 followers x 3 = <<370*3=1110>>1110 followers on Tiktok.
+He has 1110 followers + 510 followers = <<1110+510=1620>>1620 followers on Youtube.
+Altogether, Malcolm has 740 followers + 370 followers + 1110 followers + 1620 followers = <<740+370+1110+1620=3840>>3840 followers on social media.
+#### 3840
+Question: For every loaf of bread that Ted buys, he needs an additional 2 packs of sandwich meat and 2 packs of sliced cheese to make 10 sandwiches.  The bread costs $4.00, the sandwich meat costs $5.00 per pack and the cheese costs $4.00 per pack.  He has a $1.00 off  coupon for one pack of cheese and an additional $1.00 coupon for one pack of meat.  How much does each sandwich cost?
+Answer: He buys 2 packs of sandwich meat at $5.00 a pack so 2*5.00 = $<<2*5=10.00>>10.00
+He buys 2 packs of cheese at $4.00 a pack so 2*4.00 = $<<2*4=8.00>>8.00
+The loaf of bread cost $4.00 plus $10.00 for meat and $8.00 for cheese so his total is 4+10+8 = $<<4+10+8=22.00>>22.00
+He has coupons to use a checkout so his new total is 22-1-1 = $<<22-1-1=20.00>>20.00
+He can make 10 sandwiches from his purchase and his purchase total is $20 so 20/10 = $<<20/10=2.00>>2.00
+#### 2
+Q: A pirate crew is digging for buried treasure on the island marked X on a map. They dug ten holes the first day, thirteen holes the second day, and eight holes the third day. They stopped digging early on the third day to fill in two holes the pirates kept falling in. On the fourth day of digging, they unearthed a treasure chest full of gold, jewels, and an aged hat. The island had four times as many holes by then as it did at the end of the first day. How many holes did the pirates dig on the fourth day before finding the treasure?","A: The total number of holes dug by the pirates by the end of the third day is 10 holes + 13 holes + 8 holes = 31 holes.
+After filling in two holes, there were 31 holes - 2 holes = 29 holes remaining on the third day.
+The island had four times as many holes by the fourth day, so there were 4 * 10 holes = 40 holes on the fourth day.
+Therefore, the pirates dug 40 holes - 29 holes = 11 holes on the fourth day before finding the treasure.","Let X mark the number of holes they dug on the fourth day.
+The island had 4 * 10 = <<4*10=40>>40 holes when they found the treasure.
+They dug 10 + 13 + 8 = <<10+13+8=31>>31 holes the first three days.
+After filling in 2 holes, they had 31 - 2 = <<31-2=29>>29 holes dug.
+When they found the treasure, they had 29 + X = 40 holes dug.
+Thus, the pirates dug 40 - 29 = <<40-29=11>>11 holes on the fourth day.
+#### 11"
+CSQA,1a,"Question: What's the best place to store boxes of spare automobile parts?
+A: shed
+B: loft
+C: attic
+D: garage
+E: basement
+Answer: D
+Question: Having your marijuana in bags help keep it what?
+A: entertainment
+B: neat
+C: happy
+D: intoxicating
+E: illegal
+Answer: B
+Q: He was receiving workman's compensation, he had tripped over a metal rod while building where?
+A: factory
+B: construction site
+C: engine
+D: insides of skyscraper's walls
+E: shops",Answer: B,B
+CSQA,1a,"Question: Why are cooks hired?
+A: to be fired
+B: prepare meals
+C: season with salt
+D: better food
+E: perfect food
+Answer: B
+Question: What would you do with your plumbing to a plumber if it is broken?
+A: synagogue
+B: water fountain
+C: show
+D: central
+E: oil refineries
+Answer: C
+Q: He was receiving workman's compensation, he had tripped over a metal rod while building where?
+A: factory
+B: construction site
+C: engine
+D: insides of skyscraper's walls
+E: shops",Answer: B: construction site,B
+CSQA,2,"Question: What's the best place to store boxes of spare automobile parts?
+A: shed
+B: loft
+C: attic
+D: garage
+E: basement
+Answer: D
+Question: Having your marijuana in bags help keep it what?
+A: entertainment
+B: neat
+C: happy
+D: intoxicating
+E: illegal
+Answer: B
+Question: Why are cooks hired?
+A: to be fired
+B: prepare meals
+C: season with salt
+D: better food
+E: perfect food
+Answer: B
+Question: What would you do with your plumbing to a plumber if it is broken?
+A: synagogue
+B: water fountain
+C: show
+D: central
+E: oil refineries
+Answer: C
+Q: He was receiving workman's compensation, he had tripped over a metal rod while building where?
+A: factory
+B: construction site
+C: engine
+D: insides of skyscraper's walls
+E: shops",Answer: B,B
+CSQA,3a,"Question: What's the best place to store boxes of spare automobile parts?
+A: shed
+B: loft
+C: attic
+D: garage
+E: basement
+Answer: D
+Question: Having your marijuana in bags help keep it what?
+A: entertainment
+B: neat
+C: happy
+D: intoxicating
+E: illegal
+Answer: B
+Question: What's the best place to store boxes of spare automobile parts?
+A: shed
+B: loft
+C: attic
+D: garage
+E: basement
+Answer: D
+Question: Having your marijuana in bags help keep it what?
+A: entertainment
+B: neat
+C: happy
+D: intoxicating
+E: illegal
+Answer: B
+Q: He was receiving workman's compensation, he had tripped over a metal rod while building where?
+A: factory
+B: construction site
+C: engine
+D: insides of skyscraper's walls
+E: shops",Answer: B,B
+CSQA,3b,"Question: Why are cooks hired?
+A: to be fired
+B: prepare meals
+C: season with salt
+D: better food
+E: perfect food
+Answer: B
+Question: What would you do with your plumbing to a plumber if it is broken?
+A: synagogue
+B: water fountain
+C: show
+D: central
+E: oil refineries
+Answer: C
+Question: Why are cooks hired?
+A: to be fired
+B: prepare meals
+C: season with salt
+D: better food
+E: perfect food
+Answer: B
+Question: What would you do with your plumbing to a plumber if it is broken?
+A: synagogue
+B: water fountain
+C: show
+D: central
+E: oil refineries
+Answer: C
+Q: He was receiving workman's compensation, he had tripped over a metal rod while building where?
+A: factory
+B: construction site
+C: engine
+D: insides of skyscraper's walls
+E: shops",Answer: B,B
+StrategyQA,1a,"Question: A nymph tick is the size of a poppy seed. A poppy seed is around 1mm in size. The ISO 838 standards set a hole punch size at 6 mm.
+Could a nymph tick pass through a standard hole punch?
+Answer: True
+Question: Back pain may be worsened by repeated bending at the waist. Strawberries grow very close to the ground.
+Would someone with back pain enjoy picking strawberries?
+Answer: False
+Q: Quiet is an assassin from the Metal Gear video game series that does not speak. Haub is a school at Pace University that has annual lectures. Haub is a law school that has annual lectures on topics in the law field.
+Would Quiet from Metal Gear be a poor hypothetical choice for lecturer at Haub?",True,True
+StrategyQA,1a,"Question: Intel is a technology company that produces computer products such as processors, chipsets, and GPUs. McDonald's is a fast food franchise that sells food and beverage products.
+Could Intel products be purchased at McDonald's?
+Answer: False
+Question: The body naturally produces and uses lactic acid to convert glucose into energy Lactic acid bacteria are particularly good for digestive health.
+Is it bad to have lactic acid in your body?
+Answer: False
+Q: Quiet is an assassin from the Metal Gear video game series that does not speak. Haub is a school at Pace University that has annual lectures. Haub is a law school that has annual lectures on topics in the law field.
+Would Quiet from Metal Gear be a poor hypothetical choice for lecturer at Haub?",A: True,True
+StrategyQA,2,"Question: A nymph tick is the size of a poppy seed. A poppy seed is around 1mm in size. The ISO 838 standards set a hole punch size at 6 mm.
+Could a nymph tick pass through a standard hole punch?
+Answer: True
+Question: Back pain may be worsened by repeated bending at the waist. Strawberries grow very close to the ground.
+Would someone with back pain enjoy picking strawberries?
+Answer: False
+Question: Intel is a technology company that produces computer products such as processors, chipsets, and GPUs. McDonald's is a fast food franchise that sells food and beverage products.
+Could Intel products be purchased at McDonald's?
+Answer: False
+Question: The body naturally produces and uses lactic acid to convert glucose into energy Lactic acid bacteria are particularly good for digestive health.
+Is it bad to have lactic acid in your body?
+Answer: False
+Q: Quiet is an assassin from the Metal Gear video game series that does not speak. Haub is a school at Pace University that has annual lectures. Haub is a law school that has annual lectures on topics in the law field.
+Would Quiet from Metal Gear be a poor hypothetical choice for lecturer at Haub?",Answer: True,True
+StrategyQA,3a,"Question: A nymph tick is the size of a poppy seed. A poppy seed is around 1mm in size. The ISO 838 standards set a hole punch size at 6 mm.
+Could a nymph tick pass through a standard hole punch?
+Answer: True
+Question: Back pain may be worsened by repeated bending at the waist. Strawberries grow very close to the ground.
+Would someone with back pain enjoy picking strawberries?
+Answer: False
+Question: A nymph tick is the size of a poppy seed. A poppy seed is around 1mm in size. The ISO 838 standards set a hole punch size at 6 mm.
+Could a nymph tick pass through a standard hole punch?
+Answer: True
+Question: Back pain may be worsened by repeated bending at the waist. Strawberries grow very close to the ground.
+Would someone with back pain enjoy picking strawberries?
+Answer: False
+Q: Quiet is an assassin from the Metal Gear video game series that does not speak. Haub is a school at Pace University that has annual lectures. Haub is a law school that has annual lectures on topics in the law field.
+Would Quiet from Metal Gear be a poor hypothetical choice for lecturer at Haub?",A: True,True
+StrategyQA,3b,"Question: Intel is a technology company that produces computer products such as processors, chipsets, and GPUs. McDonald's is a fast food franchise that sells food and beverage products.
+Could Intel products be purchased at McDonald's?
+Answer: False
+Question: The body naturally produces and uses lactic acid to convert glucose into energy Lactic acid bacteria are particularly good for digestive health.
+Is it bad to have lactic acid in your body?
+Answer: False
+Question: Intel is a technology company that produces computer products such as processors, chipsets, and GPUs. McDonald's is a fast food franchise that sells food and beverage products.
+Could Intel products be purchased at McDonald's?
+Answer: False
+Question: The body naturally produces and uses lactic acid to convert glucose into energy Lactic acid bacteria are particularly good for digestive health.
+Is it bad to have lactic acid in your body?
+Answer: False
+Q: Quiet is an assassin from the Metal Gear video game series that does not speak. Haub is a school at Pace University that has annual lectures. Haub is a law school that has annual lectures on topics in the law field.
+Would Quiet from Metal Gear be a poor hypothetical choice for lecturer at Haub?",A: True,True
+SayCan,1a,"Question: Can you bring me something spicy?
+Answer: 1. find the jalapeno chips, 2. pick up the jalapeno chips, 3. bring it to you, 4. put down the jalapeno chips, 5. done
+Question: Put a banana on the counter.
+Answer: 1. pick up the banana, 2. go to the counter, 3. put down the banana, 4. done
+Q: Bring me a drink and snack for lunch.","A: 1. get a drink, 2. get a snack, 3. bring them to you for lunch, 4. done","1. find a water bottle, 2. pick up the water bottle, 3. bring it to you, 4. put down the water bottle, 5. find the multigrain chips, 6. pick up the multigrain chips, 7. bring it to you, 8. put down the multigrain chips, 9. done"
+SayCan,1a,"Question: How would you throw a coke can away?
+Answer: 1. find a coke can, 2. pick up the coke can, 3. go to the trash, 4. put down the coke can, 5. done
+Question: I love spice, can you get something to eat?
+Answer: 1. find the jalapeno chips, 2. pick up the jalapeno chips, 3. bring it to you, 4. put down the jalapeno chips, 5. done
+Q: Bring me a drink and snack for lunch.","A: 1. find a can of soda and a bag of chips, 2. pick up the can of soda and bag of chips, 3. bring them to you, 4. put them down, 5. done.","1. find a water bottle, 2. pick up the water bottle, 3. bring it to you, 4. put down the water bottle, 5. find the multigrain chips, 6. pick up the multigrain chips, 7. bring it to you, 8. put down the multigrain chips, 9. done"
+SayCan,2,"Question: Can you bring me something spicy?
+Answer: 1. find the jalapeno chips, 2. pick up the jalapeno chips, 3. bring it to you, 4. put down the jalapeno chips, 5. done
+Question: Put a banana on the counter.
+Answer: 1. pick up the banana, 2. go to the counter, 3. put down the banana, 4. done
+Question: How would you throw a coke can away?
+Answer: 1. find a coke can, 2. pick up the coke can, 3. go to the trash, 4. put down the coke can, 5. done
+Question: I love spice, can you get something to eat?
+Answer: 1. find the jalapeno chips, 2. pick up the jalapeno chips, 3. bring it to you, 4. put down the jalapeno chips, 5. done
+Q: Bring me a drink and snack for lunch.","A: 1. find a drink and snack, 2. pick up the drink and snack, 3. bring them to you, 4. put them down, 5. done","1. find a water bottle, 2. pick up the water bottle, 3. bring it to you, 4. put down the water bottle, 5. find the multigrain chips, 6. pick up the multigrain chips, 7. bring it to you, 8. put down the multigrain chips, 9. done"
+SayCan,3a,"Question: Can you bring me something spicy?
+Answer: 1. find the jalapeno chips, 2. pick up the jalapeno chips, 3. bring it to you, 4. put down the jalapeno chips, 5. done
+Question: Put a banana on the counter.
+Answer: 1. pick up the banana, 2. go to the counter, 3. put down the banana, 4. done
+Question: Can you bring me something spicy?
+Answer: 1. find the jalapeno chips, 2. pick up the jalapeno chips, 3. bring it to you, 4. put down the jalapeno chips, 5. done
+Question: Put a banana on the counter.
+Answer: 1. pick up the banana, 2. go to the counter, 3. put down the banana, 4. done
+Q: Bring me a drink and snack for lunch.","A: 1. Find a drink and a snack, 2. Pick up the drink and snack, 3. Bring it to you, 4. Put down the drink and snack, 5. Done.","1. find a water bottle, 2. pick up the water bottle, 3. bring it to you, 4. put down the water bottle, 5. find the multigrain chips, 6. pick up the multigrain chips, 7. bring it to you, 8. put down the multigrain chips, 9. done"
+SayCan,3b,"Question: How would you throw a coke can away?
+Answer: 1. find a coke can, 2. pick up the coke can, 3. go to the trash, 4. put down the coke can, 5. done
+Question: I love spice, can you get something to eat?
+Answer: 1. find the jalapeno chips, 2. pick up the jalapeno chips, 3. bring it to you, 4. put down the jalapeno chips, 5. done
+Question: How would you throw a coke can away?
+Answer: 1. find a coke can, 2. pick up the coke can, 3. go to the trash, 4. put down the coke can, 5. done
+Question: I love spice, can you get something to eat?
+Answer: 1. find the jalapeno chips, 2. pick up the jalapeno chips, 3. bring it to you, 4. put down the jalapeno chips, 5. done
+Q: Bring me a drink and snack for lunch.","A: 1. Find a drink and snack, 2. Pick up the drink and snack, 3. Bring it to you, 4. Put down the drink and snack, 5. Done","1. find a water bottle, 2. pick up the water bottle, 3. bring it to you, 4. put down the water bottle, 5. find the multigrain chips, 6. pick up the multigrain chips, 7. bring it to you, 8. put down the multigrain chips, 9. done"

@@ -1,0 +1,389 @@
+Task Class,Case,Prompt,Response,Expected
+Math,1a,"Question: Evelyn’s family watched 10 hours of television last week. The week before, they watched 8 hours of television. If they watch 12 hours of television next week, what is the average number of hours of television that they watch per week?
+Answer: Over the three weeks, they will have watched a total of 10 + 8 + 12 = <<10+8+12=30>>30 hours of television.
+The average number of hours per week is 30 hours / 3 = <<30/3=10>>10 hours of television.
+#### 10
+Question: Tonya spent $90.00 on art supplies.  4 canvases cost $40.00 and a mixed set of paints cost 1/2 that much. She also spent $15.00 on an easel, and the rest of the money on paintbrushes. How much money did she spend on paintbrushes?
+Answer: The canvases cost $40.00 and she spent half that amount on paint so she spent 40/2 = $<<40/2=20.00>>20.00 on paint
+She spent $40.00 on canvases, $20.00 on paint and $15.00 on an easel so she spent 40+20+15 = $<<40+20+15=75.00>>75.00
+She spent $90.00 total and her other purchases totaled $75.00 so she spent 90-75 = $<<90-75=15.00>>15.00 on paint brushes
+#### 15
+Q: Two track teams are competing against each other in a 4 by 400 meter relay; a race where each competing team has four members that each run 400 meters, or one lap, around a standard track.  One of the two teams is very well-rounded and each of their members will run their 400 meter leg in precisely 55 seconds.  The other team is less well-rounded; their first runner will run their 400 meter leg in 60 seconds then each subsequent runner will be 3 seconds faster than the previous runner.  Using this information, how many seconds will the faster team win by?","A 4 by 400 meter relay consists of 4 legs, each 400 meters long, so the total distance each team runs is 4 * 400 = 1600 meters.
+
+For the well-rounded team, each runner runs 400 meters in 55 seconds, so the total time for the team is 55 * 4 = 220 seconds.
+
+For the less well-rounded team, the first runner runs 400 meters in 60 seconds, the second runner runs 400 meters in 57 seconds, the third runner runs 400 meters in 54 seconds, and the fourth runner runs 400 meters in 51 seconds. 
+
+Adding all these times together, the total time for the less well-rounded team is 60 + 57 + 54 + 51 = 222 seconds.
+
+The well-rounded team completes the 1600 meters in 220 seconds and the less well-rounded team completes it in 222 seconds, so the faster team wins by 222 - 220 = 2 seconds. 
+
+Therefore, the faster team will win by 2 seconds.","The first team will finish the relay in 4*55 = <<4*55=220>>220 seconds.
+On the second team we must determine each runner's individual pace. We know the first runner will complete their leg in 60 seconds, so the second runner will take 60 - 3 = 57 seconds, then the third will take 57 - 3 = 54 seconds, and the fourth will take 54 - 3 = 51 seconds.
+Thus, the second team will finish the relay in 60 + 57 + 54 + 51 = <<60+57+54+51=222>>222 seconds.
+Therefore, the first team will finish 222 - 220 = <<222-220=2>>2 seconds faster than the second team.
+#### 2"
+Math,1a,"Question: The bus started its route. At its first stop, 7 people got on. At the second stop, 3 people got off, and 5 people got on. At the third stop, 2 people got off, and 4 people got on. How many passengers are now on the bus?
+Answer: There are 7 people on the bus after the first stop.
+There are 7+5-3=<<7+5-3=9>>9 people on the bus after the second stop.
+There are 9+4-2=<<9+4-2=11>>11 people on the bus after the third stop.
+11 passengers are now on the bus.
+#### 11
+Question: If Stu has 9 books and Albert has 4 times as many books as Stu, how many books do Stu and Albert have in total?
+Answer: Albert has 4 * 9 books belonging to Stu = <<4*9=36>>36 books.
+So the pair have a combined total of 36 books belonging to Albert + 9 books belonging to Stu = <<36+9=45>>45 books.
+#### 45
+Q: Two track teams are competing against each other in a 4 by 400 meter relay; a race where each competing team has four members that each run 400 meters, or one lap, around a standard track.  One of the two teams is very well-rounded and each of their members will run their 400 meter leg in precisely 55 seconds.  The other team is less well-rounded; their first runner will run their 400 meter leg in 60 seconds then each subsequent runner will be 3 seconds faster than the previous runner.  Using this information, how many seconds will the faster team win by?","To find out how many seconds the faster team will win by, we need to calculate the total time it takes for each team to complete the race.
+
+For the well-rounded team:
+All 4 members will run 400 meters each in 55 seconds, so the total time taken would be 55 * 4 = 220 seconds.
+
+For the less well-rounded team:
+The first runner will run the 400 meters in 60 seconds.
+The second runner will run it in 60 - 3 = 57 seconds.
+The third runner will run it in 57 - 3 = 54 seconds.
+The fourth runner will run it in 54 - 3 = 51 seconds.
+So, the total time taken by the less well-rounded team would be 60 + 57 + 54 + 51 = 222 seconds.
+
+Therefore, the faster team will win by 222 (total time taken by less well-rounded team) - 220 (total time taken by well-rounded team) = 2 seconds. 
+
+The faster team will win by 2 seconds.","The first team will finish the relay in 4*55 = <<4*55=220>>220 seconds.
+On the second team we must determine each runner's individual pace. We know the first runner will complete their leg in 60 seconds, so the second runner will take 60 - 3 = 57 seconds, then the third will take 57 - 3 = 54 seconds, and the fourth will take 54 - 3 = 51 seconds.
+Thus, the second team will finish the relay in 60 + 57 + 54 + 51 = <<60+57+54+51=222>>222 seconds.
+Therefore, the first team will finish 222 - 220 = <<222-220=2>>2 seconds faster than the second team.
+#### 2"
+Math,2,"Question: Evelyn’s family watched 10 hours of television last week. The week before, they watched 8 hours of television. If they watch 12 hours of television next week, what is the average number of hours of television that they watch per week?
+Answer: Over the three weeks, they will have watched a total of 10 + 8 + 12 = <<10+8+12=30>>30 hours of television.
+The average number of hours per week is 30 hours / 3 = <<30/3=10>>10 hours of television.
+#### 10
+Question: Tonya spent $90.00 on art supplies.  4 canvases cost $40.00 and a mixed set of paints cost 1/2 that much. She also spent $15.00 on an easel, and the rest of the money on paintbrushes. How much money did she spend on paintbrushes?
+Answer: The canvases cost $40.00 and she spent half that amount on paint so she spent 40/2 = $<<40/2=20.00>>20.00 on paint
+She spent $40.00 on canvases, $20.00 on paint and $15.00 on an easel so she spent 40+20+15 = $<<40+20+15=75.00>>75.00
+She spent $90.00 total and her other purchases totaled $75.00 so she spent 90-75 = $<<90-75=15.00>>15.00 on paint brushes
+#### 15
+Question: The bus started its route. At its first stop, 7 people got on. At the second stop, 3 people got off, and 5 people got on. At the third stop, 2 people got off, and 4 people got on. How many passengers are now on the bus?
+Answer: There are 7 people on the bus after the first stop.
+There are 7+5-3=<<7+5-3=9>>9 people on the bus after the second stop.
+There are 9+4-2=<<9+4-2=11>>11 people on the bus after the third stop.
+11 passengers are now on the bus.
+#### 11
+Question: If Stu has 9 books and Albert has 4 times as many books as Stu, how many books do Stu and Albert have in total?
+Answer: Albert has 4 * 9 books belonging to Stu = <<4*9=36>>36 books.
+So the pair have a combined total of 36 books belonging to Albert + 9 books belonging to Stu = <<36+9=45>>45 books.
+#### 45
+Q: Two track teams are competing against each other in a 4 by 400 meter relay; a race where each competing team has four members that each run 400 meters, or one lap, around a standard track.  One of the two teams is very well-rounded and each of their members will run their 400 meter leg in precisely 55 seconds.  The other team is less well-rounded; their first runner will run their 400 meter leg in 60 seconds then each subsequent runner will be 3 seconds faster than the previous runner.  Using this information, how many seconds will the faster team win by?","A: The total time it will take for the well-rounded team to finish the race is 4 members * 55 seconds each = 220 seconds.
+For the other team, the time it will take for the first runner to finish the race is 60 seconds. The second runner will take 60 - 3 = 57 seconds. The third runner will take 57 - 3 = 54 seconds. The fourth runner will take 54 - 3 = 51 seconds. So, the total time for the less well-rounded team to finish the race is 60 + 57 + 54 + 51 = 222 seconds.
+
+Therefore, the faster team will win by 222 seconds (total time taken by the less well-rounded team) - 220 seconds (total time taken by the well-rounded team) = 2 seconds.","The first team will finish the relay in 4*55 = <<4*55=220>>220 seconds.
+On the second team we must determine each runner's individual pace. We know the first runner will complete their leg in 60 seconds, so the second runner will take 60 - 3 = 57 seconds, then the third will take 57 - 3 = 54 seconds, and the fourth will take 54 - 3 = 51 seconds.
+Thus, the second team will finish the relay in 60 + 57 + 54 + 51 = <<60+57+54+51=222>>222 seconds.
+Therefore, the first team will finish 222 - 220 = <<222-220=2>>2 seconds faster than the second team.
+#### 2"
+Math,3a,"Question: Evelyn’s family watched 10 hours of television last week. The week before, they watched 8 hours of television. If they watch 12 hours of television next week, what is the average number of hours of television that they watch per week?
+Answer: Over the three weeks, they will have watched a total of 10 + 8 + 12 = <<10+8+12=30>>30 hours of television.
+The average number of hours per week is 30 hours / 3 = <<30/3=10>>10 hours of television.
+#### 10
+Question: Tonya spent $90.00 on art supplies.  4 canvases cost $40.00 and a mixed set of paints cost 1/2 that much. She also spent $15.00 on an easel, and the rest of the money on paintbrushes. How much money did she spend on paintbrushes?
+Answer: The canvases cost $40.00 and she spent half that amount on paint so she spent 40/2 = $<<40/2=20.00>>20.00 on paint
+She spent $40.00 on canvases, $20.00 on paint and $15.00 on an easel so she spent 40+20+15 = $<<40+20+15=75.00>>75.00
+She spent $90.00 total and her other purchases totaled $75.00 so she spent 90-75 = $<<90-75=15.00>>15.00 on paint brushes
+#### 15
+Question: Evelyn’s family watched 10 hours of television last week. The week before, they watched 8 hours of television. If they watch 12 hours of television next week, what is the average number of hours of television that they watch per week?
+Answer: Over the three weeks, they will have watched a total of 10 + 8 + 12 = <<10+8+12=30>>30 hours of television.
+The average number of hours per week is 30 hours / 3 = <<30/3=10>>10 hours of television.
+#### 10
+Question: Tonya spent $90.00 on art supplies.  4 canvases cost $40.00 and a mixed set of paints cost 1/2 that much. She also spent $15.00 on an easel, and the rest of the money on paintbrushes. How much money did she spend on paintbrushes?
+Answer: The canvases cost $40.00 and she spent half that amount on paint so she spent 40/2 = $<<40/2=20.00>>20.00 on paint
+She spent $40.00 on canvases, $20.00 on paint and $15.00 on an easel so she spent 40+20+15 = $<<40+20+15=75.00>>75.00
+She spent $90.00 total and her other purchases totaled $75.00 so she spent 90-75 = $<<90-75=15.00>>15.00 on paint brushes
+#### 15
+Q: Two track teams are competing against each other in a 4 by 400 meter relay; a race where each competing team has four members that each run 400 meters, or one lap, around a standard track.  One of the two teams is very well-rounded and each of their members will run their 400 meter leg in precisely 55 seconds.  The other team is less well-rounded; their first runner will run their 400 meter leg in 60 seconds then each subsequent runner will be 3 seconds faster than the previous runner.  Using this information, how many seconds will the faster team win by?","A 400 meter leg run at 55 seconds per lap is 55 seconds.
+
+The second runner of the slower team runs at 60 - 3 = 57 seconds.
+The third runner runs at 57 - 3 = 54 seconds.
+The fourth runner runs at 54 - 3 = 51 seconds.
+
+The slower team's total time is 60 + 57 + 54 + 51 = 222 seconds.
+The faster team's total time is 55 * 4 = 220 seconds.
+
+Therefore, the faster team will win by 222 - 220 = 2 seconds.","The first team will finish the relay in 4*55 = <<4*55=220>>220 seconds.
+On the second team we must determine each runner's individual pace. We know the first runner will complete their leg in 60 seconds, so the second runner will take 60 - 3 = 57 seconds, then the third will take 57 - 3 = 54 seconds, and the fourth will take 54 - 3 = 51 seconds.
+Thus, the second team will finish the relay in 60 + 57 + 54 + 51 = <<60+57+54+51=222>>222 seconds.
+Therefore, the first team will finish 222 - 220 = <<222-220=2>>2 seconds faster than the second team.
+#### 2"
+Math,3b,"Question: The bus started its route. At its first stop, 7 people got on. At the second stop, 3 people got off, and 5 people got on. At the third stop, 2 people got off, and 4 people got on. How many passengers are now on the bus?
+Answer: There are 7 people on the bus after the first stop.
+There are 7+5-3=<<7+5-3=9>>9 people on the bus after the second stop.
+There are 9+4-2=<<9+4-2=11>>11 people on the bus after the third stop.
+11 passengers are now on the bus.
+#### 11
+Question: If Stu has 9 books and Albert has 4 times as many books as Stu, how many books do Stu and Albert have in total?
+Answer: Albert has 4 * 9 books belonging to Stu = <<4*9=36>>36 books.
+So the pair have a combined total of 36 books belonging to Albert + 9 books belonging to Stu = <<36+9=45>>45 books.
+#### 45
+Question: The bus started its route. At its first stop, 7 people got on. At the second stop, 3 people got off, and 5 people got on. At the third stop, 2 people got off, and 4 people got on. How many passengers are now on the bus?
+Answer: There are 7 people on the bus after the first stop.
+There are 7+5-3=<<7+5-3=9>>9 people on the bus after the second stop.
+There are 9+4-2=<<9+4-2=11>>11 people on the bus after the third stop.
+11 passengers are now on the bus.
+#### 11
+Question: If Stu has 9 books and Albert has 4 times as many books as Stu, how many books do Stu and Albert have in total?
+Answer: Albert has 4 * 9 books belonging to Stu = <<4*9=36>>36 books.
+So the pair have a combined total of 36 books belonging to Albert + 9 books belonging to Stu = <<36+9=45>>45 books.
+#### 45
+Q: Two track teams are competing against each other in a 4 by 400 meter relay; a race where each competing team has four members that each run 400 meters, or one lap, around a standard track.  One of the two teams is very well-rounded and each of their members will run their 400 meter leg in precisely 55 seconds.  The other team is less well-rounded; their first runner will run their 400 meter leg in 60 seconds then each subsequent runner will be 3 seconds faster than the previous runner.  Using this information, how many seconds will the faster team win by?","First, let's calculate the total time it will take for each team to complete the relay race.
+
+For the well-rounded team:
+Each member runs 400 meters in 55 seconds, so the total time for the team is 4 members * 55 seconds = 220 seconds.
+
+For the less well-rounded team:
+The first runner runs 400 meters in 60 seconds.
+The second runner runs 400 meters in 60 - 3 = 57 seconds.
+The third runner runs 400 meters in 57 - 3 = 54 seconds.
+The fourth runner runs 400 meters in 54 - 3 = 51 seconds.
+So, the total time for the less well-rounded team is 60 + 57 + 54 + 51 = 222 seconds.
+
+Therefore, the faster team will win by 222 seconds (total time for less well-rounded team) - 220 seconds (total time for well-rounded team) = 2 seconds. 
+
+The faster team will win by 2 seconds.","The first team will finish the relay in 4*55 = <<4*55=220>>220 seconds.
+On the second team we must determine each runner's individual pace. We know the first runner will complete their leg in 60 seconds, so the second runner will take 60 - 3 = 57 seconds, then the third will take 57 - 3 = 54 seconds, and the fourth will take 54 - 3 = 51 seconds.
+Thus, the second team will finish the relay in 60 + 57 + 54 + 51 = <<60+57+54+51=222>>222 seconds.
+Therefore, the first team will finish 222 - 220 = <<222-220=2>>2 seconds faster than the second team.
+#### 2"
+CSQA,1a,"Question: If you are enjoying sunshine on the beach, what do you likely have views of?
+A: windowsill
+B: sunbathers
+C: disneyland
+D: sea
+E: summer
+Answer: D
+Question: When people are overly drunk how do the seem to others?
+A: disoriented
+B: appear ridiculous
+C: walk off
+D: throw up
+E: raise hell
+Answer: B
+Q: The city's community garden was demolished for yet another what?
+A: wasteland
+B: ocean
+C: desert
+D: parking lot
+E: flowers",Answer: D,D
+CSQA,1a,"Question: The shark was sick of the confines of its tank, what was it looking for?
+A: sea world
+B: tomales bay
+C: great oceans
+D: the key
+E: tropical waters
+Answer: C
+Question: John spent hours polishing his tires, because he wanted to take his vehicle where?
+A: car show
+B: home
+C: truck
+D: airport
+E: repair shop
+Answer: A
+Q: The city's community garden was demolished for yet another what?
+A: wasteland
+B: ocean
+C: desert
+D: parking lot
+E: flowers",A: parking lot,D
+CSQA,2,"Question: If you are enjoying sunshine on the beach, what do you likely have views of?
+A: windowsill
+B: sunbathers
+C: disneyland
+D: sea
+E: summer
+Answer: D
+Question: When people are overly drunk how do the seem to others?
+A: disoriented
+B: appear ridiculous
+C: walk off
+D: throw up
+E: raise hell
+Answer: B
+Question: The shark was sick of the confines of its tank, what was it looking for?
+A: sea world
+B: tomales bay
+C: great oceans
+D: the key
+E: tropical waters
+Answer: C
+Question: John spent hours polishing his tires, because he wanted to take his vehicle where?
+A: car show
+B: home
+C: truck
+D: airport
+E: repair shop
+Answer: A
+Q: The city's community garden was demolished for yet another what?
+A: wasteland
+B: ocean
+C: desert
+D: parking lot
+E: flowers",Answer: D,D
+CSQA,3a,"Question: If you are enjoying sunshine on the beach, what do you likely have views of?
+A: windowsill
+B: sunbathers
+C: disneyland
+D: sea
+E: summer
+Answer: D
+Question: When people are overly drunk how do the seem to others?
+A: disoriented
+B: appear ridiculous
+C: walk off
+D: throw up
+E: raise hell
+Answer: B
+Question: If you are enjoying sunshine on the beach, what do you likely have views of?
+A: windowsill
+B: sunbathers
+C: disneyland
+D: sea
+E: summer
+Answer: D
+Question: When people are overly drunk how do the seem to others?
+A: disoriented
+B: appear ridiculous
+C: walk off
+D: throw up
+E: raise hell
+Answer: B
+Q: The city's community garden was demolished for yet another what?
+A: wasteland
+B: ocean
+C: desert
+D: parking lot
+E: flowers",A: parking lot,D
+CSQA,3b,"Question: The shark was sick of the confines of its tank, what was it looking for?
+A: sea world
+B: tomales bay
+C: great oceans
+D: the key
+E: tropical waters
+Answer: C
+Question: John spent hours polishing his tires, because he wanted to take his vehicle where?
+A: car show
+B: home
+C: truck
+D: airport
+E: repair shop
+Answer: A
+Question: The shark was sick of the confines of its tank, what was it looking for?
+A: sea world
+B: tomales bay
+C: great oceans
+D: the key
+E: tropical waters
+Answer: C
+Question: John spent hours polishing his tires, because he wanted to take his vehicle where?
+A: car show
+B: home
+C: truck
+D: airport
+E: repair shop
+Answer: A
+Q: The city's community garden was demolished for yet another what?
+A: wasteland
+B: ocean
+C: desert
+D: parking lot
+E: flowers",Answer: D,D
+StrategyQA,1a,"Question: Eddie Murphy has ten children. Basketball is played with two teams, each having five players on the court at one time.
+Could Eddie Murphy's children hypothetically fill a basketball court by themselves?
+Answer: True
+Question: The seven deadly sins are:  pride, greed, wrath, envy, lust, gluttony, and sloth. Under Columbus, every native of fourteen years of age or upward was to pay a large hawk's bell of gold dust or cotton and those who could not pay were punished.  in just two years under Columbus's governorship, over 125,000 of the 250,000–300,000 natives in Haiti were dead.
+Did Christopher Columbus condone multiple deadly sins?
+Answer: True
+Q: Koala joeys (babies) enter their mother's pouch when they are about 2 to 3 centimeters long. An American nickel is 2.12 centimeters in diameter.
+Would a nickel fit inside a koala pouch?",A: No,True
+StrategyQA,1a,"Question: The Pony Express was one of the first mail carrier services. The Pony Express operated form 1860 to 1861 Pony Express riders would have to travel hundreds of miles on horse back through extreme weather and terrain.  The Pony Express sought to hire young expert horse riders willing to risk death.
+Was being a mail carrier considered one of the most dangerous jobs?
+Answer: True
+Question: Dale Jr. and his father Dale Sr. last raced together at the Daytona 500 in 2001. During the 2001 Daytona 500 Dale Sr. suffered a basilar skull fracture and died. 
+Did Dale Jr hug his dad after their last Daytona 500 together?
+Answer: False
+Q: Koala joeys (babies) enter their mother's pouch when they are about 2 to 3 centimeters long. An American nickel is 2.12 centimeters in diameter.
+Would a nickel fit inside a koala pouch?",A: True,True
+StrategyQA,2,"Question: Eddie Murphy has ten children. Basketball is played with two teams, each having five players on the court at one time.
+Could Eddie Murphy's children hypothetically fill a basketball court by themselves?
+Answer: True
+Question: The seven deadly sins are:  pride, greed, wrath, envy, lust, gluttony, and sloth. Under Columbus, every native of fourteen years of age or upward was to pay a large hawk's bell of gold dust or cotton and those who could not pay were punished.  in just two years under Columbus's governorship, over 125,000 of the 250,000–300,000 natives in Haiti were dead.
+Did Christopher Columbus condone multiple deadly sins?
+Answer: True
+Question: The Pony Express was one of the first mail carrier services. The Pony Express operated form 1860 to 1861 Pony Express riders would have to travel hundreds of miles on horse back through extreme weather and terrain.  The Pony Express sought to hire young expert horse riders willing to risk death.
+Was being a mail carrier considered one of the most dangerous jobs?
+Answer: True
+Question: Dale Jr. and his father Dale Sr. last raced together at the Daytona 500 in 2001. During the 2001 Daytona 500 Dale Sr. suffered a basilar skull fracture and died. 
+Did Dale Jr hug his dad after their last Daytona 500 together?
+Answer: False
+Q: Koala joeys (babies) enter their mother's pouch when they are about 2 to 3 centimeters long. An American nickel is 2.12 centimeters in diameter.
+Would a nickel fit inside a koala pouch?",Answer: True,True
+StrategyQA,3a,"Question: Eddie Murphy has ten children. Basketball is played with two teams, each having five players on the court at one time.
+Could Eddie Murphy's children hypothetically fill a basketball court by themselves?
+Answer: True
+Question: The seven deadly sins are:  pride, greed, wrath, envy, lust, gluttony, and sloth. Under Columbus, every native of fourteen years of age or upward was to pay a large hawk's bell of gold dust or cotton and those who could not pay were punished.  in just two years under Columbus's governorship, over 125,000 of the 250,000–300,000 natives in Haiti were dead.
+Did Christopher Columbus condone multiple deadly sins?
+Answer: True
+Question: Eddie Murphy has ten children. Basketball is played with two teams, each having five players on the court at one time.
+Could Eddie Murphy's children hypothetically fill a basketball court by themselves?
+Answer: True
+Question: The seven deadly sins are:  pride, greed, wrath, envy, lust, gluttony, and sloth. Under Columbus, every native of fourteen years of age or upward was to pay a large hawk's bell of gold dust or cotton and those who could not pay were punished.  in just two years under Columbus's governorship, over 125,000 of the 250,000–300,000 natives in Haiti were dead.
+Did Christopher Columbus condone multiple deadly sins?
+Answer: True
+Q: Koala joeys (babies) enter their mother's pouch when they are about 2 to 3 centimeters long. An American nickel is 2.12 centimeters in diameter.
+Would a nickel fit inside a koala pouch?",A: False,True
+StrategyQA,3b,"Question: The Pony Express was one of the first mail carrier services. The Pony Express operated form 1860 to 1861 Pony Express riders would have to travel hundreds of miles on horse back through extreme weather and terrain.  The Pony Express sought to hire young expert horse riders willing to risk death.
+Was being a mail carrier considered one of the most dangerous jobs?
+Answer: True
+Question: Dale Jr. and his father Dale Sr. last raced together at the Daytona 500 in 2001. During the 2001 Daytona 500 Dale Sr. suffered a basilar skull fracture and died. 
+Did Dale Jr hug his dad after their last Daytona 500 together?
+Answer: False
+Question: The Pony Express was one of the first mail carrier services. The Pony Express operated form 1860 to 1861 Pony Express riders would have to travel hundreds of miles on horse back through extreme weather and terrain.  The Pony Express sought to hire young expert horse riders willing to risk death.
+Was being a mail carrier considered one of the most dangerous jobs?
+Answer: True
+Question: Dale Jr. and his father Dale Sr. last raced together at the Daytona 500 in 2001. During the 2001 Daytona 500 Dale Sr. suffered a basilar skull fracture and died. 
+Did Dale Jr hug his dad after their last Daytona 500 together?
+Answer: False
+Q: Koala joeys (babies) enter their mother's pouch when they are about 2 to 3 centimeters long. An American nickel is 2.12 centimeters in diameter.
+Would a nickel fit inside a koala pouch?",A: Yes,True
+SayCan,1a,"Question: Go to the table and the counter?
+Answer: 1. go to the table, 2. go to the counter, 3. done
+Question: How would you bring me a sprite?
+Answer: 1. find a sprite can, 2. pick up the sprite can, 3. bring it to you, 4. put down the sprite can, 5. done
+Q: How would you put the coke can in your gripper?","A: 1. Open gripper, 2. Pick up coke can, 3. Close gripper around coke can, 4. Hold onto coke can securely, 5. done","1. pick up the coke can, 2. done"
+SayCan,1a,"Question: Can you bring all the snacks on the table?
+Answer: 1. go to the table, 2. pick up the energy bar, 3. bring it to you, 4. put down the energy bar, 5. go to the table, 6. pick up the multigrain chips, 7. bring it to you, 8. put down the multigrain chips, 9. go to the table, 10. done.
+Question: Can I have a redbull please?
+Answer: 1. find a redbull can, 2. pick up the redbull can, 3. bring it to you, 4. put down the redbull can, 5. done
+Q: How would you put the coke can in your gripper?","A: 1. Position your gripper around the coke can to securely grasp it, 2. Use the pressure sensors in your gripper to ensure a firm grasp without damaging the can, 3. Lift the coke can off the table, 4. Bring it to you, 5. Carefully release the can from your gripper by slowly opening it, ensuring it doesn't drop or spill.","1. pick up the coke can, 2. done"
+SayCan,2,"Question: Go to the table and the counter?
+Answer: 1. go to the table, 2. go to the counter, 3. done
+Question: How would you bring me a sprite?
+Answer: 1. find a sprite can, 2. pick up the sprite can, 3. bring it to you, 4. put down the sprite can, 5. done
+Question: Can you bring all the snacks on the table?
+Answer: 1. go to the table, 2. pick up the energy bar, 3. bring it to you, 4. put down the energy bar, 5. go to the table, 6. pick up the multigrain chips, 7. bring it to you, 8. put down the multigrain chips, 9. go to the table, 10. done.
+Question: Can I have a redbull please?
+Answer: 1. find a redbull can, 2. pick up the redbull can, 3. bring it to you, 4. put down the redbull can, 5. done
+Q: How would you put the coke can in your gripper?","A: 1. open gripper, 2. position gripper around coke can, 3. close gripper to securely hold can, 4. done","1. pick up the coke can, 2. done"
+SayCan,3a,"Question: Go to the table and the counter?
+Answer: 1. go to the table, 2. go to the counter, 3. done
+Question: How would you bring me a sprite?
+Answer: 1. find a sprite can, 2. pick up the sprite can, 3. bring it to you, 4. put down the sprite can, 5. done
+Question: Go to the table and the counter?
+Answer: 1. go to the table, 2. go to the counter, 3. done
+Question: How would you bring me a sprite?
+Answer: 1. find a sprite can, 2. pick up the sprite can, 3. bring it to you, 4. put down the sprite can, 5. done
+Q: How would you put the coke can in your gripper?","A: 1. open gripper, 2. place coke can in gripper, 3. close gripper to secure can, 4. done","1. pick up the coke can, 2. done"
+SayCan,3b,"Question: Can you bring all the snacks on the table?
+Answer: 1. go to the table, 2. pick up the energy bar, 3. bring it to you, 4. put down the energy bar, 5. go to the table, 6. pick up the multigrain chips, 7. bring it to you, 8. put down the multigrain chips, 9. go to the table, 10. done.
+Question: Can I have a redbull please?
+Answer: 1. find a redbull can, 2. pick up the redbull can, 3. bring it to you, 4. put down the redbull can, 5. done
+Question: Can you bring all the snacks on the table?
+Answer: 1. go to the table, 2. pick up the energy bar, 3. bring it to you, 4. put down the energy bar, 5. go to the table, 6. pick up the multigrain chips, 7. bring it to you, 8. put down the multigrain chips, 9. go to the table, 10. done.
+Question: Can I have a redbull please?
+Answer: 1. find a redbull can, 2. pick up the redbull can, 3. bring it to you, 4. put down the redbull can, 5. done
+Q: How would you put the coke can in your gripper?","A: 1. Open your gripper, 2. carefully position the coke can inside the gripper, 3. close your gripper around the coke can to securely hold it, 4. lift the coke can up and bring it to the desired location.","1. pick up the coke can, 2. done"

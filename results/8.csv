@@ -1,0 +1,395 @@
+Task Class,Case,Prompt,Response,Expected
+Math,1a,"Question: Flies are Betty's frog's favorite food. Every day the frog eats 2 flies. Betty puts the flies she finds in a bottle. In the morning Betty catches 5 flies inside a bottle, and in the afternoon she catches 6 more, but when she removes the lid, one escapes.  Betty wants to gather the whole week's food for her frog. How many more flies does she need?
+Answer: The frog eats 2 flies/day * 7 days/week = <<2*7=14>>14 flies a week.
+Betty catches flies in the morning and in the afternoon, for a total of 5 flies + 6 flies = <<5+6=11>>11 flies.
+But 1 fly escapes, leaving 11 flies - 1 fly = <<11-1=10>>10 flies.
+To get her frog's food for the whole week, Betty needs 14 flies - 10 flies = <<14-10=4>>4 more flies.
+#### 4
+Question: Mr. Maximilian is a dairy animal farmer and has 140 cows on his farm. Forty percent of the cows on his farm have a red spot, 25 percent of the cows without a red spot have a blue spot and the remaining cows do not have any spot. How many cows on the farm have no spot?
+Answer: If Mr. Maximilian has 140 cows and 40% of them have red spots, then 40/100*140 = <<140*40/100=56>>56 cows have red spots.
+The number of cows with no red spot is 140-56 = <<140-56=84>>84 cows.
+Out of the 84 cows without a red spot, 25% of them have a blue spot, a total of 25/100*84 = <<25/100*84=21>>21 cows.
+The number of cows without any spot is 84-21 =<<84-21=63>>63 animals.
+#### 63
+Q: Sue lives in a fun neighborhood.  One weekend, the neighbors decided to play a prank on Sue.  On Friday morning, the neighbors placed 18 pink plastic flamingos out on Sue's front yard.  On Saturday morning, the neighbors took back one third of the flamingos, painted them white, and put these newly painted white flamingos back out on Sue's front yard.  Then, on Sunday morning, they added another 18 pink plastic flamingos to the collection. At noon on Sunday, how many more pink plastic flamingos were out than white plastic flamingos?","A: 
+On Saturday morning, one third of the 18 pink flamingos were taken back, which is 18/3 = <<18/3=6>>6 flamingos.
+After painting these 6 flamingos white, they were put out in the yard, adding up to a total of 18 existing white flamingos + 6 newly painted white flamingos = <<18+6=24>>24 white flamingos.
+On Sunday morning, another 18 pink flamingos were added, making the total number of pink flamingos 18 existing pink flamingos + 18 new pink flamingos = <<18+18=36>>36 pink flamingos.
+Therefore, there are 36 pink flamingos - 24 white flamingos = <<36-24=12>>12 more pink flamingos than white flamingos.","On Saturday, one third of the original 18 pink flamingos were removed and painted white: 18*1/3=<<18*1/3=6>>6 white flamingos.
+This left 18 pink - 6 = <<18-6=12>>12 pink flamingos.
+On Sunday, 18 more pink flamingos were added, for a total of 12 + 18 = <<12+18=30>>30 pink flamingos on the front lawn.
+Altogether, there were 30 pink and 6 white flamingos on the lawn, so there were 30 pink - 6 white =<<30-6=24>>24 more pink flamingos.
+#### 24"
+Math,1a,"Question: Eighteen hours ago, Beth and I took 100 photographs of our project. Today, Beth and I will take 20% fewer photographs of the same project. If we were to take 300 photographs of the project, how many photographs would we take to reach the target?
+Answer: If you took 100 photographs of the project 18 hours ago, and today 20% few photographs have been taken, then 20/100*100 = 20 fewer photographs of the project have been taken today.
+The total number of photographs of the project that have been taken today is 100-20 = <<100-20=80>>80
+So far, you've taken 80+100 = <<80+100=180>>180 photographs of the project.
+Since the target number of photographs is 300, the number of photographs that you need to take to reach the target is 300-180 = <<300-180=120>>120
+#### 120
+Question: Jessica has one hour to take an exam. She has answered 16 out of 80 questions. She has used 12 minutes of her time. If she keeps up this same pace, how many minutes will be left when she finishes the exam?
+Answer: She takes .75 minutes to answer a question because 12 / 16 = <<12/16=.75>>.75
+It will take her 60 minutes to take the entire exam because 80 x .75 = <<80*.75=60>>60
+She has 0 minutes left when she is done because 60 - 60 = <<60-60=0>>0
+#### 0
+Q: Sue lives in a fun neighborhood.  One weekend, the neighbors decided to play a prank on Sue.  On Friday morning, the neighbors placed 18 pink plastic flamingos out on Sue's front yard.  On Saturday morning, the neighbors took back one third of the flamingos, painted them white, and put these newly painted white flamingos back out on Sue's front yard.  Then, on Sunday morning, they added another 18 pink plastic flamingos to the collection. At noon on Sunday, how many more pink plastic flamingos were out than white plastic flamingos?","First, let's calculate how many pink flamingos are out on Sunday. 
+Initially, there were 18 pink flamingos out. On Sunday, another 18 pink flamingos were added, making a total of 18 + 18 = 36 pink flamingos out.
+
+Now, let's calculate how many white flamingos are out. 
+Initially, one third of the flamingos were taken back on Saturday to paint them white, which means 18 / 3 = 6 flamingos were painted white and placed back out.
+
+Therefore, there are 36 - 6 = 30 more pink plastic flamingos out than white plastic flamingos at noon on Sunday.","On Saturday, one third of the original 18 pink flamingos were removed and painted white: 18*1/3=<<18*1/3=6>>6 white flamingos.
+This left 18 pink - 6 = <<18-6=12>>12 pink flamingos.
+On Sunday, 18 more pink flamingos were added, for a total of 12 + 18 = <<12+18=30>>30 pink flamingos on the front lawn.
+Altogether, there were 30 pink and 6 white flamingos on the lawn, so there were 30 pink - 6 white =<<30-6=24>>24 more pink flamingos.
+#### 24"
+Math,2,"Question: Flies are Betty's frog's favorite food. Every day the frog eats 2 flies. Betty puts the flies she finds in a bottle. In the morning Betty catches 5 flies inside a bottle, and in the afternoon she catches 6 more, but when she removes the lid, one escapes.  Betty wants to gather the whole week's food for her frog. How many more flies does she need?
+Answer: The frog eats 2 flies/day * 7 days/week = <<2*7=14>>14 flies a week.
+Betty catches flies in the morning and in the afternoon, for a total of 5 flies + 6 flies = <<5+6=11>>11 flies.
+But 1 fly escapes, leaving 11 flies - 1 fly = <<11-1=10>>10 flies.
+To get her frog's food for the whole week, Betty needs 14 flies - 10 flies = <<14-10=4>>4 more flies.
+#### 4
+Question: Mr. Maximilian is a dairy animal farmer and has 140 cows on his farm. Forty percent of the cows on his farm have a red spot, 25 percent of the cows without a red spot have a blue spot and the remaining cows do not have any spot. How many cows on the farm have no spot?
+Answer: If Mr. Maximilian has 140 cows and 40% of them have red spots, then 40/100*140 = <<140*40/100=56>>56 cows have red spots.
+The number of cows with no red spot is 140-56 = <<140-56=84>>84 cows.
+Out of the 84 cows without a red spot, 25% of them have a blue spot, a total of 25/100*84 = <<25/100*84=21>>21 cows.
+The number of cows without any spot is 84-21 =<<84-21=63>>63 animals.
+#### 63
+Question: Eighteen hours ago, Beth and I took 100 photographs of our project. Today, Beth and I will take 20% fewer photographs of the same project. If we were to take 300 photographs of the project, how many photographs would we take to reach the target?
+Answer: If you took 100 photographs of the project 18 hours ago, and today 20% few photographs have been taken, then 20/100*100 = 20 fewer photographs of the project have been taken today.
+The total number of photographs of the project that have been taken today is 100-20 = <<100-20=80>>80
+So far, you've taken 80+100 = <<80+100=180>>180 photographs of the project.
+Since the target number of photographs is 300, the number of photographs that you need to take to reach the target is 300-180 = <<300-180=120>>120
+#### 120
+Question: Jessica has one hour to take an exam. She has answered 16 out of 80 questions. She has used 12 minutes of her time. If she keeps up this same pace, how many minutes will be left when she finishes the exam?
+Answer: She takes .75 minutes to answer a question because 12 / 16 = <<12/16=.75>>.75
+It will take her 60 minutes to take the entire exam because 80 x .75 = <<80*.75=60>>60
+She has 0 minutes left when she is done because 60 - 60 = <<60-60=0>>0
+#### 0
+Q: Sue lives in a fun neighborhood.  One weekend, the neighbors decided to play a prank on Sue.  On Friday morning, the neighbors placed 18 pink plastic flamingos out on Sue's front yard.  On Saturday morning, the neighbors took back one third of the flamingos, painted them white, and put these newly painted white flamingos back out on Sue's front yard.  Then, on Sunday morning, they added another 18 pink plastic flamingos to the collection. At noon on Sunday, how many more pink plastic flamingos were out than white plastic flamingos?","A: Initially, there were 18 pink flamingos.
+
+On Saturday morning, 1/3 of the flamingos were taken back, which is 18/3 = 6 flamingos.
+
+So, after the white flamingos were placed, there were 18 - 6 = 12 pink flamingos remaining.
+
+Then, on Sunday morning, another 18 pink flamingos were added, making the total number of pink flamingos 12 + 18 = 30 pink flamingos.
+
+Since there were no white flamingos added, the number of white flamingos remained at 6.
+
+Therefore, there were 30 pink flamingos - 6 white flamingos = 24 more pink flamingos than white flamingos at noon on Sunday.","On Saturday, one third of the original 18 pink flamingos were removed and painted white: 18*1/3=<<18*1/3=6>>6 white flamingos.
+This left 18 pink - 6 = <<18-6=12>>12 pink flamingos.
+On Sunday, 18 more pink flamingos were added, for a total of 12 + 18 = <<12+18=30>>30 pink flamingos on the front lawn.
+Altogether, there were 30 pink and 6 white flamingos on the lawn, so there were 30 pink - 6 white =<<30-6=24>>24 more pink flamingos.
+#### 24"
+Math,3a,"Question: Flies are Betty's frog's favorite food. Every day the frog eats 2 flies. Betty puts the flies she finds in a bottle. In the morning Betty catches 5 flies inside a bottle, and in the afternoon she catches 6 more, but when she removes the lid, one escapes.  Betty wants to gather the whole week's food for her frog. How many more flies does she need?
+Answer: The frog eats 2 flies/day * 7 days/week = <<2*7=14>>14 flies a week.
+Betty catches flies in the morning and in the afternoon, for a total of 5 flies + 6 flies = <<5+6=11>>11 flies.
+But 1 fly escapes, leaving 11 flies - 1 fly = <<11-1=10>>10 flies.
+To get her frog's food for the whole week, Betty needs 14 flies - 10 flies = <<14-10=4>>4 more flies.
+#### 4
+Question: Mr. Maximilian is a dairy animal farmer and has 140 cows on his farm. Forty percent of the cows on his farm have a red spot, 25 percent of the cows without a red spot have a blue spot and the remaining cows do not have any spot. How many cows on the farm have no spot?
+Answer: If Mr. Maximilian has 140 cows and 40% of them have red spots, then 40/100*140 = <<140*40/100=56>>56 cows have red spots.
+The number of cows with no red spot is 140-56 = <<140-56=84>>84 cows.
+Out of the 84 cows without a red spot, 25% of them have a blue spot, a total of 25/100*84 = <<25/100*84=21>>21 cows.
+The number of cows without any spot is 84-21 =<<84-21=63>>63 animals.
+#### 63
+Question: Flies are Betty's frog's favorite food. Every day the frog eats 2 flies. Betty puts the flies she finds in a bottle. In the morning Betty catches 5 flies inside a bottle, and in the afternoon she catches 6 more, but when she removes the lid, one escapes.  Betty wants to gather the whole week's food for her frog. How many more flies does she need?
+Answer: The frog eats 2 flies/day * 7 days/week = <<2*7=14>>14 flies a week.
+Betty catches flies in the morning and in the afternoon, for a total of 5 flies + 6 flies = <<5+6=11>>11 flies.
+But 1 fly escapes, leaving 11 flies - 1 fly = <<11-1=10>>10 flies.
+To get her frog's food for the whole week, Betty needs 14 flies - 10 flies = <<14-10=4>>4 more flies.
+#### 4
+Question: Mr. Maximilian is a dairy animal farmer and has 140 cows on his farm. Forty percent of the cows on his farm have a red spot, 25 percent of the cows without a red spot have a blue spot and the remaining cows do not have any spot. How many cows on the farm have no spot?
+Answer: If Mr. Maximilian has 140 cows and 40% of them have red spots, then 40/100*140 = <<140*40/100=56>>56 cows have red spots.
+The number of cows with no red spot is 140-56 = <<140-56=84>>84 cows.
+Out of the 84 cows without a red spot, 25% of them have a blue spot, a total of 25/100*84 = <<25/100*84=21>>21 cows.
+The number of cows without any spot is 84-21 =<<84-21=63>>63 animals.
+#### 63
+Q: Sue lives in a fun neighborhood.  One weekend, the neighbors decided to play a prank on Sue.  On Friday morning, the neighbors placed 18 pink plastic flamingos out on Sue's front yard.  On Saturday morning, the neighbors took back one third of the flamingos, painted them white, and put these newly painted white flamingos back out on Sue's front yard.  Then, on Sunday morning, they added another 18 pink plastic flamingos to the collection. At noon on Sunday, how many more pink plastic flamingos were out than white plastic flamingos?","First, we need to determine how many pink plastic flamingos were out on Sunday.
+
+On Friday morning, there were 18 pink plastic flamingos.
+On Saturday morning, 1/3 of the flamingos were taken back, so 18 / 3 = 6 flamingos were taken.
+After painting them white, 6 flamingos were put back out, making a total of 18 - 6 + 6 = 18 pink and 6 white flamingos on Saturday.
+On Sunday morning, another 18 pink flamingos were added, making a total of 18 + 18 = 36 pink flamingos on Sunday.
+
+Since there are 36 pink flamingos and 6 white flamingos, there are 36 - 6 = 30 more pink flamingos than white flamingos out on Sunday. 
+
+Therefore, there are 30 more pink plastic flamingos out than white plastic flamingos on Sunday.","On Saturday, one third of the original 18 pink flamingos were removed and painted white: 18*1/3=<<18*1/3=6>>6 white flamingos.
+This left 18 pink - 6 = <<18-6=12>>12 pink flamingos.
+On Sunday, 18 more pink flamingos were added, for a total of 12 + 18 = <<12+18=30>>30 pink flamingos on the front lawn.
+Altogether, there were 30 pink and 6 white flamingos on the lawn, so there were 30 pink - 6 white =<<30-6=24>>24 more pink flamingos.
+#### 24"
+Math,3b,"Question: Eighteen hours ago, Beth and I took 100 photographs of our project. Today, Beth and I will take 20% fewer photographs of the same project. If we were to take 300 photographs of the project, how many photographs would we take to reach the target?
+Answer: If you took 100 photographs of the project 18 hours ago, and today 20% few photographs have been taken, then 20/100*100 = 20 fewer photographs of the project have been taken today.
+The total number of photographs of the project that have been taken today is 100-20 = <<100-20=80>>80
+So far, you've taken 80+100 = <<80+100=180>>180 photographs of the project.
+Since the target number of photographs is 300, the number of photographs that you need to take to reach the target is 300-180 = <<300-180=120>>120
+#### 120
+Question: Jessica has one hour to take an exam. She has answered 16 out of 80 questions. She has used 12 minutes of her time. If she keeps up this same pace, how many minutes will be left when she finishes the exam?
+Answer: She takes .75 minutes to answer a question because 12 / 16 = <<12/16=.75>>.75
+It will take her 60 minutes to take the entire exam because 80 x .75 = <<80*.75=60>>60
+She has 0 minutes left when she is done because 60 - 60 = <<60-60=0>>0
+#### 0
+Question: Eighteen hours ago, Beth and I took 100 photographs of our project. Today, Beth and I will take 20% fewer photographs of the same project. If we were to take 300 photographs of the project, how many photographs would we take to reach the target?
+Answer: If you took 100 photographs of the project 18 hours ago, and today 20% few photographs have been taken, then 20/100*100 = 20 fewer photographs of the project have been taken today.
+The total number of photographs of the project that have been taken today is 100-20 = <<100-20=80>>80
+So far, you've taken 80+100 = <<80+100=180>>180 photographs of the project.
+Since the target number of photographs is 300, the number of photographs that you need to take to reach the target is 300-180 = <<300-180=120>>120
+#### 120
+Question: Jessica has one hour to take an exam. She has answered 16 out of 80 questions. She has used 12 minutes of her time. If she keeps up this same pace, how many minutes will be left when she finishes the exam?
+Answer: She takes .75 minutes to answer a question because 12 / 16 = <<12/16=.75>>.75
+It will take her 60 minutes to take the entire exam because 80 x .75 = <<80*.75=60>>60
+She has 0 minutes left when she is done because 60 - 60 = <<60-60=0>>0
+#### 0
+Q: Sue lives in a fun neighborhood.  One weekend, the neighbors decided to play a prank on Sue.  On Friday morning, the neighbors placed 18 pink plastic flamingos out on Sue's front yard.  On Saturday morning, the neighbors took back one third of the flamingos, painted them white, and put these newly painted white flamingos back out on Sue's front yard.  Then, on Sunday morning, they added another 18 pink plastic flamingos to the collection. At noon on Sunday, how many more pink plastic flamingos were out than white plastic flamingos?","First, let's find out how many flamingos were originally placed on Sue's front yard:
+18 pink flamingos were placed on Friday morning.
+
+Then, on Saturday morning, 1/3 of the flamingos (18 / 3 = 6) were taken back and painted white. So, 18 - 6 = 12 pink flamingos were left.
+
+After painting the 6 flamingos white, there were 6 white flamingos added to the collection. Therefore, there are now 12 pink flamingos and 6 white flamingos.
+
+On Sunday morning, another 18 pink flamingos were added. So, the total number of pink flamingos is now 12 + 18 = 30 pink flamingos.
+
+Since there are only 6 white flamingos, there are 30 - 6 = 24 more pink flamingos than white flamingos out on Sue's front yard at noon on Sunday.","On Saturday, one third of the original 18 pink flamingos were removed and painted white: 18*1/3=<<18*1/3=6>>6 white flamingos.
+This left 18 pink - 6 = <<18-6=12>>12 pink flamingos.
+On Sunday, 18 more pink flamingos were added, for a total of 12 + 18 = <<12+18=30>>30 pink flamingos on the front lawn.
+Altogether, there were 30 pink and 6 white flamingos on the lawn, so there were 30 pink - 6 white =<<30-6=24>>24 more pink flamingos.
+#### 24"
+CSQA,1a,"Question: A european red fox roams in the wild, what side of the earth is it likely on?
+A: england
+B: undergrowth
+C: northern hemisphere
+D: nantucket
+E: outer space
+Answer: C
+Question: The fugu blowfish is found in what environment?
+A: atlantic ocean
+B: fish market
+C: sea of japan
+D: water
+E: rock band
+Answer: C
+Q: The forgotten leftovers had gotten quite old, he found it covered in mold in the back of his what?
+A: carpet
+B: refrigerator
+C: breadbox
+D: fridge
+E: coach",Answer: B,B
+CSQA,1a,"Question: As the human rode in his spacecraft in orbit around his home planet, what did he have a view of?
+A: workplace
+B: international space station
+C: anywhere on earth
+D: places he knows well
+E: strip club
+Answer: C
+Question: Where is likely to have a walk in type wardrobe?
+A: recreational vehicle
+B: clothes cupboard
+C: house
+D: mansion
+E: bedroom
+Answer: D
+Q: The forgotten leftovers had gotten quite old, he found it covered in mold in the back of his what?
+A: carpet
+B: refrigerator
+C: breadbox
+D: fridge
+E: coach",A: refrigerator,B
+CSQA,2,"Question: A european red fox roams in the wild, what side of the earth is it likely on?
+A: england
+B: undergrowth
+C: northern hemisphere
+D: nantucket
+E: outer space
+Answer: C
+Question: The fugu blowfish is found in what environment?
+A: atlantic ocean
+B: fish market
+C: sea of japan
+D: water
+E: rock band
+Answer: C
+Question: As the human rode in his spacecraft in orbit around his home planet, what did he have a view of?
+A: workplace
+B: international space station
+C: anywhere on earth
+D: places he knows well
+E: strip club
+Answer: C
+Question: Where is likely to have a walk in type wardrobe?
+A: recreational vehicle
+B: clothes cupboard
+C: house
+D: mansion
+E: bedroom
+Answer: D
+Q: The forgotten leftovers had gotten quite old, he found it covered in mold in the back of his what?
+A: carpet
+B: refrigerator
+C: breadbox
+D: fridge
+E: coach",Answer: B,B
+CSQA,3a,"Question: A european red fox roams in the wild, what side of the earth is it likely on?
+A: england
+B: undergrowth
+C: northern hemisphere
+D: nantucket
+E: outer space
+Answer: C
+Question: The fugu blowfish is found in what environment?
+A: atlantic ocean
+B: fish market
+C: sea of japan
+D: water
+E: rock band
+Answer: C
+Question: A european red fox roams in the wild, what side of the earth is it likely on?
+A: england
+B: undergrowth
+C: northern hemisphere
+D: nantucket
+E: outer space
+Answer: C
+Question: The fugu blowfish is found in what environment?
+A: atlantic ocean
+B: fish market
+C: sea of japan
+D: water
+E: rock band
+Answer: C
+Q: The forgotten leftovers had gotten quite old, he found it covered in mold in the back of his what?
+A: carpet
+B: refrigerator
+C: breadbox
+D: fridge
+E: coach",Answer: B: refrigerator,B
+CSQA,3b,"Question: As the human rode in his spacecraft in orbit around his home planet, what did he have a view of?
+A: workplace
+B: international space station
+C: anywhere on earth
+D: places he knows well
+E: strip club
+Answer: C
+Question: Where is likely to have a walk in type wardrobe?
+A: recreational vehicle
+B: clothes cupboard
+C: house
+D: mansion
+E: bedroom
+Answer: D
+Question: As the human rode in his spacecraft in orbit around his home planet, what did he have a view of?
+A: workplace
+B: international space station
+C: anywhere on earth
+D: places he knows well
+E: strip club
+Answer: C
+Question: Where is likely to have a walk in type wardrobe?
+A: recreational vehicle
+B: clothes cupboard
+C: house
+D: mansion
+E: bedroom
+Answer: D
+Q: The forgotten leftovers had gotten quite old, he found it covered in mold in the back of his what?
+A: carpet
+B: refrigerator
+C: breadbox
+D: fridge
+E: coach",Answer: B: refrigerator,B
+StrategyQA,1a,"Question: The US President is the commander in chief of the US military. The executive branch of the USA includes the President. The President has power to veto.
+Can the US branch of government that has power over the military also have the power to veto?
+Answer: True
+Question: Second graders are often aged seven or eight. The works of Wodehouse are intended for an adult audience.
+Would P. G. Wodehouse be taught in second grade?
+Answer: False
+Q: Parsifal was loosely based on a poem about Percival Percival was a Knight of the Round Table King Arthur and the Knights of the Round Table were products of British folklore
+Was the subject of Parsifal taken from British folklore?",A: False,True
+StrategyQA,1a,"Question: Lake Urmia is a salt lake in Iran. Saltwater crocodiles have special glands that allow them to survive in salt water. Alligators lack glands to stay in salt water for extended periods of time.
+Would alligator best saltwater crocodile in hypothetical Lake Urmia battle?
+Answer: False
+Question: Oprah Winfrey is a billionaire A new Bugatti costs a few million dollars
+Could Oprah Winfrey buy dozens of her staff Bugatti luxury cars?
+Answer: True
+Q: Parsifal was loosely based on a poem about Percival Percival was a Knight of the Round Table King Arthur and the Knights of the Round Table were products of British folklore
+Was the subject of Parsifal taken from British folklore?","Answer: False
+
+Parsifal is actually an opera by Richard Wagner, based on the medieval epic poem Parzival by Wolfram von Eschenbach, which is a German adaptation of the Arthurian legend.",True
+StrategyQA,2,"Question: The US President is the commander in chief of the US military. The executive branch of the USA includes the President. The President has power to veto.
+Can the US branch of government that has power over the military also have the power to veto?
+Answer: True
+Question: Second graders are often aged seven or eight. The works of Wodehouse are intended for an adult audience.
+Would P. G. Wodehouse be taught in second grade?
+Answer: False
+Question: Lake Urmia is a salt lake in Iran. Saltwater crocodiles have special glands that allow them to survive in salt water. Alligators lack glands to stay in salt water for extended periods of time.
+Would alligator best saltwater crocodile in hypothetical Lake Urmia battle?
+Answer: False
+Question: Oprah Winfrey is a billionaire A new Bugatti costs a few million dollars
+Could Oprah Winfrey buy dozens of her staff Bugatti luxury cars?
+Answer: True
+Q: Parsifal was loosely based on a poem about Percival Percival was a Knight of the Round Table King Arthur and the Knights of the Round Table were products of British folklore
+Was the subject of Parsifal taken from British folklore?",Answer: False,True
+StrategyQA,3a,"Question: The US President is the commander in chief of the US military. The executive branch of the USA includes the President. The President has power to veto.
+Can the US branch of government that has power over the military also have the power to veto?
+Answer: True
+Question: Second graders are often aged seven or eight. The works of Wodehouse are intended for an adult audience.
+Would P. G. Wodehouse be taught in second grade?
+Answer: False
+Question: The US President is the commander in chief of the US military. The executive branch of the USA includes the President. The President has power to veto.
+Can the US branch of government that has power over the military also have the power to veto?
+Answer: True
+Question: Second graders are often aged seven or eight. The works of Wodehouse are intended for an adult audience.
+Would P. G. Wodehouse be taught in second grade?
+Answer: False
+Q: Parsifal was loosely based on a poem about Percival Percival was a Knight of the Round Table King Arthur and the Knights of the Round Table were products of British folklore
+Was the subject of Parsifal taken from British folklore?",A: False,True
+StrategyQA,3b,"Question: Lake Urmia is a salt lake in Iran. Saltwater crocodiles have special glands that allow them to survive in salt water. Alligators lack glands to stay in salt water for extended periods of time.
+Would alligator best saltwater crocodile in hypothetical Lake Urmia battle?
+Answer: False
+Question: Oprah Winfrey is a billionaire A new Bugatti costs a few million dollars
+Could Oprah Winfrey buy dozens of her staff Bugatti luxury cars?
+Answer: True
+Question: Lake Urmia is a salt lake in Iran. Saltwater crocodiles have special glands that allow them to survive in salt water. Alligators lack glands to stay in salt water for extended periods of time.
+Would alligator best saltwater crocodile in hypothetical Lake Urmia battle?
+Answer: False
+Question: Oprah Winfrey is a billionaire A new Bugatti costs a few million dollars
+Could Oprah Winfrey buy dozens of her staff Bugatti luxury cars?
+Answer: True
+Q: Parsifal was loosely based on a poem about Percival Percival was a Knight of the Round Table King Arthur and the Knights of the Round Table were products of British folklore
+Was the subject of Parsifal taken from British folklore?",False,True
+SayCan,1a,"Question: Go to the table and the counter?
+Answer: 1. go to the table, 2. go to the counter, 3. done
+Question: Can I have a redbull please?
+Answer: 1. find a redbull can, 2. pick up the redbull can, 3. bring it to you, 4. put down the redbull can, 5. done
+Q: Can you bring me something salty?","A: 1. find something salty, 2. bring it to you, 3. give it to you, 4. done","1. find the sea salt chips, 2. pick up the sea salt chips, 3. bring it to you, 4. put down the sea salt chips, 5. done"
+SayCan,1a,"Question: Bring me a fruit.
+Answer: 1. find a banana, 2. pick up the banana, 3. bring it to you, 4. put down the banana, 5. done
+Question: Clean off the table.
+Answer: 1. go to the table, 2. pick up the orange, 3. go to the trash, 4. put down the orange, 5. go to the table, 6. pick up the rice chips, 7. go to the trash, 8. put down the rice chips, 9. done
+Q: Can you bring me something salty?","A: 1. find a bag of potato chips, 2. bring you the bag of potato chips, 3. put down the bag of potato chips, 4. done","1. find the sea salt chips, 2. pick up the sea salt chips, 3. bring it to you, 4. put down the sea salt chips, 5. done"
+SayCan,2,"Question: Go to the table and the counter?
+Answer: 1. go to the table, 2. go to the counter, 3. done
+Question: Can I have a redbull please?
+Answer: 1. find a redbull can, 2. pick up the redbull can, 3. bring it to you, 4. put down the redbull can, 5. done
+Question: Bring me a fruit.
+Answer: 1. find a banana, 2. pick up the banana, 3. bring it to you, 4. put down the banana, 5. done
+Question: Clean off the table.
+Answer: 1. go to the table, 2. pick up the orange, 3. go to the trash, 4. put down the orange, 5. go to the table, 6. pick up the rice chips, 7. go to the trash, 8. put down the rice chips, 9. done
+Q: Can you bring me something salty?","A: 1. Find something salty, 2. Pick up the salty snack, 3. Bring it to you, 4. Put down the snack, 5. Done","1. find the sea salt chips, 2. pick up the sea salt chips, 3. bring it to you, 4. put down the sea salt chips, 5. done"
+SayCan,3a,"Question: Go to the table and the counter?
+Answer: 1. go to the table, 2. go to the counter, 3. done
+Question: Can I have a redbull please?
+Answer: 1. find a redbull can, 2. pick up the redbull can, 3. bring it to you, 4. put down the redbull can, 5. done
+Question: Go to the table and the counter?
+Answer: 1. go to the table, 2. go to the counter, 3. done
+Question: Can I have a redbull please?
+Answer: 1. find a redbull can, 2. pick up the redbull can, 3. bring it to you, 4. put down the redbull can, 5. done
+Q: Can you bring me something salty?","A: 1. Find something salty, 2. Bring it to you, 3. Done","1. find the sea salt chips, 2. pick up the sea salt chips, 3. bring it to you, 4. put down the sea salt chips, 5. done"
+SayCan,3b,"Question: Bring me a fruit.
+Answer: 1. find a banana, 2. pick up the banana, 3. bring it to you, 4. put down the banana, 5. done
+Question: Clean off the table.
+Answer: 1. go to the table, 2. pick up the orange, 3. go to the trash, 4. put down the orange, 5. go to the table, 6. pick up the rice chips, 7. go to the trash, 8. put down the rice chips, 9. done
+Question: Bring me a fruit.
+Answer: 1. find a banana, 2. pick up the banana, 3. bring it to you, 4. put down the banana, 5. done
+Question: Clean off the table.
+Answer: 1. go to the table, 2. pick up the orange, 3. go to the trash, 4. put down the orange, 5. go to the table, 6. pick up the rice chips, 7. go to the trash, 8. put down the rice chips, 9. done
+Q: Can you bring me something salty?","A: Sure, I can bring you some pretzels or chips.","1. find the sea salt chips, 2. pick up the sea salt chips, 3. bring it to you, 4. put down the sea salt chips, 5. done"

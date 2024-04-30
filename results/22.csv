@@ -1,0 +1,365 @@
+Task Class,Case,Prompt,Response,Expected
+Math,1a,"Question: Devin teaches one math course per year. He taught Calculus for 4 years, Algebra for twice as many years, and Statistics for 5 times as long as he taught Algebra. How many years has Devin taught?
+Answer: Calculus: <<4=4>>4 years
+Algebra: 4(2)=8 years
+Statistics: 8(5)=<<8*5=40>>40 years
+Total number of years taught: 4+8+40=<<4+8+40=52>>52 years
+#### 52
+Question: A tailor purchased buttons for the clothes. She bought 90 green buttons, 10 more yellow buttons than the green buttons, and 5 fewer blue buttons than the green buttons. How many buttons did the tailor purchase?
+Answer: The tailor bought 90 + 10 = <<90+10=100>>100 yellow buttons.
+He also bought 90 - 5 = <<90-5=85>>85 blue buttons.
+Therefore, The tailor purchased 90 + 100 + 85 = <<90+100+85=275>>275 buttons.
+#### 275
+Q: Mark was unwell for 3 months, during which he lost 10 pounds per month. If his final weight was 70 pounds, what was his initial weight?","Let x be Mark's initial weight.
+Mark lost 10 pounds per month for 3 months, so he lost a total of 10*3 = 30 pounds.
+If his final weight was 70 pounds, then his initial weight x minus the 30 pounds lost equals 70 pounds.
+Therefore, the equation is x - 30 = 70.
+Adding 30 to both sides, we get x = 70 + 30 = 100.
+Therefore, Mark's initial weight was <<100>>100 pounds.","Since Mark was losing 10 pounds each month, in 3 months he lost 10 * 3 = <<10*3=30>>30 pounds.
+Adding the weight lost to the final weight gives an initial weight of 70 + 30 = <<70+30=100>>100 pounds.
+Mark's initial weight was 100 pounds.
+#### 100"
+Math,1a,"Question: Xavier needs 84 paper plates for a housewarming party. He already has 21 green plates and 28 red plates. How many more plates should Xavier buy?
+Answer: The total number of green and red plates is 28 + 21 = <<28+21=49>>49.
+Xavier should buy 84 − 49 = 35 more plates.
+#### 35
+Question: A car is driving through a tunnel with many turns. After a while, the car must travel through a ring that requires a total of 4 right-hand turns. After the 1st turn, it travels 5 meters. After the 2nd turn, it travels 8 meters. After the 3rd turn, it travels a little further and at the 4th turn, it immediately exits the tunnel. If the car has driven a total of 23 meters around the ring, how far did it have to travel after the 3rd turn?
+Answer: From the details given, the car has traveled 5 meters at the 1st turn + 8 meters after the 2nd turn + 0 meters after the 4th turn = <<5+8+0=13>>13 meters around the ring.
+It must therefore have driven 23 total meters – 13 calculated meters = 10 meters after the 3rd turn.
+#### 10
+Q: Mark was unwell for 3 months, during which he lost 10 pounds per month. If his final weight was 70 pounds, what was his initial weight?","A: Mark lost a total of 10 pounds/month x 3 months = 30 pounds.
+Therefore, Mark's initial weight was 70 pounds + 30 pounds = 100 pounds. 
+#### 100","Since Mark was losing 10 pounds each month, in 3 months he lost 10 * 3 = <<10*3=30>>30 pounds.
+Adding the weight lost to the final weight gives an initial weight of 70 + 30 = <<70+30=100>>100 pounds.
+Mark's initial weight was 100 pounds.
+#### 100"
+Math,2,"Question: Devin teaches one math course per year. He taught Calculus for 4 years, Algebra for twice as many years, and Statistics for 5 times as long as he taught Algebra. How many years has Devin taught?
+Answer: Calculus: <<4=4>>4 years
+Algebra: 4(2)=8 years
+Statistics: 8(5)=<<8*5=40>>40 years
+Total number of years taught: 4+8+40=<<4+8+40=52>>52 years
+#### 52
+Question: A tailor purchased buttons for the clothes. She bought 90 green buttons, 10 more yellow buttons than the green buttons, and 5 fewer blue buttons than the green buttons. How many buttons did the tailor purchase?
+Answer: The tailor bought 90 + 10 = <<90+10=100>>100 yellow buttons.
+He also bought 90 - 5 = <<90-5=85>>85 blue buttons.
+Therefore, The tailor purchased 90 + 100 + 85 = <<90+100+85=275>>275 buttons.
+#### 275
+Question: Xavier needs 84 paper plates for a housewarming party. He already has 21 green plates and 28 red plates. How many more plates should Xavier buy?
+Answer: The total number of green and red plates is 28 + 21 = <<28+21=49>>49.
+Xavier should buy 84 − 49 = 35 more plates.
+#### 35
+Question: A car is driving through a tunnel with many turns. After a while, the car must travel through a ring that requires a total of 4 right-hand turns. After the 1st turn, it travels 5 meters. After the 2nd turn, it travels 8 meters. After the 3rd turn, it travels a little further and at the 4th turn, it immediately exits the tunnel. If the car has driven a total of 23 meters around the ring, how far did it have to travel after the 3rd turn?
+Answer: From the details given, the car has traveled 5 meters at the 1st turn + 8 meters after the 2nd turn + 0 meters after the 4th turn = <<5+8+0=13>>13 meters around the ring.
+It must therefore have driven 23 total meters – 13 calculated meters = 10 meters after the 3rd turn.
+#### 10
+Q: Mark was unwell for 3 months, during which he lost 10 pounds per month. If his final weight was 70 pounds, what was his initial weight?","A: Mark's weight loss over 3 months is 10 pounds per month x 3 months = 30 pounds.
+Therefore, Mark's initial weight was 70 pounds + 30 pounds = 100 pounds. 
+#### 100","Since Mark was losing 10 pounds each month, in 3 months he lost 10 * 3 = <<10*3=30>>30 pounds.
+Adding the weight lost to the final weight gives an initial weight of 70 + 30 = <<70+30=100>>100 pounds.
+Mark's initial weight was 100 pounds.
+#### 100"
+Math,3a,"Question: Devin teaches one math course per year. He taught Calculus for 4 years, Algebra for twice as many years, and Statistics for 5 times as long as he taught Algebra. How many years has Devin taught?
+Answer: Calculus: <<4=4>>4 years
+Algebra: 4(2)=8 years
+Statistics: 8(5)=<<8*5=40>>40 years
+Total number of years taught: 4+8+40=<<4+8+40=52>>52 years
+#### 52
+Question: A tailor purchased buttons for the clothes. She bought 90 green buttons, 10 more yellow buttons than the green buttons, and 5 fewer blue buttons than the green buttons. How many buttons did the tailor purchase?
+Answer: The tailor bought 90 + 10 = <<90+10=100>>100 yellow buttons.
+He also bought 90 - 5 = <<90-5=85>>85 blue buttons.
+Therefore, The tailor purchased 90 + 100 + 85 = <<90+100+85=275>>275 buttons.
+#### 275
+Question: Devin teaches one math course per year. He taught Calculus for 4 years, Algebra for twice as many years, and Statistics for 5 times as long as he taught Algebra. How many years has Devin taught?
+Answer: Calculus: <<4=4>>4 years
+Algebra: 4(2)=8 years
+Statistics: 8(5)=<<8*5=40>>40 years
+Total number of years taught: 4+8+40=<<4+8+40=52>>52 years
+#### 52
+Question: A tailor purchased buttons for the clothes. She bought 90 green buttons, 10 more yellow buttons than the green buttons, and 5 fewer blue buttons than the green buttons. How many buttons did the tailor purchase?
+Answer: The tailor bought 90 + 10 = <<90+10=100>>100 yellow buttons.
+He also bought 90 - 5 = <<90-5=85>>85 blue buttons.
+Therefore, The tailor purchased 90 + 100 + 85 = <<90+100+85=275>>275 buttons.
+#### 275
+Q: Mark was unwell for 3 months, during which he lost 10 pounds per month. If his final weight was 70 pounds, what was his initial weight?","Let X be Mark's initial weight.
+
+Mark lost 10 pounds per month for 3 months, so he lost 3 * 10 = 30 pounds in total.
+
+His final weight was 70 pounds, so his initial weight X can be calculated as:
+
+X - 30 = 70
+X = 70 + 30
+X = 100
+
+Therefore, Mark's initial weight was 100 pounds.","Since Mark was losing 10 pounds each month, in 3 months he lost 10 * 3 = <<10*3=30>>30 pounds.
+Adding the weight lost to the final weight gives an initial weight of 70 + 30 = <<70+30=100>>100 pounds.
+Mark's initial weight was 100 pounds.
+#### 100"
+Math,3b,"Question: Xavier needs 84 paper plates for a housewarming party. He already has 21 green plates and 28 red plates. How many more plates should Xavier buy?
+Answer: The total number of green and red plates is 28 + 21 = <<28+21=49>>49.
+Xavier should buy 84 − 49 = 35 more plates.
+#### 35
+Question: A car is driving through a tunnel with many turns. After a while, the car must travel through a ring that requires a total of 4 right-hand turns. After the 1st turn, it travels 5 meters. After the 2nd turn, it travels 8 meters. After the 3rd turn, it travels a little further and at the 4th turn, it immediately exits the tunnel. If the car has driven a total of 23 meters around the ring, how far did it have to travel after the 3rd turn?
+Answer: From the details given, the car has traveled 5 meters at the 1st turn + 8 meters after the 2nd turn + 0 meters after the 4th turn = <<5+8+0=13>>13 meters around the ring.
+It must therefore have driven 23 total meters – 13 calculated meters = 10 meters after the 3rd turn.
+#### 10
+Question: Xavier needs 84 paper plates for a housewarming party. He already has 21 green plates and 28 red plates. How many more plates should Xavier buy?
+Answer: The total number of green and red plates is 28 + 21 = <<28+21=49>>49.
+Xavier should buy 84 − 49 = 35 more plates.
+#### 35
+Question: A car is driving through a tunnel with many turns. After a while, the car must travel through a ring that requires a total of 4 right-hand turns. After the 1st turn, it travels 5 meters. After the 2nd turn, it travels 8 meters. After the 3rd turn, it travels a little further and at the 4th turn, it immediately exits the tunnel. If the car has driven a total of 23 meters around the ring, how far did it have to travel after the 3rd turn?
+Answer: From the details given, the car has traveled 5 meters at the 1st turn + 8 meters after the 2nd turn + 0 meters after the 4th turn = <<5+8+0=13>>13 meters around the ring.
+It must therefore have driven 23 total meters – 13 calculated meters = 10 meters after the 3rd turn.
+#### 10
+Q: Mark was unwell for 3 months, during which he lost 10 pounds per month. If his final weight was 70 pounds, what was his initial weight?","Let x be Mark's initial weight.
+
+After 3 months of losing 10 pounds per month, his weight decreased by 3 * 10 = 30 pounds.
+
+His final weight was 70 pounds, so we can set up the equation:
+
+x - 30 = 70
+
+Adding 30 to both sides, we get:
+
+x = 100
+
+Therefore, Mark's initial weight was 100 pounds.","Since Mark was losing 10 pounds each month, in 3 months he lost 10 * 3 = <<10*3=30>>30 pounds.
+Adding the weight lost to the final weight gives an initial weight of 70 + 30 = <<70+30=100>>100 pounds.
+Mark's initial weight was 100 pounds.
+#### 100"
+CSQA,1a,"Question: Where does dust usually end up in the corner?
+A: windowsill
+B: carpet
+C: frogs
+D: ground
+E: corner
+Answer: D
+Question: The old man was retired and liked the simple things, he would do crossword puzzle every morning simply just to do what?
+A: you're bored
+B: pass time
+C: relax
+D: mentally challenged
+E: win
+Answer: B
+Q: To locate a choker not located in a jewelry box or boutique where would you go?
+A: jewelry store
+B: neck
+C: jewlery box
+D: jewelry box
+E: boutique",Answer: B,A
+CSQA,1a,"Question: James lost hs return ticket during his vacation.  He was very frustrated and couldn't get a replacement.  Because of this, he missed what?
+A: tickets
+B: plane
+C: suitcase
+D: pocket
+E: airport
+Answer: B
+Question: If a couple is having financial issues, buying products can lead to what?
+A: economic boom
+B: being able to use
+C: disagreements
+D: spending money
+E: joy
+Answer: C
+Q: To locate a choker not located in a jewelry box or boutique where would you go?
+A: jewelry store
+B: neck
+C: jewlery box
+D: jewelry box
+E: boutique",Answer: B,A
+CSQA,2,"Question: Where does dust usually end up in the corner?
+A: windowsill
+B: carpet
+C: frogs
+D: ground
+E: corner
+Answer: D
+Question: The old man was retired and liked the simple things, he would do crossword puzzle every morning simply just to do what?
+A: you're bored
+B: pass time
+C: relax
+D: mentally challenged
+E: win
+Answer: B
+Question: James lost hs return ticket during his vacation.  He was very frustrated and couldn't get a replacement.  Because of this, he missed what?
+A: tickets
+B: plane
+C: suitcase
+D: pocket
+E: airport
+Answer: B
+Question: If a couple is having financial issues, buying products can lead to what?
+A: economic boom
+B: being able to use
+C: disagreements
+D: spending money
+E: joy
+Answer: C
+Q: To locate a choker not located in a jewelry box or boutique where would you go?
+A: jewelry store
+B: neck
+C: jewlery box
+D: jewelry box
+E: boutique",Answer: B,A
+CSQA,3a,"Question: Where does dust usually end up in the corner?
+A: windowsill
+B: carpet
+C: frogs
+D: ground
+E: corner
+Answer: D
+Question: The old man was retired and liked the simple things, he would do crossword puzzle every morning simply just to do what?
+A: you're bored
+B: pass time
+C: relax
+D: mentally challenged
+E: win
+Answer: B
+Question: Where does dust usually end up in the corner?
+A: windowsill
+B: carpet
+C: frogs
+D: ground
+E: corner
+Answer: D
+Question: The old man was retired and liked the simple things, he would do crossword puzzle every morning simply just to do what?
+A: you're bored
+B: pass time
+C: relax
+D: mentally challenged
+E: win
+Answer: B
+Q: To locate a choker not located in a jewelry box or boutique where would you go?
+A: jewelry store
+B: neck
+C: jewlery box
+D: jewelry box
+E: boutique",Answer: B,A
+CSQA,3b,"Question: James lost hs return ticket during his vacation.  He was very frustrated and couldn't get a replacement.  Because of this, he missed what?
+A: tickets
+B: plane
+C: suitcase
+D: pocket
+E: airport
+Answer: B
+Question: If a couple is having financial issues, buying products can lead to what?
+A: economic boom
+B: being able to use
+C: disagreements
+D: spending money
+E: joy
+Answer: C
+Question: James lost hs return ticket during his vacation.  He was very frustrated and couldn't get a replacement.  Because of this, he missed what?
+A: tickets
+B: plane
+C: suitcase
+D: pocket
+E: airport
+Answer: B
+Question: If a couple is having financial issues, buying products can lead to what?
+A: economic boom
+B: being able to use
+C: disagreements
+D: spending money
+E: joy
+Answer: C
+Q: To locate a choker not located in a jewelry box or boutique where would you go?
+A: jewelry store
+B: neck
+C: jewlery box
+D: jewelry box
+E: boutique",Answer: B,A
+StrategyQA,1a,"Question: The average age that someone gets their doctorate at is 33.  A doctorate takes an average of 8.5 years.
+Should you be skeptical of a 21 year old claiming to have a doctorate?
+Answer: True
+Question: Aretha Franklin was born in 1942. Aretha Franklin had her second child in 1957. You must be at least 18 years old to vote in a presidential election in the United States.
+Could Aretha Franklin vote for a president when her second child was born?
+Answer: False
+Q: Beeswax food wrapping is typically made of two ingredients. Beeswax food wrap is composed of cotton fabric and beeswax. Neither cotton nor beeswax contains plastic.
+Do beeswax alternatives to cling wrap use plsatic?",A: False,False
+StrategyQA,1a,"Question: There are 168 hours in a week. The entire Ugly Betty series is 85 hours long.
+Would a week be enough time to watch every episode of Ugly Betty?
+Answer: True
+Question: The average number of peas in a pod is 6 or 7. A billion is a number that has three commas in it.
+Is average number of peas in a pod enough commas for a billion?
+Answer: True
+Q: Beeswax food wrapping is typically made of two ingredients. Beeswax food wrap is composed of cotton fabric and beeswax. Neither cotton nor beeswax contains plastic.
+Do beeswax alternatives to cling wrap use plsatic?",A: False,False
+StrategyQA,2,"Question: The average age that someone gets their doctorate at is 33.  A doctorate takes an average of 8.5 years.
+Should you be skeptical of a 21 year old claiming to have a doctorate?
+Answer: True
+Question: Aretha Franklin was born in 1942. Aretha Franklin had her second child in 1957. You must be at least 18 years old to vote in a presidential election in the United States.
+Could Aretha Franklin vote for a president when her second child was born?
+Answer: False
+Question: There are 168 hours in a week. The entire Ugly Betty series is 85 hours long.
+Would a week be enough time to watch every episode of Ugly Betty?
+Answer: True
+Question: The average number of peas in a pod is 6 or 7. A billion is a number that has three commas in it.
+Is average number of peas in a pod enough commas for a billion?
+Answer: True
+Q: Beeswax food wrapping is typically made of two ingredients. Beeswax food wrap is composed of cotton fabric and beeswax. Neither cotton nor beeswax contains plastic.
+Do beeswax alternatives to cling wrap use plsatic?",A: False,False
+StrategyQA,3a,"Question: The average age that someone gets their doctorate at is 33.  A doctorate takes an average of 8.5 years.
+Should you be skeptical of a 21 year old claiming to have a doctorate?
+Answer: True
+Question: Aretha Franklin was born in 1942. Aretha Franklin had her second child in 1957. You must be at least 18 years old to vote in a presidential election in the United States.
+Could Aretha Franklin vote for a president when her second child was born?
+Answer: False
+Question: The average age that someone gets their doctorate at is 33.  A doctorate takes an average of 8.5 years.
+Should you be skeptical of a 21 year old claiming to have a doctorate?
+Answer: True
+Question: Aretha Franklin was born in 1942. Aretha Franklin had her second child in 1957. You must be at least 18 years old to vote in a presidential election in the United States.
+Could Aretha Franklin vote for a president when her second child was born?
+Answer: False
+Q: Beeswax food wrapping is typically made of two ingredients. Beeswax food wrap is composed of cotton fabric and beeswax. Neither cotton nor beeswax contains plastic.
+Do beeswax alternatives to cling wrap use plsatic?",A: False,False
+StrategyQA,3b,"Question: There are 168 hours in a week. The entire Ugly Betty series is 85 hours long.
+Would a week be enough time to watch every episode of Ugly Betty?
+Answer: True
+Question: The average number of peas in a pod is 6 or 7. A billion is a number that has three commas in it.
+Is average number of peas in a pod enough commas for a billion?
+Answer: True
+Question: There are 168 hours in a week. The entire Ugly Betty series is 85 hours long.
+Would a week be enough time to watch every episode of Ugly Betty?
+Answer: True
+Question: The average number of peas in a pod is 6 or 7. A billion is a number that has three commas in it.
+Is average number of peas in a pod enough commas for a billion?
+Answer: True
+Q: Beeswax food wrapping is typically made of two ingredients. Beeswax food wrap is composed of cotton fabric and beeswax. Neither cotton nor beeswax contains plastic.
+Do beeswax alternatives to cling wrap use plsatic?",A: False,False
+SayCan,1a,"Question: Bring me an apple from the drawer.
+Answer: 1. go to the drawer, 2. open the drawer, 3. pick up the apple, 4. close the drawer, 5. bring it to you, 6. put down the apple, 7. done
+Question: How would you lift the coke can?
+Answer: 1. pick up the coke can, 2. done
+Q: How would you move the chips bag from the table to the counter?","A: 1. pick up the chips bag, 2. carry it to the counter, 3. place it on the counter, 4. done","1. find the bag of chips, 2. pick up the bag of chips, 3. go to the counter, 4. put down the bag of chips, 5. done"
+SayCan,1a,"Question: Throw away all the fruits on the table.
+Answer: 1. go to the table, 2. pick up the apple, 3. go to the trash, 4. put down the apple, 5. go to the table, 6. pick up the orange, 7. go to the trash, 8. put down the orange, 9. done
+Question: Deliver the red bull to the close counter
+Answer: 1. find a redbull, 2. pick up the redbull, 3. go to the counter, 4. put down the redbull, 5. done.
+Q: How would you move the chips bag from the table to the counter?","A: 1. go to the table, 2. pick up the chips bag, 3. go to the counter, 4. put down the chips bag, 5. done","1. find the bag of chips, 2. pick up the bag of chips, 3. go to the counter, 4. put down the bag of chips, 5. done"
+SayCan,2,"Question: Bring me an apple from the drawer.
+Answer: 1. go to the drawer, 2. open the drawer, 3. pick up the apple, 4. close the drawer, 5. bring it to you, 6. put down the apple, 7. done
+Question: How would you lift the coke can?
+Answer: 1. pick up the coke can, 2. done
+Question: Throw away all the fruits on the table.
+Answer: 1. go to the table, 2. pick up the apple, 3. go to the trash, 4. put down the apple, 5. go to the table, 6. pick up the orange, 7. go to the trash, 8. put down the orange, 9. done
+Question: Deliver the red bull to the close counter
+Answer: 1. find a redbull, 2. pick up the redbull, 3. go to the counter, 4. put down the redbull, 5. done.
+Q: How would you move the chips bag from the table to the counter?","A: 1. pick up the chips bag, 2. go to the counter, 3. put down the chips bag, 4. done","1. find the bag of chips, 2. pick up the bag of chips, 3. go to the counter, 4. put down the bag of chips, 5. done"
+SayCan,3a,"Question: Bring me an apple from the drawer.
+Answer: 1. go to the drawer, 2. open the drawer, 3. pick up the apple, 4. close the drawer, 5. bring it to you, 6. put down the apple, 7. done
+Question: How would you lift the coke can?
+Answer: 1. pick up the coke can, 2. done
+Question: Bring me an apple from the drawer.
+Answer: 1. go to the drawer, 2. open the drawer, 3. pick up the apple, 4. close the drawer, 5. bring it to you, 6. put down the apple, 7. done
+Question: How would you lift the coke can?
+Answer: 1. pick up the coke can, 2. done
+Q: How would you move the chips bag from the table to the counter?","A: 1. pick up the chips bag, 2. walk to the counter, 3. place the chips bag on the counter, 4. done","1. find the bag of chips, 2. pick up the bag of chips, 3. go to the counter, 4. put down the bag of chips, 5. done"
+SayCan,3b,"Question: Throw away all the fruits on the table.
+Answer: 1. go to the table, 2. pick up the apple, 3. go to the trash, 4. put down the apple, 5. go to the table, 6. pick up the orange, 7. go to the trash, 8. put down the orange, 9. done
+Question: Deliver the red bull to the close counter
+Answer: 1. find a redbull, 2. pick up the redbull, 3. go to the counter, 4. put down the redbull, 5. done.
+Question: Throw away all the fruits on the table.
+Answer: 1. go to the table, 2. pick up the apple, 3. go to the trash, 4. put down the apple, 5. go to the table, 6. pick up the orange, 7. go to the trash, 8. put down the orange, 9. done
+Question: Deliver the red bull to the close counter
+Answer: 1. find a redbull, 2. pick up the redbull, 3. go to the counter, 4. put down the redbull, 5. done.
+Q: How would you move the chips bag from the table to the counter?","A: 1. Pick up the chips bag, 2. Walk to the counter, 3. Put down the chips bag on the counter, 4. Done.","1. find the bag of chips, 2. pick up the bag of chips, 3. go to the counter, 4. put down the bag of chips, 5. done"

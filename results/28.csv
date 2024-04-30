@@ -1,0 +1,356 @@
+Task Class,Case,Prompt,Response,Expected
+Math,1a,"Question: Mary wants to ride the world's tallest roller coaster, Kingda Ka. The minimum height to ride the roller coaster is 140 cm. Mary's brother is 180 cm, Mary is 2/3 the height of her brother. How many more centimeters does Mary need to grow to ride Kingda Ka?
+Answer: Being 2/3 of her brother's height, Mary is 180 * 2/3 = <<180*2/3=120>>120 cm.
+To reach the minimum height and ride Kingda Ka, Mery needs to grow 140 - 120 = <<140-120=20>>20 cm.
+#### 20
+Question: The average GPA for 6th graders is 93, the 7th graders is 2 more than the 6th graders and the 8th graders average GPA is 91.  What is the average GPA for the school?
+Answer: The 7th graders average GPA is 2 more than the 6th graders GPA of 93 so 93+2 = 95
+If you combine the GPA for all three grades then they have 93+95+91 = <<93+95+91=279>>279
+The average GPA for the school is 279/3 = <<279/3=93>>93
+#### 93
+Q: Shiela bought five cell phones for $150 each for a 3-month installment. A 2% interest will be charged for each unit. How much will Shiela pay each month for 3 months?","A: The total cost of the five cell phones is $150 x 5 = $750.
+A 2% interest will be charged on each unit, so the total interest for all five phones is $750 x 2% = $15.
+Therefore, the total amount Shiela needs to pay over 3 months is $750 + $15 = $765.
+Dividing this total over 3 months, Shiela will pay $765 / 3 = $255 each month. 
+
+Therefore, Shiela will pay $255 each month for 3 months.","A $150 x 2/100 = $<<150*2/100=3>>3 interest will be charged for each unit.
+So, each cell phone costs $150 + $3 = $<<150+3=153>>153.
+The total amount to be paid for 5 cell phones is $153 x 5 = $<<153*5=765>>765.
+Thus, Shiela will pay $765/3 = $<<765/3=255>>255 each month.
+#### 255"
+Math,1a,"Question: Robbie weighs 100 pounds. Patty was 4.5 times as heavy as Robbie, but she has since lost 235 pounds by working out. How many more pounds does Patty weigh than Robbie now?
+Answer: Patty used to weigh 100*4.5 = <<100*4.5=450>>450 pounds.
+Patty weighs 450-235 = <<450-235=215>>215 pounds after working out.
+Patty weighs 215-100 = <<215-100=115>>115 more pounds than Robbie.
+#### 115
+Question: Brandon has a collection of 20 baseball cards.  Malcom has 8 more cards than Brandon.  However, then Malcom gives half of his cards to his friend Mark.  How many cards does Malcom have left?
+Answer: Malcom has 20 cards + 8 cards = <<20+8=28>>28 cards.
+Malcom gives away 1/2 * 28 cards = <<1/2*28=14>>14 cards to Mark.
+Malcom has 28-14 cards = <<28-14=14>>14 cards remaining.
+#### 14
+Q: Shiela bought five cell phones for $150 each for a 3-month installment. A 2% interest will be charged for each unit. How much will Shiela pay each month for 3 months?","A: The total cost of the cell phones is $150 x 5 = $750.
+The interest for 5 cell phones is $750 x 2/100 = $15.
+So, Shiela will pay a total of $750 + $15 = $765 for the cell phones.
+Each month, Shiela will pay $765 / 3 = $255.","A $150 x 2/100 = $<<150*2/100=3>>3 interest will be charged for each unit.
+So, each cell phone costs $150 + $3 = $<<150+3=153>>153.
+The total amount to be paid for 5 cell phones is $153 x 5 = $<<153*5=765>>765.
+Thus, Shiela will pay $765/3 = $<<765/3=255>>255 each month.
+#### 255"
+Math,2,"Question: Mary wants to ride the world's tallest roller coaster, Kingda Ka. The minimum height to ride the roller coaster is 140 cm. Mary's brother is 180 cm, Mary is 2/3 the height of her brother. How many more centimeters does Mary need to grow to ride Kingda Ka?
+Answer: Being 2/3 of her brother's height, Mary is 180 * 2/3 = <<180*2/3=120>>120 cm.
+To reach the minimum height and ride Kingda Ka, Mery needs to grow 140 - 120 = <<140-120=20>>20 cm.
+#### 20
+Question: The average GPA for 6th graders is 93, the 7th graders is 2 more than the 6th graders and the 8th graders average GPA is 91.  What is the average GPA for the school?
+Answer: The 7th graders average GPA is 2 more than the 6th graders GPA of 93 so 93+2 = 95
+If you combine the GPA for all three grades then they have 93+95+91 = <<93+95+91=279>>279
+The average GPA for the school is 279/3 = <<279/3=93>>93
+#### 93
+Question: Robbie weighs 100 pounds. Patty was 4.5 times as heavy as Robbie, but she has since lost 235 pounds by working out. How many more pounds does Patty weigh than Robbie now?
+Answer: Patty used to weigh 100*4.5 = <<100*4.5=450>>450 pounds.
+Patty weighs 450-235 = <<450-235=215>>215 pounds after working out.
+Patty weighs 215-100 = <<215-100=115>>115 more pounds than Robbie.
+#### 115
+Question: Brandon has a collection of 20 baseball cards.  Malcom has 8 more cards than Brandon.  However, then Malcom gives half of his cards to his friend Mark.  How many cards does Malcom have left?
+Answer: Malcom has 20 cards + 8 cards = <<20+8=28>>28 cards.
+Malcom gives away 1/2 * 28 cards = <<1/2*28=14>>14 cards to Mark.
+Malcom has 28-14 cards = <<28-14=14>>14 cards remaining.
+#### 14
+Q: Shiela bought five cell phones for $150 each for a 3-month installment. A 2% interest will be charged for each unit. How much will Shiela pay each month for 3 months?","A: The total cost for the 5 cell phones is $150 x 5 = $750.
+The 2% interest for each unit is $150 x 2/100 = $3.
+So, each month for 3 months, Shiela will pay $750 + $3 = $753.
+Therefore, Shiela will pay $753 each month for 3 months.","A $150 x 2/100 = $<<150*2/100=3>>3 interest will be charged for each unit.
+So, each cell phone costs $150 + $3 = $<<150+3=153>>153.
+The total amount to be paid for 5 cell phones is $153 x 5 = $<<153*5=765>>765.
+Thus, Shiela will pay $765/3 = $<<765/3=255>>255 each month.
+#### 255"
+Math,3a,"Question: Mary wants to ride the world's tallest roller coaster, Kingda Ka. The minimum height to ride the roller coaster is 140 cm. Mary's brother is 180 cm, Mary is 2/3 the height of her brother. How many more centimeters does Mary need to grow to ride Kingda Ka?
+Answer: Being 2/3 of her brother's height, Mary is 180 * 2/3 = <<180*2/3=120>>120 cm.
+To reach the minimum height and ride Kingda Ka, Mery needs to grow 140 - 120 = <<140-120=20>>20 cm.
+#### 20
+Question: The average GPA for 6th graders is 93, the 7th graders is 2 more than the 6th graders and the 8th graders average GPA is 91.  What is the average GPA for the school?
+Answer: The 7th graders average GPA is 2 more than the 6th graders GPA of 93 so 93+2 = 95
+If you combine the GPA for all three grades then they have 93+95+91 = <<93+95+91=279>>279
+The average GPA for the school is 279/3 = <<279/3=93>>93
+#### 93
+Question: Mary wants to ride the world's tallest roller coaster, Kingda Ka. The minimum height to ride the roller coaster is 140 cm. Mary's brother is 180 cm, Mary is 2/3 the height of her brother. How many more centimeters does Mary need to grow to ride Kingda Ka?
+Answer: Being 2/3 of her brother's height, Mary is 180 * 2/3 = <<180*2/3=120>>120 cm.
+To reach the minimum height and ride Kingda Ka, Mery needs to grow 140 - 120 = <<140-120=20>>20 cm.
+#### 20
+Question: The average GPA for 6th graders is 93, the 7th graders is 2 more than the 6th graders and the 8th graders average GPA is 91.  What is the average GPA for the school?
+Answer: The 7th graders average GPA is 2 more than the 6th graders GPA of 93 so 93+2 = 95
+If you combine the GPA for all three grades then they have 93+95+91 = <<93+95+91=279>>279
+The average GPA for the school is 279/3 = <<279/3=93>>93
+#### 93
+Q: Shiela bought five cell phones for $150 each for a 3-month installment. A 2% interest will be charged for each unit. How much will Shiela pay each month for 3 months?","A: The total cost of the five cell phones is $150 * 5 = $750.
+The total amount including the 2% interest is $750 + ($750 * 0.02) = $750 + $15 = $765.
+Shiela will pay $765 over 3 months, so she will pay $765 / 3 = $255 each month for 3 months.","A $150 x 2/100 = $<<150*2/100=3>>3 interest will be charged for each unit.
+So, each cell phone costs $150 + $3 = $<<150+3=153>>153.
+The total amount to be paid for 5 cell phones is $153 x 5 = $<<153*5=765>>765.
+Thus, Shiela will pay $765/3 = $<<765/3=255>>255 each month.
+#### 255"
+Math,3b,"Question: Robbie weighs 100 pounds. Patty was 4.5 times as heavy as Robbie, but she has since lost 235 pounds by working out. How many more pounds does Patty weigh than Robbie now?
+Answer: Patty used to weigh 100*4.5 = <<100*4.5=450>>450 pounds.
+Patty weighs 450-235 = <<450-235=215>>215 pounds after working out.
+Patty weighs 215-100 = <<215-100=115>>115 more pounds than Robbie.
+#### 115
+Question: Brandon has a collection of 20 baseball cards.  Malcom has 8 more cards than Brandon.  However, then Malcom gives half of his cards to his friend Mark.  How many cards does Malcom have left?
+Answer: Malcom has 20 cards + 8 cards = <<20+8=28>>28 cards.
+Malcom gives away 1/2 * 28 cards = <<1/2*28=14>>14 cards to Mark.
+Malcom has 28-14 cards = <<28-14=14>>14 cards remaining.
+#### 14
+Question: Robbie weighs 100 pounds. Patty was 4.5 times as heavy as Robbie, but she has since lost 235 pounds by working out. How many more pounds does Patty weigh than Robbie now?
+Answer: Patty used to weigh 100*4.5 = <<100*4.5=450>>450 pounds.
+Patty weighs 450-235 = <<450-235=215>>215 pounds after working out.
+Patty weighs 215-100 = <<215-100=115>>115 more pounds than Robbie.
+#### 115
+Question: Brandon has a collection of 20 baseball cards.  Malcom has 8 more cards than Brandon.  However, then Malcom gives half of his cards to his friend Mark.  How many cards does Malcom have left?
+Answer: Malcom has 20 cards + 8 cards = <<20+8=28>>28 cards.
+Malcom gives away 1/2 * 28 cards = <<1/2*28=14>>14 cards to Mark.
+Malcom has 28-14 cards = <<28-14=14>>14 cards remaining.
+#### 14
+Q: Shiela bought five cell phones for $150 each for a 3-month installment. A 2% interest will be charged for each unit. How much will Shiela pay each month for 3 months?","A: The total cost of the five cell phones is 5 * $150 = $750.
+The interest for each phone is $150 * 2% = $3.
+The total interest for all five phones is $3 * 5 = $15.
+Therefore, Shiela will pay $750 + $15 = $765 in total for 3 months.
+Each month, Shiela will pay $765 / 3 = $255.","A $150 x 2/100 = $<<150*2/100=3>>3 interest will be charged for each unit.
+So, each cell phone costs $150 + $3 = $<<150+3=153>>153.
+The total amount to be paid for 5 cell phones is $153 x 5 = $<<153*5=765>>765.
+Thus, Shiela will pay $765/3 = $<<765/3=255>>255 each month.
+#### 255"
+CSQA,1a,"Question: Why would  you smoke despite warnings?
+A: you're stupid
+B: kill yourself
+C: cigarette
+D: confused
+E: over 26
+Answer: A
+Question: The robber wanted to conceal his pistol, where did he put it?
+A: police station
+B: war
+C: police officer's belt
+D: river
+E: pants
+Answer: E
+Q: What is the only was to recover from exhaustion?
+A: mediate
+B: have rest
+C: stay in bed
+D: run out of steam
+E: go to sleep",Answer: E,B
+CSQA,1a,"Question: When someone points their transistor radio to the sky, what are they hoping to hear transmissions from?
+A: every car and house
+B: bedroom
+C: space shuttle
+D: shop
+E: ufo
+Answer: C
+Question: The IMAX screen was even bigger than he imagined, it was so big he felt outdoors rather than in a what?
+A: drive in movie
+B: monitor
+C: movies
+D: home
+E: theatre
+Answer: E
+Q: What is the only was to recover from exhaustion?
+A: mediate
+B: have rest
+C: stay in bed
+D: run out of steam
+E: go to sleep",Answer: E,B
+CSQA,2,"Question: Why would  you smoke despite warnings?
+A: you're stupid
+B: kill yourself
+C: cigarette
+D: confused
+E: over 26
+Answer: A
+Question: The robber wanted to conceal his pistol, where did he put it?
+A: police station
+B: war
+C: police officer's belt
+D: river
+E: pants
+Answer: E
+Question: When someone points their transistor radio to the sky, what are they hoping to hear transmissions from?
+A: every car and house
+B: bedroom
+C: space shuttle
+D: shop
+E: ufo
+Answer: C
+Question: The IMAX screen was even bigger than he imagined, it was so big he felt outdoors rather than in a what?
+A: drive in movie
+B: monitor
+C: movies
+D: home
+E: theatre
+Answer: E
+Q: What is the only was to recover from exhaustion?
+A: mediate
+B: have rest
+C: stay in bed
+D: run out of steam
+E: go to sleep",Answer: E,B
+CSQA,3a,"Question: Why would  you smoke despite warnings?
+A: you're stupid
+B: kill yourself
+C: cigarette
+D: confused
+E: over 26
+Answer: A
+Question: The robber wanted to conceal his pistol, where did he put it?
+A: police station
+B: war
+C: police officer's belt
+D: river
+E: pants
+Answer: E
+Question: Why would  you smoke despite warnings?
+A: you're stupid
+B: kill yourself
+C: cigarette
+D: confused
+E: over 26
+Answer: A
+Question: The robber wanted to conceal his pistol, where did he put it?
+A: police station
+B: war
+C: police officer's belt
+D: river
+E: pants
+Answer: E
+Q: What is the only was to recover from exhaustion?
+A: mediate
+B: have rest
+C: stay in bed
+D: run out of steam
+E: go to sleep",Answer: B,B
+CSQA,3b,"Question: When someone points their transistor radio to the sky, what are they hoping to hear transmissions from?
+A: every car and house
+B: bedroom
+C: space shuttle
+D: shop
+E: ufo
+Answer: C
+Question: The IMAX screen was even bigger than he imagined, it was so big he felt outdoors rather than in a what?
+A: drive in movie
+B: monitor
+C: movies
+D: home
+E: theatre
+Answer: E
+Question: When someone points their transistor radio to the sky, what are they hoping to hear transmissions from?
+A: every car and house
+B: bedroom
+C: space shuttle
+D: shop
+E: ufo
+Answer: C
+Question: The IMAX screen was even bigger than he imagined, it was so big he felt outdoors rather than in a what?
+A: drive in movie
+B: monitor
+C: movies
+D: home
+E: theatre
+Answer: E
+Q: What is the only was to recover from exhaustion?
+A: mediate
+B: have rest
+C: stay in bed
+D: run out of steam
+E: go to sleep",Answer: B,B
+StrategyQA,1a,"Question: Herpes simplex virus is a disease that has the structure of a tiny protein cage. Venus is the hottest planet and its temperature can reach 900°F. Proteins lose their structure and break down at temperatures above 105.8°F.
+Can Herpes simplex virus spread on Venus?
+Answer: False
+Question: The Greek alphabet is still commonly used Sumerian cuneiform is not used contemporarily 
+Is the Greek alphabet as common as Sumerian cuneiform?
+Answer: False
+Q: Water skiing requires sufficient area on a smooth stretch of water, one or two skis, a tow boat with tow rope, two or three people, and a personal flotation device. Venus has a mean surface temperature of 863 °F. There may have been substantial quantities of liquid water on the surface of Venus at one point, but after a period of 600 million to several billion years, a runaway greenhouse effect was caused by the evaporation of that original water.
+Can you go water skiing on Venus?",A: False,False
+StrategyQA,1a,"Question: Donny Hathaway was a singer and session musician that worked with Staple Singers, Jerry Butler, Aretha Franklin, the Impressions  and Curtis Mayfield. Donny Hathaway jumped from his 15th floor room and his death was ruled a suicide.
+Has Aretha Franklin ever collaborated with a suicidal person?
+Answer: True
+Question: Richard Wagner died in 1883. Televisions started to be developed in the 1920s.
+Did Richard Wagner compose the theme songs for two television series?
+Answer: False
+Q: Water skiing requires sufficient area on a smooth stretch of water, one or two skis, a tow boat with tow rope, two or three people, and a personal flotation device. Venus has a mean surface temperature of 863 °F. There may have been substantial quantities of liquid water on the surface of Venus at one point, but after a period of 600 million to several billion years, a runaway greenhouse effect was caused by the evaporation of that original water.
+Can you go water skiing on Venus?",A: No,False
+StrategyQA,2,"Question: Herpes simplex virus is a disease that has the structure of a tiny protein cage. Venus is the hottest planet and its temperature can reach 900°F. Proteins lose their structure and break down at temperatures above 105.8°F.
+Can Herpes simplex virus spread on Venus?
+Answer: False
+Question: The Greek alphabet is still commonly used Sumerian cuneiform is not used contemporarily 
+Is the Greek alphabet as common as Sumerian cuneiform?
+Answer: False
+Question: Donny Hathaway was a singer and session musician that worked with Staple Singers, Jerry Butler, Aretha Franklin, the Impressions  and Curtis Mayfield. Donny Hathaway jumped from his 15th floor room and his death was ruled a suicide.
+Has Aretha Franklin ever collaborated with a suicidal person?
+Answer: True
+Question: Richard Wagner died in 1883. Televisions started to be developed in the 1920s.
+Did Richard Wagner compose the theme songs for two television series?
+Answer: False
+Q: Water skiing requires sufficient area on a smooth stretch of water, one or two skis, a tow boat with tow rope, two or three people, and a personal flotation device. Venus has a mean surface temperature of 863 °F. There may have been substantial quantities of liquid water on the surface of Venus at one point, but after a period of 600 million to several billion years, a runaway greenhouse effect was caused by the evaporation of that original water.
+Can you go water skiing on Venus?",Answer: False,False
+StrategyQA,3a,"Question: Herpes simplex virus is a disease that has the structure of a tiny protein cage. Venus is the hottest planet and its temperature can reach 900°F. Proteins lose their structure and break down at temperatures above 105.8°F.
+Can Herpes simplex virus spread on Venus?
+Answer: False
+Question: The Greek alphabet is still commonly used Sumerian cuneiform is not used contemporarily 
+Is the Greek alphabet as common as Sumerian cuneiform?
+Answer: False
+Question: Herpes simplex virus is a disease that has the structure of a tiny protein cage. Venus is the hottest planet and its temperature can reach 900°F. Proteins lose their structure and break down at temperatures above 105.8°F.
+Can Herpes simplex virus spread on Venus?
+Answer: False
+Question: The Greek alphabet is still commonly used Sumerian cuneiform is not used contemporarily 
+Is the Greek alphabet as common as Sumerian cuneiform?
+Answer: False
+Q: Water skiing requires sufficient area on a smooth stretch of water, one or two skis, a tow boat with tow rope, two or three people, and a personal flotation device. Venus has a mean surface temperature of 863 °F. There may have been substantial quantities of liquid water on the surface of Venus at one point, but after a period of 600 million to several billion years, a runaway greenhouse effect was caused by the evaporation of that original water.
+Can you go water skiing on Venus?",A: False,False
+StrategyQA,3b,"Question: Donny Hathaway was a singer and session musician that worked with Staple Singers, Jerry Butler, Aretha Franklin, the Impressions  and Curtis Mayfield. Donny Hathaway jumped from his 15th floor room and his death was ruled a suicide.
+Has Aretha Franklin ever collaborated with a suicidal person?
+Answer: True
+Question: Richard Wagner died in 1883. Televisions started to be developed in the 1920s.
+Did Richard Wagner compose the theme songs for two television series?
+Answer: False
+Question: Donny Hathaway was a singer and session musician that worked with Staple Singers, Jerry Butler, Aretha Franklin, the Impressions  and Curtis Mayfield. Donny Hathaway jumped from his 15th floor room and his death was ruled a suicide.
+Has Aretha Franklin ever collaborated with a suicidal person?
+Answer: True
+Question: Richard Wagner died in 1883. Televisions started to be developed in the 1920s.
+Did Richard Wagner compose the theme songs for two television series?
+Answer: False
+Q: Water skiing requires sufficient area on a smooth stretch of water, one or two skis, a tow boat with tow rope, two or three people, and a personal flotation device. Venus has a mean surface temperature of 863 °F. There may have been substantial quantities of liquid water on the surface of Venus at one point, but after a period of 600 million to several billion years, a runaway greenhouse effect was caused by the evaporation of that original water.
+Can you go water skiing on Venus?",A: No,False
+SayCan,1a,"Question: How would you lift the coke can?
+Answer: 1. pick up the coke can, 2. done
+Question: Could you get me a soda that is not caffeinated?
+Answer: 1. find a 7up, 2. pick up the 7up, 3. bring it to you, 4. put down the 7up, 5. done.
+Q: Can you clear off the close counter table?","A: 1. remove all items from the table, 2. wipe down the table surface, 3. put items back in an organized manner, 4. done.","1. go to the close counter, 2. pick up the energy bar, 3. go to the trash, 4. put down the energy bar, 5. go to the close counter, 6. pick up the jalapeno chips, 7. go to the trash, 8. put down the jalapeno chips, 9. go to the close counter, 10. pick up the grapefruit soda, 11. go to the trash, 12. put down the grapefruit soda, 13. go to the close counter, 14. done."
+SayCan,1a,"Question: How would you put a bag of chips and water bottle on the table?
+Answer: 1. find the bag of chips, 2. pick up the bag of chips, 3. go to the table, 4. put down the bag of chips, 5. find a water bottle, 6. pick up the water bottle, 7. go to the table, 8. put down the water bottle, 9. done
+Question: Bring me everything from the table.
+Answer: 1. go to the table, 2. pick up the energy bar, 3. bring it to you, 4. put down the energy bar, 5. go to the table, 6. pick up the multigrain chips, 7. bring it to you, 8. put down the multigrain chips, 9. done
+Q: Can you clear off the close counter table?","A: 1. go to the close counter table, 2. pick up any items on the table, 3. put the items away or in their proper place, 4. wipe down the table if needed, 5. make sure the table is clear and clean, 6. done","1. go to the close counter, 2. pick up the energy bar, 3. go to the trash, 4. put down the energy bar, 5. go to the close counter, 6. pick up the jalapeno chips, 7. go to the trash, 8. put down the jalapeno chips, 9. go to the close counter, 10. pick up the grapefruit soda, 11. go to the trash, 12. put down the grapefruit soda, 13. go to the close counter, 14. done."
+SayCan,2,"Question: How would you lift the coke can?
+Answer: 1. pick up the coke can, 2. done
+Question: Could you get me a soda that is not caffeinated?
+Answer: 1. find a 7up, 2. pick up the 7up, 3. bring it to you, 4. put down the 7up, 5. done.
+Question: How would you put a bag of chips and water bottle on the table?
+Answer: 1. find the bag of chips, 2. pick up the bag of chips, 3. go to the table, 4. put down the bag of chips, 5. find a water bottle, 6. pick up the water bottle, 7. go to the table, 8. put down the water bottle, 9. done
+Question: Bring me everything from the table.
+Answer: 1. go to the table, 2. pick up the energy bar, 3. bring it to you, 4. put down the energy bar, 5. go to the table, 6. pick up the multigrain chips, 7. bring it to you, 8. put down the multigrain chips, 9. done
+Q: Can you clear off the close counter table?","A: 1. go to the close counter table, 2. pick up everything on the table, 3. put it away or throw it away, 4. make sure the table is clear, 5. done","1. go to the close counter, 2. pick up the energy bar, 3. go to the trash, 4. put down the energy bar, 5. go to the close counter, 6. pick up the jalapeno chips, 7. go to the trash, 8. put down the jalapeno chips, 9. go to the close counter, 10. pick up the grapefruit soda, 11. go to the trash, 12. put down the grapefruit soda, 13. go to the close counter, 14. done."
+SayCan,3a,"Question: How would you lift the coke can?
+Answer: 1. pick up the coke can, 2. done
+Question: Could you get me a soda that is not caffeinated?
+Answer: 1. find a 7up, 2. pick up the 7up, 3. bring it to you, 4. put down the 7up, 5. done.
+Question: How would you lift the coke can?
+Answer: 1. pick up the coke can, 2. done
+Question: Could you get me a soda that is not caffeinated?
+Answer: 1. find a 7up, 2. pick up the 7up, 3. bring it to you, 4. put down the 7up, 5. done.
+Q: Can you clear off the close counter table?","A: 1. Remove any items on the table, 2. Wipe down the table surface, 3. Put items back on the table if needed, 4. Done.","1. go to the close counter, 2. pick up the energy bar, 3. go to the trash, 4. put down the energy bar, 5. go to the close counter, 6. pick up the jalapeno chips, 7. go to the trash, 8. put down the jalapeno chips, 9. go to the close counter, 10. pick up the grapefruit soda, 11. go to the trash, 12. put down the grapefruit soda, 13. go to the close counter, 14. done."
+SayCan,3b,"Question: How would you put a bag of chips and water bottle on the table?
+Answer: 1. find the bag of chips, 2. pick up the bag of chips, 3. go to the table, 4. put down the bag of chips, 5. find a water bottle, 6. pick up the water bottle, 7. go to the table, 8. put down the water bottle, 9. done
+Question: Bring me everything from the table.
+Answer: 1. go to the table, 2. pick up the energy bar, 3. bring it to you, 4. put down the energy bar, 5. go to the table, 6. pick up the multigrain chips, 7. bring it to you, 8. put down the multigrain chips, 9. done
+Question: How would you put a bag of chips and water bottle on the table?
+Answer: 1. find the bag of chips, 2. pick up the bag of chips, 3. go to the table, 4. put down the bag of chips, 5. find a water bottle, 6. pick up the water bottle, 7. go to the table, 8. put down the water bottle, 9. done
+Question: Bring me everything from the table.
+Answer: 1. go to the table, 2. pick up the energy bar, 3. bring it to you, 4. put down the energy bar, 5. go to the table, 6. pick up the multigrain chips, 7. bring it to you, 8. put down the multigrain chips, 9. done
+Q: Can you clear off the close counter table?","A: 1. Go to the close counter table, 2. pick up all items on the table, 3. bring them to the appropriate places, 4. return to the table, 5. wipe down the table if needed, 6. make sure it is clean and clear, 7. done.","1. go to the close counter, 2. pick up the energy bar, 3. go to the trash, 4. put down the energy bar, 5. go to the close counter, 6. pick up the jalapeno chips, 7. go to the trash, 8. put down the jalapeno chips, 9. go to the close counter, 10. pick up the grapefruit soda, 11. go to the trash, 12. put down the grapefruit soda, 13. go to the close counter, 14. done."

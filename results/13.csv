@@ -1,0 +1,364 @@
+Task Class,Case,Prompt,Response,Expected
+Math,1a,"Question: If Lyn donates $240 to a private organization each year where 1/3 of it goes to the community pantry project, 1/2 goes to the local crisis fund, 1/4 of the remaining goes to livelihood project funds, and the rest is for contingency funds. How much goes to contingency fund?
+Answer: The community pantry project gets 240 x 1/3 = $<<240*1/3=80>>80.
+The local crisis fund has 240 x 1/2 = $<<240*1/2=120>>120.
+The total funds allocated for the two funds is $80 + $120 = $<<80+120=200>>200.
+So, $240 - $200 = $<<240-200=40>>40 are left for the other 2 funds.
+The livelihood project gets $40 x 1/4 = $<<40*1/4=10>>10.
+This means that the contingency fund is $40 - $10 = $<<40-10=30>>30.
+#### 30
+Question: John buys thank you cards.  He decides to buy them for people who got him Christmas and birthday presents.  He sent 20 for Christmas gifts and 15 for birthday gifts.  If each card cost $2 how much did he spend on cards?
+Answer: He bought 20+15=<<20+15=35>>35 cards
+So he spent 35*2=$<<35*2=70>>70
+#### 70
+Q: Sadie slept 8 hours on Monday. For the next two days, she slept 2 hours less, each, because she had to complete some assignments. If the rest of the week she slept 1 hour more than those two days, how many hours did she sleep in total throughout the week?","A: Sadie slept 8 - 2 = <<8-2=6>>6 hours on Tuesday and Wednesday.
+On Thursday and Friday, she slept 6 + 1 = <<6+1=7>>7 hours each day.
+Therefore, throughout the week, Sadie slept a total of 8 + 6 + 6 + 7 + 7 = <<8+6+6+7+7=34>>34 hours.","If on Monday she slept 8 hours, then she slept 8-2 = <<8-2=6>>6 hours on each of the next two days.
+The total number of hours slept for the two days will be 6*2 = <<6*2=12>>12 hours.
+If she slept 1 hour more for the rest of the week each day, then each day she slept 6+1 = <<6+1=7>>7 hours.
+The total for the rest of the week will be 4*7 = <<4*7=28>>28 hours.
+The total number of hours slept for the whole week will be 8+12+28 = <<8+12+28=48>>48 hours.
+#### 48"
+Math,1a,"Question: Jennifer decides to share her sweets between herself and her 3 friends. She has 212 green sweets, 310 blue sweets and 502 yellow sweets. How many sweets will Jennifer and her friends get each?
+Answer: Jennifer has a total of 212 + 310 + 502 = <<212+310+502=1024>>1,024 sweets.
+Jennifer and her friends will get 1,024/4 = <<1024/4=256>>256 sweets each.
+#### 256
+Question: Jack is ordering custom baseball caps for him and his two best friends. Jack's head is 12 inches in circumference. Charlie's head is 9 inches more than half the circumference of Jack's head. Bill's head is 2/3 the circumference of Charlie's head. How many inches in circumference is Bill's head?
+Answer: First find half the circumference of Jack's head: 12 inches / 2 = <<12/2=6>>6 inches
+Then find how big Charlie's head is: 6 inches + 9 inches = <<6+9=15>>15 inches
+Then find how big Bill's head is: 15 inches * 2/3 = <<15*2/3=10>>10 inches
+#### 10
+Q: Sadie slept 8 hours on Monday. For the next two days, she slept 2 hours less, each, because she had to complete some assignments. If the rest of the week she slept 1 hour more than those two days, how many hours did she sleep in total throughout the week?","A: On Tuesday and Wednesday, Sadie slept 8 hours - 2 hours = 6 hours each day.
+So for those two days, she slept a total of 6 hours/day * 2 days = 12 hours.
+For the rest of the week, she slept 6 hours + 1 hour = 7 hours per day.
+Therefore, for the rest of the week, she slept a total of 7 hours/day * 5 days = 35 hours.
+Adding up all the hours, Sadie slept a total of 8 hours + 12 hours + 35 hours = 55 hours throughout the week.","If on Monday she slept 8 hours, then she slept 8-2 = <<8-2=6>>6 hours on each of the next two days.
+The total number of hours slept for the two days will be 6*2 = <<6*2=12>>12 hours.
+If she slept 1 hour more for the rest of the week each day, then each day she slept 6+1 = <<6+1=7>>7 hours.
+The total for the rest of the week will be 4*7 = <<4*7=28>>28 hours.
+The total number of hours slept for the whole week will be 8+12+28 = <<8+12+28=48>>48 hours.
+#### 48"
+Math,2,"Question: If Lyn donates $240 to a private organization each year where 1/3 of it goes to the community pantry project, 1/2 goes to the local crisis fund, 1/4 of the remaining goes to livelihood project funds, and the rest is for contingency funds. How much goes to contingency fund?
+Answer: The community pantry project gets 240 x 1/3 = $<<240*1/3=80>>80.
+The local crisis fund has 240 x 1/2 = $<<240*1/2=120>>120.
+The total funds allocated for the two funds is $80 + $120 = $<<80+120=200>>200.
+So, $240 - $200 = $<<240-200=40>>40 are left for the other 2 funds.
+The livelihood project gets $40 x 1/4 = $<<40*1/4=10>>10.
+This means that the contingency fund is $40 - $10 = $<<40-10=30>>30.
+#### 30
+Question: John buys thank you cards.  He decides to buy them for people who got him Christmas and birthday presents.  He sent 20 for Christmas gifts and 15 for birthday gifts.  If each card cost $2 how much did he spend on cards?
+Answer: He bought 20+15=<<20+15=35>>35 cards
+So he spent 35*2=$<<35*2=70>>70
+#### 70
+Question: Jennifer decides to share her sweets between herself and her 3 friends. She has 212 green sweets, 310 blue sweets and 502 yellow sweets. How many sweets will Jennifer and her friends get each?
+Answer: Jennifer has a total of 212 + 310 + 502 = <<212+310+502=1024>>1,024 sweets.
+Jennifer and her friends will get 1,024/4 = <<1024/4=256>>256 sweets each.
+#### 256
+Question: Jack is ordering custom baseball caps for him and his two best friends. Jack's head is 12 inches in circumference. Charlie's head is 9 inches more than half the circumference of Jack's head. Bill's head is 2/3 the circumference of Charlie's head. How many inches in circumference is Bill's head?
+Answer: First find half the circumference of Jack's head: 12 inches / 2 = <<12/2=6>>6 inches
+Then find how big Charlie's head is: 6 inches + 9 inches = <<6+9=15>>15 inches
+Then find how big Bill's head is: 15 inches * 2/3 = <<15*2/3=10>>10 inches
+#### 10
+Q: Sadie slept 8 hours on Monday. For the next two days, she slept 2 hours less, each, because she had to complete some assignments. If the rest of the week she slept 1 hour more than those two days, how many hours did she sleep in total throughout the week?","A: Sadie slept 8 hours - 2 hours = <<8-2=6>>6 hours on Tuesday and Wednesday.
+The rest of the week, she slept 6 hours + 1 hour = <<6+1=7>>7 hours each day.
+Therefore, throughout the week, Sadie slept a total of 8 hours + 6 hours + 6 hours + 7 hours + 7 hours + 7 hours = <<8+6+6+7+7+7=41>>41 hours.","If on Monday she slept 8 hours, then she slept 8-2 = <<8-2=6>>6 hours on each of the next two days.
+The total number of hours slept for the two days will be 6*2 = <<6*2=12>>12 hours.
+If she slept 1 hour more for the rest of the week each day, then each day she slept 6+1 = <<6+1=7>>7 hours.
+The total for the rest of the week will be 4*7 = <<4*7=28>>28 hours.
+The total number of hours slept for the whole week will be 8+12+28 = <<8+12+28=48>>48 hours.
+#### 48"
+Math,3a,"Question: If Lyn donates $240 to a private organization each year where 1/3 of it goes to the community pantry project, 1/2 goes to the local crisis fund, 1/4 of the remaining goes to livelihood project funds, and the rest is for contingency funds. How much goes to contingency fund?
+Answer: The community pantry project gets 240 x 1/3 = $<<240*1/3=80>>80.
+The local crisis fund has 240 x 1/2 = $<<240*1/2=120>>120.
+The total funds allocated for the two funds is $80 + $120 = $<<80+120=200>>200.
+So, $240 - $200 = $<<240-200=40>>40 are left for the other 2 funds.
+The livelihood project gets $40 x 1/4 = $<<40*1/4=10>>10.
+This means that the contingency fund is $40 - $10 = $<<40-10=30>>30.
+#### 30
+Question: John buys thank you cards.  He decides to buy them for people who got him Christmas and birthday presents.  He sent 20 for Christmas gifts and 15 for birthday gifts.  If each card cost $2 how much did he spend on cards?
+Answer: He bought 20+15=<<20+15=35>>35 cards
+So he spent 35*2=$<<35*2=70>>70
+#### 70
+Question: If Lyn donates $240 to a private organization each year where 1/3 of it goes to the community pantry project, 1/2 goes to the local crisis fund, 1/4 of the remaining goes to livelihood project funds, and the rest is for contingency funds. How much goes to contingency fund?
+Answer: The community pantry project gets 240 x 1/3 = $<<240*1/3=80>>80.
+The local crisis fund has 240 x 1/2 = $<<240*1/2=120>>120.
+The total funds allocated for the two funds is $80 + $120 = $<<80+120=200>>200.
+So, $240 - $200 = $<<240-200=40>>40 are left for the other 2 funds.
+The livelihood project gets $40 x 1/4 = $<<40*1/4=10>>10.
+This means that the contingency fund is $40 - $10 = $<<40-10=30>>30.
+#### 30
+Question: John buys thank you cards.  He decides to buy them for people who got him Christmas and birthday presents.  He sent 20 for Christmas gifts and 15 for birthday gifts.  If each card cost $2 how much did he spend on cards?
+Answer: He bought 20+15=<<20+15=35>>35 cards
+So he spent 35*2=$<<35*2=70>>70
+#### 70
+Q: Sadie slept 8 hours on Monday. For the next two days, she slept 2 hours less, each, because she had to complete some assignments. If the rest of the week she slept 1 hour more than those two days, how many hours did she sleep in total throughout the week?","A: Sadie slept 8 - 2 = 6 hours on Tuesday and Wednesday.
+She then slept 6 + 1 = 7 hours for the rest of the week.
+Therefore, Sadie slept a total of 8 + 6 + 6 + 7 = 27 hours throughout the week.","If on Monday she slept 8 hours, then she slept 8-2 = <<8-2=6>>6 hours on each of the next two days.
+The total number of hours slept for the two days will be 6*2 = <<6*2=12>>12 hours.
+If she slept 1 hour more for the rest of the week each day, then each day she slept 6+1 = <<6+1=7>>7 hours.
+The total for the rest of the week will be 4*7 = <<4*7=28>>28 hours.
+The total number of hours slept for the whole week will be 8+12+28 = <<8+12+28=48>>48 hours.
+#### 48"
+Math,3b,"Question: Jennifer decides to share her sweets between herself and her 3 friends. She has 212 green sweets, 310 blue sweets and 502 yellow sweets. How many sweets will Jennifer and her friends get each?
+Answer: Jennifer has a total of 212 + 310 + 502 = <<212+310+502=1024>>1,024 sweets.
+Jennifer and her friends will get 1,024/4 = <<1024/4=256>>256 sweets each.
+#### 256
+Question: Jack is ordering custom baseball caps for him and his two best friends. Jack's head is 12 inches in circumference. Charlie's head is 9 inches more than half the circumference of Jack's head. Bill's head is 2/3 the circumference of Charlie's head. How many inches in circumference is Bill's head?
+Answer: First find half the circumference of Jack's head: 12 inches / 2 = <<12/2=6>>6 inches
+Then find how big Charlie's head is: 6 inches + 9 inches = <<6+9=15>>15 inches
+Then find how big Bill's head is: 15 inches * 2/3 = <<15*2/3=10>>10 inches
+#### 10
+Question: Jennifer decides to share her sweets between herself and her 3 friends. She has 212 green sweets, 310 blue sweets and 502 yellow sweets. How many sweets will Jennifer and her friends get each?
+Answer: Jennifer has a total of 212 + 310 + 502 = <<212+310+502=1024>>1,024 sweets.
+Jennifer and her friends will get 1,024/4 = <<1024/4=256>>256 sweets each.
+#### 256
+Question: Jack is ordering custom baseball caps for him and his two best friends. Jack's head is 12 inches in circumference. Charlie's head is 9 inches more than half the circumference of Jack's head. Bill's head is 2/3 the circumference of Charlie's head. How many inches in circumference is Bill's head?
+Answer: First find half the circumference of Jack's head: 12 inches / 2 = <<12/2=6>>6 inches
+Then find how big Charlie's head is: 6 inches + 9 inches = <<6+9=15>>15 inches
+Then find how big Bill's head is: 15 inches * 2/3 = <<15*2/3=10>>10 inches
+#### 10
+Q: Sadie slept 8 hours on Monday. For the next two days, she slept 2 hours less, each, because she had to complete some assignments. If the rest of the week she slept 1 hour more than those two days, how many hours did she sleep in total throughout the week?","A: Sadie slept 8 - 2 = <<8-2=6>>6 hours on Tuesday and Wednesday each.
+She slept 6 + 1 = <<6+1=7>>7 hours on the remaining days.
+Therefore, Sadie slept 8 + 6 + 6 + 7 + 7 = <<8+6+6+7+7=34>>34 hours throughout the week.","If on Monday she slept 8 hours, then she slept 8-2 = <<8-2=6>>6 hours on each of the next two days.
+The total number of hours slept for the two days will be 6*2 = <<6*2=12>>12 hours.
+If she slept 1 hour more for the rest of the week each day, then each day she slept 6+1 = <<6+1=7>>7 hours.
+The total for the rest of the week will be 4*7 = <<4*7=28>>28 hours.
+The total number of hours slept for the whole week will be 8+12+28 = <<8+12+28=48>>48 hours.
+#### 48"
+CSQA,1a,"Question: What is the opposite of dissociate with someone?
+A: fuse
+B: unit
+C: join
+D: combine
+E: incorporate
+Answer: C
+Question: How can a farmer get more work done?
+A: plant cows
+B: water plants
+C: can produce
+D: raise crops
+E: rise early
+Answer: E
+Q: A beaver can destroy a machines functionality if they build their dam in this?
+A: strip club
+B: pocket
+C: millpond
+D: ontario
+E: lake or river",Answer: C,C
+CSQA,1a,"Question: What is a place that could have tens of thousands of fiddle?
+A: tennessee
+B: band practice
+C: orchestra
+D: violin case
+E: music store
+Answer: A
+Question: Where could you find a jellyfish that does not exist?
+A: cartoon
+B: japanese restaurant
+C: underwater
+D: moon
+E: red sea
+Answer: A
+Q: A beaver can destroy a machines functionality if they build their dam in this?
+A: strip club
+B: pocket
+C: millpond
+D: ontario
+E: lake or river",Answer: C,C
+CSQA,2,"Question: What is the opposite of dissociate with someone?
+A: fuse
+B: unit
+C: join
+D: combine
+E: incorporate
+Answer: C
+Question: How can a farmer get more work done?
+A: plant cows
+B: water plants
+C: can produce
+D: raise crops
+E: rise early
+Answer: E
+Question: What is a place that could have tens of thousands of fiddle?
+A: tennessee
+B: band practice
+C: orchestra
+D: violin case
+E: music store
+Answer: A
+Question: Where could you find a jellyfish that does not exist?
+A: cartoon
+B: japanese restaurant
+C: underwater
+D: moon
+E: red sea
+Answer: A
+Q: A beaver can destroy a machines functionality if they build their dam in this?
+A: strip club
+B: pocket
+C: millpond
+D: ontario
+E: lake or river",Answer: C,C
+CSQA,3a,"Question: What is the opposite of dissociate with someone?
+A: fuse
+B: unit
+C: join
+D: combine
+E: incorporate
+Answer: C
+Question: How can a farmer get more work done?
+A: plant cows
+B: water plants
+C: can produce
+D: raise crops
+E: rise early
+Answer: E
+Question: What is the opposite of dissociate with someone?
+A: fuse
+B: unit
+C: join
+D: combine
+E: incorporate
+Answer: C
+Question: How can a farmer get more work done?
+A: plant cows
+B: water plants
+C: can produce
+D: raise crops
+E: rise early
+Answer: E
+Q: A beaver can destroy a machines functionality if they build their dam in this?
+A: strip club
+B: pocket
+C: millpond
+D: ontario
+E: lake or river",Answer: C,C
+CSQA,3b,"Question: What is a place that could have tens of thousands of fiddle?
+A: tennessee
+B: band practice
+C: orchestra
+D: violin case
+E: music store
+Answer: A
+Question: Where could you find a jellyfish that does not exist?
+A: cartoon
+B: japanese restaurant
+C: underwater
+D: moon
+E: red sea
+Answer: A
+Question: What is a place that could have tens of thousands of fiddle?
+A: tennessee
+B: band practice
+C: orchestra
+D: violin case
+E: music store
+Answer: A
+Question: Where could you find a jellyfish that does not exist?
+A: cartoon
+B: japanese restaurant
+C: underwater
+D: moon
+E: red sea
+Answer: A
+Q: A beaver can destroy a machines functionality if they build their dam in this?
+A: strip club
+B: pocket
+C: millpond
+D: ontario
+E: lake or river",Answer: C,C
+StrategyQA,1a,"Question: Macaques grow up to 28 inches in length A typical desk is 29 to 30 inches from the ground
+Can you hide a pet macaque under your desk?
+Answer: True
+Question: A fever is a medical symptom that elevates the core body temperature.  Eating under cooked meat can cause food poisoning. One of the symptoms of food poisoning is elevated core body temperature. 
+Can you get a fever from consuming meat?
+Answer: True
+Q: General Zod is a villain. Apple does not allow moviemakers to give villains iPhones.
+Would General Zod prefer an iPhone over a Samsung Galaxy S4?",Answer: False,False
+StrategyQA,1a,"Question: Ancient Persians would have several desserts after a simple meal Saffron is made from crocus styles or threads Saffron is a common ingredient in Persian desserts
+Would an ancient visitor to Persia probably consume crocus threads?
+Answer: True
+Question: Audible is one of the most common sponsors for Youtubers to have. Audible is an audiobook subscription service.  Audible ads typically involve discussing a book that the speaker has recently listened to.
+Do Youtube viewers get unsolicited audiobook advice often?
+Answer: True
+Q: General Zod is a villain. Apple does not allow moviemakers to give villains iPhones.
+Would General Zod prefer an iPhone over a Samsung Galaxy S4?",A: False,False
+StrategyQA,2,"Question: Macaques grow up to 28 inches in length A typical desk is 29 to 30 inches from the ground
+Can you hide a pet macaque under your desk?
+Answer: True
+Question: A fever is a medical symptom that elevates the core body temperature.  Eating under cooked meat can cause food poisoning. One of the symptoms of food poisoning is elevated core body temperature. 
+Can you get a fever from consuming meat?
+Answer: True
+Question: Ancient Persians would have several desserts after a simple meal Saffron is made from crocus styles or threads Saffron is a common ingredient in Persian desserts
+Would an ancient visitor to Persia probably consume crocus threads?
+Answer: True
+Question: Audible is one of the most common sponsors for Youtubers to have. Audible is an audiobook subscription service.  Audible ads typically involve discussing a book that the speaker has recently listened to.
+Do Youtube viewers get unsolicited audiobook advice often?
+Answer: True
+Q: General Zod is a villain. Apple does not allow moviemakers to give villains iPhones.
+Would General Zod prefer an iPhone over a Samsung Galaxy S4?",Answer: False,False
+StrategyQA,3a,"Question: Macaques grow up to 28 inches in length A typical desk is 29 to 30 inches from the ground
+Can you hide a pet macaque under your desk?
+Answer: True
+Question: A fever is a medical symptom that elevates the core body temperature.  Eating under cooked meat can cause food poisoning. One of the symptoms of food poisoning is elevated core body temperature. 
+Can you get a fever from consuming meat?
+Answer: True
+Question: Macaques grow up to 28 inches in length A typical desk is 29 to 30 inches from the ground
+Can you hide a pet macaque under your desk?
+Answer: True
+Question: A fever is a medical symptom that elevates the core body temperature.  Eating under cooked meat can cause food poisoning. One of the symptoms of food poisoning is elevated core body temperature. 
+Can you get a fever from consuming meat?
+Answer: True
+Q: General Zod is a villain. Apple does not allow moviemakers to give villains iPhones.
+Would General Zod prefer an iPhone over a Samsung Galaxy S4?",A: False,False
+StrategyQA,3b,"Question: Ancient Persians would have several desserts after a simple meal Saffron is made from crocus styles or threads Saffron is a common ingredient in Persian desserts
+Would an ancient visitor to Persia probably consume crocus threads?
+Answer: True
+Question: Audible is one of the most common sponsors for Youtubers to have. Audible is an audiobook subscription service.  Audible ads typically involve discussing a book that the speaker has recently listened to.
+Do Youtube viewers get unsolicited audiobook advice often?
+Answer: True
+Question: Ancient Persians would have several desserts after a simple meal Saffron is made from crocus styles or threads Saffron is a common ingredient in Persian desserts
+Would an ancient visitor to Persia probably consume crocus threads?
+Answer: True
+Question: Audible is one of the most common sponsors for Youtubers to have. Audible is an audiobook subscription service.  Audible ads typically involve discussing a book that the speaker has recently listened to.
+Do Youtube viewers get unsolicited audiobook advice often?
+Answer: True
+Q: General Zod is a villain. Apple does not allow moviemakers to give villains iPhones.
+Would General Zod prefer an iPhone over a Samsung Galaxy S4?",Answer: False,False
+SayCan,1a,"Question: Can you bring me something spicy?
+Answer: 1. find a jalapeno chips, 2. pick up the jalapeno chips, 3. bring it to you, 4. put down the jalapeno chips, 5. done.
+Question: How would you throw away the apple?
+Answer: 1. find an apple, 2. pick up the apple, 3. go to the trash, 4. put down the apple, 5. done
+Q: Deliver the red bull to the close counter","A: 1. find a can of Red Bull, 2. pick up the Red Bull, 3. bring it to the checkout counter, 4. place it on the counter, 5. done.","1. find a redbull, 2. pick up the redbull, 3. go to the counter, 4. put down the redbull, 5. done."
+SayCan,1a,"Question: Pick up the coke can.
+Answer: 1. pick up the coke can, 2. done
+Question: How would you go to the table and the counter?
+Answer: 1. go to the table, 2. go to the counter, 3. done
+Q: Deliver the red bull to the close counter","A: 1. pick up the red bull, 2. go to the close counter, 3. deliver the red bull, 4. done","1. find a redbull, 2. pick up the redbull, 3. go to the counter, 4. put down the redbull, 5. done."
+SayCan,2,"Question: Can you bring me something spicy?
+Answer: 1. find a jalapeno chips, 2. pick up the jalapeno chips, 3. bring it to you, 4. put down the jalapeno chips, 5. done.
+Question: How would you throw away the apple?
+Answer: 1. find an apple, 2. pick up the apple, 3. go to the trash, 4. put down the apple, 5. done
+Question: Pick up the coke can.
+Answer: 1. pick up the coke can, 2. done
+Question: How would you go to the table and the counter?
+Answer: 1. go to the table, 2. go to the counter, 3. done
+Q: Deliver the red bull to the close counter","A: 1. Pick up the Red Bull, 2. Go to the closest counter, 3. Put down the Red Bull, 4. Done","1. find a redbull, 2. pick up the redbull, 3. go to the counter, 4. put down the redbull, 5. done."
+SayCan,3a,"Question: Can you bring me something spicy?
+Answer: 1. find a jalapeno chips, 2. pick up the jalapeno chips, 3. bring it to you, 4. put down the jalapeno chips, 5. done.
+Question: How would you throw away the apple?
+Answer: 1. find an apple, 2. pick up the apple, 3. go to the trash, 4. put down the apple, 5. done
+Question: Can you bring me something spicy?
+Answer: 1. find a jalapeno chips, 2. pick up the jalapeno chips, 3. bring it to you, 4. put down the jalapeno chips, 5. done.
+Question: How would you throw away the apple?
+Answer: 1. find an apple, 2. pick up the apple, 3. go to the trash, 4. put down the apple, 5. done
+Q: Deliver the red bull to the close counter","A: 1. Find the Red Bull, 2. Pick up the Red Bull, 3. Bring it to the counter, 4. Put down the Red Bull, 5. Done.","1. find a redbull, 2. pick up the redbull, 3. go to the counter, 4. put down the redbull, 5. done."
+SayCan,3b,"Question: Pick up the coke can.
+Answer: 1. pick up the coke can, 2. done
+Question: How would you go to the table and the counter?
+Answer: 1. go to the table, 2. go to the counter, 3. done
+Question: Pick up the coke can.
+Answer: 1. pick up the coke can, 2. done
+Question: How would you go to the table and the counter?
+Answer: 1. go to the table, 2. go to the counter, 3. done
+Q: Deliver the red bull to the close counter","A: 1. deliver the red bull to the close counter, 2. done","1. find a redbull, 2. pick up the redbull, 3. go to the counter, 4. put down the redbull, 5. done."

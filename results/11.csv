@@ -1,0 +1,370 @@
+Task Class,Case,Prompt,Response,Expected
+Math,1a,"Question: Sandra had 2 different bags of candy.  Each of her bags had 6 pieces of candy left.  Her brother, Roger, also had 2 bags of candy.  One of his bags of candy had 11 pieces left and the other had 3 pieces left.  How much more candy did Roger have?
+Answer: Sandra had 2 bags that each contained 6 pieces of candy so 2*6 = <<2*6=12>>12 pieces
+Roger had 11 pieces of candy in one bag and 3 pieces in the other so 11+3 = <<11+3=14>>14 pieces
+Roger had 14 pieces and Sandra had 12 pieces so Roger has 14-12 = <<14-12=2>>2 more pieces of candy
+#### 2
+Question: It takes a butterfly egg 120 days to become a butterfly. If each butterfly spends 3 times as much time as a larva as in a cocoon, how long does each butterfly spend in a cocoon?
+Answer: Let c be the amount of time the butterfly spends in a cocoon and l be the amount of time it spends as a larva. We know that l = 3c and l + c = 120.
+Substituting the first equation into the second equation, we get 3c + c = 120.
+Combining like terms, we get 4c = 120.
+Dividing both sides by 4, we get c = 30.
+#### 30
+Q: There are 40 pupils in a class. Half of the class likes blue. One-fourth of the remaining likes green and the rest likes yellow. How many pupils like the color yellow?","A: Half of the class is 40 / 2 = 20 pupils who like blue.
+The remaining pupils are 40 - 20 = 20 pupils.
+One-fourth of the remaining pupils like green, so 20 / 4 = 5 pupils like green.
+Thus, the remaining pupils who like yellow are 20 - 5 = 15 pupils. 
+Therefore, 15 pupils like the color yellow.","There are 40/2 = <<40/2=20>>20 pupils who like blue.
+So, there are now 40 - 20 = <<40-20=20>>20 pupils who like either green or yellow.
+Hence, 20/4 = <<20/4=5>>5 pupils like green.
+Thus, 20 - 5 = <<20-5=15>>15 pupils like yellow.
+#### 15"
+Math,1a,"Question: Mr. and Mrs. Hugo went on a road trip. On the first day, they traveled 200 miles. On the second day, they traveled 3/4 as far. On the third day, they traveled 1/2 as many miles as the first two days combined. How many miles did they travel for 3 days?
+Answer: On the second day, Mr. and Mrs. Hugo traveled 200 x 3/4 = <<200*3/4=150>>150 miles.
+They traveled a total of 200 + 150 = <<200+150=350>>350 miles in the first two days.
+On the third day, they traveled 350 x 1/2 = <<350*1/2=175>>175 miles.
+So, Mr. and Mrs. Hugo traveled a total of 200 + 150 + 175 = <<200+150+175=525>>525 miles for 3 days.
+#### 525
+Question: Gracie was 7 inches shorter than Grayson. Grayson was 2 inches taller than Griffin. Griffin is 61 inches tall. How many inches tall is Gracie?
+Answer: Grayson = 61 + 2 = <<61+2=63>>63 inches
+Gracie = 63 - 7 = <<63-7=56>>56 inches
+Gracie is 56 inches tall.
+#### 56
+Q: There are 40 pupils in a class. Half of the class likes blue. One-fourth of the remaining likes green and the rest likes yellow. How many pupils like the color yellow?","A: Half of the class is 40 / 2 = <<40/2=20>>20 pupils who like blue.
+The remaining pupils are 40 - 20 = <<40-20=20>>20.
+One-fourth of 20 is 20 / 4 = <<20/4=5>>5 pupils who like green.
+So, the rest, which is 20 - 5 = <<20-5=15>>15 pupils, likes the color yellow. 
+Therefore, 15 pupils like the color yellow.","There are 40/2 = <<40/2=20>>20 pupils who like blue.
+So, there are now 40 - 20 = <<40-20=20>>20 pupils who like either green or yellow.
+Hence, 20/4 = <<20/4=5>>5 pupils like green.
+Thus, 20 - 5 = <<20-5=15>>15 pupils like yellow.
+#### 15"
+Math,2,"Question: Sandra had 2 different bags of candy.  Each of her bags had 6 pieces of candy left.  Her brother, Roger, also had 2 bags of candy.  One of his bags of candy had 11 pieces left and the other had 3 pieces left.  How much more candy did Roger have?
+Answer: Sandra had 2 bags that each contained 6 pieces of candy so 2*6 = <<2*6=12>>12 pieces
+Roger had 11 pieces of candy in one bag and 3 pieces in the other so 11+3 = <<11+3=14>>14 pieces
+Roger had 14 pieces and Sandra had 12 pieces so Roger has 14-12 = <<14-12=2>>2 more pieces of candy
+#### 2
+Question: It takes a butterfly egg 120 days to become a butterfly. If each butterfly spends 3 times as much time as a larva as in a cocoon, how long does each butterfly spend in a cocoon?
+Answer: Let c be the amount of time the butterfly spends in a cocoon and l be the amount of time it spends as a larva. We know that l = 3c and l + c = 120.
+Substituting the first equation into the second equation, we get 3c + c = 120.
+Combining like terms, we get 4c = 120.
+Dividing both sides by 4, we get c = 30.
+#### 30
+Question: Mr. and Mrs. Hugo went on a road trip. On the first day, they traveled 200 miles. On the second day, they traveled 3/4 as far. On the third day, they traveled 1/2 as many miles as the first two days combined. How many miles did they travel for 3 days?
+Answer: On the second day, Mr. and Mrs. Hugo traveled 200 x 3/4 = <<200*3/4=150>>150 miles.
+They traveled a total of 200 + 150 = <<200+150=350>>350 miles in the first two days.
+On the third day, they traveled 350 x 1/2 = <<350*1/2=175>>175 miles.
+So, Mr. and Mrs. Hugo traveled a total of 200 + 150 + 175 = <<200+150+175=525>>525 miles for 3 days.
+#### 525
+Question: Gracie was 7 inches shorter than Grayson. Grayson was 2 inches taller than Griffin. Griffin is 61 inches tall. How many inches tall is Gracie?
+Answer: Grayson = 61 + 2 = <<61+2=63>>63 inches
+Gracie = 63 - 7 = <<63-7=56>>56 inches
+Gracie is 56 inches tall.
+#### 56
+Q: There are 40 pupils in a class. Half of the class likes blue. One-fourth of the remaining likes green and the rest likes yellow. How many pupils like the color yellow?","A: Half of the class is 40 / 2 = 20 pupils who like blue.
+The remaining number of pupils is 40 - 20 = 20 pupils.
+One-fourth of the 20 pupils like green, so 20 / 4 = 5 pupils like green.
+The rest of the pupils, which is 20 - 5 = 15 pupils, like yellow.
+Therefore, 15 pupils like the color yellow.","There are 40/2 = <<40/2=20>>20 pupils who like blue.
+So, there are now 40 - 20 = <<40-20=20>>20 pupils who like either green or yellow.
+Hence, 20/4 = <<20/4=5>>5 pupils like green.
+Thus, 20 - 5 = <<20-5=15>>15 pupils like yellow.
+#### 15"
+Math,3a,"Question: Sandra had 2 different bags of candy.  Each of her bags had 6 pieces of candy left.  Her brother, Roger, also had 2 bags of candy.  One of his bags of candy had 11 pieces left and the other had 3 pieces left.  How much more candy did Roger have?
+Answer: Sandra had 2 bags that each contained 6 pieces of candy so 2*6 = <<2*6=12>>12 pieces
+Roger had 11 pieces of candy in one bag and 3 pieces in the other so 11+3 = <<11+3=14>>14 pieces
+Roger had 14 pieces and Sandra had 12 pieces so Roger has 14-12 = <<14-12=2>>2 more pieces of candy
+#### 2
+Question: It takes a butterfly egg 120 days to become a butterfly. If each butterfly spends 3 times as much time as a larva as in a cocoon, how long does each butterfly spend in a cocoon?
+Answer: Let c be the amount of time the butterfly spends in a cocoon and l be the amount of time it spends as a larva. We know that l = 3c and l + c = 120.
+Substituting the first equation into the second equation, we get 3c + c = 120.
+Combining like terms, we get 4c = 120.
+Dividing both sides by 4, we get c = 30.
+#### 30
+Question: Sandra had 2 different bags of candy.  Each of her bags had 6 pieces of candy left.  Her brother, Roger, also had 2 bags of candy.  One of his bags of candy had 11 pieces left and the other had 3 pieces left.  How much more candy did Roger have?
+Answer: Sandra had 2 bags that each contained 6 pieces of candy so 2*6 = <<2*6=12>>12 pieces
+Roger had 11 pieces of candy in one bag and 3 pieces in the other so 11+3 = <<11+3=14>>14 pieces
+Roger had 14 pieces and Sandra had 12 pieces so Roger has 14-12 = <<14-12=2>>2 more pieces of candy
+#### 2
+Question: It takes a butterfly egg 120 days to become a butterfly. If each butterfly spends 3 times as much time as a larva as in a cocoon, how long does each butterfly spend in a cocoon?
+Answer: Let c be the amount of time the butterfly spends in a cocoon and l be the amount of time it spends as a larva. We know that l = 3c and l + c = 120.
+Substituting the first equation into the second equation, we get 3c + c = 120.
+Combining like terms, we get 4c = 120.
+Dividing both sides by 4, we get c = 30.
+#### 30
+Q: There are 40 pupils in a class. Half of the class likes blue. One-fourth of the remaining likes green and the rest likes yellow. How many pupils like the color yellow?","A: 
+Half of the class is 40 pupils / 2 = 20 pupils who like blue.
+The remaining number of pupils is 40 pupils - 20 pupils = 20 pupils.
+One-fourth of these pupils like green which is 20 pupils / 4 = 5 pupils.
+Therefore, the number of pupils who like yellow is 20 pupils - 5 pupils = 15 pupils.","There are 40/2 = <<40/2=20>>20 pupils who like blue.
+So, there are now 40 - 20 = <<40-20=20>>20 pupils who like either green or yellow.
+Hence, 20/4 = <<20/4=5>>5 pupils like green.
+Thus, 20 - 5 = <<20-5=15>>15 pupils like yellow.
+#### 15"
+Math,3b,"Question: Mr. and Mrs. Hugo went on a road trip. On the first day, they traveled 200 miles. On the second day, they traveled 3/4 as far. On the third day, they traveled 1/2 as many miles as the first two days combined. How many miles did they travel for 3 days?
+Answer: On the second day, Mr. and Mrs. Hugo traveled 200 x 3/4 = <<200*3/4=150>>150 miles.
+They traveled a total of 200 + 150 = <<200+150=350>>350 miles in the first two days.
+On the third day, they traveled 350 x 1/2 = <<350*1/2=175>>175 miles.
+So, Mr. and Mrs. Hugo traveled a total of 200 + 150 + 175 = <<200+150+175=525>>525 miles for 3 days.
+#### 525
+Question: Gracie was 7 inches shorter than Grayson. Grayson was 2 inches taller than Griffin. Griffin is 61 inches tall. How many inches tall is Gracie?
+Answer: Grayson = 61 + 2 = <<61+2=63>>63 inches
+Gracie = 63 - 7 = <<63-7=56>>56 inches
+Gracie is 56 inches tall.
+#### 56
+Question: Mr. and Mrs. Hugo went on a road trip. On the first day, they traveled 200 miles. On the second day, they traveled 3/4 as far. On the third day, they traveled 1/2 as many miles as the first two days combined. How many miles did they travel for 3 days?
+Answer: On the second day, Mr. and Mrs. Hugo traveled 200 x 3/4 = <<200*3/4=150>>150 miles.
+They traveled a total of 200 + 150 = <<200+150=350>>350 miles in the first two days.
+On the third day, they traveled 350 x 1/2 = <<350*1/2=175>>175 miles.
+So, Mr. and Mrs. Hugo traveled a total of 200 + 150 + 175 = <<200+150+175=525>>525 miles for 3 days.
+#### 525
+Question: Gracie was 7 inches shorter than Grayson. Grayson was 2 inches taller than Griffin. Griffin is 61 inches tall. How many inches tall is Gracie?
+Answer: Grayson = 61 + 2 = <<61+2=63>>63 inches
+Gracie = 63 - 7 = <<63-7=56>>56 inches
+Gracie is 56 inches tall.
+#### 56
+Q: There are 40 pupils in a class. Half of the class likes blue. One-fourth of the remaining likes green and the rest likes yellow. How many pupils like the color yellow?","A: Half of the class, which is 40/2 = 20 pupils, likes blue.
+The remaining pupils are 40 - 20 = 20 pupils.
+One-fourth of the remaining pupils, which is 20/4 = 5 pupils, likes green.
+Therefore, the rest, which is 20 - 5 = 15 pupils, likes yellow.","There are 40/2 = <<40/2=20>>20 pupils who like blue.
+So, there are now 40 - 20 = <<40-20=20>>20 pupils who like either green or yellow.
+Hence, 20/4 = <<20/4=5>>5 pupils like green.
+Thus, 20 - 5 = <<20-5=15>>15 pupils like yellow.
+#### 15"
+CSQA,1a,"Question: He wanted a saxophone, so he went where?
+A: grocery store
+B: case
+C: marching band
+D: orchestra
+E: music store
+Answer: E
+Question: Sally is a customer at a restaurant.  She got a table early.  What might she have done after being seated?
+A: order dinner
+B: take number
+C: pay bills
+D: finish desert
+E: wait in line
+Answer: A
+Q: Where do bees congregate with red flowerS?
+A: trash can
+B: honey
+C: bouquet of flowers
+D: rose garden
+E: field of flowers",A: D: rose garden,D
+CSQA,1a,"Question: What sport do fans often watch people loose teeth?
+A: football
+B: soccer game
+C: race track
+D: hockey game
+E: sporting event
+Answer: D
+Question: What do you need to do with a friend before going to play?
+A: happy
+B: sit
+C: compete
+D: meet
+E: being entertained
+Answer: D
+Q: Where do bees congregate with red flowerS?
+A: trash can
+B: honey
+C: bouquet of flowers
+D: rose garden
+E: field of flowers",A: trash can,D
+CSQA,2,"Question: He wanted a saxophone, so he went where?
+A: grocery store
+B: case
+C: marching band
+D: orchestra
+E: music store
+Answer: E
+Question: Sally is a customer at a restaurant.  She got a table early.  What might she have done after being seated?
+A: order dinner
+B: take number
+C: pay bills
+D: finish desert
+E: wait in line
+Answer: A
+Question: What sport do fans often watch people loose teeth?
+A: football
+B: soccer game
+C: race track
+D: hockey game
+E: sporting event
+Answer: D
+Question: What do you need to do with a friend before going to play?
+A: happy
+B: sit
+C: compete
+D: meet
+E: being entertained
+Answer: D
+Q: Where do bees congregate with red flowerS?
+A: trash can
+B: honey
+C: bouquet of flowers
+D: rose garden
+E: field of flowers",A: D,D
+CSQA,3a,"Question: He wanted a saxophone, so he went where?
+A: grocery store
+B: case
+C: marching band
+D: orchestra
+E: music store
+Answer: E
+Question: Sally is a customer at a restaurant.  She got a table early.  What might she have done after being seated?
+A: order dinner
+B: take number
+C: pay bills
+D: finish desert
+E: wait in line
+Answer: A
+Question: He wanted a saxophone, so he went where?
+A: grocery store
+B: case
+C: marching band
+D: orchestra
+E: music store
+Answer: E
+Question: Sally is a customer at a restaurant.  She got a table early.  What might she have done after being seated?
+A: order dinner
+B: take number
+C: pay bills
+D: finish desert
+E: wait in line
+Answer: A
+Q: Where do bees congregate with red flowerS?
+A: trash can
+B: honey
+C: bouquet of flowers
+D: rose garden
+E: field of flowers",A: D,D
+CSQA,3b,"Question: What sport do fans often watch people loose teeth?
+A: football
+B: soccer game
+C: race track
+D: hockey game
+E: sporting event
+Answer: D
+Question: What do you need to do with a friend before going to play?
+A: happy
+B: sit
+C: compete
+D: meet
+E: being entertained
+Answer: D
+Question: What sport do fans often watch people loose teeth?
+A: football
+B: soccer game
+C: race track
+D: hockey game
+E: sporting event
+Answer: D
+Question: What do you need to do with a friend before going to play?
+A: happy
+B: sit
+C: compete
+D: meet
+E: being entertained
+Answer: D
+Q: Where do bees congregate with red flowerS?
+A: trash can
+B: honey
+C: bouquet of flowers
+D: rose garden
+E: field of flowers",Answer: D,D
+StrategyQA,1a,"Question: Cerebral palsy is a disorder caused by damage to fetal or infant brains. Slime molds are simple organisms that are similar to fungi. Slime molds do not possess a brain.
+Is a slime mold safe from cerebral palsy?
+Answer: True
+Question: The Rockettes are an American dance group made up of all women. In America, it is uncommon to see a woman with a moustache.
+Would a Rockette look odd with a moustache? 
+Answer: True
+Q: Walt Disney won a total of 26 Academy Awards. The founder of Six Flags, Angus G Wynne, had 0 academy awards. The founder of Knott's Berry Farm, Walter Knott, had 0 academy awards.
+Walt Disney dominated his amusement park peers at Academy Awards?",A: True,True
+StrategyQA,1a,"Question: Shakespeare wrote the play Hamlet Hamlet contains one of Shakespeare's most famous passages, Hamlet's soliloquy Hamlet's soliloquy begins with the line 'To be or not to be', which uses the infinitive form
+Is Shakespeare famous because of the infinitive form?
+Answer: True
+Question: Green Party of England Wales isn't registered in the USA. People who live in England can't vote in the USA.
+Can members of the Green Party of England and Wales vote in the USA?
+Answer: False
+Q: Walt Disney won a total of 26 Academy Awards. The founder of Six Flags, Angus G Wynne, had 0 academy awards. The founder of Knott's Berry Farm, Walter Knott, had 0 academy awards.
+Walt Disney dominated his amusement park peers at Academy Awards?",A: True,True
+StrategyQA,2,"Question: Cerebral palsy is a disorder caused by damage to fetal or infant brains. Slime molds are simple organisms that are similar to fungi. Slime molds do not possess a brain.
+Is a slime mold safe from cerebral palsy?
+Answer: True
+Question: The Rockettes are an American dance group made up of all women. In America, it is uncommon to see a woman with a moustache.
+Would a Rockette look odd with a moustache? 
+Answer: True
+Question: Shakespeare wrote the play Hamlet Hamlet contains one of Shakespeare's most famous passages, Hamlet's soliloquy Hamlet's soliloquy begins with the line 'To be or not to be', which uses the infinitive form
+Is Shakespeare famous because of the infinitive form?
+Answer: True
+Question: Green Party of England Wales isn't registered in the USA. People who live in England can't vote in the USA.
+Can members of the Green Party of England and Wales vote in the USA?
+Answer: False
+Q: Walt Disney won a total of 26 Academy Awards. The founder of Six Flags, Angus G Wynne, had 0 academy awards. The founder of Knott's Berry Farm, Walter Knott, had 0 academy awards.
+Walt Disney dominated his amusement park peers at Academy Awards?",A: True,True
+StrategyQA,3a,"Question: Cerebral palsy is a disorder caused by damage to fetal or infant brains. Slime molds are simple organisms that are similar to fungi. Slime molds do not possess a brain.
+Is a slime mold safe from cerebral palsy?
+Answer: True
+Question: The Rockettes are an American dance group made up of all women. In America, it is uncommon to see a woman with a moustache.
+Would a Rockette look odd with a moustache? 
+Answer: True
+Question: Cerebral palsy is a disorder caused by damage to fetal or infant brains. Slime molds are simple organisms that are similar to fungi. Slime molds do not possess a brain.
+Is a slime mold safe from cerebral palsy?
+Answer: True
+Question: The Rockettes are an American dance group made up of all women. In America, it is uncommon to see a woman with a moustache.
+Would a Rockette look odd with a moustache? 
+Answer: True
+Q: Walt Disney won a total of 26 Academy Awards. The founder of Six Flags, Angus G Wynne, had 0 academy awards. The founder of Knott's Berry Farm, Walter Knott, had 0 academy awards.
+Walt Disney dominated his amusement park peers at Academy Awards?",A: True,True
+StrategyQA,3b,"Question: Shakespeare wrote the play Hamlet Hamlet contains one of Shakespeare's most famous passages, Hamlet's soliloquy Hamlet's soliloquy begins with the line 'To be or not to be', which uses the infinitive form
+Is Shakespeare famous because of the infinitive form?
+Answer: True
+Question: Green Party of England Wales isn't registered in the USA. People who live in England can't vote in the USA.
+Can members of the Green Party of England and Wales vote in the USA?
+Answer: False
+Question: Shakespeare wrote the play Hamlet Hamlet contains one of Shakespeare's most famous passages, Hamlet's soliloquy Hamlet's soliloquy begins with the line 'To be or not to be', which uses the infinitive form
+Is Shakespeare famous because of the infinitive form?
+Answer: True
+Question: Green Party of England Wales isn't registered in the USA. People who live in England can't vote in the USA.
+Can members of the Green Party of England and Wales vote in the USA?
+Answer: False
+Q: Walt Disney won a total of 26 Academy Awards. The founder of Six Flags, Angus G Wynne, had 0 academy awards. The founder of Knott's Berry Farm, Walter Knott, had 0 academy awards.
+Walt Disney dominated his amusement park peers at Academy Awards?",A: True,True
+SayCan,1a,"Question: Bring me a fruit that is not an apple.
+Answer: 1. find an orange, 2. pick up the orange, 3. bring it to you, 4. put down the orange, 5. done
+Question: Put a banana on the counter.
+Answer: 1. pick up the banana, 2. go to the counter, 3. put down the banana, 4. done
+Q: Clear the jalapeno chips off the close counter","A: 1. pick up the jalapeno chips, 2. move them off the counter, 3. done","1. find the jalapeno chips, 2. pick up the jalapeno chips, 3. go to the trash, 4. put down the jalapeno chips, 5. done"
+SayCan,1a,"Question: How would you throw a coke can away?
+Answer: 1. find a coke can, 2. pick up the coke can, 3. go to the trash, 4. put down the coke can, 5. done
+Question: Can you bring all the drinks on the table?
+Answer: 1. go to the table, 2. pick up the redbull, 3. bring it to you, 4. put down the redbull, 5. go to the table, 6. pick up the 7up, 7. bring it to you, 8. put down the 7up, 9. go to the table, 10. done.
+Q: Clear the jalapeno chips off the close counter","A: 1. go to the counter, 2. pick up the jalapeno chips, 3. put them back in the pantry or cupboard, 4. close the pantry or cupboard, 5. done.","1. find the jalapeno chips, 2. pick up the jalapeno chips, 3. go to the trash, 4. put down the jalapeno chips, 5. done"
+SayCan,2,"Question: Bring me a fruit that is not an apple.
+Answer: 1. find an orange, 2. pick up the orange, 3. bring it to you, 4. put down the orange, 5. done
+Question: Put a banana on the counter.
+Answer: 1. pick up the banana, 2. go to the counter, 3. put down the banana, 4. done
+Question: How would you throw a coke can away?
+Answer: 1. find a coke can, 2. pick up the coke can, 3. go to the trash, 4. put down the coke can, 5. done
+Question: Can you bring all the drinks on the table?
+Answer: 1. go to the table, 2. pick up the redbull, 3. bring it to you, 4. put down the redbull, 5. go to the table, 6. pick up the 7up, 7. bring it to you, 8. put down the 7up, 9. go to the table, 10. done.
+Q: Clear the jalapeno chips off the close counter","A: 1. go to the counter, 2. pick up the jalapeno chips, 3. put them in a bowl, 4. move the bowl to a different location, 5. put down the bowl, 6. done.","1. find the jalapeno chips, 2. pick up the jalapeno chips, 3. go to the trash, 4. put down the jalapeno chips, 5. done"
+SayCan,3a,"Question: Bring me a fruit that is not an apple.
+Answer: 1. find an orange, 2. pick up the orange, 3. bring it to you, 4. put down the orange, 5. done
+Question: Put a banana on the counter.
+Answer: 1. pick up the banana, 2. go to the counter, 3. put down the banana, 4. done
+Question: Bring me a fruit that is not an apple.
+Answer: 1. find an orange, 2. pick up the orange, 3. bring it to you, 4. put down the orange, 5. done
+Question: Put a banana on the counter.
+Answer: 1. pick up the banana, 2. go to the counter, 3. put down the banana, 4. done
+Q: Clear the jalapeno chips off the close counter","A: 1. Pick up the jalapeno chips, 2. move them off the counter, 3. put them away, 4. done","1. find the jalapeno chips, 2. pick up the jalapeno chips, 3. go to the trash, 4. put down the jalapeno chips, 5. done"
+SayCan,3b,"Question: How would you throw a coke can away?
+Answer: 1. find a coke can, 2. pick up the coke can, 3. go to the trash, 4. put down the coke can, 5. done
+Question: Can you bring all the drinks on the table?
+Answer: 1. go to the table, 2. pick up the redbull, 3. bring it to you, 4. put down the redbull, 5. go to the table, 6. pick up the 7up, 7. bring it to you, 8. put down the 7up, 9. go to the table, 10. done.
+Question: How would you throw a coke can away?
+Answer: 1. find a coke can, 2. pick up the coke can, 3. go to the trash, 4. put down the coke can, 5. done
+Question: Can you bring all the drinks on the table?
+Answer: 1. go to the table, 2. pick up the redbull, 3. bring it to you, 4. put down the redbull, 5. go to the table, 6. pick up the 7up, 7. bring it to you, 8. put down the 7up, 9. go to the table, 10. done.
+Q: Clear the jalapeno chips off the close counter","A: 1. go to the counter, 2. pick up the jalapeno chips, 3. put them back in the pantry or trash, 4. done","1. find the jalapeno chips, 2. pick up the jalapeno chips, 3. go to the trash, 4. put down the jalapeno chips, 5. done"

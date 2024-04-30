@@ -1,0 +1,370 @@
+Task Class,Case,Prompt,Response,Expected
+Math,1a,"Question: There are 30 students in Ms. Leech's class. Twice as many girls as boys are in the class. There are 10 boys in the class and each boy today brought 5 cups for science activity class as Ms. Leech had instructed. If the total number of cups brought by the students in the class is 90, how many cups did each girl bring?
+Answer: If there are 30 students in Ms. Leech's class, and the number of boys is 10, the number of girls in Ms. Leech class is 30-10=<<30-10=20>>20
+If each boy brought 5 cups for the science activity, the total number of cups brought by the boys is 5*10=<<5*10=50>>50 cups.
+The number of cups that the girls brought is 90-50=<<90-50=40>>40 of the total number.
+Since the number of girls in the class is 20, each girl brought 40/20=2 cups each.
+#### 2
+Question: Tommy has 3 toy cars. His neighbor, Jessie, has 3 cars too. Jessie's older brother has 5 more cars than Tommy and Jessie. How many cars do the three of them have altogether?
+Answer: Tommy and Jessie have 3 + 3 = <<3+3=6>>6 cars.
+Jessie's brother has 5 + 6 = <<5+6=11>>11 cars.
+Altogether, they have 6 + 11 = <<6+11=17>>17 cars.
+#### 17
+Q: Melissa works as a pet groomer. This week, she has 8 dogs that need to be bathed, 5 cats that need their nails clipped, 3 birds that need their wings trimmed, and 12 horses that need to be brushed. If she splits the grooming jobs evenly over the days, how many animals will she groom each day of the week?","A: Melissa has a total of 8 + 5 + 3 + 12 = <<8+5+3+12=28>>28 animals that need grooming.
+If she splits the grooming jobs evenly over the days of the week, she will groom 28 animals / 7 days = <<28/7=4>>4 animals each day.","Melissa has 8 + 5 + 3 + 12 = <<8+5+3+12=28>>28 animals to groom over the next week.
+Therefore, She will groom 28 / 7 = <<28/7=4>>4 animals each day.
+#### 4"
+Math,1a,"Question: James creates a media empire.  He creates a movie for $2000.  Each DVD cost $6 to make.  He sells it for 2.5 times that much.  He sells 500 movies a day for 5 days a week.  How much profit does he make in 20 weeks?
+Answer: He sold each DVD for 6*2.5=$<<6*2.5=15>>15
+So he makes a profit of 15-6=$<<15-6=9>>9
+So each day he makes a profit of 9*500=$<<9*500=4500>>4500
+So he makes 4500*5=$<<4500*5=22500>>22,500
+He makes 22,500*20=$<<22500*20=450000>>450,000
+Then after the cost of creating the movie he has a profit of 450,000-2000=$<<450000-2000=448000>>448,000
+#### 448000
+Question: There are four growing trees. The first tree grows 1 meter/day, the second grows the same amount in half the time, the third grows 2 meters/day, and the fourth tree grows a meter more than the third each day. How many meters did the trees grow in total in 4 days?
+Answer: The second tree grows 1*2 = <<1*2=2>>2 meters a day.
+The fourth tree grows 2+1 = <<2+1=3>>3 meters a day.
+The first tree grows 4*1 = <<4*1=4>>4 meters in 4 days.
+The second tree grows 2*4 = <<2*4=8>>8 meters in 4 days.
+The third tree grows 2*4 = <<2*4=8>>8 meters in 4 days.
+The fourth tree grows 3*4 = <<3*4=12>>12 meters in 4 days.
+In 4 days, all four trees grew 4+8+8+12 = <<4+8+8+12=32>>32 meters combined.
+#### 32
+Q: Melissa works as a pet groomer. This week, she has 8 dogs that need to be bathed, 5 cats that need their nails clipped, 3 birds that need their wings trimmed, and 12 horses that need to be brushed. If she splits the grooming jobs evenly over the days, how many animals will she groom each day of the week?","A: Melissa has a total of 8+5+3+12 = <<8+5+3+12=28>>28 animals to groom.
+If she splits the grooming evenly over the days, she will groom 28/7 = <<28/7=4>>4 animals each day of the week.","Melissa has 8 + 5 + 3 + 12 = <<8+5+3+12=28>>28 animals to groom over the next week.
+Therefore, She will groom 28 / 7 = <<28/7=4>>4 animals each day.
+#### 4"
+Math,2,"Question: There are 30 students in Ms. Leech's class. Twice as many girls as boys are in the class. There are 10 boys in the class and each boy today brought 5 cups for science activity class as Ms. Leech had instructed. If the total number of cups brought by the students in the class is 90, how many cups did each girl bring?
+Answer: If there are 30 students in Ms. Leech's class, and the number of boys is 10, the number of girls in Ms. Leech class is 30-10=<<30-10=20>>20
+If each boy brought 5 cups for the science activity, the total number of cups brought by the boys is 5*10=<<5*10=50>>50 cups.
+The number of cups that the girls brought is 90-50=<<90-50=40>>40 of the total number.
+Since the number of girls in the class is 20, each girl brought 40/20=2 cups each.
+#### 2
+Question: Tommy has 3 toy cars. His neighbor, Jessie, has 3 cars too. Jessie's older brother has 5 more cars than Tommy and Jessie. How many cars do the three of them have altogether?
+Answer: Tommy and Jessie have 3 + 3 = <<3+3=6>>6 cars.
+Jessie's brother has 5 + 6 = <<5+6=11>>11 cars.
+Altogether, they have 6 + 11 = <<6+11=17>>17 cars.
+#### 17
+Question: James creates a media empire.  He creates a movie for $2000.  Each DVD cost $6 to make.  He sells it for 2.5 times that much.  He sells 500 movies a day for 5 days a week.  How much profit does he make in 20 weeks?
+Answer: He sold each DVD for 6*2.5=$<<6*2.5=15>>15
+So he makes a profit of 15-6=$<<15-6=9>>9
+So each day he makes a profit of 9*500=$<<9*500=4500>>4500
+So he makes 4500*5=$<<4500*5=22500>>22,500
+He makes 22,500*20=$<<22500*20=450000>>450,000
+Then after the cost of creating the movie he has a profit of 450,000-2000=$<<450000-2000=448000>>448,000
+#### 448000
+Question: There are four growing trees. The first tree grows 1 meter/day, the second grows the same amount in half the time, the third grows 2 meters/day, and the fourth tree grows a meter more than the third each day. How many meters did the trees grow in total in 4 days?
+Answer: The second tree grows 1*2 = <<1*2=2>>2 meters a day.
+The fourth tree grows 2+1 = <<2+1=3>>3 meters a day.
+The first tree grows 4*1 = <<4*1=4>>4 meters in 4 days.
+The second tree grows 2*4 = <<2*4=8>>8 meters in 4 days.
+The third tree grows 2*4 = <<2*4=8>>8 meters in 4 days.
+The fourth tree grows 3*4 = <<3*4=12>>12 meters in 4 days.
+In 4 days, all four trees grew 4+8+8+12 = <<4+8+8+12=32>>32 meters combined.
+#### 32
+Q: Melissa works as a pet groomer. This week, she has 8 dogs that need to be bathed, 5 cats that need their nails clipped, 3 birds that need their wings trimmed, and 12 horses that need to be brushed. If she splits the grooming jobs evenly over the days, how many animals will she groom each day of the week?","A: Melissa has a total of 8 + 5 + 3 + 12 = 28 animals that need grooming.
+If she splits the grooming evenly over the days of the week, she will groom 28 / 7 = 4 animals each day.","Melissa has 8 + 5 + 3 + 12 = <<8+5+3+12=28>>28 animals to groom over the next week.
+Therefore, She will groom 28 / 7 = <<28/7=4>>4 animals each day.
+#### 4"
+Math,3a,"Question: There are 30 students in Ms. Leech's class. Twice as many girls as boys are in the class. There are 10 boys in the class and each boy today brought 5 cups for science activity class as Ms. Leech had instructed. If the total number of cups brought by the students in the class is 90, how many cups did each girl bring?
+Answer: If there are 30 students in Ms. Leech's class, and the number of boys is 10, the number of girls in Ms. Leech class is 30-10=<<30-10=20>>20
+If each boy brought 5 cups for the science activity, the total number of cups brought by the boys is 5*10=<<5*10=50>>50 cups.
+The number of cups that the girls brought is 90-50=<<90-50=40>>40 of the total number.
+Since the number of girls in the class is 20, each girl brought 40/20=2 cups each.
+#### 2
+Question: Tommy has 3 toy cars. His neighbor, Jessie, has 3 cars too. Jessie's older brother has 5 more cars than Tommy and Jessie. How many cars do the three of them have altogether?
+Answer: Tommy and Jessie have 3 + 3 = <<3+3=6>>6 cars.
+Jessie's brother has 5 + 6 = <<5+6=11>>11 cars.
+Altogether, they have 6 + 11 = <<6+11=17>>17 cars.
+#### 17
+Question: There are 30 students in Ms. Leech's class. Twice as many girls as boys are in the class. There are 10 boys in the class and each boy today brought 5 cups for science activity class as Ms. Leech had instructed. If the total number of cups brought by the students in the class is 90, how many cups did each girl bring?
+Answer: If there are 30 students in Ms. Leech's class, and the number of boys is 10, the number of girls in Ms. Leech class is 30-10=<<30-10=20>>20
+If each boy brought 5 cups for the science activity, the total number of cups brought by the boys is 5*10=<<5*10=50>>50 cups.
+The number of cups that the girls brought is 90-50=<<90-50=40>>40 of the total number.
+Since the number of girls in the class is 20, each girl brought 40/20=2 cups each.
+#### 2
+Question: Tommy has 3 toy cars. His neighbor, Jessie, has 3 cars too. Jessie's older brother has 5 more cars than Tommy and Jessie. How many cars do the three of them have altogether?
+Answer: Tommy and Jessie have 3 + 3 = <<3+3=6>>6 cars.
+Jessie's brother has 5 + 6 = <<5+6=11>>11 cars.
+Altogether, they have 6 + 11 = <<6+11=17>>17 cars.
+#### 17
+Q: Melissa works as a pet groomer. This week, she has 8 dogs that need to be bathed, 5 cats that need their nails clipped, 3 birds that need their wings trimmed, and 12 horses that need to be brushed. If she splits the grooming jobs evenly over the days, how many animals will she groom each day of the week?","A: Melissa has a total of 8 + 5 + 3 + 12 = <<8+5+3+12=28>>28 animals to groom.
+If she splits the grooming evenly over the days of the week, she will groom 28 / 7 = <<28/7=4>>4 animals each day.","Melissa has 8 + 5 + 3 + 12 = <<8+5+3+12=28>>28 animals to groom over the next week.
+Therefore, She will groom 28 / 7 = <<28/7=4>>4 animals each day.
+#### 4"
+Math,3b,"Question: James creates a media empire.  He creates a movie for $2000.  Each DVD cost $6 to make.  He sells it for 2.5 times that much.  He sells 500 movies a day for 5 days a week.  How much profit does he make in 20 weeks?
+Answer: He sold each DVD for 6*2.5=$<<6*2.5=15>>15
+So he makes a profit of 15-6=$<<15-6=9>>9
+So each day he makes a profit of 9*500=$<<9*500=4500>>4500
+So he makes 4500*5=$<<4500*5=22500>>22,500
+He makes 22,500*20=$<<22500*20=450000>>450,000
+Then after the cost of creating the movie he has a profit of 450,000-2000=$<<450000-2000=448000>>448,000
+#### 448000
+Question: There are four growing trees. The first tree grows 1 meter/day, the second grows the same amount in half the time, the third grows 2 meters/day, and the fourth tree grows a meter more than the third each day. How many meters did the trees grow in total in 4 days?
+Answer: The second tree grows 1*2 = <<1*2=2>>2 meters a day.
+The fourth tree grows 2+1 = <<2+1=3>>3 meters a day.
+The first tree grows 4*1 = <<4*1=4>>4 meters in 4 days.
+The second tree grows 2*4 = <<2*4=8>>8 meters in 4 days.
+The third tree grows 2*4 = <<2*4=8>>8 meters in 4 days.
+The fourth tree grows 3*4 = <<3*4=12>>12 meters in 4 days.
+In 4 days, all four trees grew 4+8+8+12 = <<4+8+8+12=32>>32 meters combined.
+#### 32
+Question: James creates a media empire.  He creates a movie for $2000.  Each DVD cost $6 to make.  He sells it for 2.5 times that much.  He sells 500 movies a day for 5 days a week.  How much profit does he make in 20 weeks?
+Answer: He sold each DVD for 6*2.5=$<<6*2.5=15>>15
+So he makes a profit of 15-6=$<<15-6=9>>9
+So each day he makes a profit of 9*500=$<<9*500=4500>>4500
+So he makes 4500*5=$<<4500*5=22500>>22,500
+He makes 22,500*20=$<<22500*20=450000>>450,000
+Then after the cost of creating the movie he has a profit of 450,000-2000=$<<450000-2000=448000>>448,000
+#### 448000
+Question: There are four growing trees. The first tree grows 1 meter/day, the second grows the same amount in half the time, the third grows 2 meters/day, and the fourth tree grows a meter more than the third each day. How many meters did the trees grow in total in 4 days?
+Answer: The second tree grows 1*2 = <<1*2=2>>2 meters a day.
+The fourth tree grows 2+1 = <<2+1=3>>3 meters a day.
+The first tree grows 4*1 = <<4*1=4>>4 meters in 4 days.
+The second tree grows 2*4 = <<2*4=8>>8 meters in 4 days.
+The third tree grows 2*4 = <<2*4=8>>8 meters in 4 days.
+The fourth tree grows 3*4 = <<3*4=12>>12 meters in 4 days.
+In 4 days, all four trees grew 4+8+8+12 = <<4+8+8+12=32>>32 meters combined.
+#### 32
+Q: Melissa works as a pet groomer. This week, she has 8 dogs that need to be bathed, 5 cats that need their nails clipped, 3 birds that need their wings trimmed, and 12 horses that need to be brushed. If she splits the grooming jobs evenly over the days, how many animals will she groom each day of the week?","A: Melissa has a total of 8+5+3+12 = <<8+5+3+12=28>>28 animals to groom.
+If she splits the grooming evenly over the days of the week, she will groom 28 animals / 7 days = <<28/7=4>>4 animals each day.","Melissa has 8 + 5 + 3 + 12 = <<8+5+3+12=28>>28 animals to groom over the next week.
+Therefore, She will groom 28 / 7 = <<28/7=4>>4 animals each day.
+#### 4"
+CSQA,1a,"Question: Violence is inescapable.  In both the conflict between nations and the conflict between men.   Donny enjoyed the violence.  He likes going up against other people.  That's why he played what?
+A: result in getting killed
+B: protest
+C: being done against
+D: hockey game
+E: war
+Answer: D
+Question: The woman could not see her small dog but she could hear it where is it likely to be?
+A: neighbor's yard
+B: tree
+C: basket
+D: manhattan apartment
+E: fridge
+Answer: A
+Q: What is eating too much dinner likely to result in?
+A: tiredness
+B: living longer
+C: stomach ache
+D: illness
+E: acid reflux",A: tiredness,C
+CSQA,1a,"Question: Where are cars likely to move quickly?
+A: car dealership
+B: car show
+C: superb
+D: parking lot
+E: freeway
+Answer: E
+Question: He had been doing favors for everybody at work, it was frustrating not getting any what for it?
+A: let down
+B: respect
+C: illness
+D: satisfaction
+E: gratitude
+Answer: E
+Q: What is eating too much dinner likely to result in?
+A: tiredness
+B: living longer
+C: stomach ache
+D: illness
+E: acid reflux",A: tiredness,C
+CSQA,2,"Question: Violence is inescapable.  In both the conflict between nations and the conflict between men.   Donny enjoyed the violence.  He likes going up against other people.  That's why he played what?
+A: result in getting killed
+B: protest
+C: being done against
+D: hockey game
+E: war
+Answer: D
+Question: The woman could not see her small dog but she could hear it where is it likely to be?
+A: neighbor's yard
+B: tree
+C: basket
+D: manhattan apartment
+E: fridge
+Answer: A
+Question: Where are cars likely to move quickly?
+A: car dealership
+B: car show
+C: superb
+D: parking lot
+E: freeway
+Answer: E
+Question: He had been doing favors for everybody at work, it was frustrating not getting any what for it?
+A: let down
+B: respect
+C: illness
+D: satisfaction
+E: gratitude
+Answer: E
+Q: What is eating too much dinner likely to result in?
+A: tiredness
+B: living longer
+C: stomach ache
+D: illness
+E: acid reflux",A: stomach ache,C
+CSQA,3a,"Question: Violence is inescapable.  In both the conflict between nations and the conflict between men.   Donny enjoyed the violence.  He likes going up against other people.  That's why he played what?
+A: result in getting killed
+B: protest
+C: being done against
+D: hockey game
+E: war
+Answer: D
+Question: The woman could not see her small dog but she could hear it where is it likely to be?
+A: neighbor's yard
+B: tree
+C: basket
+D: manhattan apartment
+E: fridge
+Answer: A
+Question: Violence is inescapable.  In both the conflict between nations and the conflict between men.   Donny enjoyed the violence.  He likes going up against other people.  That's why he played what?
+A: result in getting killed
+B: protest
+C: being done against
+D: hockey game
+E: war
+Answer: D
+Question: The woman could not see her small dog but she could hear it where is it likely to be?
+A: neighbor's yard
+B: tree
+C: basket
+D: manhattan apartment
+E: fridge
+Answer: A
+Q: What is eating too much dinner likely to result in?
+A: tiredness
+B: living longer
+C: stomach ache
+D: illness
+E: acid reflux",Answer: C: stomach ache,C
+CSQA,3b,"Question: Where are cars likely to move quickly?
+A: car dealership
+B: car show
+C: superb
+D: parking lot
+E: freeway
+Answer: E
+Question: He had been doing favors for everybody at work, it was frustrating not getting any what for it?
+A: let down
+B: respect
+C: illness
+D: satisfaction
+E: gratitude
+Answer: E
+Question: Where are cars likely to move quickly?
+A: car dealership
+B: car show
+C: superb
+D: parking lot
+E: freeway
+Answer: E
+Question: He had been doing favors for everybody at work, it was frustrating not getting any what for it?
+A: let down
+B: respect
+C: illness
+D: satisfaction
+E: gratitude
+Answer: E
+Q: What is eating too much dinner likely to result in?
+A: tiredness
+B: living longer
+C: stomach ache
+D: illness
+E: acid reflux",A: tiredness,C
+StrategyQA,1a,"Question: Mount Emei is a 70 ton mountain located in China. The Liebherr LTM 11200-9.1 is the world's strongest crane that can lift 1200 tons.
+Can a Liebherr LTM 11200-9.1 hypothetically lift Mount Emei?
+Answer: True
+Question: JPEG is not well suited for line drawings and other textual or iconic graphics, where the sharp contrasts between adjacent pixels can cause noticeable artifacts.  Da Vinci's Vitruvian Man is a line drawing done in pen and ink.
+Would JPEG be a good format for saving an image of Da Vinci's Vitruvian Man?
+Answer: False
+Q: The animals that Yetis are said to look similar to are able to use their hands or toes to grasp items The ability to grasp with hands or other limbs is to be prehensile. 
+Would a Yeti be likely to have prehensile limbs?",A: True,True
+StrategyQA,1a,"Question: A coat is a garment used to keep a person warm. The surface temperatures on Phobos range from about −4 °C (25 °F) on the sunlit side to −112 °C (−170 °F) on the shadowed side.
+Would you have to wear a coat when on Phobos?
+Answer: True
+Question: The Baby Boomers are the generation born between the years 1946-1964. Bill Gates was born on October 28, 1955 and has a net worth of 108 billion as of 2020. Jeff Bezos was born on January 12, 1964 and has a net worth of 160 billion as of 2020.
+Is Bill Gates the wealthiest of the Baby Boomers?
+Answer: False
+Q: The animals that Yetis are said to look similar to are able to use their hands or toes to grasp items The ability to grasp with hands or other limbs is to be prehensile. 
+Would a Yeti be likely to have prehensile limbs?",A: True,True
+StrategyQA,2,"Question: Mount Emei is a 70 ton mountain located in China. The Liebherr LTM 11200-9.1 is the world's strongest crane that can lift 1200 tons.
+Can a Liebherr LTM 11200-9.1 hypothetically lift Mount Emei?
+Answer: True
+Question: JPEG is not well suited for line drawings and other textual or iconic graphics, where the sharp contrasts between adjacent pixels can cause noticeable artifacts.  Da Vinci's Vitruvian Man is a line drawing done in pen and ink.
+Would JPEG be a good format for saving an image of Da Vinci's Vitruvian Man?
+Answer: False
+Question: A coat is a garment used to keep a person warm. The surface temperatures on Phobos range from about −4 °C (25 °F) on the sunlit side to −112 °C (−170 °F) on the shadowed side.
+Would you have to wear a coat when on Phobos?
+Answer: True
+Question: The Baby Boomers are the generation born between the years 1946-1964. Bill Gates was born on October 28, 1955 and has a net worth of 108 billion as of 2020. Jeff Bezos was born on January 12, 1964 and has a net worth of 160 billion as of 2020.
+Is Bill Gates the wealthiest of the Baby Boomers?
+Answer: False
+Q: The animals that Yetis are said to look similar to are able to use their hands or toes to grasp items The ability to grasp with hands or other limbs is to be prehensile. 
+Would a Yeti be likely to have prehensile limbs?",Answer: True,True
+StrategyQA,3a,"Question: Mount Emei is a 70 ton mountain located in China. The Liebherr LTM 11200-9.1 is the world's strongest crane that can lift 1200 tons.
+Can a Liebherr LTM 11200-9.1 hypothetically lift Mount Emei?
+Answer: True
+Question: JPEG is not well suited for line drawings and other textual or iconic graphics, where the sharp contrasts between adjacent pixels can cause noticeable artifacts.  Da Vinci's Vitruvian Man is a line drawing done in pen and ink.
+Would JPEG be a good format for saving an image of Da Vinci's Vitruvian Man?
+Answer: False
+Question: Mount Emei is a 70 ton mountain located in China. The Liebherr LTM 11200-9.1 is the world's strongest crane that can lift 1200 tons.
+Can a Liebherr LTM 11200-9.1 hypothetically lift Mount Emei?
+Answer: True
+Question: JPEG is not well suited for line drawings and other textual or iconic graphics, where the sharp contrasts between adjacent pixels can cause noticeable artifacts.  Da Vinci's Vitruvian Man is a line drawing done in pen and ink.
+Would JPEG be a good format for saving an image of Da Vinci's Vitruvian Man?
+Answer: False
+Q: The animals that Yetis are said to look similar to are able to use their hands or toes to grasp items The ability to grasp with hands or other limbs is to be prehensile. 
+Would a Yeti be likely to have prehensile limbs?",A: True,True
+StrategyQA,3b,"Question: A coat is a garment used to keep a person warm. The surface temperatures on Phobos range from about −4 °C (25 °F) on the sunlit side to −112 °C (−170 °F) on the shadowed side.
+Would you have to wear a coat when on Phobos?
+Answer: True
+Question: The Baby Boomers are the generation born between the years 1946-1964. Bill Gates was born on October 28, 1955 and has a net worth of 108 billion as of 2020. Jeff Bezos was born on January 12, 1964 and has a net worth of 160 billion as of 2020.
+Is Bill Gates the wealthiest of the Baby Boomers?
+Answer: False
+Question: A coat is a garment used to keep a person warm. The surface temperatures on Phobos range from about −4 °C (25 °F) on the sunlit side to −112 °C (−170 °F) on the shadowed side.
+Would you have to wear a coat when on Phobos?
+Answer: True
+Question: The Baby Boomers are the generation born between the years 1946-1964. Bill Gates was born on October 28, 1955 and has a net worth of 108 billion as of 2020. Jeff Bezos was born on January 12, 1964 and has a net worth of 160 billion as of 2020.
+Is Bill Gates the wealthiest of the Baby Boomers?
+Answer: False
+Q: The animals that Yetis are said to look similar to are able to use their hands or toes to grasp items The ability to grasp with hands or other limbs is to be prehensile. 
+Would a Yeti be likely to have prehensile limbs?",A: True,True
+SayCan,1a,"Question: Can you bring me a salty snack?
+Answer: 1. find a sea salt chips, 2. pick up the sea salt chips, 3. bring it to you, 4. put down the sea salt chips, 5. done.
+Question: How would you put the coke can in your gripper?
+Answer: 1. pick up the coke can, 2. done
+Q: Could you get me a soda that is not caffeinated?","A: Sure, I can bring you a non-caffeinated soda. Let me go fetch one for you.","1. find a 7up, 2. pick up the 7up, 3. bring it to you, 4. put down the 7up, 5. done."
+SayCan,1a,"Question: Move a banana to the table.
+Answer: 1. pick up the banana, 2. go to the table, 3. put down the banana, 4. done
+Question: Bring me a fruit, a soda, and a bag of chips for lunch.
+Answer: 1. find the bag of chips, 2. pick up the bag of chips, 3. bring it to you, 4. put down the bag of chips, 5. find a coke can, 6. pick up the coke can, 7. bring it to you, 8. put down the coke can, 9. find a banana, 10. pick up the banana, 11. bring it to you, 12. put down the banana, 13. done
+Q: Could you get me a soda that is not caffeinated?","A: 1. Find a non-caffeinated soda, 2. pick up the non-caffeinated soda, 3. bring it to you, 4. put down the non-caffeinated soda, 5. done","1. find a 7up, 2. pick up the 7up, 3. bring it to you, 4. put down the 7up, 5. done."
+SayCan,2,"Question: Can you bring me a salty snack?
+Answer: 1. find a sea salt chips, 2. pick up the sea salt chips, 3. bring it to you, 4. put down the sea salt chips, 5. done.
+Question: How would you put the coke can in your gripper?
+Answer: 1. pick up the coke can, 2. done
+Question: Move a banana to the table.
+Answer: 1. pick up the banana, 2. go to the table, 3. put down the banana, 4. done
+Question: Bring me a fruit, a soda, and a bag of chips for lunch.
+Answer: 1. find the bag of chips, 2. pick up the bag of chips, 3. bring it to you, 4. put down the bag of chips, 5. find a coke can, 6. pick up the coke can, 7. bring it to you, 8. put down the coke can, 9. find a banana, 10. pick up the banana, 11. bring it to you, 12. put down the banana, 13. done
+Q: Could you get me a soda that is not caffeinated?","A: 1. find a non-caffeinated soda, 2. pick up the non-caffeinated soda, 3. bring it to you, 4. put down the non-caffeinated soda, 5. done.","1. find a 7up, 2. pick up the 7up, 3. bring it to you, 4. put down the 7up, 5. done."
+SayCan,3a,"Question: Can you bring me a salty snack?
+Answer: 1. find a sea salt chips, 2. pick up the sea salt chips, 3. bring it to you, 4. put down the sea salt chips, 5. done.
+Question: How would you put the coke can in your gripper?
+Answer: 1. pick up the coke can, 2. done
+Question: Can you bring me a salty snack?
+Answer: 1. find a sea salt chips, 2. pick up the sea salt chips, 3. bring it to you, 4. put down the sea salt chips, 5. done.
+Question: How would you put the coke can in your gripper?
+Answer: 1. pick up the coke can, 2. done
+Q: Could you get me a soda that is not caffeinated?","A: 1. Look for a non-caffeinated soda option, 2. Pick up the non-caffeinated soda, 3. Bring it to you, 4. Hand it to you, 5. Done.","1. find a 7up, 2. pick up the 7up, 3. bring it to you, 4. put down the 7up, 5. done."
+SayCan,3b,"Question: Move a banana to the table.
+Answer: 1. pick up the banana, 2. go to the table, 3. put down the banana, 4. done
+Question: Bring me a fruit, a soda, and a bag of chips for lunch.
+Answer: 1. find the bag of chips, 2. pick up the bag of chips, 3. bring it to you, 4. put down the bag of chips, 5. find a coke can, 6. pick up the coke can, 7. bring it to you, 8. put down the coke can, 9. find a banana, 10. pick up the banana, 11. bring it to you, 12. put down the banana, 13. done
+Question: Move a banana to the table.
+Answer: 1. pick up the banana, 2. go to the table, 3. put down the banana, 4. done
+Question: Bring me a fruit, a soda, and a bag of chips for lunch.
+Answer: 1. find the bag of chips, 2. pick up the bag of chips, 3. bring it to you, 4. put down the bag of chips, 5. find a coke can, 6. pick up the coke can, 7. bring it to you, 8. put down the coke can, 9. find a banana, 10. pick up the banana, 11. bring it to you, 12. put down the banana, 13. done
+Q: Could you get me a soda that is not caffeinated?","A: 1. Find a non-caffeinated soda, 2. Pick it up, 3. Bring it to you, 4. Put it down, 5. Done","1. find a 7up, 2. pick up the 7up, 3. bring it to you, 4. put down the 7up, 5. done."

@@ -1,887 +1,424 @@
-Task Class,Case,Examples,Response,True Answer
-Math,1a,"Q: Ginger likes to make cakes for every holiday for people.  She has 2 children, each of whom she bakes a cake for on their birthdays, Christmas, Easter, and Halloween.  She has a husband for whom she makes a cake on these same holidays, as well as on their anniversary and Valentine's Day. Lastly, she makes both her parents cakes as well, but only for their birthdays since they live far away.  How many cakes does she make in 10 years?
-A: Ginger has 2 children whom she bakes for 4 times a year, for 2*4= <<2*4=8>>8 cakes.
-She makes her husband 6 cakes a year.
-She makes each of her 2 parents a cake for 2*1=<<2*1=2>>2 cakes.
-On a yearly basis, she therefore makes 8+6+2= <<8+6+2=16>>16 cakes.
-In 10 years, she would make 16*10=<<16*10=160>>160 cakes.
-#### 160
-Q: A club is going to get additional members so that they will have 5 more than twice their current number of their members. If the club has 10 members now, how many additional members do they need?
-A: Twice the current number of members now is 10 * 2 = <<10*2=20>>20 members
-So, the club wants to have 20 + 5 = <<20+5=25>>25 members.
-Therefore, they need to get 25 - 10 = <<25-10=15>>15 members.
-#### 15
-Q: Zilla spent 7% of her monthly earnings on rent, half of it on her other monthly expenses, and put the rest in her savings. If she spent $133 on her rent, how much does she deposit into her savings account in a month?
-A: Since $133 is equal to 7% of her earnings, then 1% is equal to $133/7 = $<<133/7=19>>19.
-The total monthly earning of Zilla is represented by 100%, so $19 x 100 = $<<19*100=1900>>1900 is her monthly earnings.
-So, $1900/2 = $<<1900/2=950>>950 is spent on her other monthly expenses.
-The total amount spent on the rent and other monthly expenses is $133 + $950 = $<<133+950=1083>>1083.
-Hence, she saves $1900 - $1083 = $<<1900-1083=817>>817 per month.
-#### 817
-Q: At his craftwork store, Howard has a collection of 70 wooden bowls where he rewards two to his customers for every 10 they buy. If he had 20 customers that day, half of whom bought 20 bowls each, calculate the number of bowls remaining in the rewards collection.
-A: Half of the 20 customers, which is 1/2*20=10 bought 20 bowls each, receiving 2 for every 10.
-The total number of reward bowls each customer who bought 20 bowls received is 2+2=<<2+2=4>>4
-If 10 customers bought 20 bowls, Howard gave away 4*10=<<4*10=40>>40 bowls as rewards.
-The total number of reward bowls that remained is 70-40=<<70-40=30>>30
-#### 30
-Q: Janet pays $40/hour for 3 hours per week of clarinet lessons and $28/hour for 5 hours a week of piano lessons. How much more does she spend on piano lessons than clarinet lessons in a year?
-A: First find the total Janet spends on clarinet lessons per week: $40/hour * 3 hours/week = $<<40*3=120>>120/week
-Then find the total Janet spends on piano lessons per week: $28/hour * 5 hours/week = $<<28*5=140>>140/week
-Then subtract her weekly clarinet spending from her weekly piano spending to find the weekly difference: $140/week - $120/week = $<<140-120=20>>20/week
-Then multiply the weekly difference by the number of weeks in a year to find the annual difference: $20/week * 52 weeks/year = $<<20*52=1040>>1040/year
-#### 1040
-Q: John reels in 3 crab baskets a week.  Each basket holds 4 crabs.  He collects crabs twice a week.  Each crab sells for $3.  How much money does he make?
-A: He collects 3*4=<<3*4=12>>12 crabs each time.
-He thus collects 12*2=<<12*2=24>>24 crabs a week.
-So he makes 24*3=$<<24*3=72>>72 a week.
-#### 72
-","A: If the classroom has 30 boys, and there are three times as many girls as boys, then there are 30*3 = <<30*3=90>>90 girls in the classroom.
-If there are 1/10 as many nongendered children as there are boys, then there are 30/10 = <<30/10=3>>3 nongendered children in the classroom.
-Therefore, the total number of children in the classroom is 30 boys + 90 girls + 3 nongendered children = <<30+90+3=123>>123 children. 
-#### 123","The classroom has 3 * 30 boys = <<3*30=90>>90 girls.
-The classroom has 1/10 nongendered children so 10/100 * 30 boys = <<10/100*30=3>>3 nongendered children.
-In total the classroom has 90 + 30 + 3 = <<90+30+3=123>>123 students.
-#### 123"
-Math,1a,"Q: This weekend's football game matched the Seattle Seahawks with the Denver Broncos. The final score was 37-23, with the Seattle Seahawks taking the win. If a touchdown is worth 7 points and a field goal is worth 3 points, how many touchdowns did the Seattle Seahawks score if they scored 3 field goals during the game?
-A: The Seattle Seahawks scored 3 field goals during the length of the game and each field goal is worth 3 points, so 3 * 3=<<3*3=9>>9 points were made by the Seattle Seahawks from field goals.
-The Seattle Seahawks won so their total points would be 37 with 9 of those points accrued through the scoring of field goals, which makes 37-9=<<37-9=28>>28 points left to be scored by touchdowns.
-There are 28 points scored by touchdowns and each touchdown is worth 7 points, so this means that 28/7=<<28/7=4>>4 touchdowns were scored by the Seattle Seahawks throughout the game.
-#### 4
-Q: Mr. Doré bought $140 worth of pants, a $43 shirt and a $15 tie. He pays with a $200 bill. How much will the saleswoman give him back?
-A: The total expenses are $140 + $43 + $15 = $<<140+43+15=198>>198.
-Mr. Doré paid $200, so the saleswoman must give him $200 - $198 = $<<200-198=2>>2 back.
-#### 2
-Q: The moon has a surface area that is 1/5 that of Earth. The surface area of the Earth is 200 square acres. The land on the moon is worth 6 times that of the land on the Earth. If the total value of all the land on the earth is 80 billion dollars, what is the total value in billions of all the land on the moon?
-A: If the moon land had the same value as earth land it would be worth 16 billion because 80 / 5 = <<80/5=16>>16
-The moon's total land value is 96 billion because 16 x 6 = <<16*6=96>>96
-#### 96
-Q: A marathon is 26 miles.  He can run the first 10 miles in 1 hour.  For the remaining miles he runs at 80% that pace.  How long does the race take?
-A: There are 26-10=<<26-10=16>>16 miles left for the rest of the race
-He runs 10*.8=<<10*.8=8>>8 miles per hour
-So it takes him 16/8=<<16/8=2>>2 hours
-So in total it takes 1+2=<<1+2=3>>3 hours
-#### 3
-Q: Gerald brings chocolate bars to school for his class to share. Each bar contains 8 squares. He brings 7 total bars. His teacher says that for every bar he brings, she will bring two more identical ones. There are 24 students in class. How many squares of chocolate does each student get?
-A: The teacher brings 14 bars to school because 7 x 2 = <<7*2=14>>14
-There are 21 total bars of chocolate because 7 + 14 = <<7+14=21>>21
-There are 168 total squares of chocolate because 21 x 8 = <<21*8=168>>168
-Each student gets 7 squares because 168 / 24 = <<168/24=7>>7
-#### 7
-Q: Diego can carry 20 pounds of fruit home in his bookbag. If he buys a pound of watermelon, a pound of grapes, and a pound of oranges, how many pounds of apples can he buy?
-A: He is able to carry 3 pounds of watermelon, grapes, and oranges because1+1+ 1 = <<3=3>>3
-He can buy 17 pounds of apple because20-3 = <<20-3=17>>17
-#### 17
-","A: If the classroom has 3 times as many girls as boys, then they have 3 * 30 = <<3*30=90>>90 girls.
-If the classroom has 1/10 as many nongendered children as boys, then they have 30 / 10 = <<30/10=3>>3 nongendered children.
-Therefore, the total number of children in the classroom is 30 boys + 90 girls + 3 nongendered children = <<30+90+3=123>>123 children.","The classroom has 3 * 30 boys = <<3*30=90>>90 girls.
-The classroom has 1/10 nongendered children so 10/100 * 30 boys = <<10/100*30=3>>3 nongendered children.
-In total the classroom has 90 + 30 + 3 = <<90+30+3=123>>123 students.
-#### 123"
-Math,2,"Q: Ginger likes to make cakes for every holiday for people.  She has 2 children, each of whom she bakes a cake for on their birthdays, Christmas, Easter, and Halloween.  She has a husband for whom she makes a cake on these same holidays, as well as on their anniversary and Valentine's Day. Lastly, she makes both her parents cakes as well, but only for their birthdays since they live far away.  How many cakes does she make in 10 years?
-A: Ginger has 2 children whom she bakes for 4 times a year, for 2*4= <<2*4=8>>8 cakes.
-She makes her husband 6 cakes a year.
-She makes each of her 2 parents a cake for 2*1=<<2*1=2>>2 cakes.
-On a yearly basis, she therefore makes 8+6+2= <<8+6+2=16>>16 cakes.
-In 10 years, she would make 16*10=<<16*10=160>>160 cakes.
-#### 160
-Q: A club is going to get additional members so that they will have 5 more than twice their current number of their members. If the club has 10 members now, how many additional members do they need?
-A: Twice the current number of members now is 10 * 2 = <<10*2=20>>20 members
-So, the club wants to have 20 + 5 = <<20+5=25>>25 members.
-Therefore, they need to get 25 - 10 = <<25-10=15>>15 members.
-#### 15
-Q: Zilla spent 7% of her monthly earnings on rent, half of it on her other monthly expenses, and put the rest in her savings. If she spent $133 on her rent, how much does she deposit into her savings account in a month?
-A: Since $133 is equal to 7% of her earnings, then 1% is equal to $133/7 = $<<133/7=19>>19.
-The total monthly earning of Zilla is represented by 100%, so $19 x 100 = $<<19*100=1900>>1900 is her monthly earnings.
-So, $1900/2 = $<<1900/2=950>>950 is spent on her other monthly expenses.
-The total amount spent on the rent and other monthly expenses is $133 + $950 = $<<133+950=1083>>1083.
-Hence, she saves $1900 - $1083 = $<<1900-1083=817>>817 per month.
-#### 817
-Q: At his craftwork store, Howard has a collection of 70 wooden bowls where he rewards two to his customers for every 10 they buy. If he had 20 customers that day, half of whom bought 20 bowls each, calculate the number of bowls remaining in the rewards collection.
-A: Half of the 20 customers, which is 1/2*20=10 bought 20 bowls each, receiving 2 for every 10.
-The total number of reward bowls each customer who bought 20 bowls received is 2+2=<<2+2=4>>4
-If 10 customers bought 20 bowls, Howard gave away 4*10=<<4*10=40>>40 bowls as rewards.
-The total number of reward bowls that remained is 70-40=<<70-40=30>>30
-#### 30
-Q: Janet pays $40/hour for 3 hours per week of clarinet lessons and $28/hour for 5 hours a week of piano lessons. How much more does she spend on piano lessons than clarinet lessons in a year?
-A: First find the total Janet spends on clarinet lessons per week: $40/hour * 3 hours/week = $<<40*3=120>>120/week
-Then find the total Janet spends on piano lessons per week: $28/hour * 5 hours/week = $<<28*5=140>>140/week
-Then subtract her weekly clarinet spending from her weekly piano spending to find the weekly difference: $140/week - $120/week = $<<140-120=20>>20/week
-Then multiply the weekly difference by the number of weeks in a year to find the annual difference: $20/week * 52 weeks/year = $<<20*52=1040>>1040/year
-#### 1040
-Q: John reels in 3 crab baskets a week.  Each basket holds 4 crabs.  He collects crabs twice a week.  Each crab sells for $3.  How much money does he make?
-A: He collects 3*4=<<3*4=12>>12 crabs each time.
-He thus collects 12*2=<<12*2=24>>24 crabs a week.
-So he makes 24*3=$<<24*3=72>>72 a week.
-#### 72
-Q: This weekend's football game matched the Seattle Seahawks with the Denver Broncos. The final score was 37-23, with the Seattle Seahawks taking the win. If a touchdown is worth 7 points and a field goal is worth 3 points, how many touchdowns did the Seattle Seahawks score if they scored 3 field goals during the game?
-A: The Seattle Seahawks scored 3 field goals during the length of the game and each field goal is worth 3 points, so 3 * 3=<<3*3=9>>9 points were made by the Seattle Seahawks from field goals.
-The Seattle Seahawks won so their total points would be 37 with 9 of those points accrued through the scoring of field goals, which makes 37-9=<<37-9=28>>28 points left to be scored by touchdowns.
-There are 28 points scored by touchdowns and each touchdown is worth 7 points, so this means that 28/7=<<28/7=4>>4 touchdowns were scored by the Seattle Seahawks throughout the game.
-#### 4
-Q: Mr. Doré bought $140 worth of pants, a $43 shirt and a $15 tie. He pays with a $200 bill. How much will the saleswoman give him back?
-A: The total expenses are $140 + $43 + $15 = $<<140+43+15=198>>198.
-Mr. Doré paid $200, so the saleswoman must give him $200 - $198 = $<<200-198=2>>2 back.
-#### 2
-Q: The moon has a surface area that is 1/5 that of Earth. The surface area of the Earth is 200 square acres. The land on the moon is worth 6 times that of the land on the Earth. If the total value of all the land on the earth is 80 billion dollars, what is the total value in billions of all the land on the moon?
-A: If the moon land had the same value as earth land it would be worth 16 billion because 80 / 5 = <<80/5=16>>16
-The moon's total land value is 96 billion because 16 x 6 = <<16*6=96>>96
-#### 96
-Q: A marathon is 26 miles.  He can run the first 10 miles in 1 hour.  For the remaining miles he runs at 80% that pace.  How long does the race take?
-A: There are 26-10=<<26-10=16>>16 miles left for the rest of the race
-He runs 10*.8=<<10*.8=8>>8 miles per hour
-So it takes him 16/8=<<16/8=2>>2 hours
-So in total it takes 1+2=<<1+2=3>>3 hours
-#### 3
-Q: Gerald brings chocolate bars to school for his class to share. Each bar contains 8 squares. He brings 7 total bars. His teacher says that for every bar he brings, she will bring two more identical ones. There are 24 students in class. How many squares of chocolate does each student get?
-A: The teacher brings 14 bars to school because 7 x 2 = <<7*2=14>>14
-There are 21 total bars of chocolate because 7 + 14 = <<7+14=21>>21
-There are 168 total squares of chocolate because 21 x 8 = <<21*8=168>>168
-Each student gets 7 squares because 168 / 24 = <<168/24=7>>7
-#### 7
-Q: Diego can carry 20 pounds of fruit home in his bookbag. If he buys a pound of watermelon, a pound of grapes, and a pound of oranges, how many pounds of apples can he buy?
-A: He is able to carry 3 pounds of watermelon, grapes, and oranges because1+1+ 1 = <<3=3>>3
-He can buy 17 pounds of apple because20-3 = <<20-3=17>>17
-#### 17
-","A: If the classroom has 30 boys, and there are 3 times as many girls as boys, then there are 3*30 = <<3*30=90>>90 girls in the classroom.
-If there are 1/10 as many nongendered children as boys, then there are 30/10 = <<30/10=3>>3 nongendered children in the classroom.
-Therefore, the total number of children in the classroom is 30 (boys) + 90 (girls) + 3 (nongendered) = <<30+90+3=123>>123 children.","The classroom has 3 * 30 boys = <<3*30=90>>90 girls.
-The classroom has 1/10 nongendered children so 10/100 * 30 boys = <<10/100*30=3>>3 nongendered children.
-In total the classroom has 90 + 30 + 3 = <<90+30+3=123>>123 students.
-#### 123"
-Math,3a,"Q: Ginger likes to make cakes for every holiday for people.  She has 2 children, each of whom she bakes a cake for on their birthdays, Christmas, Easter, and Halloween.  She has a husband for whom she makes a cake on these same holidays, as well as on their anniversary and Valentine's Day. Lastly, she makes both her parents cakes as well, but only for their birthdays since they live far away.  How many cakes does she make in 10 years?
-A: Ginger has 2 children whom she bakes for 4 times a year, for 2*4= <<2*4=8>>8 cakes.
-She makes her husband 6 cakes a year.
-She makes each of her 2 parents a cake for 2*1=<<2*1=2>>2 cakes.
-On a yearly basis, she therefore makes 8+6+2= <<8+6+2=16>>16 cakes.
-In 10 years, she would make 16*10=<<16*10=160>>160 cakes.
-#### 160
-Q: A club is going to get additional members so that they will have 5 more than twice their current number of their members. If the club has 10 members now, how many additional members do they need?
-A: Twice the current number of members now is 10 * 2 = <<10*2=20>>20 members
-So, the club wants to have 20 + 5 = <<20+5=25>>25 members.
-Therefore, they need to get 25 - 10 = <<25-10=15>>15 members.
-#### 15
-Q: Zilla spent 7% of her monthly earnings on rent, half of it on her other monthly expenses, and put the rest in her savings. If she spent $133 on her rent, how much does she deposit into her savings account in a month?
-A: Since $133 is equal to 7% of her earnings, then 1% is equal to $133/7 = $<<133/7=19>>19.
-The total monthly earning of Zilla is represented by 100%, so $19 x 100 = $<<19*100=1900>>1900 is her monthly earnings.
-So, $1900/2 = $<<1900/2=950>>950 is spent on her other monthly expenses.
-The total amount spent on the rent and other monthly expenses is $133 + $950 = $<<133+950=1083>>1083.
-Hence, she saves $1900 - $1083 = $<<1900-1083=817>>817 per month.
-#### 817
-Q: At his craftwork store, Howard has a collection of 70 wooden bowls where he rewards two to his customers for every 10 they buy. If he had 20 customers that day, half of whom bought 20 bowls each, calculate the number of bowls remaining in the rewards collection.
-A: Half of the 20 customers, which is 1/2*20=10 bought 20 bowls each, receiving 2 for every 10.
-The total number of reward bowls each customer who bought 20 bowls received is 2+2=<<2+2=4>>4
-If 10 customers bought 20 bowls, Howard gave away 4*10=<<4*10=40>>40 bowls as rewards.
-The total number of reward bowls that remained is 70-40=<<70-40=30>>30
-#### 30
-Q: Janet pays $40/hour for 3 hours per week of clarinet lessons and $28/hour for 5 hours a week of piano lessons. How much more does she spend on piano lessons than clarinet lessons in a year?
-A: First find the total Janet spends on clarinet lessons per week: $40/hour * 3 hours/week = $<<40*3=120>>120/week
-Then find the total Janet spends on piano lessons per week: $28/hour * 5 hours/week = $<<28*5=140>>140/week
-Then subtract her weekly clarinet spending from her weekly piano spending to find the weekly difference: $140/week - $120/week = $<<140-120=20>>20/week
-Then multiply the weekly difference by the number of weeks in a year to find the annual difference: $20/week * 52 weeks/year = $<<20*52=1040>>1040/year
-#### 1040
-Q: John reels in 3 crab baskets a week.  Each basket holds 4 crabs.  He collects crabs twice a week.  Each crab sells for $3.  How much money does he make?
-A: He collects 3*4=<<3*4=12>>12 crabs each time.
-He thus collects 12*2=<<12*2=24>>24 crabs a week.
-So he makes 24*3=$<<24*3=72>>72 a week.
-#### 72
-Q: Ginger likes to make cakes for every holiday for people.  She has 2 children, each of whom she bakes a cake for on their birthdays, Christmas, Easter, and Halloween.  She has a husband for whom she makes a cake on these same holidays, as well as on their anniversary and Valentine's Day. Lastly, she makes both her parents cakes as well, but only for their birthdays since they live far away.  How many cakes does she make in 10 years?
-A: Ginger has 2 children whom she bakes for 4 times a year, for 2*4= <<2*4=8>>8 cakes.
-She makes her husband 6 cakes a year.
-She makes each of her 2 parents a cake for 2*1=<<2*1=2>>2 cakes.
-On a yearly basis, she therefore makes 8+6+2= <<8+6+2=16>>16 cakes.
-In 10 years, she would make 16*10=<<16*10=160>>160 cakes.
-#### 160
-Q: A club is going to get additional members so that they will have 5 more than twice their current number of their members. If the club has 10 members now, how many additional members do they need?
-A: Twice the current number of members now is 10 * 2 = <<10*2=20>>20 members
-So, the club wants to have 20 + 5 = <<20+5=25>>25 members.
-Therefore, they need to get 25 - 10 = <<25-10=15>>15 members.
-#### 15
-Q: Zilla spent 7% of her monthly earnings on rent, half of it on her other monthly expenses, and put the rest in her savings. If she spent $133 on her rent, how much does she deposit into her savings account in a month?
-A: Since $133 is equal to 7% of her earnings, then 1% is equal to $133/7 = $<<133/7=19>>19.
-The total monthly earning of Zilla is represented by 100%, so $19 x 100 = $<<19*100=1900>>1900 is her monthly earnings.
-So, $1900/2 = $<<1900/2=950>>950 is spent on her other monthly expenses.
-The total amount spent on the rent and other monthly expenses is $133 + $950 = $<<133+950=1083>>1083.
-Hence, she saves $1900 - $1083 = $<<1900-1083=817>>817 per month.
-#### 817
-Q: At his craftwork store, Howard has a collection of 70 wooden bowls where he rewards two to his customers for every 10 they buy. If he had 20 customers that day, half of whom bought 20 bowls each, calculate the number of bowls remaining in the rewards collection.
-A: Half of the 20 customers, which is 1/2*20=10 bought 20 bowls each, receiving 2 for every 10.
-The total number of reward bowls each customer who bought 20 bowls received is 2+2=<<2+2=4>>4
-If 10 customers bought 20 bowls, Howard gave away 4*10=<<4*10=40>>40 bowls as rewards.
-The total number of reward bowls that remained is 70-40=<<70-40=30>>30
-#### 30
-Q: Janet pays $40/hour for 3 hours per week of clarinet lessons and $28/hour for 5 hours a week of piano lessons. How much more does she spend on piano lessons than clarinet lessons in a year?
-A: First find the total Janet spends on clarinet lessons per week: $40/hour * 3 hours/week = $<<40*3=120>>120/week
-Then find the total Janet spends on piano lessons per week: $28/hour * 5 hours/week = $<<28*5=140>>140/week
-Then subtract her weekly clarinet spending from her weekly piano spending to find the weekly difference: $140/week - $120/week = $<<140-120=20>>20/week
-Then multiply the weekly difference by the number of weeks in a year to find the annual difference: $20/week * 52 weeks/year = $<<20*52=1040>>1040/year
-#### 1040
-Q: John reels in 3 crab baskets a week.  Each basket holds 4 crabs.  He collects crabs twice a week.  Each crab sells for $3.  How much money does he make?
-A: He collects 3*4=<<3*4=12>>12 crabs each time.
-He thus collects 12*2=<<12*2=24>>24 crabs a week.
-So he makes 24*3=$<<24*3=72>>72 a week.
-#### 72
-","A:
+Task Class,Case,Prompt,Response,Expected
+Math,1a,"Question: Tim's website got 100 visitors a day for the first 6 days and then on the last day of the week it got twice as many visitors as every other day combined.  If he gets $.01 per visit how much did he make that week?
+Answer: In the first 6 days, he got 6*100=<<6*100=600>>600 visits
+So on the 7th day, he got 600*2=<<600*2=1200>>1200 visitors
+So he got a total of 1200+600=<<1200+600=1800>>1800 visitors
+That means he made 1800*.01=$<<1800*.01=18>>18
+#### 18
+Question: A cat has nine lives.  A dog has 3 less lives than a cat.  A mouse has 7 more lives than a dog.  How many lives does a mouse have?
+Answer: Dog:9-3=<<9-3=6>>6 lives
+Mouse:6+7=<<6+7=13>>13 lives
+#### 13
+Q: A tank has a capacity of 18000 gallons. Wanda and Ms. B decided to pump water from a pond to fill the tank in two days. On the first day, working in shifts, Wanda filled 1/4 of the tank's capacity with water, and Ms. B pumped 3/4 as much water as Wanda pumped into the tank that day. On the second day, Wanda pumped 2/3 of the amount of water she pumped on the previous day, while Ms. B only pumped 1/3 of the number of gallons she pumped on the first day. How many gallons of water are remaining for the tank to be full?","A tank's capacity is 18000 gallons.
 
-If the classroom has 30 boys, and the girls outnumber the boys 3 to 1, then there are 30*3 = <<30*3=90>>90 girls in the classroom.
+On the first day, Wanda filled 1/4 of the tank's capacity, which is 1/4 * 18000 = 4500 gallons.
+Ms. B pumped 3/4 as much water as Wanda pumped, so she pumped 3/4 * 4500 = 3375 gallons on the first day.
+Together, they pumped 4500 + 3375 = 7875 gallons on the first day.
 
-If the classroom has nongendered children that only make up 1/10 of the boy population, then there are 30/10 = <<30/10=3>>3 nongendered children.
+On the second day, Wanda pumped 2/3 of the amount she pumped on the first day, which is 2/3 * 4500 = 3000 gallons.
+Ms. B pumped 1/3 of the amount she pumped on the first day, which is 1/3 * 3375 = 1125 gallons on the second day.
+Together, they pumped 3000 + 1125 = 4125 gallons on the second day.
 
-Therefore, the total number of children in the classroom is 30 boys + 90 girls + 3 nongendered children = <<30+90+3=123>>123 children.","The classroom has 3 * 30 boys = <<3*30=90>>90 girls.
-The classroom has 1/10 nongendered children so 10/100 * 30 boys = <<10/100*30=3>>3 nongendered children.
-In total the classroom has 90 + 30 + 3 = <<90+30+3=123>>123 students.
-#### 123"
-Math,3b,"Q: This weekend's football game matched the Seattle Seahawks with the Denver Broncos. The final score was 37-23, with the Seattle Seahawks taking the win. If a touchdown is worth 7 points and a field goal is worth 3 points, how many touchdowns did the Seattle Seahawks score if they scored 3 field goals during the game?
-A: The Seattle Seahawks scored 3 field goals during the length of the game and each field goal is worth 3 points, so 3 * 3=<<3*3=9>>9 points were made by the Seattle Seahawks from field goals.
-The Seattle Seahawks won so their total points would be 37 with 9 of those points accrued through the scoring of field goals, which makes 37-9=<<37-9=28>>28 points left to be scored by touchdowns.
-There are 28 points scored by touchdowns and each touchdown is worth 7 points, so this means that 28/7=<<28/7=4>>4 touchdowns were scored by the Seattle Seahawks throughout the game.
-#### 4
-Q: Mr. Doré bought $140 worth of pants, a $43 shirt and a $15 tie. He pays with a $200 bill. How much will the saleswoman give him back?
-A: The total expenses are $140 + $43 + $15 = $<<140+43+15=198>>198.
-Mr. Doré paid $200, so the saleswoman must give him $200 - $198 = $<<200-198=2>>2 back.
-#### 2
-Q: The moon has a surface area that is 1/5 that of Earth. The surface area of the Earth is 200 square acres. The land on the moon is worth 6 times that of the land on the Earth. If the total value of all the land on the earth is 80 billion dollars, what is the total value in billions of all the land on the moon?
-A: If the moon land had the same value as earth land it would be worth 16 billion because 80 / 5 = <<80/5=16>>16
-The moon's total land value is 96 billion because 16 x 6 = <<16*6=96>>96
-#### 96
-Q: A marathon is 26 miles.  He can run the first 10 miles in 1 hour.  For the remaining miles he runs at 80% that pace.  How long does the race take?
-A: There are 26-10=<<26-10=16>>16 miles left for the rest of the race
-He runs 10*.8=<<10*.8=8>>8 miles per hour
-So it takes him 16/8=<<16/8=2>>2 hours
-So in total it takes 1+2=<<1+2=3>>3 hours
-#### 3
-Q: Gerald brings chocolate bars to school for his class to share. Each bar contains 8 squares. He brings 7 total bars. His teacher says that for every bar he brings, she will bring two more identical ones. There are 24 students in class. How many squares of chocolate does each student get?
-A: The teacher brings 14 bars to school because 7 x 2 = <<7*2=14>>14
-There are 21 total bars of chocolate because 7 + 14 = <<7+14=21>>21
-There are 168 total squares of chocolate because 21 x 8 = <<21*8=168>>168
-Each student gets 7 squares because 168 / 24 = <<168/24=7>>7
-#### 7
-Q: Diego can carry 20 pounds of fruit home in his bookbag. If he buys a pound of watermelon, a pound of grapes, and a pound of oranges, how many pounds of apples can he buy?
-A: He is able to carry 3 pounds of watermelon, grapes, and oranges because1+1+ 1 = <<3=3>>3
-He can buy 17 pounds of apple because20-3 = <<20-3=17>>17
-#### 17
-Q: This weekend's football game matched the Seattle Seahawks with the Denver Broncos. The final score was 37-23, with the Seattle Seahawks taking the win. If a touchdown is worth 7 points and a field goal is worth 3 points, how many touchdowns did the Seattle Seahawks score if they scored 3 field goals during the game?
-A: The Seattle Seahawks scored 3 field goals during the length of the game and each field goal is worth 3 points, so 3 * 3=<<3*3=9>>9 points were made by the Seattle Seahawks from field goals.
-The Seattle Seahawks won so their total points would be 37 with 9 of those points accrued through the scoring of field goals, which makes 37-9=<<37-9=28>>28 points left to be scored by touchdowns.
-There are 28 points scored by touchdowns and each touchdown is worth 7 points, so this means that 28/7=<<28/7=4>>4 touchdowns were scored by the Seattle Seahawks throughout the game.
-#### 4
-Q: Mr. Doré bought $140 worth of pants, a $43 shirt and a $15 tie. He pays with a $200 bill. How much will the saleswoman give him back?
-A: The total expenses are $140 + $43 + $15 = $<<140+43+15=198>>198.
-Mr. Doré paid $200, so the saleswoman must give him $200 - $198 = $<<200-198=2>>2 back.
-#### 2
-Q: The moon has a surface area that is 1/5 that of Earth. The surface area of the Earth is 200 square acres. The land on the moon is worth 6 times that of the land on the Earth. If the total value of all the land on the earth is 80 billion dollars, what is the total value in billions of all the land on the moon?
-A: If the moon land had the same value as earth land it would be worth 16 billion because 80 / 5 = <<80/5=16>>16
-The moon's total land value is 96 billion because 16 x 6 = <<16*6=96>>96
-#### 96
-Q: A marathon is 26 miles.  He can run the first 10 miles in 1 hour.  For the remaining miles he runs at 80% that pace.  How long does the race take?
-A: There are 26-10=<<26-10=16>>16 miles left for the rest of the race
-He runs 10*.8=<<10*.8=8>>8 miles per hour
-So it takes him 16/8=<<16/8=2>>2 hours
-So in total it takes 1+2=<<1+2=3>>3 hours
-#### 3
-Q: Gerald brings chocolate bars to school for his class to share. Each bar contains 8 squares. He brings 7 total bars. His teacher says that for every bar he brings, she will bring two more identical ones. There are 24 students in class. How many squares of chocolate does each student get?
-A: The teacher brings 14 bars to school because 7 x 2 = <<7*2=14>>14
-There are 21 total bars of chocolate because 7 + 14 = <<7+14=21>>21
-There are 168 total squares of chocolate because 21 x 8 = <<21*8=168>>168
-Each student gets 7 squares because 168 / 24 = <<168/24=7>>7
-#### 7
-Q: Diego can carry 20 pounds of fruit home in his bookbag. If he buys a pound of watermelon, a pound of grapes, and a pound of oranges, how many pounds of apples can he buy?
-A: He is able to carry 3 pounds of watermelon, grapes, and oranges because1+1+ 1 = <<3=3>>3
-He can buy 17 pounds of apple because20-3 = <<20-3=17>>17
-#### 17
-","A: If the classroom has 30 boys, and there are 3 times as many girls as boys, then there are 30 * 3 = 90 girls in the classroom.
-If there are 1/10 as many nongendered children as boys, then there are 30 / 10 = 3 nongendered children in the classroom.
-Therefore, the total number of children in the classroom is 30 (boys) + 90 (girls) + 3 (nongendered) = 123 children.","The classroom has 3 * 30 boys = <<3*30=90>>90 girls.
-The classroom has 1/10 nongendered children so 10/100 * 30 boys = <<10/100*30=3>>3 nongendered children.
-In total the classroom has 90 + 30 + 3 = <<90+30+3=123>>123 students.
-#### 123"
-CSQA,1a,"Q: Where is a good place for a small dog to sleep?
-A: animal shelter
-B: backyard
-C: own home
-D: basket
-E: garage
-A: D
-Q: He had done a great job with the scary decorations, they were completely what?
-A: terrible
-B: little
-C: halloween
-D: small
-E: horrible
-A: E
-Q: What do people feel in the winter?
-A: use money
-B: sick
-C: pay bills
-D: feel cold
-E: become old
-A: D
-Q: If I'm not free, what am I?
-A: paid for
-B: enslaved
-C: expensive
-D: imprisoned
-E: locked up
-A: D
-Q: What is a book where you can find the meaning of a word?
-A: encyclopedia
-B: sentence
-C: dictionary
-D: phrase
-E: language
-A: C
-Q: What are people playing when they want to take the lead with small papers?
-A: very heavy
-B: video game
-C: news article
-D: card game
-E: lead pencil
-A: D
-",A: D,
-CSQA,1a,"Q: I needed to send a piece of mail, where did I go?
-A: table
-B: post office
-C: neighbor's house
-D: railway station
-E: fridge
-A: B
-Q: She was very saddened about the condition of the person, it was who she most what?
-A: own house
-B: care about
-C: basement
-D: know everything
-E: spare time
-A: B
-Q: The government was instituting civil action left and right, the people fought back and began to what?
-A: riot
-B: go to jail
-C: restitution
-D: violence
-E: court case
-A: A
-Q: After hours of eating, what did he satisfyingly have?
-A: stomach aches
-B: full belly
-C: getting full
-D: full stomach
-E: satisfaction
-A: D
-Q: Sarah went to school to be a nurse.  She loved giving assistance to people in need. To better help people, she had to constantly do something.  What might she do to better help people?
-A: people helped
-B: learning new skills
-C: better circumstances
-D: practice
-E: happiness
-A: B
-Q: What has happened if you are dancing and you smell bad?
-A: becoming tired
-B: fatigue
-C: sore feet
-D: break up
-E: sweat
-A: E
-",A: C,
-CSQA,2,"Q: Where is a good place for a small dog to sleep?
-A: animal shelter
-B: backyard
-C: own home
-D: basket
-E: garage
-A: D
-Q: He had done a great job with the scary decorations, they were completely what?
-A: terrible
-B: little
-C: halloween
-D: small
-E: horrible
-A: E
-Q: What do people feel in the winter?
-A: use money
-B: sick
-C: pay bills
-D: feel cold
-E: become old
-A: D
-Q: If I'm not free, what am I?
-A: paid for
-B: enslaved
-C: expensive
-D: imprisoned
-E: locked up
-A: D
-Q: What is a book where you can find the meaning of a word?
-A: encyclopedia
-B: sentence
-C: dictionary
-D: phrase
-E: language
-A: C
-Q: What are people playing when they want to take the lead with small papers?
-A: very heavy
-B: video game
-C: news article
-D: card game
-E: lead pencil
-A: D
-Q: I needed to send a piece of mail, where did I go?
-A: table
-B: post office
-C: neighbor's house
-D: railway station
-E: fridge
-A: B
-Q: She was very saddened about the condition of the person, it was who she most what?
-A: own house
-B: care about
-C: basement
-D: know everything
-E: spare time
-A: B
-Q: The government was instituting civil action left and right, the people fought back and began to what?
-A: riot
-B: go to jail
-C: restitution
-D: violence
-E: court case
-A: A
-Q: After hours of eating, what did he satisfyingly have?
-A: stomach aches
-B: full belly
-C: getting full
-D: full stomach
-E: satisfaction
-A: D
-Q: Sarah went to school to be a nurse.  She loved giving assistance to people in need. To better help people, she had to constantly do something.  What might she do to better help people?
-A: people helped
-B: learning new skills
-C: better circumstances
-D: practice
-E: happiness
-A: B
-Q: What has happened if you are dancing and you smell bad?
-A: becoming tired
-B: fatigue
-C: sore feet
-D: break up
-E: sweat
-A: E
-",A: D,
-CSQA,3a,"Q: Where is a good place for a small dog to sleep?
-A: animal shelter
-B: backyard
-C: own home
-D: basket
-E: garage
-A: D
-Q: He had done a great job with the scary decorations, they were completely what?
-A: terrible
-B: little
-C: halloween
-D: small
-E: horrible
-A: E
-Q: What do people feel in the winter?
-A: use money
-B: sick
-C: pay bills
-D: feel cold
-E: become old
-A: D
-Q: If I'm not free, what am I?
-A: paid for
-B: enslaved
-C: expensive
-D: imprisoned
-E: locked up
-A: D
-Q: What is a book where you can find the meaning of a word?
-A: encyclopedia
-B: sentence
-C: dictionary
-D: phrase
-E: language
-A: C
-Q: What are people playing when they want to take the lead with small papers?
-A: very heavy
-B: video game
-C: news article
-D: card game
-E: lead pencil
-A: D
-Q: Where is a good place for a small dog to sleep?
-A: animal shelter
-B: backyard
-C: own home
-D: basket
-E: garage
-A: D
-Q: He had done a great job with the scary decorations, they were completely what?
-A: terrible
-B: little
-C: halloween
-D: small
-E: horrible
-A: E
-Q: What do people feel in the winter?
-A: use money
-B: sick
-C: pay bills
-D: feel cold
-E: become old
-A: D
-Q: If I'm not free, what am I?
-A: paid for
-B: enslaved
-C: expensive
-D: imprisoned
-E: locked up
-A: D
-Q: What is a book where you can find the meaning of a word?
-A: encyclopedia
-B: sentence
-C: dictionary
-D: phrase
-E: language
-A: C
-Q: What are people playing when they want to take the lead with small papers?
-A: very heavy
-B: video game
-C: news article
-D: card game
-E: lead pencil
-A: D
-",A: D,
-CSQA,3b,"Q: I needed to send a piece of mail, where did I go?
-A: table
-B: post office
-C: neighbor's house
-D: railway station
-E: fridge
-A: B
-Q: She was very saddened about the condition of the person, it was who she most what?
-A: own house
-B: care about
-C: basement
-D: know everything
-E: spare time
-A: B
-Q: The government was instituting civil action left and right, the people fought back and began to what?
-A: riot
-B: go to jail
-C: restitution
-D: violence
-E: court case
-A: A
-Q: After hours of eating, what did he satisfyingly have?
-A: stomach aches
-B: full belly
-C: getting full
-D: full stomach
-E: satisfaction
-A: D
-Q: Sarah went to school to be a nurse.  She loved giving assistance to people in need. To better help people, she had to constantly do something.  What might she do to better help people?
-A: people helped
-B: learning new skills
-C: better circumstances
-D: practice
-E: happiness
-A: B
-Q: What has happened if you are dancing and you smell bad?
-A: becoming tired
-B: fatigue
-C: sore feet
-D: break up
-E: sweat
-A: E
-Q: I needed to send a piece of mail, where did I go?
-A: table
-B: post office
-C: neighbor's house
-D: railway station
-E: fridge
-A: B
-Q: She was very saddened about the condition of the person, it was who she most what?
-A: own house
-B: care about
-C: basement
-D: know everything
-E: spare time
-A: B
-Q: The government was instituting civil action left and right, the people fought back and began to what?
-A: riot
-B: go to jail
-C: restitution
-D: violence
-E: court case
-A: A
-Q: After hours of eating, what did he satisfyingly have?
-A: stomach aches
-B: full belly
-C: getting full
-D: full stomach
-E: satisfaction
-A: D
-Q: Sarah went to school to be a nurse.  She loved giving assistance to people in need. To better help people, she had to constantly do something.  What might she do to better help people?
-A: people helped
-B: learning new skills
-C: better circumstances
-D: practice
-E: happiness
-A: B
-Q: What has happened if you are dancing and you smell bad?
-A: becoming tired
-B: fatigue
-C: sore feet
-D: break up
-E: sweat
-A: E
-",A: C,
-StrategyQA,1a,"Q: The history Pulitzer Prize can be won by any citizen, all other Pulitzer Prize winners must be a US Citizen. Cheb Mami is an Algerian singer. Cheb Mami is a citizen of Algeria.
-Is it impossible for Cheb Mami to win a Pulitzer Prize for musical composition?
-A: True
-Q: The Boxer Rebellion took place from 1899–1901 The Royal Air Force was formed on 1 April 1918
-Did the Royal Air Force fight in the Boxer Rebellion?
-A: False
-Q: A 2 Euro coin is made of a mix of copper and brass. Objects float if their density is less than water. Ancient bronze metal ingots were found on the sea floor off the coast of Italy in 2015.
-Will a 2 Euro coin float across the Red Sea?
-A: False
-Q: Black Lives Matter has held numerous protests Protesters at Black Lives Matter events have had pepper spray used against them by police Capsaicin is the main ingredient of pepper spray
-Is Black Lives Matter connected with capsaicin?
-A: True
-Q: Cuba Libre is a highball cocktail consisting of cola, rum, and in many recipes lime juice on ice. Traditionally, the cola ingredient is Coca-Cola (""Coke""), and the alcohol is a light rum such as Bacardi.  Coca-Cola typically contains caffeine. Caffeine consumption often promotes insomnia.
-Would Cuba Libre consumption help with insomnia?
-A: False
-Q: Alfred Nobel established the Nobel prize in his will in 1895. Alfred Nobel established 5 Nobel prize categories: Chemistry, Literature, Peace, Physics, and Physiology or Medicine. The Nobel prize evolved to include a sixth category of Economic Sciences in 1968.
-Has categories of Nobel prizes remained same since Alfred Nobel established them?
-A: False
-",A: True,False
-StrategyQA,1a,"Q: Pimp My Ride is a show where people's cars are upgraded and improved The Pope has a personal vehicle called the Popemobile
-Could the Pope be on an episode of Pimp My Ride?
-A: True
-Q: The Football War was a war in 1969 between Honduras and El Salvador The Football War was caused in part by rioting during a FIFA Cup qualifying match The FIFA Cup is a soccer tournament Touchdowns are scored in American football
-Did either side score a touchdown during the Football War?
-A: False
-Q: Lord Voldemort created a slur to describe half muggle wizards, calling them mudbloods. Lord Voldemort sought to purge the wizarding world of half muggle wizards through death.
-Would half muggle wizards fear Lord Voldemort?
-A: True
-Q: Incubation is the process of hatching offspring from eggs Kangaroos are mammals Mammals give birth to live offspring
-Does a kangaroo incubate its offspring?
-A: False
-Q: The writers of the Constitutional Amendments did not view black people as legitimate human beings. The writers of the Constitutional Amendments believed that slavery benefited black slaves. The Constitutional Amendments were written for people that the writers considered human.
-Was the Second Amendment to the United States Constitution written without consideration for black Americans?
-A: True
-Q: Chess is a game that is made up of 64 squares. The Japanese game of Shogi requires a total of 81 squares.
-Can a chess board be converted to a Shogi board?
-A: False
-",A: True,False
-StrategyQA,2,"Q: The history Pulitzer Prize can be won by any citizen, all other Pulitzer Prize winners must be a US Citizen. Cheb Mami is an Algerian singer. Cheb Mami is a citizen of Algeria.
-Is it impossible for Cheb Mami to win a Pulitzer Prize for musical composition?
-A: True
-Q: The Boxer Rebellion took place from 1899–1901 The Royal Air Force was formed on 1 April 1918
-Did the Royal Air Force fight in the Boxer Rebellion?
-A: False
-Q: A 2 Euro coin is made of a mix of copper and brass. Objects float if their density is less than water. Ancient bronze metal ingots were found on the sea floor off the coast of Italy in 2015.
-Will a 2 Euro coin float across the Red Sea?
-A: False
-Q: Black Lives Matter has held numerous protests Protesters at Black Lives Matter events have had pepper spray used against them by police Capsaicin is the main ingredient of pepper spray
-Is Black Lives Matter connected with capsaicin?
-A: True
-Q: Cuba Libre is a highball cocktail consisting of cola, rum, and in many recipes lime juice on ice. Traditionally, the cola ingredient is Coca-Cola (""Coke""), and the alcohol is a light rum such as Bacardi.  Coca-Cola typically contains caffeine. Caffeine consumption often promotes insomnia.
-Would Cuba Libre consumption help with insomnia?
-A: False
-Q: Alfred Nobel established the Nobel prize in his will in 1895. Alfred Nobel established 5 Nobel prize categories: Chemistry, Literature, Peace, Physics, and Physiology or Medicine. The Nobel prize evolved to include a sixth category of Economic Sciences in 1968.
-Has categories of Nobel prizes remained same since Alfred Nobel established them?
-A: False
-Q: Pimp My Ride is a show where people's cars are upgraded and improved The Pope has a personal vehicle called the Popemobile
-Could the Pope be on an episode of Pimp My Ride?
-A: True
-Q: The Football War was a war in 1969 between Honduras and El Salvador The Football War was caused in part by rioting during a FIFA Cup qualifying match The FIFA Cup is a soccer tournament Touchdowns are scored in American football
-Did either side score a touchdown during the Football War?
-A: False
-Q: Lord Voldemort created a slur to describe half muggle wizards, calling them mudbloods. Lord Voldemort sought to purge the wizarding world of half muggle wizards through death.
-Would half muggle wizards fear Lord Voldemort?
-A: True
-Q: Incubation is the process of hatching offspring from eggs Kangaroos are mammals Mammals give birth to live offspring
-Does a kangaroo incubate its offspring?
-A: False
-Q: The writers of the Constitutional Amendments did not view black people as legitimate human beings. The writers of the Constitutional Amendments believed that slavery benefited black slaves. The Constitutional Amendments were written for people that the writers considered human.
-Was the Second Amendment to the United States Constitution written without consideration for black Americans?
-A: True
-Q: Chess is a game that is made up of 64 squares. The Japanese game of Shogi requires a total of 81 squares.
-Can a chess board be converted to a Shogi board?
-A: False
-",A: True,False
-StrategyQA,3a,"Q: The history Pulitzer Prize can be won by any citizen, all other Pulitzer Prize winners must be a US Citizen. Cheb Mami is an Algerian singer. Cheb Mami is a citizen of Algeria.
-Is it impossible for Cheb Mami to win a Pulitzer Prize for musical composition?
-A: True
-Q: The Boxer Rebellion took place from 1899–1901 The Royal Air Force was formed on 1 April 1918
-Did the Royal Air Force fight in the Boxer Rebellion?
-A: False
-Q: A 2 Euro coin is made of a mix of copper and brass. Objects float if their density is less than water. Ancient bronze metal ingots were found on the sea floor off the coast of Italy in 2015.
-Will a 2 Euro coin float across the Red Sea?
-A: False
-Q: Black Lives Matter has held numerous protests Protesters at Black Lives Matter events have had pepper spray used against them by police Capsaicin is the main ingredient of pepper spray
-Is Black Lives Matter connected with capsaicin?
-A: True
-Q: Cuba Libre is a highball cocktail consisting of cola, rum, and in many recipes lime juice on ice. Traditionally, the cola ingredient is Coca-Cola (""Coke""), and the alcohol is a light rum such as Bacardi.  Coca-Cola typically contains caffeine. Caffeine consumption often promotes insomnia.
-Would Cuba Libre consumption help with insomnia?
-A: False
-Q: Alfred Nobel established the Nobel prize in his will in 1895. Alfred Nobel established 5 Nobel prize categories: Chemistry, Literature, Peace, Physics, and Physiology or Medicine. The Nobel prize evolved to include a sixth category of Economic Sciences in 1968.
-Has categories of Nobel prizes remained same since Alfred Nobel established them?
-A: False
-Q: The history Pulitzer Prize can be won by any citizen, all other Pulitzer Prize winners must be a US Citizen. Cheb Mami is an Algerian singer. Cheb Mami is a citizen of Algeria.
-Is it impossible for Cheb Mami to win a Pulitzer Prize for musical composition?
-A: True
-Q: The Boxer Rebellion took place from 1899–1901 The Royal Air Force was formed on 1 April 1918
-Did the Royal Air Force fight in the Boxer Rebellion?
-A: False
-Q: A 2 Euro coin is made of a mix of copper and brass. Objects float if their density is less than water. Ancient bronze metal ingots were found on the sea floor off the coast of Italy in 2015.
-Will a 2 Euro coin float across the Red Sea?
-A: False
-Q: Black Lives Matter has held numerous protests Protesters at Black Lives Matter events have had pepper spray used against them by police Capsaicin is the main ingredient of pepper spray
-Is Black Lives Matter connected with capsaicin?
-A: True
-Q: Cuba Libre is a highball cocktail consisting of cola, rum, and in many recipes lime juice on ice. Traditionally, the cola ingredient is Coca-Cola (""Coke""), and the alcohol is a light rum such as Bacardi.  Coca-Cola typically contains caffeine. Caffeine consumption often promotes insomnia.
-Would Cuba Libre consumption help with insomnia?
-A: False
-Q: Alfred Nobel established the Nobel prize in his will in 1895. Alfred Nobel established 5 Nobel prize categories: Chemistry, Literature, Peace, Physics, and Physiology or Medicine. The Nobel prize evolved to include a sixth category of Economic Sciences in 1968.
-Has categories of Nobel prizes remained same since Alfred Nobel established them?
-A: False
-",A: True,False
-StrategyQA,3b,"Q: Pimp My Ride is a show where people's cars are upgraded and improved The Pope has a personal vehicle called the Popemobile
-Could the Pope be on an episode of Pimp My Ride?
-A: True
-Q: The Football War was a war in 1969 between Honduras and El Salvador The Football War was caused in part by rioting during a FIFA Cup qualifying match The FIFA Cup is a soccer tournament Touchdowns are scored in American football
-Did either side score a touchdown during the Football War?
-A: False
-Q: Lord Voldemort created a slur to describe half muggle wizards, calling them mudbloods. Lord Voldemort sought to purge the wizarding world of half muggle wizards through death.
-Would half muggle wizards fear Lord Voldemort?
-A: True
-Q: Incubation is the process of hatching offspring from eggs Kangaroos are mammals Mammals give birth to live offspring
-Does a kangaroo incubate its offspring?
-A: False
-Q: The writers of the Constitutional Amendments did not view black people as legitimate human beings. The writers of the Constitutional Amendments believed that slavery benefited black slaves. The Constitutional Amendments were written for people that the writers considered human.
-Was the Second Amendment to the United States Constitution written without consideration for black Americans?
-A: True
-Q: Chess is a game that is made up of 64 squares. The Japanese game of Shogi requires a total of 81 squares.
-Can a chess board be converted to a Shogi board?
-A: False
-Q: Pimp My Ride is a show where people's cars are upgraded and improved The Pope has a personal vehicle called the Popemobile
-Could the Pope be on an episode of Pimp My Ride?
-A: True
-Q: The Football War was a war in 1969 between Honduras and El Salvador The Football War was caused in part by rioting during a FIFA Cup qualifying match The FIFA Cup is a soccer tournament Touchdowns are scored in American football
-Did either side score a touchdown during the Football War?
-A: False
-Q: Lord Voldemort created a slur to describe half muggle wizards, calling them mudbloods. Lord Voldemort sought to purge the wizarding world of half muggle wizards through death.
-Would half muggle wizards fear Lord Voldemort?
-A: True
-Q: Incubation is the process of hatching offspring from eggs Kangaroos are mammals Mammals give birth to live offspring
-Does a kangaroo incubate its offspring?
-A: False
-Q: The writers of the Constitutional Amendments did not view black people as legitimate human beings. The writers of the Constitutional Amendments believed that slavery benefited black slaves. The Constitutional Amendments were written for people that the writers considered human.
-Was the Second Amendment to the United States Constitution written without consideration for black Americans?
-A: True
-Q: Chess is a game that is made up of 64 squares. The Japanese game of Shogi requires a total of 81 squares.
-Can a chess board be converted to a Shogi board?
-A: False
-",A: True,False
-SayCan,1a,"Q: How would you bring me a fruit, a soda, and a bag of chips for lunch?
-A: 1. find the bag of chips, 2. pick up the bag of chips, 3. bring it to you, 4. put down the bag of chips, 5. find a coke can, 6. pick up the coke can, 7. bring it to you, 8. put down the coke can, 9. find a banana, 10. pick up the banana, 11. bring it to you, 12. put down the banana, 13. done
-Q: How would you bring me the open can?
-A: 1. find a sprite can, 2. pick up the sprite can, 3. bring it to you, 4. put down the sprite can, 5. done
-Q: Restock chips in the drawer.
-A: 1. find the bag of chips, 2. pick up the bag of chips, 3. go to the drawer, 4. put down the bag of chips, 5. open the drawer, 6. pick up the bag of chips, 7. put down the bag of chips, 8. close the drawer, 9. done
-Q: Lift and hold the coke can up.
-A: 1. pick up the coke, 2. done
-Q: Bring me three different drinks.
-A: 1. find a coke, 2. pick up the coke, 3. bring it to you, 4. put down the coke, 5. find a lime soda, 6. pick up the lime soda, 7. bring it to you, 8. put down the lime soda, 9. find a redbull, 10. pick up the redbull, 11. bring it to you, 12. put down the redbull, 13. done
-Q: How would you bring me a fruit?
-A: 1. find a banana, 2. pick up the banana, 3. bring it to you, 4. put down the banana, 5. done
-","A: 1. open the gripper, 2. pick up the coke can, 3. close the gripper around the coke can, 4. done","1. pick up the coke can, 2. done"
-SayCan,1a,"Q: Can you throw away three oranges?
-A: 1. find an orange, 2. pick up the orange, 3. go to the trash, 4. put down the orange, 5. find an orange, 6. pick up the orange, 7. go to the trash, 8. put down the orange, 9. find an orange, 10. pick up the orange, 11. go to the trash, 12. put down the orange, 13. done
-Q: Could you get me something caffeinated?
-A: 1. find a redbull, 2. pick up the redbull, 3. bring it to you, 4. put down the redbull, 5. done.
-Q: Bring me a fruit that is not an apple.
-A: 1. find an orange, 2. pick up the orange, 3. bring it to you, 4. put down the orange, 5. done
-Q: Visit the counter and the table in the kitchen.
-A: 1. go to the counter, 2. go to the table, 3. done
-Q: Bring me a drink that isn’t an water or a coke.
-A: 1. find a tea, 2. pick up the tea, 3. bring it to you, 4. put down the tea, 5. done.
-Q: Throw away all the fruits on the table.
-A: 1. go to the table, 2. pick up the apple, 3. go to the trash, 4. put down the apple, 5. go to the table, 6. pick up the orange, 7. go to the trash, 8. put down the orange, 9. done
-","A: 1. open your gripper, 2. pick up the coke can, 3. close your gripper around the coke can, 4. lift the coke can with your gripper, 5. bring the coke can to where you want it, 6. open your gripper to release the coke can, 7. done.","1. pick up the coke can, 2. done"
-SayCan,2,"Q: How would you bring me a fruit, a soda, and a bag of chips for lunch?
-A: 1. find the bag of chips, 2. pick up the bag of chips, 3. bring it to you, 4. put down the bag of chips, 5. find a coke can, 6. pick up the coke can, 7. bring it to you, 8. put down the coke can, 9. find a banana, 10. pick up the banana, 11. bring it to you, 12. put down the banana, 13. done
-Q: How would you bring me the open can?
-A: 1. find a sprite can, 2. pick up the sprite can, 3. bring it to you, 4. put down the sprite can, 5. done
-Q: Restock chips in the drawer.
-A: 1. find the bag of chips, 2. pick up the bag of chips, 3. go to the drawer, 4. put down the bag of chips, 5. open the drawer, 6. pick up the bag of chips, 7. put down the bag of chips, 8. close the drawer, 9. done
-Q: Lift and hold the coke can up.
-A: 1. pick up the coke, 2. done
-Q: Bring me three different drinks.
-A: 1. find a coke, 2. pick up the coke, 3. bring it to you, 4. put down the coke, 5. find a lime soda, 6. pick up the lime soda, 7. bring it to you, 8. put down the lime soda, 9. find a redbull, 10. pick up the redbull, 11. bring it to you, 12. put down the redbull, 13. done
-Q: How would you bring me a fruit?
-A: 1. find a banana, 2. pick up the banana, 3. bring it to you, 4. put down the banana, 5. done
-Q: Can you throw away three oranges?
-A: 1. find an orange, 2. pick up the orange, 3. go to the trash, 4. put down the orange, 5. find an orange, 6. pick up the orange, 7. go to the trash, 8. put down the orange, 9. find an orange, 10. pick up the orange, 11. go to the trash, 12. put down the orange, 13. done
-Q: Could you get me something caffeinated?
-A: 1. find a redbull, 2. pick up the redbull, 3. bring it to you, 4. put down the redbull, 5. done.
-Q: Bring me a fruit that is not an apple.
-A: 1. find an orange, 2. pick up the orange, 3. bring it to you, 4. put down the orange, 5. done
-Q: Visit the counter and the table in the kitchen.
-A: 1. go to the counter, 2. go to the table, 3. done
-Q: Bring me a drink that isn’t an water or a coke.
-A: 1. find a tea, 2. pick up the tea, 3. bring it to you, 4. put down the tea, 5. done.
-Q: Throw away all the fruits on the table.
-A: 1. go to the table, 2. pick up the apple, 3. go to the trash, 4. put down the apple, 5. go to the table, 6. pick up the orange, 7. go to the trash, 8. put down the orange, 9. done
-","A: 1. open the gripper, 2. pick up the coke can, 3. close the gripper around the can, 4. done.","1. pick up the coke can, 2. done"
-SayCan,3a,"Q: How would you bring me a fruit, a soda, and a bag of chips for lunch?
-A: 1. find the bag of chips, 2. pick up the bag of chips, 3. bring it to you, 4. put down the bag of chips, 5. find a coke can, 6. pick up the coke can, 7. bring it to you, 8. put down the coke can, 9. find a banana, 10. pick up the banana, 11. bring it to you, 12. put down the banana, 13. done
-Q: How would you bring me the open can?
-A: 1. find a sprite can, 2. pick up the sprite can, 3. bring it to you, 4. put down the sprite can, 5. done
-Q: Restock chips in the drawer.
-A: 1. find the bag of chips, 2. pick up the bag of chips, 3. go to the drawer, 4. put down the bag of chips, 5. open the drawer, 6. pick up the bag of chips, 7. put down the bag of chips, 8. close the drawer, 9. done
-Q: Lift and hold the coke can up.
-A: 1. pick up the coke, 2. done
-Q: Bring me three different drinks.
-A: 1. find a coke, 2. pick up the coke, 3. bring it to you, 4. put down the coke, 5. find a lime soda, 6. pick up the lime soda, 7. bring it to you, 8. put down the lime soda, 9. find a redbull, 10. pick up the redbull, 11. bring it to you, 12. put down the redbull, 13. done
-Q: How would you bring me a fruit?
-A: 1. find a banana, 2. pick up the banana, 3. bring it to you, 4. put down the banana, 5. done
-Q: How would you bring me a fruit, a soda, and a bag of chips for lunch?
-A: 1. find the bag of chips, 2. pick up the bag of chips, 3. bring it to you, 4. put down the bag of chips, 5. find a coke can, 6. pick up the coke can, 7. bring it to you, 8. put down the coke can, 9. find a banana, 10. pick up the banana, 11. bring it to you, 12. put down the banana, 13. done
-Q: How would you bring me the open can?
-A: 1. find a sprite can, 2. pick up the sprite can, 3. bring it to you, 4. put down the sprite can, 5. done
-Q: Restock chips in the drawer.
-A: 1. find the bag of chips, 2. pick up the bag of chips, 3. go to the drawer, 4. put down the bag of chips, 5. open the drawer, 6. pick up the bag of chips, 7. put down the bag of chips, 8. close the drawer, 9. done
-Q: Lift and hold the coke can up.
-A: 1. pick up the coke, 2. done
-Q: Bring me three different drinks.
-A: 1. find a coke, 2. pick up the coke, 3. bring it to you, 4. put down the coke, 5. find a lime soda, 6. pick up the lime soda, 7. bring it to you, 8. put down the lime soda, 9. find a redbull, 10. pick up the redbull, 11. bring it to you, 12. put down the redbull, 13. done
-Q: How would you bring me a fruit?
-A: 1. find a banana, 2. pick up the banana, 3. bring it to you, 4. put down the banana, 5. done
-","A: 1. Open the gripper, 2. Pick up the coke can, 3. Place the coke can in the gripper, 4. Close the gripper around the coke can, 5. Done","1. pick up the coke can, 2. done"
-SayCan,3b,"Q: Can you throw away three oranges?
-A: 1. find an orange, 2. pick up the orange, 3. go to the trash, 4. put down the orange, 5. find an orange, 6. pick up the orange, 7. go to the trash, 8. put down the orange, 9. find an orange, 10. pick up the orange, 11. go to the trash, 12. put down the orange, 13. done
-Q: Could you get me something caffeinated?
-A: 1. find a redbull, 2. pick up the redbull, 3. bring it to you, 4. put down the redbull, 5. done.
-Q: Bring me a fruit that is not an apple.
-A: 1. find an orange, 2. pick up the orange, 3. bring it to you, 4. put down the orange, 5. done
-Q: Visit the counter and the table in the kitchen.
-A: 1. go to the counter, 2. go to the table, 3. done
-Q: Bring me a drink that isn’t an water or a coke.
-A: 1. find a tea, 2. pick up the tea, 3. bring it to you, 4. put down the tea, 5. done.
-Q: Throw away all the fruits on the table.
-A: 1. go to the table, 2. pick up the apple, 3. go to the trash, 4. put down the apple, 5. go to the table, 6. pick up the orange, 7. go to the trash, 8. put down the orange, 9. done
-Q: Can you throw away three oranges?
-A: 1. find an orange, 2. pick up the orange, 3. go to the trash, 4. put down the orange, 5. find an orange, 6. pick up the orange, 7. go to the trash, 8. put down the orange, 9. find an orange, 10. pick up the orange, 11. go to the trash, 12. put down the orange, 13. done
-Q: Could you get me something caffeinated?
-A: 1. find a redbull, 2. pick up the redbull, 3. bring it to you, 4. put down the redbull, 5. done.
-Q: Bring me a fruit that is not an apple.
-A: 1. find an orange, 2. pick up the orange, 3. bring it to you, 4. put down the orange, 5. done
-Q: Visit the counter and the table in the kitchen.
-A: 1. go to the counter, 2. go to the table, 3. done
-Q: Bring me a drink that isn’t an water or a coke.
-A: 1. find a tea, 2. pick up the tea, 3. bring it to you, 4. put down the tea, 5. done.
-Q: Throw away all the fruits on the table.
-A: 1. go to the table, 2. pick up the apple, 3. go to the trash, 4. put down the apple, 5. go to the table, 6. pick up the orange, 7. go to the trash, 8. put down the orange, 9. done
-","A: 1. Open your gripper, 2. Position the coke can inside your gripper, 3. Close your gripper around the coke can securely, 4. Lift the coke can with your gripper, 5. Hold onto the coke can securely with your gripper, 6. Done.","1. pick up the coke can, 2. done"
+Adding up the total amount of water pumped in two days, they pumped 7875 + 4125 = 12000 gallons.
+Therefore, the amount of water remaining in the tank to be full is 18000 - 12000 = 6000 gallons.","On the first day, Wanda pumped 1/4*18000 gallons = <<1/4*18000=4500>>4500 gallons of water.
+On the same day, Ms. B pumped 3/4*4500 gallons = <<3/4*4500=3375>>3375 gallons of water into the tank.
+They pumped a total of 3375 gallons+ 4500 gallons = <<3375+4500=7875>>7875 gallons together on the first day
+On the second day, Wanda pumped 2/3 * 4500 gallons = <<2/3*4500=3000>>3000 gallons
+Ms. B also pumped 3375 gallons * 1/3 = <<3375*1/3=1125>>1125 gallons
+Together, on the second day, they pumped 3000 gallons + 1125 gallons = <<3000+1125=4125>>4125 gallons
+In the two days, they pumped a total of 4125 gallons + 7875 gallons = <<4125+7875=12000>>12000 gallons
+The amount of gallons remaining for the tank to be full is 18000 gallons - 12000 gallons = <<18000-12000=6000>>6000 gallons
+#### 6000"
+Math,1a,"Question: Joshua bought 25 oranges for $12.50. If he sells each one for 60c, how much profit in cents will he make on each orange?
+Answer: $1 is equivalent to 100 cents so $12.50 is equivalent to 100*12.50 = <<12.50*100=1250>>1250 cents
+He bought 25 oranges for 1250 cents so each orange cost 1250/25 = <<1250/25=50>>50 cents each
+If he sells each orange for 60 cents, he is making a profit of 60-50 = <<60-50=10>>10 cents on each one.
+#### 10
+Question: Evan’s dog weighs 63 pounds; it weighs 7 times as much as Ivan’s dog.  Together, what is the weight of the dogs?
+Answer: Ivan's dog weighs 63/7 = <<63/7=9>>9 pounds.
+Thus, the two dogs weigh 63 + 9 = <<63+9=72>>72 pounds.
+#### 72
+Q: A tank has a capacity of 18000 gallons. Wanda and Ms. B decided to pump water from a pond to fill the tank in two days. On the first day, working in shifts, Wanda filled 1/4 of the tank's capacity with water, and Ms. B pumped 3/4 as much water as Wanda pumped into the tank that day. On the second day, Wanda pumped 2/3 of the amount of water she pumped on the previous day, while Ms. B only pumped 1/3 of the number of gallons she pumped on the first day. How many gallons of water are remaining for the tank to be full?","Let's calculate the amount of water each person pumped on the first day:
+
+Wanda pumped 1/4 * 18000 = 4500 gallons on the first day.
+Ms. B pumped 3/4 * 4500 = 3375 gallons on the first day.
+
+Together, they pumped 4500 + 3375 = 7875 gallons on the first day.
+
+Now let's calculate the amount of water pumped on the second day:
+
+Wanda pumped 2/3 * 4500 = 3000 gallons on the second day.
+Ms. B pumped 1/3 * 3375 = 1125 gallons on the second day.
+
+Together, they pumped 3000 + 1125 = 4125 gallons on the second day.
+
+The total amount of water pumped over the two days is 7875 + 4125 = 12000 gallons.
+
+Therefore, there are 18000 - 12000 = 6000 gallons of water remaining for the tank to be full.","On the first day, Wanda pumped 1/4*18000 gallons = <<1/4*18000=4500>>4500 gallons of water.
+On the same day, Ms. B pumped 3/4*4500 gallons = <<3/4*4500=3375>>3375 gallons of water into the tank.
+They pumped a total of 3375 gallons+ 4500 gallons = <<3375+4500=7875>>7875 gallons together on the first day
+On the second day, Wanda pumped 2/3 * 4500 gallons = <<2/3*4500=3000>>3000 gallons
+Ms. B also pumped 3375 gallons * 1/3 = <<3375*1/3=1125>>1125 gallons
+Together, on the second day, they pumped 3000 gallons + 1125 gallons = <<3000+1125=4125>>4125 gallons
+In the two days, they pumped a total of 4125 gallons + 7875 gallons = <<4125+7875=12000>>12000 gallons
+The amount of gallons remaining for the tank to be full is 18000 gallons - 12000 gallons = <<18000-12000=6000>>6000 gallons
+#### 6000"
+Math,2,"Question: Tim's website got 100 visitors a day for the first 6 days and then on the last day of the week it got twice as many visitors as every other day combined.  If he gets $.01 per visit how much did he make that week?
+Answer: In the first 6 days, he got 6*100=<<6*100=600>>600 visits
+So on the 7th day, he got 600*2=<<600*2=1200>>1200 visitors
+So he got a total of 1200+600=<<1200+600=1800>>1800 visitors
+That means he made 1800*.01=$<<1800*.01=18>>18
+#### 18
+Question: A cat has nine lives.  A dog has 3 less lives than a cat.  A mouse has 7 more lives than a dog.  How many lives does a mouse have?
+Answer: Dog:9-3=<<9-3=6>>6 lives
+Mouse:6+7=<<6+7=13>>13 lives
+#### 13
+Question: Joshua bought 25 oranges for $12.50. If he sells each one for 60c, how much profit in cents will he make on each orange?
+Answer: $1 is equivalent to 100 cents so $12.50 is equivalent to 100*12.50 = <<12.50*100=1250>>1250 cents
+He bought 25 oranges for 1250 cents so each orange cost 1250/25 = <<1250/25=50>>50 cents each
+If he sells each orange for 60 cents, he is making a profit of 60-50 = <<60-50=10>>10 cents on each one.
+#### 10
+Question: Evan’s dog weighs 63 pounds; it weighs 7 times as much as Ivan’s dog.  Together, what is the weight of the dogs?
+Answer: Ivan's dog weighs 63/7 = <<63/7=9>>9 pounds.
+Thus, the two dogs weigh 63 + 9 = <<63+9=72>>72 pounds.
+#### 72
+Q: A tank has a capacity of 18000 gallons. Wanda and Ms. B decided to pump water from a pond to fill the tank in two days. On the first day, working in shifts, Wanda filled 1/4 of the tank's capacity with water, and Ms. B pumped 3/4 as much water as Wanda pumped into the tank that day. On the second day, Wanda pumped 2/3 of the amount of water she pumped on the previous day, while Ms. B only pumped 1/3 of the number of gallons she pumped on the first day. How many gallons of water are remaining for the tank to be full?","A tank has a capacity of 18000 gallons. 
+On the first day:
+- Wanda filled 1/4 of the tank's capacity: 1/4 * 18000 = 4500 gallons
+- Ms. B pumped 3/4 as much water as Wanda pumped: 3/4 * 4500 = 3375 gallons
+Total on the first day: 4500 + 3375 = 7875 gallons
+
+On the second day:
+- Wanda pumped 2/3 of the amount of water she pumped on the previous day: 2/3 * 4500 = 3000 gallons
+- Ms. B pumped 1/3 of the number of gallons she pumped on the first day: 1/3 * 3375 = 1125 gallons
+Total on the second day: 3000 + 1125 = 4125 gallons
+
+Total water pumped in two days: 7875 + 4125 = 12000 gallons
+Remaining capacity in the tank: 18000 - 12000 = 6000 gallons
+
+Therefore, there are 6000 gallons of water remaining for the tank to be full.","On the first day, Wanda pumped 1/4*18000 gallons = <<1/4*18000=4500>>4500 gallons of water.
+On the same day, Ms. B pumped 3/4*4500 gallons = <<3/4*4500=3375>>3375 gallons of water into the tank.
+They pumped a total of 3375 gallons+ 4500 gallons = <<3375+4500=7875>>7875 gallons together on the first day
+On the second day, Wanda pumped 2/3 * 4500 gallons = <<2/3*4500=3000>>3000 gallons
+Ms. B also pumped 3375 gallons * 1/3 = <<3375*1/3=1125>>1125 gallons
+Together, on the second day, they pumped 3000 gallons + 1125 gallons = <<3000+1125=4125>>4125 gallons
+In the two days, they pumped a total of 4125 gallons + 7875 gallons = <<4125+7875=12000>>12000 gallons
+The amount of gallons remaining for the tank to be full is 18000 gallons - 12000 gallons = <<18000-12000=6000>>6000 gallons
+#### 6000"
+Math,3a,"Question: Tim's website got 100 visitors a day for the first 6 days and then on the last day of the week it got twice as many visitors as every other day combined.  If he gets $.01 per visit how much did he make that week?
+Answer: In the first 6 days, he got 6*100=<<6*100=600>>600 visits
+So on the 7th day, he got 600*2=<<600*2=1200>>1200 visitors
+So he got a total of 1200+600=<<1200+600=1800>>1800 visitors
+That means he made 1800*.01=$<<1800*.01=18>>18
+#### 18
+Question: A cat has nine lives.  A dog has 3 less lives than a cat.  A mouse has 7 more lives than a dog.  How many lives does a mouse have?
+Answer: Dog:9-3=<<9-3=6>>6 lives
+Mouse:6+7=<<6+7=13>>13 lives
+#### 13
+Question: Tim's website got 100 visitors a day for the first 6 days and then on the last day of the week it got twice as many visitors as every other day combined.  If he gets $.01 per visit how much did he make that week?
+Answer: In the first 6 days, he got 6*100=<<6*100=600>>600 visits
+So on the 7th day, he got 600*2=<<600*2=1200>>1200 visitors
+So he got a total of 1200+600=<<1200+600=1800>>1800 visitors
+That means he made 1800*.01=$<<1800*.01=18>>18
+#### 18
+Question: A cat has nine lives.  A dog has 3 less lives than a cat.  A mouse has 7 more lives than a dog.  How many lives does a mouse have?
+Answer: Dog:9-3=<<9-3=6>>6 lives
+Mouse:6+7=<<6+7=13>>13 lives
+#### 13
+Q: A tank has a capacity of 18000 gallons. Wanda and Ms. B decided to pump water from a pond to fill the tank in two days. On the first day, working in shifts, Wanda filled 1/4 of the tank's capacity with water, and Ms. B pumped 3/4 as much water as Wanda pumped into the tank that day. On the second day, Wanda pumped 2/3 of the amount of water she pumped on the previous day, while Ms. B only pumped 1/3 of the number of gallons she pumped on the first day. How many gallons of water are remaining for the tank to be full?","A tank has a capacity of 18000 gallons. 
+On the first day:
+Wanda filled 1/4*18000 = 4500 gallons
+Ms. B pumped 3/4*4500 = 3375 gallons
+Total on the first day = 4500+3375 = 7875 gallons
+
+On the second day:
+Wanda pumped 2/3*4500 = 3000 gallons
+Ms. B pumped 1/3*3375 = 1125 gallons
+Total on the second day = 3000+1125 = 4125 gallons
+
+Total pumped in two days = 7875+4125 = 12000 gallons
+Remaining capacity = 18000-12000 = 6000 gallons
+
+Therefore, there are 6000 gallons of water remaining for the tank to be full.","On the first day, Wanda pumped 1/4*18000 gallons = <<1/4*18000=4500>>4500 gallons of water.
+On the same day, Ms. B pumped 3/4*4500 gallons = <<3/4*4500=3375>>3375 gallons of water into the tank.
+They pumped a total of 3375 gallons+ 4500 gallons = <<3375+4500=7875>>7875 gallons together on the first day
+On the second day, Wanda pumped 2/3 * 4500 gallons = <<2/3*4500=3000>>3000 gallons
+Ms. B also pumped 3375 gallons * 1/3 = <<3375*1/3=1125>>1125 gallons
+Together, on the second day, they pumped 3000 gallons + 1125 gallons = <<3000+1125=4125>>4125 gallons
+In the two days, they pumped a total of 4125 gallons + 7875 gallons = <<4125+7875=12000>>12000 gallons
+The amount of gallons remaining for the tank to be full is 18000 gallons - 12000 gallons = <<18000-12000=6000>>6000 gallons
+#### 6000"
+Math,3b,"Question: Joshua bought 25 oranges for $12.50. If he sells each one for 60c, how much profit in cents will he make on each orange?
+Answer: $1 is equivalent to 100 cents so $12.50 is equivalent to 100*12.50 = <<12.50*100=1250>>1250 cents
+He bought 25 oranges for 1250 cents so each orange cost 1250/25 = <<1250/25=50>>50 cents each
+If he sells each orange for 60 cents, he is making a profit of 60-50 = <<60-50=10>>10 cents on each one.
+#### 10
+Question: Evan’s dog weighs 63 pounds; it weighs 7 times as much as Ivan’s dog.  Together, what is the weight of the dogs?
+Answer: Ivan's dog weighs 63/7 = <<63/7=9>>9 pounds.
+Thus, the two dogs weigh 63 + 9 = <<63+9=72>>72 pounds.
+#### 72
+Question: Joshua bought 25 oranges for $12.50. If he sells each one for 60c, how much profit in cents will he make on each orange?
+Answer: $1 is equivalent to 100 cents so $12.50 is equivalent to 100*12.50 = <<12.50*100=1250>>1250 cents
+He bought 25 oranges for 1250 cents so each orange cost 1250/25 = <<1250/25=50>>50 cents each
+If he sells each orange for 60 cents, he is making a profit of 60-50 = <<60-50=10>>10 cents on each one.
+#### 10
+Question: Evan’s dog weighs 63 pounds; it weighs 7 times as much as Ivan’s dog.  Together, what is the weight of the dogs?
+Answer: Ivan's dog weighs 63/7 = <<63/7=9>>9 pounds.
+Thus, the two dogs weigh 63 + 9 = <<63+9=72>>72 pounds.
+#### 72
+Q: A tank has a capacity of 18000 gallons. Wanda and Ms. B decided to pump water from a pond to fill the tank in two days. On the first day, working in shifts, Wanda filled 1/4 of the tank's capacity with water, and Ms. B pumped 3/4 as much water as Wanda pumped into the tank that day. On the second day, Wanda pumped 2/3 of the amount of water she pumped on the previous day, while Ms. B only pumped 1/3 of the number of gallons she pumped on the first day. How many gallons of water are remaining for the tank to be full?","A tank with a capacity of 18000 gallons was partially filled on the first day. Wanda filled 1/4 of the tank, which is 1/4 * 18000 = 4500 gallons. 
+Ms. B pumped 3/4 as much water as Wanda, so she pumped 3/4 * 4500 = 3375 gallons that day.  
+Together, they pumped 4500 + 3375 = 7875 gallons on the first day.
+
+On the second day, Wanda pumped 2/3 of the amount she pumped on the first day, which is 2/3 * 4500 = 3000 gallons.
+Ms. B pumped 1/3 of the amount she pumped on the first day, which is 1/3 * 3375 = 1125 gallons.
+
+The total amount pumped on the second day is 3000 + 1125 = 4125 gallons.
+
+Therefore, the total amount pumped in two days is 7875 + 4125 = 12000 gallons. 
+The remaining amount of water needed to fill the tank is 18000 - 12000 = 6000 gallons.","On the first day, Wanda pumped 1/4*18000 gallons = <<1/4*18000=4500>>4500 gallons of water.
+On the same day, Ms. B pumped 3/4*4500 gallons = <<3/4*4500=3375>>3375 gallons of water into the tank.
+They pumped a total of 3375 gallons+ 4500 gallons = <<3375+4500=7875>>7875 gallons together on the first day
+On the second day, Wanda pumped 2/3 * 4500 gallons = <<2/3*4500=3000>>3000 gallons
+Ms. B also pumped 3375 gallons * 1/3 = <<3375*1/3=1125>>1125 gallons
+Together, on the second day, they pumped 3000 gallons + 1125 gallons = <<3000+1125=4125>>4125 gallons
+In the two days, they pumped a total of 4125 gallons + 7875 gallons = <<4125+7875=12000>>12000 gallons
+The amount of gallons remaining for the tank to be full is 18000 gallons - 12000 gallons = <<18000-12000=6000>>6000 gallons
+#### 6000"
+CSQA,1a,"Question: Where can someone find the freshest green beans?
+A: fields
+B: mouth
+C: farmer's market
+D: container
+E: plate
+Answer: C
+Question: Where would you grab an object contained by a doorway?
+A: television
+B: control panel
+C: opening doors
+D: doorknob
+E: doorway
+Answer: E
+Q: She needs to visit a bookshop after buying the latest fashion, where should she look?
+A: student union
+B: mall
+C: department store
+D: library
+E: town or city",Answer: B,B
+CSQA,1a,"Question: They wanted to eat at home but the cupboards were barren, so they had to go what?
+A: cook dinner
+B: eat
+C: go back to work
+D: make food
+E: get food
+Answer: E
+Question: When a young child is sleeping what is something that is common for their age?
+A: snoring
+B: wetting bed
+C: sleepwalking
+D: talking
+E: laughing loud
+Answer: B
+Q: She needs to visit a bookshop after buying the latest fashion, where should she look?
+A: student union
+B: mall
+C: department store
+D: library
+E: town or city",Answer: D,B
+CSQA,2,"Question: Where can someone find the freshest green beans?
+A: fields
+B: mouth
+C: farmer's market
+D: container
+E: plate
+Answer: C
+Question: Where would you grab an object contained by a doorway?
+A: television
+B: control panel
+C: opening doors
+D: doorknob
+E: doorway
+Answer: E
+Question: They wanted to eat at home but the cupboards were barren, so they had to go what?
+A: cook dinner
+B: eat
+C: go back to work
+D: make food
+E: get food
+Answer: E
+Question: When a young child is sleeping what is something that is common for their age?
+A: snoring
+B: wetting bed
+C: sleepwalking
+D: talking
+E: laughing loud
+Answer: B
+Q: She needs to visit a bookshop after buying the latest fashion, where should she look?
+A: student union
+B: mall
+C: department store
+D: library
+E: town or city",Answer: B,B
+CSQA,3a,"Question: Where can someone find the freshest green beans?
+A: fields
+B: mouth
+C: farmer's market
+D: container
+E: plate
+Answer: C
+Question: Where would you grab an object contained by a doorway?
+A: television
+B: control panel
+C: opening doors
+D: doorknob
+E: doorway
+Answer: E
+Question: Where can someone find the freshest green beans?
+A: fields
+B: mouth
+C: farmer's market
+D: container
+E: plate
+Answer: C
+Question: Where would you grab an object contained by a doorway?
+A: television
+B: control panel
+C: opening doors
+D: doorknob
+E: doorway
+Answer: E
+Q: She needs to visit a bookshop after buying the latest fashion, where should she look?
+A: student union
+B: mall
+C: department store
+D: library
+E: town or city",Answer: B: mall,B
+CSQA,3b,"Question: They wanted to eat at home but the cupboards were barren, so they had to go what?
+A: cook dinner
+B: eat
+C: go back to work
+D: make food
+E: get food
+Answer: E
+Question: When a young child is sleeping what is something that is common for their age?
+A: snoring
+B: wetting bed
+C: sleepwalking
+D: talking
+E: laughing loud
+Answer: B
+Question: They wanted to eat at home but the cupboards were barren, so they had to go what?
+A: cook dinner
+B: eat
+C: go back to work
+D: make food
+E: get food
+Answer: E
+Question: When a young child is sleeping what is something that is common for their age?
+A: snoring
+B: wetting bed
+C: sleepwalking
+D: talking
+E: laughing loud
+Answer: B
+Q: She needs to visit a bookshop after buying the latest fashion, where should she look?
+A: student union
+B: mall
+C: department store
+D: library
+E: town or city",Answer: D,B
+StrategyQA,1a,"Question: To be alliterative, words must have the same initial consonant sound. The names of The Powerpuff Girls are Blossom, Buttercup, and Bubbles.
+Are the names of The Powerpuff Girls alliterative? 
+Answer: True
+Question: Brooklyn and NYC bagels are known around the world for being high quality. Brooklyn pizza is regarded as the best in the country. 
+Is Brooklyn known for its bread products?
+Answer: True
+Q: Turkey enjoys a wide variety of regional variations of börek among the different cultures and ethnicities composing it. Börek is very popular in the cuisines of the former Ottoman Empire, especially in North Africa and throughout the Balkans. Recep Tayyip Erdoğan is the current president of Turkey and he was born and raised there.
+Would Recep Tayyip Erdoğan be unfamiliar with börek?",A: False,False
+StrategyQA,1a,"Question: Jack Dempsey competed as a heavyweight and a lightheavyweight. Jack Dempsey only had a handful of title defenses as heavyweight champion. Wladimir Klitschko had 25 heavyweight title fight wins. Jack Dempsey did not hold the lightheavyweight title. Dariusz Michalczewski had 23 lightheavyweight title fight wins.
+Did Jack Dempsey have most title fight wins in either of his weight classes?
+Answer: False
+Question: Winter runs from about December 20 to about March 20. Government holidays include Christmas, New Year, King Day, and President's Day. Christmas is always December 25, New Year is always January 1, King Day is a Monday in the middle of January, and President's Day is a Monday in late February.
+Are there multiple American government holidays during winter?
+Answer: True
+Q: Turkey enjoys a wide variety of regional variations of börek among the different cultures and ethnicities composing it. Börek is very popular in the cuisines of the former Ottoman Empire, especially in North Africa and throughout the Balkans. Recep Tayyip Erdoğan is the current president of Turkey and he was born and raised there.
+Would Recep Tayyip Erdoğan be unfamiliar with börek?",A: False,False
+StrategyQA,2,"Question: To be alliterative, words must have the same initial consonant sound. The names of The Powerpuff Girls are Blossom, Buttercup, and Bubbles.
+Are the names of The Powerpuff Girls alliterative? 
+Answer: True
+Question: Brooklyn and NYC bagels are known around the world for being high quality. Brooklyn pizza is regarded as the best in the country. 
+Is Brooklyn known for its bread products?
+Answer: True
+Question: Jack Dempsey competed as a heavyweight and a lightheavyweight. Jack Dempsey only had a handful of title defenses as heavyweight champion. Wladimir Klitschko had 25 heavyweight title fight wins. Jack Dempsey did not hold the lightheavyweight title. Dariusz Michalczewski had 23 lightheavyweight title fight wins.
+Did Jack Dempsey have most title fight wins in either of his weight classes?
+Answer: False
+Question: Winter runs from about December 20 to about March 20. Government holidays include Christmas, New Year, King Day, and President's Day. Christmas is always December 25, New Year is always January 1, King Day is a Monday in the middle of January, and President's Day is a Monday in late February.
+Are there multiple American government holidays during winter?
+Answer: True
+Q: Turkey enjoys a wide variety of regional variations of börek among the different cultures and ethnicities composing it. Börek is very popular in the cuisines of the former Ottoman Empire, especially in North Africa and throughout the Balkans. Recep Tayyip Erdoğan is the current president of Turkey and he was born and raised there.
+Would Recep Tayyip Erdoğan be unfamiliar with börek?",Answer: False,False
+StrategyQA,3a,"Question: To be alliterative, words must have the same initial consonant sound. The names of The Powerpuff Girls are Blossom, Buttercup, and Bubbles.
+Are the names of The Powerpuff Girls alliterative? 
+Answer: True
+Question: Brooklyn and NYC bagels are known around the world for being high quality. Brooklyn pizza is regarded as the best in the country. 
+Is Brooklyn known for its bread products?
+Answer: True
+Question: To be alliterative, words must have the same initial consonant sound. The names of The Powerpuff Girls are Blossom, Buttercup, and Bubbles.
+Are the names of The Powerpuff Girls alliterative? 
+Answer: True
+Question: Brooklyn and NYC bagels are known around the world for being high quality. Brooklyn pizza is regarded as the best in the country. 
+Is Brooklyn known for its bread products?
+Answer: True
+Q: Turkey enjoys a wide variety of regional variations of börek among the different cultures and ethnicities composing it. Börek is very popular in the cuisines of the former Ottoman Empire, especially in North Africa and throughout the Balkans. Recep Tayyip Erdoğan is the current president of Turkey and he was born and raised there.
+Would Recep Tayyip Erdoğan be unfamiliar with börek?",Answer: False,False
+StrategyQA,3b,"Question: Jack Dempsey competed as a heavyweight and a lightheavyweight. Jack Dempsey only had a handful of title defenses as heavyweight champion. Wladimir Klitschko had 25 heavyweight title fight wins. Jack Dempsey did not hold the lightheavyweight title. Dariusz Michalczewski had 23 lightheavyweight title fight wins.
+Did Jack Dempsey have most title fight wins in either of his weight classes?
+Answer: False
+Question: Winter runs from about December 20 to about March 20. Government holidays include Christmas, New Year, King Day, and President's Day. Christmas is always December 25, New Year is always January 1, King Day is a Monday in the middle of January, and President's Day is a Monday in late February.
+Are there multiple American government holidays during winter?
+Answer: True
+Question: Jack Dempsey competed as a heavyweight and a lightheavyweight. Jack Dempsey only had a handful of title defenses as heavyweight champion. Wladimir Klitschko had 25 heavyweight title fight wins. Jack Dempsey did not hold the lightheavyweight title. Dariusz Michalczewski had 23 lightheavyweight title fight wins.
+Did Jack Dempsey have most title fight wins in either of his weight classes?
+Answer: False
+Question: Winter runs from about December 20 to about March 20. Government holidays include Christmas, New Year, King Day, and President's Day. Christmas is always December 25, New Year is always January 1, King Day is a Monday in the middle of January, and President's Day is a Monday in late February.
+Are there multiple American government holidays during winter?
+Answer: True
+Q: Turkey enjoys a wide variety of regional variations of börek among the different cultures and ethnicities composing it. Börek is very popular in the cuisines of the former Ottoman Empire, especially in North Africa and throughout the Balkans. Recep Tayyip Erdoğan is the current president of Turkey and he was born and raised there.
+Would Recep Tayyip Erdoğan be unfamiliar with börek?",A: False,False
+SayCan,1a,"Question: Can you bring me a spicy snack?
+Answer: 1. find a jalapeno chips, 2. pick up the jalapeno chips, 3. bring it to you, 4. put down the jalapeno chips, 5. done.
+Question: Put the coke can in your gripper.
+Answer: 1. pick up the coke, 2. done
+Q: Navigate to the table.","A: 1. Identify the table, 2. Approach the table, 3. Stop at the table.","1. go to the table, 2. done"
+SayCan,1a,"Question: Park at the table.
+Answer: 1. go to the table, 2. done
+Question: Put a bag of chips and water bottle on the table.
+Answer: 1. find the bag of chips, 2. pick up the bag of chips, 3. go to the table, 4. put down the bag of chips, 5. find a water bottle, 6. pick up the water bottle, 7. go to the table, 8. put down the water bottle, 9. done
+Q: Navigate to the table.","A: 1. Stand up from your current location, 2. Walk towards the table, 3. Stop when you reach the table, 4. Done","1. go to the table, 2. done"
+SayCan,2,"Question: Can you bring me a spicy snack?
+Answer: 1. find a jalapeno chips, 2. pick up the jalapeno chips, 3. bring it to you, 4. put down the jalapeno chips, 5. done.
+Question: Put the coke can in your gripper.
+Answer: 1. pick up the coke, 2. done
+Question: Park at the table.
+Answer: 1. go to the table, 2. done
+Question: Put a bag of chips and water bottle on the table.
+Answer: 1. find the bag of chips, 2. pick up the bag of chips, 3. go to the table, 4. put down the bag of chips, 5. find a water bottle, 6. pick up the water bottle, 7. go to the table, 8. put down the water bottle, 9. done
+Q: Navigate to the table.","A: 1. go to the table, 2. done","1. go to the table, 2. done"
+SayCan,3a,"Question: Can you bring me a spicy snack?
+Answer: 1. find a jalapeno chips, 2. pick up the jalapeno chips, 3. bring it to you, 4. put down the jalapeno chips, 5. done.
+Question: Put the coke can in your gripper.
+Answer: 1. pick up the coke, 2. done
+Question: Can you bring me a spicy snack?
+Answer: 1. find a jalapeno chips, 2. pick up the jalapeno chips, 3. bring it to you, 4. put down the jalapeno chips, 5. done.
+Question: Put the coke can in your gripper.
+Answer: 1. pick up the coke, 2. done
+Q: Navigate to the table.","A: I'm sorry, I am not able to physically navigate.","1. go to the table, 2. done"
+SayCan,3b,"Question: Park at the table.
+Answer: 1. go to the table, 2. done
+Question: Put a bag of chips and water bottle on the table.
+Answer: 1. find the bag of chips, 2. pick up the bag of chips, 3. go to the table, 4. put down the bag of chips, 5. find a water bottle, 6. pick up the water bottle, 7. go to the table, 8. put down the water bottle, 9. done
+Question: Park at the table.
+Answer: 1. go to the table, 2. done
+Question: Put a bag of chips and water bottle on the table.
+Answer: 1. find the bag of chips, 2. pick up the bag of chips, 3. go to the table, 4. put down the bag of chips, 5. find a water bottle, 6. pick up the water bottle, 7. go to the table, 8. put down the water bottle, 9. done
+Q: Navigate to the table.","A: 1. Walk to the table, 2. Arrive at the table","1. go to the table, 2. done"

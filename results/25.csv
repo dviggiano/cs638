@@ -1,0 +1,374 @@
+Task Class,Case,Prompt,Response,Expected
+Math,1a,"Question: There are 6 times as many lab coats as uniforms in the lab. The number of lab techs is half of the number of uniforms. If there are 12 uniforms in the lab, and the lab techs share the coats and uniforms equally among them, how many coats and uniforms in total does each lab tech get?
+Answer: If there are 12 uniforms, and the lab coats are 6 times as many as the number of uniforms, there are 6*12 = <<12*6=72>>72 lab coats.
+The total number of lab coats and uniforms in the lab is 72+12 = <<72+12=84>>84
+If the number of lab techs is half the number of uniforms, then there are 12/2 = <<12/2=6>>6 lab techs
+If they share the lab coats and uniforms equally, each lab tech will get 84/6 = <<84/6=14>>14 lab coats and uniforms.
+#### 14
+Question: Geli is committed to her 3 times a week workout. On her first day, she started doing 10 push-ups. Her fitness trainer encouraged her to add 5 more push-ups each day. How many push-ups will she do in total throughout her first week?
+Answer: On the first day, she will do 10 push-ups.
+On the second day, she will do 10 + 5 = <<10+5=15>>15 push-ups.
+On the third day, she will do 15 + 5 = <<15+5=20>>20 push-ups.
+So, Geli will do a total of 10 + 15 + 20 = <<10+15+20=45>>45 push-ups in a week.
+#### 45
+Q: Grandma walks 3 miles every day on her favorite walking trail, which includes 2 miles of walking on the beach and 1 mile of walking on the sidewalk.  On the sidewalk, Grandma walks at twice the rate of speed that she does on the beach.  If 40 minutes of her walk is spent on the beach, how long does it take for her to complete the entire 3-mile walk, in minutes?","A: Since Grandma walks 2 miles on the beach and 1 mile on the sidewalk, the total distance she walks is 3 miles.
+
+If she spends 40 minutes walking on the beach, and the sidewalk is walked at twice the speed of the beach, then she spends 40 / 2 = 20 minutes walking on the sidewalk.
+
+Therefore, Grandma takes 40 + 20 = 60 minutes to complete her 3-mile walk.
+#### 60","On the beach, Grandma walks at a rate of 2 miles per 40 minutes, or 2/40 = 1/20 miles per minute.
+On the sidewalk, she walks at twice the rate of speed as when she is on the sand, or 2 * 1/20 = 1/10 miles per minute.
+To walk 1 mile on the sidewalk, it takes her 1/(1/10) = <<1/(1/10)=10>>10 minutes.
+Thus, in total, it takes Grandma 40+10 = <<40+10=50>>50 minutes to walk her favorite route.
+#### 50"
+Math,1a,"Question: Arlene hiked 24 miles on Saturday, carrying a 60-pound backpack. She is exactly 5 feet tall. She spent 6 hours hiking. The temperature during the day was 60 degrees Fahrenheit. What was Arlene's average hiking pace, in miles per hour?
+Answer: She hiked 24 miles.
+She spent 6 hours hiking.
+Her average pace was 24/6=<<24/6=4>>4 mph.
+#### 4
+Question: The pirates plan to explore 4 islands. Two islands require walking 20 miles per day while the other two islands require 25 miles per day. How many miles will they have to walk if it takes 1.5 days to explore each island?
+Answer: It will take 1.5 days x 2 = <<1.5*2=3>>3 days to explore 2 islands.
+So, the pirates will walk 20 miles x 3 days = <<20*3=60>>60 miles to explore two islands.
+The other 2 islands will be explored by walking 25 miles x 3 days = <<25*3=75>>75 miles.
+Thus, the pirates will need to walk 60 + 75 = <<60+75=135>>135 miles to explore the 4 islands.
+#### 135
+Q: Grandma walks 3 miles every day on her favorite walking trail, which includes 2 miles of walking on the beach and 1 mile of walking on the sidewalk.  On the sidewalk, Grandma walks at twice the rate of speed that she does on the beach.  If 40 minutes of her walk is spent on the beach, how long does it take for her to complete the entire 3-mile walk, in minutes?","A: Grandma spends 40 minutes walking on the beach, which is 2 miles, so she walks at a rate of 2/40 = 0.05 miles per minute.
+This means on the sidewalk she walks at 0.05 x 2 = 0.1 miles per minute.
+To walk 1 mile at 0.1 miles per minute, it will take 1/0.1 = 10 minutes.
+So, Grandma completes the 3-mile walk in 40 + 10 = <<40+10=50>>50 minutes.","On the beach, Grandma walks at a rate of 2 miles per 40 minutes, or 2/40 = 1/20 miles per minute.
+On the sidewalk, she walks at twice the rate of speed as when she is on the sand, or 2 * 1/20 = 1/10 miles per minute.
+To walk 1 mile on the sidewalk, it takes her 1/(1/10) = <<1/(1/10)=10>>10 minutes.
+Thus, in total, it takes Grandma 40+10 = <<40+10=50>>50 minutes to walk her favorite route.
+#### 50"
+Math,2,"Question: There are 6 times as many lab coats as uniforms in the lab. The number of lab techs is half of the number of uniforms. If there are 12 uniforms in the lab, and the lab techs share the coats and uniforms equally among them, how many coats and uniforms in total does each lab tech get?
+Answer: If there are 12 uniforms, and the lab coats are 6 times as many as the number of uniforms, there are 6*12 = <<12*6=72>>72 lab coats.
+The total number of lab coats and uniforms in the lab is 72+12 = <<72+12=84>>84
+If the number of lab techs is half the number of uniforms, then there are 12/2 = <<12/2=6>>6 lab techs
+If they share the lab coats and uniforms equally, each lab tech will get 84/6 = <<84/6=14>>14 lab coats and uniforms.
+#### 14
+Question: Geli is committed to her 3 times a week workout. On her first day, she started doing 10 push-ups. Her fitness trainer encouraged her to add 5 more push-ups each day. How many push-ups will she do in total throughout her first week?
+Answer: On the first day, she will do 10 push-ups.
+On the second day, she will do 10 + 5 = <<10+5=15>>15 push-ups.
+On the third day, she will do 15 + 5 = <<15+5=20>>20 push-ups.
+So, Geli will do a total of 10 + 15 + 20 = <<10+15+20=45>>45 push-ups in a week.
+#### 45
+Question: Arlene hiked 24 miles on Saturday, carrying a 60-pound backpack. She is exactly 5 feet tall. She spent 6 hours hiking. The temperature during the day was 60 degrees Fahrenheit. What was Arlene's average hiking pace, in miles per hour?
+Answer: She hiked 24 miles.
+She spent 6 hours hiking.
+Her average pace was 24/6=<<24/6=4>>4 mph.
+#### 4
+Question: The pirates plan to explore 4 islands. Two islands require walking 20 miles per day while the other two islands require 25 miles per day. How many miles will they have to walk if it takes 1.5 days to explore each island?
+Answer: It will take 1.5 days x 2 = <<1.5*2=3>>3 days to explore 2 islands.
+So, the pirates will walk 20 miles x 3 days = <<20*3=60>>60 miles to explore two islands.
+The other 2 islands will be explored by walking 25 miles x 3 days = <<25*3=75>>75 miles.
+Thus, the pirates will need to walk 60 + 75 = <<60+75=135>>135 miles to explore the 4 islands.
+#### 135
+Q: Grandma walks 3 miles every day on her favorite walking trail, which includes 2 miles of walking on the beach and 1 mile of walking on the sidewalk.  On the sidewalk, Grandma walks at twice the rate of speed that she does on the beach.  If 40 minutes of her walk is spent on the beach, how long does it take for her to complete the entire 3-mile walk, in minutes?","A: If Grandma spends 40 minutes walking on the beach, which is 2 miles, then she walks 2 miles/40 minutes = 1 mile per 20 minutes on the beach.
+Since she walks at twice the speed on the sidewalk, she walks 1 mile in half the time, which is 20 minutes on the sidewalk.
+Therefore, Grandma completes the entire 3-mile walk in 40 minutes + 20 minutes = 60 minutes.
+So, it takes Grandma 60 minutes to complete the entire 3-mile walk.","On the beach, Grandma walks at a rate of 2 miles per 40 minutes, or 2/40 = 1/20 miles per minute.
+On the sidewalk, she walks at twice the rate of speed as when she is on the sand, or 2 * 1/20 = 1/10 miles per minute.
+To walk 1 mile on the sidewalk, it takes her 1/(1/10) = <<1/(1/10)=10>>10 minutes.
+Thus, in total, it takes Grandma 40+10 = <<40+10=50>>50 minutes to walk her favorite route.
+#### 50"
+Math,3a,"Question: There are 6 times as many lab coats as uniforms in the lab. The number of lab techs is half of the number of uniforms. If there are 12 uniforms in the lab, and the lab techs share the coats and uniforms equally among them, how many coats and uniforms in total does each lab tech get?
+Answer: If there are 12 uniforms, and the lab coats are 6 times as many as the number of uniforms, there are 6*12 = <<12*6=72>>72 lab coats.
+The total number of lab coats and uniforms in the lab is 72+12 = <<72+12=84>>84
+If the number of lab techs is half the number of uniforms, then there are 12/2 = <<12/2=6>>6 lab techs
+If they share the lab coats and uniforms equally, each lab tech will get 84/6 = <<84/6=14>>14 lab coats and uniforms.
+#### 14
+Question: Geli is committed to her 3 times a week workout. On her first day, she started doing 10 push-ups. Her fitness trainer encouraged her to add 5 more push-ups each day. How many push-ups will she do in total throughout her first week?
+Answer: On the first day, she will do 10 push-ups.
+On the second day, she will do 10 + 5 = <<10+5=15>>15 push-ups.
+On the third day, she will do 15 + 5 = <<15+5=20>>20 push-ups.
+So, Geli will do a total of 10 + 15 + 20 = <<10+15+20=45>>45 push-ups in a week.
+#### 45
+Question: There are 6 times as many lab coats as uniforms in the lab. The number of lab techs is half of the number of uniforms. If there are 12 uniforms in the lab, and the lab techs share the coats and uniforms equally among them, how many coats and uniforms in total does each lab tech get?
+Answer: If there are 12 uniforms, and the lab coats are 6 times as many as the number of uniforms, there are 6*12 = <<12*6=72>>72 lab coats.
+The total number of lab coats and uniforms in the lab is 72+12 = <<72+12=84>>84
+If the number of lab techs is half the number of uniforms, then there are 12/2 = <<12/2=6>>6 lab techs
+If they share the lab coats and uniforms equally, each lab tech will get 84/6 = <<84/6=14>>14 lab coats and uniforms.
+#### 14
+Question: Geli is committed to her 3 times a week workout. On her first day, she started doing 10 push-ups. Her fitness trainer encouraged her to add 5 more push-ups each day. How many push-ups will she do in total throughout her first week?
+Answer: On the first day, she will do 10 push-ups.
+On the second day, she will do 10 + 5 = <<10+5=15>>15 push-ups.
+On the third day, she will do 15 + 5 = <<15+5=20>>20 push-ups.
+So, Geli will do a total of 10 + 15 + 20 = <<10+15+20=45>>45 push-ups in a week.
+#### 45
+Q: Grandma walks 3 miles every day on her favorite walking trail, which includes 2 miles of walking on the beach and 1 mile of walking on the sidewalk.  On the sidewalk, Grandma walks at twice the rate of speed that she does on the beach.  If 40 minutes of her walk is spent on the beach, how long does it take for her to complete the entire 3-mile walk, in minutes?","A: Since Grandma walks 2 miles on the beach and 1 mile on the sidewalk, and spends 40 minutes on the beach, she walks 2 miles in 40 minutes.
+
+If she walks at twice the speed on the sidewalk, then she would walk 1 mile in half the time it takes her on the beach, which would be 40 minutes / 2 = 20 minutes.
+
+Therefore, Grandma spends 40 + 20 = <<40+20=60>>60 minutes to complete the entire 3-mile walk.","On the beach, Grandma walks at a rate of 2 miles per 40 minutes, or 2/40 = 1/20 miles per minute.
+On the sidewalk, she walks at twice the rate of speed as when she is on the sand, or 2 * 1/20 = 1/10 miles per minute.
+To walk 1 mile on the sidewalk, it takes her 1/(1/10) = <<1/(1/10)=10>>10 minutes.
+Thus, in total, it takes Grandma 40+10 = <<40+10=50>>50 minutes to walk her favorite route.
+#### 50"
+Math,3b,"Question: Arlene hiked 24 miles on Saturday, carrying a 60-pound backpack. She is exactly 5 feet tall. She spent 6 hours hiking. The temperature during the day was 60 degrees Fahrenheit. What was Arlene's average hiking pace, in miles per hour?
+Answer: She hiked 24 miles.
+She spent 6 hours hiking.
+Her average pace was 24/6=<<24/6=4>>4 mph.
+#### 4
+Question: The pirates plan to explore 4 islands. Two islands require walking 20 miles per day while the other two islands require 25 miles per day. How many miles will they have to walk if it takes 1.5 days to explore each island?
+Answer: It will take 1.5 days x 2 = <<1.5*2=3>>3 days to explore 2 islands.
+So, the pirates will walk 20 miles x 3 days = <<20*3=60>>60 miles to explore two islands.
+The other 2 islands will be explored by walking 25 miles x 3 days = <<25*3=75>>75 miles.
+Thus, the pirates will need to walk 60 + 75 = <<60+75=135>>135 miles to explore the 4 islands.
+#### 135
+Question: Arlene hiked 24 miles on Saturday, carrying a 60-pound backpack. She is exactly 5 feet tall. She spent 6 hours hiking. The temperature during the day was 60 degrees Fahrenheit. What was Arlene's average hiking pace, in miles per hour?
+Answer: She hiked 24 miles.
+She spent 6 hours hiking.
+Her average pace was 24/6=<<24/6=4>>4 mph.
+#### 4
+Question: The pirates plan to explore 4 islands. Two islands require walking 20 miles per day while the other two islands require 25 miles per day. How many miles will they have to walk if it takes 1.5 days to explore each island?
+Answer: It will take 1.5 days x 2 = <<1.5*2=3>>3 days to explore 2 islands.
+So, the pirates will walk 20 miles x 3 days = <<20*3=60>>60 miles to explore two islands.
+The other 2 islands will be explored by walking 25 miles x 3 days = <<25*3=75>>75 miles.
+Thus, the pirates will need to walk 60 + 75 = <<60+75=135>>135 miles to explore the 4 islands.
+#### 135
+Q: Grandma walks 3 miles every day on her favorite walking trail, which includes 2 miles of walking on the beach and 1 mile of walking on the sidewalk.  On the sidewalk, Grandma walks at twice the rate of speed that she does on the beach.  If 40 minutes of her walk is spent on the beach, how long does it take for her to complete the entire 3-mile walk, in minutes?","A: If Grandma spends 40 minutes on the beach (2 miles), then she spends 40/2 = 20 minutes per mile on the beach.
+Since she walks twice as fast on the sidewalk compared to the beach, she spends 20/2 = <<20/2=10>>10 minutes per mile on the sidewalk.
+Therefore, it takes Grandma 10 minutes to walk 1 mile on the sidewalk, and since she walks 1 mile on the sidewalk, it will take her 10 minutes to complete that part of the walk.
+In total, it will take Grandma 40 minutes on the beach + 10 minutes on the sidewalk = <<40+10=50>>50 minutes to complete the 3-mile walk.
+So, it will take Grandma 50 minutes to complete the entire 3-mile walk.","On the beach, Grandma walks at a rate of 2 miles per 40 minutes, or 2/40 = 1/20 miles per minute.
+On the sidewalk, she walks at twice the rate of speed as when she is on the sand, or 2 * 1/20 = 1/10 miles per minute.
+To walk 1 mile on the sidewalk, it takes her 1/(1/10) = <<1/(1/10)=10>>10 minutes.
+Thus, in total, it takes Grandma 40+10 = <<40+10=50>>50 minutes to walk her favorite route.
+#### 50"
+CSQA,1a,"Question: Where is a good place for a safabed to be so it can also be used for seating?
+A: garage
+B: sitting room
+C: spare room
+D: livingroom
+E: dinning roam
+Answer: B
+Question: What will happen if you get warm too much?
+A: feelin guilty
+B: sleep
+C: sweating
+D: feel more comfortable
+E: cuddle
+Answer: C
+Q: Where would you expect to find a pizzeria while shopping?
+A: chicago
+B: street
+C: little italy
+D: food court
+E: capital cities",Answer: D,D
+CSQA,1a,"Question: You will find many a cannon on what vessel full of criminals?
+A: jail
+B: fort
+C: war museum
+D: pirate ship
+E: warship
+Answer: D
+Question: How may one feel after playing games for a long time?
+A: fatigue
+B: happiness
+C: bournout
+D: learning
+E: losing
+Answer: A
+Q: Where would you expect to find a pizzeria while shopping?
+A: chicago
+B: street
+C: little italy
+D: food court
+E: capital cities",Answer: D,D
+CSQA,2,"Question: Where is a good place for a safabed to be so it can also be used for seating?
+A: garage
+B: sitting room
+C: spare room
+D: livingroom
+E: dinning roam
+Answer: B
+Question: What will happen if you get warm too much?
+A: feelin guilty
+B: sleep
+C: sweating
+D: feel more comfortable
+E: cuddle
+Answer: C
+Question: You will find many a cannon on what vessel full of criminals?
+A: jail
+B: fort
+C: war museum
+D: pirate ship
+E: warship
+Answer: D
+Question: How may one feel after playing games for a long time?
+A: fatigue
+B: happiness
+C: bournout
+D: learning
+E: losing
+Answer: A
+Q: Where would you expect to find a pizzeria while shopping?
+A: chicago
+B: street
+C: little italy
+D: food court
+E: capital cities",Answer: D,D
+CSQA,3a,"Question: Where is a good place for a safabed to be so it can also be used for seating?
+A: garage
+B: sitting room
+C: spare room
+D: livingroom
+E: dinning roam
+Answer: B
+Question: What will happen if you get warm too much?
+A: feelin guilty
+B: sleep
+C: sweating
+D: feel more comfortable
+E: cuddle
+Answer: C
+Question: Where is a good place for a safabed to be so it can also be used for seating?
+A: garage
+B: sitting room
+C: spare room
+D: livingroom
+E: dinning roam
+Answer: B
+Question: What will happen if you get warm too much?
+A: feelin guilty
+B: sleep
+C: sweating
+D: feel more comfortable
+E: cuddle
+Answer: C
+Q: Where would you expect to find a pizzeria while shopping?
+A: chicago
+B: street
+C: little italy
+D: food court
+E: capital cities",Answer: D. food court,D
+CSQA,3b,"Question: You will find many a cannon on what vessel full of criminals?
+A: jail
+B: fort
+C: war museum
+D: pirate ship
+E: warship
+Answer: D
+Question: How may one feel after playing games for a long time?
+A: fatigue
+B: happiness
+C: bournout
+D: learning
+E: losing
+Answer: A
+Question: You will find many a cannon on what vessel full of criminals?
+A: jail
+B: fort
+C: war museum
+D: pirate ship
+E: warship
+Answer: D
+Question: How may one feel after playing games for a long time?
+A: fatigue
+B: happiness
+C: bournout
+D: learning
+E: losing
+Answer: A
+Q: Where would you expect to find a pizzeria while shopping?
+A: chicago
+B: street
+C: little italy
+D: food court
+E: capital cities",Answer: D,D
+StrategyQA,1a,"Question: High Speed 1 (HS1), legally the Channel Tunnel Rail Link (CTRL), is a 67-mile (108 km) high-speed railway. The CERN collider is contained in a circular tunnel, with a circumference of 26.7 kilometres (16.6 mi). The circumference of a circle is the length of the enclosing boundary.
+Would the tunnels at CERN fit onto the High Speed 1 rails?
+Answer: True
+Question: LeBron James is 6 feet 9 inches tall. Yuri Gagarin was 5 feet 2 inches tall. Typically shorter individuals look up at taller individuals when they are speaking as it is polite to look face to face at someone when you are speaking to them.
+Would LeBron James hypothetically glance upwards at Yuri Gagarin?
+Answer: False
+Q: Maritime pilots are human beings. COVID-19 can spread among human population. 
+Can COVID-19 spread to maritime pilots?",A: True,True
+StrategyQA,1a,"Question: The primary language spoken in Saint Vincent and the Grenadines is Vincentian Creole. Vincentian Creole is English-based, with elements of French, Antillean Creole, and indigenous South American and African languages.
+Is the language used in Saint Vincent and the Grenadines rooted in English?
+Answer: True
+Question: The New York Stock Exchange is located in New York, USA. Universal Music Group's headquarters is located in Santa Monica, California. Santa Monica is about 2800 miles from New York. A shout can be heard up to 100 meters away.
+Will NY Stock Exchange closing bell be heard in Universal Music Group's headquarters?
+Answer: False
+Q: Maritime pilots are human beings. COVID-19 can spread among human population. 
+Can COVID-19 spread to maritime pilots?",A: True,True
+StrategyQA,2,"Question: High Speed 1 (HS1), legally the Channel Tunnel Rail Link (CTRL), is a 67-mile (108 km) high-speed railway. The CERN collider is contained in a circular tunnel, with a circumference of 26.7 kilometres (16.6 mi). The circumference of a circle is the length of the enclosing boundary.
+Would the tunnels at CERN fit onto the High Speed 1 rails?
+Answer: True
+Question: LeBron James is 6 feet 9 inches tall. Yuri Gagarin was 5 feet 2 inches tall. Typically shorter individuals look up at taller individuals when they are speaking as it is polite to look face to face at someone when you are speaking to them.
+Would LeBron James hypothetically glance upwards at Yuri Gagarin?
+Answer: False
+Question: The primary language spoken in Saint Vincent and the Grenadines is Vincentian Creole. Vincentian Creole is English-based, with elements of French, Antillean Creole, and indigenous South American and African languages.
+Is the language used in Saint Vincent and the Grenadines rooted in English?
+Answer: True
+Question: The New York Stock Exchange is located in New York, USA. Universal Music Group's headquarters is located in Santa Monica, California. Santa Monica is about 2800 miles from New York. A shout can be heard up to 100 meters away.
+Will NY Stock Exchange closing bell be heard in Universal Music Group's headquarters?
+Answer: False
+Q: Maritime pilots are human beings. COVID-19 can spread among human population. 
+Can COVID-19 spread to maritime pilots?",A: True,True
+StrategyQA,3a,"Question: High Speed 1 (HS1), legally the Channel Tunnel Rail Link (CTRL), is a 67-mile (108 km) high-speed railway. The CERN collider is contained in a circular tunnel, with a circumference of 26.7 kilometres (16.6 mi). The circumference of a circle is the length of the enclosing boundary.
+Would the tunnels at CERN fit onto the High Speed 1 rails?
+Answer: True
+Question: LeBron James is 6 feet 9 inches tall. Yuri Gagarin was 5 feet 2 inches tall. Typically shorter individuals look up at taller individuals when they are speaking as it is polite to look face to face at someone when you are speaking to them.
+Would LeBron James hypothetically glance upwards at Yuri Gagarin?
+Answer: False
+Question: High Speed 1 (HS1), legally the Channel Tunnel Rail Link (CTRL), is a 67-mile (108 km) high-speed railway. The CERN collider is contained in a circular tunnel, with a circumference of 26.7 kilometres (16.6 mi). The circumference of a circle is the length of the enclosing boundary.
+Would the tunnels at CERN fit onto the High Speed 1 rails?
+Answer: True
+Question: LeBron James is 6 feet 9 inches tall. Yuri Gagarin was 5 feet 2 inches tall. Typically shorter individuals look up at taller individuals when they are speaking as it is polite to look face to face at someone when you are speaking to them.
+Would LeBron James hypothetically glance upwards at Yuri Gagarin?
+Answer: False
+Q: Maritime pilots are human beings. COVID-19 can spread among human population. 
+Can COVID-19 spread to maritime pilots?",A: Yes.,True
+StrategyQA,3b,"Question: The primary language spoken in Saint Vincent and the Grenadines is Vincentian Creole. Vincentian Creole is English-based, with elements of French, Antillean Creole, and indigenous South American and African languages.
+Is the language used in Saint Vincent and the Grenadines rooted in English?
+Answer: True
+Question: The New York Stock Exchange is located in New York, USA. Universal Music Group's headquarters is located in Santa Monica, California. Santa Monica is about 2800 miles from New York. A shout can be heard up to 100 meters away.
+Will NY Stock Exchange closing bell be heard in Universal Music Group's headquarters?
+Answer: False
+Question: The primary language spoken in Saint Vincent and the Grenadines is Vincentian Creole. Vincentian Creole is English-based, with elements of French, Antillean Creole, and indigenous South American and African languages.
+Is the language used in Saint Vincent and the Grenadines rooted in English?
+Answer: True
+Question: The New York Stock Exchange is located in New York, USA. Universal Music Group's headquarters is located in Santa Monica, California. Santa Monica is about 2800 miles from New York. A shout can be heard up to 100 meters away.
+Will NY Stock Exchange closing bell be heard in Universal Music Group's headquarters?
+Answer: False
+Q: Maritime pilots are human beings. COVID-19 can spread among human population. 
+Can COVID-19 spread to maritime pilots?",A: True,True
+SayCan,1a,"Question: Could you get me something refreshing?
+Answer: 1. find a water bottle, 2. pick up the water bottle, 3. bring it to you, 4. put down the water bottle, 5. done
+Question: I love spice, can you get something to eat?
+Answer: 1. find a jalapeno chips, 2. pick up the jalapeno chips, 3. bring it to you, 4. put down the jalapeno chips, 5. done.
+Q: How would you pick up the coke can?","A: To pick up the coke can, you would use your hand and grasp it firmly to lift it off the surface it is on.","1. pick up the coke can, 2. done"
+SayCan,1a,"Question: Lift the coke
+Answer: 1. pick up the coke, 2. done
+Question: How would you restock chips in the drawer?
+Answer: 1. find the bag of chips, 2. pick up the bag of chips, 3. go to the drawer, 4. put down the bag of chips, 5. open the drawer, 6. pick up the bag of chips, 7. put down the bag of chips, 8. close the drawer, 9. done
+Q: How would you pick up the coke can?","A: 1. Reach out for the coke can, 2. grasp the coke can, 3. lift the coke can off the table, 4. hold the coke can securely, 5. done","1. pick up the coke can, 2. done"
+SayCan,2,"Question: Could you get me something refreshing?
+Answer: 1. find a water bottle, 2. pick up the water bottle, 3. bring it to you, 4. put down the water bottle, 5. done
+Question: I love spice, can you get something to eat?
+Answer: 1. find a jalapeno chips, 2. pick up the jalapeno chips, 3. bring it to you, 4. put down the jalapeno chips, 5. done.
+Question: Lift the coke
+Answer: 1. pick up the coke, 2. done
+Question: How would you restock chips in the drawer?
+Answer: 1. find the bag of chips, 2. pick up the bag of chips, 3. go to the drawer, 4. put down the bag of chips, 5. open the drawer, 6. pick up the bag of chips, 7. put down the bag of chips, 8. close the drawer, 9. done
+Q: How would you pick up the coke can?","A: 1. reach for the coke can, 2. pick up the coke can, 3. done","1. pick up the coke can, 2. done"
+SayCan,3a,"Question: Could you get me something refreshing?
+Answer: 1. find a water bottle, 2. pick up the water bottle, 3. bring it to you, 4. put down the water bottle, 5. done
+Question: I love spice, can you get something to eat?
+Answer: 1. find a jalapeno chips, 2. pick up the jalapeno chips, 3. bring it to you, 4. put down the jalapeno chips, 5. done.
+Question: Could you get me something refreshing?
+Answer: 1. find a water bottle, 2. pick up the water bottle, 3. bring it to you, 4. put down the water bottle, 5. done
+Question: I love spice, can you get something to eat?
+Answer: 1. find a jalapeno chips, 2. pick up the jalapeno chips, 3. bring it to you, 4. put down the jalapeno chips, 5. done.
+Q: How would you pick up the coke can?","A: 1. locate the can of coke, 2. grasp it with your hand, 3. lift it off the surface, 4. bring it to your desired location, 5. release your grip on the can, 6. done.","1. pick up the coke can, 2. done"
+SayCan,3b,"Question: Lift the coke
+Answer: 1. pick up the coke, 2. done
+Question: How would you restock chips in the drawer?
+Answer: 1. find the bag of chips, 2. pick up the bag of chips, 3. go to the drawer, 4. put down the bag of chips, 5. open the drawer, 6. pick up the bag of chips, 7. put down the bag of chips, 8. close the drawer, 9. done
+Question: Lift the coke
+Answer: 1. pick up the coke, 2. done
+Question: How would you restock chips in the drawer?
+Answer: 1. find the bag of chips, 2. pick up the bag of chips, 3. go to the drawer, 4. put down the bag of chips, 5. open the drawer, 6. pick up the bag of chips, 7. put down the bag of chips, 8. close the drawer, 9. done
+Q: How would you pick up the coke can?","A: 1. Reach for the coke can, 2. grasp it firmly, 3. lift the coke can, 4. done","1. pick up the coke can, 2. done"

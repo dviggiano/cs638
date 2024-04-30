@@ -1,0 +1,343 @@
+Task Class,Case,Prompt,Response,Expected
+Math,1a,"Question: Bob can shuck 10 oysters in 5 minutes.  How many oysters can he shuck in 2 hours?
+Answer: He shucks 10 oysters in 5 minutes we need to know how many 5 minute units are in 60 minutes so 60/5 = 12 units
+He can shuck 10 oysters in 5 minutes and there are 12 5 minute units in an hour so he can shuck 10*12 = <<10*12=120>>120 oysters in 1 hour
+If he can shuck 120 oysters in 1 hour, so for 2 hours in can shuck 2*120 = 240 oysters
+#### 240
+Question: James collects all the fruits from his 2 trees.  Each tree has 20 plants.  Each plant has 1 seed and he plants 60% of those.  How many trees did he plant?
+Answer: He got 20*2=<<20*2=40>>40 seeds
+That means he plants 40*.6=<<40*.6=24>>24 trees
+#### 24
+Q: Alice is 7 years older than Beth, who is 5 years older than Erica. What is the difference between the ages of Alice and Erica, if Erica is 30 years old?","Let's start by finding out how old Beth is since we know Erica's age:
+Beth is 30 years old - 5 years = 25 years old
+Next, we find out Alice's age since we know Beth's age:
+Alice is 25 years old + 7 years = 32 years old
+Now, we can find the difference between Alice and Erica's ages:
+32 years - 30 years = 2 years
+The difference between Alice and Erica's ages is 2 years.","Beth is 30+5 = <<30+5=35>>35 years old.
+Alice is 35+7 = <<35+7=42>>42 years old.
+The difference between the ages of Alice and Erica is 42-30 = <<42-30=12>>12 years.
+#### 12"
+Math,1a,"Question: Each bank teller has 10 rolls of coins. Each roll has 25 coins. How many coins do four bank tellers have in all?
+Answer: Each bank teller has 10 x 25 = <<10*25=250>>250 coins.
+Thus, four bank tellers have 250 x 4 = <<250*4=1000>>1000 coins.
+#### 1000
+Question: Tim gets a manicure and tips the beautician 30%.  If the manicure cost $30 how much did he pay in total?
+Answer: He gave a tip of 30*.3=$<<30*.3=9>>9
+So in total he paid 30+9=$<<30+9=39>>39
+#### 39
+Q: Alice is 7 years older than Beth, who is 5 years older than Erica. What is the difference between the ages of Alice and Erica, if Erica is 30 years old?","First, we need to figure out Beth's age. Since Beth is 5 years older than Erica, Beth is 30 + 5 = 35 years old.
+
+Next, we need to determine Alice's age. Since Alice is 7 years older than Beth, Alice is 35 + 7 = 42 years old.
+
+Finally, we can find the difference between Alice and Erica's ages by subtracting Erica's age from Alice's age: 42 - 30 = 12.
+
+Therefore, the difference in age between Alice and Erica is 12 years.","Beth is 30+5 = <<30+5=35>>35 years old.
+Alice is 35+7 = <<35+7=42>>42 years old.
+The difference between the ages of Alice and Erica is 42-30 = <<42-30=12>>12 years.
+#### 12"
+Math,2,"Question: Bob can shuck 10 oysters in 5 minutes.  How many oysters can he shuck in 2 hours?
+Answer: He shucks 10 oysters in 5 minutes we need to know how many 5 minute units are in 60 minutes so 60/5 = 12 units
+He can shuck 10 oysters in 5 minutes and there are 12 5 minute units in an hour so he can shuck 10*12 = <<10*12=120>>120 oysters in 1 hour
+If he can shuck 120 oysters in 1 hour, so for 2 hours in can shuck 2*120 = 240 oysters
+#### 240
+Question: James collects all the fruits from his 2 trees.  Each tree has 20 plants.  Each plant has 1 seed and he plants 60% of those.  How many trees did he plant?
+Answer: He got 20*2=<<20*2=40>>40 seeds
+That means he plants 40*.6=<<40*.6=24>>24 trees
+#### 24
+Question: Each bank teller has 10 rolls of coins. Each roll has 25 coins. How many coins do four bank tellers have in all?
+Answer: Each bank teller has 10 x 25 = <<10*25=250>>250 coins.
+Thus, four bank tellers have 250 x 4 = <<250*4=1000>>1000 coins.
+#### 1000
+Question: Tim gets a manicure and tips the beautician 30%.  If the manicure cost $30 how much did he pay in total?
+Answer: He gave a tip of 30*.3=$<<30*.3=9>>9
+So in total he paid 30+9=$<<30+9=39>>39
+#### 39
+Q: Alice is 7 years older than Beth, who is 5 years older than Erica. What is the difference between the ages of Alice and Erica, if Erica is 30 years old?","A: If Erica is 30 years old, Beth is 30 + 5 = 35 years old.
+Since Alice is 7 years older than Beth, Alice is 35 + 7 = 42 years old.
+The difference between the ages of Alice and Erica is 42 - 30 = 12 years.","Beth is 30+5 = <<30+5=35>>35 years old.
+Alice is 35+7 = <<35+7=42>>42 years old.
+The difference between the ages of Alice and Erica is 42-30 = <<42-30=12>>12 years.
+#### 12"
+Math,3a,"Question: Bob can shuck 10 oysters in 5 minutes.  How many oysters can he shuck in 2 hours?
+Answer: He shucks 10 oysters in 5 minutes we need to know how many 5 minute units are in 60 minutes so 60/5 = 12 units
+He can shuck 10 oysters in 5 minutes and there are 12 5 minute units in an hour so he can shuck 10*12 = <<10*12=120>>120 oysters in 1 hour
+If he can shuck 120 oysters in 1 hour, so for 2 hours in can shuck 2*120 = 240 oysters
+#### 240
+Question: James collects all the fruits from his 2 trees.  Each tree has 20 plants.  Each plant has 1 seed and he plants 60% of those.  How many trees did he plant?
+Answer: He got 20*2=<<20*2=40>>40 seeds
+That means he plants 40*.6=<<40*.6=24>>24 trees
+#### 24
+Question: Bob can shuck 10 oysters in 5 minutes.  How many oysters can he shuck in 2 hours?
+Answer: He shucks 10 oysters in 5 minutes we need to know how many 5 minute units are in 60 minutes so 60/5 = 12 units
+He can shuck 10 oysters in 5 minutes and there are 12 5 minute units in an hour so he can shuck 10*12 = <<10*12=120>>120 oysters in 1 hour
+If he can shuck 120 oysters in 1 hour, so for 2 hours in can shuck 2*120 = 240 oysters
+#### 240
+Question: James collects all the fruits from his 2 trees.  Each tree has 20 plants.  Each plant has 1 seed and he plants 60% of those.  How many trees did he plant?
+Answer: He got 20*2=<<20*2=40>>40 seeds
+That means he plants 40*.6=<<40*.6=24>>24 trees
+#### 24
+Q: Alice is 7 years older than Beth, who is 5 years older than Erica. What is the difference between the ages of Alice and Erica, if Erica is 30 years old?","A: If Erica is 30 years old, Beth is 30 + 5 = 35 years old, and Alice is 35 + 7 = 42 years old. 
+Therefore, the difference between the ages of Alice and Erica is 42 - 30 = 12 years.","Beth is 30+5 = <<30+5=35>>35 years old.
+Alice is 35+7 = <<35+7=42>>42 years old.
+The difference between the ages of Alice and Erica is 42-30 = <<42-30=12>>12 years.
+#### 12"
+Math,3b,"Question: Each bank teller has 10 rolls of coins. Each roll has 25 coins. How many coins do four bank tellers have in all?
+Answer: Each bank teller has 10 x 25 = <<10*25=250>>250 coins.
+Thus, four bank tellers have 250 x 4 = <<250*4=1000>>1000 coins.
+#### 1000
+Question: Tim gets a manicure and tips the beautician 30%.  If the manicure cost $30 how much did he pay in total?
+Answer: He gave a tip of 30*.3=$<<30*.3=9>>9
+So in total he paid 30+9=$<<30+9=39>>39
+#### 39
+Question: Each bank teller has 10 rolls of coins. Each roll has 25 coins. How many coins do four bank tellers have in all?
+Answer: Each bank teller has 10 x 25 = <<10*25=250>>250 coins.
+Thus, four bank tellers have 250 x 4 = <<250*4=1000>>1000 coins.
+#### 1000
+Question: Tim gets a manicure and tips the beautician 30%.  If the manicure cost $30 how much did he pay in total?
+Answer: He gave a tip of 30*.3=$<<30*.3=9>>9
+So in total he paid 30+9=$<<30+9=39>>39
+#### 39
+Q: Alice is 7 years older than Beth, who is 5 years older than Erica. What is the difference between the ages of Alice and Erica, if Erica is 30 years old?","The age of Beth is 30 + 5 = 35 years old.
+The age of Alice is 35 + 7 = 42 years old.
+The difference in age between Alice and Erica is 42 - 30 = 12 years.","Beth is 30+5 = <<30+5=35>>35 years old.
+Alice is 35+7 = <<35+7=42>>42 years old.
+The difference between the ages of Alice and Erica is 42-30 = <<42-30=12>>12 years.
+#### 12"
+CSQA,1a,"Question: They decided to have desert after their meal, they chose chocolate cake from the desert tray at the what?
+A: buffet
+B: movies
+C: restaurant
+D: box
+E: supermarket
+Answer: C
+Question: What could be moved to stop a hinged door from moving?
+A: doorway
+B: building
+C: jamb
+D: pantry
+E: furnace
+Answer: C
+Q: Where would you see some people doing jumping jacks?
+A: military base
+B: opera
+C: water fountain
+D: bus stop
+E: church",Answer: A,A
+CSQA,1a,"Question: What might someone store in a ring binder?
+A: stationary shop
+B: school
+C: office
+D: notebook
+E: backpack
+Answer: D
+Question: Drinking a lot of alcohol leads to what?
+A: injuries
+B: do stupid things
+C: amnesia
+D: hangover
+E: drunkenness
+Answer: E
+Q: Where would you see some people doing jumping jacks?
+A: military base
+B: opera
+C: water fountain
+D: bus stop
+E: church",Answer: A,A
+CSQA,2,"Question: They decided to have desert after their meal, they chose chocolate cake from the desert tray at the what?
+A: buffet
+B: movies
+C: restaurant
+D: box
+E: supermarket
+Answer: C
+Question: What could be moved to stop a hinged door from moving?
+A: doorway
+B: building
+C: jamb
+D: pantry
+E: furnace
+Answer: C
+Question: What might someone store in a ring binder?
+A: stationary shop
+B: school
+C: office
+D: notebook
+E: backpack
+Answer: D
+Question: Drinking a lot of alcohol leads to what?
+A: injuries
+B: do stupid things
+C: amnesia
+D: hangover
+E: drunkenness
+Answer: E
+Q: Where would you see some people doing jumping jacks?
+A: military base
+B: opera
+C: water fountain
+D: bus stop
+E: church",A: military base,A
+CSQA,3a,"Question: They decided to have desert after their meal, they chose chocolate cake from the desert tray at the what?
+A: buffet
+B: movies
+C: restaurant
+D: box
+E: supermarket
+Answer: C
+Question: What could be moved to stop a hinged door from moving?
+A: doorway
+B: building
+C: jamb
+D: pantry
+E: furnace
+Answer: C
+Question: They decided to have desert after their meal, they chose chocolate cake from the desert tray at the what?
+A: buffet
+B: movies
+C: restaurant
+D: box
+E: supermarket
+Answer: C
+Question: What could be moved to stop a hinged door from moving?
+A: doorway
+B: building
+C: jamb
+D: pantry
+E: furnace
+Answer: C
+Q: Where would you see some people doing jumping jacks?
+A: military base
+B: opera
+C: water fountain
+D: bus stop
+E: church",A: military base,A
+CSQA,3b,"Question: What might someone store in a ring binder?
+A: stationary shop
+B: school
+C: office
+D: notebook
+E: backpack
+Answer: D
+Question: Drinking a lot of alcohol leads to what?
+A: injuries
+B: do stupid things
+C: amnesia
+D: hangover
+E: drunkenness
+Answer: E
+Question: What might someone store in a ring binder?
+A: stationary shop
+B: school
+C: office
+D: notebook
+E: backpack
+Answer: D
+Question: Drinking a lot of alcohol leads to what?
+A: injuries
+B: do stupid things
+C: amnesia
+D: hangover
+E: drunkenness
+Answer: E
+Q: Where would you see some people doing jumping jacks?
+A: military base
+B: opera
+C: water fountain
+D: bus stop
+E: church",A: military base,A
+StrategyQA,1a,"Question: Wedding rings are typically made of precious shiny stones such as diamonds. Silicon is a solid rock like element at room temperature that has a natural lustre. Bromine is a liquid at room temperature that is toxic to the touch.
+Will silicon wedding rings outsell bromine wedding rings?
+Answer: True
+Question: Herpes simplex virus is a disease that has the structure of a tiny protein cage. Venus is the hottest planet and its temperature can reach 900°F. Proteins lose their structure and break down at temperatures above 105.8°F.
+Can Herpes simplex virus spread on Venus?
+Answer: False
+Q: Home 3D printers are sized to be able to sit on a desk or table. The accessories and materials needed for 3D Printers can be stored easily and efficiently in a box or tote.
+Do you need a large room if you want to get into 3D printing?",A: False,False
+StrategyQA,1a,"Question: Law & Order was created by Dick Wolf Dick Wolf won an Emmy in 2007  Dick Wolf won an Emmy in 1997 The Emmy statuette is of a winged woman holding an atom
+Are there winged statuettes in the home of the creator of Law & Order?
+Answer: True
+Question: Pearl hunters swim underwater to collect pearls from oysters. Michael Phelps is the most decorated Olympic swimmer of all time.
+Would Michael Phelps be good at pearl hunting?
+Answer: True
+Q: Home 3D printers are sized to be able to sit on a desk or table. The accessories and materials needed for 3D Printers can be stored easily and efficiently in a box or tote.
+Do you need a large room if you want to get into 3D printing?",A: False,False
+StrategyQA,2,"Question: Wedding rings are typically made of precious shiny stones such as diamonds. Silicon is a solid rock like element at room temperature that has a natural lustre. Bromine is a liquid at room temperature that is toxic to the touch.
+Will silicon wedding rings outsell bromine wedding rings?
+Answer: True
+Question: Herpes simplex virus is a disease that has the structure of a tiny protein cage. Venus is the hottest planet and its temperature can reach 900°F. Proteins lose their structure and break down at temperatures above 105.8°F.
+Can Herpes simplex virus spread on Venus?
+Answer: False
+Question: Law & Order was created by Dick Wolf Dick Wolf won an Emmy in 2007  Dick Wolf won an Emmy in 1997 The Emmy statuette is of a winged woman holding an atom
+Are there winged statuettes in the home of the creator of Law & Order?
+Answer: True
+Question: Pearl hunters swim underwater to collect pearls from oysters. Michael Phelps is the most decorated Olympic swimmer of all time.
+Would Michael Phelps be good at pearl hunting?
+Answer: True
+Q: Home 3D printers are sized to be able to sit on a desk or table. The accessories and materials needed for 3D Printers can be stored easily and efficiently in a box or tote.
+Do you need a large room if you want to get into 3D printing?",A: False,False
+StrategyQA,3a,"Question: Wedding rings are typically made of precious shiny stones such as diamonds. Silicon is a solid rock like element at room temperature that has a natural lustre. Bromine is a liquid at room temperature that is toxic to the touch.
+Will silicon wedding rings outsell bromine wedding rings?
+Answer: True
+Question: Herpes simplex virus is a disease that has the structure of a tiny protein cage. Venus is the hottest planet and its temperature can reach 900°F. Proteins lose their structure and break down at temperatures above 105.8°F.
+Can Herpes simplex virus spread on Venus?
+Answer: False
+Question: Wedding rings are typically made of precious shiny stones such as diamonds. Silicon is a solid rock like element at room temperature that has a natural lustre. Bromine is a liquid at room temperature that is toxic to the touch.
+Will silicon wedding rings outsell bromine wedding rings?
+Answer: True
+Question: Herpes simplex virus is a disease that has the structure of a tiny protein cage. Venus is the hottest planet and its temperature can reach 900°F. Proteins lose their structure and break down at temperatures above 105.8°F.
+Can Herpes simplex virus spread on Venus?
+Answer: False
+Q: Home 3D printers are sized to be able to sit on a desk or table. The accessories and materials needed for 3D Printers can be stored easily and efficiently in a box or tote.
+Do you need a large room if you want to get into 3D printing?",A: False,False
+StrategyQA,3b,"Question: Law & Order was created by Dick Wolf Dick Wolf won an Emmy in 2007  Dick Wolf won an Emmy in 1997 The Emmy statuette is of a winged woman holding an atom
+Are there winged statuettes in the home of the creator of Law & Order?
+Answer: True
+Question: Pearl hunters swim underwater to collect pearls from oysters. Michael Phelps is the most decorated Olympic swimmer of all time.
+Would Michael Phelps be good at pearl hunting?
+Answer: True
+Question: Law & Order was created by Dick Wolf Dick Wolf won an Emmy in 2007  Dick Wolf won an Emmy in 1997 The Emmy statuette is of a winged woman holding an atom
+Are there winged statuettes in the home of the creator of Law & Order?
+Answer: True
+Question: Pearl hunters swim underwater to collect pearls from oysters. Michael Phelps is the most decorated Olympic swimmer of all time.
+Would Michael Phelps be good at pearl hunting?
+Answer: True
+Q: Home 3D printers are sized to be able to sit on a desk or table. The accessories and materials needed for 3D Printers can be stored easily and efficiently in a box or tote.
+Do you need a large room if you want to get into 3D printing?",A: False,False
+SayCan,1a,"Question: How would you bring me an apple from the drawer?
+Answer: 1. go to the drawer, 2. open the drawer, 3. pick up the apple, 4. close the drawer, 5. bring it to you, 6. put down the apple, 7. done
+Question: Can you clear off the close counter table?
+Answer: 1. go to the close counter, 2. pick up the energy bar, 3. go to the trash, 4. put down the energy bar, 5. go to the close counter, 6. pick up the jalapeno chips, 7. go to the trash, 8. put down the jalapeno chips, 9. go to the close counter, 10. pick up the grapefruit soda, 11. go to the trash, 12. put down the grapefruit soda, 13. go to the close counter, 14. done.
+Q: Can you bring all the snacks on the table?","A: Sure, I will bring all the snacks on the table. 1. Go to the table, 2. Pick up the popcorn, 3. Pick up the chocolate bar, 4. Pick up the pretzels, 5. Pick up the nuts, 6. Bring all the snacks to you, 7. Put down the snacks, 8. Done.","1. go to the table, 2. pick up the energy bar, 3. bring it to you, 4. put down the energy bar, 5. go to the table, 6. pick up the multigrain chips, 7. bring it to you, 8. put down the multigrain chips, 9. go to the table, 10. done."
+SayCan,1a,"Question: Throw away the sprite.
+Answer: 1. find a sprite can, 2. pick up the sprite can, 3. go to the trash, 4. put down the sprite can, 5. done
+Question: How would you bring me a sprite?
+Answer: 1. find a sprite can, 2. pick up the sprite can, 3. bring it to you, 4. put down the sprite can, 5. done
+Q: Can you bring all the snacks on the table?","A: 1. gather all the snacks on the table, 2. pick up all the snacks, 3. bring them to you, 4. set them down, 5. done","1. go to the table, 2. pick up the energy bar, 3. bring it to you, 4. put down the energy bar, 5. go to the table, 6. pick up the multigrain chips, 7. bring it to you, 8. put down the multigrain chips, 9. go to the table, 10. done."
+SayCan,2,"Question: How would you bring me an apple from the drawer?
+Answer: 1. go to the drawer, 2. open the drawer, 3. pick up the apple, 4. close the drawer, 5. bring it to you, 6. put down the apple, 7. done
+Question: Can you clear off the close counter table?
+Answer: 1. go to the close counter, 2. pick up the energy bar, 3. go to the trash, 4. put down the energy bar, 5. go to the close counter, 6. pick up the jalapeno chips, 7. go to the trash, 8. put down the jalapeno chips, 9. go to the close counter, 10. pick up the grapefruit soda, 11. go to the trash, 12. put down the grapefruit soda, 13. go to the close counter, 14. done.
+Question: Throw away the sprite.
+Answer: 1. find a sprite can, 2. pick up the sprite can, 3. go to the trash, 4. put down the sprite can, 5. done
+Question: How would you bring me a sprite?
+Answer: 1. find a sprite can, 2. pick up the sprite can, 3. bring it to you, 4. put down the sprite can, 5. done
+Q: Can you bring all the snacks on the table?","A: 1. go to the table, 2. pick up each snack one by one (energy bar, jalapeno chips, grapefruit soda), 3. bring them to you, 4. arrange them neatly on a tray or plate, 5. put down the tray or plate, 6. done.","1. go to the table, 2. pick up the energy bar, 3. bring it to you, 4. put down the energy bar, 5. go to the table, 6. pick up the multigrain chips, 7. bring it to you, 8. put down the multigrain chips, 9. go to the table, 10. done."
+SayCan,3a,"Question: How would you bring me an apple from the drawer?
+Answer: 1. go to the drawer, 2. open the drawer, 3. pick up the apple, 4. close the drawer, 5. bring it to you, 6. put down the apple, 7. done
+Question: Can you clear off the close counter table?
+Answer: 1. go to the close counter, 2. pick up the energy bar, 3. go to the trash, 4. put down the energy bar, 5. go to the close counter, 6. pick up the jalapeno chips, 7. go to the trash, 8. put down the jalapeno chips, 9. go to the close counter, 10. pick up the grapefruit soda, 11. go to the trash, 12. put down the grapefruit soda, 13. go to the close counter, 14. done.
+Question: How would you bring me an apple from the drawer?
+Answer: 1. go to the drawer, 2. open the drawer, 3. pick up the apple, 4. close the drawer, 5. bring it to you, 6. put down the apple, 7. done
+Question: Can you clear off the close counter table?
+Answer: 1. go to the close counter, 2. pick up the energy bar, 3. go to the trash, 4. put down the energy bar, 5. go to the close counter, 6. pick up the jalapeno chips, 7. go to the trash, 8. put down the jalapeno chips, 9. go to the close counter, 10. pick up the grapefruit soda, 11. go to the trash, 12. put down the grapefruit soda, 13. go to the close counter, 14. done.
+Q: Can you bring all the snacks on the table?","A: 1. Go to the table, 2. pick up the energy bar, 3. bring it to you, 4. put down the energy bar, 5. go to the table, 6. pick up the jalapeno chips, 7. bring it to you, 8. put down the jalapeno chips, 9. go to the table, 10. pick up the grapefruit soda, 11. bring it to you, 12. put down the grapefruit soda, 13. done.","1. go to the table, 2. pick up the energy bar, 3. bring it to you, 4. put down the energy bar, 5. go to the table, 6. pick up the multigrain chips, 7. bring it to you, 8. put down the multigrain chips, 9. go to the table, 10. done."
+SayCan,3b,"Question: Throw away the sprite.
+Answer: 1. find a sprite can, 2. pick up the sprite can, 3. go to the trash, 4. put down the sprite can, 5. done
+Question: How would you bring me a sprite?
+Answer: 1. find a sprite can, 2. pick up the sprite can, 3. bring it to you, 4. put down the sprite can, 5. done
+Question: Throw away the sprite.
+Answer: 1. find a sprite can, 2. pick up the sprite can, 3. go to the trash, 4. put down the sprite can, 5. done
+Question: How would you bring me a sprite?
+Answer: 1. find a sprite can, 2. pick up the sprite can, 3. bring it to you, 4. put down the sprite can, 5. done
+Q: Can you bring all the snacks on the table?","A: 1. gather all the snacks on the table, 2. bring them to you, 3. place them in front of you, 4. done","1. go to the table, 2. pick up the energy bar, 3. bring it to you, 4. put down the energy bar, 5. go to the table, 6. pick up the multigrain chips, 7. bring it to you, 8. put down the multigrain chips, 9. go to the table, 10. done."

@@ -1,0 +1,377 @@
+Task Class,Case,Prompt,Response,Expected
+Math,1a,"Question: A rectangular flowerbed in the city park is 4 meters wide. Its length is 1 meter less than twice its width. The government wants to fence the flowerbed. How many meters of fence are needed?
+Answer: Twice the width is 4 x 2 = <<4*2=8>>8 meters.
+The length of the rectangular flowerbed is 8 - 1= <<8-1=7>>7 meters.
+Since the rectangular flower bed has 2 equal lengths, then it needs 7 x 2 = <<7*2=14>>14 meters of fence.
+The rectangular bed has also 2 equal widths, so it needs 4 x 2 = <<8=8>>8 meters of fence.
+Therefore, the rectangular flower bed needs a total of 14 + 8 = <<14+8=22>>22 meters of fence.
+#### 22
+Question: A parking garage of a mall is four stories tall. On the first level, there are 90 parking spaces. The second level has 8 more parking spaces than on the first level, and there are 12 more available parking spaces on the third level than on the second level. The fourth level has 9 fewer parking spaces than the third level. If 100 cars are already parked, how many cars can be accommodated by the parking garage?
+Answer: The second level has 90 + 8 = <<90+8=98>>98 parking spaces.
+The third level has 98 + 12 = <<98+12=110>>110 parking spaces.
+The fourth level has 110 - 9 = <<110-9=101>>101 parking spaces.
+So the parking garage can accommodate 90 + 98 + 110 + 101 = <<90+98+110+101=399>>399 cars.
+Thus, the parking garage can still accommodate 399 - 100 = <<399-100=299>>299 cars.
+#### 299
+Q: Derrick has a bakery that makes 10 dozen doughnuts every day, selling at $2 per doughnut. How much money does Derrick make in June if he sells all the doughnuts?","A: Since there are 12 doughnuts in a dozen, Derrick makes 10 x 12 = <<10*12=120>>120 doughnuts per day.
+If he sells each doughnut at $2, he makes $2 x 120 = $<<2*120=240>>240 per day.
+Therefore, in June, with 30 days, Derrick makes $240 x 30 = $<<240*30=7200>>7200.
+Therefore, Derrick makes $7200 in June if he sells all the doughnuts.","A dozen doughnuts have 12 doughnuts, and if Derrick makes 10 dozen in a day, the total number of doughnuts he makes is 10*12 = <<10*12=120>>120 doughnuts.
+Since each doughnut sells at $2 per piece, Derrick makes 120*$2 = $<<120*2=240>>240 per day from selling his doughnuts.
+In June, with 30 days, after making and selling the doughnuts every day, Derrick makes $240*30 = $<<30*240=7200>>7200
+#### 7200"
+Math,1a,"Question: A store has an 8% discount on all items. If Shara paid $184 for a pair of shoes, how much did Shara save?
+Answer: The price that Shara paid is only 100% - 8% = 92% of the original price.
+So, every 1% is equal to $184/92 = $2.
+Therefore, Shara saved $2 x 8 = $<<2*8=16>>16.
+#### 16
+Question: James won a money prize at a charity raffle. He donated half of his winnings back to the charity, then spent $2 on a hot dog to celebrate his win. He had $55 left over. How many dollars did he win?
+Answer: Let W be equal to James’s raffle winnings.
+He donated half his winnings, so he had W - W/2 = W/2 left.
+He then spent $2 on a hot dog, so W/2 - 2 = $55.
+Thus, half his winnings is W/2 = 55 + 2 = <<55+2=57>>57.
+James won W = 57 * 2 = $<<57*2=114>>114.
+#### 114
+Q: Derrick has a bakery that makes 10 dozen doughnuts every day, selling at $2 per doughnut. How much money does Derrick make in June if he sells all the doughnuts?","A dozen is equal to 12, so Derrick makes 10 x 12 = 120 doughnuts every day.
+If he sells each doughnut at $2, then he makes $2 x 120 = $240 per day.
+Since June has 30 days, Derrick makes $240 x 30 = $<<240*30=7200>>7200 in June.
+Therefore, Derrick makes $7200 in June by selling all the doughnuts.","A dozen doughnuts have 12 doughnuts, and if Derrick makes 10 dozen in a day, the total number of doughnuts he makes is 10*12 = <<10*12=120>>120 doughnuts.
+Since each doughnut sells at $2 per piece, Derrick makes 120*$2 = $<<120*2=240>>240 per day from selling his doughnuts.
+In June, with 30 days, after making and selling the doughnuts every day, Derrick makes $240*30 = $<<30*240=7200>>7200
+#### 7200"
+Math,2,"Question: A rectangular flowerbed in the city park is 4 meters wide. Its length is 1 meter less than twice its width. The government wants to fence the flowerbed. How many meters of fence are needed?
+Answer: Twice the width is 4 x 2 = <<4*2=8>>8 meters.
+The length of the rectangular flowerbed is 8 - 1= <<8-1=7>>7 meters.
+Since the rectangular flower bed has 2 equal lengths, then it needs 7 x 2 = <<7*2=14>>14 meters of fence.
+The rectangular bed has also 2 equal widths, so it needs 4 x 2 = <<8=8>>8 meters of fence.
+Therefore, the rectangular flower bed needs a total of 14 + 8 = <<14+8=22>>22 meters of fence.
+#### 22
+Question: A parking garage of a mall is four stories tall. On the first level, there are 90 parking spaces. The second level has 8 more parking spaces than on the first level, and there are 12 more available parking spaces on the third level than on the second level. The fourth level has 9 fewer parking spaces than the third level. If 100 cars are already parked, how many cars can be accommodated by the parking garage?
+Answer: The second level has 90 + 8 = <<90+8=98>>98 parking spaces.
+The third level has 98 + 12 = <<98+12=110>>110 parking spaces.
+The fourth level has 110 - 9 = <<110-9=101>>101 parking spaces.
+So the parking garage can accommodate 90 + 98 + 110 + 101 = <<90+98+110+101=399>>399 cars.
+Thus, the parking garage can still accommodate 399 - 100 = <<399-100=299>>299 cars.
+#### 299
+Question: A store has an 8% discount on all items. If Shara paid $184 for a pair of shoes, how much did Shara save?
+Answer: The price that Shara paid is only 100% - 8% = 92% of the original price.
+So, every 1% is equal to $184/92 = $2.
+Therefore, Shara saved $2 x 8 = $<<2*8=16>>16.
+#### 16
+Question: James won a money prize at a charity raffle. He donated half of his winnings back to the charity, then spent $2 on a hot dog to celebrate his win. He had $55 left over. How many dollars did he win?
+Answer: Let W be equal to James’s raffle winnings.
+He donated half his winnings, so he had W - W/2 = W/2 left.
+He then spent $2 on a hot dog, so W/2 - 2 = $55.
+Thus, half his winnings is W/2 = 55 + 2 = <<55+2=57>>57.
+James won W = 57 * 2 = $<<57*2=114>>114.
+#### 114
+Q: Derrick has a bakery that makes 10 dozen doughnuts every day, selling at $2 per doughnut. How much money does Derrick make in June if he sells all the doughnuts?","A: In a day, Derrick sells 10 x 12 = 120 doughnuts.
+If he sells each at $2, then in a day, he makes $2 x 120 = $240.
+In June, there are 30 days.
+Therefore, in June, Derrick makes $240 x 30 = $<<240*30=7200>>7200.","A dozen doughnuts have 12 doughnuts, and if Derrick makes 10 dozen in a day, the total number of doughnuts he makes is 10*12 = <<10*12=120>>120 doughnuts.
+Since each doughnut sells at $2 per piece, Derrick makes 120*$2 = $<<120*2=240>>240 per day from selling his doughnuts.
+In June, with 30 days, after making and selling the doughnuts every day, Derrick makes $240*30 = $<<30*240=7200>>7200
+#### 7200"
+Math,3a,"Question: A rectangular flowerbed in the city park is 4 meters wide. Its length is 1 meter less than twice its width. The government wants to fence the flowerbed. How many meters of fence are needed?
+Answer: Twice the width is 4 x 2 = <<4*2=8>>8 meters.
+The length of the rectangular flowerbed is 8 - 1= <<8-1=7>>7 meters.
+Since the rectangular flower bed has 2 equal lengths, then it needs 7 x 2 = <<7*2=14>>14 meters of fence.
+The rectangular bed has also 2 equal widths, so it needs 4 x 2 = <<8=8>>8 meters of fence.
+Therefore, the rectangular flower bed needs a total of 14 + 8 = <<14+8=22>>22 meters of fence.
+#### 22
+Question: A parking garage of a mall is four stories tall. On the first level, there are 90 parking spaces. The second level has 8 more parking spaces than on the first level, and there are 12 more available parking spaces on the third level than on the second level. The fourth level has 9 fewer parking spaces than the third level. If 100 cars are already parked, how many cars can be accommodated by the parking garage?
+Answer: The second level has 90 + 8 = <<90+8=98>>98 parking spaces.
+The third level has 98 + 12 = <<98+12=110>>110 parking spaces.
+The fourth level has 110 - 9 = <<110-9=101>>101 parking spaces.
+So the parking garage can accommodate 90 + 98 + 110 + 101 = <<90+98+110+101=399>>399 cars.
+Thus, the parking garage can still accommodate 399 - 100 = <<399-100=299>>299 cars.
+#### 299
+Question: A rectangular flowerbed in the city park is 4 meters wide. Its length is 1 meter less than twice its width. The government wants to fence the flowerbed. How many meters of fence are needed?
+Answer: Twice the width is 4 x 2 = <<4*2=8>>8 meters.
+The length of the rectangular flowerbed is 8 - 1= <<8-1=7>>7 meters.
+Since the rectangular flower bed has 2 equal lengths, then it needs 7 x 2 = <<7*2=14>>14 meters of fence.
+The rectangular bed has also 2 equal widths, so it needs 4 x 2 = <<8=8>>8 meters of fence.
+Therefore, the rectangular flower bed needs a total of 14 + 8 = <<14+8=22>>22 meters of fence.
+#### 22
+Question: A parking garage of a mall is four stories tall. On the first level, there are 90 parking spaces. The second level has 8 more parking spaces than on the first level, and there are 12 more available parking spaces on the third level than on the second level. The fourth level has 9 fewer parking spaces than the third level. If 100 cars are already parked, how many cars can be accommodated by the parking garage?
+Answer: The second level has 90 + 8 = <<90+8=98>>98 parking spaces.
+The third level has 98 + 12 = <<98+12=110>>110 parking spaces.
+The fourth level has 110 - 9 = <<110-9=101>>101 parking spaces.
+So the parking garage can accommodate 90 + 98 + 110 + 101 = <<90+98+110+101=399>>399 cars.
+Thus, the parking garage can still accommodate 399 - 100 = <<399-100=299>>299 cars.
+#### 299
+Q: Derrick has a bakery that makes 10 dozen doughnuts every day, selling at $2 per doughnut. How much money does Derrick make in June if he sells all the doughnuts?","A: In one day, Derrick sells 10 x 12 = 120 doughnuts.
+If each doughnut is sold at $2, then in one day Derrick makes 120 x $2 = $240.
+In June, there are typically 30 days, so in June, Derrick makes $240 x 30 = $<<240*30=7200>>7200.
+Therefore, Derrick makes $7200 in June by selling all the doughnuts.","A dozen doughnuts have 12 doughnuts, and if Derrick makes 10 dozen in a day, the total number of doughnuts he makes is 10*12 = <<10*12=120>>120 doughnuts.
+Since each doughnut sells at $2 per piece, Derrick makes 120*$2 = $<<120*2=240>>240 per day from selling his doughnuts.
+In June, with 30 days, after making and selling the doughnuts every day, Derrick makes $240*30 = $<<30*240=7200>>7200
+#### 7200"
+Math,3b,"Question: A store has an 8% discount on all items. If Shara paid $184 for a pair of shoes, how much did Shara save?
+Answer: The price that Shara paid is only 100% - 8% = 92% of the original price.
+So, every 1% is equal to $184/92 = $2.
+Therefore, Shara saved $2 x 8 = $<<2*8=16>>16.
+#### 16
+Question: James won a money prize at a charity raffle. He donated half of his winnings back to the charity, then spent $2 on a hot dog to celebrate his win. He had $55 left over. How many dollars did he win?
+Answer: Let W be equal to James’s raffle winnings.
+He donated half his winnings, so he had W - W/2 = W/2 left.
+He then spent $2 on a hot dog, so W/2 - 2 = $55.
+Thus, half his winnings is W/2 = 55 + 2 = <<55+2=57>>57.
+James won W = 57 * 2 = $<<57*2=114>>114.
+#### 114
+Question: A store has an 8% discount on all items. If Shara paid $184 for a pair of shoes, how much did Shara save?
+Answer: The price that Shara paid is only 100% - 8% = 92% of the original price.
+So, every 1% is equal to $184/92 = $2.
+Therefore, Shara saved $2 x 8 = $<<2*8=16>>16.
+#### 16
+Question: James won a money prize at a charity raffle. He donated half of his winnings back to the charity, then spent $2 on a hot dog to celebrate his win. He had $55 left over. How many dollars did he win?
+Answer: Let W be equal to James’s raffle winnings.
+He donated half his winnings, so he had W - W/2 = W/2 left.
+He then spent $2 on a hot dog, so W/2 - 2 = $55.
+Thus, half his winnings is W/2 = 55 + 2 = <<55+2=57>>57.
+James won W = 57 * 2 = $<<57*2=114>>114.
+#### 114
+Q: Derrick has a bakery that makes 10 dozen doughnuts every day, selling at $2 per doughnut. How much money does Derrick make in June if he sells all the doughnuts?","A: In one day, Derrick sells 10 x 12 = 120 doughnuts.
+If each doughnut is sold at $2, then in one day, Derrick makes 120 x $2 = $240.
+In June, there are 30 days, so Derrick makes $240 x 30 = $<<240*30=7200>>7200.
+Therefore, Derrick makes $7200 in June if he sells all the doughnuts.","A dozen doughnuts have 12 doughnuts, and if Derrick makes 10 dozen in a day, the total number of doughnuts he makes is 10*12 = <<10*12=120>>120 doughnuts.
+Since each doughnut sells at $2 per piece, Derrick makes 120*$2 = $<<120*2=240>>240 per day from selling his doughnuts.
+In June, with 30 days, after making and selling the doughnuts every day, Derrick makes $240*30 = $<<30*240=7200>>7200
+#### 7200"
+CSQA,1a,"Question: What happens while someone is going somewhere?
+A: being there
+B: movement
+C: having to travel
+D: get excited
+E: walk
+Answer: C
+Question: Where does litter land when you throw it away?
+A: street corner
+B: midair
+C: ground
+D: bus
+E: roadsides
+Answer: C
+Q: The sensor would just the distance then set off an alarm, the installation expert explained it was called a what kind of sensor?
+A: near
+B: closeness
+C: here
+D: proximity
+E: this",Answer: D,D
+CSQA,1a,"Question: The parents concern was met opposingly by what on behalf of the teacher?
+A: carefree
+B: uncaring
+C: indifference
+D: apathy
+E: carelessness
+Answer: C
+Question: If you have two dogs, you'll quickly find that you have many more. This is because dogs are capable of what?
+A: bark
+B: need food
+C: own people
+D: reproduce
+E: make playmates
+Answer: D
+Q: The sensor would just the distance then set off an alarm, the installation expert explained it was called a what kind of sensor?
+A: near
+B: closeness
+C: here
+D: proximity
+E: this",Answer: D,D
+CSQA,2,"Question: What happens while someone is going somewhere?
+A: being there
+B: movement
+C: having to travel
+D: get excited
+E: walk
+Answer: C
+Question: Where does litter land when you throw it away?
+A: street corner
+B: midair
+C: ground
+D: bus
+E: roadsides
+Answer: C
+Question: The parents concern was met opposingly by what on behalf of the teacher?
+A: carefree
+B: uncaring
+C: indifference
+D: apathy
+E: carelessness
+Answer: C
+Question: If you have two dogs, you'll quickly find that you have many more. This is because dogs are capable of what?
+A: bark
+B: need food
+C: own people
+D: reproduce
+E: make playmates
+Answer: D
+Q: The sensor would just the distance then set off an alarm, the installation expert explained it was called a what kind of sensor?
+A: near
+B: closeness
+C: here
+D: proximity
+E: this",Answer: D,D
+CSQA,3a,"Question: What happens while someone is going somewhere?
+A: being there
+B: movement
+C: having to travel
+D: get excited
+E: walk
+Answer: C
+Question: Where does litter land when you throw it away?
+A: street corner
+B: midair
+C: ground
+D: bus
+E: roadsides
+Answer: C
+Question: What happens while someone is going somewhere?
+A: being there
+B: movement
+C: having to travel
+D: get excited
+E: walk
+Answer: C
+Question: Where does litter land when you throw it away?
+A: street corner
+B: midair
+C: ground
+D: bus
+E: roadsides
+Answer: C
+Q: The sensor would just the distance then set off an alarm, the installation expert explained it was called a what kind of sensor?
+A: near
+B: closeness
+C: here
+D: proximity
+E: this",Answer: D: proximity,D
+CSQA,3b,"Question: The parents concern was met opposingly by what on behalf of the teacher?
+A: carefree
+B: uncaring
+C: indifference
+D: apathy
+E: carelessness
+Answer: C
+Question: If you have two dogs, you'll quickly find that you have many more. This is because dogs are capable of what?
+A: bark
+B: need food
+C: own people
+D: reproduce
+E: make playmates
+Answer: D
+Question: The parents concern was met opposingly by what on behalf of the teacher?
+A: carefree
+B: uncaring
+C: indifference
+D: apathy
+E: carelessness
+Answer: C
+Question: If you have two dogs, you'll quickly find that you have many more. This is because dogs are capable of what?
+A: bark
+B: need food
+C: own people
+D: reproduce
+E: make playmates
+Answer: D
+Q: The sensor would just the distance then set off an alarm, the installation expert explained it was called a what kind of sensor?
+A: near
+B: closeness
+C: here
+D: proximity
+E: this",Answer: D,D
+StrategyQA,1a,"Question: Hamlet was written by William Shakespeare. William Shakespeare was born in 1564. Email was not widely used until the 1970s.
+Did Hamlet's author use email?
+Answer: False
+Question: Pride parades are annual festivals held to celebrate the gay community. Chick-fil-A is a fast food restaurant founded by S. Truett Cathy. S. Truett Cathy was a devout Southern Baptist.  Chick-fil-A's opposition to same-sex marriage has been the subject of public controversy.
+Will Chick-fil-A hypothetically refuse to sponsor a Pride parade?
+Answer: True
+Q: The animals that Yetis are said to look similar to are able to use their hands or toes to grasp items The ability to grasp with hands or other limbs is to be prehensile. 
+Would a Yeti be likely to have prehensile limbs?",A: False,True
+StrategyQA,1a,"Question: Djarum is a brand of cigarette popular around the world. Djarum cigarettes are made with a blend of cloves and tobacco.
+Do people who smoke Djarum's like cloves?
+Answer: True
+Question: Brussels sprouts are high in vitamin K Eating lots of foods high in vitamin K is potentially harmful to people taking anticoagulants  Coumadin is an anticoagulant 
+Would many meals heavy in brussels sprouts benefit someone on Coumadin?
+Answer: False
+Q: The animals that Yetis are said to look similar to are able to use their hands or toes to grasp items The ability to grasp with hands or other limbs is to be prehensile. 
+Would a Yeti be likely to have prehensile limbs?",A: True,True
+StrategyQA,2,"Question: Hamlet was written by William Shakespeare. William Shakespeare was born in 1564. Email was not widely used until the 1970s.
+Did Hamlet's author use email?
+Answer: False
+Question: Pride parades are annual festivals held to celebrate the gay community. Chick-fil-A is a fast food restaurant founded by S. Truett Cathy. S. Truett Cathy was a devout Southern Baptist.  Chick-fil-A's opposition to same-sex marriage has been the subject of public controversy.
+Will Chick-fil-A hypothetically refuse to sponsor a Pride parade?
+Answer: True
+Question: Djarum is a brand of cigarette popular around the world. Djarum cigarettes are made with a blend of cloves and tobacco.
+Do people who smoke Djarum's like cloves?
+Answer: True
+Question: Brussels sprouts are high in vitamin K Eating lots of foods high in vitamin K is potentially harmful to people taking anticoagulants  Coumadin is an anticoagulant 
+Would many meals heavy in brussels sprouts benefit someone on Coumadin?
+Answer: False
+Q: The animals that Yetis are said to look similar to are able to use their hands or toes to grasp items The ability to grasp with hands or other limbs is to be prehensile. 
+Would a Yeti be likely to have prehensile limbs?",A: True,True
+StrategyQA,3a,"Question: Hamlet was written by William Shakespeare. William Shakespeare was born in 1564. Email was not widely used until the 1970s.
+Did Hamlet's author use email?
+Answer: False
+Question: Pride parades are annual festivals held to celebrate the gay community. Chick-fil-A is a fast food restaurant founded by S. Truett Cathy. S. Truett Cathy was a devout Southern Baptist.  Chick-fil-A's opposition to same-sex marriage has been the subject of public controversy.
+Will Chick-fil-A hypothetically refuse to sponsor a Pride parade?
+Answer: True
+Question: Hamlet was written by William Shakespeare. William Shakespeare was born in 1564. Email was not widely used until the 1970s.
+Did Hamlet's author use email?
+Answer: False
+Question: Pride parades are annual festivals held to celebrate the gay community. Chick-fil-A is a fast food restaurant founded by S. Truett Cathy. S. Truett Cathy was a devout Southern Baptist.  Chick-fil-A's opposition to same-sex marriage has been the subject of public controversy.
+Will Chick-fil-A hypothetically refuse to sponsor a Pride parade?
+Answer: True
+Q: The animals that Yetis are said to look similar to are able to use their hands or toes to grasp items The ability to grasp with hands or other limbs is to be prehensile. 
+Would a Yeti be likely to have prehensile limbs?",A: True,True
+StrategyQA,3b,"Question: Djarum is a brand of cigarette popular around the world. Djarum cigarettes are made with a blend of cloves and tobacco.
+Do people who smoke Djarum's like cloves?
+Answer: True
+Question: Brussels sprouts are high in vitamin K Eating lots of foods high in vitamin K is potentially harmful to people taking anticoagulants  Coumadin is an anticoagulant 
+Would many meals heavy in brussels sprouts benefit someone on Coumadin?
+Answer: False
+Question: Djarum is a brand of cigarette popular around the world. Djarum cigarettes are made with a blend of cloves and tobacco.
+Do people who smoke Djarum's like cloves?
+Answer: True
+Question: Brussels sprouts are high in vitamin K Eating lots of foods high in vitamin K is potentially harmful to people taking anticoagulants  Coumadin is an anticoagulant 
+Would many meals heavy in brussels sprouts benefit someone on Coumadin?
+Answer: False
+Q: The animals that Yetis are said to look similar to are able to use their hands or toes to grasp items The ability to grasp with hands or other limbs is to be prehensile. 
+Would a Yeti be likely to have prehensile limbs?",A: True,True
+SayCan,1a,"Question: How would you go to the table?
+Answer: 1. go to the table, 2. done
+Question: Lift and hold the coke can up.
+Answer: 1. pick up the coke, 2. done
+Q: Put the coke can in your gripper.","A: 1. pick up the coke, 2. place in gripper, 3. done","1. pick up the coke can, 2. done"
+SayCan,1a,"Question: Throw away the sprite.
+Answer: 1. find a sprite can, 2. pick up the sprite can, 3. go to the trash, 4. put down the sprite can, 5. done
+Question: Can you bring me something salty?
+Answer: 1. find the sea salt chips, 2. pick up the sea salt chips, 3. bring it to you, 4. put down the sea salt chips, 5. done
+Q: Put the coke can in your gripper.","A: 1. pick up the coke can, 2. use the gripper to hold the coke can, 3. done","1. pick up the coke can, 2. done"
+SayCan,2,"Question: How would you go to the table?
+Answer: 1. go to the table, 2. done
+Question: Lift and hold the coke can up.
+Answer: 1. pick up the coke, 2. done
+Question: Throw away the sprite.
+Answer: 1. find a sprite can, 2. pick up the sprite can, 3. go to the trash, 4. put down the sprite can, 5. done
+Question: Can you bring me something salty?
+Answer: 1. find the sea salt chips, 2. pick up the sea salt chips, 3. bring it to you, 4. put down the sea salt chips, 5. done
+Q: Put the coke can in your gripper.","A: 1. pick up the coke can, 2. put the coke can in the gripper, 3. done","1. pick up the coke can, 2. done"
+SayCan,3a,"Question: How would you go to the table?
+Answer: 1. go to the table, 2. done
+Question: Lift and hold the coke can up.
+Answer: 1. pick up the coke, 2. done
+Question: How would you go to the table?
+Answer: 1. go to the table, 2. done
+Question: Lift and hold the coke can up.
+Answer: 1. pick up the coke, 2. done
+Q: Put the coke can in your gripper.","A: 1. Place the coke can in the gripper, 2. done","1. pick up the coke can, 2. done"
+SayCan,3b,"Question: Throw away the sprite.
+Answer: 1. find a sprite can, 2. pick up the sprite can, 3. go to the trash, 4. put down the sprite can, 5. done
+Question: Can you bring me something salty?
+Answer: 1. find the sea salt chips, 2. pick up the sea salt chips, 3. bring it to you, 4. put down the sea salt chips, 5. done
+Question: Throw away the sprite.
+Answer: 1. find a sprite can, 2. pick up the sprite can, 3. go to the trash, 4. put down the sprite can, 5. done
+Question: Can you bring me something salty?
+Answer: 1. find the sea salt chips, 2. pick up the sea salt chips, 3. bring it to you, 4. put down the sea salt chips, 5. done
+Q: Put the coke can in your gripper.","A: 1. Find the coke can, 2. Pick up the coke can with the gripper, 3. Hold onto the coke can with the gripper, 4. Done.","1. pick up the coke can, 2. done"

@@ -1,0 +1,395 @@
+Task Class,Case,Prompt,Response,Expected
+Math,1a,"Question: Logan's father receives 50 cartons delivery for his milk business, each carton having 20 jars of milk. On a particular week, he received 20 cartons less when the delivery was done, and during offloading, he realized 3 jars in 5 cartons each was damaged, and one carton was totally damaged. How many jars of milk were good for sale that week?
+Answer: When 20 cartons failed to be delivered, the number of cartons reduced to 50-20 = <<50-20=30>>30 cartons.
+The total number of jars in all the cartons is 30*20 = <<30*20=600>>600
+The total number of jars destroyed in the 5 cartons is 3*5 = <<3*5=15>>15 jars.
+If one carton was also destroyed, the total number of destroyed jars is 20+15 = <<20+15=35>>35 jars.
+The number of jars good for sale is 600-35 = <<600-35=565>>565 jars.
+#### 565
+Question: Ali and Sara ate 80 small apples combined. Ali ate 4 times more apples than Sara. How many apples did Sara eat?
+Answer: Let A be the number of apples Ali ate and S be the number of apples Sara ate.
+We have: A + S = 80 apples
+And: A = <<4=4>>4S
+Which means: 4S + S = 80
+So: 5S = 80
+So the number of apples Sara ate is: S = 80 / 5= <<80/5=16>>16 apples
+#### 16
+Q: David and Dasha went to the carnival, where there are 9 rides.  Each ride costs 2 ride tickets at $2 per ticket.  You can also buy a ride bracelet for $30 which gives you 9 rides.  If David buys a ride bracelet and Dasha buys tickets, and they ride all 9 rides, how much money does David save?","A ride bracelet gives David 9 rides for $30, so each ride costs $30 / 9 = $<<30/9=3.33>>3.33 with the bracelet.
+Dasha buys 2 ride tickets per ride for $2 each, so each ride costs her 2 * 2 = $<<2*2=4>>4.
+So, David saves 4 - 3.33 = $<<4-3.33=0.67>>0.67 per ride by using the ride bracelet.
+Since they both ride all 9 rides, David saves a total of 9 * 0.67 = $<<9*0.67=6.03>>6.03.
+Therefore, David saves $6.03 in total.","Each ride cost 2 x $2 = $<<2*2=4>>4.
+All 9 rides cost $4 x 9 = $<<4*9=36>>36.
+By bathing the ride bracelet, David saves $36 - $30 = $<<36-30=6>>6.
+#### 6"
+Math,1a,"Question: Gabrielle sells eggs. On Monday she sells 5 crates of eggs. On Tuesday she sells 2 times as many crates of eggs as Monday. On Wednesday she sells 2 fewer crates than Tuesday. On Thursday she sells half as many crates of eggs as she sells on Tuesday. How many total crates of eggs does she sell for the 4 days?
+Answer: On Tuesday she sells 5 crates * 2 = <<5*2=10>>10 crates of eggs.
+On Wednesday she sells 10 crates - 2 crates = <<10-2=8>>8 crates of eggs.
+On Thursday she sells 1/2 * 10 crates = <<1/2*10=5>>5 crates of eggs.
+She sells a total of 5 crates + 10 crates + 8 crates + 5 crates = <<5+10+8+5=28>>28 crates of eggs.
+#### 28
+Question: Antonia is trying to improve her health by buying supplements. She has a 7-day pill box she wants to fill. She buys 5 different supplements. 3 of the bottles have 120 pills in them each. 2 of the bottles have 30 pills each. After Antonia has filled her pillbox with one pill of each supplement for 2 weeks, how many pills total does she have left from all 5 bottles?
+Answer: Antonia buys 5 different supplements where 3 bottles have 120 pills per bottle, so she has 120 pills x 3 bottles = 360 pills.
+2 of the bottles Antonia buys have 30 pills each x 2 bottles = <<30*2=60>>60 pills.
+She has purchased 360 pills + 60 pills = <<360+60=420>>420 pills total in the 5 bottles.
+Antonia has filled her 7-day pill box for 2 weeks, so 7 days x 2 weeks = <<7*2=14>>14 days.
+On each of the 14 days she fills it with 5 pills, so after 14 days she has used 14 x 5 = <<14*5=70>>70 pills.
+Since Antonia had 420 total pills in all 5 bottles and then she fills her pillbox with 70 pills, she has 420 - 70 = <<420-70=350>>350 pills.
+Antonia will have 350 pills left after 2 weeks.
+#### 350
+Q: David and Dasha went to the carnival, where there are 9 rides.  Each ride costs 2 ride tickets at $2 per ticket.  You can also buy a ride bracelet for $30 which gives you 9 rides.  If David buys a ride bracelet and Dasha buys tickets, and they ride all 9 rides, how much money does David save?","A: If David buys a ride bracelet, he pays $30 for 9 rides, which means he is effectively paying $30 / 9 = $3.33 per ride.
+Dasha buys tickets at $2 per ticket and each ride costs 2 tickets, so she pays 2 tickets * 2 = $4 per ride.
+The difference in price per ride between David and Dasha is $4 - $3.33 = $0.67.
+Since they ride all 9 rides, David saves $0.67 per ride * 9 rides = $6.03 in total compared to Dasha.","Each ride cost 2 x $2 = $<<2*2=4>>4.
+All 9 rides cost $4 x 9 = $<<4*9=36>>36.
+By bathing the ride bracelet, David saves $36 - $30 = $<<36-30=6>>6.
+#### 6"
+Math,2,"Question: Logan's father receives 50 cartons delivery for his milk business, each carton having 20 jars of milk. On a particular week, he received 20 cartons less when the delivery was done, and during offloading, he realized 3 jars in 5 cartons each was damaged, and one carton was totally damaged. How many jars of milk were good for sale that week?
+Answer: When 20 cartons failed to be delivered, the number of cartons reduced to 50-20 = <<50-20=30>>30 cartons.
+The total number of jars in all the cartons is 30*20 = <<30*20=600>>600
+The total number of jars destroyed in the 5 cartons is 3*5 = <<3*5=15>>15 jars.
+If one carton was also destroyed, the total number of destroyed jars is 20+15 = <<20+15=35>>35 jars.
+The number of jars good for sale is 600-35 = <<600-35=565>>565 jars.
+#### 565
+Question: Ali and Sara ate 80 small apples combined. Ali ate 4 times more apples than Sara. How many apples did Sara eat?
+Answer: Let A be the number of apples Ali ate and S be the number of apples Sara ate.
+We have: A + S = 80 apples
+And: A = <<4=4>>4S
+Which means: 4S + S = 80
+So: 5S = 80
+So the number of apples Sara ate is: S = 80 / 5= <<80/5=16>>16 apples
+#### 16
+Question: Gabrielle sells eggs. On Monday she sells 5 crates of eggs. On Tuesday she sells 2 times as many crates of eggs as Monday. On Wednesday she sells 2 fewer crates than Tuesday. On Thursday she sells half as many crates of eggs as she sells on Tuesday. How many total crates of eggs does she sell for the 4 days?
+Answer: On Tuesday she sells 5 crates * 2 = <<5*2=10>>10 crates of eggs.
+On Wednesday she sells 10 crates - 2 crates = <<10-2=8>>8 crates of eggs.
+On Thursday she sells 1/2 * 10 crates = <<1/2*10=5>>5 crates of eggs.
+She sells a total of 5 crates + 10 crates + 8 crates + 5 crates = <<5+10+8+5=28>>28 crates of eggs.
+#### 28
+Question: Antonia is trying to improve her health by buying supplements. She has a 7-day pill box she wants to fill. She buys 5 different supplements. 3 of the bottles have 120 pills in them each. 2 of the bottles have 30 pills each. After Antonia has filled her pillbox with one pill of each supplement for 2 weeks, how many pills total does she have left from all 5 bottles?
+Answer: Antonia buys 5 different supplements where 3 bottles have 120 pills per bottle, so she has 120 pills x 3 bottles = 360 pills.
+2 of the bottles Antonia buys have 30 pills each x 2 bottles = <<30*2=60>>60 pills.
+She has purchased 360 pills + 60 pills = <<360+60=420>>420 pills total in the 5 bottles.
+Antonia has filled her 7-day pill box for 2 weeks, so 7 days x 2 weeks = <<7*2=14>>14 days.
+On each of the 14 days she fills it with 5 pills, so after 14 days she has used 14 x 5 = <<14*5=70>>70 pills.
+Since Antonia had 420 total pills in all 5 bottles and then she fills her pillbox with 70 pills, she has 420 - 70 = <<420-70=350>>350 pills.
+Antonia will have 350 pills left after 2 weeks.
+#### 350
+Q: David and Dasha went to the carnival, where there are 9 rides.  Each ride costs 2 ride tickets at $2 per ticket.  You can also buy a ride bracelet for $30 which gives you 9 rides.  If David buys a ride bracelet and Dasha buys tickets, and they ride all 9 rides, how much money does David save?","A ride bracelet costs $30 and gives access to all 9 rides, which is equivalent to buying 9 * $2 = $18 worth of ride tickets.
+If Dasha buys 9 ride tickets at $2 each, she would spend 9 * $2 = $18.
+Therefore, David saves $18 - $30 = $12 by buying a ride bracelet instead of individual ride tickets. 
+So, David saves $12.","Each ride cost 2 x $2 = $<<2*2=4>>4.
+All 9 rides cost $4 x 9 = $<<4*9=36>>36.
+By bathing the ride bracelet, David saves $36 - $30 = $<<36-30=6>>6.
+#### 6"
+Math,3a,"Question: Logan's father receives 50 cartons delivery for his milk business, each carton having 20 jars of milk. On a particular week, he received 20 cartons less when the delivery was done, and during offloading, he realized 3 jars in 5 cartons each was damaged, and one carton was totally damaged. How many jars of milk were good for sale that week?
+Answer: When 20 cartons failed to be delivered, the number of cartons reduced to 50-20 = <<50-20=30>>30 cartons.
+The total number of jars in all the cartons is 30*20 = <<30*20=600>>600
+The total number of jars destroyed in the 5 cartons is 3*5 = <<3*5=15>>15 jars.
+If one carton was also destroyed, the total number of destroyed jars is 20+15 = <<20+15=35>>35 jars.
+The number of jars good for sale is 600-35 = <<600-35=565>>565 jars.
+#### 565
+Question: Ali and Sara ate 80 small apples combined. Ali ate 4 times more apples than Sara. How many apples did Sara eat?
+Answer: Let A be the number of apples Ali ate and S be the number of apples Sara ate.
+We have: A + S = 80 apples
+And: A = <<4=4>>4S
+Which means: 4S + S = 80
+So: 5S = 80
+So the number of apples Sara ate is: S = 80 / 5= <<80/5=16>>16 apples
+#### 16
+Question: Logan's father receives 50 cartons delivery for his milk business, each carton having 20 jars of milk. On a particular week, he received 20 cartons less when the delivery was done, and during offloading, he realized 3 jars in 5 cartons each was damaged, and one carton was totally damaged. How many jars of milk were good for sale that week?
+Answer: When 20 cartons failed to be delivered, the number of cartons reduced to 50-20 = <<50-20=30>>30 cartons.
+The total number of jars in all the cartons is 30*20 = <<30*20=600>>600
+The total number of jars destroyed in the 5 cartons is 3*5 = <<3*5=15>>15 jars.
+If one carton was also destroyed, the total number of destroyed jars is 20+15 = <<20+15=35>>35 jars.
+The number of jars good for sale is 600-35 = <<600-35=565>>565 jars.
+#### 565
+Question: Ali and Sara ate 80 small apples combined. Ali ate 4 times more apples than Sara. How many apples did Sara eat?
+Answer: Let A be the number of apples Ali ate and S be the number of apples Sara ate.
+We have: A + S = 80 apples
+And: A = <<4=4>>4S
+Which means: 4S + S = 80
+So: 5S = 80
+So the number of apples Sara ate is: S = 80 / 5= <<80/5=16>>16 apples
+#### 16
+Q: David and Dasha went to the carnival, where there are 9 rides.  Each ride costs 2 ride tickets at $2 per ticket.  You can also buy a ride bracelet for $30 which gives you 9 rides.  If David buys a ride bracelet and Dasha buys tickets, and they ride all 9 rides, how much money does David save?","A ride bracelet costs $30 for 9 rides, which is a better deal than buying individual tickets for $2 each.
+
+Dasha buys 9 ride tickets at $2 each, so she spends 9 * 2 = $18 on tickets.
+David buys a ride bracelet for $30.
+
+Therefore, David saves 30 - 18 = $12 by buying a ride bracelet instead of individual tickets.","Each ride cost 2 x $2 = $<<2*2=4>>4.
+All 9 rides cost $4 x 9 = $<<4*9=36>>36.
+By bathing the ride bracelet, David saves $36 - $30 = $<<36-30=6>>6.
+#### 6"
+Math,3b,"Question: Gabrielle sells eggs. On Monday she sells 5 crates of eggs. On Tuesday she sells 2 times as many crates of eggs as Monday. On Wednesday she sells 2 fewer crates than Tuesday. On Thursday she sells half as many crates of eggs as she sells on Tuesday. How many total crates of eggs does she sell for the 4 days?
+Answer: On Tuesday she sells 5 crates * 2 = <<5*2=10>>10 crates of eggs.
+On Wednesday she sells 10 crates - 2 crates = <<10-2=8>>8 crates of eggs.
+On Thursday she sells 1/2 * 10 crates = <<1/2*10=5>>5 crates of eggs.
+She sells a total of 5 crates + 10 crates + 8 crates + 5 crates = <<5+10+8+5=28>>28 crates of eggs.
+#### 28
+Question: Antonia is trying to improve her health by buying supplements. She has a 7-day pill box she wants to fill. She buys 5 different supplements. 3 of the bottles have 120 pills in them each. 2 of the bottles have 30 pills each. After Antonia has filled her pillbox with one pill of each supplement for 2 weeks, how many pills total does she have left from all 5 bottles?
+Answer: Antonia buys 5 different supplements where 3 bottles have 120 pills per bottle, so she has 120 pills x 3 bottles = 360 pills.
+2 of the bottles Antonia buys have 30 pills each x 2 bottles = <<30*2=60>>60 pills.
+She has purchased 360 pills + 60 pills = <<360+60=420>>420 pills total in the 5 bottles.
+Antonia has filled her 7-day pill box for 2 weeks, so 7 days x 2 weeks = <<7*2=14>>14 days.
+On each of the 14 days she fills it with 5 pills, so after 14 days she has used 14 x 5 = <<14*5=70>>70 pills.
+Since Antonia had 420 total pills in all 5 bottles and then she fills her pillbox with 70 pills, she has 420 - 70 = <<420-70=350>>350 pills.
+Antonia will have 350 pills left after 2 weeks.
+#### 350
+Question: Gabrielle sells eggs. On Monday she sells 5 crates of eggs. On Tuesday she sells 2 times as many crates of eggs as Monday. On Wednesday she sells 2 fewer crates than Tuesday. On Thursday she sells half as many crates of eggs as she sells on Tuesday. How many total crates of eggs does she sell for the 4 days?
+Answer: On Tuesday she sells 5 crates * 2 = <<5*2=10>>10 crates of eggs.
+On Wednesday she sells 10 crates - 2 crates = <<10-2=8>>8 crates of eggs.
+On Thursday she sells 1/2 * 10 crates = <<1/2*10=5>>5 crates of eggs.
+She sells a total of 5 crates + 10 crates + 8 crates + 5 crates = <<5+10+8+5=28>>28 crates of eggs.
+#### 28
+Question: Antonia is trying to improve her health by buying supplements. She has a 7-day pill box she wants to fill. She buys 5 different supplements. 3 of the bottles have 120 pills in them each. 2 of the bottles have 30 pills each. After Antonia has filled her pillbox with one pill of each supplement for 2 weeks, how many pills total does she have left from all 5 bottles?
+Answer: Antonia buys 5 different supplements where 3 bottles have 120 pills per bottle, so she has 120 pills x 3 bottles = 360 pills.
+2 of the bottles Antonia buys have 30 pills each x 2 bottles = <<30*2=60>>60 pills.
+She has purchased 360 pills + 60 pills = <<360+60=420>>420 pills total in the 5 bottles.
+Antonia has filled her 7-day pill box for 2 weeks, so 7 days x 2 weeks = <<7*2=14>>14 days.
+On each of the 14 days she fills it with 5 pills, so after 14 days she has used 14 x 5 = <<14*5=70>>70 pills.
+Since Antonia had 420 total pills in all 5 bottles and then she fills her pillbox with 70 pills, she has 420 - 70 = <<420-70=350>>350 pills.
+Antonia will have 350 pills left after 2 weeks.
+#### 350
+Q: David and Dasha went to the carnival, where there are 9 rides.  Each ride costs 2 ride tickets at $2 per ticket.  You can also buy a ride bracelet for $30 which gives you 9 rides.  If David buys a ride bracelet and Dasha buys tickets, and they ride all 9 rides, how much money does David save?","A: If each ride costs 2 tickets at $2 per ticket, then each ride costs 2 * $2 = $4.
+If Dasha buys tickets for all 9 rides, she will spend 9 rides * $4 per ride = $36.
+Since David buys a ride bracelet for $30, he saves $36 - $30 = $6 compared to Dasha.","Each ride cost 2 x $2 = $<<2*2=4>>4.
+All 9 rides cost $4 x 9 = $<<4*9=36>>36.
+By bathing the ride bracelet, David saves $36 - $30 = $<<36-30=6>>6.
+#### 6"
+CSQA,1a,"Question: Where can you buy lettuce directly from the grower?
+A: supermarket
+B: grocery store
+C: salad
+D: farmer's market
+E: refrigerator
+Answer: D
+Question: What is a person's goal to ownas an adult with a family?
+A: wellness
+B: number 1
+C: headache
+D: their own failings
+E: own home
+Answer: E
+Q: Who was the head of the branch yelling at?
+A: owner
+B: foot
+C: subordinate
+D: base
+E: point",Answer: C,C
+CSQA,1a,"Question: Lilly loved peace and quiet, but she couldn't find any where she lived.  She took drastic measures and went somewhere for solitude. Where did she go?
+A: library
+B: home
+C: top of mountain
+D: sea
+E: grocery
+Answer: D
+Question: When someone doesn't have beauty they have?
+A: ugly
+B: beast
+C: waterfall
+D: waterfall
+E: ugliness
+Answer: E
+Q: Who was the head of the branch yelling at?
+A: owner
+B: foot
+C: subordinate
+D: base
+E: point",A: owner,C
+CSQA,2,"Question: Where can you buy lettuce directly from the grower?
+A: supermarket
+B: grocery store
+C: salad
+D: farmer's market
+E: refrigerator
+Answer: D
+Question: What is a person's goal to ownas an adult with a family?
+A: wellness
+B: number 1
+C: headache
+D: their own failings
+E: own home
+Answer: E
+Question: Lilly loved peace and quiet, but she couldn't find any where she lived.  She took drastic measures and went somewhere for solitude. Where did she go?
+A: library
+B: home
+C: top of mountain
+D: sea
+E: grocery
+Answer: D
+Question: When someone doesn't have beauty they have?
+A: ugly
+B: beast
+C: waterfall
+D: waterfall
+E: ugliness
+Answer: E
+Q: Who was the head of the branch yelling at?
+A: owner
+B: foot
+C: subordinate
+D: base
+E: point",A: subordinate,C
+CSQA,3a,"Question: Where can you buy lettuce directly from the grower?
+A: supermarket
+B: grocery store
+C: salad
+D: farmer's market
+E: refrigerator
+Answer: D
+Question: What is a person's goal to ownas an adult with a family?
+A: wellness
+B: number 1
+C: headache
+D: their own failings
+E: own home
+Answer: E
+Question: Where can you buy lettuce directly from the grower?
+A: supermarket
+B: grocery store
+C: salad
+D: farmer's market
+E: refrigerator
+Answer: D
+Question: What is a person's goal to ownas an adult with a family?
+A: wellness
+B: number 1
+C: headache
+D: their own failings
+E: own home
+Answer: E
+Q: Who was the head of the branch yelling at?
+A: owner
+B: foot
+C: subordinate
+D: base
+E: point",Answer: C,C
+CSQA,3b,"Question: Lilly loved peace and quiet, but she couldn't find any where she lived.  She took drastic measures and went somewhere for solitude. Where did she go?
+A: library
+B: home
+C: top of mountain
+D: sea
+E: grocery
+Answer: D
+Question: When someone doesn't have beauty they have?
+A: ugly
+B: beast
+C: waterfall
+D: waterfall
+E: ugliness
+Answer: E
+Question: Lilly loved peace and quiet, but she couldn't find any where she lived.  She took drastic measures and went somewhere for solitude. Where did she go?
+A: library
+B: home
+C: top of mountain
+D: sea
+E: grocery
+Answer: D
+Question: When someone doesn't have beauty they have?
+A: ugly
+B: beast
+C: waterfall
+D: waterfall
+E: ugliness
+Answer: E
+Q: Who was the head of the branch yelling at?
+A: owner
+B: foot
+C: subordinate
+D: base
+E: point",Answer: C,C
+StrategyQA,1a,"Question: Celiac is a disease in which the body cannot process gluten. Gluten is a protein found in wheat. Spaghetti is made with milled wheat and water.
+Should a Celiac sufferer avoid spaghetti?
+Answer: True
+Question: The average number of peas in a pod is 6 or 7. A billion is a number that has three commas in it.
+Is average number of peas in a pod enough commas for a billion?
+Answer: True
+Q: Roll call is when teachers call the names of students and they raise their hand to show they are present. The founder of Redenbacher popcorn was Orville Redenbacher. Reggae musician Shaggy was born Orville Richard Burrell.
+Would Shaggy and Redenbacher popcorn founder both raise hand during first name roll call?",Answer: True,True
+StrategyQA,1a,"Question: High Speed 1 (HS1), legally the Channel Tunnel Rail Link (CTRL), is a 67-mile (108 km) high-speed railway. The CERN collider is contained in a circular tunnel, with a circumference of 26.7 kilometres (16.6 mi). The circumference of a circle is the length of the enclosing boundary.
+Would the tunnels at CERN fit onto the High Speed 1 rails?
+Answer: True
+Question: A serving of roast turkey is about 1 pound of uncooked turkey. A 12-lb roast turkey would contain about 12 servings of cooked turkey meat. One human cannot eat 12 1-lb servings of turkey in one sitting.
+Can a human eat an entire 12-lb roast turkey in an hour? 
+Answer: False
+Q: Roll call is when teachers call the names of students and they raise their hand to show they are present. The founder of Redenbacher popcorn was Orville Redenbacher. Reggae musician Shaggy was born Orville Richard Burrell.
+Would Shaggy and Redenbacher popcorn founder both raise hand during first name roll call?",A: False,True
+StrategyQA,2,"Question: Celiac is a disease in which the body cannot process gluten. Gluten is a protein found in wheat. Spaghetti is made with milled wheat and water.
+Should a Celiac sufferer avoid spaghetti?
+Answer: True
+Question: The average number of peas in a pod is 6 or 7. A billion is a number that has three commas in it.
+Is average number of peas in a pod enough commas for a billion?
+Answer: True
+Question: High Speed 1 (HS1), legally the Channel Tunnel Rail Link (CTRL), is a 67-mile (108 km) high-speed railway. The CERN collider is contained in a circular tunnel, with a circumference of 26.7 kilometres (16.6 mi). The circumference of a circle is the length of the enclosing boundary.
+Would the tunnels at CERN fit onto the High Speed 1 rails?
+Answer: True
+Question: A serving of roast turkey is about 1 pound of uncooked turkey. A 12-lb roast turkey would contain about 12 servings of cooked turkey meat. One human cannot eat 12 1-lb servings of turkey in one sitting.
+Can a human eat an entire 12-lb roast turkey in an hour? 
+Answer: False
+Q: Roll call is when teachers call the names of students and they raise their hand to show they are present. The founder of Redenbacher popcorn was Orville Redenbacher. Reggae musician Shaggy was born Orville Richard Burrell.
+Would Shaggy and Redenbacher popcorn founder both raise hand during first name roll call?",Answer: False,True
+StrategyQA,3a,"Question: Celiac is a disease in which the body cannot process gluten. Gluten is a protein found in wheat. Spaghetti is made with milled wheat and water.
+Should a Celiac sufferer avoid spaghetti?
+Answer: True
+Question: The average number of peas in a pod is 6 or 7. A billion is a number that has three commas in it.
+Is average number of peas in a pod enough commas for a billion?
+Answer: True
+Question: Celiac is a disease in which the body cannot process gluten. Gluten is a protein found in wheat. Spaghetti is made with milled wheat and water.
+Should a Celiac sufferer avoid spaghetti?
+Answer: True
+Question: The average number of peas in a pod is 6 or 7. A billion is a number that has three commas in it.
+Is average number of peas in a pod enough commas for a billion?
+Answer: True
+Q: Roll call is when teachers call the names of students and they raise their hand to show they are present. The founder of Redenbacher popcorn was Orville Redenbacher. Reggae musician Shaggy was born Orville Richard Burrell.
+Would Shaggy and Redenbacher popcorn founder both raise hand during first name roll call?",False,True
+StrategyQA,3b,"Question: High Speed 1 (HS1), legally the Channel Tunnel Rail Link (CTRL), is a 67-mile (108 km) high-speed railway. The CERN collider is contained in a circular tunnel, with a circumference of 26.7 kilometres (16.6 mi). The circumference of a circle is the length of the enclosing boundary.
+Would the tunnels at CERN fit onto the High Speed 1 rails?
+Answer: True
+Question: A serving of roast turkey is about 1 pound of uncooked turkey. A 12-lb roast turkey would contain about 12 servings of cooked turkey meat. One human cannot eat 12 1-lb servings of turkey in one sitting.
+Can a human eat an entire 12-lb roast turkey in an hour? 
+Answer: False
+Question: High Speed 1 (HS1), legally the Channel Tunnel Rail Link (CTRL), is a 67-mile (108 km) high-speed railway. The CERN collider is contained in a circular tunnel, with a circumference of 26.7 kilometres (16.6 mi). The circumference of a circle is the length of the enclosing boundary.
+Would the tunnels at CERN fit onto the High Speed 1 rails?
+Answer: True
+Question: A serving of roast turkey is about 1 pound of uncooked turkey. A 12-lb roast turkey would contain about 12 servings of cooked turkey meat. One human cannot eat 12 1-lb servings of turkey in one sitting.
+Can a human eat an entire 12-lb roast turkey in an hour? 
+Answer: False
+Q: Roll call is when teachers call the names of students and they raise their hand to show they are present. The founder of Redenbacher popcorn was Orville Redenbacher. Reggae musician Shaggy was born Orville Richard Burrell.
+Would Shaggy and Redenbacher popcorn founder both raise hand during first name roll call?",A: False,True
+SayCan,1a,"Question: Can you bring me something salty?
+Answer: 1. find the sea salt chips, 2. pick up the sea salt chips, 3. bring it to you, 4. put down the sea salt chips, 5. done
+Question: How would you throw away the apple?
+Answer: 1. find an apple, 2. pick up the apple, 3. go to the trash, 4. put down the apple, 5. done
+Q: Bring me something that is not an apple.","A: 1. find something that is not an apple, 2. pick it up, 3. bring it to you, 4. put it down in front of you, 5. done","1. find a orange, 2. pick up the orange, 3. bring it to you, 4. put down the orange, 5. done."
+SayCan,1a,"Question: Can you bring me something salty?
+Answer: 1. find a sea salt chips, 2. pick up the sea salt chips, 3. bring it to you, 4. put down the sea salt chips, 5. done.
+Question: Bring me everything from the table.
+Answer: 1. go to the table, 2. pick up the energy bar, 3. bring it to you, 4. put down the energy bar, 5. go to the table, 6. pick up the multigrain chips, 7. bring it to you, 8. put down the multigrain chips, 9. done
+Q: Bring me something that is not an apple.","A: 1. Go to the kitchen, 2. Pick up a banana, 3. Bring it to you, 4. Put down the banana, 5. Done.","1. find a orange, 2. pick up the orange, 3. bring it to you, 4. put down the orange, 5. done."
+SayCan,2,"Question: Can you bring me something salty?
+Answer: 1. find the sea salt chips, 2. pick up the sea salt chips, 3. bring it to you, 4. put down the sea salt chips, 5. done
+Question: How would you throw away the apple?
+Answer: 1. find an apple, 2. pick up the apple, 3. go to the trash, 4. put down the apple, 5. done
+Question: Can you bring me something salty?
+Answer: 1. find a sea salt chips, 2. pick up the sea salt chips, 3. bring it to you, 4. put down the sea salt chips, 5. done.
+Question: Bring me everything from the table.
+Answer: 1. go to the table, 2. pick up the energy bar, 3. bring it to you, 4. put down the energy bar, 5. go to the table, 6. pick up the multigrain chips, 7. bring it to you, 8. put down the multigrain chips, 9. done
+Q: Bring me something that is not an apple.","A: 1. find an orange, 2. pick up the orange, 3. bring it to you, 4. put down the orange, 5. done","1. find a orange, 2. pick up the orange, 3. bring it to you, 4. put down the orange, 5. done."
+SayCan,3a,"Question: Can you bring me something salty?
+Answer: 1. find the sea salt chips, 2. pick up the sea salt chips, 3. bring it to you, 4. put down the sea salt chips, 5. done
+Question: How would you throw away the apple?
+Answer: 1. find an apple, 2. pick up the apple, 3. go to the trash, 4. put down the apple, 5. done
+Question: Can you bring me something salty?
+Answer: 1. find the sea salt chips, 2. pick up the sea salt chips, 3. bring it to you, 4. put down the sea salt chips, 5. done
+Question: How would you throw away the apple?
+Answer: 1. find an apple, 2. pick up the apple, 3. go to the trash, 4. put down the apple, 5. done
+Q: Bring me something that is not an apple.","A: 1. find something that is not an apple, 2. pick up the item, 3. bring it to you, 4. put it down, 5. done","1. find a orange, 2. pick up the orange, 3. bring it to you, 4. put down the orange, 5. done."
+SayCan,3b,"Question: Can you bring me something salty?
+Answer: 1. find a sea salt chips, 2. pick up the sea salt chips, 3. bring it to you, 4. put down the sea salt chips, 5. done.
+Question: Bring me everything from the table.
+Answer: 1. go to the table, 2. pick up the energy bar, 3. bring it to you, 4. put down the energy bar, 5. go to the table, 6. pick up the multigrain chips, 7. bring it to you, 8. put down the multigrain chips, 9. done
+Question: Can you bring me something salty?
+Answer: 1. find a sea salt chips, 2. pick up the sea salt chips, 3. bring it to you, 4. put down the sea salt chips, 5. done.
+Question: Bring me everything from the table.
+Answer: 1. go to the table, 2. pick up the energy bar, 3. bring it to you, 4. put down the energy bar, 5. go to the table, 6. pick up the multigrain chips, 7. bring it to you, 8. put down the multigrain chips, 9. done
+Q: Bring me something that is not an apple.","A: 1. Look for a banana, 2. Pick up the banana, 3. Bring it to you, 4. Put down the banana, 5. Done.","1. find a orange, 2. pick up the orange, 3. bring it to you, 4. put down the orange, 5. done."

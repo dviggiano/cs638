@@ -1,0 +1,334 @@
+Task Class,Case,Prompt,Response,Expected
+Math,1a,"Question: John has five more roommates than twice as many as Bob. If Bob has 10 roommates, how many roommates does John have?
+Answer: Twice ten roommates is 2*10 = <<2*10=20>>20
+John has 5 more than 20 roommates which is 20+5 = <<5+20=25>>25 roommates
+#### 25
+Question: Jackie spends 8 hours working, 3 hours of exercise and spends 8 hours of sleep per day. How much free time does Jackie have?
+Answer: Jackie spends a total of 8 + 8 + 3 = <<8+8+3=19>>19 hours on work, exercise, and sleeping.
+Therefore he has 24 - 19 = <<24-19=5>>5 hours of free time.
+#### 5
+Q: John just started watching a new show.  Each episode is 20 minutes long, and there are half as many episodes in total as there are minutes per episode.  How many minutes will John spend watching the show if he watches every episode?","A: If each episode is 20 minutes long and there are half as many episodes as there are minutes per episode, then there are 20/2 = <<20/2=10>>10 episodes.
+Therefore, if John watches every episode, he will spend 10 episodes * 20 minutes per episode = <<10*20=200>>200 minutes watching the show.","Since there are half as many episodes as the number of minutes per episode, we perform 20/2=<<20/2=10>>10 episodes in total.
+Since each episode is 20 minutes long, to find the total run time we perform 10*20= <<10*20=200>>200 minutes of run time in total.
+#### 200"
+Math,1a,"Question: The standard poodle is 8 inches taller than the miniature poodle, and the miniature poodle is 6 inches taller than the toy poodle.  If the standard poodle in 28 inches tall, how tall is the toy poodle in inches?
+Answer: If the standard poodle is 8 inches taller than the miniature poodle, then the miniature poodle is 28-8=<<28-8=20>>20 inches tall.
+And if the miniature poodle is 8 inches taller than the toy poodle, that the toy poodle is 20-6=<<20-6=14>>14 inches tall.
+#### 14
+Question: Betty picked 16 strawberries. Matthew picked 20 more strawberries than Betty and twice as many as Natalie. They used their strawberries to make jam. One jar of jam used 7 strawberries and they sold each jar at $4. How much money were they able to make from the strawberries they picked?
+Answer: Matthew picked 16 + 20 = <<16+20=36>>36 strawberries.
+Natalie picked 36/2 = <<36/2=18>>18 strawberries.
+All together, they have 16 + 36 + 18 = <<16+36+18=70>>70 strawberries.
+They can make 70/7 = <<70/7=10>>10 jars of strawberries.
+They earn 10 x $4 = $<<10*4=40>>40 from the strawberries they picked.
+#### 40
+Q: John just started watching a new show.  Each episode is 20 minutes long, and there are half as many episodes in total as there are minutes per episode.  How many minutes will John spend watching the show if he watches every episode?","A: If each episode is 20 minutes long, and there are half as many episodes as there are minutes per episode, then there are 20/2 = <<20/2=10>>10 episodes in total.
+If John watches every episode, he will spend 20 x 10 = <<20*10=200>>200 minutes watching the show.","Since there are half as many episodes as the number of minutes per episode, we perform 20/2=<<20/2=10>>10 episodes in total.
+Since each episode is 20 minutes long, to find the total run time we perform 10*20= <<10*20=200>>200 minutes of run time in total.
+#### 200"
+Math,2,"Question: John has five more roommates than twice as many as Bob. If Bob has 10 roommates, how many roommates does John have?
+Answer: Twice ten roommates is 2*10 = <<2*10=20>>20
+John has 5 more than 20 roommates which is 20+5 = <<5+20=25>>25 roommates
+#### 25
+Question: Jackie spends 8 hours working, 3 hours of exercise and spends 8 hours of sleep per day. How much free time does Jackie have?
+Answer: Jackie spends a total of 8 + 8 + 3 = <<8+8+3=19>>19 hours on work, exercise, and sleeping.
+Therefore he has 24 - 19 = <<24-19=5>>5 hours of free time.
+#### 5
+Question: The standard poodle is 8 inches taller than the miniature poodle, and the miniature poodle is 6 inches taller than the toy poodle.  If the standard poodle in 28 inches tall, how tall is the toy poodle in inches?
+Answer: If the standard poodle is 8 inches taller than the miniature poodle, then the miniature poodle is 28-8=<<28-8=20>>20 inches tall.
+And if the miniature poodle is 8 inches taller than the toy poodle, that the toy poodle is 20-6=<<20-6=14>>14 inches tall.
+#### 14
+Question: Betty picked 16 strawberries. Matthew picked 20 more strawberries than Betty and twice as many as Natalie. They used their strawberries to make jam. One jar of jam used 7 strawberries and they sold each jar at $4. How much money were they able to make from the strawberries they picked?
+Answer: Matthew picked 16 + 20 = <<16+20=36>>36 strawberries.
+Natalie picked 36/2 = <<36/2=18>>18 strawberries.
+All together, they have 16 + 36 + 18 = <<16+36+18=70>>70 strawberries.
+They can make 70/7 = <<70/7=10>>10 jars of strawberries.
+They earn 10 x $4 = $<<10*4=40>>40 from the strawberries they picked.
+#### 40
+Q: John just started watching a new show.  Each episode is 20 minutes long, and there are half as many episodes in total as there are minutes per episode.  How many minutes will John spend watching the show if he watches every episode?","A: If each episode is 20 minutes long, and there are half as many episodes as there are minutes per episode, then there are 20/2 = 10 episodes in total.
+Therefore, if John watches every episode, he will spend 10 episodes x 20 minutes = 200 minutes watching the show.","Since there are half as many episodes as the number of minutes per episode, we perform 20/2=<<20/2=10>>10 episodes in total.
+Since each episode is 20 minutes long, to find the total run time we perform 10*20= <<10*20=200>>200 minutes of run time in total.
+#### 200"
+Math,3a,"Question: John has five more roommates than twice as many as Bob. If Bob has 10 roommates, how many roommates does John have?
+Answer: Twice ten roommates is 2*10 = <<2*10=20>>20
+John has 5 more than 20 roommates which is 20+5 = <<5+20=25>>25 roommates
+#### 25
+Question: Jackie spends 8 hours working, 3 hours of exercise and spends 8 hours of sleep per day. How much free time does Jackie have?
+Answer: Jackie spends a total of 8 + 8 + 3 = <<8+8+3=19>>19 hours on work, exercise, and sleeping.
+Therefore he has 24 - 19 = <<24-19=5>>5 hours of free time.
+#### 5
+Question: John has five more roommates than twice as many as Bob. If Bob has 10 roommates, how many roommates does John have?
+Answer: Twice ten roommates is 2*10 = <<2*10=20>>20
+John has 5 more than 20 roommates which is 20+5 = <<5+20=25>>25 roommates
+#### 25
+Question: Jackie spends 8 hours working, 3 hours of exercise and spends 8 hours of sleep per day. How much free time does Jackie have?
+Answer: Jackie spends a total of 8 + 8 + 3 = <<8+8+3=19>>19 hours on work, exercise, and sleeping.
+Therefore he has 24 - 19 = <<24-19=5>>5 hours of free time.
+#### 5
+Q: John just started watching a new show.  Each episode is 20 minutes long, and there are half as many episodes in total as there are minutes per episode.  How many minutes will John spend watching the show if he watches every episode?","A: If each episode is 20 minutes long and there are half as many episodes as there are minutes per episode, then the total number of episodes is 20/2 = 10 episodes.
+Therefore, if John watches every episode, he will spend a total of 10 episodes * 20 minutes per episode = <<10*20=200>>200 minutes watching the show.","Since there are half as many episodes as the number of minutes per episode, we perform 20/2=<<20/2=10>>10 episodes in total.
+Since each episode is 20 minutes long, to find the total run time we perform 10*20= <<10*20=200>>200 minutes of run time in total.
+#### 200"
+Math,3b,"Question: The standard poodle is 8 inches taller than the miniature poodle, and the miniature poodle is 6 inches taller than the toy poodle.  If the standard poodle in 28 inches tall, how tall is the toy poodle in inches?
+Answer: If the standard poodle is 8 inches taller than the miniature poodle, then the miniature poodle is 28-8=<<28-8=20>>20 inches tall.
+And if the miniature poodle is 8 inches taller than the toy poodle, that the toy poodle is 20-6=<<20-6=14>>14 inches tall.
+#### 14
+Question: Betty picked 16 strawberries. Matthew picked 20 more strawberries than Betty and twice as many as Natalie. They used their strawberries to make jam. One jar of jam used 7 strawberries and they sold each jar at $4. How much money were they able to make from the strawberries they picked?
+Answer: Matthew picked 16 + 20 = <<16+20=36>>36 strawberries.
+Natalie picked 36/2 = <<36/2=18>>18 strawberries.
+All together, they have 16 + 36 + 18 = <<16+36+18=70>>70 strawberries.
+They can make 70/7 = <<70/7=10>>10 jars of strawberries.
+They earn 10 x $4 = $<<10*4=40>>40 from the strawberries they picked.
+#### 40
+Question: The standard poodle is 8 inches taller than the miniature poodle, and the miniature poodle is 6 inches taller than the toy poodle.  If the standard poodle in 28 inches tall, how tall is the toy poodle in inches?
+Answer: If the standard poodle is 8 inches taller than the miniature poodle, then the miniature poodle is 28-8=<<28-8=20>>20 inches tall.
+And if the miniature poodle is 8 inches taller than the toy poodle, that the toy poodle is 20-6=<<20-6=14>>14 inches tall.
+#### 14
+Question: Betty picked 16 strawberries. Matthew picked 20 more strawberries than Betty and twice as many as Natalie. They used their strawberries to make jam. One jar of jam used 7 strawberries and they sold each jar at $4. How much money were they able to make from the strawberries they picked?
+Answer: Matthew picked 16 + 20 = <<16+20=36>>36 strawberries.
+Natalie picked 36/2 = <<36/2=18>>18 strawberries.
+All together, they have 16 + 36 + 18 = <<16+36+18=70>>70 strawberries.
+They can make 70/7 = <<70/7=10>>10 jars of strawberries.
+They earn 10 x $4 = $<<10*4=40>>40 from the strawberries they picked.
+#### 40
+Q: John just started watching a new show.  Each episode is 20 minutes long, and there are half as many episodes in total as there are minutes per episode.  How many minutes will John spend watching the show if he watches every episode?","A: If each episode is 20 minutes long and there are half as many episodes as there are minutes per episode, then there are 20/2 = 10 episodes in total.
+If John watches every episode, he will spend 10 episodes x 20 minutes per episode = <<10*20=200>>200 minutes watching the show.","Since there are half as many episodes as the number of minutes per episode, we perform 20/2=<<20/2=10>>10 episodes in total.
+Since each episode is 20 minutes long, to find the total run time we perform 10*20= <<10*20=200>>200 minutes of run time in total.
+#### 200"
+CSQA,1a,"Question: Where is refuse stored for a long time?
+A: incinerator
+B: wastebasket
+C: waste basket
+D: dump
+E: garbage can
+Answer: D
+Question: Where would there be many people sitting in chair and listening to religious speech?
+A: auditorium
+B: office
+C: synagogue
+D: confession
+E: church
+Answer: C
+Q: The student needed to  get some new pencils, where did he go?
+A: store
+B: classroom
+C: backpack
+D: cabinet
+E: teacher",Answer: A,A
+CSQA,1a,"Question: What is the reason for having a gardener?
+A: manicure the lawn
+B: garden backyards
+C: water plants
+D: grow plants
+E: pick flowers
+Answer: D
+Question: The spring was warming up, what did this cause life to do?
+A: die
+B: hibernate
+C: last 100 years
+D: spring forth
+E: cause death
+Answer: D
+Q: The student needed to  get some new pencils, where did he go?
+A: store
+B: classroom
+C: backpack
+D: cabinet
+E: teacher",Answer: A,A
+CSQA,2,"Question: Where is refuse stored for a long time?
+A: incinerator
+B: wastebasket
+C: waste basket
+D: dump
+E: garbage can
+Answer: D
+Question: Where would there be many people sitting in chair and listening to religious speech?
+A: auditorium
+B: office
+C: synagogue
+D: confession
+E: church
+Answer: C
+Question: What is the reason for having a gardener?
+A: manicure the lawn
+B: garden backyards
+C: water plants
+D: grow plants
+E: pick flowers
+Answer: D
+Question: The spring was warming up, what did this cause life to do?
+A: die
+B: hibernate
+C: last 100 years
+D: spring forth
+E: cause death
+Answer: D
+Q: The student needed to  get some new pencils, where did he go?
+A: store
+B: classroom
+C: backpack
+D: cabinet
+E: teacher",Answer: A,A
+CSQA,3a,"Question: Where is refuse stored for a long time?
+A: incinerator
+B: wastebasket
+C: waste basket
+D: dump
+E: garbage can
+Answer: D
+Question: Where would there be many people sitting in chair and listening to religious speech?
+A: auditorium
+B: office
+C: synagogue
+D: confession
+E: church
+Answer: C
+Question: Where is refuse stored for a long time?
+A: incinerator
+B: wastebasket
+C: waste basket
+D: dump
+E: garbage can
+Answer: D
+Question: Where would there be many people sitting in chair and listening to religious speech?
+A: auditorium
+B: office
+C: synagogue
+D: confession
+E: church
+Answer: C
+Q: The student needed to  get some new pencils, where did he go?
+A: store
+B: classroom
+C: backpack
+D: cabinet
+E: teacher",Answer: A,A
+CSQA,3b,"Question: What is the reason for having a gardener?
+A: manicure the lawn
+B: garden backyards
+C: water plants
+D: grow plants
+E: pick flowers
+Answer: D
+Question: The spring was warming up, what did this cause life to do?
+A: die
+B: hibernate
+C: last 100 years
+D: spring forth
+E: cause death
+Answer: D
+Question: What is the reason for having a gardener?
+A: manicure the lawn
+B: garden backyards
+C: water plants
+D: grow plants
+E: pick flowers
+Answer: D
+Question: The spring was warming up, what did this cause life to do?
+A: die
+B: hibernate
+C: last 100 years
+D: spring forth
+E: cause death
+Answer: D
+Q: The student needed to  get some new pencils, where did he go?
+A: store
+B: classroom
+C: backpack
+D: cabinet
+E: teacher",Answer: A,A
+StrategyQA,1a,"Question: In the 1960s, an attraction called Matterhorn featuring a cartoon version of the Yeti opened in Disneyland. Later in 2005, Expedition Everest opened at Animal Kingdom in Disney World, featuring a much scarier version of the Yeti.
+Is there a Yeti associated with Disney theme parks?
+Answer: True
+Question: John Kerry was attacked by his opponents in the 2004 Presidential Campaign by being called a Flip-Flopper. A Flip-Flopper is someone that makes a complete change in policy from one thing to another. In May 2010 Rand Paul called for an electronic fence to keep out immigrants and deplored amnesty in any form. In 2013 Rand Paul said he was in favor of undocumented immigrants being granted  legal status.
+Is Rand Paul guilty of catch-phrase used to attack John Kerry in 2004?
+Answer: True
+Q: Michael J Fox has Parkinson's disease.  Parkinson's disease is a brain disorder that leads to shaking, stiffness, and difficulty with walking, balance, and coordination. To qualify for the Army Rangers,  you must complete a 12-mile march with a 35-pound rucksack and weapon in less than three hours.
+Would Michael J Fox qualify for the Army Rangers?",No,False
+StrategyQA,1a,"Question: The solar cycle is measured by the year: the length of one orbit, as well as by day: the length of one of Earth's rotation about its axis. However, months are based on the lunar cycle, how the shadow of the Earth on the moon causes it to appear to grow and shrink and change shape over the course of four weeks.
+Are months based on the solar cycle?
+Answer: False
+Question: Ludwig van Beethoven died in 1827. EDM originated in the mid-to-late 20th century.
+Did Beethoven enjoy listening to EDM?
+Answer: False
+Q: Michael J Fox has Parkinson's disease.  Parkinson's disease is a brain disorder that leads to shaking, stiffness, and difficulty with walking, balance, and coordination. To qualify for the Army Rangers,  you must complete a 12-mile march with a 35-pound rucksack and weapon in less than three hours.
+Would Michael J Fox qualify for the Army Rangers?",A: False,False
+StrategyQA,2,"Question: In the 1960s, an attraction called Matterhorn featuring a cartoon version of the Yeti opened in Disneyland. Later in 2005, Expedition Everest opened at Animal Kingdom in Disney World, featuring a much scarier version of the Yeti.
+Is there a Yeti associated with Disney theme parks?
+Answer: True
+Question: John Kerry was attacked by his opponents in the 2004 Presidential Campaign by being called a Flip-Flopper. A Flip-Flopper is someone that makes a complete change in policy from one thing to another. In May 2010 Rand Paul called for an electronic fence to keep out immigrants and deplored amnesty in any form. In 2013 Rand Paul said he was in favor of undocumented immigrants being granted  legal status.
+Is Rand Paul guilty of catch-phrase used to attack John Kerry in 2004?
+Answer: True
+Question: The solar cycle is measured by the year: the length of one orbit, as well as by day: the length of one of Earth's rotation about its axis. However, months are based on the lunar cycle, how the shadow of the Earth on the moon causes it to appear to grow and shrink and change shape over the course of four weeks.
+Are months based on the solar cycle?
+Answer: False
+Question: Ludwig van Beethoven died in 1827. EDM originated in the mid-to-late 20th century.
+Did Beethoven enjoy listening to EDM?
+Answer: False
+Q: Michael J Fox has Parkinson's disease.  Parkinson's disease is a brain disorder that leads to shaking, stiffness, and difficulty with walking, balance, and coordination. To qualify for the Army Rangers,  you must complete a 12-mile march with a 35-pound rucksack and weapon in less than three hours.
+Would Michael J Fox qualify for the Army Rangers?",Answer: False,False
+StrategyQA,3a,"Question: In the 1960s, an attraction called Matterhorn featuring a cartoon version of the Yeti opened in Disneyland. Later in 2005, Expedition Everest opened at Animal Kingdom in Disney World, featuring a much scarier version of the Yeti.
+Is there a Yeti associated with Disney theme parks?
+Answer: True
+Question: John Kerry was attacked by his opponents in the 2004 Presidential Campaign by being called a Flip-Flopper. A Flip-Flopper is someone that makes a complete change in policy from one thing to another. In May 2010 Rand Paul called for an electronic fence to keep out immigrants and deplored amnesty in any form. In 2013 Rand Paul said he was in favor of undocumented immigrants being granted  legal status.
+Is Rand Paul guilty of catch-phrase used to attack John Kerry in 2004?
+Answer: True
+Question: In the 1960s, an attraction called Matterhorn featuring a cartoon version of the Yeti opened in Disneyland. Later in 2005, Expedition Everest opened at Animal Kingdom in Disney World, featuring a much scarier version of the Yeti.
+Is there a Yeti associated with Disney theme parks?
+Answer: True
+Question: John Kerry was attacked by his opponents in the 2004 Presidential Campaign by being called a Flip-Flopper. A Flip-Flopper is someone that makes a complete change in policy from one thing to another. In May 2010 Rand Paul called for an electronic fence to keep out immigrants and deplored amnesty in any form. In 2013 Rand Paul said he was in favor of undocumented immigrants being granted  legal status.
+Is Rand Paul guilty of catch-phrase used to attack John Kerry in 2004?
+Answer: True
+Q: Michael J Fox has Parkinson's disease.  Parkinson's disease is a brain disorder that leads to shaking, stiffness, and difficulty with walking, balance, and coordination. To qualify for the Army Rangers,  you must complete a 12-mile march with a 35-pound rucksack and weapon in less than three hours.
+Would Michael J Fox qualify for the Army Rangers?",A: False,False
+StrategyQA,3b,"Question: The solar cycle is measured by the year: the length of one orbit, as well as by day: the length of one of Earth's rotation about its axis. However, months are based on the lunar cycle, how the shadow of the Earth on the moon causes it to appear to grow and shrink and change shape over the course of four weeks.
+Are months based on the solar cycle?
+Answer: False
+Question: Ludwig van Beethoven died in 1827. EDM originated in the mid-to-late 20th century.
+Did Beethoven enjoy listening to EDM?
+Answer: False
+Question: The solar cycle is measured by the year: the length of one orbit, as well as by day: the length of one of Earth's rotation about its axis. However, months are based on the lunar cycle, how the shadow of the Earth on the moon causes it to appear to grow and shrink and change shape over the course of four weeks.
+Are months based on the solar cycle?
+Answer: False
+Question: Ludwig van Beethoven died in 1827. EDM originated in the mid-to-late 20th century.
+Did Beethoven enjoy listening to EDM?
+Answer: False
+Q: Michael J Fox has Parkinson's disease.  Parkinson's disease is a brain disorder that leads to shaking, stiffness, and difficulty with walking, balance, and coordination. To qualify for the Army Rangers,  you must complete a 12-mile march with a 35-pound rucksack and weapon in less than three hours.
+Would Michael J Fox qualify for the Army Rangers?",A: False,False
+SayCan,1a,"Question: Put a banana on the counter.
+Answer: 1. pick up the banana, 2. go to the counter, 3. put down the banana, 4. done
+Question: How would you park at the table?
+Answer: 1. go to the table, 2. done
+Q: How would you bring me a fruit, a soda, and a bag of chips for lunch?","A: 1. Gather a fruit, a soda, and a bag of chips, 2. Bring them to you for lunch, 3. done","1. find the bag of chips, 2. pick up the bag of chips, 3. bring it to you, 4. put down the bag of chips, 5. find a coke can, 6. pick up the coke can, 7. bring it to you, 8. put down the coke can, 9. find a banana, 10. pick up the banana, 11. bring it to you, 12. put down the banana, 13. done"
+SayCan,1a,"Question: Bring me a soda that isn’t a coke.
+Answer: 1. find a pepsi, 2. pick up the pepsi, 3. bring it to you, 4. put down the pepsi, 5. done.
+Question: Bring me a sprite.
+Answer: 1. find a sprite can, 2. pick up the sprite can, 3. bring it to you, 4. put down the sprite can, 5. done
+Q: How would you bring me a fruit, a soda, and a bag of chips for lunch?","A: 1. Find an apple or banana for the fruit, a can of soda (e.g. Pepsi or Sprite), and a bag of chips. 2. Gather all three items. 3. Bring them to you. 4. Arrange the fruit, soda, and chips in a way that is convenient for you. 5. Enjoy your lunch!","1. find the bag of chips, 2. pick up the bag of chips, 3. bring it to you, 4. put down the bag of chips, 5. find a coke can, 6. pick up the coke can, 7. bring it to you, 8. put down the coke can, 9. find a banana, 10. pick up the banana, 11. bring it to you, 12. put down the banana, 13. done"
+SayCan,2,"Question: Put a banana on the counter.
+Answer: 1. pick up the banana, 2. go to the counter, 3. put down the banana, 4. done
+Question: How would you park at the table?
+Answer: 1. go to the table, 2. done
+Question: Bring me a soda that isn’t a coke.
+Answer: 1. find a pepsi, 2. pick up the pepsi, 3. bring it to you, 4. put down the pepsi, 5. done.
+Question: Bring me a sprite.
+Answer: 1. find a sprite can, 2. pick up the sprite can, 3. bring it to you, 4. put down the sprite can, 5. done
+Q: How would you bring me a fruit, a soda, and a bag of chips for lunch?","A: 1. Find a fruit, soda, and bag of chips, 2. Pick up the fruit, soda, and bag of chips, 3. Bring them to you, 4. Put them down, 5. Done.","1. find the bag of chips, 2. pick up the bag of chips, 3. bring it to you, 4. put down the bag of chips, 5. find a coke can, 6. pick up the coke can, 7. bring it to you, 8. put down the coke can, 9. find a banana, 10. pick up the banana, 11. bring it to you, 12. put down the banana, 13. done"
+SayCan,3a,"Question: Put a banana on the counter.
+Answer: 1. pick up the banana, 2. go to the counter, 3. put down the banana, 4. done
+Question: How would you park at the table?
+Answer: 1. go to the table, 2. done
+Question: Put a banana on the counter.
+Answer: 1. pick up the banana, 2. go to the counter, 3. put down the banana, 4. done
+Question: How would you park at the table?
+Answer: 1. go to the table, 2. done
+Q: How would you bring me a fruit, a soda, and a bag of chips for lunch?","A: 1. gather a fruit, a soda, and a bag of chips, 2. bring them to you for lunch, 3. done","1. find the bag of chips, 2. pick up the bag of chips, 3. bring it to you, 4. put down the bag of chips, 5. find a coke can, 6. pick up the coke can, 7. bring it to you, 8. put down the coke can, 9. find a banana, 10. pick up the banana, 11. bring it to you, 12. put down the banana, 13. done"
+SayCan,3b,"Question: Bring me a soda that isn’t a coke.
+Answer: 1. find a pepsi, 2. pick up the pepsi, 3. bring it to you, 4. put down the pepsi, 5. done.
+Question: Bring me a sprite.
+Answer: 1. find a sprite can, 2. pick up the sprite can, 3. bring it to you, 4. put down the sprite can, 5. done
+Question: Bring me a soda that isn’t a coke.
+Answer: 1. find a pepsi, 2. pick up the pepsi, 3. bring it to you, 4. put down the pepsi, 5. done.
+Question: Bring me a sprite.
+Answer: 1. find a sprite can, 2. pick up the sprite can, 3. bring it to you, 4. put down the sprite can, 5. done
+Q: How would you bring me a fruit, a soda, and a bag of chips for lunch?","A: 1. Find a fruit (e.g. apple), 2. Find a soda (e.g. pepsi), 3. Find a bag of chips, 4. Pick up the fruit, soda, and chips, 5. Bring them to you, 6. Put them down in front of you, 7. Lunch is served!","1. find the bag of chips, 2. pick up the bag of chips, 3. bring it to you, 4. put down the bag of chips, 5. find a coke can, 6. pick up the coke can, 7. bring it to you, 8. put down the coke can, 9. find a banana, 10. pick up the banana, 11. bring it to you, 12. put down the banana, 13. done"

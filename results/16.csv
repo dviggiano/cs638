@@ -1,0 +1,353 @@
+Task Class,Case,Prompt,Response,Expected
+Math,1a,"Question: Jane runs a small farm.  She has 10 chickens that lay 6 eggs each per week. She can sell the eggs for $2/dozen.  How much money will she make in 2 weeks if she sells all her eggs?
+Answer: Jane's chickens lay 10 chickens * 6 eggs = <<10*6=60>>60 eggs per week.
+Jane's chickens lay 60 eggs / 12 = <<60/12=5>>5 dozen eggs per week.
+Each week that Jane sells her eggs she can make 5 dozen * $2 = $<<5*2=10>>10 per week.
+In two weeks Jane would make 2 * $10/week = $<<2*10=20>>20.
+#### 20
+Question: John's neighbor tells him to walk his dog for 1 hour each day for a total of $10. He does this for April, save for the 4 Sundays in April. He later spent $50 on books and gave his sister Kaylee the same amount. How much money did John have left?
+Answer: April has 30 days, so if he didn't walk the dog on Sundays, he worked for a total of 30 days - 4 days = <<30-4=26>>26 days.
+If each day he earned $10, he ends up with 26 days * $10/day = $<<26*10=260>>260 .
+After buying books and giving his sister $50, he ends up with $260 - $50 - $50 = $<<260-50-50=160>>160
+#### 160
+Q: John picks 4 bananas on Wednesday. Then he picks 6 bananas on Thursday. On Friday, he picks triple the number of bananas he did on Wednesday. How many bananas does John have?","A: John has 4 bananas from Wednesday + 6 bananas from Thursday = <<4+6=10>>10 bananas.
+On Friday, John picks 4 bananas * 3 = <<4*3=12>>12 bananas.
+Therefore, John has a total of 10 bananas + 12 bananas = <<10+12=22>>22 bananas.","Combining Wednesday and Thursday, John has 4 bananas + 6 bananas = <<4+6=10>>10 bananas.
+On Friday, he picks 3 * 4 bananas = <<3*4=12>>12 bananas.
+Altogether, John has 10 bananas + 12 bananas = <<10+12=22>>22 bananas.
+#### 22"
+Math,1a,"Question: A farmer hires small trucks to transport his lemons to the markets. The load on a truck may not be more than 900 kilograms. One bag of lemons has a mass of 8 kilograms. If there are 100 bags of lemons, how many more kilograms can still be loaded into the truck?
+Answer: The total weight of 100 bags of lemons is 100 x 8 = <<100*8=800>>800 kilograms.
+So, 900 - 800 = <<900-800=100>>100 kilograms can still be loaded into the truck.
+#### 100
+Question: The Science museum sells dinosaur models for $100 each. A certain school bought 2 models for the kindergarten library and also bought twice as many for the elementary library. Since the school bought more than 5 models, there was a 5% reduction in price for each model. How much did the school pay in all?
+Answer: The school bought 2 x 2 = <<2*2=4>>4 dinosaur models for the elementary library.
+So the school bought a total of 2 + 4 = <<2+4=6>>6 models.
+The price of each model was reduced by $100 x 5/100 = $<<100*5/100=5>>5.
+Thus, each model cost $100 - $5 = $<<100-5=95>>95.
+Therefore, the school paid a total of $95 x 6 = $<<95*6=570>>570.
+#### 570
+Q: John picks 4 bananas on Wednesday. Then he picks 6 bananas on Thursday. On Friday, he picks triple the number of bananas he did on Wednesday. How many bananas does John have?","A: John picked 4 + 6 = 10 bananas in total on Wednesday and Thursday.
+On Friday, he picked 4 x 3 = 12 bananas.
+Therefore, John has a total of 10 + 12 = 22 bananas.","Combining Wednesday and Thursday, John has 4 bananas + 6 bananas = <<4+6=10>>10 bananas.
+On Friday, he picks 3 * 4 bananas = <<3*4=12>>12 bananas.
+Altogether, John has 10 bananas + 12 bananas = <<10+12=22>>22 bananas.
+#### 22"
+Math,2,"Question: Jane runs a small farm.  She has 10 chickens that lay 6 eggs each per week. She can sell the eggs for $2/dozen.  How much money will she make in 2 weeks if she sells all her eggs?
+Answer: Jane's chickens lay 10 chickens * 6 eggs = <<10*6=60>>60 eggs per week.
+Jane's chickens lay 60 eggs / 12 = <<60/12=5>>5 dozen eggs per week.
+Each week that Jane sells her eggs she can make 5 dozen * $2 = $<<5*2=10>>10 per week.
+In two weeks Jane would make 2 * $10/week = $<<2*10=20>>20.
+#### 20
+Question: John's neighbor tells him to walk his dog for 1 hour each day for a total of $10. He does this for April, save for the 4 Sundays in April. He later spent $50 on books and gave his sister Kaylee the same amount. How much money did John have left?
+Answer: April has 30 days, so if he didn't walk the dog on Sundays, he worked for a total of 30 days - 4 days = <<30-4=26>>26 days.
+If each day he earned $10, he ends up with 26 days * $10/day = $<<26*10=260>>260 .
+After buying books and giving his sister $50, he ends up with $260 - $50 - $50 = $<<260-50-50=160>>160
+#### 160
+Question: A farmer hires small trucks to transport his lemons to the markets. The load on a truck may not be more than 900 kilograms. One bag of lemons has a mass of 8 kilograms. If there are 100 bags of lemons, how many more kilograms can still be loaded into the truck?
+Answer: The total weight of 100 bags of lemons is 100 x 8 = <<100*8=800>>800 kilograms.
+So, 900 - 800 = <<900-800=100>>100 kilograms can still be loaded into the truck.
+#### 100
+Question: The Science museum sells dinosaur models for $100 each. A certain school bought 2 models for the kindergarten library and also bought twice as many for the elementary library. Since the school bought more than 5 models, there was a 5% reduction in price for each model. How much did the school pay in all?
+Answer: The school bought 2 x 2 = <<2*2=4>>4 dinosaur models for the elementary library.
+So the school bought a total of 2 + 4 = <<2+4=6>>6 models.
+The price of each model was reduced by $100 x 5/100 = $<<100*5/100=5>>5.
+Thus, each model cost $100 - $5 = $<<100-5=95>>95.
+Therefore, the school paid a total of $95 x 6 = $<<95*6=570>>570.
+#### 570
+Q: John picks 4 bananas on Wednesday. Then he picks 6 bananas on Thursday. On Friday, he picks triple the number of bananas he did on Wednesday. How many bananas does John have?",A: John has a total of 4 + 6 + (4*3) = 4 + 6 + 12 = 22 bananas.,"Combining Wednesday and Thursday, John has 4 bananas + 6 bananas = <<4+6=10>>10 bananas.
+On Friday, he picks 3 * 4 bananas = <<3*4=12>>12 bananas.
+Altogether, John has 10 bananas + 12 bananas = <<10+12=22>>22 bananas.
+#### 22"
+Math,3a,"Question: Jane runs a small farm.  She has 10 chickens that lay 6 eggs each per week. She can sell the eggs for $2/dozen.  How much money will she make in 2 weeks if she sells all her eggs?
+Answer: Jane's chickens lay 10 chickens * 6 eggs = <<10*6=60>>60 eggs per week.
+Jane's chickens lay 60 eggs / 12 = <<60/12=5>>5 dozen eggs per week.
+Each week that Jane sells her eggs she can make 5 dozen * $2 = $<<5*2=10>>10 per week.
+In two weeks Jane would make 2 * $10/week = $<<2*10=20>>20.
+#### 20
+Question: John's neighbor tells him to walk his dog for 1 hour each day for a total of $10. He does this for April, save for the 4 Sundays in April. He later spent $50 on books and gave his sister Kaylee the same amount. How much money did John have left?
+Answer: April has 30 days, so if he didn't walk the dog on Sundays, he worked for a total of 30 days - 4 days = <<30-4=26>>26 days.
+If each day he earned $10, he ends up with 26 days * $10/day = $<<26*10=260>>260 .
+After buying books and giving his sister $50, he ends up with $260 - $50 - $50 = $<<260-50-50=160>>160
+#### 160
+Question: Jane runs a small farm.  She has 10 chickens that lay 6 eggs each per week. She can sell the eggs for $2/dozen.  How much money will she make in 2 weeks if she sells all her eggs?
+Answer: Jane's chickens lay 10 chickens * 6 eggs = <<10*6=60>>60 eggs per week.
+Jane's chickens lay 60 eggs / 12 = <<60/12=5>>5 dozen eggs per week.
+Each week that Jane sells her eggs she can make 5 dozen * $2 = $<<5*2=10>>10 per week.
+In two weeks Jane would make 2 * $10/week = $<<2*10=20>>20.
+#### 20
+Question: John's neighbor tells him to walk his dog for 1 hour each day for a total of $10. He does this for April, save for the 4 Sundays in April. He later spent $50 on books and gave his sister Kaylee the same amount. How much money did John have left?
+Answer: April has 30 days, so if he didn't walk the dog on Sundays, he worked for a total of 30 days - 4 days = <<30-4=26>>26 days.
+If each day he earned $10, he ends up with 26 days * $10/day = $<<26*10=260>>260 .
+After buying books and giving his sister $50, he ends up with $260 - $50 - $50 = $<<260-50-50=160>>160
+#### 160
+Q: John picks 4 bananas on Wednesday. Then he picks 6 bananas on Thursday. On Friday, he picks triple the number of bananas he did on Wednesday. How many bananas does John have?",A: John has a total of 4 bananas + 6 bananas + (4 bananas * 3) = 4 + 6 + 12 = 22 bananas.,"Combining Wednesday and Thursday, John has 4 bananas + 6 bananas = <<4+6=10>>10 bananas.
+On Friday, he picks 3 * 4 bananas = <<3*4=12>>12 bananas.
+Altogether, John has 10 bananas + 12 bananas = <<10+12=22>>22 bananas.
+#### 22"
+Math,3b,"Question: A farmer hires small trucks to transport his lemons to the markets. The load on a truck may not be more than 900 kilograms. One bag of lemons has a mass of 8 kilograms. If there are 100 bags of lemons, how many more kilograms can still be loaded into the truck?
+Answer: The total weight of 100 bags of lemons is 100 x 8 = <<100*8=800>>800 kilograms.
+So, 900 - 800 = <<900-800=100>>100 kilograms can still be loaded into the truck.
+#### 100
+Question: The Science museum sells dinosaur models for $100 each. A certain school bought 2 models for the kindergarten library and also bought twice as many for the elementary library. Since the school bought more than 5 models, there was a 5% reduction in price for each model. How much did the school pay in all?
+Answer: The school bought 2 x 2 = <<2*2=4>>4 dinosaur models for the elementary library.
+So the school bought a total of 2 + 4 = <<2+4=6>>6 models.
+The price of each model was reduced by $100 x 5/100 = $<<100*5/100=5>>5.
+Thus, each model cost $100 - $5 = $<<100-5=95>>95.
+Therefore, the school paid a total of $95 x 6 = $<<95*6=570>>570.
+#### 570
+Question: A farmer hires small trucks to transport his lemons to the markets. The load on a truck may not be more than 900 kilograms. One bag of lemons has a mass of 8 kilograms. If there are 100 bags of lemons, how many more kilograms can still be loaded into the truck?
+Answer: The total weight of 100 bags of lemons is 100 x 8 = <<100*8=800>>800 kilograms.
+So, 900 - 800 = <<900-800=100>>100 kilograms can still be loaded into the truck.
+#### 100
+Question: The Science museum sells dinosaur models for $100 each. A certain school bought 2 models for the kindergarten library and also bought twice as many for the elementary library. Since the school bought more than 5 models, there was a 5% reduction in price for each model. How much did the school pay in all?
+Answer: The school bought 2 x 2 = <<2*2=4>>4 dinosaur models for the elementary library.
+So the school bought a total of 2 + 4 = <<2+4=6>>6 models.
+The price of each model was reduced by $100 x 5/100 = $<<100*5/100=5>>5.
+Thus, each model cost $100 - $5 = $<<100-5=95>>95.
+Therefore, the school paid a total of $95 x 6 = $<<95*6=570>>570.
+#### 570
+Q: John picks 4 bananas on Wednesday. Then he picks 6 bananas on Thursday. On Friday, he picks triple the number of bananas he did on Wednesday. How many bananas does John have?","A: On Wednesday, John picks 4 bananas.
+On Thursday, he picks 6 bananas.
+On Friday, he picks triple the number he did on Wednesday, so he picks 4 x 3 = 12 bananas.
+Therefore, John has a total of 4 + 6 + 12 = 22 bananas.","Combining Wednesday and Thursday, John has 4 bananas + 6 bananas = <<4+6=10>>10 bananas.
+On Friday, he picks 3 * 4 bananas = <<3*4=12>>12 bananas.
+Altogether, John has 10 bananas + 12 bananas = <<10+12=22>>22 bananas.
+#### 22"
+CSQA,1a,"Question: The shark was navigating across from the African coast to New York, where was it?
+A: bathtub
+B: seawater
+C: atlantic ocean
+D: saltwater
+E: sea world
+Answer: C
+Question: Where do you keep a teakettle?
+A: cupboard
+B: countertop
+C: water
+D: hardware department
+E: england
+Answer: A
+Q: The drug kingpin told his man to run errands, this was code to go to all the dealers to do what they had?
+A: park
+B: make time for
+C: receive instructions
+D: take money
+E: leave work",Answer: D,D
+CSQA,1a,"Question: The boss gave him the money to appease the clients, he had to what?
+A: buy a train ticket
+B: create art
+C: apply for job
+D: take care of proposals
+E: stand in line
+Answer: D
+Question: What could you put your foot under?
+A: sock
+B: desk
+C: table
+D: shoe
+E: bar
+Answer: C
+Q: The drug kingpin told his man to run errands, this was code to go to all the dealers to do what they had?
+A: park
+B: make time for
+C: receive instructions
+D: take money
+E: leave work",Answer: D,D
+CSQA,2,"Question: The shark was navigating across from the African coast to New York, where was it?
+A: bathtub
+B: seawater
+C: atlantic ocean
+D: saltwater
+E: sea world
+Answer: C
+Question: Where do you keep a teakettle?
+A: cupboard
+B: countertop
+C: water
+D: hardware department
+E: england
+Answer: A
+Question: The boss gave him the money to appease the clients, he had to what?
+A: buy a train ticket
+B: create art
+C: apply for job
+D: take care of proposals
+E: stand in line
+Answer: D
+Question: What could you put your foot under?
+A: sock
+B: desk
+C: table
+D: shoe
+E: bar
+Answer: C
+Q: The drug kingpin told his man to run errands, this was code to go to all the dealers to do what they had?
+A: park
+B: make time for
+C: receive instructions
+D: take money
+E: leave work",Answer: D,D
+CSQA,3a,"Question: The shark was navigating across from the African coast to New York, where was it?
+A: bathtub
+B: seawater
+C: atlantic ocean
+D: saltwater
+E: sea world
+Answer: C
+Question: Where do you keep a teakettle?
+A: cupboard
+B: countertop
+C: water
+D: hardware department
+E: england
+Answer: A
+Question: The shark was navigating across from the African coast to New York, where was it?
+A: bathtub
+B: seawater
+C: atlantic ocean
+D: saltwater
+E: sea world
+Answer: C
+Question: Where do you keep a teakettle?
+A: cupboard
+B: countertop
+C: water
+D: hardware department
+E: england
+Answer: A
+Q: The drug kingpin told his man to run errands, this was code to go to all the dealers to do what they had?
+A: park
+B: make time for
+C: receive instructions
+D: take money
+E: leave work",Answer: D,D
+CSQA,3b,"Question: The boss gave him the money to appease the clients, he had to what?
+A: buy a train ticket
+B: create art
+C: apply for job
+D: take care of proposals
+E: stand in line
+Answer: D
+Question: What could you put your foot under?
+A: sock
+B: desk
+C: table
+D: shoe
+E: bar
+Answer: C
+Question: The boss gave him the money to appease the clients, he had to what?
+A: buy a train ticket
+B: create art
+C: apply for job
+D: take care of proposals
+E: stand in line
+Answer: D
+Question: What could you put your foot under?
+A: sock
+B: desk
+C: table
+D: shoe
+E: bar
+Answer: C
+Q: The drug kingpin told his man to run errands, this was code to go to all the dealers to do what they had?
+A: park
+B: make time for
+C: receive instructions
+D: take money
+E: leave work",Answer: E,D
+StrategyQA,1a,"Question: Bruises are caused by blunt trauma to the body. Reiki is performed without touching the recipient. 
+Would somebody leave reiki with bruises?
+Answer: False
+Question: The history Pulitzer Prize can be won by any citizen, all other Pulitzer Prize winners must be a US Citizen. Cheb Mami is an Algerian singer. Cheb Mami is a citizen of Algeria.
+Is it impossible for Cheb Mami to win a Pulitzer Prize for musical composition?
+Answer: True
+Q: Candidates for the presidency of India must pay a deposit of Rs 15,000 A brand new iPhone 11 costs Rs 67,300
+Is it more expensive to run for President of India than to buy a new iPhone 11?",A: False,False
+StrategyQA,1a,"Question: Cezanne was an Impressionist painter Aesthetics is the branch of philosophy that deals with the arts
+Would an ethics professor teach a class on Cezanne?
+Answer: False
+Question: Water polo is a sport played by teams of seven competitors Larry King has seven ex-wives
+Can Larry King's ex-wives form a water polo team?
+Answer: True
+Q: Candidates for the presidency of India must pay a deposit of Rs 15,000 A brand new iPhone 11 costs Rs 67,300
+Is it more expensive to run for President of India than to buy a new iPhone 11?",A: False,False
+StrategyQA,2,"Question: Bruises are caused by blunt trauma to the body. Reiki is performed without touching the recipient. 
+Would somebody leave reiki with bruises?
+Answer: False
+Question: The history Pulitzer Prize can be won by any citizen, all other Pulitzer Prize winners must be a US Citizen. Cheb Mami is an Algerian singer. Cheb Mami is a citizen of Algeria.
+Is it impossible for Cheb Mami to win a Pulitzer Prize for musical composition?
+Answer: True
+Question: Cezanne was an Impressionist painter Aesthetics is the branch of philosophy that deals with the arts
+Would an ethics professor teach a class on Cezanne?
+Answer: False
+Question: Water polo is a sport played by teams of seven competitors Larry King has seven ex-wives
+Can Larry King's ex-wives form a water polo team?
+Answer: True
+Q: Candidates for the presidency of India must pay a deposit of Rs 15,000 A brand new iPhone 11 costs Rs 67,300
+Is it more expensive to run for President of India than to buy a new iPhone 11?",A: False,False
+StrategyQA,3a,"Question: Bruises are caused by blunt trauma to the body. Reiki is performed without touching the recipient. 
+Would somebody leave reiki with bruises?
+Answer: False
+Question: The history Pulitzer Prize can be won by any citizen, all other Pulitzer Prize winners must be a US Citizen. Cheb Mami is an Algerian singer. Cheb Mami is a citizen of Algeria.
+Is it impossible for Cheb Mami to win a Pulitzer Prize for musical composition?
+Answer: True
+Question: Bruises are caused by blunt trauma to the body. Reiki is performed without touching the recipient. 
+Would somebody leave reiki with bruises?
+Answer: False
+Question: The history Pulitzer Prize can be won by any citizen, all other Pulitzer Prize winners must be a US Citizen. Cheb Mami is an Algerian singer. Cheb Mami is a citizen of Algeria.
+Is it impossible for Cheb Mami to win a Pulitzer Prize for musical composition?
+Answer: True
+Q: Candidates for the presidency of India must pay a deposit of Rs 15,000 A brand new iPhone 11 costs Rs 67,300
+Is it more expensive to run for President of India than to buy a new iPhone 11?",Answer: False,False
+StrategyQA,3b,"Question: Cezanne was an Impressionist painter Aesthetics is the branch of philosophy that deals with the arts
+Would an ethics professor teach a class on Cezanne?
+Answer: False
+Question: Water polo is a sport played by teams of seven competitors Larry King has seven ex-wives
+Can Larry King's ex-wives form a water polo team?
+Answer: True
+Question: Cezanne was an Impressionist painter Aesthetics is the branch of philosophy that deals with the arts
+Would an ethics professor teach a class on Cezanne?
+Answer: False
+Question: Water polo is a sport played by teams of seven competitors Larry King has seven ex-wives
+Can Larry King's ex-wives form a water polo team?
+Answer: True
+Q: Candidates for the presidency of India must pay a deposit of Rs 15,000 A brand new iPhone 11 costs Rs 67,300
+Is it more expensive to run for President of India than to buy a new iPhone 11?",Answer: False,False
+SayCan,1a,"Question: I’m exhausted, can you bring me a drink?
+Answer: 1. find a redbull, 2. pick up the redbull, 3. bring it to you, 4. put down the redbull, 5. done.
+Question: Could you get me something caffeinated?
+Answer: 1. find a coke, 2. pick up the coke, 3. bring it to you, 4. put down the coke, 5. done.
+Q: Move a banana to the table.","A: 1. find a banana, 2. pick up the banana, 3. bring it to the table, 4. put down the banana, 5. done.","1. pick up the banana, 2. go to the table, 3. put down the banana, 4. done"
+SayCan,1a,"Question: Go to the table and the counter?
+Answer: 1. go to the table, 2. go to the counter, 3. done
+Question: Can you bring all the drinks on the table?
+Answer: 1. go to the table, 2. pick up the redbull, 3. bring it to you, 4. put down the redbull, 5. go to the table, 6. pick up the 7up, 7. bring it to you, 8. put down the 7up, 9. go to the table, 10. done.
+Q: Move a banana to the table.","A: 1. pick up the banana, 2. bring it to the table, 3. put down the banana, 4. done.","1. pick up the banana, 2. go to the table, 3. put down the banana, 4. done"
+SayCan,2,"Question: I’m exhausted, can you bring me a drink?
+Answer: 1. find a redbull, 2. pick up the redbull, 3. bring it to you, 4. put down the redbull, 5. done.
+Question: Could you get me something caffeinated?
+Answer: 1. find a coke, 2. pick up the coke, 3. bring it to you, 4. put down the coke, 5. done.
+Question: Go to the table and the counter?
+Answer: 1. go to the table, 2. go to the counter, 3. done
+Question: Can you bring all the drinks on the table?
+Answer: 1. go to the table, 2. pick up the redbull, 3. bring it to you, 4. put down the redbull, 5. go to the table, 6. pick up the 7up, 7. bring it to you, 8. put down the 7up, 9. go to the table, 10. done.
+Q: Move a banana to the table.","A: 1. find a banana, 2. pick up the banana, 3. bring it to the table, 4. put down the banana, 5. done.","1. pick up the banana, 2. go to the table, 3. put down the banana, 4. done"
+SayCan,3a,"Question: I’m exhausted, can you bring me a drink?
+Answer: 1. find a redbull, 2. pick up the redbull, 3. bring it to you, 4. put down the redbull, 5. done.
+Question: Could you get me something caffeinated?
+Answer: 1. find a coke, 2. pick up the coke, 3. bring it to you, 4. put down the coke, 5. done.
+Question: I’m exhausted, can you bring me a drink?
+Answer: 1. find a redbull, 2. pick up the redbull, 3. bring it to you, 4. put down the redbull, 5. done.
+Question: Could you get me something caffeinated?
+Answer: 1. find a coke, 2. pick up the coke, 3. bring it to you, 4. put down the coke, 5. done.
+Q: Move a banana to the table.","A: 1. find a banana, 2. pick up the banana, 3. bring it to the table, 4. put down the banana, 5. done.","1. pick up the banana, 2. go to the table, 3. put down the banana, 4. done"
+SayCan,3b,"Question: Go to the table and the counter?
+Answer: 1. go to the table, 2. go to the counter, 3. done
+Question: Can you bring all the drinks on the table?
+Answer: 1. go to the table, 2. pick up the redbull, 3. bring it to you, 4. put down the redbull, 5. go to the table, 6. pick up the 7up, 7. bring it to you, 8. put down the 7up, 9. go to the table, 10. done.
+Question: Go to the table and the counter?
+Answer: 1. go to the table, 2. go to the counter, 3. done
+Question: Can you bring all the drinks on the table?
+Answer: 1. go to the table, 2. pick up the redbull, 3. bring it to you, 4. put down the redbull, 5. go to the table, 6. pick up the 7up, 7. bring it to you, 8. put down the 7up, 9. go to the table, 10. done.
+Q: Move a banana to the table.","A: 1. go to the counter, 2. pick up the banana, 3. bring it to the table, 4. put down the banana, 5. done.","1. pick up the banana, 2. go to the table, 3. put down the banana, 4. done"

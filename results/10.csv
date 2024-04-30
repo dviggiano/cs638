@@ -1,0 +1,391 @@
+Task Class,Case,Prompt,Response,Expected
+Math,1a,"Question: John uses the bathroom every 50 minutes.  How many times does he use the bathroom during a 2.5-hour movie?
+Answer: The movie last 2.5*60=<<2.5*60=150>>150 minutes
+So he uses the bathroom 150/50=<<150/50=3>>3 times
+#### 3
+Question: Karen is planning writing assignments for her fifth grade class. She knows each short-answer question takes 3 minutes to answer, each paragraph takes 15 minutes to write, and each essay takes an hour to write. If Karen assigns 2 essays and 5 paragraphs, how many short-answer questions should she assign if she wants to assign 4 hours of homework total?
+Answer: First figure out how many minutes 4 hours is: 4 hours * 60 minutes/hour = <<4*60=240>>240 minutes
+Then figure out how long the two essays will take by multiplying the time per essay by the number of essays: 2 essays * 1 hour/essay * 60 minutes/hour = <<2*1*60=120>>120 minutes
+Use the same method to find the total time spent writing paragraphs: 15 minutes/paragraph * 5 paragraphs = <<15*5=75>>75 minutes
+Now subtract the time spent on essays and paragraphs from the total time to find the time spent on all the short answer questions: 240 minutes - 120 minutes - 75 minutes = <<240-120-75=45>>45 minutes
+Finally, divide the total time spent on short-answer questions by the time per question to find the number of questions: 45 minutes / 3 minutes/question = <<45/3=15>>15 questions
+#### 15
+Q: Octavia wants to make a quilt for her sister. She is going to build it from small, medium, and large t-shirts that her family is done with. A small t-shirt is 3 square feet of fabric. A medium one is 4 square feet. A large one is 6 square feet. If she uses 11 small shirts, 8 medium, and 6 large shirts, how many square feet is the quilt?","A: First, find the total square footage from the small shirts: 11 shirts * 3 square feet/shirt = 33 square feet
+Next, find the total square footage from the medium shirts: 8 shirts * 4 square feet/shirt = 32 square feet
+Then, find the total square footage from the large shirts: 6 shirts * 6 square feet/shirt = 36 square feet
+Add the square footage from each size of shirt to find the total square footage: 33 square feet + 32 square feet + 36 square feet = 101 square feet
+So, the quilt will be 101 square feet.","The quilt has 33 square feet from small shirts because 11 x 3 = <<11*3=33>>33
+The quilt has 32 square feet from medium shirts because 8 x 4 = <<8*4=32>>32
+The quilt has 36 square feet from large shirts because 6 x 6 = <<6*6=36>>36
+The quilt is 101 square feet because 33 + 32 + 36 = <<33+32+36=101>>101
+#### 101"
+Math,1a,"Question: If it takes 10 people 10 days to shovel 10,000 pounds of coal, how many days will it take half of these ten people to shovel 40,000 pounds of coal?
+Answer: The 10 people shovel 10,000 pounds per 10 days, or 10,000/10=<<10000/10=1000>>1000 pounds per day per 10 people.
+And 1000 pounds per day per 10 people is 1000/10=<<1000/10=100>>100 pounds per day per person.
+Half of ten people is 10/2=<<10/2=5>>5 people.
+At 100 pounds per day per person, 5 people can shovel 5*100=<<5*100=500>>500 pounds per day.
+Therefore, for 5 people to shovel 40,000 pounds, it will take 40,000/500=<<40000/500=80>>80 days.
+#### 80
+Question: Davonte is trying to figure out how much space his art collection takes up. He measures his paintings and finds he has three square 6-foot by 6-foot paintings, four small 2-foot by 3-foot paintings, and one large 10-foot by 15-foot painting. How many square feet does his collection take up?
+Answer: His square paintings take up 36 square feet each because 6 x 6 = <<6*6=36>>36
+His small paintings take 6 square feet each because 2 x 3 = <<2*3=6>>6
+His large painting takes up 150 square feet because 10 x 15 = <<10*15=150>>150.
+Combined, his square paintings take up 108 square feet because 3 x 36 = <<3*36=108>>108
+Combined, his small paintings take up 24 square feet because 4 x 6 = <<4*6=24>>24
+In total, his paintings take up 282 square feet because 150 + 108 + 24 = <<150+108+24=282>>282
+#### 282
+Q: Octavia wants to make a quilt for her sister. She is going to build it from small, medium, and large t-shirts that her family is done with. A small t-shirt is 3 square feet of fabric. A medium one is 4 square feet. A large one is 6 square feet. If she uses 11 small shirts, 8 medium, and 6 large shirts, how many square feet is the quilt?","A small t-shirt is 3 square feet, a medium t-shirt is 4 square feet, and a large t-shirt is 6 square feet.
+
+Octavia has 11 small shirts, so they will cover 11 * 3 = 33 square feet.
+She also has 8 medium shirts, so they will cover 8 * 4 = 32 square feet.
+Finally, she has 6 large shirts, so they will cover 6 * 6 = 36 square feet.
+
+In total, the quilt will be made of 33 + 32 + 36 = 101 square feet of fabric. 
+
+Therefore, the quilt will be 101 square feet in total.
+#### 101 square feet","The quilt has 33 square feet from small shirts because 11 x 3 = <<11*3=33>>33
+The quilt has 32 square feet from medium shirts because 8 x 4 = <<8*4=32>>32
+The quilt has 36 square feet from large shirts because 6 x 6 = <<6*6=36>>36
+The quilt is 101 square feet because 33 + 32 + 36 = <<33+32+36=101>>101
+#### 101"
+Math,2,"Question: John uses the bathroom every 50 minutes.  How many times does he use the bathroom during a 2.5-hour movie?
+Answer: The movie last 2.5*60=<<2.5*60=150>>150 minutes
+So he uses the bathroom 150/50=<<150/50=3>>3 times
+#### 3
+Question: Karen is planning writing assignments for her fifth grade class. She knows each short-answer question takes 3 minutes to answer, each paragraph takes 15 minutes to write, and each essay takes an hour to write. If Karen assigns 2 essays and 5 paragraphs, how many short-answer questions should she assign if she wants to assign 4 hours of homework total?
+Answer: First figure out how many minutes 4 hours is: 4 hours * 60 minutes/hour = <<4*60=240>>240 minutes
+Then figure out how long the two essays will take by multiplying the time per essay by the number of essays: 2 essays * 1 hour/essay * 60 minutes/hour = <<2*1*60=120>>120 minutes
+Use the same method to find the total time spent writing paragraphs: 15 minutes/paragraph * 5 paragraphs = <<15*5=75>>75 minutes
+Now subtract the time spent on essays and paragraphs from the total time to find the time spent on all the short answer questions: 240 minutes - 120 minutes - 75 minutes = <<240-120-75=45>>45 minutes
+Finally, divide the total time spent on short-answer questions by the time per question to find the number of questions: 45 minutes / 3 minutes/question = <<45/3=15>>15 questions
+#### 15
+Question: If it takes 10 people 10 days to shovel 10,000 pounds of coal, how many days will it take half of these ten people to shovel 40,000 pounds of coal?
+Answer: The 10 people shovel 10,000 pounds per 10 days, or 10,000/10=<<10000/10=1000>>1000 pounds per day per 10 people.
+And 1000 pounds per day per 10 people is 1000/10=<<1000/10=100>>100 pounds per day per person.
+Half of ten people is 10/2=<<10/2=5>>5 people.
+At 100 pounds per day per person, 5 people can shovel 5*100=<<5*100=500>>500 pounds per day.
+Therefore, for 5 people to shovel 40,000 pounds, it will take 40,000/500=<<40000/500=80>>80 days.
+#### 80
+Question: Davonte is trying to figure out how much space his art collection takes up. He measures his paintings and finds he has three square 6-foot by 6-foot paintings, four small 2-foot by 3-foot paintings, and one large 10-foot by 15-foot painting. How many square feet does his collection take up?
+Answer: His square paintings take up 36 square feet each because 6 x 6 = <<6*6=36>>36
+His small paintings take 6 square feet each because 2 x 3 = <<2*3=6>>6
+His large painting takes up 150 square feet because 10 x 15 = <<10*15=150>>150.
+Combined, his square paintings take up 108 square feet because 3 x 36 = <<3*36=108>>108
+Combined, his small paintings take up 24 square feet because 4 x 6 = <<4*6=24>>24
+In total, his paintings take up 282 square feet because 150 + 108 + 24 = <<150+108+24=282>>282
+#### 282
+Q: Octavia wants to make a quilt for her sister. She is going to build it from small, medium, and large t-shirts that her family is done with. A small t-shirt is 3 square feet of fabric. A medium one is 4 square feet. A large one is 6 square feet. If she uses 11 small shirts, 8 medium, and 6 large shirts, how many square feet is the quilt?","A small shirt is 3 square feet, so 11 small shirts would be 11 * 3 = 33 square feet.
+A medium shirt is 4 square feet, so 8 medium shirts would be 8 * 4 = 32 square feet.
+A large shirt is 6 square feet, so 6 large shirts would be 6 * 6 = 36 square feet.
+Therefore, the quilt would be a total of 33 + 32 + 36 = 101 square feet.","The quilt has 33 square feet from small shirts because 11 x 3 = <<11*3=33>>33
+The quilt has 32 square feet from medium shirts because 8 x 4 = <<8*4=32>>32
+The quilt has 36 square feet from large shirts because 6 x 6 = <<6*6=36>>36
+The quilt is 101 square feet because 33 + 32 + 36 = <<33+32+36=101>>101
+#### 101"
+Math,3a,"Question: John uses the bathroom every 50 minutes.  How many times does he use the bathroom during a 2.5-hour movie?
+Answer: The movie last 2.5*60=<<2.5*60=150>>150 minutes
+So he uses the bathroom 150/50=<<150/50=3>>3 times
+#### 3
+Question: Karen is planning writing assignments for her fifth grade class. She knows each short-answer question takes 3 minutes to answer, each paragraph takes 15 minutes to write, and each essay takes an hour to write. If Karen assigns 2 essays and 5 paragraphs, how many short-answer questions should she assign if she wants to assign 4 hours of homework total?
+Answer: First figure out how many minutes 4 hours is: 4 hours * 60 minutes/hour = <<4*60=240>>240 minutes
+Then figure out how long the two essays will take by multiplying the time per essay by the number of essays: 2 essays * 1 hour/essay * 60 minutes/hour = <<2*1*60=120>>120 minutes
+Use the same method to find the total time spent writing paragraphs: 15 minutes/paragraph * 5 paragraphs = <<15*5=75>>75 minutes
+Now subtract the time spent on essays and paragraphs from the total time to find the time spent on all the short answer questions: 240 minutes - 120 minutes - 75 minutes = <<240-120-75=45>>45 minutes
+Finally, divide the total time spent on short-answer questions by the time per question to find the number of questions: 45 minutes / 3 minutes/question = <<45/3=15>>15 questions
+#### 15
+Question: John uses the bathroom every 50 minutes.  How many times does he use the bathroom during a 2.5-hour movie?
+Answer: The movie last 2.5*60=<<2.5*60=150>>150 minutes
+So he uses the bathroom 150/50=<<150/50=3>>3 times
+#### 3
+Question: Karen is planning writing assignments for her fifth grade class. She knows each short-answer question takes 3 minutes to answer, each paragraph takes 15 minutes to write, and each essay takes an hour to write. If Karen assigns 2 essays and 5 paragraphs, how many short-answer questions should she assign if she wants to assign 4 hours of homework total?
+Answer: First figure out how many minutes 4 hours is: 4 hours * 60 minutes/hour = <<4*60=240>>240 minutes
+Then figure out how long the two essays will take by multiplying the time per essay by the number of essays: 2 essays * 1 hour/essay * 60 minutes/hour = <<2*1*60=120>>120 minutes
+Use the same method to find the total time spent writing paragraphs: 15 minutes/paragraph * 5 paragraphs = <<15*5=75>>75 minutes
+Now subtract the time spent on essays and paragraphs from the total time to find the time spent on all the short answer questions: 240 minutes - 120 minutes - 75 minutes = <<240-120-75=45>>45 minutes
+Finally, divide the total time spent on short-answer questions by the time per question to find the number of questions: 45 minutes / 3 minutes/question = <<45/3=15>>15 questions
+#### 15
+Q: Octavia wants to make a quilt for her sister. She is going to build it from small, medium, and large t-shirts that her family is done with. A small t-shirt is 3 square feet of fabric. A medium one is 4 square feet. A large one is 6 square feet. If she uses 11 small shirts, 8 medium, and 6 large shirts, how many square feet is the quilt?","A: First calculate the total square feet from the small shirts: 3 square feet * 11 shirts = 33 square feet
+Next, calculate the total square feet from the medium shirts: 4 square feet * 8 shirts = 32 square feet
+Then calculate the total square feet from the large shirts: 6 square feet * 6 shirts = 36 square feet
+Add the square feet from each size of shirt to find the total square feet: 33 square feet + 32 square feet + 36 square feet = 101 square feet
+So, the quilt will be 101 square feet.","The quilt has 33 square feet from small shirts because 11 x 3 = <<11*3=33>>33
+The quilt has 32 square feet from medium shirts because 8 x 4 = <<8*4=32>>32
+The quilt has 36 square feet from large shirts because 6 x 6 = <<6*6=36>>36
+The quilt is 101 square feet because 33 + 32 + 36 = <<33+32+36=101>>101
+#### 101"
+Math,3b,"Question: If it takes 10 people 10 days to shovel 10,000 pounds of coal, how many days will it take half of these ten people to shovel 40,000 pounds of coal?
+Answer: The 10 people shovel 10,000 pounds per 10 days, or 10,000/10=<<10000/10=1000>>1000 pounds per day per 10 people.
+And 1000 pounds per day per 10 people is 1000/10=<<1000/10=100>>100 pounds per day per person.
+Half of ten people is 10/2=<<10/2=5>>5 people.
+At 100 pounds per day per person, 5 people can shovel 5*100=<<5*100=500>>500 pounds per day.
+Therefore, for 5 people to shovel 40,000 pounds, it will take 40,000/500=<<40000/500=80>>80 days.
+#### 80
+Question: Davonte is trying to figure out how much space his art collection takes up. He measures his paintings and finds he has three square 6-foot by 6-foot paintings, four small 2-foot by 3-foot paintings, and one large 10-foot by 15-foot painting. How many square feet does his collection take up?
+Answer: His square paintings take up 36 square feet each because 6 x 6 = <<6*6=36>>36
+His small paintings take 6 square feet each because 2 x 3 = <<2*3=6>>6
+His large painting takes up 150 square feet because 10 x 15 = <<10*15=150>>150.
+Combined, his square paintings take up 108 square feet because 3 x 36 = <<3*36=108>>108
+Combined, his small paintings take up 24 square feet because 4 x 6 = <<4*6=24>>24
+In total, his paintings take up 282 square feet because 150 + 108 + 24 = <<150+108+24=282>>282
+#### 282
+Question: If it takes 10 people 10 days to shovel 10,000 pounds of coal, how many days will it take half of these ten people to shovel 40,000 pounds of coal?
+Answer: The 10 people shovel 10,000 pounds per 10 days, or 10,000/10=<<10000/10=1000>>1000 pounds per day per 10 people.
+And 1000 pounds per day per 10 people is 1000/10=<<1000/10=100>>100 pounds per day per person.
+Half of ten people is 10/2=<<10/2=5>>5 people.
+At 100 pounds per day per person, 5 people can shovel 5*100=<<5*100=500>>500 pounds per day.
+Therefore, for 5 people to shovel 40,000 pounds, it will take 40,000/500=<<40000/500=80>>80 days.
+#### 80
+Question: Davonte is trying to figure out how much space his art collection takes up. He measures his paintings and finds he has three square 6-foot by 6-foot paintings, four small 2-foot by 3-foot paintings, and one large 10-foot by 15-foot painting. How many square feet does his collection take up?
+Answer: His square paintings take up 36 square feet each because 6 x 6 = <<6*6=36>>36
+His small paintings take 6 square feet each because 2 x 3 = <<2*3=6>>6
+His large painting takes up 150 square feet because 10 x 15 = <<10*15=150>>150.
+Combined, his square paintings take up 108 square feet because 3 x 36 = <<3*36=108>>108
+Combined, his small paintings take up 24 square feet because 4 x 6 = <<4*6=24>>24
+In total, his paintings take up 282 square feet because 150 + 108 + 24 = <<150+108+24=282>>282
+#### 282
+Q: Octavia wants to make a quilt for her sister. She is going to build it from small, medium, and large t-shirts that her family is done with. A small t-shirt is 3 square feet of fabric. A medium one is 4 square feet. A large one is 6 square feet. If she uses 11 small shirts, 8 medium, and 6 large shirts, how many square feet is the quilt?","A small shirt is 3 square feet, so 11 small shirts would be 3 x 11 = <<3*11=33>>33 square feet.
+A medium shirt is 4 square feet, so 8 medium shirts would be 4 x 8 = <<4*8=32>>32 square feet.
+A large shirt is 6 square feet, so 6 large shirts would be 6 x 6 = <<6*6=36>>36 square feet.
+In total, the quilt would be 33 + 32 + 36 = <<33+32+36=101>>101 square feet.
+Therefore, the quilt would be 101 square feet in total.","The quilt has 33 square feet from small shirts because 11 x 3 = <<11*3=33>>33
+The quilt has 32 square feet from medium shirts because 8 x 4 = <<8*4=32>>32
+The quilt has 36 square feet from large shirts because 6 x 6 = <<6*6=36>>36
+The quilt is 101 square feet because 33 + 32 + 36 = <<33+32+36=101>>101
+#### 101"
+CSQA,1a,"Question: The young attractive people began drinking alcohol, with their inhibitions lowered it wasn't long before they were what?
+A: disorientation
+B: having sex
+C: throwing up
+D: calling uber
+E: frequent urination
+Answer: B
+Question: Why might someone without much to do keep driving?
+A: boredom
+B: enjoy
+C: moving
+D: fatigue
+E: injuries
+Answer: A
+Q: The fox walked from the city into the forest, what was it looking for?
+A: pretty flowers.
+B: hen house
+C: natural habitat
+D: storybook
+E: dense forest",Answer: B,C
+CSQA,1a,"Question: Where would you find a sloth that is not afraid of being hunted?
+A: forest canopy
+B: nature preserve
+C: zoo
+D: tropical rainforest
+E: commercial
+Answer: B
+Question: Where in Northern Europe would you find many canals?
+A: sydney
+B: bridge
+C: amsterdam
+D: venice
+E: michigan
+Answer: C
+Q: The fox walked from the city into the forest, what was it looking for?
+A: pretty flowers.
+B: hen house
+C: natural habitat
+D: storybook
+E: dense forest",A: pretty flowers.,C
+CSQA,2,"Question: The young attractive people began drinking alcohol, with their inhibitions lowered it wasn't long before they were what?
+A: disorientation
+B: having sex
+C: throwing up
+D: calling uber
+E: frequent urination
+Answer: B
+Question: Why might someone without much to do keep driving?
+A: boredom
+B: enjoy
+C: moving
+D: fatigue
+E: injuries
+Answer: A
+Question: Where would you find a sloth that is not afraid of being hunted?
+A: forest canopy
+B: nature preserve
+C: zoo
+D: tropical rainforest
+E: commercial
+Answer: B
+Question: Where in Northern Europe would you find many canals?
+A: sydney
+B: bridge
+C: amsterdam
+D: venice
+E: michigan
+Answer: C
+Q: The fox walked from the city into the forest, what was it looking for?
+A: pretty flowers.
+B: hen house
+C: natural habitat
+D: storybook
+E: dense forest",Answer: C,C
+CSQA,3a,"Question: The young attractive people began drinking alcohol, with their inhibitions lowered it wasn't long before they were what?
+A: disorientation
+B: having sex
+C: throwing up
+D: calling uber
+E: frequent urination
+Answer: B
+Question: Why might someone without much to do keep driving?
+A: boredom
+B: enjoy
+C: moving
+D: fatigue
+E: injuries
+Answer: A
+Question: The young attractive people began drinking alcohol, with their inhibitions lowered it wasn't long before they were what?
+A: disorientation
+B: having sex
+C: throwing up
+D: calling uber
+E: frequent urination
+Answer: B
+Question: Why might someone without much to do keep driving?
+A: boredom
+B: enjoy
+C: moving
+D: fatigue
+E: injuries
+Answer: A
+Q: The fox walked from the city into the forest, what was it looking for?
+A: pretty flowers.
+B: hen house
+C: natural habitat
+D: storybook
+E: dense forest",Answer: B,C
+CSQA,3b,"Question: Where would you find a sloth that is not afraid of being hunted?
+A: forest canopy
+B: nature preserve
+C: zoo
+D: tropical rainforest
+E: commercial
+Answer: B
+Question: Where in Northern Europe would you find many canals?
+A: sydney
+B: bridge
+C: amsterdam
+D: venice
+E: michigan
+Answer: C
+Question: Where would you find a sloth that is not afraid of being hunted?
+A: forest canopy
+B: nature preserve
+C: zoo
+D: tropical rainforest
+E: commercial
+Answer: B
+Question: Where in Northern Europe would you find many canals?
+A: sydney
+B: bridge
+C: amsterdam
+D: venice
+E: michigan
+Answer: C
+Q: The fox walked from the city into the forest, what was it looking for?
+A: pretty flowers.
+B: hen house
+C: natural habitat
+D: storybook
+E: dense forest",Answer: B,C
+StrategyQA,1a,"Question: Kaffir limes are citrus fruits originating in tropical climates. The Kaffir lime leaves and rind emit an intense citrus fragrance when crushed up. Yankee Candle, one of the largest candle companies, sells several popular varieties of citrus candles. Sage and Citrus is one of the highest rated scents that Yankee Candle sells.
+Would a kaffir lime be a good ingredient for making a candle?
+Answer: True
+Question: In 2010, the Spirit rover sent what is recorded as its final transmission. In 2019, another rover made the news with its viral ""final words""
+Would a broadcast from Spirit make the news in 2020?
+Answer: True
+Q: The father of social security system is Franklin D. Roosevelt.  Franklin D. Roosevelt was in Columbia Law School in 1907. 
+Was the father of social security system serving in the white house during the Panic of 1907?",A: False,False
+StrategyQA,1a,"Question: The width of the Golden Gate Bridge is 90 feet.  A baker's dozen includes 13 items. The width of a Mac truck is around 8 feet.
+Would baker's dozen of side by side Mac Trucks jam up Golden Gate Bridge?
+Answer: True
+Question: An ocelot can run up to 61 kilometers per hour. Kindergartners are human children usually aged five to six years old. Human children under 10 are not likely to exceed 20 kilometers per hour.
+Could an ocelot outrun a kindergartner? 
+Answer: True
+Q: The father of social security system is Franklin D. Roosevelt.  Franklin D. Roosevelt was in Columbia Law School in 1907. 
+Was the father of social security system serving in the white house during the Panic of 1907?",Answer: False,False
+StrategyQA,2,"Question: Kaffir limes are citrus fruits originating in tropical climates. The Kaffir lime leaves and rind emit an intense citrus fragrance when crushed up. Yankee Candle, one of the largest candle companies, sells several popular varieties of citrus candles. Sage and Citrus is one of the highest rated scents that Yankee Candle sells.
+Would a kaffir lime be a good ingredient for making a candle?
+Answer: True
+Question: In 2010, the Spirit rover sent what is recorded as its final transmission. In 2019, another rover made the news with its viral ""final words""
+Would a broadcast from Spirit make the news in 2020?
+Answer: True
+Question: The width of the Golden Gate Bridge is 90 feet.  A baker's dozen includes 13 items. The width of a Mac truck is around 8 feet.
+Would baker's dozen of side by side Mac Trucks jam up Golden Gate Bridge?
+Answer: True
+Question: An ocelot can run up to 61 kilometers per hour. Kindergartners are human children usually aged five to six years old. Human children under 10 are not likely to exceed 20 kilometers per hour.
+Could an ocelot outrun a kindergartner? 
+Answer: True
+Q: The father of social security system is Franklin D. Roosevelt.  Franklin D. Roosevelt was in Columbia Law School in 1907. 
+Was the father of social security system serving in the white house during the Panic of 1907?",A: False,False
+StrategyQA,3a,"Question: Kaffir limes are citrus fruits originating in tropical climates. The Kaffir lime leaves and rind emit an intense citrus fragrance when crushed up. Yankee Candle, one of the largest candle companies, sells several popular varieties of citrus candles. Sage and Citrus is one of the highest rated scents that Yankee Candle sells.
+Would a kaffir lime be a good ingredient for making a candle?
+Answer: True
+Question: In 2010, the Spirit rover sent what is recorded as its final transmission. In 2019, another rover made the news with its viral ""final words""
+Would a broadcast from Spirit make the news in 2020?
+Answer: True
+Question: Kaffir limes are citrus fruits originating in tropical climates. The Kaffir lime leaves and rind emit an intense citrus fragrance when crushed up. Yankee Candle, one of the largest candle companies, sells several popular varieties of citrus candles. Sage and Citrus is one of the highest rated scents that Yankee Candle sells.
+Would a kaffir lime be a good ingredient for making a candle?
+Answer: True
+Question: In 2010, the Spirit rover sent what is recorded as its final transmission. In 2019, another rover made the news with its viral ""final words""
+Would a broadcast from Spirit make the news in 2020?
+Answer: True
+Q: The father of social security system is Franklin D. Roosevelt.  Franklin D. Roosevelt was in Columbia Law School in 1907. 
+Was the father of social security system serving in the white house during the Panic of 1907?",A: False,False
+StrategyQA,3b,"Question: The width of the Golden Gate Bridge is 90 feet.  A baker's dozen includes 13 items. The width of a Mac truck is around 8 feet.
+Would baker's dozen of side by side Mac Trucks jam up Golden Gate Bridge?
+Answer: True
+Question: An ocelot can run up to 61 kilometers per hour. Kindergartners are human children usually aged five to six years old. Human children under 10 are not likely to exceed 20 kilometers per hour.
+Could an ocelot outrun a kindergartner? 
+Answer: True
+Question: The width of the Golden Gate Bridge is 90 feet.  A baker's dozen includes 13 items. The width of a Mac truck is around 8 feet.
+Would baker's dozen of side by side Mac Trucks jam up Golden Gate Bridge?
+Answer: True
+Question: An ocelot can run up to 61 kilometers per hour. Kindergartners are human children usually aged five to six years old. Human children under 10 are not likely to exceed 20 kilometers per hour.
+Could an ocelot outrun a kindergartner? 
+Answer: True
+Q: The father of social security system is Franklin D. Roosevelt.  Franklin D. Roosevelt was in Columbia Law School in 1907. 
+Was the father of social security system serving in the white house during the Panic of 1907?",Answer: False,False
+SayCan,1a,"Question: Clear the jalapeno chips off the close counter
+Answer: 1. find the jalapeno chips, 2. pick up the jalapeno chips, 3. go to the trash, 4. put down the jalapeno chips, 5. done
+Question: How would you put a bag of chips and water bottle on the table?
+Answer: 1. find the bag of chips, 2. pick up the bag of chips, 3. go to the table, 4. put down the bag of chips, 5. find a water bottle, 6. pick up the water bottle, 7. go to the table, 8. put down the water bottle, 9. done
+Q: Clean off the table.","A: 1. gather any dishes, trash, or other items on the table, 2. wipe down the table with a damp cloth or cleaning spray, 3. remove any crumbs or debris, 4. replace any items that belong on the table, 5. done","1. go to the table, 2. pick up the orange, 3. go to the trash, 4. put down the orange, 5. go to the table, 6. pick up the rice chips, 7. go to the trash, 8. put down the rice chips, 9. done"
+SayCan,1a,"Question: Can you bring me something salty?
+Answer: 1. find a sea salt chips, 2. pick up the sea salt chips, 3. bring it to you, 4. put down the sea salt chips, 5. done.
+Question: Bring me an apple from the drawer.
+Answer: 1. go to the drawer, 2. open the drawer, 3. pick up the apple, 4. close the drawer, 5. bring it to you, 6. put down the apple, 7. done
+Q: Clean off the table.","A: 1. gather cleaning supplies, 2. remove all items from the table, 3. wipe down the table surface, 4. put back items on the table, 5. clean off the table, 6. done.","1. go to the table, 2. pick up the orange, 3. go to the trash, 4. put down the orange, 5. go to the table, 6. pick up the rice chips, 7. go to the trash, 8. put down the rice chips, 9. done"
+SayCan,2,"Question: Clear the jalapeno chips off the close counter
+Answer: 1. find the jalapeno chips, 2. pick up the jalapeno chips, 3. go to the trash, 4. put down the jalapeno chips, 5. done
+Question: How would you put a bag of chips and water bottle on the table?
+Answer: 1. find the bag of chips, 2. pick up the bag of chips, 3. go to the table, 4. put down the bag of chips, 5. find a water bottle, 6. pick up the water bottle, 7. go to the table, 8. put down the water bottle, 9. done
+Question: Can you bring me something salty?
+Answer: 1. find a sea salt chips, 2. pick up the sea salt chips, 3. bring it to you, 4. put down the sea salt chips, 5. done.
+Question: Bring me an apple from the drawer.
+Answer: 1. go to the drawer, 2. open the drawer, 3. pick up the apple, 4. close the drawer, 5. bring it to you, 6. put down the apple, 7. done
+Q: Clean off the table.","A: 1. clear off any dishes or items on the table, 2. wipe down the table with a damp cloth, 3. put away any items that don't belong on the table, 4. organize the remaining items neatly on the table, 5. done.","1. go to the table, 2. pick up the orange, 3. go to the trash, 4. put down the orange, 5. go to the table, 6. pick up the rice chips, 7. go to the trash, 8. put down the rice chips, 9. done"
+SayCan,3a,"Question: Clear the jalapeno chips off the close counter
+Answer: 1. find the jalapeno chips, 2. pick up the jalapeno chips, 3. go to the trash, 4. put down the jalapeno chips, 5. done
+Question: How would you put a bag of chips and water bottle on the table?
+Answer: 1. find the bag of chips, 2. pick up the bag of chips, 3. go to the table, 4. put down the bag of chips, 5. find a water bottle, 6. pick up the water bottle, 7. go to the table, 8. put down the water bottle, 9. done
+Question: Clear the jalapeno chips off the close counter
+Answer: 1. find the jalapeno chips, 2. pick up the jalapeno chips, 3. go to the trash, 4. put down the jalapeno chips, 5. done
+Question: How would you put a bag of chips and water bottle on the table?
+Answer: 1. find the bag of chips, 2. pick up the bag of chips, 3. go to the table, 4. put down the bag of chips, 5. find a water bottle, 6. pick up the water bottle, 7. go to the table, 8. put down the water bottle, 9. done
+Q: Clean off the table.","A: 1. Clear off any dishes or items on the table, 2. Wipe down the table with a damp cloth, 3. Put away any items that don't belong on the table, 4. Ensure the table is clean and organized, 5. Done","1. go to the table, 2. pick up the orange, 3. go to the trash, 4. put down the orange, 5. go to the table, 6. pick up the rice chips, 7. go to the trash, 8. put down the rice chips, 9. done"
+SayCan,3b,"Question: Can you bring me something salty?
+Answer: 1. find a sea salt chips, 2. pick up the sea salt chips, 3. bring it to you, 4. put down the sea salt chips, 5. done.
+Question: Bring me an apple from the drawer.
+Answer: 1. go to the drawer, 2. open the drawer, 3. pick up the apple, 4. close the drawer, 5. bring it to you, 6. put down the apple, 7. done
+Question: Can you bring me something salty?
+Answer: 1. find a sea salt chips, 2. pick up the sea salt chips, 3. bring it to you, 4. put down the sea salt chips, 5. done.
+Question: Bring me an apple from the drawer.
+Answer: 1. go to the drawer, 2. open the drawer, 3. pick up the apple, 4. close the drawer, 5. bring it to you, 6. put down the apple, 7. done
+Q: Clean off the table.","A: 1. gather cleaning supplies, 2. wipe down the table, 3. remove any items on the table, 4. clean the surface thoroughly, 5. put items back on the table, 6. done.","1. go to the table, 2. pick up the orange, 3. go to the trash, 4. put down the orange, 5. go to the table, 6. pick up the rice chips, 7. go to the trash, 8. put down the rice chips, 9. done"
