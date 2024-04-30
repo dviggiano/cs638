@@ -1,0 +1,401 @@
+Task Class,Case,Prompt,Response,Expected
+Math,0,Question: Grayson recycles cans and bottles for money each week. An aluminum can is worth two cents and a plastic bottle is worth three cents. She drinks three aluminum cans of soda and five plastic bottles of water a week. How many cents does Grayson earn from recycling in a four-week month?,"Grayson earns:
+3 aluminum cans * 2 cents per can = 6 cents from aluminum cans per week
+5 plastic bottles * 3 cents per bottle = 15 cents from plastic bottles per week
+Total earnings per week = 6 cents + 15 cents = 21 cents
+Total earnings in a four-week month = 21 cents/week * 4 weeks = 84 cents
+
+Therefore, Grayson earns 84 cents from recycling in a four-week month.","Grayson earns 2 * 3 = <<2*3=6>>6 cents from soda cans a week.
+She earns 3 * 5 = <<3*5=15>>15 cents from water bottles a week.
+Thus, she earns 6 + 15 = <<6+15=21>>21 cents from recycling each week.
+In a four week month, she earns 21 * 4 = <<21*4=84>>84 cents from recycling.
+#### 84"
+Math,1a,"Question: Arven bought five puppies for a total cost of $800. Three puppies are on sale for $150 each. How much does each of those two other puppies cost if they cost the same?
+Answer: Three puppies on sale cost $150 x 3 = $<<150*3=450>>450.
+The other two puppies cost $800 - $450 = $<<800-450=350>>350.
+So, each of those two other puppies cost $350/2 = $<<350/2=175>>175.
+#### 175
+Question: Francine wants to know if a local chemical plant is releasing toxic waste that makes the frogs mutate. In one local pond, she catches 5 frogs with extra legs, 2 frogs with 2 heads, two frogs that are bright red, and 18 normal frogs. What percentage of the frogs have mutated, rounded to the nearest integer?
+Answer: First add up the numbers of the three kinds of mutant frog: 5 frogs + 2 frogs + 2 frogs = <<5+2+2=9>>9 frogs
+Then add that number to the number of normal frogs to find the total number of frogs: 9 frogs + 18 frogs = <<9+18=27>>27 frogs
+Finally, divide the number of mutant frogs by the total number of frogs and multiply by 100% to find the percentage of frogs that are mutants: 9 frogs / 27 frogs * 100% = 33.333...%, which rounds to 33%
+#### 33
+Question: Grayson recycles cans and bottles for money each week. An aluminum can is worth two cents and a plastic bottle is worth three cents. She drinks three aluminum cans of soda and five plastic bottles of water a week. How many cents does Grayson earn from recycling in a four-week month?","Answer: Grayson earns (3 cans * 2 cents/can) + (5 bottles * 3 cents/bottle) = 6 cents + 15 cents = 21 cents per week.
+In a four-week month, she earns 21 cents/week * 4 weeks/month = 84 cents.
+Therefore, Grayson earns 84 cents from recycling in a four-week month.","Grayson earns 2 * 3 = <<2*3=6>>6 cents from soda cans a week.
+She earns 3 * 5 = <<3*5=15>>15 cents from water bottles a week.
+Thus, she earns 6 + 15 = <<6+15=21>>21 cents from recycling each week.
+In a four week month, she earns 21 * 4 = <<21*4=84>>84 cents from recycling.
+#### 84"
+Math,1b,"Question: Thomas wants to throw a party for his best friend Casey. He needs to order enough chairs for all the party guests to sit in, one for each guest. First he orders 3 dozen chairs for 3 dozen guests he invites. Then he finds out that 1/3 of the guests want to bring a guest of their own, so Thomas needs to order more chairs. Eventually, Thomas finds out that 5 of the guests he originally invited can't make it. Thomas would also like to order 12 extra chairs just in case they need them. How many chairs is Thomas going to order for Casey's party?
+Answer: Thomas originally orders chairs for 3 dozen guests, 12 x 3 = 36 guests
+Thomas finds out that 1/3 of the guests want to bring a guest of their own, 1/3 of 36 = <<1/3*36=12>>12
+The 12 guests bring a guest of their own each, 36 guests + 12 guests = <<36+12=48>>48
+Thomas finds out that 20 of the guests can't make it, 48 guests - 5 guests = 43
+Thomas wants to order an extra 12 chairs, 43 + 12 = <<43+12=55>>55
+Thomas will need 55 chairs for the party.
+#### 55
+Question: Clinton has twice as many shoes in his wardrobe as belts.  He has 2 more belts than hats and currently has 5 hats.  How many shoes does Clinton have?
+Answer: He has 2 more belts than hats and he has 5 hats so he has 2+5 = <<2+5=7>>7 belts
+He has twice as many shoes as belts and he has 7 belts so he has 2*7 = <<2*7=14>>14 shoes
+#### 14
+Question: Grayson recycles cans and bottles for money each week. An aluminum can is worth two cents and a plastic bottle is worth three cents. She drinks three aluminum cans of soda and five plastic bottles of water a week. How many cents does Grayson earn from recycling in a four-week month?","Answer: Grayson earns 2 cents per aluminum can and drinks 3 cans a week, so she earns 2*3 = <<2*3=6>>6 cents from the aluminum cans each week.
+She earns 3 cents per plastic bottle and drinks 5 bottles a week, so she earns 3*5 = <<3*5=15>>15 cents from the plastic bottles each week.
+In total, Grayson earns 6+15 = <<6+15=21>>21 cents from recycling each week.
+In a four-week month, Grayson earns 21 cents/week * 4 weeks/month = <<21*4=84>>84 cents.
+#### 84","Grayson earns 2 * 3 = <<2*3=6>>6 cents from soda cans a week.
+She earns 3 * 5 = <<3*5=15>>15 cents from water bottles a week.
+Thus, she earns 6 + 15 = <<6+15=21>>21 cents from recycling each week.
+In a four week month, she earns 21 * 4 = <<21*4=84>>84 cents from recycling.
+#### 84"
+Math,2,"Question: Arven bought five puppies for a total cost of $800. Three puppies are on sale for $150 each. How much does each of those two other puppies cost if they cost the same?
+Answer: Three puppies on sale cost $150 x 3 = $<<150*3=450>>450.
+The other two puppies cost $800 - $450 = $<<800-450=350>>350.
+So, each of those two other puppies cost $350/2 = $<<350/2=175>>175.
+#### 175
+Question: Francine wants to know if a local chemical plant is releasing toxic waste that makes the frogs mutate. In one local pond, she catches 5 frogs with extra legs, 2 frogs with 2 heads, two frogs that are bright red, and 18 normal frogs. What percentage of the frogs have mutated, rounded to the nearest integer?
+Answer: First add up the numbers of the three kinds of mutant frog: 5 frogs + 2 frogs + 2 frogs = <<5+2+2=9>>9 frogs
+Then add that number to the number of normal frogs to find the total number of frogs: 9 frogs + 18 frogs = <<9+18=27>>27 frogs
+Finally, divide the number of mutant frogs by the total number of frogs and multiply by 100% to find the percentage of frogs that are mutants: 9 frogs / 27 frogs * 100% = 33.333...%, which rounds to 33%
+#### 33
+Question: Thomas wants to throw a party for his best friend Casey. He needs to order enough chairs for all the party guests to sit in, one for each guest. First he orders 3 dozen chairs for 3 dozen guests he invites. Then he finds out that 1/3 of the guests want to bring a guest of their own, so Thomas needs to order more chairs. Eventually, Thomas finds out that 5 of the guests he originally invited can't make it. Thomas would also like to order 12 extra chairs just in case they need them. How many chairs is Thomas going to order for Casey's party?
+Answer: Thomas originally orders chairs for 3 dozen guests, 12 x 3 = 36 guests
+Thomas finds out that 1/3 of the guests want to bring a guest of their own, 1/3 of 36 = <<1/3*36=12>>12
+The 12 guests bring a guest of their own each, 36 guests + 12 guests = <<36+12=48>>48
+Thomas finds out that 20 of the guests can't make it, 48 guests - 5 guests = 43
+Thomas wants to order an extra 12 chairs, 43 + 12 = <<43+12=55>>55
+Thomas will need 55 chairs for the party.
+#### 55
+Question: Clinton has twice as many shoes in his wardrobe as belts.  He has 2 more belts than hats and currently has 5 hats.  How many shoes does Clinton have?
+Answer: He has 2 more belts than hats and he has 5 hats so he has 2+5 = <<2+5=7>>7 belts
+He has twice as many shoes as belts and he has 7 belts so he has 2*7 = <<2*7=14>>14 shoes
+#### 14
+Question: Grayson recycles cans and bottles for money each week. An aluminum can is worth two cents and a plastic bottle is worth three cents. She drinks three aluminum cans of soda and five plastic bottles of water a week. How many cents does Grayson earn from recycling in a four-week month?","Answer: Grayson earns 3 cans x $0.02 = $0.06 from recycling aluminum cans each week.
+Grayson earns 5 bottles x $0.03 = $0.15 from recycling plastic bottles each week.
+In a week, Grayson earns a total of $0.06 + $0.15 = $0.21 from recycling.
+In a four-week month, Grayson earns $0.21 x 4 weeks = $0.84 from recycling.
+Therefore, Grayson earns 84 cents in a four-week month from recycling.","Grayson earns 2 * 3 = <<2*3=6>>6 cents from soda cans a week.
+She earns 3 * 5 = <<3*5=15>>15 cents from water bottles a week.
+Thus, she earns 6 + 15 = <<6+15=21>>21 cents from recycling each week.
+In a four week month, she earns 21 * 4 = <<21*4=84>>84 cents from recycling.
+#### 84"
+Math,3a,"Question: Arven bought five puppies for a total cost of $800. Three puppies are on sale for $150 each. How much does each of those two other puppies cost if they cost the same?
+Answer: Three puppies on sale cost $150 x 3 = $<<150*3=450>>450.
+The other two puppies cost $800 - $450 = $<<800-450=350>>350.
+So, each of those two other puppies cost $350/2 = $<<350/2=175>>175.
+#### 175
+Question: Francine wants to know if a local chemical plant is releasing toxic waste that makes the frogs mutate. In one local pond, she catches 5 frogs with extra legs, 2 frogs with 2 heads, two frogs that are bright red, and 18 normal frogs. What percentage of the frogs have mutated, rounded to the nearest integer?
+Answer: First add up the numbers of the three kinds of mutant frog: 5 frogs + 2 frogs + 2 frogs = <<5+2+2=9>>9 frogs
+Then add that number to the number of normal frogs to find the total number of frogs: 9 frogs + 18 frogs = <<9+18=27>>27 frogs
+Finally, divide the number of mutant frogs by the total number of frogs and multiply by 100% to find the percentage of frogs that are mutants: 9 frogs / 27 frogs * 100% = 33.333...%, which rounds to 33%
+#### 33
+Question: Arven bought five puppies for a total cost of $800. Three puppies are on sale for $150 each. How much does each of those two other puppies cost if they cost the same?
+Answer: Three puppies on sale cost $150 x 3 = $<<150*3=450>>450.
+The other two puppies cost $800 - $450 = $<<800-450=350>>350.
+So, each of those two other puppies cost $350/2 = $<<350/2=175>>175.
+#### 175
+Question: Francine wants to know if a local chemical plant is releasing toxic waste that makes the frogs mutate. In one local pond, she catches 5 frogs with extra legs, 2 frogs with 2 heads, two frogs that are bright red, and 18 normal frogs. What percentage of the frogs have mutated, rounded to the nearest integer?
+Answer: First add up the numbers of the three kinds of mutant frog: 5 frogs + 2 frogs + 2 frogs = <<5+2+2=9>>9 frogs
+Then add that number to the number of normal frogs to find the total number of frogs: 9 frogs + 18 frogs = <<9+18=27>>27 frogs
+Finally, divide the number of mutant frogs by the total number of frogs and multiply by 100% to find the percentage of frogs that are mutants: 9 frogs / 27 frogs * 100% = 33.333...%, which rounds to 33%
+#### 33
+Question: Grayson recycles cans and bottles for money each week. An aluminum can is worth two cents and a plastic bottle is worth three cents. She drinks three aluminum cans of soda and five plastic bottles of water a week. How many cents does Grayson earn from recycling in a four-week month?","Answer: Grayson earns 3 cans x 2 cents per can + 5 bottles x 3 cents per bottle = 6 cents + 15 cents = 21 cents per week.
+In a four-week month, Grayson earns 21 cents x 4 weeks = 84 cents from recycling.","Grayson earns 2 * 3 = <<2*3=6>>6 cents from soda cans a week.
+She earns 3 * 5 = <<3*5=15>>15 cents from water bottles a week.
+Thus, she earns 6 + 15 = <<6+15=21>>21 cents from recycling each week.
+In a four week month, she earns 21 * 4 = <<21*4=84>>84 cents from recycling.
+#### 84"
+Math,3b,"Question: Thomas wants to throw a party for his best friend Casey. He needs to order enough chairs for all the party guests to sit in, one for each guest. First he orders 3 dozen chairs for 3 dozen guests he invites. Then he finds out that 1/3 of the guests want to bring a guest of their own, so Thomas needs to order more chairs. Eventually, Thomas finds out that 5 of the guests he originally invited can't make it. Thomas would also like to order 12 extra chairs just in case they need them. How many chairs is Thomas going to order for Casey's party?
+Answer: Thomas originally orders chairs for 3 dozen guests, 12 x 3 = 36 guests
+Thomas finds out that 1/3 of the guests want to bring a guest of their own, 1/3 of 36 = <<1/3*36=12>>12
+The 12 guests bring a guest of their own each, 36 guests + 12 guests = <<36+12=48>>48
+Thomas finds out that 20 of the guests can't make it, 48 guests - 5 guests = 43
+Thomas wants to order an extra 12 chairs, 43 + 12 = <<43+12=55>>55
+Thomas will need 55 chairs for the party.
+#### 55
+Question: Clinton has twice as many shoes in his wardrobe as belts.  He has 2 more belts than hats and currently has 5 hats.  How many shoes does Clinton have?
+Answer: He has 2 more belts than hats and he has 5 hats so he has 2+5 = <<2+5=7>>7 belts
+He has twice as many shoes as belts and he has 7 belts so he has 2*7 = <<2*7=14>>14 shoes
+#### 14
+Question: Thomas wants to throw a party for his best friend Casey. He needs to order enough chairs for all the party guests to sit in, one for each guest. First he orders 3 dozen chairs for 3 dozen guests he invites. Then he finds out that 1/3 of the guests want to bring a guest of their own, so Thomas needs to order more chairs. Eventually, Thomas finds out that 5 of the guests he originally invited can't make it. Thomas would also like to order 12 extra chairs just in case they need them. How many chairs is Thomas going to order for Casey's party?
+Answer: Thomas originally orders chairs for 3 dozen guests, 12 x 3 = 36 guests
+Thomas finds out that 1/3 of the guests want to bring a guest of their own, 1/3 of 36 = <<1/3*36=12>>12
+The 12 guests bring a guest of their own each, 36 guests + 12 guests = <<36+12=48>>48
+Thomas finds out that 20 of the guests can't make it, 48 guests - 5 guests = 43
+Thomas wants to order an extra 12 chairs, 43 + 12 = <<43+12=55>>55
+Thomas will need 55 chairs for the party.
+#### 55
+Question: Clinton has twice as many shoes in his wardrobe as belts.  He has 2 more belts than hats and currently has 5 hats.  How many shoes does Clinton have?
+Answer: He has 2 more belts than hats and he has 5 hats so he has 2+5 = <<2+5=7>>7 belts
+He has twice as many shoes as belts and he has 7 belts so he has 2*7 = <<2*7=14>>14 shoes
+#### 14
+Question: Grayson recycles cans and bottles for money each week. An aluminum can is worth two cents and a plastic bottle is worth three cents. She drinks three aluminum cans of soda and five plastic bottles of water a week. How many cents does Grayson earn from recycling in a four-week month?","Answer: Grayson earns 6 cents from the aluminum cans (3 cans * 2 cents per can = 6 cents) and 15 cents from the plastic bottles (5 bottles * 3 cents per bottle = 15 cents) each week. In a four-week month, she earns 4 weeks * (6 cents + 15 cents) = 84 cents from recycling. 
+#### 84","Grayson earns 2 * 3 = <<2*3=6>>6 cents from soda cans a week.
+She earns 3 * 5 = <<3*5=15>>15 cents from water bottles a week.
+Thus, she earns 6 + 15 = <<6+15=21>>21 cents from recycling each week.
+In a four week month, she earns 21 * 4 = <<21*4=84>>84 cents from recycling.
+#### 84"
+CSQA,0,"Question: What might you feel after doing housework for hours?
+A: anger
+B: not boredom
+C: stress
+D: boredom
+E: anxiety",C: stress,C
+CSQA,1a,"Question: The monkey was hopping around, climbing things, and swinging around his habitat.  What might he have been feeling?
+A: treetops
+B: playful mood
+C: brazil
+D: rain forest
+E: busy
+Answer: B
+Question: She had to run errands that day, she did it right away because she prefers to what?
+A: complete tasks
+B: gain
+C: make tea
+D: helpful
+E: get things done
+Answer: E
+Question: What might you feel after doing housework for hours?
+A: anger
+B: not boredom
+C: stress
+D: boredom
+E: anxiety",Answer: D,C
+CSQA,1b,"Question: Where would you be going if using a parking lot near a roller coaster?
+A: farm
+B: business district
+C: car
+D: amusement park
+E: urban area
+Answer: D
+Question: The whole area was larger than just the baseball stadium, it was an entire what?
+A: peanut
+B: major city
+C: large city
+D: urban areas
+E: sports complex
+Answer: E
+Question: What might you feel after doing housework for hours?
+A: anger
+B: not boredom
+C: stress
+D: boredom
+E: anxiety",Answer: D,C
+CSQA,2,"Question: The monkey was hopping around, climbing things, and swinging around his habitat.  What might he have been feeling?
+A: treetops
+B: playful mood
+C: brazil
+D: rain forest
+E: busy
+Answer: B
+Question: She had to run errands that day, she did it right away because she prefers to what?
+A: complete tasks
+B: gain
+C: make tea
+D: helpful
+E: get things done
+Answer: E
+Question: Where would you be going if using a parking lot near a roller coaster?
+A: farm
+B: business district
+C: car
+D: amusement park
+E: urban area
+Answer: D
+Question: The whole area was larger than just the baseball stadium, it was an entire what?
+A: peanut
+B: major city
+C: large city
+D: urban areas
+E: sports complex
+Answer: E
+Question: What might you feel after doing housework for hours?
+A: anger
+B: not boredom
+C: stress
+D: boredom
+E: anxiety",Answer: C,C
+CSQA,3a,"Question: The monkey was hopping around, climbing things, and swinging around his habitat.  What might he have been feeling?
+A: treetops
+B: playful mood
+C: brazil
+D: rain forest
+E: busy
+Answer: B
+Question: She had to run errands that day, she did it right away because she prefers to what?
+A: complete tasks
+B: gain
+C: make tea
+D: helpful
+E: get things done
+Answer: E
+Question: The monkey was hopping around, climbing things, and swinging around his habitat.  What might he have been feeling?
+A: treetops
+B: playful mood
+C: brazil
+D: rain forest
+E: busy
+Answer: B
+Question: She had to run errands that day, she did it right away because she prefers to what?
+A: complete tasks
+B: gain
+C: make tea
+D: helpful
+E: get things done
+Answer: E
+Question: What might you feel after doing housework for hours?
+A: anger
+B: not boredom
+C: stress
+D: boredom
+E: anxiety",Answer: D: boredom,C
+CSQA,3b,"Question: Where would you be going if using a parking lot near a roller coaster?
+A: farm
+B: business district
+C: car
+D: amusement park
+E: urban area
+Answer: D
+Question: The whole area was larger than just the baseball stadium, it was an entire what?
+A: peanut
+B: major city
+C: large city
+D: urban areas
+E: sports complex
+Answer: E
+Question: Where would you be going if using a parking lot near a roller coaster?
+A: farm
+B: business district
+C: car
+D: amusement park
+E: urban area
+Answer: D
+Question: The whole area was larger than just the baseball stadium, it was an entire what?
+A: peanut
+B: major city
+C: large city
+D: urban areas
+E: sports complex
+Answer: E
+Question: What might you feel after doing housework for hours?
+A: anger
+B: not boredom
+C: stress
+D: boredom
+E: anxiety",Answer: C,C
+StrategyQA,0,"Question: Nickels have been made of various materials including silver in the 1940s. Nickels in 2020 are made from a mix of copper and nickel. 2020 nickels are 25% nickel and 75% copper.
+Is nickel dominant material in US 2020 nickels?","No, nickel is not the dominant material in US 2020 nickels. Copper makes up 75% of the material composition, while nickel makes up only 25%.",False
+StrategyQA,1a,"Question: The warmest days on record in the Antarctic Peninsula are in the high 50's.  On average, the Antarctic Peninsula is between -4 and 36 degrees Fahrenheit. 
+Would a 75 degree Fahrenheit day be unusual on the Antarctic Peninsula? 
+Answer: True
+Question: Mitterand was President of France from 1981 through 1995. Obama was President of the United States from 2009 to 2017
+Did Francois Mitterrand ever meet Barak Obama while they both held the position of President?
+Answer: False
+Question: Nickels have been made of various materials including silver in the 1940s. Nickels in 2020 are made from a mix of copper and nickel. 2020 nickels are 25% nickel and 75% copper.
+Is nickel dominant material in US 2020 nickels?",Answer: False,False
+StrategyQA,1b,"Question: The Dalai Lama is a person. Cars are designed for people to sit in them.
+Can the Dalai Lama fit in a car?
+Answer: True
+Question: A leap year has 366 total days. As of March 19th, 2018, every episode of the Young and the Restless would take 467 days and 2 hours to watch.
+Would a binge watch of entire Young and the Restless take longer than a leap year?
+Answer: True
+Question: Nickels have been made of various materials including silver in the 1940s. Nickels in 2020 are made from a mix of copper and nickel. 2020 nickels are 25% nickel and 75% copper.
+Is nickel dominant material in US 2020 nickels?",True,False
+StrategyQA,2,"Question: The warmest days on record in the Antarctic Peninsula are in the high 50's.  On average, the Antarctic Peninsula is between -4 and 36 degrees Fahrenheit. 
+Would a 75 degree Fahrenheit day be unusual on the Antarctic Peninsula? 
+Answer: True
+Question: Mitterand was President of France from 1981 through 1995. Obama was President of the United States from 2009 to 2017
+Did Francois Mitterrand ever meet Barak Obama while they both held the position of President?
+Answer: False
+Question: The Dalai Lama is a person. Cars are designed for people to sit in them.
+Can the Dalai Lama fit in a car?
+Answer: True
+Question: A leap year has 366 total days. As of March 19th, 2018, every episode of the Young and the Restless would take 467 days and 2 hours to watch.
+Would a binge watch of entire Young and the Restless take longer than a leap year?
+Answer: True
+Question: Nickels have been made of various materials including silver in the 1940s. Nickels in 2020 are made from a mix of copper and nickel. 2020 nickels are 25% nickel and 75% copper.
+Is nickel dominant material in US 2020 nickels?",False,False
+StrategyQA,3a,"Question: The warmest days on record in the Antarctic Peninsula are in the high 50's.  On average, the Antarctic Peninsula is between -4 and 36 degrees Fahrenheit. 
+Would a 75 degree Fahrenheit day be unusual on the Antarctic Peninsula? 
+Answer: True
+Question: Mitterand was President of France from 1981 through 1995. Obama was President of the United States from 2009 to 2017
+Did Francois Mitterrand ever meet Barak Obama while they both held the position of President?
+Answer: False
+Question: The warmest days on record in the Antarctic Peninsula are in the high 50's.  On average, the Antarctic Peninsula is between -4 and 36 degrees Fahrenheit. 
+Would a 75 degree Fahrenheit day be unusual on the Antarctic Peninsula? 
+Answer: True
+Question: Mitterand was President of France from 1981 through 1995. Obama was President of the United States from 2009 to 2017
+Did Francois Mitterrand ever meet Barak Obama while they both held the position of President?
+Answer: False
+Question: Nickels have been made of various materials including silver in the 1940s. Nickels in 2020 are made from a mix of copper and nickel. 2020 nickels are 25% nickel and 75% copper.
+Is nickel dominant material in US 2020 nickels?",Answer: False,False
+StrategyQA,3b,"Question: The Dalai Lama is a person. Cars are designed for people to sit in them.
+Can the Dalai Lama fit in a car?
+Answer: True
+Question: A leap year has 366 total days. As of March 19th, 2018, every episode of the Young and the Restless would take 467 days and 2 hours to watch.
+Would a binge watch of entire Young and the Restless take longer than a leap year?
+Answer: True
+Question: The Dalai Lama is a person. Cars are designed for people to sit in them.
+Can the Dalai Lama fit in a car?
+Answer: True
+Question: A leap year has 366 total days. As of March 19th, 2018, every episode of the Young and the Restless would take 467 days and 2 hours to watch.
+Would a binge watch of entire Young and the Restless take longer than a leap year?
+Answer: True
+Question: Nickels have been made of various materials including silver in the 1940s. Nickels in 2020 are made from a mix of copper and nickel. 2020 nickels are 25% nickel and 75% copper.
+Is nickel dominant material in US 2020 nickels?",Answer: False,False
+SayCan,0,Question: Provide step-by-step instructions for the following task: How would you restock chips in the drawer?,"1. Open the drawer where the chips are stored.
+
+2. Take note of the current inventory levels to determine how many bags of chips need to be restocked.
+
+3. Remove any empty or leftover bags of chips from the drawer.
+
+4. Open the box or storage container where the new bags of chips are kept.
+
+5. Take out the desired number of bags of chips to restock the drawer.
+
+6. Arrange the bags neatly in the drawer, making sure they are easily accessible and visible.
+
+7. Close the drawer securely to keep the chips fresh and protected from outside contaminants.
+
+8. Dispose of any empty bags or packaging properly.
+
+9. Keep track of the inventory levels and reorder more chips as needed to ensure that the drawer is always well-stocked.
+
+10. Double-check the drawer to ensure that it is properly restocked and organized before closing it.","1. find the bag of chips, 2. pick up the bag of chips, 3. go to the drawer, 4. put down the bag of chips, 5. open the drawer, 6. pick up the bag of chips, 7. put down the bag of chips, 8. close the drawer, 9. done"
+SayCan,1a,"Question: Provide step-by-step instructions for the following task: Can you bring me a salty snack?
+Answer: 1. find a sea salt chips, 2. pick up the sea salt chips, 3. bring it to you, 4. put down the sea salt chips, 5. done.
+Question: Provide step-by-step instructions for the following task: Lift the coke
+Answer: 1. pick up the coke, 2. done
+Question: Provide step-by-step instructions for the following task: How would you restock chips in the drawer?","Answer: 1. Open the drawer where the chips are stored, 2. Take out any remaining bags of chips, 3. Arrange the new bags of chips neatly in the drawer, 4. Close the drawer, 5. Done.","1. find the bag of chips, 2. pick up the bag of chips, 3. go to the drawer, 4. put down the bag of chips, 5. open the drawer, 6. pick up the bag of chips, 7. put down the bag of chips, 8. close the drawer, 9. done"
+SayCan,1b,"Question: Provide step-by-step instructions for the following task: Move a banana to the table.
+Answer: 1. pick up the banana, 2. go to the table, 3. put down the banana, 4. done
+Question: Provide step-by-step instructions for the following task: Bring me something that is not an apple.
+Answer: 1. find a orange, 2. pick up the orange, 3. bring it to you, 4. put down the orange, 5. done.
+Question: Provide step-by-step instructions for the following task: How would you restock chips in the drawer?","Answer: 1. Open the drawer where the chips are stored, 2. Take out any remaining chips and set them aside, 3. Open a new bag of chips, 4. Pour the new chips into the drawer, making sure to evenly distribute them, 5. Place any remaining chips from the previous bag on top, if desired, 6. Close the drawer securely, 7. Done.","1. find the bag of chips, 2. pick up the bag of chips, 3. go to the drawer, 4. put down the bag of chips, 5. open the drawer, 6. pick up the bag of chips, 7. put down the bag of chips, 8. close the drawer, 9. done"
+SayCan,2,"Question: Provide step-by-step instructions for the following task: Can you bring me a salty snack?
+Answer: 1. find a sea salt chips, 2. pick up the sea salt chips, 3. bring it to you, 4. put down the sea salt chips, 5. done.
+Question: Provide step-by-step instructions for the following task: Lift the coke
+Answer: 1. pick up the coke, 2. done
+Question: Provide step-by-step instructions for the following task: Move a banana to the table.
+Answer: 1. pick up the banana, 2. go to the table, 3. put down the banana, 4. done
+Question: Provide step-by-step instructions for the following task: Bring me something that is not an apple.
+Answer: 1. find a orange, 2. pick up the orange, 3. bring it to you, 4. put down the orange, 5. done.
+Question: Provide step-by-step instructions for the following task: How would you restock chips in the drawer?","Answer: 1. Open the drawer where the chips are kept, 2. Remove any empty or nearly empty bags of chips, 3. Open a new bag of chips, 4. Place the new bag of chips in the drawer, 5. Close the drawer, 6. Done.","1. find the bag of chips, 2. pick up the bag of chips, 3. go to the drawer, 4. put down the bag of chips, 5. open the drawer, 6. pick up the bag of chips, 7. put down the bag of chips, 8. close the drawer, 9. done"
+SayCan,3a,"Question: Provide step-by-step instructions for the following task: Can you bring me a salty snack?
+Answer: 1. find a sea salt chips, 2. pick up the sea salt chips, 3. bring it to you, 4. put down the sea salt chips, 5. done.
+Question: Provide step-by-step instructions for the following task: Lift the coke
+Answer: 1. pick up the coke, 2. done
+Question: Provide step-by-step instructions for the following task: Can you bring me a salty snack?
+Answer: 1. find a sea salt chips, 2. pick up the sea salt chips, 3. bring it to you, 4. put down the sea salt chips, 5. done.
+Question: Provide step-by-step instructions for the following task: Lift the coke
+Answer: 1. pick up the coke, 2. done
+Question: Provide step-by-step instructions for the following task: How would you restock chips in the drawer?","Answer: 1. Open the drawer where the chips are stored, 2. Take out any remaining bags of chips, 3. Open a new bag of chips, 4. Place the new bag of chips in the drawer, 5. Close the drawer, 6. Done.","1. find the bag of chips, 2. pick up the bag of chips, 3. go to the drawer, 4. put down the bag of chips, 5. open the drawer, 6. pick up the bag of chips, 7. put down the bag of chips, 8. close the drawer, 9. done"
+SayCan,3b,"Question: Provide step-by-step instructions for the following task: Move a banana to the table.
+Answer: 1. pick up the banana, 2. go to the table, 3. put down the banana, 4. done
+Question: Provide step-by-step instructions for the following task: Bring me something that is not an apple.
+Answer: 1. find a orange, 2. pick up the orange, 3. bring it to you, 4. put down the orange, 5. done.
+Question: Provide step-by-step instructions for the following task: Move a banana to the table.
+Answer: 1. pick up the banana, 2. go to the table, 3. put down the banana, 4. done
+Question: Provide step-by-step instructions for the following task: Bring me something that is not an apple.
+Answer: 1. find a orange, 2. pick up the orange, 3. bring it to you, 4. put down the orange, 5. done.
+Question: Provide step-by-step instructions for the following task: How would you restock chips in the drawer?",Answer: 1. Open the drawer where the chips are typically stored. 2. Remove any empty or near-empty chip bags from the drawer. 3. Grab a new box or bag of chips to restock. 4. Open the new box or bag of chips. 5. Place the new chip bags neatly in the drawer. 6. Close the drawer. 7. Done.,"1. find the bag of chips, 2. pick up the bag of chips, 3. go to the drawer, 4. put down the bag of chips, 5. open the drawer, 6. pick up the bag of chips, 7. put down the bag of chips, 8. close the drawer, 9. done"

@@ -1,0 +1,419 @@
+Task Class,Case,Prompt,Response,Expected
+Math,0,"Question: Marcell and Beatrice are having a contest to see who can eat the most fruit roll-ups, so they unroll as many as they can find. Unfortunately, someone makes a mistake and Beatrice's was two roll-ups wide and 24 rolls up long while Marcell's was 3 roll-ups wide and 14 roll-ups long. If they both ate their entire amount, how many did they eat on average?","To find out how many fruit roll-ups each of them ate on average, we first need to calculate the total number of fruit roll-ups each of them had.
+
+For Beatrice:
+Total number of fruit roll-ups = 2 (width) * 24 (length) = 48 roll-ups
+
+For Marcell:
+Total number of fruit roll-ups = 3 (width) * 14 (length) = 42 roll-ups
+
+Now, we can find the average number of fruit roll-ups each of them ate by dividing the total number of fruit roll-ups by 2 (since there are 2 people in the contest):
+
+Average number of fruit roll-ups eaten by Beatrice = 48 / 2 = 24 roll-ups
+Average number of fruit roll-ups eaten by Marcell = 42 / 2 = 21 roll-ups
+
+Therefore, on average, Beatrice ate 24 fruit roll-ups and Marcell ate 21 fruit roll-ups.","Beatrice ate 48 because 24 x 2 = <<24*2=48>>48.
+Marcell ate 42 because 14 x 3 = <<14*3=42>>42
+In total they ate 90 because 48 + 42 = <<48+42=90>>90
+On average they ate 45 because 90 / 2 = <<90/2=45>>45
+#### 45"
+Math,1a,"Question: It takes Bryan 5 minutes to walk from his house to the bus station. Then he rides the bus for 20 minutes. After that, he walks 5 minutes from the bus station to his job. It takes the same amount of time in the morning and the evening. How many hours per year does Bryan spend traveling to and from work, if he works every day?
+Answer: Bryan spends 5+20+5 =<<5+20+5=30>>30 minutes traveling to work.
+He does this twice a day, so he spends 30*2=<<30*2=60>>60 minutes traveling per day.
+Thus, he spends 60/60=<<60/60=1>>1 hour traveling to and from work every day.
+Thus, he spends 1 hour*365 days =<<1*365=365>>365 hours traveling per year.
+#### 365
+Question: Lucas went to the store with $20 and needed to buy 3 avocados that cost $2 each. How much change does he bring home?
+Answer: The avocados cost 6 because 3 x 2 = <<3*2=6>>6
+He brings home $4 in change because 20 - 6 =<<20-6=14>>14
+#### 14
+Question: Marcell and Beatrice are having a contest to see who can eat the most fruit roll-ups, so they unroll as many as they can find. Unfortunately, someone makes a mistake and Beatrice's was two roll-ups wide and 24 rolls up long while Marcell's was 3 roll-ups wide and 14 roll-ups long. If they both ate their entire amount, how many did they eat on average?","Answer: Beatrice had 48 fruit roll-ups because 2 x 24 = <<2*24=48>>48
+Marcell had 42 fruit roll-ups because 3 x 14 = <<3*14=42>>42
+They ate 90 fruit roll-ups total because 48 + 42 = <<48+42=90>>90
+On average, they each ate 45 because 90 / 2 = <<90/2=45>>45. 
+Therefore, on average, they each ate 45 fruit roll-ups.","Beatrice ate 48 because 24 x 2 = <<24*2=48>>48.
+Marcell ate 42 because 14 x 3 = <<14*3=42>>42
+In total they ate 90 because 48 + 42 = <<48+42=90>>90
+On average they ate 45 because 90 / 2 = <<90/2=45>>45
+#### 45"
+Math,1b,"Question: A single kabob stick has 4 cubes of beef. A slab of beef that costs $25 can be cut into 80 cubes. How much must Simon spend to make 40 kabob sticks?
+Answer: One slab of beef can make 80/4 = <<80/4=20>>20 kabob sticks.
+To make 40 kabob sticks, Simon needs 40/20 = <<40/20=2>>2 slabs of beef.
+Simon must spend $25 x 2 = $<<25*2=50>>50
+#### 50
+Question: Emily spent X dollars on Friday, twice that amount on Saturday, and then three times X on Sunday. Over the three days, she spent $120. What is the value of X, in dollars?
+Answer: She spent X dollars on Friday.
+She spent 2X dollars on Saturday.
+She spent 3X dollars on Sunday.
+X+2X+3X=120
+6X=120
+X=<<20=20>>20
+#### 20
+Question: Marcell and Beatrice are having a contest to see who can eat the most fruit roll-ups, so they unroll as many as they can find. Unfortunately, someone makes a mistake and Beatrice's was two roll-ups wide and 24 rolls up long while Marcell's was 3 roll-ups wide and 14 roll-ups long. If they both ate their entire amount, how many did they eat on average?","To find out how many fruit roll-ups each person ate on average, we first need to calculate the total number of fruit roll-ups each person had.
+
+Beatrice had 2 roll-ups wide * 24 roll-ups long = 48 fruit roll-ups.
+Marcell had 3 roll-ups wide * 14 roll-ups long = 42 fruit roll-ups.
+
+Therefore, Beatrice ate 48 fruit roll-ups and Marcell ate 42 fruit roll-ups.
+
+To find the average amount each person ate, we need to divide the total number of fruit roll-ups by the number of people.
+
+Beatrice ate 48 roll-ups / 1 person = 48 roll-ups/person.
+Marcell ate 42 roll-ups / 1 person = 42 roll-ups/person.
+
+Therefore, on average, Beatrice ate 48 fruit roll-ups and Marcell ate 42 fruit roll-ups.","Beatrice ate 48 because 24 x 2 = <<24*2=48>>48.
+Marcell ate 42 because 14 x 3 = <<14*3=42>>42
+In total they ate 90 because 48 + 42 = <<48+42=90>>90
+On average they ate 45 because 90 / 2 = <<90/2=45>>45
+#### 45"
+Math,2,"Question: It takes Bryan 5 minutes to walk from his house to the bus station. Then he rides the bus for 20 minutes. After that, he walks 5 minutes from the bus station to his job. It takes the same amount of time in the morning and the evening. How many hours per year does Bryan spend traveling to and from work, if he works every day?
+Answer: Bryan spends 5+20+5 =<<5+20+5=30>>30 minutes traveling to work.
+He does this twice a day, so he spends 30*2=<<30*2=60>>60 minutes traveling per day.
+Thus, he spends 60/60=<<60/60=1>>1 hour traveling to and from work every day.
+Thus, he spends 1 hour*365 days =<<1*365=365>>365 hours traveling per year.
+#### 365
+Question: Lucas went to the store with $20 and needed to buy 3 avocados that cost $2 each. How much change does he bring home?
+Answer: The avocados cost 6 because 3 x 2 = <<3*2=6>>6
+He brings home $4 in change because 20 - 6 =<<20-6=14>>14
+#### 14
+Question: A single kabob stick has 4 cubes of beef. A slab of beef that costs $25 can be cut into 80 cubes. How much must Simon spend to make 40 kabob sticks?
+Answer: One slab of beef can make 80/4 = <<80/4=20>>20 kabob sticks.
+To make 40 kabob sticks, Simon needs 40/20 = <<40/20=2>>2 slabs of beef.
+Simon must spend $25 x 2 = $<<25*2=50>>50
+#### 50
+Question: Emily spent X dollars on Friday, twice that amount on Saturday, and then three times X on Sunday. Over the three days, she spent $120. What is the value of X, in dollars?
+Answer: She spent X dollars on Friday.
+She spent 2X dollars on Saturday.
+She spent 3X dollars on Sunday.
+X+2X+3X=120
+6X=120
+X=<<20=20>>20
+#### 20
+Question: Marcell and Beatrice are having a contest to see who can eat the most fruit roll-ups, so they unroll as many as they can find. Unfortunately, someone makes a mistake and Beatrice's was two roll-ups wide and 24 rolls up long while Marcell's was 3 roll-ups wide and 14 roll-ups long. If they both ate their entire amount, how many did they eat on average?","Answer: Beatrice had 2 * 24 = <<2*24=48>>48 fruit roll-ups.
+Marcell had 3 * 14 = <<3*14=42>>42 fruit roll-ups.
+In total, they had 48 + 42 = <<48+42=90>>90 fruit roll-ups.
+On average, they each ate 90 / 2 = <<90/2=45>>45 fruit roll-ups.","Beatrice ate 48 because 24 x 2 = <<24*2=48>>48.
+Marcell ate 42 because 14 x 3 = <<14*3=42>>42
+In total they ate 90 because 48 + 42 = <<48+42=90>>90
+On average they ate 45 because 90 / 2 = <<90/2=45>>45
+#### 45"
+Math,3a,"Question: It takes Bryan 5 minutes to walk from his house to the bus station. Then he rides the bus for 20 minutes. After that, he walks 5 minutes from the bus station to his job. It takes the same amount of time in the morning and the evening. How many hours per year does Bryan spend traveling to and from work, if he works every day?
+Answer: Bryan spends 5+20+5 =<<5+20+5=30>>30 minutes traveling to work.
+He does this twice a day, so he spends 30*2=<<30*2=60>>60 minutes traveling per day.
+Thus, he spends 60/60=<<60/60=1>>1 hour traveling to and from work every day.
+Thus, he spends 1 hour*365 days =<<1*365=365>>365 hours traveling per year.
+#### 365
+Question: Lucas went to the store with $20 and needed to buy 3 avocados that cost $2 each. How much change does he bring home?
+Answer: The avocados cost 6 because 3 x 2 = <<3*2=6>>6
+He brings home $4 in change because 20 - 6 =<<20-6=14>>14
+#### 14
+Question: It takes Bryan 5 minutes to walk from his house to the bus station. Then he rides the bus for 20 minutes. After that, he walks 5 minutes from the bus station to his job. It takes the same amount of time in the morning and the evening. How many hours per year does Bryan spend traveling to and from work, if he works every day?
+Answer: Bryan spends 5+20+5 =<<5+20+5=30>>30 minutes traveling to work.
+He does this twice a day, so he spends 30*2=<<30*2=60>>60 minutes traveling per day.
+Thus, he spends 60/60=<<60/60=1>>1 hour traveling to and from work every day.
+Thus, he spends 1 hour*365 days =<<1*365=365>>365 hours traveling per year.
+#### 365
+Question: Lucas went to the store with $20 and needed to buy 3 avocados that cost $2 each. How much change does he bring home?
+Answer: The avocados cost 6 because 3 x 2 = <<3*2=6>>6
+He brings home $4 in change because 20 - 6 =<<20-6=14>>14
+#### 14
+Question: Marcell and Beatrice are having a contest to see who can eat the most fruit roll-ups, so they unroll as many as they can find. Unfortunately, someone makes a mistake and Beatrice's was two roll-ups wide and 24 rolls up long while Marcell's was 3 roll-ups wide and 14 roll-ups long. If they both ate their entire amount, how many did they eat on average?","Answer: Beatrice ate a total of 2 x 24 = <<2*24=48>>48 fruit roll-ups.
+Marcell ate a total of 3 x 14 = <<3*14=42>>42 fruit roll-ups.
+Together, they ate 48 + 42 = <<48+42=90>>90 fruit roll-ups.
+On average, they each ate 90 / 2 = <<90/2=45>>45 fruit roll-ups.","Beatrice ate 48 because 24 x 2 = <<24*2=48>>48.
+Marcell ate 42 because 14 x 3 = <<14*3=42>>42
+In total they ate 90 because 48 + 42 = <<48+42=90>>90
+On average they ate 45 because 90 / 2 = <<90/2=45>>45
+#### 45"
+Math,3b,"Question: A single kabob stick has 4 cubes of beef. A slab of beef that costs $25 can be cut into 80 cubes. How much must Simon spend to make 40 kabob sticks?
+Answer: One slab of beef can make 80/4 = <<80/4=20>>20 kabob sticks.
+To make 40 kabob sticks, Simon needs 40/20 = <<40/20=2>>2 slabs of beef.
+Simon must spend $25 x 2 = $<<25*2=50>>50
+#### 50
+Question: Emily spent X dollars on Friday, twice that amount on Saturday, and then three times X on Sunday. Over the three days, she spent $120. What is the value of X, in dollars?
+Answer: She spent X dollars on Friday.
+She spent 2X dollars on Saturday.
+She spent 3X dollars on Sunday.
+X+2X+3X=120
+6X=120
+X=<<20=20>>20
+#### 20
+Question: A single kabob stick has 4 cubes of beef. A slab of beef that costs $25 can be cut into 80 cubes. How much must Simon spend to make 40 kabob sticks?
+Answer: One slab of beef can make 80/4 = <<80/4=20>>20 kabob sticks.
+To make 40 kabob sticks, Simon needs 40/20 = <<40/20=2>>2 slabs of beef.
+Simon must spend $25 x 2 = $<<25*2=50>>50
+#### 50
+Question: Emily spent X dollars on Friday, twice that amount on Saturday, and then three times X on Sunday. Over the three days, she spent $120. What is the value of X, in dollars?
+Answer: She spent X dollars on Friday.
+She spent 2X dollars on Saturday.
+She spent 3X dollars on Sunday.
+X+2X+3X=120
+6X=120
+X=<<20=20>>20
+#### 20
+Question: Marcell and Beatrice are having a contest to see who can eat the most fruit roll-ups, so they unroll as many as they can find. Unfortunately, someone makes a mistake and Beatrice's was two roll-ups wide and 24 rolls up long while Marcell's was 3 roll-ups wide and 14 roll-ups long. If they both ate their entire amount, how many did they eat on average?","Answer: Beatrice had 2 x 24 = <<2*24=48>>48 fruit roll-ups.
+Marcell had 3 x 14 = <<3*14=42>>42 fruit roll-ups.
+Together, they had 48 + 42 = <<48+42=90>>90 fruit roll-ups.
+On average, they each ate 90/2 = <<90/2=45>>45 fruit roll-ups.","Beatrice ate 48 because 24 x 2 = <<24*2=48>>48.
+Marcell ate 42 because 14 x 3 = <<14*3=42>>42
+In total they ate 90 because 48 + 42 = <<48+42=90>>90
+On average they ate 45 because 90 / 2 = <<90/2=45>>45
+#### 45"
+CSQA,0,"Question: What could happen to a paper if you leave it outside even if it does not move?
+A: one material often recycled
+B: ripped
+C: saturated with water
+D: one dimensional
+E: crumpled","C: saturated with water
+
+Leaving paper outside can expose it to moisture and can cause it to become saturated with water, leading to potential damage and deterioration.",C
+CSQA,1a,"Question: Where would computers be used for sorting?
+A: labyrinth
+B: mit
+C: post office
+D: university
+E: large city
+Answer: C
+Question: He was on his first long haul and had gotten lost, he made sure to buy a map when he came across a what to stop at?
+A: backpack
+B: truck stop
+C: taco shop
+D: amusement park
+E: gas station
+Answer: B
+Question: What could happen to a paper if you leave it outside even if it does not move?
+A: one material often recycled
+B: ripped
+C: saturated with water
+D: one dimensional
+E: crumpled",Answer: C,C
+CSQA,1b,"Question: Washing hands is important, you should wet, then what, and then rinse?
+A: thinking
+B: irritation
+C: use soap
+D: dry
+E: cleaning hands after autopsy
+Answer: C
+Question: If you don't use a towel after getting wet, you body may do what?
+A: shiver
+B: shrinkage
+C: become cold
+D: not dry
+E: get melted
+Answer: A
+Question: What could happen to a paper if you leave it outside even if it does not move?
+A: one material often recycled
+B: ripped
+C: saturated with water
+D: one dimensional
+E: crumpled",Answer: C,C
+CSQA,2,"Question: Where would computers be used for sorting?
+A: labyrinth
+B: mit
+C: post office
+D: university
+E: large city
+Answer: C
+Question: He was on his first long haul and had gotten lost, he made sure to buy a map when he came across a what to stop at?
+A: backpack
+B: truck stop
+C: taco shop
+D: amusement park
+E: gas station
+Answer: B
+Question: Washing hands is important, you should wet, then what, and then rinse?
+A: thinking
+B: irritation
+C: use soap
+D: dry
+E: cleaning hands after autopsy
+Answer: C
+Question: If you don't use a towel after getting wet, you body may do what?
+A: shiver
+B: shrinkage
+C: become cold
+D: not dry
+E: get melted
+Answer: A
+Question: What could happen to a paper if you leave it outside even if it does not move?
+A: one material often recycled
+B: ripped
+C: saturated with water
+D: one dimensional
+E: crumpled",Answer: E,C
+CSQA,3a,"Question: Where would computers be used for sorting?
+A: labyrinth
+B: mit
+C: post office
+D: university
+E: large city
+Answer: C
+Question: He was on his first long haul and had gotten lost, he made sure to buy a map when he came across a what to stop at?
+A: backpack
+B: truck stop
+C: taco shop
+D: amusement park
+E: gas station
+Answer: B
+Question: Where would computers be used for sorting?
+A: labyrinth
+B: mit
+C: post office
+D: university
+E: large city
+Answer: C
+Question: He was on his first long haul and had gotten lost, he made sure to buy a map when he came across a what to stop at?
+A: backpack
+B: truck stop
+C: taco shop
+D: amusement park
+E: gas station
+Answer: B
+Question: What could happen to a paper if you leave it outside even if it does not move?
+A: one material often recycled
+B: ripped
+C: saturated with water
+D: one dimensional
+E: crumpled",Answer: C,C
+CSQA,3b,"Question: Washing hands is important, you should wet, then what, and then rinse?
+A: thinking
+B: irritation
+C: use soap
+D: dry
+E: cleaning hands after autopsy
+Answer: C
+Question: If you don't use a towel after getting wet, you body may do what?
+A: shiver
+B: shrinkage
+C: become cold
+D: not dry
+E: get melted
+Answer: A
+Question: Washing hands is important, you should wet, then what, and then rinse?
+A: thinking
+B: irritation
+C: use soap
+D: dry
+E: cleaning hands after autopsy
+Answer: C
+Question: If you don't use a towel after getting wet, you body may do what?
+A: shiver
+B: shrinkage
+C: become cold
+D: not dry
+E: get melted
+Answer: A
+Question: What could happen to a paper if you leave it outside even if it does not move?
+A: one material often recycled
+B: ripped
+C: saturated with water
+D: one dimensional
+E: crumpled",Answer: C,C
+StrategyQA,0,"Question: Antarctica has no permanent residents. Exposure to the elements would be deadly for homeless people during certain times of year.
+Does Antarctica have a lot of problems relating to homelessness?","No, Antarctica does not have a significant problem with homelessness as it has no permanent residents. The harsh climate and extreme conditions make it virtually impossible for people to live there without proper shelter and resources. The few people who live and work in Antarctica, such as scientists and researchers, are provided with accommodation and support by their respective organizations.",False
+StrategyQA,1a,"Question: Carmine is the product of an insect that lives on some cacti Carmine is not stable in oil paints and its usage has been discontinued Carmine is red
+Would an oil painter avoid reds from scale insects that live on a cactus?
+Answer: True
+Question: Dorothea Wendling was a singer born in Stuttgart, Germany. Porsche was founded in 1931 in Stuttgart, Germany.
+Was Dorothea Wendling from same place Porsche originated?
+Answer: True
+Question: Antarctica has no permanent residents. Exposure to the elements would be deadly for homeless people during certain times of year.
+Does Antarctica have a lot of problems relating to homelessness?",Answer: False,False
+StrategyQA,1b,"Question: Frigates are a kind of sailing ship. Many features of ships require rope to use.
+Are ropes required to operate a frigate?
+Answer: True
+Question: Metallica famously cut their hair in 1996 which caused a huge divide in their fanbase. Metallica's best selling album, The Black Album, was released in 1991 and has sold over 20 million copies. Since 1996, Metallica have released 5 studio albums. Metalica's 5 studio albums since 1996 have sold around a combined 14 million copies
+Did Metallica band members cutting their hair hurt their sales?
+Answer: True
+Question: Antarctica has no permanent residents. Exposure to the elements would be deadly for homeless people during certain times of year.
+Does Antarctica have a lot of problems relating to homelessness?",Answer: False,False
+StrategyQA,2,"Question: Carmine is the product of an insect that lives on some cacti Carmine is not stable in oil paints and its usage has been discontinued Carmine is red
+Would an oil painter avoid reds from scale insects that live on a cactus?
+Answer: True
+Question: Dorothea Wendling was a singer born in Stuttgart, Germany. Porsche was founded in 1931 in Stuttgart, Germany.
+Was Dorothea Wendling from same place Porsche originated?
+Answer: True
+Question: Frigates are a kind of sailing ship. Many features of ships require rope to use.
+Are ropes required to operate a frigate?
+Answer: True
+Question: Metallica famously cut their hair in 1996 which caused a huge divide in their fanbase. Metallica's best selling album, The Black Album, was released in 1991 and has sold over 20 million copies. Since 1996, Metallica have released 5 studio albums. Metalica's 5 studio albums since 1996 have sold around a combined 14 million copies
+Did Metallica band members cutting their hair hurt their sales?
+Answer: True
+Question: Antarctica has no permanent residents. Exposure to the elements would be deadly for homeless people during certain times of year.
+Does Antarctica have a lot of problems relating to homelessness?",Answer: False,False
+StrategyQA,3a,"Question: Carmine is the product of an insect that lives on some cacti Carmine is not stable in oil paints and its usage has been discontinued Carmine is red
+Would an oil painter avoid reds from scale insects that live on a cactus?
+Answer: True
+Question: Dorothea Wendling was a singer born in Stuttgart, Germany. Porsche was founded in 1931 in Stuttgart, Germany.
+Was Dorothea Wendling from same place Porsche originated?
+Answer: True
+Question: Carmine is the product of an insect that lives on some cacti Carmine is not stable in oil paints and its usage has been discontinued Carmine is red
+Would an oil painter avoid reds from scale insects that live on a cactus?
+Answer: True
+Question: Dorothea Wendling was a singer born in Stuttgart, Germany. Porsche was founded in 1931 in Stuttgart, Germany.
+Was Dorothea Wendling from same place Porsche originated?
+Answer: True
+Question: Antarctica has no permanent residents. Exposure to the elements would be deadly for homeless people during certain times of year.
+Does Antarctica have a lot of problems relating to homelessness?",Answer: False,False
+StrategyQA,3b,"Question: Frigates are a kind of sailing ship. Many features of ships require rope to use.
+Are ropes required to operate a frigate?
+Answer: True
+Question: Metallica famously cut their hair in 1996 which caused a huge divide in their fanbase. Metallica's best selling album, The Black Album, was released in 1991 and has sold over 20 million copies. Since 1996, Metallica have released 5 studio albums. Metalica's 5 studio albums since 1996 have sold around a combined 14 million copies
+Did Metallica band members cutting their hair hurt their sales?
+Answer: True
+Question: Frigates are a kind of sailing ship. Many features of ships require rope to use.
+Are ropes required to operate a frigate?
+Answer: True
+Question: Metallica famously cut their hair in 1996 which caused a huge divide in their fanbase. Metallica's best selling album, The Black Album, was released in 1991 and has sold over 20 million copies. Since 1996, Metallica have released 5 studio albums. Metalica's 5 studio albums since 1996 have sold around a combined 14 million copies
+Did Metallica band members cutting their hair hurt their sales?
+Answer: True
+Question: Antarctica has no permanent residents. Exposure to the elements would be deadly for homeless people during certain times of year.
+Does Antarctica have a lot of problems relating to homelessness?",Answer: False,False
+SayCan,0,Question: Provide step-by-step instructions for the following task: Move a banana to the table.,"1. Pick up the banana with your hand.
+
+2. Walk towards the table while holding the banana.
+
+3. Once you reach the table, place the banana gently on the table's surface.
+
+4. Adjust the position of the banana on the table if needed.
+
+5. Ensure the banana is stable and won't roll off the table.
+
+6. You have successfully moved the banana to the table.","1. pick up the banana, 2. go to the table, 3. put down the banana, 4. done"
+SayCan,1a,"Question: Provide step-by-step instructions for the following task: Could you get me a drink with caffeine?
+Answer: 1. find a coke, 2. pick up the coke, 3. bring it to you, 4. put down the coke, 5. done
+Question: Provide step-by-step instructions for the following task: Park at the table.
+Answer: 1. go to the table, 2. done
+Question: Provide step-by-step instructions for the following task: Move a banana to the table.","Answer: 1. pick up the banana, 2. walk to the table, 3. place the banana on the table, 4. done","1. pick up the banana, 2. go to the table, 3. put down the banana, 4. done"
+SayCan,1b,"Question: Provide step-by-step instructions for the following task: Put a banana on the counter.
+Answer: 1. pick up the banana, 2. go to the counter, 3. put down the banana, 4. done
+Question: Provide step-by-step instructions for the following task: How would you bring me a sprite?
+Answer: 1. find a sprite can, 2. pick up the sprite can, 3. bring it to you, 4. put down the sprite can, 5. done
+Question: Provide step-by-step instructions for the following task: Move a banana to the table.","Answer: 1. pick up the banana, 2. walk over to the table, 3. place the banana on the table, 4. done.","1. pick up the banana, 2. go to the table, 3. put down the banana, 4. done"
+SayCan,2,"Question: Provide step-by-step instructions for the following task: Could you get me a drink with caffeine?
+Answer: 1. find a coke, 2. pick up the coke, 3. bring it to you, 4. put down the coke, 5. done
+Question: Provide step-by-step instructions for the following task: Park at the table.
+Answer: 1. go to the table, 2. done
+Question: Provide step-by-step instructions for the following task: Put a banana on the counter.
+Answer: 1. pick up the banana, 2. go to the counter, 3. put down the banana, 4. done
+Question: Provide step-by-step instructions for the following task: How would you bring me a sprite?
+Answer: 1. find a sprite can, 2. pick up the sprite can, 3. bring it to you, 4. put down the sprite can, 5. done
+Question: Provide step-by-step instructions for the following task: Move a banana to the table.","Answer: 1. pick up the banana, 2. go to the table, 3. place the banana on the table, 4. done","1. pick up the banana, 2. go to the table, 3. put down the banana, 4. done"
+SayCan,3a,"Question: Provide step-by-step instructions for the following task: Could you get me a drink with caffeine?
+Answer: 1. find a coke, 2. pick up the coke, 3. bring it to you, 4. put down the coke, 5. done
+Question: Provide step-by-step instructions for the following task: Park at the table.
+Answer: 1. go to the table, 2. done
+Question: Provide step-by-step instructions for the following task: Could you get me a drink with caffeine?
+Answer: 1. find a coke, 2. pick up the coke, 3. bring it to you, 4. put down the coke, 5. done
+Question: Provide step-by-step instructions for the following task: Park at the table.
+Answer: 1. go to the table, 2. done
+Question: Provide step-by-step instructions for the following task: Move a banana to the table.","Answer: 1. Pick up the banana, 2. Walk over to the table, 3. Place the banana on the table, 4. Done.","1. pick up the banana, 2. go to the table, 3. put down the banana, 4. done"
+SayCan,3b,"Question: Provide step-by-step instructions for the following task: Put a banana on the counter.
+Answer: 1. pick up the banana, 2. go to the counter, 3. put down the banana, 4. done
+Question: Provide step-by-step instructions for the following task: How would you bring me a sprite?
+Answer: 1. find a sprite can, 2. pick up the sprite can, 3. bring it to you, 4. put down the sprite can, 5. done
+Question: Provide step-by-step instructions for the following task: Put a banana on the counter.
+Answer: 1. pick up the banana, 2. go to the counter, 3. put down the banana, 4. done
+Question: Provide step-by-step instructions for the following task: How would you bring me a sprite?
+Answer: 1. find a sprite can, 2. pick up the sprite can, 3. bring it to you, 4. put down the sprite can, 5. done
+Question: Provide step-by-step instructions for the following task: Move a banana to the table.","Answer: 1. Pick up the banana, 2. Walk to the table, 3. Place the banana on the table, 4. Done.","1. pick up the banana, 2. go to the table, 3. put down the banana, 4. done"

@@ -1,0 +1,415 @@
+Task Class,Case,Prompt,Response,Expected
+Math,0,"Question: John is raising money for a school trip. He has applied for help from the school, which has decided to cover half the cost of the trip. How much money is John missing if he has $50 and the trip costs $300?","John has $50 and the school is covering half of the cost of the trip. This means the school will cover $150 of the $300 trip cost. 
+
+Therefore, John will still need to come up with $150 on his own. 
+
+So, John is missing $150 to cover the total cost of the trip.","John's school has decided to pay 300 / 2 = $<<300/2=150>>150 for his trip.
+In total John has covered 150 + 50 = $<<150+50=200>>200 for his trip
+Therefore, John needs 300 - 200 = $<<300-200=100>>100 more for the trip.
+#### 100"
+Math,1a,"Question: Jack makes his own cold brew coffee.  He makes it in batches of 1.5 gallons.  He drinks 96 ounces of coffee every 2 days.  It takes 20 hours to make coffee.  How long does he spend making coffee over 24 days?
+Answer: He makes it in batches of 1.5*128=<<1.5*128=192>>192 ounces
+He drinks 96/2=<<96/2=48>>48 ounces of coffee a day
+So he drinks the coffee in 192/48=<<192/48=4>>4 days
+So in 24 days he makes 24/4=<<24/4=6>>6 batches
+That means he spends 6*20=<<6*20=120>>120 hours making coffee
+#### 120
+Question: There are 10 books on the table. Two-fifths of them are reading books and three-tenths of them are math books. There is one fewer science book than math books and the rest are history books. How many history books are there?
+Answer: Out of the 10 books, 10 x 2/5 = <<10*2/5=4>>4 are reading books.
+While 10 x 3/10 = <<10*3/10=3>>3 are math books.
+There are 3 - 1 = <<3-1=2>>2 science books.
+So, the total number of reading, math, and science books is 4 + 3 + 2 = <<4+3+2=9>>9.
+Thus, there is only 10 - 9 = <<10-9=1>>1 history book.
+#### 1
+Question: John is raising money for a school trip. He has applied for help from the school, which has decided to cover half the cost of the trip. How much money is John missing if he has $50 and the trip costs $300?","Answer: The school covers 300/2 = $<<300/2=150>>150 of the trip cost.
+So, John is missing 300 - 150 = $<<300-150=150>>150.
+Therefore, John is missing $150 - $50 = $<<150-50=100>>100.
+#### 100","John's school has decided to pay 300 / 2 = $<<300/2=150>>150 for his trip.
+In total John has covered 150 + 50 = $<<150+50=200>>200 for his trip
+Therefore, John needs 300 - 200 = $<<300-200=100>>100 more for the trip.
+#### 100"
+Math,1b,"Question: It takes 1 hour for refrigerated dough to come to room temperature.  It takes 15 minutes to shape the dough and 2 hours to proof.  The bread takes 30 minutes to bake and 15 minutes to cool.  If the bakery opens at 6:00 am, what is the latest time the head baker can make it to the store to start working?
+Answer: It takes 1 hour to bring the dough to room temp and 2 hours to proof the dough so that's 1+2 = <<1+2=3>>3 hours
+It takes 15 minutes to shape the dough, 30 minutes to bake and another 15 minutes to cool for a total of 15+30+15 = <<15+30+15=60>>60 minutes
+There are 60 minutes in 1 hour so that takes him 60/60 = <<60/60=1>>1 hour
+In total it takes 3+1 = <<3+1=4>>4 hours from start to finish to make the bread
+If the bakery opens at 6:00 am and it takes 4 hours to prep then the latest the head baker can show up is 6-4 = <<6-4=2>>2:00 am
+#### 2
+Question: For breakfast, Anna bought a bagel for $0.95 and a glass of orange juice for $0.85. At lunch, Anna spent $4.65 on a sandwich and $1.15 on a carton of milk. How much more money did Anna spend on lunch than on breakfast?
+Answer: The total cost of breakfast is $0.95 + $0.85 = $<<0.95+0.85=1.80>>1.80.
+The total cost of lunch is $4.65 + $1.15 = $<<4.65+1.15=5.80>>5.80.
+Anna spent $5.80 − $1.80 = $4 more on lunch than breakfast.
+#### 4
+Question: John is raising money for a school trip. He has applied for help from the school, which has decided to cover half the cost of the trip. How much money is John missing if he has $50 and the trip costs $300?","Answer: The school is covering half the cost of the trip, which means they are covering $300 / 2 = $150.
+John has $50, so he is missing $300 - $150 - $50 = $100 for the trip.","John's school has decided to pay 300 / 2 = $<<300/2=150>>150 for his trip.
+In total John has covered 150 + 50 = $<<150+50=200>>200 for his trip
+Therefore, John needs 300 - 200 = $<<300-200=100>>100 more for the trip.
+#### 100"
+Math,2,"Question: Jack makes his own cold brew coffee.  He makes it in batches of 1.5 gallons.  He drinks 96 ounces of coffee every 2 days.  It takes 20 hours to make coffee.  How long does he spend making coffee over 24 days?
+Answer: He makes it in batches of 1.5*128=<<1.5*128=192>>192 ounces
+He drinks 96/2=<<96/2=48>>48 ounces of coffee a day
+So he drinks the coffee in 192/48=<<192/48=4>>4 days
+So in 24 days he makes 24/4=<<24/4=6>>6 batches
+That means he spends 6*20=<<6*20=120>>120 hours making coffee
+#### 120
+Question: There are 10 books on the table. Two-fifths of them are reading books and three-tenths of them are math books. There is one fewer science book than math books and the rest are history books. How many history books are there?
+Answer: Out of the 10 books, 10 x 2/5 = <<10*2/5=4>>4 are reading books.
+While 10 x 3/10 = <<10*3/10=3>>3 are math books.
+There are 3 - 1 = <<3-1=2>>2 science books.
+So, the total number of reading, math, and science books is 4 + 3 + 2 = <<4+3+2=9>>9.
+Thus, there is only 10 - 9 = <<10-9=1>>1 history book.
+#### 1
+Question: It takes 1 hour for refrigerated dough to come to room temperature.  It takes 15 minutes to shape the dough and 2 hours to proof.  The bread takes 30 minutes to bake and 15 minutes to cool.  If the bakery opens at 6:00 am, what is the latest time the head baker can make it to the store to start working?
+Answer: It takes 1 hour to bring the dough to room temp and 2 hours to proof the dough so that's 1+2 = <<1+2=3>>3 hours
+It takes 15 minutes to shape the dough, 30 minutes to bake and another 15 minutes to cool for a total of 15+30+15 = <<15+30+15=60>>60 minutes
+There are 60 minutes in 1 hour so that takes him 60/60 = <<60/60=1>>1 hour
+In total it takes 3+1 = <<3+1=4>>4 hours from start to finish to make the bread
+If the bakery opens at 6:00 am and it takes 4 hours to prep then the latest the head baker can show up is 6-4 = <<6-4=2>>2:00 am
+#### 2
+Question: For breakfast, Anna bought a bagel for $0.95 and a glass of orange juice for $0.85. At lunch, Anna spent $4.65 on a sandwich and $1.15 on a carton of milk. How much more money did Anna spend on lunch than on breakfast?
+Answer: The total cost of breakfast is $0.95 + $0.85 = $<<0.95+0.85=1.80>>1.80.
+The total cost of lunch is $4.65 + $1.15 = $<<4.65+1.15=5.80>>5.80.
+Anna spent $5.80 − $1.80 = $4 more on lunch than breakfast.
+#### 4
+Question: John is raising money for a school trip. He has applied for help from the school, which has decided to cover half the cost of the trip. How much money is John missing if he has $50 and the trip costs $300?","Answer: The school will cover half the cost of the trip, which is 300/2 = $<<300/2=150>>150.
+So, John is missing 300 - 150 = $<<300-150=150>>150 for the trip.
+Since he already has $50, John is missing 150 - 50 = $<<150-50=100>>100 for the trip.","John's school has decided to pay 300 / 2 = $<<300/2=150>>150 for his trip.
+In total John has covered 150 + 50 = $<<150+50=200>>200 for his trip
+Therefore, John needs 300 - 200 = $<<300-200=100>>100 more for the trip.
+#### 100"
+Math,3a,"Question: Jack makes his own cold brew coffee.  He makes it in batches of 1.5 gallons.  He drinks 96 ounces of coffee every 2 days.  It takes 20 hours to make coffee.  How long does he spend making coffee over 24 days?
+Answer: He makes it in batches of 1.5*128=<<1.5*128=192>>192 ounces
+He drinks 96/2=<<96/2=48>>48 ounces of coffee a day
+So he drinks the coffee in 192/48=<<192/48=4>>4 days
+So in 24 days he makes 24/4=<<24/4=6>>6 batches
+That means he spends 6*20=<<6*20=120>>120 hours making coffee
+#### 120
+Question: There are 10 books on the table. Two-fifths of them are reading books and three-tenths of them are math books. There is one fewer science book than math books and the rest are history books. How many history books are there?
+Answer: Out of the 10 books, 10 x 2/5 = <<10*2/5=4>>4 are reading books.
+While 10 x 3/10 = <<10*3/10=3>>3 are math books.
+There are 3 - 1 = <<3-1=2>>2 science books.
+So, the total number of reading, math, and science books is 4 + 3 + 2 = <<4+3+2=9>>9.
+Thus, there is only 10 - 9 = <<10-9=1>>1 history book.
+#### 1
+Question: Jack makes his own cold brew coffee.  He makes it in batches of 1.5 gallons.  He drinks 96 ounces of coffee every 2 days.  It takes 20 hours to make coffee.  How long does he spend making coffee over 24 days?
+Answer: He makes it in batches of 1.5*128=<<1.5*128=192>>192 ounces
+He drinks 96/2=<<96/2=48>>48 ounces of coffee a day
+So he drinks the coffee in 192/48=<<192/48=4>>4 days
+So in 24 days he makes 24/4=<<24/4=6>>6 batches
+That means he spends 6*20=<<6*20=120>>120 hours making coffee
+#### 120
+Question: There are 10 books on the table. Two-fifths of them are reading books and three-tenths of them are math books. There is one fewer science book than math books and the rest are history books. How many history books are there?
+Answer: Out of the 10 books, 10 x 2/5 = <<10*2/5=4>>4 are reading books.
+While 10 x 3/10 = <<10*3/10=3>>3 are math books.
+There are 3 - 1 = <<3-1=2>>2 science books.
+So, the total number of reading, math, and science books is 4 + 3 + 2 = <<4+3+2=9>>9.
+Thus, there is only 10 - 9 = <<10-9=1>>1 history book.
+#### 1
+Question: John is raising money for a school trip. He has applied for help from the school, which has decided to cover half the cost of the trip. How much money is John missing if he has $50 and the trip costs $300?","Answer: The school will cover $300/2 = $150 for the trip.
+So, John is missing $300 - $150 = $150 for the trip. 
+Therefore, John is missing $150 - $50 = $<<150-50=100>>100. 
+#### $100","John's school has decided to pay 300 / 2 = $<<300/2=150>>150 for his trip.
+In total John has covered 150 + 50 = $<<150+50=200>>200 for his trip
+Therefore, John needs 300 - 200 = $<<300-200=100>>100 more for the trip.
+#### 100"
+Math,3b,"Question: It takes 1 hour for refrigerated dough to come to room temperature.  It takes 15 minutes to shape the dough and 2 hours to proof.  The bread takes 30 minutes to bake and 15 minutes to cool.  If the bakery opens at 6:00 am, what is the latest time the head baker can make it to the store to start working?
+Answer: It takes 1 hour to bring the dough to room temp and 2 hours to proof the dough so that's 1+2 = <<1+2=3>>3 hours
+It takes 15 minutes to shape the dough, 30 minutes to bake and another 15 minutes to cool for a total of 15+30+15 = <<15+30+15=60>>60 minutes
+There are 60 minutes in 1 hour so that takes him 60/60 = <<60/60=1>>1 hour
+In total it takes 3+1 = <<3+1=4>>4 hours from start to finish to make the bread
+If the bakery opens at 6:00 am and it takes 4 hours to prep then the latest the head baker can show up is 6-4 = <<6-4=2>>2:00 am
+#### 2
+Question: For breakfast, Anna bought a bagel for $0.95 and a glass of orange juice for $0.85. At lunch, Anna spent $4.65 on a sandwich and $1.15 on a carton of milk. How much more money did Anna spend on lunch than on breakfast?
+Answer: The total cost of breakfast is $0.95 + $0.85 = $<<0.95+0.85=1.80>>1.80.
+The total cost of lunch is $4.65 + $1.15 = $<<4.65+1.15=5.80>>5.80.
+Anna spent $5.80 − $1.80 = $4 more on lunch than breakfast.
+#### 4
+Question: It takes 1 hour for refrigerated dough to come to room temperature.  It takes 15 minutes to shape the dough and 2 hours to proof.  The bread takes 30 minutes to bake and 15 minutes to cool.  If the bakery opens at 6:00 am, what is the latest time the head baker can make it to the store to start working?
+Answer: It takes 1 hour to bring the dough to room temp and 2 hours to proof the dough so that's 1+2 = <<1+2=3>>3 hours
+It takes 15 minutes to shape the dough, 30 minutes to bake and another 15 minutes to cool for a total of 15+30+15 = <<15+30+15=60>>60 minutes
+There are 60 minutes in 1 hour so that takes him 60/60 = <<60/60=1>>1 hour
+In total it takes 3+1 = <<3+1=4>>4 hours from start to finish to make the bread
+If the bakery opens at 6:00 am and it takes 4 hours to prep then the latest the head baker can show up is 6-4 = <<6-4=2>>2:00 am
+#### 2
+Question: For breakfast, Anna bought a bagel for $0.95 and a glass of orange juice for $0.85. At lunch, Anna spent $4.65 on a sandwich and $1.15 on a carton of milk. How much more money did Anna spend on lunch than on breakfast?
+Answer: The total cost of breakfast is $0.95 + $0.85 = $<<0.95+0.85=1.80>>1.80.
+The total cost of lunch is $4.65 + $1.15 = $<<4.65+1.15=5.80>>5.80.
+Anna spent $5.80 − $1.80 = $4 more on lunch than breakfast.
+#### 4
+Question: John is raising money for a school trip. He has applied for help from the school, which has decided to cover half the cost of the trip. How much money is John missing if he has $50 and the trip costs $300?","Answer: The school will cover half the cost of the trip, which is $300/2 = $150.
+John has $50, so he is missing $300 - $150 - $50 = $<<300-150-50=100>>100 for the trip.","John's school has decided to pay 300 / 2 = $<<300/2=150>>150 for his trip.
+In total John has covered 150 + 50 = $<<150+50=200>>200 for his trip
+Therefore, John needs 300 - 200 = $<<300-200=100>>100 more for the trip.
+#### 100"
+CSQA,0,"Question: Stanley had a dream that was very vivid and scary. He had trouble telling it from what?
+A: reality
+B: imagination
+C: dreamworker
+D: nightmare
+E: awake",A: reality,A
+CSQA,1a,"Question: What is something that you feel when you go to the opera?
+A: fall asleep
+B: headache
+C: boredom
+D: relaxation
+E: sick
+Answer: D
+Question: Why would someone bring suit against a total stranger?
+A: aggravation
+B: randomness
+C: going to court
+D: tensions
+E: anger
+Answer: B
+Question: Stanley had a dream that was very vivid and scary. He had trouble telling it from what?
+A: reality
+B: imagination
+C: dreamworker
+D: nightmare
+E: awake",Answer: A,A
+CSQA,1b,"Question: What is one of the many hazards of traveling?
+A: queasiness
+B: diarrhea
+C: exhilarating
+D: motion sickness
+E: going somewhere
+Answer: B
+Question: Who designs a building?
+A: builders
+B: driver
+C: architect
+D: fall down
+E: tradesmen
+Answer: C
+Question: Stanley had a dream that was very vivid and scary. He had trouble telling it from what?
+A: reality
+B: imagination
+C: dreamworker
+D: nightmare
+E: awake",Answer: A,A
+CSQA,2,"Question: What is something that you feel when you go to the opera?
+A: fall asleep
+B: headache
+C: boredom
+D: relaxation
+E: sick
+Answer: D
+Question: Why would someone bring suit against a total stranger?
+A: aggravation
+B: randomness
+C: going to court
+D: tensions
+E: anger
+Answer: B
+Question: What is one of the many hazards of traveling?
+A: queasiness
+B: diarrhea
+C: exhilarating
+D: motion sickness
+E: going somewhere
+Answer: B
+Question: Who designs a building?
+A: builders
+B: driver
+C: architect
+D: fall down
+E: tradesmen
+Answer: C
+Question: Stanley had a dream that was very vivid and scary. He had trouble telling it from what?
+A: reality
+B: imagination
+C: dreamworker
+D: nightmare
+E: awake",Answer: A,A
+CSQA,3a,"Question: What is something that you feel when you go to the opera?
+A: fall asleep
+B: headache
+C: boredom
+D: relaxation
+E: sick
+Answer: D
+Question: Why would someone bring suit against a total stranger?
+A: aggravation
+B: randomness
+C: going to court
+D: tensions
+E: anger
+Answer: B
+Question: What is something that you feel when you go to the opera?
+A: fall asleep
+B: headache
+C: boredom
+D: relaxation
+E: sick
+Answer: D
+Question: Why would someone bring suit against a total stranger?
+A: aggravation
+B: randomness
+C: going to court
+D: tensions
+E: anger
+Answer: B
+Question: Stanley had a dream that was very vivid and scary. He had trouble telling it from what?
+A: reality
+B: imagination
+C: dreamworker
+D: nightmare
+E: awake",Answer: A,A
+CSQA,3b,"Question: What is one of the many hazards of traveling?
+A: queasiness
+B: diarrhea
+C: exhilarating
+D: motion sickness
+E: going somewhere
+Answer: B
+Question: Who designs a building?
+A: builders
+B: driver
+C: architect
+D: fall down
+E: tradesmen
+Answer: C
+Question: What is one of the many hazards of traveling?
+A: queasiness
+B: diarrhea
+C: exhilarating
+D: motion sickness
+E: going somewhere
+Answer: B
+Question: Who designs a building?
+A: builders
+B: driver
+C: architect
+D: fall down
+E: tradesmen
+Answer: C
+Question: Stanley had a dream that was very vivid and scary. He had trouble telling it from what?
+A: reality
+B: imagination
+C: dreamworker
+D: nightmare
+E: awake",Answer: A,A
+StrategyQA,0,"Question: Giraffes are much taller than other land animals. Giraffe shelters at zoos must be built larger than shelters for other animals to accommodate their height.
+Do giraffes require special facilities at zoos?","Yes, giraffes do require special facilities at zoos due to their unique physical characteristics and behavior. Some of the special facilities and considerations for giraffes at zoos include:
+
+1. Taller shelters: As mentioned, giraffe shelters need to be taller than shelters for other animals to accommodate their height. Giraffes also need ample space to move around comfortably and exhibit natural behaviors.
+
+2. High-quality diet: Giraffes have specialized dietary needs, as they primarily feed on leaves and buds from tall trees. Zoos must provide a diet rich in fiber and with the appropriate balance of nutrients to ensure the health of their giraffes.
+
+3. Enrichment activities: Giraffes are social animals that thrive in environments that provide mental and physical stimulation. Zoos often provide enrichment activities such as puzzle feeders, sensory experiences, and opportunities for social interaction to keep giraffes engaged and healthy.
+
+4. Veterinarian care: Giraffes need regular veterinary care to monitor their health and address any medical issues that may arise. Zoos have specialized staff and facilities to provide medical care for giraffes, including regular check-ups, vaccinations, and treatments.
+
+Overall, zoos must provide specialized facilities and care to meet the unique needs of giraffes and ensure their health and well-being in captivity.",True
+StrategyQA,1a,"Question: Adding olive oil to bath water is a common practice for dry skin. In baths, people tend to soak for a period of time. 
+Do some people soak in olive oil and water?
+Answer: True
+Question: Lil Wayne's career began in 1995, at the age of 12, when he was signed by Birdman and joined Cash Money Records as the youngest member of the label. A driver's license is required to legally operate a vehicle by yourself in the USA. The eligible age to first obtain a driver's license varies substantially from state to state, from 14 years, three months, in South Dakota to 17 in New Jersey.
+Could Lil Wayne legally operate a vehicle on his own at the beginning of his career?
+Answer: False
+Question: Giraffes are much taller than other land animals. Giraffe shelters at zoos must be built larger than shelters for other animals to accommodate their height.
+Do giraffes require special facilities at zoos?",Answer: True,True
+StrategyQA,1b,"Question: Carmine is the product of an insect that lives on some cacti Carmine is not stable in oil paints and its usage has been discontinued Carmine is red
+Would an oil painter avoid reds from scale insects that live on a cactus?
+Answer: True
+Question: Romeo and Juliet has topped multiple 'Top Read Books In High School' lists. Romeo and Juliet is available in multiple editions targeted at school age children.
+Is Romeo and Juliet an unusual title to teach high schoolers?
+Answer: False
+Question: Giraffes are much taller than other land animals. Giraffe shelters at zoos must be built larger than shelters for other animals to accommodate their height.
+Do giraffes require special facilities at zoos?",Answer: True,True
+StrategyQA,2,"Question: Adding olive oil to bath water is a common practice for dry skin. In baths, people tend to soak for a period of time. 
+Do some people soak in olive oil and water?
+Answer: True
+Question: Lil Wayne's career began in 1995, at the age of 12, when he was signed by Birdman and joined Cash Money Records as the youngest member of the label. A driver's license is required to legally operate a vehicle by yourself in the USA. The eligible age to first obtain a driver's license varies substantially from state to state, from 14 years, three months, in South Dakota to 17 in New Jersey.
+Could Lil Wayne legally operate a vehicle on his own at the beginning of his career?
+Answer: False
+Question: Carmine is the product of an insect that lives on some cacti Carmine is not stable in oil paints and its usage has been discontinued Carmine is red
+Would an oil painter avoid reds from scale insects that live on a cactus?
+Answer: True
+Question: Romeo and Juliet has topped multiple 'Top Read Books In High School' lists. Romeo and Juliet is available in multiple editions targeted at school age children.
+Is Romeo and Juliet an unusual title to teach high schoolers?
+Answer: False
+Question: Giraffes are much taller than other land animals. Giraffe shelters at zoos must be built larger than shelters for other animals to accommodate their height.
+Do giraffes require special facilities at zoos?",Answer: True,True
+StrategyQA,3a,"Question: Adding olive oil to bath water is a common practice for dry skin. In baths, people tend to soak for a period of time. 
+Do some people soak in olive oil and water?
+Answer: True
+Question: Lil Wayne's career began in 1995, at the age of 12, when he was signed by Birdman and joined Cash Money Records as the youngest member of the label. A driver's license is required to legally operate a vehicle by yourself in the USA. The eligible age to first obtain a driver's license varies substantially from state to state, from 14 years, three months, in South Dakota to 17 in New Jersey.
+Could Lil Wayne legally operate a vehicle on his own at the beginning of his career?
+Answer: False
+Question: Adding olive oil to bath water is a common practice for dry skin. In baths, people tend to soak for a period of time. 
+Do some people soak in olive oil and water?
+Answer: True
+Question: Lil Wayne's career began in 1995, at the age of 12, when he was signed by Birdman and joined Cash Money Records as the youngest member of the label. A driver's license is required to legally operate a vehicle by yourself in the USA. The eligible age to first obtain a driver's license varies substantially from state to state, from 14 years, three months, in South Dakota to 17 in New Jersey.
+Could Lil Wayne legally operate a vehicle on his own at the beginning of his career?
+Answer: False
+Question: Giraffes are much taller than other land animals. Giraffe shelters at zoos must be built larger than shelters for other animals to accommodate their height.
+Do giraffes require special facilities at zoos?",Answer: True,True
+StrategyQA,3b,"Question: Carmine is the product of an insect that lives on some cacti Carmine is not stable in oil paints and its usage has been discontinued Carmine is red
+Would an oil painter avoid reds from scale insects that live on a cactus?
+Answer: True
+Question: Romeo and Juliet has topped multiple 'Top Read Books In High School' lists. Romeo and Juliet is available in multiple editions targeted at school age children.
+Is Romeo and Juliet an unusual title to teach high schoolers?
+Answer: False
+Question: Carmine is the product of an insect that lives on some cacti Carmine is not stable in oil paints and its usage has been discontinued Carmine is red
+Would an oil painter avoid reds from scale insects that live on a cactus?
+Answer: True
+Question: Romeo and Juliet has topped multiple 'Top Read Books In High School' lists. Romeo and Juliet is available in multiple editions targeted at school age children.
+Is Romeo and Juliet an unusual title to teach high schoolers?
+Answer: False
+Question: Giraffes are much taller than other land animals. Giraffe shelters at zoos must be built larger than shelters for other animals to accommodate their height.
+Do giraffes require special facilities at zoos?",Answer: True,True
+SayCan,0,Question: Provide step-by-step instructions for the following task: Could you get me something refreshing?,"1. Begin by assessing what is available to you to use as a refreshing option. This could include drinks, snacks, fruits, or other items that are known to be refreshing.
+
+2. Consider your preferences and any dietary restrictions you may have in mind when selecting the refreshing item.
+
+3. If you have access to a refrigerator or cooler, check to see if there are any cold beverages or fruits that could serve as a refreshing option.
+
+4. If you don't have any ready-made refreshments available, consider making a simple drink such as lemonade, iced tea, or a fruit-infused water.
+
+5. If you prefer something to eat, opt for fruits like watermelon, cucumber slices, or berries that are known for their refreshing qualities.
+
+6. Once you have selected or prepared the refreshing item, serve it in a suitable container or plate to enjoy.
+
+7. Offer the refreshing item to the person who requested it, ensuring that they are satisfied with the choice and presentation.
+
+8. Finally, sit back, relax, and enjoy the refreshing treat together.
+
+Remember to stay hydrated and consume your refreshments in moderation to fully enjoy their revitalizing effects.","1. find a water, 2. pick up the water, 3. bring it to you, 4. put down the water, 5. done."
+SayCan,1a,"Question: Provide step-by-step instructions for the following task: How would you put a banana on the counter?
+Answer: 1. pick up the banana, 2. go to the counter, 3. put down the banana, 4. done
+Question: Provide step-by-step instructions for the following task: Bring me everything from the table.
+Answer: 1. go to the table, 2. pick up the energy bar, 3. bring it to you, 4. put down the energy bar, 5. go to the table, 6. pick up the multigrain chips, 7. bring it to you, 8. put down the multigrain chips, 9. done
+Question: Provide step-by-step instructions for the following task: Could you get me something refreshing?","Answer: 1. Go to the refrigerator or pantry, 2. Look for cold beverages such as water, juice, or soda, 3. Take out the refreshing drink of your choice, 4. Bring it to the person requesting it, 5. Serve the refreshing drink, 6. Done.","1. find a water, 2. pick up the water, 3. bring it to you, 4. put down the water, 5. done."
+SayCan,1b,"Question: Provide step-by-step instructions for the following task: Bring me three different drinks.
+Answer: 1. find a coke, 2. pick up the coke, 3. bring it to you, 4. put down the coke, 5. find a lime soda, 6. pick up the lime soda, 7. bring it to you, 8. put down the lime soda, 9. find a redbull, 10. pick up the redbull, 11. bring it to you, 12. put down the redbull, 13. done
+Question: Provide step-by-step instructions for the following task: Could you get me something refreshing?
+Answer: 1. find a water bottle, 2. pick up the water bottle, 3. bring it to you, 4. put down the water bottle, 5. done
+Question: Provide step-by-step instructions for the following task: Could you get me something refreshing?","Answer: 1. Find a glass, 2. Fill the glass with ice cubes, 3. Pour some cold water into the glass, 4. Add a slice of lemon or cucumber for extra freshness, 5. Bring the glass to you, 6. Done.","1. find a water, 2. pick up the water, 3. bring it to you, 4. put down the water, 5. done."
+SayCan,2,"Question: Provide step-by-step instructions for the following task: How would you put a banana on the counter?
+Answer: 1. pick up the banana, 2. go to the counter, 3. put down the banana, 4. done
+Question: Provide step-by-step instructions for the following task: Bring me everything from the table.
+Answer: 1. go to the table, 2. pick up the energy bar, 3. bring it to you, 4. put down the energy bar, 5. go to the table, 6. pick up the multigrain chips, 7. bring it to you, 8. put down the multigrain chips, 9. done
+Question: Provide step-by-step instructions for the following task: Bring me three different drinks.
+Answer: 1. find a coke, 2. pick up the coke, 3. bring it to you, 4. put down the coke, 5. find a lime soda, 6. pick up the lime soda, 7. bring it to you, 8. put down the lime soda, 9. find a redbull, 10. pick up the redbull, 11. bring it to you, 12. put down the redbull, 13. done
+Question: Provide step-by-step instructions for the following task: Could you get me something refreshing?
+Answer: 1. find a water bottle, 2. pick up the water bottle, 3. bring it to you, 4. put down the water bottle, 5. done
+Question: Provide step-by-step instructions for the following task: Could you get me something refreshing?","Answer: 1. open the fridge, 2. find a cold drink like a can of soda or a bottle of juice, 3. take it out, 4. bring it to you, 5. offer it to you, 6. done","1. find a water, 2. pick up the water, 3. bring it to you, 4. put down the water, 5. done."
+SayCan,3a,"Question: Provide step-by-step instructions for the following task: How would you put a banana on the counter?
+Answer: 1. pick up the banana, 2. go to the counter, 3. put down the banana, 4. done
+Question: Provide step-by-step instructions for the following task: Bring me everything from the table.
+Answer: 1. go to the table, 2. pick up the energy bar, 3. bring it to you, 4. put down the energy bar, 5. go to the table, 6. pick up the multigrain chips, 7. bring it to you, 8. put down the multigrain chips, 9. done
+Question: Provide step-by-step instructions for the following task: How would you put a banana on the counter?
+Answer: 1. pick up the banana, 2. go to the counter, 3. put down the banana, 4. done
+Question: Provide step-by-step instructions for the following task: Bring me everything from the table.
+Answer: 1. go to the table, 2. pick up the energy bar, 3. bring it to you, 4. put down the energy bar, 5. go to the table, 6. pick up the multigrain chips, 7. bring it to you, 8. put down the multigrain chips, 9. done
+Question: Provide step-by-step instructions for the following task: Could you get me something refreshing?","Answer: 1. Open the refrigerator, 2. Look for a cold drink like water or juice, 3. Take the refreshing drink out of the refrigerator, 4. Bring it to the person requesting it, 5. Hand the refreshing drink to the person, 6. Done","1. find a water, 2. pick up the water, 3. bring it to you, 4. put down the water, 5. done."
+SayCan,3b,"Question: Provide step-by-step instructions for the following task: Bring me three different drinks.
+Answer: 1. find a coke, 2. pick up the coke, 3. bring it to you, 4. put down the coke, 5. find a lime soda, 6. pick up the lime soda, 7. bring it to you, 8. put down the lime soda, 9. find a redbull, 10. pick up the redbull, 11. bring it to you, 12. put down the redbull, 13. done
+Question: Provide step-by-step instructions for the following task: Could you get me something refreshing?
+Answer: 1. find a water bottle, 2. pick up the water bottle, 3. bring it to you, 4. put down the water bottle, 5. done
+Question: Provide step-by-step instructions for the following task: Bring me three different drinks.
+Answer: 1. find a coke, 2. pick up the coke, 3. bring it to you, 4. put down the coke, 5. find a lime soda, 6. pick up the lime soda, 7. bring it to you, 8. put down the lime soda, 9. find a redbull, 10. pick up the redbull, 11. bring it to you, 12. put down the redbull, 13. done
+Question: Provide step-by-step instructions for the following task: Could you get me something refreshing?
+Answer: 1. find a water bottle, 2. pick up the water bottle, 3. bring it to you, 4. put down the water bottle, 5. done
+Question: Provide step-by-step instructions for the following task: Could you get me something refreshing?","Answer: 1. Find a glass, 2. Fill it with ice cubes, 3. Pour some freshly squeezed lemonade over the ice, 4. Stir it well, 5. Bring it to you, 6. Done.","1. find a water, 2. pick up the water, 3. bring it to you, 4. put down the water, 5. done."

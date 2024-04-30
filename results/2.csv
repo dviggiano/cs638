@@ -1,0 +1,413 @@
+Task Class,Case,Prompt,Response,Expected
+Math,0,"Question: There are currently 3 red balls, 11 blue balls, and 25 green balls in the store. Red balls cost $9, Blue balls cost $5 and green balls cost $3. How much will the store have received after all the balls are sold?","To find out how much the store will have received after all the balls are sold, we need to calculate the total cost of all the red, blue, and green balls.
+
+Total cost of red balls = 3 x $9 = $27
+Total cost of blue balls = 11 x $5 = $55
+Total cost of green balls = 25 x $3 = $75
+
+Adding all the costs together:
+Total received by the store = $27 + $55 + $75 = $157
+
+Therefore, the store will have received $157 after all the balls are sold.","For the red balls, 3 balls * $9/ball = $<<3*9=27>>27.
+For the blue balls, 11 balls * $5/ball = $<<11*5=55>>55.
+For the green balls, 25 balls * $3/ball = $<<25*3=75>>75.
+For all balls, $27 + $55 + $75 = $<<27+55+75=157>>157.
+#### 157"
+Math,1a,"Question: In a school, the number of participants in the 2018 Science Quiz Bowl was 150. There were 20 more than twice the number of participants in 2019 as there were in 2018. In 2020, the number of participants was 40 less than half the number of participants in 2019. How many more participants were there in 2019 than in 2020?
+Answer: Twice the number of participants in 2018 is 150 participants x 2 = <<150*2=300>>300 participants.
+The number of participants in 2019 was 300 participants + 20 participants = <<300+20=320>>320 participants.
+Half the number of participants in 2019 is 320 participants /2 = <<320/2=160>>160 participants.
+The number of participants in 2020 was 160 participants - 40 participants = <<160-40=120>>120 participants.
+There were 320 participants - 120 participants = <<320-120=200>>200 more participants in 2019 than in 2020.
+#### 200
+Question: Jenny wants to sell some girl scout cookies and has the choice of two neighborhoods to visit.  Neighborhood A has 10 homes which each will buy 2 boxes of cookies.  Neighborhood B has 5 homes, each of which will buy 5 boxes of cookies.  Assuming each box of cookies costs $2, how much will Jenny make at the better choice of the two neighborhoods?
+Answer: First, we need to determine which neighborhood is the better choice by comparing the number of boxes sold. A has 10 houses which will buy 2 boxes each, meaning A will give Jenny 10*2=<<10*2=20>>20 box sales
+Neighborhood B has 5 homes which will each buy 5 boxes, meaning she will sell 5*5=<<5*5=25>>25 boxes by going to that neighborhood.
+Since 25>20, this means Jenny should choose neighborhood B.
+Since Jenny earns $2 per box sold, this means she will earn 25*2=<<25*2=50>>50 dollars by choosing neighborhood B.
+#### 50
+Question: There are currently 3 red balls, 11 blue balls, and 25 green balls in the store. Red balls cost $9, Blue balls cost $5 and green balls cost $3. How much will the store have received after all the balls are sold?","Answer: 
+
+The total revenue from selling red balls would be 3 red balls * $9 per red ball = $27.
+The total revenue from selling blue balls would be 11 blue balls * $5 per blue ball = $55.
+The total revenue from selling green balls would be 25 green balls * $3 per green ball = $75.
+Therefore, the store will have received a total of $27 + $55 + $75 = $157 after all the balls are sold.","For the red balls, 3 balls * $9/ball = $<<3*9=27>>27.
+For the blue balls, 11 balls * $5/ball = $<<11*5=55>>55.
+For the green balls, 25 balls * $3/ball = $<<25*3=75>>75.
+For all balls, $27 + $55 + $75 = $<<27+55+75=157>>157.
+#### 157"
+Math,1b,"Question: To pass the time while she is waiting somewhere Carla likes to count things around her. While she is waiting for school to start on Monday she counts the tiles on the ceiling--38. While she is waiting for everyone to finish their tests after she has handed in hers, she counts the books in the room--75. On Tuesday Carla counts all the tiles twice in a row and she counts the books three times in a row when she has to wait for a long time for the teacher to finish handing out the graded tests. If every time Carla counts something counts as once, how many times has Carla counted something on Tuesday?
+Answer: When Carla was waiting on Monday she counted 38 ceiling tiles and on Tuesday she counted them twice, 38 ceiling tiles x 2 = <<38*2=76>>76 times she counted a ceiling tile.
+She also counted 75 books in the room on Monday and counted them three times in a row on Tuesday, 75 books x 3 = <<75*3=225>>225 times she counted a book.
+On Tuesday Carla counted the ceiling tiles 76 times + counted books 225 times = <<76+225=301>>301 times Carla counted something on Tuesday.
+#### 301
+Question: Mitzi brought $75 to the amusement park. She spent $30 on a ticket, $13 on food, and $23 on a T-shirt. How much money does she have left?
+Answer: Mitzi spent a total of $30 + $13 + $23 = $<<30+13+23=66>>66.
+So she still has $75 - $66 = $<<75-66=9>>9 left.
+#### 9
+Question: There are currently 3 red balls, 11 blue balls, and 25 green balls in the store. Red balls cost $9, Blue balls cost $5 and green balls cost $3. How much will the store have received after all the balls are sold?","Answer: The store will receive $9 x 3 red balls = $27 from selling red balls.
+They will receive $5 x 11 blue balls = $55 from selling blue balls.
+And they will receive $3 x 25 green balls = $75 from selling green balls.
+Therefore, the store will have received a total of $27 + $55 + $75 = $<<27+55+75=157>>157 after selling all the balls. 
+#### 157","For the red balls, 3 balls * $9/ball = $<<3*9=27>>27.
+For the blue balls, 11 balls * $5/ball = $<<11*5=55>>55.
+For the green balls, 25 balls * $3/ball = $<<25*3=75>>75.
+For all balls, $27 + $55 + $75 = $<<27+55+75=157>>157.
+#### 157"
+Math,2,"Question: In a school, the number of participants in the 2018 Science Quiz Bowl was 150. There were 20 more than twice the number of participants in 2019 as there were in 2018. In 2020, the number of participants was 40 less than half the number of participants in 2019. How many more participants were there in 2019 than in 2020?
+Answer: Twice the number of participants in 2018 is 150 participants x 2 = <<150*2=300>>300 participants.
+The number of participants in 2019 was 300 participants + 20 participants = <<300+20=320>>320 participants.
+Half the number of participants in 2019 is 320 participants /2 = <<320/2=160>>160 participants.
+The number of participants in 2020 was 160 participants - 40 participants = <<160-40=120>>120 participants.
+There were 320 participants - 120 participants = <<320-120=200>>200 more participants in 2019 than in 2020.
+#### 200
+Question: Jenny wants to sell some girl scout cookies and has the choice of two neighborhoods to visit.  Neighborhood A has 10 homes which each will buy 2 boxes of cookies.  Neighborhood B has 5 homes, each of which will buy 5 boxes of cookies.  Assuming each box of cookies costs $2, how much will Jenny make at the better choice of the two neighborhoods?
+Answer: First, we need to determine which neighborhood is the better choice by comparing the number of boxes sold. A has 10 houses which will buy 2 boxes each, meaning A will give Jenny 10*2=<<10*2=20>>20 box sales
+Neighborhood B has 5 homes which will each buy 5 boxes, meaning she will sell 5*5=<<5*5=25>>25 boxes by going to that neighborhood.
+Since 25>20, this means Jenny should choose neighborhood B.
+Since Jenny earns $2 per box sold, this means she will earn 25*2=<<25*2=50>>50 dollars by choosing neighborhood B.
+#### 50
+Question: To pass the time while she is waiting somewhere Carla likes to count things around her. While she is waiting for school to start on Monday she counts the tiles on the ceiling--38. While she is waiting for everyone to finish their tests after she has handed in hers, she counts the books in the room--75. On Tuesday Carla counts all the tiles twice in a row and she counts the books three times in a row when she has to wait for a long time for the teacher to finish handing out the graded tests. If every time Carla counts something counts as once, how many times has Carla counted something on Tuesday?
+Answer: When Carla was waiting on Monday she counted 38 ceiling tiles and on Tuesday she counted them twice, 38 ceiling tiles x 2 = <<38*2=76>>76 times she counted a ceiling tile.
+She also counted 75 books in the room on Monday and counted them three times in a row on Tuesday, 75 books x 3 = <<75*3=225>>225 times she counted a book.
+On Tuesday Carla counted the ceiling tiles 76 times + counted books 225 times = <<76+225=301>>301 times Carla counted something on Tuesday.
+#### 301
+Question: Mitzi brought $75 to the amusement park. She spent $30 on a ticket, $13 on food, and $23 on a T-shirt. How much money does she have left?
+Answer: Mitzi spent a total of $30 + $13 + $23 = $<<30+13+23=66>>66.
+So she still has $75 - $66 = $<<75-66=9>>9 left.
+#### 9
+Question: There are currently 3 red balls, 11 blue balls, and 25 green balls in the store. Red balls cost $9, Blue balls cost $5 and green balls cost $3. How much will the store have received after all the balls are sold?","Answer: The total amount the store will receive from selling the red balls is 3 red balls x $9 = $27.
+The total amount the store will receive from selling the blue balls is 11 blue balls x $5 = $55.
+The total amount the store will receive from selling the green balls is 25 green balls x $3 = $75.
+Therefore, the total amount the store will have received after selling all the balls is $27 + $55 + $75 = $<<27+55+75=157>>157.","For the red balls, 3 balls * $9/ball = $<<3*9=27>>27.
+For the blue balls, 11 balls * $5/ball = $<<11*5=55>>55.
+For the green balls, 25 balls * $3/ball = $<<25*3=75>>75.
+For all balls, $27 + $55 + $75 = $<<27+55+75=157>>157.
+#### 157"
+Math,3a,"Question: In a school, the number of participants in the 2018 Science Quiz Bowl was 150. There were 20 more than twice the number of participants in 2019 as there were in 2018. In 2020, the number of participants was 40 less than half the number of participants in 2019. How many more participants were there in 2019 than in 2020?
+Answer: Twice the number of participants in 2018 is 150 participants x 2 = <<150*2=300>>300 participants.
+The number of participants in 2019 was 300 participants + 20 participants = <<300+20=320>>320 participants.
+Half the number of participants in 2019 is 320 participants /2 = <<320/2=160>>160 participants.
+The number of participants in 2020 was 160 participants - 40 participants = <<160-40=120>>120 participants.
+There were 320 participants - 120 participants = <<320-120=200>>200 more participants in 2019 than in 2020.
+#### 200
+Question: Jenny wants to sell some girl scout cookies and has the choice of two neighborhoods to visit.  Neighborhood A has 10 homes which each will buy 2 boxes of cookies.  Neighborhood B has 5 homes, each of which will buy 5 boxes of cookies.  Assuming each box of cookies costs $2, how much will Jenny make at the better choice of the two neighborhoods?
+Answer: First, we need to determine which neighborhood is the better choice by comparing the number of boxes sold. A has 10 houses which will buy 2 boxes each, meaning A will give Jenny 10*2=<<10*2=20>>20 box sales
+Neighborhood B has 5 homes which will each buy 5 boxes, meaning she will sell 5*5=<<5*5=25>>25 boxes by going to that neighborhood.
+Since 25>20, this means Jenny should choose neighborhood B.
+Since Jenny earns $2 per box sold, this means she will earn 25*2=<<25*2=50>>50 dollars by choosing neighborhood B.
+#### 50
+Question: In a school, the number of participants in the 2018 Science Quiz Bowl was 150. There were 20 more than twice the number of participants in 2019 as there were in 2018. In 2020, the number of participants was 40 less than half the number of participants in 2019. How many more participants were there in 2019 than in 2020?
+Answer: Twice the number of participants in 2018 is 150 participants x 2 = <<150*2=300>>300 participants.
+The number of participants in 2019 was 300 participants + 20 participants = <<300+20=320>>320 participants.
+Half the number of participants in 2019 is 320 participants /2 = <<320/2=160>>160 participants.
+The number of participants in 2020 was 160 participants - 40 participants = <<160-40=120>>120 participants.
+There were 320 participants - 120 participants = <<320-120=200>>200 more participants in 2019 than in 2020.
+#### 200
+Question: Jenny wants to sell some girl scout cookies and has the choice of two neighborhoods to visit.  Neighborhood A has 10 homes which each will buy 2 boxes of cookies.  Neighborhood B has 5 homes, each of which will buy 5 boxes of cookies.  Assuming each box of cookies costs $2, how much will Jenny make at the better choice of the two neighborhoods?
+Answer: First, we need to determine which neighborhood is the better choice by comparing the number of boxes sold. A has 10 houses which will buy 2 boxes each, meaning A will give Jenny 10*2=<<10*2=20>>20 box sales
+Neighborhood B has 5 homes which will each buy 5 boxes, meaning she will sell 5*5=<<5*5=25>>25 boxes by going to that neighborhood.
+Since 25>20, this means Jenny should choose neighborhood B.
+Since Jenny earns $2 per box sold, this means she will earn 25*2=<<25*2=50>>50 dollars by choosing neighborhood B.
+#### 50
+Question: There are currently 3 red balls, 11 blue balls, and 25 green balls in the store. Red balls cost $9, Blue balls cost $5 and green balls cost $3. How much will the store have received after all the balls are sold?","To find out how much the store will receive after selling all the balls, we first need to calculate the total cost of each color of ball.
+
+For red balls:
+3 red balls * $9 per red ball = $27
+
+For blue balls:
+11 blue balls * $5 per blue ball = $55
+
+For green balls:
+25 green balls * $3 per green ball = $75
+
+Now, we need to find the total amount the store will receive after selling all the balls:
+$27 (from red balls) + $55 (from blue balls) + $75 (from green balls) = $27 + $55 + $75 = $<<27+55+75=157>>157
+
+Therefore, the store will have received $157 after selling all the balls.","For the red balls, 3 balls * $9/ball = $<<3*9=27>>27.
+For the blue balls, 11 balls * $5/ball = $<<11*5=55>>55.
+For the green balls, 25 balls * $3/ball = $<<25*3=75>>75.
+For all balls, $27 + $55 + $75 = $<<27+55+75=157>>157.
+#### 157"
+Math,3b,"Question: To pass the time while she is waiting somewhere Carla likes to count things around her. While she is waiting for school to start on Monday she counts the tiles on the ceiling--38. While she is waiting for everyone to finish their tests after she has handed in hers, she counts the books in the room--75. On Tuesday Carla counts all the tiles twice in a row and she counts the books three times in a row when she has to wait for a long time for the teacher to finish handing out the graded tests. If every time Carla counts something counts as once, how many times has Carla counted something on Tuesday?
+Answer: When Carla was waiting on Monday she counted 38 ceiling tiles and on Tuesday she counted them twice, 38 ceiling tiles x 2 = <<38*2=76>>76 times she counted a ceiling tile.
+She also counted 75 books in the room on Monday and counted them three times in a row on Tuesday, 75 books x 3 = <<75*3=225>>225 times she counted a book.
+On Tuesday Carla counted the ceiling tiles 76 times + counted books 225 times = <<76+225=301>>301 times Carla counted something on Tuesday.
+#### 301
+Question: Mitzi brought $75 to the amusement park. She spent $30 on a ticket, $13 on food, and $23 on a T-shirt. How much money does she have left?
+Answer: Mitzi spent a total of $30 + $13 + $23 = $<<30+13+23=66>>66.
+So she still has $75 - $66 = $<<75-66=9>>9 left.
+#### 9
+Question: To pass the time while she is waiting somewhere Carla likes to count things around her. While she is waiting for school to start on Monday she counts the tiles on the ceiling--38. While she is waiting for everyone to finish their tests after she has handed in hers, she counts the books in the room--75. On Tuesday Carla counts all the tiles twice in a row and she counts the books three times in a row when she has to wait for a long time for the teacher to finish handing out the graded tests. If every time Carla counts something counts as once, how many times has Carla counted something on Tuesday?
+Answer: When Carla was waiting on Monday she counted 38 ceiling tiles and on Tuesday she counted them twice, 38 ceiling tiles x 2 = <<38*2=76>>76 times she counted a ceiling tile.
+She also counted 75 books in the room on Monday and counted them three times in a row on Tuesday, 75 books x 3 = <<75*3=225>>225 times she counted a book.
+On Tuesday Carla counted the ceiling tiles 76 times + counted books 225 times = <<76+225=301>>301 times Carla counted something on Tuesday.
+#### 301
+Question: Mitzi brought $75 to the amusement park. She spent $30 on a ticket, $13 on food, and $23 on a T-shirt. How much money does she have left?
+Answer: Mitzi spent a total of $30 + $13 + $23 = $<<30+13+23=66>>66.
+So she still has $75 - $66 = $<<75-66=9>>9 left.
+#### 9
+Question: There are currently 3 red balls, 11 blue balls, and 25 green balls in the store. Red balls cost $9, Blue balls cost $5 and green balls cost $3. How much will the store have received after all the balls are sold?","Answer: The store will receive (3 red balls x $9) + (11 blue balls x $5) + (25 green balls x $3) = $<<3*9+11*5+25*3=192>>192 after all the balls are sold. 
+So, the store will have received $192.","For the red balls, 3 balls * $9/ball = $<<3*9=27>>27.
+For the blue balls, 11 balls * $5/ball = $<<11*5=55>>55.
+For the green balls, 25 balls * $3/ball = $<<25*3=75>>75.
+For all balls, $27 + $55 + $75 = $<<27+55+75=157>>157.
+#### 157"
+CSQA,0,"Question: The game promised it was free, but the child's parents soon found themselves doing what for microtransactions?
+A: costly
+B: captive
+C: contained
+D: paying
+E: caught",D: paying,D
+CSQA,1a,"Question: Where would a human make a public call be made?
+A: phone booth
+B: clothing store
+C: workplace
+D: swimming pool
+E: phone mount
+Answer: A
+Question: Where would you go to get a tuning fork you forgot?
+A: music shop
+B: music room
+C: music store
+D: hardware store
+E: science lab
+Answer: E
+Question: The game promised it was free, but the child's parents soon found themselves doing what for microtransactions?
+A: costly
+B: captive
+C: contained
+D: paying
+E: caught",Answer: D,D
+CSQA,1b,"Question: Sally loved shopping and she hated it.  She loved getting what she wanted, and she never bought to much, but it was still painful for her to buy, because she hated any what?
+A: overspending
+B: standing in line
+C: loss of money
+D: run out of money
+E: new shoes
+Answer: C
+Question: Skiing can be very risky, it can be the cause of a very serious what?
+A: fall down
+B: fall in
+C: getting cold
+D: accident
+E: trip and fall
+Answer: D
+Question: The game promised it was free, but the child's parents soon found themselves doing what for microtransactions?
+A: costly
+B: captive
+C: contained
+D: paying
+E: caught",Answer: D,D
+CSQA,2,"Question: Where would a human make a public call be made?
+A: phone booth
+B: clothing store
+C: workplace
+D: swimming pool
+E: phone mount
+Answer: A
+Question: Where would you go to get a tuning fork you forgot?
+A: music shop
+B: music room
+C: music store
+D: hardware store
+E: science lab
+Answer: E
+Question: Sally loved shopping and she hated it.  She loved getting what she wanted, and she never bought to much, but it was still painful for her to buy, because she hated any what?
+A: overspending
+B: standing in line
+C: loss of money
+D: run out of money
+E: new shoes
+Answer: C
+Question: Skiing can be very risky, it can be the cause of a very serious what?
+A: fall down
+B: fall in
+C: getting cold
+D: accident
+E: trip and fall
+Answer: D
+Question: The game promised it was free, but the child's parents soon found themselves doing what for microtransactions?
+A: costly
+B: captive
+C: contained
+D: paying
+E: caught",Answer: D,D
+CSQA,3a,"Question: Where would a human make a public call be made?
+A: phone booth
+B: clothing store
+C: workplace
+D: swimming pool
+E: phone mount
+Answer: A
+Question: Where would you go to get a tuning fork you forgot?
+A: music shop
+B: music room
+C: music store
+D: hardware store
+E: science lab
+Answer: E
+Question: Where would a human make a public call be made?
+A: phone booth
+B: clothing store
+C: workplace
+D: swimming pool
+E: phone mount
+Answer: A
+Question: Where would you go to get a tuning fork you forgot?
+A: music shop
+B: music room
+C: music store
+D: hardware store
+E: science lab
+Answer: E
+Question: The game promised it was free, but the child's parents soon found themselves doing what for microtransactions?
+A: costly
+B: captive
+C: contained
+D: paying
+E: caught",Answer: D,D
+CSQA,3b,"Question: Sally loved shopping and she hated it.  She loved getting what she wanted, and she never bought to much, but it was still painful for her to buy, because she hated any what?
+A: overspending
+B: standing in line
+C: loss of money
+D: run out of money
+E: new shoes
+Answer: C
+Question: Skiing can be very risky, it can be the cause of a very serious what?
+A: fall down
+B: fall in
+C: getting cold
+D: accident
+E: trip and fall
+Answer: D
+Question: Sally loved shopping and she hated it.  She loved getting what she wanted, and she never bought to much, but it was still painful for her to buy, because she hated any what?
+A: overspending
+B: standing in line
+C: loss of money
+D: run out of money
+E: new shoes
+Answer: C
+Question: Skiing can be very risky, it can be the cause of a very serious what?
+A: fall down
+B: fall in
+C: getting cold
+D: accident
+E: trip and fall
+Answer: D
+Question: The game promised it was free, but the child's parents soon found themselves doing what for microtransactions?
+A: costly
+B: captive
+C: contained
+D: paying
+E: caught",Answer: D,D
+StrategyQA,0,"Question: During the biblical Exodus, the Israelite had to cross the Red Sea. Moses parted the Red Sea to allow the Israelite group to escape from the Egyptians. 
+Does the Red Sea have biblical significance? ","Yes, the Red Sea holds significant biblical significance as it is the body of water that the Israelites crossed during the Exodus. This miraculous event, where Moses parted the Red Sea to allow the Israelites to escape from the pursuing Egyptians, is a pivotal moment in the Old Testament. It symbolizes God's power and protection over His chosen people, as well as their journey to freedom and redemption. The crossing of the Red Sea is also seen as a foreshadowing of baptism and salvation in Christianity. Additionally, the Red Sea is mentioned in other biblical passages, such as the Israelites journey to Mount Sinai and the route taken by the Queen of Sheba to visit King Solomon.",True
+StrategyQA,1a,"Question: Mario 64 is licenced to Nintendo Entertainment. Nintendo holds a copyright on all of their Mario games.
+Would downloading Mario 64 on an emulator be legal?
+Answer: False
+Question: The James Webb Space Telescope is the most powerful telescope created. Krypton is a planet in the fictional Superman comic book series.
+Does James Webb Space Telescope fail astronomer in locating planet Krypton?
+Answer: True
+Question: During the biblical Exodus, the Israelite had to cross the Red Sea. Moses parted the Red Sea to allow the Israelite group to escape from the Egyptians. 
+Does the Red Sea have biblical significance? ",Answer: True,True
+StrategyQA,1b,"Question: Communist ideology is the foundation of communist party of China. Marx produced a political pamphlet that has since come to be commonly known as the communist manifesto. 
+Did Karl Marx influence the communist party of China?
+Answer: True
+Question: Focal Fossa is the most recent Ubuntu release. Ubuntu is a Linux distribution. 
+If you're running focal fossa, are you using linux?
+Answer: True
+Question: During the biblical Exodus, the Israelite had to cross the Red Sea. Moses parted the Red Sea to allow the Israelite group to escape from the Egyptians. 
+Does the Red Sea have biblical significance? ",Answer: True,True
+StrategyQA,2,"Question: Mario 64 is licenced to Nintendo Entertainment. Nintendo holds a copyright on all of their Mario games.
+Would downloading Mario 64 on an emulator be legal?
+Answer: False
+Question: The James Webb Space Telescope is the most powerful telescope created. Krypton is a planet in the fictional Superman comic book series.
+Does James Webb Space Telescope fail astronomer in locating planet Krypton?
+Answer: True
+Question: Communist ideology is the foundation of communist party of China. Marx produced a political pamphlet that has since come to be commonly known as the communist manifesto. 
+Did Karl Marx influence the communist party of China?
+Answer: True
+Question: Focal Fossa is the most recent Ubuntu release. Ubuntu is a Linux distribution. 
+If you're running focal fossa, are you using linux?
+Answer: True
+Question: During the biblical Exodus, the Israelite had to cross the Red Sea. Moses parted the Red Sea to allow the Israelite group to escape from the Egyptians. 
+Does the Red Sea have biblical significance? ",Answer: True,True
+StrategyQA,3a,"Question: Mario 64 is licenced to Nintendo Entertainment. Nintendo holds a copyright on all of their Mario games.
+Would downloading Mario 64 on an emulator be legal?
+Answer: False
+Question: The James Webb Space Telescope is the most powerful telescope created. Krypton is a planet in the fictional Superman comic book series.
+Does James Webb Space Telescope fail astronomer in locating planet Krypton?
+Answer: True
+Question: Mario 64 is licenced to Nintendo Entertainment. Nintendo holds a copyright on all of their Mario games.
+Would downloading Mario 64 on an emulator be legal?
+Answer: False
+Question: The James Webb Space Telescope is the most powerful telescope created. Krypton is a planet in the fictional Superman comic book series.
+Does James Webb Space Telescope fail astronomer in locating planet Krypton?
+Answer: True
+Question: During the biblical Exodus, the Israelite had to cross the Red Sea. Moses parted the Red Sea to allow the Israelite group to escape from the Egyptians. 
+Does the Red Sea have biblical significance? ",Answer: True,True
+StrategyQA,3b,"Question: Communist ideology is the foundation of communist party of China. Marx produced a political pamphlet that has since come to be commonly known as the communist manifesto. 
+Did Karl Marx influence the communist party of China?
+Answer: True
+Question: Focal Fossa is the most recent Ubuntu release. Ubuntu is a Linux distribution. 
+If you're running focal fossa, are you using linux?
+Answer: True
+Question: Communist ideology is the foundation of communist party of China. Marx produced a political pamphlet that has since come to be commonly known as the communist manifesto. 
+Did Karl Marx influence the communist party of China?
+Answer: True
+Question: Focal Fossa is the most recent Ubuntu release. Ubuntu is a Linux distribution. 
+If you're running focal fossa, are you using linux?
+Answer: True
+Question: During the biblical Exodus, the Israelite had to cross the Red Sea. Moses parted the Red Sea to allow the Israelite group to escape from the Egyptians. 
+Does the Red Sea have biblical significance? ",Answer: True,True
+SayCan,0,Question: Provide step-by-step instructions for the following task: How would you lift the coke can?,"1. Approach the coke can and ensure that there is no spillage or leakage from the can.
+
+2. Place your dominant hand on top of the can, making sure your fingers are securely wrapped around the top.
+
+3. Use your other hand to support the bottom of the can, ensuring a secure grip.
+
+4. Slowly lift the can off the surface, keeping it upright to prevent any liquid from spilling out.
+
+5. Adjust your grip if necessary to maintain stability while lifting the can.
+
+6. Once the can is lifted, hold it at a comfortable height for drinking or pouring the contents into a glass.
+
+7. When you are finished using the can, place it back on a flat surface carefully to prevent any spills.","1. pick up the coke can, 2. done"
+SayCan,1a,"Question: Provide step-by-step instructions for the following task: I’m exhausted, can you bring me a drink?
+Answer: 1. find a redbull, 2. pick up the redbull, 3. bring it to you, 4. put down the redbull, 5. done
+Question: Provide step-by-step instructions for the following task: Bring me a fruit that is not an apple.
+Answer: 1. find a orange, 2. pick up the orange, 3. bring it to you, 4. put down the orange, 5. done.
+Question: Provide step-by-step instructions for the following task: How would you lift the coke can?","Answer: 1. Approach the coke can, 2. Reach down and grasp the coke can with your hand, 3. Lift the coke can up off the surface carefully, 4. Hold the coke can securely, 5. Carry the coke can to the desired location, 6. Gently place the coke can down, 7. Done.","1. pick up the coke can, 2. done"
+SayCan,1b,"Question: Provide step-by-step instructions for the following task: Restock the rice chips on the counter
+Answer: 1. find the rice chips, 2. pick up the rice chips, 3. go to the counter, 4. put down the rice chips, 5. done.
+Question: Provide step-by-step instructions for the following task: Bring me a fruit, a soda, and a bag of chips for lunch.
+Answer: 1. find the bag of chips, 2. pick up the bag of chips, 3. bring it to you, 4. put down the bag of chips, 5. find a coke can, 6. pick up the coke can, 7. bring it to you, 8. put down the coke can, 9. find a banana, 10. pick up the banana, 11. bring it to you, 12. put down the banana, 13. done
+Question: Provide step-by-step instructions for the following task: How would you lift the coke can?","Answer: 1. Locate the coke can, 2. Extend your arm towards the can, 3. Use your fingers to grip around the can, 4. Lift the can using your hand and arm strength, 5. Ensure a secure grip on the can to prevent dropping, 6. Lift the can to the desired height, 7. Hold the can steady as needed, 8. Lower the can back down when finished.","1. pick up the coke can, 2. done"
+SayCan,2,"Question: Provide step-by-step instructions for the following task: I’m exhausted, can you bring me a drink?
+Answer: 1. find a redbull, 2. pick up the redbull, 3. bring it to you, 4. put down the redbull, 5. done
+Question: Provide step-by-step instructions for the following task: Bring me a fruit that is not an apple.
+Answer: 1. find a orange, 2. pick up the orange, 3. bring it to you, 4. put down the orange, 5. done.
+Question: Provide step-by-step instructions for the following task: Restock the rice chips on the counter
+Answer: 1. find the rice chips, 2. pick up the rice chips, 3. go to the counter, 4. put down the rice chips, 5. done.
+Question: Provide step-by-step instructions for the following task: Bring me a fruit, a soda, and a bag of chips for lunch.
+Answer: 1. find the bag of chips, 2. pick up the bag of chips, 3. bring it to you, 4. put down the bag of chips, 5. find a coke can, 6. pick up the coke can, 7. bring it to you, 8. put down the coke can, 9. find a banana, 10. pick up the banana, 11. bring it to you, 12. put down the banana, 13. done
+Question: Provide step-by-step instructions for the following task: How would you lift the coke can?","Answer: 1. Approach the coke can, 2. Use one hand to firmly grasp around the body of the can, 3. Lift the can using your hand, 4. Hold it steady to avoid spillage, 5. Done.","1. pick up the coke can, 2. done"
+SayCan,3a,"Question: Provide step-by-step instructions for the following task: I’m exhausted, can you bring me a drink?
+Answer: 1. find a redbull, 2. pick up the redbull, 3. bring it to you, 4. put down the redbull, 5. done
+Question: Provide step-by-step instructions for the following task: Bring me a fruit that is not an apple.
+Answer: 1. find a orange, 2. pick up the orange, 3. bring it to you, 4. put down the orange, 5. done.
+Question: Provide step-by-step instructions for the following task: I’m exhausted, can you bring me a drink?
+Answer: 1. find a redbull, 2. pick up the redbull, 3. bring it to you, 4. put down the redbull, 5. done
+Question: Provide step-by-step instructions for the following task: Bring me a fruit that is not an apple.
+Answer: 1. find a orange, 2. pick up the orange, 3. bring it to you, 4. put down the orange, 5. done.
+Question: Provide step-by-step instructions for the following task: How would you lift the coke can?","Answer: 1. Reach for the coke can with your dominant hand, 2. grip the can securely, 3. lift the can by straightening your arm, 4. bring the can to a comfortable height for drinking, 5. enjoy your drink.","1. pick up the coke can, 2. done"
+SayCan,3b,"Question: Provide step-by-step instructions for the following task: Restock the rice chips on the counter
+Answer: 1. find the rice chips, 2. pick up the rice chips, 3. go to the counter, 4. put down the rice chips, 5. done.
+Question: Provide step-by-step instructions for the following task: Bring me a fruit, a soda, and a bag of chips for lunch.
+Answer: 1. find the bag of chips, 2. pick up the bag of chips, 3. bring it to you, 4. put down the bag of chips, 5. find a coke can, 6. pick up the coke can, 7. bring it to you, 8. put down the coke can, 9. find a banana, 10. pick up the banana, 11. bring it to you, 12. put down the banana, 13. done
+Question: Provide step-by-step instructions for the following task: Restock the rice chips on the counter
+Answer: 1. find the rice chips, 2. pick up the rice chips, 3. go to the counter, 4. put down the rice chips, 5. done.
+Question: Provide step-by-step instructions for the following task: Bring me a fruit, a soda, and a bag of chips for lunch.
+Answer: 1. find the bag of chips, 2. pick up the bag of chips, 3. bring it to you, 4. put down the bag of chips, 5. find a coke can, 6. pick up the coke can, 7. bring it to you, 8. put down the coke can, 9. find a banana, 10. pick up the banana, 11. bring it to you, 12. put down the banana, 13. done
+Question: Provide step-by-step instructions for the following task: How would you lift the coke can?","Answer: 1. Locate the coke can, 2. Grasp the coke can with your hand, 3. Lift the coke can by straightening your arm upward, 4. Hold the coke can securely to prevent spillage or dropping.","1. pick up the coke can, 2. done"

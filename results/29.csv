@@ -1,0 +1,404 @@
+Task Class,Case,Prompt,Response,Expected
+Math,0,"Question: The population of porcupines in a park is 50. The number of female porcupines is 3/5 of the total population. If each female porcupine gives birth to 4 babies every month, how many porcupines will be in the park after a year?","First, we need to calculate the number of female porcupines in the park:
+
+Number of female porcupines = (3/5) * 50 = 30
+
+Now, we need to calculate the number of babies born each month:
+
+Number of babies born each month = 30 * 4 = 120
+
+Since each female porcupine gives birth to 4 babies every month, the total number of porcupines born each month is 120.
+
+After a year (12 months), the total number of porcupines in the park will be:
+
+Total number of porcupines = 50 (original population) + 120 (babies born each month * 12 months) = 50 + 1440 = 1490
+
+Therefore, there will be 1490 porcupines in the park after a year.","The number of female porcupines in the park is 3/5*50 = <<3/5*50=30>>30.
+In a month, the 30 female porcupines give birth to 30*4 = <<30*4=120>>120 new babies.
+After a year, with 12 months, the total number of new porcupines in the park is 120*12 = <<120*12=1440>>1440
+The total population of porcupines in the park after a year is 50+1440 = <<50+1440=1490>>1490
+#### 1490"
+Math,1a,"Question: 4/5 of the Easter eggs are blue and 1/5 are purple. Half the purple eggs have five pieces of candy each, and 1/4 of the blue eggs do. The rest of the eggs only have one piece of candy. If Jerry opens one egg at random, what is the percentage chance he'll get 5 pieces of candy?
+Answer: First find the probability Jerry gets a blue egg with 5 pieces of candy by multiplying the independent probabilities: 4/5 * 1/4 = 1/5 = 20%
+Then find the probability he gets a purple egg with 5 pieces of candy the same way: 1/5 * 1/2 = 1/10 = 10%
+Then add the probabilities of the two possible ways to get 5 pieces of candy to find the total probability: 20% + 10% = 30%
+#### 30
+Question: Jamie and Oliver are planning to go on a vacation. A plane ticket costs $24 for each person and a hotel stay costs $12 for each person per day. How much money will they spend on the vacation if they stay for 3 days?
+Answer: Jamie and Oliver will spend $24 x 2 = $<<24*2=48>>48 for the plane ticket.
+They will spend $12 x 2 = $<<12*2=24>>24 for staying in the hotel per day.
+So, the total amount they will spend on the hotel for a 3-day stay is $24 x 3 = $<<24*3=72>>72.
+Therefore, the total amount they will spend on their vacation is $72 + $48 = $<<72+48=120>>120.
+#### 120
+Question: The population of porcupines in a park is 50. The number of female porcupines is 3/5 of the total population. If each female porcupine gives birth to 4 babies every month, how many porcupines will be in the park after a year?","Answer: The number of female porcupines is 3/5 * 50 = <<3/5*50=30>>30.
+If each female porcupine gives birth to 4 babies every month, the total number of babies born in a month is 30 * 4 = <<30*4=120>>120.
+After a year (12 months), the total number of new porcupines born will be 120 * 12 = <<120*12=1440>>1440.
+Adding this to the current population, the total number of porcupines in the park after a year will be 50 (current population) + 1440 (new porcupines born) = <<50+1440=1490>>1490. 
+Therefore, there will be 1490 porcupines in the park after a year.","The number of female porcupines in the park is 3/5*50 = <<3/5*50=30>>30.
+In a month, the 30 female porcupines give birth to 30*4 = <<30*4=120>>120 new babies.
+After a year, with 12 months, the total number of new porcupines in the park is 120*12 = <<120*12=1440>>1440
+The total population of porcupines in the park after a year is 50+1440 = <<50+1440=1490>>1490
+#### 1490"
+Math,1b,"Question: Tiffany is looking at a lake full of turtles. The turtles are 60% female and the rest are male. Of the males, 1 in 4 has stripes. Of the ones with stripes, 4 are babies, while 60% are adults How many turtles are in the lake?
+Answer: Of the males with stripes, 40% are babies because 100 - 60 = <<100-60=40>>40
+There are 10 males with stripes because 4 / .4 = <<4/.4=10>>10
+There are 40 males because 10 / (1/4) = <<10/(1/4)=40>>40
+Males make up 40% of the pond's total, because 100 - 60 = <<100-60=40>>40
+There are 100 turtles in total 40 / .4 = <<40/.4=100>>100
+#### 100
+Question: A cookfire burns three logs every hour. It was built with six logs to start. If it gets two more logs added to it at the end of every hour, how many logs will be left after 3 hours?
+Answer: After 3 hours, it will have 3 * 2 = <<3*2=6>>6 logs added to it.
+After 3 hours, it will have burned 3 * 3 = <<3*3=9>>9 logs.
+After 3 hours, the cookfire will have 6 + 6 - 9 = <<6+6-9=3>>3 logs left.
+#### 3
+Question: The population of porcupines in a park is 50. The number of female porcupines is 3/5 of the total population. If each female porcupine gives birth to 4 babies every month, how many porcupines will be in the park after a year?","Answer: There are 30 female porcupines because 50 x (3/5) = <<50*(3/5)=30>>30
+There are 20 male porcupines because 50 - 30 = <<50-30=20>>20
+Each month, there are 30 x 4 = <<30*4=120>>120 baby porcupines born.
+After a year, there will be 50 + 1200 = <<50+1200=1250>>1250 porcupines in the park. 
+#### 1250","The number of female porcupines in the park is 3/5*50 = <<3/5*50=30>>30.
+In a month, the 30 female porcupines give birth to 30*4 = <<30*4=120>>120 new babies.
+After a year, with 12 months, the total number of new porcupines in the park is 120*12 = <<120*12=1440>>1440
+The total population of porcupines in the park after a year is 50+1440 = <<50+1440=1490>>1490
+#### 1490"
+Math,2,"Question: 4/5 of the Easter eggs are blue and 1/5 are purple. Half the purple eggs have five pieces of candy each, and 1/4 of the blue eggs do. The rest of the eggs only have one piece of candy. If Jerry opens one egg at random, what is the percentage chance he'll get 5 pieces of candy?
+Answer: First find the probability Jerry gets a blue egg with 5 pieces of candy by multiplying the independent probabilities: 4/5 * 1/4 = 1/5 = 20%
+Then find the probability he gets a purple egg with 5 pieces of candy the same way: 1/5 * 1/2 = 1/10 = 10%
+Then add the probabilities of the two possible ways to get 5 pieces of candy to find the total probability: 20% + 10% = 30%
+#### 30
+Question: Jamie and Oliver are planning to go on a vacation. A plane ticket costs $24 for each person and a hotel stay costs $12 for each person per day. How much money will they spend on the vacation if they stay for 3 days?
+Answer: Jamie and Oliver will spend $24 x 2 = $<<24*2=48>>48 for the plane ticket.
+They will spend $12 x 2 = $<<12*2=24>>24 for staying in the hotel per day.
+So, the total amount they will spend on the hotel for a 3-day stay is $24 x 3 = $<<24*3=72>>72.
+Therefore, the total amount they will spend on their vacation is $72 + $48 = $<<72+48=120>>120.
+#### 120
+Question: Tiffany is looking at a lake full of turtles. The turtles are 60% female and the rest are male. Of the males, 1 in 4 has stripes. Of the ones with stripes, 4 are babies, while 60% are adults How many turtles are in the lake?
+Answer: Of the males with stripes, 40% are babies because 100 - 60 = <<100-60=40>>40
+There are 10 males with stripes because 4 / .4 = <<4/.4=10>>10
+There are 40 males because 10 / (1/4) = <<10/(1/4)=40>>40
+Males make up 40% of the pond's total, because 100 - 60 = <<100-60=40>>40
+There are 100 turtles in total 40 / .4 = <<40/.4=100>>100
+#### 100
+Question: A cookfire burns three logs every hour. It was built with six logs to start. If it gets two more logs added to it at the end of every hour, how many logs will be left after 3 hours?
+Answer: After 3 hours, it will have 3 * 2 = <<3*2=6>>6 logs added to it.
+After 3 hours, it will have burned 3 * 3 = <<3*3=9>>9 logs.
+After 3 hours, the cookfire will have 6 + 6 - 9 = <<6+6-9=3>>3 logs left.
+#### 3
+Question: The population of porcupines in a park is 50. The number of female porcupines is 3/5 of the total population. If each female porcupine gives birth to 4 babies every month, how many porcupines will be in the park after a year?","Answer: The number of female porcupines is 50 * 3/5 = <<50*3/5=30>>30.
+Each female porcupine gives birth to 4 babies every month, so the total number of babies born every month is 30 * 4 = <<30*4=120>>120.
+After a year, there will be 120 * 12 = <<120*12=1440>>1440 new porcupines born.
+Adding the new porcupines to the original population, the total number of porcupines in the park after a year will be 1440 + 50 = <<1440+50=1490>>1490. 
+#### 1490","The number of female porcupines in the park is 3/5*50 = <<3/5*50=30>>30.
+In a month, the 30 female porcupines give birth to 30*4 = <<30*4=120>>120 new babies.
+After a year, with 12 months, the total number of new porcupines in the park is 120*12 = <<120*12=1440>>1440
+The total population of porcupines in the park after a year is 50+1440 = <<50+1440=1490>>1490
+#### 1490"
+Math,3a,"Question: 4/5 of the Easter eggs are blue and 1/5 are purple. Half the purple eggs have five pieces of candy each, and 1/4 of the blue eggs do. The rest of the eggs only have one piece of candy. If Jerry opens one egg at random, what is the percentage chance he'll get 5 pieces of candy?
+Answer: First find the probability Jerry gets a blue egg with 5 pieces of candy by multiplying the independent probabilities: 4/5 * 1/4 = 1/5 = 20%
+Then find the probability he gets a purple egg with 5 pieces of candy the same way: 1/5 * 1/2 = 1/10 = 10%
+Then add the probabilities of the two possible ways to get 5 pieces of candy to find the total probability: 20% + 10% = 30%
+#### 30
+Question: Jamie and Oliver are planning to go on a vacation. A plane ticket costs $24 for each person and a hotel stay costs $12 for each person per day. How much money will they spend on the vacation if they stay for 3 days?
+Answer: Jamie and Oliver will spend $24 x 2 = $<<24*2=48>>48 for the plane ticket.
+They will spend $12 x 2 = $<<12*2=24>>24 for staying in the hotel per day.
+So, the total amount they will spend on the hotel for a 3-day stay is $24 x 3 = $<<24*3=72>>72.
+Therefore, the total amount they will spend on their vacation is $72 + $48 = $<<72+48=120>>120.
+#### 120
+Question: 4/5 of the Easter eggs are blue and 1/5 are purple. Half the purple eggs have five pieces of candy each, and 1/4 of the blue eggs do. The rest of the eggs only have one piece of candy. If Jerry opens one egg at random, what is the percentage chance he'll get 5 pieces of candy?
+Answer: First find the probability Jerry gets a blue egg with 5 pieces of candy by multiplying the independent probabilities: 4/5 * 1/4 = 1/5 = 20%
+Then find the probability he gets a purple egg with 5 pieces of candy the same way: 1/5 * 1/2 = 1/10 = 10%
+Then add the probabilities of the two possible ways to get 5 pieces of candy to find the total probability: 20% + 10% = 30%
+#### 30
+Question: Jamie and Oliver are planning to go on a vacation. A plane ticket costs $24 for each person and a hotel stay costs $12 for each person per day. How much money will they spend on the vacation if they stay for 3 days?
+Answer: Jamie and Oliver will spend $24 x 2 = $<<24*2=48>>48 for the plane ticket.
+They will spend $12 x 2 = $<<12*2=24>>24 for staying in the hotel per day.
+So, the total amount they will spend on the hotel for a 3-day stay is $24 x 3 = $<<24*3=72>>72.
+Therefore, the total amount they will spend on their vacation is $72 + $48 = $<<72+48=120>>120.
+#### 120
+Question: The population of porcupines in a park is 50. The number of female porcupines is 3/5 of the total population. If each female porcupine gives birth to 4 babies every month, how many porcupines will be in the park after a year?","Answer: The number of female porcupines in the park is 50 * 3/5 = 30.
+Each female porcupine gives birth to 4 babies every month, so the total number of babies born each month is 30 * 4 = 120.
+After one year (12 months), the total number of babies born is 120 * 12 = 1440.
+Adding this to the initial population of 50, the total number of porcupines in the park after a year will be 1440 + 50 = 1490.","The number of female porcupines in the park is 3/5*50 = <<3/5*50=30>>30.
+In a month, the 30 female porcupines give birth to 30*4 = <<30*4=120>>120 new babies.
+After a year, with 12 months, the total number of new porcupines in the park is 120*12 = <<120*12=1440>>1440
+The total population of porcupines in the park after a year is 50+1440 = <<50+1440=1490>>1490
+#### 1490"
+Math,3b,"Question: Tiffany is looking at a lake full of turtles. The turtles are 60% female and the rest are male. Of the males, 1 in 4 has stripes. Of the ones with stripes, 4 are babies, while 60% are adults How many turtles are in the lake?
+Answer: Of the males with stripes, 40% are babies because 100 - 60 = <<100-60=40>>40
+There are 10 males with stripes because 4 / .4 = <<4/.4=10>>10
+There are 40 males because 10 / (1/4) = <<10/(1/4)=40>>40
+Males make up 40% of the pond's total, because 100 - 60 = <<100-60=40>>40
+There are 100 turtles in total 40 / .4 = <<40/.4=100>>100
+#### 100
+Question: A cookfire burns three logs every hour. It was built with six logs to start. If it gets two more logs added to it at the end of every hour, how many logs will be left after 3 hours?
+Answer: After 3 hours, it will have 3 * 2 = <<3*2=6>>6 logs added to it.
+After 3 hours, it will have burned 3 * 3 = <<3*3=9>>9 logs.
+After 3 hours, the cookfire will have 6 + 6 - 9 = <<6+6-9=3>>3 logs left.
+#### 3
+Question: Tiffany is looking at a lake full of turtles. The turtles are 60% female and the rest are male. Of the males, 1 in 4 has stripes. Of the ones with stripes, 4 are babies, while 60% are adults How many turtles are in the lake?
+Answer: Of the males with stripes, 40% are babies because 100 - 60 = <<100-60=40>>40
+There are 10 males with stripes because 4 / .4 = <<4/.4=10>>10
+There are 40 males because 10 / (1/4) = <<10/(1/4)=40>>40
+Males make up 40% of the pond's total, because 100 - 60 = <<100-60=40>>40
+There are 100 turtles in total 40 / .4 = <<40/.4=100>>100
+#### 100
+Question: A cookfire burns three logs every hour. It was built with six logs to start. If it gets two more logs added to it at the end of every hour, how many logs will be left after 3 hours?
+Answer: After 3 hours, it will have 3 * 2 = <<3*2=6>>6 logs added to it.
+After 3 hours, it will have burned 3 * 3 = <<3*3=9>>9 logs.
+After 3 hours, the cookfire will have 6 + 6 - 9 = <<6+6-9=3>>3 logs left.
+#### 3
+Question: The population of porcupines in a park is 50. The number of female porcupines is 3/5 of the total population. If each female porcupine gives birth to 4 babies every month, how many porcupines will be in the park after a year?","Answer: There are 30 female porcupines in the park because 50 x (3/5) = 30
+Each month, 30 x 4 = 120 baby porcupines are born.
+After a year, there will be 50 (original population) + 120 x 12 = 1490 porcupines in the park.","The number of female porcupines in the park is 3/5*50 = <<3/5*50=30>>30.
+In a month, the 30 female porcupines give birth to 30*4 = <<30*4=120>>120 new babies.
+After a year, with 12 months, the total number of new porcupines in the park is 120*12 = <<120*12=1440>>1440
+The total population of porcupines in the park after a year is 50+1440 = <<50+1440=1490>>1490
+#### 1490"
+CSQA,0,"Question: Where could you see an advertisement while reading news?
+A: television
+B: bus
+C: email
+D: web page
+E: la ville",D: web page,D
+CSQA,1a,"Question: This is a great way to move across water in one of its more popular states.
+A: ocean
+B: ice cube
+C: humidifier
+D: skating rink
+E: rowboat
+Answer: D
+Question: You can buy a pen here.
+A: briefcase
+B: pocket
+C: friend's house
+D: office supply store
+E: classroom
+Answer: D
+Question: Where could you see an advertisement while reading news?
+A: television
+B: bus
+C: email
+D: web page
+E: la ville",Answer: D,D
+CSQA,1b,"Question: If you're traveling along a highway what item made of paper can you use to find your way?
+A: united states
+B: atlas
+C: developed land
+D: park
+E: countryside
+Answer: B
+Question: The shelf was showing signs of instability, what should the carpenter fix to avoid any issues?
+A: roof
+B: corner
+C: school building
+D: wall
+E: cupboard
+Answer: D
+Question: Where could you see an advertisement while reading news?
+A: television
+B: bus
+C: email
+D: web page
+E: la ville",Answer: D,D
+CSQA,2,"Question: This is a great way to move across water in one of its more popular states.
+A: ocean
+B: ice cube
+C: humidifier
+D: skating rink
+E: rowboat
+Answer: D
+Question: You can buy a pen here.
+A: briefcase
+B: pocket
+C: friend's house
+D: office supply store
+E: classroom
+Answer: D
+Question: If you're traveling along a highway what item made of paper can you use to find your way?
+A: united states
+B: atlas
+C: developed land
+D: park
+E: countryside
+Answer: B
+Question: The shelf was showing signs of instability, what should the carpenter fix to avoid any issues?
+A: roof
+B: corner
+C: school building
+D: wall
+E: cupboard
+Answer: D
+Question: Where could you see an advertisement while reading news?
+A: television
+B: bus
+C: email
+D: web page
+E: la ville",Answer: D,D
+CSQA,3a,"Question: This is a great way to move across water in one of its more popular states.
+A: ocean
+B: ice cube
+C: humidifier
+D: skating rink
+E: rowboat
+Answer: D
+Question: You can buy a pen here.
+A: briefcase
+B: pocket
+C: friend's house
+D: office supply store
+E: classroom
+Answer: D
+Question: This is a great way to move across water in one of its more popular states.
+A: ocean
+B: ice cube
+C: humidifier
+D: skating rink
+E: rowboat
+Answer: D
+Question: You can buy a pen here.
+A: briefcase
+B: pocket
+C: friend's house
+D: office supply store
+E: classroom
+Answer: D
+Question: Where could you see an advertisement while reading news?
+A: television
+B: bus
+C: email
+D: web page
+E: la ville",Answer: D,D
+CSQA,3b,"Question: If you're traveling along a highway what item made of paper can you use to find your way?
+A: united states
+B: atlas
+C: developed land
+D: park
+E: countryside
+Answer: B
+Question: The shelf was showing signs of instability, what should the carpenter fix to avoid any issues?
+A: roof
+B: corner
+C: school building
+D: wall
+E: cupboard
+Answer: D
+Question: If you're traveling along a highway what item made of paper can you use to find your way?
+A: united states
+B: atlas
+C: developed land
+D: park
+E: countryside
+Answer: B
+Question: The shelf was showing signs of instability, what should the carpenter fix to avoid any issues?
+A: roof
+B: corner
+C: school building
+D: wall
+E: cupboard
+Answer: D
+Question: Where could you see an advertisement while reading news?
+A: television
+B: bus
+C: email
+D: web page
+E: la ville",Answer: D,D
+StrategyQA,0,"Question: March is named after the Roman god Mars. Mars was the son of the Roman gods Jupiter and Juno.
+Is March named after Jupiter's son in Roman mythology?","No, March is not named after Jupiter's son in Roman mythology. March is actually named after the Roman god Mars, who was originally a god of agriculture and fertility before becoming associated with war. Mars was the son of Jupiter and Juno, but the month of March is specifically named after him.",True
+StrategyQA,1a,"Question: Mollusks are a group of invertebrate animals including snails and slugs. Purple dye was used in the early 15th century BC to color clothing. The purple dye used in ancient Tyre was made from a liquid extracted from a gland in snails.
+Were mollusks an ingredient in the color purple?
+Answer: True
+Question: The Civil War was from 1861 - 1865. The Northern Army consisted of soldiers from states north of the Mason-Dixon line. Alaska did not become part of the United States until 1867.
+Was Alaska part of the Northern Army during the Civil War?
+Answer: False
+Question: March is named after the Roman god Mars. Mars was the son of the Roman gods Jupiter and Juno.
+Is March named after Jupiter's son in Roman mythology?",False,True
+StrategyQA,1b,"Question: The Kingdom of Hungary was a monarchy. Monarchies do not allow citizens to elect their own rulers.
+Did land owners elect their rulers in the Kingdom of Hungary?
+Answer: False
+Question: Charles Darwin developed the theory of evolution Pikachu is a Pokemon Pokemon rely on evolution in order to transform into stronger forms
+Does Pikachu like Charles Darwin?
+Answer: True
+Question: March is named after the Roman god Mars. Mars was the son of the Roman gods Jupiter and Juno.
+Is March named after Jupiter's son in Roman mythology?",Answer: False,True
+StrategyQA,2,"Question: Mollusks are a group of invertebrate animals including snails and slugs. Purple dye was used in the early 15th century BC to color clothing. The purple dye used in ancient Tyre was made from a liquid extracted from a gland in snails.
+Were mollusks an ingredient in the color purple?
+Answer: True
+Question: The Civil War was from 1861 - 1865. The Northern Army consisted of soldiers from states north of the Mason-Dixon line. Alaska did not become part of the United States until 1867.
+Was Alaska part of the Northern Army during the Civil War?
+Answer: False
+Question: The Kingdom of Hungary was a monarchy. Monarchies do not allow citizens to elect their own rulers.
+Did land owners elect their rulers in the Kingdom of Hungary?
+Answer: False
+Question: Charles Darwin developed the theory of evolution Pikachu is a Pokemon Pokemon rely on evolution in order to transform into stronger forms
+Does Pikachu like Charles Darwin?
+Answer: True
+Question: March is named after the Roman god Mars. Mars was the son of the Roman gods Jupiter and Juno.
+Is March named after Jupiter's son in Roman mythology?",False,True
+StrategyQA,3a,"Question: Mollusks are a group of invertebrate animals including snails and slugs. Purple dye was used in the early 15th century BC to color clothing. The purple dye used in ancient Tyre was made from a liquid extracted from a gland in snails.
+Were mollusks an ingredient in the color purple?
+Answer: True
+Question: The Civil War was from 1861 - 1865. The Northern Army consisted of soldiers from states north of the Mason-Dixon line. Alaska did not become part of the United States until 1867.
+Was Alaska part of the Northern Army during the Civil War?
+Answer: False
+Question: Mollusks are a group of invertebrate animals including snails and slugs. Purple dye was used in the early 15th century BC to color clothing. The purple dye used in ancient Tyre was made from a liquid extracted from a gland in snails.
+Were mollusks an ingredient in the color purple?
+Answer: True
+Question: The Civil War was from 1861 - 1865. The Northern Army consisted of soldiers from states north of the Mason-Dixon line. Alaska did not become part of the United States until 1867.
+Was Alaska part of the Northern Army during the Civil War?
+Answer: False
+Question: March is named after the Roman god Mars. Mars was the son of the Roman gods Jupiter and Juno.
+Is March named after Jupiter's son in Roman mythology?",Answer: False,True
+StrategyQA,3b,"Question: The Kingdom of Hungary was a monarchy. Monarchies do not allow citizens to elect their own rulers.
+Did land owners elect their rulers in the Kingdom of Hungary?
+Answer: False
+Question: Charles Darwin developed the theory of evolution Pikachu is a Pokemon Pokemon rely on evolution in order to transform into stronger forms
+Does Pikachu like Charles Darwin?
+Answer: True
+Question: The Kingdom of Hungary was a monarchy. Monarchies do not allow citizens to elect their own rulers.
+Did land owners elect their rulers in the Kingdom of Hungary?
+Answer: False
+Question: Charles Darwin developed the theory of evolution Pikachu is a Pokemon Pokemon rely on evolution in order to transform into stronger forms
+Does Pikachu like Charles Darwin?
+Answer: True
+Question: March is named after the Roman god Mars. Mars was the son of the Roman gods Jupiter and Juno.
+Is March named after Jupiter's son in Roman mythology?",Answer: True,True
+SayCan,0,Question: Provide step-by-step instructions for the following task: Go to the table and the counter?,"1. Stand up from your current location.
+2. Walk towards the table and counter area in the room.
+3. Depending on the layout of the room, you may need to navigate around furniture or obstacles.
+4. Approach the table first, and if there is a counter adjacent to it, continue walking towards the counter.
+5. Once you reach the table and counter, you have successfully completed the task.","1. go to the table, 2. go to the counter, 3. done"
+SayCan,1a,"Question: Provide step-by-step instructions for the following task: Move a banana to the table.
+Answer: 1. pick up the banana, 2. go to the table, 3. put down the banana, 4. done
+Question: Provide step-by-step instructions for the following task: Throw away all the fruits on the table.
+Answer: 1. go to the table, 2. pick up the apple, 3. go to the trash, 4. put down the apple, 5. go to the table, 6. pick up the orange, 7. go to the trash, 8. put down the orange, 9. done
+Question: Provide step-by-step instructions for the following task: Go to the table and the counter?","Answer: 1. Start by standing up, 2. Walk to the table, 3. Once at the table, stop, 4. Turn around, 5. Walk to the counter, 6. Once at the counter, stop, 7. You have now reached both the table and the counter.","1. go to the table, 2. go to the counter, 3. done"
+SayCan,1b,"Question: Provide step-by-step instructions for the following task: How would you go to the table and the counter?
+Answer: 1. go to the table, 2. go to the counter, 3. done
+Question: Provide step-by-step instructions for the following task: Bring me a fruit that is not an apple.
+Answer: 1. find an orange, 2. pick up the orange, 3. bring it to you, 4. put down the orange, 5. done
+Question: Provide step-by-step instructions for the following task: Go to the table and the counter?","Answer: 1. Walk towards the table, 2. Stop at the table, 3. Turn towards the counter, 4. Walk towards the counter, 5. Stop at the counter, 6. done","1. go to the table, 2. go to the counter, 3. done"
+SayCan,2,"Question: Provide step-by-step instructions for the following task: Move a banana to the table.
+Answer: 1. pick up the banana, 2. go to the table, 3. put down the banana, 4. done
+Question: Provide step-by-step instructions for the following task: Throw away all the fruits on the table.
+Answer: 1. go to the table, 2. pick up the apple, 3. go to the trash, 4. put down the apple, 5. go to the table, 6. pick up the orange, 7. go to the trash, 8. put down the orange, 9. done
+Question: Provide step-by-step instructions for the following task: How would you go to the table and the counter?
+Answer: 1. go to the table, 2. go to the counter, 3. done
+Question: Provide step-by-step instructions for the following task: Bring me a fruit that is not an apple.
+Answer: 1. find an orange, 2. pick up the orange, 3. bring it to you, 4. put down the orange, 5. done
+Question: Provide step-by-step instructions for the following task: Go to the table and the counter?","Answer: 1. go to the table, 2. done.","1. go to the table, 2. go to the counter, 3. done"
+SayCan,3a,"Question: Provide step-by-step instructions for the following task: Move a banana to the table.
+Answer: 1. pick up the banana, 2. go to the table, 3. put down the banana, 4. done
+Question: Provide step-by-step instructions for the following task: Throw away all the fruits on the table.
+Answer: 1. go to the table, 2. pick up the apple, 3. go to the trash, 4. put down the apple, 5. go to the table, 6. pick up the orange, 7. go to the trash, 8. put down the orange, 9. done
+Question: Provide step-by-step instructions for the following task: Move a banana to the table.
+Answer: 1. pick up the banana, 2. go to the table, 3. put down the banana, 4. done
+Question: Provide step-by-step instructions for the following task: Throw away all the fruits on the table.
+Answer: 1. go to the table, 2. pick up the apple, 3. go to the trash, 4. put down the apple, 5. go to the table, 6. pick up the orange, 7. go to the trash, 8. put down the orange, 9. done
+Question: Provide step-by-step instructions for the following task: Go to the table and the counter?","Answer: 1. Start at your current location, 2. Walk towards the table, 3. Arrive at the table, 4. Turn around and walk towards the counter, 5. Arrive at the counter and done.","1. go to the table, 2. go to the counter, 3. done"
+SayCan,3b,"Question: Provide step-by-step instructions for the following task: How would you go to the table and the counter?
+Answer: 1. go to the table, 2. go to the counter, 3. done
+Question: Provide step-by-step instructions for the following task: Bring me a fruit that is not an apple.
+Answer: 1. find an orange, 2. pick up the orange, 3. bring it to you, 4. put down the orange, 5. done
+Question: Provide step-by-step instructions for the following task: How would you go to the table and the counter?
+Answer: 1. go to the table, 2. go to the counter, 3. done
+Question: Provide step-by-step instructions for the following task: Bring me a fruit that is not an apple.
+Answer: 1. find an orange, 2. pick up the orange, 3. bring it to you, 4. put down the orange, 5. done
+Question: Provide step-by-step instructions for the following task: Go to the table and the counter?","Answer: 1. Walk towards the table, 2. Once at the table, turn towards the counter, 3. Walk towards the counter, 4. Done.","1. go to the table, 2. go to the counter, 3. done"

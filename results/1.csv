@@ -1,0 +1,422 @@
+Task Class,Case,Prompt,Response,Expected
+Math,0,"Question: Rayna has 60 more dollars than Kassidy, and Kassidy has 3/4 times as much money as Aurelia. If Arelia has $120, how much would each have if they decided to add together their money and share equally among them?","First, let's find out how much money Kassidy and Rayna have.
+
+Since Kassidy has 3/4 times as much money as Aurelia, Kassidy has 3/4 * $120 = $90.
+
+Rayna has 60 more dollars than Kassidy, so Rayna has $90 + $60 = $150.
+
+Therefore, the total amount of money they have is $120 (Aurelia) + $90 (Kassidy) + $150 (Rayna) = $360.
+
+If they decide to share equally among them, each would receive $360 / 3 people = $120. 
+
+So, Aurelia, Kassidy, and Rayna would each have $120.","Since Arelia has $120, and Kassidy has 3/4 times as much money Arelia, Kassidy has 3/4*$120 = $<<3/4*120=90>>90
+The total amount of, money Kassidy and Arelia have together is $90+$120 = $<<90+120=210>>210
+Rayna has $60 more than Kassidy, and since Kassidy has $90, Rayna has $60+$90 = $<<60+90=150>>150
+The three of them together has $210+$150 = $<<210+150=360>>360
+If they decide to add up their money and share equally, each person would receive $360/3= $<<360/3=120>>120
+#### 120"
+Math,1a,"Question: Jake's neighbors hire him to mow their lawn and plant some flowers. Mowing the lawn takes 1 hour and pays $15. If Jake wants to make $20/hour working for the neighbors, and planting the flowers takes 2 hours, how much should Jake charge (in total, not per hour) for planting the flowers?
+Answer: First figure out how many hours total Jake works by adding the time spent mowing the lawn to the time spent planting flowers: 1 hour + 2 hours = <<1+2=3>>3 hours
+Then figure out how much money Jake makes if he earns $20/hour for three hours by multiplying the time spent by the pay rate: $20/hour * 3 hours = $<<20*3=60>>60
+Then subtract the money Jake gets paid for mowing the lawn from the total to find how much he should charge in total for planting the flowers: $60 - $15 = $<<60-15=45>>45
+#### 45
+Question: The distance across a country is 8205 kilometers. Amelia started at one end and drove 907 kilometers on Monday and 582 kilometers on Tuesday. How many kilometers does Amelia still have to drive to make it across the country?
+Answer: Distance driven = 907 + 582 = <<907+582=1489>>1489 km
+Distance remaining = 8205 - 1489 = <<8205-1489=6716>>6716 km
+Amelia still has 6716 kilometers to drive.
+#### 6716
+Question: Rayna has 60 more dollars than Kassidy, and Kassidy has 3/4 times as much money as Aurelia. If Arelia has $120, how much would each have if they decided to add together their money and share equally among them?","Answer: 
+Kassidy has 3/4 * $120 = $90.
+Rayna has $90 + $60 = $150.
+Together, they have $120 + $90 + $150 = $360.
+If they decided to share equally, each would have $360 / 3 = $120. 
+So, Kassidy would have $120, Rayna would have $120, and Aurelia would have $120.","Since Arelia has $120, and Kassidy has 3/4 times as much money Arelia, Kassidy has 3/4*$120 = $<<3/4*120=90>>90
+The total amount of, money Kassidy and Arelia have together is $90+$120 = $<<90+120=210>>210
+Rayna has $60 more than Kassidy, and since Kassidy has $90, Rayna has $60+$90 = $<<60+90=150>>150
+The three of them together has $210+$150 = $<<210+150=360>>360
+If they decide to add up their money and share equally, each person would receive $360/3= $<<360/3=120>>120
+#### 120"
+Math,1b,"Question: Jordan is a hockey goalie. In the first period of a game, he blocked four shots. In the second period, he blocked twice as many shots. In the third period, he blocked three fewer than in the second period. When the game ended after the fourth period, he had blocked 21 shots in all. How many did Jordan block in the fourth period?
+Answer: Let F be the number of shots Jordan blocked in the fourth period.
+In the second period, he blocked 2 * 4 = <<2*4=8>>8 shots.
+In the third period, he blocked 8 - 3 = <<8-3=5>>5 shots.
+In the whole game, he blocked 4 + 8 + 5 + F = 17 + F = 21 shots.
+Thus, Jordan blocked F = 21 - 17 = <<21-17=4>>4 shots in the fourth period.
+#### 4
+Question: Colin can skip at six times the speed that Brandon can.  Brandon can skip at one-third the speed that Tony can.  And Tony can skip at twice the speed that Bruce can.  At what speed, in miles per hour, can Colin skip if Bruce skips at 1 mile per hour?
+Answer: Tony can skip at twice the speed that Bruce can, for a speed of 1*2=<<1*2=2>>2 miles per hour.
+Brandon can skip at one-third the speed that Tony can, for a speed of 2*(1/3) = 2/3 miles per hour.
+Colin can skip at six times the speed that Brandon can, for a speed of (2/3*6=4 miles per hour).
+#### 4
+Question: Rayna has 60 more dollars than Kassidy, and Kassidy has 3/4 times as much money as Aurelia. If Arelia has $120, how much would each have if they decided to add together their money and share equally among them?","Answer: 
+
+Kassidy has 3/4 * $120 = $90.
+Rayna has $90 + $60 = $150.
+Together, they have $120 + $90 + $150 = $360.
+If they share equally, each would have $360 / 3 = $120.","Since Arelia has $120, and Kassidy has 3/4 times as much money Arelia, Kassidy has 3/4*$120 = $<<3/4*120=90>>90
+The total amount of, money Kassidy and Arelia have together is $90+$120 = $<<90+120=210>>210
+Rayna has $60 more than Kassidy, and since Kassidy has $90, Rayna has $60+$90 = $<<60+90=150>>150
+The three of them together has $210+$150 = $<<210+150=360>>360
+If they decide to add up their money and share equally, each person would receive $360/3= $<<360/3=120>>120
+#### 120"
+Math,2,"Question: Jake's neighbors hire him to mow their lawn and plant some flowers. Mowing the lawn takes 1 hour and pays $15. If Jake wants to make $20/hour working for the neighbors, and planting the flowers takes 2 hours, how much should Jake charge (in total, not per hour) for planting the flowers?
+Answer: First figure out how many hours total Jake works by adding the time spent mowing the lawn to the time spent planting flowers: 1 hour + 2 hours = <<1+2=3>>3 hours
+Then figure out how much money Jake makes if he earns $20/hour for three hours by multiplying the time spent by the pay rate: $20/hour * 3 hours = $<<20*3=60>>60
+Then subtract the money Jake gets paid for mowing the lawn from the total to find how much he should charge in total for planting the flowers: $60 - $15 = $<<60-15=45>>45
+#### 45
+Question: The distance across a country is 8205 kilometers. Amelia started at one end and drove 907 kilometers on Monday and 582 kilometers on Tuesday. How many kilometers does Amelia still have to drive to make it across the country?
+Answer: Distance driven = 907 + 582 = <<907+582=1489>>1489 km
+Distance remaining = 8205 - 1489 = <<8205-1489=6716>>6716 km
+Amelia still has 6716 kilometers to drive.
+#### 6716
+Question: Jordan is a hockey goalie. In the first period of a game, he blocked four shots. In the second period, he blocked twice as many shots. In the third period, he blocked three fewer than in the second period. When the game ended after the fourth period, he had blocked 21 shots in all. How many did Jordan block in the fourth period?
+Answer: Let F be the number of shots Jordan blocked in the fourth period.
+In the second period, he blocked 2 * 4 = <<2*4=8>>8 shots.
+In the third period, he blocked 8 - 3 = <<8-3=5>>5 shots.
+In the whole game, he blocked 4 + 8 + 5 + F = 17 + F = 21 shots.
+Thus, Jordan blocked F = 21 - 17 = <<21-17=4>>4 shots in the fourth period.
+#### 4
+Question: Colin can skip at six times the speed that Brandon can.  Brandon can skip at one-third the speed that Tony can.  And Tony can skip at twice the speed that Bruce can.  At what speed, in miles per hour, can Colin skip if Bruce skips at 1 mile per hour?
+Answer: Tony can skip at twice the speed that Bruce can, for a speed of 1*2=<<1*2=2>>2 miles per hour.
+Brandon can skip at one-third the speed that Tony can, for a speed of 2*(1/3) = 2/3 miles per hour.
+Colin can skip at six times the speed that Brandon can, for a speed of (2/3*6=4 miles per hour).
+#### 4
+Question: Rayna has 60 more dollars than Kassidy, and Kassidy has 3/4 times as much money as Aurelia. If Arelia has $120, how much would each have if they decided to add together their money and share equally among them?","Answer: 
+
+Kassidy has 3/4 * $120 = $90.
+Rayna has $90 + $60 = $150.
+Together, they have $150 + $90 + $120 = $360.
+If they decide to share equally, each would have $360 / 3 = $120. 
+
+Therefore, Rayna would have $150, Kassidy would have $90, and Arelia would have $120 if they decided to add together their money and share equally among them.","Since Arelia has $120, and Kassidy has 3/4 times as much money Arelia, Kassidy has 3/4*$120 = $<<3/4*120=90>>90
+The total amount of, money Kassidy and Arelia have together is $90+$120 = $<<90+120=210>>210
+Rayna has $60 more than Kassidy, and since Kassidy has $90, Rayna has $60+$90 = $<<60+90=150>>150
+The three of them together has $210+$150 = $<<210+150=360>>360
+If they decide to add up their money and share equally, each person would receive $360/3= $<<360/3=120>>120
+#### 120"
+Math,3a,"Question: Jake's neighbors hire him to mow their lawn and plant some flowers. Mowing the lawn takes 1 hour and pays $15. If Jake wants to make $20/hour working for the neighbors, and planting the flowers takes 2 hours, how much should Jake charge (in total, not per hour) for planting the flowers?
+Answer: First figure out how many hours total Jake works by adding the time spent mowing the lawn to the time spent planting flowers: 1 hour + 2 hours = <<1+2=3>>3 hours
+Then figure out how much money Jake makes if he earns $20/hour for three hours by multiplying the time spent by the pay rate: $20/hour * 3 hours = $<<20*3=60>>60
+Then subtract the money Jake gets paid for mowing the lawn from the total to find how much he should charge in total for planting the flowers: $60 - $15 = $<<60-15=45>>45
+#### 45
+Question: The distance across a country is 8205 kilometers. Amelia started at one end and drove 907 kilometers on Monday and 582 kilometers on Tuesday. How many kilometers does Amelia still have to drive to make it across the country?
+Answer: Distance driven = 907 + 582 = <<907+582=1489>>1489 km
+Distance remaining = 8205 - 1489 = <<8205-1489=6716>>6716 km
+Amelia still has 6716 kilometers to drive.
+#### 6716
+Question: Jake's neighbors hire him to mow their lawn and plant some flowers. Mowing the lawn takes 1 hour and pays $15. If Jake wants to make $20/hour working for the neighbors, and planting the flowers takes 2 hours, how much should Jake charge (in total, not per hour) for planting the flowers?
+Answer: First figure out how many hours total Jake works by adding the time spent mowing the lawn to the time spent planting flowers: 1 hour + 2 hours = <<1+2=3>>3 hours
+Then figure out how much money Jake makes if he earns $20/hour for three hours by multiplying the time spent by the pay rate: $20/hour * 3 hours = $<<20*3=60>>60
+Then subtract the money Jake gets paid for mowing the lawn from the total to find how much he should charge in total for planting the flowers: $60 - $15 = $<<60-15=45>>45
+#### 45
+Question: The distance across a country is 8205 kilometers. Amelia started at one end and drove 907 kilometers on Monday and 582 kilometers on Tuesday. How many kilometers does Amelia still have to drive to make it across the country?
+Answer: Distance driven = 907 + 582 = <<907+582=1489>>1489 km
+Distance remaining = 8205 - 1489 = <<8205-1489=6716>>6716 km
+Amelia still has 6716 kilometers to drive.
+#### 6716
+Question: Rayna has 60 more dollars than Kassidy, and Kassidy has 3/4 times as much money as Aurelia. If Arelia has $120, how much would each have if they decided to add together their money and share equally among them?","Answer: 
+Kassidy has 3/4 * $120 = $90
+Rayna has $90 + $60 = $150
+Together, they have $120 + $90 + $150 = $360
+If they share equally among them, each will have $360 / 3 = $120.","Since Arelia has $120, and Kassidy has 3/4 times as much money Arelia, Kassidy has 3/4*$120 = $<<3/4*120=90>>90
+The total amount of, money Kassidy and Arelia have together is $90+$120 = $<<90+120=210>>210
+Rayna has $60 more than Kassidy, and since Kassidy has $90, Rayna has $60+$90 = $<<60+90=150>>150
+The three of them together has $210+$150 = $<<210+150=360>>360
+If they decide to add up their money and share equally, each person would receive $360/3= $<<360/3=120>>120
+#### 120"
+Math,3b,"Question: Jordan is a hockey goalie. In the first period of a game, he blocked four shots. In the second period, he blocked twice as many shots. In the third period, he blocked three fewer than in the second period. When the game ended after the fourth period, he had blocked 21 shots in all. How many did Jordan block in the fourth period?
+Answer: Let F be the number of shots Jordan blocked in the fourth period.
+In the second period, he blocked 2 * 4 = <<2*4=8>>8 shots.
+In the third period, he blocked 8 - 3 = <<8-3=5>>5 shots.
+In the whole game, he blocked 4 + 8 + 5 + F = 17 + F = 21 shots.
+Thus, Jordan blocked F = 21 - 17 = <<21-17=4>>4 shots in the fourth period.
+#### 4
+Question: Colin can skip at six times the speed that Brandon can.  Brandon can skip at one-third the speed that Tony can.  And Tony can skip at twice the speed that Bruce can.  At what speed, in miles per hour, can Colin skip if Bruce skips at 1 mile per hour?
+Answer: Tony can skip at twice the speed that Bruce can, for a speed of 1*2=<<1*2=2>>2 miles per hour.
+Brandon can skip at one-third the speed that Tony can, for a speed of 2*(1/3) = 2/3 miles per hour.
+Colin can skip at six times the speed that Brandon can, for a speed of (2/3*6=4 miles per hour).
+#### 4
+Question: Jordan is a hockey goalie. In the first period of a game, he blocked four shots. In the second period, he blocked twice as many shots. In the third period, he blocked three fewer than in the second period. When the game ended after the fourth period, he had blocked 21 shots in all. How many did Jordan block in the fourth period?
+Answer: Let F be the number of shots Jordan blocked in the fourth period.
+In the second period, he blocked 2 * 4 = <<2*4=8>>8 shots.
+In the third period, he blocked 8 - 3 = <<8-3=5>>5 shots.
+In the whole game, he blocked 4 + 8 + 5 + F = 17 + F = 21 shots.
+Thus, Jordan blocked F = 21 - 17 = <<21-17=4>>4 shots in the fourth period.
+#### 4
+Question: Colin can skip at six times the speed that Brandon can.  Brandon can skip at one-third the speed that Tony can.  And Tony can skip at twice the speed that Bruce can.  At what speed, in miles per hour, can Colin skip if Bruce skips at 1 mile per hour?
+Answer: Tony can skip at twice the speed that Bruce can, for a speed of 1*2=<<1*2=2>>2 miles per hour.
+Brandon can skip at one-third the speed that Tony can, for a speed of 2*(1/3) = 2/3 miles per hour.
+Colin can skip at six times the speed that Brandon can, for a speed of (2/3*6=4 miles per hour).
+#### 4
+Question: Rayna has 60 more dollars than Kassidy, and Kassidy has 3/4 times as much money as Aurelia. If Arelia has $120, how much would each have if they decided to add together their money and share equally among them?","Let's first find out how much money Kassidy has:
+Kassidy has 3/4 times as much money as Aurelia, who has $120, so Kassidy has 3/4 * $120 = $90.
+
+Now, let's find out how much money Rayna has:
+Rayna has $60 more than Kassidy, so she has $90 + $60 = $150.
+
+Together, Aurelia, Kassidy, and Rayna have $120 + $90 + $150 = $360.
+
+If they decide to share equally, each would have $360 / 3 = $120. 
+
+Therefore, Aurelia, Kassidy, and Rayna would each have $120.","Since Arelia has $120, and Kassidy has 3/4 times as much money Arelia, Kassidy has 3/4*$120 = $<<3/4*120=90>>90
+The total amount of, money Kassidy and Arelia have together is $90+$120 = $<<90+120=210>>210
+Rayna has $60 more than Kassidy, and since Kassidy has $90, Rayna has $60+$90 = $<<60+90=150>>150
+The three of them together has $210+$150 = $<<210+150=360>>360
+If they decide to add up their money and share equally, each person would receive $360/3= $<<360/3=120>>120
+#### 120"
+CSQA,0,"Question: The evacuation became mandatory, so what came on the TV?
+A: advisory
+B: mandate
+C: soap opera
+D: elective
+E: optional",B: mandate,A
+CSQA,1a,"Question: Billy wants to learn how to socialize, but he doesn't know where to start.  He calls his best friend and asks for what?
+A: have friends
+B: meet new people
+C: entertainment
+D: input
+E: friendship
+Answer: D
+Question: What happens to the conscience of someone who has been caught committing a murder?
+A: jail time
+B: fear
+C: going to prison
+D: nothing
+E: feeling of guilt
+Answer: E
+Question: The evacuation became mandatory, so what came on the TV?
+A: advisory
+B: mandate
+C: soap opera
+D: elective
+E: optional",Answer: B,A
+CSQA,1b,"Question: What often happens to the knowledge base of someone who is learning?
+A: intelligence
+B: overconfidence
+C: knowing more
+D: better understanding
+E: growth
+Answer: E
+Question: If you see cars with a light blinking on the driver's side what does that indicate they will do?
+A: slow down
+B: go forward
+C: get to town
+D: turn left
+E: turn right
+Answer: D
+Question: The evacuation became mandatory, so what came on the TV?
+A: advisory
+B: mandate
+C: soap opera
+D: elective
+E: optional",Answer: B,A
+CSQA,2,"Question: Billy wants to learn how to socialize, but he doesn't know where to start.  He calls his best friend and asks for what?
+A: have friends
+B: meet new people
+C: entertainment
+D: input
+E: friendship
+Answer: D
+Question: What happens to the conscience of someone who has been caught committing a murder?
+A: jail time
+B: fear
+C: going to prison
+D: nothing
+E: feeling of guilt
+Answer: E
+Question: What often happens to the knowledge base of someone who is learning?
+A: intelligence
+B: overconfidence
+C: knowing more
+D: better understanding
+E: growth
+Answer: E
+Question: If you see cars with a light blinking on the driver's side what does that indicate they will do?
+A: slow down
+B: go forward
+C: get to town
+D: turn left
+E: turn right
+Answer: D
+Question: The evacuation became mandatory, so what came on the TV?
+A: advisory
+B: mandate
+C: soap opera
+D: elective
+E: optional",Answer: B,A
+CSQA,3a,"Question: Billy wants to learn how to socialize, but he doesn't know where to start.  He calls his best friend and asks for what?
+A: have friends
+B: meet new people
+C: entertainment
+D: input
+E: friendship
+Answer: D
+Question: What happens to the conscience of someone who has been caught committing a murder?
+A: jail time
+B: fear
+C: going to prison
+D: nothing
+E: feeling of guilt
+Answer: E
+Question: Billy wants to learn how to socialize, but he doesn't know where to start.  He calls his best friend and asks for what?
+A: have friends
+B: meet new people
+C: entertainment
+D: input
+E: friendship
+Answer: D
+Question: What happens to the conscience of someone who has been caught committing a murder?
+A: jail time
+B: fear
+C: going to prison
+D: nothing
+E: feeling of guilt
+Answer: E
+Question: The evacuation became mandatory, so what came on the TV?
+A: advisory
+B: mandate
+C: soap opera
+D: elective
+E: optional",Answer: B,A
+CSQA,3b,"Question: What often happens to the knowledge base of someone who is learning?
+A: intelligence
+B: overconfidence
+C: knowing more
+D: better understanding
+E: growth
+Answer: E
+Question: If you see cars with a light blinking on the driver's side what does that indicate they will do?
+A: slow down
+B: go forward
+C: get to town
+D: turn left
+E: turn right
+Answer: D
+Question: What often happens to the knowledge base of someone who is learning?
+A: intelligence
+B: overconfidence
+C: knowing more
+D: better understanding
+E: growth
+Answer: E
+Question: If you see cars with a light blinking on the driver's side what does that indicate they will do?
+A: slow down
+B: go forward
+C: get to town
+D: turn left
+E: turn right
+Answer: D
+Question: The evacuation became mandatory, so what came on the TV?
+A: advisory
+B: mandate
+C: soap opera
+D: elective
+E: optional",Answer: B,A
+StrategyQA,0,"Question: Martin Luther began the Reformation with the defiant act of nailing 95 grievances to the door of the Wittenberg church. Roman crucifixions required several tools including nails and wooden beams.
+Would a tool used for Martin Luther's Reformation opening salvo aid in a crucifixion?","No, the tool used by Martin Luther to nail his grievances to the church door (a hammer and nails) would not aid in a crucifixion. Crucifixions were typically carried out using larger nails and wooden beams, not small nails and a hammer like the ones Luther used for his act of defiance.",True
+StrategyQA,1a,"Question: Darwin theorized that evolution was driven by the fittest animals surviving and passing their genes on. Lamarck theorized that animals' responses to needs in their life would influence the growth of their offspring.
+Did Lamarck and Darwin agree about the origin of species diversity?
+Answer: False
+Question: A minotaur is a mythological creature with the head of a bull and the body of a human. The tibia is the bone between the knee and the ankle in humans. Tibia injuries are common injuries in contact sports such as football.
+Can a minotaur hypothetically injure a tibia playing football?
+Answer: True
+Question: Martin Luther began the Reformation with the defiant act of nailing 95 grievances to the door of the Wittenberg church. Roman crucifixions required several tools including nails and wooden beams.
+Would a tool used for Martin Luther's Reformation opening salvo aid in a crucifixion?",Answer: False,True
+StrategyQA,1b,"Question: Saturn, the sixth planet from the sun is named after the Roman god Saturn. The Roman god Saturn is derived from its Greek equivalent, Kronos. The king of the gods in Greek mythology was Zeus. Kronos was Zeus's father, and was the leader of the Titans.
+Is Saturn named after king of gods in Greek mythology?
+Answer: False
+Question: The average time it takes for a woman to give birth is 9 months. Wheat takes between 7 to 8 months to harvest.
+Can a woman on average have a baby before wheat seed blooms?
+Answer: False
+Question: Martin Luther began the Reformation with the defiant act of nailing 95 grievances to the door of the Wittenberg church. Roman crucifixions required several tools including nails and wooden beams.
+Would a tool used for Martin Luther's Reformation opening salvo aid in a crucifixion?",Answer: False,True
+StrategyQA,2,"Question: Darwin theorized that evolution was driven by the fittest animals surviving and passing their genes on. Lamarck theorized that animals' responses to needs in their life would influence the growth of their offspring.
+Did Lamarck and Darwin agree about the origin of species diversity?
+Answer: False
+Question: A minotaur is a mythological creature with the head of a bull and the body of a human. The tibia is the bone between the knee and the ankle in humans. Tibia injuries are common injuries in contact sports such as football.
+Can a minotaur hypothetically injure a tibia playing football?
+Answer: True
+Question: Saturn, the sixth planet from the sun is named after the Roman god Saturn. The Roman god Saturn is derived from its Greek equivalent, Kronos. The king of the gods in Greek mythology was Zeus. Kronos was Zeus's father, and was the leader of the Titans.
+Is Saturn named after king of gods in Greek mythology?
+Answer: False
+Question: The average time it takes for a woman to give birth is 9 months. Wheat takes between 7 to 8 months to harvest.
+Can a woman on average have a baby before wheat seed blooms?
+Answer: False
+Question: Martin Luther began the Reformation with the defiant act of nailing 95 grievances to the door of the Wittenberg church. Roman crucifixions required several tools including nails and wooden beams.
+Would a tool used for Martin Luther's Reformation opening salvo aid in a crucifixion?",Answer: True,True
+StrategyQA,3a,"Question: Darwin theorized that evolution was driven by the fittest animals surviving and passing their genes on. Lamarck theorized that animals' responses to needs in their life would influence the growth of their offspring.
+Did Lamarck and Darwin agree about the origin of species diversity?
+Answer: False
+Question: A minotaur is a mythological creature with the head of a bull and the body of a human. The tibia is the bone between the knee and the ankle in humans. Tibia injuries are common injuries in contact sports such as football.
+Can a minotaur hypothetically injure a tibia playing football?
+Answer: True
+Question: Darwin theorized that evolution was driven by the fittest animals surviving and passing their genes on. Lamarck theorized that animals' responses to needs in their life would influence the growth of their offspring.
+Did Lamarck and Darwin agree about the origin of species diversity?
+Answer: False
+Question: A minotaur is a mythological creature with the head of a bull and the body of a human. The tibia is the bone between the knee and the ankle in humans. Tibia injuries are common injuries in contact sports such as football.
+Can a minotaur hypothetically injure a tibia playing football?
+Answer: True
+Question: Martin Luther began the Reformation with the defiant act of nailing 95 grievances to the door of the Wittenberg church. Roman crucifixions required several tools including nails and wooden beams.
+Would a tool used for Martin Luther's Reformation opening salvo aid in a crucifixion?",Answer: False,True
+StrategyQA,3b,"Question: Saturn, the sixth planet from the sun is named after the Roman god Saturn. The Roman god Saturn is derived from its Greek equivalent, Kronos. The king of the gods in Greek mythology was Zeus. Kronos was Zeus's father, and was the leader of the Titans.
+Is Saturn named after king of gods in Greek mythology?
+Answer: False
+Question: The average time it takes for a woman to give birth is 9 months. Wheat takes between 7 to 8 months to harvest.
+Can a woman on average have a baby before wheat seed blooms?
+Answer: False
+Question: Saturn, the sixth planet from the sun is named after the Roman god Saturn. The Roman god Saturn is derived from its Greek equivalent, Kronos. The king of the gods in Greek mythology was Zeus. Kronos was Zeus's father, and was the leader of the Titans.
+Is Saturn named after king of gods in Greek mythology?
+Answer: False
+Question: The average time it takes for a woman to give birth is 9 months. Wheat takes between 7 to 8 months to harvest.
+Can a woman on average have a baby before wheat seed blooms?
+Answer: False
+Question: Martin Luther began the Reformation with the defiant act of nailing 95 grievances to the door of the Wittenberg church. Roman crucifixions required several tools including nails and wooden beams.
+Would a tool used for Martin Luther's Reformation opening salvo aid in a crucifixion?",False,True
+SayCan,0,Question: Provide step-by-step instructions for the following task: Move a banana to the table.,"1. Pick up the banana with your hand, ensuring you have a firm grip.
+2. Stand up from your current position, holding the banana securely.
+3. Walk over to the table where you want to place the banana.
+4. Position yourself close to the table, making sure you have a clear path to reach it.
+5. Extend your arm and aim to place the banana gently onto the table.
+6. Release your grip on the banana, allowing it to rest on the table's surface.
+7. Ensure the banana is stable and securely positioned on the table.
+8. Step back and admire your successful completion of moving the banana to the table.","1. pick up the banana, 2. go to the table, 3. put down the banana, 4. done"
+SayCan,1a,"Question: Provide step-by-step instructions for the following task: I’m exhausted, can you bring me a drink?
+Answer: 1. find a redbull, 2. pick up the redbull, 3. bring it to you, 4. put down the redbull, 5. done.
+Question: Provide step-by-step instructions for the following task: How would you lift the coke can?
+Answer: 1. pick up the coke can, 2. done
+Question: Provide step-by-step instructions for the following task: Move a banana to the table.","Answer: 1. Pick up the banana, 2. Walk over to the table, 3. Place the banana on the table, 4. Done.","1. pick up the banana, 2. go to the table, 3. put down the banana, 4. done"
+SayCan,1b,"Question: Provide step-by-step instructions for the following task: How would you move the chips bag from the table to the counter?
+Answer: 1. find the bag of chips, 2. pick up the bag of chips, 3. go to the counter, 4. put down the bag of chips, 5. done
+Question: Provide step-by-step instructions for the following task: Can you bring me something spicy?
+Answer: 1. find a jalapeno chips, 2. pick up the jalapeno chips, 3. bring it to you, 4. put down the jalapeno chips, 5. done.
+Question: Provide step-by-step instructions for the following task: Move a banana to the table.","Answer: 1. Locate a banana, 2. pick up the banana, 3. walk to the table, 4. place the banana on the table, 5. done.","1. pick up the banana, 2. go to the table, 3. put down the banana, 4. done"
+SayCan,2,"Question: Provide step-by-step instructions for the following task: I’m exhausted, can you bring me a drink?
+Answer: 1. find a redbull, 2. pick up the redbull, 3. bring it to you, 4. put down the redbull, 5. done.
+Question: Provide step-by-step instructions for the following task: How would you lift the coke can?
+Answer: 1. pick up the coke can, 2. done
+Question: Provide step-by-step instructions for the following task: How would you move the chips bag from the table to the counter?
+Answer: 1. find the bag of chips, 2. pick up the bag of chips, 3. go to the counter, 4. put down the bag of chips, 5. done
+Question: Provide step-by-step instructions for the following task: Can you bring me something spicy?
+Answer: 1. find a jalapeno chips, 2. pick up the jalapeno chips, 3. bring it to you, 4. put down the jalapeno chips, 5. done.
+Question: Provide step-by-step instructions for the following task: Move a banana to the table.","1. Find a banana, 2. Pick up the banana, 3. Walk to the table, 4. Place the banana on the table, 5. Done.","1. pick up the banana, 2. go to the table, 3. put down the banana, 4. done"
+SayCan,3a,"Question: Provide step-by-step instructions for the following task: I’m exhausted, can you bring me a drink?
+Answer: 1. find a redbull, 2. pick up the redbull, 3. bring it to you, 4. put down the redbull, 5. done.
+Question: Provide step-by-step instructions for the following task: How would you lift the coke can?
+Answer: 1. pick up the coke can, 2. done
+Question: Provide step-by-step instructions for the following task: I’m exhausted, can you bring me a drink?
+Answer: 1. find a redbull, 2. pick up the redbull, 3. bring it to you, 4. put down the redbull, 5. done.
+Question: Provide step-by-step instructions for the following task: How would you lift the coke can?
+Answer: 1. pick up the coke can, 2. done
+Question: Provide step-by-step instructions for the following task: Move a banana to the table.","1. Pick up the banana.
+2. Walk to the table.
+3. Place the banana on the table.
+4. Done.","1. pick up the banana, 2. go to the table, 3. put down the banana, 4. done"
+SayCan,3b,"Question: Provide step-by-step instructions for the following task: How would you move the chips bag from the table to the counter?
+Answer: 1. find the bag of chips, 2. pick up the bag of chips, 3. go to the counter, 4. put down the bag of chips, 5. done
+Question: Provide step-by-step instructions for the following task: Can you bring me something spicy?
+Answer: 1. find a jalapeno chips, 2. pick up the jalapeno chips, 3. bring it to you, 4. put down the jalapeno chips, 5. done.
+Question: Provide step-by-step instructions for the following task: How would you move the chips bag from the table to the counter?
+Answer: 1. find the bag of chips, 2. pick up the bag of chips, 3. go to the counter, 4. put down the bag of chips, 5. done
+Question: Provide step-by-step instructions for the following task: Can you bring me something spicy?
+Answer: 1. find a jalapeno chips, 2. pick up the jalapeno chips, 3. bring it to you, 4. put down the jalapeno chips, 5. done.
+Question: Provide step-by-step instructions for the following task: Move a banana to the table.","Answer: 1. Find a banana, 2. pick up the banana, 3. walk to the table, 4. place the banana on the table, 5. done.","1. pick up the banana, 2. go to the table, 3. put down the banana, 4. done"

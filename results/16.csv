@@ -1,0 +1,429 @@
+Task Class,Case,Prompt,Response,Expected
+Math,0,"Question: Andrew bakes 200 mini cinnamon rolls and 300 mini blueberry muffins. A normal cinnamon roll has 600 calories and a normal blueberry muffin has 450 calories. If a mini pastry has 1/3rd of the calories of a normal version, how many calories do the pastries he baked have?","First, let's calculate the calories in one mini cinnamon roll:
+600 calories / 3 = 200 calories
+
+Next, let's calculate the total calories in the mini cinnamon rolls:
+200 calories * 200 mini cinnamon rolls = 40,000 calories
+
+Now, let's calculate the calories in one mini blueberry muffin:
+450 calories / 3 = 150 calories
+
+Next, let's calculate the total calories in the mini blueberry muffins:
+150 calories * 300 mini blueberry muffins = 45,000 calories
+
+Finally, let's calculate the total calories of all the pastries Andrew baked:
+40,000 calories + 45,000 calories = 85,000 calories
+
+Therefore, the pastries Andrew baked have a total of 85,000 calories.","First find the number of calories in a mini cinnamon roll: 600 calories / 3 = <<600/3=200>>200 calories
+Then multiply that number by the number of mini cinnamon rolls: 200 calories/roll * 200 rolls = <<200*200=40000>>40000 calories
+Then find the number of calories in a mini blueberry muffin: 450 calories / 3 = <<450/3=150>>150 calories
+Then multiply that number by the number of mini blueberry muffins: 150 calories/muffin * 300 muffins = <<150*300=45000>>45000 calories
+Then add the number of calories from each type of pastry to find the total number of calories: 45000 calories + 40000 calories = <<45000+40000=85000>>85000 calories
+#### 85000"
+Math,1a,"Question: A tank with a capacity of 8000 gallons is 3/4 full. Daxton empty's the tank by 40% of the total volume of water in the tank to water his vegetable farm. He then fills the tank with 30% of the volume of water remaining in the tank. Calculate the final volume of water in the tank.
+Answer: The volume of water that is in the tank initially is 3/4*8000 = <<3/4*8000=6000>>6000 gallons.
+When Daxton empties 40% of the water, he pumps out 40/100*6000 = <<2400=2400>>2400 gallons of water.
+The total volume of water remaining in the tank is 6000-2400 = <<6000-2400=3600>>3600 gallons.
+Daxton then fills the tank with 30/100*3600 = <<30/100*3600=1080>>1080 gallons of water.
+The final volume of water in the tank is 3600+1080 = <<3600+1080=4680>>4680 gallons.
+#### 4680
+Question: Gilbert grows herbs in his yard to use in his cooking. At the beginning of the spring, he planted three basil bushes, a parsley plant, and two kinds of mint. Halfway through spring, one of the basil plants dropped seeds from a flower and made an extra basil plant grow. However, a rabbit came by the garden near the end of spring and ate all the mint. How many herb plants did Gilbert have when spring ended?
+Answer: Gilbert planted 3 + 1 + 2 = <<3+1+2=6>>6 herb plants.
+He gained a basil plant when one of the basil plants seeded a new plant, so he had 6 + 1 = <<6+1=7>>7 plants.
+The rabbit ate both mint plants, so Gilbert had 7 - 2 = <<7-2=5>>5 herb plants when spring ended.
+#### 5
+Question: Andrew bakes 200 mini cinnamon rolls and 300 mini blueberry muffins. A normal cinnamon roll has 600 calories and a normal blueberry muffin has 450 calories. If a mini pastry has 1/3rd of the calories of a normal version, how many calories do the pastries he baked have?","Answer: 
+
+The total calories in the mini cinnamon rolls is 200 * 600 * (1/3) = <<200*600*(1/3)=40000>>40000 calories.
+
+The total calories in the mini blueberry muffins is 300 * 450 * (1/3) = <<300*450*(1/3)=45000>>45000 calories.
+
+Therefore, the total calories in all the pastries Andrew baked is 40000 + 45000 = <<40000+45000=85000>>85000 calories.","First find the number of calories in a mini cinnamon roll: 600 calories / 3 = <<600/3=200>>200 calories
+Then multiply that number by the number of mini cinnamon rolls: 200 calories/roll * 200 rolls = <<200*200=40000>>40000 calories
+Then find the number of calories in a mini blueberry muffin: 450 calories / 3 = <<450/3=150>>150 calories
+Then multiply that number by the number of mini blueberry muffins: 150 calories/muffin * 300 muffins = <<150*300=45000>>45000 calories
+Then add the number of calories from each type of pastry to find the total number of calories: 45000 calories + 40000 calories = <<45000+40000=85000>>85000 calories
+#### 85000"
+Math,1b,"Question: Malik rushed for 18 yards in each of 4 games. Josiah ran for 22 yards in each of 4 games. Darnell had an average of 11 yards rushed for each of the 4 games. How many yards did the 3 athletes run in total?
+Answer: Malik = 18 * 4 = <<18*4=72>>72 yards
+Josiah = 22 * 4 = <<22*4=88>>88
+Darnell = 11 * 4 = <<11*4=44>>44 yards
+Total yards = 72 + 88 + 44 = <<72+88+44=204>>204 yards
+The 3 athletes ran 204 yards.
+#### 204
+Question: Rita bought 5 short dresses, 3 pairs of pants and 4 jackets from a store that sells second-hand clothes. The dresses cost $20 each, the pants cost $12, the jackets cost $30 each, and she spent an additional $5 on transportation. If she had $400 initially, how much does she have now?
+Answer: She bought 5 dresses at $20 each for a total of 5*$20 = $<<5*20=100>>100
+She bought 3 pairs of pants at $12 each for a total of 3*$12 = $<<3*12=36>>36
+She bought 4 jackets at $30 each for a total of 4*$30 = $<<4*30=120>>120
+She spent an additional $5 on transportation for a sum total of $5+$100+$36+$120 = $<<5+100+36+120=261>>261
+She initially had $400 so she now has $400-$261 = $<<400-261=139>>139
+#### 139
+Question: Andrew bakes 200 mini cinnamon rolls and 300 mini blueberry muffins. A normal cinnamon roll has 600 calories and a normal blueberry muffin has 450 calories. If a mini pastry has 1/3rd of the calories of a normal version, how many calories do the pastries he baked have?","Answer: 
+Total calories from the cinnamon rolls = 200 * (600/3) = 200 * 200 = <<200*(600/3)=40000>>40,000 calories
+Total calories from the blueberry muffins = 300 * (450/3) = 300 * 150 = <<300*(450/3)=45000>>45,000 calories
+Total calories from all the pastries = 40,000 + 45,000 = <<40000+45000=85000>>85,000 calories
+The pastries Andrew baked have a total of 85,000 calories.","First find the number of calories in a mini cinnamon roll: 600 calories / 3 = <<600/3=200>>200 calories
+Then multiply that number by the number of mini cinnamon rolls: 200 calories/roll * 200 rolls = <<200*200=40000>>40000 calories
+Then find the number of calories in a mini blueberry muffin: 450 calories / 3 = <<450/3=150>>150 calories
+Then multiply that number by the number of mini blueberry muffins: 150 calories/muffin * 300 muffins = <<150*300=45000>>45000 calories
+Then add the number of calories from each type of pastry to find the total number of calories: 45000 calories + 40000 calories = <<45000+40000=85000>>85000 calories
+#### 85000"
+Math,2,"Question: A tank with a capacity of 8000 gallons is 3/4 full. Daxton empty's the tank by 40% of the total volume of water in the tank to water his vegetable farm. He then fills the tank with 30% of the volume of water remaining in the tank. Calculate the final volume of water in the tank.
+Answer: The volume of water that is in the tank initially is 3/4*8000 = <<3/4*8000=6000>>6000 gallons.
+When Daxton empties 40% of the water, he pumps out 40/100*6000 = <<2400=2400>>2400 gallons of water.
+The total volume of water remaining in the tank is 6000-2400 = <<6000-2400=3600>>3600 gallons.
+Daxton then fills the tank with 30/100*3600 = <<30/100*3600=1080>>1080 gallons of water.
+The final volume of water in the tank is 3600+1080 = <<3600+1080=4680>>4680 gallons.
+#### 4680
+Question: Gilbert grows herbs in his yard to use in his cooking. At the beginning of the spring, he planted three basil bushes, a parsley plant, and two kinds of mint. Halfway through spring, one of the basil plants dropped seeds from a flower and made an extra basil plant grow. However, a rabbit came by the garden near the end of spring and ate all the mint. How many herb plants did Gilbert have when spring ended?
+Answer: Gilbert planted 3 + 1 + 2 = <<3+1+2=6>>6 herb plants.
+He gained a basil plant when one of the basil plants seeded a new plant, so he had 6 + 1 = <<6+1=7>>7 plants.
+The rabbit ate both mint plants, so Gilbert had 7 - 2 = <<7-2=5>>5 herb plants when spring ended.
+#### 5
+Question: Malik rushed for 18 yards in each of 4 games. Josiah ran for 22 yards in each of 4 games. Darnell had an average of 11 yards rushed for each of the 4 games. How many yards did the 3 athletes run in total?
+Answer: Malik = 18 * 4 = <<18*4=72>>72 yards
+Josiah = 22 * 4 = <<22*4=88>>88
+Darnell = 11 * 4 = <<11*4=44>>44 yards
+Total yards = 72 + 88 + 44 = <<72+88+44=204>>204 yards
+The 3 athletes ran 204 yards.
+#### 204
+Question: Rita bought 5 short dresses, 3 pairs of pants and 4 jackets from a store that sells second-hand clothes. The dresses cost $20 each, the pants cost $12, the jackets cost $30 each, and she spent an additional $5 on transportation. If she had $400 initially, how much does she have now?
+Answer: She bought 5 dresses at $20 each for a total of 5*$20 = $<<5*20=100>>100
+She bought 3 pairs of pants at $12 each for a total of 3*$12 = $<<3*12=36>>36
+She bought 4 jackets at $30 each for a total of 4*$30 = $<<4*30=120>>120
+She spent an additional $5 on transportation for a sum total of $5+$100+$36+$120 = $<<5+100+36+120=261>>261
+She initially had $400 so she now has $400-$261 = $<<400-261=139>>139
+#### 139
+Question: Andrew bakes 200 mini cinnamon rolls and 300 mini blueberry muffins. A normal cinnamon roll has 600 calories and a normal blueberry muffin has 450 calories. If a mini pastry has 1/3rd of the calories of a normal version, how many calories do the pastries he baked have?","Answer: 
+Total calories in the cinnamon rolls = 200 * 600 * 1/3 = 40000
+Total calories in the blueberry muffins = 300 * 450 * 1/3 = 45000
+Total calories in all the pastries = 40000 + 45000 = 85000 calories.","First find the number of calories in a mini cinnamon roll: 600 calories / 3 = <<600/3=200>>200 calories
+Then multiply that number by the number of mini cinnamon rolls: 200 calories/roll * 200 rolls = <<200*200=40000>>40000 calories
+Then find the number of calories in a mini blueberry muffin: 450 calories / 3 = <<450/3=150>>150 calories
+Then multiply that number by the number of mini blueberry muffins: 150 calories/muffin * 300 muffins = <<150*300=45000>>45000 calories
+Then add the number of calories from each type of pastry to find the total number of calories: 45000 calories + 40000 calories = <<45000+40000=85000>>85000 calories
+#### 85000"
+Math,3a,"Question: A tank with a capacity of 8000 gallons is 3/4 full. Daxton empty's the tank by 40% of the total volume of water in the tank to water his vegetable farm. He then fills the tank with 30% of the volume of water remaining in the tank. Calculate the final volume of water in the tank.
+Answer: The volume of water that is in the tank initially is 3/4*8000 = <<3/4*8000=6000>>6000 gallons.
+When Daxton empties 40% of the water, he pumps out 40/100*6000 = <<2400=2400>>2400 gallons of water.
+The total volume of water remaining in the tank is 6000-2400 = <<6000-2400=3600>>3600 gallons.
+Daxton then fills the tank with 30/100*3600 = <<30/100*3600=1080>>1080 gallons of water.
+The final volume of water in the tank is 3600+1080 = <<3600+1080=4680>>4680 gallons.
+#### 4680
+Question: Gilbert grows herbs in his yard to use in his cooking. At the beginning of the spring, he planted three basil bushes, a parsley plant, and two kinds of mint. Halfway through spring, one of the basil plants dropped seeds from a flower and made an extra basil plant grow. However, a rabbit came by the garden near the end of spring and ate all the mint. How many herb plants did Gilbert have when spring ended?
+Answer: Gilbert planted 3 + 1 + 2 = <<3+1+2=6>>6 herb plants.
+He gained a basil plant when one of the basil plants seeded a new plant, so he had 6 + 1 = <<6+1=7>>7 plants.
+The rabbit ate both mint plants, so Gilbert had 7 - 2 = <<7-2=5>>5 herb plants when spring ended.
+#### 5
+Question: A tank with a capacity of 8000 gallons is 3/4 full. Daxton empty's the tank by 40% of the total volume of water in the tank to water his vegetable farm. He then fills the tank with 30% of the volume of water remaining in the tank. Calculate the final volume of water in the tank.
+Answer: The volume of water that is in the tank initially is 3/4*8000 = <<3/4*8000=6000>>6000 gallons.
+When Daxton empties 40% of the water, he pumps out 40/100*6000 = <<2400=2400>>2400 gallons of water.
+The total volume of water remaining in the tank is 6000-2400 = <<6000-2400=3600>>3600 gallons.
+Daxton then fills the tank with 30/100*3600 = <<30/100*3600=1080>>1080 gallons of water.
+The final volume of water in the tank is 3600+1080 = <<3600+1080=4680>>4680 gallons.
+#### 4680
+Question: Gilbert grows herbs in his yard to use in his cooking. At the beginning of the spring, he planted three basil bushes, a parsley plant, and two kinds of mint. Halfway through spring, one of the basil plants dropped seeds from a flower and made an extra basil plant grow. However, a rabbit came by the garden near the end of spring and ate all the mint. How many herb plants did Gilbert have when spring ended?
+Answer: Gilbert planted 3 + 1 + 2 = <<3+1+2=6>>6 herb plants.
+He gained a basil plant when one of the basil plants seeded a new plant, so he had 6 + 1 = <<6+1=7>>7 plants.
+The rabbit ate both mint plants, so Gilbert had 7 - 2 = <<7-2=5>>5 herb plants when spring ended.
+#### 5
+Question: Andrew bakes 200 mini cinnamon rolls and 300 mini blueberry muffins. A normal cinnamon roll has 600 calories and a normal blueberry muffin has 450 calories. If a mini pastry has 1/3rd of the calories of a normal version, how many calories do the pastries he baked have?","Answer: 
+The total calories in the mini cinnamon rolls is 200 * (1/3) * 600 = 40000 calories.
+The total calories in the mini blueberry muffins is 300 * (1/3) * 450 = 45000 calories.
+Therefore, the total calories in all the pastries Andrew baked is 40000 + 45000 = 85000 calories.","First find the number of calories in a mini cinnamon roll: 600 calories / 3 = <<600/3=200>>200 calories
+Then multiply that number by the number of mini cinnamon rolls: 200 calories/roll * 200 rolls = <<200*200=40000>>40000 calories
+Then find the number of calories in a mini blueberry muffin: 450 calories / 3 = <<450/3=150>>150 calories
+Then multiply that number by the number of mini blueberry muffins: 150 calories/muffin * 300 muffins = <<150*300=45000>>45000 calories
+Then add the number of calories from each type of pastry to find the total number of calories: 45000 calories + 40000 calories = <<45000+40000=85000>>85000 calories
+#### 85000"
+Math,3b,"Question: Malik rushed for 18 yards in each of 4 games. Josiah ran for 22 yards in each of 4 games. Darnell had an average of 11 yards rushed for each of the 4 games. How many yards did the 3 athletes run in total?
+Answer: Malik = 18 * 4 = <<18*4=72>>72 yards
+Josiah = 22 * 4 = <<22*4=88>>88
+Darnell = 11 * 4 = <<11*4=44>>44 yards
+Total yards = 72 + 88 + 44 = <<72+88+44=204>>204 yards
+The 3 athletes ran 204 yards.
+#### 204
+Question: Rita bought 5 short dresses, 3 pairs of pants and 4 jackets from a store that sells second-hand clothes. The dresses cost $20 each, the pants cost $12, the jackets cost $30 each, and she spent an additional $5 on transportation. If she had $400 initially, how much does she have now?
+Answer: She bought 5 dresses at $20 each for a total of 5*$20 = $<<5*20=100>>100
+She bought 3 pairs of pants at $12 each for a total of 3*$12 = $<<3*12=36>>36
+She bought 4 jackets at $30 each for a total of 4*$30 = $<<4*30=120>>120
+She spent an additional $5 on transportation for a sum total of $5+$100+$36+$120 = $<<5+100+36+120=261>>261
+She initially had $400 so she now has $400-$261 = $<<400-261=139>>139
+#### 139
+Question: Malik rushed for 18 yards in each of 4 games. Josiah ran for 22 yards in each of 4 games. Darnell had an average of 11 yards rushed for each of the 4 games. How many yards did the 3 athletes run in total?
+Answer: Malik = 18 * 4 = <<18*4=72>>72 yards
+Josiah = 22 * 4 = <<22*4=88>>88
+Darnell = 11 * 4 = <<11*4=44>>44 yards
+Total yards = 72 + 88 + 44 = <<72+88+44=204>>204 yards
+The 3 athletes ran 204 yards.
+#### 204
+Question: Rita bought 5 short dresses, 3 pairs of pants and 4 jackets from a store that sells second-hand clothes. The dresses cost $20 each, the pants cost $12, the jackets cost $30 each, and she spent an additional $5 on transportation. If she had $400 initially, how much does she have now?
+Answer: She bought 5 dresses at $20 each for a total of 5*$20 = $<<5*20=100>>100
+She bought 3 pairs of pants at $12 each for a total of 3*$12 = $<<3*12=36>>36
+She bought 4 jackets at $30 each for a total of 4*$30 = $<<4*30=120>>120
+She spent an additional $5 on transportation for a sum total of $5+$100+$36+$120 = $<<5+100+36+120=261>>261
+She initially had $400 so she now has $400-$261 = $<<400-261=139>>139
+#### 139
+Question: Andrew bakes 200 mini cinnamon rolls and 300 mini blueberry muffins. A normal cinnamon roll has 600 calories and a normal blueberry muffin has 450 calories. If a mini pastry has 1/3rd of the calories of a normal version, how many calories do the pastries he baked have?","Answer: 
+
+Calories in mini cinnamon roll = 600/3 = 200 calories
+Calories in mini blueberry muffin = 450/3 = 150 calories
+
+Total calories in pastries = (200*200) + (300*150) = 40,000 + 45,000 = 85,000 calories
+
+The pastries Andrew baked have a total of 85,000 calories.","First find the number of calories in a mini cinnamon roll: 600 calories / 3 = <<600/3=200>>200 calories
+Then multiply that number by the number of mini cinnamon rolls: 200 calories/roll * 200 rolls = <<200*200=40000>>40000 calories
+Then find the number of calories in a mini blueberry muffin: 450 calories / 3 = <<450/3=150>>150 calories
+Then multiply that number by the number of mini blueberry muffins: 150 calories/muffin * 300 muffins = <<150*300=45000>>45000 calories
+Then add the number of calories from each type of pastry to find the total number of calories: 45000 calories + 40000 calories = <<45000+40000=85000>>85000 calories
+#### 85000"
+CSQA,0,"Question: Where would a person keep a book while it's being read?
+A: closet
+B: library of congress
+C: classroom
+D: in bed
+E: desk",E: desk,E
+CSQA,1a,"Question: Where in your room would you put scissors that you will not need to use any time soon?
+A: pencil case
+B: cabinet
+C: desk
+D: drawer
+E: backpack
+Answer: B
+Question: He called bull when his friend said a bull can be what?
+A: feeble
+B: bullbleep
+C: cow
+D: female
+E: charging prey
+Answer: D
+Question: Where would a person keep a book while it's being read?
+A: closet
+B: library of congress
+C: classroom
+D: in bed
+E: desk",Answer: E,E
+CSQA,1b,"Question: Where would you find a single air conditioner?
+A: house
+B: in a bike
+C: car
+D: hard
+E: texas
+Answer: C
+Question: What is directly above the floor in a building?
+A: sky
+B: people
+C: wall
+D: roof
+E: ceiling
+Answer: E
+Question: Where would a person keep a book while it's being read?
+A: closet
+B: library of congress
+C: classroom
+D: in bed
+E: desk",Answer: E,E
+CSQA,2,"Question: Where in your room would you put scissors that you will not need to use any time soon?
+A: pencil case
+B: cabinet
+C: desk
+D: drawer
+E: backpack
+Answer: B
+Question: He called bull when his friend said a bull can be what?
+A: feeble
+B: bullbleep
+C: cow
+D: female
+E: charging prey
+Answer: D
+Question: Where would you find a single air conditioner?
+A: house
+B: in a bike
+C: car
+D: hard
+E: texas
+Answer: C
+Question: What is directly above the floor in a building?
+A: sky
+B: people
+C: wall
+D: roof
+E: ceiling
+Answer: E
+Question: Where would a person keep a book while it's being read?
+A: closet
+B: library of congress
+C: classroom
+D: in bed
+E: desk",Answer: E,E
+CSQA,3a,"Question: Where in your room would you put scissors that you will not need to use any time soon?
+A: pencil case
+B: cabinet
+C: desk
+D: drawer
+E: backpack
+Answer: B
+Question: He called bull when his friend said a bull can be what?
+A: feeble
+B: bullbleep
+C: cow
+D: female
+E: charging prey
+Answer: D
+Question: Where in your room would you put scissors that you will not need to use any time soon?
+A: pencil case
+B: cabinet
+C: desk
+D: drawer
+E: backpack
+Answer: B
+Question: He called bull when his friend said a bull can be what?
+A: feeble
+B: bullbleep
+C: cow
+D: female
+E: charging prey
+Answer: D
+Question: Where would a person keep a book while it's being read?
+A: closet
+B: library of congress
+C: classroom
+D: in bed
+E: desk",Answer: E,E
+CSQA,3b,"Question: Where would you find a single air conditioner?
+A: house
+B: in a bike
+C: car
+D: hard
+E: texas
+Answer: C
+Question: What is directly above the floor in a building?
+A: sky
+B: people
+C: wall
+D: roof
+E: ceiling
+Answer: E
+Question: Where would you find a single air conditioner?
+A: house
+B: in a bike
+C: car
+D: hard
+E: texas
+Answer: C
+Question: What is directly above the floor in a building?
+A: sky
+B: people
+C: wall
+D: roof
+E: ceiling
+Answer: E
+Question: Where would a person keep a book while it's being read?
+A: closet
+B: library of congress
+C: classroom
+D: in bed
+E: desk",Answer: E,E
+StrategyQA,0,"Question: Sony is the maker of the Playstation which has sold over 108 million PS4 units by March 2020. Sega's last console, the Sega Dreamcast, was discontinued in 2001. Sony Playstation competed with Sega's Dreamcast and Saturn systems in the 1990s. Sega now makes games for its former competitor, Sony, including Team Sonic Racing in 2019. At the height of the console wars, Sega Saturn sold 9.5 million units while Sony Playstation sold 102 million units.
+Did Sony definitively win the video game war against Sega?","Yes, based on the sales figures and the fact that Sega has discontinued its console production and now makes games for Sony, it can be said that Sony definitively won the video game war against Sega. The success of the Playstation consoles, specifically the PS4, has solidified Sony's position as a dominant force in the gaming industry.",True
+StrategyQA,1a,"Question: Hamlet was written by William Shakespeare. William Shakespeare was born in 1564. Email was not widely used until the 1970s.
+Did Hamlet's author use email?
+Answer: False
+Question: Dante Alighieri was an Italian poet that wrote Inferno. Inferno depicts several layers of Hell. The 8th Circle of Hell is reserved for liars, bribers, flatterers, and false prophets. Rupert Murdoch was involved in a News International scandal in which police were bribed and phones were hacked. Rupert Murdoch refused to take any responsibility for the actions of his employees in the News International scandal.
+Would Dante Alighieri hypothetically place Rupert Murdoch in 8th Circle of Hell?
+Answer: True
+Question: Sony is the maker of the Playstation which has sold over 108 million PS4 units by March 2020. Sega's last console, the Sega Dreamcast, was discontinued in 2001. Sony Playstation competed with Sega's Dreamcast and Saturn systems in the 1990s. Sega now makes games for its former competitor, Sony, including Team Sonic Racing in 2019. At the height of the console wars, Sega Saturn sold 9.5 million units while Sony Playstation sold 102 million units.
+Did Sony definitively win the video game war against Sega?",Answer: True,True
+StrategyQA,1b,"Question: James Watson is a geneticist, who believes in his own work. James Watson is quoted as saying that genetic testing ""proves"" that Africans aren't as smart.
+Does James Watson believe that Africans are inferior to Europeans?
+Answer: True
+Question: Richard III died in battle at age 32. He had only one son, who died during childhood, and therefore had no grandchildren. Even if he did have grandchildren, he would have been dead long before they were born based on his age at death.
+Did Richard III know his grandson?
+Answer: False
+Question: Sony is the maker of the Playstation which has sold over 108 million PS4 units by March 2020. Sega's last console, the Sega Dreamcast, was discontinued in 2001. Sony Playstation competed with Sega's Dreamcast and Saturn systems in the 1990s. Sega now makes games for its former competitor, Sony, including Team Sonic Racing in 2019. At the height of the console wars, Sega Saturn sold 9.5 million units while Sony Playstation sold 102 million units.
+Did Sony definitively win the video game war against Sega?",Answer: True,True
+StrategyQA,2,"Question: Hamlet was written by William Shakespeare. William Shakespeare was born in 1564. Email was not widely used until the 1970s.
+Did Hamlet's author use email?
+Answer: False
+Question: Dante Alighieri was an Italian poet that wrote Inferno. Inferno depicts several layers of Hell. The 8th Circle of Hell is reserved for liars, bribers, flatterers, and false prophets. Rupert Murdoch was involved in a News International scandal in which police were bribed and phones were hacked. Rupert Murdoch refused to take any responsibility for the actions of his employees in the News International scandal.
+Would Dante Alighieri hypothetically place Rupert Murdoch in 8th Circle of Hell?
+Answer: True
+Question: James Watson is a geneticist, who believes in his own work. James Watson is quoted as saying that genetic testing ""proves"" that Africans aren't as smart.
+Does James Watson believe that Africans are inferior to Europeans?
+Answer: True
+Question: Richard III died in battle at age 32. He had only one son, who died during childhood, and therefore had no grandchildren. Even if he did have grandchildren, he would have been dead long before they were born based on his age at death.
+Did Richard III know his grandson?
+Answer: False
+Question: Sony is the maker of the Playstation which has sold over 108 million PS4 units by March 2020. Sega's last console, the Sega Dreamcast, was discontinued in 2001. Sony Playstation competed with Sega's Dreamcast and Saturn systems in the 1990s. Sega now makes games for its former competitor, Sony, including Team Sonic Racing in 2019. At the height of the console wars, Sega Saturn sold 9.5 million units while Sony Playstation sold 102 million units.
+Did Sony definitively win the video game war against Sega?",Answer: True,True
+StrategyQA,3a,"Question: Hamlet was written by William Shakespeare. William Shakespeare was born in 1564. Email was not widely used until the 1970s.
+Did Hamlet's author use email?
+Answer: False
+Question: Dante Alighieri was an Italian poet that wrote Inferno. Inferno depicts several layers of Hell. The 8th Circle of Hell is reserved for liars, bribers, flatterers, and false prophets. Rupert Murdoch was involved in a News International scandal in which police were bribed and phones were hacked. Rupert Murdoch refused to take any responsibility for the actions of his employees in the News International scandal.
+Would Dante Alighieri hypothetically place Rupert Murdoch in 8th Circle of Hell?
+Answer: True
+Question: Hamlet was written by William Shakespeare. William Shakespeare was born in 1564. Email was not widely used until the 1970s.
+Did Hamlet's author use email?
+Answer: False
+Question: Dante Alighieri was an Italian poet that wrote Inferno. Inferno depicts several layers of Hell. The 8th Circle of Hell is reserved for liars, bribers, flatterers, and false prophets. Rupert Murdoch was involved in a News International scandal in which police were bribed and phones were hacked. Rupert Murdoch refused to take any responsibility for the actions of his employees in the News International scandal.
+Would Dante Alighieri hypothetically place Rupert Murdoch in 8th Circle of Hell?
+Answer: True
+Question: Sony is the maker of the Playstation which has sold over 108 million PS4 units by March 2020. Sega's last console, the Sega Dreamcast, was discontinued in 2001. Sony Playstation competed with Sega's Dreamcast and Saturn systems in the 1990s. Sega now makes games for its former competitor, Sony, including Team Sonic Racing in 2019. At the height of the console wars, Sega Saturn sold 9.5 million units while Sony Playstation sold 102 million units.
+Did Sony definitively win the video game war against Sega?",Answer: True,True
+StrategyQA,3b,"Question: James Watson is a geneticist, who believes in his own work. James Watson is quoted as saying that genetic testing ""proves"" that Africans aren't as smart.
+Does James Watson believe that Africans are inferior to Europeans?
+Answer: True
+Question: Richard III died in battle at age 32. He had only one son, who died during childhood, and therefore had no grandchildren. Even if he did have grandchildren, he would have been dead long before they were born based on his age at death.
+Did Richard III know his grandson?
+Answer: False
+Question: James Watson is a geneticist, who believes in his own work. James Watson is quoted as saying that genetic testing ""proves"" that Africans aren't as smart.
+Does James Watson believe that Africans are inferior to Europeans?
+Answer: True
+Question: Richard III died in battle at age 32. He had only one son, who died during childhood, and therefore had no grandchildren. Even if he did have grandchildren, he would have been dead long before they were born based on his age at death.
+Did Richard III know his grandson?
+Answer: False
+Question: Sony is the maker of the Playstation which has sold over 108 million PS4 units by March 2020. Sega's last console, the Sega Dreamcast, was discontinued in 2001. Sony Playstation competed with Sega's Dreamcast and Saturn systems in the 1990s. Sega now makes games for its former competitor, Sony, including Team Sonic Racing in 2019. At the height of the console wars, Sega Saturn sold 9.5 million units while Sony Playstation sold 102 million units.
+Did Sony definitively win the video game war against Sega?",Answer: True,True
+SayCan,0,Question: Provide step-by-step instructions for the following task: Bring me a soda that isn’t a coke.,"Step 1: Go to a store or vending machine that sells a variety of soda brands.
+Step 2: Look for a soda that is not Coca-Cola. Some popular options include Pepsi, Sprite, Fanta, Mountain Dew, Dr. Pepper, or any other non-cola brand.
+Step 3: Select the non-cola soda of your choice and purchase it.
+Step 4: If you are at a restaurant or convenience store, ask a staff member to grab the selected soda for you.
+Step 5: Bring the non-cola soda back to the person who requested it.","1. find a pepsi, 2. pick up the pepsi, 3. bring it to you, 4. put down the pepsi, 5. done."
+SayCan,1a,"Question: Provide step-by-step instructions for the following task: Go to the table.
+Answer: 1. go to the table, 2. done
+Question: Provide step-by-step instructions for the following task: Could you get me something caffeinated?
+Answer: 1. find a redbull, 2. pick up the redbull, 3. bring it to you, 4. put down the redbull, 5. done.
+Question: Provide step-by-step instructions for the following task: Bring me a soda that isn’t a coke.","Answer: 1. Find a soda that is not Coca-Cola, such as Pepsi or Sprite. 2. Pick up the soda, 3. Bring it to you, 4. Put down the soda, 5. Done.","1. find a pepsi, 2. pick up the pepsi, 3. bring it to you, 4. put down the pepsi, 5. done."
+SayCan,1b,"Question: Provide step-by-step instructions for the following task: Put the coke can in your gripper.
+Answer: 1. pick up the coke can, 2. done
+Question: Provide step-by-step instructions for the following task: Bring me an apple from the drawer.
+Answer: 1. go to the drawer, 2. open the drawer, 3. pick up the apple, 4. close the drawer, 5. bring it to you, 6. put down the apple, 7. done
+Question: Provide step-by-step instructions for the following task: Bring me a soda that isn’t a coke.","Answer: 1. go to the fridge or storage area where the sodas are kept, 2. look for a soda that is not a coke, 3. pick up the soda, 4. bring it to you, 5. give you the soda, 6. done","1. find a pepsi, 2. pick up the pepsi, 3. bring it to you, 4. put down the pepsi, 5. done."
+SayCan,2,"Question: Provide step-by-step instructions for the following task: Go to the table.
+Answer: 1. go to the table, 2. done
+Question: Provide step-by-step instructions for the following task: Could you get me something caffeinated?
+Answer: 1. find a redbull, 2. pick up the redbull, 3. bring it to you, 4. put down the redbull, 5. done.
+Question: Provide step-by-step instructions for the following task: Put the coke can in your gripper.
+Answer: 1. pick up the coke can, 2. done
+Question: Provide step-by-step instructions for the following task: Bring me an apple from the drawer.
+Answer: 1. go to the drawer, 2. open the drawer, 3. pick up the apple, 4. close the drawer, 5. bring it to you, 6. put down the apple, 7. done
+Question: Provide step-by-step instructions for the following task: Bring me a soda that isn’t a coke.","Answer: 1. go to the refrigerator, 2. open the refrigerator door, 3. look for a soda that isn't a coke (like Sprite or Pepsi), 4. take the soda out of the refrigerator, 5. close the refrigerator door, 6. bring the soda to you, 7. put down the soda, 8. done.","1. find a pepsi, 2. pick up the pepsi, 3. bring it to you, 4. put down the pepsi, 5. done."
+SayCan,3a,"Question: Provide step-by-step instructions for the following task: Go to the table.
+Answer: 1. go to the table, 2. done
+Question: Provide step-by-step instructions for the following task: Could you get me something caffeinated?
+Answer: 1. find a redbull, 2. pick up the redbull, 3. bring it to you, 4. put down the redbull, 5. done.
+Question: Provide step-by-step instructions for the following task: Go to the table.
+Answer: 1. go to the table, 2. done
+Question: Provide step-by-step instructions for the following task: Could you get me something caffeinated?
+Answer: 1. find a redbull, 2. pick up the redbull, 3. bring it to you, 4. put down the redbull, 5. done.
+Question: Provide step-by-step instructions for the following task: Bring me a soda that isn’t a coke.","Answer: 1. Find a soda that isn't Coca-Cola, 2. Pick up the soda, 3. Bring it to you, 4. Hand you the soda, 5. Done.","1. find a pepsi, 2. pick up the pepsi, 3. bring it to you, 4. put down the pepsi, 5. done."
+SayCan,3b,"Question: Provide step-by-step instructions for the following task: Put the coke can in your gripper.
+Answer: 1. pick up the coke can, 2. done
+Question: Provide step-by-step instructions for the following task: Bring me an apple from the drawer.
+Answer: 1. go to the drawer, 2. open the drawer, 3. pick up the apple, 4. close the drawer, 5. bring it to you, 6. put down the apple, 7. done
+Question: Provide step-by-step instructions for the following task: Put the coke can in your gripper.
+Answer: 1. pick up the coke can, 2. done
+Question: Provide step-by-step instructions for the following task: Bring me an apple from the drawer.
+Answer: 1. go to the drawer, 2. open the drawer, 3. pick up the apple, 4. close the drawer, 5. bring it to you, 6. put down the apple, 7. done
+Question: Provide step-by-step instructions for the following task: Bring me a soda that isn’t a coke.","Answer: 1. Go to the soda collection, 2. Pick out a soda that is not a coke, 3. Bring it to you, 4. Give you the soda, 5. Done.","1. find a pepsi, 2. pick up the pepsi, 3. bring it to you, 4. put down the pepsi, 5. done."

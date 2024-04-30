@@ -1,0 +1,408 @@
+Task Class,Case,Prompt,Response,Expected
+Math,0,"Question: Jim is making a comforter for his king-sized bed. He needs two pieces of fabric that are 2 feet longer and 2 feet wider than the bed, which measures 6 feet long by 8 feet wide. How many square feet of fabric does Jim need to buy?","To find the total square feet of fabric Jim needs to buy, we first need to calculate the dimensions of the two pieces of fabric.
+
+For a king-sized bed that is 6 feet long and 8 feet wide, Jim needs two pieces of fabric that are 2 feet longer and 2 feet wider. 
+
+The dimensions of the two pieces of fabric will be:
+Length: 6 feet + 2 feet = 8 feet
+Width: 8 feet + 2 feet = 10 feet
+
+Now we can calculate the total square feet of fabric needed by multiplying the length and width of one piece of fabric, and then multiplying that by 2 (since Jim needs two pieces of fabric):
+
+Total square feet = (8 feet x 10 feet) x 2 pieces = 160 square feet
+
+Jim needs to buy 160 square feet of fabric to make a comforter for his king-sized bed.","First find the length of each piece of fabric by adding 2 feet to the bed's length: 6 feet + 2 feet = <<6+2=8>>8 feet
+Then find the width of each piece of fabric by adding 2 feet to the bed's width: 8 feet + 2 feet = <<8+2=10>>10 feet
+Then find the square footage of each piece of fabric by multiplying its length and width: 8 feet * 10 feet = <<8*10=80>>80 square feet
+Then double that amount since Jim needs two pieces of fabric: 80 square feet/piece * 2 pieces = <<80*2=160>>160 square feet
+#### 160"
+Math,1a,"Question: Tom's puts 30 miles per day on his bike for the first 183 days of the year.  For the rest of the days of the year he goes 35 miles per day.  How many miles does he drive for the year?
+Answer: For the first 183 days he drives 183*30=<<183*30=5490>>5490 miles
+There are 365-183=<<365-183=182>>182 days left in the year
+He drives 35*182=<<35*182=6370>>6370 for those days
+So in total he drives 5490+6370=<<5490+6370=11860>>11,860
+#### 11860
+Question: Tom invites his parents and 3 siblings to his house.  They each eat 3 times a day.  How many plates do Tom and his guests use while they are there for the 4 days if each person uses 2 plates per meal?
+Answer: There were 1+2+3=<<1+2+3=6>>6 people at the house
+That means they use 6*2=<<6*2=12>>12 plates per meal
+So they use 12*3=<<12*3=36>>36 plates per day
+That means they use 36*4=<<36*4=144>>144 plates for the visit
+#### 144
+Question: Jim is making a comforter for his king-sized bed. He needs two pieces of fabric that are 2 feet longer and 2 feet wider than the bed, which measures 6 feet long by 8 feet wide. How many square feet of fabric does Jim need to buy?","Answer: The king-sized bed is 6 feet long by 8 feet wide, so it has an area of 6 * 8 = <<6*8=48>>48 square feet.
+Jim needs two pieces of fabric that are 2 feet longer and 2 feet wider than the bed, so each piece of fabric will be 6 + 2 = 8 feet long and 8 + 2 = 10 feet wide.
+The area of each piece of fabric is 8 * 10 = <<8*10=80>>80 square feet.
+Since Jim needs two pieces of fabric, he will need a total of 80 * 2 = <<80*2=160>>160 square feet of fabric. 
+Therefore, Jim needs to buy 160 square feet of fabric.","First find the length of each piece of fabric by adding 2 feet to the bed's length: 6 feet + 2 feet = <<6+2=8>>8 feet
+Then find the width of each piece of fabric by adding 2 feet to the bed's width: 8 feet + 2 feet = <<8+2=10>>10 feet
+Then find the square footage of each piece of fabric by multiplying its length and width: 8 feet * 10 feet = <<8*10=80>>80 square feet
+Then double that amount since Jim needs two pieces of fabric: 80 square feet/piece * 2 pieces = <<80*2=160>>160 square feet
+#### 160"
+Math,1b,"Question: Billy can spit a watermelon seed 30 inches.  Madison can spit a watermelon seed 20% farther than Billy.  Ryan can spit a watermelon seed 50% shorter than Madison.  How far can Ryan spit a watermelon seed?
+Answer: Madison can spit a seed 20% farther than Billy's 30 inches so that's .20*30 = <<20*.01*30=6>>6 inches farther
+Billy spits a seed 30 inches and Madison can spit 6 inches farther for a total of 30+6 = <<30+6=36>>36 inches
+Ryan can spit a seed 50% shorter than Madison's 36 inches for a total of .50*36 = <<50*.01*36=18>>18 inches
+#### 18
+Question: Jordan has a new hit song on Spotify. 3 months are left in the year, and she currently has 60,000 listens. If the number of listens per month doubles, how many listens will the song have by the end of the year?
+Answer: In the first month, the song will have 60,000 * 2 = <<60000*2=120000>>120,000 listens.
+In the second month, the song will have 120000 * 2 = <<120000*2=240000>>240,000 listens.
+In the third month, the song will have 240000 * 2 = <<240000*2=480000>>480,000 listens.
+By the end of the year Jordan's song will have a total of 60,000 + 120,000 + 240,000 + 480,000 = <<60000+120000+240000+480000=900000>>900,000 listens.
+#### 900000
+Question: Jim is making a comforter for his king-sized bed. He needs two pieces of fabric that are 2 feet longer and 2 feet wider than the bed, which measures 6 feet long by 8 feet wide. How many square feet of fabric does Jim need to buy?","Answer: The king-sized bed is 6 feet by 8 feet, so Jim needs two pieces of fabric that are 8 feet by 10 feet. 
+The area of one piece of fabric is 8 feet * 10 feet = 80 square feet. 
+Since Jim needs two pieces, he will need to buy 80 square feet * 2 = 160 square feet of fabric. 
+Therefore, Jim needs to buy 160 square feet of fabric. 
+#### 160 square feet","First find the length of each piece of fabric by adding 2 feet to the bed's length: 6 feet + 2 feet = <<6+2=8>>8 feet
+Then find the width of each piece of fabric by adding 2 feet to the bed's width: 8 feet + 2 feet = <<8+2=10>>10 feet
+Then find the square footage of each piece of fabric by multiplying its length and width: 8 feet * 10 feet = <<8*10=80>>80 square feet
+Then double that amount since Jim needs two pieces of fabric: 80 square feet/piece * 2 pieces = <<80*2=160>>160 square feet
+#### 160"
+Math,2,"Question: Tom's puts 30 miles per day on his bike for the first 183 days of the year.  For the rest of the days of the year he goes 35 miles per day.  How many miles does he drive for the year?
+Answer: For the first 183 days he drives 183*30=<<183*30=5490>>5490 miles
+There are 365-183=<<365-183=182>>182 days left in the year
+He drives 35*182=<<35*182=6370>>6370 for those days
+So in total he drives 5490+6370=<<5490+6370=11860>>11,860
+#### 11860
+Question: Tom invites his parents and 3 siblings to his house.  They each eat 3 times a day.  How many plates do Tom and his guests use while they are there for the 4 days if each person uses 2 plates per meal?
+Answer: There were 1+2+3=<<1+2+3=6>>6 people at the house
+That means they use 6*2=<<6*2=12>>12 plates per meal
+So they use 12*3=<<12*3=36>>36 plates per day
+That means they use 36*4=<<36*4=144>>144 plates for the visit
+#### 144
+Question: Billy can spit a watermelon seed 30 inches.  Madison can spit a watermelon seed 20% farther than Billy.  Ryan can spit a watermelon seed 50% shorter than Madison.  How far can Ryan spit a watermelon seed?
+Answer: Madison can spit a seed 20% farther than Billy's 30 inches so that's .20*30 = <<20*.01*30=6>>6 inches farther
+Billy spits a seed 30 inches and Madison can spit 6 inches farther for a total of 30+6 = <<30+6=36>>36 inches
+Ryan can spit a seed 50% shorter than Madison's 36 inches for a total of .50*36 = <<50*.01*36=18>>18 inches
+#### 18
+Question: Jordan has a new hit song on Spotify. 3 months are left in the year, and she currently has 60,000 listens. If the number of listens per month doubles, how many listens will the song have by the end of the year?
+Answer: In the first month, the song will have 60,000 * 2 = <<60000*2=120000>>120,000 listens.
+In the second month, the song will have 120000 * 2 = <<120000*2=240000>>240,000 listens.
+In the third month, the song will have 240000 * 2 = <<240000*2=480000>>480,000 listens.
+By the end of the year Jordan's song will have a total of 60,000 + 120,000 + 240,000 + 480,000 = <<60000+120000+240000+480000=900000>>900,000 listens.
+#### 900000
+Question: Jim is making a comforter for his king-sized bed. He needs two pieces of fabric that are 2 feet longer and 2 feet wider than the bed, which measures 6 feet long by 8 feet wide. How many square feet of fabric does Jim need to buy?","Answer: The king-sized bed is 6 feet long by 8 feet wide, so Jim needs fabric that is (6+2) feet long and (8+2) feet wide. This means the fabric needs to be 8 feet long and 10 feet wide.
+
+The total area of fabric Jim needs to buy is 8 feet * 10 feet = 80 square feet.
+
+Therefore, Jim needs to buy 80 square feet of fabric.","First find the length of each piece of fabric by adding 2 feet to the bed's length: 6 feet + 2 feet = <<6+2=8>>8 feet
+Then find the width of each piece of fabric by adding 2 feet to the bed's width: 8 feet + 2 feet = <<8+2=10>>10 feet
+Then find the square footage of each piece of fabric by multiplying its length and width: 8 feet * 10 feet = <<8*10=80>>80 square feet
+Then double that amount since Jim needs two pieces of fabric: 80 square feet/piece * 2 pieces = <<80*2=160>>160 square feet
+#### 160"
+Math,3a,"Question: Tom's puts 30 miles per day on his bike for the first 183 days of the year.  For the rest of the days of the year he goes 35 miles per day.  How many miles does he drive for the year?
+Answer: For the first 183 days he drives 183*30=<<183*30=5490>>5490 miles
+There are 365-183=<<365-183=182>>182 days left in the year
+He drives 35*182=<<35*182=6370>>6370 for those days
+So in total he drives 5490+6370=<<5490+6370=11860>>11,860
+#### 11860
+Question: Tom invites his parents and 3 siblings to his house.  They each eat 3 times a day.  How many plates do Tom and his guests use while they are there for the 4 days if each person uses 2 plates per meal?
+Answer: There were 1+2+3=<<1+2+3=6>>6 people at the house
+That means they use 6*2=<<6*2=12>>12 plates per meal
+So they use 12*3=<<12*3=36>>36 plates per day
+That means they use 36*4=<<36*4=144>>144 plates for the visit
+#### 144
+Question: Tom's puts 30 miles per day on his bike for the first 183 days of the year.  For the rest of the days of the year he goes 35 miles per day.  How many miles does he drive for the year?
+Answer: For the first 183 days he drives 183*30=<<183*30=5490>>5490 miles
+There are 365-183=<<365-183=182>>182 days left in the year
+He drives 35*182=<<35*182=6370>>6370 for those days
+So in total he drives 5490+6370=<<5490+6370=11860>>11,860
+#### 11860
+Question: Tom invites his parents and 3 siblings to his house.  They each eat 3 times a day.  How many plates do Tom and his guests use while they are there for the 4 days if each person uses 2 plates per meal?
+Answer: There were 1+2+3=<<1+2+3=6>>6 people at the house
+That means they use 6*2=<<6*2=12>>12 plates per meal
+So they use 12*3=<<12*3=36>>36 plates per day
+That means they use 36*4=<<36*4=144>>144 plates for the visit
+#### 144
+Question: Jim is making a comforter for his king-sized bed. He needs two pieces of fabric that are 2 feet longer and 2 feet wider than the bed, which measures 6 feet long by 8 feet wide. How many square feet of fabric does Jim need to buy?","Answer: The bed measures 6 feet by 8 feet, and Jim needs fabric that is 2 feet longer and 2 feet wider than the bed. So, the fabric pieces will be 8 feet by 10 feet. 
+
+Therefore, Jim needs to buy 8*10 =  80 square feet of fabric. 
+
+So, Jim needs to buy 80 square feet of fabric.","First find the length of each piece of fabric by adding 2 feet to the bed's length: 6 feet + 2 feet = <<6+2=8>>8 feet
+Then find the width of each piece of fabric by adding 2 feet to the bed's width: 8 feet + 2 feet = <<8+2=10>>10 feet
+Then find the square footage of each piece of fabric by multiplying its length and width: 8 feet * 10 feet = <<8*10=80>>80 square feet
+Then double that amount since Jim needs two pieces of fabric: 80 square feet/piece * 2 pieces = <<80*2=160>>160 square feet
+#### 160"
+Math,3b,"Question: Billy can spit a watermelon seed 30 inches.  Madison can spit a watermelon seed 20% farther than Billy.  Ryan can spit a watermelon seed 50% shorter than Madison.  How far can Ryan spit a watermelon seed?
+Answer: Madison can spit a seed 20% farther than Billy's 30 inches so that's .20*30 = <<20*.01*30=6>>6 inches farther
+Billy spits a seed 30 inches and Madison can spit 6 inches farther for a total of 30+6 = <<30+6=36>>36 inches
+Ryan can spit a seed 50% shorter than Madison's 36 inches for a total of .50*36 = <<50*.01*36=18>>18 inches
+#### 18
+Question: Jordan has a new hit song on Spotify. 3 months are left in the year, and she currently has 60,000 listens. If the number of listens per month doubles, how many listens will the song have by the end of the year?
+Answer: In the first month, the song will have 60,000 * 2 = <<60000*2=120000>>120,000 listens.
+In the second month, the song will have 120000 * 2 = <<120000*2=240000>>240,000 listens.
+In the third month, the song will have 240000 * 2 = <<240000*2=480000>>480,000 listens.
+By the end of the year Jordan's song will have a total of 60,000 + 120,000 + 240,000 + 480,000 = <<60000+120000+240000+480000=900000>>900,000 listens.
+#### 900000
+Question: Billy can spit a watermelon seed 30 inches.  Madison can spit a watermelon seed 20% farther than Billy.  Ryan can spit a watermelon seed 50% shorter than Madison.  How far can Ryan spit a watermelon seed?
+Answer: Madison can spit a seed 20% farther than Billy's 30 inches so that's .20*30 = <<20*.01*30=6>>6 inches farther
+Billy spits a seed 30 inches and Madison can spit 6 inches farther for a total of 30+6 = <<30+6=36>>36 inches
+Ryan can spit a seed 50% shorter than Madison's 36 inches for a total of .50*36 = <<50*.01*36=18>>18 inches
+#### 18
+Question: Jordan has a new hit song on Spotify. 3 months are left in the year, and she currently has 60,000 listens. If the number of listens per month doubles, how many listens will the song have by the end of the year?
+Answer: In the first month, the song will have 60,000 * 2 = <<60000*2=120000>>120,000 listens.
+In the second month, the song will have 120000 * 2 = <<120000*2=240000>>240,000 listens.
+In the third month, the song will have 240000 * 2 = <<240000*2=480000>>480,000 listens.
+By the end of the year Jordan's song will have a total of 60,000 + 120,000 + 240,000 + 480,000 = <<60000+120000+240000+480000=900000>>900,000 listens.
+#### 900000
+Question: Jim is making a comforter for his king-sized bed. He needs two pieces of fabric that are 2 feet longer and 2 feet wider than the bed, which measures 6 feet long by 8 feet wide. How many square feet of fabric does Jim need to buy?","Answer: The length of the bed is 6 feet and Jim needs 2 feet longer pieces of fabric, so the length of the fabric needed is 6 + 2 = 8 feet.
+The width of the bed is 8 feet and Jim needs 2 feet wider pieces of fabric, so the width of the fabric needed is 8 + 2 = 10 feet.
+To calculate the total square feet of fabric needed, multiply the length by the width: 8 feet * 10 feet = 80 square feet.
+Jim needs to buy 80 square feet of fabric.","First find the length of each piece of fabric by adding 2 feet to the bed's length: 6 feet + 2 feet = <<6+2=8>>8 feet
+Then find the width of each piece of fabric by adding 2 feet to the bed's width: 8 feet + 2 feet = <<8+2=10>>10 feet
+Then find the square footage of each piece of fabric by multiplying its length and width: 8 feet * 10 feet = <<8*10=80>>80 square feet
+Then double that amount since Jim needs two pieces of fabric: 80 square feet/piece * 2 pieces = <<80*2=160>>160 square feet
+#### 160"
+CSQA,0,"Question: WHat do cats get into when they are ripping things apart?
+A: dog's mouth
+B: floor
+C: garage
+D: trouble
+E: nature","E: nature
+
+Cats may get into things like plants, furniture, paper, and other household items when they are ripping things apart.",D
+CSQA,1a,"Question: Getting drunk and using stairs can be dangerous, one might find themselves what?
+A: falling down
+B: tripping
+C: death
+D: lower standards
+E: slurred speech
+Answer: A
+Question: What does an animal do when it becomes old?
+A: live long
+B: leave home
+C: feel pain
+D: eating
+E: sense fear in human
+Answer: C
+Question: WHat do cats get into when they are ripping things apart?
+A: dog's mouth
+B: floor
+C: garage
+D: trouble
+E: nature",Answer: D,D
+CSQA,1b,"Question: I needed more knowledge and had a reputation for truancy, what did I need to go to more of?
+A: church
+B: meeting
+C: encyclopedia
+D: university
+E: class
+Answer: E
+Question: The first or second floor is the safest from fire when you sleep where away from home?
+A: house
+B: office building
+C: parking space
+D: school
+E: hotel
+Answer: E
+Question: WHat do cats get into when they are ripping things apart?
+A: dog's mouth
+B: floor
+C: garage
+D: trouble
+E: nature",Answer: D,D
+CSQA,2,"Question: Getting drunk and using stairs can be dangerous, one might find themselves what?
+A: falling down
+B: tripping
+C: death
+D: lower standards
+E: slurred speech
+Answer: A
+Question: What does an animal do when it becomes old?
+A: live long
+B: leave home
+C: feel pain
+D: eating
+E: sense fear in human
+Answer: C
+Question: I needed more knowledge and had a reputation for truancy, what did I need to go to more of?
+A: church
+B: meeting
+C: encyclopedia
+D: university
+E: class
+Answer: E
+Question: The first or second floor is the safest from fire when you sleep where away from home?
+A: house
+B: office building
+C: parking space
+D: school
+E: hotel
+Answer: E
+Question: WHat do cats get into when they are ripping things apart?
+A: dog's mouth
+B: floor
+C: garage
+D: trouble
+E: nature",Answer: D,D
+CSQA,3a,"Question: Getting drunk and using stairs can be dangerous, one might find themselves what?
+A: falling down
+B: tripping
+C: death
+D: lower standards
+E: slurred speech
+Answer: A
+Question: What does an animal do when it becomes old?
+A: live long
+B: leave home
+C: feel pain
+D: eating
+E: sense fear in human
+Answer: C
+Question: Getting drunk and using stairs can be dangerous, one might find themselves what?
+A: falling down
+B: tripping
+C: death
+D: lower standards
+E: slurred speech
+Answer: A
+Question: What does an animal do when it becomes old?
+A: live long
+B: leave home
+C: feel pain
+D: eating
+E: sense fear in human
+Answer: C
+Question: WHat do cats get into when they are ripping things apart?
+A: dog's mouth
+B: floor
+C: garage
+D: trouble
+E: nature",Answer: D,D
+CSQA,3b,"Question: I needed more knowledge and had a reputation for truancy, what did I need to go to more of?
+A: church
+B: meeting
+C: encyclopedia
+D: university
+E: class
+Answer: E
+Question: The first or second floor is the safest from fire when you sleep where away from home?
+A: house
+B: office building
+C: parking space
+D: school
+E: hotel
+Answer: E
+Question: I needed more knowledge and had a reputation for truancy, what did I need to go to more of?
+A: church
+B: meeting
+C: encyclopedia
+D: university
+E: class
+Answer: E
+Question: The first or second floor is the safest from fire when you sleep where away from home?
+A: house
+B: office building
+C: parking space
+D: school
+E: hotel
+Answer: E
+Question: WHat do cats get into when they are ripping things apart?
+A: dog's mouth
+B: floor
+C: garage
+D: trouble
+E: nature",Answer: D,D
+StrategyQA,0,"Question: ""A Tale of Two Cities"" is a historical fiction novel. Popular science books focus on scientific facts presented to a mainstream audience. Fiction is not fact.
+Is ""A Tale of Two Cities"" a popular science novel?","No, ""A Tale of Two Cities"" is not a popular science novel. It is a historical fiction novel, which means that while it may incorporate historical events and details, it is ultimately a work of fiction and not focused on presenting scientific facts or theories to a mainstream audience.",False
+StrategyQA,1a,"Question: The Jackson 5 was composed of: Jackie, Tito, Jermaine, Marlon and Michael. The Osmonds consisted of:  Alan, Wayne, Merrill, Jay and Donny.
+Did Jackson 5 members exceed number in The Osmonds?
+Answer: False
+Question: Issac Newton claimed to have contemplated gravity for the first time after seeing an apple fall. In most illustrations of Issac Newton discovering gravity, the apple shown falling is red.
+Is Issac Newton often associated with a red fruit?
+Answer: True
+Question: ""A Tale of Two Cities"" is a historical fiction novel. Popular science books focus on scientific facts presented to a mainstream audience. Fiction is not fact.
+Is ""A Tale of Two Cities"" a popular science novel?",Answer: False,False
+StrategyQA,1b,"Question: Audi R8 V-10 Plus is the fastest car produced by Audi. The Audi R8 V-10 Plus has a top speed of 205 MPH. To break the sound barrier, a jet must reach a speed of 770 MPH.
+Is sound barrier too much for Audi R8 V-10 Plus to break?
+Answer: True
+Question: A false pope, or antipope, is someone that tries to claim they are the true pope but the church rejects them. Hippolytus (c. 170–235 AD) headed a schismatic group as a rival to the Bishop of Rome, thus becoming an antipope. Hippolytus (c. 170–235 AD) was named a saint in the Roman Catholic Church.
+Can a false pope become a saint?
+Answer: True
+Question: ""A Tale of Two Cities"" is a historical fiction novel. Popular science books focus on scientific facts presented to a mainstream audience. Fiction is not fact.
+Is ""A Tale of Two Cities"" a popular science novel?",Answer: False,False
+StrategyQA,2,"Question: The Jackson 5 was composed of: Jackie, Tito, Jermaine, Marlon and Michael. The Osmonds consisted of:  Alan, Wayne, Merrill, Jay and Donny.
+Did Jackson 5 members exceed number in The Osmonds?
+Answer: False
+Question: Issac Newton claimed to have contemplated gravity for the first time after seeing an apple fall. In most illustrations of Issac Newton discovering gravity, the apple shown falling is red.
+Is Issac Newton often associated with a red fruit?
+Answer: True
+Question: Audi R8 V-10 Plus is the fastest car produced by Audi. The Audi R8 V-10 Plus has a top speed of 205 MPH. To break the sound barrier, a jet must reach a speed of 770 MPH.
+Is sound barrier too much for Audi R8 V-10 Plus to break?
+Answer: True
+Question: A false pope, or antipope, is someone that tries to claim they are the true pope but the church rejects them. Hippolytus (c. 170–235 AD) headed a schismatic group as a rival to the Bishop of Rome, thus becoming an antipope. Hippolytus (c. 170–235 AD) was named a saint in the Roman Catholic Church.
+Can a false pope become a saint?
+Answer: True
+Question: ""A Tale of Two Cities"" is a historical fiction novel. Popular science books focus on scientific facts presented to a mainstream audience. Fiction is not fact.
+Is ""A Tale of Two Cities"" a popular science novel?",Answer: False,False
+StrategyQA,3a,"Question: The Jackson 5 was composed of: Jackie, Tito, Jermaine, Marlon and Michael. The Osmonds consisted of:  Alan, Wayne, Merrill, Jay and Donny.
+Did Jackson 5 members exceed number in The Osmonds?
+Answer: False
+Question: Issac Newton claimed to have contemplated gravity for the first time after seeing an apple fall. In most illustrations of Issac Newton discovering gravity, the apple shown falling is red.
+Is Issac Newton often associated with a red fruit?
+Answer: True
+Question: The Jackson 5 was composed of: Jackie, Tito, Jermaine, Marlon and Michael. The Osmonds consisted of:  Alan, Wayne, Merrill, Jay and Donny.
+Did Jackson 5 members exceed number in The Osmonds?
+Answer: False
+Question: Issac Newton claimed to have contemplated gravity for the first time after seeing an apple fall. In most illustrations of Issac Newton discovering gravity, the apple shown falling is red.
+Is Issac Newton often associated with a red fruit?
+Answer: True
+Question: ""A Tale of Two Cities"" is a historical fiction novel. Popular science books focus on scientific facts presented to a mainstream audience. Fiction is not fact.
+Is ""A Tale of Two Cities"" a popular science novel?",Answer: False,False
+StrategyQA,3b,"Question: Audi R8 V-10 Plus is the fastest car produced by Audi. The Audi R8 V-10 Plus has a top speed of 205 MPH. To break the sound barrier, a jet must reach a speed of 770 MPH.
+Is sound barrier too much for Audi R8 V-10 Plus to break?
+Answer: True
+Question: A false pope, or antipope, is someone that tries to claim they are the true pope but the church rejects them. Hippolytus (c. 170–235 AD) headed a schismatic group as a rival to the Bishop of Rome, thus becoming an antipope. Hippolytus (c. 170–235 AD) was named a saint in the Roman Catholic Church.
+Can a false pope become a saint?
+Answer: True
+Question: Audi R8 V-10 Plus is the fastest car produced by Audi. The Audi R8 V-10 Plus has a top speed of 205 MPH. To break the sound barrier, a jet must reach a speed of 770 MPH.
+Is sound barrier too much for Audi R8 V-10 Plus to break?
+Answer: True
+Question: A false pope, or antipope, is someone that tries to claim they are the true pope but the church rejects them. Hippolytus (c. 170–235 AD) headed a schismatic group as a rival to the Bishop of Rome, thus becoming an antipope. Hippolytus (c. 170–235 AD) was named a saint in the Roman Catholic Church.
+Can a false pope become a saint?
+Answer: True
+Question: ""A Tale of Two Cities"" is a historical fiction novel. Popular science books focus on scientific facts presented to a mainstream audience. Fiction is not fact.
+Is ""A Tale of Two Cities"" a popular science novel?",Answer: False,False
+SayCan,0,Question: Provide step-by-step instructions for the following task: Can I have a redbull please?,"1. Approach the person you wish to ask for a Redbull.
+2. Politely greet them, for example, ""Hello"" or ""Excuse me"".
+3. Ask for a Redbull by saying, ""Can I have a Redbull please?""
+4. Wait for their response.
+5. If they agree, thank them by saying, ""Thank you"".
+6. Receive the Redbull from them.
+7. Enjoy your drink!","1. find a redbull can, 2. pick up the redbull can, 3. bring it to you, 4. put down the redbull can, 5. done"
+SayCan,1a,"Question: Provide step-by-step instructions for the following task: Bring me something that is not an apple.
+Answer: 1. find a orange, 2. pick up the orange, 3. bring it to you, 4. put down the orange, 5. done.
+Question: Provide step-by-step instructions for the following task: Could you get me a soda that is not caffeinated?
+Answer: 1. find a 7up, 2. pick up the 7up, 3. bring it to you, 4. put down the 7up, 5. done
+Question: Provide step-by-step instructions for the following task: Can I have a redbull please?","Answer: 1. find a Redbull, 2. pick up the Redbull, 3. bring it to you, 4. give you the Redbull, 5. done.","1. find a redbull can, 2. pick up the redbull can, 3. bring it to you, 4. put down the redbull can, 5. done"
+SayCan,1b,"Question: Provide step-by-step instructions for the following task: Bring me an apple from the drawer.
+Answer: 1. go to the drawer, 2. open the drawer, 3. pick up the apple, 4. close the drawer, 5. bring it to you, 6. put down the apple, 7. done
+Question: Provide step-by-step instructions for the following task: Move a banana to the table.
+Answer: 1. pick up the banana, 2. go to the table, 3. put down the banana, 4. done
+Question: Provide step-by-step instructions for the following task: Can I have a redbull please?","Answer: 1. Go to the fridge or wherever the Redbull is stored, 2. Take out a Redbull can, 3. Hand it to the person requesting it, 4. Done","1. find a redbull can, 2. pick up the redbull can, 3. bring it to you, 4. put down the redbull can, 5. done"
+SayCan,2,"Question: Provide step-by-step instructions for the following task: Bring me something that is not an apple.
+Answer: 1. find a orange, 2. pick up the orange, 3. bring it to you, 4. put down the orange, 5. done.
+Question: Provide step-by-step instructions for the following task: Could you get me a soda that is not caffeinated?
+Answer: 1. find a 7up, 2. pick up the 7up, 3. bring it to you, 4. put down the 7up, 5. done
+Question: Provide step-by-step instructions for the following task: Bring me an apple from the drawer.
+Answer: 1. go to the drawer, 2. open the drawer, 3. pick up the apple, 4. close the drawer, 5. bring it to you, 6. put down the apple, 7. done
+Question: Provide step-by-step instructions for the following task: Move a banana to the table.
+Answer: 1. pick up the banana, 2. go to the table, 3. put down the banana, 4. done
+Question: Provide step-by-step instructions for the following task: Can I have a redbull please?","Answer: 1. find a Red Bull energy drink, 2. pick up the Red Bull, 3. bring it to you, 4. give you the Red Bull, 5. done","1. find a redbull can, 2. pick up the redbull can, 3. bring it to you, 4. put down the redbull can, 5. done"
+SayCan,3a,"Question: Provide step-by-step instructions for the following task: Bring me something that is not an apple.
+Answer: 1. find a orange, 2. pick up the orange, 3. bring it to you, 4. put down the orange, 5. done.
+Question: Provide step-by-step instructions for the following task: Could you get me a soda that is not caffeinated?
+Answer: 1. find a 7up, 2. pick up the 7up, 3. bring it to you, 4. put down the 7up, 5. done
+Question: Provide step-by-step instructions for the following task: Bring me something that is not an apple.
+Answer: 1. find a orange, 2. pick up the orange, 3. bring it to you, 4. put down the orange, 5. done.
+Question: Provide step-by-step instructions for the following task: Could you get me a soda that is not caffeinated?
+Answer: 1. find a 7up, 2. pick up the 7up, 3. bring it to you, 4. put down the 7up, 5. done
+Question: Provide step-by-step instructions for the following task: Can I have a redbull please?","Answer: 1. find a Redbull, 2. pick up the Redbull, 3. bring it to you, 4. give you the Redbull, 5. done.","1. find a redbull can, 2. pick up the redbull can, 3. bring it to you, 4. put down the redbull can, 5. done"
+SayCan,3b,"Question: Provide step-by-step instructions for the following task: Bring me an apple from the drawer.
+Answer: 1. go to the drawer, 2. open the drawer, 3. pick up the apple, 4. close the drawer, 5. bring it to you, 6. put down the apple, 7. done
+Question: Provide step-by-step instructions for the following task: Move a banana to the table.
+Answer: 1. pick up the banana, 2. go to the table, 3. put down the banana, 4. done
+Question: Provide step-by-step instructions for the following task: Bring me an apple from the drawer.
+Answer: 1. go to the drawer, 2. open the drawer, 3. pick up the apple, 4. close the drawer, 5. bring it to you, 6. put down the apple, 7. done
+Question: Provide step-by-step instructions for the following task: Move a banana to the table.
+Answer: 1. pick up the banana, 2. go to the table, 3. put down the banana, 4. done
+Question: Provide step-by-step instructions for the following task: Can I have a redbull please?","Answer: 1. Go to the fridge or wherever the Redbull is stored, 2. Take out a Redbull, 3. Bring it to the person requesting it, 4. Hand them the Redbull, 5. Done.","1. find a redbull can, 2. pick up the redbull can, 3. bring it to you, 4. put down the redbull can, 5. done"

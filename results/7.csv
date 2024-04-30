@@ -1,0 +1,405 @@
+Task Class,Case,Prompt,Response,Expected
+Math,0,"Question: Bob is in charge of doing laundry for a large hotel. Each room has two sheets, one comforter, twice as many pillow cases as sheets and twice as many towels as pillow cases. How many pieces of laundry are there in 80 rooms?","In each room, there are:
+- 2 sheets
+- 1 comforter
+- 4 pillow cases
+- 8 towels
+
+So, for each room, there are a total of 2+1+4+8 = 15 pieces of laundry.
+
+In 80 rooms, there would be a total of 80 x 15 = 1200 pieces of laundry.","First find the number of pillow cases in each room: 2 sheets * 2 pillow cases/sheet = <<2*2=4>>4 pillow cases
+Then find the number of towels in each room: 4 pillow cases * 2 towels/pillow case = <<4*2=8>>8 towels
+Then find the number of pieces of laundry in each room: 4 pillow cases + 8 towels + 2 sheets + 1 comforter = <<4+8+2+1=15>>15 pieces of laundry
+Then multiply the number of pieces of laundry in each room by the number of rooms to find the total: 15 pieces of laundry/room * 80 rooms = <<15*80=1200>>1200 pieces
+#### 1200"
+Math,1a,"Question: Cecil has $600. Catherine has $250 less than twice as much as Cecil while Carmela has $50 more than twice Cecil's money. How much money do they have altogether?
+Answer: Twice as much as Cecil's money is $600 x 2 = $<<600*2=1200>>1200.
+So, Catherine has $1200 - $250 = $<<1200-250=950>>950.
+While Carmela has $1200 + $50 = $<<1200+50=1250>>1250.
+Hence, they have a total of $600 + $950 + $1250 = $<<600+950+1250=2800>>2800.
+#### 2800
+Question: Julie started her own landscaping business. She charges $4 an hour for mowing lawns and $8 for pulling weeds. In September she mowed lawns for 25 hours and pulled weeds for 3 hours. If she worked the same number of hours in October, how much money did she earn in September and October?
+Answer: She mowed lawns for 25 hours in September, so earned 25 * $4= $<<25*4=100>>100.
+She pulled weeds for 3 hours in September, so earned 3 * $8= $<<3*8=24>>24.
+She earned $100 + $24 = $<<100+24=124>>124 in September.
+Finally, for two months working the same hours she earned $124 * 2 = $<<124*2=248>>248.
+#### 248
+Question: Bob is in charge of doing laundry for a large hotel. Each room has two sheets, one comforter, twice as many pillow cases as sheets and twice as many towels as pillow cases. How many pieces of laundry are there in 80 rooms?","Answer: 
+Each room has 2 sheets + 1 comforter + 2 x number of sheets pillow cases + 2 x number of pillow cases towels = 2 + 1 + 2(2) + 2(2 x 2) = 2 + 1 + 4 + 8 = 15 pieces of laundry per room.
+Therefore, for 80 rooms, there are 80 x 15 = 1200 pieces of laundry in total. 
+#### 1200 pieces of laundry.","First find the number of pillow cases in each room: 2 sheets * 2 pillow cases/sheet = <<2*2=4>>4 pillow cases
+Then find the number of towels in each room: 4 pillow cases * 2 towels/pillow case = <<4*2=8>>8 towels
+Then find the number of pieces of laundry in each room: 4 pillow cases + 8 towels + 2 sheets + 1 comforter = <<4+8+2+1=15>>15 pieces of laundry
+Then multiply the number of pieces of laundry in each room by the number of rooms to find the total: 15 pieces of laundry/room * 80 rooms = <<15*80=1200>>1200 pieces
+#### 1200"
+Math,1b,"Question: Kendra wants enough shirts that she only has to do laundry once every two weeks. She wears one shirt to school for each of the five weekdays. Three days a week, she changes into a different shirt for an after-school club. On Saturday, she wears one shirt all day. On Sunday, she wears a different shirt to church than she does for the rest of the day. How many shirts does she need to be able to only do laundry once every two weeks?
+Answer: Kendra wears 1 * 5 = <<1*5=5>>5 shirts for school days.
+She wears 1 * 3 = <<1*3=3>>3 extra shirts for her after-school club.
+She wears 1 + 1 = <<1+1=2>>2 shirts on Sunday.
+With her shirt on Saturday, she wears 5 + 3 + 1 + 2 = <<5+3+1+2=11>>11 shirts each week.
+She wants to have 2 weeks’ worth of shirts, so she needs 11 * 2 = <<11*2=22>>22 shirts.
+#### 22
+Question: Adam needs a new laptop and has two choices. The first laptop is $500, and the second laptop is 3 times as costly as the first laptop. How much would Adam have to spend if he decides to buy both?
+Answer: The second laptop costs $500*3=$<<500*3=1500>>1500.
+Adam needs to spend $1500+$500=$<<1500+500=2000>>2000 for both.
+#### 2,000
+Question: Bob is in charge of doing laundry for a large hotel. Each room has two sheets, one comforter, twice as many pillow cases as sheets and twice as many towels as pillow cases. How many pieces of laundry are there in 80 rooms?","Answer: In each room, there are 2 sheets, 1 comforter, 4 pillow cases (twice as many as sheets), and 8 towels (twice as many as pillow cases), so a total of 2 + 1 + 4 + 8 = <<2+1+4+8=15>>15 pieces of laundry per room.
+With 80 rooms, the total number of pieces of laundry would be 80 * 15 = <<80*15=1200>>1200.
+#### 1,200","First find the number of pillow cases in each room: 2 sheets * 2 pillow cases/sheet = <<2*2=4>>4 pillow cases
+Then find the number of towels in each room: 4 pillow cases * 2 towels/pillow case = <<4*2=8>>8 towels
+Then find the number of pieces of laundry in each room: 4 pillow cases + 8 towels + 2 sheets + 1 comforter = <<4+8+2+1=15>>15 pieces of laundry
+Then multiply the number of pieces of laundry in each room by the number of rooms to find the total: 15 pieces of laundry/room * 80 rooms = <<15*80=1200>>1200 pieces
+#### 1200"
+Math,2,"Question: Cecil has $600. Catherine has $250 less than twice as much as Cecil while Carmela has $50 more than twice Cecil's money. How much money do they have altogether?
+Answer: Twice as much as Cecil's money is $600 x 2 = $<<600*2=1200>>1200.
+So, Catherine has $1200 - $250 = $<<1200-250=950>>950.
+While Carmela has $1200 + $50 = $<<1200+50=1250>>1250.
+Hence, they have a total of $600 + $950 + $1250 = $<<600+950+1250=2800>>2800.
+#### 2800
+Question: Julie started her own landscaping business. She charges $4 an hour for mowing lawns and $8 for pulling weeds. In September she mowed lawns for 25 hours and pulled weeds for 3 hours. If she worked the same number of hours in October, how much money did she earn in September and October?
+Answer: She mowed lawns for 25 hours in September, so earned 25 * $4= $<<25*4=100>>100.
+She pulled weeds for 3 hours in September, so earned 3 * $8= $<<3*8=24>>24.
+She earned $100 + $24 = $<<100+24=124>>124 in September.
+Finally, for two months working the same hours she earned $124 * 2 = $<<124*2=248>>248.
+#### 248
+Question: Kendra wants enough shirts that she only has to do laundry once every two weeks. She wears one shirt to school for each of the five weekdays. Three days a week, she changes into a different shirt for an after-school club. On Saturday, she wears one shirt all day. On Sunday, she wears a different shirt to church than she does for the rest of the day. How many shirts does she need to be able to only do laundry once every two weeks?
+Answer: Kendra wears 1 * 5 = <<1*5=5>>5 shirts for school days.
+She wears 1 * 3 = <<1*3=3>>3 extra shirts for her after-school club.
+She wears 1 + 1 = <<1+1=2>>2 shirts on Sunday.
+With her shirt on Saturday, she wears 5 + 3 + 1 + 2 = <<5+3+1+2=11>>11 shirts each week.
+She wants to have 2 weeks’ worth of shirts, so she needs 11 * 2 = <<11*2=22>>22 shirts.
+#### 22
+Question: Adam needs a new laptop and has two choices. The first laptop is $500, and the second laptop is 3 times as costly as the first laptop. How much would Adam have to spend if he decides to buy both?
+Answer: The second laptop costs $500*3=$<<500*3=1500>>1500.
+Adam needs to spend $1500+$500=$<<1500+500=2000>>2000 for both.
+#### 2,000
+Question: Bob is in charge of doing laundry for a large hotel. Each room has two sheets, one comforter, twice as many pillow cases as sheets and twice as many towels as pillow cases. How many pieces of laundry are there in 80 rooms?","Answer: 
+Since each room has 2 sheets, there are 2 * 2 = 4 pillow cases per room.
+There are 4 * 2 = 8 towels per room.
+So, in total, there are 2 (sheets) + 1 (comforter) + 4 (pillow cases) + 8 (towels) = 15 pieces of laundry per room.
+Therefore, for 80 rooms, there are 80 * 15 = 1200 pieces of laundry.","First find the number of pillow cases in each room: 2 sheets * 2 pillow cases/sheet = <<2*2=4>>4 pillow cases
+Then find the number of towels in each room: 4 pillow cases * 2 towels/pillow case = <<4*2=8>>8 towels
+Then find the number of pieces of laundry in each room: 4 pillow cases + 8 towels + 2 sheets + 1 comforter = <<4+8+2+1=15>>15 pieces of laundry
+Then multiply the number of pieces of laundry in each room by the number of rooms to find the total: 15 pieces of laundry/room * 80 rooms = <<15*80=1200>>1200 pieces
+#### 1200"
+Math,3a,"Question: Cecil has $600. Catherine has $250 less than twice as much as Cecil while Carmela has $50 more than twice Cecil's money. How much money do they have altogether?
+Answer: Twice as much as Cecil's money is $600 x 2 = $<<600*2=1200>>1200.
+So, Catherine has $1200 - $250 = $<<1200-250=950>>950.
+While Carmela has $1200 + $50 = $<<1200+50=1250>>1250.
+Hence, they have a total of $600 + $950 + $1250 = $<<600+950+1250=2800>>2800.
+#### 2800
+Question: Julie started her own landscaping business. She charges $4 an hour for mowing lawns and $8 for pulling weeds. In September she mowed lawns for 25 hours and pulled weeds for 3 hours. If she worked the same number of hours in October, how much money did she earn in September and October?
+Answer: She mowed lawns for 25 hours in September, so earned 25 * $4= $<<25*4=100>>100.
+She pulled weeds for 3 hours in September, so earned 3 * $8= $<<3*8=24>>24.
+She earned $100 + $24 = $<<100+24=124>>124 in September.
+Finally, for two months working the same hours she earned $124 * 2 = $<<124*2=248>>248.
+#### 248
+Question: Cecil has $600. Catherine has $250 less than twice as much as Cecil while Carmela has $50 more than twice Cecil's money. How much money do they have altogether?
+Answer: Twice as much as Cecil's money is $600 x 2 = $<<600*2=1200>>1200.
+So, Catherine has $1200 - $250 = $<<1200-250=950>>950.
+While Carmela has $1200 + $50 = $<<1200+50=1250>>1250.
+Hence, they have a total of $600 + $950 + $1250 = $<<600+950+1250=2800>>2800.
+#### 2800
+Question: Julie started her own landscaping business. She charges $4 an hour for mowing lawns and $8 for pulling weeds. In September she mowed lawns for 25 hours and pulled weeds for 3 hours. If she worked the same number of hours in October, how much money did she earn in September and October?
+Answer: She mowed lawns for 25 hours in September, so earned 25 * $4= $<<25*4=100>>100.
+She pulled weeds for 3 hours in September, so earned 3 * $8= $<<3*8=24>>24.
+She earned $100 + $24 = $<<100+24=124>>124 in September.
+Finally, for two months working the same hours she earned $124 * 2 = $<<124*2=248>>248.
+#### 248
+Question: Bob is in charge of doing laundry for a large hotel. Each room has two sheets, one comforter, twice as many pillow cases as sheets and twice as many towels as pillow cases. How many pieces of laundry are there in 80 rooms?","Answer: 
+Each room has:
+- 2 sheets
+- 1 comforter
+- 2 pillow cases
+- 4 towels
+
+So, that's a total of 2 + 1 + 2 + 4 = 9 pieces of laundry per room.
+
+For 80 rooms, there would be 80 * 9 = 720 pieces of laundry in total.","First find the number of pillow cases in each room: 2 sheets * 2 pillow cases/sheet = <<2*2=4>>4 pillow cases
+Then find the number of towels in each room: 4 pillow cases * 2 towels/pillow case = <<4*2=8>>8 towels
+Then find the number of pieces of laundry in each room: 4 pillow cases + 8 towels + 2 sheets + 1 comforter = <<4+8+2+1=15>>15 pieces of laundry
+Then multiply the number of pieces of laundry in each room by the number of rooms to find the total: 15 pieces of laundry/room * 80 rooms = <<15*80=1200>>1200 pieces
+#### 1200"
+Math,3b,"Question: Kendra wants enough shirts that she only has to do laundry once every two weeks. She wears one shirt to school for each of the five weekdays. Three days a week, she changes into a different shirt for an after-school club. On Saturday, she wears one shirt all day. On Sunday, she wears a different shirt to church than she does for the rest of the day. How many shirts does she need to be able to only do laundry once every two weeks?
+Answer: Kendra wears 1 * 5 = <<1*5=5>>5 shirts for school days.
+She wears 1 * 3 = <<1*3=3>>3 extra shirts for her after-school club.
+She wears 1 + 1 = <<1+1=2>>2 shirts on Sunday.
+With her shirt on Saturday, she wears 5 + 3 + 1 + 2 = <<5+3+1+2=11>>11 shirts each week.
+She wants to have 2 weeks’ worth of shirts, so she needs 11 * 2 = <<11*2=22>>22 shirts.
+#### 22
+Question: Adam needs a new laptop and has two choices. The first laptop is $500, and the second laptop is 3 times as costly as the first laptop. How much would Adam have to spend if he decides to buy both?
+Answer: The second laptop costs $500*3=$<<500*3=1500>>1500.
+Adam needs to spend $1500+$500=$<<1500+500=2000>>2000 for both.
+#### 2,000
+Question: Kendra wants enough shirts that she only has to do laundry once every two weeks. She wears one shirt to school for each of the five weekdays. Three days a week, she changes into a different shirt for an after-school club. On Saturday, she wears one shirt all day. On Sunday, she wears a different shirt to church than she does for the rest of the day. How many shirts does she need to be able to only do laundry once every two weeks?
+Answer: Kendra wears 1 * 5 = <<1*5=5>>5 shirts for school days.
+She wears 1 * 3 = <<1*3=3>>3 extra shirts for her after-school club.
+She wears 1 + 1 = <<1+1=2>>2 shirts on Sunday.
+With her shirt on Saturday, she wears 5 + 3 + 1 + 2 = <<5+3+1+2=11>>11 shirts each week.
+She wants to have 2 weeks’ worth of shirts, so she needs 11 * 2 = <<11*2=22>>22 shirts.
+#### 22
+Question: Adam needs a new laptop and has two choices. The first laptop is $500, and the second laptop is 3 times as costly as the first laptop. How much would Adam have to spend if he decides to buy both?
+Answer: The second laptop costs $500*3=$<<500*3=1500>>1500.
+Adam needs to spend $1500+$500=$<<1500+500=2000>>2000 for both.
+#### 2,000
+Question: Bob is in charge of doing laundry for a large hotel. Each room has two sheets, one comforter, twice as many pillow cases as sheets and twice as many towels as pillow cases. How many pieces of laundry are there in 80 rooms?","Answer: In each room, there are 2 sheets, 1 comforter, 2*2 = 4 pillow cases, and 4*2 = 8 towels.
+In total, each room has 2 + 1 + 4 + 8 = 15 pieces of laundry.
+For 80 rooms, there are 80 * 15 = 1200 pieces of laundry.","First find the number of pillow cases in each room: 2 sheets * 2 pillow cases/sheet = <<2*2=4>>4 pillow cases
+Then find the number of towels in each room: 4 pillow cases * 2 towels/pillow case = <<4*2=8>>8 towels
+Then find the number of pieces of laundry in each room: 4 pillow cases + 8 towels + 2 sheets + 1 comforter = <<4+8+2+1=15>>15 pieces of laundry
+Then multiply the number of pieces of laundry in each room by the number of rooms to find the total: 15 pieces of laundry/room * 80 rooms = <<15*80=1200>>1200 pieces
+#### 1200"
+CSQA,0,"Question: Sammy wanted to go to where the people were.  Where might he go?
+A: race track
+B: populated areas
+C: the desert
+D: apartment
+E: roadblock",B: populated areas,B
+CSQA,1a,"Question: Joe hated taking phone calls during lunch.  He found anything that interrupted his meal to be a what?
+A: decisions
+B: delight
+C: communication
+D: regret
+E: irritation
+Answer: E
+Question: She told her child it was okay he was that way, and that everyone is what?
+A: afraid of
+B: part old
+C: different
+D: good at
+E: smart
+Answer: C
+Question: Sammy wanted to go to where the people were.  Where might he go?
+A: race track
+B: populated areas
+C: the desert
+D: apartment
+E: roadblock",Answer: B,B
+CSQA,1b,"Question: He moved to check and accidentally said ""king me"", he got an odd look from his opponent since they were playing a what?
+A: scrabble
+B: chess game
+C: chess set
+D: deck of cards
+E: castle
+Answer: B
+Question: The therapist said they needed to work on what, and that just talking to one another is the first step?
+A: persuaded
+B: communication
+C: laughing
+D: learn
+E: friendship
+Answer: B
+Question: Sammy wanted to go to where the people were.  Where might he go?
+A: race track
+B: populated areas
+C: the desert
+D: apartment
+E: roadblock",Answer: B,B
+CSQA,2,"Question: Joe hated taking phone calls during lunch.  He found anything that interrupted his meal to be a what?
+A: decisions
+B: delight
+C: communication
+D: regret
+E: irritation
+Answer: E
+Question: She told her child it was okay he was that way, and that everyone is what?
+A: afraid of
+B: part old
+C: different
+D: good at
+E: smart
+Answer: C
+Question: He moved to check and accidentally said ""king me"", he got an odd look from his opponent since they were playing a what?
+A: scrabble
+B: chess game
+C: chess set
+D: deck of cards
+E: castle
+Answer: B
+Question: The therapist said they needed to work on what, and that just talking to one another is the first step?
+A: persuaded
+B: communication
+C: laughing
+D: learn
+E: friendship
+Answer: B
+Question: Sammy wanted to go to where the people were.  Where might he go?
+A: race track
+B: populated areas
+C: the desert
+D: apartment
+E: roadblock",Answer: B,B
+CSQA,3a,"Question: Joe hated taking phone calls during lunch.  He found anything that interrupted his meal to be a what?
+A: decisions
+B: delight
+C: communication
+D: regret
+E: irritation
+Answer: E
+Question: She told her child it was okay he was that way, and that everyone is what?
+A: afraid of
+B: part old
+C: different
+D: good at
+E: smart
+Answer: C
+Question: Joe hated taking phone calls during lunch.  He found anything that interrupted his meal to be a what?
+A: decisions
+B: delight
+C: communication
+D: regret
+E: irritation
+Answer: E
+Question: She told her child it was okay he was that way, and that everyone is what?
+A: afraid of
+B: part old
+C: different
+D: good at
+E: smart
+Answer: C
+Question: Sammy wanted to go to where the people were.  Where might he go?
+A: race track
+B: populated areas
+C: the desert
+D: apartment
+E: roadblock",Answer: B,B
+CSQA,3b,"Question: He moved to check and accidentally said ""king me"", he got an odd look from his opponent since they were playing a what?
+A: scrabble
+B: chess game
+C: chess set
+D: deck of cards
+E: castle
+Answer: B
+Question: The therapist said they needed to work on what, and that just talking to one another is the first step?
+A: persuaded
+B: communication
+C: laughing
+D: learn
+E: friendship
+Answer: B
+Question: He moved to check and accidentally said ""king me"", he got an odd look from his opponent since they were playing a what?
+A: scrabble
+B: chess game
+C: chess set
+D: deck of cards
+E: castle
+Answer: B
+Question: The therapist said they needed to work on what, and that just talking to one another is the first step?
+A: persuaded
+B: communication
+C: laughing
+D: learn
+E: friendship
+Answer: B
+Question: Sammy wanted to go to where the people were.  Where might he go?
+A: race track
+B: populated areas
+C: the desert
+D: apartment
+E: roadblock",Answer: B,B
+StrategyQA,0,"Question: Hot reading is a technique used by people presenting themselves as psychics to acquire information about a subject prior to the psychic session. Hot reading is considered deception in the psychic community.
+Would a psychic who admits to hot reading be trustworthy?","No, a psychic who admits to hot reading would not be trustworthy. Admitting to using deceptive practices undermines the credibility and authenticity of their psychic abilities. It suggests that they manipulate information to give the appearance of having psychic powers, rather than genuinely connecting with intuition or spiritual abilities. This lack of honesty and integrity calls into question the legitimacy of their readings and the trustworthiness of their services.",False
+StrategyQA,1a,"Question: TMNT is an abbreviation for 'Teenage Mutant Ninja Turtles'. The Teenage Mutant Ninja Turtles canonically only ever ate pizza in the animated series. 
+Would a TMNT coloring book have pizza in it?
+Answer: True
+Question: Christina Aguilera is a judge on the voice. Kelly Clarkson is a judge on the voice. Judges only turn their chairs around for competitors.  Kelly Clarkson has not competed on the voice.
+Did Christina Aguilera turn her chair around for Kelly Clarkson on The Voice?
+Answer: False
+Question: Hot reading is a technique used by people presenting themselves as psychics to acquire information about a subject prior to the psychic session. Hot reading is considered deception in the psychic community.
+Would a psychic who admits to hot reading be trustworthy?",Answer: False,False
+StrategyQA,1b,"Question: Diabetes is a disease in which the body cannot process sugar. Celery is known as a healthy snack and has 1 gram of sugar per serving. The recommended daily intake of sugar to prevent diabetes is less than 36 grams per day for an adult male. The average weight of an adult male is 197 pounds.
+Can eating your weight in celery prevent diabetes?
+Answer: False
+Question: Viscose is a rayon fiber invented in 1892. Elizabeth I of England died in the 1600s.
+Did Elizabeth I of England own any viscose fiber?
+Answer: False
+Question: Hot reading is a technique used by people presenting themselves as psychics to acquire information about a subject prior to the psychic session. Hot reading is considered deception in the psychic community.
+Would a psychic who admits to hot reading be trustworthy?",Answer: False,False
+StrategyQA,2,"Question: TMNT is an abbreviation for 'Teenage Mutant Ninja Turtles'. The Teenage Mutant Ninja Turtles canonically only ever ate pizza in the animated series. 
+Would a TMNT coloring book have pizza in it?
+Answer: True
+Question: Christina Aguilera is a judge on the voice. Kelly Clarkson is a judge on the voice. Judges only turn their chairs around for competitors.  Kelly Clarkson has not competed on the voice.
+Did Christina Aguilera turn her chair around for Kelly Clarkson on The Voice?
+Answer: False
+Question: Diabetes is a disease in which the body cannot process sugar. Celery is known as a healthy snack and has 1 gram of sugar per serving. The recommended daily intake of sugar to prevent diabetes is less than 36 grams per day for an adult male. The average weight of an adult male is 197 pounds.
+Can eating your weight in celery prevent diabetes?
+Answer: False
+Question: Viscose is a rayon fiber invented in 1892. Elizabeth I of England died in the 1600s.
+Did Elizabeth I of England own any viscose fiber?
+Answer: False
+Question: Hot reading is a technique used by people presenting themselves as psychics to acquire information about a subject prior to the psychic session. Hot reading is considered deception in the psychic community.
+Would a psychic who admits to hot reading be trustworthy?",Answer: False,False
+StrategyQA,3a,"Question: TMNT is an abbreviation for 'Teenage Mutant Ninja Turtles'. The Teenage Mutant Ninja Turtles canonically only ever ate pizza in the animated series. 
+Would a TMNT coloring book have pizza in it?
+Answer: True
+Question: Christina Aguilera is a judge on the voice. Kelly Clarkson is a judge on the voice. Judges only turn their chairs around for competitors.  Kelly Clarkson has not competed on the voice.
+Did Christina Aguilera turn her chair around for Kelly Clarkson on The Voice?
+Answer: False
+Question: TMNT is an abbreviation for 'Teenage Mutant Ninja Turtles'. The Teenage Mutant Ninja Turtles canonically only ever ate pizza in the animated series. 
+Would a TMNT coloring book have pizza in it?
+Answer: True
+Question: Christina Aguilera is a judge on the voice. Kelly Clarkson is a judge on the voice. Judges only turn their chairs around for competitors.  Kelly Clarkson has not competed on the voice.
+Did Christina Aguilera turn her chair around for Kelly Clarkson on The Voice?
+Answer: False
+Question: Hot reading is a technique used by people presenting themselves as psychics to acquire information about a subject prior to the psychic session. Hot reading is considered deception in the psychic community.
+Would a psychic who admits to hot reading be trustworthy?","Answer: No, a psychic who admits to hot reading would not be considered trustworthy as it involves deception and obtaining information through means other than psychic abilities.",False
+StrategyQA,3b,"Question: Diabetes is a disease in which the body cannot process sugar. Celery is known as a healthy snack and has 1 gram of sugar per serving. The recommended daily intake of sugar to prevent diabetes is less than 36 grams per day for an adult male. The average weight of an adult male is 197 pounds.
+Can eating your weight in celery prevent diabetes?
+Answer: False
+Question: Viscose is a rayon fiber invented in 1892. Elizabeth I of England died in the 1600s.
+Did Elizabeth I of England own any viscose fiber?
+Answer: False
+Question: Diabetes is a disease in which the body cannot process sugar. Celery is known as a healthy snack and has 1 gram of sugar per serving. The recommended daily intake of sugar to prevent diabetes is less than 36 grams per day for an adult male. The average weight of an adult male is 197 pounds.
+Can eating your weight in celery prevent diabetes?
+Answer: False
+Question: Viscose is a rayon fiber invented in 1892. Elizabeth I of England died in the 1600s.
+Did Elizabeth I of England own any viscose fiber?
+Answer: False
+Question: Hot reading is a technique used by people presenting themselves as psychics to acquire information about a subject prior to the psychic session. Hot reading is considered deception in the psychic community.
+Would a psychic who admits to hot reading be trustworthy?",Answer: False,False
+SayCan,0,Question: Provide step-by-step instructions for the following task: How would you move a banana to the table?,"1. Start by picking up the banana from wherever it is currently located.
+2. Hold the banana securely in your hand to prevent it from falling.
+3. Walk over to the table where you want to place the banana.
+4. Once you reach the table, carefully place the banana on the table's surface.
+5. Adjust the position of the banana on the table if needed to make sure it is placed securely and neatly.
+6. Step back and admire your accomplishment of successfully moving the banana to the table.","1. pick up the banana, 2. go to the table, 3. put down the banana, 4. done, I opened a sprite earlier."
+SayCan,1a,"Question: Provide step-by-step instructions for the following task: Restock chips in the drawer.
+Answer: 1. find the bag of chips, 2. pick up the bag of chips, 3. go to the drawer, 4. put down the bag of chips, 5. open the drawer, 6. pick up the bag of chips, 7. put down the bag of chips, 8. close the drawer, 9. done
+Question: Provide step-by-step instructions for the following task: Visit the counter and the table in the kitchen.
+Answer: 1. go to the counter, 2. go to the table, 3. done
+Question: Provide step-by-step instructions for the following task: How would you move a banana to the table?","Answer: 1. Pick up the banana, 2. Walk over to the table, 3. Place the banana on the table, 4. Done.","1. pick up the banana, 2. go to the table, 3. put down the banana, 4. done, I opened a sprite earlier."
+SayCan,1b,"Question: Provide step-by-step instructions for the following task: How would you throw a coke can away?
+Answer: 1. find a coke can, 2. pick up the coke can, 3. go to the trash, 4. put down the coke can, 5. done
+Question: Provide step-by-step instructions for the following task: Throw the coke can away.
+Answer: 1. find a coke can, 2. pick up the coke can, 3. go to the trash, 4. put down the coke can, 5. done
+Question: Provide step-by-step instructions for the following task: How would you move a banana to the table?","Answer: 1. Find a banana, 2. Pick up the banana, 3. Walk over to the table, 4. Place the banana on the table, 5. Done.","1. pick up the banana, 2. go to the table, 3. put down the banana, 4. done, I opened a sprite earlier."
+SayCan,2,"Question: Provide step-by-step instructions for the following task: Restock chips in the drawer.
+Answer: 1. find the bag of chips, 2. pick up the bag of chips, 3. go to the drawer, 4. put down the bag of chips, 5. open the drawer, 6. pick up the bag of chips, 7. put down the bag of chips, 8. close the drawer, 9. done
+Question: Provide step-by-step instructions for the following task: Visit the counter and the table in the kitchen.
+Answer: 1. go to the counter, 2. go to the table, 3. done
+Question: Provide step-by-step instructions for the following task: How would you throw a coke can away?
+Answer: 1. find a coke can, 2. pick up the coke can, 3. go to the trash, 4. put down the coke can, 5. done
+Question: Provide step-by-step instructions for the following task: Throw the coke can away.
+Answer: 1. find a coke can, 2. pick up the coke can, 3. go to the trash, 4. put down the coke can, 5. done
+Question: Provide step-by-step instructions for the following task: How would you move a banana to the table?","Answer: 1. Find the banana, 2. Pick up the banana, 3. Go to the table, 4. Put down the banana on the table, 5. Done","1. pick up the banana, 2. go to the table, 3. put down the banana, 4. done, I opened a sprite earlier."
+SayCan,3a,"Question: Provide step-by-step instructions for the following task: Restock chips in the drawer.
+Answer: 1. find the bag of chips, 2. pick up the bag of chips, 3. go to the drawer, 4. put down the bag of chips, 5. open the drawer, 6. pick up the bag of chips, 7. put down the bag of chips, 8. close the drawer, 9. done
+Question: Provide step-by-step instructions for the following task: Visit the counter and the table in the kitchen.
+Answer: 1. go to the counter, 2. go to the table, 3. done
+Question: Provide step-by-step instructions for the following task: Restock chips in the drawer.
+Answer: 1. find the bag of chips, 2. pick up the bag of chips, 3. go to the drawer, 4. put down the bag of chips, 5. open the drawer, 6. pick up the bag of chips, 7. put down the bag of chips, 8. close the drawer, 9. done
+Question: Provide step-by-step instructions for the following task: Visit the counter and the table in the kitchen.
+Answer: 1. go to the counter, 2. go to the table, 3. done
+Question: Provide step-by-step instructions for the following task: How would you move a banana to the table?","1. Pick up the banana
+2. Walk over to the table
+3. Place the banana on the table
+4. Done","1. pick up the banana, 2. go to the table, 3. put down the banana, 4. done, I opened a sprite earlier."
+SayCan,3b,"Question: Provide step-by-step instructions for the following task: How would you throw a coke can away?
+Answer: 1. find a coke can, 2. pick up the coke can, 3. go to the trash, 4. put down the coke can, 5. done
+Question: Provide step-by-step instructions for the following task: Throw the coke can away.
+Answer: 1. find a coke can, 2. pick up the coke can, 3. go to the trash, 4. put down the coke can, 5. done
+Question: Provide step-by-step instructions for the following task: How would you throw a coke can away?
+Answer: 1. find a coke can, 2. pick up the coke can, 3. go to the trash, 4. put down the coke can, 5. done
+Question: Provide step-by-step instructions for the following task: Throw the coke can away.
+Answer: 1. find a coke can, 2. pick up the coke can, 3. go to the trash, 4. put down the coke can, 5. done
+Question: Provide step-by-step instructions for the following task: How would you move a banana to the table?","Answer: 1. Pick up the banana, 2. Walk over to the table, 3. Place the banana on the table, 4. Done.","1. pick up the banana, 2. go to the table, 3. put down the banana, 4. done, I opened a sprite earlier."

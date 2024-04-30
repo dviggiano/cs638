@@ -1,0 +1,406 @@
+Task Class,Case,Prompt,Response,Expected
+Math,0,Question: There are 100 plants in Mrs. Smith's garden. One-fourth of her plants are indoor plants. Two-thirds of the remaining are outdoor plants while the rest are flowering plants. What percent of the plants are flowering plants?,"To find out what percent of the plants are flowering plants, we first need to calculate the number of indoor and outdoor plants.
+
+Number of indoor plants = 1/4 * 100 = 25 plants
+Number of remaining plants = 100 - 25 = 75 plants
+
+Number of outdoor plants = 2/3 * 75 = 50 plants
+Number of flowering plants = 75 - 50 = 25 plants
+
+Percent of flowering plants = (25/100) * 100 = 25%
+
+Therefore, 25% of the plants in Mrs. Smith's garden are flowering plants.","There are 100 x 1/4 = <<100*1/4=25>>25 indoor plants.
+So, 100 - 25 = <<100-25=75>>75 plants are not indoor plants.
+There are 75 x 2/3 = <<75*2/3=50>>50 outdoor plants.
+And 75 - 50 = <<75-50=25>>25 flowering plants.
+Thus, 25/100 x 100% = 25% of the plants are flowering plants.
+#### 25"
+Math,1a,"Question: Each dandelion produces 300 seeds. 1/3rd of the seeds land in water and die. 1/6 of the starting number are eaten by insects. Half the remainder sprout and are immediately eaten. How many dandelions survive long enough to flower?
+Answer: First find the number of seeds that land in water: 300 seeds * 1/3 = <<300*1/3=100>>100 seeds
+Then find the number of seeds that are eaten: 300 seeds * 1/6 = <<300*1/6=50>>50 seeds
+Subtract the number of seeds that are destroyed to find the number that sprout: 300 seeds - 100 seeds - 50 seeds = <<300-100-50=150>>150 seeds
+Then divide that number by 2 to find the number of sprouts that survive: 150 seeds / 2 = <<150/2=75>>75 seeds
+#### 75
+Question: Carla has 6 sunflowers and 8 dandelions. The sunflowers have 9 seeds per plant and the dandelions have 12 seeds per plant. What percentage of Carla's seeds come from the dandelions?
+Answer: First calculate the number of seeds from the sunflowers by multiplying the number of sunflowers by the number of seeds per sunflower: 6 sunflowers * 9 seeds/sunflower = <<6*9=54>>54 seeds
+Next calculate the number of seeds from the dandelions by multiplying the number of dandelions by the number of seeds per dandelion: 8 dandelions * 12 seeds/dandelion = <<8*12=96>>96 seeds
+Now add the number of seeds from each group of plants to find the total number of seeds: 54 seeds + 96 seeds = <<54+96=150>>150 seeds
+Now divide the number of dandelion seeds by the total number of seeds and multiply the answer by 100 to find the percentage of seeds that come from the dandelions: 96 seeds / 150 seeds * 100% = 64%
+#### 64
+Question: There are 100 plants in Mrs. Smith's garden. One-fourth of her plants are indoor plants. Two-thirds of the remaining are outdoor plants while the rest are flowering plants. What percent of the plants are flowering plants?","Answer: First, calculate the number of indoor plants by dividing the total number of plants by 4: 100 plants / 4 = 25 indoor plants
+Next, subtract the number of indoor plants from the total to find the number of outdoor plants: 100 plants - 25 indoor plants = 75 outdoor plants
+Then, find two-thirds of the outdoor plants by multiplying the number of outdoor plants by 2/3: 75 outdoor plants * 2/3 = 50 outdoor plants
+Finally, subtract the number of outdoor plants from the total number of plants to find the number of flowering plants: 100 plants - 25 indoor plants - 50 outdoor plants = 25 flowering plants
+Calculate the percentage of flowering plants by dividing the number of flowering plants by the total number of plants and multiplying by 100: 25 flowering plants / 100 total plants * 100% = 25% 
+Therefore, 25% of Mrs. Smith's plants are flowering plants.","There are 100 x 1/4 = <<100*1/4=25>>25 indoor plants.
+So, 100 - 25 = <<100-25=75>>75 plants are not indoor plants.
+There are 75 x 2/3 = <<75*2/3=50>>50 outdoor plants.
+And 75 - 50 = <<75-50=25>>25 flowering plants.
+Thus, 25/100 x 100% = 25% of the plants are flowering plants.
+#### 25"
+Math,1b,"Question: Peter and Andrew like to run in the morning.  Peter runs 3 miles more than Andrew's 2 miles.  After 5 days, how many miles have they both run?
+Answer: Peter runs 3 miles more than Andrew's 2 miles, so he runs 3+2 = <<3+2=5>>5 miles
+Peter runs 5 miles a day and Andrew runs 2 miles so they run 5+2 = <<5+2=7>>7 miles a day
+If they run 7 miles a day then over a course of 5 days they run 7*5 = <<7*5=35>>35 miles
+#### 35
+Question: Tommy is making steaks for his family. There are 5 of them in total. If each member wants one pound and the steaks are 20 ounces each, how many does he need to buy?
+Answer: He needs 80 ounces of steak because 5 x 16 = <<5*16=80>>80
+He need 4 steaks because 80 / 20 = <<80/20=4>>4
+#### 4
+Question: There are 100 plants in Mrs. Smith's garden. One-fourth of her plants are indoor plants. Two-thirds of the remaining are outdoor plants while the rest are flowering plants. What percent of the plants are flowering plants?","Answer: One-fourth of 100 plants is 100/4 = <<100/4=25>>25 indoor plants.
+The remaining plants are 100 - 25 = <<100-25=75>>75 plants.
+Two-thirds of the remaining plants are outdoor plants, so 75 x 2/3 = <<75*2/3=50>>50 outdoor plants.
+The rest of the plants, which are flowering plants, are 75 - 50 = <<75-50=25>>25.
+Therefore, 25 out of 100 plants are flowering plants, making it 25%.","There are 100 x 1/4 = <<100*1/4=25>>25 indoor plants.
+So, 100 - 25 = <<100-25=75>>75 plants are not indoor plants.
+There are 75 x 2/3 = <<75*2/3=50>>50 outdoor plants.
+And 75 - 50 = <<75-50=25>>25 flowering plants.
+Thus, 25/100 x 100% = 25% of the plants are flowering plants.
+#### 25"
+Math,2,"Question: Each dandelion produces 300 seeds. 1/3rd of the seeds land in water and die. 1/6 of the starting number are eaten by insects. Half the remainder sprout and are immediately eaten. How many dandelions survive long enough to flower?
+Answer: First find the number of seeds that land in water: 300 seeds * 1/3 = <<300*1/3=100>>100 seeds
+Then find the number of seeds that are eaten: 300 seeds * 1/6 = <<300*1/6=50>>50 seeds
+Subtract the number of seeds that are destroyed to find the number that sprout: 300 seeds - 100 seeds - 50 seeds = <<300-100-50=150>>150 seeds
+Then divide that number by 2 to find the number of sprouts that survive: 150 seeds / 2 = <<150/2=75>>75 seeds
+#### 75
+Question: Carla has 6 sunflowers and 8 dandelions. The sunflowers have 9 seeds per plant and the dandelions have 12 seeds per plant. What percentage of Carla's seeds come from the dandelions?
+Answer: First calculate the number of seeds from the sunflowers by multiplying the number of sunflowers by the number of seeds per sunflower: 6 sunflowers * 9 seeds/sunflower = <<6*9=54>>54 seeds
+Next calculate the number of seeds from the dandelions by multiplying the number of dandelions by the number of seeds per dandelion: 8 dandelions * 12 seeds/dandelion = <<8*12=96>>96 seeds
+Now add the number of seeds from each group of plants to find the total number of seeds: 54 seeds + 96 seeds = <<54+96=150>>150 seeds
+Now divide the number of dandelion seeds by the total number of seeds and multiply the answer by 100 to find the percentage of seeds that come from the dandelions: 96 seeds / 150 seeds * 100% = 64%
+#### 64
+Question: Peter and Andrew like to run in the morning.  Peter runs 3 miles more than Andrew's 2 miles.  After 5 days, how many miles have they both run?
+Answer: Peter runs 3 miles more than Andrew's 2 miles, so he runs 3+2 = <<3+2=5>>5 miles
+Peter runs 5 miles a day and Andrew runs 2 miles so they run 5+2 = <<5+2=7>>7 miles a day
+If they run 7 miles a day then over a course of 5 days they run 7*5 = <<7*5=35>>35 miles
+#### 35
+Question: Tommy is making steaks for his family. There are 5 of them in total. If each member wants one pound and the steaks are 20 ounces each, how many does he need to buy?
+Answer: He needs 80 ounces of steak because 5 x 16 = <<5*16=80>>80
+He need 4 steaks because 80 / 20 = <<80/20=4>>4
+#### 4
+Question: There are 100 plants in Mrs. Smith's garden. One-fourth of her plants are indoor plants. Two-thirds of the remaining are outdoor plants while the rest are flowering plants. What percent of the plants are flowering plants?","Answer: First, find the number of indoor plants: 100 plants / 4 = <<100/4=25>>25 plants
+Then find the number of outdoor plants: 100 plants - 25 plants = 75 plants
+Now find the number of flowering plants: 75 plants / 3 = <<75/3=25>>25 plants
+Now divide the number of flowering plants by the total number of plants and multiply by 100 to find the percentage: 25 plants / 100 plants * 100% = 25%
+#### 25%","There are 100 x 1/4 = <<100*1/4=25>>25 indoor plants.
+So, 100 - 25 = <<100-25=75>>75 plants are not indoor plants.
+There are 75 x 2/3 = <<75*2/3=50>>50 outdoor plants.
+And 75 - 50 = <<75-50=25>>25 flowering plants.
+Thus, 25/100 x 100% = 25% of the plants are flowering plants.
+#### 25"
+Math,3a,"Question: Each dandelion produces 300 seeds. 1/3rd of the seeds land in water and die. 1/6 of the starting number are eaten by insects. Half the remainder sprout and are immediately eaten. How many dandelions survive long enough to flower?
+Answer: First find the number of seeds that land in water: 300 seeds * 1/3 = <<300*1/3=100>>100 seeds
+Then find the number of seeds that are eaten: 300 seeds * 1/6 = <<300*1/6=50>>50 seeds
+Subtract the number of seeds that are destroyed to find the number that sprout: 300 seeds - 100 seeds - 50 seeds = <<300-100-50=150>>150 seeds
+Then divide that number by 2 to find the number of sprouts that survive: 150 seeds / 2 = <<150/2=75>>75 seeds
+#### 75
+Question: Carla has 6 sunflowers and 8 dandelions. The sunflowers have 9 seeds per plant and the dandelions have 12 seeds per plant. What percentage of Carla's seeds come from the dandelions?
+Answer: First calculate the number of seeds from the sunflowers by multiplying the number of sunflowers by the number of seeds per sunflower: 6 sunflowers * 9 seeds/sunflower = <<6*9=54>>54 seeds
+Next calculate the number of seeds from the dandelions by multiplying the number of dandelions by the number of seeds per dandelion: 8 dandelions * 12 seeds/dandelion = <<8*12=96>>96 seeds
+Now add the number of seeds from each group of plants to find the total number of seeds: 54 seeds + 96 seeds = <<54+96=150>>150 seeds
+Now divide the number of dandelion seeds by the total number of seeds and multiply the answer by 100 to find the percentage of seeds that come from the dandelions: 96 seeds / 150 seeds * 100% = 64%
+#### 64
+Question: Each dandelion produces 300 seeds. 1/3rd of the seeds land in water and die. 1/6 of the starting number are eaten by insects. Half the remainder sprout and are immediately eaten. How many dandelions survive long enough to flower?
+Answer: First find the number of seeds that land in water: 300 seeds * 1/3 = <<300*1/3=100>>100 seeds
+Then find the number of seeds that are eaten: 300 seeds * 1/6 = <<300*1/6=50>>50 seeds
+Subtract the number of seeds that are destroyed to find the number that sprout: 300 seeds - 100 seeds - 50 seeds = <<300-100-50=150>>150 seeds
+Then divide that number by 2 to find the number of sprouts that survive: 150 seeds / 2 = <<150/2=75>>75 seeds
+#### 75
+Question: Carla has 6 sunflowers and 8 dandelions. The sunflowers have 9 seeds per plant and the dandelions have 12 seeds per plant. What percentage of Carla's seeds come from the dandelions?
+Answer: First calculate the number of seeds from the sunflowers by multiplying the number of sunflowers by the number of seeds per sunflower: 6 sunflowers * 9 seeds/sunflower = <<6*9=54>>54 seeds
+Next calculate the number of seeds from the dandelions by multiplying the number of dandelions by the number of seeds per dandelion: 8 dandelions * 12 seeds/dandelion = <<8*12=96>>96 seeds
+Now add the number of seeds from each group of plants to find the total number of seeds: 54 seeds + 96 seeds = <<54+96=150>>150 seeds
+Now divide the number of dandelion seeds by the total number of seeds and multiply the answer by 100 to find the percentage of seeds that come from the dandelions: 96 seeds / 150 seeds * 100% = 64%
+#### 64
+Question: There are 100 plants in Mrs. Smith's garden. One-fourth of her plants are indoor plants. Two-thirds of the remaining are outdoor plants while the rest are flowering plants. What percent of the plants are flowering plants?","Answer: First find the number of indoor plants: 100 plants * 1/4 = <<100*1/4=25>>25 plants
+Then subtract the indoor plants to find the number of outdoor plants: 100 plants - 25 plants = <<100-25=75>>75 plants
+Now find what fraction of the total plants are outdoor plants: 75 plants / 100 plants = 3/4
+Subtract this fraction from 1 to find the fraction that are flowering plants: 1 - 3/4 = 1/4
+Convert this fraction to a percentage by multiplying by 100: 1/4 * 100% = 25%
+Therefore, 25% of the plants in Mrs. Smith's garden are flowering plants.","There are 100 x 1/4 = <<100*1/4=25>>25 indoor plants.
+So, 100 - 25 = <<100-25=75>>75 plants are not indoor plants.
+There are 75 x 2/3 = <<75*2/3=50>>50 outdoor plants.
+And 75 - 50 = <<75-50=25>>25 flowering plants.
+Thus, 25/100 x 100% = 25% of the plants are flowering plants.
+#### 25"
+Math,3b,"Question: Peter and Andrew like to run in the morning.  Peter runs 3 miles more than Andrew's 2 miles.  After 5 days, how many miles have they both run?
+Answer: Peter runs 3 miles more than Andrew's 2 miles, so he runs 3+2 = <<3+2=5>>5 miles
+Peter runs 5 miles a day and Andrew runs 2 miles so they run 5+2 = <<5+2=7>>7 miles a day
+If they run 7 miles a day then over a course of 5 days they run 7*5 = <<7*5=35>>35 miles
+#### 35
+Question: Tommy is making steaks for his family. There are 5 of them in total. If each member wants one pound and the steaks are 20 ounces each, how many does he need to buy?
+Answer: He needs 80 ounces of steak because 5 x 16 = <<5*16=80>>80
+He need 4 steaks because 80 / 20 = <<80/20=4>>4
+#### 4
+Question: Peter and Andrew like to run in the morning.  Peter runs 3 miles more than Andrew's 2 miles.  After 5 days, how many miles have they both run?
+Answer: Peter runs 3 miles more than Andrew's 2 miles, so he runs 3+2 = <<3+2=5>>5 miles
+Peter runs 5 miles a day and Andrew runs 2 miles so they run 5+2 = <<5+2=7>>7 miles a day
+If they run 7 miles a day then over a course of 5 days they run 7*5 = <<7*5=35>>35 miles
+#### 35
+Question: Tommy is making steaks for his family. There are 5 of them in total. If each member wants one pound and the steaks are 20 ounces each, how many does he need to buy?
+Answer: He needs 80 ounces of steak because 5 x 16 = <<5*16=80>>80
+He need 4 steaks because 80 / 20 = <<80/20=4>>4
+#### 4
+Question: There are 100 plants in Mrs. Smith's garden. One-fourth of her plants are indoor plants. Two-thirds of the remaining are outdoor plants while the rest are flowering plants. What percent of the plants are flowering plants?","Answer: One-fourth of 100 plants is 100/4 = <<100/4=25>>25 plants are indoor plants.
+The remaining number of plants after the indoor plants are taken out is 100-25 = <<100-25=75>>75 plants.
+Two-thirds of the remaining plants are outdoor plants, so 2/3 of 75 = <<2/3*75=50>>50 plants are outdoor plants.
+The number of flowering plants is 75-50 = <<75-50=25>>25 plants.
+So, 25 out of 100 plants are flowering plants, which means 25/100 * 100% = <<25/100*100=25>>25% of the plants are flowering plants.","There are 100 x 1/4 = <<100*1/4=25>>25 indoor plants.
+So, 100 - 25 = <<100-25=75>>75 plants are not indoor plants.
+There are 75 x 2/3 = <<75*2/3=50>>50 outdoor plants.
+And 75 - 50 = <<75-50=25>>25 flowering plants.
+Thus, 25/100 x 100% = 25% of the plants are flowering plants.
+#### 25"
+CSQA,0,"Question: He made another call, he did this all day hoping people would what well to his offer?
+A: hang up
+B: respond
+C: contact
+D: answer
+E: attracting ducks",B: respond,B
+CSQA,1a,"Question: What gathering of loved ones follows your final birthday?
+A: new age
+B: burial
+C: die
+D: funeral
+E: happy
+Answer: D
+Question: John heard a language that he could not understand. He thought that the door was shut, but he eventually realized that there was no door, and that the light source that was blinding his eyes was very familiar.  He was on his back looking at what?
+A: sky
+B: lamp
+C: hallway
+D: dard
+E: closed room
+Answer: A
+Question: He made another call, he did this all day hoping people would what well to his offer?
+A: hang up
+B: respond
+C: contact
+D: answer
+E: attracting ducks",Answer: B,B
+CSQA,1b,"Question: The bill was passed in hopes of fighting inflation on the products, but it failed to force the companies into what?
+A: raising interest rates
+B: lowering prices
+C: higher interest rates
+D: save money
+E: sell more products
+Answer: B
+Question: The person got called down as a contestant, he ran down the aisle very what?
+A: successful in life
+B: agitated
+C: excited
+D: eat every day
+E: compliments
+Answer: C
+Question: He made another call, he did this all day hoping people would what well to his offer?
+A: hang up
+B: respond
+C: contact
+D: answer
+E: attracting ducks",Answer: B,B
+CSQA,2,"Question: What gathering of loved ones follows your final birthday?
+A: new age
+B: burial
+C: die
+D: funeral
+E: happy
+Answer: D
+Question: John heard a language that he could not understand. He thought that the door was shut, but he eventually realized that there was no door, and that the light source that was blinding his eyes was very familiar.  He was on his back looking at what?
+A: sky
+B: lamp
+C: hallway
+D: dard
+E: closed room
+Answer: A
+Question: The bill was passed in hopes of fighting inflation on the products, but it failed to force the companies into what?
+A: raising interest rates
+B: lowering prices
+C: higher interest rates
+D: save money
+E: sell more products
+Answer: B
+Question: The person got called down as a contestant, he ran down the aisle very what?
+A: successful in life
+B: agitated
+C: excited
+D: eat every day
+E: compliments
+Answer: C
+Question: He made another call, he did this all day hoping people would what well to his offer?
+A: hang up
+B: respond
+C: contact
+D: answer
+E: attracting ducks",Answer: B,B
+CSQA,3a,"Question: What gathering of loved ones follows your final birthday?
+A: new age
+B: burial
+C: die
+D: funeral
+E: happy
+Answer: D
+Question: John heard a language that he could not understand. He thought that the door was shut, but he eventually realized that there was no door, and that the light source that was blinding his eyes was very familiar.  He was on his back looking at what?
+A: sky
+B: lamp
+C: hallway
+D: dard
+E: closed room
+Answer: A
+Question: What gathering of loved ones follows your final birthday?
+A: new age
+B: burial
+C: die
+D: funeral
+E: happy
+Answer: D
+Question: John heard a language that he could not understand. He thought that the door was shut, but he eventually realized that there was no door, and that the light source that was blinding his eyes was very familiar.  He was on his back looking at what?
+A: sky
+B: lamp
+C: hallway
+D: dard
+E: closed room
+Answer: A
+Question: He made another call, he did this all day hoping people would what well to his offer?
+A: hang up
+B: respond
+C: contact
+D: answer
+E: attracting ducks",Answer: B,B
+CSQA,3b,"Question: The bill was passed in hopes of fighting inflation on the products, but it failed to force the companies into what?
+A: raising interest rates
+B: lowering prices
+C: higher interest rates
+D: save money
+E: sell more products
+Answer: B
+Question: The person got called down as a contestant, he ran down the aisle very what?
+A: successful in life
+B: agitated
+C: excited
+D: eat every day
+E: compliments
+Answer: C
+Question: The bill was passed in hopes of fighting inflation on the products, but it failed to force the companies into what?
+A: raising interest rates
+B: lowering prices
+C: higher interest rates
+D: save money
+E: sell more products
+Answer: B
+Question: The person got called down as a contestant, he ran down the aisle very what?
+A: successful in life
+B: agitated
+C: excited
+D: eat every day
+E: compliments
+Answer: C
+Question: He made another call, he did this all day hoping people would what well to his offer?
+A: hang up
+B: respond
+C: contact
+D: answer
+E: attracting ducks",Answer: B,B
+StrategyQA,0,"Question: Al Unser Jr. is a race car driver The Space Race was the competition between the Soviet Union and United States over space exploration
+Did Al Unser Jr. win the Space Race?","No, Al Unser Jr. did not win the Space Race. The Space Race was a competition between the Soviet Union and the United States over space exploration, primarily focused on achievements such as sending the first human to space, the first human to orbit the Earth, and landing humans on the moon. Al Unser Jr. is a race car driver, not a participant in the Space Race.",False
+StrategyQA,1a,"Question: Elizabeth I of England lived from 1533 - 1603. Dido, Queen of Carthage is a short play written by the English playwright Christopher Marlowe.  It was probably written between 1587 and 1593.
+Could Elizabeth I of England have seen the play Dido, Queen of Carthage ?
+Answer: True
+Question: Microsoft Excel is a computer program Computers require a power source
+Is electricity necessary to balance an account in Microsoft Excel?
+Answer: True
+Question: Al Unser Jr. is a race car driver The Space Race was the competition between the Soviet Union and United States over space exploration
+Did Al Unser Jr. win the Space Race?",Answer: False,False
+StrategyQA,1b,"Question: A silver anniversary takes place during the 25th year of marriage. Cynthia Powell married John Lennon in 1962. Cynthia Powell and John Lennon got divorced in 1968.
+Did Cynthia Powell celebrate a silver anniversary with John Lennon?
+Answer: False
+Question: Potatoes originated in South America and spread throughout the Americas by indigenous tribes. European explorers discovered potatoes and brought them back to share at home in Europe.
+Are potatoes native to the European continent?
+Answer: False
+Question: Al Unser Jr. is a race car driver The Space Race was the competition between the Soviet Union and United States over space exploration
+Did Al Unser Jr. win the Space Race?",Answer: False,False
+StrategyQA,2,"Question: Elizabeth I of England lived from 1533 - 1603. Dido, Queen of Carthage is a short play written by the English playwright Christopher Marlowe.  It was probably written between 1587 and 1593.
+Could Elizabeth I of England have seen the play Dido, Queen of Carthage ?
+Answer: True
+Question: Microsoft Excel is a computer program Computers require a power source
+Is electricity necessary to balance an account in Microsoft Excel?
+Answer: True
+Question: A silver anniversary takes place during the 25th year of marriage. Cynthia Powell married John Lennon in 1962. Cynthia Powell and John Lennon got divorced in 1968.
+Did Cynthia Powell celebrate a silver anniversary with John Lennon?
+Answer: False
+Question: Potatoes originated in South America and spread throughout the Americas by indigenous tribes. European explorers discovered potatoes and brought them back to share at home in Europe.
+Are potatoes native to the European continent?
+Answer: False
+Question: Al Unser Jr. is a race car driver The Space Race was the competition between the Soviet Union and United States over space exploration
+Did Al Unser Jr. win the Space Race?",Answer: False,False
+StrategyQA,3a,"Question: Elizabeth I of England lived from 1533 - 1603. Dido, Queen of Carthage is a short play written by the English playwright Christopher Marlowe.  It was probably written between 1587 and 1593.
+Could Elizabeth I of England have seen the play Dido, Queen of Carthage ?
+Answer: True
+Question: Microsoft Excel is a computer program Computers require a power source
+Is electricity necessary to balance an account in Microsoft Excel?
+Answer: True
+Question: Elizabeth I of England lived from 1533 - 1603. Dido, Queen of Carthage is a short play written by the English playwright Christopher Marlowe.  It was probably written between 1587 and 1593.
+Could Elizabeth I of England have seen the play Dido, Queen of Carthage ?
+Answer: True
+Question: Microsoft Excel is a computer program Computers require a power source
+Is electricity necessary to balance an account in Microsoft Excel?
+Answer: True
+Question: Al Unser Jr. is a race car driver The Space Race was the competition between the Soviet Union and United States over space exploration
+Did Al Unser Jr. win the Space Race?",Answer: False,False
+StrategyQA,3b,"Question: A silver anniversary takes place during the 25th year of marriage. Cynthia Powell married John Lennon in 1962. Cynthia Powell and John Lennon got divorced in 1968.
+Did Cynthia Powell celebrate a silver anniversary with John Lennon?
+Answer: False
+Question: Potatoes originated in South America and spread throughout the Americas by indigenous tribes. European explorers discovered potatoes and brought them back to share at home in Europe.
+Are potatoes native to the European continent?
+Answer: False
+Question: A silver anniversary takes place during the 25th year of marriage. Cynthia Powell married John Lennon in 1962. Cynthia Powell and John Lennon got divorced in 1968.
+Did Cynthia Powell celebrate a silver anniversary with John Lennon?
+Answer: False
+Question: Potatoes originated in South America and spread throughout the Americas by indigenous tribes. European explorers discovered potatoes and brought them back to share at home in Europe.
+Are potatoes native to the European continent?
+Answer: False
+Question: Al Unser Jr. is a race car driver The Space Race was the competition between the Soviet Union and United States over space exploration
+Did Al Unser Jr. win the Space Race?",Answer: False,False
+SayCan,0,Question: Provide step-by-step instructions for the following task: How would you grab the coke can?,"1. Locate the coke can, ensuring it is within your reach.
+2. Assess the positioning of the coke can to determine the easiest and safest way to access it.
+3. Extend your hand toward the coke can, making sure your grip is secure and stable.
+4. Use your fingers to wrap around the sides of the coke can, ensuring a firm grip.
+5. Lift the coke can upwards, maintaining control and stability to prevent accidental spills.
+6. Once you have a secure hold on the coke can, carefully bring it towards you.
+7. If needed, use your other hand for additional support or balance.
+8. Place the coke can in a stable and accessible location for consumption.","1. pick up the coke can, 2. done"
+SayCan,1a,"Question: Provide step-by-step instructions for the following task: Park at the table.
+Answer: 1. go to the table, 2. done
+Question: Provide step-by-step instructions for the following task: Put a bag of chips and water bottle on the table.
+Answer: 1. find the bag of chips, 2. pick up the bag of chips, 3. go to the table, 4. put down the bag of chips, 5. find a water bottle, 6. pick up the water bottle, 7. go to the table, 8. put down the water bottle, 9. done
+Question: Provide step-by-step instructions for the following task: How would you grab the coke can?","Answer: 1. Locate the coke can, 2. Reach out and grab the coke can with your hand, 3. Lift the coke can off the surface it is on, 4. Done.","1. pick up the coke can, 2. done"
+SayCan,1b,"Question: Provide step-by-step instructions for the following task: How would you pick up the coke can?
+Answer: 1. pick up the coke can, 2. done
+Question: Provide step-by-step instructions for the following task: Can you bring me something spicy?
+Answer: 1. find the jalapeno chips, 2. pick up the jalapeno chips, 3. bring it to you, 4. put down the jalapeno chips, 5. done
+Question: Provide step-by-step instructions for the following task: How would you grab the coke can?","Answer: 1. Reach out and locate the coke can, 2. Use your fingers to grasp the coke can firmly, 3. Lift the coke can off the surface, 4. Hold onto the coke can securely, 5. done","1. pick up the coke can, 2. done"
+SayCan,2,"Question: Provide step-by-step instructions for the following task: Park at the table.
+Answer: 1. go to the table, 2. done
+Question: Provide step-by-step instructions for the following task: Put a bag of chips and water bottle on the table.
+Answer: 1. find the bag of chips, 2. pick up the bag of chips, 3. go to the table, 4. put down the bag of chips, 5. find a water bottle, 6. pick up the water bottle, 7. go to the table, 8. put down the water bottle, 9. done
+Question: Provide step-by-step instructions for the following task: How would you pick up the coke can?
+Answer: 1. pick up the coke can, 2. done
+Question: Provide step-by-step instructions for the following task: Can you bring me something spicy?
+Answer: 1. find the jalapeno chips, 2. pick up the jalapeno chips, 3. bring it to you, 4. put down the jalapeno chips, 5. done
+Question: Provide step-by-step instructions for the following task: How would you grab the coke can?","Answer: 1. reach for the coke can, 2. grip the coke can with your hand, 3. lift the coke can off the surface, 4. hold onto the coke can securely, 5. done","1. pick up the coke can, 2. done"
+SayCan,3a,"Question: Provide step-by-step instructions for the following task: Park at the table.
+Answer: 1. go to the table, 2. done
+Question: Provide step-by-step instructions for the following task: Put a bag of chips and water bottle on the table.
+Answer: 1. find the bag of chips, 2. pick up the bag of chips, 3. go to the table, 4. put down the bag of chips, 5. find a water bottle, 6. pick up the water bottle, 7. go to the table, 8. put down the water bottle, 9. done
+Question: Provide step-by-step instructions for the following task: Park at the table.
+Answer: 1. go to the table, 2. done
+Question: Provide step-by-step instructions for the following task: Put a bag of chips and water bottle on the table.
+Answer: 1. find the bag of chips, 2. pick up the bag of chips, 3. go to the table, 4. put down the bag of chips, 5. find a water bottle, 6. pick up the water bottle, 7. go to the table, 8. put down the water bottle, 9. done
+Question: Provide step-by-step instructions for the following task: How would you grab the coke can?","Answer: 1. Locate the coke can, 2. Reach out your hand towards the coke can, 3. Grasp the coke can firmly with your hand, 4. Lift the coke can off the surface, 5. Done.","1. pick up the coke can, 2. done"
+SayCan,3b,"Question: Provide step-by-step instructions for the following task: How would you pick up the coke can?
+Answer: 1. pick up the coke can, 2. done
+Question: Provide step-by-step instructions for the following task: Can you bring me something spicy?
+Answer: 1. find the jalapeno chips, 2. pick up the jalapeno chips, 3. bring it to you, 4. put down the jalapeno chips, 5. done
+Question: Provide step-by-step instructions for the following task: How would you pick up the coke can?
+Answer: 1. pick up the coke can, 2. done
+Question: Provide step-by-step instructions for the following task: Can you bring me something spicy?
+Answer: 1. find the jalapeno chips, 2. pick up the jalapeno chips, 3. bring it to you, 4. put down the jalapeno chips, 5. done
+Question: Provide step-by-step instructions for the following task: How would you grab the coke can?","Answer: 1. Reach out your hand towards the coke can, 2. Grip the can firmly, 3. Lift the can off the surface, 4. Hold the can securely, 5. done","1. pick up the coke can, 2. done"

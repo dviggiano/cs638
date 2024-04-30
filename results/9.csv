@@ -1,0 +1,386 @@
+Task Class,Case,Prompt,Response,Expected
+Math,0,"Question: Carson lives in an old house where the pipes will freeze if the temperature inside the house falls below 32 degrees. Every log of wood Carson burns heats the house up by 5 degrees. If it was 45 degrees during the day, and it's 33 degrees colder during the night compared to the day, how many logs does Carson need to burn to prevent the pipes from freezing?","Carson needs to prevent the temperature from dropping below 32 degrees in order to prevent the pipes from freezing. 
+
+During the day, the temperature is 45 degrees. 
+At night, the temperature drops by 33 degrees, so the temperature at night is 45 - 33 = 12 degrees. 
+
+Carson needs to raise the temperature by at least 20 degrees (from 12 degrees to 32 degrees) in order to prevent the pipes from freezing. 
+
+Each log of wood raises the temperature by 5 degrees. 
+Therefore, Carson needs to burn 20 / 5 = 4 logs of wood to prevent the pipes from freezing. 
+
+Carson needs to burn 4 logs of wood to prevent the pipes from freezing.","First find the night-time temperature: 45 degrees - 33 degrees = <<45-33=12>>12 degrees
+Then find how much Carson needs to heat his house to avoid the pipes freezing: 32 degrees - 12 degrees = <<32-12=20>>20 degrees
+Then divide the amount of heat Carson needs by the amount of heat each log produces: 20 degrees / 5 degrees/log = <<20/5=4>>4 logs
+#### 4"
+Math,1a,"Question: Savannah is wrapping presents for her friends and family for Christmas. She has bought 3 rolls of wrapping paper to wrap 12 gifts. If it takes 1 roll to wrap 3 gifts and 1 roll to wrap 5 other gifts, if there is no wrapping paper leftover after Savannah wraps the rest of the gifts, how many gifts did she wrap with the third roll of paper?
+Answer: Savannah has 12 gifts to give her friends and family and has already wrapped 3 gifts + 5 gifts = 8 gifts already wrapped with the first two rolls of paper.
+She started off with 12 gifts to wrap and has already wrapped 8, 12 - 8 = <<12-8=4>>4 gifts she wraps with the third roll of paper.
+#### 4
+Question: Pauline is buying school supplies. The total amount of all the items she wants to buy add up to $150 before sales tax. Sales tax is 8% of the total amount purchased. How much will Pauline spend on all the items, including sales tax?
+Answer: Sales tax is 8/100 x $150= $<<8/100*150=12>>12.
+Therefore, Pauline wil spend $150 + $12 = $<<150+12=162>>162, including sales tax.
+#### 162
+Question: Carson lives in an old house where the pipes will freeze if the temperature inside the house falls below 32 degrees. Every log of wood Carson burns heats the house up by 5 degrees. If it was 45 degrees during the day, and it's 33 degrees colder during the night compared to the day, how many logs does Carson need to burn to prevent the pipes from freezing?","Answer: At night, the temperature is 45 - 33 = 12 degrees.
+Carson needs to raise the temperature by 32 - 12 = 20 degrees to prevent the pipes from freezing.
+Therefore, Carson needs to burn 20 / 5 = <<20/5=4>>4 logs of wood to prevent the pipes from freezing. 
+#### 4","First find the night-time temperature: 45 degrees - 33 degrees = <<45-33=12>>12 degrees
+Then find how much Carson needs to heat his house to avoid the pipes freezing: 32 degrees - 12 degrees = <<32-12=20>>20 degrees
+Then divide the amount of heat Carson needs by the amount of heat each log produces: 20 degrees / 5 degrees/log = <<20/5=4>>4 logs
+#### 4"
+Math,1b,"Question: Luis is driving 80 miles in 2 hours. How far will he go in 15 minutes?
+Answer: Luis drives 80/2 = <<80/2=40>>40 miles in 1 hour.
+Since there are 60 minutes in 1 hour, then he drives 40/60 = 2/3 of a mile in 1 minute.
+So in 15 minutes, he will go 2/3 x 15 = <<2/3*15=10>>10 miles far.
+#### 10
+Question: Out of the 150 students, 60% are girls and the rest are boys. Only 1/3 of the boys joined varsity clubs. How many of the boys did not join varsity clubs?
+Answer: Out of the 150 students, 100% - 60% = 40% are boys.
+So, there are 150 x 40/100 = <<150*40/100=60>>60 boys.
+Out of the 60 boys, 60 x 1/3 = <<60*1/3=20>>20 joined varsity clubs.
+Therefore, 60 - 20 = <<60-20=40>>40 boys did not join varsity clubs.
+#### 40
+Question: Carson lives in an old house where the pipes will freeze if the temperature inside the house falls below 32 degrees. Every log of wood Carson burns heats the house up by 5 degrees. If it was 45 degrees during the day, and it's 33 degrees colder during the night compared to the day, how many logs does Carson need to burn to prevent the pipes from freezing?","Answer: Since it's 33 degrees colder at night compared to the day, then the temperature at night is 45 - 33 = 12 degrees.
+Carson needs to heat the house up to prevent the pipes from freezing, so he needs to increase the temperature by 32 - 12 = 20 degrees.
+Since burning one log of wood heats the house up by 5 degrees, Carson needs to burn 20 / 5 = <<20/5=4>>4 logs of wood.
+Therefore, Carson needs to burn 4 logs of wood to prevent the pipes from freezing.","First find the night-time temperature: 45 degrees - 33 degrees = <<45-33=12>>12 degrees
+Then find how much Carson needs to heat his house to avoid the pipes freezing: 32 degrees - 12 degrees = <<32-12=20>>20 degrees
+Then divide the amount of heat Carson needs by the amount of heat each log produces: 20 degrees / 5 degrees/log = <<20/5=4>>4 logs
+#### 4"
+Math,2,"Question: Savannah is wrapping presents for her friends and family for Christmas. She has bought 3 rolls of wrapping paper to wrap 12 gifts. If it takes 1 roll to wrap 3 gifts and 1 roll to wrap 5 other gifts, if there is no wrapping paper leftover after Savannah wraps the rest of the gifts, how many gifts did she wrap with the third roll of paper?
+Answer: Savannah has 12 gifts to give her friends and family and has already wrapped 3 gifts + 5 gifts = 8 gifts already wrapped with the first two rolls of paper.
+She started off with 12 gifts to wrap and has already wrapped 8, 12 - 8 = <<12-8=4>>4 gifts she wraps with the third roll of paper.
+#### 4
+Question: Pauline is buying school supplies. The total amount of all the items she wants to buy add up to $150 before sales tax. Sales tax is 8% of the total amount purchased. How much will Pauline spend on all the items, including sales tax?
+Answer: Sales tax is 8/100 x $150= $<<8/100*150=12>>12.
+Therefore, Pauline wil spend $150 + $12 = $<<150+12=162>>162, including sales tax.
+#### 162
+Question: Luis is driving 80 miles in 2 hours. How far will he go in 15 minutes?
+Answer: Luis drives 80/2 = <<80/2=40>>40 miles in 1 hour.
+Since there are 60 minutes in 1 hour, then he drives 40/60 = 2/3 of a mile in 1 minute.
+So in 15 minutes, he will go 2/3 x 15 = <<2/3*15=10>>10 miles far.
+#### 10
+Question: Out of the 150 students, 60% are girls and the rest are boys. Only 1/3 of the boys joined varsity clubs. How many of the boys did not join varsity clubs?
+Answer: Out of the 150 students, 100% - 60% = 40% are boys.
+So, there are 150 x 40/100 = <<150*40/100=60>>60 boys.
+Out of the 60 boys, 60 x 1/3 = <<60*1/3=20>>20 joined varsity clubs.
+Therefore, 60 - 20 = <<60-20=40>>40 boys did not join varsity clubs.
+#### 40
+Question: Carson lives in an old house where the pipes will freeze if the temperature inside the house falls below 32 degrees. Every log of wood Carson burns heats the house up by 5 degrees. If it was 45 degrees during the day, and it's 33 degrees colder during the night compared to the day, how many logs does Carson need to burn to prevent the pipes from freezing?","Answer: The temperature at night is 45 - 33 = 12 degrees.
+Carson needs to raise the temperature by 32 - 12 = 20 degrees to prevent the pipes from freezing.
+Therefore, Carson needs to burn 20 / 5 = <<20/5=4>>4 logs of wood to prevent the pipes from freezing. 
+#### 4","First find the night-time temperature: 45 degrees - 33 degrees = <<45-33=12>>12 degrees
+Then find how much Carson needs to heat his house to avoid the pipes freezing: 32 degrees - 12 degrees = <<32-12=20>>20 degrees
+Then divide the amount of heat Carson needs by the amount of heat each log produces: 20 degrees / 5 degrees/log = <<20/5=4>>4 logs
+#### 4"
+Math,3a,"Question: Savannah is wrapping presents for her friends and family for Christmas. She has bought 3 rolls of wrapping paper to wrap 12 gifts. If it takes 1 roll to wrap 3 gifts and 1 roll to wrap 5 other gifts, if there is no wrapping paper leftover after Savannah wraps the rest of the gifts, how many gifts did she wrap with the third roll of paper?
+Answer: Savannah has 12 gifts to give her friends and family and has already wrapped 3 gifts + 5 gifts = 8 gifts already wrapped with the first two rolls of paper.
+She started off with 12 gifts to wrap and has already wrapped 8, 12 - 8 = <<12-8=4>>4 gifts she wraps with the third roll of paper.
+#### 4
+Question: Pauline is buying school supplies. The total amount of all the items she wants to buy add up to $150 before sales tax. Sales tax is 8% of the total amount purchased. How much will Pauline spend on all the items, including sales tax?
+Answer: Sales tax is 8/100 x $150= $<<8/100*150=12>>12.
+Therefore, Pauline wil spend $150 + $12 = $<<150+12=162>>162, including sales tax.
+#### 162
+Question: Savannah is wrapping presents for her friends and family for Christmas. She has bought 3 rolls of wrapping paper to wrap 12 gifts. If it takes 1 roll to wrap 3 gifts and 1 roll to wrap 5 other gifts, if there is no wrapping paper leftover after Savannah wraps the rest of the gifts, how many gifts did she wrap with the third roll of paper?
+Answer: Savannah has 12 gifts to give her friends and family and has already wrapped 3 gifts + 5 gifts = 8 gifts already wrapped with the first two rolls of paper.
+She started off with 12 gifts to wrap and has already wrapped 8, 12 - 8 = <<12-8=4>>4 gifts she wraps with the third roll of paper.
+#### 4
+Question: Pauline is buying school supplies. The total amount of all the items she wants to buy add up to $150 before sales tax. Sales tax is 8% of the total amount purchased. How much will Pauline spend on all the items, including sales tax?
+Answer: Sales tax is 8/100 x $150= $<<8/100*150=12>>12.
+Therefore, Pauline wil spend $150 + $12 = $<<150+12=162>>162, including sales tax.
+#### 162
+Question: Carson lives in an old house where the pipes will freeze if the temperature inside the house falls below 32 degrees. Every log of wood Carson burns heats the house up by 5 degrees. If it was 45 degrees during the day, and it's 33 degrees colder during the night compared to the day, how many logs does Carson need to burn to prevent the pipes from freezing?","Answer: The temperature during the night is 45 - 33 = 12 degrees.
+Carson needs to raise the temperature by 32 - 12 = 20 degrees to prevent the pipes from freezing.
+Therefore, Carson needs to burn 20 / 5 = <<20/5=4>>4 logs of wood to prevent the pipes from freezing.","First find the night-time temperature: 45 degrees - 33 degrees = <<45-33=12>>12 degrees
+Then find how much Carson needs to heat his house to avoid the pipes freezing: 32 degrees - 12 degrees = <<32-12=20>>20 degrees
+Then divide the amount of heat Carson needs by the amount of heat each log produces: 20 degrees / 5 degrees/log = <<20/5=4>>4 logs
+#### 4"
+Math,3b,"Question: Luis is driving 80 miles in 2 hours. How far will he go in 15 minutes?
+Answer: Luis drives 80/2 = <<80/2=40>>40 miles in 1 hour.
+Since there are 60 minutes in 1 hour, then he drives 40/60 = 2/3 of a mile in 1 minute.
+So in 15 minutes, he will go 2/3 x 15 = <<2/3*15=10>>10 miles far.
+#### 10
+Question: Out of the 150 students, 60% are girls and the rest are boys. Only 1/3 of the boys joined varsity clubs. How many of the boys did not join varsity clubs?
+Answer: Out of the 150 students, 100% - 60% = 40% are boys.
+So, there are 150 x 40/100 = <<150*40/100=60>>60 boys.
+Out of the 60 boys, 60 x 1/3 = <<60*1/3=20>>20 joined varsity clubs.
+Therefore, 60 - 20 = <<60-20=40>>40 boys did not join varsity clubs.
+#### 40
+Question: Luis is driving 80 miles in 2 hours. How far will he go in 15 minutes?
+Answer: Luis drives 80/2 = <<80/2=40>>40 miles in 1 hour.
+Since there are 60 minutes in 1 hour, then he drives 40/60 = 2/3 of a mile in 1 minute.
+So in 15 minutes, he will go 2/3 x 15 = <<2/3*15=10>>10 miles far.
+#### 10
+Question: Out of the 150 students, 60% are girls and the rest are boys. Only 1/3 of the boys joined varsity clubs. How many of the boys did not join varsity clubs?
+Answer: Out of the 150 students, 100% - 60% = 40% are boys.
+So, there are 150 x 40/100 = <<150*40/100=60>>60 boys.
+Out of the 60 boys, 60 x 1/3 = <<60*1/3=20>>20 joined varsity clubs.
+Therefore, 60 - 20 = <<60-20=40>>40 boys did not join varsity clubs.
+#### 40
+Question: Carson lives in an old house where the pipes will freeze if the temperature inside the house falls below 32 degrees. Every log of wood Carson burns heats the house up by 5 degrees. If it was 45 degrees during the day, and it's 33 degrees colder during the night compared to the day, how many logs does Carson need to burn to prevent the pipes from freezing?","First, we need to determine the nighttime temperature. If it was 45 degrees during the day and 33 degrees colder at night, the nighttime temperature is 45 - 33 = 12 degrees.
+
+Carson needs the temperature inside the house to be above 32 degrees to prevent the pipes from freezing. Since the nighttime temperature is 12 degrees, the temperature needs to be raised by 32 - 12 = 20 degrees.
+
+Since each log of wood raises the temperature by 5 degrees, Carson needs to burn 20 / 5 = <<20/5=4>>4 logs of wood to prevent the pipes from freezing.","First find the night-time temperature: 45 degrees - 33 degrees = <<45-33=12>>12 degrees
+Then find how much Carson needs to heat his house to avoid the pipes freezing: 32 degrees - 12 degrees = <<32-12=20>>20 degrees
+Then divide the amount of heat Carson needs by the amount of heat each log produces: 20 degrees / 5 degrees/log = <<20/5=4>>4 logs
+#### 4"
+CSQA,0,"Question: To locate a choker not located in a jewelry box or boutique where would you go?
+A: jewelry store
+B: neck
+C: jewlery box
+D: jewelry box
+E: boutique","B: neck
+
+There may be a chance that the choker is already around someone's neck, so you would go to the person's neck to locate it.",A
+CSQA,1a,"Question: The keyboard instrument took great talent, but he just looked goofy playing it onstage next to the drums and guitar as part of the what?
+A: orchestra
+B: music store
+C: band
+D: eating
+E: piano store
+Answer: C
+Question: To become great at fiddling you need lots of?
+A: knowledge of music
+B: skill
+C: candy
+D: dexterity
+E: practice
+Answer: E
+Question: To locate a choker not located in a jewelry box or boutique where would you go?
+A: jewelry store
+B: neck
+C: jewlery box
+D: jewelry box
+E: boutique",Answer: B,A
+CSQA,1b,"Question: Where is the ticket booth often outside the building?
+A: train station
+B: stadium
+C: auditorium
+D: subway
+E: venue
+Answer: C
+Question: The champagne was good, it was both sweet and what?
+A: bitter
+B: decaying
+C: spicy
+D: sour
+E: dry
+Answer: E
+Question: To locate a choker not located in a jewelry box or boutique where would you go?
+A: jewelry store
+B: neck
+C: jewlery box
+D: jewelry box
+E: boutique",Answer: B,A
+CSQA,2,"Question: The keyboard instrument took great talent, but he just looked goofy playing it onstage next to the drums and guitar as part of the what?
+A: orchestra
+B: music store
+C: band
+D: eating
+E: piano store
+Answer: C
+Question: To become great at fiddling you need lots of?
+A: knowledge of music
+B: skill
+C: candy
+D: dexterity
+E: practice
+Answer: E
+Question: Where is the ticket booth often outside the building?
+A: train station
+B: stadium
+C: auditorium
+D: subway
+E: venue
+Answer: C
+Question: The champagne was good, it was both sweet and what?
+A: bitter
+B: decaying
+C: spicy
+D: sour
+E: dry
+Answer: E
+Question: To locate a choker not located in a jewelry box or boutique where would you go?
+A: jewelry store
+B: neck
+C: jewlery box
+D: jewelry box
+E: boutique",Answer: B,A
+CSQA,3a,"Question: The keyboard instrument took great talent, but he just looked goofy playing it onstage next to the drums and guitar as part of the what?
+A: orchestra
+B: music store
+C: band
+D: eating
+E: piano store
+Answer: C
+Question: To become great at fiddling you need lots of?
+A: knowledge of music
+B: skill
+C: candy
+D: dexterity
+E: practice
+Answer: E
+Question: The keyboard instrument took great talent, but he just looked goofy playing it onstage next to the drums and guitar as part of the what?
+A: orchestra
+B: music store
+C: band
+D: eating
+E: piano store
+Answer: C
+Question: To become great at fiddling you need lots of?
+A: knowledge of music
+B: skill
+C: candy
+D: dexterity
+E: practice
+Answer: E
+Question: To locate a choker not located in a jewelry box or boutique where would you go?
+A: jewelry store
+B: neck
+C: jewlery box
+D: jewelry box
+E: boutique",Answer: B,A
+CSQA,3b,"Question: Where is the ticket booth often outside the building?
+A: train station
+B: stadium
+C: auditorium
+D: subway
+E: venue
+Answer: C
+Question: The champagne was good, it was both sweet and what?
+A: bitter
+B: decaying
+C: spicy
+D: sour
+E: dry
+Answer: E
+Question: Where is the ticket booth often outside the building?
+A: train station
+B: stadium
+C: auditorium
+D: subway
+E: venue
+Answer: C
+Question: The champagne was good, it was both sweet and what?
+A: bitter
+B: decaying
+C: spicy
+D: sour
+E: dry
+Answer: E
+Question: To locate a choker not located in a jewelry box or boutique where would you go?
+A: jewelry store
+B: neck
+C: jewlery box
+D: jewelry box
+E: boutique",Answer: B,A
+StrategyQA,0,"Question: Julia Roberts played the clarinet in her school band. Blast beats are a drum beat that originated in hardcore punk and grindcore, and is often associated with certain styles of extreme metal, namely black metal and death metal.
+Did Julia Roberts practice blast beats as a child?","It is highly unlikely that Julia Roberts practiced blast beats as a child, as blast beats are a complex and aggressive drumming technique that is not commonly taught in school band programs. Additionally, blast beats are typically associated with extreme metal genres, which are very different from the music that would typically be played in a school band.",False
+StrategyQA,1a,"Question: Shrimp scampi is a dish made with shrimp. Shrimp have been found to contain microplastics. Microplastics are plastic material.
+Is shrimp scampi definitely free of plastic?
+Answer: False
+Question: The Jackson 5 was composed of: Jackie, Tito, Jermaine, Marlon and Michael. The Osmonds consisted of:  Alan, Wayne, Merrill, Jay and Donny.
+Did Jackson 5 members exceed number in The Osmonds?
+Answer: False
+Question: Julia Roberts played the clarinet in her school band. Blast beats are a drum beat that originated in hardcore punk and grindcore, and is often associated with certain styles of extreme metal, namely black metal and death metal.
+Did Julia Roberts practice blast beats as a child?",False,False
+StrategyQA,1b,"Question: It was believed that computers might not know how to change from 1999 to 2000 on New Years Day. People were concerned that human services and utilities that were computerized might crash due to the Y2K bug. People believed that the year 2000 would cause computers to crash due to the 'Y2K' bug.
+Were some people afraid of New Years Day coming in 1999?
+Answer: True
+Question: Jamie Brewer is a famous actress with down syndrome. Individuals with down syndrome are disqualified from military service.
+Could Jamie Brewer have attended the United States Naval Academy?
+Answer: False
+Question: Julia Roberts played the clarinet in her school band. Blast beats are a drum beat that originated in hardcore punk and grindcore, and is often associated with certain styles of extreme metal, namely black metal and death metal.
+Did Julia Roberts practice blast beats as a child?",Answer: False,False
+StrategyQA,2,"Question: Shrimp scampi is a dish made with shrimp. Shrimp have been found to contain microplastics. Microplastics are plastic material.
+Is shrimp scampi definitely free of plastic?
+Answer: False
+Question: The Jackson 5 was composed of: Jackie, Tito, Jermaine, Marlon and Michael. The Osmonds consisted of:  Alan, Wayne, Merrill, Jay and Donny.
+Did Jackson 5 members exceed number in The Osmonds?
+Answer: False
+Question: It was believed that computers might not know how to change from 1999 to 2000 on New Years Day. People were concerned that human services and utilities that were computerized might crash due to the Y2K bug. People believed that the year 2000 would cause computers to crash due to the 'Y2K' bug.
+Were some people afraid of New Years Day coming in 1999?
+Answer: True
+Question: Jamie Brewer is a famous actress with down syndrome. Individuals with down syndrome are disqualified from military service.
+Could Jamie Brewer have attended the United States Naval Academy?
+Answer: False
+Question: Julia Roberts played the clarinet in her school band. Blast beats are a drum beat that originated in hardcore punk and grindcore, and is often associated with certain styles of extreme metal, namely black metal and death metal.
+Did Julia Roberts practice blast beats as a child?",Answer: False,False
+StrategyQA,3a,"Question: Shrimp scampi is a dish made with shrimp. Shrimp have been found to contain microplastics. Microplastics are plastic material.
+Is shrimp scampi definitely free of plastic?
+Answer: False
+Question: The Jackson 5 was composed of: Jackie, Tito, Jermaine, Marlon and Michael. The Osmonds consisted of:  Alan, Wayne, Merrill, Jay and Donny.
+Did Jackson 5 members exceed number in The Osmonds?
+Answer: False
+Question: Shrimp scampi is a dish made with shrimp. Shrimp have been found to contain microplastics. Microplastics are plastic material.
+Is shrimp scampi definitely free of plastic?
+Answer: False
+Question: The Jackson 5 was composed of: Jackie, Tito, Jermaine, Marlon and Michael. The Osmonds consisted of:  Alan, Wayne, Merrill, Jay and Donny.
+Did Jackson 5 members exceed number in The Osmonds?
+Answer: False
+Question: Julia Roberts played the clarinet in her school band. Blast beats are a drum beat that originated in hardcore punk and grindcore, and is often associated with certain styles of extreme metal, namely black metal and death metal.
+Did Julia Roberts practice blast beats as a child?",Answer: False,False
+StrategyQA,3b,"Question: It was believed that computers might not know how to change from 1999 to 2000 on New Years Day. People were concerned that human services and utilities that were computerized might crash due to the Y2K bug. People believed that the year 2000 would cause computers to crash due to the 'Y2K' bug.
+Were some people afraid of New Years Day coming in 1999?
+Answer: True
+Question: Jamie Brewer is a famous actress with down syndrome. Individuals with down syndrome are disqualified from military service.
+Could Jamie Brewer have attended the United States Naval Academy?
+Answer: False
+Question: It was believed that computers might not know how to change from 1999 to 2000 on New Years Day. People were concerned that human services and utilities that were computerized might crash due to the Y2K bug. People believed that the year 2000 would cause computers to crash due to the 'Y2K' bug.
+Were some people afraid of New Years Day coming in 1999?
+Answer: True
+Question: Jamie Brewer is a famous actress with down syndrome. Individuals with down syndrome are disqualified from military service.
+Could Jamie Brewer have attended the United States Naval Academy?
+Answer: False
+Question: Julia Roberts played the clarinet in her school band. Blast beats are a drum beat that originated in hardcore punk and grindcore, and is often associated with certain styles of extreme metal, namely black metal and death metal.
+Did Julia Roberts practice blast beats as a child?",Answer: False,False
+SayCan,0,Question: Provide step-by-step instructions for the following task: Could you get me something caffeinated?,"1. Decide what kind of caffeinated beverage you want - coffee, tea, energy drink, etc.
+
+2. If you are making it at home, gather the necessary ingredients and equipment. If you are ordering it from a coffee shop or store, determine where you want to go.
+
+3. If you are making coffee, start by measuring out the desired amount of coffee grounds and water. If you are making tea, choose your preferred tea bag or loose-leaf tea.
+
+4. Brew the coffee or tea according to the instructions. If you are making an energy drink, simply open the can or bottle.
+
+5. If you are ordering from a store or coffee shop, go to the establishment and order your desired caffeinated beverage. Be sure to specify any customizations or preferences you may have.
+
+6. Pay for your drink if necessary.
+
+7. Once you have your caffeinated beverage, enjoy and savor the energy boost!","1. find a pepsi, 2. pick up the pepsi, 3. bring it to you, 4. put down the pepsi, 5. done"
+SayCan,1a,"Question: Provide step-by-step instructions for the following task: Can you bring me something salty?
+Answer: 1. find the sea salt chips, 2. pick up the sea salt chips, 3. bring it to you, 4. put down the sea salt chips, 5. done
+Question: Provide step-by-step instructions for the following task: Can you bring me a salty snack?
+Answer: 1. find a sea salt chips, 2. pick up the sea salt chips, 3. bring it to you, 4. put down the sea salt chips, 5. done.
+Question: Provide step-by-step instructions for the following task: Could you get me something caffeinated?","Answer: 1. Locate the coffee machine or energy drink, 2. Prepare a cup of coffee or open the energy drink, 3. Bring it to you, 4. Hand it to you, 5. done.","1. find a pepsi, 2. pick up the pepsi, 3. bring it to you, 4. put down the pepsi, 5. done"
+SayCan,1b,"Question: Provide step-by-step instructions for the following task: Can you bring all the snacks on the table?
+Answer: 1. go to the table, 2. pick up the energy bar, 3. bring it to you, 4. put down the energy bar, 5. go to the table, 6. pick up the multigrain chips, 7. bring it to you, 8. put down the multigrain chips, 9. go to the table, 10. done.
+Question: Provide step-by-step instructions for the following task: Throw away all the fruits on the table.
+Answer: 1. go to the table, 2. pick up the apple, 3. go to the trash, 4. put down the apple, 5. go to the table, 6. pick up the orange, 7. go to the trash, 8. put down the orange, 9. done
+Question: Provide step-by-step instructions for the following task: Could you get me something caffeinated?","Answer: 1. Go to the kitchen or pantry, 2. Open the cabinet or refrigerator where caffeinated beverages are stored, 3. Choose a caffeinated beverage such as coffee, tea, or soda, 4. Take the chosen beverage out of the cabinet or refrigerator, 5. Bring the beverage to the person requesting it, 6. Give the beverage to the person, 7. Done.","1. find a pepsi, 2. pick up the pepsi, 3. bring it to you, 4. put down the pepsi, 5. done"
+SayCan,2,"Question: Provide step-by-step instructions for the following task: Can you bring me something salty?
+Answer: 1. find the sea salt chips, 2. pick up the sea salt chips, 3. bring it to you, 4. put down the sea salt chips, 5. done
+Question: Provide step-by-step instructions for the following task: Can you bring me a salty snack?
+Answer: 1. find a sea salt chips, 2. pick up the sea salt chips, 3. bring it to you, 4. put down the sea salt chips, 5. done.
+Question: Provide step-by-step instructions for the following task: Can you bring all the snacks on the table?
+Answer: 1. go to the table, 2. pick up the energy bar, 3. bring it to you, 4. put down the energy bar, 5. go to the table, 6. pick up the multigrain chips, 7. bring it to you, 8. put down the multigrain chips, 9. go to the table, 10. done.
+Question: Provide step-by-step instructions for the following task: Throw away all the fruits on the table.
+Answer: 1. go to the table, 2. pick up the apple, 3. go to the trash, 4. put down the apple, 5. go to the table, 6. pick up the orange, 7. go to the trash, 8. put down the orange, 9. done
+Question: Provide step-by-step instructions for the following task: Could you get me something caffeinated?","Answer: 1. go to the kitchen, 2. open the pantry, 3. find the coffee beans, 4. grind the coffee beans, 5. brew a cup of coffee, 6. bring it to you, 7. put down the coffee cup, 8. done","1. find a pepsi, 2. pick up the pepsi, 3. bring it to you, 4. put down the pepsi, 5. done"
+SayCan,3a,"Question: Provide step-by-step instructions for the following task: Can you bring me something salty?
+Answer: 1. find the sea salt chips, 2. pick up the sea salt chips, 3. bring it to you, 4. put down the sea salt chips, 5. done
+Question: Provide step-by-step instructions for the following task: Can you bring me a salty snack?
+Answer: 1. find a sea salt chips, 2. pick up the sea salt chips, 3. bring it to you, 4. put down the sea salt chips, 5. done.
+Question: Provide step-by-step instructions for the following task: Can you bring me something salty?
+Answer: 1. find the sea salt chips, 2. pick up the sea salt chips, 3. bring it to you, 4. put down the sea salt chips, 5. done
+Question: Provide step-by-step instructions for the following task: Can you bring me a salty snack?
+Answer: 1. find a sea salt chips, 2. pick up the sea salt chips, 3. bring it to you, 4. put down the sea salt chips, 5. done.
+Question: Provide step-by-step instructions for the following task: Could you get me something caffeinated?","Answer: 1. Look for a caffeinated beverage such as coffee or energy drink, 2. Grab the caffeinated beverage, 3. Bring it to you, 4. Place the beverage down in front of you, 5. Done.","1. find a pepsi, 2. pick up the pepsi, 3. bring it to you, 4. put down the pepsi, 5. done"
+SayCan,3b,"Question: Provide step-by-step instructions for the following task: Can you bring all the snacks on the table?
+Answer: 1. go to the table, 2. pick up the energy bar, 3. bring it to you, 4. put down the energy bar, 5. go to the table, 6. pick up the multigrain chips, 7. bring it to you, 8. put down the multigrain chips, 9. go to the table, 10. done.
+Question: Provide step-by-step instructions for the following task: Throw away all the fruits on the table.
+Answer: 1. go to the table, 2. pick up the apple, 3. go to the trash, 4. put down the apple, 5. go to the table, 6. pick up the orange, 7. go to the trash, 8. put down the orange, 9. done
+Question: Provide step-by-step instructions for the following task: Can you bring all the snacks on the table?
+Answer: 1. go to the table, 2. pick up the energy bar, 3. bring it to you, 4. put down the energy bar, 5. go to the table, 6. pick up the multigrain chips, 7. bring it to you, 8. put down the multigrain chips, 9. go to the table, 10. done.
+Question: Provide step-by-step instructions for the following task: Throw away all the fruits on the table.
+Answer: 1. go to the table, 2. pick up the apple, 3. go to the trash, 4. put down the apple, 5. go to the table, 6. pick up the orange, 7. go to the trash, 8. put down the orange, 9. done
+Question: Provide step-by-step instructions for the following task: Could you get me something caffeinated?","Answer: 1. Go to the kitchen or pantry, 2. Look for coffee, tea, or any other caffeinated beverage, 3. Take out the chosen caffeinated beverage, 4. Bring it to the person requesting it, 5. Serve the caffeinated beverage, 6. Done.","1. find a pepsi, 2. pick up the pepsi, 3. bring it to you, 4. put down the pepsi, 5. done"

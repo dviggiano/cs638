@@ -1,0 +1,429 @@
+Task Class,Case,Prompt,Response,Expected
+Math,0,"Question: Well's mother sells watermelons, peppers, and oranges at the local store. A watermelon costs three times what each pepper costs. An orange costs 5 less than what a watermelon cost. Dillon is sent to the store to buy 4 watermelons, 20 peppers, and 10 oranges. What's the total amount of money he will spend if each pepper costs 15$?","First, we need to determine the costs of each fruit.
+
+Let x be the cost of each pepper.
+Then a watermelon costs 3x.
+An orange costs (3x - 5).
+
+Given that each pepper costs $15, x = 15.
+
+So, a watermelon costs 3 * 15 = 45.
+An orange costs 45 - 5 = 40.
+
+Now, calculate the total amount of money Dillon will spend:
+
+4 watermelons * 45 = $180
+20 peppers * 15 = $300
+10 oranges * 40 = $400
+
+Therefore, Dillon will spend $180 + $300 + $400 = $880 in total.","A watermelon costs three times what pepper costs, which is 3 * 15 = $<<3*15=45>>45.
+An orange price is 45 - 5= $<<45-5=40>>40.
+Dillon buys four watermelons at a total cost of 45 * 4 = $<<45*4=180>>180.
+He also purchases peppers at a total price of 20 * 15 = $<<20*15=300>>300.
+The oranges cost him a total of 10 * 40 = $<<10*40=400>>400.
+He used a total of 400 + 300 + 180 = $<<400+300+180=880>>880.
+#### 880"
+Math,1a,"Question: Andy is checking to see if all the cars in the parking lot paid for their parking. 75% of the cars have valid tickets, and 1/5th that number have permanent parking passes. If there are 300 cars in the parking lot, how many people tried to park in the lot without paying?
+Answer: First find how many cars have valid tickets: 75% * 300 cars = <<75*.01*300=225>>225 cars
+Then find the percentage of cars with parking passes: 75% / 5 = 15%
+Then multiply that number by the total number of cars to find the number with parking passes: 15% * 300 cars = <<15*.01*300=45>>45 cars
+Then subtract all the cars with valid forms of parking to find the number parked illegally: 300 cars - 225 cars - 45 cars = <<300-225-45=30>>30 cars
+#### 30
+Question: Nancy replaced all of the old vinyl tiles in her bathroom with new hardwood flooring.  She replaced flooring in two areas of the bathroom: a 10 foot by 10 foot central area, and a 6 foot by 4 foot hallway.  How many square feet of hardwood flooring did Nancy install in her bathroom?
+Answer: 10 feet by 10 feet central area is 10*10=<<10*10=100>>100 square feet of space.
+6 feet by 4 feet hallway is 4*6-24 square feet of space.
+Combined, the two areas where she replaced flooring contain 100+24=<<100+24=124>>124 square feet of space.
+#### 124
+Question: Well's mother sells watermelons, peppers, and oranges at the local store. A watermelon costs three times what each pepper costs. An orange costs 5 less than what a watermelon cost. Dillon is sent to the store to buy 4 watermelons, 20 peppers, and 10 oranges. What's the total amount of money he will spend if each pepper costs 15$?","First, we need to find the cost of a watermelon. Since a watermelon costs three times what each pepper costs and each pepper costs $15, the watermelon costs 3*15 = $45.
+
+Next, we need to find the cost of an orange. Since an orange costs 5 less than what a watermelon costs and a watermelon costs $45, an orange costs $45 - 5 = $40.
+
+Dillon is buying 4 watermelons at $45 each, which will cost 4*45 = $180.
+He is also buying 20 peppers at $15 each, which will cost 20*15 = $300.
+And he is buying 10 oranges at $40 each, which will cost 10*40 = $400.
+
+Therefore, the total amount of money Dillon will spend is 180 + 300 + 400 = $880.","A watermelon costs three times what pepper costs, which is 3 * 15 = $<<3*15=45>>45.
+An orange price is 45 - 5= $<<45-5=40>>40.
+Dillon buys four watermelons at a total cost of 45 * 4 = $<<45*4=180>>180.
+He also purchases peppers at a total price of 20 * 15 = $<<20*15=300>>300.
+The oranges cost him a total of 10 * 40 = $<<10*40=400>>400.
+He used a total of 400 + 300 + 180 = $<<400+300+180=880>>880.
+#### 880"
+Math,1b,"Question: Belle eats 4 dog biscuits and 2 rawhide bones every evening. If each rawhide bone is $1, and each dog biscuit is $0.25, then how much does it cost, in dollars, to feed Belle these treats for a week?
+Answer: A week's worth of rawhide bones cost 1*2*7=<<1*2*7=14>>14 dollars.
+A week's worth of dog biscuits cost 0.25*4*7=<<0.25*4*7=7>>7 dollars,
+Thus, in total, it cost 14+7=<<14+7=21>>21 dollars
+#### 21
+Question: How many apples did two men and three women buy at a certain store if the two men each bought 30 apples, 20 less than the number of apples bought by each woman?
+Answer: If the two men each bought 30 apples, together they bought 2*30 = <<2*30=60>>60 apples.
+Since the two men each bought 30 apples, 20 less than the total number of apples bought by each woman, each woman bought 20+30 = <<20+30=50>>50 apples.
+The total number of apples bought by the women is 3*50 = <<3*50=150>>150
+Altogether, the two men and three women bought 60+150 = <<60+150=210>>210 apples.
+#### 210
+Question: Well's mother sells watermelons, peppers, and oranges at the local store. A watermelon costs three times what each pepper costs. An orange costs 5 less than what a watermelon cost. Dillon is sent to the store to buy 4 watermelons, 20 peppers, and 10 oranges. What's the total amount of money he will spend if each pepper costs 15$?","To find out how much each watermelon costs, we know that a watermelon costs three times what each pepper costs. Since each pepper costs $15, a watermelon costs 3*15 = $45.
+
+An orange costs 5 less than what a watermelon costs, so an orange costs $45 - $5 = $40.
+
+Dillon is sent to the store to buy 4 watermelons, 20 peppers, and 10 oranges. The total cost of the watermelons is 4 * $45 = $180.
+The total cost of the peppers is 20 * $15 = $300.
+The total cost of the oranges is 10 * $40 = $400.
+
+Therefore, the total amount of money Dillon will spend is $180 + $300 + $400 = $880.","A watermelon costs three times what pepper costs, which is 3 * 15 = $<<3*15=45>>45.
+An orange price is 45 - 5= $<<45-5=40>>40.
+Dillon buys four watermelons at a total cost of 45 * 4 = $<<45*4=180>>180.
+He also purchases peppers at a total price of 20 * 15 = $<<20*15=300>>300.
+The oranges cost him a total of 10 * 40 = $<<10*40=400>>400.
+He used a total of 400 + 300 + 180 = $<<400+300+180=880>>880.
+#### 880"
+Math,2,"Question: Andy is checking to see if all the cars in the parking lot paid for their parking. 75% of the cars have valid tickets, and 1/5th that number have permanent parking passes. If there are 300 cars in the parking lot, how many people tried to park in the lot without paying?
+Answer: First find how many cars have valid tickets: 75% * 300 cars = <<75*.01*300=225>>225 cars
+Then find the percentage of cars with parking passes: 75% / 5 = 15%
+Then multiply that number by the total number of cars to find the number with parking passes: 15% * 300 cars = <<15*.01*300=45>>45 cars
+Then subtract all the cars with valid forms of parking to find the number parked illegally: 300 cars - 225 cars - 45 cars = <<300-225-45=30>>30 cars
+#### 30
+Question: Nancy replaced all of the old vinyl tiles in her bathroom with new hardwood flooring.  She replaced flooring in two areas of the bathroom: a 10 foot by 10 foot central area, and a 6 foot by 4 foot hallway.  How many square feet of hardwood flooring did Nancy install in her bathroom?
+Answer: 10 feet by 10 feet central area is 10*10=<<10*10=100>>100 square feet of space.
+6 feet by 4 feet hallway is 4*6-24 square feet of space.
+Combined, the two areas where she replaced flooring contain 100+24=<<100+24=124>>124 square feet of space.
+#### 124
+Question: Belle eats 4 dog biscuits and 2 rawhide bones every evening. If each rawhide bone is $1, and each dog biscuit is $0.25, then how much does it cost, in dollars, to feed Belle these treats for a week?
+Answer: A week's worth of rawhide bones cost 1*2*7=<<1*2*7=14>>14 dollars.
+A week's worth of dog biscuits cost 0.25*4*7=<<0.25*4*7=7>>7 dollars,
+Thus, in total, it cost 14+7=<<14+7=21>>21 dollars
+#### 21
+Question: How many apples did two men and three women buy at a certain store if the two men each bought 30 apples, 20 less than the number of apples bought by each woman?
+Answer: If the two men each bought 30 apples, together they bought 2*30 = <<2*30=60>>60 apples.
+Since the two men each bought 30 apples, 20 less than the total number of apples bought by each woman, each woman bought 20+30 = <<20+30=50>>50 apples.
+The total number of apples bought by the women is 3*50 = <<3*50=150>>150
+Altogether, the two men and three women bought 60+150 = <<60+150=210>>210 apples.
+#### 210
+Question: Well's mother sells watermelons, peppers, and oranges at the local store. A watermelon costs three times what each pepper costs. An orange costs 5 less than what a watermelon cost. Dillon is sent to the store to buy 4 watermelons, 20 peppers, and 10 oranges. What's the total amount of money he will spend if each pepper costs 15$?","Answer: Since each pepper costs $15, then 4 watermelons would cost 3*$15*4 = $180.
+Each orange costs 5 less than what a watermelon costs, so each orange costs $45 - $5 = $40.
+10 oranges would cost 10*$40 = $400.
+20 peppers would cost 20*$15 = $300.
+So, in total, Dillon would spend $180 + $400 + $300 = $880.","A watermelon costs three times what pepper costs, which is 3 * 15 = $<<3*15=45>>45.
+An orange price is 45 - 5= $<<45-5=40>>40.
+Dillon buys four watermelons at a total cost of 45 * 4 = $<<45*4=180>>180.
+He also purchases peppers at a total price of 20 * 15 = $<<20*15=300>>300.
+The oranges cost him a total of 10 * 40 = $<<10*40=400>>400.
+He used a total of 400 + 300 + 180 = $<<400+300+180=880>>880.
+#### 880"
+Math,3a,"Question: Andy is checking to see if all the cars in the parking lot paid for their parking. 75% of the cars have valid tickets, and 1/5th that number have permanent parking passes. If there are 300 cars in the parking lot, how many people tried to park in the lot without paying?
+Answer: First find how many cars have valid tickets: 75% * 300 cars = <<75*.01*300=225>>225 cars
+Then find the percentage of cars with parking passes: 75% / 5 = 15%
+Then multiply that number by the total number of cars to find the number with parking passes: 15% * 300 cars = <<15*.01*300=45>>45 cars
+Then subtract all the cars with valid forms of parking to find the number parked illegally: 300 cars - 225 cars - 45 cars = <<300-225-45=30>>30 cars
+#### 30
+Question: Nancy replaced all of the old vinyl tiles in her bathroom with new hardwood flooring.  She replaced flooring in two areas of the bathroom: a 10 foot by 10 foot central area, and a 6 foot by 4 foot hallway.  How many square feet of hardwood flooring did Nancy install in her bathroom?
+Answer: 10 feet by 10 feet central area is 10*10=<<10*10=100>>100 square feet of space.
+6 feet by 4 feet hallway is 4*6-24 square feet of space.
+Combined, the two areas where she replaced flooring contain 100+24=<<100+24=124>>124 square feet of space.
+#### 124
+Question: Andy is checking to see if all the cars in the parking lot paid for their parking. 75% of the cars have valid tickets, and 1/5th that number have permanent parking passes. If there are 300 cars in the parking lot, how many people tried to park in the lot without paying?
+Answer: First find how many cars have valid tickets: 75% * 300 cars = <<75*.01*300=225>>225 cars
+Then find the percentage of cars with parking passes: 75% / 5 = 15%
+Then multiply that number by the total number of cars to find the number with parking passes: 15% * 300 cars = <<15*.01*300=45>>45 cars
+Then subtract all the cars with valid forms of parking to find the number parked illegally: 300 cars - 225 cars - 45 cars = <<300-225-45=30>>30 cars
+#### 30
+Question: Nancy replaced all of the old vinyl tiles in her bathroom with new hardwood flooring.  She replaced flooring in two areas of the bathroom: a 10 foot by 10 foot central area, and a 6 foot by 4 foot hallway.  How many square feet of hardwood flooring did Nancy install in her bathroom?
+Answer: 10 feet by 10 feet central area is 10*10=<<10*10=100>>100 square feet of space.
+6 feet by 4 feet hallway is 4*6-24 square feet of space.
+Combined, the two areas where she replaced flooring contain 100+24=<<100+24=124>>124 square feet of space.
+#### 124
+Question: Well's mother sells watermelons, peppers, and oranges at the local store. A watermelon costs three times what each pepper costs. An orange costs 5 less than what a watermelon cost. Dillon is sent to the store to buy 4 watermelons, 20 peppers, and 10 oranges. What's the total amount of money he will spend if each pepper costs 15$?","First, we need to find the cost of a watermelon. Since a watermelon costs three times what a pepper costs, and each pepper costs $15, a watermelon costs 3 * 15 = $45.
+Next, we need to find the cost of an orange. An orange costs $5 less than what a watermelon costs, so an orange costs $45 - $5 = $40.
+Now, we can calculate the total cost of 4 watermelons, which is 4 * $45 = $180.
+The total cost of 20 peppers is 20 * $15 = $300.
+And the total cost of 10 oranges is 10 * $40 = $400.
+Therefore, the total amount Dillon will spend is $180 + $300 + $400 = $880.","A watermelon costs three times what pepper costs, which is 3 * 15 = $<<3*15=45>>45.
+An orange price is 45 - 5= $<<45-5=40>>40.
+Dillon buys four watermelons at a total cost of 45 * 4 = $<<45*4=180>>180.
+He also purchases peppers at a total price of 20 * 15 = $<<20*15=300>>300.
+The oranges cost him a total of 10 * 40 = $<<10*40=400>>400.
+He used a total of 400 + 300 + 180 = $<<400+300+180=880>>880.
+#### 880"
+Math,3b,"Question: Belle eats 4 dog biscuits and 2 rawhide bones every evening. If each rawhide bone is $1, and each dog biscuit is $0.25, then how much does it cost, in dollars, to feed Belle these treats for a week?
+Answer: A week's worth of rawhide bones cost 1*2*7=<<1*2*7=14>>14 dollars.
+A week's worth of dog biscuits cost 0.25*4*7=<<0.25*4*7=7>>7 dollars,
+Thus, in total, it cost 14+7=<<14+7=21>>21 dollars
+#### 21
+Question: How many apples did two men and three women buy at a certain store if the two men each bought 30 apples, 20 less than the number of apples bought by each woman?
+Answer: If the two men each bought 30 apples, together they bought 2*30 = <<2*30=60>>60 apples.
+Since the two men each bought 30 apples, 20 less than the total number of apples bought by each woman, each woman bought 20+30 = <<20+30=50>>50 apples.
+The total number of apples bought by the women is 3*50 = <<3*50=150>>150
+Altogether, the two men and three women bought 60+150 = <<60+150=210>>210 apples.
+#### 210
+Question: Belle eats 4 dog biscuits and 2 rawhide bones every evening. If each rawhide bone is $1, and each dog biscuit is $0.25, then how much does it cost, in dollars, to feed Belle these treats for a week?
+Answer: A week's worth of rawhide bones cost 1*2*7=<<1*2*7=14>>14 dollars.
+A week's worth of dog biscuits cost 0.25*4*7=<<0.25*4*7=7>>7 dollars,
+Thus, in total, it cost 14+7=<<14+7=21>>21 dollars
+#### 21
+Question: How many apples did two men and three women buy at a certain store if the two men each bought 30 apples, 20 less than the number of apples bought by each woman?
+Answer: If the two men each bought 30 apples, together they bought 2*30 = <<2*30=60>>60 apples.
+Since the two men each bought 30 apples, 20 less than the total number of apples bought by each woman, each woman bought 20+30 = <<20+30=50>>50 apples.
+The total number of apples bought by the women is 3*50 = <<3*50=150>>150
+Altogether, the two men and three women bought 60+150 = <<60+150=210>>210 apples.
+#### 210
+Question: Well's mother sells watermelons, peppers, and oranges at the local store. A watermelon costs three times what each pepper costs. An orange costs 5 less than what a watermelon cost. Dillon is sent to the store to buy 4 watermelons, 20 peppers, and 10 oranges. What's the total amount of money he will spend if each pepper costs 15$?","Answer: Since each pepper costs 15$, then 4 watermelons cost 15*3*4 = 180$
+Each orange costs 180-5 = 175$
+Dillon will spend 180*4 + 15*20 + 175*10 = 720 + 300 + 1750 = 2770$
+Therefore, Dillon will spend a total of 2770$ in the store.","A watermelon costs three times what pepper costs, which is 3 * 15 = $<<3*15=45>>45.
+An orange price is 45 - 5= $<<45-5=40>>40.
+Dillon buys four watermelons at a total cost of 45 * 4 = $<<45*4=180>>180.
+He also purchases peppers at a total price of 20 * 15 = $<<20*15=300>>300.
+The oranges cost him a total of 10 * 40 = $<<10*40=400>>400.
+He used a total of 400 + 300 + 180 = $<<400+300+180=880>>880.
+#### 880"
+CSQA,0,"Question: What kind of place could have a seafood restaurant?
+A: new york
+B: coastal cities
+C: city
+D: coastal cities
+E: boston","D: coastal cities
+
+Seafood restaurants are typically found in coastal cities or regions with access to fresh seafood. These locations often have a strong fishing industry and a tradition of seafood cuisine.",C
+CSQA,1a,"Question: When you drive you may have to stop if someone is doing what?
+A: while driving
+B: check mirrors
+C: walking
+D: stop
+E: passenger
+Answer: C
+Question: Many containers full of goods are unloaded where after their long sea journey
+A: port
+B: cargo ship
+C: refrigerator
+D: food
+E: lorry
+Answer: A
+Question: What kind of place could have a seafood restaurant?
+A: new york
+B: coastal cities
+C: city
+D: coastal cities
+E: boston",Answer: D,C
+CSQA,1b,"Question: What is a corrupt government likely to lead to?
+A: civilization
+B: money
+C: city
+D: control
+E: trouble
+Answer: E
+Question: The guy was going to bed instead of going to work, what does he suffer from?
+A: money
+B: making love
+C: laziness
+D: dreaming of
+E: falling asleep
+Answer: C
+Question: What kind of place could have a seafood restaurant?
+A: new york
+B: coastal cities
+C: city
+D: coastal cities
+E: boston",Answer: D,C
+CSQA,2,"Question: When you drive you may have to stop if someone is doing what?
+A: while driving
+B: check mirrors
+C: walking
+D: stop
+E: passenger
+Answer: C
+Question: Many containers full of goods are unloaded where after their long sea journey
+A: port
+B: cargo ship
+C: refrigerator
+D: food
+E: lorry
+Answer: A
+Question: What is a corrupt government likely to lead to?
+A: civilization
+B: money
+C: city
+D: control
+E: trouble
+Answer: E
+Question: The guy was going to bed instead of going to work, what does he suffer from?
+A: money
+B: making love
+C: laziness
+D: dreaming of
+E: falling asleep
+Answer: C
+Question: What kind of place could have a seafood restaurant?
+A: new york
+B: coastal cities
+C: city
+D: coastal cities
+E: boston",Answer: D,C
+CSQA,3a,"Question: When you drive you may have to stop if someone is doing what?
+A: while driving
+B: check mirrors
+C: walking
+D: stop
+E: passenger
+Answer: C
+Question: Many containers full of goods are unloaded where after their long sea journey
+A: port
+B: cargo ship
+C: refrigerator
+D: food
+E: lorry
+Answer: A
+Question: When you drive you may have to stop if someone is doing what?
+A: while driving
+B: check mirrors
+C: walking
+D: stop
+E: passenger
+Answer: C
+Question: Many containers full of goods are unloaded where after their long sea journey
+A: port
+B: cargo ship
+C: refrigerator
+D: food
+E: lorry
+Answer: A
+Question: What kind of place could have a seafood restaurant?
+A: new york
+B: coastal cities
+C: city
+D: coastal cities
+E: boston",Answer: B,C
+CSQA,3b,"Question: What is a corrupt government likely to lead to?
+A: civilization
+B: money
+C: city
+D: control
+E: trouble
+Answer: E
+Question: The guy was going to bed instead of going to work, what does he suffer from?
+A: money
+B: making love
+C: laziness
+D: dreaming of
+E: falling asleep
+Answer: C
+Question: What is a corrupt government likely to lead to?
+A: civilization
+B: money
+C: city
+D: control
+E: trouble
+Answer: E
+Question: The guy was going to bed instead of going to work, what does he suffer from?
+A: money
+B: making love
+C: laziness
+D: dreaming of
+E: falling asleep
+Answer: C
+Question: What kind of place could have a seafood restaurant?
+A: new york
+B: coastal cities
+C: city
+D: coastal cities
+E: boston",Answer: D,C
+StrategyQA,0,"Question: Roll call is when teachers call the names of students and they raise their hand to show they are present. The founder of Redenbacher popcorn was Orville Redenbacher. Reggae musician Shaggy was born Orville Richard Burrell.
+Would Shaggy and Redenbacher popcorn founder both raise hand during first name roll call?","Yes, they would both raise their hand during first name roll call as they share the first name ""Orville.""",True
+StrategyQA,1a,"Question: Brussels sprouts are high in vitamin K Eating lots of foods high in vitamin K is potentially harmful to people taking anticoagulants  Coumadin is an anticoagulant 
+Would many meals heavy in brussels sprouts benefit someone on Coumadin?
+Answer: False
+Question: The Bohai Sea is 30,000 square miles Rhode Island is 1,214 square miles
+Could Rhode Island sink into the Bohai Sea?
+Answer: True
+Question: Roll call is when teachers call the names of students and they raise their hand to show they are present. The founder of Redenbacher popcorn was Orville Redenbacher. Reggae musician Shaggy was born Orville Richard Burrell.
+Would Shaggy and Redenbacher popcorn founder both raise hand during first name roll call?",Answer: False,True
+StrategyQA,1b,"Question: Language involves grammar and vocabulary Ants have not shown any understanding of grammar Apes include humans who use language to communicate
+Do ants outperform apes on language ability?
+Answer: False
+Question: Ariana Grande's signature style is a long, over-sized pullover sweater with thigh high heels. Oversized pullovers are considered lounge wear, for relaxing at home in.  High heels are associated with high style. 
+Does Ariana Grande's signature style combine comfort items and high fashion?
+Answer: True
+Question: Roll call is when teachers call the names of students and they raise their hand to show they are present. The founder of Redenbacher popcorn was Orville Redenbacher. Reggae musician Shaggy was born Orville Richard Burrell.
+Would Shaggy and Redenbacher popcorn founder both raise hand during first name roll call?",Answer: True,True
+StrategyQA,2,"Question: Brussels sprouts are high in vitamin K Eating lots of foods high in vitamin K is potentially harmful to people taking anticoagulants  Coumadin is an anticoagulant 
+Would many meals heavy in brussels sprouts benefit someone on Coumadin?
+Answer: False
+Question: The Bohai Sea is 30,000 square miles Rhode Island is 1,214 square miles
+Could Rhode Island sink into the Bohai Sea?
+Answer: True
+Question: Language involves grammar and vocabulary Ants have not shown any understanding of grammar Apes include humans who use language to communicate
+Do ants outperform apes on language ability?
+Answer: False
+Question: Ariana Grande's signature style is a long, over-sized pullover sweater with thigh high heels. Oversized pullovers are considered lounge wear, for relaxing at home in.  High heels are associated with high style. 
+Does Ariana Grande's signature style combine comfort items and high fashion?
+Answer: True
+Question: Roll call is when teachers call the names of students and they raise their hand to show they are present. The founder of Redenbacher popcorn was Orville Redenbacher. Reggae musician Shaggy was born Orville Richard Burrell.
+Would Shaggy and Redenbacher popcorn founder both raise hand during first name roll call?",Answer: False,True
+StrategyQA,3a,"Question: Brussels sprouts are high in vitamin K Eating lots of foods high in vitamin K is potentially harmful to people taking anticoagulants  Coumadin is an anticoagulant 
+Would many meals heavy in brussels sprouts benefit someone on Coumadin?
+Answer: False
+Question: The Bohai Sea is 30,000 square miles Rhode Island is 1,214 square miles
+Could Rhode Island sink into the Bohai Sea?
+Answer: True
+Question: Brussels sprouts are high in vitamin K Eating lots of foods high in vitamin K is potentially harmful to people taking anticoagulants  Coumadin is an anticoagulant 
+Would many meals heavy in brussels sprouts benefit someone on Coumadin?
+Answer: False
+Question: The Bohai Sea is 30,000 square miles Rhode Island is 1,214 square miles
+Could Rhode Island sink into the Bohai Sea?
+Answer: True
+Question: Roll call is when teachers call the names of students and they raise their hand to show they are present. The founder of Redenbacher popcorn was Orville Redenbacher. Reggae musician Shaggy was born Orville Richard Burrell.
+Would Shaggy and Redenbacher popcorn founder both raise hand during first name roll call?",Answer: False,True
+StrategyQA,3b,"Question: Language involves grammar and vocabulary Ants have not shown any understanding of grammar Apes include humans who use language to communicate
+Do ants outperform apes on language ability?
+Answer: False
+Question: Ariana Grande's signature style is a long, over-sized pullover sweater with thigh high heels. Oversized pullovers are considered lounge wear, for relaxing at home in.  High heels are associated with high style. 
+Does Ariana Grande's signature style combine comfort items and high fashion?
+Answer: True
+Question: Language involves grammar and vocabulary Ants have not shown any understanding of grammar Apes include humans who use language to communicate
+Do ants outperform apes on language ability?
+Answer: False
+Question: Ariana Grande's signature style is a long, over-sized pullover sweater with thigh high heels. Oversized pullovers are considered lounge wear, for relaxing at home in.  High heels are associated with high style. 
+Does Ariana Grande's signature style combine comfort items and high fashion?
+Answer: True
+Question: Roll call is when teachers call the names of students and they raise their hand to show they are present. The founder of Redenbacher popcorn was Orville Redenbacher. Reggae musician Shaggy was born Orville Richard Burrell.
+Would Shaggy and Redenbacher popcorn founder both raise hand during first name roll call?",Answer: No,True
+SayCan,0,Question: Provide step-by-step instructions for the following task: How would you go to the table?,"1. Stand up from your current location.
+2. Locate the table you want to go to.
+3. Walk towards the table, making sure to avoid any obstacles in your path.
+4. Once you reach the table, stop walking and position yourself next to it.
+5. Pull out the chair if needed and sit down at the table.
+6. You have successfully gone to the table.","1. go to the table, 2. done"
+SayCan,1a,"Question: Provide step-by-step instructions for the following task: Can you bring me something salty?
+Answer: 1. find the sea salt chips, 2. pick up the sea salt chips, 3. bring it to you, 4. put down the sea salt chips, 5. done
+Question: Provide step-by-step instructions for the following task: How would you bring me chips from the drawer?
+Answer: 1. go to the drawer, 2. open the drawer, 3. pick up the bag of chips, 4. close the drawer, 5. bring it to you, 6. put down the bag of chips, 7. done
+Question: Provide step-by-step instructions for the following task: How would you go to the table?","Answer: 1. stand up from your current location, 2. walk towards the table, 3. stop when you reach the table, 4. if there are chairs blocking the way, move them aside, 5. done","1. go to the table, 2. done"
+SayCan,1b,"Question: Provide step-by-step instructions for the following task: How would you visit the counter and the table in the kitchen?
+Answer: 1. go to the counter, 2. go to the table, 3. done
+Question: Provide step-by-step instructions for the following task: I love spice, can you get something to eat?
+Answer: 1. find a jalapeno chips, 2. pick up the jalapeno chips, 3. bring it to you, 4. put down the jalapeno chips, 5. done.
+Question: Provide step-by-step instructions for the following task: How would you go to the table?","Answer: 1. Stand up from your current location, 2. Walk towards the table, 3. Pull out a chair if necessary, 4. Sit down at the table, 5. done.","1. go to the table, 2. done"
+SayCan,2,"Question: Provide step-by-step instructions for the following task: Can you bring me something salty?
+Answer: 1. find the sea salt chips, 2. pick up the sea salt chips, 3. bring it to you, 4. put down the sea salt chips, 5. done
+Question: Provide step-by-step instructions for the following task: How would you bring me chips from the drawer?
+Answer: 1. go to the drawer, 2. open the drawer, 3. pick up the bag of chips, 4. close the drawer, 5. bring it to you, 6. put down the bag of chips, 7. done
+Question: Provide step-by-step instructions for the following task: How would you visit the counter and the table in the kitchen?
+Answer: 1. go to the counter, 2. go to the table, 3. done
+Question: Provide step-by-step instructions for the following task: I love spice, can you get something to eat?
+Answer: 1. find a jalapeno chips, 2. pick up the jalapeno chips, 3. bring it to you, 4. put down the jalapeno chips, 5. done.
+Question: Provide step-by-step instructions for the following task: How would you go to the table?","Answer: 1. Stand up from your current location, 2. Walk towards the table, 3. Pull out the chair if necessary, 4. Sit down at the table, 5. Done.","1. go to the table, 2. done"
+SayCan,3a,"Question: Provide step-by-step instructions for the following task: Can you bring me something salty?
+Answer: 1. find the sea salt chips, 2. pick up the sea salt chips, 3. bring it to you, 4. put down the sea salt chips, 5. done
+Question: Provide step-by-step instructions for the following task: How would you bring me chips from the drawer?
+Answer: 1. go to the drawer, 2. open the drawer, 3. pick up the bag of chips, 4. close the drawer, 5. bring it to you, 6. put down the bag of chips, 7. done
+Question: Provide step-by-step instructions for the following task: Can you bring me something salty?
+Answer: 1. find the sea salt chips, 2. pick up the sea salt chips, 3. bring it to you, 4. put down the sea salt chips, 5. done
+Question: Provide step-by-step instructions for the following task: How would you bring me chips from the drawer?
+Answer: 1. go to the drawer, 2. open the drawer, 3. pick up the bag of chips, 4. close the drawer, 5. bring it to you, 6. put down the bag of chips, 7. done
+Question: Provide step-by-step instructions for the following task: How would you go to the table?","Answer: 1. Stand up from your current location, 2. Walk towards the table, 3. Stop when you reach the table, 4. You have successfully gone to the table.","1. go to the table, 2. done"
+SayCan,3b,"Question: Provide step-by-step instructions for the following task: How would you visit the counter and the table in the kitchen?
+Answer: 1. go to the counter, 2. go to the table, 3. done
+Question: Provide step-by-step instructions for the following task: I love spice, can you get something to eat?
+Answer: 1. find a jalapeno chips, 2. pick up the jalapeno chips, 3. bring it to you, 4. put down the jalapeno chips, 5. done.
+Question: Provide step-by-step instructions for the following task: How would you visit the counter and the table in the kitchen?
+Answer: 1. go to the counter, 2. go to the table, 3. done
+Question: Provide step-by-step instructions for the following task: I love spice, can you get something to eat?
+Answer: 1. find a jalapeno chips, 2. pick up the jalapeno chips, 3. bring it to you, 4. put down the jalapeno chips, 5. done.
+Question: Provide step-by-step instructions for the following task: How would you go to the table?","Answer: 1. Stand up from your current location, 2. Walk towards the table, 3. Stop when you reach the table, 4. Done.","1. go to the table, 2. done"

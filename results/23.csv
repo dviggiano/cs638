@@ -1,0 +1,395 @@
+Task Class,Case,Prompt,Response,Expected
+Math,0,"Question: Jackie grew 3"" over the summer.  She is now 2"" shorter than Anne, who is twice the size of Albert.  If Albert is 36"" tall, how tall was Jackie before summer?","First, we need to find out how tall Anne is currently. Since Anne is 2"" taller than Jackie, Anne's height is 3"" + 2"" = 5"" taller than Jackie.
+
+So, if Jackie is now 5"" shorter than Anne, Anne's height is 3"" + 5"" = 8"" tall.
+
+Since Anne is twice the size of Albert, Anne's height equals 2 * Albert's height. We know that Albert is 36"" tall, so Anne's height is 2 * 36"" = 72"".
+
+Now, we know that Anne's height is 8"", so 72"" = 8"", which means that 1 inch is equal to 72"" / 8 = 9"".
+
+Before the summer, Jackie was 3"" shorter than Anne, so Jackie's height was 8"" - 3"" = 5"".
+
+Since 5"" is Jackie's current height, we can calculate Jackie's height before the summer by subtracting the growth over the summer, which is 3"", so Jackie's height before the summer was 5"" - 3"" = 2"".","Anne is twice the size of Albert, who is 36"", so Anne is 2*36 = <<72=72>>72"" tall
+Anne is 72"" tall and Jackie is 2"" shorter than Anne, so Jackie is 72-2 = <<72-2=70>>70"" tall
+Jackie is currently 70"" tall and grew 3"" over summer, so before summer she was 70-3= <<70-3=67>>67"" tall
+#### 67"
+Math,1a,"Question: The big bottles of mango juice hold 30 ounces and cost 2700 pesetas each. The small bottles hold 6 ounces and cost 600 pesetas each. How many pesetas would be saved by buying a big bottle instead of smaller bottles for the same volume of juice?
+Answer: The equivalent is 30/6=<<30/6=5>>5 small bottles.
+Five small bottles at 600 pesetas each is 5*600=<<5*600=3000>>3000 pesetas.
+The savings is 3000-2700=<<3000-2700=300>>300.
+#### 300
+Question: There are 40 ducks in a pond.  50 percent of the ducks are Muscovy and 30 percent of the Muscovies are female.  How many female Muscovy ducks there?
+Answer: Muscovies: 40(.50)=<<40*.50=20>>20 Muscovy ducks
+Female Muscovies:20(.30)=6 ducks
+#### 6
+Question: Jackie grew 3"" over the summer.  She is now 2"" shorter than Anne, who is twice the size of Albert.  If Albert is 36"" tall, how tall was Jackie before summer?","Step 1: Find Anne's height.
+Anne is twice the size of Albert, so Anne is 2 * 36 = 72 inches tall.
+
+Step 2: Find Jackie's height after growing.
+Jackie grew 3 inches, so she is now 72 - 2 = 70 inches tall.
+
+Step 3: Find Jackie's height before the summer.
+Before the summer, Jackie was 70 - 3 = 67 inches tall. 
+
+Jackie was 67 inches tall before the summer.","Anne is twice the size of Albert, who is 36"", so Anne is 2*36 = <<72=72>>72"" tall
+Anne is 72"" tall and Jackie is 2"" shorter than Anne, so Jackie is 72-2 = <<72-2=70>>70"" tall
+Jackie is currently 70"" tall and grew 3"" over summer, so before summer she was 70-3= <<70-3=67>>67"" tall
+#### 67"
+Math,1b,"Question: James has an old printer that crumples every seventh page and blurs the ink on every third page. If he prints 42 pages, how many are neither crumpled or blurred?
+Answer: First find the total number of pages that are crumpled: 42 pages / 7 = <<42/7=6>>6 pages
+Then find the total number of pages that are blurred: 42 pages / 3 = <<42/3=14>>14 pages
+Then find the number of pages that are both blurred and crumpled by finding how many numbers are less or equal to 42 and divisible by both 3 and 7: there are two, 21 and 42.
+Then subtract the number of crumpled and blurred pages from the total number of pages, and add the number of pages that were double-counted because they were both blurred and crumpled: 42 pages - 6 pages - 14 pages + 2 pages = <<42-6-14+2=24>>24 pages
+#### 24
+Question: Ivan has a piggy bank that can hold 100 pennies and 50 dimes. How much, in dollars, does Ivan have if he has filled his two piggy banks with those coins?
+Answer: Ivan has 50 x 10 = <<50*10=500>>500 cents from the 50 dimes in his one piggy bank.
+So, he has a total of 100 + 500 = <<100+500=600>>600 cents in one of his piggy banks.
+Since 100 cents is equal to 1 dollar, then Ivan has 600/100 = 6 dollars from one of his piggy banks.
+Therefore, Ivan has a total of $6 x 2 piggy banks = $<<6*2=12>>12 from his two piggy banks.
+#### 12
+Question: Jackie grew 3"" over the summer.  She is now 2"" shorter than Anne, who is twice the size of Albert.  If Albert is 36"" tall, how tall was Jackie before summer?","First, we need to find Anne's height. Since Anne is twice the size of Albert, she is 2 * 36"" = 72"" tall.
+Since Jackie grew 3"" over the summer and is now 2"" shorter than Anne, Jackie's current height is 72"" - 2"" = 70"".
+Before the summer, Jackie was 70"" - 3"" = 67"" tall.
+Therefore, Jackie was 67"" tall before the summer.","Anne is twice the size of Albert, who is 36"", so Anne is 2*36 = <<72=72>>72"" tall
+Anne is 72"" tall and Jackie is 2"" shorter than Anne, so Jackie is 72-2 = <<72-2=70>>70"" tall
+Jackie is currently 70"" tall and grew 3"" over summer, so before summer she was 70-3= <<70-3=67>>67"" tall
+#### 67"
+Math,2,"Question: The big bottles of mango juice hold 30 ounces and cost 2700 pesetas each. The small bottles hold 6 ounces and cost 600 pesetas each. How many pesetas would be saved by buying a big bottle instead of smaller bottles for the same volume of juice?
+Answer: The equivalent is 30/6=<<30/6=5>>5 small bottles.
+Five small bottles at 600 pesetas each is 5*600=<<5*600=3000>>3000 pesetas.
+The savings is 3000-2700=<<3000-2700=300>>300.
+#### 300
+Question: There are 40 ducks in a pond.  50 percent of the ducks are Muscovy and 30 percent of the Muscovies are female.  How many female Muscovy ducks there?
+Answer: Muscovies: 40(.50)=<<40*.50=20>>20 Muscovy ducks
+Female Muscovies:20(.30)=6 ducks
+#### 6
+Question: James has an old printer that crumples every seventh page and blurs the ink on every third page. If he prints 42 pages, how many are neither crumpled or blurred?
+Answer: First find the total number of pages that are crumpled: 42 pages / 7 = <<42/7=6>>6 pages
+Then find the total number of pages that are blurred: 42 pages / 3 = <<42/3=14>>14 pages
+Then find the number of pages that are both blurred and crumpled by finding how many numbers are less or equal to 42 and divisible by both 3 and 7: there are two, 21 and 42.
+Then subtract the number of crumpled and blurred pages from the total number of pages, and add the number of pages that were double-counted because they were both blurred and crumpled: 42 pages - 6 pages - 14 pages + 2 pages = <<42-6-14+2=24>>24 pages
+#### 24
+Question: Ivan has a piggy bank that can hold 100 pennies and 50 dimes. How much, in dollars, does Ivan have if he has filled his two piggy banks with those coins?
+Answer: Ivan has 50 x 10 = <<50*10=500>>500 cents from the 50 dimes in his one piggy bank.
+So, he has a total of 100 + 500 = <<100+500=600>>600 cents in one of his piggy banks.
+Since 100 cents is equal to 1 dollar, then Ivan has 600/100 = 6 dollars from one of his piggy banks.
+Therefore, Ivan has a total of $6 x 2 piggy banks = $<<6*2=12>>12 from his two piggy banks.
+#### 12
+Question: Jackie grew 3"" over the summer.  She is now 2"" shorter than Anne, who is twice the size of Albert.  If Albert is 36"" tall, how tall was Jackie before summer?","Answer: Anne is 3*2= <<3*2=6>>6 inches taller than Jackie
+So Anne is 36+6= <<36+6=42>>42 inches tall
+Before the summer, Jackie was 42-3= <<42-3=39>>39 inches tall.
+#### 39","Anne is twice the size of Albert, who is 36"", so Anne is 2*36 = <<72=72>>72"" tall
+Anne is 72"" tall and Jackie is 2"" shorter than Anne, so Jackie is 72-2 = <<72-2=70>>70"" tall
+Jackie is currently 70"" tall and grew 3"" over summer, so before summer she was 70-3= <<70-3=67>>67"" tall
+#### 67"
+Math,3a,"Question: The big bottles of mango juice hold 30 ounces and cost 2700 pesetas each. The small bottles hold 6 ounces and cost 600 pesetas each. How many pesetas would be saved by buying a big bottle instead of smaller bottles for the same volume of juice?
+Answer: The equivalent is 30/6=<<30/6=5>>5 small bottles.
+Five small bottles at 600 pesetas each is 5*600=<<5*600=3000>>3000 pesetas.
+The savings is 3000-2700=<<3000-2700=300>>300.
+#### 300
+Question: There are 40 ducks in a pond.  50 percent of the ducks are Muscovy and 30 percent of the Muscovies are female.  How many female Muscovy ducks there?
+Answer: Muscovies: 40(.50)=<<40*.50=20>>20 Muscovy ducks
+Female Muscovies:20(.30)=6 ducks
+#### 6
+Question: The big bottles of mango juice hold 30 ounces and cost 2700 pesetas each. The small bottles hold 6 ounces and cost 600 pesetas each. How many pesetas would be saved by buying a big bottle instead of smaller bottles for the same volume of juice?
+Answer: The equivalent is 30/6=<<30/6=5>>5 small bottles.
+Five small bottles at 600 pesetas each is 5*600=<<5*600=3000>>3000 pesetas.
+The savings is 3000-2700=<<3000-2700=300>>300.
+#### 300
+Question: There are 40 ducks in a pond.  50 percent of the ducks are Muscovy and 30 percent of the Muscovies are female.  How many female Muscovy ducks there?
+Answer: Muscovies: 40(.50)=<<40*.50=20>>20 Muscovy ducks
+Female Muscovies:20(.30)=6 ducks
+#### 6
+Question: Jackie grew 3"" over the summer.  She is now 2"" shorter than Anne, who is twice the size of Albert.  If Albert is 36"" tall, how tall was Jackie before summer?","First, we need to determine Anne's height. Since Anne is twice the size of Albert, she is 36*2= <<36*2=72>>72 inches tall.
+Since Jackie is now 2 inches shorter than Anne, she is 72-2= <<72-2=70>>70 inches tall after growing 3 inches.
+Before the growth spurt, Jackie was 70-3= <<70-3=67>>67 inches tall. 
+#### 67","Anne is twice the size of Albert, who is 36"", so Anne is 2*36 = <<72=72>>72"" tall
+Anne is 72"" tall and Jackie is 2"" shorter than Anne, so Jackie is 72-2 = <<72-2=70>>70"" tall
+Jackie is currently 70"" tall and grew 3"" over summer, so before summer she was 70-3= <<70-3=67>>67"" tall
+#### 67"
+Math,3b,"Question: James has an old printer that crumples every seventh page and blurs the ink on every third page. If he prints 42 pages, how many are neither crumpled or blurred?
+Answer: First find the total number of pages that are crumpled: 42 pages / 7 = <<42/7=6>>6 pages
+Then find the total number of pages that are blurred: 42 pages / 3 = <<42/3=14>>14 pages
+Then find the number of pages that are both blurred and crumpled by finding how many numbers are less or equal to 42 and divisible by both 3 and 7: there are two, 21 and 42.
+Then subtract the number of crumpled and blurred pages from the total number of pages, and add the number of pages that were double-counted because they were both blurred and crumpled: 42 pages - 6 pages - 14 pages + 2 pages = <<42-6-14+2=24>>24 pages
+#### 24
+Question: Ivan has a piggy bank that can hold 100 pennies and 50 dimes. How much, in dollars, does Ivan have if he has filled his two piggy banks with those coins?
+Answer: Ivan has 50 x 10 = <<50*10=500>>500 cents from the 50 dimes in his one piggy bank.
+So, he has a total of 100 + 500 = <<100+500=600>>600 cents in one of his piggy banks.
+Since 100 cents is equal to 1 dollar, then Ivan has 600/100 = 6 dollars from one of his piggy banks.
+Therefore, Ivan has a total of $6 x 2 piggy banks = $<<6*2=12>>12 from his two piggy banks.
+#### 12
+Question: James has an old printer that crumples every seventh page and blurs the ink on every third page. If he prints 42 pages, how many are neither crumpled or blurred?
+Answer: First find the total number of pages that are crumpled: 42 pages / 7 = <<42/7=6>>6 pages
+Then find the total number of pages that are blurred: 42 pages / 3 = <<42/3=14>>14 pages
+Then find the number of pages that are both blurred and crumpled by finding how many numbers are less or equal to 42 and divisible by both 3 and 7: there are two, 21 and 42.
+Then subtract the number of crumpled and blurred pages from the total number of pages, and add the number of pages that were double-counted because they were both blurred and crumpled: 42 pages - 6 pages - 14 pages + 2 pages = <<42-6-14+2=24>>24 pages
+#### 24
+Question: Ivan has a piggy bank that can hold 100 pennies and 50 dimes. How much, in dollars, does Ivan have if he has filled his two piggy banks with those coins?
+Answer: Ivan has 50 x 10 = <<50*10=500>>500 cents from the 50 dimes in his one piggy bank.
+So, he has a total of 100 + 500 = <<100+500=600>>600 cents in one of his piggy banks.
+Since 100 cents is equal to 1 dollar, then Ivan has 600/100 = 6 dollars from one of his piggy banks.
+Therefore, Ivan has a total of $6 x 2 piggy banks = $<<6*2=12>>12 from his two piggy banks.
+#### 12
+Question: Jackie grew 3"" over the summer.  She is now 2"" shorter than Anne, who is twice the size of Albert.  If Albert is 36"" tall, how tall was Jackie before summer?","First, we need to find out how tall Anne is. Since Anne is twice the size of Albert, she is 36 * 2 = 72 inches tall.
+
+Since Jackie grew 3 inches over the summer and is now 2 inches shorter than Anne, she is currently 72 - 2 = 70 inches tall.
+
+Therefore, Jackie was 70 - 3 = 67 inches tall before the summer.","Anne is twice the size of Albert, who is 36"", so Anne is 2*36 = <<72=72>>72"" tall
+Anne is 72"" tall and Jackie is 2"" shorter than Anne, so Jackie is 72-2 = <<72-2=70>>70"" tall
+Jackie is currently 70"" tall and grew 3"" over summer, so before summer she was 70-3= <<70-3=67>>67"" tall
+#### 67"
+CSQA,0,"Question: What do people use to absorb extra ink from a fountain pen?
+A: shirt pocket
+B: calligrapher's hand
+C: inkwell
+D: desk drawer
+E: blotter","E: blotter
+
+Blotters are typically used to absorb any excess ink that may be left on paper after writing with a fountain pen. It helps prevent smudging and keeps the writing clean and neat.",E
+CSQA,1a,"Question: Where are plants likely to be handled by a city employee?
+A: park
+B: windowsill
+C: ground
+D: office
+E: garden
+Answer: A
+Question: What may be a characteristic of a healthy person?
+A: depression
+B: own house
+C: new experiences
+D: good looking
+E: playfulness
+Answer: D
+Question: What do people use to absorb extra ink from a fountain pen?
+A: shirt pocket
+B: calligrapher's hand
+C: inkwell
+D: desk drawer
+E: blotter",Answer: E,E
+CSQA,1b,"Question: The demand from people was high, how can chaos be avoided?
+A: bank money
+B: call police
+C: wait in line
+D: believe in god
+E: suffer pain
+Answer: C
+Question: How can you distinguish garbage from other things?
+A: folkest
+B: container
+C: can smell nasty
+D: composted
+E: smells bad
+Answer: E
+Question: What do people use to absorb extra ink from a fountain pen?
+A: shirt pocket
+B: calligrapher's hand
+C: inkwell
+D: desk drawer
+E: blotter",Answer: E,E
+CSQA,2,"Question: Where are plants likely to be handled by a city employee?
+A: park
+B: windowsill
+C: ground
+D: office
+E: garden
+Answer: A
+Question: What may be a characteristic of a healthy person?
+A: depression
+B: own house
+C: new experiences
+D: good looking
+E: playfulness
+Answer: D
+Question: The demand from people was high, how can chaos be avoided?
+A: bank money
+B: call police
+C: wait in line
+D: believe in god
+E: suffer pain
+Answer: C
+Question: How can you distinguish garbage from other things?
+A: folkest
+B: container
+C: can smell nasty
+D: composted
+E: smells bad
+Answer: E
+Question: What do people use to absorb extra ink from a fountain pen?
+A: shirt pocket
+B: calligrapher's hand
+C: inkwell
+D: desk drawer
+E: blotter",Answer: E,E
+CSQA,3a,"Question: Where are plants likely to be handled by a city employee?
+A: park
+B: windowsill
+C: ground
+D: office
+E: garden
+Answer: A
+Question: What may be a characteristic of a healthy person?
+A: depression
+B: own house
+C: new experiences
+D: good looking
+E: playfulness
+Answer: D
+Question: Where are plants likely to be handled by a city employee?
+A: park
+B: windowsill
+C: ground
+D: office
+E: garden
+Answer: A
+Question: What may be a characteristic of a healthy person?
+A: depression
+B: own house
+C: new experiences
+D: good looking
+E: playfulness
+Answer: D
+Question: What do people use to absorb extra ink from a fountain pen?
+A: shirt pocket
+B: calligrapher's hand
+C: inkwell
+D: desk drawer
+E: blotter",Answer: E,E
+CSQA,3b,"Question: The demand from people was high, how can chaos be avoided?
+A: bank money
+B: call police
+C: wait in line
+D: believe in god
+E: suffer pain
+Answer: C
+Question: How can you distinguish garbage from other things?
+A: folkest
+B: container
+C: can smell nasty
+D: composted
+E: smells bad
+Answer: E
+Question: The demand from people was high, how can chaos be avoided?
+A: bank money
+B: call police
+C: wait in line
+D: believe in god
+E: suffer pain
+Answer: C
+Question: How can you distinguish garbage from other things?
+A: folkest
+B: container
+C: can smell nasty
+D: composted
+E: smells bad
+Answer: E
+Question: What do people use to absorb extra ink from a fountain pen?
+A: shirt pocket
+B: calligrapher's hand
+C: inkwell
+D: desk drawer
+E: blotter",Answer: E,E
+StrategyQA,0,"Question: The Liberty Bell weighs 2,080 pounds. A mature Holstein cow weighs around 1,500 pounds.
+Will a Holstein cow and the Liberty Bell balance out a giant scale?","No, the Liberty Bell and a mature Holstein cow would not balance out a giant scale since the Liberty Bell weighs significantly more than the cow. The Liberty Bell weighs 2,080 pounds, while a mature Holstein cow weighs around 1,500 pounds. The weight difference between the two is 580 pounds, which would cause the scale to be unbalanced with the Liberty Bell weighing more.",False
+StrategyQA,1a,"Question: Diabetes is a disease in which the body cannot process sugar. Celery is known as a healthy snack and has 1 gram of sugar per serving. The recommended daily intake of sugar to prevent diabetes is less than 36 grams per day for an adult male. The average weight of an adult male is 197 pounds.
+Can eating your weight in celery prevent diabetes?
+Answer: False
+Question: Snoopy has been a mascot of safety in NASA The Silver Snoopy award is given by NASA astronauts to employees and contractors for outstanding achievements related to flight safety  Jesse W. Moore received warnings about the failure history of the O rings used on the Challenger shuttle, but did not act on them Jesse W. Moore was the associate administrator in charge of NASA's shuttle program at the time of the Challenger explosion The O rings were strongly implicated in the fatal explosion
+Is Jesse W. Moore a potential recipient of a Snoopy-themed award from NASA?
+Answer: False
+Question: The Liberty Bell weighs 2,080 pounds. A mature Holstein cow weighs around 1,500 pounds.
+Will a Holstein cow and the Liberty Bell balance out a giant scale?",Answer: False,False
+StrategyQA,1b,"Question: The Statue of Liberty rises 305 feet into the air. The Statue of Unity is 597 feet high. The Lighthouse of Alexandria was between 338 and 387 feet tall.
+Is Statue of Unity hypothetically more level with Statue of Liberty than Lighthouse of Alexandria?
+Answer: False
+Question: The European wildcat is native to continental Europe, Scotland, Turkey and the Caucasus. The black-tailed jackrabbit is native to Mexico and the western United States.
+Do black-tailed jackrabbits fear the European wildcat?
+Answer: False
+Question: The Liberty Bell weighs 2,080 pounds. A mature Holstein cow weighs around 1,500 pounds.
+Will a Holstein cow and the Liberty Bell balance out a giant scale?",Answer: False,False
+StrategyQA,2,"Question: Diabetes is a disease in which the body cannot process sugar. Celery is known as a healthy snack and has 1 gram of sugar per serving. The recommended daily intake of sugar to prevent diabetes is less than 36 grams per day for an adult male. The average weight of an adult male is 197 pounds.
+Can eating your weight in celery prevent diabetes?
+Answer: False
+Question: Snoopy has been a mascot of safety in NASA The Silver Snoopy award is given by NASA astronauts to employees and contractors for outstanding achievements related to flight safety  Jesse W. Moore received warnings about the failure history of the O rings used on the Challenger shuttle, but did not act on them Jesse W. Moore was the associate administrator in charge of NASA's shuttle program at the time of the Challenger explosion The O rings were strongly implicated in the fatal explosion
+Is Jesse W. Moore a potential recipient of a Snoopy-themed award from NASA?
+Answer: False
+Question: The Statue of Liberty rises 305 feet into the air. The Statue of Unity is 597 feet high. The Lighthouse of Alexandria was between 338 and 387 feet tall.
+Is Statue of Unity hypothetically more level with Statue of Liberty than Lighthouse of Alexandria?
+Answer: False
+Question: The European wildcat is native to continental Europe, Scotland, Turkey and the Caucasus. The black-tailed jackrabbit is native to Mexico and the western United States.
+Do black-tailed jackrabbits fear the European wildcat?
+Answer: False
+Question: The Liberty Bell weighs 2,080 pounds. A mature Holstein cow weighs around 1,500 pounds.
+Will a Holstein cow and the Liberty Bell balance out a giant scale?",Answer: False,False
+StrategyQA,3a,"Question: Diabetes is a disease in which the body cannot process sugar. Celery is known as a healthy snack and has 1 gram of sugar per serving. The recommended daily intake of sugar to prevent diabetes is less than 36 grams per day for an adult male. The average weight of an adult male is 197 pounds.
+Can eating your weight in celery prevent diabetes?
+Answer: False
+Question: Snoopy has been a mascot of safety in NASA The Silver Snoopy award is given by NASA astronauts to employees and contractors for outstanding achievements related to flight safety  Jesse W. Moore received warnings about the failure history of the O rings used on the Challenger shuttle, but did not act on them Jesse W. Moore was the associate administrator in charge of NASA's shuttle program at the time of the Challenger explosion The O rings were strongly implicated in the fatal explosion
+Is Jesse W. Moore a potential recipient of a Snoopy-themed award from NASA?
+Answer: False
+Question: Diabetes is a disease in which the body cannot process sugar. Celery is known as a healthy snack and has 1 gram of sugar per serving. The recommended daily intake of sugar to prevent diabetes is less than 36 grams per day for an adult male. The average weight of an adult male is 197 pounds.
+Can eating your weight in celery prevent diabetes?
+Answer: False
+Question: Snoopy has been a mascot of safety in NASA The Silver Snoopy award is given by NASA astronauts to employees and contractors for outstanding achievements related to flight safety  Jesse W. Moore received warnings about the failure history of the O rings used on the Challenger shuttle, but did not act on them Jesse W. Moore was the associate administrator in charge of NASA's shuttle program at the time of the Challenger explosion The O rings were strongly implicated in the fatal explosion
+Is Jesse W. Moore a potential recipient of a Snoopy-themed award from NASA?
+Answer: False
+Question: The Liberty Bell weighs 2,080 pounds. A mature Holstein cow weighs around 1,500 pounds.
+Will a Holstein cow and the Liberty Bell balance out a giant scale?",Answer: No,False
+StrategyQA,3b,"Question: The Statue of Liberty rises 305 feet into the air. The Statue of Unity is 597 feet high. The Lighthouse of Alexandria was between 338 and 387 feet tall.
+Is Statue of Unity hypothetically more level with Statue of Liberty than Lighthouse of Alexandria?
+Answer: False
+Question: The European wildcat is native to continental Europe, Scotland, Turkey and the Caucasus. The black-tailed jackrabbit is native to Mexico and the western United States.
+Do black-tailed jackrabbits fear the European wildcat?
+Answer: False
+Question: The Statue of Liberty rises 305 feet into the air. The Statue of Unity is 597 feet high. The Lighthouse of Alexandria was between 338 and 387 feet tall.
+Is Statue of Unity hypothetically more level with Statue of Liberty than Lighthouse of Alexandria?
+Answer: False
+Question: The European wildcat is native to continental Europe, Scotland, Turkey and the Caucasus. The black-tailed jackrabbit is native to Mexico and the western United States.
+Do black-tailed jackrabbits fear the European wildcat?
+Answer: False
+Question: The Liberty Bell weighs 2,080 pounds. A mature Holstein cow weighs around 1,500 pounds.
+Will a Holstein cow and the Liberty Bell balance out a giant scale?",Answer: False,False
+SayCan,0,Question: Provide step-by-step instructions for the following task: Could you get me something caffeinated?,"1. Go to a store or cafe that sells caffeinated beverages such as coffee, tea, or energy drinks.
+2. Approach the counter or menu and ask for a caffeinated beverage.
+3. Specify the type of caffeinated drink you would like (e.g. coffee, latte, black tea, green tea, energy drink).
+4. If needed, specify any preferences such as size (small, medium, large) or additions (sugar, milk, flavorings).
+5. Pay for your order using cash, credit card, or any other accepted payment method.
+6. Wait for your drink to be prepared by the staff.
+7. Once your drink is ready, pick it up and enjoy your caffeinated beverage.","1. find a pepsi, 2. pick up the pepsi, 3. bring it to you, 4. put down the pepsi, 5. done"
+SayCan,1a,"Question: Provide step-by-step instructions for the following task: Restock chips in the drawer.
+Answer: 1. find the bag of chips, 2. pick up the bag of chips, 3. go to the drawer, 4. put down the bag of chips, 5. open the drawer, 6. pick up the bag of chips, 7. put down the bag of chips, 8. close the drawer, 9. done
+Question: Provide step-by-step instructions for the following task: I’d like a clear soda.
+Answer: 1. find a 7up, 2. pick up the 7up, 3. bring it to you, 4. put down the 7up, 5. done
+Question: Provide step-by-step instructions for the following task: Could you get me something caffeinated?","Answer: 1. find a caffeinated beverage (e.g. soda, energy drink, coffee), 2. pick up the caffeinated beverage, 3. bring it to you, 4. put down the caffeinated beverage, 5. done","1. find a pepsi, 2. pick up the pepsi, 3. bring it to you, 4. put down the pepsi, 5. done"
+SayCan,1b,"Question: Provide step-by-step instructions for the following task: Can I have a redbull please?
+Answer: 1. find a redbull can, 2. pick up the redbull can, 3. bring it to you, 4. put down the redbull can, 5. done
+Question: Provide step-by-step instructions for the following task: Can you bring me a spicy snack?
+Answer: 1. find a jalapeno chips, 2. pick up the jalapeno chips, 3. bring it to you, 4. put down the jalapeno chips, 5. done.
+Question: Provide step-by-step instructions for the following task: Could you get me something caffeinated?","Answer: 1. find a coffee or energy drink, 2. pick up the coffee or energy drink, 3. bring it to you, 4. put down the coffee or energy drink, 5. done.","1. find a pepsi, 2. pick up the pepsi, 3. bring it to you, 4. put down the pepsi, 5. done"
+SayCan,2,"Question: Provide step-by-step instructions for the following task: Restock chips in the drawer.
+Answer: 1. find the bag of chips, 2. pick up the bag of chips, 3. go to the drawer, 4. put down the bag of chips, 5. open the drawer, 6. pick up the bag of chips, 7. put down the bag of chips, 8. close the drawer, 9. done
+Question: Provide step-by-step instructions for the following task: I’d like a clear soda.
+Answer: 1. find a 7up, 2. pick up the 7up, 3. bring it to you, 4. put down the 7up, 5. done
+Question: Provide step-by-step instructions for the following task: Can I have a redbull please?
+Answer: 1. find a redbull can, 2. pick up the redbull can, 3. bring it to you, 4. put down the redbull can, 5. done
+Question: Provide step-by-step instructions for the following task: Can you bring me a spicy snack?
+Answer: 1. find a jalapeno chips, 2. pick up the jalapeno chips, 3. bring it to you, 4. put down the jalapeno chips, 5. done.
+Question: Provide step-by-step instructions for the following task: Could you get me something caffeinated?","Answer: 1. find a can of soda or coffee, 2. pick up the can of soda or coffee, 3. bring it to you, 4. put down the can of soda or coffee, 5. done.","1. find a pepsi, 2. pick up the pepsi, 3. bring it to you, 4. put down the pepsi, 5. done"
+SayCan,3a,"Question: Provide step-by-step instructions for the following task: Restock chips in the drawer.
+Answer: 1. find the bag of chips, 2. pick up the bag of chips, 3. go to the drawer, 4. put down the bag of chips, 5. open the drawer, 6. pick up the bag of chips, 7. put down the bag of chips, 8. close the drawer, 9. done
+Question: Provide step-by-step instructions for the following task: I’d like a clear soda.
+Answer: 1. find a 7up, 2. pick up the 7up, 3. bring it to you, 4. put down the 7up, 5. done
+Question: Provide step-by-step instructions for the following task: Restock chips in the drawer.
+Answer: 1. find the bag of chips, 2. pick up the bag of chips, 3. go to the drawer, 4. put down the bag of chips, 5. open the drawer, 6. pick up the bag of chips, 7. put down the bag of chips, 8. close the drawer, 9. done
+Question: Provide step-by-step instructions for the following task: I’d like a clear soda.
+Answer: 1. find a 7up, 2. pick up the 7up, 3. bring it to you, 4. put down the 7up, 5. done
+Question: Provide step-by-step instructions for the following task: Could you get me something caffeinated?","Answer: 1. Find a can of soda or bottle of energy drink, 2. Pick up the caffeinated drink, 3. Bring it to the person requesting it, 4. Put down the drink, 5. Done.","1. find a pepsi, 2. pick up the pepsi, 3. bring it to you, 4. put down the pepsi, 5. done"
+SayCan,3b,"Question: Provide step-by-step instructions for the following task: Can I have a redbull please?
+Answer: 1. find a redbull can, 2. pick up the redbull can, 3. bring it to you, 4. put down the redbull can, 5. done
+Question: Provide step-by-step instructions for the following task: Can you bring me a spicy snack?
+Answer: 1. find a jalapeno chips, 2. pick up the jalapeno chips, 3. bring it to you, 4. put down the jalapeno chips, 5. done.
+Question: Provide step-by-step instructions for the following task: Can I have a redbull please?
+Answer: 1. find a redbull can, 2. pick up the redbull can, 3. bring it to you, 4. put down the redbull can, 5. done
+Question: Provide step-by-step instructions for the following task: Can you bring me a spicy snack?
+Answer: 1. find a jalapeno chips, 2. pick up the jalapeno chips, 3. bring it to you, 4. put down the jalapeno chips, 5. done.
+Question: Provide step-by-step instructions for the following task: Could you get me something caffeinated?","Answer: 1. Find a coffee or energy drink, 2. Pick up the caffeinated beverage, 3. Bring it to you, 4. Put down the caffeinated beverage, 5. Done.","1. find a pepsi, 2. pick up the pepsi, 3. bring it to you, 4. put down the pepsi, 5. done"

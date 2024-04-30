@@ -1,0 +1,429 @@
+Task Class,Case,Prompt,Response,Expected
+Math,0,"Question: In a room, there are various toys: 5 red cars, 3 action figures, and a doll. The doll cost as much as 3 action figures and one red car cost $4. How much are all toys worth, of an action figure costs $5?","Let's calculate the total cost of each type of toy:
+
+1 doll = 3 action figures
+3 action figures = 3 * $5 = $15
+1 doll = $15
+
+1 red car = $4
+5 red cars = 5 * $4 = $20
+
+Total cost of toys:
+5 red cars + 3 action figures + 1 doll = $20 + $15 + $15 = $50
+
+Therefore, all toys are worth $50.","Three actions figures are worth 3 * 5 = $<<3*5=15>>15, as much as the doll.
+The red cars are worth 5 * 4 = $<<5*4=20>>20.
+So all toys are worth 20 + 15 + 15 = $<<20+15+15=50>>50.
+#### 50"
+Math,1a,"Question: Emily can type 60 words per minute. How many hours does it take her to write 10,800 words?
+Answer: In an hour, Emily can type 60 words *60 minutes = <<60*60=3600>>3600 words.
+It will take her 10800/3600 = <<10800/3600=3>>3 hours to write 10800 words.
+#### 3
+Question: Tiffany attends the carnival and her mother gives her $3 to play on a ring toss game. For every red bucket she tosses a ring into she gets 2 points. For every green bucket she gets three points. She gets zero points for a miss. Every play costs her $1 and she gets 5 rings per play. She's played two games and already gotten 4 red buckets and 5 green buckets. If she plays until her money runs out, what is the most total points she can get for all three games?
+Answer: She has 8 points from red buckets because 4 x 2 = <<4*2=8>>8
+She has 15 points from green buckets because 5 x 3 = <<5*3=15>>15
+She has spent $2 on games because 2 x 1 = <<2*1=2>>2
+She has $1 left to spend because 3 - 2 = <<3-2=1>>1
+She can play one more game because 1 / 1 = <<1/1=1>>1
+The best bucket gives three points because 3 > 2
+The most she can earn in the final game is 15 because 5 x 3 = <<5*3=15>>15
+The most she can score overall is 38 because 8 + 15 + 15 = <<8+15+15=38>>38
+#### 38
+Question: In a room, there are various toys: 5 red cars, 3 action figures, and a doll. The doll cost as much as 3 action figures and one red car cost $4. How much are all toys worth, of an action figure costs $5?","Answer: 
+
+The doll is equal to 3 action figures, so it is worth 3 x $5 = $15.
+
+An action figure costs $5, so 3 action figures are worth 3 x $5 = $15.
+
+The 5 red cars are worth 5 x $4 = $20.
+
+Adding the value of all the toys, we get $15 (doll) + $15 (action figures) + $20 (red cars) = $50.
+
+Therefore, all the toys are worth $50.","Three actions figures are worth 3 * 5 = $<<3*5=15>>15, as much as the doll.
+The red cars are worth 5 * 4 = $<<5*4=20>>20.
+So all toys are worth 20 + 15 + 15 = $<<20+15+15=50>>50.
+#### 50"
+Math,1b,"Question: The math teacher would be happy if the class average test score was at least 85. There are 10 students in the class, 5 of which scored a 92 on the test and 4 of which scored an 80. What would the last student have to score to at least make the teacher happy?
+Answer: 5 students scored a combined total of 92 * 5 = <<92*5=460>>460
+4 additional students scored a combined total of 80 * 4 = <<80*4=320>>320
+9 students therefore scored a combined total of 460 + 320 = <<460+320=780>>780
+We know the total combined score for 10 students must be at least 85 average * 10 students = <<85*10=850>>850
+Therefore, the last student must score at least an 850 - 780 = <<850-780=70>>70
+#### 70
+Question: Kyle bakes 60 cookies and 32 brownies. Kyle eats 2 cookies and 2 brownies. Kyle's mom eats 1 cookie and 2 brownies. If Kyle sells a cookie for $1 and a brownie for $1.50, how much money will Kyle make if he sells all of his baked goods?
+Answer: Kyle and his mom eat a total of 2 + 1 = <<2+1=3>>3 cookies
+Kyle and his mom eat a total of 2 + 2 = <<2+2=4>>4 brownies
+The number of cookies remaining is 60 - 3 = <<60-3=57>>57 cookies
+The number of brownies remaining is 32 - 4 = <<32-4=28>>28 brownies
+From selling his cookies, Kyle makes 57 * $1 = $<<57*1=57>>57
+From selling his brownies, Kyle makes 28 * $1.50 = $<<28*1.5=42>>42
+Kyle would make a total of $57 + $42 = $<<57+42=99>>99 if he sold all of his baked goods
+#### 99
+Question: In a room, there are various toys: 5 red cars, 3 action figures, and a doll. The doll cost as much as 3 action figures and one red car cost $4. How much are all toys worth, of an action figure costs $5?","Answer: 
+The doll costs 3 * $5 = $15
+One red car costs $4, so 5 red cars cost 5 * $4 = $20
+In total, the toys are worth $15 (doll) + $20 (red cars) + $15 (action figures) = $<<15+20+15=50>>50.
+Therefore, all the toys are worth $50.","Three actions figures are worth 3 * 5 = $<<3*5=15>>15, as much as the doll.
+The red cars are worth 5 * 4 = $<<5*4=20>>20.
+So all toys are worth 20 + 15 + 15 = $<<20+15+15=50>>50.
+#### 50"
+Math,2,"Question: Emily can type 60 words per minute. How many hours does it take her to write 10,800 words?
+Answer: In an hour, Emily can type 60 words *60 minutes = <<60*60=3600>>3600 words.
+It will take her 10800/3600 = <<10800/3600=3>>3 hours to write 10800 words.
+#### 3
+Question: Tiffany attends the carnival and her mother gives her $3 to play on a ring toss game. For every red bucket she tosses a ring into she gets 2 points. For every green bucket she gets three points. She gets zero points for a miss. Every play costs her $1 and she gets 5 rings per play. She's played two games and already gotten 4 red buckets and 5 green buckets. If she plays until her money runs out, what is the most total points she can get for all three games?
+Answer: She has 8 points from red buckets because 4 x 2 = <<4*2=8>>8
+She has 15 points from green buckets because 5 x 3 = <<5*3=15>>15
+She has spent $2 on games because 2 x 1 = <<2*1=2>>2
+She has $1 left to spend because 3 - 2 = <<3-2=1>>1
+She can play one more game because 1 / 1 = <<1/1=1>>1
+The best bucket gives three points because 3 > 2
+The most she can earn in the final game is 15 because 5 x 3 = <<5*3=15>>15
+The most she can score overall is 38 because 8 + 15 + 15 = <<8+15+15=38>>38
+#### 38
+Question: The math teacher would be happy if the class average test score was at least 85. There are 10 students in the class, 5 of which scored a 92 on the test and 4 of which scored an 80. What would the last student have to score to at least make the teacher happy?
+Answer: 5 students scored a combined total of 92 * 5 = <<92*5=460>>460
+4 additional students scored a combined total of 80 * 4 = <<80*4=320>>320
+9 students therefore scored a combined total of 460 + 320 = <<460+320=780>>780
+We know the total combined score for 10 students must be at least 85 average * 10 students = <<85*10=850>>850
+Therefore, the last student must score at least an 850 - 780 = <<850-780=70>>70
+#### 70
+Question: Kyle bakes 60 cookies and 32 brownies. Kyle eats 2 cookies and 2 brownies. Kyle's mom eats 1 cookie and 2 brownies. If Kyle sells a cookie for $1 and a brownie for $1.50, how much money will Kyle make if he sells all of his baked goods?
+Answer: Kyle and his mom eat a total of 2 + 1 = <<2+1=3>>3 cookies
+Kyle and his mom eat a total of 2 + 2 = <<2+2=4>>4 brownies
+The number of cookies remaining is 60 - 3 = <<60-3=57>>57 cookies
+The number of brownies remaining is 32 - 4 = <<32-4=28>>28 brownies
+From selling his cookies, Kyle makes 57 * $1 = $<<57*1=57>>57
+From selling his brownies, Kyle makes 28 * $1.50 = $<<28*1.5=42>>42
+Kyle would make a total of $57 + $42 = $<<57+42=99>>99 if he sold all of his baked goods
+#### 99
+Question: In a room, there are various toys: 5 red cars, 3 action figures, and a doll. The doll cost as much as 3 action figures and one red car cost $4. How much are all toys worth, of an action figure costs $5?","Answer: The doll is equal in value to 3 action figures, which means it costs 3 * $5 = $15.
+Since one red car costs $4, the 5 red cars cost 5 * $4 = $20.
+Therefore, the total cost of all toys in the room is $15 + $20 + 3 * $5 = $<<15+20+3*5=50>>50.","Three actions figures are worth 3 * 5 = $<<3*5=15>>15, as much as the doll.
+The red cars are worth 5 * 4 = $<<5*4=20>>20.
+So all toys are worth 20 + 15 + 15 = $<<20+15+15=50>>50.
+#### 50"
+Math,3a,"Question: Emily can type 60 words per minute. How many hours does it take her to write 10,800 words?
+Answer: In an hour, Emily can type 60 words *60 minutes = <<60*60=3600>>3600 words.
+It will take her 10800/3600 = <<10800/3600=3>>3 hours to write 10800 words.
+#### 3
+Question: Tiffany attends the carnival and her mother gives her $3 to play on a ring toss game. For every red bucket she tosses a ring into she gets 2 points. For every green bucket she gets three points. She gets zero points for a miss. Every play costs her $1 and she gets 5 rings per play. She's played two games and already gotten 4 red buckets and 5 green buckets. If she plays until her money runs out, what is the most total points she can get for all three games?
+Answer: She has 8 points from red buckets because 4 x 2 = <<4*2=8>>8
+She has 15 points from green buckets because 5 x 3 = <<5*3=15>>15
+She has spent $2 on games because 2 x 1 = <<2*1=2>>2
+She has $1 left to spend because 3 - 2 = <<3-2=1>>1
+She can play one more game because 1 / 1 = <<1/1=1>>1
+The best bucket gives three points because 3 > 2
+The most she can earn in the final game is 15 because 5 x 3 = <<5*3=15>>15
+The most she can score overall is 38 because 8 + 15 + 15 = <<8+15+15=38>>38
+#### 38
+Question: Emily can type 60 words per minute. How many hours does it take her to write 10,800 words?
+Answer: In an hour, Emily can type 60 words *60 minutes = <<60*60=3600>>3600 words.
+It will take her 10800/3600 = <<10800/3600=3>>3 hours to write 10800 words.
+#### 3
+Question: Tiffany attends the carnival and her mother gives her $3 to play on a ring toss game. For every red bucket she tosses a ring into she gets 2 points. For every green bucket she gets three points. She gets zero points for a miss. Every play costs her $1 and she gets 5 rings per play. She's played two games and already gotten 4 red buckets and 5 green buckets. If she plays until her money runs out, what is the most total points she can get for all three games?
+Answer: She has 8 points from red buckets because 4 x 2 = <<4*2=8>>8
+She has 15 points from green buckets because 5 x 3 = <<5*3=15>>15
+She has spent $2 on games because 2 x 1 = <<2*1=2>>2
+She has $1 left to spend because 3 - 2 = <<3-2=1>>1
+She can play one more game because 1 / 1 = <<1/1=1>>1
+The best bucket gives three points because 3 > 2
+The most she can earn in the final game is 15 because 5 x 3 = <<5*3=15>>15
+The most she can score overall is 38 because 8 + 15 + 15 = <<8+15+15=38>>38
+#### 38
+Question: In a room, there are various toys: 5 red cars, 3 action figures, and a doll. The doll cost as much as 3 action figures and one red car cost $4. How much are all toys worth, of an action figure costs $5?","Answer: The doll costs 3 x 5 = $15.
+The total cost of the red cars is 5 x 4 = $20.
+The total cost of all the toys is 15 + 20 + 3 x 5 = $60.","Three actions figures are worth 3 * 5 = $<<3*5=15>>15, as much as the doll.
+The red cars are worth 5 * 4 = $<<5*4=20>>20.
+So all toys are worth 20 + 15 + 15 = $<<20+15+15=50>>50.
+#### 50"
+Math,3b,"Question: The math teacher would be happy if the class average test score was at least 85. There are 10 students in the class, 5 of which scored a 92 on the test and 4 of which scored an 80. What would the last student have to score to at least make the teacher happy?
+Answer: 5 students scored a combined total of 92 * 5 = <<92*5=460>>460
+4 additional students scored a combined total of 80 * 4 = <<80*4=320>>320
+9 students therefore scored a combined total of 460 + 320 = <<460+320=780>>780
+We know the total combined score for 10 students must be at least 85 average * 10 students = <<85*10=850>>850
+Therefore, the last student must score at least an 850 - 780 = <<850-780=70>>70
+#### 70
+Question: Kyle bakes 60 cookies and 32 brownies. Kyle eats 2 cookies and 2 brownies. Kyle's mom eats 1 cookie and 2 brownies. If Kyle sells a cookie for $1 and a brownie for $1.50, how much money will Kyle make if he sells all of his baked goods?
+Answer: Kyle and his mom eat a total of 2 + 1 = <<2+1=3>>3 cookies
+Kyle and his mom eat a total of 2 + 2 = <<2+2=4>>4 brownies
+The number of cookies remaining is 60 - 3 = <<60-3=57>>57 cookies
+The number of brownies remaining is 32 - 4 = <<32-4=28>>28 brownies
+From selling his cookies, Kyle makes 57 * $1 = $<<57*1=57>>57
+From selling his brownies, Kyle makes 28 * $1.50 = $<<28*1.5=42>>42
+Kyle would make a total of $57 + $42 = $<<57+42=99>>99 if he sold all of his baked goods
+#### 99
+Question: The math teacher would be happy if the class average test score was at least 85. There are 10 students in the class, 5 of which scored a 92 on the test and 4 of which scored an 80. What would the last student have to score to at least make the teacher happy?
+Answer: 5 students scored a combined total of 92 * 5 = <<92*5=460>>460
+4 additional students scored a combined total of 80 * 4 = <<80*4=320>>320
+9 students therefore scored a combined total of 460 + 320 = <<460+320=780>>780
+We know the total combined score for 10 students must be at least 85 average * 10 students = <<85*10=850>>850
+Therefore, the last student must score at least an 850 - 780 = <<850-780=70>>70
+#### 70
+Question: Kyle bakes 60 cookies and 32 brownies. Kyle eats 2 cookies and 2 brownies. Kyle's mom eats 1 cookie and 2 brownies. If Kyle sells a cookie for $1 and a brownie for $1.50, how much money will Kyle make if he sells all of his baked goods?
+Answer: Kyle and his mom eat a total of 2 + 1 = <<2+1=3>>3 cookies
+Kyle and his mom eat a total of 2 + 2 = <<2+2=4>>4 brownies
+The number of cookies remaining is 60 - 3 = <<60-3=57>>57 cookies
+The number of brownies remaining is 32 - 4 = <<32-4=28>>28 brownies
+From selling his cookies, Kyle makes 57 * $1 = $<<57*1=57>>57
+From selling his brownies, Kyle makes 28 * $1.50 = $<<28*1.5=42>>42
+Kyle would make a total of $57 + $42 = $<<57+42=99>>99 if he sold all of his baked goods
+#### 99
+Question: In a room, there are various toys: 5 red cars, 3 action figures, and a doll. The doll cost as much as 3 action figures and one red car cost $4. How much are all toys worth, of an action figure costs $5?","Answer: The doll cost 3 action figures, so it costs 3 * $5 = $15.
+One red car costs $4, so 5 red cars cost 5 * $4 = $<<5*4=20>>20.
+Thus, all toys are worth $15 + $20 = $<<15+20=35>>35.","Three actions figures are worth 3 * 5 = $<<3*5=15>>15, as much as the doll.
+The red cars are worth 5 * 4 = $<<5*4=20>>20.
+So all toys are worth 20 + 15 + 15 = $<<20+15+15=50>>50.
+#### 50"
+CSQA,0,"Question: You can share files with someone if you have a connection to a what?
+A: freeway
+B: radio
+C: wires
+D: computer network
+E: electrical circuit",D: computer network,D
+CSQA,1a,"Question: A single grain of sand can cause what to make a precious stone?
+A: clam
+B: itchy
+C: eye
+D: bathing suit
+E: beach
+Answer: A
+Question: John put  salt on his salad.  Mary suggested that he should spritz what on it, instead?
+A: peppers
+B: black pepper
+C: vinegar
+D: cure meat
+E: adding flavor
+Answer: C
+Question: You can share files with someone if you have a connection to a what?
+A: freeway
+B: radio
+C: wires
+D: computer network
+E: electrical circuit",Answer: D,D
+CSQA,1b,"Question: Some people add up to something, but others put in no effort in their lives ending with what result?
+A: amount to nothing
+B: talking loudly
+C: mathematics
+D: learn from each other
+E: state facts
+Answer: A
+Question: Sean was in a trouble.  His clothes were not high quality. In fact, they were very what?
+A: bad taste
+B: crummy
+C: poor workmanship
+D: cheap
+E: ripped
+Answer: D
+Question: You can share files with someone if you have a connection to a what?
+A: freeway
+B: radio
+C: wires
+D: computer network
+E: electrical circuit",Answer: D,D
+CSQA,2,"Question: A single grain of sand can cause what to make a precious stone?
+A: clam
+B: itchy
+C: eye
+D: bathing suit
+E: beach
+Answer: A
+Question: John put  salt on his salad.  Mary suggested that he should spritz what on it, instead?
+A: peppers
+B: black pepper
+C: vinegar
+D: cure meat
+E: adding flavor
+Answer: C
+Question: Some people add up to something, but others put in no effort in their lives ending with what result?
+A: amount to nothing
+B: talking loudly
+C: mathematics
+D: learn from each other
+E: state facts
+Answer: A
+Question: Sean was in a trouble.  His clothes were not high quality. In fact, they were very what?
+A: bad taste
+B: crummy
+C: poor workmanship
+D: cheap
+E: ripped
+Answer: D
+Question: You can share files with someone if you have a connection to a what?
+A: freeway
+B: radio
+C: wires
+D: computer network
+E: electrical circuit",Answer: D,D
+CSQA,3a,"Question: A single grain of sand can cause what to make a precious stone?
+A: clam
+B: itchy
+C: eye
+D: bathing suit
+E: beach
+Answer: A
+Question: John put  salt on his salad.  Mary suggested that he should spritz what on it, instead?
+A: peppers
+B: black pepper
+C: vinegar
+D: cure meat
+E: adding flavor
+Answer: C
+Question: A single grain of sand can cause what to make a precious stone?
+A: clam
+B: itchy
+C: eye
+D: bathing suit
+E: beach
+Answer: A
+Question: John put  salt on his salad.  Mary suggested that he should spritz what on it, instead?
+A: peppers
+B: black pepper
+C: vinegar
+D: cure meat
+E: adding flavor
+Answer: C
+Question: You can share files with someone if you have a connection to a what?
+A: freeway
+B: radio
+C: wires
+D: computer network
+E: electrical circuit",Answer: D,D
+CSQA,3b,"Question: Some people add up to something, but others put in no effort in their lives ending with what result?
+A: amount to nothing
+B: talking loudly
+C: mathematics
+D: learn from each other
+E: state facts
+Answer: A
+Question: Sean was in a trouble.  His clothes were not high quality. In fact, they were very what?
+A: bad taste
+B: crummy
+C: poor workmanship
+D: cheap
+E: ripped
+Answer: D
+Question: Some people add up to something, but others put in no effort in their lives ending with what result?
+A: amount to nothing
+B: talking loudly
+C: mathematics
+D: learn from each other
+E: state facts
+Answer: A
+Question: Sean was in a trouble.  His clothes were not high quality. In fact, they were very what?
+A: bad taste
+B: crummy
+C: poor workmanship
+D: cheap
+E: ripped
+Answer: D
+Question: You can share files with someone if you have a connection to a what?
+A: freeway
+B: radio
+C: wires
+D: computer network
+E: electrical circuit",Answer: D,D
+StrategyQA,0,"Question: Gray whales are, on average, 39ft long. The average above ground pool is 10-33ft in diameter. 
+Would a Gray Whale fit easily in an above ground pool?","No, a Gray Whale would not fit easily in an above ground pool because they are typically larger than the average diameter of an above ground pool, which ranges from 10-33ft. Gray whales are on average 39ft long, making them too large to comfortably fit in a typical above ground pool.",False
+StrategyQA,1a,"Question: Brad Peyton directed the movie San Andreas San Andreas is an earthquake disaster film Seismology is the science of earthquakes and related phenomena
+Did Brad Peyton need to know about seismology?
+Answer: True
+Question: Motor vehicles were in use by the 1890s Oscar Wilde lived until 1900
+Could Oscar Wilde have operated a motor vehicle?
+Answer: True
+Question: Gray whales are, on average, 39ft long. The average above ground pool is 10-33ft in diameter. 
+Would a Gray Whale fit easily in an above ground pool?",Answer: False,False
+StrategyQA,1b,"Question: Wandering albatross can travel at least 15,000 km (just under 10,000 miles) over the sea before returning to land.  It's 4766 miles or 7670 km from Bucharest to New York City.
+Could a wandering albatross fly from Bucharest to New York City without a rest?
+Answer: True
+Question: Vegans do not consume animals or products derived from animals. The traditional Paella recipe includes rabbit and chicken as two of the ingredients.
+Would a vegan eat a traditional Paella dish?
+Answer: False
+Question: Gray whales are, on average, 39ft long. The average above ground pool is 10-33ft in diameter. 
+Would a Gray Whale fit easily in an above ground pool?",Answer: False,False
+StrategyQA,2,"Question: Brad Peyton directed the movie San Andreas San Andreas is an earthquake disaster film Seismology is the science of earthquakes and related phenomena
+Did Brad Peyton need to know about seismology?
+Answer: True
+Question: Motor vehicles were in use by the 1890s Oscar Wilde lived until 1900
+Could Oscar Wilde have operated a motor vehicle?
+Answer: True
+Question: Wandering albatross can travel at least 15,000 km (just under 10,000 miles) over the sea before returning to land.  It's 4766 miles or 7670 km from Bucharest to New York City.
+Could a wandering albatross fly from Bucharest to New York City without a rest?
+Answer: True
+Question: Vegans do not consume animals or products derived from animals. The traditional Paella recipe includes rabbit and chicken as two of the ingredients.
+Would a vegan eat a traditional Paella dish?
+Answer: False
+Question: Gray whales are, on average, 39ft long. The average above ground pool is 10-33ft in diameter. 
+Would a Gray Whale fit easily in an above ground pool?",Answer: False,False
+StrategyQA,3a,"Question: Brad Peyton directed the movie San Andreas San Andreas is an earthquake disaster film Seismology is the science of earthquakes and related phenomena
+Did Brad Peyton need to know about seismology?
+Answer: True
+Question: Motor vehicles were in use by the 1890s Oscar Wilde lived until 1900
+Could Oscar Wilde have operated a motor vehicle?
+Answer: True
+Question: Brad Peyton directed the movie San Andreas San Andreas is an earthquake disaster film Seismology is the science of earthquakes and related phenomena
+Did Brad Peyton need to know about seismology?
+Answer: True
+Question: Motor vehicles were in use by the 1890s Oscar Wilde lived until 1900
+Could Oscar Wilde have operated a motor vehicle?
+Answer: True
+Question: Gray whales are, on average, 39ft long. The average above ground pool is 10-33ft in diameter. 
+Would a Gray Whale fit easily in an above ground pool?",Answer: False,False
+StrategyQA,3b,"Question: Wandering albatross can travel at least 15,000 km (just under 10,000 miles) over the sea before returning to land.  It's 4766 miles or 7670 km from Bucharest to New York City.
+Could a wandering albatross fly from Bucharest to New York City without a rest?
+Answer: True
+Question: Vegans do not consume animals or products derived from animals. The traditional Paella recipe includes rabbit and chicken as two of the ingredients.
+Would a vegan eat a traditional Paella dish?
+Answer: False
+Question: Wandering albatross can travel at least 15,000 km (just under 10,000 miles) over the sea before returning to land.  It's 4766 miles or 7670 km from Bucharest to New York City.
+Could a wandering albatross fly from Bucharest to New York City without a rest?
+Answer: True
+Question: Vegans do not consume animals or products derived from animals. The traditional Paella recipe includes rabbit and chicken as two of the ingredients.
+Would a vegan eat a traditional Paella dish?
+Answer: False
+Question: Gray whales are, on average, 39ft long. The average above ground pool is 10-33ft in diameter. 
+Would a Gray Whale fit easily in an above ground pool?",Answer: False,False
+SayCan,0,Question: Provide step-by-step instructions for the following task: Can you bring all the snacks on the table?,"1. Identify all the snacks that need to be brought to the table.
+2. Gather any necessary tools or containers to transport the snacks to the table, such as a tray or a basket.
+3. Start by picking up one snack item at a time, placing it on the tray or in the basket.
+4. Repeat this process until all the snacks have been collected.
+5. Carefully carry the tray or basket to the table.
+6. Place the snacks on the table in an organized and appealing manner.
+7. Step back and admire your work, ensuring all the snacks are in place and ready to be enjoyed.","1. go to the table, 2. pick up the energy bar, 3. bring it to you, 4. put down the energy bar, 5. go to the table, 6. pick up the multigrain chips, 7. bring it to you, 8. put down the multigrain chips, 9. go to the table, 10. done."
+SayCan,1a,"Question: Provide step-by-step instructions for the following task: Bring me a fruit, a soda, and a bag of chips for lunch.
+Answer: 1. find the bag of chips, 2. pick up the bag of chips, 3. bring it to you, 4. put down the bag of chips, 5. find a coke can, 6. pick up the coke can, 7. bring it to you, 8. put down the coke can, 9. find a banana, 10. pick up the banana, 11. bring it to you, 12. put down the banana, 13. done
+Question: Provide step-by-step instructions for the following task: Could you get me something caffeinated?
+Answer: 1. find a coke, 2. pick up the coke, 3. bring it to you, 4. put down the coke, 5. done.
+Question: Provide step-by-step instructions for the following task: Can you bring all the snacks on the table?","Answer: 1. Identify all the snacks on the table, 2. Begin picking up each snack one by one, 3. Bring each snack to you, 4. Place each snack down in front of you, 5. Repeat until all snacks on the table have been brought to you, 6. Done.","1. go to the table, 2. pick up the energy bar, 3. bring it to you, 4. put down the energy bar, 5. go to the table, 6. pick up the multigrain chips, 7. bring it to you, 8. put down the multigrain chips, 9. go to the table, 10. done."
+SayCan,1b,"Question: Provide step-by-step instructions for the following task: How would you navigate to the table?
+Answer: 1. go to the table, 2. done
+Question: Provide step-by-step instructions for the following task: Can you bring me a spicy snack?
+Answer: 1. find a jalapeno chips, 2. pick up the jalapeno chips, 3. bring it to you, 4. put down the jalapeno chips, 5. done.
+Question: Provide step-by-step instructions for the following task: Can you bring all the snacks on the table?","Answer: 1. Identify all the snacks on the table, 2. Pick up one snack at a time, 3. Bring each snack to the designated location, 4. Repeat until all snacks on the table have been brought over, 5. Confirm that all snacks have been moved, 6. Task complete.","1. go to the table, 2. pick up the energy bar, 3. bring it to you, 4. put down the energy bar, 5. go to the table, 6. pick up the multigrain chips, 7. bring it to you, 8. put down the multigrain chips, 9. go to the table, 10. done."
+SayCan,2,"Question: Provide step-by-step instructions for the following task: Bring me a fruit, a soda, and a bag of chips for lunch.
+Answer: 1. find the bag of chips, 2. pick up the bag of chips, 3. bring it to you, 4. put down the bag of chips, 5. find a coke can, 6. pick up the coke can, 7. bring it to you, 8. put down the coke can, 9. find a banana, 10. pick up the banana, 11. bring it to you, 12. put down the banana, 13. done
+Question: Provide step-by-step instructions for the following task: Could you get me something caffeinated?
+Answer: 1. find a coke, 2. pick up the coke, 3. bring it to you, 4. put down the coke, 5. done.
+Question: Provide step-by-step instructions for the following task: How would you navigate to the table?
+Answer: 1. go to the table, 2. done
+Question: Provide step-by-step instructions for the following task: Can you bring me a spicy snack?
+Answer: 1. find a jalapeno chips, 2. pick up the jalapeno chips, 3. bring it to you, 4. put down the jalapeno chips, 5. done.
+Question: Provide step-by-step instructions for the following task: Can you bring all the snacks on the table?","Answer: 1. identify all snacks on the table, 2. pick up each snack one by one, 3. bring each snack to you, 4. place each snack down, 5. repeat steps 2-4 until all snacks are brought to you, 6. confirm that all snacks have been brought to you, 7. done.","1. go to the table, 2. pick up the energy bar, 3. bring it to you, 4. put down the energy bar, 5. go to the table, 6. pick up the multigrain chips, 7. bring it to you, 8. put down the multigrain chips, 9. go to the table, 10. done."
+SayCan,3a,"Question: Provide step-by-step instructions for the following task: Bring me a fruit, a soda, and a bag of chips for lunch.
+Answer: 1. find the bag of chips, 2. pick up the bag of chips, 3. bring it to you, 4. put down the bag of chips, 5. find a coke can, 6. pick up the coke can, 7. bring it to you, 8. put down the coke can, 9. find a banana, 10. pick up the banana, 11. bring it to you, 12. put down the banana, 13. done
+Question: Provide step-by-step instructions for the following task: Could you get me something caffeinated?
+Answer: 1. find a coke, 2. pick up the coke, 3. bring it to you, 4. put down the coke, 5. done.
+Question: Provide step-by-step instructions for the following task: Bring me a fruit, a soda, and a bag of chips for lunch.
+Answer: 1. find the bag of chips, 2. pick up the bag of chips, 3. bring it to you, 4. put down the bag of chips, 5. find a coke can, 6. pick up the coke can, 7. bring it to you, 8. put down the coke can, 9. find a banana, 10. pick up the banana, 11. bring it to you, 12. put down the banana, 13. done
+Question: Provide step-by-step instructions for the following task: Could you get me something caffeinated?
+Answer: 1. find a coke, 2. pick up the coke, 3. bring it to you, 4. put down the coke, 5. done.
+Question: Provide step-by-step instructions for the following task: Can you bring all the snacks on the table?","Answer: 1. Locate the snacks on the table, 2. Gather them all together, 3. Pick up the snacks, 4. Bring them to you, 5. Place the snacks in front of you, 6. Step back and allow you to enjoy your snacks.","1. go to the table, 2. pick up the energy bar, 3. bring it to you, 4. put down the energy bar, 5. go to the table, 6. pick up the multigrain chips, 7. bring it to you, 8. put down the multigrain chips, 9. go to the table, 10. done."
+SayCan,3b,"Question: Provide step-by-step instructions for the following task: How would you navigate to the table?
+Answer: 1. go to the table, 2. done
+Question: Provide step-by-step instructions for the following task: Can you bring me a spicy snack?
+Answer: 1. find a jalapeno chips, 2. pick up the jalapeno chips, 3. bring it to you, 4. put down the jalapeno chips, 5. done.
+Question: Provide step-by-step instructions for the following task: How would you navigate to the table?
+Answer: 1. go to the table, 2. done
+Question: Provide step-by-step instructions for the following task: Can you bring me a spicy snack?
+Answer: 1. find a jalapeno chips, 2. pick up the jalapeno chips, 3. bring it to you, 4. put down the jalapeno chips, 5. done.
+Question: Provide step-by-step instructions for the following task: Can you bring all the snacks on the table?","Answer: 1. Identify all the snacks on the table, 2. one by one, pick up each snack from the table, 3. carry them to the designated location, 4. place each snack down at the designated location, 5. repeat steps 2-4 for each snack on the table, 6. once all snacks are successfully transferred, task is complete.","1. go to the table, 2. pick up the energy bar, 3. bring it to you, 4. put down the energy bar, 5. go to the table, 6. pick up the multigrain chips, 7. bring it to you, 8. put down the multigrain chips, 9. go to the table, 10. done."

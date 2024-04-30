@@ -1,0 +1,404 @@
+Task Class,Case,Prompt,Response,Expected
+Math,0,"Question: John is very tired. He decides to take a nap, but he wants to finish his homework first. If John has 20 minutes of math homework, 40 minutes of reading homework, and 20 minutes of history homework and 3 hours before he has to eat dinner, how many minutes does John have to nap?","To find out how many minutes John has to nap, we need to first calculate the total time he needs to finish his homework.
+
+Total time for homework = 20 minutes (math) + 40 minutes (reading) + 20 minutes (history)
+Total time for homework = 80 minutes
+
+Now, we need to subtract this total time from the time John has before dinner to find out how many minutes he has to nap.
+
+Time before dinner = 3 hours = 3 hours x 60 minutes/hour = 180 minutes
+
+Minutes John has to nap = Time before dinner - Total time for homework
+Minutes John has to nap = 180 minutes - 80 minutes
+Minutes John has to nap = 100 minutes
+
+Therefore, John has 100 minutes to nap before he has to eat dinner.","John has to spend 20+40+20 = <<20+40+20=80>>80 minutes on homework.
+John has 3 hours*60 minutes= <<3*60=180>>180 minutes before dinner.
+Thus, John has 180-80=<<180-80=100>>100 minutes for his nap.
+#### 100"
+Math,1a,"Question: Jordan read 120 French novels last holiday. His brother Alexandre read 1/10 of what Jordan read. How many more novels did Jordan read than Alexandre?
+Answer: Alexandre read 120 * 1/10 = <<120*1/10=12>>12 novels.
+So, Jordan read 120 - 12 = <<120-12=108>>108 novels more than Alexandre.
+#### 108
+Question: Francie saves up her allowance for several weeks. She receives an allowance of $5 a week for 8 weeks. Then her dad raises her allowance, and she receives $6 a week for 6 weeks. Francie uses half of the money to buy new clothes. With the remaining money, she buys a video game that costs $35. How much money does Francie have remaining after buying the video game?
+Answer: When her allowance is $5 a week, Francie gets a total of $5 * 8 = $<<5*8=40>>40
+When her allowance is $6 a week, Francie gets a total of $6 * 6 = $<<6*6=36>>36
+The total amount of money Francie gets is $40 + $36 = $<<40+36=76>>76
+After purchasing new clothes, she has $76 / 2 = $<<76/2=38>>38 remaining
+After buying the video game, Francie has $38 - $35 = $<<38-35=3>>3 remaining
+#### 3
+Question: John is very tired. He decides to take a nap, but he wants to finish his homework first. If John has 20 minutes of math homework, 40 minutes of reading homework, and 20 minutes of history homework and 3 hours before he has to eat dinner, how many minutes does John have to nap?","Answer: John has a total of 20 + 40 + 20 = <<20+40+20=80>>80 minutes of homework.
+Three hours is equal to 3 * 60 = <<3*60=180>>180 minutes.
+Subtracting the time for homework, John has 180 - 80 = <<180-80=100>>100 minutes to nap.
+#### 100","John has to spend 20+40+20 = <<20+40+20=80>>80 minutes on homework.
+John has 3 hours*60 minutes= <<3*60=180>>180 minutes before dinner.
+Thus, John has 180-80=<<180-80=100>>100 minutes for his nap.
+#### 100"
+Math,1b,"Question: Gabe has three songs on his playlist. “The Best Day” is 3 minutes, “Raise the Roof” is 2 minutes, and “Rap Battle” is 3 minutes. How many times can Gabe listen to his entire playlist on the 40-minute ride to his wrestling match?
+Answer: If you add all the songs together, Gabe’s playlist is 3 + 2 + 3 = <<3+2+3=8>>8 minutes long.
+During the 40-minute car ride, Gabe can listen to his 8-minute playlist 40 / 8 = <<40/8=5>>5 times.
+#### 5
+Question: Carly is making burgers for a neighborhood BBQ. Each burger needs to be cooked for 4 minutes on each side. Carly can fit 5 burgers on the grill at once. If half her 30 guests want 2 burgers and the other half each want 1, how long will it take Carly to cook all the burgers?
+Answer: First find half the number of guests at Carly's party: 30 guests / 2 = <<30/2=15>>15 guests
+Then multiply that number by 2 for the number of burgers half the guests want: 15 guests * 2 burgers/guest = <<15*2=30>>30 burgers
+Then add the 15 burgers for the 15 guests who only want 1 to find the total number of burgers: 30 burgers + 15 burgers = 45 burgers
+Then divide the total number of burgers by the number of burgers Carly can cook at once to find the number of batches she cooks: 45 burgers / 5 burgers/batch = <<45/5=9>>9 batches
+Then multiply the number of sides per burger by the cooking time per side to find each burger's total cook time: 4 minutes/side * 2 sides = <<4*2=8>>8 minutes
+Finally, multiply each batch's cook time by the number of batches to find the total cook time: 8 minutes/batch * 9 batches = <<8*9=72>>72 minutes
+#### 72
+Question: John is very tired. He decides to take a nap, but he wants to finish his homework first. If John has 20 minutes of math homework, 40 minutes of reading homework, and 20 minutes of history homework and 3 hours before he has to eat dinner, how many minutes does John have to nap?","Answer: First, add up the time John needs to finish all his homework: 20 minutes + 40 minutes + 20 minutes = 80 minutes
+Next, convert 3 hours into minutes: 3 hours * 60 minutes/hour = 180 minutes
+Subtract the time needed to finish homework from the total time John has before dinner: 180 minutes - 80 minutes = <<180-80=100>>100 minutes
+Therefore, John has 100 minutes to take a nap before he has to eat dinner.","John has to spend 20+40+20 = <<20+40+20=80>>80 minutes on homework.
+John has 3 hours*60 minutes= <<3*60=180>>180 minutes before dinner.
+Thus, John has 180-80=<<180-80=100>>100 minutes for his nap.
+#### 100"
+Math,2,"Question: Jordan read 120 French novels last holiday. His brother Alexandre read 1/10 of what Jordan read. How many more novels did Jordan read than Alexandre?
+Answer: Alexandre read 120 * 1/10 = <<120*1/10=12>>12 novels.
+So, Jordan read 120 - 12 = <<120-12=108>>108 novels more than Alexandre.
+#### 108
+Question: Francie saves up her allowance for several weeks. She receives an allowance of $5 a week for 8 weeks. Then her dad raises her allowance, and she receives $6 a week for 6 weeks. Francie uses half of the money to buy new clothes. With the remaining money, she buys a video game that costs $35. How much money does Francie have remaining after buying the video game?
+Answer: When her allowance is $5 a week, Francie gets a total of $5 * 8 = $<<5*8=40>>40
+When her allowance is $6 a week, Francie gets a total of $6 * 6 = $<<6*6=36>>36
+The total amount of money Francie gets is $40 + $36 = $<<40+36=76>>76
+After purchasing new clothes, she has $76 / 2 = $<<76/2=38>>38 remaining
+After buying the video game, Francie has $38 - $35 = $<<38-35=3>>3 remaining
+#### 3
+Question: Gabe has three songs on his playlist. “The Best Day” is 3 minutes, “Raise the Roof” is 2 minutes, and “Rap Battle” is 3 minutes. How many times can Gabe listen to his entire playlist on the 40-minute ride to his wrestling match?
+Answer: If you add all the songs together, Gabe’s playlist is 3 + 2 + 3 = <<3+2+3=8>>8 minutes long.
+During the 40-minute car ride, Gabe can listen to his 8-minute playlist 40 / 8 = <<40/8=5>>5 times.
+#### 5
+Question: Carly is making burgers for a neighborhood BBQ. Each burger needs to be cooked for 4 minutes on each side. Carly can fit 5 burgers on the grill at once. If half her 30 guests want 2 burgers and the other half each want 1, how long will it take Carly to cook all the burgers?
+Answer: First find half the number of guests at Carly's party: 30 guests / 2 = <<30/2=15>>15 guests
+Then multiply that number by 2 for the number of burgers half the guests want: 15 guests * 2 burgers/guest = <<15*2=30>>30 burgers
+Then add the 15 burgers for the 15 guests who only want 1 to find the total number of burgers: 30 burgers + 15 burgers = 45 burgers
+Then divide the total number of burgers by the number of burgers Carly can cook at once to find the number of batches she cooks: 45 burgers / 5 burgers/batch = <<45/5=9>>9 batches
+Then multiply the number of sides per burger by the cooking time per side to find each burger's total cook time: 4 minutes/side * 2 sides = <<4*2=8>>8 minutes
+Finally, multiply each batch's cook time by the number of batches to find the total cook time: 8 minutes/batch * 9 batches = <<8*9=72>>72 minutes
+#### 72
+Question: John is very tired. He decides to take a nap, but he wants to finish his homework first. If John has 20 minutes of math homework, 40 minutes of reading homework, and 20 minutes of history homework and 3 hours before he has to eat dinner, how many minutes does John have to nap?","Answer: First, calculate the total time John's homework will take by adding the time for each subject: 20 minutes + 40 minutes + 20 minutes = <<20+40+20=80>>80 minutes
+Convert the 3 hours before dinner to minutes: 3 hours * 60 minutes/hour = <<3*60=180>>180 minutes
+Subtract the time John's homework will take from the time before dinner to find the time he has to nap: 180 minutes - 80 minutes = <<180-80=100>>100 minutes
+John has 100 minutes to nap before he has to eat dinner.","John has to spend 20+40+20 = <<20+40+20=80>>80 minutes on homework.
+John has 3 hours*60 minutes= <<3*60=180>>180 minutes before dinner.
+Thus, John has 180-80=<<180-80=100>>100 minutes for his nap.
+#### 100"
+Math,3a,"Question: Jordan read 120 French novels last holiday. His brother Alexandre read 1/10 of what Jordan read. How many more novels did Jordan read than Alexandre?
+Answer: Alexandre read 120 * 1/10 = <<120*1/10=12>>12 novels.
+So, Jordan read 120 - 12 = <<120-12=108>>108 novels more than Alexandre.
+#### 108
+Question: Francie saves up her allowance for several weeks. She receives an allowance of $5 a week for 8 weeks. Then her dad raises her allowance, and she receives $6 a week for 6 weeks. Francie uses half of the money to buy new clothes. With the remaining money, she buys a video game that costs $35. How much money does Francie have remaining after buying the video game?
+Answer: When her allowance is $5 a week, Francie gets a total of $5 * 8 = $<<5*8=40>>40
+When her allowance is $6 a week, Francie gets a total of $6 * 6 = $<<6*6=36>>36
+The total amount of money Francie gets is $40 + $36 = $<<40+36=76>>76
+After purchasing new clothes, she has $76 / 2 = $<<76/2=38>>38 remaining
+After buying the video game, Francie has $38 - $35 = $<<38-35=3>>3 remaining
+#### 3
+Question: Jordan read 120 French novels last holiday. His brother Alexandre read 1/10 of what Jordan read. How many more novels did Jordan read than Alexandre?
+Answer: Alexandre read 120 * 1/10 = <<120*1/10=12>>12 novels.
+So, Jordan read 120 - 12 = <<120-12=108>>108 novels more than Alexandre.
+#### 108
+Question: Francie saves up her allowance for several weeks. She receives an allowance of $5 a week for 8 weeks. Then her dad raises her allowance, and she receives $6 a week for 6 weeks. Francie uses half of the money to buy new clothes. With the remaining money, she buys a video game that costs $35. How much money does Francie have remaining after buying the video game?
+Answer: When her allowance is $5 a week, Francie gets a total of $5 * 8 = $<<5*8=40>>40
+When her allowance is $6 a week, Francie gets a total of $6 * 6 = $<<6*6=36>>36
+The total amount of money Francie gets is $40 + $36 = $<<40+36=76>>76
+After purchasing new clothes, she has $76 / 2 = $<<76/2=38>>38 remaining
+After buying the video game, Francie has $38 - $35 = $<<38-35=3>>3 remaining
+#### 3
+Question: John is very tired. He decides to take a nap, but he wants to finish his homework first. If John has 20 minutes of math homework, 40 minutes of reading homework, and 20 minutes of history homework and 3 hours before he has to eat dinner, how many minutes does John have to nap?","First, let's add up all the time John needs to finish his homework:
+20 minutes + 40 minutes + 20 minutes = 80 minutes
+
+Next, convert 3 hours to minutes:
+3 hours * 60 minutes/hour = 180 minutes
+
+Now, subtract the time needed for homework from the total time before dinner:
+180 minutes - 80 minutes = 100 minutes
+
+So, John has 100 minutes to nap before he has to eat dinner.","John has to spend 20+40+20 = <<20+40+20=80>>80 minutes on homework.
+John has 3 hours*60 minutes= <<3*60=180>>180 minutes before dinner.
+Thus, John has 180-80=<<180-80=100>>100 minutes for his nap.
+#### 100"
+Math,3b,"Question: Gabe has three songs on his playlist. “The Best Day” is 3 minutes, “Raise the Roof” is 2 minutes, and “Rap Battle” is 3 minutes. How many times can Gabe listen to his entire playlist on the 40-minute ride to his wrestling match?
+Answer: If you add all the songs together, Gabe’s playlist is 3 + 2 + 3 = <<3+2+3=8>>8 minutes long.
+During the 40-minute car ride, Gabe can listen to his 8-minute playlist 40 / 8 = <<40/8=5>>5 times.
+#### 5
+Question: Carly is making burgers for a neighborhood BBQ. Each burger needs to be cooked for 4 minutes on each side. Carly can fit 5 burgers on the grill at once. If half her 30 guests want 2 burgers and the other half each want 1, how long will it take Carly to cook all the burgers?
+Answer: First find half the number of guests at Carly's party: 30 guests / 2 = <<30/2=15>>15 guests
+Then multiply that number by 2 for the number of burgers half the guests want: 15 guests * 2 burgers/guest = <<15*2=30>>30 burgers
+Then add the 15 burgers for the 15 guests who only want 1 to find the total number of burgers: 30 burgers + 15 burgers = 45 burgers
+Then divide the total number of burgers by the number of burgers Carly can cook at once to find the number of batches she cooks: 45 burgers / 5 burgers/batch = <<45/5=9>>9 batches
+Then multiply the number of sides per burger by the cooking time per side to find each burger's total cook time: 4 minutes/side * 2 sides = <<4*2=8>>8 minutes
+Finally, multiply each batch's cook time by the number of batches to find the total cook time: 8 minutes/batch * 9 batches = <<8*9=72>>72 minutes
+#### 72
+Question: Gabe has three songs on his playlist. “The Best Day” is 3 minutes, “Raise the Roof” is 2 minutes, and “Rap Battle” is 3 minutes. How many times can Gabe listen to his entire playlist on the 40-minute ride to his wrestling match?
+Answer: If you add all the songs together, Gabe’s playlist is 3 + 2 + 3 = <<3+2+3=8>>8 minutes long.
+During the 40-minute car ride, Gabe can listen to his 8-minute playlist 40 / 8 = <<40/8=5>>5 times.
+#### 5
+Question: Carly is making burgers for a neighborhood BBQ. Each burger needs to be cooked for 4 minutes on each side. Carly can fit 5 burgers on the grill at once. If half her 30 guests want 2 burgers and the other half each want 1, how long will it take Carly to cook all the burgers?
+Answer: First find half the number of guests at Carly's party: 30 guests / 2 = <<30/2=15>>15 guests
+Then multiply that number by 2 for the number of burgers half the guests want: 15 guests * 2 burgers/guest = <<15*2=30>>30 burgers
+Then add the 15 burgers for the 15 guests who only want 1 to find the total number of burgers: 30 burgers + 15 burgers = 45 burgers
+Then divide the total number of burgers by the number of burgers Carly can cook at once to find the number of batches she cooks: 45 burgers / 5 burgers/batch = <<45/5=9>>9 batches
+Then multiply the number of sides per burger by the cooking time per side to find each burger's total cook time: 4 minutes/side * 2 sides = <<4*2=8>>8 minutes
+Finally, multiply each batch's cook time by the number of batches to find the total cook time: 8 minutes/batch * 9 batches = <<8*9=72>>72 minutes
+#### 72
+Question: John is very tired. He decides to take a nap, but he wants to finish his homework first. If John has 20 minutes of math homework, 40 minutes of reading homework, and 20 minutes of history homework and 3 hours before he has to eat dinner, how many minutes does John have to nap?","Answer: First, add up the time John needs to finish his homework: 20 minutes + 40 minutes + 20 minutes = 80 minutes
+Next, convert 3 hours to minutes: 3 hours * 60 minutes/hour = 180 minutes
+Subtract the time John needs to finish his homework from the total time before dinner: 180 minutes - 80 minutes = 100 minutes
+Therefore, John has 100 minutes to nap before he has to eat dinner.","John has to spend 20+40+20 = <<20+40+20=80>>80 minutes on homework.
+John has 3 hours*60 minutes= <<3*60=180>>180 minutes before dinner.
+Thus, John has 180-80=<<180-80=100>>100 minutes for his nap.
+#### 100"
+CSQA,0,"Question: Learning languages is difficult.  Even in a full immersion environment you're likely to make mistakes, mistakes will cause misinterpretation, which will be uncomfortable, which will cause what?,
+A: better communication
+B: overthinking
+C: frustration
+D: misunderstandings
+E: headaches",C: frustration,C
+CSQA,1a,"Question: Sam didn't expect to see something like that underground.  He used his hand to shade his eyes from what?
+A: direct sunlight
+B: brightness
+C: moon
+D: full sunlight
+E: bright light
+Answer: E
+Question: When a snake prefers warm, sunny weather, where would it likely want to live?
+A: pet shops
+B: new mexico
+C: white house
+D: arctic
+E: garden of eden
+Answer: B
+Question: Learning languages is difficult.  Even in a full immersion environment you're likely to make mistakes, mistakes will cause misinterpretation, which will be uncomfortable, which will cause what?,
+A: better communication
+B: overthinking
+C: frustration
+D: misunderstandings
+E: headaches",Answer: C,C
+CSQA,1b,"Question: John saw a pair of disembodied lips floating towards him.  He was hypnotized by their what?
+A: teeth
+B: body
+C: human face
+D: motion
+E: faces
+Answer: D
+Question: The mother tried to call the babysitter, but the babysitter panicked and did what?
+A: park
+B: communicate
+C: hang up
+D: answer
+E: respond
+Answer: C
+Question: Learning languages is difficult.  Even in a full immersion environment you're likely to make mistakes, mistakes will cause misinterpretation, which will be uncomfortable, which will cause what?,
+A: better communication
+B: overthinking
+C: frustration
+D: misunderstandings
+E: headaches",Answer: C,C
+CSQA,2,"Question: Sam didn't expect to see something like that underground.  He used his hand to shade his eyes from what?
+A: direct sunlight
+B: brightness
+C: moon
+D: full sunlight
+E: bright light
+Answer: E
+Question: When a snake prefers warm, sunny weather, where would it likely want to live?
+A: pet shops
+B: new mexico
+C: white house
+D: arctic
+E: garden of eden
+Answer: B
+Question: John saw a pair of disembodied lips floating towards him.  He was hypnotized by their what?
+A: teeth
+B: body
+C: human face
+D: motion
+E: faces
+Answer: D
+Question: The mother tried to call the babysitter, but the babysitter panicked and did what?
+A: park
+B: communicate
+C: hang up
+D: answer
+E: respond
+Answer: C
+Question: Learning languages is difficult.  Even in a full immersion environment you're likely to make mistakes, mistakes will cause misinterpretation, which will be uncomfortable, which will cause what?,
+A: better communication
+B: overthinking
+C: frustration
+D: misunderstandings
+E: headaches",Answer: C,C
+CSQA,3a,"Question: Sam didn't expect to see something like that underground.  He used his hand to shade his eyes from what?
+A: direct sunlight
+B: brightness
+C: moon
+D: full sunlight
+E: bright light
+Answer: E
+Question: When a snake prefers warm, sunny weather, where would it likely want to live?
+A: pet shops
+B: new mexico
+C: white house
+D: arctic
+E: garden of eden
+Answer: B
+Question: Sam didn't expect to see something like that underground.  He used his hand to shade his eyes from what?
+A: direct sunlight
+B: brightness
+C: moon
+D: full sunlight
+E: bright light
+Answer: E
+Question: When a snake prefers warm, sunny weather, where would it likely want to live?
+A: pet shops
+B: new mexico
+C: white house
+D: arctic
+E: garden of eden
+Answer: B
+Question: Learning languages is difficult.  Even in a full immersion environment you're likely to make mistakes, mistakes will cause misinterpretation, which will be uncomfortable, which will cause what?,
+A: better communication
+B: overthinking
+C: frustration
+D: misunderstandings
+E: headaches",Answer: C,C
+CSQA,3b,"Question: John saw a pair of disembodied lips floating towards him.  He was hypnotized by their what?
+A: teeth
+B: body
+C: human face
+D: motion
+E: faces
+Answer: D
+Question: The mother tried to call the babysitter, but the babysitter panicked and did what?
+A: park
+B: communicate
+C: hang up
+D: answer
+E: respond
+Answer: C
+Question: John saw a pair of disembodied lips floating towards him.  He was hypnotized by their what?
+A: teeth
+B: body
+C: human face
+D: motion
+E: faces
+Answer: D
+Question: The mother tried to call the babysitter, but the babysitter panicked and did what?
+A: park
+B: communicate
+C: hang up
+D: answer
+E: respond
+Answer: C
+Question: Learning languages is difficult.  Even in a full immersion environment you're likely to make mistakes, mistakes will cause misinterpretation, which will be uncomfortable, which will cause what?,
+A: better communication
+B: overthinking
+C: frustration
+D: misunderstandings
+E: headaches",Answer: C,C
+StrategyQA,0,"Question: Bengal cats are carnivores. Pancakes contain no meat. Carnivores eat only meat to survive. 
+Can a Bengal cat survive eating only pancakes?","No, a Bengal cat cannot survive eating only pancakes. As carnivores, Bengal cats have specific dietary requirements that can only be met through a diet that includes meat. Pancakes do not provide the essential nutrients that a Bengal cat needs to survive and thrive.",False
+StrategyQA,1a,"Question: Pirates were known for having poor teeth and deteriorated gums. Gum deterioration and tooth decay is a symptom of scurvy. Scurvy is caused by a lack of dietary vitamin C.
+Did pirates who had scurvy need more Vitamin C?
+Answer: True
+Question: Superman was killed by the villain Doomsday in Superman #75. Robin is killed by The Joker in the Batman comics.
+Did villain that killed Superman murder Robin?
+Answer: False
+Question: Bengal cats are carnivores. Pancakes contain no meat. Carnivores eat only meat to survive. 
+Can a Bengal cat survive eating only pancakes?",False,False
+StrategyQA,1b,"Question: The films of Christopher Nolan have grossed around 4.7 billion at the box office. The GDP of Cyprus was 24.96 billion in 2018.
+Could Christopher Nolan's movies finance Cyprus's entire GDP?
+Answer: False
+Question: The Mexican Revolution took place over a period of ten years Barron Trump is 14 years old
+Could Barron Trump have lived through the Mexican Revolution?
+Answer: True
+Question: Bengal cats are carnivores. Pancakes contain no meat. Carnivores eat only meat to survive. 
+Can a Bengal cat survive eating only pancakes?",Answer: False. Bengal cats require a diet that consists of meat to meet their nutritional needs. Eating only pancakes would not provide them with the necessary nutrients to survive.,False
+StrategyQA,2,"Question: Pirates were known for having poor teeth and deteriorated gums. Gum deterioration and tooth decay is a symptom of scurvy. Scurvy is caused by a lack of dietary vitamin C.
+Did pirates who had scurvy need more Vitamin C?
+Answer: True
+Question: Superman was killed by the villain Doomsday in Superman #75. Robin is killed by The Joker in the Batman comics.
+Did villain that killed Superman murder Robin?
+Answer: False
+Question: The films of Christopher Nolan have grossed around 4.7 billion at the box office. The GDP of Cyprus was 24.96 billion in 2018.
+Could Christopher Nolan's movies finance Cyprus's entire GDP?
+Answer: False
+Question: The Mexican Revolution took place over a period of ten years Barron Trump is 14 years old
+Could Barron Trump have lived through the Mexican Revolution?
+Answer: True
+Question: Bengal cats are carnivores. Pancakes contain no meat. Carnivores eat only meat to survive. 
+Can a Bengal cat survive eating only pancakes?",False,False
+StrategyQA,3a,"Question: Pirates were known for having poor teeth and deteriorated gums. Gum deterioration and tooth decay is a symptom of scurvy. Scurvy is caused by a lack of dietary vitamin C.
+Did pirates who had scurvy need more Vitamin C?
+Answer: True
+Question: Superman was killed by the villain Doomsday in Superman #75. Robin is killed by The Joker in the Batman comics.
+Did villain that killed Superman murder Robin?
+Answer: False
+Question: Pirates were known for having poor teeth and deteriorated gums. Gum deterioration and tooth decay is a symptom of scurvy. Scurvy is caused by a lack of dietary vitamin C.
+Did pirates who had scurvy need more Vitamin C?
+Answer: True
+Question: Superman was killed by the villain Doomsday in Superman #75. Robin is killed by The Joker in the Batman comics.
+Did villain that killed Superman murder Robin?
+Answer: False
+Question: Bengal cats are carnivores. Pancakes contain no meat. Carnivores eat only meat to survive. 
+Can a Bengal cat survive eating only pancakes?",Answer: False,False
+StrategyQA,3b,"Question: The films of Christopher Nolan have grossed around 4.7 billion at the box office. The GDP of Cyprus was 24.96 billion in 2018.
+Could Christopher Nolan's movies finance Cyprus's entire GDP?
+Answer: False
+Question: The Mexican Revolution took place over a period of ten years Barron Trump is 14 years old
+Could Barron Trump have lived through the Mexican Revolution?
+Answer: True
+Question: The films of Christopher Nolan have grossed around 4.7 billion at the box office. The GDP of Cyprus was 24.96 billion in 2018.
+Could Christopher Nolan's movies finance Cyprus's entire GDP?
+Answer: False
+Question: The Mexican Revolution took place over a period of ten years Barron Trump is 14 years old
+Could Barron Trump have lived through the Mexican Revolution?
+Answer: True
+Question: Bengal cats are carnivores. Pancakes contain no meat. Carnivores eat only meat to survive. 
+Can a Bengal cat survive eating only pancakes?",Answer: False,False
+SayCan,0,Question: Provide step-by-step instructions for the following task: Bring me a fruit that is not an apple.,"Step 1: Go to a grocery store or market that sells a variety of fruits.
+Step 2: Walk to the produce section where the fruits are displayed.
+Step 3: Look for fruits other than apples, such as bananas, oranges, grapes, mangoes, etc.
+Step 4: Select a fruit that is not an apple that you would like to bring.
+Step 5: Place the fruit in a reusable bag or basket.
+Step 6: Pay for the fruit at the checkout counter.
+Step 7: Bring the fruit to the person who requested it.
+Step 8: Present the fruit and confirm that it is not an apple.","1. find an orange, 2. pick up the orange, 3. bring it to you, 4. put down the orange, 5. done"
+SayCan,1a,"Question: Provide step-by-step instructions for the following task: Could you get me something caffeinated?
+Answer: 1. find a redbull, 2. pick up the redbull, 3. bring it to you, 4. put down the redbull, 5. done.
+Question: Provide step-by-step instructions for the following task: Find the table.
+Answer: 1. go to the table, 2. done
+Question: Provide step-by-step instructions for the following task: Bring me a fruit that is not an apple.","Answer: 1. Go to a fruit basket or store with a variety of fruits, 2. Look for a fruit that is not an apple such as a banana, orange, pear, etc., 3. Pick up the fruit, 4. Bring it to you, 5. Done.","1. find an orange, 2. pick up the orange, 3. bring it to you, 4. put down the orange, 5. done"
+SayCan,1b,"Question: Provide step-by-step instructions for the following task: How would you grab the coke can?
+Answer: 1. pick up the coke can, 2. done
+Question: Provide step-by-step instructions for the following task: I’d like a clear soda.
+Answer: 1. find a 7up, 2. pick up the 7up, 3. bring it to you, 4. put down the 7up, 5. done
+Question: Provide step-by-step instructions for the following task: Bring me a fruit that is not an apple.","Answer: 1. Find a fruit that is not an apple (e.g. banana, orange, pear), 2. pick up the fruit, 3. bring it to you, 4. hand you the fruit, 5. done","1. find an orange, 2. pick up the orange, 3. bring it to you, 4. put down the orange, 5. done"
+SayCan,2,"Question: Provide step-by-step instructions for the following task: Could you get me something caffeinated?
+Answer: 1. find a redbull, 2. pick up the redbull, 3. bring it to you, 4. put down the redbull, 5. done.
+Question: Provide step-by-step instructions for the following task: Find the table.
+Answer: 1. go to the table, 2. done
+Question: Provide step-by-step instructions for the following task: How would you grab the coke can?
+Answer: 1. pick up the coke can, 2. done
+Question: Provide step-by-step instructions for the following task: I’d like a clear soda.
+Answer: 1. find a 7up, 2. pick up the 7up, 3. bring it to you, 4. put down the 7up, 5. done
+Question: Provide step-by-step instructions for the following task: Bring me a fruit that is not an apple.","Answer: 1. Find a banana, orange, pear, or any other fruit that is not an apple, 2. Pick up the fruit, 3. Bring it to you, 4. Put down the fruit, 5. Done.","1. find an orange, 2. pick up the orange, 3. bring it to you, 4. put down the orange, 5. done"
+SayCan,3a,"Question: Provide step-by-step instructions for the following task: Could you get me something caffeinated?
+Answer: 1. find a redbull, 2. pick up the redbull, 3. bring it to you, 4. put down the redbull, 5. done.
+Question: Provide step-by-step instructions for the following task: Find the table.
+Answer: 1. go to the table, 2. done
+Question: Provide step-by-step instructions for the following task: Could you get me something caffeinated?
+Answer: 1. find a redbull, 2. pick up the redbull, 3. bring it to you, 4. put down the redbull, 5. done.
+Question: Provide step-by-step instructions for the following task: Find the table.
+Answer: 1. go to the table, 2. done
+Question: Provide step-by-step instructions for the following task: Bring me a fruit that is not an apple.","Answer: 1. Look for fruits other than an apple, such as a banana or an orange, 2. Pick up the fruit, 3. Bring it to you, 4. Hand you the fruit, 5. Done.","1. find an orange, 2. pick up the orange, 3. bring it to you, 4. put down the orange, 5. done"
+SayCan,3b,"Question: Provide step-by-step instructions for the following task: How would you grab the coke can?
+Answer: 1. pick up the coke can, 2. done
+Question: Provide step-by-step instructions for the following task: I’d like a clear soda.
+Answer: 1. find a 7up, 2. pick up the 7up, 3. bring it to you, 4. put down the 7up, 5. done
+Question: Provide step-by-step instructions for the following task: How would you grab the coke can?
+Answer: 1. pick up the coke can, 2. done
+Question: Provide step-by-step instructions for the following task: I’d like a clear soda.
+Answer: 1. find a 7up, 2. pick up the 7up, 3. bring it to you, 4. put down the 7up, 5. done
+Question: Provide step-by-step instructions for the following task: Bring me a fruit that is not an apple.","Answer: 1. Locate a fruit that is not an apple, such as an orange or a banana, 2. Pick up the fruit, 3. Bring the fruit to the person requesting it, 4. Hand the fruit to the person, 5. Task complete.","1. find an orange, 2. pick up the orange, 3. bring it to you, 4. put down the orange, 5. done"

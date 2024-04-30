@@ -1,0 +1,403 @@
+Task Class,Case,Prompt,Response,Expected
+Math,0,"Question: Michael is traveling on the interstate at an average speed of 50km/hr (taking into account all the necessary stops for gas, relaxation, etc.). If he goes on like this for 3 days, and the distance between Alaska and Texas is 6000 km, what percentage of this distance has he covered?","First, let's calculate how far Michael travels in 3 days:
+
+Speed = 50 km/hr
+Time = 3 days = 3 days x 24 hours/day = 72 hours
+
+Distance = Speed x Time
+Distance = 50 km/hr x 72 hr
+Distance = 3600 km
+
+Now, let's calculate the percentage of the distance between Alaska and Texas that Michael has covered:
+
+Percentage Covered = (Distance Covered / Total Distance) x 100%
+Percentage Covered = (3600 km / 6000 km) x 100%
+Percentage Covered = 0.60 x 100%
+Percentage Covered = 60%
+
+Therefore, Michael has covered 60% of the distance between Alaska and Texas in 3 days.","There are 24 hours in each day, so he has been traveling for a total of 3*24 = <<24*3=72>>72 hours
+At a rate of 50km/hr he has covered 50*72 = <<50*72=3600>>3600 km
+3600km as a percentage of 6000km is (3600/6000)*100% = 60%
+#### 60"
+Math,1a,"Question: Keegan is in school for 7.5 hours each day and he is taking 7 classes. He has history and chemistry classes for a combined total of 1.5 hours. How many minutes does Keegan spend in one of his other classes on average?
+Answer: He has 7-2=<<7-2=5>>5 other classes
+7.5 hours - 1.5 hours = <<7.5-1.5=6>>6 hours
+6 hours = <<6*60=360>>360 minutes
+360/5 = <<360/5=72>>72 minutes
+Keegan spends 72 minutes in one of his other classes.
+#### 72
+Question: Bogan laid out 10 maggots for her pet beetle. The beetle only ate 1 and Bogan had to throw out the rest. Later that day, she tried feeding again and the beetle ate 3. If Bogan served 20 maggots in total, how many did she attempt to feed the beetle the second time?
+Answer: Bogan served a total of <<20=20>>20 maggots
+Bogan gave the beetles 10 maggots in the first feeding
+Bogan gave the beetles 20-10=<<20-10=10>>10 maggots in the second feeding
+#### 10
+Question: Michael is traveling on the interstate at an average speed of 50km/hr (taking into account all the necessary stops for gas, relaxation, etc.). If he goes on like this for 3 days, and the distance between Alaska and Texas is 6000 km, what percentage of this distance has he covered?","Answer: 
+
+Michael travels at 50 km/hr for 3 days, so he covers a total distance of 50 km/hr * 24 hr/day * 3 days = 3600 km.
+
+Therefore, Michael has covered 3600 km / 6000 km = 0.6 or 60% of the total distance between Alaska and Texas.","There are 24 hours in each day, so he has been traveling for a total of 3*24 = <<24*3=72>>72 hours
+At a rate of 50km/hr he has covered 50*72 = <<50*72=3600>>3600 km
+3600km as a percentage of 6000km is (3600/6000)*100% = 60%
+#### 60"
+Math,1b,"Question: If Joe spent 1/9 of his pocket money of $450 on chocolates and 2/5 on fruits, how much money does he have left?
+Answer: Joe spent 1/9 * $450 = $<<1/9*450=50>>50 on chocolate.
+Joe spent 2/5 * $450 = $<<2/5*450=180>>180 on fruits.
+Joe has $450 - $50 - $180 = $<<450-50-180=220>>220 left.
+#### 220
+Question: For Halloween, Taquon, Mack and Jafari put their candy together and they had 418 pieces of candy. If Taquon and Mack each had 171 pieces of candy, how many pieces of candy did Jafari start with?
+Answer: Taquon + Mack = 2 * 171 = 342 pieces
+418 - 342 = <<418-342=76>>76 pieces
+Jafari started with 76 pieces of candy.
+#### 76
+Question: Michael is traveling on the interstate at an average speed of 50km/hr (taking into account all the necessary stops for gas, relaxation, etc.). If he goes on like this for 3 days, and the distance between Alaska and Texas is 6000 km, what percentage of this distance has he covered?","Answer: In 3 days, Michael travels for 3 * 50 = <<3*50=150>>150 km.
+Therefore, he covers 150 * 3 = <<150*3=450>>450 km in total.
+The percentage he has covered is (450 / 6000) * 100% = 7.5%.
+#### 7.5%","There are 24 hours in each day, so he has been traveling for a total of 3*24 = <<24*3=72>>72 hours
+At a rate of 50km/hr he has covered 50*72 = <<50*72=3600>>3600 km
+3600km as a percentage of 6000km is (3600/6000)*100% = 60%
+#### 60"
+Math,2,"Question: Keegan is in school for 7.5 hours each day and he is taking 7 classes. He has history and chemistry classes for a combined total of 1.5 hours. How many minutes does Keegan spend in one of his other classes on average?
+Answer: He has 7-2=<<7-2=5>>5 other classes
+7.5 hours - 1.5 hours = <<7.5-1.5=6>>6 hours
+6 hours = <<6*60=360>>360 minutes
+360/5 = <<360/5=72>>72 minutes
+Keegan spends 72 minutes in one of his other classes.
+#### 72
+Question: Bogan laid out 10 maggots for her pet beetle. The beetle only ate 1 and Bogan had to throw out the rest. Later that day, she tried feeding again and the beetle ate 3. If Bogan served 20 maggots in total, how many did she attempt to feed the beetle the second time?
+Answer: Bogan served a total of <<20=20>>20 maggots
+Bogan gave the beetles 10 maggots in the first feeding
+Bogan gave the beetles 20-10=<<20-10=10>>10 maggots in the second feeding
+#### 10
+Question: If Joe spent 1/9 of his pocket money of $450 on chocolates and 2/5 on fruits, how much money does he have left?
+Answer: Joe spent 1/9 * $450 = $<<1/9*450=50>>50 on chocolate.
+Joe spent 2/5 * $450 = $<<2/5*450=180>>180 on fruits.
+Joe has $450 - $50 - $180 = $<<450-50-180=220>>220 left.
+#### 220
+Question: For Halloween, Taquon, Mack and Jafari put their candy together and they had 418 pieces of candy. If Taquon and Mack each had 171 pieces of candy, how many pieces of candy did Jafari start with?
+Answer: Taquon + Mack = 2 * 171 = 342 pieces
+418 - 342 = <<418-342=76>>76 pieces
+Jafari started with 76 pieces of candy.
+#### 76
+Question: Michael is traveling on the interstate at an average speed of 50km/hr (taking into account all the necessary stops for gas, relaxation, etc.). If he goes on like this for 3 days, and the distance between Alaska and Texas is 6000 km, what percentage of this distance has he covered?","Answer: In 3 days, Michael travels a total of 3 days * 24 hours = <<3*24=72>>72 hours.
+So, in 3 days, he covers a distance of 72 hours * 50 km/hr = <<72*50=3600>>3600 km.
+Therefore, he has covered 3600 km / 6000 km * 100% = <<3600/6000*100=60>>60% of the distance between Alaska and Texas.","There are 24 hours in each day, so he has been traveling for a total of 3*24 = <<24*3=72>>72 hours
+At a rate of 50km/hr he has covered 50*72 = <<50*72=3600>>3600 km
+3600km as a percentage of 6000km is (3600/6000)*100% = 60%
+#### 60"
+Math,3a,"Question: Keegan is in school for 7.5 hours each day and he is taking 7 classes. He has history and chemistry classes for a combined total of 1.5 hours. How many minutes does Keegan spend in one of his other classes on average?
+Answer: He has 7-2=<<7-2=5>>5 other classes
+7.5 hours - 1.5 hours = <<7.5-1.5=6>>6 hours
+6 hours = <<6*60=360>>360 minutes
+360/5 = <<360/5=72>>72 minutes
+Keegan spends 72 minutes in one of his other classes.
+#### 72
+Question: Bogan laid out 10 maggots for her pet beetle. The beetle only ate 1 and Bogan had to throw out the rest. Later that day, she tried feeding again and the beetle ate 3. If Bogan served 20 maggots in total, how many did she attempt to feed the beetle the second time?
+Answer: Bogan served a total of <<20=20>>20 maggots
+Bogan gave the beetles 10 maggots in the first feeding
+Bogan gave the beetles 20-10=<<20-10=10>>10 maggots in the second feeding
+#### 10
+Question: Keegan is in school for 7.5 hours each day and he is taking 7 classes. He has history and chemistry classes for a combined total of 1.5 hours. How many minutes does Keegan spend in one of his other classes on average?
+Answer: He has 7-2=<<7-2=5>>5 other classes
+7.5 hours - 1.5 hours = <<7.5-1.5=6>>6 hours
+6 hours = <<6*60=360>>360 minutes
+360/5 = <<360/5=72>>72 minutes
+Keegan spends 72 minutes in one of his other classes.
+#### 72
+Question: Bogan laid out 10 maggots for her pet beetle. The beetle only ate 1 and Bogan had to throw out the rest. Later that day, she tried feeding again and the beetle ate 3. If Bogan served 20 maggots in total, how many did she attempt to feed the beetle the second time?
+Answer: Bogan served a total of <<20=20>>20 maggots
+Bogan gave the beetles 10 maggots in the first feeding
+Bogan gave the beetles 20-10=<<20-10=10>>10 maggots in the second feeding
+#### 10
+Question: Michael is traveling on the interstate at an average speed of 50km/hr (taking into account all the necessary stops for gas, relaxation, etc.). If he goes on like this for 3 days, and the distance between Alaska and Texas is 6000 km, what percentage of this distance has he covered?","Answer: In 3 days, Michael will cover 50km/hr * 24 hrs/day * 3 days = 3600 km
+To find the percentage of the distance covered, we calculate (3600 km / 6000 km) * 100 = 60%
+Michael has covered 60% of the distance between Alaska and Texas.","There are 24 hours in each day, so he has been traveling for a total of 3*24 = <<24*3=72>>72 hours
+At a rate of 50km/hr he has covered 50*72 = <<50*72=3600>>3600 km
+3600km as a percentage of 6000km is (3600/6000)*100% = 60%
+#### 60"
+Math,3b,"Question: If Joe spent 1/9 of his pocket money of $450 on chocolates and 2/5 on fruits, how much money does he have left?
+Answer: Joe spent 1/9 * $450 = $<<1/9*450=50>>50 on chocolate.
+Joe spent 2/5 * $450 = $<<2/5*450=180>>180 on fruits.
+Joe has $450 - $50 - $180 = $<<450-50-180=220>>220 left.
+#### 220
+Question: For Halloween, Taquon, Mack and Jafari put their candy together and they had 418 pieces of candy. If Taquon and Mack each had 171 pieces of candy, how many pieces of candy did Jafari start with?
+Answer: Taquon + Mack = 2 * 171 = 342 pieces
+418 - 342 = <<418-342=76>>76 pieces
+Jafari started with 76 pieces of candy.
+#### 76
+Question: If Joe spent 1/9 of his pocket money of $450 on chocolates and 2/5 on fruits, how much money does he have left?
+Answer: Joe spent 1/9 * $450 = $<<1/9*450=50>>50 on chocolate.
+Joe spent 2/5 * $450 = $<<2/5*450=180>>180 on fruits.
+Joe has $450 - $50 - $180 = $<<450-50-180=220>>220 left.
+#### 220
+Question: For Halloween, Taquon, Mack and Jafari put their candy together and they had 418 pieces of candy. If Taquon and Mack each had 171 pieces of candy, how many pieces of candy did Jafari start with?
+Answer: Taquon + Mack = 2 * 171 = 342 pieces
+418 - 342 = <<418-342=76>>76 pieces
+Jafari started with 76 pieces of candy.
+#### 76
+Question: Michael is traveling on the interstate at an average speed of 50km/hr (taking into account all the necessary stops for gas, relaxation, etc.). If he goes on like this for 3 days, and the distance between Alaska and Texas is 6000 km, what percentage of this distance has he covered?","Answer: In 3 days, Michael covers a distance of 3 * 50 = 150 km.
+Therefore, he covers 150 / 6000 * 100% = <<150/6000*100=2.5>>2.5% of the distance between Alaska and Texas.","There are 24 hours in each day, so he has been traveling for a total of 3*24 = <<24*3=72>>72 hours
+At a rate of 50km/hr he has covered 50*72 = <<50*72=3600>>3600 km
+3600km as a percentage of 6000km is (3600/6000)*100% = 60%
+#### 60"
+CSQA,0,"Question: He wanted a house that was gated off from other places, where should he start looking?
+A: neighborhood
+B: subdivision
+C: city
+D: suburbs
+E: street",B: subdivision,B
+CSQA,1a,"Question: What would answering questions cause if the questions are not interesting?
+A: discussion
+B: getting tired
+C: sharing information
+D: boredom
+E: flatulence
+Answer: D
+Question: What is the closest place to eat when you are not out on the town?
+A: serving drinks
+B: food court
+C: shopping center
+D: own house
+E: downtown
+Answer: D
+Question: He wanted a house that was gated off from other places, where should he start looking?
+A: neighborhood
+B: subdivision
+C: city
+D: suburbs
+E: street",Answer: B,B
+CSQA,1b,"Question: If something is occurring at an altar, what might the occasion be?
+A: praying
+B: temple
+C: church services
+D: ceremony
+E: sanctuary
+Answer: D
+Question: When a play starts in an auditorium, what tends to fade out?
+A: lights
+B: theater
+C: other people
+D: crowd
+E: high school
+Answer: A
+Question: He wanted a house that was gated off from other places, where should he start looking?
+A: neighborhood
+B: subdivision
+C: city
+D: suburbs
+E: street",Answer: B,B
+CSQA,2,"Question: What would answering questions cause if the questions are not interesting?
+A: discussion
+B: getting tired
+C: sharing information
+D: boredom
+E: flatulence
+Answer: D
+Question: What is the closest place to eat when you are not out on the town?
+A: serving drinks
+B: food court
+C: shopping center
+D: own house
+E: downtown
+Answer: D
+Question: If something is occurring at an altar, what might the occasion be?
+A: praying
+B: temple
+C: church services
+D: ceremony
+E: sanctuary
+Answer: D
+Question: When a play starts in an auditorium, what tends to fade out?
+A: lights
+B: theater
+C: other people
+D: crowd
+E: high school
+Answer: A
+Question: He wanted a house that was gated off from other places, where should he start looking?
+A: neighborhood
+B: subdivision
+C: city
+D: suburbs
+E: street",Answer: B,B
+CSQA,3a,"Question: What would answering questions cause if the questions are not interesting?
+A: discussion
+B: getting tired
+C: sharing information
+D: boredom
+E: flatulence
+Answer: D
+Question: What is the closest place to eat when you are not out on the town?
+A: serving drinks
+B: food court
+C: shopping center
+D: own house
+E: downtown
+Answer: D
+Question: What would answering questions cause if the questions are not interesting?
+A: discussion
+B: getting tired
+C: sharing information
+D: boredom
+E: flatulence
+Answer: D
+Question: What is the closest place to eat when you are not out on the town?
+A: serving drinks
+B: food court
+C: shopping center
+D: own house
+E: downtown
+Answer: D
+Question: He wanted a house that was gated off from other places, where should he start looking?
+A: neighborhood
+B: subdivision
+C: city
+D: suburbs
+E: street",Answer: B,B
+CSQA,3b,"Question: If something is occurring at an altar, what might the occasion be?
+A: praying
+B: temple
+C: church services
+D: ceremony
+E: sanctuary
+Answer: D
+Question: When a play starts in an auditorium, what tends to fade out?
+A: lights
+B: theater
+C: other people
+D: crowd
+E: high school
+Answer: A
+Question: If something is occurring at an altar, what might the occasion be?
+A: praying
+B: temple
+C: church services
+D: ceremony
+E: sanctuary
+Answer: D
+Question: When a play starts in an auditorium, what tends to fade out?
+A: lights
+B: theater
+C: other people
+D: crowd
+E: high school
+Answer: A
+Question: He wanted a house that was gated off from other places, where should he start looking?
+A: neighborhood
+B: subdivision
+C: city
+D: suburbs
+E: street",Answer: B,B
+StrategyQA,0,"Question: Peach trees bloom in the spring. Andromeda is visible in the fall.
+Will you see peach blossoms and Andromeda at the same time?","No, peach trees bloom in the spring, typically between March and May, while Andromeda is visible in the fall, around September to November. Therefore, you would not see peach blossoms and Andromeda at the same time.",False
+StrategyQA,1a,"Question: My home is a location on earth where I live.  Latitude and Longitude are geographic coordinate systems that identify east/west and north/south locations. Specific Latitude and Longitude coordinates can be used to pinpoint specific locations.  Every point on the earth has a corresponding latitude and longitude coordinate. 
+Can I find my home with latitude and longitude?
+Answer: True
+Question: Leipzig is derived from the Slavic word Lipsk Lipsk means ""settlement where the linden trees stand"" Linden trees are deciduous trees
+Is the tree species that the name Leipzig refers to an evergeen tree?
+Answer: False
+Question: Peach trees bloom in the spring. Andromeda is visible in the fall.
+Will you see peach blossoms and Andromeda at the same time?",Answer: False,False
+StrategyQA,1b,"Question: June of 2020 was marked by a global pandemic. During a global pandemic, large events are not permitted to proceed fully.
+Was the Parc des Princes fully operational during June of 2020?
+Answer: False
+Question: Greek philosopher Chrysippus was said to have died from laughter after seeing a donkey eating figs. There are only a handful of deaths attributed to jokes throughout history including King Martin of Aragon. There are an average of 30 deaths by rat attacks every century. The plague which is sometimes associated with diseased rats killed millions of people.
+Have jokes killed more people than rats in history?
+Answer: False
+Question: Peach trees bloom in the spring. Andromeda is visible in the fall.
+Will you see peach blossoms and Andromeda at the same time?",Answer: False,False
+StrategyQA,2,"Question: My home is a location on earth where I live.  Latitude and Longitude are geographic coordinate systems that identify east/west and north/south locations. Specific Latitude and Longitude coordinates can be used to pinpoint specific locations.  Every point on the earth has a corresponding latitude and longitude coordinate. 
+Can I find my home with latitude and longitude?
+Answer: True
+Question: Leipzig is derived from the Slavic word Lipsk Lipsk means ""settlement where the linden trees stand"" Linden trees are deciduous trees
+Is the tree species that the name Leipzig refers to an evergeen tree?
+Answer: False
+Question: June of 2020 was marked by a global pandemic. During a global pandemic, large events are not permitted to proceed fully.
+Was the Parc des Princes fully operational during June of 2020?
+Answer: False
+Question: Greek philosopher Chrysippus was said to have died from laughter after seeing a donkey eating figs. There are only a handful of deaths attributed to jokes throughout history including King Martin of Aragon. There are an average of 30 deaths by rat attacks every century. The plague which is sometimes associated with diseased rats killed millions of people.
+Have jokes killed more people than rats in history?
+Answer: False
+Question: Peach trees bloom in the spring. Andromeda is visible in the fall.
+Will you see peach blossoms and Andromeda at the same time?",Answer: False,False
+StrategyQA,3a,"Question: My home is a location on earth where I live.  Latitude and Longitude are geographic coordinate systems that identify east/west and north/south locations. Specific Latitude and Longitude coordinates can be used to pinpoint specific locations.  Every point on the earth has a corresponding latitude and longitude coordinate. 
+Can I find my home with latitude and longitude?
+Answer: True
+Question: Leipzig is derived from the Slavic word Lipsk Lipsk means ""settlement where the linden trees stand"" Linden trees are deciduous trees
+Is the tree species that the name Leipzig refers to an evergeen tree?
+Answer: False
+Question: My home is a location on earth where I live.  Latitude and Longitude are geographic coordinate systems that identify east/west and north/south locations. Specific Latitude and Longitude coordinates can be used to pinpoint specific locations.  Every point on the earth has a corresponding latitude and longitude coordinate. 
+Can I find my home with latitude and longitude?
+Answer: True
+Question: Leipzig is derived from the Slavic word Lipsk Lipsk means ""settlement where the linden trees stand"" Linden trees are deciduous trees
+Is the tree species that the name Leipzig refers to an evergeen tree?
+Answer: False
+Question: Peach trees bloom in the spring. Andromeda is visible in the fall.
+Will you see peach blossoms and Andromeda at the same time?",Answer: No,False
+StrategyQA,3b,"Question: June of 2020 was marked by a global pandemic. During a global pandemic, large events are not permitted to proceed fully.
+Was the Parc des Princes fully operational during June of 2020?
+Answer: False
+Question: Greek philosopher Chrysippus was said to have died from laughter after seeing a donkey eating figs. There are only a handful of deaths attributed to jokes throughout history including King Martin of Aragon. There are an average of 30 deaths by rat attacks every century. The plague which is sometimes associated with diseased rats killed millions of people.
+Have jokes killed more people than rats in history?
+Answer: False
+Question: June of 2020 was marked by a global pandemic. During a global pandemic, large events are not permitted to proceed fully.
+Was the Parc des Princes fully operational during June of 2020?
+Answer: False
+Question: Greek philosopher Chrysippus was said to have died from laughter after seeing a donkey eating figs. There are only a handful of deaths attributed to jokes throughout history including King Martin of Aragon. There are an average of 30 deaths by rat attacks every century. The plague which is sometimes associated with diseased rats killed millions of people.
+Have jokes killed more people than rats in history?
+Answer: False
+Question: Peach trees bloom in the spring. Andromeda is visible in the fall.
+Will you see peach blossoms and Andromeda at the same time?",Answer: False,False
+SayCan,0,Question: Provide step-by-step instructions for the following task: How would you lift the coke can?,"1. Begin by first assessing the weight of the coke can to ensure that you are able to lift it safely. A standard 12-ounce coke can weighs approximately 0.4 pounds.
+
+2. Stand in front of the coke can with your feet shoulder-width apart and bend your knees slightly to prepare for the lift.
+
+3. Extend your arms downward and grasp the coke can with one hand, making sure to use a firm grip to avoid dropping it.
+
+4. Engage your core muscles and keep your back straight as you lift the coke can off the surface.
+
+5. Use your legs to power the lift, pushing through your heels and straightening your legs to lift the coke can upward.
+
+6. Lift the coke can to your desired height, keeping it close to your body to maintain control and avoid strain.
+
+7. To lower the coke can back down, reverse the lifting motion by bending your knees and lowering it back to the surface.
+
+8. Place the coke can down gently to avoid spilling its contents or causing any damage.
+
+9. Remember to lift with proper form and technique to avoid injury or strain. If the coke can is too heavy to lift safely on your own, consider asking for assistance or using a lifting aid.","1. pick up the coke can, 2. done"
+SayCan,1a,"Question: Provide step-by-step instructions for the following task: How would you park at the table?
+Answer: 1. go to the table, 2. done
+Question: Provide step-by-step instructions for the following task: Throw away the apple.
+Answer: 1. find an apple, 2. pick up the apple, 3. go to the trash, 4. put down the apple, 5. done
+Question: Provide step-by-step instructions for the following task: How would you lift the coke can?","Answer: 1. Reach for the coke can, 2. Use your fingers to grasp the can around its middle, 3. Lift the can using your arm strength, 4. Be careful not to drop or spill the contents, 5. Done.","1. pick up the coke can, 2. done"
+SayCan,1b,"Question: Provide step-by-step instructions for the following task: Could you get me something caffeinated?
+Answer: 1. find a redbull, 2. pick up the redbull, 3. bring it to you, 4. put down the redbull, 5. done.
+Question: Provide step-by-step instructions for the following task: Bring me everything from the table.
+Answer: 1. go to the table, 2. pick up the energy bar, 3. bring it to you, 4. put down the energy bar, 5. go to the table, 6. pick up the multigrain chips, 7. bring it to you, 8. put down the multigrain chips, 9. done
+Question: Provide step-by-step instructions for the following task: How would you lift the coke can?","Answer: 1. Reach out and grab the coke can with your hand, 2. Lift it up gently using your arm muscles, 3. Hold the coke can at a comfortable height, 4. To set it down, lower your arm while maintaining a firm grip, 5. Place the coke can on a stable surface, 6. Done.","1. pick up the coke can, 2. done"
+SayCan,2,"Question: Provide step-by-step instructions for the following task: How would you park at the table?
+Answer: 1. go to the table, 2. done
+Question: Provide step-by-step instructions for the following task: Throw away the apple.
+Answer: 1. find an apple, 2. pick up the apple, 3. go to the trash, 4. put down the apple, 5. done
+Question: Provide step-by-step instructions for the following task: Could you get me something caffeinated?
+Answer: 1. find a redbull, 2. pick up the redbull, 3. bring it to you, 4. put down the redbull, 5. done.
+Question: Provide step-by-step instructions for the following task: Bring me everything from the table.
+Answer: 1. go to the table, 2. pick up the energy bar, 3. bring it to you, 4. put down the energy bar, 5. go to the table, 6. pick up the multigrain chips, 7. bring it to you, 8. put down the multigrain chips, 9. done
+Question: Provide step-by-step instructions for the following task: How would you lift the coke can?","Answer: 1. Find the coke can, 2. Reach for the coke can, 3. Grasp the coke can with your hand, 4. Lift the coke can off the surface, 5. Hold the coke can steadily, 6. Done.","1. pick up the coke can, 2. done"
+SayCan,3a,"Question: Provide step-by-step instructions for the following task: How would you park at the table?
+Answer: 1. go to the table, 2. done
+Question: Provide step-by-step instructions for the following task: Throw away the apple.
+Answer: 1. find an apple, 2. pick up the apple, 3. go to the trash, 4. put down the apple, 5. done
+Question: Provide step-by-step instructions for the following task: How would you park at the table?
+Answer: 1. go to the table, 2. done
+Question: Provide step-by-step instructions for the following task: Throw away the apple.
+Answer: 1. find an apple, 2. pick up the apple, 3. go to the trash, 4. put down the apple, 5. done
+Question: Provide step-by-step instructions for the following task: How would you lift the coke can?","Answer: 1. Locate the coke can, 2. Reach down and grip the can with your hand, 3. Lift the can upwards, 4. Hold the can securely, 5. Done.","1. pick up the coke can, 2. done"
+SayCan,3b,"Question: Provide step-by-step instructions for the following task: Could you get me something caffeinated?
+Answer: 1. find a redbull, 2. pick up the redbull, 3. bring it to you, 4. put down the redbull, 5. done.
+Question: Provide step-by-step instructions for the following task: Bring me everything from the table.
+Answer: 1. go to the table, 2. pick up the energy bar, 3. bring it to you, 4. put down the energy bar, 5. go to the table, 6. pick up the multigrain chips, 7. bring it to you, 8. put down the multigrain chips, 9. done
+Question: Provide step-by-step instructions for the following task: Could you get me something caffeinated?
+Answer: 1. find a redbull, 2. pick up the redbull, 3. bring it to you, 4. put down the redbull, 5. done.
+Question: Provide step-by-step instructions for the following task: Bring me everything from the table.
+Answer: 1. go to the table, 2. pick up the energy bar, 3. bring it to you, 4. put down the energy bar, 5. go to the table, 6. pick up the multigrain chips, 7. bring it to you, 8. put down the multigrain chips, 9. done
+Question: Provide step-by-step instructions for the following task: How would you lift the coke can?","Answer: 1. Reach out and grab the coke can with your hand, making sure to firmly grip it. 2. Lift the coke can off the surface by using your arm strength. 3. Hold the can steady as you bring it towards you or wherever you need to place it. 4. Slowly release your grip on the can once it is in the desired position.","1. pick up the coke can, 2. done"

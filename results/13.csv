@@ -1,0 +1,410 @@
+Task Class,Case,Prompt,Response,Expected
+Math,0,"Question: Chase and Rider can ride their bikes thrice a day for 5 days; but on two other days, they ride twice the times they do on usual days. How many times do they ride their bikes a week?","On usual days, Chase and Rider ride their bikes thrice a day for 5 days, which makes a total of 3 * 5 = 15 times.
+On two other days, they ride twice the times they do on usual days, so they ride 2 * 3 = 6 times each day on these days.
+So, on these two days, they ride a total of 6 * 2 = 12 times.
+Therefore, in total, they ride their bikes 15 + 12 = 27 times a week.","Each person rides his bike 3 x 5 = <<3*5=15>>15 times for 5 days.
+Together, they ride 15+15 = <<15+15=30>>30 times for five days.
+Each person rides his bike 3 x 2 = <<3*2=6>>6 times for every day of the other two days.
+This means each person rides 6*2 = <<6*2=12>>12 times on each day of the other two days.
+The total for the other two days is 12+12 = <<12+12=24>>24
+For the whole week the together ride 24+30 = <<24+30=54>>54 times
+#### 54"
+Math,1a,"Question: Beth had 150 students in her 10th-grade class.  The following year 30 more students join.  In her final year, 15 students left.  How many students did Beth have in her class at the end of her final year?
+Answer: Beth had 150 students her 10th-grade year, and added 30 more the following for a total of 150+30= <<150+30=180>>180 students
+In her final year, 15 students left her class, bringing her total to 180-15=165 students
+#### 165
+Question: Lola and Dora combined their allowance of $9 each to buy a deck of playing cards for $10, they also bought $2 boxes of stickers and split the boxes evenly. How many packs of stickers did Dora get?
+Answer: Lola and Dora together have $9/person x 2 people = $<<9*2=18>>18
+After buying the deck of cards they had $18 - $10 = $<<18-10=8>>8
+With 8 dollars they bought $8 / $2/pack = <<8/2=4>>4 packs of stickers
+Dora received 4 packs / 2 people = <<4/2=2>>2 packs of stickers
+#### 2
+Question: Chase and Rider can ride their bikes thrice a day for 5 days; but on two other days, they ride twice the times they do on usual days. How many times do they ride their bikes a week?","Answer: 
+
+Chase and Rider ride their bikes thrice a day for 5 days, which means they ride 3 times/day x 5 days = 15 times in total.
+On the two other days, they ride twice the usual amount, so they ride 3 times x 2 = 6 times in total.
+Therefore, in a week, they ride 15 + 6 = <<15+6=21>>21 times. 
+#### 21","Each person rides his bike 3 x 5 = <<3*5=15>>15 times for 5 days.
+Together, they ride 15+15 = <<15+15=30>>30 times for five days.
+Each person rides his bike 3 x 2 = <<3*2=6>>6 times for every day of the other two days.
+This means each person rides 6*2 = <<6*2=12>>12 times on each day of the other two days.
+The total for the other two days is 12+12 = <<12+12=24>>24
+For the whole week the together ride 24+30 = <<24+30=54>>54 times
+#### 54"
+Math,1b,"Question: A Statistics student wants to find out the average daily allowance of the middle school students. According to his survey, 2/3 of the students receive an average of $6 allowance per day while the rest gets an average of $4 a day. If he surveyed 60 students, what is the total amount of money those 60 students get in a day?
+Answer: There are 60 students x 2/3 = <<60*2/3=40>>40 students who have a $6 daily allowance.
+While there are 60 students - 40 students = <<60-40=20>>20 students who have a $4 daily allowance.
+The sum of the allowances of the 40 students who received $6 daily is 40 students x $6/day = $<<40*6=240>>240.
+The sum of the allowances of the 20 students who received $4 daily is 20 students x $4/day = $<<20*4=80>>80.
+The total daily amount of money of those 60 students is $240 + $80 = $<<240+80=320>>320.
+#### 320
+Question: John can read a book 60% faster than his brother.  If his brother takes 8 hours to read a book, how long would it take John to read 3 books?
+Answer: Reading 60% faster means John's brother takes 1+.6=1.6 times as long as John to read
+So John reads a book in 8/1.6=<<8/1.6=5>>5 hours
+So it would take John 5*3=<<5*3=15>>15 hours to read 3 books
+#### 15
+Question: Chase and Rider can ride their bikes thrice a day for 5 days; but on two other days, they ride twice the times they do on usual days. How many times do they ride their bikes a week?","Chase and Rider ride their bikes 3 times a day for 5 days, so they ride 3*5 = <<3*5=15>>15 times in total on those days.
+On the two other days, they ride twice the usual times, so they ride 3*2 = <<3*2=6>>6 times on each of those days.
+Therefore, on those two days, they ride a total of 6*2 = <<6*2=12>>12 times.
+So, in total, they ride 15 + 12 = <<15+12=27>>27 times in a week. 
+Answer: 27","Each person rides his bike 3 x 5 = <<3*5=15>>15 times for 5 days.
+Together, they ride 15+15 = <<15+15=30>>30 times for five days.
+Each person rides his bike 3 x 2 = <<3*2=6>>6 times for every day of the other two days.
+This means each person rides 6*2 = <<6*2=12>>12 times on each day of the other two days.
+The total for the other two days is 12+12 = <<12+12=24>>24
+For the whole week the together ride 24+30 = <<24+30=54>>54 times
+#### 54"
+Math,2,"Question: Beth had 150 students in her 10th-grade class.  The following year 30 more students join.  In her final year, 15 students left.  How many students did Beth have in her class at the end of her final year?
+Answer: Beth had 150 students her 10th-grade year, and added 30 more the following for a total of 150+30= <<150+30=180>>180 students
+In her final year, 15 students left her class, bringing her total to 180-15=165 students
+#### 165
+Question: Lola and Dora combined their allowance of $9 each to buy a deck of playing cards for $10, they also bought $2 boxes of stickers and split the boxes evenly. How many packs of stickers did Dora get?
+Answer: Lola and Dora together have $9/person x 2 people = $<<9*2=18>>18
+After buying the deck of cards they had $18 - $10 = $<<18-10=8>>8
+With 8 dollars they bought $8 / $2/pack = <<8/2=4>>4 packs of stickers
+Dora received 4 packs / 2 people = <<4/2=2>>2 packs of stickers
+#### 2
+Question: A Statistics student wants to find out the average daily allowance of the middle school students. According to his survey, 2/3 of the students receive an average of $6 allowance per day while the rest gets an average of $4 a day. If he surveyed 60 students, what is the total amount of money those 60 students get in a day?
+Answer: There are 60 students x 2/3 = <<60*2/3=40>>40 students who have a $6 daily allowance.
+While there are 60 students - 40 students = <<60-40=20>>20 students who have a $4 daily allowance.
+The sum of the allowances of the 40 students who received $6 daily is 40 students x $6/day = $<<40*6=240>>240.
+The sum of the allowances of the 20 students who received $4 daily is 20 students x $4/day = $<<20*4=80>>80.
+The total daily amount of money of those 60 students is $240 + $80 = $<<240+80=320>>320.
+#### 320
+Question: John can read a book 60% faster than his brother.  If his brother takes 8 hours to read a book, how long would it take John to read 3 books?
+Answer: Reading 60% faster means John's brother takes 1+.6=1.6 times as long as John to read
+So John reads a book in 8/1.6=<<8/1.6=5>>5 hours
+So it would take John 5*3=<<5*3=15>>15 hours to read 3 books
+#### 15
+Question: Chase and Rider can ride their bikes thrice a day for 5 days; but on two other days, they ride twice the times they do on usual days. How many times do they ride their bikes a week?","Answer: On usual days, Chase and Rider ride their bikes thrice a day for 5 days, which is 3 rides/day * 5 days = <<3*5=15>>15 rides.
+On the two other days, they ride twice the usual amount, so they ride 3 rides * 2 = 6 rides each.
+In total, for the two other days, they ride a total of 6 rides * 2 people = <<6*2=12>>12 rides.
+So in total, they ride 15 usual rides + 12 extra rides = <<15+12=27>>27 times a week.","Each person rides his bike 3 x 5 = <<3*5=15>>15 times for 5 days.
+Together, they ride 15+15 = <<15+15=30>>30 times for five days.
+Each person rides his bike 3 x 2 = <<3*2=6>>6 times for every day of the other two days.
+This means each person rides 6*2 = <<6*2=12>>12 times on each day of the other two days.
+The total for the other two days is 12+12 = <<12+12=24>>24
+For the whole week the together ride 24+30 = <<24+30=54>>54 times
+#### 54"
+Math,3a,"Question: Beth had 150 students in her 10th-grade class.  The following year 30 more students join.  In her final year, 15 students left.  How many students did Beth have in her class at the end of her final year?
+Answer: Beth had 150 students her 10th-grade year, and added 30 more the following for a total of 150+30= <<150+30=180>>180 students
+In her final year, 15 students left her class, bringing her total to 180-15=165 students
+#### 165
+Question: Lola and Dora combined their allowance of $9 each to buy a deck of playing cards for $10, they also bought $2 boxes of stickers and split the boxes evenly. How many packs of stickers did Dora get?
+Answer: Lola and Dora together have $9/person x 2 people = $<<9*2=18>>18
+After buying the deck of cards they had $18 - $10 = $<<18-10=8>>8
+With 8 dollars they bought $8 / $2/pack = <<8/2=4>>4 packs of stickers
+Dora received 4 packs / 2 people = <<4/2=2>>2 packs of stickers
+#### 2
+Question: Beth had 150 students in her 10th-grade class.  The following year 30 more students join.  In her final year, 15 students left.  How many students did Beth have in her class at the end of her final year?
+Answer: Beth had 150 students her 10th-grade year, and added 30 more the following for a total of 150+30= <<150+30=180>>180 students
+In her final year, 15 students left her class, bringing her total to 180-15=165 students
+#### 165
+Question: Lola and Dora combined their allowance of $9 each to buy a deck of playing cards for $10, they also bought $2 boxes of stickers and split the boxes evenly. How many packs of stickers did Dora get?
+Answer: Lola and Dora together have $9/person x 2 people = $<<9*2=18>>18
+After buying the deck of cards they had $18 - $10 = $<<18-10=8>>8
+With 8 dollars they bought $8 / $2/pack = <<8/2=4>>4 packs of stickers
+Dora received 4 packs / 2 people = <<4/2=2>>2 packs of stickers
+#### 2
+Question: Chase and Rider can ride their bikes thrice a day for 5 days; but on two other days, they ride twice the times they do on usual days. How many times do they ride their bikes a week?","Answer: Chase and Rider ride their bikes 3 times a day for 5 days, totaling 3*5 = <<3*5=15>>15 rides
+On the other 2 days, they ride twice as much, so they ride 3*2 = <<3*2=6>>6 times
+Therefore, they ride their bikes a total of 15+6 = <<15+6=21>>21 times a week.","Each person rides his bike 3 x 5 = <<3*5=15>>15 times for 5 days.
+Together, they ride 15+15 = <<15+15=30>>30 times for five days.
+Each person rides his bike 3 x 2 = <<3*2=6>>6 times for every day of the other two days.
+This means each person rides 6*2 = <<6*2=12>>12 times on each day of the other two days.
+The total for the other two days is 12+12 = <<12+12=24>>24
+For the whole week the together ride 24+30 = <<24+30=54>>54 times
+#### 54"
+Math,3b,"Question: A Statistics student wants to find out the average daily allowance of the middle school students. According to his survey, 2/3 of the students receive an average of $6 allowance per day while the rest gets an average of $4 a day. If he surveyed 60 students, what is the total amount of money those 60 students get in a day?
+Answer: There are 60 students x 2/3 = <<60*2/3=40>>40 students who have a $6 daily allowance.
+While there are 60 students - 40 students = <<60-40=20>>20 students who have a $4 daily allowance.
+The sum of the allowances of the 40 students who received $6 daily is 40 students x $6/day = $<<40*6=240>>240.
+The sum of the allowances of the 20 students who received $4 daily is 20 students x $4/day = $<<20*4=80>>80.
+The total daily amount of money of those 60 students is $240 + $80 = $<<240+80=320>>320.
+#### 320
+Question: John can read a book 60% faster than his brother.  If his brother takes 8 hours to read a book, how long would it take John to read 3 books?
+Answer: Reading 60% faster means John's brother takes 1+.6=1.6 times as long as John to read
+So John reads a book in 8/1.6=<<8/1.6=5>>5 hours
+So it would take John 5*3=<<5*3=15>>15 hours to read 3 books
+#### 15
+Question: A Statistics student wants to find out the average daily allowance of the middle school students. According to his survey, 2/3 of the students receive an average of $6 allowance per day while the rest gets an average of $4 a day. If he surveyed 60 students, what is the total amount of money those 60 students get in a day?
+Answer: There are 60 students x 2/3 = <<60*2/3=40>>40 students who have a $6 daily allowance.
+While there are 60 students - 40 students = <<60-40=20>>20 students who have a $4 daily allowance.
+The sum of the allowances of the 40 students who received $6 daily is 40 students x $6/day = $<<40*6=240>>240.
+The sum of the allowances of the 20 students who received $4 daily is 20 students x $4/day = $<<20*4=80>>80.
+The total daily amount of money of those 60 students is $240 + $80 = $<<240+80=320>>320.
+#### 320
+Question: John can read a book 60% faster than his brother.  If his brother takes 8 hours to read a book, how long would it take John to read 3 books?
+Answer: Reading 60% faster means John's brother takes 1+.6=1.6 times as long as John to read
+So John reads a book in 8/1.6=<<8/1.6=5>>5 hours
+So it would take John 5*3=<<5*3=15>>15 hours to read 3 books
+#### 15
+Question: Chase and Rider can ride their bikes thrice a day for 5 days; but on two other days, they ride twice the times they do on usual days. How many times do they ride their bikes a week?","Answer: On usual days, Chase and Rider ride their bikes 3 times a day x 5 days = 15 times.
+On the two other days, they ride 3 x 2 = 6 times each.
+So on those two days, they ride 6 + 6 = 12 times.
+Therefore, in a week, they ride their bikes a total of 15 + 12 = 27 times.","Each person rides his bike 3 x 5 = <<3*5=15>>15 times for 5 days.
+Together, they ride 15+15 = <<15+15=30>>30 times for five days.
+Each person rides his bike 3 x 2 = <<3*2=6>>6 times for every day of the other two days.
+This means each person rides 6*2 = <<6*2=12>>12 times on each day of the other two days.
+The total for the other two days is 12+12 = <<12+12=24>>24
+For the whole week the together ride 24+30 = <<24+30=54>>54 times
+#### 54"
+CSQA,0,"Question: When you play around with your dog they will have?
+A: alive
+B: health
+C: fun
+D: playing dead
+E: black",C: fun,C
+CSQA,1a,"Question: The only place you'd find a marmoset in what gold rush region would be in a zoo?
+A: in wild
+B: your moms house
+C: burrow
+D: american west
+E: national park
+Answer: D
+Question: Where would you put a light?
+A: ocean
+B: desk
+C: universe
+D: attic
+E: chair
+Answer: B
+Question: When you play around with your dog they will have?
+A: alive
+B: health
+C: fun
+D: playing dead
+E: black",Answer: C,C
+CSQA,1b,"Question: The man had spent all day collecting old appliance and such, he took the metal to get scrapped where?
+A: car
+B: junkyard
+C: instruments
+D: ore
+E: farm
+Answer: B
+Question: The mother finished wrapping the very last gift, she then placed it under the what?
+A: department store
+B: fraizer fur
+C: specialty store
+D: christmas tree
+E: christmas stocking
+Answer: D
+Question: When you play around with your dog they will have?
+A: alive
+B: health
+C: fun
+D: playing dead
+E: black",Answer: C,C
+CSQA,2,"Question: The only place you'd find a marmoset in what gold rush region would be in a zoo?
+A: in wild
+B: your moms house
+C: burrow
+D: american west
+E: national park
+Answer: D
+Question: Where would you put a light?
+A: ocean
+B: desk
+C: universe
+D: attic
+E: chair
+Answer: B
+Question: The man had spent all day collecting old appliance and such, he took the metal to get scrapped where?
+A: car
+B: junkyard
+C: instruments
+D: ore
+E: farm
+Answer: B
+Question: The mother finished wrapping the very last gift, she then placed it under the what?
+A: department store
+B: fraizer fur
+C: specialty store
+D: christmas tree
+E: christmas stocking
+Answer: D
+Question: When you play around with your dog they will have?
+A: alive
+B: health
+C: fun
+D: playing dead
+E: black",Answer: C,C
+CSQA,3a,"Question: The only place you'd find a marmoset in what gold rush region would be in a zoo?
+A: in wild
+B: your moms house
+C: burrow
+D: american west
+E: national park
+Answer: D
+Question: Where would you put a light?
+A: ocean
+B: desk
+C: universe
+D: attic
+E: chair
+Answer: B
+Question: The only place you'd find a marmoset in what gold rush region would be in a zoo?
+A: in wild
+B: your moms house
+C: burrow
+D: american west
+E: national park
+Answer: D
+Question: Where would you put a light?
+A: ocean
+B: desk
+C: universe
+D: attic
+E: chair
+Answer: B
+Question: When you play around with your dog they will have?
+A: alive
+B: health
+C: fun
+D: playing dead
+E: black",Answer: C,C
+CSQA,3b,"Question: The man had spent all day collecting old appliance and such, he took the metal to get scrapped where?
+A: car
+B: junkyard
+C: instruments
+D: ore
+E: farm
+Answer: B
+Question: The mother finished wrapping the very last gift, she then placed it under the what?
+A: department store
+B: fraizer fur
+C: specialty store
+D: christmas tree
+E: christmas stocking
+Answer: D
+Question: The man had spent all day collecting old appliance and such, he took the metal to get scrapped where?
+A: car
+B: junkyard
+C: instruments
+D: ore
+E: farm
+Answer: B
+Question: The mother finished wrapping the very last gift, she then placed it under the what?
+A: department store
+B: fraizer fur
+C: specialty store
+D: christmas tree
+E: christmas stocking
+Answer: D
+Question: When you play around with your dog they will have?
+A: alive
+B: health
+C: fun
+D: playing dead
+E: black",Answer: C,C
+StrategyQA,0,"Question: Jack Sparrow is the main character of the popular 'Pirates of the Caribbean' movie franchise. Jack Sparrow is the captain of a pirate ship. Jack Sparrow sings many songs while on the sea.
+Does Jack Sparrow know any sea shantys?","Yes, Jack Sparrow is known for singing sea shanties while on the sea in the 'Pirates of the Caribbean' movies. Some popular sea shanties sung by Jack Sparrow include ""A Pirate's Life for Me"" and ""Yo Ho (A Pirate's Life for Me).""",True
+StrategyQA,1a,"Question: Mesopotamia occupies an area of land called the Fertile Crescent which is part of what is currently known as the Middle East. China is much further East, beyond the Stans and India.
+Was Mesopotamia part of what is now China?
+Answer: False
+Question: Freemasonry is a group of fraternal organizations rooted in fraternities of stonemasons of the fourteenth century. Buzz Aldrin was initiated into the Freemason fraternity in 1955 Buzz Aldrin and Neil Armstrong were the first men to land on the moon in 1969.
+Has Freemasonry been represented on the Moon?
+Answer: True
+Question: Jack Sparrow is the main character of the popular 'Pirates of the Caribbean' movie franchise. Jack Sparrow is the captain of a pirate ship. Jack Sparrow sings many songs while on the sea.
+Does Jack Sparrow know any sea shantys?",Answer: True,True
+StrategyQA,1b,"Question: The Book of Daniel is a book in the Old Testament of the Bible. The Bible is divided into the Old Testament and the New Testament. The New Testament focuses on four Gospels regarding the life of Jesus.
+Was Daniel thrown into the lion's den in the New Testament?
+Answer: False
+Question: Black Salt has is a kiln-fired rock salt that contains sulfur. When black salt is cooked with, it smells similar to rotten eggs.  Rotten eggs smell like sulfur.
+Would food made with black salt smell of sulfur?
+Answer: True
+Question: Jack Sparrow is the main character of the popular 'Pirates of the Caribbean' movie franchise. Jack Sparrow is the captain of a pirate ship. Jack Sparrow sings many songs while on the sea.
+Does Jack Sparrow know any sea shantys?",Answer: True,True
+StrategyQA,2,"Question: Mesopotamia occupies an area of land called the Fertile Crescent which is part of what is currently known as the Middle East. China is much further East, beyond the Stans and India.
+Was Mesopotamia part of what is now China?
+Answer: False
+Question: Freemasonry is a group of fraternal organizations rooted in fraternities of stonemasons of the fourteenth century. Buzz Aldrin was initiated into the Freemason fraternity in 1955 Buzz Aldrin and Neil Armstrong were the first men to land on the moon in 1969.
+Has Freemasonry been represented on the Moon?
+Answer: True
+Question: The Book of Daniel is a book in the Old Testament of the Bible. The Bible is divided into the Old Testament and the New Testament. The New Testament focuses on four Gospels regarding the life of Jesus.
+Was Daniel thrown into the lion's den in the New Testament?
+Answer: False
+Question: Black Salt has is a kiln-fired rock salt that contains sulfur. When black salt is cooked with, it smells similar to rotten eggs.  Rotten eggs smell like sulfur.
+Would food made with black salt smell of sulfur?
+Answer: True
+Question: Jack Sparrow is the main character of the popular 'Pirates of the Caribbean' movie franchise. Jack Sparrow is the captain of a pirate ship. Jack Sparrow sings many songs while on the sea.
+Does Jack Sparrow know any sea shantys?",Answer: True,True
+StrategyQA,3a,"Question: Mesopotamia occupies an area of land called the Fertile Crescent which is part of what is currently known as the Middle East. China is much further East, beyond the Stans and India.
+Was Mesopotamia part of what is now China?
+Answer: False
+Question: Freemasonry is a group of fraternal organizations rooted in fraternities of stonemasons of the fourteenth century. Buzz Aldrin was initiated into the Freemason fraternity in 1955 Buzz Aldrin and Neil Armstrong were the first men to land on the moon in 1969.
+Has Freemasonry been represented on the Moon?
+Answer: True
+Question: Mesopotamia occupies an area of land called the Fertile Crescent which is part of what is currently known as the Middle East. China is much further East, beyond the Stans and India.
+Was Mesopotamia part of what is now China?
+Answer: False
+Question: Freemasonry is a group of fraternal organizations rooted in fraternities of stonemasons of the fourteenth century. Buzz Aldrin was initiated into the Freemason fraternity in 1955 Buzz Aldrin and Neil Armstrong were the first men to land on the moon in 1969.
+Has Freemasonry been represented on the Moon?
+Answer: True
+Question: Jack Sparrow is the main character of the popular 'Pirates of the Caribbean' movie franchise. Jack Sparrow is the captain of a pirate ship. Jack Sparrow sings many songs while on the sea.
+Does Jack Sparrow know any sea shantys?",Answer: True,True
+StrategyQA,3b,"Question: The Book of Daniel is a book in the Old Testament of the Bible. The Bible is divided into the Old Testament and the New Testament. The New Testament focuses on four Gospels regarding the life of Jesus.
+Was Daniel thrown into the lion's den in the New Testament?
+Answer: False
+Question: Black Salt has is a kiln-fired rock salt that contains sulfur. When black salt is cooked with, it smells similar to rotten eggs.  Rotten eggs smell like sulfur.
+Would food made with black salt smell of sulfur?
+Answer: True
+Question: The Book of Daniel is a book in the Old Testament of the Bible. The Bible is divided into the Old Testament and the New Testament. The New Testament focuses on four Gospels regarding the life of Jesus.
+Was Daniel thrown into the lion's den in the New Testament?
+Answer: False
+Question: Black Salt has is a kiln-fired rock salt that contains sulfur. When black salt is cooked with, it smells similar to rotten eggs.  Rotten eggs smell like sulfur.
+Would food made with black salt smell of sulfur?
+Answer: True
+Question: Jack Sparrow is the main character of the popular 'Pirates of the Caribbean' movie franchise. Jack Sparrow is the captain of a pirate ship. Jack Sparrow sings many songs while on the sea.
+Does Jack Sparrow know any sea shantys?",Answer: True,True
+SayCan,0,Question: Provide step-by-step instructions for the following task: Lift the coke,"1. Identify where the coke is located, ensuring there is enough space around it to lift it safely.
+2. Stand facing the coke with your feet shoulder-width apart for stability.
+3. Bend your knees slightly to prepare for lifting.
+4. Keep your back straight and engage your core muscles to support your spine.
+5. Reach down with both hands and firmly grip the coke container or bottle.
+6. Use your leg muscles to push up from the ground as you straighten your legs, lifting the coke off the ground.
+7. Keep the coke close to your body as you lift it to prevent strain on your back.
+8. Once the coke is lifted, hold it securely with both hands and slowly stand up completely.
+9. Take small steps if necessary to move the coke to its desired location.
+10. When placing the coke down, bend your knees and lower it gently to the ground using your leg muscles.
+11. Release your grip on the coke once it is securely on the ground.
+12. Remember to always lift with your legs, not your back, to prevent injury.","1. pick up the coke, 2. done"
+SayCan,1a,"Question: Provide step-by-step instructions for the following task: I’d like a clear soda.
+Answer: 1. find a 7up, 2. pick up the 7up, 3. bring it to you, 4. put down the 7up, 5. done
+Question: Provide step-by-step instructions for the following task: Can you bring me a spicy snack?
+Answer: 1. find a jalapeno chips, 2. pick up the jalapeno chips, 3. bring it to you, 4. put down the jalapeno chips, 5. done.
+Question: Provide step-by-step instructions for the following task: Lift the coke","Answer: 1. Find a bottle or can of Coke, 2. Pick up the bottle or can of Coke, 3. Lift the bottle or can of Coke to the desired height, 4. Hold the bottle or can of Coke in that position for as long as needed, 5. Lower the bottle or can of Coke back down when finished, 6. Done.","1. pick up the coke, 2. done"
+SayCan,1b,"Question: Provide step-by-step instructions for the following task: I’m allergic to apples, can I get a fruit?
+Answer: 1. find an orange, 2. pick up the orange, 3. bring it to you, 4. put down the orange, 5. done
+Question: Provide step-by-step instructions for the following task: How would you grab the coke can?
+Answer: 1. pick up the coke can, 2. done
+Question: Provide step-by-step instructions for the following task: Lift the coke","can to your mouth and take a sip.
+Answer: 1. Hold the coke can in one hand, 2. Bring the can up to your mouth, 3. Tilt the can slightly to let the liquid flow out, 4. Take a sip, 5. Lower the can back down, 6. Done.","1. pick up the coke, 2. done"
+SayCan,2,"Question: Provide step-by-step instructions for the following task: I’d like a clear soda.
+Answer: 1. find a 7up, 2. pick up the 7up, 3. bring it to you, 4. put down the 7up, 5. done
+Question: Provide step-by-step instructions for the following task: Can you bring me a spicy snack?
+Answer: 1. find a jalapeno chips, 2. pick up the jalapeno chips, 3. bring it to you, 4. put down the jalapeno chips, 5. done.
+Question: Provide step-by-step instructions for the following task: I’m allergic to apples, can I get a fruit?
+Answer: 1. find an orange, 2. pick up the orange, 3. bring it to you, 4. put down the orange, 5. done
+Question: Provide step-by-step instructions for the following task: How would you grab the coke can?
+Answer: 1. pick up the coke can, 2. done
+Question: Provide step-by-step instructions for the following task: Lift the coke","can from the table.
+Answer: 1. Reach for the coke can on the table, 2. Grip the can with your hand, 3. Lift the can off the table, 4. Hold the can securely, 5. Done.","1. pick up the coke, 2. done"
+SayCan,3a,"Question: Provide step-by-step instructions for the following task: I’d like a clear soda.
+Answer: 1. find a 7up, 2. pick up the 7up, 3. bring it to you, 4. put down the 7up, 5. done
+Question: Provide step-by-step instructions for the following task: Can you bring me a spicy snack?
+Answer: 1. find a jalapeno chips, 2. pick up the jalapeno chips, 3. bring it to you, 4. put down the jalapeno chips, 5. done.
+Question: Provide step-by-step instructions for the following task: I’d like a clear soda.
+Answer: 1. find a 7up, 2. pick up the 7up, 3. bring it to you, 4. put down the 7up, 5. done
+Question: Provide step-by-step instructions for the following task: Can you bring me a spicy snack?
+Answer: 1. find a jalapeno chips, 2. pick up the jalapeno chips, 3. bring it to you, 4. put down the jalapeno chips, 5. done.
+Question: Provide step-by-step instructions for the following task: Lift the coke","Answer: 1. Pick up the can or bottle of coke, 2. Hold it with your hand or hands, 3. Lift it upwards, 4. Raise it to your desired height, 5. Hold it steady, 6. Lower it back down when you are finished.","1. pick up the coke, 2. done"
+SayCan,3b,"Question: Provide step-by-step instructions for the following task: I’m allergic to apples, can I get a fruit?
+Answer: 1. find an orange, 2. pick up the orange, 3. bring it to you, 4. put down the orange, 5. done
+Question: Provide step-by-step instructions for the following task: How would you grab the coke can?
+Answer: 1. pick up the coke can, 2. done
+Question: Provide step-by-step instructions for the following task: I’m allergic to apples, can I get a fruit?
+Answer: 1. find an orange, 2. pick up the orange, 3. bring it to you, 4. put down the orange, 5. done
+Question: Provide step-by-step instructions for the following task: How would you grab the coke can?
+Answer: 1. pick up the coke can, 2. done
+Question: Provide step-by-step instructions for the following task: Lift the coke","Answer: 1. Place your hand on the coke can, 2. Use your fingers to grip the sides of the can, 3. Lift the can upwards using your hand, 4. Hold the can securely to prevent it from slipping, 5. Done.","1. pick up the coke, 2. done"

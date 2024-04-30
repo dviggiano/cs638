@@ -1,0 +1,397 @@
+Task Class,Case,Prompt,Response,Expected
+Math,0,Question: Ryan’s allowance is $6 each week he completes his chores. He did his chores for 3 weeks. Then he bought ice cream cones for himself and 3 friends at $1.25 each. Now they all want to go to the movies and tickets cost $6.50 each. How many movie tickets can Ryan buy?,"Ryan earned $6 for each of the 3 weeks he completed his chores, so his total allowance is $6 x 3 = $18.
+
+He spent $1.25 x 4 = $5 on ice cream cones for himself and his 3 friends.
+
+After buying ice cream, Ryan has $18 - $5 = $13 left.
+
+Movie tickets cost $6.50 each, so Ryan can buy $13 / $6.50 = 2 movie tickets.
+
+Ryan can buy 2 movie tickets.","Ryan earned $6 x 3 weeks of chores = $<<6*3=18>>18.
+He bought 1 for himself + 3 for his friends = <<1+3=4>>4 ice creams.
+The ice cream cost $1.25 x 4 = $<<1.25*4=5>>5.
+Ryan has $18 - $5 = $<<18-5=13>>13 left.
+With the money he has left, Ryan can buy $13 / $6.50 = <<13/6.50=2>>2 movie tickets.
+#### 2"
+Math,1a,"Question: A library has a number of books. 35% of them are intended for children and 104 of them are for adults. How many books are in the library?
+Answer: 65% of the library books are for adults because 100 - 35 = <<100-35=65>>65
+There are 160 library books in total because 104 / .65 = <<104/.65=160>>160
+#### 160
+Question: Ryan wants to take 5 peanut butter sandwiches to the beach.  If each sandwich consists of 3 slices of bread how many slices does Ryan need to make 5 sandwiches?
+Answer: To make 1 sandwich, you need 3 slices so Ryan needs 1*3= <<1*3=3>>3 slices to make one sandwich.
+Since it takes 3 slices to make a sandwich, and Ryan wants 5 sandwiches to take to the beach he needs 3*5= <<3*5=15>>15 slices.
+#### 15
+Question: Ryan’s allowance is $6 each week he completes his chores. He did his chores for 3 weeks. Then he bought ice cream cones for himself and 3 friends at $1.25 each. Now they all want to go to the movies and tickets cost $6.50 each. How many movie tickets can Ryan buy?","Answer: Ryan earned $6 each week for doing his chores, so over 3 weeks he earned 3*$6 = $<<3*6=18>>18.
+He bought ice cream cones for himself and 3 friends at $1.25 each so spent 4*$1.25 = $<<4*1.25=5>>5
+He then wants to go to the movies and tickets cost $6.50 each. If he has $18 - $5 = $13 left, then he can buy $13 / $6.50 = <<13/6.50=2>>2 movie tickets.
+#### 2","Ryan earned $6 x 3 weeks of chores = $<<6*3=18>>18.
+He bought 1 for himself + 3 for his friends = <<1+3=4>>4 ice creams.
+The ice cream cost $1.25 x 4 = $<<1.25*4=5>>5.
+Ryan has $18 - $5 = $<<18-5=13>>13 left.
+With the money he has left, Ryan can buy $13 / $6.50 = <<13/6.50=2>>2 movie tickets.
+#### 2"
+Math,1b,"Question: Kim's TV uses 125 watts of electricity per hour.  She runs it for 4 hours a day.  If electricity cost 14 cents per kw/h how many cents does her TV cost to run for a week?
+Answer: She uses 4 hours/day * 125 watts/hour=<<4*125=500>>500 watt hours/day
+That means she uses 500 watt hours/day * 7 days/week = <<500*7=3500>>3500 watt hours/week
+This is 3500 watt hours / 1000 watts/kw = <<3500/1000=3.5>>3.5 kw hours
+So her TV cost 3.5 kw hours/week * $0.14/kw hour = $<<3.5*0.14=0.49>>0.49/week
+#### 49
+Question: Corveus sleeps 4 hours a day and his doctor recommended for him to sleep 6 hours a day. How many hours of sleep does Corveus lack in a week?
+Answer: Corveus lacks 6 - 4 = <<6-4=2>>2 hours of sleep every day.
+Therefore, Corveus' total hours of lack of sleep every week is 2 x 7 = <<2*7=14>>14.
+#### 14
+Question: Ryan’s allowance is $6 each week he completes his chores. He did his chores for 3 weeks. Then he bought ice cream cones for himself and 3 friends at $1.25 each. Now they all want to go to the movies and tickets cost $6.50 each. How many movie tickets can Ryan buy?","Answer: 
+
+Ryan earned $6 * 3 = $18 from doing his chores for 3 weeks.
+
+He spent $1.25 * 4 = $5 on ice cream cones for himself and his 3 friends.
+
+This means he has $18 - $5 = $13 left.
+
+Each movie ticket costs $6.50, so Ryan can buy $13 / $6.50 = 2 movie tickets.
+
+Therefore, Ryan can buy 2 movie tickets for himself and a friend.","Ryan earned $6 x 3 weeks of chores = $<<6*3=18>>18.
+He bought 1 for himself + 3 for his friends = <<1+3=4>>4 ice creams.
+The ice cream cost $1.25 x 4 = $<<1.25*4=5>>5.
+Ryan has $18 - $5 = $<<18-5=13>>13 left.
+With the money he has left, Ryan can buy $13 / $6.50 = <<13/6.50=2>>2 movie tickets.
+#### 2"
+Math,2,"Question: A library has a number of books. 35% of them are intended for children and 104 of them are for adults. How many books are in the library?
+Answer: 65% of the library books are for adults because 100 - 35 = <<100-35=65>>65
+There are 160 library books in total because 104 / .65 = <<104/.65=160>>160
+#### 160
+Question: Ryan wants to take 5 peanut butter sandwiches to the beach.  If each sandwich consists of 3 slices of bread how many slices does Ryan need to make 5 sandwiches?
+Answer: To make 1 sandwich, you need 3 slices so Ryan needs 1*3= <<1*3=3>>3 slices to make one sandwich.
+Since it takes 3 slices to make a sandwich, and Ryan wants 5 sandwiches to take to the beach he needs 3*5= <<3*5=15>>15 slices.
+#### 15
+Question: Kim's TV uses 125 watts of electricity per hour.  She runs it for 4 hours a day.  If electricity cost 14 cents per kw/h how many cents does her TV cost to run for a week?
+Answer: She uses 4 hours/day * 125 watts/hour=<<4*125=500>>500 watt hours/day
+That means she uses 500 watt hours/day * 7 days/week = <<500*7=3500>>3500 watt hours/week
+This is 3500 watt hours / 1000 watts/kw = <<3500/1000=3.5>>3.5 kw hours
+So her TV cost 3.5 kw hours/week * $0.14/kw hour = $<<3.5*0.14=0.49>>0.49/week
+#### 49
+Question: Corveus sleeps 4 hours a day and his doctor recommended for him to sleep 6 hours a day. How many hours of sleep does Corveus lack in a week?
+Answer: Corveus lacks 6 - 4 = <<6-4=2>>2 hours of sleep every day.
+Therefore, Corveus' total hours of lack of sleep every week is 2 x 7 = <<2*7=14>>14.
+#### 14
+Question: Ryan’s allowance is $6 each week he completes his chores. He did his chores for 3 weeks. Then he bought ice cream cones for himself and 3 friends at $1.25 each. Now they all want to go to the movies and tickets cost $6.50 each. How many movie tickets can Ryan buy?","Answer: Ryan earned $6 per week x 3 weeks = $18 from completing his chores.
+He spent $1.25 per ice cream cone x 4 cones = $5 on ice cream.
+He now has $18 - $5 = $13 left to spend on movie tickets.
+Therefore, Ryan can buy $13 / $6.50 per ticket = <<13/6.5=2>>2 movie tickets. 
+#### 2","Ryan earned $6 x 3 weeks of chores = $<<6*3=18>>18.
+He bought 1 for himself + 3 for his friends = <<1+3=4>>4 ice creams.
+The ice cream cost $1.25 x 4 = $<<1.25*4=5>>5.
+Ryan has $18 - $5 = $<<18-5=13>>13 left.
+With the money he has left, Ryan can buy $13 / $6.50 = <<13/6.50=2>>2 movie tickets.
+#### 2"
+Math,3a,"Question: A library has a number of books. 35% of them are intended for children and 104 of them are for adults. How many books are in the library?
+Answer: 65% of the library books are for adults because 100 - 35 = <<100-35=65>>65
+There are 160 library books in total because 104 / .65 = <<104/.65=160>>160
+#### 160
+Question: Ryan wants to take 5 peanut butter sandwiches to the beach.  If each sandwich consists of 3 slices of bread how many slices does Ryan need to make 5 sandwiches?
+Answer: To make 1 sandwich, you need 3 slices so Ryan needs 1*3= <<1*3=3>>3 slices to make one sandwich.
+Since it takes 3 slices to make a sandwich, and Ryan wants 5 sandwiches to take to the beach he needs 3*5= <<3*5=15>>15 slices.
+#### 15
+Question: A library has a number of books. 35% of them are intended for children and 104 of them are for adults. How many books are in the library?
+Answer: 65% of the library books are for adults because 100 - 35 = <<100-35=65>>65
+There are 160 library books in total because 104 / .65 = <<104/.65=160>>160
+#### 160
+Question: Ryan wants to take 5 peanut butter sandwiches to the beach.  If each sandwich consists of 3 slices of bread how many slices does Ryan need to make 5 sandwiches?
+Answer: To make 1 sandwich, you need 3 slices so Ryan needs 1*3= <<1*3=3>>3 slices to make one sandwich.
+Since it takes 3 slices to make a sandwich, and Ryan wants 5 sandwiches to take to the beach he needs 3*5= <<3*5=15>>15 slices.
+#### 15
+Question: Ryan’s allowance is $6 each week he completes his chores. He did his chores for 3 weeks. Then he bought ice cream cones for himself and 3 friends at $1.25 each. Now they all want to go to the movies and tickets cost $6.50 each. How many movie tickets can Ryan buy?","Answer: Ryan earned 6 * 3 = $ <<6*3=18>>18 from completing his chores for 3 weeks.
+He spent 4 * 1.25 = $ <<4*1.25=5>>5 on ice cream cones.
+He has 18 - 5 = $ <<18-5=13>>13 left.
+Each movie ticket costs $6.50, so he can buy 13 / 6.50 = <<13/6.50=2>>2 movie tickets.
+#### 2","Ryan earned $6 x 3 weeks of chores = $<<6*3=18>>18.
+He bought 1 for himself + 3 for his friends = <<1+3=4>>4 ice creams.
+The ice cream cost $1.25 x 4 = $<<1.25*4=5>>5.
+Ryan has $18 - $5 = $<<18-5=13>>13 left.
+With the money he has left, Ryan can buy $13 / $6.50 = <<13/6.50=2>>2 movie tickets.
+#### 2"
+Math,3b,"Question: Kim's TV uses 125 watts of electricity per hour.  She runs it for 4 hours a day.  If electricity cost 14 cents per kw/h how many cents does her TV cost to run for a week?
+Answer: She uses 4 hours/day * 125 watts/hour=<<4*125=500>>500 watt hours/day
+That means she uses 500 watt hours/day * 7 days/week = <<500*7=3500>>3500 watt hours/week
+This is 3500 watt hours / 1000 watts/kw = <<3500/1000=3.5>>3.5 kw hours
+So her TV cost 3.5 kw hours/week * $0.14/kw hour = $<<3.5*0.14=0.49>>0.49/week
+#### 49
+Question: Corveus sleeps 4 hours a day and his doctor recommended for him to sleep 6 hours a day. How many hours of sleep does Corveus lack in a week?
+Answer: Corveus lacks 6 - 4 = <<6-4=2>>2 hours of sleep every day.
+Therefore, Corveus' total hours of lack of sleep every week is 2 x 7 = <<2*7=14>>14.
+#### 14
+Question: Kim's TV uses 125 watts of electricity per hour.  She runs it for 4 hours a day.  If electricity cost 14 cents per kw/h how many cents does her TV cost to run for a week?
+Answer: She uses 4 hours/day * 125 watts/hour=<<4*125=500>>500 watt hours/day
+That means she uses 500 watt hours/day * 7 days/week = <<500*7=3500>>3500 watt hours/week
+This is 3500 watt hours / 1000 watts/kw = <<3500/1000=3.5>>3.5 kw hours
+So her TV cost 3.5 kw hours/week * $0.14/kw hour = $<<3.5*0.14=0.49>>0.49/week
+#### 49
+Question: Corveus sleeps 4 hours a day and his doctor recommended for him to sleep 6 hours a day. How many hours of sleep does Corveus lack in a week?
+Answer: Corveus lacks 6 - 4 = <<6-4=2>>2 hours of sleep every day.
+Therefore, Corveus' total hours of lack of sleep every week is 2 x 7 = <<2*7=14>>14.
+#### 14
+Question: Ryan’s allowance is $6 each week he completes his chores. He did his chores for 3 weeks. Then he bought ice cream cones for himself and 3 friends at $1.25 each. Now they all want to go to the movies and tickets cost $6.50 each. How many movie tickets can Ryan buy?","First, let's calculate how much money Ryan earned from doing his chores: $6/week * 3 weeks = $18
+
+Next, let's calculate how much Ryan spent on ice cream cones: 4 people * $1.25 = $5
+
+Now, let's subtract the cost of the ice cream cones from the money Ryan earned: $18 - $5 = $13
+
+Now, let's calculate how many movie tickets Ryan can buy: $13 / $6.50 = 2
+
+Ryan can buy 2 movie tickets with the remaining money.","Ryan earned $6 x 3 weeks of chores = $<<6*3=18>>18.
+He bought 1 for himself + 3 for his friends = <<1+3=4>>4 ice creams.
+The ice cream cost $1.25 x 4 = $<<1.25*4=5>>5.
+Ryan has $18 - $5 = $<<18-5=13>>13 left.
+With the money he has left, Ryan can buy $13 / $6.50 = <<13/6.50=2>>2 movie tickets.
+#### 2"
+CSQA,0,"Question: Sitting to close while watching TV can cause what sort of pain?
+A: brain problems
+B: laziness
+C: get fat
+D: headache
+E: laughter",D: headache,D
+CSQA,1a,"Question: The food simmering in the pan smelled delicious, the aroma filled the entire what?
+A: oven
+B: cabinet
+C: kitchen
+D: movie
+E: bathroom
+Answer: C
+Question: Where do you bring a small dog if it needs to relieve itself?
+A: europe
+B: front porch
+C: heat
+D: basket
+E: outside
+Answer: E
+Question: Sitting to close while watching TV can cause what sort of pain?
+A: brain problems
+B: laziness
+C: get fat
+D: headache
+E: laughter",Answer: D,D
+CSQA,1b,"Question: He spent all work day at a computer, so he got a footstool for more comfort at his what?
+A: desk
+B: bathroom
+C: shoe shop
+D: family room
+E: living room
+Answer: A
+Question: Where could you find hundreds of thousands of mailbox?
+A: porch
+B: hardware store
+C: front yard
+D: diner
+E: downtown area
+Answer: E
+Question: Sitting to close while watching TV can cause what sort of pain?
+A: brain problems
+B: laziness
+C: get fat
+D: headache
+E: laughter",Answer: D,D
+CSQA,2,"Question: The food simmering in the pan smelled delicious, the aroma filled the entire what?
+A: oven
+B: cabinet
+C: kitchen
+D: movie
+E: bathroom
+Answer: C
+Question: Where do you bring a small dog if it needs to relieve itself?
+A: europe
+B: front porch
+C: heat
+D: basket
+E: outside
+Answer: E
+Question: He spent all work day at a computer, so he got a footstool for more comfort at his what?
+A: desk
+B: bathroom
+C: shoe shop
+D: family room
+E: living room
+Answer: A
+Question: Where could you find hundreds of thousands of mailbox?
+A: porch
+B: hardware store
+C: front yard
+D: diner
+E: downtown area
+Answer: E
+Question: Sitting to close while watching TV can cause what sort of pain?
+A: brain problems
+B: laziness
+C: get fat
+D: headache
+E: laughter",Answer: D,D
+CSQA,3a,"Question: The food simmering in the pan smelled delicious, the aroma filled the entire what?
+A: oven
+B: cabinet
+C: kitchen
+D: movie
+E: bathroom
+Answer: C
+Question: Where do you bring a small dog if it needs to relieve itself?
+A: europe
+B: front porch
+C: heat
+D: basket
+E: outside
+Answer: E
+Question: The food simmering in the pan smelled delicious, the aroma filled the entire what?
+A: oven
+B: cabinet
+C: kitchen
+D: movie
+E: bathroom
+Answer: C
+Question: Where do you bring a small dog if it needs to relieve itself?
+A: europe
+B: front porch
+C: heat
+D: basket
+E: outside
+Answer: E
+Question: Sitting to close while watching TV can cause what sort of pain?
+A: brain problems
+B: laziness
+C: get fat
+D: headache
+E: laughter",Answer: D,D
+CSQA,3b,"Question: He spent all work day at a computer, so he got a footstool for more comfort at his what?
+A: desk
+B: bathroom
+C: shoe shop
+D: family room
+E: living room
+Answer: A
+Question: Where could you find hundreds of thousands of mailbox?
+A: porch
+B: hardware store
+C: front yard
+D: diner
+E: downtown area
+Answer: E
+Question: He spent all work day at a computer, so he got a footstool for more comfort at his what?
+A: desk
+B: bathroom
+C: shoe shop
+D: family room
+E: living room
+Answer: A
+Question: Where could you find hundreds of thousands of mailbox?
+A: porch
+B: hardware store
+C: front yard
+D: diner
+E: downtown area
+Answer: E
+Question: Sitting to close while watching TV can cause what sort of pain?
+A: brain problems
+B: laziness
+C: get fat
+D: headache
+E: laughter",Answer: D,D
+StrategyQA,0,"Question: Hostas are characterized by large green striped leaves. The green color in plants is attributed to chlorophyll. 
+For Hostas to look their best, do they need lots of chlorophyll?","Yes, hostas do require chlorophyll in order to thrive and achieve their characteristic large green striped leaves. Chlorophyll is responsible for the green color in plants and is essential for photosynthesis, the process by which plants convert sunlight into energy. Adequate chlorophyll production in hostas is important for healthy growth and optimal photosynthesis, thus contributing to the plant's overall appearance and vigor. However, excessive chlorophyll levels can sometimes lead to issues like yellowing or browning of leaves, so it is important to provide the right amount of sunlight, water, and nutrients for the hostas to maintain their green color and health.",True
+StrategyQA,1a,"Question: Kublai Khan was married multiple times and was said by some to have thousands of concubines. Kublai Khans grandfather was Genghis Khan. Genghis Khan had six wives and was said to have over 500 concubines.
+Did either Kublai Khan or his grandfather practice monogamy?
+Answer: False
+Question: A tag team wrestling match is contested between at least two teams of at least two wrestlers each There are only three people in the Powerpuff Girls
+Can the Powerpuff Girls form a complete tag team wrestling match?
+Answer: False
+Question: Hostas are characterized by large green striped leaves. The green color in plants is attributed to chlorophyll. 
+For Hostas to look their best, do they need lots of chlorophyll?","Answer: False. While chlorophyll is important for plant photosynthesis and overall health, the shade-loving Hostas do not necessarily need lots of chlorophyll to look their best. Their variegated green striped leaves are already attractive and desirable to gardeners.",True
+StrategyQA,1b,"Question: Mike Pence is Vice President of the United States. The Vice President must be a US citizen. The Vice President must be at least 35 years of age. Justin Bieber is a Canadian citizen. Justin Bieber is 26 years old in 2020.
+Will Justin Bieber take over Mike Pence's position in 2020?
+Answer: False
+Question: La Femme Nikita is a French movie about a beautiful female assassin. Models are known for their beauty and height. Peta Wilson and Maggie Q have played the lead role in La Femme Nikita spinoffs. Peta Wilson and Maggie Q have both done extensive modeling work.
+Would a model be appropriate to star in a LA Femme Nikita remake?
+Answer: True
+Question: Hostas are characterized by large green striped leaves. The green color in plants is attributed to chlorophyll. 
+For Hostas to look their best, do they need lots of chlorophyll?",False,True
+StrategyQA,2,"Question: Kublai Khan was married multiple times and was said by some to have thousands of concubines. Kublai Khans grandfather was Genghis Khan. Genghis Khan had six wives and was said to have over 500 concubines.
+Did either Kublai Khan or his grandfather practice monogamy?
+Answer: False
+Question: A tag team wrestling match is contested between at least two teams of at least two wrestlers each There are only three people in the Powerpuff Girls
+Can the Powerpuff Girls form a complete tag team wrestling match?
+Answer: False
+Question: Mike Pence is Vice President of the United States. The Vice President must be a US citizen. The Vice President must be at least 35 years of age. Justin Bieber is a Canadian citizen. Justin Bieber is 26 years old in 2020.
+Will Justin Bieber take over Mike Pence's position in 2020?
+Answer: False
+Question: La Femme Nikita is a French movie about a beautiful female assassin. Models are known for their beauty and height. Peta Wilson and Maggie Q have played the lead role in La Femme Nikita spinoffs. Peta Wilson and Maggie Q have both done extensive modeling work.
+Would a model be appropriate to star in a LA Femme Nikita remake?
+Answer: True
+Question: Hostas are characterized by large green striped leaves. The green color in plants is attributed to chlorophyll. 
+For Hostas to look their best, do they need lots of chlorophyll?",Answer: False,True
+StrategyQA,3a,"Question: Kublai Khan was married multiple times and was said by some to have thousands of concubines. Kublai Khans grandfather was Genghis Khan. Genghis Khan had six wives and was said to have over 500 concubines.
+Did either Kublai Khan or his grandfather practice monogamy?
+Answer: False
+Question: A tag team wrestling match is contested between at least two teams of at least two wrestlers each There are only three people in the Powerpuff Girls
+Can the Powerpuff Girls form a complete tag team wrestling match?
+Answer: False
+Question: Kublai Khan was married multiple times and was said by some to have thousands of concubines. Kublai Khans grandfather was Genghis Khan. Genghis Khan had six wives and was said to have over 500 concubines.
+Did either Kublai Khan or his grandfather practice monogamy?
+Answer: False
+Question: A tag team wrestling match is contested between at least two teams of at least two wrestlers each There are only three people in the Powerpuff Girls
+Can the Powerpuff Girls form a complete tag team wrestling match?
+Answer: False
+Question: Hostas are characterized by large green striped leaves. The green color in plants is attributed to chlorophyll. 
+For Hostas to look their best, do they need lots of chlorophyll?",Answer: True,True
+StrategyQA,3b,"Question: Mike Pence is Vice President of the United States. The Vice President must be a US citizen. The Vice President must be at least 35 years of age. Justin Bieber is a Canadian citizen. Justin Bieber is 26 years old in 2020.
+Will Justin Bieber take over Mike Pence's position in 2020?
+Answer: False
+Question: La Femme Nikita is a French movie about a beautiful female assassin. Models are known for their beauty and height. Peta Wilson and Maggie Q have played the lead role in La Femme Nikita spinoffs. Peta Wilson and Maggie Q have both done extensive modeling work.
+Would a model be appropriate to star in a LA Femme Nikita remake?
+Answer: True
+Question: Mike Pence is Vice President of the United States. The Vice President must be a US citizen. The Vice President must be at least 35 years of age. Justin Bieber is a Canadian citizen. Justin Bieber is 26 years old in 2020.
+Will Justin Bieber take over Mike Pence's position in 2020?
+Answer: False
+Question: La Femme Nikita is a French movie about a beautiful female assassin. Models are known for their beauty and height. Peta Wilson and Maggie Q have played the lead role in La Femme Nikita spinoffs. Peta Wilson and Maggie Q have both done extensive modeling work.
+Would a model be appropriate to star in a LA Femme Nikita remake?
+Answer: True
+Question: Hostas are characterized by large green striped leaves. The green color in plants is attributed to chlorophyll. 
+For Hostas to look their best, do they need lots of chlorophyll?",Answer: False,True
+SayCan,0,Question: Provide step-by-step instructions for the following task: How would you put a bag of chips and water bottle on the table?,"Step 1: Take the bag of chips in one hand and the water bottle in the other hand.
+Step 2: Walk over to the table where you want to place the items.
+Step 3: Place the bag of chips gently on the table, making sure it is centered and not tipped over.
+Step 4: Place the water bottle next to the bag of chips, ensuring it is standing upright and not rolling around.
+Step 5: Adjust the positioning of the items if needed to make them look neat and organized on the table.
+Step 6: Step back and admire your work, the bag of chips and water bottle are now successfully placed on the table.","1. find the bag of chips, 2. pick up the bag of chips, 3. go to the table, 4. put down the bag of chips, 5. find a water bottle, 6. pick up the water bottle, 7. go to the table, 8. put down the water bottle, 9. done"
+SayCan,1a,"Question: Provide step-by-step instructions for the following task: Find the table.
+Answer: 1. go to the table, 2. done
+Question: Provide step-by-step instructions for the following task: How would you move the chips bag from the table to the counter?
+Answer: 1. find the bag of chips, 2. pick up the bag of chips, 3. go to the counter, 4. put down the bag of chips, 5. done
+Question: Provide step-by-step instructions for the following task: How would you put a bag of chips and water bottle on the table?","Answer: 1. Pick up the bag of chips, 2. place the bag of chips on the table, 3. pick up the water bottle, 4. place the water bottle next to the bag of chips on the table, 5. done","1. find the bag of chips, 2. pick up the bag of chips, 3. go to the table, 4. put down the bag of chips, 5. find a water bottle, 6. pick up the water bottle, 7. go to the table, 8. put down the water bottle, 9. done"
+SayCan,1b,"Question: Provide step-by-step instructions for the following task: I’m exhausted, can you bring me a drink?
+Answer: 1. find a redbull, 2. pick up the redbull, 3. bring it to you, 4. put down the redbull, 5. done
+Question: Provide step-by-step instructions for the following task: Bring me a fruit that is not an apple.
+Answer: 1. find an orange, 2. pick up the orange, 3. bring it to you, 4. put down the orange, 5. done
+Question: Provide step-by-step instructions for the following task: How would you put a bag of chips and water bottle on the table?","Answer: 1. Grab the bag of chips with one hand, 2. Grab the water bottle with the other hand, 3. Walk over to the table, 4. Place the bag of chips on the table, 5. Place the water bottle next to the bag of chips, 6. Adjust the positioning if needed, 7. Step back and admire your work.","1. find the bag of chips, 2. pick up the bag of chips, 3. go to the table, 4. put down the bag of chips, 5. find a water bottle, 6. pick up the water bottle, 7. go to the table, 8. put down the water bottle, 9. done"
+SayCan,2,"Question: Provide step-by-step instructions for the following task: Find the table.
+Answer: 1. go to the table, 2. done
+Question: Provide step-by-step instructions for the following task: How would you move the chips bag from the table to the counter?
+Answer: 1. find the bag of chips, 2. pick up the bag of chips, 3. go to the counter, 4. put down the bag of chips, 5. done
+Question: Provide step-by-step instructions for the following task: I’m exhausted, can you bring me a drink?
+Answer: 1. find a redbull, 2. pick up the redbull, 3. bring it to you, 4. put down the redbull, 5. done
+Question: Provide step-by-step instructions for the following task: Bring me a fruit that is not an apple.
+Answer: 1. find an orange, 2. pick up the orange, 3. bring it to you, 4. put down the orange, 5. done
+Question: Provide step-by-step instructions for the following task: How would you put a bag of chips and water bottle on the table?","Answer: 1. Pick up the bag of chips, 2. Place the bag of chips on the table, 3. Pick up the water bottle, 4. Place the water bottle next to the bag of chips on the table, 5. Done.","1. find the bag of chips, 2. pick up the bag of chips, 3. go to the table, 4. put down the bag of chips, 5. find a water bottle, 6. pick up the water bottle, 7. go to the table, 8. put down the water bottle, 9. done"
+SayCan,3a,"Question: Provide step-by-step instructions for the following task: Find the table.
+Answer: 1. go to the table, 2. done
+Question: Provide step-by-step instructions for the following task: How would you move the chips bag from the table to the counter?
+Answer: 1. find the bag of chips, 2. pick up the bag of chips, 3. go to the counter, 4. put down the bag of chips, 5. done
+Question: Provide step-by-step instructions for the following task: Find the table.
+Answer: 1. go to the table, 2. done
+Question: Provide step-by-step instructions for the following task: How would you move the chips bag from the table to the counter?
+Answer: 1. find the bag of chips, 2. pick up the bag of chips, 3. go to the counter, 4. put down the bag of chips, 5. done
+Question: Provide step-by-step instructions for the following task: How would you put a bag of chips and water bottle on the table?","Answer: 1. Pick up the bag of chips, 2. Place the bag of chips on the table, 3. Pick up the water bottle, 4. Place the water bottle next to the bag of chips on the table, 5. Done","1. find the bag of chips, 2. pick up the bag of chips, 3. go to the table, 4. put down the bag of chips, 5. find a water bottle, 6. pick up the water bottle, 7. go to the table, 8. put down the water bottle, 9. done"
+SayCan,3b,"Question: Provide step-by-step instructions for the following task: I’m exhausted, can you bring me a drink?
+Answer: 1. find a redbull, 2. pick up the redbull, 3. bring it to you, 4. put down the redbull, 5. done
+Question: Provide step-by-step instructions for the following task: Bring me a fruit that is not an apple.
+Answer: 1. find an orange, 2. pick up the orange, 3. bring it to you, 4. put down the orange, 5. done
+Question: Provide step-by-step instructions for the following task: I’m exhausted, can you bring me a drink?
+Answer: 1. find a redbull, 2. pick up the redbull, 3. bring it to you, 4. put down the redbull, 5. done
+Question: Provide step-by-step instructions for the following task: Bring me a fruit that is not an apple.
+Answer: 1. find an orange, 2. pick up the orange, 3. bring it to you, 4. put down the orange, 5. done
+Question: Provide step-by-step instructions for the following task: How would you put a bag of chips and water bottle on the table?",Answer: 1. Pick up the bag of chips with one hand and the water bottle with the other hand. 2. Walk over to the table. 3. Place the bag of chips on the table. 4. Place the water bottle next to the bag of chips. 5. Done.,"1. find the bag of chips, 2. pick up the bag of chips, 3. go to the table, 4. put down the bag of chips, 5. find a water bottle, 6. pick up the water bottle, 7. go to the table, 8. put down the water bottle, 9. done"

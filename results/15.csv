@@ -1,0 +1,386 @@
+Task Class,Case,Prompt,Response,Expected
+Math,0,"Question: Christina records her mood every day on a calendar. Over the past thirty days of moods, she had twelve good days and eight bad days and the rest were neutral. Her first eight days were good, her second eight days were bad, and her third eight days were neutral. If the next three days were good, neutral, and good, how many good days were left in the month?","Based on the information provided, Christina had 12 good days over the span of 30 days. She had 8 good days in the first 8 days, so in the next 8 days there were 8-8=0 good days.
+In the next 8 days, there were 8-0=8 neutral days.
+Thus far, we know that there are 12 good days, 8 neutral days, and 8 bad days accounted for.
+For the next three days: 1 good day, 1 neutral day, and 1 good day.
+Therefore, the total number of good days at the end of the month is 12 (known good days) + 1 (from the next 3 days) = 13 good days left in the month.","Christina had 30 - 12 - 8 = <<30-12-8=10>>10 neutral days in the month.
+After the first three 8-day periods, she had 30 - 8 * 3 = 30 - 24 = <<30-8*3=6>>6 days of moods left.
+Of those days, 12 - 8 = <<12-8=4>>4 days were good.
+After the next 3 days with 2 good days, Christina had 4 - 2 = <<4-2=2>>2 good days left.
+#### 2"
+Math,1a,"Question: Jim had 365 trading cards. He gives 8 sets of cards to his brother, 5 sets of cards to his sister, and 2 sets of cards to his friend. How many cards did he give away, assuming 1 set has 13 trading cards?
+Answer: Jim gave 8*13 = <<8*13=104>>104 trading cards to his brother.
+Jim gave 5*13 = <<5*13=65>>65 trading cards to his sister.
+Jim gave 2*13 = <<2*13=26>>26 trading cards to his friends.
+Jim gave away a total of 104+65+26 = <<104+65+26=195>>195 trading cards.
+#### 195
+Question: Jude bought three chairs for his house, all at the same price. He also bought a table that costs $50 and two sets of plates at $20 for each set. After giving the cashier $130, Jude got a $4 change. How much did each of the chairs cost?
+Answer: The two sets of plates amount to $20 x 2 = $<<20*2=40>>40.
+So the table and the two sets of plates amount to $50 + $40 = $<<50+40=90>>90 in all.
+Since Jude received a $4 change, then he paid a total of $130 - $4 = $<<130-4=126>>126 for the chairs, tables, and plates.
+Thus, the three chairs cost $126 - $90 = $<<126-90=36>>36.
+Therefore, each chair cost $36/3 = $<<36/3=12>>12.
+#### 12
+Question: Christina records her mood every day on a calendar. Over the past thirty days of moods, she had twelve good days and eight bad days and the rest were neutral. Her first eight days were good, her second eight days were bad, and her third eight days were neutral. If the next three days were good, neutral, and good, how many good days were left in the month?","Answer: From the given information, we can see that Christina had a total of 12 good days over 30 days, with 8 good days in the first 8 days and 3 good days in the next 3 days. This leaves 12 - 8 - 3 = <<12-8-3=1>>1 good day left for the rest of the month.
+Therefore, there is 1 good day left for the remainder of the month.
+#### 1","Christina had 30 - 12 - 8 = <<30-12-8=10>>10 neutral days in the month.
+After the first three 8-day periods, she had 30 - 8 * 3 = 30 - 24 = <<30-8*3=6>>6 days of moods left.
+Of those days, 12 - 8 = <<12-8=4>>4 days were good.
+After the next 3 days with 2 good days, Christina had 4 - 2 = <<4-2=2>>2 good days left.
+#### 2"
+Math,1b,"Question: Diana is twice as old as Grace is today. If Grace turned 3 a year ago, how old is Diana today?
+Answer: Today, Grace is 3 + 1 = <<3+1=4>>4 years old.
+So, Diana is 4*2 = <<4*2=8>>8 years old today.
+#### 8
+Question: Diego can carry 20 pounds of fruit home in his bookbag. If he buys a pound of watermelon, a pound of grapes, and a pound of oranges, how many pounds of apples can he buy?
+Answer: He is able to carry 3 pounds of watermelon, grapes, and oranges because1+1+ 1 = <<3=3>>3
+He can buy 17 pounds of apple because20-3 = <<20-3=17>>17
+#### 17
+Question: Christina records her mood every day on a calendar. Over the past thirty days of moods, she had twelve good days and eight bad days and the rest were neutral. Her first eight days were good, her second eight days were bad, and her third eight days were neutral. If the next three days were good, neutral, and good, how many good days were left in the month?","Answer: Out of the thirty days, Christina had a total of 12 good days, 8 bad days, and 10 neutral days.
+Since the first 8 days were good, the next 8 were bad, and the third set of 8 were neutral, we know that the past 24 days were accounted for.
+This means there are 6 days left in the month, with 3 of them being good, 1 being neutral, and 2 being good.
+So, there are 5 good days left in the month.","Christina had 30 - 12 - 8 = <<30-12-8=10>>10 neutral days in the month.
+After the first three 8-day periods, she had 30 - 8 * 3 = 30 - 24 = <<30-8*3=6>>6 days of moods left.
+Of those days, 12 - 8 = <<12-8=4>>4 days were good.
+After the next 3 days with 2 good days, Christina had 4 - 2 = <<4-2=2>>2 good days left.
+#### 2"
+Math,2,"Question: Jim had 365 trading cards. He gives 8 sets of cards to his brother, 5 sets of cards to his sister, and 2 sets of cards to his friend. How many cards did he give away, assuming 1 set has 13 trading cards?
+Answer: Jim gave 8*13 = <<8*13=104>>104 trading cards to his brother.
+Jim gave 5*13 = <<5*13=65>>65 trading cards to his sister.
+Jim gave 2*13 = <<2*13=26>>26 trading cards to his friends.
+Jim gave away a total of 104+65+26 = <<104+65+26=195>>195 trading cards.
+#### 195
+Question: Jude bought three chairs for his house, all at the same price. He also bought a table that costs $50 and two sets of plates at $20 for each set. After giving the cashier $130, Jude got a $4 change. How much did each of the chairs cost?
+Answer: The two sets of plates amount to $20 x 2 = $<<20*2=40>>40.
+So the table and the two sets of plates amount to $50 + $40 = $<<50+40=90>>90 in all.
+Since Jude received a $4 change, then he paid a total of $130 - $4 = $<<130-4=126>>126 for the chairs, tables, and plates.
+Thus, the three chairs cost $126 - $90 = $<<126-90=36>>36.
+Therefore, each chair cost $36/3 = $<<36/3=12>>12.
+#### 12
+Question: Diana is twice as old as Grace is today. If Grace turned 3 a year ago, how old is Diana today?
+Answer: Today, Grace is 3 + 1 = <<3+1=4>>4 years old.
+So, Diana is 4*2 = <<4*2=8>>8 years old today.
+#### 8
+Question: Diego can carry 20 pounds of fruit home in his bookbag. If he buys a pound of watermelon, a pound of grapes, and a pound of oranges, how many pounds of apples can he buy?
+Answer: He is able to carry 3 pounds of watermelon, grapes, and oranges because1+1+ 1 = <<3=3>>3
+He can buy 17 pounds of apple because20-3 = <<20-3=17>>17
+#### 17
+Question: Christina records her mood every day on a calendar. Over the past thirty days of moods, she had twelve good days and eight bad days and the rest were neutral. Her first eight days were good, her second eight days were bad, and her third eight days were neutral. If the next three days were good, neutral, and good, how many good days were left in the month?","Answer: Christina had a total of 12 good days over the past thirty days. Since her first eight days were good, her second eight days were bad, and her third eight days were neutral, she used 8+8+8 = <<8+8+8=24>>24 days.
+This means she had 30-24 = <<30-24=6>>6 days left.
+Since the next three days were good, neutral, and good, she used up 3 more days, so she had 6-3 = <<6-3=3>>3 good days left in the month.
+#### 3","Christina had 30 - 12 - 8 = <<30-12-8=10>>10 neutral days in the month.
+After the first three 8-day periods, she had 30 - 8 * 3 = 30 - 24 = <<30-8*3=6>>6 days of moods left.
+Of those days, 12 - 8 = <<12-8=4>>4 days were good.
+After the next 3 days with 2 good days, Christina had 4 - 2 = <<4-2=2>>2 good days left.
+#### 2"
+Math,3a,"Question: Jim had 365 trading cards. He gives 8 sets of cards to his brother, 5 sets of cards to his sister, and 2 sets of cards to his friend. How many cards did he give away, assuming 1 set has 13 trading cards?
+Answer: Jim gave 8*13 = <<8*13=104>>104 trading cards to his brother.
+Jim gave 5*13 = <<5*13=65>>65 trading cards to his sister.
+Jim gave 2*13 = <<2*13=26>>26 trading cards to his friends.
+Jim gave away a total of 104+65+26 = <<104+65+26=195>>195 trading cards.
+#### 195
+Question: Jude bought three chairs for his house, all at the same price. He also bought a table that costs $50 and two sets of plates at $20 for each set. After giving the cashier $130, Jude got a $4 change. How much did each of the chairs cost?
+Answer: The two sets of plates amount to $20 x 2 = $<<20*2=40>>40.
+So the table and the two sets of plates amount to $50 + $40 = $<<50+40=90>>90 in all.
+Since Jude received a $4 change, then he paid a total of $130 - $4 = $<<130-4=126>>126 for the chairs, tables, and plates.
+Thus, the three chairs cost $126 - $90 = $<<126-90=36>>36.
+Therefore, each chair cost $36/3 = $<<36/3=12>>12.
+#### 12
+Question: Jim had 365 trading cards. He gives 8 sets of cards to his brother, 5 sets of cards to his sister, and 2 sets of cards to his friend. How many cards did he give away, assuming 1 set has 13 trading cards?
+Answer: Jim gave 8*13 = <<8*13=104>>104 trading cards to his brother.
+Jim gave 5*13 = <<5*13=65>>65 trading cards to his sister.
+Jim gave 2*13 = <<2*13=26>>26 trading cards to his friends.
+Jim gave away a total of 104+65+26 = <<104+65+26=195>>195 trading cards.
+#### 195
+Question: Jude bought three chairs for his house, all at the same price. He also bought a table that costs $50 and two sets of plates at $20 for each set. After giving the cashier $130, Jude got a $4 change. How much did each of the chairs cost?
+Answer: The two sets of plates amount to $20 x 2 = $<<20*2=40>>40.
+So the table and the two sets of plates amount to $50 + $40 = $<<50+40=90>>90 in all.
+Since Jude received a $4 change, then he paid a total of $130 - $4 = $<<130-4=126>>126 for the chairs, tables, and plates.
+Thus, the three chairs cost $126 - $90 = $<<126-90=36>>36.
+Therefore, each chair cost $36/3 = $<<36/3=12>>12.
+#### 12
+Question: Christina records her mood every day on a calendar. Over the past thirty days of moods, she had twelve good days and eight bad days and the rest were neutral. Her first eight days were good, her second eight days were bad, and her third eight days were neutral. If the next three days were good, neutral, and good, how many good days were left in the month?","Answer: Since Christina had 12 good days in total and the first 8 days were good, then she had 12 - 8 = <<12-8=4>>4 good days left.
+After the next three days, she would have used up those 4 days, leaving her with no more remaining good days.
+Therefore, there are 0 good days left in the month.","Christina had 30 - 12 - 8 = <<30-12-8=10>>10 neutral days in the month.
+After the first three 8-day periods, she had 30 - 8 * 3 = 30 - 24 = <<30-8*3=6>>6 days of moods left.
+Of those days, 12 - 8 = <<12-8=4>>4 days were good.
+After the next 3 days with 2 good days, Christina had 4 - 2 = <<4-2=2>>2 good days left.
+#### 2"
+Math,3b,"Question: Diana is twice as old as Grace is today. If Grace turned 3 a year ago, how old is Diana today?
+Answer: Today, Grace is 3 + 1 = <<3+1=4>>4 years old.
+So, Diana is 4*2 = <<4*2=8>>8 years old today.
+#### 8
+Question: Diego can carry 20 pounds of fruit home in his bookbag. If he buys a pound of watermelon, a pound of grapes, and a pound of oranges, how many pounds of apples can he buy?
+Answer: He is able to carry 3 pounds of watermelon, grapes, and oranges because1+1+ 1 = <<3=3>>3
+He can buy 17 pounds of apple because20-3 = <<20-3=17>>17
+#### 17
+Question: Diana is twice as old as Grace is today. If Grace turned 3 a year ago, how old is Diana today?
+Answer: Today, Grace is 3 + 1 = <<3+1=4>>4 years old.
+So, Diana is 4*2 = <<4*2=8>>8 years old today.
+#### 8
+Question: Diego can carry 20 pounds of fruit home in his bookbag. If he buys a pound of watermelon, a pound of grapes, and a pound of oranges, how many pounds of apples can he buy?
+Answer: He is able to carry 3 pounds of watermelon, grapes, and oranges because1+1+ 1 = <<3=3>>3
+He can buy 17 pounds of apple because20-3 = <<20-3=17>>17
+#### 17
+Question: Christina records her mood every day on a calendar. Over the past thirty days of moods, she had twelve good days and eight bad days and the rest were neutral. Her first eight days were good, her second eight days were bad, and her third eight days were neutral. If the next three days were good, neutral, and good, how many good days were left in the month?",Answer: There are 12 - 8 = <<12-8=4>>4 good days left in the month.,"Christina had 30 - 12 - 8 = <<30-12-8=10>>10 neutral days in the month.
+After the first three 8-day periods, she had 30 - 8 * 3 = 30 - 24 = <<30-8*3=6>>6 days of moods left.
+Of those days, 12 - 8 = <<12-8=4>>4 days were good.
+After the next 3 days with 2 good days, Christina had 4 - 2 = <<4-2=2>>2 good days left.
+#### 2"
+CSQA,0,"Question: Mark's semen was very thick, but after his vasectomy it was also what?
+A: blank
+B: sparse
+C: thin
+D: clear
+E: free flowing",C: thin,D
+CSQA,1a,"Question: Why does the guy try cashing in his check?
+A: extra money
+B: get paid
+C: great joy
+D: quitting
+E: profit
+Answer: A
+Question: She was worried about driving car, she was worried what might flare up during a long drive?
+A: michigan
+B: car crash
+C: automobile accidents
+D: backache
+E: getting tired
+Answer: D
+Question: Mark's semen was very thick, but after his vasectomy it was also what?
+A: blank
+B: sparse
+C: thin
+D: clear
+E: free flowing",Answer: C,D
+CSQA,1b,"Question: After procreating what can't some people handle that makes them turn to the government?
+A: triplets
+B: having children
+C: added responsibilities
+D: quintuplets
+E: large family
+Answer: C
+Question: Where can a television be stored and hidden?
+A: apartment
+B: living room
+C: bedroom
+D: kitchen
+E: cabinet
+Answer: E
+Question: Mark's semen was very thick, but after his vasectomy it was also what?
+A: blank
+B: sparse
+C: thin
+D: clear
+E: free flowing",Answer: C,D
+CSQA,2,"Question: Why does the guy try cashing in his check?
+A: extra money
+B: get paid
+C: great joy
+D: quitting
+E: profit
+Answer: A
+Question: She was worried about driving car, she was worried what might flare up during a long drive?
+A: michigan
+B: car crash
+C: automobile accidents
+D: backache
+E: getting tired
+Answer: D
+Question: After procreating what can't some people handle that makes them turn to the government?
+A: triplets
+B: having children
+C: added responsibilities
+D: quintuplets
+E: large family
+Answer: C
+Question: Where can a television be stored and hidden?
+A: apartment
+B: living room
+C: bedroom
+D: kitchen
+E: cabinet
+Answer: E
+Question: Mark's semen was very thick, but after his vasectomy it was also what?
+A: blank
+B: sparse
+C: thin
+D: clear
+E: free flowing",Answer: C,D
+CSQA,3a,"Question: Why does the guy try cashing in his check?
+A: extra money
+B: get paid
+C: great joy
+D: quitting
+E: profit
+Answer: A
+Question: She was worried about driving car, she was worried what might flare up during a long drive?
+A: michigan
+B: car crash
+C: automobile accidents
+D: backache
+E: getting tired
+Answer: D
+Question: Why does the guy try cashing in his check?
+A: extra money
+B: get paid
+C: great joy
+D: quitting
+E: profit
+Answer: A
+Question: She was worried about driving car, she was worried what might flare up during a long drive?
+A: michigan
+B: car crash
+C: automobile accidents
+D: backache
+E: getting tired
+Answer: D
+Question: Mark's semen was very thick, but after his vasectomy it was also what?
+A: blank
+B: sparse
+C: thin
+D: clear
+E: free flowing",Answer: C,D
+CSQA,3b,"Question: After procreating what can't some people handle that makes them turn to the government?
+A: triplets
+B: having children
+C: added responsibilities
+D: quintuplets
+E: large family
+Answer: C
+Question: Where can a television be stored and hidden?
+A: apartment
+B: living room
+C: bedroom
+D: kitchen
+E: cabinet
+Answer: E
+Question: After procreating what can't some people handle that makes them turn to the government?
+A: triplets
+B: having children
+C: added responsibilities
+D: quintuplets
+E: large family
+Answer: C
+Question: Where can a television be stored and hidden?
+A: apartment
+B: living room
+C: bedroom
+D: kitchen
+E: cabinet
+Answer: E
+Question: Mark's semen was very thick, but after his vasectomy it was also what?
+A: blank
+B: sparse
+C: thin
+D: clear
+E: free flowing",Answer: C,D
+StrategyQA,0,"Question: Adam Sandler is Jewish. Jewish religious people do not celebrate Easter.
+Does Adam Sandler skip celebrating Easter?","Yes, as a Jewish person, Adam Sandler likely does not celebrate Easter, as it is a Christian holiday. Jewish people typically do not observe Easter as it is not part of their religious tradition.",True
+StrategyQA,1a,"Question: The President of South Korea lives in the Blue House The Blue House finished construction in early 1991 The World Trade Center complex was completed in 1987
+Did Moon Jae-in's residence exist when the World Trade Center was completed?
+Answer: False
+Question: The headquarters of All Nippon Airways are located in Shiodome City Center in the Shiodome area of the Minato ward of Tokyo. Tokyo is a metropolitan area. A beach is a landform alongside a body of water. Metropolitan areas typically do not have bodies of water in the surrounding area.
+Are the headquarters of All Nippon Airways near a beach?
+Answer: False
+Question: Adam Sandler is Jewish. Jewish religious people do not celebrate Easter.
+Does Adam Sandler skip celebrating Easter?",Answer: True,True
+StrategyQA,1b,"Question: The average high temperature in Hollywood in July is 77.2°F. The average low temperature in Hollywood in July is 61.5°F. A coat is a garment worn on the upper body for warmth.
+Is it normally unnecessary to wear a coat in Hollywood in July?
+Answer: True
+Question: Casts encase a limb and prevent it from moving. Movement of limbs under resistance promote muscle growth. An absence of limb movement will result in decreased muscle size. The goal of bodybuilding is to increase the size of your muscles. Individuals are not happy when they are prevented from pursuing their goals.
+Would a bodybuilder enjoy wearing a cast for several weeks?
+Answer: False
+Question: Adam Sandler is Jewish. Jewish religious people do not celebrate Easter.
+Does Adam Sandler skip celebrating Easter?",Answer: True,True
+StrategyQA,2,"Question: The President of South Korea lives in the Blue House The Blue House finished construction in early 1991 The World Trade Center complex was completed in 1987
+Did Moon Jae-in's residence exist when the World Trade Center was completed?
+Answer: False
+Question: The headquarters of All Nippon Airways are located in Shiodome City Center in the Shiodome area of the Minato ward of Tokyo. Tokyo is a metropolitan area. A beach is a landform alongside a body of water. Metropolitan areas typically do not have bodies of water in the surrounding area.
+Are the headquarters of All Nippon Airways near a beach?
+Answer: False
+Question: The average high temperature in Hollywood in July is 77.2°F. The average low temperature in Hollywood in July is 61.5°F. A coat is a garment worn on the upper body for warmth.
+Is it normally unnecessary to wear a coat in Hollywood in July?
+Answer: True
+Question: Casts encase a limb and prevent it from moving. Movement of limbs under resistance promote muscle growth. An absence of limb movement will result in decreased muscle size. The goal of bodybuilding is to increase the size of your muscles. Individuals are not happy when they are prevented from pursuing their goals.
+Would a bodybuilder enjoy wearing a cast for several weeks?
+Answer: False
+Question: Adam Sandler is Jewish. Jewish religious people do not celebrate Easter.
+Does Adam Sandler skip celebrating Easter?",Answer: True,True
+StrategyQA,3a,"Question: The President of South Korea lives in the Blue House The Blue House finished construction in early 1991 The World Trade Center complex was completed in 1987
+Did Moon Jae-in's residence exist when the World Trade Center was completed?
+Answer: False
+Question: The headquarters of All Nippon Airways are located in Shiodome City Center in the Shiodome area of the Minato ward of Tokyo. Tokyo is a metropolitan area. A beach is a landform alongside a body of water. Metropolitan areas typically do not have bodies of water in the surrounding area.
+Are the headquarters of All Nippon Airways near a beach?
+Answer: False
+Question: The President of South Korea lives in the Blue House The Blue House finished construction in early 1991 The World Trade Center complex was completed in 1987
+Did Moon Jae-in's residence exist when the World Trade Center was completed?
+Answer: False
+Question: The headquarters of All Nippon Airways are located in Shiodome City Center in the Shiodome area of the Minato ward of Tokyo. Tokyo is a metropolitan area. A beach is a landform alongside a body of water. Metropolitan areas typically do not have bodies of water in the surrounding area.
+Are the headquarters of All Nippon Airways near a beach?
+Answer: False
+Question: Adam Sandler is Jewish. Jewish religious people do not celebrate Easter.
+Does Adam Sandler skip celebrating Easter?",Answer: True,True
+StrategyQA,3b,"Question: The average high temperature in Hollywood in July is 77.2°F. The average low temperature in Hollywood in July is 61.5°F. A coat is a garment worn on the upper body for warmth.
+Is it normally unnecessary to wear a coat in Hollywood in July?
+Answer: True
+Question: Casts encase a limb and prevent it from moving. Movement of limbs under resistance promote muscle growth. An absence of limb movement will result in decreased muscle size. The goal of bodybuilding is to increase the size of your muscles. Individuals are not happy when they are prevented from pursuing their goals.
+Would a bodybuilder enjoy wearing a cast for several weeks?
+Answer: False
+Question: The average high temperature in Hollywood in July is 77.2°F. The average low temperature in Hollywood in July is 61.5°F. A coat is a garment worn on the upper body for warmth.
+Is it normally unnecessary to wear a coat in Hollywood in July?
+Answer: True
+Question: Casts encase a limb and prevent it from moving. Movement of limbs under resistance promote muscle growth. An absence of limb movement will result in decreased muscle size. The goal of bodybuilding is to increase the size of your muscles. Individuals are not happy when they are prevented from pursuing their goals.
+Would a bodybuilder enjoy wearing a cast for several weeks?
+Answer: False
+Question: Adam Sandler is Jewish. Jewish religious people do not celebrate Easter.
+Does Adam Sandler skip celebrating Easter?",True,True
+SayCan,0,Question: Provide step-by-step instructions for the following task: How would you put a bag of chips and water bottle on the table?,"1. Pick up the bag of chips with one hand and the water bottle with the other hand.
+2. Stand in front of the table with the bag of chips and water bottle in hand.
+3. Gently place the bag of chips on the table, making sure it is stable and not leaning to one side.
+4. Place the water bottle next to the bag of chips on the table.
+5. Adjust the positioning of the bag of chips and water bottle on the table to ensure they are centered and aesthetically pleasing.
+6. Step back and admire your work of putting the bag of chips and water bottle on the table.","1. find the bag of chips, 2. pick up the bag of chips, 3. go to the table, 4. put down the bag of chips, 5. find a water bottle, 6. pick up the water bottle, 7. go to the table, 8. put down the water bottle, 9. done"
+SayCan,1a,"Question: Provide step-by-step instructions for the following task: Can you bring me a spicy snack?
+Answer: 1. find the jalapeno chips, 2. pick up the jalapeno chips, 3. bring it to you, 4. put down the jalapeno chips, 5. done
+Question: Provide step-by-step instructions for the following task: Throw away the sprite.
+Answer: 1. find a sprite can, 2. pick up the sprite can, 3. go to the trash, 4. put down the sprite can, 5. done
+Question: Provide step-by-step instructions for the following task: How would you put a bag of chips and water bottle on the table?",Answer: 1. Hold the bag of chips in one hand and the water bottle in the other hand. 2. Walk over to the table. 3. Place the bag of chips on the table. 4. Put the water bottle next to the bag of chips on the table. 5. Adjust the items as desired. 6. Done.,"1. find the bag of chips, 2. pick up the bag of chips, 3. go to the table, 4. put down the bag of chips, 5. find a water bottle, 6. pick up the water bottle, 7. go to the table, 8. put down the water bottle, 9. done"
+SayCan,1b,"Question: Provide step-by-step instructions for the following task: How would you put the coke can in your gripper?
+Answer: 1. pick up the coke can, 2. done
+Question: Provide step-by-step instructions for the following task: How would you put a banana on the counter?
+Answer: 1. pick up the banana, 2. go to the counter, 3. put down the banana, 4. done
+Question: Provide step-by-step instructions for the following task: How would you put a bag of chips and water bottle on the table?","Answer: 1. Pick up the bag of chips and water bottle, 2. Walk to the table, 3. Place the bag of chips and water bottle on the table, 4. Adjust their positions as needed, 5. Done","1. find the bag of chips, 2. pick up the bag of chips, 3. go to the table, 4. put down the bag of chips, 5. find a water bottle, 6. pick up the water bottle, 7. go to the table, 8. put down the water bottle, 9. done"
+SayCan,2,"Question: Provide step-by-step instructions for the following task: Can you bring me a spicy snack?
+Answer: 1. find the jalapeno chips, 2. pick up the jalapeno chips, 3. bring it to you, 4. put down the jalapeno chips, 5. done
+Question: Provide step-by-step instructions for the following task: Throw away the sprite.
+Answer: 1. find a sprite can, 2. pick up the sprite can, 3. go to the trash, 4. put down the sprite can, 5. done
+Question: Provide step-by-step instructions for the following task: How would you put the coke can in your gripper?
+Answer: 1. pick up the coke can, 2. done
+Question: Provide step-by-step instructions for the following task: How would you put a banana on the counter?
+Answer: 1. pick up the banana, 2. go to the counter, 3. put down the banana, 4. done
+Question: Provide step-by-step instructions for the following task: How would you put a bag of chips and water bottle on the table?","Answer: 1. pick up the bag of chips, 2. pick up the water bottle, 3. go to the table, 4. put down the bag of chips, 5. put down the water bottle, 6. done","1. find the bag of chips, 2. pick up the bag of chips, 3. go to the table, 4. put down the bag of chips, 5. find a water bottle, 6. pick up the water bottle, 7. go to the table, 8. put down the water bottle, 9. done"
+SayCan,3a,"Question: Provide step-by-step instructions for the following task: Can you bring me a spicy snack?
+Answer: 1. find the jalapeno chips, 2. pick up the jalapeno chips, 3. bring it to you, 4. put down the jalapeno chips, 5. done
+Question: Provide step-by-step instructions for the following task: Throw away the sprite.
+Answer: 1. find a sprite can, 2. pick up the sprite can, 3. go to the trash, 4. put down the sprite can, 5. done
+Question: Provide step-by-step instructions for the following task: Can you bring me a spicy snack?
+Answer: 1. find the jalapeno chips, 2. pick up the jalapeno chips, 3. bring it to you, 4. put down the jalapeno chips, 5. done
+Question: Provide step-by-step instructions for the following task: Throw away the sprite.
+Answer: 1. find a sprite can, 2. pick up the sprite can, 3. go to the trash, 4. put down the sprite can, 5. done
+Question: Provide step-by-step instructions for the following task: How would you put a bag of chips and water bottle on the table?","Answer: 1. Hold the bag of chips in one hand and the water bottle in the other hand, 2. Walk over to the table, 3. Place the bag of chips on the table first, making sure it is centered, 4. Place the water bottle next to the bag of chips, 5. Step back and ensure both items are placed securely on the table, 6. Done.","1. find the bag of chips, 2. pick up the bag of chips, 3. go to the table, 4. put down the bag of chips, 5. find a water bottle, 6. pick up the water bottle, 7. go to the table, 8. put down the water bottle, 9. done"
+SayCan,3b,"Question: Provide step-by-step instructions for the following task: How would you put the coke can in your gripper?
+Answer: 1. pick up the coke can, 2. done
+Question: Provide step-by-step instructions for the following task: How would you put a banana on the counter?
+Answer: 1. pick up the banana, 2. go to the counter, 3. put down the banana, 4. done
+Question: Provide step-by-step instructions for the following task: How would you put the coke can in your gripper?
+Answer: 1. pick up the coke can, 2. done
+Question: Provide step-by-step instructions for the following task: How would you put a banana on the counter?
+Answer: 1. pick up the banana, 2. go to the counter, 3. put down the banana, 4. done
+Question: Provide step-by-step instructions for the following task: How would you put a bag of chips and water bottle on the table?","1. Pick up the bag of chips
+2. Pick up the water bottle
+3. Carry both items to the table
+4. Place the bag of chips on the table
+5. Place the water bottle on the table
+6. Arrange them neatly if desired
+7. Done","1. find the bag of chips, 2. pick up the bag of chips, 3. go to the table, 4. put down the bag of chips, 5. find a water bottle, 6. pick up the water bottle, 7. go to the table, 8. put down the water bottle, 9. done"

@@ -1,0 +1,358 @@
+Task Class,Case,Prompt,Response,Expected
+Math,0,Question: Billy sells DVDs. He has 8 customers on Tuesday. His first 3 customers buy one DVD each.  His next 2 customers buy 2 DVDs each.  His last 3 customers don't buy any DVDs. How many DVDs did Billy sell on Tuesday?,"Billy sold:
+3 customers x 1 DVD each = 3 DVDs
+2 customers x 2 DVDs each = 4 DVDs
+So, Billy sold a total of 3 + 4 = 7 DVDs on Tuesday.","His first 3 customers buy 3 * 1 = <<3*1=3>>3 DVDs.
+His next 2 buy 2 * 2 = <<2*2=4>>4 DVDs.
+He sells a total of 3 + 4 + 0 = <<3+4+0=7>>7 DVDs.
+#### 7"
+Math,1a,"Question: How much money did you make if you sold 220 chocolate cookies at $1 per cookie and 70 vanilla cookies at $2 per cookie?
+Answer: You sold 220 chocolate cookies at $1 per cookie earning 220 x 1 = $<<220*1=220>>220
+You sold 70 vanilla cookies at $2 per cookie earning 70 x 2 =$<<70*2=140>>140.
+In total you earned 220 + 140 = $<<220+140=360>>360
+#### 360
+Question: Roger uses his lunch break to walk the stairs in his office building.  He can walk 2,000 steps in 30 minutes.  If his daily goal is 10,000 steps, how many minutes will it take him to reach his goal?
+Answer: Each step Roger walks for 30/2000 = <<30/2000=0.015>>0.015 minutes
+To walk 10000 steps he'll take 0.015*10000 = <<0.015*10000=150>>150
+#### 150
+Question: Billy sells DVDs. He has 8 customers on Tuesday. His first 3 customers buy one DVD each.  His next 2 customers buy 2 DVDs each.  His last 3 customers don't buy any DVDs. How many DVDs did Billy sell on Tuesday?","Answer: Billy sold 3 DVDs to his first 3 customers, 2 * 2 = 4 DVDs to his next 2 customers, for a total of 3 + 4 = <<3+4=7>>7 DVDs sold. 
+Billy sold a total of 7 DVDs on Tuesday.","His first 3 customers buy 3 * 1 = <<3*1=3>>3 DVDs.
+His next 2 buy 2 * 2 = <<2*2=4>>4 DVDs.
+He sells a total of 3 + 4 + 0 = <<3+4+0=7>>7 DVDs.
+#### 7"
+Math,1b,"Question: A desert garden’s sprinkler system runs twice a day during the cool morning and evening hours. It waters the garden with four liters of water in the morning and six liters in the evening. How many days does it take the sprinkler system to use 50 liters of water?
+Answer: Every day, the sprinkler uses 4 + 6 = <<4+6=10>>10 liters of water.
+Hence, it takes the sprinkler system 50 / 10 = <<50/10=5>>5 days to use 50 liters of water.
+#### 5
+Question: Nina wants to buy a new video game with her allowance money. The game cost 50 dollars. Nina also has learned that there is a 10 percent sales tax. She receives 10 dollars a week as an allowance, and thinks she can save half of that. How many weeks will it take for Nina to be able to buy the new video game with her savings?
+Answer: The 10 percent tax on 50 dollars will be 10 / 100 x 50 = <<10/100*50=5>>5 dollars.
+The cost of the game and the tax will be 50 + 5 = <<50+5=55>>55 dollars.
+Nina will save half of her allowance every week, or 10 / 2 = <<10/2=5>>5 dollars per week.
+The total cost of the game and tax, divided by Nina's weekly savings is 55 / 5 = <<55/5=11>>11 weeks.
+#### 11
+Question: Billy sells DVDs. He has 8 customers on Tuesday. His first 3 customers buy one DVD each.  His next 2 customers buy 2 DVDs each.  His last 3 customers don't buy any DVDs. How many DVDs did Billy sell on Tuesday?",Answer: Billy sold a total of 3 + 3 + 2 + 2 = 10 DVDs on Tuesday.,"His first 3 customers buy 3 * 1 = <<3*1=3>>3 DVDs.
+His next 2 buy 2 * 2 = <<2*2=4>>4 DVDs.
+He sells a total of 3 + 4 + 0 = <<3+4+0=7>>7 DVDs.
+#### 7"
+Math,2,"Question: How much money did you make if you sold 220 chocolate cookies at $1 per cookie and 70 vanilla cookies at $2 per cookie?
+Answer: You sold 220 chocolate cookies at $1 per cookie earning 220 x 1 = $<<220*1=220>>220
+You sold 70 vanilla cookies at $2 per cookie earning 70 x 2 =$<<70*2=140>>140.
+In total you earned 220 + 140 = $<<220+140=360>>360
+#### 360
+Question: Roger uses his lunch break to walk the stairs in his office building.  He can walk 2,000 steps in 30 minutes.  If his daily goal is 10,000 steps, how many minutes will it take him to reach his goal?
+Answer: Each step Roger walks for 30/2000 = <<30/2000=0.015>>0.015 minutes
+To walk 10000 steps he'll take 0.015*10000 = <<0.015*10000=150>>150
+#### 150
+Question: A desert garden’s sprinkler system runs twice a day during the cool morning and evening hours. It waters the garden with four liters of water in the morning and six liters in the evening. How many days does it take the sprinkler system to use 50 liters of water?
+Answer: Every day, the sprinkler uses 4 + 6 = <<4+6=10>>10 liters of water.
+Hence, it takes the sprinkler system 50 / 10 = <<50/10=5>>5 days to use 50 liters of water.
+#### 5
+Question: Nina wants to buy a new video game with her allowance money. The game cost 50 dollars. Nina also has learned that there is a 10 percent sales tax. She receives 10 dollars a week as an allowance, and thinks she can save half of that. How many weeks will it take for Nina to be able to buy the new video game with her savings?
+Answer: The 10 percent tax on 50 dollars will be 10 / 100 x 50 = <<10/100*50=5>>5 dollars.
+The cost of the game and the tax will be 50 + 5 = <<50+5=55>>55 dollars.
+Nina will save half of her allowance every week, or 10 / 2 = <<10/2=5>>5 dollars per week.
+The total cost of the game and tax, divided by Nina's weekly savings is 55 / 5 = <<55/5=11>>11 weeks.
+#### 11
+Question: Billy sells DVDs. He has 8 customers on Tuesday. His first 3 customers buy one DVD each.  His next 2 customers buy 2 DVDs each.  His last 3 customers don't buy any DVDs. How many DVDs did Billy sell on Tuesday?","Answer: The first 3 customers bought 1 DVD each, so he sold 3 * 1 = <<3*1=3>>3 DVDs.
+The next 2 customers bought 2 DVDs each, so he sold 2 * 2 = <<2*2=4>>4 DVDs.
+Therefore, Billy sold a total of 3 + 4 = <<3+4=7>>7 DVDs on Tuesday.","His first 3 customers buy 3 * 1 = <<3*1=3>>3 DVDs.
+His next 2 buy 2 * 2 = <<2*2=4>>4 DVDs.
+He sells a total of 3 + 4 + 0 = <<3+4+0=7>>7 DVDs.
+#### 7"
+Math,3a,"Question: How much money did you make if you sold 220 chocolate cookies at $1 per cookie and 70 vanilla cookies at $2 per cookie?
+Answer: You sold 220 chocolate cookies at $1 per cookie earning 220 x 1 = $<<220*1=220>>220
+You sold 70 vanilla cookies at $2 per cookie earning 70 x 2 =$<<70*2=140>>140.
+In total you earned 220 + 140 = $<<220+140=360>>360
+#### 360
+Question: Roger uses his lunch break to walk the stairs in his office building.  He can walk 2,000 steps in 30 minutes.  If his daily goal is 10,000 steps, how many minutes will it take him to reach his goal?
+Answer: Each step Roger walks for 30/2000 = <<30/2000=0.015>>0.015 minutes
+To walk 10000 steps he'll take 0.015*10000 = <<0.015*10000=150>>150
+#### 150
+Question: How much money did you make if you sold 220 chocolate cookies at $1 per cookie and 70 vanilla cookies at $2 per cookie?
+Answer: You sold 220 chocolate cookies at $1 per cookie earning 220 x 1 = $<<220*1=220>>220
+You sold 70 vanilla cookies at $2 per cookie earning 70 x 2 =$<<70*2=140>>140.
+In total you earned 220 + 140 = $<<220+140=360>>360
+#### 360
+Question: Roger uses his lunch break to walk the stairs in his office building.  He can walk 2,000 steps in 30 minutes.  If his daily goal is 10,000 steps, how many minutes will it take him to reach his goal?
+Answer: Each step Roger walks for 30/2000 = <<30/2000=0.015>>0.015 minutes
+To walk 10000 steps he'll take 0.015*10000 = <<0.015*10000=150>>150
+#### 150
+Question: Billy sells DVDs. He has 8 customers on Tuesday. His first 3 customers buy one DVD each.  His next 2 customers buy 2 DVDs each.  His last 3 customers don't buy any DVDs. How many DVDs did Billy sell on Tuesday?","Answer: Billy sold 3 DVDs to his first 3 customers, 2*2=4 DVDs to his next 2 customers, and didn't sell any DVDs to his last 3 customers. In total, Billy sold 3 + 4 + 0 = 7 DVDs on Tuesday.","His first 3 customers buy 3 * 1 = <<3*1=3>>3 DVDs.
+His next 2 buy 2 * 2 = <<2*2=4>>4 DVDs.
+He sells a total of 3 + 4 + 0 = <<3+4+0=7>>7 DVDs.
+#### 7"
+Math,3b,"Question: A desert garden’s sprinkler system runs twice a day during the cool morning and evening hours. It waters the garden with four liters of water in the morning and six liters in the evening. How many days does it take the sprinkler system to use 50 liters of water?
+Answer: Every day, the sprinkler uses 4 + 6 = <<4+6=10>>10 liters of water.
+Hence, it takes the sprinkler system 50 / 10 = <<50/10=5>>5 days to use 50 liters of water.
+#### 5
+Question: Nina wants to buy a new video game with her allowance money. The game cost 50 dollars. Nina also has learned that there is a 10 percent sales tax. She receives 10 dollars a week as an allowance, and thinks she can save half of that. How many weeks will it take for Nina to be able to buy the new video game with her savings?
+Answer: The 10 percent tax on 50 dollars will be 10 / 100 x 50 = <<10/100*50=5>>5 dollars.
+The cost of the game and the tax will be 50 + 5 = <<50+5=55>>55 dollars.
+Nina will save half of her allowance every week, or 10 / 2 = <<10/2=5>>5 dollars per week.
+The total cost of the game and tax, divided by Nina's weekly savings is 55 / 5 = <<55/5=11>>11 weeks.
+#### 11
+Question: A desert garden’s sprinkler system runs twice a day during the cool morning and evening hours. It waters the garden with four liters of water in the morning and six liters in the evening. How many days does it take the sprinkler system to use 50 liters of water?
+Answer: Every day, the sprinkler uses 4 + 6 = <<4+6=10>>10 liters of water.
+Hence, it takes the sprinkler system 50 / 10 = <<50/10=5>>5 days to use 50 liters of water.
+#### 5
+Question: Nina wants to buy a new video game with her allowance money. The game cost 50 dollars. Nina also has learned that there is a 10 percent sales tax. She receives 10 dollars a week as an allowance, and thinks she can save half of that. How many weeks will it take for Nina to be able to buy the new video game with her savings?
+Answer: The 10 percent tax on 50 dollars will be 10 / 100 x 50 = <<10/100*50=5>>5 dollars.
+The cost of the game and the tax will be 50 + 5 = <<50+5=55>>55 dollars.
+Nina will save half of her allowance every week, or 10 / 2 = <<10/2=5>>5 dollars per week.
+The total cost of the game and tax, divided by Nina's weekly savings is 55 / 5 = <<55/5=11>>11 weeks.
+#### 11
+Question: Billy sells DVDs. He has 8 customers on Tuesday. His first 3 customers buy one DVD each.  His next 2 customers buy 2 DVDs each.  His last 3 customers don't buy any DVDs. How many DVDs did Billy sell on Tuesday?",Answer: Billy sold a total of 3 + 3 + 2*2 = 10 DVDs on Tuesday.,"His first 3 customers buy 3 * 1 = <<3*1=3>>3 DVDs.
+His next 2 buy 2 * 2 = <<2*2=4>>4 DVDs.
+He sells a total of 3 + 4 + 0 = <<3+4+0=7>>7 DVDs.
+#### 7"
+CSQA,0,"Question: Jame's bare feet were burned as he walked, because the sunshine had made the surface hot.  Where might he have been?
+A: disneyland
+B: snow
+C: windowsill
+D: street
+E: summer",E: summer,D
+CSQA,1a,"Question: Along what feature will you find a rosebush?
+A: park
+B: in the ground
+C: hedgerow
+D: temperate climate
+E: botanical gardens
+Answer: C
+Question: The college student wanted to meet people, but he didn't really like to what?
+A: take class
+B: friendly
+C: go to parties
+D: go outside
+E: go outside
+Answer: C
+Question: Jame's bare feet were burned as he walked, because the sunshine had made the surface hot.  Where might he have been?
+A: disneyland
+B: snow
+C: windowsill
+D: street
+E: summer",Answer: D,D
+CSQA,1b,"Question: John traveled deeper and deeper.  As he went, the light faded away until it was pitch black. Where might he be?
+A: porch
+B: attic
+C: beach
+D: ocean
+E: universe
+Answer: D
+Question: How can music help someone who is down?
+A: beautifull
+B: express feelings
+C: they cannot heal and feel beautiful
+D: provide comfort
+E: sound good
+Answer: D
+Question: Jame's bare feet were burned as he walked, because the sunshine had made the surface hot.  Where might he have been?
+A: disneyland
+B: snow
+C: windowsill
+D: street
+E: summer",Answer: D,D
+CSQA,2,"Question: Along what feature will you find a rosebush?
+A: park
+B: in the ground
+C: hedgerow
+D: temperate climate
+E: botanical gardens
+Answer: C
+Question: The college student wanted to meet people, but he didn't really like to what?
+A: take class
+B: friendly
+C: go to parties
+D: go outside
+E: go outside
+Answer: C
+Question: John traveled deeper and deeper.  As he went, the light faded away until it was pitch black. Where might he be?
+A: porch
+B: attic
+C: beach
+D: ocean
+E: universe
+Answer: D
+Question: How can music help someone who is down?
+A: beautifull
+B: express feelings
+C: they cannot heal and feel beautiful
+D: provide comfort
+E: sound good
+Answer: D
+Question: Jame's bare feet were burned as he walked, because the sunshine had made the surface hot.  Where might he have been?
+A: disneyland
+B: snow
+C: windowsill
+D: street
+E: summer",Answer: D,D
+CSQA,3a,"Question: Along what feature will you find a rosebush?
+A: park
+B: in the ground
+C: hedgerow
+D: temperate climate
+E: botanical gardens
+Answer: C
+Question: The college student wanted to meet people, but he didn't really like to what?
+A: take class
+B: friendly
+C: go to parties
+D: go outside
+E: go outside
+Answer: C
+Question: Along what feature will you find a rosebush?
+A: park
+B: in the ground
+C: hedgerow
+D: temperate climate
+E: botanical gardens
+Answer: C
+Question: The college student wanted to meet people, but he didn't really like to what?
+A: take class
+B: friendly
+C: go to parties
+D: go outside
+E: go outside
+Answer: C
+Question: Jame's bare feet were burned as he walked, because the sunshine had made the surface hot.  Where might he have been?
+A: disneyland
+B: snow
+C: windowsill
+D: street
+E: summer",Answer: D,D
+CSQA,3b,"Question: John traveled deeper and deeper.  As he went, the light faded away until it was pitch black. Where might he be?
+A: porch
+B: attic
+C: beach
+D: ocean
+E: universe
+Answer: D
+Question: How can music help someone who is down?
+A: beautifull
+B: express feelings
+C: they cannot heal and feel beautiful
+D: provide comfort
+E: sound good
+Answer: D
+Question: John traveled deeper and deeper.  As he went, the light faded away until it was pitch black. Where might he be?
+A: porch
+B: attic
+C: beach
+D: ocean
+E: universe
+Answer: D
+Question: How can music help someone who is down?
+A: beautifull
+B: express feelings
+C: they cannot heal and feel beautiful
+D: provide comfort
+E: sound good
+Answer: D
+Question: Jame's bare feet were burned as he walked, because the sunshine had made the surface hot.  Where might he have been?
+A: disneyland
+B: snow
+C: windowsill
+D: street
+E: summer",Answer: D,D
+StrategyQA,0,"Question: The Pyramid at the Louvre is made of glass and metal. The Louvre Pyramid glass is 10mm thick. 10mm thick glass is not unbreakable.
+Is the Louvre's pyramid known for being unbreakable? ","No, the Louvre Pyramid is not known for being unbreakable, as the glass used in its construction is only 10mm thick and therefore not unbreakable.",False
+StrategyQA,1a,"Question: Tonsure refers to the religious hairstyle in which hair from the top of the head is shaved off. Winners of the ancient Olympics were given a laurel crown to wear. A laurel crown involves leaves arranged in a circle that cover only the edges of the head.
+Does ancient Olympics crown fail to hide tonsure?
+Answer: True
+Question: Maroon 5 formed in 2001. Nirvana's final performances were in 1994.
+Did Maroon 5 go on tour with Nirvana?
+Answer: False
+Question: The Pyramid at the Louvre is made of glass and metal. The Louvre Pyramid glass is 10mm thick. 10mm thick glass is not unbreakable.
+Is the Louvre's pyramid known for being unbreakable? ",Answer: False,False
+StrategyQA,1b,"Question: Scavengers are defined as animals that feed on dead carcasses of animals they have not killed themselves. Vultures are scavengers that hover in the air and swoop down to feed once they see an animal killed by another animal. The Golden eagle has sharp talons to hunt its own prey. Golden eagles kill and feed on hares, rabbits, and ground squirrels.
+Is the Golden eagle considered a scavenger bird?
+Answer: False
+Question: Apartheid lasted from 1948 until the early 1990s. Actress Elle Fanning was born on April 9, 1998.
+Did Elle Fanning play an essential part in ending apartheid?
+Answer: False
+Question: The Pyramid at the Louvre is made of glass and metal. The Louvre Pyramid glass is 10mm thick. 10mm thick glass is not unbreakable.
+Is the Louvre's pyramid known for being unbreakable? ",Answer: False,False
+StrategyQA,2,"Question: Tonsure refers to the religious hairstyle in which hair from the top of the head is shaved off. Winners of the ancient Olympics were given a laurel crown to wear. A laurel crown involves leaves arranged in a circle that cover only the edges of the head.
+Does ancient Olympics crown fail to hide tonsure?
+Answer: True
+Question: Maroon 5 formed in 2001. Nirvana's final performances were in 1994.
+Did Maroon 5 go on tour with Nirvana?
+Answer: False
+Question: Scavengers are defined as animals that feed on dead carcasses of animals they have not killed themselves. Vultures are scavengers that hover in the air and swoop down to feed once they see an animal killed by another animal. The Golden eagle has sharp talons to hunt its own prey. Golden eagles kill and feed on hares, rabbits, and ground squirrels.
+Is the Golden eagle considered a scavenger bird?
+Answer: False
+Question: Apartheid lasted from 1948 until the early 1990s. Actress Elle Fanning was born on April 9, 1998.
+Did Elle Fanning play an essential part in ending apartheid?
+Answer: False
+Question: The Pyramid at the Louvre is made of glass and metal. The Louvre Pyramid glass is 10mm thick. 10mm thick glass is not unbreakable.
+Is the Louvre's pyramid known for being unbreakable? ",Answer: False,False
+StrategyQA,3a,"Question: Tonsure refers to the religious hairstyle in which hair from the top of the head is shaved off. Winners of the ancient Olympics were given a laurel crown to wear. A laurel crown involves leaves arranged in a circle that cover only the edges of the head.
+Does ancient Olympics crown fail to hide tonsure?
+Answer: True
+Question: Maroon 5 formed in 2001. Nirvana's final performances were in 1994.
+Did Maroon 5 go on tour with Nirvana?
+Answer: False
+Question: Tonsure refers to the religious hairstyle in which hair from the top of the head is shaved off. Winners of the ancient Olympics were given a laurel crown to wear. A laurel crown involves leaves arranged in a circle that cover only the edges of the head.
+Does ancient Olympics crown fail to hide tonsure?
+Answer: True
+Question: Maroon 5 formed in 2001. Nirvana's final performances were in 1994.
+Did Maroon 5 go on tour with Nirvana?
+Answer: False
+Question: The Pyramid at the Louvre is made of glass and metal. The Louvre Pyramid glass is 10mm thick. 10mm thick glass is not unbreakable.
+Is the Louvre's pyramid known for being unbreakable? ",Answer: False,False
+StrategyQA,3b,"Question: Scavengers are defined as animals that feed on dead carcasses of animals they have not killed themselves. Vultures are scavengers that hover in the air and swoop down to feed once they see an animal killed by another animal. The Golden eagle has sharp talons to hunt its own prey. Golden eagles kill and feed on hares, rabbits, and ground squirrels.
+Is the Golden eagle considered a scavenger bird?
+Answer: False
+Question: Apartheid lasted from 1948 until the early 1990s. Actress Elle Fanning was born on April 9, 1998.
+Did Elle Fanning play an essential part in ending apartheid?
+Answer: False
+Question: Scavengers are defined as animals that feed on dead carcasses of animals they have not killed themselves. Vultures are scavengers that hover in the air and swoop down to feed once they see an animal killed by another animal. The Golden eagle has sharp talons to hunt its own prey. Golden eagles kill and feed on hares, rabbits, and ground squirrels.
+Is the Golden eagle considered a scavenger bird?
+Answer: False
+Question: Apartheid lasted from 1948 until the early 1990s. Actress Elle Fanning was born on April 9, 1998.
+Did Elle Fanning play an essential part in ending apartheid?
+Answer: False
+Question: The Pyramid at the Louvre is made of glass and metal. The Louvre Pyramid glass is 10mm thick. 10mm thick glass is not unbreakable.
+Is the Louvre's pyramid known for being unbreakable? ",Answer: False,False
+SayCan,0,Question: Provide step-by-step instructions for the following task: Move a banana to the table.,"1. Pick up the banana with your hand, ensuring you have a firm grip on it.
+2. Stand up and walk towards the table.
+3. Position yourself in front of the table with the banana still in your hand.
+4. Extend your arm and gently place the banana on the table's surface.
+5. Ensure that the banana is stable on the table and will not roll off.
+6. Step back and admire your successfully completed task of moving the banana to the table.","1. pick up the banana, 2. go to the table, 3. put down the banana, 4. done"
+SayCan,1a,"Question: Provide step-by-step instructions for the following task: How would you go to the table and the counter?
+Answer: 1. go to the table, 2. go to the counter, 3. done
+Question: Provide step-by-step instructions for the following task: How would you bring me an apple from the drawer?
+Answer: 1. go to the drawer, 2. open the drawer, 3. pick up the apple, 4. close the drawer, 5. bring it to you, 6. put down the apple, 7. done
+Question: Provide step-by-step instructions for the following task: Move a banana to the table.","Answer: 1. Pick up the banana, 2. Walk to the table, 3. Place the banana on the table, 4. Done.","1. pick up the banana, 2. go to the table, 3. put down the banana, 4. done"
+SayCan,1b,"Question: Provide step-by-step instructions for the following task: Can I have a redbull please.
+Answer: 1. find a redbull can, 2. pick up the redbull can, 3. bring it to you, 4. put down the redbull can, 5. done
+Question: Provide step-by-step instructions for the following task: Throw away all the fruits on the table.
+Answer: 1. go to the table, 2. pick up the apple, 3. go to the trash, 4. put down the apple, 5. go to the table, 6. pick up the orange, 7. go to the trash, 8. put down the orange, 9. done
+Question: Provide step-by-step instructions for the following task: Move a banana to the table.","Answer: 1. Go to where the banana is located, 2. Pick up the banana, 3. Walk over to the table, 4. Place the banana on the table, 5. Done","1. pick up the banana, 2. go to the table, 3. put down the banana, 4. done"
+SayCan,2,"Question: Provide step-by-step instructions for the following task: How would you go to the table and the counter?
+Answer: 1. go to the table, 2. go to the counter, 3. done
+Question: Provide step-by-step instructions for the following task: How would you bring me an apple from the drawer?
+Answer: 1. go to the drawer, 2. open the drawer, 3. pick up the apple, 4. close the drawer, 5. bring it to you, 6. put down the apple, 7. done
+Question: Provide step-by-step instructions for the following task: Can I have a redbull please.
+Answer: 1. find a redbull can, 2. pick up the redbull can, 3. bring it to you, 4. put down the redbull can, 5. done
+Question: Provide step-by-step instructions for the following task: Throw away all the fruits on the table.
+Answer: 1. go to the table, 2. pick up the apple, 3. go to the trash, 4. put down the apple, 5. go to the table, 6. pick up the orange, 7. go to the trash, 8. put down the orange, 9. done
+Question: Provide step-by-step instructions for the following task: Move a banana to the table.","Answer: 1. go to the counter, 2. pick up the banana, 3. go to the table, 4. put down the banana, 5. done","1. pick up the banana, 2. go to the table, 3. put down the banana, 4. done"
+SayCan,3a,"Question: Provide step-by-step instructions for the following task: How would you go to the table and the counter?
+Answer: 1. go to the table, 2. go to the counter, 3. done
+Question: Provide step-by-step instructions for the following task: How would you bring me an apple from the drawer?
+Answer: 1. go to the drawer, 2. open the drawer, 3. pick up the apple, 4. close the drawer, 5. bring it to you, 6. put down the apple, 7. done
+Question: Provide step-by-step instructions for the following task: How would you go to the table and the counter?
+Answer: 1. go to the table, 2. go to the counter, 3. done
+Question: Provide step-by-step instructions for the following task: How would you bring me an apple from the drawer?
+Answer: 1. go to the drawer, 2. open the drawer, 3. pick up the apple, 4. close the drawer, 5. bring it to you, 6. put down the apple, 7. done
+Question: Provide step-by-step instructions for the following task: Move a banana to the table.","Answer: 1. Go to where the banana is located, 2. Pick up the banana, 3. Walk to the table, 4. Place the banana on the table, 5. Done.","1. pick up the banana, 2. go to the table, 3. put down the banana, 4. done"
+SayCan,3b,"Question: Provide step-by-step instructions for the following task: Can I have a redbull please.
+Answer: 1. find a redbull can, 2. pick up the redbull can, 3. bring it to you, 4. put down the redbull can, 5. done
+Question: Provide step-by-step instructions for the following task: Throw away all the fruits on the table.
+Answer: 1. go to the table, 2. pick up the apple, 3. go to the trash, 4. put down the apple, 5. go to the table, 6. pick up the orange, 7. go to the trash, 8. put down the orange, 9. done
+Question: Provide step-by-step instructions for the following task: Can I have a redbull please.
+Answer: 1. find a redbull can, 2. pick up the redbull can, 3. bring it to you, 4. put down the redbull can, 5. done
+Question: Provide step-by-step instructions for the following task: Throw away all the fruits on the table.
+Answer: 1. go to the table, 2. pick up the apple, 3. go to the trash, 4. put down the apple, 5. go to the table, 6. pick up the orange, 7. go to the trash, 8. put down the orange, 9. done
+Question: Provide step-by-step instructions for the following task: Move a banana to the table.","Answer: 1. Locate a banana, 2. Pick up the banana, 3. Walk over to the table, 4. Place the banana on the table, 5. Done","1. pick up the banana, 2. go to the table, 3. put down the banana, 4. done"

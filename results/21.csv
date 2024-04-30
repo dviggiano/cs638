@@ -1,0 +1,443 @@
+Task Class,Case,Prompt,Response,Expected
+Math,0,"Question: Johnny's dad brought him to watch some horse racing and his dad bet money. On the first race, he lost $5. On the second race, he won $1 more than twice the amount he previously lost. On the third race, he lost 1.5 times as much as he won in the second race. How much did he lose on average that day?","Let's break down the scenario step by step:
+
+1. Johnny's dad lost $5 on the first race.
+2. On the second race, he won $1 more than twice the amount he previously lost, so he won 2 * $5 + $1 = $11.
+3. On the third race, he lost 1.5 times as much as he won in the second race, so he lost 1.5 * $11 = $16.50.
+
+To calculate the average amount he lost that day, we add up the total amount he lost and divide by the number of races (3): 
+Total amount lost = $5 (first race) + $16.50 (third race) = $21.50
+Average amount lost = $21.50 / 3 = $7.17
+
+Therefore, Johnny's dad lost an average of $7.17 that day.","On the second race he won $11 because 1+ 5 x 2 = <<1+5*2=11>>11
+On the third race he lost $15 because 10 x 1.5 = <<10*1.5=15>>15
+He lost a total of $20 on the first and third races because 15 + 5 = <<15+5=20>>20
+
+He lost $9 that day because 11 - 20 = <<11-20=-9>>-9
+He lost an average of $3 per race because 9 / 3 = <<9/3=3>>3
+#### 3"
+Math,1a,"Question: Dina has twice as many dolls as Ivy. 2/3 of Ivy's dolls are collectors editions. If Ivy has 20 collectors edition dolls, how many dolls does Dina have?
+Answer: Ivy has 20/2*3=<<20/2*3=30>>30 dolls.
+Dina has 30*2=<<30*2=60>>60 dolls.
+#### 60
+Question: Carolyn buys a silverware set with 6 knives, 12 forks, and three times as many spoons as knives. Then her friend trades her 10 knives for 6 spoons. What percentage of Carolyn's silverware is knives?
+Answer: First find the final number of knives Carolyn has: 10 knives + 6 knives = <<10+6=16>>16 knives
+Then find the initial number of spoons Carolyn has: 6 knives * 3 spoons/knife = <<6*3=18>>18 spoons
+Then find the final number of spoons Carolyn has: 18 spoons - 6 spoons = <<18-6=12>>12 spoons
+Then find the total final amount of silverware Carolyn has: 12 spoons + 16 knives + 12 forks = <<12+16+12=40>>40 pieces
+Then divide the number of knives by the total number of pieces and multiply by 100% to express the answer as a percentage: 16 knives / 40 pieces * 100% = 40%
+#### 40
+Question: Johnny's dad brought him to watch some horse racing and his dad bet money. On the first race, he lost $5. On the second race, he won $1 more than twice the amount he previously lost. On the third race, he lost 1.5 times as much as he won in the second race. How much did he lose on average that day?","To find the total amount Johnny's dad lost, we first need to find how much he won in the second race. 
+
+He won $1 more than twice the amount he previously lost, so he won 2*$5 + $1 = $11 in the second race. 
+
+In the third race, he lost 1.5 times as much as he won in the second race, so he lost 1.5*$11 = $16.50 in the third race. 
+
+Therefore, the total amount Johnny's dad lost is $5 + $16.50 = $21.50. 
+
+To find the average amount he lost per race, we divide the total amount lost by the number of races, which is $21.50 / 3 = $7.16666666667. 
+
+Therefore, on average, Johnny's dad lost $7.17 that day.","On the second race he won $11 because 1+ 5 x 2 = <<1+5*2=11>>11
+On the third race he lost $15 because 10 x 1.5 = <<10*1.5=15>>15
+He lost a total of $20 on the first and third races because 15 + 5 = <<15+5=20>>20
+
+He lost $9 that day because 11 - 20 = <<11-20=-9>>-9
+He lost an average of $3 per race because 9 / 3 = <<9/3=3>>3
+#### 3"
+Math,1b,"Question: Today is my birthday and I'm three times older than I was six years ago. What is my age?
+Answer: We know that my age divided by three is equal to my age minus six therefore X/3 = X-6 where X = My age
+This means that X = 3X - 18 because we can multiply both sides by 3
+This also means that -2X=-18 because we can subtract 3X from the right side.
+Therefore X = 9 because - 18/-2 = <<-18/-2=9>>9
+#### 9
+Question: Tommy's mother lets him ride his bike 2 blocks north of his block, 3 blocks east, 2 blocks west, and 2 blocks south. His friend's father lets his friend ride his bike 80 square blocks. How many times greater is the area his friend can ride in compared to Tommy?
+Answer: Tommy's area is 5 blocks wide because 3 + 2 = <<3+2=5>>5
+His area is 4 blocks tall because 2 + 2 = <<2+2=4>>4
+The total area is 20 square blocks because 5 x 4 = <<5*4=20>>20
+His friend's area is 4 times bigger because 80 / 20 = <<80/20=4>>4
+#### 4
+Question: Johnny's dad brought him to watch some horse racing and his dad bet money. On the first race, he lost $5. On the second race, he won $1 more than twice the amount he previously lost. On the third race, he lost 1.5 times as much as he won in the second race. How much did he lose on average that day?","Let's denote the amount Johnny's dad lost on the first race as $5. 
+
+He won $1 more than twice the amount he previously lost on the second race, so he won $1 + 2($5) = $11 on the second race.
+
+On the third race, he lost 1.5 times as much as he won on the second race, so he lost 1.5($11) = $16.50 on the third race.
+
+Therefore, he lost a total of $5 + $16.50 = $21.50 on all three races.
+
+To find the average amount he lost that day, we divide the total loss by the number of races, so the average is $21.50 / 3 = $7.17.
+
+Therefore, on average, Johnny's dad lost $7.17 that day.","On the second race he won $11 because 1+ 5 x 2 = <<1+5*2=11>>11
+On the third race he lost $15 because 10 x 1.5 = <<10*1.5=15>>15
+He lost a total of $20 on the first and third races because 15 + 5 = <<15+5=20>>20
+
+He lost $9 that day because 11 - 20 = <<11-20=-9>>-9
+He lost an average of $3 per race because 9 / 3 = <<9/3=3>>3
+#### 3"
+Math,2,"Question: Dina has twice as many dolls as Ivy. 2/3 of Ivy's dolls are collectors editions. If Ivy has 20 collectors edition dolls, how many dolls does Dina have?
+Answer: Ivy has 20/2*3=<<20/2*3=30>>30 dolls.
+Dina has 30*2=<<30*2=60>>60 dolls.
+#### 60
+Question: Carolyn buys a silverware set with 6 knives, 12 forks, and three times as many spoons as knives. Then her friend trades her 10 knives for 6 spoons. What percentage of Carolyn's silverware is knives?
+Answer: First find the final number of knives Carolyn has: 10 knives + 6 knives = <<10+6=16>>16 knives
+Then find the initial number of spoons Carolyn has: 6 knives * 3 spoons/knife = <<6*3=18>>18 spoons
+Then find the final number of spoons Carolyn has: 18 spoons - 6 spoons = <<18-6=12>>12 spoons
+Then find the total final amount of silverware Carolyn has: 12 spoons + 16 knives + 12 forks = <<12+16+12=40>>40 pieces
+Then divide the number of knives by the total number of pieces and multiply by 100% to express the answer as a percentage: 16 knives / 40 pieces * 100% = 40%
+#### 40
+Question: Today is my birthday and I'm three times older than I was six years ago. What is my age?
+Answer: We know that my age divided by three is equal to my age minus six therefore X/3 = X-6 where X = My age
+This means that X = 3X - 18 because we can multiply both sides by 3
+This also means that -2X=-18 because we can subtract 3X from the right side.
+Therefore X = 9 because - 18/-2 = <<-18/-2=9>>9
+#### 9
+Question: Tommy's mother lets him ride his bike 2 blocks north of his block, 3 blocks east, 2 blocks west, and 2 blocks south. His friend's father lets his friend ride his bike 80 square blocks. How many times greater is the area his friend can ride in compared to Tommy?
+Answer: Tommy's area is 5 blocks wide because 3 + 2 = <<3+2=5>>5
+His area is 4 blocks tall because 2 + 2 = <<2+2=4>>4
+The total area is 20 square blocks because 5 x 4 = <<5*4=20>>20
+His friend's area is 4 times bigger because 80 / 20 = <<80/20=4>>4
+#### 4
+Question: Johnny's dad brought him to watch some horse racing and his dad bet money. On the first race, he lost $5. On the second race, he won $1 more than twice the amount he previously lost. On the third race, he lost 1.5 times as much as he won in the second race. How much did he lose on average that day?","Answer: 
+- Lost $5 on the first race
+- Won $1 more than twice the amount he previously lost, so won $5*2+1 = $11
+- Lost 1.5 times as much as he won in the second race, so lost $11*1.5 = $16.50
+- Total loss for the day is $5 + $11 + $16.50 = $<<5+11+16.50=32.50>>32.50
+- Average loss per race is $32.50 / 3 races = $<<32.50/3=10.83>>10.83 (rounded to the nearest cent)","On the second race he won $11 because 1+ 5 x 2 = <<1+5*2=11>>11
+On the third race he lost $15 because 10 x 1.5 = <<10*1.5=15>>15
+He lost a total of $20 on the first and third races because 15 + 5 = <<15+5=20>>20
+
+He lost $9 that day because 11 - 20 = <<11-20=-9>>-9
+He lost an average of $3 per race because 9 / 3 = <<9/3=3>>3
+#### 3"
+Math,3a,"Question: Dina has twice as many dolls as Ivy. 2/3 of Ivy's dolls are collectors editions. If Ivy has 20 collectors edition dolls, how many dolls does Dina have?
+Answer: Ivy has 20/2*3=<<20/2*3=30>>30 dolls.
+Dina has 30*2=<<30*2=60>>60 dolls.
+#### 60
+Question: Carolyn buys a silverware set with 6 knives, 12 forks, and three times as many spoons as knives. Then her friend trades her 10 knives for 6 spoons. What percentage of Carolyn's silverware is knives?
+Answer: First find the final number of knives Carolyn has: 10 knives + 6 knives = <<10+6=16>>16 knives
+Then find the initial number of spoons Carolyn has: 6 knives * 3 spoons/knife = <<6*3=18>>18 spoons
+Then find the final number of spoons Carolyn has: 18 spoons - 6 spoons = <<18-6=12>>12 spoons
+Then find the total final amount of silverware Carolyn has: 12 spoons + 16 knives + 12 forks = <<12+16+12=40>>40 pieces
+Then divide the number of knives by the total number of pieces and multiply by 100% to express the answer as a percentage: 16 knives / 40 pieces * 100% = 40%
+#### 40
+Question: Dina has twice as many dolls as Ivy. 2/3 of Ivy's dolls are collectors editions. If Ivy has 20 collectors edition dolls, how many dolls does Dina have?
+Answer: Ivy has 20/2*3=<<20/2*3=30>>30 dolls.
+Dina has 30*2=<<30*2=60>>60 dolls.
+#### 60
+Question: Carolyn buys a silverware set with 6 knives, 12 forks, and three times as many spoons as knives. Then her friend trades her 10 knives for 6 spoons. What percentage of Carolyn's silverware is knives?
+Answer: First find the final number of knives Carolyn has: 10 knives + 6 knives = <<10+6=16>>16 knives
+Then find the initial number of spoons Carolyn has: 6 knives * 3 spoons/knife = <<6*3=18>>18 spoons
+Then find the final number of spoons Carolyn has: 18 spoons - 6 spoons = <<18-6=12>>12 spoons
+Then find the total final amount of silverware Carolyn has: 12 spoons + 16 knives + 12 forks = <<12+16+12=40>>40 pieces
+Then divide the number of knives by the total number of pieces and multiply by 100% to express the answer as a percentage: 16 knives / 40 pieces * 100% = 40%
+#### 40
+Question: Johnny's dad brought him to watch some horse racing and his dad bet money. On the first race, he lost $5. On the second race, he won $1 more than twice the amount he previously lost. On the third race, he lost 1.5 times as much as he won in the second race. How much did he lose on average that day?","To find out how much Johnny's dad lost on average that day, we need to calculate the total amount he lost and then divide it by the number of races.
+
+First, let's calculate how much Johnny's dad won on the second race: $5 * 2 + $1 = $10 + $1 = $11.
+
+Next, let's calculate how much Johnny's dad lost on the third race: $11 * 1.5 = $16.50.
+
+Now, let's calculate the total amount Johnny's dad lost that day: $5 (first race) + $11 (second race) + $16.50 (third race) = $32.50.
+
+Since there were a total of 3 races, let's divide the total amount lost by 3 to find the average: $32.50 / 3 = $10.83 (rounded to the nearest cent).
+
+Therefore, Johnny's dad lost an average of $10.83 that day.","On the second race he won $11 because 1+ 5 x 2 = <<1+5*2=11>>11
+On the third race he lost $15 because 10 x 1.5 = <<10*1.5=15>>15
+He lost a total of $20 on the first and third races because 15 + 5 = <<15+5=20>>20
+
+He lost $9 that day because 11 - 20 = <<11-20=-9>>-9
+He lost an average of $3 per race because 9 / 3 = <<9/3=3>>3
+#### 3"
+Math,3b,"Question: Today is my birthday and I'm three times older than I was six years ago. What is my age?
+Answer: We know that my age divided by three is equal to my age minus six therefore X/3 = X-6 where X = My age
+This means that X = 3X - 18 because we can multiply both sides by 3
+This also means that -2X=-18 because we can subtract 3X from the right side.
+Therefore X = 9 because - 18/-2 = <<-18/-2=9>>9
+#### 9
+Question: Tommy's mother lets him ride his bike 2 blocks north of his block, 3 blocks east, 2 blocks west, and 2 blocks south. His friend's father lets his friend ride his bike 80 square blocks. How many times greater is the area his friend can ride in compared to Tommy?
+Answer: Tommy's area is 5 blocks wide because 3 + 2 = <<3+2=5>>5
+His area is 4 blocks tall because 2 + 2 = <<2+2=4>>4
+The total area is 20 square blocks because 5 x 4 = <<5*4=20>>20
+His friend's area is 4 times bigger because 80 / 20 = <<80/20=4>>4
+#### 4
+Question: Today is my birthday and I'm three times older than I was six years ago. What is my age?
+Answer: We know that my age divided by three is equal to my age minus six therefore X/3 = X-6 where X = My age
+This means that X = 3X - 18 because we can multiply both sides by 3
+This also means that -2X=-18 because we can subtract 3X from the right side.
+Therefore X = 9 because - 18/-2 = <<-18/-2=9>>9
+#### 9
+Question: Tommy's mother lets him ride his bike 2 blocks north of his block, 3 blocks east, 2 blocks west, and 2 blocks south. His friend's father lets his friend ride his bike 80 square blocks. How many times greater is the area his friend can ride in compared to Tommy?
+Answer: Tommy's area is 5 blocks wide because 3 + 2 = <<3+2=5>>5
+His area is 4 blocks tall because 2 + 2 = <<2+2=4>>4
+The total area is 20 square blocks because 5 x 4 = <<5*4=20>>20
+His friend's area is 4 times bigger because 80 / 20 = <<80/20=4>>4
+#### 4
+Question: Johnny's dad brought him to watch some horse racing and his dad bet money. On the first race, he lost $5. On the second race, he won $1 more than twice the amount he previously lost. On the third race, he lost 1.5 times as much as he won in the second race. How much did he lose on average that day?","To find out how much Johnny's dad lost on average that day, we need to calculate the total amount lost and divide it by the number of races.
+
+- In the first race, Johnny's dad lost $5.
+- In the second race, he won $1 more than twice the amount he previously lost, which is $1 + 2($5) = $11. So, he lost in the second race $11 - $5 = $6.
+- In the third race, he lost 1.5 times the amount he won in the second race, which is 1.5($6) = $9.
+
+To find out the total amount lost, we add all the amounts: $5 (first race) + $6 (second race) + $9 (third race) = $20.
+
+Since there were three races, to find the average amount lost, we divide the total amount lost by 3: $20 / 3 = $6.67 (rounded to two decimal places).
+
+Therefore, Johnny's dad lost an average of $6.67 that day.","On the second race he won $11 because 1+ 5 x 2 = <<1+5*2=11>>11
+On the third race he lost $15 because 10 x 1.5 = <<10*1.5=15>>15
+He lost a total of $20 on the first and third races because 15 + 5 = <<15+5=20>>20
+
+He lost $9 that day because 11 - 20 = <<11-20=-9>>-9
+He lost an average of $3 per race because 9 / 3 = <<9/3=3>>3
+#### 3"
+CSQA,0,"Question: The fat man refused to accept what was possible, he complained that he what the simplest activities?
+A: no go
+B: unlikely
+C: unable
+D: cant do
+E: impossibility",C: unable,D
+CSQA,1a,"Question: A person might wear his yarmulke when going to where?
+A: demonstration
+B: concert
+C: garage
+D: bus stop
+E: synagogue
+Answer: E
+Question: The man practiced his communicating skills before the large event, he was new to the city and planned on doing what?
+A: exchange information
+B: people to think
+C: making friends
+D: talking with others
+E: transfer of information
+Answer: C
+Question: The fat man refused to accept what was possible, he complained that he what the simplest activities?
+A: no go
+B: unlikely
+C: unable
+D: cant do
+E: impossibility",Answer: E,D
+CSQA,1b,"Question: He enjoyed to watch film a second time with director's commentary, he loved the insight and would do what intently?
+A: go to movies
+B: rent one
+C: sit down
+D: listen
+E: quite
+Answer: D
+Question: Where are adults likely to be paid to to sit at a desk?
+A: bathroom
+B: office building
+C: library
+D: garage sale
+E: schoolroom
+Answer: B
+Question: The fat man refused to accept what was possible, he complained that he what the simplest activities?
+A: no go
+B: unlikely
+C: unable
+D: cant do
+E: impossibility",Answer: C,D
+CSQA,2,"Question: A person might wear his yarmulke when going to where?
+A: demonstration
+B: concert
+C: garage
+D: bus stop
+E: synagogue
+Answer: E
+Question: The man practiced his communicating skills before the large event, he was new to the city and planned on doing what?
+A: exchange information
+B: people to think
+C: making friends
+D: talking with others
+E: transfer of information
+Answer: C
+Question: He enjoyed to watch film a second time with director's commentary, he loved the insight and would do what intently?
+A: go to movies
+B: rent one
+C: sit down
+D: listen
+E: quite
+Answer: D
+Question: Where are adults likely to be paid to to sit at a desk?
+A: bathroom
+B: office building
+C: library
+D: garage sale
+E: schoolroom
+Answer: B
+Question: The fat man refused to accept what was possible, he complained that he what the simplest activities?
+A: no go
+B: unlikely
+C: unable
+D: cant do
+E: impossibility",Answer: E,D
+CSQA,3a,"Question: A person might wear his yarmulke when going to where?
+A: demonstration
+B: concert
+C: garage
+D: bus stop
+E: synagogue
+Answer: E
+Question: The man practiced his communicating skills before the large event, he was new to the city and planned on doing what?
+A: exchange information
+B: people to think
+C: making friends
+D: talking with others
+E: transfer of information
+Answer: C
+Question: A person might wear his yarmulke when going to where?
+A: demonstration
+B: concert
+C: garage
+D: bus stop
+E: synagogue
+Answer: E
+Question: The man practiced his communicating skills before the large event, he was new to the city and planned on doing what?
+A: exchange information
+B: people to think
+C: making friends
+D: talking with others
+E: transfer of information
+Answer: C
+Question: The fat man refused to accept what was possible, he complained that he what the simplest activities?
+A: no go
+B: unlikely
+C: unable
+D: cant do
+E: impossibility",Answer: C,D
+CSQA,3b,"Question: He enjoyed to watch film a second time with director's commentary, he loved the insight and would do what intently?
+A: go to movies
+B: rent one
+C: sit down
+D: listen
+E: quite
+Answer: D
+Question: Where are adults likely to be paid to to sit at a desk?
+A: bathroom
+B: office building
+C: library
+D: garage sale
+E: schoolroom
+Answer: B
+Question: He enjoyed to watch film a second time with director's commentary, he loved the insight and would do what intently?
+A: go to movies
+B: rent one
+C: sit down
+D: listen
+E: quite
+Answer: D
+Question: Where are adults likely to be paid to to sit at a desk?
+A: bathroom
+B: office building
+C: library
+D: garage sale
+E: schoolroom
+Answer: B
+Question: The fat man refused to accept what was possible, he complained that he what the simplest activities?
+A: no go
+B: unlikely
+C: unable
+D: cant do
+E: impossibility",Answer: E,D
+StrategyQA,0,"Question: Cookie Monster is a Sesame Street character that eats copious amounts of chocolate chip cookies. The Paleo diet includes foods made from ingredients found during the Paleolithic area. Chocolate chip cookies contain soy lecithin and artificial grains. Lecithin is used in complex modern industrial processes.
+Is Cookie Monster's diet Paleo friendly?","No, Cookie Monster's diet is not Paleo friendly. The Paleo diet emphasizes eating whole, unprocessed foods that were available to our Paleolithic ancestors, such as meat, fish, fruits, vegetables, nuts, and seeds. Chocolate chip cookies, which contain soy lecithin and artificial grains, do not align with the principles of the Paleo diet.",False
+StrategyQA,1a,"Question: Aretha Franklin was born in 1942. Aretha Franklin had her second child in 1957. You must be at least 18 years old to vote in a presidential election in the United States.
+Could Aretha Franklin vote for a president when her second child was born?
+Answer: False
+Question: The Book of Daniel is a book in the Old Testament of the Bible. The Bible is divided into the Old Testament and the New Testament. The New Testament focuses on four Gospels regarding the life of Jesus.
+Was Daniel thrown into the lion's den in the New Testament?
+Answer: False
+Question: Cookie Monster is a Sesame Street character that eats copious amounts of chocolate chip cookies. The Paleo diet includes foods made from ingredients found during the Paleolithic area. Chocolate chip cookies contain soy lecithin and artificial grains. Lecithin is used in complex modern industrial processes.
+Is Cookie Monster's diet Paleo friendly?",Answer: False,False
+StrategyQA,1b,"Question: Some of the things geologists study include gemstones, minerals, and stone Lapidarists work with stone, minerals and gemstones
+Does a lapidary work with items that are studied by geologists?
+Answer: True
+Question: Huma Abedin was Hillary Clinton's deputy chief of staff in 2009 Huma Abedin is an American Muslim Baptism is a Christian tradition
+Was Hillary Clinton's deputy chief of staff in 2009 baptised?
+Answer: False
+Question: Cookie Monster is a Sesame Street character that eats copious amounts of chocolate chip cookies. The Paleo diet includes foods made from ingredients found during the Paleolithic area. Chocolate chip cookies contain soy lecithin and artificial grains. Lecithin is used in complex modern industrial processes.
+Is Cookie Monster's diet Paleo friendly?",Answer: False,False
+StrategyQA,2,"Question: Aretha Franklin was born in 1942. Aretha Franklin had her second child in 1957. You must be at least 18 years old to vote in a presidential election in the United States.
+Could Aretha Franklin vote for a president when her second child was born?
+Answer: False
+Question: The Book of Daniel is a book in the Old Testament of the Bible. The Bible is divided into the Old Testament and the New Testament. The New Testament focuses on four Gospels regarding the life of Jesus.
+Was Daniel thrown into the lion's den in the New Testament?
+Answer: False
+Question: Some of the things geologists study include gemstones, minerals, and stone Lapidarists work with stone, minerals and gemstones
+Does a lapidary work with items that are studied by geologists?
+Answer: True
+Question: Huma Abedin was Hillary Clinton's deputy chief of staff in 2009 Huma Abedin is an American Muslim Baptism is a Christian tradition
+Was Hillary Clinton's deputy chief of staff in 2009 baptised?
+Answer: False
+Question: Cookie Monster is a Sesame Street character that eats copious amounts of chocolate chip cookies. The Paleo diet includes foods made from ingredients found during the Paleolithic area. Chocolate chip cookies contain soy lecithin and artificial grains. Lecithin is used in complex modern industrial processes.
+Is Cookie Monster's diet Paleo friendly?",Answer: False,False
+StrategyQA,3a,"Question: Aretha Franklin was born in 1942. Aretha Franklin had her second child in 1957. You must be at least 18 years old to vote in a presidential election in the United States.
+Could Aretha Franklin vote for a president when her second child was born?
+Answer: False
+Question: The Book of Daniel is a book in the Old Testament of the Bible. The Bible is divided into the Old Testament and the New Testament. The New Testament focuses on four Gospels regarding the life of Jesus.
+Was Daniel thrown into the lion's den in the New Testament?
+Answer: False
+Question: Aretha Franklin was born in 1942. Aretha Franklin had her second child in 1957. You must be at least 18 years old to vote in a presidential election in the United States.
+Could Aretha Franklin vote for a president when her second child was born?
+Answer: False
+Question: The Book of Daniel is a book in the Old Testament of the Bible. The Bible is divided into the Old Testament and the New Testament. The New Testament focuses on four Gospels regarding the life of Jesus.
+Was Daniel thrown into the lion's den in the New Testament?
+Answer: False
+Question: Cookie Monster is a Sesame Street character that eats copious amounts of chocolate chip cookies. The Paleo diet includes foods made from ingredients found during the Paleolithic area. Chocolate chip cookies contain soy lecithin and artificial grains. Lecithin is used in complex modern industrial processes.
+Is Cookie Monster's diet Paleo friendly?",Answer: False,False
+StrategyQA,3b,"Question: Some of the things geologists study include gemstones, minerals, and stone Lapidarists work with stone, minerals and gemstones
+Does a lapidary work with items that are studied by geologists?
+Answer: True
+Question: Huma Abedin was Hillary Clinton's deputy chief of staff in 2009 Huma Abedin is an American Muslim Baptism is a Christian tradition
+Was Hillary Clinton's deputy chief of staff in 2009 baptised?
+Answer: False
+Question: Some of the things geologists study include gemstones, minerals, and stone Lapidarists work with stone, minerals and gemstones
+Does a lapidary work with items that are studied by geologists?
+Answer: True
+Question: Huma Abedin was Hillary Clinton's deputy chief of staff in 2009 Huma Abedin is an American Muslim Baptism is a Christian tradition
+Was Hillary Clinton's deputy chief of staff in 2009 baptised?
+Answer: False
+Question: Cookie Monster is a Sesame Street character that eats copious amounts of chocolate chip cookies. The Paleo diet includes foods made from ingredients found during the Paleolithic area. Chocolate chip cookies contain soy lecithin and artificial grains. Lecithin is used in complex modern industrial processes.
+Is Cookie Monster's diet Paleo friendly?",Answer: False,False
+SayCan,0,Question: Provide step-by-step instructions for the following task: Bring me a sprite.,"1. Locate a store or vending machine that sells Sprite soda.
+2. Approach the store or vending machine and find the Sprite bottles or cans.
+3. Select a Sprite bottle or can, making sure to check the expiration date and condition of the packaging.
+4. If purchasing from a store, proceed to the checkout counter and pay for the Sprite.
+5. If using a vending machine, insert the required amount of money and select the Sprite option.
+6. Retrieve the Sprite bottle or can from the store or vending machine once it is dispensed.
+7. Check the bottle or can for any damage or leaks before bringing it to the person requesting it.
+8. Bring the Sprite to the person who asked for it, making sure to handle it carefully and deliver it promptly.","1. find a sprite can, 2. pick up the sprite can, 3. bring it to you, 4. put down the sprite can, 5. done"
+SayCan,1a,"Question: Provide step-by-step instructions for the following task: Move the chips bag from the table to the counter.
+Answer: 1. find the bag of chips, 2. pick up the bag of chips, 3. go to the counter, 4. put down the bag of chips, 5. done
+Question: Provide step-by-step instructions for the following task: Bring me an apple from the drawer.
+Answer: 1. go to the drawer, 2. open the drawer, 3. pick up the apple, 4. close the drawer, 5. bring it to you, 6. put down the apple, 7. done
+Question: Provide step-by-step instructions for the following task: Bring me a sprite.","Answer: 1. Open the refrigerator, 2. locate the sprite, 3. take out the sprite, 4. close the refrigerator, 5. bring the sprite to you, 6. hand you the sprite, 7. done","1. find a sprite can, 2. pick up the sprite can, 3. bring it to you, 4. put down the sprite can, 5. done"
+SayCan,1b,"Question: Provide step-by-step instructions for the following task: How would you throw a coke can away?
+Answer: 1. find a coke can, 2. pick up the coke can, 3. go to the trash, 4. put down the coke can, 5. done
+Question: Provide step-by-step instructions for the following task: Can you bring me something spicy?
+Answer: 1. find a jalapeno chips, 2. pick up the jalapeno chips, 3. bring it to you, 4. put down the jalapeno chips, 5. done.
+Question: Provide step-by-step instructions for the following task: Bring me a sprite.","Answer: 1. Go to the refrigerator, 2. open the door, 3. look for a bottle or can of Sprite, 4. take out the Sprite, 5. close the refrigerator door, 6. bring the Sprite to you, 7. hand you the Sprite, 8. done.","1. find a sprite can, 2. pick up the sprite can, 3. bring it to you, 4. put down the sprite can, 5. done"
+SayCan,2,"Question: Provide step-by-step instructions for the following task: Move the chips bag from the table to the counter.
+Answer: 1. find the bag of chips, 2. pick up the bag of chips, 3. go to the counter, 4. put down the bag of chips, 5. done
+Question: Provide step-by-step instructions for the following task: Bring me an apple from the drawer.
+Answer: 1. go to the drawer, 2. open the drawer, 3. pick up the apple, 4. close the drawer, 5. bring it to you, 6. put down the apple, 7. done
+Question: Provide step-by-step instructions for the following task: How would you throw a coke can away?
+Answer: 1. find a coke can, 2. pick up the coke can, 3. go to the trash, 4. put down the coke can, 5. done
+Question: Provide step-by-step instructions for the following task: Can you bring me something spicy?
+Answer: 1. find a jalapeno chips, 2. pick up the jalapeno chips, 3. bring it to you, 4. put down the jalapeno chips, 5. done.
+Question: Provide step-by-step instructions for the following task: Bring me a sprite.","Answer: 1. find a sprite can or bottle, 2. pick up the sprite, 3. bring it to you, 4. put down the sprite, 5. done.","1. find a sprite can, 2. pick up the sprite can, 3. bring it to you, 4. put down the sprite can, 5. done"
+SayCan,3a,"Question: Provide step-by-step instructions for the following task: Move the chips bag from the table to the counter.
+Answer: 1. find the bag of chips, 2. pick up the bag of chips, 3. go to the counter, 4. put down the bag of chips, 5. done
+Question: Provide step-by-step instructions for the following task: Bring me an apple from the drawer.
+Answer: 1. go to the drawer, 2. open the drawer, 3. pick up the apple, 4. close the drawer, 5. bring it to you, 6. put down the apple, 7. done
+Question: Provide step-by-step instructions for the following task: Move the chips bag from the table to the counter.
+Answer: 1. find the bag of chips, 2. pick up the bag of chips, 3. go to the counter, 4. put down the bag of chips, 5. done
+Question: Provide step-by-step instructions for the following task: Bring me an apple from the drawer.
+Answer: 1. go to the drawer, 2. open the drawer, 3. pick up the apple, 4. close the drawer, 5. bring it to you, 6. put down the apple, 7. done
+Question: Provide step-by-step instructions for the following task: Bring me a sprite.","Answer: 1. Locate where the sprite is stored, 2. Open the refrigerator or designated area where the sprite is kept, 3. Grab the sprite, 4. Close the refrigerator or area, 5. Bring the sprite to you, 6. Hand you the sprite, 7. Done.","1. find a sprite can, 2. pick up the sprite can, 3. bring it to you, 4. put down the sprite can, 5. done"
+SayCan,3b,"Question: Provide step-by-step instructions for the following task: How would you throw a coke can away?
+Answer: 1. find a coke can, 2. pick up the coke can, 3. go to the trash, 4. put down the coke can, 5. done
+Question: Provide step-by-step instructions for the following task: Can you bring me something spicy?
+Answer: 1. find a jalapeno chips, 2. pick up the jalapeno chips, 3. bring it to you, 4. put down the jalapeno chips, 5. done.
+Question: Provide step-by-step instructions for the following task: How would you throw a coke can away?
+Answer: 1. find a coke can, 2. pick up the coke can, 3. go to the trash, 4. put down the coke can, 5. done
+Question: Provide step-by-step instructions for the following task: Can you bring me something spicy?
+Answer: 1. find a jalapeno chips, 2. pick up the jalapeno chips, 3. bring it to you, 4. put down the jalapeno chips, 5. done.
+Question: Provide step-by-step instructions for the following task: Bring me a sprite.","Answer: 1. locate a Sprite bottle or can, 2. pick up the Sprite, 3. bring it to you, 4. hand you the Sprite, 5. done.","1. find a sprite can, 2. pick up the sprite can, 3. bring it to you, 4. put down the sprite can, 5. done"

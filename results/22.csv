@@ -1,0 +1,418 @@
+Task Class,Case,Prompt,Response,Expected
+Math,0,"Question: James gets a job selling used cars.  He sold 10 cars that cost $25,000 each.  The company paid 30% of that price to acquire the cars.  He got a 10% commission on the profits.  How much did he make?","First, we need to calculate the total cost of the cars sold: 
+10 cars * $25,000 per car = $250,000
+
+Next, we need to determine how much the company paid to acquire the cars:
+30% of $250,000 = 0.30 * $250,000 = $75,000
+
+Now, we need to calculate the total profit made on the sales:
+Total sales - Cost to acquire cars = Total profit
+$250,000 - $75,000 = $175,000
+
+James received a 10% commission on the profits. We can calculate his commission as:
+10% of $175,000 = 0.10 * $175,000 = $17,500
+
+Therefore, James made $17,500 in commission from selling 10 cars.","He sold the car for 25000*10=$<<25000*10=250000>>250,000
+Each car was bought for 25,000*.3=$<<25000*.3=7500>>7500
+So they bought the cars for 7500*10=$<<7500*10=75000>>75,000
+That means the cars had a profit of 250,000-75,000=$<<250000-75000=175000>>175,000
+So his commission was 175,000*.1=$<<175000*.1=17500>>17,500
+#### 17500"
+Math,1a,"Question: At Roosevelt high school there are 600 students in the senior class. A fifth of the students are in the marching band. Of the students in the marching band, half of them play a brass instrument. Of the students that play a brass instrument, a fifth of them play the saxophone. Of the students that play the saxophone, a third of them play the alto saxophone. How many students play the alto saxophone?
+Answer: The number of students in the marching band is 600 / 5 = <<600/5=120>>120 students
+The number of students that play a brass instrument is 120 / 2 = <<120/2=60>>60 students
+The number of students that play the saxophone is 60 / 5 = <<60/5=12>>12 students
+The number of students that play the alto saxophone is 12 / 3 = <<12/3=4>>4 students
+#### 4
+Question: Jenny and Mark are throwing bottle caps. Jenny's bottlecap flies 18 feet straight, then bounces off a street light and flies another 1/3 of the distance it already went. Mark's bottle cap flies 15 feet forward, then bounces off a window and flies twice as far as it already did. How much further did Mark's bottle cap go than Jenny's?
+Answer: First find 1/3 of the distance Jenny's bottlecap went straight: 18 feet / 3 = <<18/3=6>>6 feet
+Then add that to the distance it flew straight to find the total distance it traveled: 6 feet + 18 feet = <<6+18=24>>24 feet
+Then find twice the distance Mark's bottlecap went straight: 15 feet * 2 = <<15*2=30>>30 feet
+Then add that distance to the distance it flew straight to find the total distance it traveled: 30 feet + 15 feet = <<30+15=45>>45 feet
+Then subtract the distance Jenny's bottlecap traveled from the distance Mark's traveled to find the difference: 45 feet - 24 feet = <<45-24=21>>21 feet
+#### 21
+Question: James gets a job selling used cars.  He sold 10 cars that cost $25,000 each.  The company paid 30% of that price to acquire the cars.  He got a 10% commission on the profits.  How much did he make?","First, find how much the company paid for each car by multiplying the cost by the percentage they paid: $25,000 * 30% = $7500
+Then subtract that amount from the original price to find how much profit there was on each car: $25,000 - $7500 = $17,500
+Multiply that amount by the number of cars sold to find the total profit: $17,500 * 10 = $175,000
+Multiply the total profit by James's commission percentage to find how much he made: $175,000 * 10% = $17,500
+Add that amount to his base salary to find his total earnings: $17,500 + $30,000 = $47,500. Answer: $47,500","He sold the car for 25000*10=$<<25000*10=250000>>250,000
+Each car was bought for 25,000*.3=$<<25000*.3=7500>>7500
+So they bought the cars for 7500*10=$<<7500*10=75000>>75,000
+That means the cars had a profit of 250,000-75,000=$<<250000-75000=175000>>175,000
+So his commission was 175,000*.1=$<<175000*.1=17500>>17,500
+#### 17500"
+Math,1b,"Question: It is Roger’s turn to provide a snack for the baseball team after the game and he has decided to bring trail mix. The trail mix comes in packs of 6 individual pouches. Roger has 13 members on his baseball team, plus 3 coaches and 2 helpers. How many packs of trail mix does he need to buy?
+Answer: Roger will need 13 + 3 + 2 = <<13+3+2=18>>18 pouches of trail mix.
+If you divide the amount of trail mix pouches by the amount in each pack, 18 / 6 = <<18/6=3>>3 packs of trail mix.
+#### 3
+Question: If Aang caught 7 fish, then Sokka caught 5 fish, and then Toph caught 12 fish, what is the average amount of fish that each person caught?
+Answer: Aang, Sokka and Toph caught 7 fish + 5 fish + 12 fish = <<7+5+12=24>>24 fish.
+The average catch of fish per person is 24 fish / 3 people = <<24/3=8>>8 fish per person.
+#### 8
+Question: James gets a job selling used cars.  He sold 10 cars that cost $25,000 each.  The company paid 30% of that price to acquire the cars.  He got a 10% commission on the profits.  How much did he make?","First, let's calculate the total amount the company paid to acquire the cars. Since the cars cost $25,000 each and James sold 10 cars, the total cost is 10 cars * $25,000/car = $250,000.
+
+Next, let's find out how much the company paid to acquire the cars, which is 30% of $250,000. This can be calculated as $250,000 * 30% = $250,000 * 0.30 = $75,000.
+
+Now, let's find out the total profit made from selling the cars. The profit made by selling the cars is the total cost of the cars ($250,000) minus what the company paid to acquire the cars ($75,000), which is $250,000 - $75,000 = $175,000.
+
+Lastly, let's calculate James's commission on the profits. James received a 10% commission on the profits, so his commission is 10% of $175,000, which is $175,000 * 10% = $175,000 * 0.10 = $17,500.
+
+Therefore, James made $17,500 selling used cars.","He sold the car for 25000*10=$<<25000*10=250000>>250,000
+Each car was bought for 25,000*.3=$<<25000*.3=7500>>7500
+So they bought the cars for 7500*10=$<<7500*10=75000>>75,000
+That means the cars had a profit of 250,000-75,000=$<<250000-75000=175000>>175,000
+So his commission was 175,000*.1=$<<175000*.1=17500>>17,500
+#### 17500"
+Math,2,"Question: At Roosevelt high school there are 600 students in the senior class. A fifth of the students are in the marching band. Of the students in the marching band, half of them play a brass instrument. Of the students that play a brass instrument, a fifth of them play the saxophone. Of the students that play the saxophone, a third of them play the alto saxophone. How many students play the alto saxophone?
+Answer: The number of students in the marching band is 600 / 5 = <<600/5=120>>120 students
+The number of students that play a brass instrument is 120 / 2 = <<120/2=60>>60 students
+The number of students that play the saxophone is 60 / 5 = <<60/5=12>>12 students
+The number of students that play the alto saxophone is 12 / 3 = <<12/3=4>>4 students
+#### 4
+Question: Jenny and Mark are throwing bottle caps. Jenny's bottlecap flies 18 feet straight, then bounces off a street light and flies another 1/3 of the distance it already went. Mark's bottle cap flies 15 feet forward, then bounces off a window and flies twice as far as it already did. How much further did Mark's bottle cap go than Jenny's?
+Answer: First find 1/3 of the distance Jenny's bottlecap went straight: 18 feet / 3 = <<18/3=6>>6 feet
+Then add that to the distance it flew straight to find the total distance it traveled: 6 feet + 18 feet = <<6+18=24>>24 feet
+Then find twice the distance Mark's bottlecap went straight: 15 feet * 2 = <<15*2=30>>30 feet
+Then add that distance to the distance it flew straight to find the total distance it traveled: 30 feet + 15 feet = <<30+15=45>>45 feet
+Then subtract the distance Jenny's bottlecap traveled from the distance Mark's traveled to find the difference: 45 feet - 24 feet = <<45-24=21>>21 feet
+#### 21
+Question: It is Roger’s turn to provide a snack for the baseball team after the game and he has decided to bring trail mix. The trail mix comes in packs of 6 individual pouches. Roger has 13 members on his baseball team, plus 3 coaches and 2 helpers. How many packs of trail mix does he need to buy?
+Answer: Roger will need 13 + 3 + 2 = <<13+3+2=18>>18 pouches of trail mix.
+If you divide the amount of trail mix pouches by the amount in each pack, 18 / 6 = <<18/6=3>>3 packs of trail mix.
+#### 3
+Question: If Aang caught 7 fish, then Sokka caught 5 fish, and then Toph caught 12 fish, what is the average amount of fish that each person caught?
+Answer: Aang, Sokka and Toph caught 7 fish + 5 fish + 12 fish = <<7+5+12=24>>24 fish.
+The average catch of fish per person is 24 fish / 3 people = <<24/3=8>>8 fish per person.
+#### 8
+Question: James gets a job selling used cars.  He sold 10 cars that cost $25,000 each.  The company paid 30% of that price to acquire the cars.  He got a 10% commission on the profits.  How much did he make?","First, calculate the total cost of the cars: 10 cars * $25,000/car = $250,000
+Next, calculate the amount the company paid to acquire the cars: $250,000 * 30% = $75,000
+Now, subtract the amount paid to acquire the cars from the total cost to find the profit: $250,000 - $75,000 = $175,000
+Now calculate James's commission on the profits: $175,000 * 10% = $17,500
+Therefore, James made $17,500 selling used cars.","He sold the car for 25000*10=$<<25000*10=250000>>250,000
+Each car was bought for 25,000*.3=$<<25000*.3=7500>>7500
+So they bought the cars for 7500*10=$<<7500*10=75000>>75,000
+That means the cars had a profit of 250,000-75,000=$<<250000-75000=175000>>175,000
+So his commission was 175,000*.1=$<<175000*.1=17500>>17,500
+#### 17500"
+Math,3a,"Question: At Roosevelt high school there are 600 students in the senior class. A fifth of the students are in the marching band. Of the students in the marching band, half of them play a brass instrument. Of the students that play a brass instrument, a fifth of them play the saxophone. Of the students that play the saxophone, a third of them play the alto saxophone. How many students play the alto saxophone?
+Answer: The number of students in the marching band is 600 / 5 = <<600/5=120>>120 students
+The number of students that play a brass instrument is 120 / 2 = <<120/2=60>>60 students
+The number of students that play the saxophone is 60 / 5 = <<60/5=12>>12 students
+The number of students that play the alto saxophone is 12 / 3 = <<12/3=4>>4 students
+#### 4
+Question: Jenny and Mark are throwing bottle caps. Jenny's bottlecap flies 18 feet straight, then bounces off a street light and flies another 1/3 of the distance it already went. Mark's bottle cap flies 15 feet forward, then bounces off a window and flies twice as far as it already did. How much further did Mark's bottle cap go than Jenny's?
+Answer: First find 1/3 of the distance Jenny's bottlecap went straight: 18 feet / 3 = <<18/3=6>>6 feet
+Then add that to the distance it flew straight to find the total distance it traveled: 6 feet + 18 feet = <<6+18=24>>24 feet
+Then find twice the distance Mark's bottlecap went straight: 15 feet * 2 = <<15*2=30>>30 feet
+Then add that distance to the distance it flew straight to find the total distance it traveled: 30 feet + 15 feet = <<30+15=45>>45 feet
+Then subtract the distance Jenny's bottlecap traveled from the distance Mark's traveled to find the difference: 45 feet - 24 feet = <<45-24=21>>21 feet
+#### 21
+Question: At Roosevelt high school there are 600 students in the senior class. A fifth of the students are in the marching band. Of the students in the marching band, half of them play a brass instrument. Of the students that play a brass instrument, a fifth of them play the saxophone. Of the students that play the saxophone, a third of them play the alto saxophone. How many students play the alto saxophone?
+Answer: The number of students in the marching band is 600 / 5 = <<600/5=120>>120 students
+The number of students that play a brass instrument is 120 / 2 = <<120/2=60>>60 students
+The number of students that play the saxophone is 60 / 5 = <<60/5=12>>12 students
+The number of students that play the alto saxophone is 12 / 3 = <<12/3=4>>4 students
+#### 4
+Question: Jenny and Mark are throwing bottle caps. Jenny's bottlecap flies 18 feet straight, then bounces off a street light and flies another 1/3 of the distance it already went. Mark's bottle cap flies 15 feet forward, then bounces off a window and flies twice as far as it already did. How much further did Mark's bottle cap go than Jenny's?
+Answer: First find 1/3 of the distance Jenny's bottlecap went straight: 18 feet / 3 = <<18/3=6>>6 feet
+Then add that to the distance it flew straight to find the total distance it traveled: 6 feet + 18 feet = <<6+18=24>>24 feet
+Then find twice the distance Mark's bottlecap went straight: 15 feet * 2 = <<15*2=30>>30 feet
+Then add that distance to the distance it flew straight to find the total distance it traveled: 30 feet + 15 feet = <<30+15=45>>45 feet
+Then subtract the distance Jenny's bottlecap traveled from the distance Mark's traveled to find the difference: 45 feet - 24 feet = <<45-24=21>>21 feet
+#### 21
+Question: James gets a job selling used cars.  He sold 10 cars that cost $25,000 each.  The company paid 30% of that price to acquire the cars.  He got a 10% commission on the profits.  How much did he make?","First, find the total cost of the cars James sold: 10 cars * $25,000/car = $250,000
+Then find how much the company paid for the cars: $250,000 * 30% = $75,000
+Subtract the cost of the cars from the total amount paid to find the profit: $250,000 - $75,000 = $175,000
+Find how much James made from his commission: $175,000 * 10% = $17,500
+Add the commission to James's earnings to find his total earnings: $17,500 + $175,000 = $192,500. Answer: $192,500","He sold the car for 25000*10=$<<25000*10=250000>>250,000
+Each car was bought for 25,000*.3=$<<25000*.3=7500>>7500
+So they bought the cars for 7500*10=$<<7500*10=75000>>75,000
+That means the cars had a profit of 250,000-75,000=$<<250000-75000=175000>>175,000
+So his commission was 175,000*.1=$<<175000*.1=17500>>17,500
+#### 17500"
+Math,3b,"Question: It is Roger’s turn to provide a snack for the baseball team after the game and he has decided to bring trail mix. The trail mix comes in packs of 6 individual pouches. Roger has 13 members on his baseball team, plus 3 coaches and 2 helpers. How many packs of trail mix does he need to buy?
+Answer: Roger will need 13 + 3 + 2 = <<13+3+2=18>>18 pouches of trail mix.
+If you divide the amount of trail mix pouches by the amount in each pack, 18 / 6 = <<18/6=3>>3 packs of trail mix.
+#### 3
+Question: If Aang caught 7 fish, then Sokka caught 5 fish, and then Toph caught 12 fish, what is the average amount of fish that each person caught?
+Answer: Aang, Sokka and Toph caught 7 fish + 5 fish + 12 fish = <<7+5+12=24>>24 fish.
+The average catch of fish per person is 24 fish / 3 people = <<24/3=8>>8 fish per person.
+#### 8
+Question: It is Roger’s turn to provide a snack for the baseball team after the game and he has decided to bring trail mix. The trail mix comes in packs of 6 individual pouches. Roger has 13 members on his baseball team, plus 3 coaches and 2 helpers. How many packs of trail mix does he need to buy?
+Answer: Roger will need 13 + 3 + 2 = <<13+3+2=18>>18 pouches of trail mix.
+If you divide the amount of trail mix pouches by the amount in each pack, 18 / 6 = <<18/6=3>>3 packs of trail mix.
+#### 3
+Question: If Aang caught 7 fish, then Sokka caught 5 fish, and then Toph caught 12 fish, what is the average amount of fish that each person caught?
+Answer: Aang, Sokka and Toph caught 7 fish + 5 fish + 12 fish = <<7+5+12=24>>24 fish.
+The average catch of fish per person is 24 fish / 3 people = <<24/3=8>>8 fish per person.
+#### 8
+Question: James gets a job selling used cars.  He sold 10 cars that cost $25,000 each.  The company paid 30% of that price to acquire the cars.  He got a 10% commission on the profits.  How much did he make?","First, we need to calculate how much the company paid to acquire the cars. Since each car cost $25,000 and the company paid 30% of that price, the company paid 0.30 * $25,000 = $7,500 for each car.
+
+Since James sold 10 cars, the total cost for the company to acquire those cars was $7,500 * 10 = $75,000.
+
+Now, we need to determine the total revenue from selling the cars. Since James sold each car for $25,000, the total revenue from selling 10 cars is $25,000 * 10 = $250,000.
+
+The profit from selling the cars is the revenue minus the cost, so the profit is $250,000 - $75,000 = $175,000.
+
+Finally, James receives a 10% commission on the profits, so he made $175,000 * 0.10 = $17,500.
+
+Therefore, James made $17,500 selling 10 cars.","He sold the car for 25000*10=$<<25000*10=250000>>250,000
+Each car was bought for 25,000*.3=$<<25000*.3=7500>>7500
+So they bought the cars for 7500*10=$<<7500*10=75000>>75,000
+That means the cars had a profit of 250,000-75,000=$<<250000-75000=175000>>175,000
+So his commission was 175,000*.1=$<<175000*.1=17500>>17,500
+#### 17500"
+CSQA,0,"Question: Who was the head of the branch yelling at?
+A: owner
+B: foot
+C: subordinate
+D: base
+E: point",C: subordinate,C
+CSQA,1a,"Question: What room of the house is the scale kept in to weigh yourself?
+A: bathroom
+B: doctor's office
+C: assay office
+D: post office
+E: study
+Answer: A
+Question: What could a machine help you with if you need some food?
+A: construct
+B: dispense
+C: vend
+D: wash dishes
+E: deliver
+Answer: B
+Question: Who was the head of the branch yelling at?
+A: owner
+B: foot
+C: subordinate
+D: base
+E: point",Answer: C,C
+CSQA,1b,"Question: I needed more knowledge and had a reputation for truancy, what did I need to go to more of?
+A: church
+B: meeting
+C: encyclopedia
+D: university
+E: class
+Answer: E
+Question: If you see a horrible sight at an area of elevation what may you feel?
+A: disgust
+B: diminishment
+C: jealous
+D: depression
+E: reduction
+Answer: A
+Question: Who was the head of the branch yelling at?
+A: owner
+B: foot
+C: subordinate
+D: base
+E: point",Answer: C,C
+CSQA,2,"Question: What room of the house is the scale kept in to weigh yourself?
+A: bathroom
+B: doctor's office
+C: assay office
+D: post office
+E: study
+Answer: A
+Question: What could a machine help you with if you need some food?
+A: construct
+B: dispense
+C: vend
+D: wash dishes
+E: deliver
+Answer: B
+Question: I needed more knowledge and had a reputation for truancy, what did I need to go to more of?
+A: church
+B: meeting
+C: encyclopedia
+D: university
+E: class
+Answer: E
+Question: If you see a horrible sight at an area of elevation what may you feel?
+A: disgust
+B: diminishment
+C: jealous
+D: depression
+E: reduction
+Answer: A
+Question: Who was the head of the branch yelling at?
+A: owner
+B: foot
+C: subordinate
+D: base
+E: point",Answer: C,C
+CSQA,3a,"Question: What room of the house is the scale kept in to weigh yourself?
+A: bathroom
+B: doctor's office
+C: assay office
+D: post office
+E: study
+Answer: A
+Question: What could a machine help you with if you need some food?
+A: construct
+B: dispense
+C: vend
+D: wash dishes
+E: deliver
+Answer: B
+Question: What room of the house is the scale kept in to weigh yourself?
+A: bathroom
+B: doctor's office
+C: assay office
+D: post office
+E: study
+Answer: A
+Question: What could a machine help you with if you need some food?
+A: construct
+B: dispense
+C: vend
+D: wash dishes
+E: deliver
+Answer: B
+Question: Who was the head of the branch yelling at?
+A: owner
+B: foot
+C: subordinate
+D: base
+E: point",Answer: C,C
+CSQA,3b,"Question: I needed more knowledge and had a reputation for truancy, what did I need to go to more of?
+A: church
+B: meeting
+C: encyclopedia
+D: university
+E: class
+Answer: E
+Question: If you see a horrible sight at an area of elevation what may you feel?
+A: disgust
+B: diminishment
+C: jealous
+D: depression
+E: reduction
+Answer: A
+Question: I needed more knowledge and had a reputation for truancy, what did I need to go to more of?
+A: church
+B: meeting
+C: encyclopedia
+D: university
+E: class
+Answer: E
+Question: If you see a horrible sight at an area of elevation what may you feel?
+A: disgust
+B: diminishment
+C: jealous
+D: depression
+E: reduction
+Answer: A
+Question: Who was the head of the branch yelling at?
+A: owner
+B: foot
+C: subordinate
+D: base
+E: point",Answer: C,C
+StrategyQA,0,"Question: DirectX is a proprietary technology owned by Microsoft Linus Torvalds is the creator and lead developer for the open-source Linux kernel The Linux kernel is used in operating systems that are competitors of Microsoft Windows
+Does Linus Torvalds make money off of DirectX?","No, Linus Torvalds does not make any money off of DirectX as it is a proprietary technology owned by Microsoft. Linus Torvalds is the creator of the Linux kernel, which is an open-source operating system kernel used in operating systems that are competitors of Microsoft Windows.",False
+StrategyQA,1a,"Question: Newt Gingrich was born Newton Leroy Gingrich and goes by the nickname Newt. A newt is a type of Amphibian with smooth, sticky skin.. Reptiles have dry and hard skin.
+Is Newt Gingrich's nickname a type of Reptile?
+Answer: False
+Question: The writers of the Constitutional Amendments did not view black people as legitimate human beings. The writers of the Constitutional Amendments believed that slavery benefited black slaves. The Constitutional Amendments were written for people that the writers considered human.
+Was the Second Amendment to the United States Constitution written without consideration for black Americans?
+Answer: True
+Question: DirectX is a proprietary technology owned by Microsoft Linus Torvalds is the creator and lead developer for the open-source Linux kernel The Linux kernel is used in operating systems that are competitors of Microsoft Windows
+Does Linus Torvalds make money off of DirectX?",Answer: False,False
+StrategyQA,1b,"Question: August is a summer month in the northern hemisphere. However, the seasons are opposite south of the Equator. August is in the middle of winter for Australia, Antarctica, and parts of Africa and South America.
+Is August a winter month for part of the world?
+Answer: True
+Question: Snow White is unknowingly poisoned by a witch. Snow White is unconscious when a man kisses her without her knowledge. Consent involves knowingly allowing something to happen to oneself. 
+Is Snow White an example of good consent?
+Answer: False
+Question: DirectX is a proprietary technology owned by Microsoft Linus Torvalds is the creator and lead developer for the open-source Linux kernel The Linux kernel is used in operating systems that are competitors of Microsoft Windows
+Does Linus Torvalds make money off of DirectX?",Answer: False,False
+StrategyQA,2,"Question: Newt Gingrich was born Newton Leroy Gingrich and goes by the nickname Newt. A newt is a type of Amphibian with smooth, sticky skin.. Reptiles have dry and hard skin.
+Is Newt Gingrich's nickname a type of Reptile?
+Answer: False
+Question: The writers of the Constitutional Amendments did not view black people as legitimate human beings. The writers of the Constitutional Amendments believed that slavery benefited black slaves. The Constitutional Amendments were written for people that the writers considered human.
+Was the Second Amendment to the United States Constitution written without consideration for black Americans?
+Answer: True
+Question: August is a summer month in the northern hemisphere. However, the seasons are opposite south of the Equator. August is in the middle of winter for Australia, Antarctica, and parts of Africa and South America.
+Is August a winter month for part of the world?
+Answer: True
+Question: Snow White is unknowingly poisoned by a witch. Snow White is unconscious when a man kisses her without her knowledge. Consent involves knowingly allowing something to happen to oneself. 
+Is Snow White an example of good consent?
+Answer: False
+Question: DirectX is a proprietary technology owned by Microsoft Linus Torvalds is the creator and lead developer for the open-source Linux kernel The Linux kernel is used in operating systems that are competitors of Microsoft Windows
+Does Linus Torvalds make money off of DirectX?",Answer: False,False
+StrategyQA,3a,"Question: Newt Gingrich was born Newton Leroy Gingrich and goes by the nickname Newt. A newt is a type of Amphibian with smooth, sticky skin.. Reptiles have dry and hard skin.
+Is Newt Gingrich's nickname a type of Reptile?
+Answer: False
+Question: The writers of the Constitutional Amendments did not view black people as legitimate human beings. The writers of the Constitutional Amendments believed that slavery benefited black slaves. The Constitutional Amendments were written for people that the writers considered human.
+Was the Second Amendment to the United States Constitution written without consideration for black Americans?
+Answer: True
+Question: Newt Gingrich was born Newton Leroy Gingrich and goes by the nickname Newt. A newt is a type of Amphibian with smooth, sticky skin.. Reptiles have dry and hard skin.
+Is Newt Gingrich's nickname a type of Reptile?
+Answer: False
+Question: The writers of the Constitutional Amendments did not view black people as legitimate human beings. The writers of the Constitutional Amendments believed that slavery benefited black slaves. The Constitutional Amendments were written for people that the writers considered human.
+Was the Second Amendment to the United States Constitution written without consideration for black Americans?
+Answer: True
+Question: DirectX is a proprietary technology owned by Microsoft Linus Torvalds is the creator and lead developer for the open-source Linux kernel The Linux kernel is used in operating systems that are competitors of Microsoft Windows
+Does Linus Torvalds make money off of DirectX?",Answer: False,False
+StrategyQA,3b,"Question: August is a summer month in the northern hemisphere. However, the seasons are opposite south of the Equator. August is in the middle of winter for Australia, Antarctica, and parts of Africa and South America.
+Is August a winter month for part of the world?
+Answer: True
+Question: Snow White is unknowingly poisoned by a witch. Snow White is unconscious when a man kisses her without her knowledge. Consent involves knowingly allowing something to happen to oneself. 
+Is Snow White an example of good consent?
+Answer: False
+Question: August is a summer month in the northern hemisphere. However, the seasons are opposite south of the Equator. August is in the middle of winter for Australia, Antarctica, and parts of Africa and South America.
+Is August a winter month for part of the world?
+Answer: True
+Question: Snow White is unknowingly poisoned by a witch. Snow White is unconscious when a man kisses her without her knowledge. Consent involves knowingly allowing something to happen to oneself. 
+Is Snow White an example of good consent?
+Answer: False
+Question: DirectX is a proprietary technology owned by Microsoft Linus Torvalds is the creator and lead developer for the open-source Linux kernel The Linux kernel is used in operating systems that are competitors of Microsoft Windows
+Does Linus Torvalds make money off of DirectX?",Answer: No,False
+SayCan,0,Question: Provide step-by-step instructions for the following task: Can you bring me something salty?,"1. Begin by identifying what you have available that is salty. This could be a variety of snacks or ingredients, such as pretzels, chips, nuts, or salted crackers.
+
+2. Once you have selected a salty item, gather it together in a container or on a plate to easily transport to the person requesting something salty.
+
+3. Approach the person who requested something salty and present them with the salty item you have chosen. You can say something like, ""I brought you [the salty item].""
+
+4. Hand the item over to the person and wait for their response. They may thank you or begin enjoying the salty snack right away. 
+
+5. If you are unable to find something salty, you can politely inform the person and ask if they would like something else instead.","1. find the sea salt chips, 2. pick up the sea salt chips, 3. bring it to you, 4. put down the sea salt chips, 5. done"
+SayCan,1a,"Question: Provide step-by-step instructions for the following task: How would you restock chips in the drawer?
+Answer: 1. find the bag of chips, 2. pick up the bag of chips, 3. go to the drawer, 4. put down the bag of chips, 5. open the drawer, 6. pick up the bag of chips, 7. put down the bag of chips, 8. close the drawer, 9. done
+Question: Provide step-by-step instructions for the following task: Can you bring me something salty?
+Answer: 1. find a sea salt chips, 2. pick up the sea salt chips, 3. bring it to you, 4. put down the sea salt chips, 5. done.
+Question: Provide step-by-step instructions for the following task: Can you bring me something salty?","Answer: 1. Find a variety of salty snacks such as pretzels, popcorn, or chips, 2. Select one of the salty snacks, 3. Bring the chosen salty snack to the person requesting it, 4. Offer the salty snack to the person, 5. If they accept, hand them the snack, 6. If they decline, return the snack to its original location, 7. Thank them for the request and confirm if they need anything else.","1. find the sea salt chips, 2. pick up the sea salt chips, 3. bring it to you, 4. put down the sea salt chips, 5. done"
+SayCan,1b,"Question: Provide step-by-step instructions for the following task: Could you get me something caffeinated?
+Answer: 1. find a redbull, 2. pick up the redbull, 3. bring it to you, 4. put down the redbull, 5. done.
+Question: Provide step-by-step instructions for the following task: Could you get me something refreshing?
+Answer: 1. find a water, 2. pick up the water, 3. bring it to you, 4. put down the water, 5. done.
+Question: Provide step-by-step instructions for the following task: Can you bring me something salty?","Answer: 1. find a bag of chips or pretzels, 2. pick up the bag of chips or pretzels, 3. bring it to you, 4. put down the bag of chips or pretzels, 5. done.","1. find the sea salt chips, 2. pick up the sea salt chips, 3. bring it to you, 4. put down the sea salt chips, 5. done"
+SayCan,2,"Question: Provide step-by-step instructions for the following task: How would you restock chips in the drawer?
+Answer: 1. find the bag of chips, 2. pick up the bag of chips, 3. go to the drawer, 4. put down the bag of chips, 5. open the drawer, 6. pick up the bag of chips, 7. put down the bag of chips, 8. close the drawer, 9. done
+Question: Provide step-by-step instructions for the following task: Can you bring me something salty?
+Answer: 1. find a sea salt chips, 2. pick up the sea salt chips, 3. bring it to you, 4. put down the sea salt chips, 5. done.
+Question: Provide step-by-step instructions for the following task: Could you get me something caffeinated?
+Answer: 1. find a redbull, 2. pick up the redbull, 3. bring it to you, 4. put down the redbull, 5. done.
+Question: Provide step-by-step instructions for the following task: Could you get me something refreshing?
+Answer: 1. find a water, 2. pick up the water, 3. bring it to you, 4. put down the water, 5. done.
+Question: Provide step-by-step instructions for the following task: Can you bring me something salty?","Answer: 1. find a bag of potato chips, 2. pick up the bag of potato chips, 3. bring it to you, 4. put down the bag of potato chips, 5. done.","1. find the sea salt chips, 2. pick up the sea salt chips, 3. bring it to you, 4. put down the sea salt chips, 5. done"
+SayCan,3a,"Question: Provide step-by-step instructions for the following task: How would you restock chips in the drawer?
+Answer: 1. find the bag of chips, 2. pick up the bag of chips, 3. go to the drawer, 4. put down the bag of chips, 5. open the drawer, 6. pick up the bag of chips, 7. put down the bag of chips, 8. close the drawer, 9. done
+Question: Provide step-by-step instructions for the following task: Can you bring me something salty?
+Answer: 1. find a sea salt chips, 2. pick up the sea salt chips, 3. bring it to you, 4. put down the sea salt chips, 5. done.
+Question: Provide step-by-step instructions for the following task: How would you restock chips in the drawer?
+Answer: 1. find the bag of chips, 2. pick up the bag of chips, 3. go to the drawer, 4. put down the bag of chips, 5. open the drawer, 6. pick up the bag of chips, 7. put down the bag of chips, 8. close the drawer, 9. done
+Question: Provide step-by-step instructions for the following task: Can you bring me something salty?
+Answer: 1. find a sea salt chips, 2. pick up the sea salt chips, 3. bring it to you, 4. put down the sea salt chips, 5. done.
+Question: Provide step-by-step instructions for the following task: Can you bring me something salty?","Answer: 1. Identify salty snacks options (such as potato chips or pretzels), 2. Choose a salty snack to bring, 3. Pick up the selected salty snack, 4. Bring the salty snack to the person requesting it, 5. Offer the salty snack to the person, 6. Once they have taken it, consider the task complete.","1. find the sea salt chips, 2. pick up the sea salt chips, 3. bring it to you, 4. put down the sea salt chips, 5. done"
+SayCan,3b,"Question: Provide step-by-step instructions for the following task: Could you get me something caffeinated?
+Answer: 1. find a redbull, 2. pick up the redbull, 3. bring it to you, 4. put down the redbull, 5. done.
+Question: Provide step-by-step instructions for the following task: Could you get me something refreshing?
+Answer: 1. find a water, 2. pick up the water, 3. bring it to you, 4. put down the water, 5. done.
+Question: Provide step-by-step instructions for the following task: Could you get me something caffeinated?
+Answer: 1. find a redbull, 2. pick up the redbull, 3. bring it to you, 4. put down the redbull, 5. done.
+Question: Provide step-by-step instructions for the following task: Could you get me something refreshing?
+Answer: 1. find a water, 2. pick up the water, 3. bring it to you, 4. put down the water, 5. done.
+Question: Provide step-by-step instructions for the following task: Can you bring me something salty?","Answer: 1. Find a bag of potato chips or pretzels, 2. Pick up the bag of snacks, 3. Bring it to you, 4. Put down the snacks, 5. Done.","1. find the sea salt chips, 2. pick up the sea salt chips, 3. bring it to you, 4. put down the sea salt chips, 5. done"

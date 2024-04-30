@@ -1,0 +1,393 @@
+Task Class,Case,Prompt,Response,Expected
+Math,0,"Question: On a certain day, the total cost of filling up 20 helium balloons was $900. Two days later, the cost of filling each balloon was increased by $20. How much did Bentley pay to fill 170 balloons if he went to fill them after the price increase?","First, we need to find the original cost of filling each balloon. 
+
+Total cost of filling 20 balloons = $900
+Cost of filling each balloon initially = $900 / 20 = $45
+
+After the price increase of $20, the new cost of filling each balloon = $45 + $20 = $65
+
+Therefore, the total cost of filling 170 balloons after the price increase = $65 * 170 = $11050
+
+Bentley paid $11,050 to fill 170 balloons after the price increase.","If the total cost of filling up 20 helium balloons was $900 before the price increase, the cost of filling one balloon was $900/20=$<<900/20=45>>45
+Two days later, the cost of filling each balloon was increased by $20 to $45+$20=$<<45+20=65>>65
+If Bentley had 170 balloons that he wanted to fill, after the price increase, Bentley paid 170*$65=$<<170*65=11050>>11050 to fill 170 balloons.
+#### 11050"
+Math,1a,"Question: Martin is casting three bells for the church's belfry. The first bell takes 50 pounds of bronze, the second bell is twice the size of the first bell, and the third bell is four times the size of the second bell. How much bronze does he need total?
+Answer: First find the size of the second bell: 50 pounds * 2 = <<50*2=100>>100 pounds
+Then find the size of the third bell: 100 pounds * 4 = <<100*4=400>>400 pounds
+Then add the amount of bronze used for each bell to find the total: 100 pounds + 400 pounds + 50 pounds = <<100+400+50=550>>550 pounds
+#### 550
+Question: A bag of dozen apples costs $14 and Brian has already spent $10 on kiwis and half that much on bananas. What's the maximum number of apples Brian can buy if he left his house with only $50 and needs to pay the $3.50 subway fare each way?
+Answer: Brian requires a total of $3.50 + $3.50 = $<<3.5+3.5=7>>7 to pay for the round trip subway fare
+We also know he has spent half (1/2) the amount he spent on kiwis on bananas, so he'll spend (1/2) * $10 = $5 on bananas
+So far in total he has spent $7 for his subway fare + $5 on bananas + $10 on kiwis = $7 + $5 + $10 = $<<7+5+10=22>>22
+If he left his house with only $50, then all he will have left for apples would be $50 - $22 = $<<50-22=28>>28
+If a bag of apples costs $14, then Brian would only be able to buy a maximum of $28/$14 = 2 bags of apples
+If each bag of apples has a dozen (12) apples, then (2) two bags will have 12*2= <<2*12=24>>24 apples
+#### 24
+Question: On a certain day, the total cost of filling up 20 helium balloons was $900. Two days later, the cost of filling each balloon was increased by $20. How much did Bentley pay to fill 170 balloons if he went to fill them after the price increase?","Let's first find the cost of filling one balloon on the certain day. We divide the total cost by the number of balloons: $900 / 20 balloons = $45 per balloon.
+
+After the price increase, the cost to fill each balloon is $45 + $20 = $65 per balloon.
+
+So to fill 170 balloons after the price increase, Bentley paid 170 balloons * $65 per balloon = $11,050. 
+
+Therefore, Bentley paid $11,050 to fill 170 balloons after the price increase.","If the total cost of filling up 20 helium balloons was $900 before the price increase, the cost of filling one balloon was $900/20=$<<900/20=45>>45
+Two days later, the cost of filling each balloon was increased by $20 to $45+$20=$<<45+20=65>>65
+If Bentley had 170 balloons that he wanted to fill, after the price increase, Bentley paid 170*$65=$<<170*65=11050>>11050 to fill 170 balloons.
+#### 11050"
+Math,1b,"Question: A store is selling mobile phones. This store contains 20 units of phones but the owner found out that there were 5 defective units. After he got rid of the defective units, he started to sell the rest of his units to customer A who bought 3 units, customer B who bought a certain amount of units, and customer C who bought 7 units. In the end, all non-defective units were sold. How many units were sold to Customer B?
+Answer: There were 20 - 5 = <<20-5=15>>15 units of non-defective smartphones.
+There were 3 + 7 = <<3+7=10>>10 units sold to customers A and C.
+So, 15 - 10 = <<15-10=5>>5 units were sold to customer B.
+#### 5
+Question: A school principal is booking hotel rooms for a class of 30 students to stay at during an overnight field trip.  Each of the hotel's rooms has two queen size beds, which can fit two students each, and a pull-out couch, which can fit one student.  How many rooms does the principal need to book to fit all of the students in the class?
+Answer: Each room can fit 2*2 + 1 = <<2*2+1=5>>5 students.
+Thus, the principal needs to book 30/5 = <<30/5=6>>6 rooms to fit everyone.
+#### 6
+Question: On a certain day, the total cost of filling up 20 helium balloons was $900. Two days later, the cost of filling each balloon was increased by $20. How much did Bentley pay to fill 170 balloons if he went to fill them after the price increase?","Answer: The cost of filling up 20 balloons on the day Bentley went was $900, so each balloon cost $900/20 = $45.
+After the price increase, each balloon cost $45 + $20 = $65.
+Therefore, Bentley paid $65 x 170 = $11,050 to fill up 170 balloons.","If the total cost of filling up 20 helium balloons was $900 before the price increase, the cost of filling one balloon was $900/20=$<<900/20=45>>45
+Two days later, the cost of filling each balloon was increased by $20 to $45+$20=$<<45+20=65>>65
+If Bentley had 170 balloons that he wanted to fill, after the price increase, Bentley paid 170*$65=$<<170*65=11050>>11050 to fill 170 balloons.
+#### 11050"
+Math,2,"Question: Martin is casting three bells for the church's belfry. The first bell takes 50 pounds of bronze, the second bell is twice the size of the first bell, and the third bell is four times the size of the second bell. How much bronze does he need total?
+Answer: First find the size of the second bell: 50 pounds * 2 = <<50*2=100>>100 pounds
+Then find the size of the third bell: 100 pounds * 4 = <<100*4=400>>400 pounds
+Then add the amount of bronze used for each bell to find the total: 100 pounds + 400 pounds + 50 pounds = <<100+400+50=550>>550 pounds
+#### 550
+Question: A bag of dozen apples costs $14 and Brian has already spent $10 on kiwis and half that much on bananas. What's the maximum number of apples Brian can buy if he left his house with only $50 and needs to pay the $3.50 subway fare each way?
+Answer: Brian requires a total of $3.50 + $3.50 = $<<3.5+3.5=7>>7 to pay for the round trip subway fare
+We also know he has spent half (1/2) the amount he spent on kiwis on bananas, so he'll spend (1/2) * $10 = $5 on bananas
+So far in total he has spent $7 for his subway fare + $5 on bananas + $10 on kiwis = $7 + $5 + $10 = $<<7+5+10=22>>22
+If he left his house with only $50, then all he will have left for apples would be $50 - $22 = $<<50-22=28>>28
+If a bag of apples costs $14, then Brian would only be able to buy a maximum of $28/$14 = 2 bags of apples
+If each bag of apples has a dozen (12) apples, then (2) two bags will have 12*2= <<2*12=24>>24 apples
+#### 24
+Question: A store is selling mobile phones. This store contains 20 units of phones but the owner found out that there were 5 defective units. After he got rid of the defective units, he started to sell the rest of his units to customer A who bought 3 units, customer B who bought a certain amount of units, and customer C who bought 7 units. In the end, all non-defective units were sold. How many units were sold to Customer B?
+Answer: There were 20 - 5 = <<20-5=15>>15 units of non-defective smartphones.
+There were 3 + 7 = <<3+7=10>>10 units sold to customers A and C.
+So, 15 - 10 = <<15-10=5>>5 units were sold to customer B.
+#### 5
+Question: A school principal is booking hotel rooms for a class of 30 students to stay at during an overnight field trip.  Each of the hotel's rooms has two queen size beds, which can fit two students each, and a pull-out couch, which can fit one student.  How many rooms does the principal need to book to fit all of the students in the class?
+Answer: Each room can fit 2*2 + 1 = <<2*2+1=5>>5 students.
+Thus, the principal needs to book 30/5 = <<30/5=6>>6 rooms to fit everyone.
+#### 6
+Question: On a certain day, the total cost of filling up 20 helium balloons was $900. Two days later, the cost of filling each balloon was increased by $20. How much did Bentley pay to fill 170 balloons if he went to fill them after the price increase?","Answer: Since the cost of filling each balloon was increased by $20, the total cost to fill 20 balloons is now $900 + 20*20 = $1300. 
+Therefore, the cost to fill 170 balloons would be 170/20 * $1300 = $<<170/20*1300=11050>>11050. 
+Bentley paid $11050 to fill 170 balloons after the price increase. 
+#### 11050","If the total cost of filling up 20 helium balloons was $900 before the price increase, the cost of filling one balloon was $900/20=$<<900/20=45>>45
+Two days later, the cost of filling each balloon was increased by $20 to $45+$20=$<<45+20=65>>65
+If Bentley had 170 balloons that he wanted to fill, after the price increase, Bentley paid 170*$65=$<<170*65=11050>>11050 to fill 170 balloons.
+#### 11050"
+Math,3a,"Question: Martin is casting three bells for the church's belfry. The first bell takes 50 pounds of bronze, the second bell is twice the size of the first bell, and the third bell is four times the size of the second bell. How much bronze does he need total?
+Answer: First find the size of the second bell: 50 pounds * 2 = <<50*2=100>>100 pounds
+Then find the size of the third bell: 100 pounds * 4 = <<100*4=400>>400 pounds
+Then add the amount of bronze used for each bell to find the total: 100 pounds + 400 pounds + 50 pounds = <<100+400+50=550>>550 pounds
+#### 550
+Question: A bag of dozen apples costs $14 and Brian has already spent $10 on kiwis and half that much on bananas. What's the maximum number of apples Brian can buy if he left his house with only $50 and needs to pay the $3.50 subway fare each way?
+Answer: Brian requires a total of $3.50 + $3.50 = $<<3.5+3.5=7>>7 to pay for the round trip subway fare
+We also know he has spent half (1/2) the amount he spent on kiwis on bananas, so he'll spend (1/2) * $10 = $5 on bananas
+So far in total he has spent $7 for his subway fare + $5 on bananas + $10 on kiwis = $7 + $5 + $10 = $<<7+5+10=22>>22
+If he left his house with only $50, then all he will have left for apples would be $50 - $22 = $<<50-22=28>>28
+If a bag of apples costs $14, then Brian would only be able to buy a maximum of $28/$14 = 2 bags of apples
+If each bag of apples has a dozen (12) apples, then (2) two bags will have 12*2= <<2*12=24>>24 apples
+#### 24
+Question: Martin is casting three bells for the church's belfry. The first bell takes 50 pounds of bronze, the second bell is twice the size of the first bell, and the third bell is four times the size of the second bell. How much bronze does he need total?
+Answer: First find the size of the second bell: 50 pounds * 2 = <<50*2=100>>100 pounds
+Then find the size of the third bell: 100 pounds * 4 = <<100*4=400>>400 pounds
+Then add the amount of bronze used for each bell to find the total: 100 pounds + 400 pounds + 50 pounds = <<100+400+50=550>>550 pounds
+#### 550
+Question: A bag of dozen apples costs $14 and Brian has already spent $10 on kiwis and half that much on bananas. What's the maximum number of apples Brian can buy if he left his house with only $50 and needs to pay the $3.50 subway fare each way?
+Answer: Brian requires a total of $3.50 + $3.50 = $<<3.5+3.5=7>>7 to pay for the round trip subway fare
+We also know he has spent half (1/2) the amount he spent on kiwis on bananas, so he'll spend (1/2) * $10 = $5 on bananas
+So far in total he has spent $7 for his subway fare + $5 on bananas + $10 on kiwis = $7 + $5 + $10 = $<<7+5+10=22>>22
+If he left his house with only $50, then all he will have left for apples would be $50 - $22 = $<<50-22=28>>28
+If a bag of apples costs $14, then Brian would only be able to buy a maximum of $28/$14 = 2 bags of apples
+If each bag of apples has a dozen (12) apples, then (2) two bags will have 12*2= <<2*12=24>>24 apples
+#### 24
+Question: On a certain day, the total cost of filling up 20 helium balloons was $900. Two days later, the cost of filling each balloon was increased by $20. How much did Bentley pay to fill 170 balloons if he went to fill them after the price increase?","Answer: First, find the cost of filling one balloon originally by dividing the total cost by the number of balloons: $900 / 20 balloons = $<<900/20=45>>45 per balloon
+Then find the new cost per balloon after the price increase: $45 + $20 = $<<45+20=65>>65 per balloon
+Multiply the new cost per balloon by the total number of balloons Bentley filled to find the total cost: $65 * 170 balloons = $<<65*170=11050>>11,050
+Bentley paid $11,050 to fill 170 balloons after the price increase.","If the total cost of filling up 20 helium balloons was $900 before the price increase, the cost of filling one balloon was $900/20=$<<900/20=45>>45
+Two days later, the cost of filling each balloon was increased by $20 to $45+$20=$<<45+20=65>>65
+If Bentley had 170 balloons that he wanted to fill, after the price increase, Bentley paid 170*$65=$<<170*65=11050>>11050 to fill 170 balloons.
+#### 11050"
+Math,3b,"Question: A store is selling mobile phones. This store contains 20 units of phones but the owner found out that there were 5 defective units. After he got rid of the defective units, he started to sell the rest of his units to customer A who bought 3 units, customer B who bought a certain amount of units, and customer C who bought 7 units. In the end, all non-defective units were sold. How many units were sold to Customer B?
+Answer: There were 20 - 5 = <<20-5=15>>15 units of non-defective smartphones.
+There were 3 + 7 = <<3+7=10>>10 units sold to customers A and C.
+So, 15 - 10 = <<15-10=5>>5 units were sold to customer B.
+#### 5
+Question: A school principal is booking hotel rooms for a class of 30 students to stay at during an overnight field trip.  Each of the hotel's rooms has two queen size beds, which can fit two students each, and a pull-out couch, which can fit one student.  How many rooms does the principal need to book to fit all of the students in the class?
+Answer: Each room can fit 2*2 + 1 = <<2*2+1=5>>5 students.
+Thus, the principal needs to book 30/5 = <<30/5=6>>6 rooms to fit everyone.
+#### 6
+Question: A store is selling mobile phones. This store contains 20 units of phones but the owner found out that there were 5 defective units. After he got rid of the defective units, he started to sell the rest of his units to customer A who bought 3 units, customer B who bought a certain amount of units, and customer C who bought 7 units. In the end, all non-defective units were sold. How many units were sold to Customer B?
+Answer: There were 20 - 5 = <<20-5=15>>15 units of non-defective smartphones.
+There were 3 + 7 = <<3+7=10>>10 units sold to customers A and C.
+So, 15 - 10 = <<15-10=5>>5 units were sold to customer B.
+#### 5
+Question: A school principal is booking hotel rooms for a class of 30 students to stay at during an overnight field trip.  Each of the hotel's rooms has two queen size beds, which can fit two students each, and a pull-out couch, which can fit one student.  How many rooms does the principal need to book to fit all of the students in the class?
+Answer: Each room can fit 2*2 + 1 = <<2*2+1=5>>5 students.
+Thus, the principal needs to book 30/5 = <<30/5=6>>6 rooms to fit everyone.
+#### 6
+Question: On a certain day, the total cost of filling up 20 helium balloons was $900. Two days later, the cost of filling each balloon was increased by $20. How much did Bentley pay to fill 170 balloons if he went to fill them after the price increase?","First, let's find the cost of filling one balloon on the day Bentley went to fill them. Since the total cost of filling 20 balloons was $900, each balloon cost $900/20 = $45.
+
+After the price increase of $20 per balloon, the new cost per balloon is $45 + $20 = $65.
+
+Therefore, filling 170 balloons at $65 per balloon would cost Bentley 170 * $65 = $11,050.
+Bentley paid $11,050 to fill 170 balloons after the price increase.","If the total cost of filling up 20 helium balloons was $900 before the price increase, the cost of filling one balloon was $900/20=$<<900/20=45>>45
+Two days later, the cost of filling each balloon was increased by $20 to $45+$20=$<<45+20=65>>65
+If Bentley had 170 balloons that he wanted to fill, after the price increase, Bentley paid 170*$65=$<<170*65=11050>>11050 to fill 170 balloons.
+#### 11050"
+CSQA,0,"Question: Who was the head of the branch yelling at?
+A: owner
+B: foot
+C: subordinate
+D: base
+E: point",C: subordinate,C
+CSQA,1a,"Question: Where can you see a mammoth in NYC?
+A: refrigerator
+B: museum exhibit
+C: prehistoric times
+D: museum of natural history
+E: forest
+Answer: D
+Question: James couldn't get into the event, because the ticket office was sold out.  He was sad, but not that sad.  He didn't like football, anyway.  Where might James have been?
+A: auditorium
+B: stadium
+C: arena
+D: city
+E: area
+Answer: B
+Question: Who was the head of the branch yelling at?
+A: owner
+B: foot
+C: subordinate
+D: base
+E: point",Answer: C,C
+CSQA,1b,"Question: Where is a crowded motorway likely to be?
+A: europe
+B: city
+C: england
+D: garage
+E: new jersey
+Answer: B
+Question: Where is a church found at?
+A: zoo
+B: populated area
+C: city
+D: christian community
+E: every town
+Answer: E
+Question: Who was the head of the branch yelling at?
+A: owner
+B: foot
+C: subordinate
+D: base
+E: point",Answer: C,C
+CSQA,2,"Question: Where can you see a mammoth in NYC?
+A: refrigerator
+B: museum exhibit
+C: prehistoric times
+D: museum of natural history
+E: forest
+Answer: D
+Question: James couldn't get into the event, because the ticket office was sold out.  He was sad, but not that sad.  He didn't like football, anyway.  Where might James have been?
+A: auditorium
+B: stadium
+C: arena
+D: city
+E: area
+Answer: B
+Question: Where is a crowded motorway likely to be?
+A: europe
+B: city
+C: england
+D: garage
+E: new jersey
+Answer: B
+Question: Where is a church found at?
+A: zoo
+B: populated area
+C: city
+D: christian community
+E: every town
+Answer: E
+Question: Who was the head of the branch yelling at?
+A: owner
+B: foot
+C: subordinate
+D: base
+E: point",Answer: C,C
+CSQA,3a,"Question: Where can you see a mammoth in NYC?
+A: refrigerator
+B: museum exhibit
+C: prehistoric times
+D: museum of natural history
+E: forest
+Answer: D
+Question: James couldn't get into the event, because the ticket office was sold out.  He was sad, but not that sad.  He didn't like football, anyway.  Where might James have been?
+A: auditorium
+B: stadium
+C: arena
+D: city
+E: area
+Answer: B
+Question: Where can you see a mammoth in NYC?
+A: refrigerator
+B: museum exhibit
+C: prehistoric times
+D: museum of natural history
+E: forest
+Answer: D
+Question: James couldn't get into the event, because the ticket office was sold out.  He was sad, but not that sad.  He didn't like football, anyway.  Where might James have been?
+A: auditorium
+B: stadium
+C: arena
+D: city
+E: area
+Answer: B
+Question: Who was the head of the branch yelling at?
+A: owner
+B: foot
+C: subordinate
+D: base
+E: point",Answer: C,C
+CSQA,3b,"Question: Where is a crowded motorway likely to be?
+A: europe
+B: city
+C: england
+D: garage
+E: new jersey
+Answer: B
+Question: Where is a church found at?
+A: zoo
+B: populated area
+C: city
+D: christian community
+E: every town
+Answer: E
+Question: Where is a crowded motorway likely to be?
+A: europe
+B: city
+C: england
+D: garage
+E: new jersey
+Answer: B
+Question: Where is a church found at?
+A: zoo
+B: populated area
+C: city
+D: christian community
+E: every town
+Answer: E
+Question: Who was the head of the branch yelling at?
+A: owner
+B: foot
+C: subordinate
+D: base
+E: point",Answer: C,C
+StrategyQA,0,"Question: Space Mountain is an attraction at Disney theme parks Bugs Bunny is a Warner Bros. character Warner Bros. characters appear at Six Flags theme parks
+Can you find Bugs Bunny at Space Mountain?","No, Bugs Bunny is a Warner Bros. character and would not be found at Space Mountain, which is an attraction at Disney theme parks. Bugs Bunny characters are often found at Six Flags theme parks instead.",False
+StrategyQA,1a,"Question: The body naturally produces and uses lactic acid to convert glucose into energy Lactic acid bacteria are particularly good for digestive health.
+Is it bad to have lactic acid in your body?
+Answer: False
+Question: Almond trees can grow up to 10 meters high The Lusotitan adult was over 10 meters high
+Would a stool be useful for a Lusotitan to reach the top of an almond tree?
+Answer: False
+Question: Space Mountain is an attraction at Disney theme parks Bugs Bunny is a Warner Bros. character Warner Bros. characters appear at Six Flags theme parks
+Can you find Bugs Bunny at Space Mountain?",Answer: False,False
+StrategyQA,1b,"Question: Beam me up is an expression from Star Trek. Much to the annoyance of fans, Star Trek and Star Wars are often confused for one another. 
+Do Star Wars fans say ""beam me up"" often?
+Answer: False
+Question: Dem Bones is a spiritual song composed by James Weldon Johnson. The lyrics to Dem Bones mention the hip bone, back bone, and knee bone among others. The back bone is the spine, which is connected to the first 7 rib sets. The sternum, or breastbone, is a flat bone at the front center of the chest. The sternum and ribs are connected and make up the ribcage.
+Is sternum connected to any of the bones mentioned in James Weldon Johnson's Dem Bones?
+Answer: True
+Question: Space Mountain is an attraction at Disney theme parks Bugs Bunny is a Warner Bros. character Warner Bros. characters appear at Six Flags theme parks
+Can you find Bugs Bunny at Space Mountain?",Answer: False,False
+StrategyQA,2,"Question: The body naturally produces and uses lactic acid to convert glucose into energy Lactic acid bacteria are particularly good for digestive health.
+Is it bad to have lactic acid in your body?
+Answer: False
+Question: Almond trees can grow up to 10 meters high The Lusotitan adult was over 10 meters high
+Would a stool be useful for a Lusotitan to reach the top of an almond tree?
+Answer: False
+Question: Beam me up is an expression from Star Trek. Much to the annoyance of fans, Star Trek and Star Wars are often confused for one another. 
+Do Star Wars fans say ""beam me up"" often?
+Answer: False
+Question: Dem Bones is a spiritual song composed by James Weldon Johnson. The lyrics to Dem Bones mention the hip bone, back bone, and knee bone among others. The back bone is the spine, which is connected to the first 7 rib sets. The sternum, or breastbone, is a flat bone at the front center of the chest. The sternum and ribs are connected and make up the ribcage.
+Is sternum connected to any of the bones mentioned in James Weldon Johnson's Dem Bones?
+Answer: True
+Question: Space Mountain is an attraction at Disney theme parks Bugs Bunny is a Warner Bros. character Warner Bros. characters appear at Six Flags theme parks
+Can you find Bugs Bunny at Space Mountain?",Answer: False,False
+StrategyQA,3a,"Question: The body naturally produces and uses lactic acid to convert glucose into energy Lactic acid bacteria are particularly good for digestive health.
+Is it bad to have lactic acid in your body?
+Answer: False
+Question: Almond trees can grow up to 10 meters high The Lusotitan adult was over 10 meters high
+Would a stool be useful for a Lusotitan to reach the top of an almond tree?
+Answer: False
+Question: The body naturally produces and uses lactic acid to convert glucose into energy Lactic acid bacteria are particularly good for digestive health.
+Is it bad to have lactic acid in your body?
+Answer: False
+Question: Almond trees can grow up to 10 meters high The Lusotitan adult was over 10 meters high
+Would a stool be useful for a Lusotitan to reach the top of an almond tree?
+Answer: False
+Question: Space Mountain is an attraction at Disney theme parks Bugs Bunny is a Warner Bros. character Warner Bros. characters appear at Six Flags theme parks
+Can you find Bugs Bunny at Space Mountain?",Answer: False,False
+StrategyQA,3b,"Question: Beam me up is an expression from Star Trek. Much to the annoyance of fans, Star Trek and Star Wars are often confused for one another. 
+Do Star Wars fans say ""beam me up"" often?
+Answer: False
+Question: Dem Bones is a spiritual song composed by James Weldon Johnson. The lyrics to Dem Bones mention the hip bone, back bone, and knee bone among others. The back bone is the spine, which is connected to the first 7 rib sets. The sternum, or breastbone, is a flat bone at the front center of the chest. The sternum and ribs are connected and make up the ribcage.
+Is sternum connected to any of the bones mentioned in James Weldon Johnson's Dem Bones?
+Answer: True
+Question: Beam me up is an expression from Star Trek. Much to the annoyance of fans, Star Trek and Star Wars are often confused for one another. 
+Do Star Wars fans say ""beam me up"" often?
+Answer: False
+Question: Dem Bones is a spiritual song composed by James Weldon Johnson. The lyrics to Dem Bones mention the hip bone, back bone, and knee bone among others. The back bone is the spine, which is connected to the first 7 rib sets. The sternum, or breastbone, is a flat bone at the front center of the chest. The sternum and ribs are connected and make up the ribcage.
+Is sternum connected to any of the bones mentioned in James Weldon Johnson's Dem Bones?
+Answer: True
+Question: Space Mountain is an attraction at Disney theme parks Bugs Bunny is a Warner Bros. character Warner Bros. characters appear at Six Flags theme parks
+Can you find Bugs Bunny at Space Mountain?",Answer: No,False
+SayCan,0,Question: Provide step-by-step instructions for the following task: Lift and hold the coke can up.,"1. Begin by placing your dominant hand around the lower portion of the coke can, ensuring a secure grip.
+2. Use your other hand to support the can from the bottom.
+3. Slowly lift the coke can up by straightening your arms and keeping a firm grip.
+4. Hold the can at your desired height, ensuring that your grip is steady and secure.
+5. To maintain the position, use your arm muscles to stabilize the can and avoid any sudden movements.
+6. When you are ready to lower the can, do so gradually to prevent spilling the contents.
+7. Remember to always hold the can away from your body and over a stable surface to avoid accidents.","1. pick up the coke, 2. done"
+SayCan,1a,"Question: Provide step-by-step instructions for the following task: Bring me a soda that isn’t a coke.
+Answer: 1. find a pepsi, 2. pick up the pepsi, 3. bring it to you, 4. put down the pepsi, 5. done.
+Question: Provide step-by-step instructions for the following task: Can you clear off the close counter table?
+Answer: 1. go to the close counter, 2. pick up the energy bar, 3. go to the trash, 4. put down the energy bar, 5. go to the close counter, 6. pick up the jalapeno chips, 7. go to the trash, 8. put down the jalapeno chips, 9. go to the close counter, 10. pick up the grapefruit soda, 11. go to the trash, 12. put down the grapefruit soda, 13. go to the close counter, 14. done.
+Question: Provide step-by-step instructions for the following task: Lift and hold the coke can up.","Answer: 1. Locate the coke can, 2. Pick up the coke can with one hand, 3. Raise your arm and hold the coke can in the air, 4. Maintain a steady grip on the coke can to keep it lifted, 5. Hold the coke can up for as long as desired, 6. When finished, slowly lower your arm and place the coke can back down.","1. pick up the coke, 2. done"
+SayCan,1b,"Question: Provide step-by-step instructions for the following task: Park at the table.
+Answer: 1. go to the table, 2. done
+Question: Provide step-by-step instructions for the following task: Move a banana to the table.
+Answer: 1. pick up the banana, 2. go to the table, 3. put down the banana, 4. done
+Question: Provide step-by-step instructions for the following task: Lift and hold the coke can up.","Answer: 1. Reach for the coke can, 2. Grasp the can firmly, 3. Lift the can up to a desired height, 4. Hold the can steady, 5. Release the can when ready, 6. Done.","1. pick up the coke, 2. done"
+SayCan,2,"Question: Provide step-by-step instructions for the following task: Bring me a soda that isn’t a coke.
+Answer: 1. find a pepsi, 2. pick up the pepsi, 3. bring it to you, 4. put down the pepsi, 5. done.
+Question: Provide step-by-step instructions for the following task: Can you clear off the close counter table?
+Answer: 1. go to the close counter, 2. pick up the energy bar, 3. go to the trash, 4. put down the energy bar, 5. go to the close counter, 6. pick up the jalapeno chips, 7. go to the trash, 8. put down the jalapeno chips, 9. go to the close counter, 10. pick up the grapefruit soda, 11. go to the trash, 12. put down the grapefruit soda, 13. go to the close counter, 14. done.
+Question: Provide step-by-step instructions for the following task: Park at the table.
+Answer: 1. go to the table, 2. done
+Question: Provide step-by-step instructions for the following task: Move a banana to the table.
+Answer: 1. pick up the banana, 2. go to the table, 3. put down the banana, 4. done
+Question: Provide step-by-step instructions for the following task: Lift and hold the coke can up.","Answer: 1. pick up the coke can, 2. hold the coke can up, 3. done.","1. pick up the coke, 2. done"
+SayCan,3a,"Question: Provide step-by-step instructions for the following task: Bring me a soda that isn’t a coke.
+Answer: 1. find a pepsi, 2. pick up the pepsi, 3. bring it to you, 4. put down the pepsi, 5. done.
+Question: Provide step-by-step instructions for the following task: Can you clear off the close counter table?
+Answer: 1. go to the close counter, 2. pick up the energy bar, 3. go to the trash, 4. put down the energy bar, 5. go to the close counter, 6. pick up the jalapeno chips, 7. go to the trash, 8. put down the jalapeno chips, 9. go to the close counter, 10. pick up the grapefruit soda, 11. go to the trash, 12. put down the grapefruit soda, 13. go to the close counter, 14. done.
+Question: Provide step-by-step instructions for the following task: Bring me a soda that isn’t a coke.
+Answer: 1. find a pepsi, 2. pick up the pepsi, 3. bring it to you, 4. put down the pepsi, 5. done.
+Question: Provide step-by-step instructions for the following task: Can you clear off the close counter table?
+Answer: 1. go to the close counter, 2. pick up the energy bar, 3. go to the trash, 4. put down the energy bar, 5. go to the close counter, 6. pick up the jalapeno chips, 7. go to the trash, 8. put down the jalapeno chips, 9. go to the close counter, 10. pick up the grapefruit soda, 11. go to the trash, 12. put down the grapefruit soda, 13. go to the close counter, 14. done.
+Question: Provide step-by-step instructions for the following task: Lift and hold the coke can up.","Answer: 1. Locate the coke can, 2. Reach out and grab the coke can, 3. Lift the coke can up, 4. Hold the coke can in the air, 5. Done.","1. pick up the coke, 2. done"
+SayCan,3b,"Question: Provide step-by-step instructions for the following task: Park at the table.
+Answer: 1. go to the table, 2. done
+Question: Provide step-by-step instructions for the following task: Move a banana to the table.
+Answer: 1. pick up the banana, 2. go to the table, 3. put down the banana, 4. done
+Question: Provide step-by-step instructions for the following task: Park at the table.
+Answer: 1. go to the table, 2. done
+Question: Provide step-by-step instructions for the following task: Move a banana to the table.
+Answer: 1. pick up the banana, 2. go to the table, 3. put down the banana, 4. done
+Question: Provide step-by-step instructions for the following task: Lift and hold the coke can up.","Answer: 1. Pick up the coke can with one hand, 2. Raise your arm holding the can, 3. Hold the can in the lifted position, 4. Done.","1. pick up the coke, 2. done"

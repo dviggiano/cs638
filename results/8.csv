@@ -1,0 +1,375 @@
+Task Class,Case,Prompt,Response,Expected
+Math,0,Question: Adam really wants to ride the biggest roller coaster at the park. You have to be 4 feet tall to ride it. Adam’s height is 40 inches and he grows 2 inches a year. How many years until he is tall enough to ride it?,"Adam is currently 40 inches tall, which is equivalent to 3 feet 4 inches. In order to ride the roller coaster, he needs to be 4 feet tall.
+
+To determine how many years it will take for Adam to reach 4 feet in height, we first need to find out how many inches he needs to grow. 
+
+4 feet is equivalent to 48 inches. 
+Adam currently needs to grow 48 inches - 40 inches = 8 inches.
+
+Since Adam grows 2 inches per year, we can divide the remaining inches he needs to grow by the rate of growth:
+
+8 inches / 2 inches = 4 years
+
+Therefore, it will take Adam 4 years to reach the height of 4 feet and be able to ride the biggest roller coaster at the park.","Adam needs to grow 8 inches because 48 -40= <<48-40=8>>8
+It will take 4 years because 8/2=<<8/2=4>>4
+#### 4"
+Math,1a,"Question: Steve's new book sells 1,000,000 copies.  He got an advance to pay for 100,000 copies. He gets $2 for each copy of the book sold.  His agent takes 10% of that.  How much money did he keep not counting the money from the advance?
+Answer: He sold 1,000,000-100,000=<<1000000-100000=900000>>900,000 not counting the advance
+So he made 900,000*2=$<<900000*2=1800000>>1,800,000 from selling the books
+His agent took 1,800,000*.1=$<<1800000*.1=180000>>180,000
+That means he kept 1,800,000-180,000=$<<1800000-180000=1620000>>1,620,000
+#### 1620000
+Question: John is an eccentric millionaire.  He decides to fill his swimming pool with bottled water.  A cubic foot of water is 25 liters.  His pool is 10 feet deep and 6 feet by 20 feet.  A liter of water costs $3.  How much does it cost to fill the pool?
+Answer: The pool is 10*6*20=<<10*6*20=1200>>1200 cubic feet
+That means it is 25*1200=<<25*1200=30000>>30000 liters
+So it cost 3*30,000=$<<3*30000=90000>>90,000
+#### 90000
+Question: Adam really wants to ride the biggest roller coaster at the park. You have to be 4 feet tall to ride it. Adam’s height is 40 inches and he grows 2 inches a year. How many years until he is tall enough to ride it?","Answer: Adam needs to grow 12 inches to reach 4 feet, which is equivalent to 48 inches. Since he grows 2 inches a year, it will take him (48-40)/2 = 4 years to reach the height of 4 feet to ride the biggest roller coaster at the park. 
+#### 4","Adam needs to grow 8 inches because 48 -40= <<48-40=8>>8
+It will take 4 years because 8/2=<<8/2=4>>4
+#### 4"
+Math,1b,"Question: Mike can type 65 words per minute. Due to a minor accident, Mike cannot use his right hand for a while so that his typing speed is now 20 words less per minute. If he is supposed to type a document with 810 words, how many minutes will it take him to finish typing the document?
+Answer: After the accident, Mike can only type 65 words/minute - 20 words/minute = <<65-20=45>>45 words/minute.
+So, he will be able to finish typing the document in 810 words / 45 words/minute = <<810/45=18>>18 minutes.
+#### 18
+Question: Jordan noticed that there are 2 cars in his driveway that each have 4 wheels.  There are 2 bikes and a trash can that each have 2 wheels.  There is also a tricycle and a pair of old roller skates.  How many wheels are there?
+Answer: There are 2 cars with 4 wheels each so that's 2*4 = <<2*4=8>>8 wheels
+Two bikes and a trash can each have 2 wheels so that's 3*2 = 6 wheels
+Each roller skate has 4 wheels and there is a pair, which means 2 skates for a total of 4*2 = <<4*2=8>>8 wheels
+Including the 3 wheels on the tricycle, there are 8 from the car, 6 from bikes and a trashcan and 8 from roller skates for a total of 3+8+6+8 = <<3+8+6+8=25>>25 wheels
+#### 25
+Question: Adam really wants to ride the biggest roller coaster at the park. You have to be 4 feet tall to ride it. Adam’s height is 40 inches and he grows 2 inches a year. How many years until he is tall enough to ride it?","Answer: 4 feet is equal to 48 inches, which is the height required to ride the roller coaster. Adam currently is 40 inches tall, so he needs to grow an additional 48 - 40 = 8 inches to reach the minimum height requirement.
+If Adam grows 2 inches per year, it will take him 8 inches / 2 inches per year = 4 years to reach the height of 48 inches or 4 feet.
+Therefore, Adam will need to wait for <<4>>4 years before he is tall enough to ride the biggest roller coaster at the park.","Adam needs to grow 8 inches because 48 -40= <<48-40=8>>8
+It will take 4 years because 8/2=<<8/2=4>>4
+#### 4"
+Math,2,"Question: Steve's new book sells 1,000,000 copies.  He got an advance to pay for 100,000 copies. He gets $2 for each copy of the book sold.  His agent takes 10% of that.  How much money did he keep not counting the money from the advance?
+Answer: He sold 1,000,000-100,000=<<1000000-100000=900000>>900,000 not counting the advance
+So he made 900,000*2=$<<900000*2=1800000>>1,800,000 from selling the books
+His agent took 1,800,000*.1=$<<1800000*.1=180000>>180,000
+That means he kept 1,800,000-180,000=$<<1800000-180000=1620000>>1,620,000
+#### 1620000
+Question: John is an eccentric millionaire.  He decides to fill his swimming pool with bottled water.  A cubic foot of water is 25 liters.  His pool is 10 feet deep and 6 feet by 20 feet.  A liter of water costs $3.  How much does it cost to fill the pool?
+Answer: The pool is 10*6*20=<<10*6*20=1200>>1200 cubic feet
+That means it is 25*1200=<<25*1200=30000>>30000 liters
+So it cost 3*30,000=$<<3*30000=90000>>90,000
+#### 90000
+Question: Mike can type 65 words per minute. Due to a minor accident, Mike cannot use his right hand for a while so that his typing speed is now 20 words less per minute. If he is supposed to type a document with 810 words, how many minutes will it take him to finish typing the document?
+Answer: After the accident, Mike can only type 65 words/minute - 20 words/minute = <<65-20=45>>45 words/minute.
+So, he will be able to finish typing the document in 810 words / 45 words/minute = <<810/45=18>>18 minutes.
+#### 18
+Question: Jordan noticed that there are 2 cars in his driveway that each have 4 wheels.  There are 2 bikes and a trash can that each have 2 wheels.  There is also a tricycle and a pair of old roller skates.  How many wheels are there?
+Answer: There are 2 cars with 4 wheels each so that's 2*4 = <<2*4=8>>8 wheels
+Two bikes and a trash can each have 2 wheels so that's 3*2 = 6 wheels
+Each roller skate has 4 wheels and there is a pair, which means 2 skates for a total of 4*2 = <<4*2=8>>8 wheels
+Including the 3 wheels on the tricycle, there are 8 from the car, 6 from bikes and a trashcan and 8 from roller skates for a total of 3+8+6+8 = <<3+8+6+8=25>>25 wheels
+#### 25
+Question: Adam really wants to ride the biggest roller coaster at the park. You have to be 4 feet tall to ride it. Adam’s height is 40 inches and he grows 2 inches a year. How many years until he is tall enough to ride it?","Answer: Adam needs to grow 12 inches to reach 4 feet since there are 12 inches in a foot (4 * 12 = 48 inches).
+He currently needs to grow 48 - 40 = 8 more inches.
+Since he grows 2 inches a year, it will take him 8 / 2 = <<8/2=4>>4 years to be tall enough to ride the roller coaster. 
+#### 4","Adam needs to grow 8 inches because 48 -40= <<48-40=8>>8
+It will take 4 years because 8/2=<<8/2=4>>4
+#### 4"
+Math,3a,"Question: Steve's new book sells 1,000,000 copies.  He got an advance to pay for 100,000 copies. He gets $2 for each copy of the book sold.  His agent takes 10% of that.  How much money did he keep not counting the money from the advance?
+Answer: He sold 1,000,000-100,000=<<1000000-100000=900000>>900,000 not counting the advance
+So he made 900,000*2=$<<900000*2=1800000>>1,800,000 from selling the books
+His agent took 1,800,000*.1=$<<1800000*.1=180000>>180,000
+That means he kept 1,800,000-180,000=$<<1800000-180000=1620000>>1,620,000
+#### 1620000
+Question: John is an eccentric millionaire.  He decides to fill his swimming pool with bottled water.  A cubic foot of water is 25 liters.  His pool is 10 feet deep and 6 feet by 20 feet.  A liter of water costs $3.  How much does it cost to fill the pool?
+Answer: The pool is 10*6*20=<<10*6*20=1200>>1200 cubic feet
+That means it is 25*1200=<<25*1200=30000>>30000 liters
+So it cost 3*30,000=$<<3*30000=90000>>90,000
+#### 90000
+Question: Steve's new book sells 1,000,000 copies.  He got an advance to pay for 100,000 copies. He gets $2 for each copy of the book sold.  His agent takes 10% of that.  How much money did he keep not counting the money from the advance?
+Answer: He sold 1,000,000-100,000=<<1000000-100000=900000>>900,000 not counting the advance
+So he made 900,000*2=$<<900000*2=1800000>>1,800,000 from selling the books
+His agent took 1,800,000*.1=$<<1800000*.1=180000>>180,000
+That means he kept 1,800,000-180,000=$<<1800000-180000=1620000>>1,620,000
+#### 1620000
+Question: John is an eccentric millionaire.  He decides to fill his swimming pool with bottled water.  A cubic foot of water is 25 liters.  His pool is 10 feet deep and 6 feet by 20 feet.  A liter of water costs $3.  How much does it cost to fill the pool?
+Answer: The pool is 10*6*20=<<10*6*20=1200>>1200 cubic feet
+That means it is 25*1200=<<25*1200=30000>>30000 liters
+So it cost 3*30,000=$<<3*30000=90000>>90,000
+#### 90000
+Question: Adam really wants to ride the biggest roller coaster at the park. You have to be 4 feet tall to ride it. Adam’s height is 40 inches and he grows 2 inches a year. How many years until he is tall enough to ride it?","Answer: Adam's height is 40 inches, which is 3 feet 4 inches. He needs to grow another 8 inches to reach 4 feet. If he grows 2 inches a year, it will take him 8/2 = 4 years to reach the height requirement to ride the roller coaster. 
+#### 4 years","Adam needs to grow 8 inches because 48 -40= <<48-40=8>>8
+It will take 4 years because 8/2=<<8/2=4>>4
+#### 4"
+Math,3b,"Question: Mike can type 65 words per minute. Due to a minor accident, Mike cannot use his right hand for a while so that his typing speed is now 20 words less per minute. If he is supposed to type a document with 810 words, how many minutes will it take him to finish typing the document?
+Answer: After the accident, Mike can only type 65 words/minute - 20 words/minute = <<65-20=45>>45 words/minute.
+So, he will be able to finish typing the document in 810 words / 45 words/minute = <<810/45=18>>18 minutes.
+#### 18
+Question: Jordan noticed that there are 2 cars in his driveway that each have 4 wheels.  There are 2 bikes and a trash can that each have 2 wheels.  There is also a tricycle and a pair of old roller skates.  How many wheels are there?
+Answer: There are 2 cars with 4 wheels each so that's 2*4 = <<2*4=8>>8 wheels
+Two bikes and a trash can each have 2 wheels so that's 3*2 = 6 wheels
+Each roller skate has 4 wheels and there is a pair, which means 2 skates for a total of 4*2 = <<4*2=8>>8 wheels
+Including the 3 wheels on the tricycle, there are 8 from the car, 6 from bikes and a trashcan and 8 from roller skates for a total of 3+8+6+8 = <<3+8+6+8=25>>25 wheels
+#### 25
+Question: Mike can type 65 words per minute. Due to a minor accident, Mike cannot use his right hand for a while so that his typing speed is now 20 words less per minute. If he is supposed to type a document with 810 words, how many minutes will it take him to finish typing the document?
+Answer: After the accident, Mike can only type 65 words/minute - 20 words/minute = <<65-20=45>>45 words/minute.
+So, he will be able to finish typing the document in 810 words / 45 words/minute = <<810/45=18>>18 minutes.
+#### 18
+Question: Jordan noticed that there are 2 cars in his driveway that each have 4 wheels.  There are 2 bikes and a trash can that each have 2 wheels.  There is also a tricycle and a pair of old roller skates.  How many wheels are there?
+Answer: There are 2 cars with 4 wheels each so that's 2*4 = <<2*4=8>>8 wheels
+Two bikes and a trash can each have 2 wheels so that's 3*2 = 6 wheels
+Each roller skate has 4 wheels and there is a pair, which means 2 skates for a total of 4*2 = <<4*2=8>>8 wheels
+Including the 3 wheels on the tricycle, there are 8 from the car, 6 from bikes and a trashcan and 8 from roller skates for a total of 3+8+6+8 = <<3+8+6+8=25>>25 wheels
+#### 25
+Question: Adam really wants to ride the biggest roller coaster at the park. You have to be 4 feet tall to ride it. Adam’s height is 40 inches and he grows 2 inches a year. How many years until he is tall enough to ride it?","To ride the roller coaster, Adam needs to be 4 feet tall, which is 48 inches. Since Adam is currently 40 inches tall, he needs to grow 48 - 40 = 8 more inches.
+If Adam grows 2 inches per year, it will take him 8 inches / 2 inches/year = 4 years to be tall enough to ride the roller coaster.
+Therefore, it will take Adam 4 years to be tall enough to ride the biggest roller coaster at the park.","Adam needs to grow 8 inches because 48 -40= <<48-40=8>>8
+It will take 4 years because 8/2=<<8/2=4>>4
+#### 4"
+CSQA,0,"Question: What home entertainment equipment requires cable?
+A: radio shack
+B: substation
+C: cabinet
+D: television
+E: desk",D: television,D
+CSQA,1a,"Question: Doctors gave sedative to the patient complaining of pain, what did he say afterwards?
+A: enjoyment
+B: good sometimes
+C: immobilize
+D: feels good
+E: good feeling
+Answer: D
+Question: Where do young people have to follow the rules during the day?
+A: football game
+B: everything
+C: classroom
+D: family situation
+E: schoolbus
+Answer: C
+Question: What home entertainment equipment requires cable?
+A: radio shack
+B: substation
+C: cabinet
+D: television
+E: desk",Answer: D,D
+CSQA,1b,"Question: He was eating too much and the doctors warned him, what was his condition?
+A: gain weight
+B: obesity
+C: getting fit
+D: getting sick
+E: gas
+Answer: B
+Question: Where might a fluffy chair be found?
+A: living room
+B: desk
+C: office
+D: porch
+E: fluffy house
+Answer: A
+Question: What home entertainment equipment requires cable?
+A: radio shack
+B: substation
+C: cabinet
+D: television
+E: desk",Answer: D,D
+CSQA,2,"Question: Doctors gave sedative to the patient complaining of pain, what did he say afterwards?
+A: enjoyment
+B: good sometimes
+C: immobilize
+D: feels good
+E: good feeling
+Answer: D
+Question: Where do young people have to follow the rules during the day?
+A: football game
+B: everything
+C: classroom
+D: family situation
+E: schoolbus
+Answer: C
+Question: He was eating too much and the doctors warned him, what was his condition?
+A: gain weight
+B: obesity
+C: getting fit
+D: getting sick
+E: gas
+Answer: B
+Question: Where might a fluffy chair be found?
+A: living room
+B: desk
+C: office
+D: porch
+E: fluffy house
+Answer: A
+Question: What home entertainment equipment requires cable?
+A: radio shack
+B: substation
+C: cabinet
+D: television
+E: desk",Answer: D,D
+CSQA,3a,"Question: Doctors gave sedative to the patient complaining of pain, what did he say afterwards?
+A: enjoyment
+B: good sometimes
+C: immobilize
+D: feels good
+E: good feeling
+Answer: D
+Question: Where do young people have to follow the rules during the day?
+A: football game
+B: everything
+C: classroom
+D: family situation
+E: schoolbus
+Answer: C
+Question: Doctors gave sedative to the patient complaining of pain, what did he say afterwards?
+A: enjoyment
+B: good sometimes
+C: immobilize
+D: feels good
+E: good feeling
+Answer: D
+Question: Where do young people have to follow the rules during the day?
+A: football game
+B: everything
+C: classroom
+D: family situation
+E: schoolbus
+Answer: C
+Question: What home entertainment equipment requires cable?
+A: radio shack
+B: substation
+C: cabinet
+D: television
+E: desk",Answer: D,D
+CSQA,3b,"Question: He was eating too much and the doctors warned him, what was his condition?
+A: gain weight
+B: obesity
+C: getting fit
+D: getting sick
+E: gas
+Answer: B
+Question: Where might a fluffy chair be found?
+A: living room
+B: desk
+C: office
+D: porch
+E: fluffy house
+Answer: A
+Question: He was eating too much and the doctors warned him, what was his condition?
+A: gain weight
+B: obesity
+C: getting fit
+D: getting sick
+E: gas
+Answer: B
+Question: Where might a fluffy chair be found?
+A: living room
+B: desk
+C: office
+D: porch
+E: fluffy house
+Answer: A
+Question: What home entertainment equipment requires cable?
+A: radio shack
+B: substation
+C: cabinet
+D: television
+E: desk",Answer: D,D
+StrategyQA,0,"Question: The most common fur colors of mongooses are brown and gray. The Desert Camouflage color is made of Café Au Lait brown and Pastel Gray.
+Does a mongoose have natural camouflage for desert?","Yes, a mongoose's natural fur colors of brown and gray can act as effective camouflage in desert environments. The Desert Camouflage color combination of Café Au Lait brown and Pastel Gray is likely well-suited for blending in with the sandy, rocky terrain of desert habitats. This natural camouflage helps mongooses avoid detection by predators and allows them to sneak up on their prey more easily.",True
+StrategyQA,1a,"Question: Old English is the earliest form of English during the middle ages. Modern English replaced old English during the seventeenth century. American English was created and spoken during the formation of the first US colonies.  The civil war started in 1861, and was a war between the northern states and southern states. 
+Did the confederate states speak Old English before the Civil War?
+Answer: False
+Question: The Chinese successor to Chevrolet Cruze is the Chevrolet Monza. Monza is a city near the north of Milan.
+Is Chinese successor to Chevrolet Cruze name a town far from Milan?
+Answer: False
+Question: The most common fur colors of mongooses are brown and gray. The Desert Camouflage color is made of Café Au Lait brown and Pastel Gray.
+Does a mongoose have natural camouflage for desert?",Answer: True,True
+StrategyQA,1b,"Question: Motor vehicles were in use by the 1890s Oscar Wilde lived until 1900
+Could Oscar Wilde have operated a motor vehicle?
+Answer: True
+Question: The Andes includes high, dry zones without precipitation. Dry climates do not impede mummification. Many mummies have been found in the Andes.
+Has mummification in the Andes been prevented by rainfall?
+Answer: False
+Question: The most common fur colors of mongooses are brown and gray. The Desert Camouflage color is made of Café Au Lait brown and Pastel Gray.
+Does a mongoose have natural camouflage for desert?",Answer: True,True
+StrategyQA,2,"Question: Old English is the earliest form of English during the middle ages. Modern English replaced old English during the seventeenth century. American English was created and spoken during the formation of the first US colonies.  The civil war started in 1861, and was a war between the northern states and southern states. 
+Did the confederate states speak Old English before the Civil War?
+Answer: False
+Question: The Chinese successor to Chevrolet Cruze is the Chevrolet Monza. Monza is a city near the north of Milan.
+Is Chinese successor to Chevrolet Cruze name a town far from Milan?
+Answer: False
+Question: Motor vehicles were in use by the 1890s Oscar Wilde lived until 1900
+Could Oscar Wilde have operated a motor vehicle?
+Answer: True
+Question: The Andes includes high, dry zones without precipitation. Dry climates do not impede mummification. Many mummies have been found in the Andes.
+Has mummification in the Andes been prevented by rainfall?
+Answer: False
+Question: The most common fur colors of mongooses are brown and gray. The Desert Camouflage color is made of Café Au Lait brown and Pastel Gray.
+Does a mongoose have natural camouflage for desert?",Answer: True,True
+StrategyQA,3a,"Question: Old English is the earliest form of English during the middle ages. Modern English replaced old English during the seventeenth century. American English was created and spoken during the formation of the first US colonies.  The civil war started in 1861, and was a war between the northern states and southern states. 
+Did the confederate states speak Old English before the Civil War?
+Answer: False
+Question: The Chinese successor to Chevrolet Cruze is the Chevrolet Monza. Monza is a city near the north of Milan.
+Is Chinese successor to Chevrolet Cruze name a town far from Milan?
+Answer: False
+Question: Old English is the earliest form of English during the middle ages. Modern English replaced old English during the seventeenth century. American English was created and spoken during the formation of the first US colonies.  The civil war started in 1861, and was a war between the northern states and southern states. 
+Did the confederate states speak Old English before the Civil War?
+Answer: False
+Question: The Chinese successor to Chevrolet Cruze is the Chevrolet Monza. Monza is a city near the north of Milan.
+Is Chinese successor to Chevrolet Cruze name a town far from Milan?
+Answer: False
+Question: The most common fur colors of mongooses are brown and gray. The Desert Camouflage color is made of Café Au Lait brown and Pastel Gray.
+Does a mongoose have natural camouflage for desert?",Answer: True,True
+StrategyQA,3b,"Question: Motor vehicles were in use by the 1890s Oscar Wilde lived until 1900
+Could Oscar Wilde have operated a motor vehicle?
+Answer: True
+Question: The Andes includes high, dry zones without precipitation. Dry climates do not impede mummification. Many mummies have been found in the Andes.
+Has mummification in the Andes been prevented by rainfall?
+Answer: False
+Question: Motor vehicles were in use by the 1890s Oscar Wilde lived until 1900
+Could Oscar Wilde have operated a motor vehicle?
+Answer: True
+Question: The Andes includes high, dry zones without precipitation. Dry climates do not impede mummification. Many mummies have been found in the Andes.
+Has mummification in the Andes been prevented by rainfall?
+Answer: False
+Question: The most common fur colors of mongooses are brown and gray. The Desert Camouflage color is made of Café Au Lait brown and Pastel Gray.
+Does a mongoose have natural camouflage for desert?",False,True
+SayCan,0,Question: Provide step-by-step instructions for the following task: Lift and hold the coke can up.,"1. Begin by placing your hand around the sides of the coke can, ensuring you have a firm grip.
+2. Use your fingers to support the bottom of the coke can, keeping it from falling or slipping.
+3. Slowly lift the can upwards, using your other hand for support if needed.
+4. Once the can is at your desired height, hold it steady with both hands to maintain balance.
+5. Keep your arms close to your body to prevent strain and ensure stability.
+6. To hold the can for an extended period, keep your grip firm but not too tight to avoid discomfort.
+7. When ready to lower the can, do so gradually and with control to prevent spillage or accidents.","1. pick up the coke, 2. done"
+SayCan,1a,"Question: Provide step-by-step instructions for the following task: How would you put a bag of chips and water bottle on the table?
+Answer: 1. find the bag of chips, 2. pick up the bag of chips, 3. go to the table, 4. put down the bag of chips, 5. find a water bottle, 6. pick up the water bottle, 7. go to the table, 8. put down the water bottle, 9. done
+Question: Provide step-by-step instructions for the following task: How would you bring me chips from the drawer?
+Answer: 1. go to the drawer, 2. open the drawer, 3. pick up the bag of chips, 4. close the drawer, 5. bring it to you, 6. put down the bag of chips, 7. done
+Question: Provide step-by-step instructions for the following task: Lift and hold the coke can up.","Answer: 1. pick up the coke can, 2. hold the coke can upright and securely in your hand, 3. lift the coke can up to chest or eye level, 4. hold the coke can steady and in position for as long as needed, 5. when finished, gently lower the coke can back down to the table or surface.","1. pick up the coke, 2. done"
+SayCan,1b,"Question: Provide step-by-step instructions for the following task: Can you bring all the snacks on the table?
+Answer: 1. go to the table, 2. pick up the energy bar, 3. bring it to you, 4. put down the energy bar, 5. go to the table, 6. pick up the multigrain chips, 7. bring it to you, 8. put down the multigrain chips, 9. go to the table, 10. done.
+Question: Provide step-by-step instructions for the following task: Lift the coke
+Answer: 1. pick up the coke, 2. done
+Question: Provide step-by-step instructions for the following task: Lift and hold the coke can up.","Answer: 1. Pick up the coke can with one hand, 2. Raise your arm holding the coke can upwards, 3. Hold the coke can in the elevated position for as long as desired, 4. To lower the coke can, simply bring your arm back down to your side, 5. Done.","1. pick up the coke, 2. done"
+SayCan,2,"Question: Provide step-by-step instructions for the following task: How would you put a bag of chips and water bottle on the table?
+Answer: 1. find the bag of chips, 2. pick up the bag of chips, 3. go to the table, 4. put down the bag of chips, 5. find a water bottle, 6. pick up the water bottle, 7. go to the table, 8. put down the water bottle, 9. done
+Question: Provide step-by-step instructions for the following task: How would you bring me chips from the drawer?
+Answer: 1. go to the drawer, 2. open the drawer, 3. pick up the bag of chips, 4. close the drawer, 5. bring it to you, 6. put down the bag of chips, 7. done
+Question: Provide step-by-step instructions for the following task: Can you bring all the snacks on the table?
+Answer: 1. go to the table, 2. pick up the energy bar, 3. bring it to you, 4. put down the energy bar, 5. go to the table, 6. pick up the multigrain chips, 7. bring it to you, 8. put down the multigrain chips, 9. go to the table, 10. done.
+Question: Provide step-by-step instructions for the following task: Lift the coke
+Answer: 1. pick up the coke, 2. done
+Question: Provide step-by-step instructions for the following task: Lift and hold the coke can up.","Answer: 1. pick up the coke can with one hand, 2. raise the coke can above your head and hold it up with your arm extended, 3. hold the coke can in that position for as long as desired, 4. lower your arm and put down the coke can when you are ready to release it, 5. done.","1. pick up the coke, 2. done"
+SayCan,3a,"Question: Provide step-by-step instructions for the following task: How would you put a bag of chips and water bottle on the table?
+Answer: 1. find the bag of chips, 2. pick up the bag of chips, 3. go to the table, 4. put down the bag of chips, 5. find a water bottle, 6. pick up the water bottle, 7. go to the table, 8. put down the water bottle, 9. done
+Question: Provide step-by-step instructions for the following task: How would you bring me chips from the drawer?
+Answer: 1. go to the drawer, 2. open the drawer, 3. pick up the bag of chips, 4. close the drawer, 5. bring it to you, 6. put down the bag of chips, 7. done
+Question: Provide step-by-step instructions for the following task: How would you put a bag of chips and water bottle on the table?
+Answer: 1. find the bag of chips, 2. pick up the bag of chips, 3. go to the table, 4. put down the bag of chips, 5. find a water bottle, 6. pick up the water bottle, 7. go to the table, 8. put down the water bottle, 9. done
+Question: Provide step-by-step instructions for the following task: How would you bring me chips from the drawer?
+Answer: 1. go to the drawer, 2. open the drawer, 3. pick up the bag of chips, 4. close the drawer, 5. bring it to you, 6. put down the bag of chips, 7. done
+Question: Provide step-by-step instructions for the following task: Lift and hold the coke can up.","Answer: 1. Reach for the coke can, 2. grip it firmly, 3. lift the coke can up using your hand, 4. hold the coke can at the desired height, 5. keep your arm steady to maintain the position, 6. to lower the coke can, reverse the lifting process, 7. release your grip on the can when done.","1. pick up the coke, 2. done"
+SayCan,3b,"Question: Provide step-by-step instructions for the following task: Can you bring all the snacks on the table?
+Answer: 1. go to the table, 2. pick up the energy bar, 3. bring it to you, 4. put down the energy bar, 5. go to the table, 6. pick up the multigrain chips, 7. bring it to you, 8. put down the multigrain chips, 9. go to the table, 10. done.
+Question: Provide step-by-step instructions for the following task: Lift the coke
+Answer: 1. pick up the coke, 2. done
+Question: Provide step-by-step instructions for the following task: Can you bring all the snacks on the table?
+Answer: 1. go to the table, 2. pick up the energy bar, 3. bring it to you, 4. put down the energy bar, 5. go to the table, 6. pick up the multigrain chips, 7. bring it to you, 8. put down the multigrain chips, 9. go to the table, 10. done.
+Question: Provide step-by-step instructions for the following task: Lift the coke
+Answer: 1. pick up the coke, 2. done
+Question: Provide step-by-step instructions for the following task: Lift and hold the coke can up.","Answer: 1. Reach for the coke can, 2. Grasp the can securely with your hand, 3. Raise your arm straight up while holding the can, 4. Hold the can up at the desired height, 5. Maintain your grip on the can to keep it lifted, 6. When ready to lower the can, simply bring your arm back down to your side.","1. pick up the coke, 2. done"

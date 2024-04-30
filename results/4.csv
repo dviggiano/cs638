@@ -1,0 +1,389 @@
+Task Class,Case,Prompt,Response,Expected
+Math,0,Question: Dylan needed chicken sausages and fish sausages to make sausage buns at a party. He bought 38 chicken sausages and 6 more fish sausages than chicken sausages. How many sausages did Dylan buy in all?,"Let's denote the number of chicken sausages Dylan bought as C. According to the given information, he bought 38 chicken sausages, so C = 38.
+
+Since he bought 6 more fish sausages than chicken sausages, the number of fish sausages he bought is C + 6 = 38 + 6 = 44.
+
+Therefore, the total number of sausages Dylan bought is:
+38 (chicken sausages) + 44 (fish sausages) = 38 + 44 = 82
+
+Dylan bought a total of 82 sausages.","He bought 38 + 6 = <<38+6=44>>44 fish sausages.
+Dylan bought 38 + 44 = <<38+44=82>>82 sausages in all.
+#### 82"
+Math,1a,"Question: Eddie is 92 years old. His granddaughter Becky is currently four times younger than he is. The mother of Becky - Irene, is two times her age. How old is Irene?
+Answer: Becky is four times younger than Eddie, which means she is 92 / 4 = <<92/4=23>>23 years old.
+Her mother is two times older than she, so it means Irene is 23 * 2 = <<23*2=46>>46 years old.
+#### 46
+Question: James gets paid $0.50/mile to drive a truck carrying hazardous waste. He has to pay $4.00/gallon for gas and his truck gets 20 miles per gallon. How much profit does he make from a 600 mile trip?
+Answer: First find the total payment James receives: $0.50/mile * 600 miles = $<<0.50*600=300>>300
+Then find how many gallons of gas he needs to buy: 600 miles / 20 miles/gallon = <<600/20=30>>30 gallons
+Then multiply that number by the price of gas per gallon to find the total cost of the gas: $4.00/gallon * 30 gallons = $<<4*30=120>>120
+Then subtract that amount from James' earnings to find his profit: $300 - $120 = $<<300-120=180>>180
+#### 180
+Question: Dylan needed chicken sausages and fish sausages to make sausage buns at a party. He bought 38 chicken sausages and 6 more fish sausages than chicken sausages. How many sausages did Dylan buy in all?","Answer: Since Dylan bought 6 more fish sausages than chicken sausages, he bought 38 + 6 = <<38+6=44>>44 fish sausages.
+In total, Dylan bought 38 chicken sausages + 44 fish sausages = <<38+44=82>>82 sausages. 
+Therefore, Dylan bought 82 sausages in all.","He bought 38 + 6 = <<38+6=44>>44 fish sausages.
+Dylan bought 38 + 44 = <<38+44=82>>82 sausages in all.
+#### 82"
+Math,1b,"Question: Gnuff charges a flat rate of $20 per tutoring session plus $7 per minute. The total amount paid for Gnuff for tutoring for one session is $146. How many minutes did Gnuff tutor for?
+Answer: First find the amount paid just for the per-minute fee, which is $146 - $20 = $<<146-20=126>>126.
+Then divide that number by the per-minute rate to find the number of minutes: $126 / $7 per minute = <<126/7=18>>18 minutes.
+#### 18
+Question: Daisy is climbing trees all around her neighborhood and starts to notice the number of branches and the height. The first tree she climbs is 50 feet tall and has 200 branches. The second tree she climbs is 40 feet tall and has 180 branches. The third tree she climbs is 60 feet tall and has 180 branches. The final tree she climbs is 34 feet tall and has 153 branches. On average, how many branches do these trees have per foot?
+Answer: The first tree has 4 branches per foot because 200 / 50 = <<200/50=4>>4
+The second tree tree has 4.5 branches per foot because 180 / 40 = <<180/40=4.5>>4.5
+The third tree has 3 branches per foot because 180 / 60 = <<180/60=3>>3
+The fourth tree has 4.5 branches per foot because 153 / 34 = <<153/34=4.5>>4.5
+The total branches per foot is 16 because 4 + 4.5 + 3 + 4.5 = <<4+4.5+3+4.5=16>>16
+The average branches per foot is 4 because 16 / 4 = <<16/4=4>>4
+#### 4
+Question: Dylan needed chicken sausages and fish sausages to make sausage buns at a party. He bought 38 chicken sausages and 6 more fish sausages than chicken sausages. How many sausages did Dylan buy in all?","Answer: Dylan bought 38 chicken sausages and 38 + 6 = 44 fish sausages.
+Therefore, Dylan bought 38 + 44 = <<38+44=82>>82 sausages in all. 
+#### 82","He bought 38 + 6 = <<38+6=44>>44 fish sausages.
+Dylan bought 38 + 44 = <<38+44=82>>82 sausages in all.
+#### 82"
+Math,2,"Question: Eddie is 92 years old. His granddaughter Becky is currently four times younger than he is. The mother of Becky - Irene, is two times her age. How old is Irene?
+Answer: Becky is four times younger than Eddie, which means she is 92 / 4 = <<92/4=23>>23 years old.
+Her mother is two times older than she, so it means Irene is 23 * 2 = <<23*2=46>>46 years old.
+#### 46
+Question: James gets paid $0.50/mile to drive a truck carrying hazardous waste. He has to pay $4.00/gallon for gas and his truck gets 20 miles per gallon. How much profit does he make from a 600 mile trip?
+Answer: First find the total payment James receives: $0.50/mile * 600 miles = $<<0.50*600=300>>300
+Then find how many gallons of gas he needs to buy: 600 miles / 20 miles/gallon = <<600/20=30>>30 gallons
+Then multiply that number by the price of gas per gallon to find the total cost of the gas: $4.00/gallon * 30 gallons = $<<4*30=120>>120
+Then subtract that amount from James' earnings to find his profit: $300 - $120 = $<<300-120=180>>180
+#### 180
+Question: Gnuff charges a flat rate of $20 per tutoring session plus $7 per minute. The total amount paid for Gnuff for tutoring for one session is $146. How many minutes did Gnuff tutor for?
+Answer: First find the amount paid just for the per-minute fee, which is $146 - $20 = $<<146-20=126>>126.
+Then divide that number by the per-minute rate to find the number of minutes: $126 / $7 per minute = <<126/7=18>>18 minutes.
+#### 18
+Question: Daisy is climbing trees all around her neighborhood and starts to notice the number of branches and the height. The first tree she climbs is 50 feet tall and has 200 branches. The second tree she climbs is 40 feet tall and has 180 branches. The third tree she climbs is 60 feet tall and has 180 branches. The final tree she climbs is 34 feet tall and has 153 branches. On average, how many branches do these trees have per foot?
+Answer: The first tree has 4 branches per foot because 200 / 50 = <<200/50=4>>4
+The second tree tree has 4.5 branches per foot because 180 / 40 = <<180/40=4.5>>4.5
+The third tree has 3 branches per foot because 180 / 60 = <<180/60=3>>3
+The fourth tree has 4.5 branches per foot because 153 / 34 = <<153/34=4.5>>4.5
+The total branches per foot is 16 because 4 + 4.5 + 3 + 4.5 = <<4+4.5+3+4.5=16>>16
+The average branches per foot is 4 because 16 / 4 = <<16/4=4>>4
+#### 4
+Question: Dylan needed chicken sausages and fish sausages to make sausage buns at a party. He bought 38 chicken sausages and 6 more fish sausages than chicken sausages. How many sausages did Dylan buy in all?","Answer: Dylan bought 38 chicken sausages, and since he bought 6 more fish sausages than chicken sausages, he bought 38 + 6 = 44 fish sausages.
+In total, Dylan bought 38 chicken sausages + 44 fish sausages = 82 sausages.
+Therefore, Dylan bought 82 sausages in all.","He bought 38 + 6 = <<38+6=44>>44 fish sausages.
+Dylan bought 38 + 44 = <<38+44=82>>82 sausages in all.
+#### 82"
+Math,3a,"Question: Eddie is 92 years old. His granddaughter Becky is currently four times younger than he is. The mother of Becky - Irene, is two times her age. How old is Irene?
+Answer: Becky is four times younger than Eddie, which means she is 92 / 4 = <<92/4=23>>23 years old.
+Her mother is two times older than she, so it means Irene is 23 * 2 = <<23*2=46>>46 years old.
+#### 46
+Question: James gets paid $0.50/mile to drive a truck carrying hazardous waste. He has to pay $4.00/gallon for gas and his truck gets 20 miles per gallon. How much profit does he make from a 600 mile trip?
+Answer: First find the total payment James receives: $0.50/mile * 600 miles = $<<0.50*600=300>>300
+Then find how many gallons of gas he needs to buy: 600 miles / 20 miles/gallon = <<600/20=30>>30 gallons
+Then multiply that number by the price of gas per gallon to find the total cost of the gas: $4.00/gallon * 30 gallons = $<<4*30=120>>120
+Then subtract that amount from James' earnings to find his profit: $300 - $120 = $<<300-120=180>>180
+#### 180
+Question: Eddie is 92 years old. His granddaughter Becky is currently four times younger than he is. The mother of Becky - Irene, is two times her age. How old is Irene?
+Answer: Becky is four times younger than Eddie, which means she is 92 / 4 = <<92/4=23>>23 years old.
+Her mother is two times older than she, so it means Irene is 23 * 2 = <<23*2=46>>46 years old.
+#### 46
+Question: James gets paid $0.50/mile to drive a truck carrying hazardous waste. He has to pay $4.00/gallon for gas and his truck gets 20 miles per gallon. How much profit does he make from a 600 mile trip?
+Answer: First find the total payment James receives: $0.50/mile * 600 miles = $<<0.50*600=300>>300
+Then find how many gallons of gas he needs to buy: 600 miles / 20 miles/gallon = <<600/20=30>>30 gallons
+Then multiply that number by the price of gas per gallon to find the total cost of the gas: $4.00/gallon * 30 gallons = $<<4*30=120>>120
+Then subtract that amount from James' earnings to find his profit: $300 - $120 = $<<300-120=180>>180
+#### 180
+Question: Dylan needed chicken sausages and fish sausages to make sausage buns at a party. He bought 38 chicken sausages and 6 more fish sausages than chicken sausages. How many sausages did Dylan buy in all?","Answer: Dylan bought 38 chicken sausages and 38 + 6 = <<38+6=44>>44 fish sausages.
+In total, Dylan bought 38 + 44 = <<38+44=82>>82 sausages.","He bought 38 + 6 = <<38+6=44>>44 fish sausages.
+Dylan bought 38 + 44 = <<38+44=82>>82 sausages in all.
+#### 82"
+Math,3b,"Question: Gnuff charges a flat rate of $20 per tutoring session plus $7 per minute. The total amount paid for Gnuff for tutoring for one session is $146. How many minutes did Gnuff tutor for?
+Answer: First find the amount paid just for the per-minute fee, which is $146 - $20 = $<<146-20=126>>126.
+Then divide that number by the per-minute rate to find the number of minutes: $126 / $7 per minute = <<126/7=18>>18 minutes.
+#### 18
+Question: Daisy is climbing trees all around her neighborhood and starts to notice the number of branches and the height. The first tree she climbs is 50 feet tall and has 200 branches. The second tree she climbs is 40 feet tall and has 180 branches. The third tree she climbs is 60 feet tall and has 180 branches. The final tree she climbs is 34 feet tall and has 153 branches. On average, how many branches do these trees have per foot?
+Answer: The first tree has 4 branches per foot because 200 / 50 = <<200/50=4>>4
+The second tree tree has 4.5 branches per foot because 180 / 40 = <<180/40=4.5>>4.5
+The third tree has 3 branches per foot because 180 / 60 = <<180/60=3>>3
+The fourth tree has 4.5 branches per foot because 153 / 34 = <<153/34=4.5>>4.5
+The total branches per foot is 16 because 4 + 4.5 + 3 + 4.5 = <<4+4.5+3+4.5=16>>16
+The average branches per foot is 4 because 16 / 4 = <<16/4=4>>4
+#### 4
+Question: Gnuff charges a flat rate of $20 per tutoring session plus $7 per minute. The total amount paid for Gnuff for tutoring for one session is $146. How many minutes did Gnuff tutor for?
+Answer: First find the amount paid just for the per-minute fee, which is $146 - $20 = $<<146-20=126>>126.
+Then divide that number by the per-minute rate to find the number of minutes: $126 / $7 per minute = <<126/7=18>>18 minutes.
+#### 18
+Question: Daisy is climbing trees all around her neighborhood and starts to notice the number of branches and the height. The first tree she climbs is 50 feet tall and has 200 branches. The second tree she climbs is 40 feet tall and has 180 branches. The third tree she climbs is 60 feet tall and has 180 branches. The final tree she climbs is 34 feet tall and has 153 branches. On average, how many branches do these trees have per foot?
+Answer: The first tree has 4 branches per foot because 200 / 50 = <<200/50=4>>4
+The second tree tree has 4.5 branches per foot because 180 / 40 = <<180/40=4.5>>4.5
+The third tree has 3 branches per foot because 180 / 60 = <<180/60=3>>3
+The fourth tree has 4.5 branches per foot because 153 / 34 = <<153/34=4.5>>4.5
+The total branches per foot is 16 because 4 + 4.5 + 3 + 4.5 = <<4+4.5+3+4.5=16>>16
+The average branches per foot is 4 because 16 / 4 = <<16/4=4>>4
+#### 4
+Question: Dylan needed chicken sausages and fish sausages to make sausage buns at a party. He bought 38 chicken sausages and 6 more fish sausages than chicken sausages. How many sausages did Dylan buy in all?","Answer: Dylan bought 38 chicken sausages and 38 + 6 = <<38+6=44>>44 fish sausages.
+In total, Dylan bought 38 + 44 = <<38+44=82>>82 sausages. 
+Therefore, Dylan bought 82 sausages in all. 
+#### 82","He bought 38 + 6 = <<38+6=44>>44 fish sausages.
+Dylan bought 38 + 44 = <<38+44=82>>82 sausages in all.
+#### 82"
+CSQA,0,"Question: What state is the John Davis  Lodge toll road found in?
+A: new jersey
+B: eastern united states
+C: good repair
+D: connecticut
+E: arizona",D: Connecticut,D
+CSQA,1a,"Question: Where is required to have a single fire extinguisher?
+A: house
+B: boat
+C: washroom
+D: stairwell
+E: hospital
+Answer: B
+Question: The person was in the drawing room, but wanted to take his draft to be completed, where did he go?
+A: house in england
+B: studio
+C: large house
+D: mansion
+E: studio
+Answer: B
+Question: What state is the John Davis  Lodge toll road found in?
+A: new jersey
+B: eastern united states
+C: good repair
+D: connecticut
+E: arizona",Answer: D,D
+CSQA,1b,"Question: John knew that the snake probably wasn't real because he lived in the Midwest, and anacondas live in what regions?
+A: nightmare
+B: wyoming
+C: tropics
+D: ditch
+E: pet shops
+Answer: C
+Question: Why are cooks hired?
+A: to be fired
+B: prepare meals
+C: season with salt
+D: better food
+E: perfect food
+Answer: B
+Question: What state is the John Davis  Lodge toll road found in?
+A: new jersey
+B: eastern united states
+C: good repair
+D: connecticut
+E: arizona",Answer: D,D
+CSQA,2,"Question: Where is required to have a single fire extinguisher?
+A: house
+B: boat
+C: washroom
+D: stairwell
+E: hospital
+Answer: B
+Question: The person was in the drawing room, but wanted to take his draft to be completed, where did he go?
+A: house in england
+B: studio
+C: large house
+D: mansion
+E: studio
+Answer: B
+Question: John knew that the snake probably wasn't real because he lived in the Midwest, and anacondas live in what regions?
+A: nightmare
+B: wyoming
+C: tropics
+D: ditch
+E: pet shops
+Answer: C
+Question: Why are cooks hired?
+A: to be fired
+B: prepare meals
+C: season with salt
+D: better food
+E: perfect food
+Answer: B
+Question: What state is the John Davis  Lodge toll road found in?
+A: new jersey
+B: eastern united states
+C: good repair
+D: connecticut
+E: arizona",Answer: D,D
+CSQA,3a,"Question: Where is required to have a single fire extinguisher?
+A: house
+B: boat
+C: washroom
+D: stairwell
+E: hospital
+Answer: B
+Question: The person was in the drawing room, but wanted to take his draft to be completed, where did he go?
+A: house in england
+B: studio
+C: large house
+D: mansion
+E: studio
+Answer: B
+Question: Where is required to have a single fire extinguisher?
+A: house
+B: boat
+C: washroom
+D: stairwell
+E: hospital
+Answer: B
+Question: The person was in the drawing room, but wanted to take his draft to be completed, where did he go?
+A: house in england
+B: studio
+C: large house
+D: mansion
+E: studio
+Answer: B
+Question: What state is the John Davis  Lodge toll road found in?
+A: new jersey
+B: eastern united states
+C: good repair
+D: connecticut
+E: arizona",Answer: D: connecticut,D
+CSQA,3b,"Question: John knew that the snake probably wasn't real because he lived in the Midwest, and anacondas live in what regions?
+A: nightmare
+B: wyoming
+C: tropics
+D: ditch
+E: pet shops
+Answer: C
+Question: Why are cooks hired?
+A: to be fired
+B: prepare meals
+C: season with salt
+D: better food
+E: perfect food
+Answer: B
+Question: John knew that the snake probably wasn't real because he lived in the Midwest, and anacondas live in what regions?
+A: nightmare
+B: wyoming
+C: tropics
+D: ditch
+E: pet shops
+Answer: C
+Question: Why are cooks hired?
+A: to be fired
+B: prepare meals
+C: season with salt
+D: better food
+E: perfect food
+Answer: B
+Question: What state is the John Davis  Lodge toll road found in?
+A: new jersey
+B: eastern united states
+C: good repair
+D: connecticut
+E: arizona",Answer: D. Connecticut,D
+StrategyQA,0,"Question: The sable is a species of marten, which make up the genus Martes. Wolverines are from the genus Gulo. Both the Martes and the Gulo are from the family Mustelidae.
+Are sables related to wolverines?","Yes, sables and wolverines are both members of the family Mustelidae, but they are not closely related within the family. Sables belong to the genus Martes, while wolverines belong to the genus Gulo. While they share a common evolutionary ancestor in the family Mustelidae, they are not closely related species.",True
+StrategyQA,1a,"Question: Halloween is a holiday where children knock on doors of houses in their neighborhood asking for treats Halloween falls on October 31st New Year's Eve is a celebration of the end of the year held on December 31st
+Should you ask a neighbor for candy on New Year's Eve?
+Answer: False
+Question: The first car widely manufactured was the Model T. The Model T was manufactured in 1908. The Mini was made beginning in 1959.
+Was the British car, the Mini, the first car manufactured?
+Answer: False
+Question: The sable is a species of marten, which make up the genus Martes. Wolverines are from the genus Gulo. Both the Martes and the Gulo are from the family Mustelidae.
+Are sables related to wolverines?",Answer: True,True
+StrategyQA,1b,"Question: Call waiting was invented in the 1970's to allow phone users to suspend one call to accept another. Alexander Graham Bell's phone was used in 1876.
+Did the phone Alexander Graham Bell use have call waiting?
+Answer: False
+Question: Hamas is a Sunni-Islam fundamentalist group that strictly prohibits the eating of a pig. Sunni Islam has a concept called the Law of Necessity. The Law of Necessity states that, ""That which is necessary makes the forbidden permissible.""
+Is starving Hamas agent eating pig bad?
+Answer: False
+Question: The sable is a species of marten, which make up the genus Martes. Wolverines are from the genus Gulo. Both the Martes and the Gulo are from the family Mustelidae.
+Are sables related to wolverines?",Answer: True,True
+StrategyQA,2,"Question: Halloween is a holiday where children knock on doors of houses in their neighborhood asking for treats Halloween falls on October 31st New Year's Eve is a celebration of the end of the year held on December 31st
+Should you ask a neighbor for candy on New Year's Eve?
+Answer: False
+Question: The first car widely manufactured was the Model T. The Model T was manufactured in 1908. The Mini was made beginning in 1959.
+Was the British car, the Mini, the first car manufactured?
+Answer: False
+Question: Call waiting was invented in the 1970's to allow phone users to suspend one call to accept another. Alexander Graham Bell's phone was used in 1876.
+Did the phone Alexander Graham Bell use have call waiting?
+Answer: False
+Question: Hamas is a Sunni-Islam fundamentalist group that strictly prohibits the eating of a pig. Sunni Islam has a concept called the Law of Necessity. The Law of Necessity states that, ""That which is necessary makes the forbidden permissible.""
+Is starving Hamas agent eating pig bad?
+Answer: False
+Question: The sable is a species of marten, which make up the genus Martes. Wolverines are from the genus Gulo. Both the Martes and the Gulo are from the family Mustelidae.
+Are sables related to wolverines?",Answer: True,True
+StrategyQA,3a,"Question: Halloween is a holiday where children knock on doors of houses in their neighborhood asking for treats Halloween falls on October 31st New Year's Eve is a celebration of the end of the year held on December 31st
+Should you ask a neighbor for candy on New Year's Eve?
+Answer: False
+Question: The first car widely manufactured was the Model T. The Model T was manufactured in 1908. The Mini was made beginning in 1959.
+Was the British car, the Mini, the first car manufactured?
+Answer: False
+Question: Halloween is a holiday where children knock on doors of houses in their neighborhood asking for treats Halloween falls on October 31st New Year's Eve is a celebration of the end of the year held on December 31st
+Should you ask a neighbor for candy on New Year's Eve?
+Answer: False
+Question: The first car widely manufactured was the Model T. The Model T was manufactured in 1908. The Mini was made beginning in 1959.
+Was the British car, the Mini, the first car manufactured?
+Answer: False
+Question: The sable is a species of marten, which make up the genus Martes. Wolverines are from the genus Gulo. Both the Martes and the Gulo are from the family Mustelidae.
+Are sables related to wolverines?",Answer: True,True
+StrategyQA,3b,"Question: Call waiting was invented in the 1970's to allow phone users to suspend one call to accept another. Alexander Graham Bell's phone was used in 1876.
+Did the phone Alexander Graham Bell use have call waiting?
+Answer: False
+Question: Hamas is a Sunni-Islam fundamentalist group that strictly prohibits the eating of a pig. Sunni Islam has a concept called the Law of Necessity. The Law of Necessity states that, ""That which is necessary makes the forbidden permissible.""
+Is starving Hamas agent eating pig bad?
+Answer: False
+Question: Call waiting was invented in the 1970's to allow phone users to suspend one call to accept another. Alexander Graham Bell's phone was used in 1876.
+Did the phone Alexander Graham Bell use have call waiting?
+Answer: False
+Question: Hamas is a Sunni-Islam fundamentalist group that strictly prohibits the eating of a pig. Sunni Islam has a concept called the Law of Necessity. The Law of Necessity states that, ""That which is necessary makes the forbidden permissible.""
+Is starving Hamas agent eating pig bad?
+Answer: False
+Question: The sable is a species of marten, which make up the genus Martes. Wolverines are from the genus Gulo. Both the Martes and the Gulo are from the family Mustelidae.
+Are sables related to wolverines?",Answer: True,True
+SayCan,0,Question: Provide step-by-step instructions for the following task: Deliver the red bull to the close counter,"1. Locate the red bull. It may be in a designated area for energy drinks or in a refrigerator section.
+
+2. Pick up the red bull and hold it securely to prevent any spillage or damage.
+
+3. Walk towards the close counter, keeping an eye out for any obstacles or people in your path.
+
+4. Approach the close counter and place the red bull on the counter gently.
+
+5. If there is an employee at the counter, you can inform them that you are delivering the red bull to the close counter.
+
+6. If there is no one at the counter, you can leave the red bull in a visible spot on the counter for someone to find.
+
+7. Make sure the red bull is placed in a secure position to prevent it from falling or being knocked over.
+
+8. Confirm that the red bull has been delivered to the close counter before leaving the area. 
+
+9. If necessary, you can communicate with any staff or customers in the area to ensure that the delivery has been completed successfully. 
+
+10. Finally, leave the area and continue with your tasks or duties.","1. find a redbull, 2. pick up the redbull, 3. go to the counter, 4. put down the redbull, 5. done."
+SayCan,1a,"Question: Provide step-by-step instructions for the following task: Restock chips in the drawer.
+Answer: 1. find the bag of chips, 2. pick up the bag of chips, 3. go to the drawer, 4. put down the bag of chips, 5. open the drawer, 6. pick up the bag of chips, 7. put down the bag of chips, 8. close the drawer, 9. done
+Question: Provide step-by-step instructions for the following task: How would you bring me chips from the drawer?
+Answer: 1. go to the drawer, 2. open the drawer, 3. pick up the bag of chips, 4. close the drawer, 5. bring it to you, 6. put down the bag of chips, 7. done
+Question: Provide step-by-step instructions for the following task: Deliver the red bull to the close counter","Answer: 1. Pick up the red bull, 2. walk to the checkout counter, 3. place the red bull on the counter, 4. inform the cashier that the red bull is for delivery, 5. wait for the cashier to process the transaction, 6. collect any receipt or documentation necessary for proof of delivery, 7. walk away from the counter, 8. done.","1. find a redbull, 2. pick up the redbull, 3. go to the counter, 4. put down the redbull, 5. done."
+SayCan,1b,"Question: Provide step-by-step instructions for the following task: Find the table.
+Answer: 1. go to the table, 2. done
+Question: Provide step-by-step instructions for the following task: Put a banana on the counter.
+Answer: 1. pick up the banana, 2. go to the counter, 3. put down the banana, 4. done
+Question: Provide step-by-step instructions for the following task: Deliver the red bull to the close counter","Answer: 1. Pick up the red bull, 2. Walk to the closest counter, 3. Place the red bull on the counter, 4. Done","1. find a redbull, 2. pick up the redbull, 3. go to the counter, 4. put down the redbull, 5. done."
+SayCan,2,"Question: Provide step-by-step instructions for the following task: Restock chips in the drawer.
+Answer: 1. find the bag of chips, 2. pick up the bag of chips, 3. go to the drawer, 4. put down the bag of chips, 5. open the drawer, 6. pick up the bag of chips, 7. put down the bag of chips, 8. close the drawer, 9. done
+Question: Provide step-by-step instructions for the following task: How would you bring me chips from the drawer?
+Answer: 1. go to the drawer, 2. open the drawer, 3. pick up the bag of chips, 4. close the drawer, 5. bring it to you, 6. put down the bag of chips, 7. done
+Question: Provide step-by-step instructions for the following task: Find the table.
+Answer: 1. go to the table, 2. done
+Question: Provide step-by-step instructions for the following task: Put a banana on the counter.
+Answer: 1. pick up the banana, 2. go to the counter, 3. put down the banana, 4. done
+Question: Provide step-by-step instructions for the following task: Deliver the red bull to the close counter",".
+Answer: 1. pick up the red bull, 2. go to the close counter, 3. place the red bull on the counter, 4. done","1. find a redbull, 2. pick up the redbull, 3. go to the counter, 4. put down the redbull, 5. done."
+SayCan,3a,"Question: Provide step-by-step instructions for the following task: Restock chips in the drawer.
+Answer: 1. find the bag of chips, 2. pick up the bag of chips, 3. go to the drawer, 4. put down the bag of chips, 5. open the drawer, 6. pick up the bag of chips, 7. put down the bag of chips, 8. close the drawer, 9. done
+Question: Provide step-by-step instructions for the following task: How would you bring me chips from the drawer?
+Answer: 1. go to the drawer, 2. open the drawer, 3. pick up the bag of chips, 4. close the drawer, 5. bring it to you, 6. put down the bag of chips, 7. done
+Question: Provide step-by-step instructions for the following task: Restock chips in the drawer.
+Answer: 1. find the bag of chips, 2. pick up the bag of chips, 3. go to the drawer, 4. put down the bag of chips, 5. open the drawer, 6. pick up the bag of chips, 7. put down the bag of chips, 8. close the drawer, 9. done
+Question: Provide step-by-step instructions for the following task: How would you bring me chips from the drawer?
+Answer: 1. go to the drawer, 2. open the drawer, 3. pick up the bag of chips, 4. close the drawer, 5. bring it to you, 6. put down the bag of chips, 7. done
+Question: Provide step-by-step instructions for the following task: Deliver the red bull to the close counter","Answer: 1. Locate the red bull, 2. Pick up the red bull, 3. Walk to the checkout counter, 4. Place the red bull on the counter, 5. Notify the cashier of the purchase, 6. Complete the transaction, 7. Thank the cashier, 8. Done.","1. find a redbull, 2. pick up the redbull, 3. go to the counter, 4. put down the redbull, 5. done."
+SayCan,3b,"Question: Provide step-by-step instructions for the following task: Find the table.
+Answer: 1. go to the table, 2. done
+Question: Provide step-by-step instructions for the following task: Put a banana on the counter.
+Answer: 1. pick up the banana, 2. go to the counter, 3. put down the banana, 4. done
+Question: Provide step-by-step instructions for the following task: Find the table.
+Answer: 1. go to the table, 2. done
+Question: Provide step-by-step instructions for the following task: Put a banana on the counter.
+Answer: 1. pick up the banana, 2. go to the counter, 3. put down the banana, 4. done
+Question: Provide step-by-step instructions for the following task: Deliver the red bull to the close counter","Answer: 1. Pick up the red bull, 2. Go to the closest counter, 3. Place the red bull on the counter, 4. Done.","1. find a redbull, 2. pick up the redbull, 3. go to the counter, 4. put down the redbull, 5. done."
