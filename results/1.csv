@@ -1,49 +1,871 @@
-Task Class,Case,Response,True Answer
-Math,1a,"A: Ahmed has read half the number of books as Ezra, so Ahmed has read 300 / 2 = 150 books.
-Ezra decided to read 150 more books, so together they have read 300 + 150 = 450 books.
-Altogether, they have read 150 + 300 = 450 + 150 = <<150+300+150=600>>600 books. 
-#### 600","If Ezra has read 300 books this hour and decided to read 150 more in the next hour, he has read a total of 300+150=<<300+150=450>>450
-Since Ezra reads twice as many books as Ahmed, Ahmed has read 450/2=<<450/2=225>>225 books.
-Together, Ahmed and Ezra has read 225+450=<<225+450=675>>675 books
-#### 675"
-Math,1a,"A: Since Ezra read twice as many books as Ahmed, Ahmed has read 300/2 = 150 books.
-After deciding to read 150 more books, Ezra has read a total of 300 + 150 = <<300+150=450>>450 books.
-Adding Ahmed's 150 books, they have read a total of 450 + 150 = <<450+150=600>>600 books altogether. 
-#### 600","If Ezra has read 300 books this hour and decided to read 150 more in the next hour, he has read a total of 300+150=<<300+150=450>>450
-Since Ezra reads twice as many books as Ahmed, Ahmed has read 450/2=<<450/2=225>>225 books.
-Together, Ahmed and Ezra has read 225+450=<<225+450=675>>675 books
-#### 675"
-Math,2,"A: If Ezra read 300 books in one hour and decided to read 150 more, he read a total of 300 + 150 = <<300+150=450>>450 books.
-Since Ezra read twice as many books as Ahmed in the first hour, Ahmed read 300 / 2 = <<300/2=150>>150 books in the first hour.
-Therefore, Ezra and Ahmed have read a total of 450 + 150 = <<450+150=600>>600 books altogether. 
-#### 600","If Ezra has read 300 books this hour and decided to read 150 more in the next hour, he has read a total of 300+150=<<300+150=450>>450
-Since Ezra reads twice as many books as Ahmed, Ahmed has read 450/2=<<450/2=225>>225 books.
-Together, Ahmed and Ezra has read 225+450=<<225+450=675>>675 books
-#### 675"
-Math,3a,"A: Ahmed read half the number of books as Ezra, so he read 300 / 2 = 150 books.
-Together, they have read 300 + 150 = 450 books. 
-Therefore, Ezra and Ahmed have read 450 + 150 = 600 books altogether.","If Ezra has read 300 books this hour and decided to read 150 more in the next hour, he has read a total of 300+150=<<300+150=450>>450
-Since Ezra reads twice as many books as Ahmed, Ahmed has read 450/2=<<450/2=225>>225 books.
-Together, Ahmed and Ezra has read 225+450=<<225+450=675>>675 books
-#### 675"
-Math,3b,"A: If Ezra has read 300 books this hour, then Ahmed has read 300/2 = 150 books this hour.
-Together, they have read 300 + 150 = <<300+150=450>>450 books in total. 
-So, they have read 450 books altogether.","If Ezra has read 300 books this hour and decided to read 150 more in the next hour, he has read a total of 300+150=<<300+150=450>>450
-Since Ezra reads twice as many books as Ahmed, Ahmed has read 450/2=<<450/2=225>>225 books.
-Together, Ahmed and Ezra has read 225+450=<<225+450=675>>675 books
-#### 675"
-CSQA,1a,A: D,
-CSQA,1a,A: D,
-CSQA,2,A: D,
-CSQA,3a,A: D,
-CSQA,3b,A: D,
-StrategyQA,1a,A: False,False
-StrategyQA,1a,A: False,False
-StrategyQA,2,A: False,False
-StrategyQA,3a,A: False,False
-StrategyQA,3b,A: False,False
-SayCan,1a,"A: 1. find a sprite, 2. pick up the sprite, 3. bring it to you, 4. put down the sprite, 5. done","1. find a sprite can, 2. pick up the sprite can, 3. bring it to you, 4. put down the sprite can, 5. done"
-SayCan,1a,"A: 1. find a sprite can, 2. pick up the sprite can, 3. bring it to you, 4. put down the sprite can, 5. done","1. find a sprite can, 2. pick up the sprite can, 3. bring it to you, 4. put down the sprite can, 5. done"
-SayCan,2,"A: 1. find a sprite can, 2. pick up the sprite can, 3. bring it to you, 4. put down the sprite can, 5. done","1. find a sprite can, 2. pick up the sprite can, 3. bring it to you, 4. put down the sprite can, 5. done"
-SayCan,3a,"A: 1. find a sprite, 2. pick up the sprite, 3. bring it to you, 4. put down the sprite, 5. done.","1. find a sprite can, 2. pick up the sprite can, 3. bring it to you, 4. put down the sprite can, 5. done"
-SayCan,3b,"A: 1. find a sprite can, 2. pick up the sprite can, 3. bring it to you, 4. put down the sprite can, 5. done","1. find a sprite can, 2. pick up the sprite can, 3. bring it to you, 4. put down the sprite can, 5. done"
+Task Class,Case,Examples,Response,True Answer
+Math,1a,"Q: In a 5-day Fishing competition, Jackson was able to reel a total of 6 fishes per day, Jonah was able to reel 4 fishes per day and George was able to reel 8 fishes per day. How many fishes were they able to catch throughout the competition if they are on the same team?
+A: Jackson gets a total of 6x5= <<6*5=30>>30 fishes after the competition.
+Jonah gets 4x5= <<4*5=20>>20 fishes after the competition.
+And George was able to get 8x5=<<8*5=40>>40 fishes after the competition.
+Therefore the total fishes they were able to get for their team is 30+20+40= <<30+20+40=90>>90.
+#### 90
+Q: Karen is paddling her canoe up a river against the current. On a still pond, Karen can paddle 10 miles per hour. The river flows in the opposite direction at 4 miles per hour. If the river is 12 miles long, how many hours will it take Karen to paddle up it?
+A: First find Karen's net speed by subtracting the speed of the current: 10 mph - 4 mph = <<10-4=6>>6 mph
+Then divide the length of the river by Karen's speed to find how long it takes her to paddle up it: 12 miles / 6 mph = <<12/6=2>>2 hours
+#### 2
+Q: Mr. Sergio is a fruit grower producing apples, mangoes and oranges. In a particular season, the total produce of apples was twice the total produce of mangoes, and the total produce of oranges was 200 kg more than that of mangoes. If his farm produced 400 kg of mangoes and he sold the fruits at $50 per kg,  calculate the total amount of money he got in that season.
+A: If the total production of mangoes was 400, then orange production was 400+200 = <<400+200=600>>600 kg of oranges.
+Since apple production was twice the total production of mangoes, Mr. Sergio had 2*400 = <<2*400=800>>800 kg of apples.
+The total quantity of fruits produced at Mr. Sergio's farm is 800 kg of apples+600 kg of oranges + 400 kg of mangoes = <<800+600+400=1800>>1800 kg of fruits.
+If Mr. Sergio sold the fruits at $50 per kg, his total income from the sales is 1800*$50 = $<<1800*50=90000>>90000.
+#### 90000
+Q: Janice bought five juices for $10 in total and two sandwiches for $6 in total. How much would she need to pay, if she would only buy one sandwich and one juice?
+A: Janice bought five juices for $10, so one juice costs 10 / 5 = $<<10/5=2>>2.
+She also bought two sandwiches for $6, so one sandwich costs 6 / 2 = $<<6/2=3>>3.
+So for one juice and one sandwich, Janice would need to pay 2 + 3 = $<<2+3=5>>5.
+#### 5
+Q: May can knit 3 scarves using one yarn. She bought 2 red yarns, 6 blue yarns, and 4 yellow yarns. How many scarves will she be able to make in total?
+A: May will be able to make 2 x 3 = <<2*3=6>>6 red scarves.
+She will be able to make 3 x 6 = <<3*6=18>>18 blue scarves.
+And she will be able to make 4 x 3 = <<4*3=12>>12 yellow scarves.
+Therefore the total scarves she can make is 12 + 18 + 6 = <<12+18+6=36>>36.
+#### 36
+Q: Johnson has a sack of potatoes. He gives Gina 69 potatoes, gives Tom twice as much potatoes as he gave Gina and gives one-third of the amount of potatoes he gave Tom to Anne. How many potatoes does he have left if the sack contains 300 potatoes?
+A: He gives twice 69 potatoes to Tom, which is 69*2 = <<69*2=138>>138 potatoes
+He gives one-third of 138 potatoes to Anne, which is 138*(1/3) = <<138*(1/3)=46>>46 potatoes
+In total, he has given out 69+138+46 = <<69+138+46=253>>253 potatoes
+He initially had 300 potatoes so he now has 300-253 = <<300-253=47>>47 potatoes left
+#### 47
+","A: Alex charges $12 per day, so for 2 weeks (14 days), the total cost would be 14 days * $12/day = $<<14*12=168>>168. 
+Therefore, Alex charges $168 for 2 weeks of tutoring.","A week has 7 days, therefore 2 weeks have 2*7= <<2*7=14>>14 days
+If Alex charges $12 per day, then in $14 days she would charge $12*14 = $<<12*14=168>>168
+#### 168"
+Math,1a,"Q: Two companies A and B, are selling bottled milk. Company A sells a big bottle for $4 and Company B sells a big bottle for $3.5. Company A was able to sell 300 and company B 350 big bottles of milk. How much more money did one company make from the other?
+A: Company A earned 300 * 4 = $<<300*4=1200>>1200 for big bottles of milk.
+Company B earned 350 * 3.5 = $<<350*3.5=1225>>1225 for big bottles of milk.
+Company B earned 1225 - 1200 = $<<1225-1200=25>>25 more than company A.
+#### 25
+Q: Philip is a painter. He makes 2 paintings per day. If he already has 20 paintings, how many paintings in total will he have after 30 days?
+A: The number of paintings Philip will make after 30 days is 2 paints/day * 30 days = <<2*30=60>>60 paintings.
+Then, the total number of his paintings will be 60 paintings + 20 paintings = <<60+20=80>>80 paintings.
+#### 80
+Q: A factory uses robots to manufacture batteries. For each battery that is made, it takes a robot 6 minutes to gather the materials for the battery and 9 minutes to create the battery. If the factory has 10 robots working on batteries at the same time, how many batteries can the robots manufacture in 5 hours?
+A: For each battery that a robot makes, it takes 9 + 6 = <<9+6=15>>15 minutes to create the battery.
+In 60 minutes, one robot can make 60 / 15 = <<60/15=4>>4 batteries per hour.
+If the factory uses 10 robots at the same time, then they can produce 10 * 4 = <<10*4=40>>40 batteries per hour.
+At a rate of 40 batteries per hour, 10 robots can produce 40 * 5 = <<40*5=200>>200 batteries in 5 hours.
+#### 200
+Q: Frank invites his friends over to play video games. He bakes a pan of brownies before he arrives. He cuts 6 even columns and 3 even rows into the pan of brownies. If there are 6 people, including Frank, in total, how many brownies can they each eat?
+A: There are 6 * 3 = <<6*3=18>>18 brownies in total.
+Each person can eat 18 / 6 = <<18/6=3>>3 brownies.
+#### 3
+Q: Megan is making food for a party.  She has to spend 20 minutes preparing one dish in the oven.  Each dish can feed 5 people.  She spends 2 hours preparing as many of these dishes as she can for the party.  How many people can she feed with these dishes?
+A: First, we need to determine the total amount of minutes available for cooking. We do this by performing 2*60=<<2*60=120>>120, as there are 60 minutes in an hour.
+Now that we know we have 120 minutes, we then divide the preparation time into the total amount of time by performing 120/20= <<120/20=6>>6 dishes capable of being made.
+Since each dish can feed 5 people, we find the total number of people fed by performing 5*6=<<5*6=30>>30 people.
+#### 30
+Q: Joanna and Jacques had 40 and 60 gumballs, respectively, in their dishes. They then purchased 4 times the number of gumballs they had initially and added these to their dishes. If they decided to put together their gumballs and shared them equally, how many gumballs did each get?
+A: When Joanna purchased 4 times the number of gumballs she initially had, she added 40*4 = <<4*40=160>>160 gumballs to her dish.
+The total number of gumballs Joanna had in her dish after buying 160 more is 160+40 = <<160+40=200>>200
+At the same time, Jacques bought 60*4 = <<60*4=240>>240 new gumballs.
+When Jacques added his new 240 gumballs to his dish, the total number of gumballs increased to 240+60 = <<240+60=300>>300 gumballs.
+When they decided to put together their gumballs, they had 300+200 = <<300+200=500>>500 gumballs altogether.
+After sharing equally, each person got 500/2 = <<500/2=250>>250 gumballs.
+#### 250
+","A: Alex charges $12 per day for tutoring, so for 2 weeks, she would charge 12 * 7 * 2 = $<<12*7*2=168>>168. Therefore, Alex charges $168 for 2 weeks of tutoring.","A week has 7 days, therefore 2 weeks have 2*7= <<2*7=14>>14 days
+If Alex charges $12 per day, then in $14 days she would charge $12*14 = $<<12*14=168>>168
+#### 168"
+Math,2,"Q: In a 5-day Fishing competition, Jackson was able to reel a total of 6 fishes per day, Jonah was able to reel 4 fishes per day and George was able to reel 8 fishes per day. How many fishes were they able to catch throughout the competition if they are on the same team?
+A: Jackson gets a total of 6x5= <<6*5=30>>30 fishes after the competition.
+Jonah gets 4x5= <<4*5=20>>20 fishes after the competition.
+And George was able to get 8x5=<<8*5=40>>40 fishes after the competition.
+Therefore the total fishes they were able to get for their team is 30+20+40= <<30+20+40=90>>90.
+#### 90
+Q: Karen is paddling her canoe up a river against the current. On a still pond, Karen can paddle 10 miles per hour. The river flows in the opposite direction at 4 miles per hour. If the river is 12 miles long, how many hours will it take Karen to paddle up it?
+A: First find Karen's net speed by subtracting the speed of the current: 10 mph - 4 mph = <<10-4=6>>6 mph
+Then divide the length of the river by Karen's speed to find how long it takes her to paddle up it: 12 miles / 6 mph = <<12/6=2>>2 hours
+#### 2
+Q: Mr. Sergio is a fruit grower producing apples, mangoes and oranges. In a particular season, the total produce of apples was twice the total produce of mangoes, and the total produce of oranges was 200 kg more than that of mangoes. If his farm produced 400 kg of mangoes and he sold the fruits at $50 per kg,  calculate the total amount of money he got in that season.
+A: If the total production of mangoes was 400, then orange production was 400+200 = <<400+200=600>>600 kg of oranges.
+Since apple production was twice the total production of mangoes, Mr. Sergio had 2*400 = <<2*400=800>>800 kg of apples.
+The total quantity of fruits produced at Mr. Sergio's farm is 800 kg of apples+600 kg of oranges + 400 kg of mangoes = <<800+600+400=1800>>1800 kg of fruits.
+If Mr. Sergio sold the fruits at $50 per kg, his total income from the sales is 1800*$50 = $<<1800*50=90000>>90000.
+#### 90000
+Q: Janice bought five juices for $10 in total and two sandwiches for $6 in total. How much would she need to pay, if she would only buy one sandwich and one juice?
+A: Janice bought five juices for $10, so one juice costs 10 / 5 = $<<10/5=2>>2.
+She also bought two sandwiches for $6, so one sandwich costs 6 / 2 = $<<6/2=3>>3.
+So for one juice and one sandwich, Janice would need to pay 2 + 3 = $<<2+3=5>>5.
+#### 5
+Q: May can knit 3 scarves using one yarn. She bought 2 red yarns, 6 blue yarns, and 4 yellow yarns. How many scarves will she be able to make in total?
+A: May will be able to make 2 x 3 = <<2*3=6>>6 red scarves.
+She will be able to make 3 x 6 = <<3*6=18>>18 blue scarves.
+And she will be able to make 4 x 3 = <<4*3=12>>12 yellow scarves.
+Therefore the total scarves she can make is 12 + 18 + 6 = <<12+18+6=36>>36.
+#### 36
+Q: Johnson has a sack of potatoes. He gives Gina 69 potatoes, gives Tom twice as much potatoes as he gave Gina and gives one-third of the amount of potatoes he gave Tom to Anne. How many potatoes does he have left if the sack contains 300 potatoes?
+A: He gives twice 69 potatoes to Tom, which is 69*2 = <<69*2=138>>138 potatoes
+He gives one-third of 138 potatoes to Anne, which is 138*(1/3) = <<138*(1/3)=46>>46 potatoes
+In total, he has given out 69+138+46 = <<69+138+46=253>>253 potatoes
+He initially had 300 potatoes so he now has 300-253 = <<300-253=47>>47 potatoes left
+#### 47
+Q: Two companies A and B, are selling bottled milk. Company A sells a big bottle for $4 and Company B sells a big bottle for $3.5. Company A was able to sell 300 and company B 350 big bottles of milk. How much more money did one company make from the other?
+A: Company A earned 300 * 4 = $<<300*4=1200>>1200 for big bottles of milk.
+Company B earned 350 * 3.5 = $<<350*3.5=1225>>1225 for big bottles of milk.
+Company B earned 1225 - 1200 = $<<1225-1200=25>>25 more than company A.
+#### 25
+Q: Philip is a painter. He makes 2 paintings per day. If he already has 20 paintings, how many paintings in total will he have after 30 days?
+A: The number of paintings Philip will make after 30 days is 2 paints/day * 30 days = <<2*30=60>>60 paintings.
+Then, the total number of his paintings will be 60 paintings + 20 paintings = <<60+20=80>>80 paintings.
+#### 80
+Q: A factory uses robots to manufacture batteries. For each battery that is made, it takes a robot 6 minutes to gather the materials for the battery and 9 minutes to create the battery. If the factory has 10 robots working on batteries at the same time, how many batteries can the robots manufacture in 5 hours?
+A: For each battery that a robot makes, it takes 9 + 6 = <<9+6=15>>15 minutes to create the battery.
+In 60 minutes, one robot can make 60 / 15 = <<60/15=4>>4 batteries per hour.
+If the factory uses 10 robots at the same time, then they can produce 10 * 4 = <<10*4=40>>40 batteries per hour.
+At a rate of 40 batteries per hour, 10 robots can produce 40 * 5 = <<40*5=200>>200 batteries in 5 hours.
+#### 200
+Q: Frank invites his friends over to play video games. He bakes a pan of brownies before he arrives. He cuts 6 even columns and 3 even rows into the pan of brownies. If there are 6 people, including Frank, in total, how many brownies can they each eat?
+A: There are 6 * 3 = <<6*3=18>>18 brownies in total.
+Each person can eat 18 / 6 = <<18/6=3>>3 brownies.
+#### 3
+Q: Megan is making food for a party.  She has to spend 20 minutes preparing one dish in the oven.  Each dish can feed 5 people.  She spends 2 hours preparing as many of these dishes as she can for the party.  How many people can she feed with these dishes?
+A: First, we need to determine the total amount of minutes available for cooking. We do this by performing 2*60=<<2*60=120>>120, as there are 60 minutes in an hour.
+Now that we know we have 120 minutes, we then divide the preparation time into the total amount of time by performing 120/20= <<120/20=6>>6 dishes capable of being made.
+Since each dish can feed 5 people, we find the total number of people fed by performing 5*6=<<5*6=30>>30 people.
+#### 30
+Q: Joanna and Jacques had 40 and 60 gumballs, respectively, in their dishes. They then purchased 4 times the number of gumballs they had initially and added these to their dishes. If they decided to put together their gumballs and shared them equally, how many gumballs did each get?
+A: When Joanna purchased 4 times the number of gumballs she initially had, she added 40*4 = <<4*40=160>>160 gumballs to her dish.
+The total number of gumballs Joanna had in her dish after buying 160 more is 160+40 = <<160+40=200>>200
+At the same time, Jacques bought 60*4 = <<60*4=240>>240 new gumballs.
+When Jacques added his new 240 gumballs to his dish, the total number of gumballs increased to 240+60 = <<240+60=300>>300 gumballs.
+When they decided to put together their gumballs, they had 300+200 = <<300+200=500>>500 gumballs altogether.
+After sharing equally, each person got 500/2 = <<500/2=250>>250 gumballs.
+#### 250
+","A: If Alex charges $12 per day for tutoring, then for 2 weeks (7 days per week), the total cost would be 12 x 7 x 2 = $<<12*7*2=168>>168. 
+Therefore, Alex charges $168 for 2 weeks of tutoring.","A week has 7 days, therefore 2 weeks have 2*7= <<2*7=14>>14 days
+If Alex charges $12 per day, then in $14 days she would charge $12*14 = $<<12*14=168>>168
+#### 168"
+Math,3a,"Q: In a 5-day Fishing competition, Jackson was able to reel a total of 6 fishes per day, Jonah was able to reel 4 fishes per day and George was able to reel 8 fishes per day. How many fishes were they able to catch throughout the competition if they are on the same team?
+A: Jackson gets a total of 6x5= <<6*5=30>>30 fishes after the competition.
+Jonah gets 4x5= <<4*5=20>>20 fishes after the competition.
+And George was able to get 8x5=<<8*5=40>>40 fishes after the competition.
+Therefore the total fishes they were able to get for their team is 30+20+40= <<30+20+40=90>>90.
+#### 90
+Q: Karen is paddling her canoe up a river against the current. On a still pond, Karen can paddle 10 miles per hour. The river flows in the opposite direction at 4 miles per hour. If the river is 12 miles long, how many hours will it take Karen to paddle up it?
+A: First find Karen's net speed by subtracting the speed of the current: 10 mph - 4 mph = <<10-4=6>>6 mph
+Then divide the length of the river by Karen's speed to find how long it takes her to paddle up it: 12 miles / 6 mph = <<12/6=2>>2 hours
+#### 2
+Q: Mr. Sergio is a fruit grower producing apples, mangoes and oranges. In a particular season, the total produce of apples was twice the total produce of mangoes, and the total produce of oranges was 200 kg more than that of mangoes. If his farm produced 400 kg of mangoes and he sold the fruits at $50 per kg,  calculate the total amount of money he got in that season.
+A: If the total production of mangoes was 400, then orange production was 400+200 = <<400+200=600>>600 kg of oranges.
+Since apple production was twice the total production of mangoes, Mr. Sergio had 2*400 = <<2*400=800>>800 kg of apples.
+The total quantity of fruits produced at Mr. Sergio's farm is 800 kg of apples+600 kg of oranges + 400 kg of mangoes = <<800+600+400=1800>>1800 kg of fruits.
+If Mr. Sergio sold the fruits at $50 per kg, his total income from the sales is 1800*$50 = $<<1800*50=90000>>90000.
+#### 90000
+Q: Janice bought five juices for $10 in total and two sandwiches for $6 in total. How much would she need to pay, if she would only buy one sandwich and one juice?
+A: Janice bought five juices for $10, so one juice costs 10 / 5 = $<<10/5=2>>2.
+She also bought two sandwiches for $6, so one sandwich costs 6 / 2 = $<<6/2=3>>3.
+So for one juice and one sandwich, Janice would need to pay 2 + 3 = $<<2+3=5>>5.
+#### 5
+Q: May can knit 3 scarves using one yarn. She bought 2 red yarns, 6 blue yarns, and 4 yellow yarns. How many scarves will she be able to make in total?
+A: May will be able to make 2 x 3 = <<2*3=6>>6 red scarves.
+She will be able to make 3 x 6 = <<3*6=18>>18 blue scarves.
+And she will be able to make 4 x 3 = <<4*3=12>>12 yellow scarves.
+Therefore the total scarves she can make is 12 + 18 + 6 = <<12+18+6=36>>36.
+#### 36
+Q: Johnson has a sack of potatoes. He gives Gina 69 potatoes, gives Tom twice as much potatoes as he gave Gina and gives one-third of the amount of potatoes he gave Tom to Anne. How many potatoes does he have left if the sack contains 300 potatoes?
+A: He gives twice 69 potatoes to Tom, which is 69*2 = <<69*2=138>>138 potatoes
+He gives one-third of 138 potatoes to Anne, which is 138*(1/3) = <<138*(1/3)=46>>46 potatoes
+In total, he has given out 69+138+46 = <<69+138+46=253>>253 potatoes
+He initially had 300 potatoes so he now has 300-253 = <<300-253=47>>47 potatoes left
+#### 47
+Q: In a 5-day Fishing competition, Jackson was able to reel a total of 6 fishes per day, Jonah was able to reel 4 fishes per day and George was able to reel 8 fishes per day. How many fishes were they able to catch throughout the competition if they are on the same team?
+A: Jackson gets a total of 6x5= <<6*5=30>>30 fishes after the competition.
+Jonah gets 4x5= <<4*5=20>>20 fishes after the competition.
+And George was able to get 8x5=<<8*5=40>>40 fishes after the competition.
+Therefore the total fishes they were able to get for their team is 30+20+40= <<30+20+40=90>>90.
+#### 90
+Q: Karen is paddling her canoe up a river against the current. On a still pond, Karen can paddle 10 miles per hour. The river flows in the opposite direction at 4 miles per hour. If the river is 12 miles long, how many hours will it take Karen to paddle up it?
+A: First find Karen's net speed by subtracting the speed of the current: 10 mph - 4 mph = <<10-4=6>>6 mph
+Then divide the length of the river by Karen's speed to find how long it takes her to paddle up it: 12 miles / 6 mph = <<12/6=2>>2 hours
+#### 2
+Q: Mr. Sergio is a fruit grower producing apples, mangoes and oranges. In a particular season, the total produce of apples was twice the total produce of mangoes, and the total produce of oranges was 200 kg more than that of mangoes. If his farm produced 400 kg of mangoes and he sold the fruits at $50 per kg,  calculate the total amount of money he got in that season.
+A: If the total production of mangoes was 400, then orange production was 400+200 = <<400+200=600>>600 kg of oranges.
+Since apple production was twice the total production of mangoes, Mr. Sergio had 2*400 = <<2*400=800>>800 kg of apples.
+The total quantity of fruits produced at Mr. Sergio's farm is 800 kg of apples+600 kg of oranges + 400 kg of mangoes = <<800+600+400=1800>>1800 kg of fruits.
+If Mr. Sergio sold the fruits at $50 per kg, his total income from the sales is 1800*$50 = $<<1800*50=90000>>90000.
+#### 90000
+Q: Janice bought five juices for $10 in total and two sandwiches for $6 in total. How much would she need to pay, if she would only buy one sandwich and one juice?
+A: Janice bought five juices for $10, so one juice costs 10 / 5 = $<<10/5=2>>2.
+She also bought two sandwiches for $6, so one sandwich costs 6 / 2 = $<<6/2=3>>3.
+So for one juice and one sandwich, Janice would need to pay 2 + 3 = $<<2+3=5>>5.
+#### 5
+Q: May can knit 3 scarves using one yarn. She bought 2 red yarns, 6 blue yarns, and 4 yellow yarns. How many scarves will she be able to make in total?
+A: May will be able to make 2 x 3 = <<2*3=6>>6 red scarves.
+She will be able to make 3 x 6 = <<3*6=18>>18 blue scarves.
+And she will be able to make 4 x 3 = <<4*3=12>>12 yellow scarves.
+Therefore the total scarves she can make is 12 + 18 + 6 = <<12+18+6=36>>36.
+#### 36
+Q: Johnson has a sack of potatoes. He gives Gina 69 potatoes, gives Tom twice as much potatoes as he gave Gina and gives one-third of the amount of potatoes he gave Tom to Anne. How many potatoes does he have left if the sack contains 300 potatoes?
+A: He gives twice 69 potatoes to Tom, which is 69*2 = <<69*2=138>>138 potatoes
+He gives one-third of 138 potatoes to Anne, which is 138*(1/3) = <<138*(1/3)=46>>46 potatoes
+In total, he has given out 69+138+46 = <<69+138+46=253>>253 potatoes
+He initially had 300 potatoes so he now has 300-253 = <<300-253=47>>47 potatoes left
+#### 47
+","A: Alex charges $12 per day for tutoring, so for 2 weeks (14 days), the total cost would be $12 x 14 = $<<12*14=168>>168. 
+Therefore, Alex would charge $168 for 2 weeks of tutoring.","A week has 7 days, therefore 2 weeks have 2*7= <<2*7=14>>14 days
+If Alex charges $12 per day, then in $14 days she would charge $12*14 = $<<12*14=168>>168
+#### 168"
+Math,3b,"Q: Two companies A and B, are selling bottled milk. Company A sells a big bottle for $4 and Company B sells a big bottle for $3.5. Company A was able to sell 300 and company B 350 big bottles of milk. How much more money did one company make from the other?
+A: Company A earned 300 * 4 = $<<300*4=1200>>1200 for big bottles of milk.
+Company B earned 350 * 3.5 = $<<350*3.5=1225>>1225 for big bottles of milk.
+Company B earned 1225 - 1200 = $<<1225-1200=25>>25 more than company A.
+#### 25
+Q: Philip is a painter. He makes 2 paintings per day. If he already has 20 paintings, how many paintings in total will he have after 30 days?
+A: The number of paintings Philip will make after 30 days is 2 paints/day * 30 days = <<2*30=60>>60 paintings.
+Then, the total number of his paintings will be 60 paintings + 20 paintings = <<60+20=80>>80 paintings.
+#### 80
+Q: A factory uses robots to manufacture batteries. For each battery that is made, it takes a robot 6 minutes to gather the materials for the battery and 9 minutes to create the battery. If the factory has 10 robots working on batteries at the same time, how many batteries can the robots manufacture in 5 hours?
+A: For each battery that a robot makes, it takes 9 + 6 = <<9+6=15>>15 minutes to create the battery.
+In 60 minutes, one robot can make 60 / 15 = <<60/15=4>>4 batteries per hour.
+If the factory uses 10 robots at the same time, then they can produce 10 * 4 = <<10*4=40>>40 batteries per hour.
+At a rate of 40 batteries per hour, 10 robots can produce 40 * 5 = <<40*5=200>>200 batteries in 5 hours.
+#### 200
+Q: Frank invites his friends over to play video games. He bakes a pan of brownies before he arrives. He cuts 6 even columns and 3 even rows into the pan of brownies. If there are 6 people, including Frank, in total, how many brownies can they each eat?
+A: There are 6 * 3 = <<6*3=18>>18 brownies in total.
+Each person can eat 18 / 6 = <<18/6=3>>3 brownies.
+#### 3
+Q: Megan is making food for a party.  She has to spend 20 minutes preparing one dish in the oven.  Each dish can feed 5 people.  She spends 2 hours preparing as many of these dishes as she can for the party.  How many people can she feed with these dishes?
+A: First, we need to determine the total amount of minutes available for cooking. We do this by performing 2*60=<<2*60=120>>120, as there are 60 minutes in an hour.
+Now that we know we have 120 minutes, we then divide the preparation time into the total amount of time by performing 120/20= <<120/20=6>>6 dishes capable of being made.
+Since each dish can feed 5 people, we find the total number of people fed by performing 5*6=<<5*6=30>>30 people.
+#### 30
+Q: Joanna and Jacques had 40 and 60 gumballs, respectively, in their dishes. They then purchased 4 times the number of gumballs they had initially and added these to their dishes. If they decided to put together their gumballs and shared them equally, how many gumballs did each get?
+A: When Joanna purchased 4 times the number of gumballs she initially had, she added 40*4 = <<4*40=160>>160 gumballs to her dish.
+The total number of gumballs Joanna had in her dish after buying 160 more is 160+40 = <<160+40=200>>200
+At the same time, Jacques bought 60*4 = <<60*4=240>>240 new gumballs.
+When Jacques added his new 240 gumballs to his dish, the total number of gumballs increased to 240+60 = <<240+60=300>>300 gumballs.
+When they decided to put together their gumballs, they had 300+200 = <<300+200=500>>500 gumballs altogether.
+After sharing equally, each person got 500/2 = <<500/2=250>>250 gumballs.
+#### 250
+Q: Two companies A and B, are selling bottled milk. Company A sells a big bottle for $4 and Company B sells a big bottle for $3.5. Company A was able to sell 300 and company B 350 big bottles of milk. How much more money did one company make from the other?
+A: Company A earned 300 * 4 = $<<300*4=1200>>1200 for big bottles of milk.
+Company B earned 350 * 3.5 = $<<350*3.5=1225>>1225 for big bottles of milk.
+Company B earned 1225 - 1200 = $<<1225-1200=25>>25 more than company A.
+#### 25
+Q: Philip is a painter. He makes 2 paintings per day. If he already has 20 paintings, how many paintings in total will he have after 30 days?
+A: The number of paintings Philip will make after 30 days is 2 paints/day * 30 days = <<2*30=60>>60 paintings.
+Then, the total number of his paintings will be 60 paintings + 20 paintings = <<60+20=80>>80 paintings.
+#### 80
+Q: A factory uses robots to manufacture batteries. For each battery that is made, it takes a robot 6 minutes to gather the materials for the battery and 9 minutes to create the battery. If the factory has 10 robots working on batteries at the same time, how many batteries can the robots manufacture in 5 hours?
+A: For each battery that a robot makes, it takes 9 + 6 = <<9+6=15>>15 minutes to create the battery.
+In 60 minutes, one robot can make 60 / 15 = <<60/15=4>>4 batteries per hour.
+If the factory uses 10 robots at the same time, then they can produce 10 * 4 = <<10*4=40>>40 batteries per hour.
+At a rate of 40 batteries per hour, 10 robots can produce 40 * 5 = <<40*5=200>>200 batteries in 5 hours.
+#### 200
+Q: Frank invites his friends over to play video games. He bakes a pan of brownies before he arrives. He cuts 6 even columns and 3 even rows into the pan of brownies. If there are 6 people, including Frank, in total, how many brownies can they each eat?
+A: There are 6 * 3 = <<6*3=18>>18 brownies in total.
+Each person can eat 18 / 6 = <<18/6=3>>3 brownies.
+#### 3
+Q: Megan is making food for a party.  She has to spend 20 minutes preparing one dish in the oven.  Each dish can feed 5 people.  She spends 2 hours preparing as many of these dishes as she can for the party.  How many people can she feed with these dishes?
+A: First, we need to determine the total amount of minutes available for cooking. We do this by performing 2*60=<<2*60=120>>120, as there are 60 minutes in an hour.
+Now that we know we have 120 minutes, we then divide the preparation time into the total amount of time by performing 120/20= <<120/20=6>>6 dishes capable of being made.
+Since each dish can feed 5 people, we find the total number of people fed by performing 5*6=<<5*6=30>>30 people.
+#### 30
+Q: Joanna and Jacques had 40 and 60 gumballs, respectively, in their dishes. They then purchased 4 times the number of gumballs they had initially and added these to their dishes. If they decided to put together their gumballs and shared them equally, how many gumballs did each get?
+A: When Joanna purchased 4 times the number of gumballs she initially had, she added 40*4 = <<4*40=160>>160 gumballs to her dish.
+The total number of gumballs Joanna had in her dish after buying 160 more is 160+40 = <<160+40=200>>200
+At the same time, Jacques bought 60*4 = <<60*4=240>>240 new gumballs.
+When Jacques added his new 240 gumballs to his dish, the total number of gumballs increased to 240+60 = <<240+60=300>>300 gumballs.
+When they decided to put together their gumballs, they had 300+200 = <<300+200=500>>500 gumballs altogether.
+After sharing equally, each person got 500/2 = <<500/2=250>>250 gumballs.
+#### 250
+","A: Alex charges $12 per day for tutoring, so for 2 weeks (14 days) of tutoring, the total cost would be 12 * 14 = $<<12*14=168>>168. 
+Therefore, Alex would charge $168 for 2 weeks of tutoring.","A week has 7 days, therefore 2 weeks have 2*7= <<2*7=14>>14 days
+If Alex charges $12 per day, then in $14 days she would charge $12*14 = $<<12*14=168>>168
+#### 168"
+CSQA,1a,"Q: The person had no car, but needed to get somewhere, where should he go?
+A: carpark
+B: hospital
+C: building
+D: garage
+E: bus stop
+A: E
+Q: James bought a hide bed sofa because it was space efficient. Where might he live?
+A: house
+B: apartment
+C: village
+D: beach condo
+E: hotel
+A: B
+Q: Where could a wheel be produced?
+A: boat
+B: truck shop
+C: auto parts store
+D: michigan
+E: bicycle shop
+A: D
+Q: If a person wants to put some excitement into his routine, he learn how to do what?
+A: play hockey
+B: basketball
+C: dance
+D: go somewhere
+E: express information
+A: C
+Q: The man felt sorry for the dressed up dog, it was his opinion that clothing was only for a what?
+A: entertaunment
+B: hamper
+C: person
+D: closet
+E: backpack
+A: C
+Q: Jane didn't care about talking with others. She went dancing just to do what?
+A: fatigue
+B: meeting people
+C: show off
+D: having fun
+E: become tired
+A: D
+",A: A,
+CSQA,1a,"Q: Alexa needed a safe place to put her acoustic guitar when she wasn't playing it.  Where might she put it?
+A: drawer
+B: music shop
+C: house
+D: studio
+E: closet
+A: E
+Q: What could happen to guns if they are wet?
+A: misfire
+B: explode
+C: jam
+D: break
+E: take life
+A: A
+Q: Where would a cat like to relieve himself?
+A: ground
+B: sand box
+C: michigan
+D: warm bed
+E: warm place
+A: B
+Q: What is an important part of living that people often forget to do?
+A: trying to stay happy
+B: fall in love
+C: doing sport
+D: die
+E: seeing
+A: A
+Q: Linda wanted to talk to someone because she knew that she was doing bad stuff and that talking was the first step to doing what?
+A: communicating with others
+B: hurt feelings
+C: changing behavior
+D: dry mouth
+E: communication
+A: C
+Q: What is one likely trying to find an answer for when something is broken?
+A: question
+B: wrong
+C: problem
+D: swear
+E: confusion
+A: C
+",A: A,
+CSQA,2,"Q: The person had no car, but needed to get somewhere, where should he go?
+A: carpark
+B: hospital
+C: building
+D: garage
+E: bus stop
+A: E
+Q: James bought a hide bed sofa because it was space efficient. Where might he live?
+A: house
+B: apartment
+C: village
+D: beach condo
+E: hotel
+A: B
+Q: Where could a wheel be produced?
+A: boat
+B: truck shop
+C: auto parts store
+D: michigan
+E: bicycle shop
+A: D
+Q: If a person wants to put some excitement into his routine, he learn how to do what?
+A: play hockey
+B: basketball
+C: dance
+D: go somewhere
+E: express information
+A: C
+Q: The man felt sorry for the dressed up dog, it was his opinion that clothing was only for a what?
+A: entertaunment
+B: hamper
+C: person
+D: closet
+E: backpack
+A: C
+Q: Jane didn't care about talking with others. She went dancing just to do what?
+A: fatigue
+B: meeting people
+C: show off
+D: having fun
+E: become tired
+A: D
+Q: Alexa needed a safe place to put her acoustic guitar when she wasn't playing it.  Where might she put it?
+A: drawer
+B: music shop
+C: house
+D: studio
+E: closet
+A: E
+Q: What could happen to guns if they are wet?
+A: misfire
+B: explode
+C: jam
+D: break
+E: take life
+A: A
+Q: Where would a cat like to relieve himself?
+A: ground
+B: sand box
+C: michigan
+D: warm bed
+E: warm place
+A: B
+Q: What is an important part of living that people often forget to do?
+A: trying to stay happy
+B: fall in love
+C: doing sport
+D: die
+E: seeing
+A: A
+Q: Linda wanted to talk to someone because she knew that she was doing bad stuff and that talking was the first step to doing what?
+A: communicating with others
+B: hurt feelings
+C: changing behavior
+D: dry mouth
+E: communication
+A: C
+Q: What is one likely trying to find an answer for when something is broken?
+A: question
+B: wrong
+C: problem
+D: swear
+E: confusion
+A: C
+",A: A,
+CSQA,3a,"Q: The person had no car, but needed to get somewhere, where should he go?
+A: carpark
+B: hospital
+C: building
+D: garage
+E: bus stop
+A: E
+Q: James bought a hide bed sofa because it was space efficient. Where might he live?
+A: house
+B: apartment
+C: village
+D: beach condo
+E: hotel
+A: B
+Q: Where could a wheel be produced?
+A: boat
+B: truck shop
+C: auto parts store
+D: michigan
+E: bicycle shop
+A: D
+Q: If a person wants to put some excitement into his routine, he learn how to do what?
+A: play hockey
+B: basketball
+C: dance
+D: go somewhere
+E: express information
+A: C
+Q: The man felt sorry for the dressed up dog, it was his opinion that clothing was only for a what?
+A: entertaunment
+B: hamper
+C: person
+D: closet
+E: backpack
+A: C
+Q: Jane didn't care about talking with others. She went dancing just to do what?
+A: fatigue
+B: meeting people
+C: show off
+D: having fun
+E: become tired
+A: D
+Q: The person had no car, but needed to get somewhere, where should he go?
+A: carpark
+B: hospital
+C: building
+D: garage
+E: bus stop
+A: E
+Q: James bought a hide bed sofa because it was space efficient. Where might he live?
+A: house
+B: apartment
+C: village
+D: beach condo
+E: hotel
+A: B
+Q: Where could a wheel be produced?
+A: boat
+B: truck shop
+C: auto parts store
+D: michigan
+E: bicycle shop
+A: D
+Q: If a person wants to put some excitement into his routine, he learn how to do what?
+A: play hockey
+B: basketball
+C: dance
+D: go somewhere
+E: express information
+A: C
+Q: The man felt sorry for the dressed up dog, it was his opinion that clothing was only for a what?
+A: entertaunment
+B: hamper
+C: person
+D: closet
+E: backpack
+A: C
+Q: Jane didn't care about talking with others. She went dancing just to do what?
+A: fatigue
+B: meeting people
+C: show off
+D: having fun
+E: become tired
+A: D
+",A: A,
+CSQA,3b,"Q: Alexa needed a safe place to put her acoustic guitar when she wasn't playing it.  Where might she put it?
+A: drawer
+B: music shop
+C: house
+D: studio
+E: closet
+A: E
+Q: What could happen to guns if they are wet?
+A: misfire
+B: explode
+C: jam
+D: break
+E: take life
+A: A
+Q: Where would a cat like to relieve himself?
+A: ground
+B: sand box
+C: michigan
+D: warm bed
+E: warm place
+A: B
+Q: What is an important part of living that people often forget to do?
+A: trying to stay happy
+B: fall in love
+C: doing sport
+D: die
+E: seeing
+A: A
+Q: Linda wanted to talk to someone because she knew that she was doing bad stuff and that talking was the first step to doing what?
+A: communicating with others
+B: hurt feelings
+C: changing behavior
+D: dry mouth
+E: communication
+A: C
+Q: What is one likely trying to find an answer for when something is broken?
+A: question
+B: wrong
+C: problem
+D: swear
+E: confusion
+A: C
+Q: Alexa needed a safe place to put her acoustic guitar when she wasn't playing it.  Where might she put it?
+A: drawer
+B: music shop
+C: house
+D: studio
+E: closet
+A: E
+Q: What could happen to guns if they are wet?
+A: misfire
+B: explode
+C: jam
+D: break
+E: take life
+A: A
+Q: Where would a cat like to relieve himself?
+A: ground
+B: sand box
+C: michigan
+D: warm bed
+E: warm place
+A: B
+Q: What is an important part of living that people often forget to do?
+A: trying to stay happy
+B: fall in love
+C: doing sport
+D: die
+E: seeing
+A: A
+Q: Linda wanted to talk to someone because she knew that she was doing bad stuff and that talking was the first step to doing what?
+A: communicating with others
+B: hurt feelings
+C: changing behavior
+D: dry mouth
+E: communication
+A: C
+Q: What is one likely trying to find an answer for when something is broken?
+A: question
+B: wrong
+C: problem
+D: swear
+E: confusion
+A: C
+",A: A,
+StrategyQA,1a,"Q: Physicians typically only recommend treatments that have a significant amount of clinical evidence behind them. Reiki has no clinical evidence of effectiveness, and there is no scientific basis for its utility.
+Would a physician be unlikely to recommend Reiki?
+A: True
+Q: Milk that has been bottled straight from a cow has not been homogenized.  Homogenization causes the fats in milk to become emulsified. Non-homogenized milk will feature fats that separate and float to the top. The fats in non-homogenized milk are cream.
+If you bottle your own milk, would there be cream on top of it?
+A: True
+Q: Hades alone can allow passage out of the Underworld. Hades created a terribly difficult task for Orpheus to complete to bring Eurydice from the Underworld.  The subjects of Hades in the Underworld are under his complete control.
+Does Hades have a loose grip on the Underworld?
+A: False
+Q: The number for emergency services in Bangladesh is 999 999 is not a Fibonacci sequence integer 
+If you have a serious injury in Bangladesh, would you probably dial a Fibonacci number?
+A: False
+Q: Alan Turing committed suicide via cyanide poisoning. Abraham Lincoln was killed by a gunshot wound to the head.
+Did Alan Turing suffer the same fate as Abraham Lincoln?
+A: False
+Q: The Riksdag is the legislative branch of the Swedish government. Sweden is part of Scandinavia.
+Is the Riksdag a political entity in Scandinavia?
+A: True
+",A: True,True
+StrategyQA,1a,"Q: Chlorine is a chemical that is the second lightest halogen element. Chlorine is toxic and can attack the respiratory system of humans. Chlorine is highly soluble in water and will dissolve in around 4 and a half days. The Water Quality and Health Council states that chlorination of drinking water protects consumers from diseases caused by waterborne microorganisms.
+Is week old chlorine water safe to drink?
+A: True
+Q: Hypertension is a medical condition in which the blood pressure is high. Salt increases blood pressure. Campbell's Soup has an average of 1400 to 1800 mg of sodium (salt). The FDA states that sodium intake per day should not exceed 2300 mg.
+Are two cans of Campbell's Soup a day good for hypertension?
+A: False
+Q: Peppers can be dehydrated in the oven in lieu of a dehydrator. Sunlight and heat have been used for centuries to dry peppers and other foods.
+Can Paprika be made without a dehydrator?
+A: True
+Q: In 2010, the Spirit rover sent what is recorded as its final transmission. In 2019, another rover made the news with its viral ""final words""
+Would a broadcast from Spirit make the news in 2020?
+A: True
+Q: The United States of America is bordered by the Atlantic and Pacific Oceans. Even the westernmost point of the USA, the Hawaiian Islands, is too far east in the Pacific to be anywhere near that ocean's border with the Indian Ocean.
+Does the United States of America touch the Indian Ocean?
+A: False
+Q: The Scottish people emerged from an amalgamation of two Celtic-speaking peoples, the Picts and Gaels, who founded the Kingdom of Scotland. What the Picts called themselves is unknown. It has been proposed that they called themselves Albidosi. The Kingdom of Scotland is also known as the Kingdom of Alba.
+Are Scottish people Albidosi?
+A: True
+",True,True
+StrategyQA,2,"Q: Physicians typically only recommend treatments that have a significant amount of clinical evidence behind them. Reiki has no clinical evidence of effectiveness, and there is no scientific basis for its utility.
+Would a physician be unlikely to recommend Reiki?
+A: True
+Q: Milk that has been bottled straight from a cow has not been homogenized.  Homogenization causes the fats in milk to become emulsified. Non-homogenized milk will feature fats that separate and float to the top. The fats in non-homogenized milk are cream.
+If you bottle your own milk, would there be cream on top of it?
+A: True
+Q: Hades alone can allow passage out of the Underworld. Hades created a terribly difficult task for Orpheus to complete to bring Eurydice from the Underworld.  The subjects of Hades in the Underworld are under his complete control.
+Does Hades have a loose grip on the Underworld?
+A: False
+Q: The number for emergency services in Bangladesh is 999 999 is not a Fibonacci sequence integer 
+If you have a serious injury in Bangladesh, would you probably dial a Fibonacci number?
+A: False
+Q: Alan Turing committed suicide via cyanide poisoning. Abraham Lincoln was killed by a gunshot wound to the head.
+Did Alan Turing suffer the same fate as Abraham Lincoln?
+A: False
+Q: The Riksdag is the legislative branch of the Swedish government. Sweden is part of Scandinavia.
+Is the Riksdag a political entity in Scandinavia?
+A: True
+Q: Chlorine is a chemical that is the second lightest halogen element. Chlorine is toxic and can attack the respiratory system of humans. Chlorine is highly soluble in water and will dissolve in around 4 and a half days. The Water Quality and Health Council states that chlorination of drinking water protects consumers from diseases caused by waterborne microorganisms.
+Is week old chlorine water safe to drink?
+A: True
+Q: Hypertension is a medical condition in which the blood pressure is high. Salt increases blood pressure. Campbell's Soup has an average of 1400 to 1800 mg of sodium (salt). The FDA states that sodium intake per day should not exceed 2300 mg.
+Are two cans of Campbell's Soup a day good for hypertension?
+A: False
+Q: Peppers can be dehydrated in the oven in lieu of a dehydrator. Sunlight and heat have been used for centuries to dry peppers and other foods.
+Can Paprika be made without a dehydrator?
+A: True
+Q: In 2010, the Spirit rover sent what is recorded as its final transmission. In 2019, another rover made the news with its viral ""final words""
+Would a broadcast from Spirit make the news in 2020?
+A: True
+Q: The United States of America is bordered by the Atlantic and Pacific Oceans. Even the westernmost point of the USA, the Hawaiian Islands, is too far east in the Pacific to be anywhere near that ocean's border with the Indian Ocean.
+Does the United States of America touch the Indian Ocean?
+A: False
+Q: The Scottish people emerged from an amalgamation of two Celtic-speaking peoples, the Picts and Gaels, who founded the Kingdom of Scotland. What the Picts called themselves is unknown. It has been proposed that they called themselves Albidosi. The Kingdom of Scotland is also known as the Kingdom of Alba.
+Are Scottish people Albidosi?
+A: True
+",True,True
+StrategyQA,3a,"Q: Physicians typically only recommend treatments that have a significant amount of clinical evidence behind them. Reiki has no clinical evidence of effectiveness, and there is no scientific basis for its utility.
+Would a physician be unlikely to recommend Reiki?
+A: True
+Q: Milk that has been bottled straight from a cow has not been homogenized.  Homogenization causes the fats in milk to become emulsified. Non-homogenized milk will feature fats that separate and float to the top. The fats in non-homogenized milk are cream.
+If you bottle your own milk, would there be cream on top of it?
+A: True
+Q: Hades alone can allow passage out of the Underworld. Hades created a terribly difficult task for Orpheus to complete to bring Eurydice from the Underworld.  The subjects of Hades in the Underworld are under his complete control.
+Does Hades have a loose grip on the Underworld?
+A: False
+Q: The number for emergency services in Bangladesh is 999 999 is not a Fibonacci sequence integer 
+If you have a serious injury in Bangladesh, would you probably dial a Fibonacci number?
+A: False
+Q: Alan Turing committed suicide via cyanide poisoning. Abraham Lincoln was killed by a gunshot wound to the head.
+Did Alan Turing suffer the same fate as Abraham Lincoln?
+A: False
+Q: The Riksdag is the legislative branch of the Swedish government. Sweden is part of Scandinavia.
+Is the Riksdag a political entity in Scandinavia?
+A: True
+Q: Physicians typically only recommend treatments that have a significant amount of clinical evidence behind them. Reiki has no clinical evidence of effectiveness, and there is no scientific basis for its utility.
+Would a physician be unlikely to recommend Reiki?
+A: True
+Q: Milk that has been bottled straight from a cow has not been homogenized.  Homogenization causes the fats in milk to become emulsified. Non-homogenized milk will feature fats that separate and float to the top. The fats in non-homogenized milk are cream.
+If you bottle your own milk, would there be cream on top of it?
+A: True
+Q: Hades alone can allow passage out of the Underworld. Hades created a terribly difficult task for Orpheus to complete to bring Eurydice from the Underworld.  The subjects of Hades in the Underworld are under his complete control.
+Does Hades have a loose grip on the Underworld?
+A: False
+Q: The number for emergency services in Bangladesh is 999 999 is not a Fibonacci sequence integer 
+If you have a serious injury in Bangladesh, would you probably dial a Fibonacci number?
+A: False
+Q: Alan Turing committed suicide via cyanide poisoning. Abraham Lincoln was killed by a gunshot wound to the head.
+Did Alan Turing suffer the same fate as Abraham Lincoln?
+A: False
+Q: The Riksdag is the legislative branch of the Swedish government. Sweden is part of Scandinavia.
+Is the Riksdag a political entity in Scandinavia?
+A: True
+",False,True
+StrategyQA,3b,"Q: Chlorine is a chemical that is the second lightest halogen element. Chlorine is toxic and can attack the respiratory system of humans. Chlorine is highly soluble in water and will dissolve in around 4 and a half days. The Water Quality and Health Council states that chlorination of drinking water protects consumers from diseases caused by waterborne microorganisms.
+Is week old chlorine water safe to drink?
+A: True
+Q: Hypertension is a medical condition in which the blood pressure is high. Salt increases blood pressure. Campbell's Soup has an average of 1400 to 1800 mg of sodium (salt). The FDA states that sodium intake per day should not exceed 2300 mg.
+Are two cans of Campbell's Soup a day good for hypertension?
+A: False
+Q: Peppers can be dehydrated in the oven in lieu of a dehydrator. Sunlight and heat have been used for centuries to dry peppers and other foods.
+Can Paprika be made without a dehydrator?
+A: True
+Q: In 2010, the Spirit rover sent what is recorded as its final transmission. In 2019, another rover made the news with its viral ""final words""
+Would a broadcast from Spirit make the news in 2020?
+A: True
+Q: The United States of America is bordered by the Atlantic and Pacific Oceans. Even the westernmost point of the USA, the Hawaiian Islands, is too far east in the Pacific to be anywhere near that ocean's border with the Indian Ocean.
+Does the United States of America touch the Indian Ocean?
+A: False
+Q: The Scottish people emerged from an amalgamation of two Celtic-speaking peoples, the Picts and Gaels, who founded the Kingdom of Scotland. What the Picts called themselves is unknown. It has been proposed that they called themselves Albidosi. The Kingdom of Scotland is also known as the Kingdom of Alba.
+Are Scottish people Albidosi?
+A: True
+Q: Chlorine is a chemical that is the second lightest halogen element. Chlorine is toxic and can attack the respiratory system of humans. Chlorine is highly soluble in water and will dissolve in around 4 and a half days. The Water Quality and Health Council states that chlorination of drinking water protects consumers from diseases caused by waterborne microorganisms.
+Is week old chlorine water safe to drink?
+A: True
+Q: Hypertension is a medical condition in which the blood pressure is high. Salt increases blood pressure. Campbell's Soup has an average of 1400 to 1800 mg of sodium (salt). The FDA states that sodium intake per day should not exceed 2300 mg.
+Are two cans of Campbell's Soup a day good for hypertension?
+A: False
+Q: Peppers can be dehydrated in the oven in lieu of a dehydrator. Sunlight and heat have been used for centuries to dry peppers and other foods.
+Can Paprika be made without a dehydrator?
+A: True
+Q: In 2010, the Spirit rover sent what is recorded as its final transmission. In 2019, another rover made the news with its viral ""final words""
+Would a broadcast from Spirit make the news in 2020?
+A: True
+Q: The United States of America is bordered by the Atlantic and Pacific Oceans. Even the westernmost point of the USA, the Hawaiian Islands, is too far east in the Pacific to be anywhere near that ocean's border with the Indian Ocean.
+Does the United States of America touch the Indian Ocean?
+A: False
+Q: The Scottish people emerged from an amalgamation of two Celtic-speaking peoples, the Picts and Gaels, who founded the Kingdom of Scotland. What the Picts called themselves is unknown. It has been proposed that they called themselves Albidosi. The Kingdom of Scotland is also known as the Kingdom of Alba.
+Are Scottish people Albidosi?
+A: True
+",A: True,True
+SayCan,1a,"Q: Can you bring me a spicy snack?
+A: 1. find the jalapeno chips, 2. pick up the jalapeno chips, 3. bring it to you, 4. put down the jalapeno chips, 5. done
+Q: Throw away the apple.
+A: 1. find an apple, 2. pick up the apple, 3. go to the trash, 4. put down the apple, 5. done
+Q: Throw the coke can away.
+A: 1. find a coke can, 2. pick up the coke can, 3. go to the trash, 4. put down the coke can, 5. done
+Q: Can you bring me a spicy snack?
+A: 1. find a jalapeno chips, 2. pick up the jalapeno chips, 3. bring it to you, 4. put down the jalapeno chips, 5. done.
+Q: How would you put the coke can in your gripper?
+A: 1. pick up the coke can, 2. done
+Q: Restock chips in the drawer.
+A: 1. find the bag of chips, 2. pick up the bag of chips, 3. go to the drawer, 4. put down the bag of chips, 5. open the drawer, 6. pick up the bag of chips, 7. put down the bag of chips, 8. close the drawer, 9. done
+","A: 1. find three different drinks, 2. pick up the three drinks, 3. bring them to you, 4. put down the three drinks, 5. done","1. find a coke, 2. pick up the coke, 3. bring it to you, 4. put down the coke, 5. find a lime soda, 6. pick up the lime soda, 7. bring it to you, 8. put down the lime soda, 9. find a redbull, 10. pick up the redbull, 11. bring it to you, 12. put down the redbull, 13. done"
+SayCan,1a,"Q: How would you navigate to the table?
+A: 1. go to the table, 2. done
+Q: How would you pick up the coke can?
+A: 1. pick up the coke can, 2. done
+Q: Lift the coke can.
+A: 1. pick up the coke can, 2. done
+Q: How would you bring me a sprite?
+A: 1. find a sprite can, 2. pick up the sprite can, 3. bring it to you, 4. put down the sprite can, 5. done
+Q: Go to the table.
+A: 1. go to the table, 2. done
+Q: How would you go to the table?
+A: 1. go to the table, 2. done
+","A: 1. Find three different drinks, 2. Pick up each drink, 3. Bring them to you, 4. Put down the drinks, 5. Done","1. find a coke, 2. pick up the coke, 3. bring it to you, 4. put down the coke, 5. find a lime soda, 6. pick up the lime soda, 7. bring it to you, 8. put down the lime soda, 9. find a redbull, 10. pick up the redbull, 11. bring it to you, 12. put down the redbull, 13. done"
+SayCan,2,"Q: Can you bring me a spicy snack?
+A: 1. find the jalapeno chips, 2. pick up the jalapeno chips, 3. bring it to you, 4. put down the jalapeno chips, 5. done
+Q: Throw away the apple.
+A: 1. find an apple, 2. pick up the apple, 3. go to the trash, 4. put down the apple, 5. done
+Q: Throw the coke can away.
+A: 1. find a coke can, 2. pick up the coke can, 3. go to the trash, 4. put down the coke can, 5. done
+Q: Can you bring me a spicy snack?
+A: 1. find a jalapeno chips, 2. pick up the jalapeno chips, 3. bring it to you, 4. put down the jalapeno chips, 5. done.
+Q: How would you put the coke can in your gripper?
+A: 1. pick up the coke can, 2. done
+Q: Restock chips in the drawer.
+A: 1. find the bag of chips, 2. pick up the bag of chips, 3. go to the drawer, 4. put down the bag of chips, 5. open the drawer, 6. pick up the bag of chips, 7. put down the bag of chips, 8. close the drawer, 9. done
+Q: How would you navigate to the table?
+A: 1. go to the table, 2. done
+Q: How would you pick up the coke can?
+A: 1. pick up the coke can, 2. done
+Q: Lift the coke can.
+A: 1. pick up the coke can, 2. done
+Q: How would you bring me a sprite?
+A: 1. find a sprite can, 2. pick up the sprite can, 3. bring it to you, 4. put down the sprite can, 5. done
+Q: Go to the table.
+A: 1. go to the table, 2. done
+Q: How would you go to the table?
+A: 1. go to the table, 2. done
+","A: 1. find three different drinks, 2. pick up the drinks, 3. bring them to you, 4. put down the drinks, 5. done","1. find a coke, 2. pick up the coke, 3. bring it to you, 4. put down the coke, 5. find a lime soda, 6. pick up the lime soda, 7. bring it to you, 8. put down the lime soda, 9. find a redbull, 10. pick up the redbull, 11. bring it to you, 12. put down the redbull, 13. done"
+SayCan,3a,"Q: Can you bring me a spicy snack?
+A: 1. find the jalapeno chips, 2. pick up the jalapeno chips, 3. bring it to you, 4. put down the jalapeno chips, 5. done
+Q: Throw away the apple.
+A: 1. find an apple, 2. pick up the apple, 3. go to the trash, 4. put down the apple, 5. done
+Q: Throw the coke can away.
+A: 1. find a coke can, 2. pick up the coke can, 3. go to the trash, 4. put down the coke can, 5. done
+Q: Can you bring me a spicy snack?
+A: 1. find a jalapeno chips, 2. pick up the jalapeno chips, 3. bring it to you, 4. put down the jalapeno chips, 5. done.
+Q: How would you put the coke can in your gripper?
+A: 1. pick up the coke can, 2. done
+Q: Restock chips in the drawer.
+A: 1. find the bag of chips, 2. pick up the bag of chips, 3. go to the drawer, 4. put down the bag of chips, 5. open the drawer, 6. pick up the bag of chips, 7. put down the bag of chips, 8. close the drawer, 9. done
+Q: Can you bring me a spicy snack?
+A: 1. find the jalapeno chips, 2. pick up the jalapeno chips, 3. bring it to you, 4. put down the jalapeno chips, 5. done
+Q: Throw away the apple.
+A: 1. find an apple, 2. pick up the apple, 3. go to the trash, 4. put down the apple, 5. done
+Q: Throw the coke can away.
+A: 1. find a coke can, 2. pick up the coke can, 3. go to the trash, 4. put down the coke can, 5. done
+Q: Can you bring me a spicy snack?
+A: 1. find a jalapeno chips, 2. pick up the jalapeno chips, 3. bring it to you, 4. put down the jalapeno chips, 5. done.
+Q: How would you put the coke can in your gripper?
+A: 1. pick up the coke can, 2. done
+Q: Restock chips in the drawer.
+A: 1. find the bag of chips, 2. pick up the bag of chips, 3. go to the drawer, 4. put down the bag of chips, 5. open the drawer, 6. pick up the bag of chips, 7. put down the bag of chips, 8. close the drawer, 9. done
+","A: 1. find three different drinks, 2. pick up the first drink, 3. bring it to you, 4. put down the first drink, 5. pick up the second drink, 6. bring it to you, 7. put down the second drink, 8. pick up the third drink, 9. bring it to you, 10. put down the third drink, 11. done","1. find a coke, 2. pick up the coke, 3. bring it to you, 4. put down the coke, 5. find a lime soda, 6. pick up the lime soda, 7. bring it to you, 8. put down the lime soda, 9. find a redbull, 10. pick up the redbull, 11. bring it to you, 12. put down the redbull, 13. done"
+SayCan,3b,"Q: How would you navigate to the table?
+A: 1. go to the table, 2. done
+Q: How would you pick up the coke can?
+A: 1. pick up the coke can, 2. done
+Q: Lift the coke can.
+A: 1. pick up the coke can, 2. done
+Q: How would you bring me a sprite?
+A: 1. find a sprite can, 2. pick up the sprite can, 3. bring it to you, 4. put down the sprite can, 5. done
+Q: Go to the table.
+A: 1. go to the table, 2. done
+Q: How would you go to the table?
+A: 1. go to the table, 2. done
+Q: How would you navigate to the table?
+A: 1. go to the table, 2. done
+Q: How would you pick up the coke can?
+A: 1. pick up the coke can, 2. done
+Q: Lift the coke can.
+A: 1. pick up the coke can, 2. done
+Q: How would you bring me a sprite?
+A: 1. find a sprite can, 2. pick up the sprite can, 3. bring it to you, 4. put down the sprite can, 5. done
+Q: Go to the table.
+A: 1. go to the table, 2. done
+Q: How would you go to the table?
+A: 1. go to the table, 2. done
+","A: 1. Find three different drinks, 2. Pick up the drinks, 3. Bring them to you, 4. Put down the drinks, 5. Done.","1. find a coke, 2. pick up the coke, 3. bring it to you, 4. put down the coke, 5. find a lime soda, 6. pick up the lime soda, 7. bring it to you, 8. put down the lime soda, 9. find a redbull, 10. pick up the redbull, 11. bring it to you, 12. put down the redbull, 13. done"

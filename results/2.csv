@@ -1,54 +1,905 @@
-Task Class,Case,Response,True Answer
-Math,1a,"A: Monic has 40 - 4 = <<40-4=36>>36 crabs
-Rani has 36 + 10 = <<36+10=46>>46 crabs
-Together, they have 40 + 36 + 46 = <<40+36+46=122>>122 crabs. 
-Therefore, the total number of crabs the three have together is 122.","If Bo has 40 crabs, then Monic, who has 4 fewer crabs than Bo, has 40-4 = <<40-4=36>>36 crabs.
-Bo and Monic have a total of 36+40 = <<36+40=76>>76 crabs.
-Since Monic has 36 crabs, Rani's number of crabs is 36+ 10 = <<36+10=46>>46.
-Together, the three have 76+46 = <<76+46=122>>122 crabs.
-#### 122"
-Math,1a,"A: Monic has 40 - 4 = <<40-4=36>>36 crabs.
-Rani has 36 + 10 = <<36+10=46>>46 crabs.
-Together, they have 40 + 36 + 46 = <<40+36+46=122>>122 crabs.","If Bo has 40 crabs, then Monic, who has 4 fewer crabs than Bo, has 40-4 = <<40-4=36>>36 crabs.
-Bo and Monic have a total of 36+40 = <<36+40=76>>76 crabs.
-Since Monic has 36 crabs, Rani's number of crabs is 36+ 10 = <<36+10=46>>46.
-Together, the three have 76+46 = <<76+46=122>>122 crabs.
-#### 122"
-Math,2,"A: If Bo has 40 crabs, then Monic has 40-4 = 36 crabs.
-Rani has 10 more crabs than Monic, so Rani has 36+10 = 46 crabs.
-The total number of crabs the three have together is 40 (Bo) + 36 (Monic) + 46 (Rani) = 122 crabs.","If Bo has 40 crabs, then Monic, who has 4 fewer crabs than Bo, has 40-4 = <<40-4=36>>36 crabs.
-Bo and Monic have a total of 36+40 = <<36+40=76>>76 crabs.
-Since Monic has 36 crabs, Rani's number of crabs is 36+ 10 = <<36+10=46>>46.
-Together, the three have 76+46 = <<76+46=122>>122 crabs.
-#### 122"
-Math,3a,"A: Monic has 40 - 4 = <<40-4=36>>36 crabs.
-Rani has 36 + 10 = <<36+10=46>>46 crabs.
-Together, the three have 40 + 36 + 46 = <<40+36+46=122>>122 crabs. 
-So, the total number of crabs the three have together is 122.","If Bo has 40 crabs, then Monic, who has 4 fewer crabs than Bo, has 40-4 = <<40-4=36>>36 crabs.
-Bo and Monic have a total of 36+40 = <<36+40=76>>76 crabs.
-Since Monic has 36 crabs, Rani's number of crabs is 36+ 10 = <<36+10=46>>46.
-Together, the three have 76+46 = <<76+46=122>>122 crabs.
-#### 122"
-Math,3b,"A: If Bo has 40 crabs, and Monic has 4 fewer crabs than Bo, then Monic has 40 crabs - 4 crabs = 36 crabs.
-Rani has ten more crabs than Monic, so Rani has 36 crabs + 10 crabs = 46 crabs.
-Together, they have 40 crabs (Bo) + 36 crabs (Monic) + 46 crabs (Rani) = 122 crabs. 
-Therefore, the total number of crabs the three have together is 122.","If Bo has 40 crabs, then Monic, who has 4 fewer crabs than Bo, has 40-4 = <<40-4=36>>36 crabs.
-Bo and Monic have a total of 36+40 = <<36+40=76>>76 crabs.
-Since Monic has 36 crabs, Rani's number of crabs is 36+ 10 = <<36+10=46>>46.
-Together, the three have 76+46 = <<76+46=122>>122 crabs.
-#### 122"
-CSQA,1a,A: E,
-CSQA,1a,A: C,
-CSQA,2,A: E,
-CSQA,3a,A: C,
-CSQA,3b,A: C,
-StrategyQA,1a,A: True,False
-StrategyQA,1a,A: True,False
-StrategyQA,2,A: False,False
-StrategyQA,3a,A: True,False
-StrategyQA,3b,A: False,False
-SayCan,1a,"A: 1. find a banana, 2. pick up the banana, 3. go to the counter, 4. put down the banana, 5. done","1. pick up the banana, 2. go to the counter, 3. put down the banana, 4. done"
-SayCan,1a,"A: 1. find a banana, 2. pick up the banana, 3. go to the counter, 4. put down the banana on the counter, 5. done","1. pick up the banana, 2. go to the counter, 3. put down the banana, 4. done"
-SayCan,2,"A: 1. pick up the banana, 2. go to the counter, 3. place the banana on the counter, 4. done","1. pick up the banana, 2. go to the counter, 3. put down the banana, 4. done"
-SayCan,3a,"A: 1. Pick up the banana, 2. Go to the counter, 3. Place the banana on the counter, 4. Done.","1. pick up the banana, 2. go to the counter, 3. put down the banana, 4. done"
-SayCan,3b,"A: 1. find a banana, 2. pick up the banana, 3. place it on the counter, 4. done","1. pick up the banana, 2. go to the counter, 3. put down the banana, 4. done"
+Task Class,Case,Examples,Response,True Answer
+Math,1a,"Q: Jason spent 1/4 of his money and an additional $10 on some books. He then spent 2/5 of the remaining money and an additional $8 on some DVDs. If he was left with $130, how much money did he have at first?
+A: Let X be the money Jason had at first.
+Jason spent 1/4*X + 10 on books.
+Jason spent 2/5*[X - (1/4*X + 10)] + 8 on some DVDs.
+Jason has X - (1/4*X + 10) - {2/5*[X - (1/4*X + 10)] + 8} = $130 left.
+X - 1/4*X - 10 - 2/5*X + 1/10*X + 4 - 8 = $130.
+9/20*X - 14 = $130.
+X = $<<320=320>>320.
+#### 320
+Q: Three baskets A, B and C contain different numbers of differently colored marbles. Basket A contains 4 red marbles and 2 yellow marbles. Basket B contains 6 green marbles and 1 yellow marble. Basket C contains 3 white marbles and 9 yellow marbles. What is the difference between the number of each color of marble in the basket that has the greatest difference?
+A: In basket A the number difference between differently colored marbles is 4-2 = <<4-2=2>>2
+In basket B the difference is 6-1 = <<6-1=5>>5
+In basket C the difference is 9-3 = <<9-3=6>>6
+Comparing 2, 5 and 6 shows that 6 is the greatest difference
+#### 6
+Q: If Alice purchased 3600 acorns for nine times the price Bob paid, and Bob paid $6000 for his acorns, how much money did Alice pay for each acorn?
+A: Nine times the price Bob paid for his acorns is 9*$6000 = $<<9*6000=54000>>54000
+If Alice purchased 3600 acorns for nine times the price Bob paid, she paid $54000/3600 = $15 for each acorn.
+#### 15
+Q: Jenny makes and freezes pans of lasagna all week so she can sell them at the market on the weekend.  It costs Jenny $10.00 in ingredients to make 1 pan of lasagna.  If she makes and sells 20 pans over the weekend at $25.00 apiece, how much does she make after factoring in expenses?
+A: Each pan costs $10.00 to make so for 20 pans, it will cost 10*20 = $<<10*20=200.00>>200.00
+She sells each of the 20 pans for $25.00 each so she will make 20*25 = $<<20*25=500.00>>500.00
+She makes $500.00 and spent $200.00 on ingredients so she makes 500-200 = $<<500-200=300.00>>300.00
+#### 300
+Q: Tamia is making dinner. She is using 5 bell peppers to make her meal. She likes to have a variety of sizes so some will melt and some will be thick enough to eat whole. First she cuts each bell pepper into 20 large slices. Then she takes half those slices and cuts them into 3 smaller pieces each. How many slices and pieces of bell pepper total is Tamia going to add to her meal?
+A: First, Tamia cuts the 5 bell peppers into 20 slices each, 5 x 20 = <<5*20=100>>100 slices.
+Then, she takes 1/2 of those to cut into smaller pieces, 100 / 2 = <<100/2=50>>50 slices to cut smaller.
+Tamia takes each of those 50 slices and cuts them into 3 pieces each, 50 x 3 = <<50*3=150>>150.
+Tamia is adding 50 slices + 150 smaller pieces = <<50+150=200>>200 pieces of bell pepper added to her meal.
+#### 200
+Q: Ross takes 17 breaths per minute by inhaling 5/9 liter of air to his lungs. What is the volume of air inhaled in 24 hours?
+A: We have 60 minutes per hour.
+So, in 24 hours we have 60 * 24 = <<60*24=1440>>1440 minutes.
+So, the volume of air Ross inhaled in 24 hours is: 17 breaths/minute * 5/9 L/breath * 1440 minutes = 122400 / 9 = <<17*5/9*1440=13600>>13600 liters.
+The volume of air inhaled is 13600 liters.
+#### 13600
+","A: Terry makes 6 * $5.50 = $33 from selling milkshakes.
+He makes 9 * $11 = $99 from selling burger platters.
+He makes 20 * $1.50 = $30 from selling sodas.
+Therefore, in total Terry makes $33 + $99 + $30 = $<<33+99+30=162>>162.","First find the total cost of the milkshakes: 6 milkshakes * $5.50/milkshake = $<<6*5.5=33>>33
+Then find the total cost of the burger platters: 9 platters * $11/platter = $<<9*11=99>>99
+Then find the total cost of the sodas: 20 sodas * $1.50/soda = $<<20*1.5=30>>30
+Then add the money from each type of food to find total amount of money Terry earns: $33 + $99 + $30 = $<<33+99+30=162>>162
+#### 162"
+Math,1a,"Q: A company has 200 employees.  60% of the employees drive to work.  Of the employees who don't drive to work, half take public transportation. How many more employees drive to work than take public transportation?
+A: Drive to work:200(.60)=<<200*.60=120>>120
+Don't Drive to work:200-120=<<200-120=80>>80
+Public Transportation:80(.50)=40 employees
+80-40=<<80-40=40>>40 employees
+#### 40
+Q: One dress requires 5.5 yards of fabric. Amare needs to make 4 dresses for the wedding and she has 7 feet of fabric. How many feet of fabric does Amare still need for the dresses?
+A: Dresses = 5.5 * 4 = <<5.5*4=22>>22 yards
+22 yards = <<22*3=66>>66 feet
+66 - 7 = <<66-7=59>>59
+Amare still needs 59 feet of fabric.
+#### 59
+Q: Annie calculated she has three times more toys than Mike, and two less than Tom. Mike has 6 toys. How many toys do Annie, Mike, and Tom have in total?
+A: Annie has three times more toys than Mike, which means she has 3 * 6 = <<3*6=18>>18 more toys than Mike.
+Annie has a total of 18+6= <<18+6=24>>24 toys.
+Tom has two toys more than Annie, so he has 24 + 2 = <<24+2=26>>26 toys.
+In total Annie, Mike, and Tom have 6 + 24 + 26 = <<6+24+26=56>>56 toys.
+#### 56
+Q: Bill the miner discovers a vein of fool's gold. He successfully sells 8 ounces to a merchant, but when he tries to sell to the sheriff he's arrested, fined $50 and run out of town on a rail. If Bill earned $9 for every ounce of fool's gold he sold, how much money is he left with?
+A: First find the total amount of money Bill made from the merchant: 8 ounces * $9/ounce = $<<8*9=72>>72
+Then subtract the fine to find how much money he was left with: $72 - $50 = $<<72-50=22>>22
+#### 22
+Q: An organization trying to save endangered species of turtles has taken twice more hawksbill turtles than the number of green turtles into a conservation center. If the number of green turtles is 800, calculate the number of turtles that have been taken into the conservation center.
+A: If the number of hawksbill turtles is twice more than the number of green turtles, then there are 2*800 = <<2*800=1600>>1600 more hawksbill turtles.
+The total number of hawksbill turtles is 800+1600 = <<800+1600=2400>>2400
+The total number of turtles that have been taken into the conservation center is 2400+800 = <<2400+800=3200>>3200 turtles.
+#### 3200
+Q: Olga has an aquarium with fish in 5 different colors. There are 12 yellow ones, half as many blue ones, and twice as many green ones as yellow ones. How many fish does Olga have in her aquarium?
+A: Olga has half as many blue fish as yellow ones, which means 12 * 0.5 = <<12*0.5=6>>6 blue fish.
+Green fish are twice as many as yellow ones, so in total there are 12 * 2 = <<12*2=24>>24 green fish.
+So all the fish sum up to 12 + 6 + 24 = <<12+6+24=42>>42.
+#### 42
+","A: 
+6 milkshakes * $5.50 = $33
+9 burger platters * $11 = $99
+20 sodas * $1.50 = $30
+Total money made = $33 + $99 + $30 = $<<33+99+30=162>>162.","First find the total cost of the milkshakes: 6 milkshakes * $5.50/milkshake = $<<6*5.5=33>>33
+Then find the total cost of the burger platters: 9 platters * $11/platter = $<<9*11=99>>99
+Then find the total cost of the sodas: 20 sodas * $1.50/soda = $<<20*1.5=30>>30
+Then add the money from each type of food to find total amount of money Terry earns: $33 + $99 + $30 = $<<33+99+30=162>>162
+#### 162"
+Math,2,"Q: Jason spent 1/4 of his money and an additional $10 on some books. He then spent 2/5 of the remaining money and an additional $8 on some DVDs. If he was left with $130, how much money did he have at first?
+A: Let X be the money Jason had at first.
+Jason spent 1/4*X + 10 on books.
+Jason spent 2/5*[X - (1/4*X + 10)] + 8 on some DVDs.
+Jason has X - (1/4*X + 10) - {2/5*[X - (1/4*X + 10)] + 8} = $130 left.
+X - 1/4*X - 10 - 2/5*X + 1/10*X + 4 - 8 = $130.
+9/20*X - 14 = $130.
+X = $<<320=320>>320.
+#### 320
+Q: Three baskets A, B and C contain different numbers of differently colored marbles. Basket A contains 4 red marbles and 2 yellow marbles. Basket B contains 6 green marbles and 1 yellow marble. Basket C contains 3 white marbles and 9 yellow marbles. What is the difference between the number of each color of marble in the basket that has the greatest difference?
+A: In basket A the number difference between differently colored marbles is 4-2 = <<4-2=2>>2
+In basket B the difference is 6-1 = <<6-1=5>>5
+In basket C the difference is 9-3 = <<9-3=6>>6
+Comparing 2, 5 and 6 shows that 6 is the greatest difference
+#### 6
+Q: If Alice purchased 3600 acorns for nine times the price Bob paid, and Bob paid $6000 for his acorns, how much money did Alice pay for each acorn?
+A: Nine times the price Bob paid for his acorns is 9*$6000 = $<<9*6000=54000>>54000
+If Alice purchased 3600 acorns for nine times the price Bob paid, she paid $54000/3600 = $15 for each acorn.
+#### 15
+Q: Jenny makes and freezes pans of lasagna all week so she can sell them at the market on the weekend.  It costs Jenny $10.00 in ingredients to make 1 pan of lasagna.  If she makes and sells 20 pans over the weekend at $25.00 apiece, how much does she make after factoring in expenses?
+A: Each pan costs $10.00 to make so for 20 pans, it will cost 10*20 = $<<10*20=200.00>>200.00
+She sells each of the 20 pans for $25.00 each so she will make 20*25 = $<<20*25=500.00>>500.00
+She makes $500.00 and spent $200.00 on ingredients so she makes 500-200 = $<<500-200=300.00>>300.00
+#### 300
+Q: Tamia is making dinner. She is using 5 bell peppers to make her meal. She likes to have a variety of sizes so some will melt and some will be thick enough to eat whole. First she cuts each bell pepper into 20 large slices. Then she takes half those slices and cuts them into 3 smaller pieces each. How many slices and pieces of bell pepper total is Tamia going to add to her meal?
+A: First, Tamia cuts the 5 bell peppers into 20 slices each, 5 x 20 = <<5*20=100>>100 slices.
+Then, she takes 1/2 of those to cut into smaller pieces, 100 / 2 = <<100/2=50>>50 slices to cut smaller.
+Tamia takes each of those 50 slices and cuts them into 3 pieces each, 50 x 3 = <<50*3=150>>150.
+Tamia is adding 50 slices + 150 smaller pieces = <<50+150=200>>200 pieces of bell pepper added to her meal.
+#### 200
+Q: Ross takes 17 breaths per minute by inhaling 5/9 liter of air to his lungs. What is the volume of air inhaled in 24 hours?
+A: We have 60 minutes per hour.
+So, in 24 hours we have 60 * 24 = <<60*24=1440>>1440 minutes.
+So, the volume of air Ross inhaled in 24 hours is: 17 breaths/minute * 5/9 L/breath * 1440 minutes = 122400 / 9 = <<17*5/9*1440=13600>>13600 liters.
+The volume of air inhaled is 13600 liters.
+#### 13600
+Q: A company has 200 employees.  60% of the employees drive to work.  Of the employees who don't drive to work, half take public transportation. How many more employees drive to work than take public transportation?
+A: Drive to work:200(.60)=<<200*.60=120>>120
+Don't Drive to work:200-120=<<200-120=80>>80
+Public Transportation:80(.50)=40 employees
+80-40=<<80-40=40>>40 employees
+#### 40
+Q: One dress requires 5.5 yards of fabric. Amare needs to make 4 dresses for the wedding and she has 7 feet of fabric. How many feet of fabric does Amare still need for the dresses?
+A: Dresses = 5.5 * 4 = <<5.5*4=22>>22 yards
+22 yards = <<22*3=66>>66 feet
+66 - 7 = <<66-7=59>>59
+Amare still needs 59 feet of fabric.
+#### 59
+Q: Annie calculated she has three times more toys than Mike, and two less than Tom. Mike has 6 toys. How many toys do Annie, Mike, and Tom have in total?
+A: Annie has three times more toys than Mike, which means she has 3 * 6 = <<3*6=18>>18 more toys than Mike.
+Annie has a total of 18+6= <<18+6=24>>24 toys.
+Tom has two toys more than Annie, so he has 24 + 2 = <<24+2=26>>26 toys.
+In total Annie, Mike, and Tom have 6 + 24 + 26 = <<6+24+26=56>>56 toys.
+#### 56
+Q: Bill the miner discovers a vein of fool's gold. He successfully sells 8 ounces to a merchant, but when he tries to sell to the sheriff he's arrested, fined $50 and run out of town on a rail. If Bill earned $9 for every ounce of fool's gold he sold, how much money is he left with?
+A: First find the total amount of money Bill made from the merchant: 8 ounces * $9/ounce = $<<8*9=72>>72
+Then subtract the fine to find how much money he was left with: $72 - $50 = $<<72-50=22>>22
+#### 22
+Q: An organization trying to save endangered species of turtles has taken twice more hawksbill turtles than the number of green turtles into a conservation center. If the number of green turtles is 800, calculate the number of turtles that have been taken into the conservation center.
+A: If the number of hawksbill turtles is twice more than the number of green turtles, then there are 2*800 = <<2*800=1600>>1600 more hawksbill turtles.
+The total number of hawksbill turtles is 800+1600 = <<800+1600=2400>>2400
+The total number of turtles that have been taken into the conservation center is 2400+800 = <<2400+800=3200>>3200 turtles.
+#### 3200
+Q: Olga has an aquarium with fish in 5 different colors. There are 12 yellow ones, half as many blue ones, and twice as many green ones as yellow ones. How many fish does Olga have in her aquarium?
+A: Olga has half as many blue fish as yellow ones, which means 12 * 0.5 = <<12*0.5=6>>6 blue fish.
+Green fish are twice as many as yellow ones, so in total there are 12 * 2 = <<12*2=24>>24 green fish.
+So all the fish sum up to 12 + 6 + 24 = <<12+6+24=42>>42.
+#### 42
+","A: Terry makes 6 * $5.50 = $33 from the milkshakes.
+He makes 9 * $11 = $99 from the burger platters.
+He makes 20 * $1.50 = $30 from the sodas.
+Therefore, in total Terry makes $33 + $99 + $30 = $<<33+99+30=162>>162.","First find the total cost of the milkshakes: 6 milkshakes * $5.50/milkshake = $<<6*5.5=33>>33
+Then find the total cost of the burger platters: 9 platters * $11/platter = $<<9*11=99>>99
+Then find the total cost of the sodas: 20 sodas * $1.50/soda = $<<20*1.5=30>>30
+Then add the money from each type of food to find total amount of money Terry earns: $33 + $99 + $30 = $<<33+99+30=162>>162
+#### 162"
+Math,3a,"Q: Jason spent 1/4 of his money and an additional $10 on some books. He then spent 2/5 of the remaining money and an additional $8 on some DVDs. If he was left with $130, how much money did he have at first?
+A: Let X be the money Jason had at first.
+Jason spent 1/4*X + 10 on books.
+Jason spent 2/5*[X - (1/4*X + 10)] + 8 on some DVDs.
+Jason has X - (1/4*X + 10) - {2/5*[X - (1/4*X + 10)] + 8} = $130 left.
+X - 1/4*X - 10 - 2/5*X + 1/10*X + 4 - 8 = $130.
+9/20*X - 14 = $130.
+X = $<<320=320>>320.
+#### 320
+Q: Three baskets A, B and C contain different numbers of differently colored marbles. Basket A contains 4 red marbles and 2 yellow marbles. Basket B contains 6 green marbles and 1 yellow marble. Basket C contains 3 white marbles and 9 yellow marbles. What is the difference between the number of each color of marble in the basket that has the greatest difference?
+A: In basket A the number difference between differently colored marbles is 4-2 = <<4-2=2>>2
+In basket B the difference is 6-1 = <<6-1=5>>5
+In basket C the difference is 9-3 = <<9-3=6>>6
+Comparing 2, 5 and 6 shows that 6 is the greatest difference
+#### 6
+Q: If Alice purchased 3600 acorns for nine times the price Bob paid, and Bob paid $6000 for his acorns, how much money did Alice pay for each acorn?
+A: Nine times the price Bob paid for his acorns is 9*$6000 = $<<9*6000=54000>>54000
+If Alice purchased 3600 acorns for nine times the price Bob paid, she paid $54000/3600 = $15 for each acorn.
+#### 15
+Q: Jenny makes and freezes pans of lasagna all week so she can sell them at the market on the weekend.  It costs Jenny $10.00 in ingredients to make 1 pan of lasagna.  If she makes and sells 20 pans over the weekend at $25.00 apiece, how much does she make after factoring in expenses?
+A: Each pan costs $10.00 to make so for 20 pans, it will cost 10*20 = $<<10*20=200.00>>200.00
+She sells each of the 20 pans for $25.00 each so she will make 20*25 = $<<20*25=500.00>>500.00
+She makes $500.00 and spent $200.00 on ingredients so she makes 500-200 = $<<500-200=300.00>>300.00
+#### 300
+Q: Tamia is making dinner. She is using 5 bell peppers to make her meal. She likes to have a variety of sizes so some will melt and some will be thick enough to eat whole. First she cuts each bell pepper into 20 large slices. Then she takes half those slices and cuts them into 3 smaller pieces each. How many slices and pieces of bell pepper total is Tamia going to add to her meal?
+A: First, Tamia cuts the 5 bell peppers into 20 slices each, 5 x 20 = <<5*20=100>>100 slices.
+Then, she takes 1/2 of those to cut into smaller pieces, 100 / 2 = <<100/2=50>>50 slices to cut smaller.
+Tamia takes each of those 50 slices and cuts them into 3 pieces each, 50 x 3 = <<50*3=150>>150.
+Tamia is adding 50 slices + 150 smaller pieces = <<50+150=200>>200 pieces of bell pepper added to her meal.
+#### 200
+Q: Ross takes 17 breaths per minute by inhaling 5/9 liter of air to his lungs. What is the volume of air inhaled in 24 hours?
+A: We have 60 minutes per hour.
+So, in 24 hours we have 60 * 24 = <<60*24=1440>>1440 minutes.
+So, the volume of air Ross inhaled in 24 hours is: 17 breaths/minute * 5/9 L/breath * 1440 minutes = 122400 / 9 = <<17*5/9*1440=13600>>13600 liters.
+The volume of air inhaled is 13600 liters.
+#### 13600
+Q: Jason spent 1/4 of his money and an additional $10 on some books. He then spent 2/5 of the remaining money and an additional $8 on some DVDs. If he was left with $130, how much money did he have at first?
+A: Let X be the money Jason had at first.
+Jason spent 1/4*X + 10 on books.
+Jason spent 2/5*[X - (1/4*X + 10)] + 8 on some DVDs.
+Jason has X - (1/4*X + 10) - {2/5*[X - (1/4*X + 10)] + 8} = $130 left.
+X - 1/4*X - 10 - 2/5*X + 1/10*X + 4 - 8 = $130.
+9/20*X - 14 = $130.
+X = $<<320=320>>320.
+#### 320
+Q: Three baskets A, B and C contain different numbers of differently colored marbles. Basket A contains 4 red marbles and 2 yellow marbles. Basket B contains 6 green marbles and 1 yellow marble. Basket C contains 3 white marbles and 9 yellow marbles. What is the difference between the number of each color of marble in the basket that has the greatest difference?
+A: In basket A the number difference between differently colored marbles is 4-2 = <<4-2=2>>2
+In basket B the difference is 6-1 = <<6-1=5>>5
+In basket C the difference is 9-3 = <<9-3=6>>6
+Comparing 2, 5 and 6 shows that 6 is the greatest difference
+#### 6
+Q: If Alice purchased 3600 acorns for nine times the price Bob paid, and Bob paid $6000 for his acorns, how much money did Alice pay for each acorn?
+A: Nine times the price Bob paid for his acorns is 9*$6000 = $<<9*6000=54000>>54000
+If Alice purchased 3600 acorns for nine times the price Bob paid, she paid $54000/3600 = $15 for each acorn.
+#### 15
+Q: Jenny makes and freezes pans of lasagna all week so she can sell them at the market on the weekend.  It costs Jenny $10.00 in ingredients to make 1 pan of lasagna.  If she makes and sells 20 pans over the weekend at $25.00 apiece, how much does she make after factoring in expenses?
+A: Each pan costs $10.00 to make so for 20 pans, it will cost 10*20 = $<<10*20=200.00>>200.00
+She sells each of the 20 pans for $25.00 each so she will make 20*25 = $<<20*25=500.00>>500.00
+She makes $500.00 and spent $200.00 on ingredients so she makes 500-200 = $<<500-200=300.00>>300.00
+#### 300
+Q: Tamia is making dinner. She is using 5 bell peppers to make her meal. She likes to have a variety of sizes so some will melt and some will be thick enough to eat whole. First she cuts each bell pepper into 20 large slices. Then she takes half those slices and cuts them into 3 smaller pieces each. How many slices and pieces of bell pepper total is Tamia going to add to her meal?
+A: First, Tamia cuts the 5 bell peppers into 20 slices each, 5 x 20 = <<5*20=100>>100 slices.
+Then, she takes 1/2 of those to cut into smaller pieces, 100 / 2 = <<100/2=50>>50 slices to cut smaller.
+Tamia takes each of those 50 slices and cuts them into 3 pieces each, 50 x 3 = <<50*3=150>>150.
+Tamia is adding 50 slices + 150 smaller pieces = <<50+150=200>>200 pieces of bell pepper added to her meal.
+#### 200
+Q: Ross takes 17 breaths per minute by inhaling 5/9 liter of air to his lungs. What is the volume of air inhaled in 24 hours?
+A: We have 60 minutes per hour.
+So, in 24 hours we have 60 * 24 = <<60*24=1440>>1440 minutes.
+So, the volume of air Ross inhaled in 24 hours is: 17 breaths/minute * 5/9 L/breath * 1440 minutes = 122400 / 9 = <<17*5/9*1440=13600>>13600 liters.
+The volume of air inhaled is 13600 liters.
+#### 13600
+","A: Terry makes 6 milkshakes * $5.50 = $33 from milkshakes.
+He makes 9 burger platters * $11 = $99 from burger platters.
+He makes 20 sodas * $1.50 = $30 from sodas.
+In total, Terry makes $33 + $99 + $30 = $<<33+99+30=162>>162.","First find the total cost of the milkshakes: 6 milkshakes * $5.50/milkshake = $<<6*5.5=33>>33
+Then find the total cost of the burger platters: 9 platters * $11/platter = $<<9*11=99>>99
+Then find the total cost of the sodas: 20 sodas * $1.50/soda = $<<20*1.5=30>>30
+Then add the money from each type of food to find total amount of money Terry earns: $33 + $99 + $30 = $<<33+99+30=162>>162
+#### 162"
+Math,3b,"Q: A company has 200 employees.  60% of the employees drive to work.  Of the employees who don't drive to work, half take public transportation. How many more employees drive to work than take public transportation?
+A: Drive to work:200(.60)=<<200*.60=120>>120
+Don't Drive to work:200-120=<<200-120=80>>80
+Public Transportation:80(.50)=40 employees
+80-40=<<80-40=40>>40 employees
+#### 40
+Q: One dress requires 5.5 yards of fabric. Amare needs to make 4 dresses for the wedding and she has 7 feet of fabric. How many feet of fabric does Amare still need for the dresses?
+A: Dresses = 5.5 * 4 = <<5.5*4=22>>22 yards
+22 yards = <<22*3=66>>66 feet
+66 - 7 = <<66-7=59>>59
+Amare still needs 59 feet of fabric.
+#### 59
+Q: Annie calculated she has three times more toys than Mike, and two less than Tom. Mike has 6 toys. How many toys do Annie, Mike, and Tom have in total?
+A: Annie has three times more toys than Mike, which means she has 3 * 6 = <<3*6=18>>18 more toys than Mike.
+Annie has a total of 18+6= <<18+6=24>>24 toys.
+Tom has two toys more than Annie, so he has 24 + 2 = <<24+2=26>>26 toys.
+In total Annie, Mike, and Tom have 6 + 24 + 26 = <<6+24+26=56>>56 toys.
+#### 56
+Q: Bill the miner discovers a vein of fool's gold. He successfully sells 8 ounces to a merchant, but when he tries to sell to the sheriff he's arrested, fined $50 and run out of town on a rail. If Bill earned $9 for every ounce of fool's gold he sold, how much money is he left with?
+A: First find the total amount of money Bill made from the merchant: 8 ounces * $9/ounce = $<<8*9=72>>72
+Then subtract the fine to find how much money he was left with: $72 - $50 = $<<72-50=22>>22
+#### 22
+Q: An organization trying to save endangered species of turtles has taken twice more hawksbill turtles than the number of green turtles into a conservation center. If the number of green turtles is 800, calculate the number of turtles that have been taken into the conservation center.
+A: If the number of hawksbill turtles is twice more than the number of green turtles, then there are 2*800 = <<2*800=1600>>1600 more hawksbill turtles.
+The total number of hawksbill turtles is 800+1600 = <<800+1600=2400>>2400
+The total number of turtles that have been taken into the conservation center is 2400+800 = <<2400+800=3200>>3200 turtles.
+#### 3200
+Q: Olga has an aquarium with fish in 5 different colors. There are 12 yellow ones, half as many blue ones, and twice as many green ones as yellow ones. How many fish does Olga have in her aquarium?
+A: Olga has half as many blue fish as yellow ones, which means 12 * 0.5 = <<12*0.5=6>>6 blue fish.
+Green fish are twice as many as yellow ones, so in total there are 12 * 2 = <<12*2=24>>24 green fish.
+So all the fish sum up to 12 + 6 + 24 = <<12+6+24=42>>42.
+#### 42
+Q: A company has 200 employees.  60% of the employees drive to work.  Of the employees who don't drive to work, half take public transportation. How many more employees drive to work than take public transportation?
+A: Drive to work:200(.60)=<<200*.60=120>>120
+Don't Drive to work:200-120=<<200-120=80>>80
+Public Transportation:80(.50)=40 employees
+80-40=<<80-40=40>>40 employees
+#### 40
+Q: One dress requires 5.5 yards of fabric. Amare needs to make 4 dresses for the wedding and she has 7 feet of fabric. How many feet of fabric does Amare still need for the dresses?
+A: Dresses = 5.5 * 4 = <<5.5*4=22>>22 yards
+22 yards = <<22*3=66>>66 feet
+66 - 7 = <<66-7=59>>59
+Amare still needs 59 feet of fabric.
+#### 59
+Q: Annie calculated she has three times more toys than Mike, and two less than Tom. Mike has 6 toys. How many toys do Annie, Mike, and Tom have in total?
+A: Annie has three times more toys than Mike, which means she has 3 * 6 = <<3*6=18>>18 more toys than Mike.
+Annie has a total of 18+6= <<18+6=24>>24 toys.
+Tom has two toys more than Annie, so he has 24 + 2 = <<24+2=26>>26 toys.
+In total Annie, Mike, and Tom have 6 + 24 + 26 = <<6+24+26=56>>56 toys.
+#### 56
+Q: Bill the miner discovers a vein of fool's gold. He successfully sells 8 ounces to a merchant, but when he tries to sell to the sheriff he's arrested, fined $50 and run out of town on a rail. If Bill earned $9 for every ounce of fool's gold he sold, how much money is he left with?
+A: First find the total amount of money Bill made from the merchant: 8 ounces * $9/ounce = $<<8*9=72>>72
+Then subtract the fine to find how much money he was left with: $72 - $50 = $<<72-50=22>>22
+#### 22
+Q: An organization trying to save endangered species of turtles has taken twice more hawksbill turtles than the number of green turtles into a conservation center. If the number of green turtles is 800, calculate the number of turtles that have been taken into the conservation center.
+A: If the number of hawksbill turtles is twice more than the number of green turtles, then there are 2*800 = <<2*800=1600>>1600 more hawksbill turtles.
+The total number of hawksbill turtles is 800+1600 = <<800+1600=2400>>2400
+The total number of turtles that have been taken into the conservation center is 2400+800 = <<2400+800=3200>>3200 turtles.
+#### 3200
+Q: Olga has an aquarium with fish in 5 different colors. There are 12 yellow ones, half as many blue ones, and twice as many green ones as yellow ones. How many fish does Olga have in her aquarium?
+A: Olga has half as many blue fish as yellow ones, which means 12 * 0.5 = <<12*0.5=6>>6 blue fish.
+Green fish are twice as many as yellow ones, so in total there are 12 * 2 = <<12*2=24>>24 green fish.
+So all the fish sum up to 12 + 6 + 24 = <<12+6+24=42>>42.
+#### 42
+","A: From the milkshakes, Terry makes 6 * $5.50 = $<<6*5.50=33>>33
+From the burger platters, Terry makes 9 * $11 = $<<9*11=99>>99
+From the sodas, Terry makes 20 * $1.50 = $<<20*1.50=30>>30
+In total, Terry makes $33 + $99 + $30 = $<<33+99+30=162>>162.","First find the total cost of the milkshakes: 6 milkshakes * $5.50/milkshake = $<<6*5.5=33>>33
+Then find the total cost of the burger platters: 9 platters * $11/platter = $<<9*11=99>>99
+Then find the total cost of the sodas: 20 sodas * $1.50/soda = $<<20*1.5=30>>30
+Then add the money from each type of food to find total amount of money Terry earns: $33 + $99 + $30 = $<<33+99+30=162>>162
+#### 162"
+CSQA,1a,"Q: When in a serious relationship understanding better requires what?
+A: effort
+B: consistency
+C: thinking
+D: time
+E: knowledge of
+A: A
+Q: When giving assistance to family members in need you may feel what?
+A: death
+B: pleasure
+C: reward
+D: satisfaction
+E: sadness
+A: B
+Q: When is good time for garlic bread?
+A: refrigerator
+B: dinner
+C: jail
+D: supermarket
+E: going on a date
+A: B
+Q: One of the best ways to improve how you wrestle is by doing what?
+A: strong
+B: take lessons
+C: improve fist technique
+D: train yourself
+E: have strength
+A: B
+Q: If you get too drunk and make a mess with your own liquids what have you likely done?
+A: vomit
+B: fall down
+C: stagger
+D: spill gasoline
+E: get arrested
+A: A
+Q: Some people add up to something, but others put in no effort in their lives ending with what result?
+A: amount to nothing
+B: talking loudly
+C: mathematics
+D: learn from each other
+E: state facts
+A: A
+",A: A,
+CSQA,1a,"Q: Why would a person be happy about an accident?
+A: found a penny
+B: hurt people
+C: not harmed
+D: harm others
+E: make mistakes
+A: C
+Q: What would a team be doing when a winning baseball game is imminent?
+A: pride
+B: recognition
+C: celebrating
+D: joy
+E: going home
+A: C
+Q: What state north of alabama has many a beaver?
+A: beaverton
+B: canada
+C: river or stream
+D: kentucky
+E: montana
+A: D
+Q: It was hard for them to get news that was local, this is because they lived so what?
+A: distant
+B: remote
+C: fluidly
+D: national
+E: foreign
+A: B
+Q: Where is the supreme courthouse in a state typically located?
+A: michigan
+B: down the street
+C: capital city
+D: get married in
+E: center of town
+A: C
+Q: The automobile was left outside when the man got home from work, where was i left?
+A: exit ramp
+B: repair shop
+C: driveway
+D: front yard
+E: garage
+A: C
+",A: A,
+CSQA,2,"Q: When in a serious relationship understanding better requires what?
+A: effort
+B: consistency
+C: thinking
+D: time
+E: knowledge of
+A: A
+Q: When giving assistance to family members in need you may feel what?
+A: death
+B: pleasure
+C: reward
+D: satisfaction
+E: sadness
+A: B
+Q: When is good time for garlic bread?
+A: refrigerator
+B: dinner
+C: jail
+D: supermarket
+E: going on a date
+A: B
+Q: One of the best ways to improve how you wrestle is by doing what?
+A: strong
+B: take lessons
+C: improve fist technique
+D: train yourself
+E: have strength
+A: B
+Q: If you get too drunk and make a mess with your own liquids what have you likely done?
+A: vomit
+B: fall down
+C: stagger
+D: spill gasoline
+E: get arrested
+A: A
+Q: Some people add up to something, but others put in no effort in their lives ending with what result?
+A: amount to nothing
+B: talking loudly
+C: mathematics
+D: learn from each other
+E: state facts
+A: A
+Q: Why would a person be happy about an accident?
+A: found a penny
+B: hurt people
+C: not harmed
+D: harm others
+E: make mistakes
+A: C
+Q: What would a team be doing when a winning baseball game is imminent?
+A: pride
+B: recognition
+C: celebrating
+D: joy
+E: going home
+A: C
+Q: What state north of alabama has many a beaver?
+A: beaverton
+B: canada
+C: river or stream
+D: kentucky
+E: montana
+A: D
+Q: It was hard for them to get news that was local, this is because they lived so what?
+A: distant
+B: remote
+C: fluidly
+D: national
+E: foreign
+A: B
+Q: Where is the supreme courthouse in a state typically located?
+A: michigan
+B: down the street
+C: capital city
+D: get married in
+E: center of town
+A: C
+Q: The automobile was left outside when the man got home from work, where was i left?
+A: exit ramp
+B: repair shop
+C: driveway
+D: front yard
+E: garage
+A: C
+",A: A,
+CSQA,3a,"Q: When in a serious relationship understanding better requires what?
+A: effort
+B: consistency
+C: thinking
+D: time
+E: knowledge of
+A: A
+Q: When giving assistance to family members in need you may feel what?
+A: death
+B: pleasure
+C: reward
+D: satisfaction
+E: sadness
+A: B
+Q: When is good time for garlic bread?
+A: refrigerator
+B: dinner
+C: jail
+D: supermarket
+E: going on a date
+A: B
+Q: One of the best ways to improve how you wrestle is by doing what?
+A: strong
+B: take lessons
+C: improve fist technique
+D: train yourself
+E: have strength
+A: B
+Q: If you get too drunk and make a mess with your own liquids what have you likely done?
+A: vomit
+B: fall down
+C: stagger
+D: spill gasoline
+E: get arrested
+A: A
+Q: Some people add up to something, but others put in no effort in their lives ending with what result?
+A: amount to nothing
+B: talking loudly
+C: mathematics
+D: learn from each other
+E: state facts
+A: A
+Q: When in a serious relationship understanding better requires what?
+A: effort
+B: consistency
+C: thinking
+D: time
+E: knowledge of
+A: A
+Q: When giving assistance to family members in need you may feel what?
+A: death
+B: pleasure
+C: reward
+D: satisfaction
+E: sadness
+A: B
+Q: When is good time for garlic bread?
+A: refrigerator
+B: dinner
+C: jail
+D: supermarket
+E: going on a date
+A: B
+Q: One of the best ways to improve how you wrestle is by doing what?
+A: strong
+B: take lessons
+C: improve fist technique
+D: train yourself
+E: have strength
+A: B
+Q: If you get too drunk and make a mess with your own liquids what have you likely done?
+A: vomit
+B: fall down
+C: stagger
+D: spill gasoline
+E: get arrested
+A: A
+Q: Some people add up to something, but others put in no effort in their lives ending with what result?
+A: amount to nothing
+B: talking loudly
+C: mathematics
+D: learn from each other
+E: state facts
+A: A
+",A: A,
+CSQA,3b,"Q: Why would a person be happy about an accident?
+A: found a penny
+B: hurt people
+C: not harmed
+D: harm others
+E: make mistakes
+A: C
+Q: What would a team be doing when a winning baseball game is imminent?
+A: pride
+B: recognition
+C: celebrating
+D: joy
+E: going home
+A: C
+Q: What state north of alabama has many a beaver?
+A: beaverton
+B: canada
+C: river or stream
+D: kentucky
+E: montana
+A: D
+Q: It was hard for them to get news that was local, this is because they lived so what?
+A: distant
+B: remote
+C: fluidly
+D: national
+E: foreign
+A: B
+Q: Where is the supreme courthouse in a state typically located?
+A: michigan
+B: down the street
+C: capital city
+D: get married in
+E: center of town
+A: C
+Q: The automobile was left outside when the man got home from work, where was i left?
+A: exit ramp
+B: repair shop
+C: driveway
+D: front yard
+E: garage
+A: C
+Q: Why would a person be happy about an accident?
+A: found a penny
+B: hurt people
+C: not harmed
+D: harm others
+E: make mistakes
+A: C
+Q: What would a team be doing when a winning baseball game is imminent?
+A: pride
+B: recognition
+C: celebrating
+D: joy
+E: going home
+A: C
+Q: What state north of alabama has many a beaver?
+A: beaverton
+B: canada
+C: river or stream
+D: kentucky
+E: montana
+A: D
+Q: It was hard for them to get news that was local, this is because they lived so what?
+A: distant
+B: remote
+C: fluidly
+D: national
+E: foreign
+A: B
+Q: Where is the supreme courthouse in a state typically located?
+A: michigan
+B: down the street
+C: capital city
+D: get married in
+E: center of town
+A: C
+Q: The automobile was left outside when the man got home from work, where was i left?
+A: exit ramp
+B: repair shop
+C: driveway
+D: front yard
+E: garage
+A: C
+",A: A,
+StrategyQA,1a,"Q: Narcissism comes from the ancient Greek story of Narcissus, who fell in love with his own reflection. Aphrodisiac comes from stories about the ancient Greek goddess Aphrodite. Europe comes from Europa, an ancient Greek princess. The word stygian relates to the river of Hades in Greek mythology. Hypnosis comes from Hypnos, the Greek god of sleep.
+Is narcissism's origin a rare place to get modern words from?
+A: False
+Q: Benito Mussolini was 5' 6​1⁄2"" tall. Hafþór Björnsson is 6 feet 9 inches tall. Shoe size increases proportionally as height increases.
+Did Benito Mussolini wear bigger shoes than Hafþór Björnsson?
+A: False
+Q: A White Russian is a drink containing cream, vodka, and Kahlua. Mixing lime and cream results in curdled milk, which is not good to drink.
+Would kaffir lime be good in a White Russian?
+A: False
+Q: Mary, Queen of Scots was the queen of Scotland whose rivalry with Elizabeth I led to her beheading. Mary, Queen of Scots son became King of England as James I. The Gunpowder plot was a 1605 plot to blow up Parliament and King James I. The Gunpowder plot failed and the conspirators were executed. King James I was succeeded by his son, Charles I of England.
+Did the Gunpowder plot eliminate Mary, Queen of Scots bloodline?
+A: False
+Q: Clorox is a brand name of a line of bleach products. Ammonia and bleach react together to produce toxic gas.
+Is it safe to use Ammonia with Clorox?
+A: False
+Q: The 2020 British royal family includes Queen Elizabeth II and her children. Prince Andrew is the son of Queen Elizabeth II. Prince Andrew was accused of sexual abuse in 2019. Sexual assault is classified as a felony.
+Have any members of the 2020 British royal family allegedly committed a felony?
+A: True
+",False,True
+StrategyQA,1a,"Q: The center of a papaya contains a cluster of seeds. Papaya seeds, while edible, are often discarded for the soft flesh that surrounds them.
+Is the best tasting part of the papaya in the center?
+A: False
+Q: The Berlin University of the Arts is a German school created in 1696. The Baroque period lasted in Europe from 1600 to 1750.
+Is the Berlin University of the Arts a Baroque period relic?
+A: True
+Q: Frigates are a kind of sailing ship. Many features of ships require rope to use.
+Are ropes required to operate a frigate?
+A: True
+Q: Route 66 was immortalized in the hit ""Route 66"" by Bobby Troupe. ""Route 66"" as a song has reached the Billboard Top Charts multiple times and is still played often.
+Is Route 66 generally unknown to Americans?
+A: False
+Q: Elizabeth I of England lived from 1533 - 1603. Dido, Queen of Carthage is a short play written by the English playwright Christopher Marlowe.  It was probably written between 1587 and 1593.
+Could Elizabeth I of England have seen the play Dido, Queen of Carthage ?
+A: True
+Q: Warm weather attire would not protect your body in cold temperatures. Mercury can reach temperatures of −280 °F at night.
+Would only warm weather attire be a good idea on Mercury?
+A: False
+",A: False,True
+StrategyQA,2,"Q: Narcissism comes from the ancient Greek story of Narcissus, who fell in love with his own reflection. Aphrodisiac comes from stories about the ancient Greek goddess Aphrodite. Europe comes from Europa, an ancient Greek princess. The word stygian relates to the river of Hades in Greek mythology. Hypnosis comes from Hypnos, the Greek god of sleep.
+Is narcissism's origin a rare place to get modern words from?
+A: False
+Q: Benito Mussolini was 5' 6​1⁄2"" tall. Hafþór Björnsson is 6 feet 9 inches tall. Shoe size increases proportionally as height increases.
+Did Benito Mussolini wear bigger shoes than Hafþór Björnsson?
+A: False
+Q: A White Russian is a drink containing cream, vodka, and Kahlua. Mixing lime and cream results in curdled milk, which is not good to drink.
+Would kaffir lime be good in a White Russian?
+A: False
+Q: Mary, Queen of Scots was the queen of Scotland whose rivalry with Elizabeth I led to her beheading. Mary, Queen of Scots son became King of England as James I. The Gunpowder plot was a 1605 plot to blow up Parliament and King James I. The Gunpowder plot failed and the conspirators were executed. King James I was succeeded by his son, Charles I of England.
+Did the Gunpowder plot eliminate Mary, Queen of Scots bloodline?
+A: False
+Q: Clorox is a brand name of a line of bleach products. Ammonia and bleach react together to produce toxic gas.
+Is it safe to use Ammonia with Clorox?
+A: False
+Q: The 2020 British royal family includes Queen Elizabeth II and her children. Prince Andrew is the son of Queen Elizabeth II. Prince Andrew was accused of sexual abuse in 2019. Sexual assault is classified as a felony.
+Have any members of the 2020 British royal family allegedly committed a felony?
+A: True
+Q: The center of a papaya contains a cluster of seeds. Papaya seeds, while edible, are often discarded for the soft flesh that surrounds them.
+Is the best tasting part of the papaya in the center?
+A: False
+Q: The Berlin University of the Arts is a German school created in 1696. The Baroque period lasted in Europe from 1600 to 1750.
+Is the Berlin University of the Arts a Baroque period relic?
+A: True
+Q: Frigates are a kind of sailing ship. Many features of ships require rope to use.
+Are ropes required to operate a frigate?
+A: True
+Q: Route 66 was immortalized in the hit ""Route 66"" by Bobby Troupe. ""Route 66"" as a song has reached the Billboard Top Charts multiple times and is still played often.
+Is Route 66 generally unknown to Americans?
+A: False
+Q: Elizabeth I of England lived from 1533 - 1603. Dido, Queen of Carthage is a short play written by the English playwright Christopher Marlowe.  It was probably written between 1587 and 1593.
+Could Elizabeth I of England have seen the play Dido, Queen of Carthage ?
+A: True
+Q: Warm weather attire would not protect your body in cold temperatures. Mercury can reach temperatures of −280 °F at night.
+Would only warm weather attire be a good idea on Mercury?
+A: False
+",False,True
+StrategyQA,3a,"Q: Narcissism comes from the ancient Greek story of Narcissus, who fell in love with his own reflection. Aphrodisiac comes from stories about the ancient Greek goddess Aphrodite. Europe comes from Europa, an ancient Greek princess. The word stygian relates to the river of Hades in Greek mythology. Hypnosis comes from Hypnos, the Greek god of sleep.
+Is narcissism's origin a rare place to get modern words from?
+A: False
+Q: Benito Mussolini was 5' 6​1⁄2"" tall. Hafþór Björnsson is 6 feet 9 inches tall. Shoe size increases proportionally as height increases.
+Did Benito Mussolini wear bigger shoes than Hafþór Björnsson?
+A: False
+Q: A White Russian is a drink containing cream, vodka, and Kahlua. Mixing lime and cream results in curdled milk, which is not good to drink.
+Would kaffir lime be good in a White Russian?
+A: False
+Q: Mary, Queen of Scots was the queen of Scotland whose rivalry with Elizabeth I led to her beheading. Mary, Queen of Scots son became King of England as James I. The Gunpowder plot was a 1605 plot to blow up Parliament and King James I. The Gunpowder plot failed and the conspirators were executed. King James I was succeeded by his son, Charles I of England.
+Did the Gunpowder plot eliminate Mary, Queen of Scots bloodline?
+A: False
+Q: Clorox is a brand name of a line of bleach products. Ammonia and bleach react together to produce toxic gas.
+Is it safe to use Ammonia with Clorox?
+A: False
+Q: The 2020 British royal family includes Queen Elizabeth II and her children. Prince Andrew is the son of Queen Elizabeth II. Prince Andrew was accused of sexual abuse in 2019. Sexual assault is classified as a felony.
+Have any members of the 2020 British royal family allegedly committed a felony?
+A: True
+Q: Narcissism comes from the ancient Greek story of Narcissus, who fell in love with his own reflection. Aphrodisiac comes from stories about the ancient Greek goddess Aphrodite. Europe comes from Europa, an ancient Greek princess. The word stygian relates to the river of Hades in Greek mythology. Hypnosis comes from Hypnos, the Greek god of sleep.
+Is narcissism's origin a rare place to get modern words from?
+A: False
+Q: Benito Mussolini was 5' 6​1⁄2"" tall. Hafþór Björnsson is 6 feet 9 inches tall. Shoe size increases proportionally as height increases.
+Did Benito Mussolini wear bigger shoes than Hafþór Björnsson?
+A: False
+Q: A White Russian is a drink containing cream, vodka, and Kahlua. Mixing lime and cream results in curdled milk, which is not good to drink.
+Would kaffir lime be good in a White Russian?
+A: False
+Q: Mary, Queen of Scots was the queen of Scotland whose rivalry with Elizabeth I led to her beheading. Mary, Queen of Scots son became King of England as James I. The Gunpowder plot was a 1605 plot to blow up Parliament and King James I. The Gunpowder plot failed and the conspirators were executed. King James I was succeeded by his son, Charles I of England.
+Did the Gunpowder plot eliminate Mary, Queen of Scots bloodline?
+A: False
+Q: Clorox is a brand name of a line of bleach products. Ammonia and bleach react together to produce toxic gas.
+Is it safe to use Ammonia with Clorox?
+A: False
+Q: The 2020 British royal family includes Queen Elizabeth II and her children. Prince Andrew is the son of Queen Elizabeth II. Prince Andrew was accused of sexual abuse in 2019. Sexual assault is classified as a felony.
+Have any members of the 2020 British royal family allegedly committed a felony?
+A: True
+",False,True
+StrategyQA,3b,"Q: The center of a papaya contains a cluster of seeds. Papaya seeds, while edible, are often discarded for the soft flesh that surrounds them.
+Is the best tasting part of the papaya in the center?
+A: False
+Q: The Berlin University of the Arts is a German school created in 1696. The Baroque period lasted in Europe from 1600 to 1750.
+Is the Berlin University of the Arts a Baroque period relic?
+A: True
+Q: Frigates are a kind of sailing ship. Many features of ships require rope to use.
+Are ropes required to operate a frigate?
+A: True
+Q: Route 66 was immortalized in the hit ""Route 66"" by Bobby Troupe. ""Route 66"" as a song has reached the Billboard Top Charts multiple times and is still played often.
+Is Route 66 generally unknown to Americans?
+A: False
+Q: Elizabeth I of England lived from 1533 - 1603. Dido, Queen of Carthage is a short play written by the English playwright Christopher Marlowe.  It was probably written between 1587 and 1593.
+Could Elizabeth I of England have seen the play Dido, Queen of Carthage ?
+A: True
+Q: Warm weather attire would not protect your body in cold temperatures. Mercury can reach temperatures of −280 °F at night.
+Would only warm weather attire be a good idea on Mercury?
+A: False
+Q: The center of a papaya contains a cluster of seeds. Papaya seeds, while edible, are often discarded for the soft flesh that surrounds them.
+Is the best tasting part of the papaya in the center?
+A: False
+Q: The Berlin University of the Arts is a German school created in 1696. The Baroque period lasted in Europe from 1600 to 1750.
+Is the Berlin University of the Arts a Baroque period relic?
+A: True
+Q: Frigates are a kind of sailing ship. Many features of ships require rope to use.
+Are ropes required to operate a frigate?
+A: True
+Q: Route 66 was immortalized in the hit ""Route 66"" by Bobby Troupe. ""Route 66"" as a song has reached the Billboard Top Charts multiple times and is still played often.
+Is Route 66 generally unknown to Americans?
+A: False
+Q: Elizabeth I of England lived from 1533 - 1603. Dido, Queen of Carthage is a short play written by the English playwright Christopher Marlowe.  It was probably written between 1587 and 1593.
+Could Elizabeth I of England have seen the play Dido, Queen of Carthage ?
+A: True
+Q: Warm weather attire would not protect your body in cold temperatures. Mercury can reach temperatures of −280 °F at night.
+Would only warm weather attire be a good idea on Mercury?
+A: False
+",A: True,True
+SayCan,1a,"Q: Can you bring me something salty?
+A: 1. find a sea salt chips, 2. pick up the sea salt chips, 3. bring it to you, 4. put down the sea salt chips, 5. done.
+Q: Bring me a soda that isn’t a coke.
+A: 1. find a pepsi, 2. pick up the pepsi, 3. bring it to you, 4. put down the pepsi, 5. done.
+Q: How would you bring me the open can?
+A: 1. find a sprite can, 2. pick up the sprite can, 3. bring it to you, 4. put down the sprite can, 5. done
+Q: How would you park at the table?
+A: 1. go to the table, 2. done
+Q: Grab the coke can.
+A: 1. pick up the coke can, 2. done
+Q: Bring me a drink that isn’t an water or a coke.
+A: 1. find the tea, 2. pick up the tea, 3. bring it to you, 4. put down the tea, 5. done
+","A: 1. find a caffeine-free soda, 2. pick up the caffeine-free soda, 3. bring it to you, 4. put down the caffeine-free soda, 5. done","1. find a 7up, 2. pick up the 7up, 3. bring it to you, 4. put down the 7up, 5. done."
+SayCan,1a,"Q: How would you go to the table and the counter?
+A: 1. go to the table, 2. go to the counter, 3. done
+Q: Go to the table.
+A: 1. go to the table, 2. done
+Q: How would you throw a coke can away?
+A: 1. find a coke can, 2. pick up the coke can, 3. go to the trash, 4. put down the coke can, 5. done
+Q: Find the table.
+A: 1. go to the table, 2. done
+Q: I love spice, can you get something to eat?
+A: 1. find the jalapeno chips, 2. pick up the jalapeno chips, 3. bring it to you, 4. put down the jalapeno chips, 5. done
+Q: How would you pick up the coke can?
+A: 1. pick up the coke can, 2. done
+","A: 1. find a non-caffeinated soda, 2. pick up the soda, 3. bring it to you, 4. put down the soda, 5. done","1. find a 7up, 2. pick up the 7up, 3. bring it to you, 4. put down the 7up, 5. done."
+SayCan,2,"Q: Can you bring me something salty?
+A: 1. find a sea salt chips, 2. pick up the sea salt chips, 3. bring it to you, 4. put down the sea salt chips, 5. done.
+Q: Bring me a soda that isn’t a coke.
+A: 1. find a pepsi, 2. pick up the pepsi, 3. bring it to you, 4. put down the pepsi, 5. done.
+Q: How would you bring me the open can?
+A: 1. find a sprite can, 2. pick up the sprite can, 3. bring it to you, 4. put down the sprite can, 5. done
+Q: How would you park at the table?
+A: 1. go to the table, 2. done
+Q: Grab the coke can.
+A: 1. pick up the coke can, 2. done
+Q: Bring me a drink that isn’t an water or a coke.
+A: 1. find the tea, 2. pick up the tea, 3. bring it to you, 4. put down the tea, 5. done
+Q: How would you go to the table and the counter?
+A: 1. go to the table, 2. go to the counter, 3. done
+Q: Go to the table.
+A: 1. go to the table, 2. done
+Q: How would you throw a coke can away?
+A: 1. find a coke can, 2. pick up the coke can, 3. go to the trash, 4. put down the coke can, 5. done
+Q: Find the table.
+A: 1. go to the table, 2. done
+Q: I love spice, can you get something to eat?
+A: 1. find the jalapeno chips, 2. pick up the jalapeno chips, 3. bring it to you, 4. put down the jalapeno chips, 5. done
+Q: How would you pick up the coke can?
+A: 1. pick up the coke can, 2. done
+","A: 1. find a caffeine-free soda, 2. pick up the caffeine-free soda, 3. bring it to you, 4. put down the caffeine-free soda, 5. done","1. find a 7up, 2. pick up the 7up, 3. bring it to you, 4. put down the 7up, 5. done."
+SayCan,3a,"Q: Can you bring me something salty?
+A: 1. find a sea salt chips, 2. pick up the sea salt chips, 3. bring it to you, 4. put down the sea salt chips, 5. done.
+Q: Bring me a soda that isn’t a coke.
+A: 1. find a pepsi, 2. pick up the pepsi, 3. bring it to you, 4. put down the pepsi, 5. done.
+Q: How would you bring me the open can?
+A: 1. find a sprite can, 2. pick up the sprite can, 3. bring it to you, 4. put down the sprite can, 5. done
+Q: How would you park at the table?
+A: 1. go to the table, 2. done
+Q: Grab the coke can.
+A: 1. pick up the coke can, 2. done
+Q: Bring me a drink that isn’t an water or a coke.
+A: 1. find the tea, 2. pick up the tea, 3. bring it to you, 4. put down the tea, 5. done
+Q: Can you bring me something salty?
+A: 1. find a sea salt chips, 2. pick up the sea salt chips, 3. bring it to you, 4. put down the sea salt chips, 5. done.
+Q: Bring me a soda that isn’t a coke.
+A: 1. find a pepsi, 2. pick up the pepsi, 3. bring it to you, 4. put down the pepsi, 5. done.
+Q: How would you bring me the open can?
+A: 1. find a sprite can, 2. pick up the sprite can, 3. bring it to you, 4. put down the sprite can, 5. done
+Q: How would you park at the table?
+A: 1. go to the table, 2. done
+Q: Grab the coke can.
+A: 1. pick up the coke can, 2. done
+Q: Bring me a drink that isn’t an water or a coke.
+A: 1. find the tea, 2. pick up the tea, 3. bring it to you, 4. put down the tea, 5. done
+","A: 1. find a caffeine-free soda, 2. pick up the caffeine-free soda, 3. bring it to you, 4. put down the caffeine-free soda, 5. done.","1. find a 7up, 2. pick up the 7up, 3. bring it to you, 4. put down the 7up, 5. done."
+SayCan,3b,"Q: How would you go to the table and the counter?
+A: 1. go to the table, 2. go to the counter, 3. done
+Q: Go to the table.
+A: 1. go to the table, 2. done
+Q: How would you throw a coke can away?
+A: 1. find a coke can, 2. pick up the coke can, 3. go to the trash, 4. put down the coke can, 5. done
+Q: Find the table.
+A: 1. go to the table, 2. done
+Q: I love spice, can you get something to eat?
+A: 1. find the jalapeno chips, 2. pick up the jalapeno chips, 3. bring it to you, 4. put down the jalapeno chips, 5. done
+Q: How would you pick up the coke can?
+A: 1. pick up the coke can, 2. done
+Q: How would you go to the table and the counter?
+A: 1. go to the table, 2. go to the counter, 3. done
+Q: Go to the table.
+A: 1. go to the table, 2. done
+Q: How would you throw a coke can away?
+A: 1. find a coke can, 2. pick up the coke can, 3. go to the trash, 4. put down the coke can, 5. done
+Q: Find the table.
+A: 1. go to the table, 2. done
+Q: I love spice, can you get something to eat?
+A: 1. find the jalapeno chips, 2. pick up the jalapeno chips, 3. bring it to you, 4. put down the jalapeno chips, 5. done
+Q: How would you pick up the coke can?
+A: 1. pick up the coke can, 2. done
+","A: 1. find a non-caffeinated soda, 2. pick up the soda, 3. bring it to you, 4. put down the soda, 5. done","1. find a 7up, 2. pick up the 7up, 3. bring it to you, 4. put down the 7up, 5. done."

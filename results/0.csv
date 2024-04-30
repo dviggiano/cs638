@@ -1,48 +1,881 @@
-Task Class,Case,Response,True Answer
-Math,1a,"A: If each class has 80 students total and 40% of the students are girls, then 60% of the students are boys.
-So, in each class, there are 80 students x 60% = 48 boys.
-Therefore, there are 48 boys in each class.","If both classes have the same amount of students, that means each of them has 80 / 2 = <<80/2=40>>40 students.
-The girls in each class make up to 40%, so there are 40/100 * 40 = <<40/100*40=16>>16 girls in each of them.
-That means the rest of the class are boys, so there are 40 - 16 = <<40-16=24>>24 boys in each class.
-#### 24"
-Math,1a,"A: If 40% of the students in each class are girls, then 60% are boys.
-Since each class has the same number of students, then 60% of the students in each class are boys.
-This means that 60% of the students in each class are boys, so there are 60/100 * 80 = <<60/100*80=48>>48 boys in each class.
-So, there are 48 boys in each class.","If both classes have the same amount of students, that means each of them has 80 / 2 = <<80/2=40>>40 students.
-The girls in each class make up to 40%, so there are 40/100 * 40 = <<40/100*40=16>>16 girls in each of them.
-That means the rest of the class are boys, so there are 40 - 16 = <<40-16=24>>24 boys in each class.
-#### 24"
-Math,2,"A: If each class has the same amount of students, then each class has 80 students / 2 = <<80/2=40>>40 students.
-If 40% of the students in each class are girls, then 60% are boys.
-Therefore, there are 40 students x 60% = <<40*60*.01=24>>24 boys in each class.","If both classes have the same amount of students, that means each of them has 80 / 2 = <<80/2=40>>40 students.
-The girls in each class make up to 40%, so there are 40/100 * 40 = <<40/100*40=16>>16 girls in each of them.
-That means the rest of the class are boys, so there are 40 - 16 = <<40-16=24>>24 boys in each class.
-#### 24"
-Math,3a,"A: Since each class has the same number of students and 40% are girls, then 60% are boys in each class.
-If the total number of students in both classes is 80, then each class has 80 / 2 = 40 students.
-60% of 40 students is 0.60 * 40 = <<0.60*40=24>>24 boys in each class.
-Therefore, each class has 24 boys.","If both classes have the same amount of students, that means each of them has 80 / 2 = <<80/2=40>>40 students.
-The girls in each class make up to 40%, so there are 40/100 * 40 = <<40/100*40=16>>16 girls in each of them.
-That means the rest of the class are boys, so there are 40 - 16 = <<40-16=24>>24 boys in each class.
-#### 24"
-Math,3b,"A: If each class has the same number of students and 40% of the students are girls, then 60% are boys.
-So, in each class, 60% of the students are boys, which means there are 0.6 * 80 = 48 boys in each class. 
-Therefore, there are 48 boys in each class.","If both classes have the same amount of students, that means each of them has 80 / 2 = <<80/2=40>>40 students.
-The girls in each class make up to 40%, so there are 40/100 * 40 = <<40/100*40=16>>16 girls in each of them.
-That means the rest of the class are boys, so there are 40 - 16 = <<40-16=24>>24 boys in each class.
-#### 24"
-CSQA,1a,A: C,
-CSQA,1a,A: C,
-CSQA,2,A: C,
-CSQA,3a,C,
-CSQA,3b,A: C,
-StrategyQA,1a,A: False,False
-StrategyQA,1a,A: False,False
-StrategyQA,2,A: False,False
-StrategyQA,3a,A: False,False
-StrategyQA,3b,A: False.,False
-SayCan,1a,"A: 1. find a sprite or 7up, 2. pick up the soda, 3. bring it to you, 4. put down the soda, 5. done","1. find a 7up, 2. pick up the 7up, 3. bring it to you, 4. put down the 7up, 5. done"
-SayCan,1a,"A: 1. find a Sprite, 2. pick up the Sprite, 3. bring it to you, 4. put down the Sprite, 5. done.","1. find a 7up, 2. pick up the 7up, 3. bring it to you, 4. put down the 7up, 5. done"
-SayCan,2,"A: 1. find a Sprite, 2. pick up the Sprite, 3. bring it to you, 4. put down the Sprite, 5. done.","1. find a 7up, 2. pick up the 7up, 3. bring it to you, 4. put down the 7up, 5. done"
-SayCan,3a,"A: 1. find a Sprite, 2. pick up the Sprite, 3. bring it to you, 4. put down the Sprite, 5. done.","1. find a 7up, 2. pick up the 7up, 3. bring it to you, 4. put down the 7up, 5. done"
-SayCan,3b,"A: 1. find a 7up, 2. pick up the 7up, 3. bring it to you, 4. put down the 7up, 5. done.","1. find a 7up, 2. pick up the 7up, 3. bring it to you, 4. put down the 7up, 5. done"
+Task Class,Case,Examples,Response,True Answer
+Math,1a,"Q: A family bought 1 box of pizza that is cut into 16 slices. Only three-fourths of the pizza was eaten by the family. How many slices of pizza were left?
+A: The family ate 16 x 3/4 = <<16*3/4=12>>12 slices.
+So, there were 16 - 12 = <<16-12=4>>4 slices of pizza left.
+#### 4
+Q: Parker is 4 inches shorter than Daisy. Daisy is 8 inches taller than Reese. If Reese is 60 inches tall, what is the average height for the three of them?
+A: Since Daisy is 6 inches taller than Reese, she must be 60 inches + 8 inches = 68 inches tall.
+Parker is 4 inches shorter than Daisy, making her 68 inches – 4 inches = <<68-4=64>>64 inches.
+The average height of the three of them is (60 inches + 68 inches + 64 inches) / 3 = <<(60+68+64)/3=64>>64 inches.
+#### 64
+Q: 20 kids in preschool are ready for a nap.  1/2 of the kids fall asleep within the first 5 minutes.  Then half of the kids remaining fall asleep within another 5 minutes.  How many kids are still awake?
+A: In a class with 20 kids, 1/2 of the students have already fallen asleep so 20/2 = <<20/2=10>>10 kids are already asleep
+We start with 20 kids awake and 10 are already asleep so 20- 10 = <<20-10=10>>10 kids are still awake
+1/2 of these 10 kids fall asleep next meaning there are 10/2 = <<10/2=5>>5 students still awake
+#### 5
+Q: Jerry takes 2 antacids that weigh 2 grams each and are 5% zinc by weight. Then he takes three more smaller antacids that weigh 1 gram each and have 15% zinc. How many milligrams of zinc does he eat?
+A: First find the total weight of the big antacids: 2 grams/antacid * 2 antacids = <<2*2=4>>4 grams
+Then convert that weight to milligrams: 4 grams * 1000 mg/gram = <<4*1000=4000>>4000 mg
+Then multiply that number by 5% to find how much zinc is in the big antacids: 4000 mg * 5% = <<4000*5*.01=200>>200 mg
+Then find the total weight of the smaller antacids in milligrams: 3 antacids * 1 gram/antacid * 1000 mg/gram = <<3*1*1000=3000>>3000 mg
+Then multiply that number by the percent of zinc to find the amount of zinc in the small antacids: 3000 mg * 15% = 450 mg
+Then add the zinc Jerry gets from each set of pills to find the total amount of zinc he eats: 450 mg + 200 mg = <<450+200=650>>650 mg
+#### 650
+Q: Jill can run up a hill at 9 feet/second and down a hill at 12 feet/second. How long does it take her to run up and down a 900 foot hill?
+A: First find the time it takes Jill to run up the hill: 900 feet / 9 feet/second = <<900/9=100>>100 seconds
+Then find the time it takes Jill to run down the hill: 900 feet / 12 feet/second = <<900/12=75>>75 seconds
+Then add the two times to find Jill's total time: 100 seconds + 75 seconds = <<100+75=175>>175 seconds
+#### 175
+Q: John ends up serving on jury duty.  Jury selection takes 2 days.  The trial itself lasts 4 times as long as jury selection  It is a complicated trial.  The number of hours spent in jury deliberation was the equivalent of 6 full days.  They spend 16 hours a day in deliberation.  How many days does John spend on jury duty?
+A: Deliberation ended up taking 6 * 24 = <<6*24=144>>144 hours
+That means they spent 144 / 16 = <<144/16=9>>9 days in deliberation
+The trial lasted 2 * 4 = <<2*4=8>>8 days
+So he spent 2 + 8 + 9 = <<2+8+9=19>>19 days on jury duty
+#### 19
+","A: The total weight of Jack and 8 other adults is 8 adults * 80 kg/adult + 1 adult (Jack) * 80 kg = 720 kg
+They will have exceeded the maximum load of the elevator by 720 kg - 700 kg = 20 kg.","Jack and 8 other adults form a total of 8 adults + 1 adult = <<8+1=9>>9 adults.
+In total, the 9 adults together weigh 9 adults * 80 kg/adult = <<9*80=720>>720 kg.
+They have exceeded the maximum load of the elevator by 720 kg - 700 kg = <<720-700=20>>20 kg.
+#### 20"
+Math,1a,"Q: There are chickens roaming the chicken farm. The roosters outnumber the hens 2 to 1. If there are 9,000 chickens on the chicken farm, how many roosters are there?
+A: There are 9000/(2+1)=<<9000/(2+1)=3000>>3000 hens on the farm.
+There are 3000*2=<<3000*2=6000>>6000 roosters on the farm.
+#### 6000
+Q: A salesman bought a case of 48 backpacks for $576. He sold 17 of them for $18 at the swap meet, 10 were sold to a department store for $25 each. If the remainder were sold for $22 each. How much was the salesman's profit?
+A: The salesman sold 17 bags for 17 bags x $18/bag = $<<17*18=306>>306
+He sold 10 more for 10 bags x $25/bag = $<<10*25=250>>250
+Thus far he has sold 17 bags + 10 bags = <<17+10=27>>27 bags
+Therefore he sold 48 bags - 27 bags = <<48-27=21>>21 bags for $22 each
+21 bags were sold for 21 bags x $22/bag = $<<21*22=462>>462
+In total the salesman made $306 + $250 + $462 = $<<306+250+462=1018>>1018
+The salesman made $1018 - $576 = $<<1018-576=442>>442 in profit.
+#### 442
+Q: James catches 3 kinds of fish.  He catches 200 pounds of trout,  50% more pounds of salmon, and twice as much Tuna.  How many pounds of fish did he catch?
+A: He caught 200*.55=100 pounds more salmon than trout
+So he caught 200+100=<<200+100=300>>300 pounds of salmon
+He caught 300*2=<<300*2=600>>600 pounds of tuna
+So in total, he caught 600+300+200=<<600+300+200=1100>>1100 pounds of fish
+#### 1100
+Q: Carla's sheepdog rounded up 90% of her sheep, but the remaining 10% wandered off into the hills. If there are 81 sheep in the pen, how many are out in the wilderness?
+A: First find the total number of sheep by dividing the number rounded up by 90%: 81 sheep / .9 = <<81/.9=90>>90 sheep
+Then multiply that number by 10% to find the number that are in the hills: 90 sheep * 10% = <<90*10*.01=9>>9 sheep
+#### 9
+Q: When Hannah was 6 years old, her age was double the age of her sister July. Now, 20 years later, if July's husband is 2 years older than her, how old is he?
+A: July was 6 / 2 = <<6/2=3>>3 years old when Hannah was 6.
+Now, July is 3 + 20 = <<3+20=23>>23 years old
+July's husband is 23 + 2 = <<23+2=25>>25 years old
+#### 25
+Q: Diego baked 12 cakes for his sister's birthday. Donald also baked 4 cakes, but ate 1 while waiting for the party to start. How many cakes are left?
+A: The total number of cakes baked is 12 + 4 = <<12+4=16>>16 cakes.
+But since Diego ate 1 cake, there are 16 - 1 = <<16-1=15>>15 cakes left.
+#### 15
+","A: The total weight of Jack and 8 adults is 80 kg x 9 = <<80*9=720>>720 kg.
+They will have exceeded the maximum load of the elevator by 720 kg - 700 kg = <<720-700=20>>20 kg.
+#### 20","Jack and 8 other adults form a total of 8 adults + 1 adult = <<8+1=9>>9 adults.
+In total, the 9 adults together weigh 9 adults * 80 kg/adult = <<9*80=720>>720 kg.
+They have exceeded the maximum load of the elevator by 720 kg - 700 kg = <<720-700=20>>20 kg.
+#### 20"
+Math,2,"Q: A family bought 1 box of pizza that is cut into 16 slices. Only three-fourths of the pizza was eaten by the family. How many slices of pizza were left?
+A: The family ate 16 x 3/4 = <<16*3/4=12>>12 slices.
+So, there were 16 - 12 = <<16-12=4>>4 slices of pizza left.
+#### 4
+Q: Parker is 4 inches shorter than Daisy. Daisy is 8 inches taller than Reese. If Reese is 60 inches tall, what is the average height for the three of them?
+A: Since Daisy is 6 inches taller than Reese, she must be 60 inches + 8 inches = 68 inches tall.
+Parker is 4 inches shorter than Daisy, making her 68 inches – 4 inches = <<68-4=64>>64 inches.
+The average height of the three of them is (60 inches + 68 inches + 64 inches) / 3 = <<(60+68+64)/3=64>>64 inches.
+#### 64
+Q: 20 kids in preschool are ready for a nap.  1/2 of the kids fall asleep within the first 5 minutes.  Then half of the kids remaining fall asleep within another 5 minutes.  How many kids are still awake?
+A: In a class with 20 kids, 1/2 of the students have already fallen asleep so 20/2 = <<20/2=10>>10 kids are already asleep
+We start with 20 kids awake and 10 are already asleep so 20- 10 = <<20-10=10>>10 kids are still awake
+1/2 of these 10 kids fall asleep next meaning there are 10/2 = <<10/2=5>>5 students still awake
+#### 5
+Q: Jerry takes 2 antacids that weigh 2 grams each and are 5% zinc by weight. Then he takes three more smaller antacids that weigh 1 gram each and have 15% zinc. How many milligrams of zinc does he eat?
+A: First find the total weight of the big antacids: 2 grams/antacid * 2 antacids = <<2*2=4>>4 grams
+Then convert that weight to milligrams: 4 grams * 1000 mg/gram = <<4*1000=4000>>4000 mg
+Then multiply that number by 5% to find how much zinc is in the big antacids: 4000 mg * 5% = <<4000*5*.01=200>>200 mg
+Then find the total weight of the smaller antacids in milligrams: 3 antacids * 1 gram/antacid * 1000 mg/gram = <<3*1*1000=3000>>3000 mg
+Then multiply that number by the percent of zinc to find the amount of zinc in the small antacids: 3000 mg * 15% = 450 mg
+Then add the zinc Jerry gets from each set of pills to find the total amount of zinc he eats: 450 mg + 200 mg = <<450+200=650>>650 mg
+#### 650
+Q: Jill can run up a hill at 9 feet/second and down a hill at 12 feet/second. How long does it take her to run up and down a 900 foot hill?
+A: First find the time it takes Jill to run up the hill: 900 feet / 9 feet/second = <<900/9=100>>100 seconds
+Then find the time it takes Jill to run down the hill: 900 feet / 12 feet/second = <<900/12=75>>75 seconds
+Then add the two times to find Jill's total time: 100 seconds + 75 seconds = <<100+75=175>>175 seconds
+#### 175
+Q: John ends up serving on jury duty.  Jury selection takes 2 days.  The trial itself lasts 4 times as long as jury selection  It is a complicated trial.  The number of hours spent in jury deliberation was the equivalent of 6 full days.  They spend 16 hours a day in deliberation.  How many days does John spend on jury duty?
+A: Deliberation ended up taking 6 * 24 = <<6*24=144>>144 hours
+That means they spent 144 / 16 = <<144/16=9>>9 days in deliberation
+The trial lasted 2 * 4 = <<2*4=8>>8 days
+So he spent 2 + 8 + 9 = <<2+8+9=19>>19 days on jury duty
+#### 19
+Q: There are chickens roaming the chicken farm. The roosters outnumber the hens 2 to 1. If there are 9,000 chickens on the chicken farm, how many roosters are there?
+A: There are 9000/(2+1)=<<9000/(2+1)=3000>>3000 hens on the farm.
+There are 3000*2=<<3000*2=6000>>6000 roosters on the farm.
+#### 6000
+Q: A salesman bought a case of 48 backpacks for $576. He sold 17 of them for $18 at the swap meet, 10 were sold to a department store for $25 each. If the remainder were sold for $22 each. How much was the salesman's profit?
+A: The salesman sold 17 bags for 17 bags x $18/bag = $<<17*18=306>>306
+He sold 10 more for 10 bags x $25/bag = $<<10*25=250>>250
+Thus far he has sold 17 bags + 10 bags = <<17+10=27>>27 bags
+Therefore he sold 48 bags - 27 bags = <<48-27=21>>21 bags for $22 each
+21 bags were sold for 21 bags x $22/bag = $<<21*22=462>>462
+In total the salesman made $306 + $250 + $462 = $<<306+250+462=1018>>1018
+The salesman made $1018 - $576 = $<<1018-576=442>>442 in profit.
+#### 442
+Q: James catches 3 kinds of fish.  He catches 200 pounds of trout,  50% more pounds of salmon, and twice as much Tuna.  How many pounds of fish did he catch?
+A: He caught 200*.55=100 pounds more salmon than trout
+So he caught 200+100=<<200+100=300>>300 pounds of salmon
+He caught 300*2=<<300*2=600>>600 pounds of tuna
+So in total, he caught 600+300+200=<<600+300+200=1100>>1100 pounds of fish
+#### 1100
+Q: Carla's sheepdog rounded up 90% of her sheep, but the remaining 10% wandered off into the hills. If there are 81 sheep in the pen, how many are out in the wilderness?
+A: First find the total number of sheep by dividing the number rounded up by 90%: 81 sheep / .9 = <<81/.9=90>>90 sheep
+Then multiply that number by 10% to find the number that are in the hills: 90 sheep * 10% = <<90*10*.01=9>>9 sheep
+#### 9
+Q: When Hannah was 6 years old, her age was double the age of her sister July. Now, 20 years later, if July's husband is 2 years older than her, how old is he?
+A: July was 6 / 2 = <<6/2=3>>3 years old when Hannah was 6.
+Now, July is 3 + 20 = <<3+20=23>>23 years old
+July's husband is 23 + 2 = <<23+2=25>>25 years old
+#### 25
+Q: Diego baked 12 cakes for his sister's birthday. Donald also baked 4 cakes, but ate 1 while waiting for the party to start. How many cakes are left?
+A: The total number of cakes baked is 12 + 4 = <<12+4=16>>16 cakes.
+But since Diego ate 1 cake, there are 16 - 1 = <<16-1=15>>15 cakes left.
+#### 15
+","A: The total weight of Jack and the 8 other adults would be 80 kg/adult * 8 adults = 640 kg.
+Adding Jack's weight as well, the total weight would be 640 kg + 80 kg = 720 kg.
+Therefore, they would have exceeded the maximum load by 720 kg - 700 kg = 20 kg.","Jack and 8 other adults form a total of 8 adults + 1 adult = <<8+1=9>>9 adults.
+In total, the 9 adults together weigh 9 adults * 80 kg/adult = <<9*80=720>>720 kg.
+They have exceeded the maximum load of the elevator by 720 kg - 700 kg = <<720-700=20>>20 kg.
+#### 20"
+Math,3a,"Q: A family bought 1 box of pizza that is cut into 16 slices. Only three-fourths of the pizza was eaten by the family. How many slices of pizza were left?
+A: The family ate 16 x 3/4 = <<16*3/4=12>>12 slices.
+So, there were 16 - 12 = <<16-12=4>>4 slices of pizza left.
+#### 4
+Q: Parker is 4 inches shorter than Daisy. Daisy is 8 inches taller than Reese. If Reese is 60 inches tall, what is the average height for the three of them?
+A: Since Daisy is 6 inches taller than Reese, she must be 60 inches + 8 inches = 68 inches tall.
+Parker is 4 inches shorter than Daisy, making her 68 inches – 4 inches = <<68-4=64>>64 inches.
+The average height of the three of them is (60 inches + 68 inches + 64 inches) / 3 = <<(60+68+64)/3=64>>64 inches.
+#### 64
+Q: 20 kids in preschool are ready for a nap.  1/2 of the kids fall asleep within the first 5 minutes.  Then half of the kids remaining fall asleep within another 5 minutes.  How many kids are still awake?
+A: In a class with 20 kids, 1/2 of the students have already fallen asleep so 20/2 = <<20/2=10>>10 kids are already asleep
+We start with 20 kids awake and 10 are already asleep so 20- 10 = <<20-10=10>>10 kids are still awake
+1/2 of these 10 kids fall asleep next meaning there are 10/2 = <<10/2=5>>5 students still awake
+#### 5
+Q: Jerry takes 2 antacids that weigh 2 grams each and are 5% zinc by weight. Then he takes three more smaller antacids that weigh 1 gram each and have 15% zinc. How many milligrams of zinc does he eat?
+A: First find the total weight of the big antacids: 2 grams/antacid * 2 antacids = <<2*2=4>>4 grams
+Then convert that weight to milligrams: 4 grams * 1000 mg/gram = <<4*1000=4000>>4000 mg
+Then multiply that number by 5% to find how much zinc is in the big antacids: 4000 mg * 5% = <<4000*5*.01=200>>200 mg
+Then find the total weight of the smaller antacids in milligrams: 3 antacids * 1 gram/antacid * 1000 mg/gram = <<3*1*1000=3000>>3000 mg
+Then multiply that number by the percent of zinc to find the amount of zinc in the small antacids: 3000 mg * 15% = 450 mg
+Then add the zinc Jerry gets from each set of pills to find the total amount of zinc he eats: 450 mg + 200 mg = <<450+200=650>>650 mg
+#### 650
+Q: Jill can run up a hill at 9 feet/second and down a hill at 12 feet/second. How long does it take her to run up and down a 900 foot hill?
+A: First find the time it takes Jill to run up the hill: 900 feet / 9 feet/second = <<900/9=100>>100 seconds
+Then find the time it takes Jill to run down the hill: 900 feet / 12 feet/second = <<900/12=75>>75 seconds
+Then add the two times to find Jill's total time: 100 seconds + 75 seconds = <<100+75=175>>175 seconds
+#### 175
+Q: John ends up serving on jury duty.  Jury selection takes 2 days.  The trial itself lasts 4 times as long as jury selection  It is a complicated trial.  The number of hours spent in jury deliberation was the equivalent of 6 full days.  They spend 16 hours a day in deliberation.  How many days does John spend on jury duty?
+A: Deliberation ended up taking 6 * 24 = <<6*24=144>>144 hours
+That means they spent 144 / 16 = <<144/16=9>>9 days in deliberation
+The trial lasted 2 * 4 = <<2*4=8>>8 days
+So he spent 2 + 8 + 9 = <<2+8+9=19>>19 days on jury duty
+#### 19
+Q: A family bought 1 box of pizza that is cut into 16 slices. Only three-fourths of the pizza was eaten by the family. How many slices of pizza were left?
+A: The family ate 16 x 3/4 = <<16*3/4=12>>12 slices.
+So, there were 16 - 12 = <<16-12=4>>4 slices of pizza left.
+#### 4
+Q: Parker is 4 inches shorter than Daisy. Daisy is 8 inches taller than Reese. If Reese is 60 inches tall, what is the average height for the three of them?
+A: Since Daisy is 6 inches taller than Reese, she must be 60 inches + 8 inches = 68 inches tall.
+Parker is 4 inches shorter than Daisy, making her 68 inches – 4 inches = <<68-4=64>>64 inches.
+The average height of the three of them is (60 inches + 68 inches + 64 inches) / 3 = <<(60+68+64)/3=64>>64 inches.
+#### 64
+Q: 20 kids in preschool are ready for a nap.  1/2 of the kids fall asleep within the first 5 minutes.  Then half of the kids remaining fall asleep within another 5 minutes.  How many kids are still awake?
+A: In a class with 20 kids, 1/2 of the students have already fallen asleep so 20/2 = <<20/2=10>>10 kids are already asleep
+We start with 20 kids awake and 10 are already asleep so 20- 10 = <<20-10=10>>10 kids are still awake
+1/2 of these 10 kids fall asleep next meaning there are 10/2 = <<10/2=5>>5 students still awake
+#### 5
+Q: Jerry takes 2 antacids that weigh 2 grams each and are 5% zinc by weight. Then he takes three more smaller antacids that weigh 1 gram each and have 15% zinc. How many milligrams of zinc does he eat?
+A: First find the total weight of the big antacids: 2 grams/antacid * 2 antacids = <<2*2=4>>4 grams
+Then convert that weight to milligrams: 4 grams * 1000 mg/gram = <<4*1000=4000>>4000 mg
+Then multiply that number by 5% to find how much zinc is in the big antacids: 4000 mg * 5% = <<4000*5*.01=200>>200 mg
+Then find the total weight of the smaller antacids in milligrams: 3 antacids * 1 gram/antacid * 1000 mg/gram = <<3*1*1000=3000>>3000 mg
+Then multiply that number by the percent of zinc to find the amount of zinc in the small antacids: 3000 mg * 15% = 450 mg
+Then add the zinc Jerry gets from each set of pills to find the total amount of zinc he eats: 450 mg + 200 mg = <<450+200=650>>650 mg
+#### 650
+Q: Jill can run up a hill at 9 feet/second and down a hill at 12 feet/second. How long does it take her to run up and down a 900 foot hill?
+A: First find the time it takes Jill to run up the hill: 900 feet / 9 feet/second = <<900/9=100>>100 seconds
+Then find the time it takes Jill to run down the hill: 900 feet / 12 feet/second = <<900/12=75>>75 seconds
+Then add the two times to find Jill's total time: 100 seconds + 75 seconds = <<100+75=175>>175 seconds
+#### 175
+Q: John ends up serving on jury duty.  Jury selection takes 2 days.  The trial itself lasts 4 times as long as jury selection  It is a complicated trial.  The number of hours spent in jury deliberation was the equivalent of 6 full days.  They spend 16 hours a day in deliberation.  How many days does John spend on jury duty?
+A: Deliberation ended up taking 6 * 24 = <<6*24=144>>144 hours
+That means they spent 144 / 16 = <<144/16=9>>9 days in deliberation
+The trial lasted 2 * 4 = <<2*4=8>>8 days
+So he spent 2 + 8 + 9 = <<2+8+9=19>>19 days on jury duty
+#### 19
+","A: The total weight of 8 adults riding the elevator with Jack is 8 adults * 80 kg/adult = <<8*80=640>>640 kg.
+Therefore, they will have exceeded the maximum load by 640 kg + 80 kg (Jack's weight) = <<640+80=720>>720 kg - 700 kg = <<720-700=20>>20 kg. 
+They will have exceeded the maximum load of the elevator by 20 kg.","Jack and 8 other adults form a total of 8 adults + 1 adult = <<8+1=9>>9 adults.
+In total, the 9 adults together weigh 9 adults * 80 kg/adult = <<9*80=720>>720 kg.
+They have exceeded the maximum load of the elevator by 720 kg - 700 kg = <<720-700=20>>20 kg.
+#### 20"
+Math,3b,"Q: There are chickens roaming the chicken farm. The roosters outnumber the hens 2 to 1. If there are 9,000 chickens on the chicken farm, how many roosters are there?
+A: There are 9000/(2+1)=<<9000/(2+1)=3000>>3000 hens on the farm.
+There are 3000*2=<<3000*2=6000>>6000 roosters on the farm.
+#### 6000
+Q: A salesman bought a case of 48 backpacks for $576. He sold 17 of them for $18 at the swap meet, 10 were sold to a department store for $25 each. If the remainder were sold for $22 each. How much was the salesman's profit?
+A: The salesman sold 17 bags for 17 bags x $18/bag = $<<17*18=306>>306
+He sold 10 more for 10 bags x $25/bag = $<<10*25=250>>250
+Thus far he has sold 17 bags + 10 bags = <<17+10=27>>27 bags
+Therefore he sold 48 bags - 27 bags = <<48-27=21>>21 bags for $22 each
+21 bags were sold for 21 bags x $22/bag = $<<21*22=462>>462
+In total the salesman made $306 + $250 + $462 = $<<306+250+462=1018>>1018
+The salesman made $1018 - $576 = $<<1018-576=442>>442 in profit.
+#### 442
+Q: James catches 3 kinds of fish.  He catches 200 pounds of trout,  50% more pounds of salmon, and twice as much Tuna.  How many pounds of fish did he catch?
+A: He caught 200*.55=100 pounds more salmon than trout
+So he caught 200+100=<<200+100=300>>300 pounds of salmon
+He caught 300*2=<<300*2=600>>600 pounds of tuna
+So in total, he caught 600+300+200=<<600+300+200=1100>>1100 pounds of fish
+#### 1100
+Q: Carla's sheepdog rounded up 90% of her sheep, but the remaining 10% wandered off into the hills. If there are 81 sheep in the pen, how many are out in the wilderness?
+A: First find the total number of sheep by dividing the number rounded up by 90%: 81 sheep / .9 = <<81/.9=90>>90 sheep
+Then multiply that number by 10% to find the number that are in the hills: 90 sheep * 10% = <<90*10*.01=9>>9 sheep
+#### 9
+Q: When Hannah was 6 years old, her age was double the age of her sister July. Now, 20 years later, if July's husband is 2 years older than her, how old is he?
+A: July was 6 / 2 = <<6/2=3>>3 years old when Hannah was 6.
+Now, July is 3 + 20 = <<3+20=23>>23 years old
+July's husband is 23 + 2 = <<23+2=25>>25 years old
+#### 25
+Q: Diego baked 12 cakes for his sister's birthday. Donald also baked 4 cakes, but ate 1 while waiting for the party to start. How many cakes are left?
+A: The total number of cakes baked is 12 + 4 = <<12+4=16>>16 cakes.
+But since Diego ate 1 cake, there are 16 - 1 = <<16-1=15>>15 cakes left.
+#### 15
+Q: There are chickens roaming the chicken farm. The roosters outnumber the hens 2 to 1. If there are 9,000 chickens on the chicken farm, how many roosters are there?
+A: There are 9000/(2+1)=<<9000/(2+1)=3000>>3000 hens on the farm.
+There are 3000*2=<<3000*2=6000>>6000 roosters on the farm.
+#### 6000
+Q: A salesman bought a case of 48 backpacks for $576. He sold 17 of them for $18 at the swap meet, 10 were sold to a department store for $25 each. If the remainder were sold for $22 each. How much was the salesman's profit?
+A: The salesman sold 17 bags for 17 bags x $18/bag = $<<17*18=306>>306
+He sold 10 more for 10 bags x $25/bag = $<<10*25=250>>250
+Thus far he has sold 17 bags + 10 bags = <<17+10=27>>27 bags
+Therefore he sold 48 bags - 27 bags = <<48-27=21>>21 bags for $22 each
+21 bags were sold for 21 bags x $22/bag = $<<21*22=462>>462
+In total the salesman made $306 + $250 + $462 = $<<306+250+462=1018>>1018
+The salesman made $1018 - $576 = $<<1018-576=442>>442 in profit.
+#### 442
+Q: James catches 3 kinds of fish.  He catches 200 pounds of trout,  50% more pounds of salmon, and twice as much Tuna.  How many pounds of fish did he catch?
+A: He caught 200*.55=100 pounds more salmon than trout
+So he caught 200+100=<<200+100=300>>300 pounds of salmon
+He caught 300*2=<<300*2=600>>600 pounds of tuna
+So in total, he caught 600+300+200=<<600+300+200=1100>>1100 pounds of fish
+#### 1100
+Q: Carla's sheepdog rounded up 90% of her sheep, but the remaining 10% wandered off into the hills. If there are 81 sheep in the pen, how many are out in the wilderness?
+A: First find the total number of sheep by dividing the number rounded up by 90%: 81 sheep / .9 = <<81/.9=90>>90 sheep
+Then multiply that number by 10% to find the number that are in the hills: 90 sheep * 10% = <<90*10*.01=9>>9 sheep
+#### 9
+Q: When Hannah was 6 years old, her age was double the age of her sister July. Now, 20 years later, if July's husband is 2 years older than her, how old is he?
+A: July was 6 / 2 = <<6/2=3>>3 years old when Hannah was 6.
+Now, July is 3 + 20 = <<3+20=23>>23 years old
+July's husband is 23 + 2 = <<23+2=25>>25 years old
+#### 25
+Q: Diego baked 12 cakes for his sister's birthday. Donald also baked 4 cakes, but ate 1 while waiting for the party to start. How many cakes are left?
+A: The total number of cakes baked is 12 + 4 = <<12+4=16>>16 cakes.
+But since Diego ate 1 cake, there are 16 - 1 = <<16-1=15>>15 cakes left.
+#### 15
+","A: The total weight of Jack and 8 other adults is 80 kg/adult * 9 adults = 720 kg
+Therefore, they will have exceeded the maximum load of the elevator by 720 kg - 700 kg = 20 kg. 
+#### 20","Jack and 8 other adults form a total of 8 adults + 1 adult = <<8+1=9>>9 adults.
+In total, the 9 adults together weigh 9 adults * 80 kg/adult = <<9*80=720>>720 kg.
+They have exceeded the maximum load of the elevator by 720 kg - 700 kg = <<720-700=20>>20 kg.
+#### 20"
+CSQA,1a,"Q: The accelerator was controller via a hand throttle, and the foot pedals controlled the steering in the small what?
+A: car
+B: fuel system
+C: accelerate
+D: boat
+E: airplane
+A: E
+Q: Where are there more telephone booths?
+A: gas stations
+B: city
+C: london
+D: train station
+E: airport
+A: B
+Q: What is someone likely to do when trying to memorize something?
+A: store data
+B: repeat
+C: concentrate
+D: store data
+E: awake
+A: C
+Q: Where might students need to use pens the most?
+A: backpack
+B: office
+C: conference
+D: drawing
+E: school
+A: E
+Q: John couldn't smile. He wasn't sad,  he didn't have the muscles for it anymore.   But he made the kids happy by standing on his head when he did what?
+A: make jokes
+B: frown
+C: make others happy too
+D: cry
+E: rainbow
+A: B
+Q: Where would you put a wooden rod after buying it if you do not have any clocks?
+A: hardware store
+B: old houses
+C: clock shop
+D: connecting pieces of wood
+E: old clock
+A: B
+",B: Kentucky Fried Chicken,
+CSQA,1a,"Q: Where can you often find many soldiers?
+A: armored car
+B: battlefield
+C: war zone
+D: tavern
+E: white house
+A: B
+Q: There was a fast food restaurant every 200 feet to help handle the foot traffic, what is this characteristic of in general?
+A: new york
+B: big cities
+C: center of town
+D: farms
+E: america
+A: B
+Q: The aisle that John was on had macaroni, rice, and hamburger helper. What sort of store is John most likely shopping at?
+A: grocery store
+B: church
+C: drugstore
+D: hardware store
+E: department store
+A: A
+Q: Where would sunshine be likely to fall on a plant that a person owns?
+A: street
+B: windowsill
+C: disneyland
+D: grow lights
+E: summer
+A: B
+Q: A person who is hungry and eating breakfast, what is their goal?
+A: being satisfied
+B: heartburn
+C: weight gain
+D: overeating
+E: gain energy
+A: A
+Q: Where might a bureau be in charge?
+A: french government
+B: home office
+C: office building
+D: parliament
+E: bedroom
+A: A
+",B: kentucky fried chicken,
+CSQA,2,"Q: The accelerator was controller via a hand throttle, and the foot pedals controlled the steering in the small what?
+A: car
+B: fuel system
+C: accelerate
+D: boat
+E: airplane
+A: E
+Q: Where are there more telephone booths?
+A: gas stations
+B: city
+C: london
+D: train station
+E: airport
+A: B
+Q: What is someone likely to do when trying to memorize something?
+A: store data
+B: repeat
+C: concentrate
+D: store data
+E: awake
+A: C
+Q: Where might students need to use pens the most?
+A: backpack
+B: office
+C: conference
+D: drawing
+E: school
+A: E
+Q: John couldn't smile. He wasn't sad,  he didn't have the muscles for it anymore.   But he made the kids happy by standing on his head when he did what?
+A: make jokes
+B: frown
+C: make others happy too
+D: cry
+E: rainbow
+A: B
+Q: Where would you put a wooden rod after buying it if you do not have any clocks?
+A: hardware store
+B: old houses
+C: clock shop
+D: connecting pieces of wood
+E: old clock
+A: B
+Q: Where can you often find many soldiers?
+A: armored car
+B: battlefield
+C: war zone
+D: tavern
+E: white house
+A: B
+Q: There was a fast food restaurant every 200 feet to help handle the foot traffic, what is this characteristic of in general?
+A: new york
+B: big cities
+C: center of town
+D: farms
+E: america
+A: B
+Q: The aisle that John was on had macaroni, rice, and hamburger helper. What sort of store is John most likely shopping at?
+A: grocery store
+B: church
+C: drugstore
+D: hardware store
+E: department store
+A: A
+Q: Where would sunshine be likely to fall on a plant that a person owns?
+A: street
+B: windowsill
+C: disneyland
+D: grow lights
+E: summer
+A: B
+Q: A person who is hungry and eating breakfast, what is their goal?
+A: being satisfied
+B: heartburn
+C: weight gain
+D: overeating
+E: gain energy
+A: A
+Q: Where might a bureau be in charge?
+A: french government
+B: home office
+C: office building
+D: parliament
+E: bedroom
+A: A
+",B,
+CSQA,3a,"Q: The accelerator was controller via a hand throttle, and the foot pedals controlled the steering in the small what?
+A: car
+B: fuel system
+C: accelerate
+D: boat
+E: airplane
+A: E
+Q: Where are there more telephone booths?
+A: gas stations
+B: city
+C: london
+D: train station
+E: airport
+A: B
+Q: What is someone likely to do when trying to memorize something?
+A: store data
+B: repeat
+C: concentrate
+D: store data
+E: awake
+A: C
+Q: Where might students need to use pens the most?
+A: backpack
+B: office
+C: conference
+D: drawing
+E: school
+A: E
+Q: John couldn't smile. He wasn't sad,  he didn't have the muscles for it anymore.   But he made the kids happy by standing on his head when he did what?
+A: make jokes
+B: frown
+C: make others happy too
+D: cry
+E: rainbow
+A: B
+Q: Where would you put a wooden rod after buying it if you do not have any clocks?
+A: hardware store
+B: old houses
+C: clock shop
+D: connecting pieces of wood
+E: old clock
+A: B
+Q: The accelerator was controller via a hand throttle, and the foot pedals controlled the steering in the small what?
+A: car
+B: fuel system
+C: accelerate
+D: boat
+E: airplane
+A: E
+Q: Where are there more telephone booths?
+A: gas stations
+B: city
+C: london
+D: train station
+E: airport
+A: B
+Q: What is someone likely to do when trying to memorize something?
+A: store data
+B: repeat
+C: concentrate
+D: store data
+E: awake
+A: C
+Q: Where might students need to use pens the most?
+A: backpack
+B: office
+C: conference
+D: drawing
+E: school
+A: E
+Q: John couldn't smile. He wasn't sad,  he didn't have the muscles for it anymore.   But he made the kids happy by standing on his head when he did what?
+A: make jokes
+B: frown
+C: make others happy too
+D: cry
+E: rainbow
+A: B
+Q: Where would you put a wooden rod after buying it if you do not have any clocks?
+A: hardware store
+B: old houses
+C: clock shop
+D: connecting pieces of wood
+E: old clock
+A: B
+",B: kentucky fried chicken,
+CSQA,3b,"Q: Where can you often find many soldiers?
+A: armored car
+B: battlefield
+C: war zone
+D: tavern
+E: white house
+A: B
+Q: There was a fast food restaurant every 200 feet to help handle the foot traffic, what is this characteristic of in general?
+A: new york
+B: big cities
+C: center of town
+D: farms
+E: america
+A: B
+Q: The aisle that John was on had macaroni, rice, and hamburger helper. What sort of store is John most likely shopping at?
+A: grocery store
+B: church
+C: drugstore
+D: hardware store
+E: department store
+A: A
+Q: Where would sunshine be likely to fall on a plant that a person owns?
+A: street
+B: windowsill
+C: disneyland
+D: grow lights
+E: summer
+A: B
+Q: A person who is hungry and eating breakfast, what is their goal?
+A: being satisfied
+B: heartburn
+C: weight gain
+D: overeating
+E: gain energy
+A: A
+Q: Where might a bureau be in charge?
+A: french government
+B: home office
+C: office building
+D: parliament
+E: bedroom
+A: A
+Q: Where can you often find many soldiers?
+A: armored car
+B: battlefield
+C: war zone
+D: tavern
+E: white house
+A: B
+Q: There was a fast food restaurant every 200 feet to help handle the foot traffic, what is this characteristic of in general?
+A: new york
+B: big cities
+C: center of town
+D: farms
+E: america
+A: B
+Q: The aisle that John was on had macaroni, rice, and hamburger helper. What sort of store is John most likely shopping at?
+A: grocery store
+B: church
+C: drugstore
+D: hardware store
+E: department store
+A: A
+Q: Where would sunshine be likely to fall on a plant that a person owns?
+A: street
+B: windowsill
+C: disneyland
+D: grow lights
+E: summer
+A: B
+Q: A person who is hungry and eating breakfast, what is their goal?
+A: being satisfied
+B: heartburn
+C: weight gain
+D: overeating
+E: gain energy
+A: A
+Q: Where might a bureau be in charge?
+A: french government
+B: home office
+C: office building
+D: parliament
+E: bedroom
+A: A
+",B: kentucky fried chicken,
+StrategyQA,1a,"Q: Plants need three elements for photosynthesis: Hydrogen, Oxygen, and Carbon. The atmosphere of Mars is composed of carbon dioxide, nitrogen, argon, and trace levels of water vapor, oxygen, carbon monoxide, hydrogen and other noble gases.
+Are all the elements plants need for photosynthesis present in atmosphere of Mars?
+A: True
+Q: Nicole Kidman was married to Tom Cruise. Tom Cruise is a Scientologist. 
+Does Nicole Kidman know any Scientologists?
+A: True
+Q: The Pyrenees mountains are 305 miles wide. An elite runner can cover 100 miles in around 12 hours.
+Can an elite runner circle the Pyrenees in one day?
+A: False
+Q: Crocodiles belong to the family Crocodylinae. Alligators belong to the family Alligatoridae. Crocodylinae and Alligatoridae both belong to the order Crocodilia.
+Are saltwater crocodiles related to alligators?
+A: True
+Q: The opening scene of Disney's Frozen shows a group of ice breakers. They have moose that carry the heavy ice blocks. One of them, Kristoff, becomes separated with his moose Sven. When Queen Elsa flees Arendelle and Princess Anna gives chase, she quickly encounters Kristoff.
+Are moose used for work near the kingdom of Arendelle?
+A: True
+Q: Poseidon is the Greek god of the sea and water, and is the brother of Zeus. Neptune is the Roman god of the sea. Hephaestus is the Greek god of fire. Hephaestus's ROman equivalent is Vulcan, the Roman god of fire.
+Is Poseidon similar to the god Vulcan?
+A: False
+",A: True,True
+StrategyQA,1a,"Q: Woodrow Wilson supported the Ku Klux Klan. The Ku Klux Klan consider Blacks to be inferior. 
+Did Woodrow Wilson consider Blacks to be equal members of society?
+A: False
+Q: The Tohoku earthquake led to the Fukushima Daiichi nuclear power plant meltdown Nuclear meltdowns lead to a release of deadly levels of radiation Godzilla draws power from radiation and is not hurt by it
+Could Godzilla have been killed by the Tohoku earthquake?
+A: False
+Q: Star Wars Rebels and Star Wars Resistance were released after Disney bought ownership of Star Wars. Disney also produced the first live-action TV show set in the Star Wars galaxy, The Mandalorian. Disney produced one additional revival season of Star Wars Clone Wars which was originally produced before Disney owned Star Wars.
+Are there multiple Star Wars TV shows produced by Disney?
+A: True
+Q: The Great Pyramids were built by the Ancient Egyptians. A theocracy is a government that is led by religious leaders or who worships their leader as a god. The Pharaohs of Ancient Egypt were worshipped as children of the Sun god Ra.
+Were the Great Pyramids built by a theocratic government?
+A: True
+Q: The headquarters of All Nippon Airways are located in Shiodome City Center in the Shiodome area of the Minato ward of Tokyo. Tokyo is a metropolitan area. A beach is a landform alongside a body of water. Metropolitan areas typically do not have bodies of water in the surrounding area.
+Are the headquarters of All Nippon Airways near a beach?
+A: False
+Q: In 1944, Sartre released No Exit. No Exit is a play about three people mysteriously locked in a room together. Late in the play, it is revealed the room is a version of Hell.
+Did Sartre write a play about Hell?
+A: True
+",A: True,True
+StrategyQA,2,"Q: Plants need three elements for photosynthesis: Hydrogen, Oxygen, and Carbon. The atmosphere of Mars is composed of carbon dioxide, nitrogen, argon, and trace levels of water vapor, oxygen, carbon monoxide, hydrogen and other noble gases.
+Are all the elements plants need for photosynthesis present in atmosphere of Mars?
+A: True
+Q: Nicole Kidman was married to Tom Cruise. Tom Cruise is a Scientologist. 
+Does Nicole Kidman know any Scientologists?
+A: True
+Q: The Pyrenees mountains are 305 miles wide. An elite runner can cover 100 miles in around 12 hours.
+Can an elite runner circle the Pyrenees in one day?
+A: False
+Q: Crocodiles belong to the family Crocodylinae. Alligators belong to the family Alligatoridae. Crocodylinae and Alligatoridae both belong to the order Crocodilia.
+Are saltwater crocodiles related to alligators?
+A: True
+Q: The opening scene of Disney's Frozen shows a group of ice breakers. They have moose that carry the heavy ice blocks. One of them, Kristoff, becomes separated with his moose Sven. When Queen Elsa flees Arendelle and Princess Anna gives chase, she quickly encounters Kristoff.
+Are moose used for work near the kingdom of Arendelle?
+A: True
+Q: Poseidon is the Greek god of the sea and water, and is the brother of Zeus. Neptune is the Roman god of the sea. Hephaestus is the Greek god of fire. Hephaestus's ROman equivalent is Vulcan, the Roman god of fire.
+Is Poseidon similar to the god Vulcan?
+A: False
+Q: Woodrow Wilson supported the Ku Klux Klan. The Ku Klux Klan consider Blacks to be inferior. 
+Did Woodrow Wilson consider Blacks to be equal members of society?
+A: False
+Q: The Tohoku earthquake led to the Fukushima Daiichi nuclear power plant meltdown Nuclear meltdowns lead to a release of deadly levels of radiation Godzilla draws power from radiation and is not hurt by it
+Could Godzilla have been killed by the Tohoku earthquake?
+A: False
+Q: Star Wars Rebels and Star Wars Resistance were released after Disney bought ownership of Star Wars. Disney also produced the first live-action TV show set in the Star Wars galaxy, The Mandalorian. Disney produced one additional revival season of Star Wars Clone Wars which was originally produced before Disney owned Star Wars.
+Are there multiple Star Wars TV shows produced by Disney?
+A: True
+Q: The Great Pyramids were built by the Ancient Egyptians. A theocracy is a government that is led by religious leaders or who worships their leader as a god. The Pharaohs of Ancient Egypt were worshipped as children of the Sun god Ra.
+Were the Great Pyramids built by a theocratic government?
+A: True
+Q: The headquarters of All Nippon Airways are located in Shiodome City Center in the Shiodome area of the Minato ward of Tokyo. Tokyo is a metropolitan area. A beach is a landform alongside a body of water. Metropolitan areas typically do not have bodies of water in the surrounding area.
+Are the headquarters of All Nippon Airways near a beach?
+A: False
+Q: In 1944, Sartre released No Exit. No Exit is a play about three people mysteriously locked in a room together. Late in the play, it is revealed the room is a version of Hell.
+Did Sartre write a play about Hell?
+A: True
+",True,True
+StrategyQA,3a,"Q: Plants need three elements for photosynthesis: Hydrogen, Oxygen, and Carbon. The atmosphere of Mars is composed of carbon dioxide, nitrogen, argon, and trace levels of water vapor, oxygen, carbon monoxide, hydrogen and other noble gases.
+Are all the elements plants need for photosynthesis present in atmosphere of Mars?
+A: True
+Q: Nicole Kidman was married to Tom Cruise. Tom Cruise is a Scientologist. 
+Does Nicole Kidman know any Scientologists?
+A: True
+Q: The Pyrenees mountains are 305 miles wide. An elite runner can cover 100 miles in around 12 hours.
+Can an elite runner circle the Pyrenees in one day?
+A: False
+Q: Crocodiles belong to the family Crocodylinae. Alligators belong to the family Alligatoridae. Crocodylinae and Alligatoridae both belong to the order Crocodilia.
+Are saltwater crocodiles related to alligators?
+A: True
+Q: The opening scene of Disney's Frozen shows a group of ice breakers. They have moose that carry the heavy ice blocks. One of them, Kristoff, becomes separated with his moose Sven. When Queen Elsa flees Arendelle and Princess Anna gives chase, she quickly encounters Kristoff.
+Are moose used for work near the kingdom of Arendelle?
+A: True
+Q: Poseidon is the Greek god of the sea and water, and is the brother of Zeus. Neptune is the Roman god of the sea. Hephaestus is the Greek god of fire. Hephaestus's ROman equivalent is Vulcan, the Roman god of fire.
+Is Poseidon similar to the god Vulcan?
+A: False
+Q: Plants need three elements for photosynthesis: Hydrogen, Oxygen, and Carbon. The atmosphere of Mars is composed of carbon dioxide, nitrogen, argon, and trace levels of water vapor, oxygen, carbon monoxide, hydrogen and other noble gases.
+Are all the elements plants need for photosynthesis present in atmosphere of Mars?
+A: True
+Q: Nicole Kidman was married to Tom Cruise. Tom Cruise is a Scientologist. 
+Does Nicole Kidman know any Scientologists?
+A: True
+Q: The Pyrenees mountains are 305 miles wide. An elite runner can cover 100 miles in around 12 hours.
+Can an elite runner circle the Pyrenees in one day?
+A: False
+Q: Crocodiles belong to the family Crocodylinae. Alligators belong to the family Alligatoridae. Crocodylinae and Alligatoridae both belong to the order Crocodilia.
+Are saltwater crocodiles related to alligators?
+A: True
+Q: The opening scene of Disney's Frozen shows a group of ice breakers. They have moose that carry the heavy ice blocks. One of them, Kristoff, becomes separated with his moose Sven. When Queen Elsa flees Arendelle and Princess Anna gives chase, she quickly encounters Kristoff.
+Are moose used for work near the kingdom of Arendelle?
+A: True
+Q: Poseidon is the Greek god of the sea and water, and is the brother of Zeus. Neptune is the Roman god of the sea. Hephaestus is the Greek god of fire. Hephaestus's ROman equivalent is Vulcan, the Roman god of fire.
+Is Poseidon similar to the god Vulcan?
+A: False
+",A: True,True
+StrategyQA,3b,"Q: Woodrow Wilson supported the Ku Klux Klan. The Ku Klux Klan consider Blacks to be inferior. 
+Did Woodrow Wilson consider Blacks to be equal members of society?
+A: False
+Q: The Tohoku earthquake led to the Fukushima Daiichi nuclear power plant meltdown Nuclear meltdowns lead to a release of deadly levels of radiation Godzilla draws power from radiation and is not hurt by it
+Could Godzilla have been killed by the Tohoku earthquake?
+A: False
+Q: Star Wars Rebels and Star Wars Resistance were released after Disney bought ownership of Star Wars. Disney also produced the first live-action TV show set in the Star Wars galaxy, The Mandalorian. Disney produced one additional revival season of Star Wars Clone Wars which was originally produced before Disney owned Star Wars.
+Are there multiple Star Wars TV shows produced by Disney?
+A: True
+Q: The Great Pyramids were built by the Ancient Egyptians. A theocracy is a government that is led by religious leaders or who worships their leader as a god. The Pharaohs of Ancient Egypt were worshipped as children of the Sun god Ra.
+Were the Great Pyramids built by a theocratic government?
+A: True
+Q: The headquarters of All Nippon Airways are located in Shiodome City Center in the Shiodome area of the Minato ward of Tokyo. Tokyo is a metropolitan area. A beach is a landform alongside a body of water. Metropolitan areas typically do not have bodies of water in the surrounding area.
+Are the headquarters of All Nippon Airways near a beach?
+A: False
+Q: In 1944, Sartre released No Exit. No Exit is a play about three people mysteriously locked in a room together. Late in the play, it is revealed the room is a version of Hell.
+Did Sartre write a play about Hell?
+A: True
+Q: Woodrow Wilson supported the Ku Klux Klan. The Ku Klux Klan consider Blacks to be inferior. 
+Did Woodrow Wilson consider Blacks to be equal members of society?
+A: False
+Q: The Tohoku earthquake led to the Fukushima Daiichi nuclear power plant meltdown Nuclear meltdowns lead to a release of deadly levels of radiation Godzilla draws power from radiation and is not hurt by it
+Could Godzilla have been killed by the Tohoku earthquake?
+A: False
+Q: Star Wars Rebels and Star Wars Resistance were released after Disney bought ownership of Star Wars. Disney also produced the first live-action TV show set in the Star Wars galaxy, The Mandalorian. Disney produced one additional revival season of Star Wars Clone Wars which was originally produced before Disney owned Star Wars.
+Are there multiple Star Wars TV shows produced by Disney?
+A: True
+Q: The Great Pyramids were built by the Ancient Egyptians. A theocracy is a government that is led by religious leaders or who worships their leader as a god. The Pharaohs of Ancient Egypt were worshipped as children of the Sun god Ra.
+Were the Great Pyramids built by a theocratic government?
+A: True
+Q: The headquarters of All Nippon Airways are located in Shiodome City Center in the Shiodome area of the Minato ward of Tokyo. Tokyo is a metropolitan area. A beach is a landform alongside a body of water. Metropolitan areas typically do not have bodies of water in the surrounding area.
+Are the headquarters of All Nippon Airways near a beach?
+A: False
+Q: In 1944, Sartre released No Exit. No Exit is a play about three people mysteriously locked in a room together. Late in the play, it is revealed the room is a version of Hell.
+Did Sartre write a play about Hell?
+A: True
+",A: True,True
+SayCan,1a,"Q: How would you put a bag of chips and water bottle on the table?
+A: 1. find the bag of chips, 2. pick up the bag of chips, 3. go to the table, 4. put down the bag of chips, 5. find a water bottle, 6. pick up the water bottle, 7. go to the table, 8. put down the water bottle, 9. done
+Q: Bring me an apple from the drawer.
+A: 1. go to the drawer, 2. open the drawer, 3. pick up the apple, 4. close the drawer, 5. bring it to you, 6. put down the apple, 7. done
+Q: I’m allergic to apples, can I get a fruit?
+A: 1. find an orange, 2. pick up the orange, 3. bring it to you, 4. put down the orange, 5. done
+Q: Can you bring me something spicy?
+A: 1. find a jalapeno chips, 2. pick up the jalapeno chips, 3. bring it to you, 4. put down the jalapeno chips, 5. done.
+Q: Can you bring me a salty snack?
+A: 1. find the sea salt chips, 2. pick up the sea salt chips, 3. bring it to you, 4. put down the sea salt chips, 5. done
+Q: I’d like a clear soda.
+A: 1. find a 7up, 2. pick up the 7up, 3. bring it to you, 4. put down the 7up, 5. done.
+","A: 1. find some spicy chicken wings, 2. pick up the chicken wings, 3. bring it to you, 4. put down the chicken wings, 5. done.","1. find the jalapeno chips, 2. pick up the jalapeno chips, 3. bring it to you, 4. put down the jalapeno chips, 5. done"
+SayCan,1a,"Q: I’m exhausted, can you bring me a drink?
+A: 1. find a redbull, 2. pick up the redbull, 3. bring it to you, 4. put down the redbull, 5. done
+Q: Bring me a drink and snack for lunch.
+A: 1. find a water bottle, 2. pick up the water bottle, 3. bring it to you, 4. put down the water bottle, 5. find the multigrain chips, 6. pick up the multigrain chips, 7. bring it to you, 8. put down the multigrain chips, 9. done
+Q: Throw the coke can away.
+A: 1. find a coke can, 2. pick up the coke can, 3. go to the trash, 4. put down the coke can, 5. done
+Q: How would you bring me an apple from the drawer?
+A: 1. go to the drawer, 2. open the drawer, 3. pick up the apple, 4. close the drawer, 5. bring it to you, 6. put down the apple, 7. done
+Q: Could you get me something refreshing?
+A: 1. find a water, 2. pick up the water, 3. bring it to you, 4. put down the water, 5. done.
+Q: Lift the coke
+A: 1. pick up the coke, 2. done
+","A: 1. find something spicy to eat, 2. pick up the spicy food, 3. bring it to you, 4. put down the spicy food, 5. done","1. find the jalapeno chips, 2. pick up the jalapeno chips, 3. bring it to you, 4. put down the jalapeno chips, 5. done"
+SayCan,2,"Q: How would you put a bag of chips and water bottle on the table?
+A: 1. find the bag of chips, 2. pick up the bag of chips, 3. go to the table, 4. put down the bag of chips, 5. find a water bottle, 6. pick up the water bottle, 7. go to the table, 8. put down the water bottle, 9. done
+Q: Bring me an apple from the drawer.
+A: 1. go to the drawer, 2. open the drawer, 3. pick up the apple, 4. close the drawer, 5. bring it to you, 6. put down the apple, 7. done
+Q: I’m allergic to apples, can I get a fruit?
+A: 1. find an orange, 2. pick up the orange, 3. bring it to you, 4. put down the orange, 5. done
+Q: Can you bring me something spicy?
+A: 1. find a jalapeno chips, 2. pick up the jalapeno chips, 3. bring it to you, 4. put down the jalapeno chips, 5. done.
+Q: Can you bring me a salty snack?
+A: 1. find the sea salt chips, 2. pick up the sea salt chips, 3. bring it to you, 4. put down the sea salt chips, 5. done
+Q: I’d like a clear soda.
+A: 1. find a 7up, 2. pick up the 7up, 3. bring it to you, 4. put down the 7up, 5. done.
+Q: I’m exhausted, can you bring me a drink?
+A: 1. find a redbull, 2. pick up the redbull, 3. bring it to you, 4. put down the redbull, 5. done
+Q: Bring me a drink and snack for lunch.
+A: 1. find a water bottle, 2. pick up the water bottle, 3. bring it to you, 4. put down the water bottle, 5. find the multigrain chips, 6. pick up the multigrain chips, 7. bring it to you, 8. put down the multigrain chips, 9. done
+Q: Throw the coke can away.
+A: 1. find a coke can, 2. pick up the coke can, 3. go to the trash, 4. put down the coke can, 5. done
+Q: How would you bring me an apple from the drawer?
+A: 1. go to the drawer, 2. open the drawer, 3. pick up the apple, 4. close the drawer, 5. bring it to you, 6. put down the apple, 7. done
+Q: Could you get me something refreshing?
+A: 1. find a water, 2. pick up the water, 3. bring it to you, 4. put down the water, 5. done.
+Q: Lift the coke
+A: 1. pick up the coke, 2. done
+","A: 1. find some spicy chips, 2. pick up the spicy chips, 3. bring it to you, 4. put down the spicy chips, 5. done","1. find the jalapeno chips, 2. pick up the jalapeno chips, 3. bring it to you, 4. put down the jalapeno chips, 5. done"
+SayCan,3a,"Q: How would you put a bag of chips and water bottle on the table?
+A: 1. find the bag of chips, 2. pick up the bag of chips, 3. go to the table, 4. put down the bag of chips, 5. find a water bottle, 6. pick up the water bottle, 7. go to the table, 8. put down the water bottle, 9. done
+Q: Bring me an apple from the drawer.
+A: 1. go to the drawer, 2. open the drawer, 3. pick up the apple, 4. close the drawer, 5. bring it to you, 6. put down the apple, 7. done
+Q: I’m allergic to apples, can I get a fruit?
+A: 1. find an orange, 2. pick up the orange, 3. bring it to you, 4. put down the orange, 5. done
+Q: Can you bring me something spicy?
+A: 1. find a jalapeno chips, 2. pick up the jalapeno chips, 3. bring it to you, 4. put down the jalapeno chips, 5. done.
+Q: Can you bring me a salty snack?
+A: 1. find the sea salt chips, 2. pick up the sea salt chips, 3. bring it to you, 4. put down the sea salt chips, 5. done
+Q: I’d like a clear soda.
+A: 1. find a 7up, 2. pick up the 7up, 3. bring it to you, 4. put down the 7up, 5. done.
+Q: How would you put a bag of chips and water bottle on the table?
+A: 1. find the bag of chips, 2. pick up the bag of chips, 3. go to the table, 4. put down the bag of chips, 5. find a water bottle, 6. pick up the water bottle, 7. go to the table, 8. put down the water bottle, 9. done
+Q: Bring me an apple from the drawer.
+A: 1. go to the drawer, 2. open the drawer, 3. pick up the apple, 4. close the drawer, 5. bring it to you, 6. put down the apple, 7. done
+Q: I’m allergic to apples, can I get a fruit?
+A: 1. find an orange, 2. pick up the orange, 3. bring it to you, 4. put down the orange, 5. done
+Q: Can you bring me something spicy?
+A: 1. find a jalapeno chips, 2. pick up the jalapeno chips, 3. bring it to you, 4. put down the jalapeno chips, 5. done.
+Q: Can you bring me a salty snack?
+A: 1. find the sea salt chips, 2. pick up the sea salt chips, 3. bring it to you, 4. put down the sea salt chips, 5. done
+Q: I’d like a clear soda.
+A: 1. find a 7up, 2. pick up the 7up, 3. bring it to you, 4. put down the 7up, 5. done.
+","A: 1. Find some spicy hot wings, 2. Pick up the hot wings, 3. Bring them to you, 4. Put down the hot wings, 5. Done.","1. find the jalapeno chips, 2. pick up the jalapeno chips, 3. bring it to you, 4. put down the jalapeno chips, 5. done"
+SayCan,3b,"Q: I’m exhausted, can you bring me a drink?
+A: 1. find a redbull, 2. pick up the redbull, 3. bring it to you, 4. put down the redbull, 5. done
+Q: Bring me a drink and snack for lunch.
+A: 1. find a water bottle, 2. pick up the water bottle, 3. bring it to you, 4. put down the water bottle, 5. find the multigrain chips, 6. pick up the multigrain chips, 7. bring it to you, 8. put down the multigrain chips, 9. done
+Q: Throw the coke can away.
+A: 1. find a coke can, 2. pick up the coke can, 3. go to the trash, 4. put down the coke can, 5. done
+Q: How would you bring me an apple from the drawer?
+A: 1. go to the drawer, 2. open the drawer, 3. pick up the apple, 4. close the drawer, 5. bring it to you, 6. put down the apple, 7. done
+Q: Could you get me something refreshing?
+A: 1. find a water, 2. pick up the water, 3. bring it to you, 4. put down the water, 5. done.
+Q: Lift the coke
+A: 1. pick up the coke, 2. done
+Q: I’m exhausted, can you bring me a drink?
+A: 1. find a redbull, 2. pick up the redbull, 3. bring it to you, 4. put down the redbull, 5. done
+Q: Bring me a drink and snack for lunch.
+A: 1. find a water bottle, 2. pick up the water bottle, 3. bring it to you, 4. put down the water bottle, 5. find the multigrain chips, 6. pick up the multigrain chips, 7. bring it to you, 8. put down the multigrain chips, 9. done
+Q: Throw the coke can away.
+A: 1. find a coke can, 2. pick up the coke can, 3. go to the trash, 4. put down the coke can, 5. done
+Q: How would you bring me an apple from the drawer?
+A: 1. go to the drawer, 2. open the drawer, 3. pick up the apple, 4. close the drawer, 5. bring it to you, 6. put down the apple, 7. done
+Q: Could you get me something refreshing?
+A: 1. find a water, 2. pick up the water, 3. bring it to you, 4. put down the water, 5. done.
+Q: Lift the coke
+A: 1. pick up the coke, 2. done
+","A: 1. find some spicy chips, 2. pick up the spicy chips, 3. bring them to you, 4. put down the spicy chips, 5. done","1. find the jalapeno chips, 2. pick up the jalapeno chips, 3. bring it to you, 4. put down the jalapeno chips, 5. done"
