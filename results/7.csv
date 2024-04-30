@@ -1,337 +1,394 @@
 Task Class,Case,Prompt,Response,Expected
-Math,1a,"Question: Michael wants to lose 10 pounds by June. He lost 3 pounds in March and 4 pounds in April. How much weight does he have to lose in May to meet his goal?
-Answer: In March and April, he lost 3 + 4 = <<3+4=7>>7 pounds.
-To meet his goal, he needs to lose 10 – 7 = <<10-7=3>>3 pounds.
-#### 3
-Question: Marcos has to get across a 5 mile lake in his speedboat in 10 minutes so he can make it to work on time. How fast does he need to go in miles per hour to make it?
-Answer: 10 minutes for 5 miles means 10 minutes / 5 miles = <<10/5=2>>2 minutes/mile
-1 hour is 60 minutes so 60 minutes/hour / 2 minutes/mile = 30 miles/hour
-#### 30
-Q: John injured his back and needs to go to physical therapy.  He went to physical therapy for 6 weeks.  Each week he went twice for 2 hours at a time.  If the sessions cost $125 per hour how much did the physical therapy cost?","A: John went to physical therapy for 6 weeks, twice a week for 2 hours each session, so he went to physical therapy for a total of 6 * 2 * 2 = 24 hours.
-At $125 per hour, the total cost of physical therapy for John would be $125/hour * 24 hours = $<<125*24=3000>>3,000.","Each week he did 2*2=<<2*2=4>>4 hours of physical therapy
-So it cost 4*125=$<<4*125=500>>500 per week
-This means he spent 500*6=$<<500*6=3000>>3000
-#### 3000"
-Math,1a,"Question: A 40-bead necklace is made up of three kinds of beads. There are seven amethyst beads and twice as many amber beads as amethysts. The third beads are turquoise. How many turquoise beads are in the necklace?
-Answer: There are 7 * 2 = <<7*2=14>>14 amber beads.
-Thus, there are 40 - 7 - 14 = <<40-7-14=19>>19 turquoise beads in the necklace.
-#### 19
-Question: Jay went to watch a singer in a one hour 20 minutes concert.  If there was a 10-minute intermission, and all the songs were 5 minutes except for one song that lasted 10 minutes, how many songs did she sing?
-Answer: The time the singer had for singing was 80 - 10 = <<80-10=70>>70 minutes.
-The time the singer had for singing 5-minute songs was 70 - 10 = 60 minutes.
-The number of 5-minute songs was 60 / 5 = <<60/5=12>>12 songs.
-The total number of songs sung is 12 + 1 = <<12+1=13>>13 songs.
-#### 13
-Q: John injured his back and needs to go to physical therapy.  He went to physical therapy for 6 weeks.  Each week he went twice for 2 hours at a time.  If the sessions cost $125 per hour how much did the physical therapy cost?","A: The total number of sessions over 6 weeks is 2 sessions/week * 6 weeks = <<2*6=12>>12 sessions.
-The total number of hours spent in sessions is 2 hours/session * 12 sessions = <<2*12=24>>24 hours.
-The total cost for therapy is 24 hours * $125/hour = $<<24*125=3000>>3000.","Each week he did 2*2=<<2*2=4>>4 hours of physical therapy
-So it cost 4*125=$<<4*125=500>>500 per week
-This means he spent 500*6=$<<500*6=3000>>3000
-#### 3000"
-Math,2,"Question: Michael wants to lose 10 pounds by June. He lost 3 pounds in March and 4 pounds in April. How much weight does he have to lose in May to meet his goal?
-Answer: In March and April, he lost 3 + 4 = <<3+4=7>>7 pounds.
-To meet his goal, he needs to lose 10 – 7 = <<10-7=3>>3 pounds.
-#### 3
-Question: Marcos has to get across a 5 mile lake in his speedboat in 10 minutes so he can make it to work on time. How fast does he need to go in miles per hour to make it?
-Answer: 10 minutes for 5 miles means 10 minutes / 5 miles = <<10/5=2>>2 minutes/mile
-1 hour is 60 minutes so 60 minutes/hour / 2 minutes/mile = 30 miles/hour
-#### 30
-Question: A 40-bead necklace is made up of three kinds of beads. There are seven amethyst beads and twice as many amber beads as amethysts. The third beads are turquoise. How many turquoise beads are in the necklace?
-Answer: There are 7 * 2 = <<7*2=14>>14 amber beads.
-Thus, there are 40 - 7 - 14 = <<40-7-14=19>>19 turquoise beads in the necklace.
-#### 19
-Question: Jay went to watch a singer in a one hour 20 minutes concert.  If there was a 10-minute intermission, and all the songs were 5 minutes except for one song that lasted 10 minutes, how many songs did she sing?
-Answer: The time the singer had for singing was 80 - 10 = <<80-10=70>>70 minutes.
-The time the singer had for singing 5-minute songs was 70 - 10 = 60 minutes.
-The number of 5-minute songs was 60 / 5 = <<60/5=12>>12 songs.
-The total number of songs sung is 12 + 1 = <<12+1=13>>13 songs.
-#### 13
-Q: John injured his back and needs to go to physical therapy.  He went to physical therapy for 6 weeks.  Each week he went twice for 2 hours at a time.  If the sessions cost $125 per hour how much did the physical therapy cost?","A: The total number of sessions John attended is 6 weeks * 2 sessions per week = 12 sessions.
-Each session is 2 hours, so the total number of hours is 12 sessions * 2 hours = 24 hours.
-At a rate of $125 per hour, the total cost is 24 hours * $125 = $<<24*125=3000>>3000.","Each week he did 2*2=<<2*2=4>>4 hours of physical therapy
-So it cost 4*125=$<<4*125=500>>500 per week
-This means he spent 500*6=$<<500*6=3000>>3000
-#### 3000"
-Math,3a,"Question: Michael wants to lose 10 pounds by June. He lost 3 pounds in March and 4 pounds in April. How much weight does he have to lose in May to meet his goal?
-Answer: In March and April, he lost 3 + 4 = <<3+4=7>>7 pounds.
-To meet his goal, he needs to lose 10 – 7 = <<10-7=3>>3 pounds.
-#### 3
-Question: Marcos has to get across a 5 mile lake in his speedboat in 10 minutes so he can make it to work on time. How fast does he need to go in miles per hour to make it?
-Answer: 10 minutes for 5 miles means 10 minutes / 5 miles = <<10/5=2>>2 minutes/mile
-1 hour is 60 minutes so 60 minutes/hour / 2 minutes/mile = 30 miles/hour
-#### 30
-Question: Michael wants to lose 10 pounds by June. He lost 3 pounds in March and 4 pounds in April. How much weight does he have to lose in May to meet his goal?
-Answer: In March and April, he lost 3 + 4 = <<3+4=7>>7 pounds.
-To meet his goal, he needs to lose 10 – 7 = <<10-7=3>>3 pounds.
-#### 3
-Question: Marcos has to get across a 5 mile lake in his speedboat in 10 minutes so he can make it to work on time. How fast does he need to go in miles per hour to make it?
-Answer: 10 minutes for 5 miles means 10 minutes / 5 miles = <<10/5=2>>2 minutes/mile
-1 hour is 60 minutes so 60 minutes/hour / 2 minutes/mile = 30 miles/hour
-#### 30
-Q: John injured his back and needs to go to physical therapy.  He went to physical therapy for 6 weeks.  Each week he went twice for 2 hours at a time.  If the sessions cost $125 per hour how much did the physical therapy cost?","A: John went to physical therapy 6 weeks * 2 sessions per week * 2 hours per session = 24 sessions.
-The total cost is 24 sessions * $125 per hour = $<<24*125=3000>>3000.","Each week he did 2*2=<<2*2=4>>4 hours of physical therapy
-So it cost 4*125=$<<4*125=500>>500 per week
-This means he spent 500*6=$<<500*6=3000>>3000
-#### 3000"
-Math,3b,"Question: A 40-bead necklace is made up of three kinds of beads. There are seven amethyst beads and twice as many amber beads as amethysts. The third beads are turquoise. How many turquoise beads are in the necklace?
-Answer: There are 7 * 2 = <<7*2=14>>14 amber beads.
-Thus, there are 40 - 7 - 14 = <<40-7-14=19>>19 turquoise beads in the necklace.
-#### 19
-Question: Jay went to watch a singer in a one hour 20 minutes concert.  If there was a 10-minute intermission, and all the songs were 5 minutes except for one song that lasted 10 minutes, how many songs did she sing?
-Answer: The time the singer had for singing was 80 - 10 = <<80-10=70>>70 minutes.
-The time the singer had for singing 5-minute songs was 70 - 10 = 60 minutes.
-The number of 5-minute songs was 60 / 5 = <<60/5=12>>12 songs.
-The total number of songs sung is 12 + 1 = <<12+1=13>>13 songs.
-#### 13
-Question: A 40-bead necklace is made up of three kinds of beads. There are seven amethyst beads and twice as many amber beads as amethysts. The third beads are turquoise. How many turquoise beads are in the necklace?
-Answer: There are 7 * 2 = <<7*2=14>>14 amber beads.
-Thus, there are 40 - 7 - 14 = <<40-7-14=19>>19 turquoise beads in the necklace.
-#### 19
-Question: Jay went to watch a singer in a one hour 20 minutes concert.  If there was a 10-minute intermission, and all the songs were 5 minutes except for one song that lasted 10 minutes, how many songs did she sing?
-Answer: The time the singer had for singing was 80 - 10 = <<80-10=70>>70 minutes.
-The time the singer had for singing 5-minute songs was 70 - 10 = 60 minutes.
-The number of 5-minute songs was 60 / 5 = <<60/5=12>>12 songs.
-The total number of songs sung is 12 + 1 = <<12+1=13>>13 songs.
-#### 13
-Q: John injured his back and needs to go to physical therapy.  He went to physical therapy for 6 weeks.  Each week he went twice for 2 hours at a time.  If the sessions cost $125 per hour how much did the physical therapy cost?","A: John went to physical therapy for a total of 6 weeks * 2 sessions per week * 2 hours per session = 24 sessions.
-Each session costs $125, so the total cost for physical therapy is 24 sessions * $125 = $<<24*125=3000>>3000.","Each week he did 2*2=<<2*2=4>>4 hours of physical therapy
-So it cost 4*125=$<<4*125=500>>500 per week
-This means he spent 500*6=$<<500*6=3000>>3000
-#### 3000"
-CSQA,1a,"Question: What floor do you run between rooms?
-A: carpet
-B: exchange
-C: dance
-D: building
-E: hallway
-Answer: E
-Question: The man had been entertaining his whole life, being in his nineties now doing a show can lead to what?
-A: suicide
-B: fulfillment
-C: embarrassment
-D: fatigue
-E: laughter
-Answer: D
-Q: Who was the head of the branch yelling at?
-A: owner
-B: foot
-C: subordinate
-D: base
-E: point",Answer: C,C
-CSQA,1a,"Question: The man measured from each edge, he was trying to find the dead what?
-A: center
-B: middle
-C: corner
-D: middle
-E: interior
+Math,1a,"Question: An internet provider gives a 5% discount if the customer pays before the 25th day of the month. If the monthly internet rate is $50, how much did the customer pay in all for 4 months if he paid every 25th of the month?
+Answer: The 5% discount amounts to $50 x 5/100 = $<<50*5/100=2.50>>2.50.
+So the total discount given to the customer for 4 months was $2.50 x 4 = $<<2.5*4=10>>10.
+The customer was supposed to pay $50 x 4 = $<<50*4=200>>200 in all for 4 months without discount.
+Since the customer is entitled to the discount, then he only paid a total of $200 - $10 = $<<200-10=190>>190 for 4 months.
+#### 190
+Question: Mrs. Young makes bonnets for kids in the orphanage. On Monday, she made 10 bonnets, on Tuesday and Wednesday combined she made twice more than on Monday, while on Thursday she made 5 more than on Monday, and on Friday she made 5 less than on Thursday. Then, she divided up the bonnets evenly and sent them to 5 orphanages. How many bonnets did Mrs. Young send to each orphanage?
+Answer: She made 10 x 2 = <<10*2=20>>20 bonnets on Tuesday and Wednesday.
+While on Thursday she made 10 + 5 = <<10+5=15>>15 bonnets.
+On Friday she made 15 - 5 = <<15-5=10>>10 bonnets.
+Mrs. Young made a total of 10 + 20 + 15 + 10 = <<10+20+15+10=55>>55 bonnets for the orphanage.
+Therefore, Mrs. Young sends 55 / 5 = <<55/5=11>>11 bonnets to each orphanage.
+#### 11
+Question: Robert wants to buy a bookshelf and a sofa and has received two offers. Furniture United's offer includes a $1,350 advance payment and 6 monthly installments of $350 each. Cozy Homes' offer includes a $1,100 advance payment and 9 monthly installments of $250 each. What is the cost difference between the two offers?","To find the total cost for each offer, we need to calculate the sum of the advance payment and the total of the monthly installments.
+
+For Furniture United's offer:
+Total cost = $1,350 (advance payment) + 6 x $350 (monthly installments)
+Total cost = $1,350 + $2,100
+Total cost = $3,450
+
+For Cozy Homes' offer:
+Total cost = $1,100 (advance payment) + 9 x $250 (monthly installments)
+Total cost = $1,100 + $2,250
+Total cost = $3,350
+
+To find the cost difference between the two offers:
+Cost difference = Total cost of Furniture United's offer - Total cost of Cozy Homes' offer
+Cost difference = $3,450 - $3,350
+Cost difference = $100
+
+Therefore, the cost difference between the two offers is $100.","Furniture United's offer is 1,350 + (6 *350) = $<<1350+(6*350)=3450>>3,450
+Cozy Homes's offer is 1,100 + (9 * 250) = $<<1100+9*250=3350>>3,350
+The difference is 3,450 – 3,350 = $<<3450-3350=100>>100
+#### 100"
+Math,1a,"Question: Ben's potato gun can launch a potato 6 football fields. If a football field is 200 yards long and Ben's dog can run 400 feet/minute, how many minutes will it take his dog to fetch a potato he launches?
+Answer: First find the total distance the potato flies in yards: 200 yards/field * 6 fields = 1200 yards
+Then multiply that number by the number of feet per yard to convert it to feet: 1200 yards * 3 feet/yard = <<1200*3=3600>>3600 feet
+Then divide that number by the dog's speed to find the number of minutes it has to run to fetch the potato: 3600 feet / 400 feet/minute = <<3600/400=9>>9 minutes
+#### 9
+Question: Danny has 3 bottles of soda. He drinks 90% of one bottle and gives 70% of the other two bottles to his friends. How much soda does Danny have left, expressed as a percentage of a bottle?
+Answer: First find how much soda Danny drank: 1 bottle * .9 = <<1*.9=.9>>.9 bottles
+Then find how much soda Danny gave to his friends: 2 friends * 1 bottle/friend * .7 = <<2*1*.7=1.4>>1.4 bottles
+Now subtract the soda drunk and given away to find the remaining amount of soda: 3 bottles - .9 bottles - 1.4 bottles = .7 bottles * 100% = 70%
+#### 70
+Question: Robert wants to buy a bookshelf and a sofa and has received two offers. Furniture United's offer includes a $1,350 advance payment and 6 monthly installments of $350 each. Cozy Homes' offer includes a $1,100 advance payment and 9 monthly installments of $250 each. What is the cost difference between the two offers?","To find the total cost of Furniture United's offer, add the advance payment to the total of the monthly installments: $1,350 + (6 * $350) = $1,350 + $2,100 = $3,450
+
+To find the total cost of Cozy Homes' offer, add the advance payment to the total of the monthly installments: $1,100 + (9 * $250) = $1,100 + $2,250 = $3,350
+
+Now subtract Cozy Homes' total cost from Furniture United's total cost to find the cost difference: $3,450 - $3,350 = $100
+
+Therefore, the cost difference between the two offers is $100.","Furniture United's offer is 1,350 + (6 *350) = $<<1350+(6*350)=3450>>3,450
+Cozy Homes's offer is 1,100 + (9 * 250) = $<<1100+9*250=3350>>3,350
+The difference is 3,450 – 3,350 = $<<3450-3350=100>>100
+#### 100"
+Math,2,"Question: An internet provider gives a 5% discount if the customer pays before the 25th day of the month. If the monthly internet rate is $50, how much did the customer pay in all for 4 months if he paid every 25th of the month?
+Answer: The 5% discount amounts to $50 x 5/100 = $<<50*5/100=2.50>>2.50.
+So the total discount given to the customer for 4 months was $2.50 x 4 = $<<2.5*4=10>>10.
+The customer was supposed to pay $50 x 4 = $<<50*4=200>>200 in all for 4 months without discount.
+Since the customer is entitled to the discount, then he only paid a total of $200 - $10 = $<<200-10=190>>190 for 4 months.
+#### 190
+Question: Mrs. Young makes bonnets for kids in the orphanage. On Monday, she made 10 bonnets, on Tuesday and Wednesday combined she made twice more than on Monday, while on Thursday she made 5 more than on Monday, and on Friday she made 5 less than on Thursday. Then, she divided up the bonnets evenly and sent them to 5 orphanages. How many bonnets did Mrs. Young send to each orphanage?
+Answer: She made 10 x 2 = <<10*2=20>>20 bonnets on Tuesday and Wednesday.
+While on Thursday she made 10 + 5 = <<10+5=15>>15 bonnets.
+On Friday she made 15 - 5 = <<15-5=10>>10 bonnets.
+Mrs. Young made a total of 10 + 20 + 15 + 10 = <<10+20+15+10=55>>55 bonnets for the orphanage.
+Therefore, Mrs. Young sends 55 / 5 = <<55/5=11>>11 bonnets to each orphanage.
+#### 11
+Question: Ben's potato gun can launch a potato 6 football fields. If a football field is 200 yards long and Ben's dog can run 400 feet/minute, how many minutes will it take his dog to fetch a potato he launches?
+Answer: First find the total distance the potato flies in yards: 200 yards/field * 6 fields = 1200 yards
+Then multiply that number by the number of feet per yard to convert it to feet: 1200 yards * 3 feet/yard = <<1200*3=3600>>3600 feet
+Then divide that number by the dog's speed to find the number of minutes it has to run to fetch the potato: 3600 feet / 400 feet/minute = <<3600/400=9>>9 minutes
+#### 9
+Question: Danny has 3 bottles of soda. He drinks 90% of one bottle and gives 70% of the other two bottles to his friends. How much soda does Danny have left, expressed as a percentage of a bottle?
+Answer: First find how much soda Danny drank: 1 bottle * .9 = <<1*.9=.9>>.9 bottles
+Then find how much soda Danny gave to his friends: 2 friends * 1 bottle/friend * .7 = <<2*1*.7=1.4>>1.4 bottles
+Now subtract the soda drunk and given away to find the remaining amount of soda: 3 bottles - .9 bottles - 1.4 bottles = .7 bottles * 100% = 70%
+#### 70
+Question: Robert wants to buy a bookshelf and a sofa and has received two offers. Furniture United's offer includes a $1,350 advance payment and 6 monthly installments of $350 each. Cozy Homes' offer includes a $1,100 advance payment and 9 monthly installments of $250 each. What is the cost difference between the two offers?","To find the total cost for Furniture United's offer, we first calculate the total cost of the monthly installments: 6 months * $350/month = $2100
+Adding the advance payment to this gives a total cost of $2100 + $1350 = $3450 for Furniture United's offer.
+
+For Cozy Homes' offer, we calculate the total cost of the monthly installments: 9 months * $250/month = $2250
+Adding the advance payment to this gives a total cost of $2250 + $1100 = $3350 for Cozy Homes' offer.
+
+Finally, we find the cost difference between the two offers by subtracting the total cost of Cozy Homes' offer from Furniture United's offer: $3450 - $3350 = $<<3450-3350=100>>100
+
+Therefore, the cost difference between the two offers is $100.","Furniture United's offer is 1,350 + (6 *350) = $<<1350+(6*350)=3450>>3,450
+Cozy Homes's offer is 1,100 + (9 * 250) = $<<1100+9*250=3350>>3,350
+The difference is 3,450 – 3,350 = $<<3450-3350=100>>100
+#### 100"
+Math,3a,"Question: An internet provider gives a 5% discount if the customer pays before the 25th day of the month. If the monthly internet rate is $50, how much did the customer pay in all for 4 months if he paid every 25th of the month?
+Answer: The 5% discount amounts to $50 x 5/100 = $<<50*5/100=2.50>>2.50.
+So the total discount given to the customer for 4 months was $2.50 x 4 = $<<2.5*4=10>>10.
+The customer was supposed to pay $50 x 4 = $<<50*4=200>>200 in all for 4 months without discount.
+Since the customer is entitled to the discount, then he only paid a total of $200 - $10 = $<<200-10=190>>190 for 4 months.
+#### 190
+Question: Mrs. Young makes bonnets for kids in the orphanage. On Monday, she made 10 bonnets, on Tuesday and Wednesday combined she made twice more than on Monday, while on Thursday she made 5 more than on Monday, and on Friday she made 5 less than on Thursday. Then, she divided up the bonnets evenly and sent them to 5 orphanages. How many bonnets did Mrs. Young send to each orphanage?
+Answer: She made 10 x 2 = <<10*2=20>>20 bonnets on Tuesday and Wednesday.
+While on Thursday she made 10 + 5 = <<10+5=15>>15 bonnets.
+On Friday she made 15 - 5 = <<15-5=10>>10 bonnets.
+Mrs. Young made a total of 10 + 20 + 15 + 10 = <<10+20+15+10=55>>55 bonnets for the orphanage.
+Therefore, Mrs. Young sends 55 / 5 = <<55/5=11>>11 bonnets to each orphanage.
+#### 11
+Question: An internet provider gives a 5% discount if the customer pays before the 25th day of the month. If the monthly internet rate is $50, how much did the customer pay in all for 4 months if he paid every 25th of the month?
+Answer: The 5% discount amounts to $50 x 5/100 = $<<50*5/100=2.50>>2.50.
+So the total discount given to the customer for 4 months was $2.50 x 4 = $<<2.5*4=10>>10.
+The customer was supposed to pay $50 x 4 = $<<50*4=200>>200 in all for 4 months without discount.
+Since the customer is entitled to the discount, then he only paid a total of $200 - $10 = $<<200-10=190>>190 for 4 months.
+#### 190
+Question: Mrs. Young makes bonnets for kids in the orphanage. On Monday, she made 10 bonnets, on Tuesday and Wednesday combined she made twice more than on Monday, while on Thursday she made 5 more than on Monday, and on Friday she made 5 less than on Thursday. Then, she divided up the bonnets evenly and sent them to 5 orphanages. How many bonnets did Mrs. Young send to each orphanage?
+Answer: She made 10 x 2 = <<10*2=20>>20 bonnets on Tuesday and Wednesday.
+While on Thursday she made 10 + 5 = <<10+5=15>>15 bonnets.
+On Friday she made 15 - 5 = <<15-5=10>>10 bonnets.
+Mrs. Young made a total of 10 + 20 + 15 + 10 = <<10+20+15+10=55>>55 bonnets for the orphanage.
+Therefore, Mrs. Young sends 55 / 5 = <<55/5=11>>11 bonnets to each orphanage.
+#### 11
+Question: Robert wants to buy a bookshelf and a sofa and has received two offers. Furniture United's offer includes a $1,350 advance payment and 6 monthly installments of $350 each. Cozy Homes' offer includes a $1,100 advance payment and 9 monthly installments of $250 each. What is the cost difference between the two offers?","To calculate the total cost for each offer, we first add the advance payment to the total of the monthly installments.
+
+For Furniture United:
+Total cost = $1,350 + ($350 x 6) = $1,350 + $2,100 = $3,450
+
+For Cozy Homes:
+Total cost = $1,100 + ($250 x 9) = $1,100 + $2,250 = $3,350
+
+Now, we find the cost difference between the two offers:
+Cost difference = $3,450 - $3,350 = $<<3450-3350=100>>100
+
+Therefore, the cost difference between the two offers is $100.","Furniture United's offer is 1,350 + (6 *350) = $<<1350+(6*350)=3450>>3,450
+Cozy Homes's offer is 1,100 + (9 * 250) = $<<1100+9*250=3350>>3,350
+The difference is 3,450 – 3,350 = $<<3450-3350=100>>100
+#### 100"
+Math,3b,"Question: Ben's potato gun can launch a potato 6 football fields. If a football field is 200 yards long and Ben's dog can run 400 feet/minute, how many minutes will it take his dog to fetch a potato he launches?
+Answer: First find the total distance the potato flies in yards: 200 yards/field * 6 fields = 1200 yards
+Then multiply that number by the number of feet per yard to convert it to feet: 1200 yards * 3 feet/yard = <<1200*3=3600>>3600 feet
+Then divide that number by the dog's speed to find the number of minutes it has to run to fetch the potato: 3600 feet / 400 feet/minute = <<3600/400=9>>9 minutes
+#### 9
+Question: Danny has 3 bottles of soda. He drinks 90% of one bottle and gives 70% of the other two bottles to his friends. How much soda does Danny have left, expressed as a percentage of a bottle?
+Answer: First find how much soda Danny drank: 1 bottle * .9 = <<1*.9=.9>>.9 bottles
+Then find how much soda Danny gave to his friends: 2 friends * 1 bottle/friend * .7 = <<2*1*.7=1.4>>1.4 bottles
+Now subtract the soda drunk and given away to find the remaining amount of soda: 3 bottles - .9 bottles - 1.4 bottles = .7 bottles * 100% = 70%
+#### 70
+Question: Ben's potato gun can launch a potato 6 football fields. If a football field is 200 yards long and Ben's dog can run 400 feet/minute, how many minutes will it take his dog to fetch a potato he launches?
+Answer: First find the total distance the potato flies in yards: 200 yards/field * 6 fields = 1200 yards
+Then multiply that number by the number of feet per yard to convert it to feet: 1200 yards * 3 feet/yard = <<1200*3=3600>>3600 feet
+Then divide that number by the dog's speed to find the number of minutes it has to run to fetch the potato: 3600 feet / 400 feet/minute = <<3600/400=9>>9 minutes
+#### 9
+Question: Danny has 3 bottles of soda. He drinks 90% of one bottle and gives 70% of the other two bottles to his friends. How much soda does Danny have left, expressed as a percentage of a bottle?
+Answer: First find how much soda Danny drank: 1 bottle * .9 = <<1*.9=.9>>.9 bottles
+Then find how much soda Danny gave to his friends: 2 friends * 1 bottle/friend * .7 = <<2*1*.7=1.4>>1.4 bottles
+Now subtract the soda drunk and given away to find the remaining amount of soda: 3 bottles - .9 bottles - 1.4 bottles = .7 bottles * 100% = 70%
+#### 70
+Question: Robert wants to buy a bookshelf and a sofa and has received two offers. Furniture United's offer includes a $1,350 advance payment and 6 monthly installments of $350 each. Cozy Homes' offer includes a $1,100 advance payment and 9 monthly installments of $250 each. What is the cost difference between the two offers?","To find the total cost of Furniture United's offer, add the advance payment to the total installment cost: $1,350 + ($350 * 6) = $1,350 + $2,100 = $3,450
+To find the total cost of Cozy Homes' offer, add the advance payment to the total installment cost: $1,100 + ($250 * 9) = $1,100 + $2,250 = $3,350
+Finally, subtract the total cost of Cozy Homes' offer from the total cost of Furniture United's offer to find the cost difference: $3,450 - $3,350 = $100.","Furniture United's offer is 1,350 + (6 *350) = $<<1350+(6*350)=3450>>3,450
+Cozy Homes's offer is 1,100 + (9 * 250) = $<<1100+9*250=3350>>3,350
+The difference is 3,450 – 3,350 = $<<3450-3350=100>>100
+#### 100"
+CSQA,1a,"Question: Brian  took the tool  from the shelf. He thought no one noticed.  As he was talking out, the cashier told him to do what to it?
+A: drop
+B: bring
+C: move slowly
+D: caretake
+E: give
 Answer: A
-Question: If I were to suffer from sudden illness I would be within reason to visit where?
-A: nursing home
-B: hospital
-C: brain
-D: elderly person
-E: building
-Answer: B
-Q: Who was the head of the branch yelling at?
-A: owner
-B: foot
-C: subordinate
-D: base
-E: point",A: subordinate,C
-CSQA,2,"Question: What floor do you run between rooms?
-A: carpet
-B: exchange
-C: dance
-D: building
-E: hallway
-Answer: E
-Question: The man had been entertaining his whole life, being in his nineties now doing a show can lead to what?
-A: suicide
-B: fulfillment
-C: embarrassment
-D: fatigue
-E: laughter
-Answer: D
-Question: The man measured from each edge, he was trying to find the dead what?
-A: center
-B: middle
-C: corner
-D: middle
-E: interior
+Question: I'm looking for alcohol and fried foods, any suggestions?
+A: pub
+B: plane
+C: beer
+D: store
+E: fraternity house
 Answer: A
-Question: If I were to suffer from sudden illness I would be within reason to visit where?
-A: nursing home
-B: hospital
-C: brain
-D: elderly person
-E: building
+Question: The sanctions against the school were a punishing blow, and they seemed to what the efforts the school had made to change?
+A: ignore
+B: enforce
+C: authoritarian
+D: yell at
+E: avoid",Answer: E,A
+CSQA,1a,"Question: What is a person the leader of after they are inagurated?
+A: earth
+B: country
+C: pack
+D: organization
+E: army
 Answer: B
-Q: Who was the head of the branch yelling at?
-A: owner
-B: foot
-C: subordinate
-D: base
-E: point",Answer: C,C
-CSQA,3a,"Question: What floor do you run between rooms?
-A: carpet
-B: exchange
-C: dance
-D: building
-E: hallway
-Answer: E
-Question: The man had been entertaining his whole life, being in his nineties now doing a show can lead to what?
-A: suicide
-B: fulfillment
-C: embarrassment
-D: fatigue
-E: laughter
-Answer: D
-Question: What floor do you run between rooms?
-A: carpet
-B: exchange
-C: dance
-D: building
-E: hallway
-Answer: E
-Question: The man had been entertaining his whole life, being in his nineties now doing a show can lead to what?
-A: suicide
-B: fulfillment
-C: embarrassment
-D: fatigue
-E: laughter
-Answer: D
-Q: Who was the head of the branch yelling at?
-A: owner
-B: foot
-C: subordinate
-D: base
-E: point",Answer: C,C
-CSQA,3b,"Question: The man measured from each edge, he was trying to find the dead what?
-A: center
-B: middle
-C: corner
-D: middle
-E: interior
+Question: John had his appointment book with him when he got a medical checkup but he lost it somewhere.  He doesn't want to bother looking for it, so where would he go to get a new one?
+A: his house
+B: pocket
+C: office supply store
+D: doctor's office
+E: handbag
+Answer: C
+Question: The sanctions against the school were a punishing blow, and they seemed to what the efforts the school had made to change?
+A: ignore
+B: enforce
+C: authoritarian
+D: yell at
+E: avoid",Answer: A,A
+CSQA,2,"Question: Brian  took the tool  from the shelf. He thought no one noticed.  As he was talking out, the cashier told him to do what to it?
+A: drop
+B: bring
+C: move slowly
+D: caretake
+E: give
 Answer: A
-Question: If I were to suffer from sudden illness I would be within reason to visit where?
-A: nursing home
-B: hospital
-C: brain
-D: elderly person
-E: building
-Answer: B
-Question: The man measured from each edge, he was trying to find the dead what?
-A: center
-B: middle
-C: corner
-D: middle
-E: interior
+Question: I'm looking for alcohol and fried foods, any suggestions?
+A: pub
+B: plane
+C: beer
+D: store
+E: fraternity house
 Answer: A
-Question: If I were to suffer from sudden illness I would be within reason to visit where?
-A: nursing home
-B: hospital
-C: brain
-D: elderly person
-E: building
+Question: What is a person the leader of after they are inagurated?
+A: earth
+B: country
+C: pack
+D: organization
+E: army
 Answer: B
-Q: Who was the head of the branch yelling at?
-A: owner
-B: foot
-C: subordinate
-D: base
-E: point",Answer: C,C
-StrategyQA,1a,"Question: Railroad engineers work on trains and railway systems NASCAR events feature automobile races
-Is a railroad engineer needed during NASCAR events?
+Question: John had his appointment book with him when he got a medical checkup but he lost it somewhere.  He doesn't want to bother looking for it, so where would he go to get a new one?
+A: his house
+B: pocket
+C: office supply store
+D: doctor's office
+E: handbag
+Answer: C
+Question: The sanctions against the school were a punishing blow, and they seemed to what the efforts the school had made to change?
+A: ignore
+B: enforce
+C: authoritarian
+D: yell at
+E: avoid",Answer: A,A
+CSQA,3a,"Question: Brian  took the tool  from the shelf. He thought no one noticed.  As he was talking out, the cashier told him to do what to it?
+A: drop
+B: bring
+C: move slowly
+D: caretake
+E: give
+Answer: A
+Question: I'm looking for alcohol and fried foods, any suggestions?
+A: pub
+B: plane
+C: beer
+D: store
+E: fraternity house
+Answer: A
+Question: Brian  took the tool  from the shelf. He thought no one noticed.  As he was talking out, the cashier told him to do what to it?
+A: drop
+B: bring
+C: move slowly
+D: caretake
+E: give
+Answer: A
+Question: I'm looking for alcohol and fried foods, any suggestions?
+A: pub
+B: plane
+C: beer
+D: store
+E: fraternity house
+Answer: A
+Question: The sanctions against the school were a punishing blow, and they seemed to what the efforts the school had made to change?
+A: ignore
+B: enforce
+C: authoritarian
+D: yell at
+E: avoid",Answer: B,A
+CSQA,3b,"Question: What is a person the leader of after they are inagurated?
+A: earth
+B: country
+C: pack
+D: organization
+E: army
+Answer: B
+Question: John had his appointment book with him when he got a medical checkup but he lost it somewhere.  He doesn't want to bother looking for it, so where would he go to get a new one?
+A: his house
+B: pocket
+C: office supply store
+D: doctor's office
+E: handbag
+Answer: C
+Question: What is a person the leader of after they are inagurated?
+A: earth
+B: country
+C: pack
+D: organization
+E: army
+Answer: B
+Question: John had his appointment book with him when he got a medical checkup but he lost it somewhere.  He doesn't want to bother looking for it, so where would he go to get a new one?
+A: his house
+B: pocket
+C: office supply store
+D: doctor's office
+E: handbag
+Answer: C
+Question: The sanctions against the school were a punishing blow, and they seemed to what the efforts the school had made to change?
+A: ignore
+B: enforce
+C: authoritarian
+D: yell at
+E: avoid",Answer: A,A
+StrategyQA,1a,"Question: A firewall is a computer program that protects unwanted attacks from penetrating a computer. Firewalls are installed on computers and conduct routine background maintenance. A short circuit is an electrical failure resulting from wires unable to conduct currents. Short circuits, especially during updates can lead to the dreaded Windows Blue Screen of Death in which a computer is unable to restart.
+Can a firewall protect against a short circuit?
 Answer: False
-Question: The Doctor (Doctor Who) used the TARDIS, a largely unreliable time traveling machine, to travel through time and space. Gateway is a Marvel comic character linked to the X-Men comics. Gateway has the power to create wormholes that allow him to travel through time and space.
-Would Marvel's Gateway be envious of the Doctor (Doctor Who)'s TARDIS machine?
+Question: J. S. Dorton Arena is a 7,610-seat multi-purpose arena located in Raleigh, North Carolina. On an average day in fiscal 2013, about 12,000 people boarded or left trains at 30th Street.
+Could all of the people who pass through 30th Street Station every day fit in Dorton Arena?
 Answer: False
-Q: The Jewish religion regards the Old Testament as their holy book. The New Testament of the bible is not acknowledged by Jewish religious people. The Ten Commandments are in the Old Testamanet.
-Were the Ten commandments the part of the bible that Jewish people do not believe in?",Answer: False,False
-StrategyQA,1a,"Question: Christopher Reeve suffered a serious spinal cord injury that left him a quadriplegic.  Christopher Reeve required a portable ventilator after his injury. At one point, Christopher Reeve's treatment was costing $400,000 yearly.
-If he were poor, would Christopher Reeve have lived?
+Question: An airline with a perfect operation record has no crashes or other damaging incidents. United Airlines has had over 30 crash incidents over several decades.
+Does United Airlines have a perfect operation record?",Answer: False,False
+StrategyQA,1a,"Question: The Statue of Liberty rises 305 feet into the air. The Statue of Unity is 597 feet high. The Lighthouse of Alexandria was between 338 and 387 feet tall.
+Is Statue of Unity hypothetically more level with Statue of Liberty than Lighthouse of Alexandria?
 Answer: False
-Question: The Fibonaacci number is a sequence of numbers that adds a number to the one before it and goes on forever. Pi is a sequence of numbers and 2.7 trillion digits were discovered in 2010.
-Is the Fibonacci number sequence longer than every number discovered in Pi?
+Question: Xenophobia is the dislike of someone that is foreign or from a different background. Saladin was a Kurdish leader that became sultan of Egypt. Ali Askari was a Kurdish politician.
+Is xenophobia hypothetically unimportant between Saladin and Ali Askari?
 Answer: True
-Q: The Jewish religion regards the Old Testament as their holy book. The New Testament of the bible is not acknowledged by Jewish religious people. The Ten Commandments are in the Old Testamanet.
-Were the Ten commandments the part of the bible that Jewish people do not believe in?",A: False,False
-StrategyQA,2,"Question: Railroad engineers work on trains and railway systems NASCAR events feature automobile races
-Is a railroad engineer needed during NASCAR events?
+Question: An airline with a perfect operation record has no crashes or other damaging incidents. United Airlines has had over 30 crash incidents over several decades.
+Does United Airlines have a perfect operation record?",Answer: False,False
+StrategyQA,2,"Question: A firewall is a computer program that protects unwanted attacks from penetrating a computer. Firewalls are installed on computers and conduct routine background maintenance. A short circuit is an electrical failure resulting from wires unable to conduct currents. Short circuits, especially during updates can lead to the dreaded Windows Blue Screen of Death in which a computer is unable to restart.
+Can a firewall protect against a short circuit?
 Answer: False
-Question: The Doctor (Doctor Who) used the TARDIS, a largely unreliable time traveling machine, to travel through time and space. Gateway is a Marvel comic character linked to the X-Men comics. Gateway has the power to create wormholes that allow him to travel through time and space.
-Would Marvel's Gateway be envious of the Doctor (Doctor Who)'s TARDIS machine?
+Question: J. S. Dorton Arena is a 7,610-seat multi-purpose arena located in Raleigh, North Carolina. On an average day in fiscal 2013, about 12,000 people boarded or left trains at 30th Street.
+Could all of the people who pass through 30th Street Station every day fit in Dorton Arena?
 Answer: False
-Question: Christopher Reeve suffered a serious spinal cord injury that left him a quadriplegic.  Christopher Reeve required a portable ventilator after his injury. At one point, Christopher Reeve's treatment was costing $400,000 yearly.
-If he were poor, would Christopher Reeve have lived?
+Question: The Statue of Liberty rises 305 feet into the air. The Statue of Unity is 597 feet high. The Lighthouse of Alexandria was between 338 and 387 feet tall.
+Is Statue of Unity hypothetically more level with Statue of Liberty than Lighthouse of Alexandria?
 Answer: False
-Question: The Fibonaacci number is a sequence of numbers that adds a number to the one before it and goes on forever. Pi is a sequence of numbers and 2.7 trillion digits were discovered in 2010.
-Is the Fibonacci number sequence longer than every number discovered in Pi?
+Question: Xenophobia is the dislike of someone that is foreign or from a different background. Saladin was a Kurdish leader that became sultan of Egypt. Ali Askari was a Kurdish politician.
+Is xenophobia hypothetically unimportant between Saladin and Ali Askari?
 Answer: True
-Q: The Jewish religion regards the Old Testament as their holy book. The New Testament of the bible is not acknowledged by Jewish religious people. The Ten Commandments are in the Old Testamanet.
-Were the Ten commandments the part of the bible that Jewish people do not believe in?",Answer: False,False
-StrategyQA,3a,"Question: Railroad engineers work on trains and railway systems NASCAR events feature automobile races
-Is a railroad engineer needed during NASCAR events?
+Question: An airline with a perfect operation record has no crashes or other damaging incidents. United Airlines has had over 30 crash incidents over several decades.
+Does United Airlines have a perfect operation record?",Answer: False,False
+StrategyQA,3a,"Question: A firewall is a computer program that protects unwanted attacks from penetrating a computer. Firewalls are installed on computers and conduct routine background maintenance. A short circuit is an electrical failure resulting from wires unable to conduct currents. Short circuits, especially during updates can lead to the dreaded Windows Blue Screen of Death in which a computer is unable to restart.
+Can a firewall protect against a short circuit?
 Answer: False
-Question: The Doctor (Doctor Who) used the TARDIS, a largely unreliable time traveling machine, to travel through time and space. Gateway is a Marvel comic character linked to the X-Men comics. Gateway has the power to create wormholes that allow him to travel through time and space.
-Would Marvel's Gateway be envious of the Doctor (Doctor Who)'s TARDIS machine?
+Question: J. S. Dorton Arena is a 7,610-seat multi-purpose arena located in Raleigh, North Carolina. On an average day in fiscal 2013, about 12,000 people boarded or left trains at 30th Street.
+Could all of the people who pass through 30th Street Station every day fit in Dorton Arena?
 Answer: False
-Question: Railroad engineers work on trains and railway systems NASCAR events feature automobile races
-Is a railroad engineer needed during NASCAR events?
+Question: A firewall is a computer program that protects unwanted attacks from penetrating a computer. Firewalls are installed on computers and conduct routine background maintenance. A short circuit is an electrical failure resulting from wires unable to conduct currents. Short circuits, especially during updates can lead to the dreaded Windows Blue Screen of Death in which a computer is unable to restart.
+Can a firewall protect against a short circuit?
 Answer: False
-Question: The Doctor (Doctor Who) used the TARDIS, a largely unreliable time traveling machine, to travel through time and space. Gateway is a Marvel comic character linked to the X-Men comics. Gateway has the power to create wormholes that allow him to travel through time and space.
-Would Marvel's Gateway be envious of the Doctor (Doctor Who)'s TARDIS machine?
+Question: J. S. Dorton Arena is a 7,610-seat multi-purpose arena located in Raleigh, North Carolina. On an average day in fiscal 2013, about 12,000 people boarded or left trains at 30th Street.
+Could all of the people who pass through 30th Street Station every day fit in Dorton Arena?
 Answer: False
-Q: The Jewish religion regards the Old Testament as their holy book. The New Testament of the bible is not acknowledged by Jewish religious people. The Ten Commandments are in the Old Testamanet.
-Were the Ten commandments the part of the bible that Jewish people do not believe in?",A: False,False
-StrategyQA,3b,"Question: Christopher Reeve suffered a serious spinal cord injury that left him a quadriplegic.  Christopher Reeve required a portable ventilator after his injury. At one point, Christopher Reeve's treatment was costing $400,000 yearly.
-If he were poor, would Christopher Reeve have lived?
+Question: An airline with a perfect operation record has no crashes or other damaging incidents. United Airlines has had over 30 crash incidents over several decades.
+Does United Airlines have a perfect operation record?",Answer: False,False
+StrategyQA,3b,"Question: The Statue of Liberty rises 305 feet into the air. The Statue of Unity is 597 feet high. The Lighthouse of Alexandria was between 338 and 387 feet tall.
+Is Statue of Unity hypothetically more level with Statue of Liberty than Lighthouse of Alexandria?
 Answer: False
-Question: The Fibonaacci number is a sequence of numbers that adds a number to the one before it and goes on forever. Pi is a sequence of numbers and 2.7 trillion digits were discovered in 2010.
-Is the Fibonacci number sequence longer than every number discovered in Pi?
+Question: Xenophobia is the dislike of someone that is foreign or from a different background. Saladin was a Kurdish leader that became sultan of Egypt. Ali Askari was a Kurdish politician.
+Is xenophobia hypothetically unimportant between Saladin and Ali Askari?
 Answer: True
-Question: Christopher Reeve suffered a serious spinal cord injury that left him a quadriplegic.  Christopher Reeve required a portable ventilator after his injury. At one point, Christopher Reeve's treatment was costing $400,000 yearly.
-If he were poor, would Christopher Reeve have lived?
+Question: The Statue of Liberty rises 305 feet into the air. The Statue of Unity is 597 feet high. The Lighthouse of Alexandria was between 338 and 387 feet tall.
+Is Statue of Unity hypothetically more level with Statue of Liberty than Lighthouse of Alexandria?
 Answer: False
-Question: The Fibonaacci number is a sequence of numbers that adds a number to the one before it and goes on forever. Pi is a sequence of numbers and 2.7 trillion digits were discovered in 2010.
-Is the Fibonacci number sequence longer than every number discovered in Pi?
+Question: Xenophobia is the dislike of someone that is foreign or from a different background. Saladin was a Kurdish leader that became sultan of Egypt. Ali Askari was a Kurdish politician.
+Is xenophobia hypothetically unimportant between Saladin and Ali Askari?
 Answer: True
-Q: The Jewish religion regards the Old Testament as their holy book. The New Testament of the bible is not acknowledged by Jewish religious people. The Ten Commandments are in the Old Testamanet.
-Were the Ten commandments the part of the bible that Jewish people do not believe in?",A: False,False
-SayCan,1a,"Question: Throw away all the fruits on the table.
-Answer: 1. go to the table, 2. pick up the apple, 3. go to the trash, 4. put down the apple, 5. go to the table, 6. pick up the orange, 7. go to the trash, 8. put down the orange, 9. done
-Question: Go to the table.
+Question: An airline with a perfect operation record has no crashes or other damaging incidents. United Airlines has had over 30 crash incidents over several decades.
+Does United Airlines have a perfect operation record?",Answer: False,False
+SayCan,1a,"Question: Park at the table.
 Answer: 1. go to the table, 2. done
-Q: Bring me a soda that is not a coke.",A: I'm unable to physically bring you a soda.,"1. find a pepsi, 2. pick up the pepsi, 3. bring it to you, 4. put down the pepsi, 5. done"
-SayCan,1a,"Question: Bring me a drink and snack for lunch.
-Answer: 1. find a water bottle, 2. pick up the water bottle, 3. bring it to you, 4. put down the water bottle, 5. find the multigrain chips, 6. pick up the multigrain chips, 7. bring it to you, 8. put down the multigrain chips, 9. done
-Question: Can you bring me a salty snack?
-Answer: 1. find a sea salt chips, 2. pick up the sea salt chips, 3. bring it to you, 4. put down the sea salt chips, 5. done.
-Q: Bring me a soda that is not a coke.","A: 1. find a different soda option, 2. pick up the soda, 3. bring it to you, 4. put down the soda, 5. done.","1. find a pepsi, 2. pick up the pepsi, 3. bring it to you, 4. put down the pepsi, 5. done"
-SayCan,2,"Question: Throw away all the fruits on the table.
-Answer: 1. go to the table, 2. pick up the apple, 3. go to the trash, 4. put down the apple, 5. go to the table, 6. pick up the orange, 7. go to the trash, 8. put down the orange, 9. done
-Question: Go to the table.
+Question: Lift the coke
+Answer: 1. pick up the coke, 2. done
+Question: Bring me a fruit that is not an apple.","Answer: 1. find a fruit that is not an apple, 2. bring the fruit to you, 3. done","1. find a orange, 2. pick up the orange, 3. bring it to you, 4. put down the orange, 5. done."
+SayCan,1a,"Question: Bring me an apple from the drawer.
+Answer: 1. go to the drawer, 2. open the drawer, 3. pick up the apple, 4. close the drawer, 5. bring it to you, 6. put down the apple, 7. done
+Question: Move the chips bag from the table to the counter.
+Answer: 1. find the bag of chips, 2. pick up the bag of chips, 3. go to the counter, 4. put down the bag of chips, 5. done
+Question: Bring me a fruit that is not an apple.","Answer: 1. find a fruit that is not an apple, 2. pick up the fruit, 3. bring it to you, 4. put down the fruit, 5. done","1. find a orange, 2. pick up the orange, 3. bring it to you, 4. put down the orange, 5. done."
+SayCan,2,"Question: Park at the table.
 Answer: 1. go to the table, 2. done
-Question: Bring me a drink and snack for lunch.
-Answer: 1. find a water bottle, 2. pick up the water bottle, 3. bring it to you, 4. put down the water bottle, 5. find the multigrain chips, 6. pick up the multigrain chips, 7. bring it to you, 8. put down the multigrain chips, 9. done
-Question: Can you bring me a salty snack?
-Answer: 1. find a sea salt chips, 2. pick up the sea salt chips, 3. bring it to you, 4. put down the sea salt chips, 5. done.
-Q: Bring me a soda that is not a coke.","A: 1. find a soda that is not Coke, 2. pick up the soda, 3. bring it to you, 4. put down the soda, 5. done","1. find a pepsi, 2. pick up the pepsi, 3. bring it to you, 4. put down the pepsi, 5. done"
-SayCan,3a,"Question: Throw away all the fruits on the table.
-Answer: 1. go to the table, 2. pick up the apple, 3. go to the trash, 4. put down the apple, 5. go to the table, 6. pick up the orange, 7. go to the trash, 8. put down the orange, 9. done
-Question: Go to the table.
+Question: Lift the coke
+Answer: 1. pick up the coke, 2. done
+Question: Bring me an apple from the drawer.
+Answer: 1. go to the drawer, 2. open the drawer, 3. pick up the apple, 4. close the drawer, 5. bring it to you, 6. put down the apple, 7. done
+Question: Move the chips bag from the table to the counter.
+Answer: 1. find the bag of chips, 2. pick up the bag of chips, 3. go to the counter, 4. put down the bag of chips, 5. done
+Question: Bring me a fruit that is not an apple.","Answer: 1. go to the fruit bowl, 2. pick up a non-apple fruit, 3. bring it to you, 4. put it down, 5. done","1. find a orange, 2. pick up the orange, 3. bring it to you, 4. put down the orange, 5. done."
+SayCan,3a,"Question: Park at the table.
 Answer: 1. go to the table, 2. done
-Question: Throw away all the fruits on the table.
-Answer: 1. go to the table, 2. pick up the apple, 3. go to the trash, 4. put down the apple, 5. go to the table, 6. pick up the orange, 7. go to the trash, 8. put down the orange, 9. done
-Question: Go to the table.
+Question: Lift the coke
+Answer: 1. pick up the coke, 2. done
+Question: Park at the table.
 Answer: 1. go to the table, 2. done
-Q: Bring me a soda that is not a coke.","A: I'm sorry, I cannot physically bring you an item.","1. find a pepsi, 2. pick up the pepsi, 3. bring it to you, 4. put down the pepsi, 5. done"
-SayCan,3b,"Question: Bring me a drink and snack for lunch.
-Answer: 1. find a water bottle, 2. pick up the water bottle, 3. bring it to you, 4. put down the water bottle, 5. find the multigrain chips, 6. pick up the multigrain chips, 7. bring it to you, 8. put down the multigrain chips, 9. done
-Question: Can you bring me a salty snack?
-Answer: 1. find a sea salt chips, 2. pick up the sea salt chips, 3. bring it to you, 4. put down the sea salt chips, 5. done.
-Question: Bring me a drink and snack for lunch.
-Answer: 1. find a water bottle, 2. pick up the water bottle, 3. bring it to you, 4. put down the water bottle, 5. find the multigrain chips, 6. pick up the multigrain chips, 7. bring it to you, 8. put down the multigrain chips, 9. done
-Question: Can you bring me a salty snack?
-Answer: 1. find a sea salt chips, 2. pick up the sea salt chips, 3. bring it to you, 4. put down the sea salt chips, 5. done.
-Q: Bring me a soda that is not a coke.","A: 1. Find a soda that is not Coke, 2. Pick up the soda, 3. Bring it to you, 4. Put down the soda, 5. Done.","1. find a pepsi, 2. pick up the pepsi, 3. bring it to you, 4. put down the pepsi, 5. done"
+Question: Lift the coke
+Answer: 1. pick up the coke, 2. done
+Question: Bring me a fruit that is not an apple.","Answer: 1. Find a fruit that is not an apple, 2. Done.","1. find a orange, 2. pick up the orange, 3. bring it to you, 4. put down the orange, 5. done."
+SayCan,3b,"Question: Bring me an apple from the drawer.
+Answer: 1. go to the drawer, 2. open the drawer, 3. pick up the apple, 4. close the drawer, 5. bring it to you, 6. put down the apple, 7. done
+Question: Move the chips bag from the table to the counter.
+Answer: 1. find the bag of chips, 2. pick up the bag of chips, 3. go to the counter, 4. put down the bag of chips, 5. done
+Question: Bring me an apple from the drawer.
+Answer: 1. go to the drawer, 2. open the drawer, 3. pick up the apple, 4. close the drawer, 5. bring it to you, 6. put down the apple, 7. done
+Question: Move the chips bag from the table to the counter.
+Answer: 1. find the bag of chips, 2. pick up the bag of chips, 3. go to the counter, 4. put down the bag of chips, 5. done
+Question: Bring me a fruit that is not an apple.","Answer: 1. find a different fruit, 2. pick up the fruit, 3. bring it to you, 4. put down the fruit, 5. done","1. find a orange, 2. pick up the orange, 3. bring it to you, 4. put down the orange, 5. done."

@@ -1,390 +1,373 @@
 Task Class,Case,Prompt,Response,Expected
-Math,1a,"Question: A car traveled 360 miles in 4 hours and 30 minutes. What was its speed in miles per hour?
-Answer: There are 60 minutes in one hour, so the car traveled 360 miles in 4 hours + 30 minutes/60 minutes/hour = 4.5 hours.
-In one hour, the car travels 360 miles / 4.5 hours = <<360/4.5=80>>80 miles/hour.
-#### 80
-Question: Last year, Jorge planted corn on all of his 60 acres of property.  Typically, corn grown on good soil yields 400 bushels per acre, but in clay-rich soil, the yield is only half as much per acre as in good soil.  One-third of Jorge's 60 acres of land is clay-rich soil and the rest is good soil.  How many bushels of corn did Jorge's land yield last year?
-Answer: Jorge has 60 * (1/3) = <<60*(1/3)=20>>20 acres of clay-rich soil.
-He has 60 - 20 = <<60-20=40>>40 acres of good soil.
-At 400 bushels per acre, his 40 acres of good soil produced 40 * 400 = <<400*40=16000>>16,000 bushels of corn.
-If good soil produces 400 bushels per acre, clay-rich soil produces 400 / 2 = <<400/2=200>>200 bushels per acre.
-At 200 bushels per acre, his 20 acres of clay-rich soil produced 20 * 200 = <<200*20=4000>>4,000 bushels of corn.
-Altogether, his land produced 16,000 + 4,000 = <<16000+4000=20000>>20,000 bushels of corn.
-#### 20000
-Q: A shoe store was having a weekend sale on a brand of popular tennis shoes. On Friday the store sold 14 pairs of tennis shoes. The next day they sold double that number of shoes. On the last day of the sale they sold one-half the amount that they did the day before, but six people returned their pairs because they didn't fit. How many tennis shoes were sold by the end of the sale?","A: The store sold 14 * 2 = <<14*2=28>>28 pairs of tennis shoes on Saturday.
-On Sunday, they sold 28 / 2 = <<28/2=14>>14 pairs of tennis shoes.
-After the returns, they sold a total of 14 + 28 + 14 - 6 = <<14+28+14-6=50>>50 pairs of tennis shoes by the end of the sale. 
-Therefore, the store sold 50 pairs of tennis shoes by the end of the sale.","On Saturday 14*2=<<14*2=28>>28 shoes were sold
-On Sunday 28/2=<<28/2=14>>14 shoes were sold
-Before the returns were made 14+28+14=<<14+28+14=56>>56 pairs of shoes were sold
-After the returns were made 56-6=<<56-6=50>>50 pairs of shoe were sold
-#### 50"
-Math,1a,"Question: Brian is taping up some boxes. Each box needs three pieces of tape, one as long as the long side and two as long as the short side. If Brian tapes up 5 boxes that measure 15 inches by 30 inches and 2 boxes that measure 40 inches square, how much tape does he need?
-Answer: First find the amount of tape each 15 in x 30 in box needs on the short sides: 2 sides * 15 inches/side = <<2*15=30>>30 inches
-Then add that to the amount of tape each 15 in x 30 in box needs on the long side to find the total amount needed per box: 30 inches + 30 inches = <<30+30=60>>60 inches
-Then multiply that amount by 5 boxes to find the total amount needed: 60 inches/box * 5 boxes = 300 inches
-Then find the amount of tape each 40 in x 40 in box needs for its three equal length sides: 3 sides * 40 inches/side = <<3*40=120>>120 inches
-Then multiply that amount by 2 boxes to find the total amount needed: 120 inches/box * 2 boxes = 240 inches
-Then add the total amount needed for each box size to find the grand total: 240 inches + 300 inches = <<240+300=540>>540 inches
-#### 540
-Question: Hayden eats 1 oz of mixed nuts as an evening snack.  He buys the bulk bag of mixed nuts that cost $25.00 a bag and holds 40 oz of mixed nuts.  There is currently a $5.00 coupon for this item.  How much will each serving of nuts cost, in cents, after the coupon is applied?
-Answer: The nuts are $25.00 and he has a $5.00 coupon, so the nuts are on sale for $25-$5 = $<<25-5=20.00>>20.00
-He eats 1 oz of nuts every evening and the bag has 40 oz of nuts, so it has 40/1 = <<40/1=40>>40 1 oz servings
-The nuts cost $20.00 and there are 40 servings per bag, so his snack is $20/40 = $<<20/40=0.50>>0.50 per serving
-#### 50
-Q: A shoe store was having a weekend sale on a brand of popular tennis shoes. On Friday the store sold 14 pairs of tennis shoes. The next day they sold double that number of shoes. On the last day of the sale they sold one-half the amount that they did the day before, but six people returned their pairs because they didn't fit. How many tennis shoes were sold by the end of the sale?","A: 
-On Saturday, the store sold 14 * 2 = 28 pairs of tennis shoes.
-On Sunday, they sold 28 / 2 = 14 pairs of tennis shoes.
-After the returns, the total number of tennis shoes sold was 14 + 28 + 14 - 6 = 50 tennis shoes.","On Saturday 14*2=<<14*2=28>>28 shoes were sold
-On Sunday 28/2=<<28/2=14>>14 shoes were sold
-Before the returns were made 14+28+14=<<14+28+14=56>>56 pairs of shoes were sold
-After the returns were made 56-6=<<56-6=50>>50 pairs of shoe were sold
-#### 50"
-Math,2,"Question: A car traveled 360 miles in 4 hours and 30 minutes. What was its speed in miles per hour?
-Answer: There are 60 minutes in one hour, so the car traveled 360 miles in 4 hours + 30 minutes/60 minutes/hour = 4.5 hours.
-In one hour, the car travels 360 miles / 4.5 hours = <<360/4.5=80>>80 miles/hour.
-#### 80
-Question: Last year, Jorge planted corn on all of his 60 acres of property.  Typically, corn grown on good soil yields 400 bushels per acre, but in clay-rich soil, the yield is only half as much per acre as in good soil.  One-third of Jorge's 60 acres of land is clay-rich soil and the rest is good soil.  How many bushels of corn did Jorge's land yield last year?
-Answer: Jorge has 60 * (1/3) = <<60*(1/3)=20>>20 acres of clay-rich soil.
-He has 60 - 20 = <<60-20=40>>40 acres of good soil.
-At 400 bushels per acre, his 40 acres of good soil produced 40 * 400 = <<400*40=16000>>16,000 bushels of corn.
-If good soil produces 400 bushels per acre, clay-rich soil produces 400 / 2 = <<400/2=200>>200 bushels per acre.
-At 200 bushels per acre, his 20 acres of clay-rich soil produced 20 * 200 = <<200*20=4000>>4,000 bushels of corn.
-Altogether, his land produced 16,000 + 4,000 = <<16000+4000=20000>>20,000 bushels of corn.
-#### 20000
-Question: Brian is taping up some boxes. Each box needs three pieces of tape, one as long as the long side and two as long as the short side. If Brian tapes up 5 boxes that measure 15 inches by 30 inches and 2 boxes that measure 40 inches square, how much tape does he need?
-Answer: First find the amount of tape each 15 in x 30 in box needs on the short sides: 2 sides * 15 inches/side = <<2*15=30>>30 inches
-Then add that to the amount of tape each 15 in x 30 in box needs on the long side to find the total amount needed per box: 30 inches + 30 inches = <<30+30=60>>60 inches
-Then multiply that amount by 5 boxes to find the total amount needed: 60 inches/box * 5 boxes = 300 inches
-Then find the amount of tape each 40 in x 40 in box needs for its three equal length sides: 3 sides * 40 inches/side = <<3*40=120>>120 inches
-Then multiply that amount by 2 boxes to find the total amount needed: 120 inches/box * 2 boxes = 240 inches
-Then add the total amount needed for each box size to find the grand total: 240 inches + 300 inches = <<240+300=540>>540 inches
-#### 540
-Question: Hayden eats 1 oz of mixed nuts as an evening snack.  He buys the bulk bag of mixed nuts that cost $25.00 a bag and holds 40 oz of mixed nuts.  There is currently a $5.00 coupon for this item.  How much will each serving of nuts cost, in cents, after the coupon is applied?
-Answer: The nuts are $25.00 and he has a $5.00 coupon, so the nuts are on sale for $25-$5 = $<<25-5=20.00>>20.00
-He eats 1 oz of nuts every evening and the bag has 40 oz of nuts, so it has 40/1 = <<40/1=40>>40 1 oz servings
-The nuts cost $20.00 and there are 40 servings per bag, so his snack is $20/40 = $<<20/40=0.50>>0.50 per serving
-#### 50
-Q: A shoe store was having a weekend sale on a brand of popular tennis shoes. On Friday the store sold 14 pairs of tennis shoes. The next day they sold double that number of shoes. On the last day of the sale they sold one-half the amount that they did the day before, but six people returned their pairs because they didn't fit. How many tennis shoes were sold by the end of the sale?","A: On Saturday, the store sold double the amount from Friday, so they sold 14 * 2 = 28 pairs of tennis shoes.
-On the last day of the sale, they sold half the amount from Saturday, so they sold 28 / 2 = 14 pairs of tennis shoes.
-Altogether, they sold 14 + 28 + 14 = 56 pairs of tennis shoes.
-However, 6 pairs were returned, so the final number of tennis shoes sold was 56 - 6 = 50 pairs.","On Saturday 14*2=<<14*2=28>>28 shoes were sold
-On Sunday 28/2=<<28/2=14>>14 shoes were sold
-Before the returns were made 14+28+14=<<14+28+14=56>>56 pairs of shoes were sold
-After the returns were made 56-6=<<56-6=50>>50 pairs of shoe were sold
-#### 50"
-Math,3a,"Question: A car traveled 360 miles in 4 hours and 30 minutes. What was its speed in miles per hour?
-Answer: There are 60 minutes in one hour, so the car traveled 360 miles in 4 hours + 30 minutes/60 minutes/hour = 4.5 hours.
-In one hour, the car travels 360 miles / 4.5 hours = <<360/4.5=80>>80 miles/hour.
-#### 80
-Question: Last year, Jorge planted corn on all of his 60 acres of property.  Typically, corn grown on good soil yields 400 bushels per acre, but in clay-rich soil, the yield is only half as much per acre as in good soil.  One-third of Jorge's 60 acres of land is clay-rich soil and the rest is good soil.  How many bushels of corn did Jorge's land yield last year?
-Answer: Jorge has 60 * (1/3) = <<60*(1/3)=20>>20 acres of clay-rich soil.
-He has 60 - 20 = <<60-20=40>>40 acres of good soil.
-At 400 bushels per acre, his 40 acres of good soil produced 40 * 400 = <<400*40=16000>>16,000 bushels of corn.
-If good soil produces 400 bushels per acre, clay-rich soil produces 400 / 2 = <<400/2=200>>200 bushels per acre.
-At 200 bushels per acre, his 20 acres of clay-rich soil produced 20 * 200 = <<200*20=4000>>4,000 bushels of corn.
-Altogether, his land produced 16,000 + 4,000 = <<16000+4000=20000>>20,000 bushels of corn.
-#### 20000
-Question: A car traveled 360 miles in 4 hours and 30 minutes. What was its speed in miles per hour?
-Answer: There are 60 minutes in one hour, so the car traveled 360 miles in 4 hours + 30 minutes/60 minutes/hour = 4.5 hours.
-In one hour, the car travels 360 miles / 4.5 hours = <<360/4.5=80>>80 miles/hour.
-#### 80
-Question: Last year, Jorge planted corn on all of his 60 acres of property.  Typically, corn grown on good soil yields 400 bushels per acre, but in clay-rich soil, the yield is only half as much per acre as in good soil.  One-third of Jorge's 60 acres of land is clay-rich soil and the rest is good soil.  How many bushels of corn did Jorge's land yield last year?
-Answer: Jorge has 60 * (1/3) = <<60*(1/3)=20>>20 acres of clay-rich soil.
-He has 60 - 20 = <<60-20=40>>40 acres of good soil.
-At 400 bushels per acre, his 40 acres of good soil produced 40 * 400 = <<400*40=16000>>16,000 bushels of corn.
-If good soil produces 400 bushels per acre, clay-rich soil produces 400 / 2 = <<400/2=200>>200 bushels per acre.
-At 200 bushels per acre, his 20 acres of clay-rich soil produced 20 * 200 = <<200*20=4000>>4,000 bushels of corn.
-Altogether, his land produced 16,000 + 4,000 = <<16000+4000=20000>>20,000 bushels of corn.
-#### 20000
-Q: A shoe store was having a weekend sale on a brand of popular tennis shoes. On Friday the store sold 14 pairs of tennis shoes. The next day they sold double that number of shoes. On the last day of the sale they sold one-half the amount that they did the day before, but six people returned their pairs because they didn't fit. How many tennis shoes were sold by the end of the sale?","Let's break it down step by step:
-
-- On Friday, the store sold 14 pairs of tennis shoes.
-- The next day, they sold double that number, so they sold 14 * 2 = 28 pairs of tennis shoes.
-- On the last day, they sold half the amount of the day before, so they sold 28 / 2 = 14 pairs of tennis shoes.
-- However, 6 people returned their pairs, so we need to subtract that from the total.
-- Therefore, the total number of tennis shoes sold by the end of the sale is 14 + 28 + 14 - 6 = 50 pairs of tennis shoes.
-
-So, by the end of the sale, the store sold 50 pairs of tennis shoes.","On Saturday 14*2=<<14*2=28>>28 shoes were sold
-On Sunday 28/2=<<28/2=14>>14 shoes were sold
-Before the returns were made 14+28+14=<<14+28+14=56>>56 pairs of shoes were sold
-After the returns were made 56-6=<<56-6=50>>50 pairs of shoe were sold
-#### 50"
-Math,3b,"Question: Brian is taping up some boxes. Each box needs three pieces of tape, one as long as the long side and two as long as the short side. If Brian tapes up 5 boxes that measure 15 inches by 30 inches and 2 boxes that measure 40 inches square, how much tape does he need?
-Answer: First find the amount of tape each 15 in x 30 in box needs on the short sides: 2 sides * 15 inches/side = <<2*15=30>>30 inches
-Then add that to the amount of tape each 15 in x 30 in box needs on the long side to find the total amount needed per box: 30 inches + 30 inches = <<30+30=60>>60 inches
-Then multiply that amount by 5 boxes to find the total amount needed: 60 inches/box * 5 boxes = 300 inches
-Then find the amount of tape each 40 in x 40 in box needs for its three equal length sides: 3 sides * 40 inches/side = <<3*40=120>>120 inches
-Then multiply that amount by 2 boxes to find the total amount needed: 120 inches/box * 2 boxes = 240 inches
-Then add the total amount needed for each box size to find the grand total: 240 inches + 300 inches = <<240+300=540>>540 inches
-#### 540
-Question: Hayden eats 1 oz of mixed nuts as an evening snack.  He buys the bulk bag of mixed nuts that cost $25.00 a bag and holds 40 oz of mixed nuts.  There is currently a $5.00 coupon for this item.  How much will each serving of nuts cost, in cents, after the coupon is applied?
-Answer: The nuts are $25.00 and he has a $5.00 coupon, so the nuts are on sale for $25-$5 = $<<25-5=20.00>>20.00
-He eats 1 oz of nuts every evening and the bag has 40 oz of nuts, so it has 40/1 = <<40/1=40>>40 1 oz servings
-The nuts cost $20.00 and there are 40 servings per bag, so his snack is $20/40 = $<<20/40=0.50>>0.50 per serving
-#### 50
-Question: Brian is taping up some boxes. Each box needs three pieces of tape, one as long as the long side and two as long as the short side. If Brian tapes up 5 boxes that measure 15 inches by 30 inches and 2 boxes that measure 40 inches square, how much tape does he need?
-Answer: First find the amount of tape each 15 in x 30 in box needs on the short sides: 2 sides * 15 inches/side = <<2*15=30>>30 inches
-Then add that to the amount of tape each 15 in x 30 in box needs on the long side to find the total amount needed per box: 30 inches + 30 inches = <<30+30=60>>60 inches
-Then multiply that amount by 5 boxes to find the total amount needed: 60 inches/box * 5 boxes = 300 inches
-Then find the amount of tape each 40 in x 40 in box needs for its three equal length sides: 3 sides * 40 inches/side = <<3*40=120>>120 inches
-Then multiply that amount by 2 boxes to find the total amount needed: 120 inches/box * 2 boxes = 240 inches
-Then add the total amount needed for each box size to find the grand total: 240 inches + 300 inches = <<240+300=540>>540 inches
-#### 540
-Question: Hayden eats 1 oz of mixed nuts as an evening snack.  He buys the bulk bag of mixed nuts that cost $25.00 a bag and holds 40 oz of mixed nuts.  There is currently a $5.00 coupon for this item.  How much will each serving of nuts cost, in cents, after the coupon is applied?
-Answer: The nuts are $25.00 and he has a $5.00 coupon, so the nuts are on sale for $25-$5 = $<<25-5=20.00>>20.00
-He eats 1 oz of nuts every evening and the bag has 40 oz of nuts, so it has 40/1 = <<40/1=40>>40 1 oz servings
-The nuts cost $20.00 and there are 40 servings per bag, so his snack is $20/40 = $<<20/40=0.50>>0.50 per serving
-#### 50
-Q: A shoe store was having a weekend sale on a brand of popular tennis shoes. On Friday the store sold 14 pairs of tennis shoes. The next day they sold double that number of shoes. On the last day of the sale they sold one-half the amount that they did the day before, but six people returned their pairs because they didn't fit. How many tennis shoes were sold by the end of the sale?","To find the total number of tennis shoes sold, we first need to calculate the number of shoes sold each day.
-
-On Friday, the store sold 14 pairs of tennis shoes.
-
-On Saturday, they sold double the amount sold on Friday, so they sold 2 * 14 = 28 pairs of tennis shoes.
-
-On the last day, they sold half the amount sold on Saturday, so they sold 28 / 2 = 14 pairs of tennis shoes.
-
-In total, they sold 14 + 28 + 14 = 56 pairs of tennis shoes over the weekend.
-
-However, 6 people returned their pairs, so we subtract those returns: 56 - 6 = 50 pairs of tennis shoes were sold by the end of the sale.","On Saturday 14*2=<<14*2=28>>28 shoes were sold
-On Sunday 28/2=<<28/2=14>>14 shoes were sold
-Before the returns were made 14+28+14=<<14+28+14=56>>56 pairs of shoes were sold
-After the returns were made 56-6=<<56-6=50>>50 pairs of shoe were sold
-#### 50"
-CSQA,1a,"Question: What happens after an extended amount of living for a person?
-A: getting old
-B: palpitations
-C: death
-D: perspiration
-E: make friends
-Answer: A
-Question: The security detail had to keep an eye on the entire crowd, they were constantly scanning all the what?
-A: potato
-B: body
-C: focus
-D: faces
-E: person's head
+Math,1a,"Question: When the machine is cold, as it is in the first hour of production, it takes 6 minutes to produce each molded flower pot. Thereafter, once it is warm, it takes only 5 minutes to produce each pot. How many additional pots are produced in the last hour of the day, compared to the first?
+Answer: In the first hour, it produces 60/6=<<60/6=10>>10 pots.
+In the last hour, it produces 60/5=<<60/5=12>>12 pots.
+12-10=<<12-10=2>>2 more pots are produced in the last hour.
+#### 2
+Question: Cape May has 8 more than twice as many sharks as Daytona Beach. If Daytona Beach has 12 sharks, how many sharks are there in Cape May?
+Answer: Twice the number of sharks in Daytona Beach is 12*2=<<12*2=24>>24
+Cape May has 8 more sharks than that which is 24+8=<<24+8=32>>32
+#### 32
+Question: Mary buys 3 bags of M&Ms. The first bag has 300 M&Ms in it. The second bag has 12 more M&Ms than the first, and the third bag has a hole in it, so it only has half the number of M&Ms that the first bag had. How many M&Ms did Mary get total?","Answer: The second bag has 300+12=<<300+12=312>>312 M&Ms.
+The third bag has 300/2=<<300/2=150>>150 M&Ms.
+Mary got a total of 300+312+150=<<300+312+150=762>>762 M&Ms.","First Bag:300
+Second Bag:300+12=<<300+12=312>>312
+Third Bag:300/2=<<300/2=150>>150
+Total number of M&M's: 300+312+150=<<300+312+150=762>>762 M&M's
+#### 762"
+Math,1a,"Question: There are ten more newborn elephants than baby hippos. If an entire herd starts with 20 elephants and 35 hippos, and the female hippos, whose number is 5/7 of the total number of hippos, give birth to 5 new baby hippos each, find the number of animals that are there altogether?
+Answer: The total number of female hippos is 5/7*35=<<5/7*35=25>>25
+If each new hippo gives birth to 5 new baby hippos, the total number of baby hippos will be 5*25=<<5*25=125>>125
+The population of hippos after 125 new ones are born is 125+35=<<125+35=160>>160
+There are ten more newborn elephants than baby hippos, meaning there are 125+10=135 new baby elephants.
+The population of elephants is 135+20=<<135+20=155>>155
+Altogether, there are 155+160=<<155+160=315>>315 animals
+#### 315
+Question: One white rhino weighs 5100 pounds and one black rhino weighs 1 ton. How many pounds would 7 white rhinos and 8 black rhinos weigh in total?
+Answer: 5100 * 7 = <<5100*7=35700>>35,700 pounds
+1 ton = <<2000=2000>>2000 pounds
+8 * 2000 = <<8*2000=16000>>16000 pounds
+35,700 + 16,000 = <<35700+16000=51700>>51,700
+Seven white rhinos and 8 black rhinos would weigh 51,700 pounds.
+#### 51700
+Question: Mary buys 3 bags of M&Ms. The first bag has 300 M&Ms in it. The second bag has 12 more M&Ms than the first, and the third bag has a hole in it, so it only has half the number of M&Ms that the first bag had. How many M&Ms did Mary get total?","Answer: 
+The second bag has 300 + 12 = <<300+12=312>>312 M&Ms.
+The third bag has 300 / 2 = <<300/2=150>>150 M&Ms.
+Mary got a total of 300 + 312 + 150 = <<300+312+150=762>>762 M&Ms.
+Therefore, Mary got 762 M&Ms in total.","First Bag:300
+Second Bag:300+12=<<300+12=312>>312
+Third Bag:300/2=<<300/2=150>>150
+Total number of M&M's: 300+312+150=<<300+312+150=762>>762 M&M's
+#### 762"
+Math,2,"Question: When the machine is cold, as it is in the first hour of production, it takes 6 minutes to produce each molded flower pot. Thereafter, once it is warm, it takes only 5 minutes to produce each pot. How many additional pots are produced in the last hour of the day, compared to the first?
+Answer: In the first hour, it produces 60/6=<<60/6=10>>10 pots.
+In the last hour, it produces 60/5=<<60/5=12>>12 pots.
+12-10=<<12-10=2>>2 more pots are produced in the last hour.
+#### 2
+Question: Cape May has 8 more than twice as many sharks as Daytona Beach. If Daytona Beach has 12 sharks, how many sharks are there in Cape May?
+Answer: Twice the number of sharks in Daytona Beach is 12*2=<<12*2=24>>24
+Cape May has 8 more sharks than that which is 24+8=<<24+8=32>>32
+#### 32
+Question: There are ten more newborn elephants than baby hippos. If an entire herd starts with 20 elephants and 35 hippos, and the female hippos, whose number is 5/7 of the total number of hippos, give birth to 5 new baby hippos each, find the number of animals that are there altogether?
+Answer: The total number of female hippos is 5/7*35=<<5/7*35=25>>25
+If each new hippo gives birth to 5 new baby hippos, the total number of baby hippos will be 5*25=<<5*25=125>>125
+The population of hippos after 125 new ones are born is 125+35=<<125+35=160>>160
+There are ten more newborn elephants than baby hippos, meaning there are 125+10=135 new baby elephants.
+The population of elephants is 135+20=<<135+20=155>>155
+Altogether, there are 155+160=<<155+160=315>>315 animals
+#### 315
+Question: One white rhino weighs 5100 pounds and one black rhino weighs 1 ton. How many pounds would 7 white rhinos and 8 black rhinos weigh in total?
+Answer: 5100 * 7 = <<5100*7=35700>>35,700 pounds
+1 ton = <<2000=2000>>2000 pounds
+8 * 2000 = <<8*2000=16000>>16000 pounds
+35,700 + 16,000 = <<35700+16000=51700>>51,700
+Seven white rhinos and 8 black rhinos would weigh 51,700 pounds.
+#### 51700
+Question: Mary buys 3 bags of M&Ms. The first bag has 300 M&Ms in it. The second bag has 12 more M&Ms than the first, and the third bag has a hole in it, so it only has half the number of M&Ms that the first bag had. How many M&Ms did Mary get total?","Answer: The second bag has 300 + 12 = <<300+12=312>>312 M&Ms.
+The third bag has 300/2 = <<300/2=150>>150 M&Ms.
+Therefore, Mary got a total of 300 + 312 + 150 = <<300+312+150=762>>762 M&Ms.","First Bag:300
+Second Bag:300+12=<<300+12=312>>312
+Third Bag:300/2=<<300/2=150>>150
+Total number of M&M's: 300+312+150=<<300+312+150=762>>762 M&M's
+#### 762"
+Math,3a,"Question: When the machine is cold, as it is in the first hour of production, it takes 6 minutes to produce each molded flower pot. Thereafter, once it is warm, it takes only 5 minutes to produce each pot. How many additional pots are produced in the last hour of the day, compared to the first?
+Answer: In the first hour, it produces 60/6=<<60/6=10>>10 pots.
+In the last hour, it produces 60/5=<<60/5=12>>12 pots.
+12-10=<<12-10=2>>2 more pots are produced in the last hour.
+#### 2
+Question: Cape May has 8 more than twice as many sharks as Daytona Beach. If Daytona Beach has 12 sharks, how many sharks are there in Cape May?
+Answer: Twice the number of sharks in Daytona Beach is 12*2=<<12*2=24>>24
+Cape May has 8 more sharks than that which is 24+8=<<24+8=32>>32
+#### 32
+Question: When the machine is cold, as it is in the first hour of production, it takes 6 minutes to produce each molded flower pot. Thereafter, once it is warm, it takes only 5 minutes to produce each pot. How many additional pots are produced in the last hour of the day, compared to the first?
+Answer: In the first hour, it produces 60/6=<<60/6=10>>10 pots.
+In the last hour, it produces 60/5=<<60/5=12>>12 pots.
+12-10=<<12-10=2>>2 more pots are produced in the last hour.
+#### 2
+Question: Cape May has 8 more than twice as many sharks as Daytona Beach. If Daytona Beach has 12 sharks, how many sharks are there in Cape May?
+Answer: Twice the number of sharks in Daytona Beach is 12*2=<<12*2=24>>24
+Cape May has 8 more sharks than that which is 24+8=<<24+8=32>>32
+#### 32
+Question: Mary buys 3 bags of M&Ms. The first bag has 300 M&Ms in it. The second bag has 12 more M&Ms than the first, and the third bag has a hole in it, so it only has half the number of M&Ms that the first bag had. How many M&Ms did Mary get total?","Answer: The second bag has 300+12=<<300+12=312>>312 M&Ms.
+The third bag has 300/2=<<300/2=150>>150 M&Ms.
+In total, Mary got 300+312+150=<<300+312+150=762>>762 M&Ms.","First Bag:300
+Second Bag:300+12=<<300+12=312>>312
+Third Bag:300/2=<<300/2=150>>150
+Total number of M&M's: 300+312+150=<<300+312+150=762>>762 M&M's
+#### 762"
+Math,3b,"Question: There are ten more newborn elephants than baby hippos. If an entire herd starts with 20 elephants and 35 hippos, and the female hippos, whose number is 5/7 of the total number of hippos, give birth to 5 new baby hippos each, find the number of animals that are there altogether?
+Answer: The total number of female hippos is 5/7*35=<<5/7*35=25>>25
+If each new hippo gives birth to 5 new baby hippos, the total number of baby hippos will be 5*25=<<5*25=125>>125
+The population of hippos after 125 new ones are born is 125+35=<<125+35=160>>160
+There are ten more newborn elephants than baby hippos, meaning there are 125+10=135 new baby elephants.
+The population of elephants is 135+20=<<135+20=155>>155
+Altogether, there are 155+160=<<155+160=315>>315 animals
+#### 315
+Question: One white rhino weighs 5100 pounds and one black rhino weighs 1 ton. How many pounds would 7 white rhinos and 8 black rhinos weigh in total?
+Answer: 5100 * 7 = <<5100*7=35700>>35,700 pounds
+1 ton = <<2000=2000>>2000 pounds
+8 * 2000 = <<8*2000=16000>>16000 pounds
+35,700 + 16,000 = <<35700+16000=51700>>51,700
+Seven white rhinos and 8 black rhinos would weigh 51,700 pounds.
+#### 51700
+Question: There are ten more newborn elephants than baby hippos. If an entire herd starts with 20 elephants and 35 hippos, and the female hippos, whose number is 5/7 of the total number of hippos, give birth to 5 new baby hippos each, find the number of animals that are there altogether?
+Answer: The total number of female hippos is 5/7*35=<<5/7*35=25>>25
+If each new hippo gives birth to 5 new baby hippos, the total number of baby hippos will be 5*25=<<5*25=125>>125
+The population of hippos after 125 new ones are born is 125+35=<<125+35=160>>160
+There are ten more newborn elephants than baby hippos, meaning there are 125+10=135 new baby elephants.
+The population of elephants is 135+20=<<135+20=155>>155
+Altogether, there are 155+160=<<155+160=315>>315 animals
+#### 315
+Question: One white rhino weighs 5100 pounds and one black rhino weighs 1 ton. How many pounds would 7 white rhinos and 8 black rhinos weigh in total?
+Answer: 5100 * 7 = <<5100*7=35700>>35,700 pounds
+1 ton = <<2000=2000>>2000 pounds
+8 * 2000 = <<8*2000=16000>>16000 pounds
+35,700 + 16,000 = <<35700+16000=51700>>51,700
+Seven white rhinos and 8 black rhinos would weigh 51,700 pounds.
+#### 51700
+Question: Mary buys 3 bags of M&Ms. The first bag has 300 M&Ms in it. The second bag has 12 more M&Ms than the first, and the third bag has a hole in it, so it only has half the number of M&Ms that the first bag had. How many M&Ms did Mary get total?","Answer: 
+- The second bag has 300 + 12 = 312 M&Ms.
+- The third bag has 300 / 2 = 150 M&Ms.
+- In total, Mary got 300 + 312 + 150 = 762 M&Ms.
+Therefore, Mary got 762 M&Ms in total.","First Bag:300
+Second Bag:300+12=<<300+12=312>>312
+Third Bag:300/2=<<300/2=150>>150
+Total number of M&M's: 300+312+150=<<300+312+150=762>>762 M&M's
+#### 762"
+CSQA,1a,"Question: It was dark and wet and only got worse the deeper they went, but they wanted to find the passageway to where the bats lived in the what?
+A: batman
+B: jungle
+C: maze
+D: cave
+E: airport
 Answer: D
-Q: James felt himself losing consciousness.  He was frightened.  He didn't want this.  He was scared of what?
-A: death
-B: coma
-C: peace
-D: forgetfulness
-E: loss of life",Answer: A,A
-CSQA,1a,"Question: If I am hungrier than I am thirsty for a drink, what should I do?
-A: open mouth
-B: eat first
-C: use glass
-D: buy soda
-E: slurp
-Answer: B
-Question: When a person takes business calls on the phone, where does it tend to take place?
-A: neighbor's house
-B: office
-C: desktop
-D: rest area
-E: in the car
-Answer: B
-Q: James felt himself losing consciousness.  He was frightened.  He didn't want this.  He was scared of what?
-A: death
-B: coma
-C: peace
-D: forgetfulness
-E: loss of life",Answer: A,A
-CSQA,2,"Question: What happens after an extended amount of living for a person?
-A: getting old
-B: palpitations
-C: death
-D: perspiration
-E: make friends
+Question: He was washing hands, what happened to his hands as a result?
+A: jazz hands
+B: health
+C: become wet
+D: skin irritation
+E: dry skin
+Answer: C
+Question: The skin was cut while chopping onions, where was this skin likely cut?
+A: good health
+B: finger
+C: meat
+D: body
+E: own family",Answer: B,B
+CSQA,1a,"Question: John wanted to play tennis.  He thought he might be able to find a tennis court somewhere. Where might he look?
+A: park
+B: town
+C: venus williams
+D: wimbledon
+E: michigan
 Answer: A
-Question: The security detail had to keep an eye on the entire crowd, they were constantly scanning all the what?
-A: potato
-B: body
-C: focus
-D: faces
-E: person's head
+Question: What can happen when eating breakfast but not choosing the amount of food correctly?
+A: indigestion
+B: heartburn
+C: stomach ache
+D: gain energy
+E: overeating
+Answer: E
+Question: The skin was cut while chopping onions, where was this skin likely cut?
+A: good health
+B: finger
+C: meat
+D: body
+E: own family",Answer: B,B
+CSQA,2,"Question: It was dark and wet and only got worse the deeper they went, but they wanted to find the passageway to where the bats lived in the what?
+A: batman
+B: jungle
+C: maze
+D: cave
+E: airport
 Answer: D
-Question: If I am hungrier than I am thirsty for a drink, what should I do?
-A: open mouth
-B: eat first
-C: use glass
-D: buy soda
-E: slurp
-Answer: B
-Question: When a person takes business calls on the phone, where does it tend to take place?
-A: neighbor's house
-B: office
-C: desktop
-D: rest area
-E: in the car
-Answer: B
-Q: James felt himself losing consciousness.  He was frightened.  He didn't want this.  He was scared of what?
-A: death
-B: coma
-C: peace
-D: forgetfulness
-E: loss of life",Answer: A,A
-CSQA,3a,"Question: What happens after an extended amount of living for a person?
-A: getting old
-B: palpitations
-C: death
-D: perspiration
-E: make friends
+Question: He was washing hands, what happened to his hands as a result?
+A: jazz hands
+B: health
+C: become wet
+D: skin irritation
+E: dry skin
+Answer: C
+Question: John wanted to play tennis.  He thought he might be able to find a tennis court somewhere. Where might he look?
+A: park
+B: town
+C: venus williams
+D: wimbledon
+E: michigan
 Answer: A
-Question: The security detail had to keep an eye on the entire crowd, they were constantly scanning all the what?
-A: potato
-B: body
-C: focus
-D: faces
-E: person's head
+Question: What can happen when eating breakfast but not choosing the amount of food correctly?
+A: indigestion
+B: heartburn
+C: stomach ache
+D: gain energy
+E: overeating
+Answer: E
+Question: The skin was cut while chopping onions, where was this skin likely cut?
+A: good health
+B: finger
+C: meat
+D: body
+E: own family",Answer: B,B
+CSQA,3a,"Question: It was dark and wet and only got worse the deeper they went, but they wanted to find the passageway to where the bats lived in the what?
+A: batman
+B: jungle
+C: maze
+D: cave
+E: airport
 Answer: D
-Question: What happens after an extended amount of living for a person?
-A: getting old
-B: palpitations
-C: death
-D: perspiration
-E: make friends
+Question: He was washing hands, what happened to his hands as a result?
+A: jazz hands
+B: health
+C: become wet
+D: skin irritation
+E: dry skin
+Answer: C
+Question: It was dark and wet and only got worse the deeper they went, but they wanted to find the passageway to where the bats lived in the what?
+A: batman
+B: jungle
+C: maze
+D: cave
+E: airport
+Answer: D
+Question: He was washing hands, what happened to his hands as a result?
+A: jazz hands
+B: health
+C: become wet
+D: skin irritation
+E: dry skin
+Answer: C
+Question: The skin was cut while chopping onions, where was this skin likely cut?
+A: good health
+B: finger
+C: meat
+D: body
+E: own family",Answer: B,B
+CSQA,3b,"Question: John wanted to play tennis.  He thought he might be able to find a tennis court somewhere. Where might he look?
+A: park
+B: town
+C: venus williams
+D: wimbledon
+E: michigan
 Answer: A
-Question: The security detail had to keep an eye on the entire crowd, they were constantly scanning all the what?
-A: potato
-B: body
-C: focus
-D: faces
-E: person's head
-Answer: D
-Q: James felt himself losing consciousness.  He was frightened.  He didn't want this.  He was scared of what?
-A: death
-B: coma
-C: peace
-D: forgetfulness
-E: loss of life",Answer: A,A
-CSQA,3b,"Question: If I am hungrier than I am thirsty for a drink, what should I do?
-A: open mouth
-B: eat first
-C: use glass
-D: buy soda
-E: slurp
-Answer: B
-Question: When a person takes business calls on the phone, where does it tend to take place?
-A: neighbor's house
-B: office
-C: desktop
-D: rest area
-E: in the car
-Answer: B
-Question: If I am hungrier than I am thirsty for a drink, what should I do?
-A: open mouth
-B: eat first
-C: use glass
-D: buy soda
-E: slurp
-Answer: B
-Question: When a person takes business calls on the phone, where does it tend to take place?
-A: neighbor's house
-B: office
-C: desktop
-D: rest area
-E: in the car
-Answer: B
-Q: James felt himself losing consciousness.  He was frightened.  He didn't want this.  He was scared of what?
-A: death
-B: coma
-C: peace
-D: forgetfulness
-E: loss of life",A: death,A
-StrategyQA,1a,"Question: Building a house requires gravity to hold the house to the surface. The largest asteroid in our Solar System is Ceres, 583 miles across. Asteroids are not large enough to create noticeable gravity.
-Can I build a house on an asteroid?
-Answer: False
-Question: The American Flag is colored red, white, and blue. Mickey Mouse typically wears red shorts, large yellow shoes, and white gloves. The color yellow stands out distinctly from red, white, and blue. Things that are colored similarly or identically will blend in with each other.
-Would Mickey Mouse blend in with the American flag?
-Answer: False
-Q: Malcolm X was a practicing Muslim Muslims are prohibited from eating foods derived from pigs
-Did Malcolm X avoid eating ham?",A: True,True
-StrategyQA,1a,"Question: The monster in Mary Shelley's novel, Frankenstein, was said to be 8 feet tall. Robert Wadlow was the world's tallest man. Robert Wadlow was 8 feet 11.1 inches tall.
-Could Robert Wadlow hypothetically see Frankenstein's monster's bald spot from above?
+Question: What can happen when eating breakfast but not choosing the amount of food correctly?
+A: indigestion
+B: heartburn
+C: stomach ache
+D: gain energy
+E: overeating
+Answer: E
+Question: John wanted to play tennis.  He thought he might be able to find a tennis court somewhere. Where might he look?
+A: park
+B: town
+C: venus williams
+D: wimbledon
+E: michigan
+Answer: A
+Question: What can happen when eating breakfast but not choosing the amount of food correctly?
+A: indigestion
+B: heartburn
+C: stomach ache
+D: gain energy
+E: overeating
+Answer: E
+Question: The skin was cut while chopping onions, where was this skin likely cut?
+A: good health
+B: finger
+C: meat
+D: body
+E: own family",Answer: B,B
+StrategyQA,1a,"Question: Douglas fir are a type of tree. Douglas fir are used to make ships. The Minesweeper is a small warship made from Douglas fir. The Minesweeper was made of wood to reduce it's risk magnetic signature and likely hood of detonating mines.
+Have Douglas fir been used to fight wars?
 Answer: True
-Question: Jack Dempsey died in 1983 The current WBC heavyweight champion is Tyson Fury Tyson Fury was born in 1988
-Did Jack Dempsey fight the current WBC heavyweight champion?
+Question: Bruises are caused by blunt trauma to the body. Reiki is performed without touching the recipient. 
+Would somebody leave reiki with bruises?
 Answer: False
-Q: Malcolm X was a practicing Muslim Muslims are prohibited from eating foods derived from pigs
-Did Malcolm X avoid eating ham?",A: True,True
-StrategyQA,2,"Question: Building a house requires gravity to hold the house to the surface. The largest asteroid in our Solar System is Ceres, 583 miles across. Asteroids are not large enough to create noticeable gravity.
-Can I build a house on an asteroid?
-Answer: False
-Question: The American Flag is colored red, white, and blue. Mickey Mouse typically wears red shorts, large yellow shoes, and white gloves. The color yellow stands out distinctly from red, white, and blue. Things that are colored similarly or identically will blend in with each other.
-Would Mickey Mouse blend in with the American flag?
-Answer: False
-Question: The monster in Mary Shelley's novel, Frankenstein, was said to be 8 feet tall. Robert Wadlow was the world's tallest man. Robert Wadlow was 8 feet 11.1 inches tall.
-Could Robert Wadlow hypothetically see Frankenstein's monster's bald spot from above?
+Question: There are 52 Wednesdays in a year. There are 1,248 hours over all the Wednesdays in a year. The Old Testament of the Bible takes an average of 52 hours to read. The New Testament of the Bible takes an average of 18 hours to read.
+Are all Wednesdays in a year enough to read Bible 15 times?",Answer: False. Reading the Old Testament alone would take up 15 times the amount of hours available on Wednesdays in a year.,True
+StrategyQA,1a,"Question: The Dodgers are a baseball team located in Los Angeles The White Sox are a baseball team located in Chicago The distance between Los Angeles and Chicago is 2,015 miles The length of the main section of the Great Wall of China is 2,145 miles
+Could the Great Wall of China connect the Dodgers to the White Sox?
 Answer: True
-Question: Jack Dempsey died in 1983 The current WBC heavyweight champion is Tyson Fury Tyson Fury was born in 1988
-Did Jack Dempsey fight the current WBC heavyweight champion?
+Question: Olympic medals can only be won during the Olympics. The Olympics were first held in 1896.
+Did England win any Olympic gold medals in 1800?
 Answer: False
-Q: Malcolm X was a practicing Muslim Muslims are prohibited from eating foods derived from pigs
-Did Malcolm X avoid eating ham?",A: True,True
-StrategyQA,3a,"Question: Building a house requires gravity to hold the house to the surface. The largest asteroid in our Solar System is Ceres, 583 miles across. Asteroids are not large enough to create noticeable gravity.
-Can I build a house on an asteroid?
-Answer: False
-Question: The American Flag is colored red, white, and blue. Mickey Mouse typically wears red shorts, large yellow shoes, and white gloves. The color yellow stands out distinctly from red, white, and blue. Things that are colored similarly or identically will blend in with each other.
-Would Mickey Mouse blend in with the American flag?
-Answer: False
-Question: Building a house requires gravity to hold the house to the surface. The largest asteroid in our Solar System is Ceres, 583 miles across. Asteroids are not large enough to create noticeable gravity.
-Can I build a house on an asteroid?
-Answer: False
-Question: The American Flag is colored red, white, and blue. Mickey Mouse typically wears red shorts, large yellow shoes, and white gloves. The color yellow stands out distinctly from red, white, and blue. Things that are colored similarly or identically will blend in with each other.
-Would Mickey Mouse blend in with the American flag?
-Answer: False
-Q: Malcolm X was a practicing Muslim Muslims are prohibited from eating foods derived from pigs
-Did Malcolm X avoid eating ham?",A: True,True
-StrategyQA,3b,"Question: The monster in Mary Shelley's novel, Frankenstein, was said to be 8 feet tall. Robert Wadlow was the world's tallest man. Robert Wadlow was 8 feet 11.1 inches tall.
-Could Robert Wadlow hypothetically see Frankenstein's monster's bald spot from above?
+Question: There are 52 Wednesdays in a year. There are 1,248 hours over all the Wednesdays in a year. The Old Testament of the Bible takes an average of 52 hours to read. The New Testament of the Bible takes an average of 18 hours to read.
+Are all Wednesdays in a year enough to read Bible 15 times?",Answer: True,True
+StrategyQA,2,"Question: Douglas fir are a type of tree. Douglas fir are used to make ships. The Minesweeper is a small warship made from Douglas fir. The Minesweeper was made of wood to reduce it's risk magnetic signature and likely hood of detonating mines.
+Have Douglas fir been used to fight wars?
 Answer: True
-Question: Jack Dempsey died in 1983 The current WBC heavyweight champion is Tyson Fury Tyson Fury was born in 1988
-Did Jack Dempsey fight the current WBC heavyweight champion?
+Question: Bruises are caused by blunt trauma to the body. Reiki is performed without touching the recipient. 
+Would somebody leave reiki with bruises?
 Answer: False
-Question: The monster in Mary Shelley's novel, Frankenstein, was said to be 8 feet tall. Robert Wadlow was the world's tallest man. Robert Wadlow was 8 feet 11.1 inches tall.
-Could Robert Wadlow hypothetically see Frankenstein's monster's bald spot from above?
+Question: The Dodgers are a baseball team located in Los Angeles The White Sox are a baseball team located in Chicago The distance between Los Angeles and Chicago is 2,015 miles The length of the main section of the Great Wall of China is 2,145 miles
+Could the Great Wall of China connect the Dodgers to the White Sox?
 Answer: True
-Question: Jack Dempsey died in 1983 The current WBC heavyweight champion is Tyson Fury Tyson Fury was born in 1988
-Did Jack Dempsey fight the current WBC heavyweight champion?
+Question: Olympic medals can only be won during the Olympics. The Olympics were first held in 1896.
+Did England win any Olympic gold medals in 1800?
 Answer: False
-Q: Malcolm X was a practicing Muslim Muslims are prohibited from eating foods derived from pigs
-Did Malcolm X avoid eating ham?",A: True,True
-SayCan,1a,"Question: Deliver the red bull to the close counter
-Answer: 1. find a redbull, 2. pick up the redbull, 3. go to the counter, 4. put down the redbull, 5. done.
-Question: Bring me everything from the table.
-Answer: 1. go to the table, 2. pick up the energy bar, 3. bring it to you, 4. put down the energy bar, 5. go to the table, 6. pick up the multigrain chips, 7. bring it to you, 8. put down the multigrain chips, 9. done
-Q: Could you get me something caffeinated?","A: 1. find a caffeinated beverage, 2. pick up the beverage, 3. bring it to you, 4. done.","1. find a pepsi, 2. pick up the pepsi, 3. bring it to you, 4. put down the pepsi, 5. done."
-SayCan,1a,"Question: I’m exhausted, can you bring me a drink?
-Answer: 1. find a redbull, 2. pick up the redbull, 3. bring it to you, 4. put down the redbull, 5. done.
-Question: Bring me a fruit.
-Answer: 1. find a banana, 2. pick up the banana, 3. bring it to you, 4. put down the banana, 5. done
-Q: Could you get me something caffeinated?","A: 1. find a coffee or energy drink, 2. pick up the caffeinated beverage, 3. bring it to you, 4. put down the beverage, 5. done.","1. find a pepsi, 2. pick up the pepsi, 3. bring it to you, 4. put down the pepsi, 5. done."
-SayCan,2,"Question: Deliver the red bull to the close counter
-Answer: 1. find a redbull, 2. pick up the redbull, 3. go to the counter, 4. put down the redbull, 5. done.
-Question: Bring me everything from the table.
-Answer: 1. go to the table, 2. pick up the energy bar, 3. bring it to you, 4. put down the energy bar, 5. go to the table, 6. pick up the multigrain chips, 7. bring it to you, 8. put down the multigrain chips, 9. done
-Question: I’m exhausted, can you bring me a drink?
-Answer: 1. find a redbull, 2. pick up the redbull, 3. bring it to you, 4. put down the redbull, 5. done.
-Question: Bring me a fruit.
-Answer: 1. find a banana, 2. pick up the banana, 3. bring it to you, 4. put down the banana, 5. done
-Q: Could you get me something caffeinated?","A: 1. find a redbull or coffee, 2. pick up the caffeinated drink, 3. bring it to you, 4. put down the drink, 5. done.","1. find a pepsi, 2. pick up the pepsi, 3. bring it to you, 4. put down the pepsi, 5. done."
-SayCan,3a,"Question: Deliver the red bull to the close counter
-Answer: 1. find a redbull, 2. pick up the redbull, 3. go to the counter, 4. put down the redbull, 5. done.
-Question: Bring me everything from the table.
-Answer: 1. go to the table, 2. pick up the energy bar, 3. bring it to you, 4. put down the energy bar, 5. go to the table, 6. pick up the multigrain chips, 7. bring it to you, 8. put down the multigrain chips, 9. done
-Question: Deliver the red bull to the close counter
-Answer: 1. find a redbull, 2. pick up the redbull, 3. go to the counter, 4. put down the redbull, 5. done.
-Question: Bring me everything from the table.
-Answer: 1. go to the table, 2. pick up the energy bar, 3. bring it to you, 4. put down the energy bar, 5. go to the table, 6. pick up the multigrain chips, 7. bring it to you, 8. put down the multigrain chips, 9. done
-Q: Could you get me something caffeinated?","A: Sure, I will bring you a caffeinated beverage.","1. find a pepsi, 2. pick up the pepsi, 3. bring it to you, 4. put down the pepsi, 5. done."
-SayCan,3b,"Question: I’m exhausted, can you bring me a drink?
-Answer: 1. find a redbull, 2. pick up the redbull, 3. bring it to you, 4. put down the redbull, 5. done.
-Question: Bring me a fruit.
-Answer: 1. find a banana, 2. pick up the banana, 3. bring it to you, 4. put down the banana, 5. done
-Question: I’m exhausted, can you bring me a drink?
-Answer: 1. find a redbull, 2. pick up the redbull, 3. bring it to you, 4. put down the redbull, 5. done.
-Question: Bring me a fruit.
-Answer: 1. find a banana, 2. pick up the banana, 3. bring it to you, 4. put down the banana, 5. done
-Q: Could you get me something caffeinated?","A: 1. Find a caffeinated beverage, 2. Pick it up, 3. Bring it to you, 4. Put it down, 5. Done.","1. find a pepsi, 2. pick up the pepsi, 3. bring it to you, 4. put down the pepsi, 5. done."
+Question: There are 52 Wednesdays in a year. There are 1,248 hours over all the Wednesdays in a year. The Old Testament of the Bible takes an average of 52 hours to read. The New Testament of the Bible takes an average of 18 hours to read.
+Are all Wednesdays in a year enough to read Bible 15 times?",Answer: False,True
+StrategyQA,3a,"Question: Douglas fir are a type of tree. Douglas fir are used to make ships. The Minesweeper is a small warship made from Douglas fir. The Minesweeper was made of wood to reduce it's risk magnetic signature and likely hood of detonating mines.
+Have Douglas fir been used to fight wars?
+Answer: True
+Question: Bruises are caused by blunt trauma to the body. Reiki is performed without touching the recipient. 
+Would somebody leave reiki with bruises?
+Answer: False
+Question: Douglas fir are a type of tree. Douglas fir are used to make ships. The Minesweeper is a small warship made from Douglas fir. The Minesweeper was made of wood to reduce it's risk magnetic signature and likely hood of detonating mines.
+Have Douglas fir been used to fight wars?
+Answer: True
+Question: Bruises are caused by blunt trauma to the body. Reiki is performed without touching the recipient. 
+Would somebody leave reiki with bruises?
+Answer: False
+Question: There are 52 Wednesdays in a year. There are 1,248 hours over all the Wednesdays in a year. The Old Testament of the Bible takes an average of 52 hours to read. The New Testament of the Bible takes an average of 18 hours to read.
+Are all Wednesdays in a year enough to read Bible 15 times?",Answer: True,True
+StrategyQA,3b,"Question: The Dodgers are a baseball team located in Los Angeles The White Sox are a baseball team located in Chicago The distance between Los Angeles and Chicago is 2,015 miles The length of the main section of the Great Wall of China is 2,145 miles
+Could the Great Wall of China connect the Dodgers to the White Sox?
+Answer: True
+Question: Olympic medals can only be won during the Olympics. The Olympics were first held in 1896.
+Did England win any Olympic gold medals in 1800?
+Answer: False
+Question: The Dodgers are a baseball team located in Los Angeles The White Sox are a baseball team located in Chicago The distance between Los Angeles and Chicago is 2,015 miles The length of the main section of the Great Wall of China is 2,145 miles
+Could the Great Wall of China connect the Dodgers to the White Sox?
+Answer: True
+Question: Olympic medals can only be won during the Olympics. The Olympics were first held in 1896.
+Did England win any Olympic gold medals in 1800?
+Answer: False
+Question: There are 52 Wednesdays in a year. There are 1,248 hours over all the Wednesdays in a year. The Old Testament of the Bible takes an average of 52 hours to read. The New Testament of the Bible takes an average of 18 hours to read.
+Are all Wednesdays in a year enough to read Bible 15 times?",Answer: True,True
+SayCan,1a,"Question: Pick up the coke can.
+Answer: 1. pick up the coke can, 2. done
+Question: Can you bring me a salty snack?
+Answer: 1. find the sea salt chips, 2. pick up the sea salt chips, 3. bring it to you, 4. put down the sea salt chips, 5. done
+Question: Bring me a fruit that is not an apple.","Answer: 1. find a banana, 2. pick up the banana, 3. bring it to you, 4. put down the banana, 5. done","1. find an orange, 2. pick up the orange, 3. bring it to you, 4. put down the orange, 5. done"
+SayCan,1a,"Question: Bring me something that is not an apple.
+Answer: 1. find a orange, 2. pick up the orange, 3. bring it to you, 4. put down the orange, 5. done.
+Question: Can I have a redbull please?
+Answer: 1. find a redbull can, 2. pick up the redbull can, 3. bring it to you, 4. put down the redbull can, 5. done
+Question: Bring me a fruit that is not an apple.","Answer: 1. find a banana, 2. pick up the banana, 3. bring it to you, 4. put down the banana, 5. done.","1. find an orange, 2. pick up the orange, 3. bring it to you, 4. put down the orange, 5. done"
+SayCan,2,"Question: Pick up the coke can.
+Answer: 1. pick up the coke can, 2. done
+Question: Can you bring me a salty snack?
+Answer: 1. find the sea salt chips, 2. pick up the sea salt chips, 3. bring it to you, 4. put down the sea salt chips, 5. done
+Question: Bring me something that is not an apple.
+Answer: 1. find a orange, 2. pick up the orange, 3. bring it to you, 4. put down the orange, 5. done.
+Question: Can I have a redbull please?
+Answer: 1. find a redbull can, 2. pick up the redbull can, 3. bring it to you, 4. put down the redbull can, 5. done
+Question: Bring me a fruit that is not an apple.","Answer: 1. find a banana, 2. pick up the banana, 3. bring it to you, 4. put down the banana, 5. done","1. find an orange, 2. pick up the orange, 3. bring it to you, 4. put down the orange, 5. done"
+SayCan,3a,"Question: Pick up the coke can.
+Answer: 1. pick up the coke can, 2. done
+Question: Can you bring me a salty snack?
+Answer: 1. find the sea salt chips, 2. pick up the sea salt chips, 3. bring it to you, 4. put down the sea salt chips, 5. done
+Question: Pick up the coke can.
+Answer: 1. pick up the coke can, 2. done
+Question: Can you bring me a salty snack?
+Answer: 1. find the sea salt chips, 2. pick up the sea salt chips, 3. bring it to you, 4. put down the sea salt chips, 5. done
+Question: Bring me a fruit that is not an apple.","Answer: 1. find a banana or orange, 2. pick up the banana or orange, 3. bring it to you, 4. put down the banana or orange, 5. done","1. find an orange, 2. pick up the orange, 3. bring it to you, 4. put down the orange, 5. done"
+SayCan,3b,"Question: Bring me something that is not an apple.
+Answer: 1. find a orange, 2. pick up the orange, 3. bring it to you, 4. put down the orange, 5. done.
+Question: Can I have a redbull please?
+Answer: 1. find a redbull can, 2. pick up the redbull can, 3. bring it to you, 4. put down the redbull can, 5. done
+Question: Bring me something that is not an apple.
+Answer: 1. find a orange, 2. pick up the orange, 3. bring it to you, 4. put down the orange, 5. done.
+Question: Can I have a redbull please?
+Answer: 1. find a redbull can, 2. pick up the redbull can, 3. bring it to you, 4. put down the redbull can, 5. done
+Question: Bring me a fruit that is not an apple.","Answer: 1. Find a banana, 2. Pick up the banana, 3. Bring it to you, 4. Put down the banana, 5. Done.","1. find an orange, 2. pick up the orange, 3. bring it to you, 4. put down the orange, 5. done"

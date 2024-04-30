@@ -1,395 +1,424 @@
 Task Class,Case,Prompt,Response,Expected
-Math,1a,"Question: Logan's father receives 50 cartons delivery for his milk business, each carton having 20 jars of milk. On a particular week, he received 20 cartons less when the delivery was done, and during offloading, he realized 3 jars in 5 cartons each was damaged, and one carton was totally damaged. How many jars of milk were good for sale that week?
-Answer: When 20 cartons failed to be delivered, the number of cartons reduced to 50-20 = <<50-20=30>>30 cartons.
-The total number of jars in all the cartons is 30*20 = <<30*20=600>>600
-The total number of jars destroyed in the 5 cartons is 3*5 = <<3*5=15>>15 jars.
-If one carton was also destroyed, the total number of destroyed jars is 20+15 = <<20+15=35>>35 jars.
-The number of jars good for sale is 600-35 = <<600-35=565>>565 jars.
-#### 565
-Question: Ali and Sara ate 80 small apples combined. Ali ate 4 times more apples than Sara. How many apples did Sara eat?
-Answer: Let A be the number of apples Ali ate and S be the number of apples Sara ate.
-We have: A + S = 80 apples
-And: A = <<4=4>>4S
-Which means: 4S + S = 80
-So: 5S = 80
-So the number of apples Sara ate is: S = 80 / 5= <<80/5=16>>16 apples
-#### 16
-Q: David and Dasha went to the carnival, where there are 9 rides.  Each ride costs 2 ride tickets at $2 per ticket.  You can also buy a ride bracelet for $30 which gives you 9 rides.  If David buys a ride bracelet and Dasha buys tickets, and they ride all 9 rides, how much money does David save?","A ride bracelet gives David 9 rides for $30, so each ride costs $30 / 9 = $<<30/9=3.33>>3.33 with the bracelet.
-Dasha buys 2 ride tickets per ride for $2 each, so each ride costs her 2 * 2 = $<<2*2=4>>4.
-So, David saves 4 - 3.33 = $<<4-3.33=0.67>>0.67 per ride by using the ride bracelet.
-Since they both ride all 9 rides, David saves a total of 9 * 0.67 = $<<9*0.67=6.03>>6.03.
-Therefore, David saves $6.03 in total.","Each ride cost 2 x $2 = $<<2*2=4>>4.
-All 9 rides cost $4 x 9 = $<<4*9=36>>36.
-By bathing the ride bracelet, David saves $36 - $30 = $<<36-30=6>>6.
-#### 6"
-Math,1a,"Question: Gabrielle sells eggs. On Monday she sells 5 crates of eggs. On Tuesday she sells 2 times as many crates of eggs as Monday. On Wednesday she sells 2 fewer crates than Tuesday. On Thursday she sells half as many crates of eggs as she sells on Tuesday. How many total crates of eggs does she sell for the 4 days?
-Answer: On Tuesday she sells 5 crates * 2 = <<5*2=10>>10 crates of eggs.
-On Wednesday she sells 10 crates - 2 crates = <<10-2=8>>8 crates of eggs.
-On Thursday she sells 1/2 * 10 crates = <<1/2*10=5>>5 crates of eggs.
-She sells a total of 5 crates + 10 crates + 8 crates + 5 crates = <<5+10+8+5=28>>28 crates of eggs.
-#### 28
-Question: Antonia is trying to improve her health by buying supplements. She has a 7-day pill box she wants to fill. She buys 5 different supplements. 3 of the bottles have 120 pills in them each. 2 of the bottles have 30 pills each. After Antonia has filled her pillbox with one pill of each supplement for 2 weeks, how many pills total does she have left from all 5 bottles?
-Answer: Antonia buys 5 different supplements where 3 bottles have 120 pills per bottle, so she has 120 pills x 3 bottles = 360 pills.
-2 of the bottles Antonia buys have 30 pills each x 2 bottles = <<30*2=60>>60 pills.
-She has purchased 360 pills + 60 pills = <<360+60=420>>420 pills total in the 5 bottles.
-Antonia has filled her 7-day pill box for 2 weeks, so 7 days x 2 weeks = <<7*2=14>>14 days.
-On each of the 14 days she fills it with 5 pills, so after 14 days she has used 14 x 5 = <<14*5=70>>70 pills.
-Since Antonia had 420 total pills in all 5 bottles and then she fills her pillbox with 70 pills, she has 420 - 70 = <<420-70=350>>350 pills.
-Antonia will have 350 pills left after 2 weeks.
-#### 350
-Q: David and Dasha went to the carnival, where there are 9 rides.  Each ride costs 2 ride tickets at $2 per ticket.  You can also buy a ride bracelet for $30 which gives you 9 rides.  If David buys a ride bracelet and Dasha buys tickets, and they ride all 9 rides, how much money does David save?","A: If David buys a ride bracelet, he pays $30 for 9 rides, which means he is effectively paying $30 / 9 = $3.33 per ride.
-Dasha buys tickets at $2 per ticket and each ride costs 2 tickets, so she pays 2 tickets * 2 = $4 per ride.
-The difference in price per ride between David and Dasha is $4 - $3.33 = $0.67.
-Since they ride all 9 rides, David saves $0.67 per ride * 9 rides = $6.03 in total compared to Dasha.","Each ride cost 2 x $2 = $<<2*2=4>>4.
-All 9 rides cost $4 x 9 = $<<4*9=36>>36.
-By bathing the ride bracelet, David saves $36 - $30 = $<<36-30=6>>6.
-#### 6"
-Math,2,"Question: Logan's father receives 50 cartons delivery for his milk business, each carton having 20 jars of milk. On a particular week, he received 20 cartons less when the delivery was done, and during offloading, he realized 3 jars in 5 cartons each was damaged, and one carton was totally damaged. How many jars of milk were good for sale that week?
-Answer: When 20 cartons failed to be delivered, the number of cartons reduced to 50-20 = <<50-20=30>>30 cartons.
-The total number of jars in all the cartons is 30*20 = <<30*20=600>>600
-The total number of jars destroyed in the 5 cartons is 3*5 = <<3*5=15>>15 jars.
-If one carton was also destroyed, the total number of destroyed jars is 20+15 = <<20+15=35>>35 jars.
-The number of jars good for sale is 600-35 = <<600-35=565>>565 jars.
-#### 565
-Question: Ali and Sara ate 80 small apples combined. Ali ate 4 times more apples than Sara. How many apples did Sara eat?
-Answer: Let A be the number of apples Ali ate and S be the number of apples Sara ate.
-We have: A + S = 80 apples
-And: A = <<4=4>>4S
-Which means: 4S + S = 80
-So: 5S = 80
-So the number of apples Sara ate is: S = 80 / 5= <<80/5=16>>16 apples
-#### 16
-Question: Gabrielle sells eggs. On Monday she sells 5 crates of eggs. On Tuesday she sells 2 times as many crates of eggs as Monday. On Wednesday she sells 2 fewer crates than Tuesday. On Thursday she sells half as many crates of eggs as she sells on Tuesday. How many total crates of eggs does she sell for the 4 days?
-Answer: On Tuesday she sells 5 crates * 2 = <<5*2=10>>10 crates of eggs.
-On Wednesday she sells 10 crates - 2 crates = <<10-2=8>>8 crates of eggs.
-On Thursday she sells 1/2 * 10 crates = <<1/2*10=5>>5 crates of eggs.
-She sells a total of 5 crates + 10 crates + 8 crates + 5 crates = <<5+10+8+5=28>>28 crates of eggs.
-#### 28
-Question: Antonia is trying to improve her health by buying supplements. She has a 7-day pill box she wants to fill. She buys 5 different supplements. 3 of the bottles have 120 pills in them each. 2 of the bottles have 30 pills each. After Antonia has filled her pillbox with one pill of each supplement for 2 weeks, how many pills total does she have left from all 5 bottles?
-Answer: Antonia buys 5 different supplements where 3 bottles have 120 pills per bottle, so she has 120 pills x 3 bottles = 360 pills.
-2 of the bottles Antonia buys have 30 pills each x 2 bottles = <<30*2=60>>60 pills.
-She has purchased 360 pills + 60 pills = <<360+60=420>>420 pills total in the 5 bottles.
-Antonia has filled her 7-day pill box for 2 weeks, so 7 days x 2 weeks = <<7*2=14>>14 days.
-On each of the 14 days she fills it with 5 pills, so after 14 days she has used 14 x 5 = <<14*5=70>>70 pills.
-Since Antonia had 420 total pills in all 5 bottles and then she fills her pillbox with 70 pills, she has 420 - 70 = <<420-70=350>>350 pills.
-Antonia will have 350 pills left after 2 weeks.
-#### 350
-Q: David and Dasha went to the carnival, where there are 9 rides.  Each ride costs 2 ride tickets at $2 per ticket.  You can also buy a ride bracelet for $30 which gives you 9 rides.  If David buys a ride bracelet and Dasha buys tickets, and they ride all 9 rides, how much money does David save?","A ride bracelet costs $30 and gives access to all 9 rides, which is equivalent to buying 9 * $2 = $18 worth of ride tickets.
-If Dasha buys 9 ride tickets at $2 each, she would spend 9 * $2 = $18.
-Therefore, David saves $18 - $30 = $12 by buying a ride bracelet instead of individual ride tickets. 
-So, David saves $12.","Each ride cost 2 x $2 = $<<2*2=4>>4.
-All 9 rides cost $4 x 9 = $<<4*9=36>>36.
-By bathing the ride bracelet, David saves $36 - $30 = $<<36-30=6>>6.
-#### 6"
-Math,3a,"Question: Logan's father receives 50 cartons delivery for his milk business, each carton having 20 jars of milk. On a particular week, he received 20 cartons less when the delivery was done, and during offloading, he realized 3 jars in 5 cartons each was damaged, and one carton was totally damaged. How many jars of milk were good for sale that week?
-Answer: When 20 cartons failed to be delivered, the number of cartons reduced to 50-20 = <<50-20=30>>30 cartons.
-The total number of jars in all the cartons is 30*20 = <<30*20=600>>600
-The total number of jars destroyed in the 5 cartons is 3*5 = <<3*5=15>>15 jars.
-If one carton was also destroyed, the total number of destroyed jars is 20+15 = <<20+15=35>>35 jars.
-The number of jars good for sale is 600-35 = <<600-35=565>>565 jars.
-#### 565
-Question: Ali and Sara ate 80 small apples combined. Ali ate 4 times more apples than Sara. How many apples did Sara eat?
-Answer: Let A be the number of apples Ali ate and S be the number of apples Sara ate.
-We have: A + S = 80 apples
-And: A = <<4=4>>4S
-Which means: 4S + S = 80
-So: 5S = 80
-So the number of apples Sara ate is: S = 80 / 5= <<80/5=16>>16 apples
-#### 16
-Question: Logan's father receives 50 cartons delivery for his milk business, each carton having 20 jars of milk. On a particular week, he received 20 cartons less when the delivery was done, and during offloading, he realized 3 jars in 5 cartons each was damaged, and one carton was totally damaged. How many jars of milk were good for sale that week?
-Answer: When 20 cartons failed to be delivered, the number of cartons reduced to 50-20 = <<50-20=30>>30 cartons.
-The total number of jars in all the cartons is 30*20 = <<30*20=600>>600
-The total number of jars destroyed in the 5 cartons is 3*5 = <<3*5=15>>15 jars.
-If one carton was also destroyed, the total number of destroyed jars is 20+15 = <<20+15=35>>35 jars.
-The number of jars good for sale is 600-35 = <<600-35=565>>565 jars.
-#### 565
-Question: Ali and Sara ate 80 small apples combined. Ali ate 4 times more apples than Sara. How many apples did Sara eat?
-Answer: Let A be the number of apples Ali ate and S be the number of apples Sara ate.
-We have: A + S = 80 apples
-And: A = <<4=4>>4S
-Which means: 4S + S = 80
-So: 5S = 80
-So the number of apples Sara ate is: S = 80 / 5= <<80/5=16>>16 apples
-#### 16
-Q: David and Dasha went to the carnival, where there are 9 rides.  Each ride costs 2 ride tickets at $2 per ticket.  You can also buy a ride bracelet for $30 which gives you 9 rides.  If David buys a ride bracelet and Dasha buys tickets, and they ride all 9 rides, how much money does David save?","A ride bracelet costs $30 for 9 rides, which is a better deal than buying individual tickets for $2 each.
+Math,1a,"Question: Whitney bought 9 books about whales and 7 books about fish. She also bought 3 magazines. Each book cost $11 and each magazine cost $1. How much did Whitney spend in all?
+Answer: The total number of books is 9 books + 7 books = <<9+7=16>>16 books.
+The cost of the books is $11/book × 16 books = $<<11*16=176>>176.
+The cost of the magazines is $1/magazine × 3 magazines = $<<1*3=3>>3.
+Whitney spent $3 + $176 = $<<3+176=179>>179 in all.
+#### 179
+Question: Johnson has a sack of potatoes. He gives Gina 69 potatoes, gives Tom twice as much potatoes as he gave Gina and gives one-third of the amount of potatoes he gave Tom to Anne. How many potatoes does he have left if the sack contains 300 potatoes?
+Answer: He gives twice 69 potatoes to Tom, which is 69*2 = <<69*2=138>>138 potatoes
+He gives one-third of 138 potatoes to Anne, which is 138*(1/3) = <<138*(1/3)=46>>46 potatoes
+In total, he has given out 69+138+46 = <<69+138+46=253>>253 potatoes
+He initially had 300 potatoes so he now has 300-253 = <<300-253=47>>47 potatoes left
+#### 47
+Question: A football team played 22 games. They won 8 more than they lost. How many did they win?","Let x be the number of games the team lost.
+They won 8 more than they lost, so they won x + 8 games.
+The total number of games played is the sum of the games they won and lost, which is x + (x + 8) = 22.
+This simplifies to 2x + 8 = 22.
+Subtracting 8 from both sides gives 2x = 14.
+Dividing by 2, we find x = 7.
+Therefore, the team won x + 8 = 7 + 8 = 15 games.
+The team won 15 games.","Let L be the number of losses.
+The number of wins is L + <<+8=8>>8.
+The team played (L+8) + L = 2L + 8 = 22 games.
+So, 2L = 22 - 8 = 14
+So L = 14/2 = <<14/2=7>>7 losses.
+Therefore, the team won 22 – 7 = <<22-7=15>>15 games.
+#### 15"
+Math,1a,"Question: Laura loves to cook. One day she decided to make dinner for her family. She bought the necessary ingredients for this occasion: two salads, 2 kilograms of beef, 1 kilogram of potatoes, and two liters of juice. One salad costs $3, and one kilogram of beef is two times more expensive. One kilogram of potatoes costs one-third of the price of one salad, and one liter of juice is $1.5. How much did Laura need to pay for all the products she bought?
+Answer: Laura bought two salads, for 2 * 3 = $<<2*3=6>>6.
+One kilogram of beef is two times more expensive than one salad, which means it cost 2 * 3 = $6.
+So Laura spend 2 * 6 = $<<2*6=12>>12 on beef.
+One kilogram of potatoes costs only 3 * 1/3 = $<<3*1/3=1>>1, and that's how much Laura paid for potatoes.
+Laura bought two liters of juice, so she did spend on them 2 * 1.5 = $<<2*1.5=3>>3.
+So in total Laura paid 6 + 12 + 1 + 3 = $<<6+12+1+3=22>>22.
+#### 22
+Question: Kimiko watches four YouTube videos. The first video is 2 minutes long, the second video is 4 minutes and 30 seconds, and the last two videos are equal in length. If she spends a total of 510 seconds watching YouTube, how many seconds long was each of the last two videos?
+Answer: First convert the length of the first video to seconds: 2 minutes * 60 seconds/minute = <<2*60=120>>120 seconds
+Then convert the length of the second video to seconds: 4 minutes * 60 seconds/minute + 30 seconds = 240 seconds + 30 seconds = <<4*60+30=270>>270 seconds
+Now subtract the length of the first two videos from the total time Kimiko spent watching to find the combined length of the last two videos: 510 seconds - 120 seconds - 270 seconds = <<510-120-270=120>>120 seconds
+Now divide the combined length by the number of videos to find each video's length: 120 seconds / 2 = <<120/2=60>>60 seconds
+#### 60
+Question: A football team played 22 games. They won 8 more than they lost. How many did they win?","Answer: Let's denote the number of games the team lost as x. Therefore, the number of games they won is x + 8. The total number of games played is 22, so we can create an equation:
 
-Dasha buys 9 ride tickets at $2 each, so she spends 9 * 2 = $18 on tickets.
-David buys a ride bracelet for $30.
+x + (x + 8) = 22
+2x + 8 = 22
+2x = 14
+x = 7
 
-Therefore, David saves 30 - 18 = $12 by buying a ride bracelet instead of individual tickets.","Each ride cost 2 x $2 = $<<2*2=4>>4.
-All 9 rides cost $4 x 9 = $<<4*9=36>>36.
-By bathing the ride bracelet, David saves $36 - $30 = $<<36-30=6>>6.
-#### 6"
-Math,3b,"Question: Gabrielle sells eggs. On Monday she sells 5 crates of eggs. On Tuesday she sells 2 times as many crates of eggs as Monday. On Wednesday she sells 2 fewer crates than Tuesday. On Thursday she sells half as many crates of eggs as she sells on Tuesday. How many total crates of eggs does she sell for the 4 days?
-Answer: On Tuesday she sells 5 crates * 2 = <<5*2=10>>10 crates of eggs.
-On Wednesday she sells 10 crates - 2 crates = <<10-2=8>>8 crates of eggs.
-On Thursday she sells 1/2 * 10 crates = <<1/2*10=5>>5 crates of eggs.
-She sells a total of 5 crates + 10 crates + 8 crates + 5 crates = <<5+10+8+5=28>>28 crates of eggs.
-#### 28
-Question: Antonia is trying to improve her health by buying supplements. She has a 7-day pill box she wants to fill. She buys 5 different supplements. 3 of the bottles have 120 pills in them each. 2 of the bottles have 30 pills each. After Antonia has filled her pillbox with one pill of each supplement for 2 weeks, how many pills total does she have left from all 5 bottles?
-Answer: Antonia buys 5 different supplements where 3 bottles have 120 pills per bottle, so she has 120 pills x 3 bottles = 360 pills.
-2 of the bottles Antonia buys have 30 pills each x 2 bottles = <<30*2=60>>60 pills.
-She has purchased 360 pills + 60 pills = <<360+60=420>>420 pills total in the 5 bottles.
-Antonia has filled her 7-day pill box for 2 weeks, so 7 days x 2 weeks = <<7*2=14>>14 days.
-On each of the 14 days she fills it with 5 pills, so after 14 days she has used 14 x 5 = <<14*5=70>>70 pills.
-Since Antonia had 420 total pills in all 5 bottles and then she fills her pillbox with 70 pills, she has 420 - 70 = <<420-70=350>>350 pills.
-Antonia will have 350 pills left after 2 weeks.
-#### 350
-Question: Gabrielle sells eggs. On Monday she sells 5 crates of eggs. On Tuesday she sells 2 times as many crates of eggs as Monday. On Wednesday she sells 2 fewer crates than Tuesday. On Thursday she sells half as many crates of eggs as she sells on Tuesday. How many total crates of eggs does she sell for the 4 days?
-Answer: On Tuesday she sells 5 crates * 2 = <<5*2=10>>10 crates of eggs.
-On Wednesday she sells 10 crates - 2 crates = <<10-2=8>>8 crates of eggs.
-On Thursday she sells 1/2 * 10 crates = <<1/2*10=5>>5 crates of eggs.
-She sells a total of 5 crates + 10 crates + 8 crates + 5 crates = <<5+10+8+5=28>>28 crates of eggs.
-#### 28
-Question: Antonia is trying to improve her health by buying supplements. She has a 7-day pill box she wants to fill. She buys 5 different supplements. 3 of the bottles have 120 pills in them each. 2 of the bottles have 30 pills each. After Antonia has filled her pillbox with one pill of each supplement for 2 weeks, how many pills total does she have left from all 5 bottles?
-Answer: Antonia buys 5 different supplements where 3 bottles have 120 pills per bottle, so she has 120 pills x 3 bottles = 360 pills.
-2 of the bottles Antonia buys have 30 pills each x 2 bottles = <<30*2=60>>60 pills.
-She has purchased 360 pills + 60 pills = <<360+60=420>>420 pills total in the 5 bottles.
-Antonia has filled her 7-day pill box for 2 weeks, so 7 days x 2 weeks = <<7*2=14>>14 days.
-On each of the 14 days she fills it with 5 pills, so after 14 days she has used 14 x 5 = <<14*5=70>>70 pills.
-Since Antonia had 420 total pills in all 5 bottles and then she fills her pillbox with 70 pills, she has 420 - 70 = <<420-70=350>>350 pills.
-Antonia will have 350 pills left after 2 weeks.
-#### 350
-Q: David and Dasha went to the carnival, where there are 9 rides.  Each ride costs 2 ride tickets at $2 per ticket.  You can also buy a ride bracelet for $30 which gives you 9 rides.  If David buys a ride bracelet and Dasha buys tickets, and they ride all 9 rides, how much money does David save?","A: If each ride costs 2 tickets at $2 per ticket, then each ride costs 2 * $2 = $4.
-If Dasha buys tickets for all 9 rides, she will spend 9 rides * $4 per ride = $36.
-Since David buys a ride bracelet for $30, he saves $36 - $30 = $6 compared to Dasha.","Each ride cost 2 x $2 = $<<2*2=4>>4.
-All 9 rides cost $4 x 9 = $<<4*9=36>>36.
-By bathing the ride bracelet, David saves $36 - $30 = $<<36-30=6>>6.
-#### 6"
-CSQA,1a,"Question: Where can you buy lettuce directly from the grower?
-A: supermarket
-B: grocery store
-C: salad
-D: farmer's market
-E: refrigerator
-Answer: D
-Question: What is a person's goal to ownas an adult with a family?
-A: wellness
-B: number 1
-C: headache
-D: their own failings
-E: own home
+Therefore, the team lost 7 games and won 7 + 8 = 15 games.
+#### 15","Let L be the number of losses.
+The number of wins is L + <<+8=8>>8.
+The team played (L+8) + L = 2L + 8 = 22 games.
+So, 2L = 22 - 8 = 14
+So L = 14/2 = <<14/2=7>>7 losses.
+Therefore, the team won 22 – 7 = <<22-7=15>>15 games.
+#### 15"
+Math,2,"Question: Whitney bought 9 books about whales and 7 books about fish. She also bought 3 magazines. Each book cost $11 and each magazine cost $1. How much did Whitney spend in all?
+Answer: The total number of books is 9 books + 7 books = <<9+7=16>>16 books.
+The cost of the books is $11/book × 16 books = $<<11*16=176>>176.
+The cost of the magazines is $1/magazine × 3 magazines = $<<1*3=3>>3.
+Whitney spent $3 + $176 = $<<3+176=179>>179 in all.
+#### 179
+Question: Johnson has a sack of potatoes. He gives Gina 69 potatoes, gives Tom twice as much potatoes as he gave Gina and gives one-third of the amount of potatoes he gave Tom to Anne. How many potatoes does he have left if the sack contains 300 potatoes?
+Answer: He gives twice 69 potatoes to Tom, which is 69*2 = <<69*2=138>>138 potatoes
+He gives one-third of 138 potatoes to Anne, which is 138*(1/3) = <<138*(1/3)=46>>46 potatoes
+In total, he has given out 69+138+46 = <<69+138+46=253>>253 potatoes
+He initially had 300 potatoes so he now has 300-253 = <<300-253=47>>47 potatoes left
+#### 47
+Question: Laura loves to cook. One day she decided to make dinner for her family. She bought the necessary ingredients for this occasion: two salads, 2 kilograms of beef, 1 kilogram of potatoes, and two liters of juice. One salad costs $3, and one kilogram of beef is two times more expensive. One kilogram of potatoes costs one-third of the price of one salad, and one liter of juice is $1.5. How much did Laura need to pay for all the products she bought?
+Answer: Laura bought two salads, for 2 * 3 = $<<2*3=6>>6.
+One kilogram of beef is two times more expensive than one salad, which means it cost 2 * 3 = $6.
+So Laura spend 2 * 6 = $<<2*6=12>>12 on beef.
+One kilogram of potatoes costs only 3 * 1/3 = $<<3*1/3=1>>1, and that's how much Laura paid for potatoes.
+Laura bought two liters of juice, so she did spend on them 2 * 1.5 = $<<2*1.5=3>>3.
+So in total Laura paid 6 + 12 + 1 + 3 = $<<6+12+1+3=22>>22.
+#### 22
+Question: Kimiko watches four YouTube videos. The first video is 2 minutes long, the second video is 4 minutes and 30 seconds, and the last two videos are equal in length. If she spends a total of 510 seconds watching YouTube, how many seconds long was each of the last two videos?
+Answer: First convert the length of the first video to seconds: 2 minutes * 60 seconds/minute = <<2*60=120>>120 seconds
+Then convert the length of the second video to seconds: 4 minutes * 60 seconds/minute + 30 seconds = 240 seconds + 30 seconds = <<4*60+30=270>>270 seconds
+Now subtract the length of the first two videos from the total time Kimiko spent watching to find the combined length of the last two videos: 510 seconds - 120 seconds - 270 seconds = <<510-120-270=120>>120 seconds
+Now divide the combined length by the number of videos to find each video's length: 120 seconds / 2 = <<120/2=60>>60 seconds
+#### 60
+Question: A football team played 22 games. They won 8 more than they lost. How many did they win?","Let x be the number of games the team lost.
+
+The number of games they won is x + 8.
+
+The total number of games played is the sum of games won and games lost, which is x + (x + 8) = 22.
+
+Combining like terms, we get 2x + 8 = 22.
+
+Subtracting 8 from both sides gives 2x = 14.
+
+Dividing by 2, we get x = 7, which is the number of games the team lost.
+
+Therefore, the number of games they won is 7 + 8 = 15. 
+
+So, they won 15 games.","Let L be the number of losses.
+The number of wins is L + <<+8=8>>8.
+The team played (L+8) + L = 2L + 8 = 22 games.
+So, 2L = 22 - 8 = 14
+So L = 14/2 = <<14/2=7>>7 losses.
+Therefore, the team won 22 – 7 = <<22-7=15>>15 games.
+#### 15"
+Math,3a,"Question: Whitney bought 9 books about whales and 7 books about fish. She also bought 3 magazines. Each book cost $11 and each magazine cost $1. How much did Whitney spend in all?
+Answer: The total number of books is 9 books + 7 books = <<9+7=16>>16 books.
+The cost of the books is $11/book × 16 books = $<<11*16=176>>176.
+The cost of the magazines is $1/magazine × 3 magazines = $<<1*3=3>>3.
+Whitney spent $3 + $176 = $<<3+176=179>>179 in all.
+#### 179
+Question: Johnson has a sack of potatoes. He gives Gina 69 potatoes, gives Tom twice as much potatoes as he gave Gina and gives one-third of the amount of potatoes he gave Tom to Anne. How many potatoes does he have left if the sack contains 300 potatoes?
+Answer: He gives twice 69 potatoes to Tom, which is 69*2 = <<69*2=138>>138 potatoes
+He gives one-third of 138 potatoes to Anne, which is 138*(1/3) = <<138*(1/3)=46>>46 potatoes
+In total, he has given out 69+138+46 = <<69+138+46=253>>253 potatoes
+He initially had 300 potatoes so he now has 300-253 = <<300-253=47>>47 potatoes left
+#### 47
+Question: Whitney bought 9 books about whales and 7 books about fish. She also bought 3 magazines. Each book cost $11 and each magazine cost $1. How much did Whitney spend in all?
+Answer: The total number of books is 9 books + 7 books = <<9+7=16>>16 books.
+The cost of the books is $11/book × 16 books = $<<11*16=176>>176.
+The cost of the magazines is $1/magazine × 3 magazines = $<<1*3=3>>3.
+Whitney spent $3 + $176 = $<<3+176=179>>179 in all.
+#### 179
+Question: Johnson has a sack of potatoes. He gives Gina 69 potatoes, gives Tom twice as much potatoes as he gave Gina and gives one-third of the amount of potatoes he gave Tom to Anne. How many potatoes does he have left if the sack contains 300 potatoes?
+Answer: He gives twice 69 potatoes to Tom, which is 69*2 = <<69*2=138>>138 potatoes
+He gives one-third of 138 potatoes to Anne, which is 138*(1/3) = <<138*(1/3)=46>>46 potatoes
+In total, he has given out 69+138+46 = <<69+138+46=253>>253 potatoes
+He initially had 300 potatoes so he now has 300-253 = <<300-253=47>>47 potatoes left
+#### 47
+Question: A football team played 22 games. They won 8 more than they lost. How many did they win?","Let x be the number of games the team lost.
+The number of games they won would be x + 8.
+The total number of games played is x + x + 8 = 22.
+Combining like terms, we get 2x + 8 = 22.
+Subtracting 8 from both sides, we get 2x = 14.
+Dividing by 2, we get x = 7.
+Therefore, the team won x + 8 = 7 + 8 = 15 games. Answer: 15.","Let L be the number of losses.
+The number of wins is L + <<+8=8>>8.
+The team played (L+8) + L = 2L + 8 = 22 games.
+So, 2L = 22 - 8 = 14
+So L = 14/2 = <<14/2=7>>7 losses.
+Therefore, the team won 22 – 7 = <<22-7=15>>15 games.
+#### 15"
+Math,3b,"Question: Laura loves to cook. One day she decided to make dinner for her family. She bought the necessary ingredients for this occasion: two salads, 2 kilograms of beef, 1 kilogram of potatoes, and two liters of juice. One salad costs $3, and one kilogram of beef is two times more expensive. One kilogram of potatoes costs one-third of the price of one salad, and one liter of juice is $1.5. How much did Laura need to pay for all the products she bought?
+Answer: Laura bought two salads, for 2 * 3 = $<<2*3=6>>6.
+One kilogram of beef is two times more expensive than one salad, which means it cost 2 * 3 = $6.
+So Laura spend 2 * 6 = $<<2*6=12>>12 on beef.
+One kilogram of potatoes costs only 3 * 1/3 = $<<3*1/3=1>>1, and that's how much Laura paid for potatoes.
+Laura bought two liters of juice, so she did spend on them 2 * 1.5 = $<<2*1.5=3>>3.
+So in total Laura paid 6 + 12 + 1 + 3 = $<<6+12+1+3=22>>22.
+#### 22
+Question: Kimiko watches four YouTube videos. The first video is 2 minutes long, the second video is 4 minutes and 30 seconds, and the last two videos are equal in length. If she spends a total of 510 seconds watching YouTube, how many seconds long was each of the last two videos?
+Answer: First convert the length of the first video to seconds: 2 minutes * 60 seconds/minute = <<2*60=120>>120 seconds
+Then convert the length of the second video to seconds: 4 minutes * 60 seconds/minute + 30 seconds = 240 seconds + 30 seconds = <<4*60+30=270>>270 seconds
+Now subtract the length of the first two videos from the total time Kimiko spent watching to find the combined length of the last two videos: 510 seconds - 120 seconds - 270 seconds = <<510-120-270=120>>120 seconds
+Now divide the combined length by the number of videos to find each video's length: 120 seconds / 2 = <<120/2=60>>60 seconds
+#### 60
+Question: Laura loves to cook. One day she decided to make dinner for her family. She bought the necessary ingredients for this occasion: two salads, 2 kilograms of beef, 1 kilogram of potatoes, and two liters of juice. One salad costs $3, and one kilogram of beef is two times more expensive. One kilogram of potatoes costs one-third of the price of one salad, and one liter of juice is $1.5. How much did Laura need to pay for all the products she bought?
+Answer: Laura bought two salads, for 2 * 3 = $<<2*3=6>>6.
+One kilogram of beef is two times more expensive than one salad, which means it cost 2 * 3 = $6.
+So Laura spend 2 * 6 = $<<2*6=12>>12 on beef.
+One kilogram of potatoes costs only 3 * 1/3 = $<<3*1/3=1>>1, and that's how much Laura paid for potatoes.
+Laura bought two liters of juice, so she did spend on them 2 * 1.5 = $<<2*1.5=3>>3.
+So in total Laura paid 6 + 12 + 1 + 3 = $<<6+12+1+3=22>>22.
+#### 22
+Question: Kimiko watches four YouTube videos. The first video is 2 minutes long, the second video is 4 minutes and 30 seconds, and the last two videos are equal in length. If she spends a total of 510 seconds watching YouTube, how many seconds long was each of the last two videos?
+Answer: First convert the length of the first video to seconds: 2 minutes * 60 seconds/minute = <<2*60=120>>120 seconds
+Then convert the length of the second video to seconds: 4 minutes * 60 seconds/minute + 30 seconds = 240 seconds + 30 seconds = <<4*60+30=270>>270 seconds
+Now subtract the length of the first two videos from the total time Kimiko spent watching to find the combined length of the last two videos: 510 seconds - 120 seconds - 270 seconds = <<510-120-270=120>>120 seconds
+Now divide the combined length by the number of videos to find each video's length: 120 seconds / 2 = <<120/2=60>>60 seconds
+#### 60
+Question: A football team played 22 games. They won 8 more than they lost. How many did they win?","Let x be the number of games the team lost. 
+
+The team won 8 more games than they lost, so they won x + 8 games.
+
+The total number of games played is the sum of games won and games lost, which is x + (x + 8) = 22.
+
+Combining like terms, we get 2x + 8 = 22.
+
+Subtracting 8 from both sides gives 2x = 14.
+
+Dividing by 2, we find x = 7.
+
+Therefore, the team lost 7 games and won 7 + 8 = 15 games.","Let L be the number of losses.
+The number of wins is L + <<+8=8>>8.
+The team played (L+8) + L = 2L + 8 = 22 games.
+So, 2L = 22 - 8 = 14
+So L = 14/2 = <<14/2=7>>7 losses.
+Therefore, the team won 22 – 7 = <<22-7=15>>15 games.
+#### 15"
+CSQA,1a,"Question: What does every human want with someone else?
+A: healthy relationship
+B: wet suit
+C: moving car
+D: school
+E: fight
+Answer: A
+Question: The Canadian farmer wondered if potatoes would grow where he lived, where was his likely location?
+A: main course
+B: prince edward island
+C: ireland
+D: french fries
+E: idaho
+Answer: B
+Question: The person gave a good hands on what to show how to do the work?
+A: demonstration
+B: garage
+C: building
+D: barn
+E: synagogue",Answer: A,A
+CSQA,1a,"Question: Because of dangers you don't always see shop as an option in what anymore?
+A: downtown area
+B: container
+C: ocean floor
+D: roadway
+E: high school
 Answer: E
-Q: Who was the head of the branch yelling at?
-A: owner
-B: foot
-C: subordinate
-D: base
-E: point",Answer: C,C
-CSQA,1a,"Question: Lilly loved peace and quiet, but she couldn't find any where she lived.  She took drastic measures and went somewhere for solitude. Where did she go?
-A: library
-B: home
-C: top of mountain
-D: sea
-E: grocery
-Answer: D
-Question: When someone doesn't have beauty they have?
-A: ugly
-B: beast
-C: waterfall
-D: waterfall
-E: ugliness
+Question: Billy wants to understand people better.  He's a very big-hearrted person,  He has a lot of what?
+A: peace
+B: love
+C: compassion
+D: friendships
+E: satisfaction
+Answer: C
+Question: The person gave a good hands on what to show how to do the work?
+A: demonstration
+B: garage
+C: building
+D: barn
+E: synagogue",Answer: A,A
+CSQA,2,"Question: What does every human want with someone else?
+A: healthy relationship
+B: wet suit
+C: moving car
+D: school
+E: fight
+Answer: A
+Question: The Canadian farmer wondered if potatoes would grow where he lived, where was his likely location?
+A: main course
+B: prince edward island
+C: ireland
+D: french fries
+E: idaho
+Answer: B
+Question: Because of dangers you don't always see shop as an option in what anymore?
+A: downtown area
+B: container
+C: ocean floor
+D: roadway
+E: high school
 Answer: E
-Q: Who was the head of the branch yelling at?
-A: owner
-B: foot
-C: subordinate
-D: base
-E: point",A: owner,C
-CSQA,2,"Question: Where can you buy lettuce directly from the grower?
-A: supermarket
-B: grocery store
-C: salad
-D: farmer's market
-E: refrigerator
-Answer: D
-Question: What is a person's goal to ownas an adult with a family?
-A: wellness
-B: number 1
-C: headache
-D: their own failings
-E: own home
+Question: Billy wants to understand people better.  He's a very big-hearrted person,  He has a lot of what?
+A: peace
+B: love
+C: compassion
+D: friendships
+E: satisfaction
+Answer: C
+Question: The person gave a good hands on what to show how to do the work?
+A: demonstration
+B: garage
+C: building
+D: barn
+E: synagogue",Answer: A,A
+CSQA,3a,"Question: What does every human want with someone else?
+A: healthy relationship
+B: wet suit
+C: moving car
+D: school
+E: fight
+Answer: A
+Question: The Canadian farmer wondered if potatoes would grow where he lived, where was his likely location?
+A: main course
+B: prince edward island
+C: ireland
+D: french fries
+E: idaho
+Answer: B
+Question: What does every human want with someone else?
+A: healthy relationship
+B: wet suit
+C: moving car
+D: school
+E: fight
+Answer: A
+Question: The Canadian farmer wondered if potatoes would grow where he lived, where was his likely location?
+A: main course
+B: prince edward island
+C: ireland
+D: french fries
+E: idaho
+Answer: B
+Question: The person gave a good hands on what to show how to do the work?
+A: demonstration
+B: garage
+C: building
+D: barn
+E: synagogue",Answer: A,A
+CSQA,3b,"Question: Because of dangers you don't always see shop as an option in what anymore?
+A: downtown area
+B: container
+C: ocean floor
+D: roadway
+E: high school
 Answer: E
-Question: Lilly loved peace and quiet, but she couldn't find any where she lived.  She took drastic measures and went somewhere for solitude. Where did she go?
-A: library
-B: home
-C: top of mountain
-D: sea
-E: grocery
-Answer: D
-Question: When someone doesn't have beauty they have?
-A: ugly
-B: beast
-C: waterfall
-D: waterfall
-E: ugliness
+Question: Billy wants to understand people better.  He's a very big-hearrted person,  He has a lot of what?
+A: peace
+B: love
+C: compassion
+D: friendships
+E: satisfaction
+Answer: C
+Question: Because of dangers you don't always see shop as an option in what anymore?
+A: downtown area
+B: container
+C: ocean floor
+D: roadway
+E: high school
 Answer: E
-Q: Who was the head of the branch yelling at?
-A: owner
-B: foot
-C: subordinate
-D: base
-E: point",A: subordinate,C
-CSQA,3a,"Question: Where can you buy lettuce directly from the grower?
-A: supermarket
-B: grocery store
-C: salad
-D: farmer's market
-E: refrigerator
-Answer: D
-Question: What is a person's goal to ownas an adult with a family?
-A: wellness
-B: number 1
-C: headache
-D: their own failings
-E: own home
-Answer: E
-Question: Where can you buy lettuce directly from the grower?
-A: supermarket
-B: grocery store
-C: salad
-D: farmer's market
-E: refrigerator
-Answer: D
-Question: What is a person's goal to ownas an adult with a family?
-A: wellness
-B: number 1
-C: headache
-D: their own failings
-E: own home
-Answer: E
-Q: Who was the head of the branch yelling at?
-A: owner
-B: foot
-C: subordinate
-D: base
-E: point",Answer: C,C
-CSQA,3b,"Question: Lilly loved peace and quiet, but she couldn't find any where she lived.  She took drastic measures and went somewhere for solitude. Where did she go?
-A: library
-B: home
-C: top of mountain
-D: sea
-E: grocery
-Answer: D
-Question: When someone doesn't have beauty they have?
-A: ugly
-B: beast
-C: waterfall
-D: waterfall
-E: ugliness
-Answer: E
-Question: Lilly loved peace and quiet, but she couldn't find any where she lived.  She took drastic measures and went somewhere for solitude. Where did she go?
-A: library
-B: home
-C: top of mountain
-D: sea
-E: grocery
-Answer: D
-Question: When someone doesn't have beauty they have?
-A: ugly
-B: beast
-C: waterfall
-D: waterfall
-E: ugliness
-Answer: E
-Q: Who was the head of the branch yelling at?
-A: owner
-B: foot
-C: subordinate
-D: base
-E: point",Answer: C,C
-StrategyQA,1a,"Question: Celiac is a disease in which the body cannot process gluten. Gluten is a protein found in wheat. Spaghetti is made with milled wheat and water.
-Should a Celiac sufferer avoid spaghetti?
-Answer: True
-Question: The average number of peas in a pod is 6 or 7. A billion is a number that has three commas in it.
-Is average number of peas in a pod enough commas for a billion?
-Answer: True
-Q: Roll call is when teachers call the names of students and they raise their hand to show they are present. The founder of Redenbacher popcorn was Orville Redenbacher. Reggae musician Shaggy was born Orville Richard Burrell.
-Would Shaggy and Redenbacher popcorn founder both raise hand during first name roll call?",Answer: True,True
-StrategyQA,1a,"Question: High Speed 1 (HS1), legally the Channel Tunnel Rail Link (CTRL), is a 67-mile (108 km) high-speed railway. The CERN collider is contained in a circular tunnel, with a circumference of 26.7 kilometres (16.6 mi). The circumference of a circle is the length of the enclosing boundary.
-Would the tunnels at CERN fit onto the High Speed 1 rails?
-Answer: True
-Question: A serving of roast turkey is about 1 pound of uncooked turkey. A 12-lb roast turkey would contain about 12 servings of cooked turkey meat. One human cannot eat 12 1-lb servings of turkey in one sitting.
-Can a human eat an entire 12-lb roast turkey in an hour? 
+Question: Billy wants to understand people better.  He's a very big-hearrted person,  He has a lot of what?
+A: peace
+B: love
+C: compassion
+D: friendships
+E: satisfaction
+Answer: C
+Question: The person gave a good hands on what to show how to do the work?
+A: demonstration
+B: garage
+C: building
+D: barn
+E: synagogue",Answer: A,A
+StrategyQA,1a,"Question: Groundhog Day is an American tradition that occurs on February 2nd.  Groundhog Day derives from a superstition that if a groundhog sees it's shadow it will mean there are six more weeks of winter. People living in the southern hemisphere of the world experience summer while the people in the north experience winter. Different global cultures define the dates of seasons differently.
+Is groundhog day used as a global season indicator? 
 Answer: False
-Q: Roll call is when teachers call the names of students and they raise their hand to show they are present. The founder of Redenbacher popcorn was Orville Redenbacher. Reggae musician Shaggy was born Orville Richard Burrell.
-Would Shaggy and Redenbacher popcorn founder both raise hand during first name roll call?",A: False,True
-StrategyQA,2,"Question: Celiac is a disease in which the body cannot process gluten. Gluten is a protein found in wheat. Spaghetti is made with milled wheat and water.
-Should a Celiac sufferer avoid spaghetti?
+Question: JPMorgan Chase has total assets of US$2.687 trillion. As of November 8, 2018, the United States is estimated to have a population of 328,953,020. One trillion is equal to 1,000 billions. One billion is equal to 1,000 millions.
+Could JPMorgan Chase give every American $10?
 Answer: True
-Question: The average number of peas in a pod is 6 or 7. A billion is a number that has three commas in it.
-Is average number of peas in a pod enough commas for a billion?
-Answer: True
-Question: High Speed 1 (HS1), legally the Channel Tunnel Rail Link (CTRL), is a 67-mile (108 km) high-speed railway. The CERN collider is contained in a circular tunnel, with a circumference of 26.7 kilometres (16.6 mi). The circumference of a circle is the length of the enclosing boundary.
-Would the tunnels at CERN fit onto the High Speed 1 rails?
-Answer: True
-Question: A serving of roast turkey is about 1 pound of uncooked turkey. A 12-lb roast turkey would contain about 12 servings of cooked turkey meat. One human cannot eat 12 1-lb servings of turkey in one sitting.
-Can a human eat an entire 12-lb roast turkey in an hour? 
+Question: Ahura Mazda is a deity of Zoroastrianism, a contemporary religion Zeus is a deity of Greek mythology
+Does Ahura Mazda have a rivalry with Zeus?",Answer: False,False
+StrategyQA,1a,"Question: Mathematicians are expert students of mathematics. Hodor was a dimwitted giant of a man that served House Stark in Game of Thrones. Hodor worked in the stables and could only utter the only word he ever said was his own name. Mathematicians frequently publish articles on theories and need to be able to read and write.
+Would Hodor hypothetically be a good math mathematician?
 Answer: False
-Q: Roll call is when teachers call the names of students and they raise their hand to show they are present. The founder of Redenbacher popcorn was Orville Redenbacher. Reggae musician Shaggy was born Orville Richard Burrell.
-Would Shaggy and Redenbacher popcorn founder both raise hand during first name roll call?",Answer: False,True
-StrategyQA,3a,"Question: Celiac is a disease in which the body cannot process gluten. Gluten is a protein found in wheat. Spaghetti is made with milled wheat and water.
-Should a Celiac sufferer avoid spaghetti?
-Answer: True
-Question: The average number of peas in a pod is 6 or 7. A billion is a number that has three commas in it.
-Is average number of peas in a pod enough commas for a billion?
-Answer: True
-Question: Celiac is a disease in which the body cannot process gluten. Gluten is a protein found in wheat. Spaghetti is made with milled wheat and water.
-Should a Celiac sufferer avoid spaghetti?
-Answer: True
-Question: The average number of peas in a pod is 6 or 7. A billion is a number that has three commas in it.
-Is average number of peas in a pod enough commas for a billion?
-Answer: True
-Q: Roll call is when teachers call the names of students and they raise their hand to show they are present. The founder of Redenbacher popcorn was Orville Redenbacher. Reggae musician Shaggy was born Orville Richard Burrell.
-Would Shaggy and Redenbacher popcorn founder both raise hand during first name roll call?",False,True
-StrategyQA,3b,"Question: High Speed 1 (HS1), legally the Channel Tunnel Rail Link (CTRL), is a 67-mile (108 km) high-speed railway. The CERN collider is contained in a circular tunnel, with a circumference of 26.7 kilometres (16.6 mi). The circumference of a circle is the length of the enclosing boundary.
-Would the tunnels at CERN fit onto the High Speed 1 rails?
-Answer: True
-Question: A serving of roast turkey is about 1 pound of uncooked turkey. A 12-lb roast turkey would contain about 12 servings of cooked turkey meat. One human cannot eat 12 1-lb servings of turkey in one sitting.
-Can a human eat an entire 12-lb roast turkey in an hour? 
+Question: Drag Kings will use contouring and makeup to make their facial features appear more masculine and chiseled.  Testosterone is prescribed for transgender men to help with transitioning and dysphoria. Drag kings often identify as women, but dress as men for show.
+Do drag kings take testosterone to look masculine?
 Answer: False
-Question: High Speed 1 (HS1), legally the Channel Tunnel Rail Link (CTRL), is a 67-mile (108 km) high-speed railway. The CERN collider is contained in a circular tunnel, with a circumference of 26.7 kilometres (16.6 mi). The circumference of a circle is the length of the enclosing boundary.
-Would the tunnels at CERN fit onto the High Speed 1 rails?
-Answer: True
-Question: A serving of roast turkey is about 1 pound of uncooked turkey. A 12-lb roast turkey would contain about 12 servings of cooked turkey meat. One human cannot eat 12 1-lb servings of turkey in one sitting.
-Can a human eat an entire 12-lb roast turkey in an hour? 
+Question: Ahura Mazda is a deity of Zoroastrianism, a contemporary religion Zeus is a deity of Greek mythology
+Does Ahura Mazda have a rivalry with Zeus?",Answer: False,False
+StrategyQA,2,"Question: Groundhog Day is an American tradition that occurs on February 2nd.  Groundhog Day derives from a superstition that if a groundhog sees it's shadow it will mean there are six more weeks of winter. People living in the southern hemisphere of the world experience summer while the people in the north experience winter. Different global cultures define the dates of seasons differently.
+Is groundhog day used as a global season indicator? 
 Answer: False
-Q: Roll call is when teachers call the names of students and they raise their hand to show they are present. The founder of Redenbacher popcorn was Orville Redenbacher. Reggae musician Shaggy was born Orville Richard Burrell.
-Would Shaggy and Redenbacher popcorn founder both raise hand during first name roll call?",A: False,True
-SayCan,1a,"Question: Can you bring me something salty?
+Question: JPMorgan Chase has total assets of US$2.687 trillion. As of November 8, 2018, the United States is estimated to have a population of 328,953,020. One trillion is equal to 1,000 billions. One billion is equal to 1,000 millions.
+Could JPMorgan Chase give every American $10?
+Answer: True
+Question: Mathematicians are expert students of mathematics. Hodor was a dimwitted giant of a man that served House Stark in Game of Thrones. Hodor worked in the stables and could only utter the only word he ever said was his own name. Mathematicians frequently publish articles on theories and need to be able to read and write.
+Would Hodor hypothetically be a good math mathematician?
+Answer: False
+Question: Drag Kings will use contouring and makeup to make their facial features appear more masculine and chiseled.  Testosterone is prescribed for transgender men to help with transitioning and dysphoria. Drag kings often identify as women, but dress as men for show.
+Do drag kings take testosterone to look masculine?
+Answer: False
+Question: Ahura Mazda is a deity of Zoroastrianism, a contemporary religion Zeus is a deity of Greek mythology
+Does Ahura Mazda have a rivalry with Zeus?",False,False
+StrategyQA,3a,"Question: Groundhog Day is an American tradition that occurs on February 2nd.  Groundhog Day derives from a superstition that if a groundhog sees it's shadow it will mean there are six more weeks of winter. People living in the southern hemisphere of the world experience summer while the people in the north experience winter. Different global cultures define the dates of seasons differently.
+Is groundhog day used as a global season indicator? 
+Answer: False
+Question: JPMorgan Chase has total assets of US$2.687 trillion. As of November 8, 2018, the United States is estimated to have a population of 328,953,020. One trillion is equal to 1,000 billions. One billion is equal to 1,000 millions.
+Could JPMorgan Chase give every American $10?
+Answer: True
+Question: Groundhog Day is an American tradition that occurs on February 2nd.  Groundhog Day derives from a superstition that if a groundhog sees it's shadow it will mean there are six more weeks of winter. People living in the southern hemisphere of the world experience summer while the people in the north experience winter. Different global cultures define the dates of seasons differently.
+Is groundhog day used as a global season indicator? 
+Answer: False
+Question: JPMorgan Chase has total assets of US$2.687 trillion. As of November 8, 2018, the United States is estimated to have a population of 328,953,020. One trillion is equal to 1,000 billions. One billion is equal to 1,000 millions.
+Could JPMorgan Chase give every American $10?
+Answer: True
+Question: Ahura Mazda is a deity of Zoroastrianism, a contemporary religion Zeus is a deity of Greek mythology
+Does Ahura Mazda have a rivalry with Zeus?",Answer: False,False
+StrategyQA,3b,"Question: Mathematicians are expert students of mathematics. Hodor was a dimwitted giant of a man that served House Stark in Game of Thrones. Hodor worked in the stables and could only utter the only word he ever said was his own name. Mathematicians frequently publish articles on theories and need to be able to read and write.
+Would Hodor hypothetically be a good math mathematician?
+Answer: False
+Question: Drag Kings will use contouring and makeup to make their facial features appear more masculine and chiseled.  Testosterone is prescribed for transgender men to help with transitioning and dysphoria. Drag kings often identify as women, but dress as men for show.
+Do drag kings take testosterone to look masculine?
+Answer: False
+Question: Mathematicians are expert students of mathematics. Hodor was a dimwitted giant of a man that served House Stark in Game of Thrones. Hodor worked in the stables and could only utter the only word he ever said was his own name. Mathematicians frequently publish articles on theories and need to be able to read and write.
+Would Hodor hypothetically be a good math mathematician?
+Answer: False
+Question: Drag Kings will use contouring and makeup to make their facial features appear more masculine and chiseled.  Testosterone is prescribed for transgender men to help with transitioning and dysphoria. Drag kings often identify as women, but dress as men for show.
+Do drag kings take testosterone to look masculine?
+Answer: False
+Question: Ahura Mazda is a deity of Zoroastrianism, a contemporary religion Zeus is a deity of Greek mythology
+Does Ahura Mazda have a rivalry with Zeus?",Answer: False,False
+SayCan,1a,"Question: Bring me something that is not an apple.
+Answer: 1. find an orange, 2. pick up the orange, 3. bring it to you, 4. put down the orange, 5. done
+Question: Move the chips bag from the table to the counter.
+Answer: 1. find the bag of chips, 2. pick up the bag of chips, 3. go to the counter, 4. put down the bag of chips, 5. done
+Question: How would you pick up the coke can?","Answer: 1. locate the coke can, 2. reach for the coke can, 3. grasp the coke can with your hand, 4. lift the coke can off the surface, 5. hold onto the coke can securely, 6. bring the coke can closer to your body, 7. carry the coke can to your desired location, 8. place the coke can down gently, 9. release your grip on the coke can, 10. done.","1. pick up the coke can, 2. done"
+SayCan,1a,"Question: Can you bring me a salty snack?
 Answer: 1. find the sea salt chips, 2. pick up the sea salt chips, 3. bring it to you, 4. put down the sea salt chips, 5. done
-Question: How would you throw away the apple?
-Answer: 1. find an apple, 2. pick up the apple, 3. go to the trash, 4. put down the apple, 5. done
-Q: Bring me something that is not an apple.","A: 1. find something that is not an apple, 2. pick it up, 3. bring it to you, 4. put it down in front of you, 5. done","1. find a orange, 2. pick up the orange, 3. bring it to you, 4. put down the orange, 5. done."
-SayCan,1a,"Question: Can you bring me something salty?
-Answer: 1. find a sea salt chips, 2. pick up the sea salt chips, 3. bring it to you, 4. put down the sea salt chips, 5. done.
-Question: Bring me everything from the table.
-Answer: 1. go to the table, 2. pick up the energy bar, 3. bring it to you, 4. put down the energy bar, 5. go to the table, 6. pick up the multigrain chips, 7. bring it to you, 8. put down the multigrain chips, 9. done
-Q: Bring me something that is not an apple.","A: 1. Go to the kitchen, 2. Pick up a banana, 3. Bring it to you, 4. Put down the banana, 5. Done.","1. find a orange, 2. pick up the orange, 3. bring it to you, 4. put down the orange, 5. done."
-SayCan,2,"Question: Can you bring me something salty?
+Question: How would you bring me a fruit, a soda, and a bag of chips for lunch?
+Answer: 1. find the bag of chips, 2. pick up the bag of chips, 3. bring it to you, 4. put down the bag of chips, 5. find a coke can, 6. pick up the coke can, 7. bring it to you, 8. put down the coke can, 9. find a banana, 10. pick up the banana, 11. bring it to you, 12. put down the banana, 13. done
+Question: How would you pick up the coke can?","Answer: 1. Find the coke can, 2. Reach for the coke can, 3. Grasp the coke can, 4. Lift up the coke can, 5. Bring the coke can towards you, 6. Hold onto the coke can securely.","1. pick up the coke can, 2. done"
+SayCan,2,"Question: Bring me something that is not an apple.
+Answer: 1. find an orange, 2. pick up the orange, 3. bring it to you, 4. put down the orange, 5. done
+Question: Move the chips bag from the table to the counter.
+Answer: 1. find the bag of chips, 2. pick up the bag of chips, 3. go to the counter, 4. put down the bag of chips, 5. done
+Question: Can you bring me a salty snack?
 Answer: 1. find the sea salt chips, 2. pick up the sea salt chips, 3. bring it to you, 4. put down the sea salt chips, 5. done
-Question: How would you throw away the apple?
-Answer: 1. find an apple, 2. pick up the apple, 3. go to the trash, 4. put down the apple, 5. done
-Question: Can you bring me something salty?
-Answer: 1. find a sea salt chips, 2. pick up the sea salt chips, 3. bring it to you, 4. put down the sea salt chips, 5. done.
-Question: Bring me everything from the table.
-Answer: 1. go to the table, 2. pick up the energy bar, 3. bring it to you, 4. put down the energy bar, 5. go to the table, 6. pick up the multigrain chips, 7. bring it to you, 8. put down the multigrain chips, 9. done
-Q: Bring me something that is not an apple.","A: 1. find an orange, 2. pick up the orange, 3. bring it to you, 4. put down the orange, 5. done","1. find a orange, 2. pick up the orange, 3. bring it to you, 4. put down the orange, 5. done."
-SayCan,3a,"Question: Can you bring me something salty?
+Question: How would you bring me a fruit, a soda, and a bag of chips for lunch?
+Answer: 1. find the bag of chips, 2. pick up the bag of chips, 3. bring it to you, 4. put down the bag of chips, 5. find a coke can, 6. pick up the coke can, 7. bring it to you, 8. put down the coke can, 9. find a banana, 10. pick up the banana, 11. bring it to you, 12. put down the banana, 13. done
+Question: How would you pick up the coke can?","Answer: 1. Find the coke can, 2. Reach for the coke can, 3. Grip the coke can with your fingers, 4. Lift the coke can off the surface, 5. Hold onto the coke can securely, 6. Bring the coke can to your desired location, 7. Gently lower the coke can back onto a surface, 8. Release your grip on the coke can, 9. Done.","1. pick up the coke can, 2. done"
+SayCan,3a,"Question: Bring me something that is not an apple.
+Answer: 1. find an orange, 2. pick up the orange, 3. bring it to you, 4. put down the orange, 5. done
+Question: Move the chips bag from the table to the counter.
+Answer: 1. find the bag of chips, 2. pick up the bag of chips, 3. go to the counter, 4. put down the bag of chips, 5. done
+Question: Bring me something that is not an apple.
+Answer: 1. find an orange, 2. pick up the orange, 3. bring it to you, 4. put down the orange, 5. done
+Question: Move the chips bag from the table to the counter.
+Answer: 1. find the bag of chips, 2. pick up the bag of chips, 3. go to the counter, 4. put down the bag of chips, 5. done
+Question: How would you pick up the coke can?","Answer: 1. Identify the coke can, 2. Reach out and grasp the can with your hand, 3. Lift the can off the surface, 4. Hold onto the can securely, 5. Bring the can towards you, 6. Ensure a firm grip on the can, 7. Place the can back down when necessary, 8. Done.","1. pick up the coke can, 2. done"
+SayCan,3b,"Question: Can you bring me a salty snack?
 Answer: 1. find the sea salt chips, 2. pick up the sea salt chips, 3. bring it to you, 4. put down the sea salt chips, 5. done
-Question: How would you throw away the apple?
-Answer: 1. find an apple, 2. pick up the apple, 3. go to the trash, 4. put down the apple, 5. done
-Question: Can you bring me something salty?
+Question: How would you bring me a fruit, a soda, and a bag of chips for lunch?
+Answer: 1. find the bag of chips, 2. pick up the bag of chips, 3. bring it to you, 4. put down the bag of chips, 5. find a coke can, 6. pick up the coke can, 7. bring it to you, 8. put down the coke can, 9. find a banana, 10. pick up the banana, 11. bring it to you, 12. put down the banana, 13. done
+Question: Can you bring me a salty snack?
 Answer: 1. find the sea salt chips, 2. pick up the sea salt chips, 3. bring it to you, 4. put down the sea salt chips, 5. done
-Question: How would you throw away the apple?
-Answer: 1. find an apple, 2. pick up the apple, 3. go to the trash, 4. put down the apple, 5. done
-Q: Bring me something that is not an apple.","A: 1. find something that is not an apple, 2. pick up the item, 3. bring it to you, 4. put it down, 5. done","1. find a orange, 2. pick up the orange, 3. bring it to you, 4. put down the orange, 5. done."
-SayCan,3b,"Question: Can you bring me something salty?
-Answer: 1. find a sea salt chips, 2. pick up the sea salt chips, 3. bring it to you, 4. put down the sea salt chips, 5. done.
-Question: Bring me everything from the table.
-Answer: 1. go to the table, 2. pick up the energy bar, 3. bring it to you, 4. put down the energy bar, 5. go to the table, 6. pick up the multigrain chips, 7. bring it to you, 8. put down the multigrain chips, 9. done
-Question: Can you bring me something salty?
-Answer: 1. find a sea salt chips, 2. pick up the sea salt chips, 3. bring it to you, 4. put down the sea salt chips, 5. done.
-Question: Bring me everything from the table.
-Answer: 1. go to the table, 2. pick up the energy bar, 3. bring it to you, 4. put down the energy bar, 5. go to the table, 6. pick up the multigrain chips, 7. bring it to you, 8. put down the multigrain chips, 9. done
-Q: Bring me something that is not an apple.","A: 1. Look for a banana, 2. Pick up the banana, 3. Bring it to you, 4. Put down the banana, 5. Done.","1. find a orange, 2. pick up the orange, 3. bring it to you, 4. put down the orange, 5. done."
+Question: How would you bring me a fruit, a soda, and a bag of chips for lunch?
+Answer: 1. find the bag of chips, 2. pick up the bag of chips, 3. bring it to you, 4. put down the bag of chips, 5. find a coke can, 6. pick up the coke can, 7. bring it to you, 8. put down the coke can, 9. find a banana, 10. pick up the banana, 11. bring it to you, 12. put down the banana, 13. done
+Question: How would you pick up the coke can?","Answer: 1. find the coke can, 2. pick up the coke can","1. pick up the coke can, 2. done"

@@ -1,377 +1,366 @@
 Task Class,Case,Prompt,Response,Expected
-Math,1a,"Question: Debelyn, Christel, and Andrena collect dolls. Debelyn had 20 dolls before she gave Andrena 2 dolls. Christel had 24 dolls before giving Andrena 5 dolls. After all the gifts, Andrena now has 2 more dolls  than Christel, how many more dolls does andrena have now than Debelyn?
-Answer: Debelyn had 20 - 2 = <<20-2=18>>18 dolls left after giving out 2 dolls to Christel.
-Christel had 24 + 2 = <<24+2=26>>26 dolls after receiving 2 dolls from Debelyn.
-Christel had 24 - 5 = <<24-5=19>>19 dolls after giving Andrena 5 dolls.
-So, Andrena has 19 +2 = <<19+2=21>>21 dolls now.
-Therefore, Andrena has 21 - 18 = <<21-18=3>>3 more dolls than Debelyn.
-#### 3
-Question: Jenny wants to read 3 books in the next 10 days. She can read 100 words per hour. If the first book has 200 words, the second book has 400 words, and the third book has 300 words, how many minutes per day, on average, should she spend reading?
-Answer: She wants to read 200+400+300=<<200+400+300=900>>900 pages total.
-She needs to spend 900/100 = <<900/100=9>>9 hours reading in the next three weeks.
-In minutes, she will need to spend 9*60 = <<9*60=540>>540 minutes.
-Thus, she should spend 540 minutes/10 days = <<540/10=54>>54 minutes per day reading.
-#### 54
-Q: There are four schools competing at a basketball tournament. Each school has sent a girls’ basketball team and a boys’ basketball team and each team has 5 players each. Each school has also sent a coach for each team. In total, how many people have all of the schools sent?","A: Each school has sent 2 teams (girls' team and boys' team) with 5 players each, so each school has sent a total of 2 teams x 5 players = 10 players.
-Since there are 4 schools competing, the total number of players sent by all schools is 10 players per school x 4 schools = 40 players.
-Additionally, each school has sent a coach for each team, so each school has sent 2 coaches per school.
-Therefore, in total, all of the schools have sent 2 coaches per school x 4 schools = 8 coaches.
-Adding the players and coaches together, all of the schools have sent a total of 40 players + 8 coaches = 48 people.","Each school has sent 1 girls’ basketball team + 1 boys’ basketball team = <<1+1=2>>2 teams.
-So each school has sent 2 teams * 5 players per team = <<2*5=10>>10 players.
-They have also each sent 2 teams * 1 coach per team = <<2*1=2>>2 coaches.
-In total, each school has sent 10 players + 2 coaches = <<10+2=12>>12 people.
-Therefore, the schools have sent a total of 12 people per school * 4 schools = <<12*4=48>>48 people.
-#### 48"
-Math,1a,"Question: Cameron drives at twice the speed of his brother, Chase.  But Danielle drives at three times the speed of Cameron.  If it takes Danielle 30 minutes to travel from Granville to Salisbury, how long, in minutes, will it take Chase to travel from Granville to Salisbury?
-Answer: If Danielle drives at three times the speed of Cameron, it will take Cameron 30*3=<<30*3=90>>90 minutes for Cameron to travel the same distance.
-And since Cameron drives at twice the speed of his brother, Chase, it will take Chase 90*2=<<90*2=180>>180 minutes to travel from Granville to Salisbury.
-#### 180
-Question: It takes 50 large jelly beans to fill up a large drinking glass.  It takes half that amount to fill up a small drinking glass.  If there are 5 large drinking glasses and 3 small ones, how many jellybeans will it take to fill them up?
-Answer: A small drinking glass takes half the amount of a large glass that needs 50 so it will take 50/2 = <<50/2=25>>25 jellybeans
-5 large glasses need to be filled so they will take 5*50 = <<5*50=250>>250 jelly beans
-There are 3 small glasses that need to be filled so they will take 3*25 = <<3*25=75>>75 jelly beans
-All total, to fill all the glasses it will take 250+75 = <<250+75=325>>325 jellybeans
-#### 325
-Q: There are four schools competing at a basketball tournament. Each school has sent a girls’ basketball team and a boys’ basketball team and each team has 5 players each. Each school has also sent a coach for each team. In total, how many people have all of the schools sent?","A: Each school has sent 2 teams consisting of 5 players each, so each school has sent 2*5 = <<2*5=10>>10 players.
-Since there are 4 schools, the total number of players sent to the tournament is 4*10 = <<4*10=40>>40 players.
-Each school has also sent a coach for each team, so each school has sent 2 coaches each. This means that for 4 schools, there are 4*2 = <<4*2=8>>8 coaches in total.
-Adding the players and coaches together, all of the schools have sent a total of 40 players + 8 coaches = <<40+8=48>>48 people to the tournament. 
-Therefore, all of the schools have sent a total of 48 people to the basketball tournament.","Each school has sent 1 girls’ basketball team + 1 boys’ basketball team = <<1+1=2>>2 teams.
-So each school has sent 2 teams * 5 players per team = <<2*5=10>>10 players.
-They have also each sent 2 teams * 1 coach per team = <<2*1=2>>2 coaches.
-In total, each school has sent 10 players + 2 coaches = <<10+2=12>>12 people.
-Therefore, the schools have sent a total of 12 people per school * 4 schools = <<12*4=48>>48 people.
-#### 48"
-Math,2,"Question: Debelyn, Christel, and Andrena collect dolls. Debelyn had 20 dolls before she gave Andrena 2 dolls. Christel had 24 dolls before giving Andrena 5 dolls. After all the gifts, Andrena now has 2 more dolls  than Christel, how many more dolls does andrena have now than Debelyn?
-Answer: Debelyn had 20 - 2 = <<20-2=18>>18 dolls left after giving out 2 dolls to Christel.
-Christel had 24 + 2 = <<24+2=26>>26 dolls after receiving 2 dolls from Debelyn.
-Christel had 24 - 5 = <<24-5=19>>19 dolls after giving Andrena 5 dolls.
-So, Andrena has 19 +2 = <<19+2=21>>21 dolls now.
-Therefore, Andrena has 21 - 18 = <<21-18=3>>3 more dolls than Debelyn.
-#### 3
-Question: Jenny wants to read 3 books in the next 10 days. She can read 100 words per hour. If the first book has 200 words, the second book has 400 words, and the third book has 300 words, how many minutes per day, on average, should she spend reading?
-Answer: She wants to read 200+400+300=<<200+400+300=900>>900 pages total.
-She needs to spend 900/100 = <<900/100=9>>9 hours reading in the next three weeks.
-In minutes, she will need to spend 9*60 = <<9*60=540>>540 minutes.
-Thus, she should spend 540 minutes/10 days = <<540/10=54>>54 minutes per day reading.
-#### 54
-Question: Cameron drives at twice the speed of his brother, Chase.  But Danielle drives at three times the speed of Cameron.  If it takes Danielle 30 minutes to travel from Granville to Salisbury, how long, in minutes, will it take Chase to travel from Granville to Salisbury?
-Answer: If Danielle drives at three times the speed of Cameron, it will take Cameron 30*3=<<30*3=90>>90 minutes for Cameron to travel the same distance.
-And since Cameron drives at twice the speed of his brother, Chase, it will take Chase 90*2=<<90*2=180>>180 minutes to travel from Granville to Salisbury.
-#### 180
-Question: It takes 50 large jelly beans to fill up a large drinking glass.  It takes half that amount to fill up a small drinking glass.  If there are 5 large drinking glasses and 3 small ones, how many jellybeans will it take to fill them up?
-Answer: A small drinking glass takes half the amount of a large glass that needs 50 so it will take 50/2 = <<50/2=25>>25 jellybeans
-5 large glasses need to be filled so they will take 5*50 = <<5*50=250>>250 jelly beans
-There are 3 small glasses that need to be filled so they will take 3*25 = <<3*25=75>>75 jelly beans
-All total, to fill all the glasses it will take 250+75 = <<250+75=325>>325 jellybeans
-#### 325
-Q: There are four schools competing at a basketball tournament. Each school has sent a girls’ basketball team and a boys’ basketball team and each team has 5 players each. Each school has also sent a coach for each team. In total, how many people have all of the schools sent?","A: Each school has sent a total of 2 (girls' and boys' teams) + 2 (coaches) = 4 people.
-So, for four schools, the total number of people sent is 4 schools * 4 people per school = 16 people.","Each school has sent 1 girls’ basketball team + 1 boys’ basketball team = <<1+1=2>>2 teams.
-So each school has sent 2 teams * 5 players per team = <<2*5=10>>10 players.
-They have also each sent 2 teams * 1 coach per team = <<2*1=2>>2 coaches.
-In total, each school has sent 10 players + 2 coaches = <<10+2=12>>12 people.
-Therefore, the schools have sent a total of 12 people per school * 4 schools = <<12*4=48>>48 people.
-#### 48"
-Math,3a,"Question: Debelyn, Christel, and Andrena collect dolls. Debelyn had 20 dolls before she gave Andrena 2 dolls. Christel had 24 dolls before giving Andrena 5 dolls. After all the gifts, Andrena now has 2 more dolls  than Christel, how many more dolls does andrena have now than Debelyn?
-Answer: Debelyn had 20 - 2 = <<20-2=18>>18 dolls left after giving out 2 dolls to Christel.
-Christel had 24 + 2 = <<24+2=26>>26 dolls after receiving 2 dolls from Debelyn.
-Christel had 24 - 5 = <<24-5=19>>19 dolls after giving Andrena 5 dolls.
-So, Andrena has 19 +2 = <<19+2=21>>21 dolls now.
-Therefore, Andrena has 21 - 18 = <<21-18=3>>3 more dolls than Debelyn.
-#### 3
-Question: Jenny wants to read 3 books in the next 10 days. She can read 100 words per hour. If the first book has 200 words, the second book has 400 words, and the third book has 300 words, how many minutes per day, on average, should she spend reading?
-Answer: She wants to read 200+400+300=<<200+400+300=900>>900 pages total.
-She needs to spend 900/100 = <<900/100=9>>9 hours reading in the next three weeks.
-In minutes, she will need to spend 9*60 = <<9*60=540>>540 minutes.
-Thus, she should spend 540 minutes/10 days = <<540/10=54>>54 minutes per day reading.
-#### 54
-Question: Debelyn, Christel, and Andrena collect dolls. Debelyn had 20 dolls before she gave Andrena 2 dolls. Christel had 24 dolls before giving Andrena 5 dolls. After all the gifts, Andrena now has 2 more dolls  than Christel, how many more dolls does andrena have now than Debelyn?
-Answer: Debelyn had 20 - 2 = <<20-2=18>>18 dolls left after giving out 2 dolls to Christel.
-Christel had 24 + 2 = <<24+2=26>>26 dolls after receiving 2 dolls from Debelyn.
-Christel had 24 - 5 = <<24-5=19>>19 dolls after giving Andrena 5 dolls.
-So, Andrena has 19 +2 = <<19+2=21>>21 dolls now.
-Therefore, Andrena has 21 - 18 = <<21-18=3>>3 more dolls than Debelyn.
-#### 3
-Question: Jenny wants to read 3 books in the next 10 days. She can read 100 words per hour. If the first book has 200 words, the second book has 400 words, and the third book has 300 words, how many minutes per day, on average, should she spend reading?
-Answer: She wants to read 200+400+300=<<200+400+300=900>>900 pages total.
-She needs to spend 900/100 = <<900/100=9>>9 hours reading in the next three weeks.
-In minutes, she will need to spend 9*60 = <<9*60=540>>540 minutes.
-Thus, she should spend 540 minutes/10 days = <<540/10=54>>54 minutes per day reading.
-#### 54
-Q: There are four schools competing at a basketball tournament. Each school has sent a girls’ basketball team and a boys’ basketball team and each team has 5 players each. Each school has also sent a coach for each team. In total, how many people have all of the schools sent?","A: Each school has 2 teams (girls' and boys' basketball) with 5 players each, so each school has sent 2*5 = 10 players.
-Since there are 4 schools, the total number of players sent by all schools is 4*10 = 40 players.
-Each school has also sent a coach for each team, so each school has sent 2 coaches.
-Since there are 4 schools, the total number of coaches sent by all schools is 4*2 = 8 coaches.
-Therefore, all of the schools have sent a total of 40 players + 8 coaches = 48 people.","Each school has sent 1 girls’ basketball team + 1 boys’ basketball team = <<1+1=2>>2 teams.
-So each school has sent 2 teams * 5 players per team = <<2*5=10>>10 players.
-They have also each sent 2 teams * 1 coach per team = <<2*1=2>>2 coaches.
-In total, each school has sent 10 players + 2 coaches = <<10+2=12>>12 people.
-Therefore, the schools have sent a total of 12 people per school * 4 schools = <<12*4=48>>48 people.
-#### 48"
-Math,3b,"Question: Cameron drives at twice the speed of his brother, Chase.  But Danielle drives at three times the speed of Cameron.  If it takes Danielle 30 minutes to travel from Granville to Salisbury, how long, in minutes, will it take Chase to travel from Granville to Salisbury?
-Answer: If Danielle drives at three times the speed of Cameron, it will take Cameron 30*3=<<30*3=90>>90 minutes for Cameron to travel the same distance.
-And since Cameron drives at twice the speed of his brother, Chase, it will take Chase 90*2=<<90*2=180>>180 minutes to travel from Granville to Salisbury.
-#### 180
-Question: It takes 50 large jelly beans to fill up a large drinking glass.  It takes half that amount to fill up a small drinking glass.  If there are 5 large drinking glasses and 3 small ones, how many jellybeans will it take to fill them up?
-Answer: A small drinking glass takes half the amount of a large glass that needs 50 so it will take 50/2 = <<50/2=25>>25 jellybeans
-5 large glasses need to be filled so they will take 5*50 = <<5*50=250>>250 jelly beans
-There are 3 small glasses that need to be filled so they will take 3*25 = <<3*25=75>>75 jelly beans
-All total, to fill all the glasses it will take 250+75 = <<250+75=325>>325 jellybeans
-#### 325
-Question: Cameron drives at twice the speed of his brother, Chase.  But Danielle drives at three times the speed of Cameron.  If it takes Danielle 30 minutes to travel from Granville to Salisbury, how long, in minutes, will it take Chase to travel from Granville to Salisbury?
-Answer: If Danielle drives at three times the speed of Cameron, it will take Cameron 30*3=<<30*3=90>>90 minutes for Cameron to travel the same distance.
-And since Cameron drives at twice the speed of his brother, Chase, it will take Chase 90*2=<<90*2=180>>180 minutes to travel from Granville to Salisbury.
-#### 180
-Question: It takes 50 large jelly beans to fill up a large drinking glass.  It takes half that amount to fill up a small drinking glass.  If there are 5 large drinking glasses and 3 small ones, how many jellybeans will it take to fill them up?
-Answer: A small drinking glass takes half the amount of a large glass that needs 50 so it will take 50/2 = <<50/2=25>>25 jellybeans
-5 large glasses need to be filled so they will take 5*50 = <<5*50=250>>250 jelly beans
-There are 3 small glasses that need to be filled so they will take 3*25 = <<3*25=75>>75 jelly beans
-All total, to fill all the glasses it will take 250+75 = <<250+75=325>>325 jellybeans
-#### 325
-Q: There are four schools competing at a basketball tournament. Each school has sent a girls’ basketball team and a boys’ basketball team and each team has 5 players each. Each school has also sent a coach for each team. In total, how many people have all of the schools sent?","A: Each school has sent 2 teams with 5 players each, so that's 2 * 5 = <<2*5=10>>10 players per school.
-Since there are 4 schools competing, the total number of players is 10 * 4 = <<10*4=40>>40 players.
-Each school has also sent a coach for each team, so that's 2 coaches per school.
-With 4 schools in total, the total number of coaches is 2 * 4 = <<2*4=8>>8 coaches.
-Therefore, in total, all of the schools have sent 40 players + 8 coaches = <<40+8=48>>48 people.","Each school has sent 1 girls’ basketball team + 1 boys’ basketball team = <<1+1=2>>2 teams.
-So each school has sent 2 teams * 5 players per team = <<2*5=10>>10 players.
-They have also each sent 2 teams * 1 coach per team = <<2*1=2>>2 coaches.
-In total, each school has sent 10 players + 2 coaches = <<10+2=12>>12 people.
-Therefore, the schools have sent a total of 12 people per school * 4 schools = <<12*4=48>>48 people.
-#### 48"
-CSQA,1a,"Question: What is it called when you spend time with friends and acquaintances?
-A: socialize
-B: tell story
-C: go somewhere
-D: wedding
-E: clean room
-Answer: A
-Question: What midwestern area is likely to have a marmot running free?
-A: zoo
-B: encyclopedia
-C: jungle
-D: countryside
-E: great plains
+Math,1a,"Question: James has a small tree outside his window with 30 branches with 90 twigs per branch. 30% of the twigs sprout 4 leaves and the rest sprout 5 leaves. How many leaves are on the tree total?
+Answer: First find the total number of twigs on the tree: 30 branches * 90 twigs/branch = <<30*90=2700>>2700 twigs
+Then multiply that number by 30% to find how many twigs have 4 leaves: 2700 twigs * 30% = <<2700*30*.01=810>>810 twigs
+Then subtract that number from the total number of twigs to find how many have 5 leaves: 2700 twigs - 810 twigs = <<2700-810=1890>>1890 twigs
+Then multiply that number by 5 to find the number of leaves on the 5-leaved twigs: 1890 twigs * 5 leaves/twig = <<1890*5=9450>>9450 leaves
+Then multiply the number of 4-leaved twigs by 4 to find the total number of leaves they have: 810 twigs * 4 leaves/twig = <<810*4=3240>>3240 leaves
+Then add the two groups of leaves to find the total number of leaves: 9450 leaves + 3240 leaves = <<9450+3240=12690>>12690 leaves
+#### 12690
+Question: Larry and Barry want to pick apples out of the tree, but neither is tall enough to reach the apples.  Barry can reach apples that are 5 feet high.  Larry is 5 feet tall, but his shoulder height is 20% less than his full height.  If Barry stands on Larry's shoulders, how high can they reach?
+Answer: Larry's shoulder height is 20% less than 5 feet, or 0.2*5 =<<20*.01*5=1>>1 foot less than 5 feet.
+One foot less than 5 feet is 5-1=<<5-1=4>>4 feet.
+If Barry stands on Larry's shoulders, they can reach 4+5=<<4+5=9>>9 feet.
+#### 9
+Question: In a room, there are various toys: 5 red cars, 3 action figures, and a doll. The doll cost as much as 3 action figures and one red car cost $4. How much are all toys worth, of an action figure costs $5?","Answer: The doll costs 3 * $5 = $15.
+The 5 red cars cost 5 * $4 = $20.
+So, in total, all toys are worth $20 + $15 + 3 * $5 = $50.","Three actions figures are worth 3 * 5 = $<<3*5=15>>15, as much as the doll.
+The red cars are worth 5 * 4 = $<<5*4=20>>20.
+So all toys are worth 20 + 15 + 15 = $<<20+15+15=50>>50.
+#### 50"
+Math,1a,"Question: Jose bought 20,000 square meters of land and needs to divide it equally with his four siblings. How much land, in the square meters, will Jose have after dividing it with his siblings?
+Answer: The land will be divided into 1 (Jose) + 4 siblings = <<1+4=5>>5 pieces.
+So, Jose will have 20,000/5 = <<20000/5=4000>>4000 square meters of land.
+#### 4000
+Question: A building has 10 floors. It takes 15 seconds to go up the stairs to the even-numbered floors and 9 seconds to go up to the odd-numbered floors.  This includes getting to the first floor. How many minutes does it take to get to the 10th floor?
+Answer: So for all even-numbered floors (2, 4, 6, 8, 10), it takes 5*15= <<5*15=75>>75 seconds
+And for all odd-numbered floors (1, 3, 5, 7, 9) it takes 5*9= <<5*9=45>>45 seconds
+To climb all the floors, it takes 75+45= <<75+45=120>>120 seconds
+So it takes 120/60=<<120/60=2>>2 minutes to get to the 10th floor
+#### 2
+Question: In a room, there are various toys: 5 red cars, 3 action figures, and a doll. The doll cost as much as 3 action figures and one red car cost $4. How much are all toys worth, of an action figure costs $5?","Answer: The doll is worth 3*5=<<3*5=15>>15 dollars.
+The total cost of the red cars is 5*4=<<5*4=20>>20 dollars.
+The cost of all the toys is 20+15+5*3= <<20+15+(5*3)=50>>50 dollars.","Three actions figures are worth 3 * 5 = $<<3*5=15>>15, as much as the doll.
+The red cars are worth 5 * 4 = $<<5*4=20>>20.
+So all toys are worth 20 + 15 + 15 = $<<20+15+15=50>>50.
+#### 50"
+Math,2,"Question: James has a small tree outside his window with 30 branches with 90 twigs per branch. 30% of the twigs sprout 4 leaves and the rest sprout 5 leaves. How many leaves are on the tree total?
+Answer: First find the total number of twigs on the tree: 30 branches * 90 twigs/branch = <<30*90=2700>>2700 twigs
+Then multiply that number by 30% to find how many twigs have 4 leaves: 2700 twigs * 30% = <<2700*30*.01=810>>810 twigs
+Then subtract that number from the total number of twigs to find how many have 5 leaves: 2700 twigs - 810 twigs = <<2700-810=1890>>1890 twigs
+Then multiply that number by 5 to find the number of leaves on the 5-leaved twigs: 1890 twigs * 5 leaves/twig = <<1890*5=9450>>9450 leaves
+Then multiply the number of 4-leaved twigs by 4 to find the total number of leaves they have: 810 twigs * 4 leaves/twig = <<810*4=3240>>3240 leaves
+Then add the two groups of leaves to find the total number of leaves: 9450 leaves + 3240 leaves = <<9450+3240=12690>>12690 leaves
+#### 12690
+Question: Larry and Barry want to pick apples out of the tree, but neither is tall enough to reach the apples.  Barry can reach apples that are 5 feet high.  Larry is 5 feet tall, but his shoulder height is 20% less than his full height.  If Barry stands on Larry's shoulders, how high can they reach?
+Answer: Larry's shoulder height is 20% less than 5 feet, or 0.2*5 =<<20*.01*5=1>>1 foot less than 5 feet.
+One foot less than 5 feet is 5-1=<<5-1=4>>4 feet.
+If Barry stands on Larry's shoulders, they can reach 4+5=<<4+5=9>>9 feet.
+#### 9
+Question: Jose bought 20,000 square meters of land and needs to divide it equally with his four siblings. How much land, in the square meters, will Jose have after dividing it with his siblings?
+Answer: The land will be divided into 1 (Jose) + 4 siblings = <<1+4=5>>5 pieces.
+So, Jose will have 20,000/5 = <<20000/5=4000>>4000 square meters of land.
+#### 4000
+Question: A building has 10 floors. It takes 15 seconds to go up the stairs to the even-numbered floors and 9 seconds to go up to the odd-numbered floors.  This includes getting to the first floor. How many minutes does it take to get to the 10th floor?
+Answer: So for all even-numbered floors (2, 4, 6, 8, 10), it takes 5*15= <<5*15=75>>75 seconds
+And for all odd-numbered floors (1, 3, 5, 7, 9) it takes 5*9= <<5*9=45>>45 seconds
+To climb all the floors, it takes 75+45= <<75+45=120>>120 seconds
+So it takes 120/60=<<120/60=2>>2 minutes to get to the 10th floor
+#### 2
+Question: In a room, there are various toys: 5 red cars, 3 action figures, and a doll. The doll cost as much as 3 action figures and one red car cost $4. How much are all toys worth, of an action figure costs $5?","Answer: The doll's cost is 3 * 5 = $15.
+The total cost of the red cars is 5 * 4 = $20.
+So the total cost of all the toys is 15 + 20 + 3 * 5 = $15 + $20 + $15 = $<<15+20+15=50>>50.","Three actions figures are worth 3 * 5 = $<<3*5=15>>15, as much as the doll.
+The red cars are worth 5 * 4 = $<<5*4=20>>20.
+So all toys are worth 20 + 15 + 15 = $<<20+15+15=50>>50.
+#### 50"
+Math,3a,"Question: James has a small tree outside his window with 30 branches with 90 twigs per branch. 30% of the twigs sprout 4 leaves and the rest sprout 5 leaves. How many leaves are on the tree total?
+Answer: First find the total number of twigs on the tree: 30 branches * 90 twigs/branch = <<30*90=2700>>2700 twigs
+Then multiply that number by 30% to find how many twigs have 4 leaves: 2700 twigs * 30% = <<2700*30*.01=810>>810 twigs
+Then subtract that number from the total number of twigs to find how many have 5 leaves: 2700 twigs - 810 twigs = <<2700-810=1890>>1890 twigs
+Then multiply that number by 5 to find the number of leaves on the 5-leaved twigs: 1890 twigs * 5 leaves/twig = <<1890*5=9450>>9450 leaves
+Then multiply the number of 4-leaved twigs by 4 to find the total number of leaves they have: 810 twigs * 4 leaves/twig = <<810*4=3240>>3240 leaves
+Then add the two groups of leaves to find the total number of leaves: 9450 leaves + 3240 leaves = <<9450+3240=12690>>12690 leaves
+#### 12690
+Question: Larry and Barry want to pick apples out of the tree, but neither is tall enough to reach the apples.  Barry can reach apples that are 5 feet high.  Larry is 5 feet tall, but his shoulder height is 20% less than his full height.  If Barry stands on Larry's shoulders, how high can they reach?
+Answer: Larry's shoulder height is 20% less than 5 feet, or 0.2*5 =<<20*.01*5=1>>1 foot less than 5 feet.
+One foot less than 5 feet is 5-1=<<5-1=4>>4 feet.
+If Barry stands on Larry's shoulders, they can reach 4+5=<<4+5=9>>9 feet.
+#### 9
+Question: James has a small tree outside his window with 30 branches with 90 twigs per branch. 30% of the twigs sprout 4 leaves and the rest sprout 5 leaves. How many leaves are on the tree total?
+Answer: First find the total number of twigs on the tree: 30 branches * 90 twigs/branch = <<30*90=2700>>2700 twigs
+Then multiply that number by 30% to find how many twigs have 4 leaves: 2700 twigs * 30% = <<2700*30*.01=810>>810 twigs
+Then subtract that number from the total number of twigs to find how many have 5 leaves: 2700 twigs - 810 twigs = <<2700-810=1890>>1890 twigs
+Then multiply that number by 5 to find the number of leaves on the 5-leaved twigs: 1890 twigs * 5 leaves/twig = <<1890*5=9450>>9450 leaves
+Then multiply the number of 4-leaved twigs by 4 to find the total number of leaves they have: 810 twigs * 4 leaves/twig = <<810*4=3240>>3240 leaves
+Then add the two groups of leaves to find the total number of leaves: 9450 leaves + 3240 leaves = <<9450+3240=12690>>12690 leaves
+#### 12690
+Question: Larry and Barry want to pick apples out of the tree, but neither is tall enough to reach the apples.  Barry can reach apples that are 5 feet high.  Larry is 5 feet tall, but his shoulder height is 20% less than his full height.  If Barry stands on Larry's shoulders, how high can they reach?
+Answer: Larry's shoulder height is 20% less than 5 feet, or 0.2*5 =<<20*.01*5=1>>1 foot less than 5 feet.
+One foot less than 5 feet is 5-1=<<5-1=4>>4 feet.
+If Barry stands on Larry's shoulders, they can reach 4+5=<<4+5=9>>9 feet.
+#### 9
+Question: In a room, there are various toys: 5 red cars, 3 action figures, and a doll. The doll cost as much as 3 action figures and one red car cost $4. How much are all toys worth, of an action figure costs $5?","Answer: The doll cost as much as 3 action figures, so it cost 3 * $5 = $15.
+One red car cost $4, so 5 red cars cost 5 * $4 = $20.
+In total, 5 red cars cost $20, 3 action figures cost 3 * $5 = $15, and the doll cost $15, so all toys are worth $20 + $15 + $15 = $50.","Three actions figures are worth 3 * 5 = $<<3*5=15>>15, as much as the doll.
+The red cars are worth 5 * 4 = $<<5*4=20>>20.
+So all toys are worth 20 + 15 + 15 = $<<20+15+15=50>>50.
+#### 50"
+Math,3b,"Question: Jose bought 20,000 square meters of land and needs to divide it equally with his four siblings. How much land, in the square meters, will Jose have after dividing it with his siblings?
+Answer: The land will be divided into 1 (Jose) + 4 siblings = <<1+4=5>>5 pieces.
+So, Jose will have 20,000/5 = <<20000/5=4000>>4000 square meters of land.
+#### 4000
+Question: A building has 10 floors. It takes 15 seconds to go up the stairs to the even-numbered floors and 9 seconds to go up to the odd-numbered floors.  This includes getting to the first floor. How many minutes does it take to get to the 10th floor?
+Answer: So for all even-numbered floors (2, 4, 6, 8, 10), it takes 5*15= <<5*15=75>>75 seconds
+And for all odd-numbered floors (1, 3, 5, 7, 9) it takes 5*9= <<5*9=45>>45 seconds
+To climb all the floors, it takes 75+45= <<75+45=120>>120 seconds
+So it takes 120/60=<<120/60=2>>2 minutes to get to the 10th floor
+#### 2
+Question: Jose bought 20,000 square meters of land and needs to divide it equally with his four siblings. How much land, in the square meters, will Jose have after dividing it with his siblings?
+Answer: The land will be divided into 1 (Jose) + 4 siblings = <<1+4=5>>5 pieces.
+So, Jose will have 20,000/5 = <<20000/5=4000>>4000 square meters of land.
+#### 4000
+Question: A building has 10 floors. It takes 15 seconds to go up the stairs to the even-numbered floors and 9 seconds to go up to the odd-numbered floors.  This includes getting to the first floor. How many minutes does it take to get to the 10th floor?
+Answer: So for all even-numbered floors (2, 4, 6, 8, 10), it takes 5*15= <<5*15=75>>75 seconds
+And for all odd-numbered floors (1, 3, 5, 7, 9) it takes 5*9= <<5*9=45>>45 seconds
+To climb all the floors, it takes 75+45= <<75+45=120>>120 seconds
+So it takes 120/60=<<120/60=2>>2 minutes to get to the 10th floor
+#### 2
+Question: In a room, there are various toys: 5 red cars, 3 action figures, and a doll. The doll cost as much as 3 action figures and one red car cost $4. How much are all toys worth, of an action figure costs $5?","First, let's determine the total cost of the red cars. Since each red car costs $4 and there are 5 red cars, the total cost of the red cars is 5 * $4 = $20.
+
+Next, let's determine the total cost of the action figures. Since each action figure costs $5 and there are 3 action figures, the total cost of the action figures is 3 * $5 = $15.
+
+Now, let's determine the cost of the doll. Since the doll cost as much as 3 action figures, it costs 3 * $5 = $15.
+
+Finally, to find the total cost of all toys, we add the cost of the red cars, action figures, and doll: $20 + $15 + $15 = $50.
+
+Therefore, all the toys are worth $50.","Three actions figures are worth 3 * 5 = $<<3*5=15>>15, as much as the doll.
+The red cars are worth 5 * 4 = $<<5*4=20>>20.
+So all toys are worth 20 + 15 + 15 = $<<20+15+15=50>>50.
+#### 50"
+CSQA,1a,"Question: The beach had a pathway for riding bike, peacefully cruising along brought many what?
+A: enjoyment
+B: pleasure
+C: falling down
+D: anger
+E: get somewhere
+Answer: B
+Question: Bobby worked in a kosher deli, but all delis were kosher where he lived.   Where might he live?
+A: germany
+B: jerusalem
+C: town
+D: new york city
+E: food court
+Answer: B
+Question: What is the only was to recover from exhaustion?
+A: mediate
+B: have rest
+C: stay in bed
+D: run out of steam
+E: go to sleep",Answer: B,B
+CSQA,1a,"Question: The person wanted to share his knowledge, so what did he do?
+A: show emotion
+B: teach another
+C: work for free
+D: jaywalk
+E: thank god
+Answer: B
+Question: When james was climbing he experiences a couple of symptoms.  The most painful and long lasting was on his hands.   What  might have happened to him?
+A: calluses
+B: loss of oxygen
+C: vertigo
+D: ascending
+E: blisters
 Answer: E
-Q: What is eating too much dinner likely to result in?
-A: tiredness
-B: living longer
-C: stomach ache
-D: illness
-E: acid reflux",Answer: C,C
-CSQA,1a,"Question: What is happening if someone is snoring?
-A: death
-B: sleep disorders
-C: loud noise
-D: howling
-E: complaining
-Answer: C
-Question: Where would a sofabed be used only for guests?
-A: sitting room
-B: living room
-C: basement
-D: dinning roam
-E: spare room
+Question: What is the only was to recover from exhaustion?
+A: mediate
+B: have rest
+C: stay in bed
+D: run out of steam
+E: go to sleep",Answer: B,B
+CSQA,2,"Question: The beach had a pathway for riding bike, peacefully cruising along brought many what?
+A: enjoyment
+B: pleasure
+C: falling down
+D: anger
+E: get somewhere
+Answer: B
+Question: Bobby worked in a kosher deli, but all delis were kosher where he lived.   Where might he live?
+A: germany
+B: jerusalem
+C: town
+D: new york city
+E: food court
+Answer: B
+Question: The person wanted to share his knowledge, so what did he do?
+A: show emotion
+B: teach another
+C: work for free
+D: jaywalk
+E: thank god
+Answer: B
+Question: When james was climbing he experiences a couple of symptoms.  The most painful and long lasting was on his hands.   What  might have happened to him?
+A: calluses
+B: loss of oxygen
+C: vertigo
+D: ascending
+E: blisters
 Answer: E
-Q: What is eating too much dinner likely to result in?
-A: tiredness
-B: living longer
-C: stomach ache
-D: illness
-E: acid reflux",Answer: C,C
-CSQA,2,"Question: What is it called when you spend time with friends and acquaintances?
-A: socialize
-B: tell story
-C: go somewhere
-D: wedding
-E: clean room
-Answer: A
-Question: What midwestern area is likely to have a marmot running free?
-A: zoo
-B: encyclopedia
-C: jungle
-D: countryside
-E: great plains
+Question: What is the only was to recover from exhaustion?
+A: mediate
+B: have rest
+C: stay in bed
+D: run out of steam
+E: go to sleep",Answer: B,B
+CSQA,3a,"Question: The beach had a pathway for riding bike, peacefully cruising along brought many what?
+A: enjoyment
+B: pleasure
+C: falling down
+D: anger
+E: get somewhere
+Answer: B
+Question: Bobby worked in a kosher deli, but all delis were kosher where he lived.   Where might he live?
+A: germany
+B: jerusalem
+C: town
+D: new york city
+E: food court
+Answer: B
+Question: The beach had a pathway for riding bike, peacefully cruising along brought many what?
+A: enjoyment
+B: pleasure
+C: falling down
+D: anger
+E: get somewhere
+Answer: B
+Question: Bobby worked in a kosher deli, but all delis were kosher where he lived.   Where might he live?
+A: germany
+B: jerusalem
+C: town
+D: new york city
+E: food court
+Answer: B
+Question: What is the only was to recover from exhaustion?
+A: mediate
+B: have rest
+C: stay in bed
+D: run out of steam
+E: go to sleep",Answer: B,B
+CSQA,3b,"Question: The person wanted to share his knowledge, so what did he do?
+A: show emotion
+B: teach another
+C: work for free
+D: jaywalk
+E: thank god
+Answer: B
+Question: When james was climbing he experiences a couple of symptoms.  The most painful and long lasting was on his hands.   What  might have happened to him?
+A: calluses
+B: loss of oxygen
+C: vertigo
+D: ascending
+E: blisters
 Answer: E
-Question: What is happening if someone is snoring?
-A: death
-B: sleep disorders
-C: loud noise
-D: howling
-E: complaining
-Answer: C
-Question: Where would a sofabed be used only for guests?
-A: sitting room
-B: living room
-C: basement
-D: dinning roam
-E: spare room
+Question: The person wanted to share his knowledge, so what did he do?
+A: show emotion
+B: teach another
+C: work for free
+D: jaywalk
+E: thank god
+Answer: B
+Question: When james was climbing he experiences a couple of symptoms.  The most painful and long lasting was on his hands.   What  might have happened to him?
+A: calluses
+B: loss of oxygen
+C: vertigo
+D: ascending
+E: blisters
 Answer: E
-Q: What is eating too much dinner likely to result in?
-A: tiredness
-B: living longer
-C: stomach ache
-D: illness
-E: acid reflux",A: tiredness,C
-CSQA,3a,"Question: What is it called when you spend time with friends and acquaintances?
-A: socialize
-B: tell story
-C: go somewhere
-D: wedding
-E: clean room
-Answer: A
-Question: What midwestern area is likely to have a marmot running free?
-A: zoo
-B: encyclopedia
-C: jungle
-D: countryside
-E: great plains
-Answer: E
-Question: What is it called when you spend time with friends and acquaintances?
-A: socialize
-B: tell story
-C: go somewhere
-D: wedding
-E: clean room
-Answer: A
-Question: What midwestern area is likely to have a marmot running free?
-A: zoo
-B: encyclopedia
-C: jungle
-D: countryside
-E: great plains
-Answer: E
-Q: What is eating too much dinner likely to result in?
-A: tiredness
-B: living longer
-C: stomach ache
-D: illness
-E: acid reflux",A: stomach ache,C
-CSQA,3b,"Question: What is happening if someone is snoring?
-A: death
-B: sleep disorders
-C: loud noise
-D: howling
-E: complaining
-Answer: C
-Question: Where would a sofabed be used only for guests?
-A: sitting room
-B: living room
-C: basement
-D: dinning roam
-E: spare room
-Answer: E
-Question: What is happening if someone is snoring?
-A: death
-B: sleep disorders
-C: loud noise
-D: howling
-E: complaining
-Answer: C
-Question: Where would a sofabed be used only for guests?
-A: sitting room
-B: living room
-C: basement
-D: dinning roam
-E: spare room
-Answer: E
-Q: What is eating too much dinner likely to result in?
-A: tiredness
-B: living longer
-C: stomach ache
-D: illness
-E: acid reflux",A: stomach ache,C
-StrategyQA,1a,"Question: Superbad features two main characters that are nerds on a quest for love, and ends with them being victorious. The Social Network is a film about a University Nerd who took his website global and became one of the most powerful people in the world.
-Do movies always show nerds as the losers?
-Answer: False
-Question: Northwest Airlines lasted 84 years from 1926-2010. Betty White is 98 years old as of 2020.
-Did Northwest Airlines' longevity surpass Betty White?
-Answer: False
-Q: Actuaries must go through college and rigorous studies in mathematics to obtain their jobs. Prime numbers are introduced in basic high school mathematics. 
-Would an actuary be confused about what prime numbers are?",A: False,False
-StrategyQA,1a,"Question: The James Webb Space Telescope is the most powerful telescope created. Krypton is a planet in the fictional Superman comic book series.
-Does James Webb Space Telescope fail astronomer in locating planet Krypton?
+Question: What is the only was to recover from exhaustion?
+A: mediate
+B: have rest
+C: stay in bed
+D: run out of steam
+E: go to sleep",Answer: B,B
+StrategyQA,1a,"Question: The Four Mothers Society or Four Mothers Nation is a religious, political, and traditionalist organization of Muscogee Creek, Cherokee, Choctaw and Chickasaw people. The Four Mothers Society sent a delegation to Congress in 1906 to oppose the Curtis Act and the Dawes Act. With the passage of the Curtis Act in 1898 and Dawes Act, allotment became US policy and the various tribal governments were forced to allot land.
+Did the Cherokee people send a delegation to oppose allotment?
 Answer: True
-Question: Gray whales measure 4.9 m (16 ft) in length for newborns. A semi-trailer is 48 feet long.
-Would a baby gray whale fit in a tractor-trailer?
+Question: Sound travels through the vibration of atoms and molecules in a medium (such as air or water).  There is air in the international space station. 
+Would the Who concert in international space station be audible?
 Answer: True
-Q: Actuaries must go through college and rigorous studies in mathematics to obtain their jobs. Prime numbers are introduced in basic high school mathematics. 
-Would an actuary be confused about what prime numbers are?",A: False,False
-StrategyQA,2,"Question: Superbad features two main characters that are nerds on a quest for love, and ends with them being victorious. The Social Network is a film about a University Nerd who took his website global and became one of the most powerful people in the world.
-Do movies always show nerds as the losers?
+Question: The digits of Pi are infinite.  The human mind cannot hold an infinite amount of information.
+Can every digit in Pi be memorized?",Answer: False,False
+StrategyQA,1a,"Question: The game of Bandy includes 11 players on each team. Reality star Kate Gosselin has eight children.
+Can Kate Gosselin's household fill out a Bandy team?
 Answer: False
-Question: Northwest Airlines lasted 84 years from 1926-2010. Betty White is 98 years old as of 2020.
-Did Northwest Airlines' longevity surpass Betty White?
+Question: The Andes includes high, dry zones without precipitation. Dry climates do not impede mummification. Many mummies have been found in the Andes.
+Has mummification in the Andes been prevented by rainfall?
 Answer: False
-Question: The James Webb Space Telescope is the most powerful telescope created. Krypton is a planet in the fictional Superman comic book series.
-Does James Webb Space Telescope fail astronomer in locating planet Krypton?
+Question: The digits of Pi are infinite.  The human mind cannot hold an infinite amount of information.
+Can every digit in Pi be memorized?",Answer: True,False
+StrategyQA,2,"Question: The Four Mothers Society or Four Mothers Nation is a religious, political, and traditionalist organization of Muscogee Creek, Cherokee, Choctaw and Chickasaw people. The Four Mothers Society sent a delegation to Congress in 1906 to oppose the Curtis Act and the Dawes Act. With the passage of the Curtis Act in 1898 and Dawes Act, allotment became US policy and the various tribal governments were forced to allot land.
+Did the Cherokee people send a delegation to oppose allotment?
 Answer: True
-Question: Gray whales measure 4.9 m (16 ft) in length for newborns. A semi-trailer is 48 feet long.
-Would a baby gray whale fit in a tractor-trailer?
+Question: Sound travels through the vibration of atoms and molecules in a medium (such as air or water).  There is air in the international space station. 
+Would the Who concert in international space station be audible?
 Answer: True
-Q: Actuaries must go through college and rigorous studies in mathematics to obtain their jobs. Prime numbers are introduced in basic high school mathematics. 
-Would an actuary be confused about what prime numbers are?",False,False
-StrategyQA,3a,"Question: Superbad features two main characters that are nerds on a quest for love, and ends with them being victorious. The Social Network is a film about a University Nerd who took his website global and became one of the most powerful people in the world.
-Do movies always show nerds as the losers?
+Question: The game of Bandy includes 11 players on each team. Reality star Kate Gosselin has eight children.
+Can Kate Gosselin's household fill out a Bandy team?
 Answer: False
-Question: Northwest Airlines lasted 84 years from 1926-2010. Betty White is 98 years old as of 2020.
-Did Northwest Airlines' longevity surpass Betty White?
+Question: The Andes includes high, dry zones without precipitation. Dry climates do not impede mummification. Many mummies have been found in the Andes.
+Has mummification in the Andes been prevented by rainfall?
 Answer: False
-Question: Superbad features two main characters that are nerds on a quest for love, and ends with them being victorious. The Social Network is a film about a University Nerd who took his website global and became one of the most powerful people in the world.
-Do movies always show nerds as the losers?
+Question: The digits of Pi are infinite.  The human mind cannot hold an infinite amount of information.
+Can every digit in Pi be memorized?",False,False
+StrategyQA,3a,"Question: The Four Mothers Society or Four Mothers Nation is a religious, political, and traditionalist organization of Muscogee Creek, Cherokee, Choctaw and Chickasaw people. The Four Mothers Society sent a delegation to Congress in 1906 to oppose the Curtis Act and the Dawes Act. With the passage of the Curtis Act in 1898 and Dawes Act, allotment became US policy and the various tribal governments were forced to allot land.
+Did the Cherokee people send a delegation to oppose allotment?
+Answer: True
+Question: Sound travels through the vibration of atoms and molecules in a medium (such as air or water).  There is air in the international space station. 
+Would the Who concert in international space station be audible?
+Answer: True
+Question: The Four Mothers Society or Four Mothers Nation is a religious, political, and traditionalist organization of Muscogee Creek, Cherokee, Choctaw and Chickasaw people. The Four Mothers Society sent a delegation to Congress in 1906 to oppose the Curtis Act and the Dawes Act. With the passage of the Curtis Act in 1898 and Dawes Act, allotment became US policy and the various tribal governments were forced to allot land.
+Did the Cherokee people send a delegation to oppose allotment?
+Answer: True
+Question: Sound travels through the vibration of atoms and molecules in a medium (such as air or water).  There is air in the international space station. 
+Would the Who concert in international space station be audible?
+Answer: True
+Question: The digits of Pi are infinite.  The human mind cannot hold an infinite amount of information.
+Can every digit in Pi be memorized?",Answer: False,False
+StrategyQA,3b,"Question: The game of Bandy includes 11 players on each team. Reality star Kate Gosselin has eight children.
+Can Kate Gosselin's household fill out a Bandy team?
 Answer: False
-Question: Northwest Airlines lasted 84 years from 1926-2010. Betty White is 98 years old as of 2020.
-Did Northwest Airlines' longevity surpass Betty White?
+Question: The Andes includes high, dry zones without precipitation. Dry climates do not impede mummification. Many mummies have been found in the Andes.
+Has mummification in the Andes been prevented by rainfall?
 Answer: False
-Q: Actuaries must go through college and rigorous studies in mathematics to obtain their jobs. Prime numbers are introduced in basic high school mathematics. 
-Would an actuary be confused about what prime numbers are?","A: False. Actuaries, who have studied mathematics extensively, would not be confused about what prime numbers are.",False
-StrategyQA,3b,"Question: The James Webb Space Telescope is the most powerful telescope created. Krypton is a planet in the fictional Superman comic book series.
-Does James Webb Space Telescope fail astronomer in locating planet Krypton?
-Answer: True
-Question: Gray whales measure 4.9 m (16 ft) in length for newborns. A semi-trailer is 48 feet long.
-Would a baby gray whale fit in a tractor-trailer?
-Answer: True
-Question: The James Webb Space Telescope is the most powerful telescope created. Krypton is a planet in the fictional Superman comic book series.
-Does James Webb Space Telescope fail astronomer in locating planet Krypton?
-Answer: True
-Question: Gray whales measure 4.9 m (16 ft) in length for newborns. A semi-trailer is 48 feet long.
-Would a baby gray whale fit in a tractor-trailer?
-Answer: True
-Q: Actuaries must go through college and rigorous studies in mathematics to obtain their jobs. Prime numbers are introduced in basic high school mathematics. 
-Would an actuary be confused about what prime numbers are?",A: False,False
-SayCan,1a,"Question: Can you bring me something salty?
-Answer: 1. find a sea salt chips, 2. pick up the sea salt chips, 3. bring it to you, 4. put down the sea salt chips, 5. done.
-Question: How would you restock chips in the drawer?
-Answer: 1. find the bag of chips, 2. pick up the bag of chips, 3. go to the drawer, 4. put down the bag of chips, 5. open the drawer, 6. pick up the bag of chips, 7. put down the bag of chips, 8. close the drawer, 9. done
-Q: How would you move the chips bag from the table to the counter?","A: 1. Pick up the bag of chips, 2. walk to the counter, 3. put down the bag of chips on the counter, 4. done.","1. find the bag of chips, 2. pick up the bag of chips, 3. go to the counter, 4. put down the bag of chips, 5. done"
-SayCan,1a,"Question: Can you bring me something salty?
-Answer: 1. find the sea salt chips, 2. pick up the sea salt chips, 3. bring it to you, 4. put down the sea salt chips, 5. done
-Question: Can you bring me something spicy?
-Answer: 1. find a jalapeno chips, 2. pick up the jalapeno chips, 3. bring it to you, 4. put down the jalapeno chips, 5. done.
-Q: How would you move the chips bag from the table to the counter?","A: 1. Pick up the chips bag, 2. Carry the bag to the counter, 3. Place the bag on the counter, 4. Done.","1. find the bag of chips, 2. pick up the bag of chips, 3. go to the counter, 4. put down the bag of chips, 5. done"
-SayCan,2,"Question: Can you bring me something salty?
-Answer: 1. find a sea salt chips, 2. pick up the sea salt chips, 3. bring it to you, 4. put down the sea salt chips, 5. done.
-Question: How would you restock chips in the drawer?
-Answer: 1. find the bag of chips, 2. pick up the bag of chips, 3. go to the drawer, 4. put down the bag of chips, 5. open the drawer, 6. pick up the bag of chips, 7. put down the bag of chips, 8. close the drawer, 9. done
-Question: Can you bring me something salty?
-Answer: 1. find the sea salt chips, 2. pick up the sea salt chips, 3. bring it to you, 4. put down the sea salt chips, 5. done
-Question: Can you bring me something spicy?
-Answer: 1. find a jalapeno chips, 2. pick up the jalapeno chips, 3. bring it to you, 4. put down the jalapeno chips, 5. done.
-Q: How would you move the chips bag from the table to the counter?","A: 1. Pick up the chips bag, 2. Walk to the counter, 3. Put down the chips bag on the counter, 4. Done.","1. find the bag of chips, 2. pick up the bag of chips, 3. go to the counter, 4. put down the bag of chips, 5. done"
-SayCan,3a,"Question: Can you bring me something salty?
-Answer: 1. find a sea salt chips, 2. pick up the sea salt chips, 3. bring it to you, 4. put down the sea salt chips, 5. done.
-Question: How would you restock chips in the drawer?
-Answer: 1. find the bag of chips, 2. pick up the bag of chips, 3. go to the drawer, 4. put down the bag of chips, 5. open the drawer, 6. pick up the bag of chips, 7. put down the bag of chips, 8. close the drawer, 9. done
-Question: Can you bring me something salty?
-Answer: 1. find a sea salt chips, 2. pick up the sea salt chips, 3. bring it to you, 4. put down the sea salt chips, 5. done.
-Question: How would you restock chips in the drawer?
-Answer: 1. find the bag of chips, 2. pick up the bag of chips, 3. go to the drawer, 4. put down the bag of chips, 5. open the drawer, 6. pick up the bag of chips, 7. put down the bag of chips, 8. close the drawer, 9. done
-Q: How would you move the chips bag from the table to the counter?","A: 1. Pick up the bag of chips, 2. walk over to the counter, 3. place the bag of chips on the counter, 4. done.","1. find the bag of chips, 2. pick up the bag of chips, 3. go to the counter, 4. put down the bag of chips, 5. done"
-SayCan,3b,"Question: Can you bring me something salty?
-Answer: 1. find the sea salt chips, 2. pick up the sea salt chips, 3. bring it to you, 4. put down the sea salt chips, 5. done
-Question: Can you bring me something spicy?
-Answer: 1. find a jalapeno chips, 2. pick up the jalapeno chips, 3. bring it to you, 4. put down the jalapeno chips, 5. done.
-Question: Can you bring me something salty?
-Answer: 1. find the sea salt chips, 2. pick up the sea salt chips, 3. bring it to you, 4. put down the sea salt chips, 5. done
-Question: Can you bring me something spicy?
-Answer: 1. find a jalapeno chips, 2. pick up the jalapeno chips, 3. bring it to you, 4. put down the jalapeno chips, 5. done.
-Q: How would you move the chips bag from the table to the counter?","A: 1. Pick up the chips bag, 2. Carry it to the counter, 3. Place the chips bag on the counter.","1. find the bag of chips, 2. pick up the bag of chips, 3. go to the counter, 4. put down the bag of chips, 5. done"
+Question: The game of Bandy includes 11 players on each team. Reality star Kate Gosselin has eight children.
+Can Kate Gosselin's household fill out a Bandy team?
+Answer: False
+Question: The Andes includes high, dry zones without precipitation. Dry climates do not impede mummification. Many mummies have been found in the Andes.
+Has mummification in the Andes been prevented by rainfall?
+Answer: False
+Question: The digits of Pi are infinite.  The human mind cannot hold an infinite amount of information.
+Can every digit in Pi be memorized?",Answer: True,False
+SayCan,1a,"Question: Could you get me a drink with caffeine?
+Answer: 1. find a coke, 2. pick up the coke, 3. bring it to you, 4. put down the coke, 5. done.
+Question: How would you throw away the apple?
+Answer: 1. find an apple, 2. pick up the apple, 3. go to the trash, 4. put down the apple, 5. done
+Question: Visit the counter and the table in the kitchen.","Answer: 1. Walk to the kitchen, 2. go to the counter, 3. inspect the counter, 4. walk to the table, 5. examine the table, 6. done.","1. go to the counter, 2. go to the table, 3. done"
+SayCan,1a,"Question: Navigate to the table.
+Answer: 1. go to the table, 2. done
+Question: Restock the rice chips on the counter
+Answer: 1. find the rice chips, 2. pick up the rice chips, 3. go to the counter, 4. put down the rice chips, 5. done.
+Question: Visit the counter and the table in the kitchen.","Answer: 1. go to the kitchen, 2. visit the counter, 3. visit the table, 4. done.","1. go to the counter, 2. go to the table, 3. done"
+SayCan,2,"Question: Could you get me a drink with caffeine?
+Answer: 1. find a coke, 2. pick up the coke, 3. bring it to you, 4. put down the coke, 5. done.
+Question: How would you throw away the apple?
+Answer: 1. find an apple, 2. pick up the apple, 3. go to the trash, 4. put down the apple, 5. done
+Question: Navigate to the table.
+Answer: 1. go to the table, 2. done
+Question: Restock the rice chips on the counter
+Answer: 1. find the rice chips, 2. pick up the rice chips, 3. go to the counter, 4. put down the rice chips, 5. done.
+Question: Visit the counter and the table in the kitchen.","Answer: 1. go to the counter in the kitchen, 2. go to the table in the kitchen, 3. done.","1. go to the counter, 2. go to the table, 3. done"
+SayCan,3a,"Question: Could you get me a drink with caffeine?
+Answer: 1. find a coke, 2. pick up the coke, 3. bring it to you, 4. put down the coke, 5. done.
+Question: How would you throw away the apple?
+Answer: 1. find an apple, 2. pick up the apple, 3. go to the trash, 4. put down the apple, 5. done
+Question: Could you get me a drink with caffeine?
+Answer: 1. find a coke, 2. pick up the coke, 3. bring it to you, 4. put down the coke, 5. done.
+Question: How would you throw away the apple?
+Answer: 1. find an apple, 2. pick up the apple, 3. go to the trash, 4. put down the apple, 5. done
+Question: Visit the counter and the table in the kitchen.","Answer: 1. Walk to the kitchen, 2. Go to the counter, 3. Go to the table, 4. done.","1. go to the counter, 2. go to the table, 3. done"
+SayCan,3b,"Question: Navigate to the table.
+Answer: 1. go to the table, 2. done
+Question: Restock the rice chips on the counter
+Answer: 1. find the rice chips, 2. pick up the rice chips, 3. go to the counter, 4. put down the rice chips, 5. done.
+Question: Navigate to the table.
+Answer: 1. go to the table, 2. done
+Question: Restock the rice chips on the counter
+Answer: 1. find the rice chips, 2. pick up the rice chips, 3. go to the counter, 4. put down the rice chips, 5. done.
+Question: Visit the counter and the table in the kitchen.","Answer: 1. Go to the kitchen, 2. Visit the counter, 3. Visit the table, 4. Done.","1. go to the counter, 2. go to the table, 3. done"

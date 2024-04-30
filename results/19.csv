@@ -1,425 +1,352 @@
 Task Class,Case,Prompt,Response,Expected
-Math,1a,"Question: Jake and Penny are hunting snakes. Jake's snake is 12 inches longer than Jenny's snake. If the two snakes have a combined length of 70 inches, how long is Jake's snake?
-Answer: Let j be the length of Jake's snake and p be length of Penny's snake. We know that j + p = 70, and j = p + 12.
-We can substitute the second equation into the first equation to get p + 12 + p = 70
-Combining like terms, we get 2p + 12 = 70
-Subtracting 12 from both sides, we get 2p = 58
-Dividing both sides by 2, we get p = 58 / 2 = <<58/2=29>>29 inches. Penny's snake is 29 inches.
-Substituting that length in to the equation j = p + 12, we get j = 29 inches + 12 inches = <<29+12=41>>41 inches
-#### 41
-Question: Carly is a pet groomer. Today, her task was trimming the four nails on dogs’ paws. She trimmed 164 nails, but three of the dogs had only three legs. How many dogs did Carly work on?
-Answer: Let N be the number of dogs with 4 legs Carly worked on.
-All the dogs with 4 legs had 4N paws.
-There were 3 * 3 = <<3*3=9>>9 paws on dogs with 3 legs.
-At 4 nails per paw, she trimmed 164 / 4 = <<164/4=41>>41 paws.
-She worked on 4N + 9 = 41 paws.
-Thus, she worked on 4N = 32 paws on dogs with 4 legs.
-She worked on N = 32 / 4 = <<32/4=8>>8 dogs with 4 legs.
-Thus, Carly worked on 8 + 3 = <<8+3=11>>11 dogs.
+Math,1a,"Question: Kevin is a fruit vendor. He always sells a total of 50 crates of fruit per week. Last week he sold 13 crates of grapes, 20 crates of mangoes, and the rest were passion fruits. How many passion fruit crates did he sell?
+Answer: Between grapes and mangoes, we have 13+20 =<<13+20=33>>33 crates.
+The remaining crates are passion fruits, so we have 50-33=<<50-33=17>>17 crates of passion fruit
+#### 17
+Question: Willy has 10 stuffed animals. His mom gives him 2 more stuffed animals for his birthday. After his birthday, if his dad gives him 3 times more stuffed animals than he has, how many stuffed animals does Willy have in total?
+Answer: After his mom gives him stuffed animals, Willy has 10 + 2 = <<10+2=12>>12 stuffed animals
+His dad gives him 12 * 3 = <<12*3=36>>36 stuffed animals
+In total, Willy has 12 + 36 = <<12+36=48>>48 stuffed animals
+#### 48
+Question: Timothy's locker is 24 cubic inches. Zack's locker is half as big as Timothy's locker. Peter's locker is 1/4 as big as Zack's locker. How big is Peter's locker in cubic inches?","Answer: Zack's locker is 24 / 2 = <<24/2=12>>12 cubic inches.
+Peter's locker is 12 / 4 = <<12/4=3>>3 cubic inches.
+#### 3","Zack's locker is 24/2=<<24/2=12>>12 cubic inches.
+Peter's locker is 12/4=<<12/4=3>>3 cubic inches.
+#### 3"
+Math,1a,"Question: Peggy fell off her bike and skinned her knees.  She needed two bandages on her left knee and three bandages on her right knee.  If the box of bandages had 8 less than two dozen bandages before Peggy skinned her knees, how many bandages were left in the box after Peggy finished putting bandages on her knees?
+Answer: Two dozen is 12*2=<<12*2=24>>24.
+Eight less than two dozen bandages is 24-8=<<24-8=16>>16 bandages.
+She needed two bandages on her left knee and three bandages on her right knee for a total of 2+3=<<2+3=5>>5 bandages.
+Therefore, after Peggy finished putting bandages on her knees there were 16-5=<<16-5=11>>11 bandages remaining in the box.
 #### 11
-Q: Bethany can run 10 laps on the track in one hour.  Trey can run 4 more laps than Bethany.  Shaelyn can run half as many laps as Trey.  Quinn can run 2 fewer laps than Shaelyn.  How many more laps can Bethany run compared to Quinn?","Let's first determine how many laps each person can run:
-- Bethany: 10 laps
-- Trey: 10 laps + 4 laps = 14 laps
-- Shaelyn: 14 laps / 2 = 7 laps
-- Quinn: 7 laps - 2 laps = 5 laps
-
-Now, let's calculate the difference between the number of laps Bethany can run compared to Quinn:
-Bethany - Quinn = 10 laps - 5 laps = 5 laps
-
-Therefore, Bethany can run 5 more laps than Quinn.","Trey can run 10 + 4 = <<10+4=14>>14 laps in one hour.
-Shaelyn can run 14 / 2 = <<14/2=7>>7 laps in one hour.
-Quinn can run 7 - 2 = <<7-2=5>>5 laps.
-Bethany can run 10 - 5 = <<10-5=5>>5 more laps compared to Quinn.
-#### 5"
-Math,1a,"Question: Hattie and her friend Lorelei are doing a jumping contest using a jumping rope. Hattie does 180 jumps in the first round, while Lorelei jumps 3/4 as many times as Hattie jumped. In the second round, Lorelei does 50 more jumps than Hattie. If Hattie managed to jump 2/3 times the number of jumps she did in the first round, calculate the total number of jumps the two did in the two rounds.
-Answer: In the first round, Lorelei did 3/4 * 180 jumps = <<3/4*180=135>>135 jumps.
-In the second round, Hattie did 2/3 * 180 jumps = <<2/3*180=120>>120 jumps, while
-Lorelei did 120 jumps + 50 jumps = <<120+50=170>>170 jumps.
-The total number of jumps for the two in both rounds is 170 jumps + 120 jumps + 135 jumps + 180 jumps = <<170+120+135+180=605>>605 jumps
-#### 605
-Question: 4.5 gallons of coffee were divided among 18 thermoses. Genevieve drank 3 thermoses. How many pints of coffee did Genevieve drink?
-Answer: 4.5 gallons = 4.5 * 8 pints = <<4.5*8=36>>36 pints
-36/18 = <<36/18=2>>2 pints
-Genevieve drank 2*3=<<2*3=6>>6 pints of coffee.
-#### 6
-Q: Bethany can run 10 laps on the track in one hour.  Trey can run 4 more laps than Bethany.  Shaelyn can run half as many laps as Trey.  Quinn can run 2 fewer laps than Shaelyn.  How many more laps can Bethany run compared to Quinn?","A: Trey can run 10 + 4 = 14 laps.
-Shaelyn can run 14 / 2 = 7 laps.
-Quinn can run 7 - 2 = 5 laps.
-Bethany can run 10 - 5 = 5 more laps than Quinn.
-Therefore, Bethany can run 5 more laps than Quinn.","Trey can run 10 + 4 = <<10+4=14>>14 laps in one hour.
-Shaelyn can run 14 / 2 = <<14/2=7>>7 laps in one hour.
-Quinn can run 7 - 2 = <<7-2=5>>5 laps.
-Bethany can run 10 - 5 = <<10-5=5>>5 more laps compared to Quinn.
-#### 5"
-Math,2,"Question: Jake and Penny are hunting snakes. Jake's snake is 12 inches longer than Jenny's snake. If the two snakes have a combined length of 70 inches, how long is Jake's snake?
-Answer: Let j be the length of Jake's snake and p be length of Penny's snake. We know that j + p = 70, and j = p + 12.
-We can substitute the second equation into the first equation to get p + 12 + p = 70
-Combining like terms, we get 2p + 12 = 70
-Subtracting 12 from both sides, we get 2p = 58
-Dividing both sides by 2, we get p = 58 / 2 = <<58/2=29>>29 inches. Penny's snake is 29 inches.
-Substituting that length in to the equation j = p + 12, we get j = 29 inches + 12 inches = <<29+12=41>>41 inches
-#### 41
-Question: Carly is a pet groomer. Today, her task was trimming the four nails on dogs’ paws. She trimmed 164 nails, but three of the dogs had only three legs. How many dogs did Carly work on?
-Answer: Let N be the number of dogs with 4 legs Carly worked on.
-All the dogs with 4 legs had 4N paws.
-There were 3 * 3 = <<3*3=9>>9 paws on dogs with 3 legs.
-At 4 nails per paw, she trimmed 164 / 4 = <<164/4=41>>41 paws.
-She worked on 4N + 9 = 41 paws.
-Thus, she worked on 4N = 32 paws on dogs with 4 legs.
-She worked on N = 32 / 4 = <<32/4=8>>8 dogs with 4 legs.
-Thus, Carly worked on 8 + 3 = <<8+3=11>>11 dogs.
+Question: Marnie makes bead bracelets. She bought 5 bags of 50 beads and 2 bags of 100 beads. If 50 beads are used to make one bracelet, how many bracelets will Marnie be able to make out of the beads she bought?
+Answer: Marnie bought 50 x 5 = <<50*5=250>>250 beads from the 5 bags of 50 beads.
+She also bought 100 x 2 = <<100*2=200>>200 beads from the 2 bags of 100 beads.
+She has a total of 250 + 200 = <<250+200=450>>450 beads.
+Hence, she will be able to make 450/50 = <<450/50=9>>9 bracelets.
+#### 9
+Question: Timothy's locker is 24 cubic inches. Zack's locker is half as big as Timothy's locker. Peter's locker is 1/4 as big as Zack's locker. How big is Peter's locker in cubic inches?","Answer: Zack's locker is 24/2 = <<24/2=12>>12 cubic inches.
+Peter's locker is 12/4 = <<12/4=3>>3 cubic inches.
+Therefore, Peter's locker is 3 cubic inches in size.","Zack's locker is 24/2=<<24/2=12>>12 cubic inches.
+Peter's locker is 12/4=<<12/4=3>>3 cubic inches.
+#### 3"
+Math,2,"Question: Kevin is a fruit vendor. He always sells a total of 50 crates of fruit per week. Last week he sold 13 crates of grapes, 20 crates of mangoes, and the rest were passion fruits. How many passion fruit crates did he sell?
+Answer: Between grapes and mangoes, we have 13+20 =<<13+20=33>>33 crates.
+The remaining crates are passion fruits, so we have 50-33=<<50-33=17>>17 crates of passion fruit
+#### 17
+Question: Willy has 10 stuffed animals. His mom gives him 2 more stuffed animals for his birthday. After his birthday, if his dad gives him 3 times more stuffed animals than he has, how many stuffed animals does Willy have in total?
+Answer: After his mom gives him stuffed animals, Willy has 10 + 2 = <<10+2=12>>12 stuffed animals
+His dad gives him 12 * 3 = <<12*3=36>>36 stuffed animals
+In total, Willy has 12 + 36 = <<12+36=48>>48 stuffed animals
+#### 48
+Question: Peggy fell off her bike and skinned her knees.  She needed two bandages on her left knee and three bandages on her right knee.  If the box of bandages had 8 less than two dozen bandages before Peggy skinned her knees, how many bandages were left in the box after Peggy finished putting bandages on her knees?
+Answer: Two dozen is 12*2=<<12*2=24>>24.
+Eight less than two dozen bandages is 24-8=<<24-8=16>>16 bandages.
+She needed two bandages on her left knee and three bandages on her right knee for a total of 2+3=<<2+3=5>>5 bandages.
+Therefore, after Peggy finished putting bandages on her knees there were 16-5=<<16-5=11>>11 bandages remaining in the box.
 #### 11
-Question: Hattie and her friend Lorelei are doing a jumping contest using a jumping rope. Hattie does 180 jumps in the first round, while Lorelei jumps 3/4 as many times as Hattie jumped. In the second round, Lorelei does 50 more jumps than Hattie. If Hattie managed to jump 2/3 times the number of jumps she did in the first round, calculate the total number of jumps the two did in the two rounds.
-Answer: In the first round, Lorelei did 3/4 * 180 jumps = <<3/4*180=135>>135 jumps.
-In the second round, Hattie did 2/3 * 180 jumps = <<2/3*180=120>>120 jumps, while
-Lorelei did 120 jumps + 50 jumps = <<120+50=170>>170 jumps.
-The total number of jumps for the two in both rounds is 170 jumps + 120 jumps + 135 jumps + 180 jumps = <<170+120+135+180=605>>605 jumps
-#### 605
-Question: 4.5 gallons of coffee were divided among 18 thermoses. Genevieve drank 3 thermoses. How many pints of coffee did Genevieve drink?
-Answer: 4.5 gallons = 4.5 * 8 pints = <<4.5*8=36>>36 pints
-36/18 = <<36/18=2>>2 pints
-Genevieve drank 2*3=<<2*3=6>>6 pints of coffee.
-#### 6
-Q: Bethany can run 10 laps on the track in one hour.  Trey can run 4 more laps than Bethany.  Shaelyn can run half as many laps as Trey.  Quinn can run 2 fewer laps than Shaelyn.  How many more laps can Bethany run compared to Quinn?","First, we need to calculate how many laps each person can run:
+Question: Marnie makes bead bracelets. She bought 5 bags of 50 beads and 2 bags of 100 beads. If 50 beads are used to make one bracelet, how many bracelets will Marnie be able to make out of the beads she bought?
+Answer: Marnie bought 50 x 5 = <<50*5=250>>250 beads from the 5 bags of 50 beads.
+She also bought 100 x 2 = <<100*2=200>>200 beads from the 2 bags of 100 beads.
+She has a total of 250 + 200 = <<250+200=450>>450 beads.
+Hence, she will be able to make 450/50 = <<450/50=9>>9 bracelets.
+#### 9
+Question: Timothy's locker is 24 cubic inches. Zack's locker is half as big as Timothy's locker. Peter's locker is 1/4 as big as Zack's locker. How big is Peter's locker in cubic inches?","Answer: Zack's locker is 24 / 2 = <<24/2=12>>12 cubic inches.
+Peter's locker is 12 / 4 = <<12/4=3>>3 cubic inches.
+Therefore, Peter's locker is 3 cubic inches.","Zack's locker is 24/2=<<24/2=12>>12 cubic inches.
+Peter's locker is 12/4=<<12/4=3>>3 cubic inches.
+#### 3"
+Math,3a,"Question: Kevin is a fruit vendor. He always sells a total of 50 crates of fruit per week. Last week he sold 13 crates of grapes, 20 crates of mangoes, and the rest were passion fruits. How many passion fruit crates did he sell?
+Answer: Between grapes and mangoes, we have 13+20 =<<13+20=33>>33 crates.
+The remaining crates are passion fruits, so we have 50-33=<<50-33=17>>17 crates of passion fruit
+#### 17
+Question: Willy has 10 stuffed animals. His mom gives him 2 more stuffed animals for his birthday. After his birthday, if his dad gives him 3 times more stuffed animals than he has, how many stuffed animals does Willy have in total?
+Answer: After his mom gives him stuffed animals, Willy has 10 + 2 = <<10+2=12>>12 stuffed animals
+His dad gives him 12 * 3 = <<12*3=36>>36 stuffed animals
+In total, Willy has 12 + 36 = <<12+36=48>>48 stuffed animals
+#### 48
+Question: Kevin is a fruit vendor. He always sells a total of 50 crates of fruit per week. Last week he sold 13 crates of grapes, 20 crates of mangoes, and the rest were passion fruits. How many passion fruit crates did he sell?
+Answer: Between grapes and mangoes, we have 13+20 =<<13+20=33>>33 crates.
+The remaining crates are passion fruits, so we have 50-33=<<50-33=17>>17 crates of passion fruit
+#### 17
+Question: Willy has 10 stuffed animals. His mom gives him 2 more stuffed animals for his birthday. After his birthday, if his dad gives him 3 times more stuffed animals than he has, how many stuffed animals does Willy have in total?
+Answer: After his mom gives him stuffed animals, Willy has 10 + 2 = <<10+2=12>>12 stuffed animals
+His dad gives him 12 * 3 = <<12*3=36>>36 stuffed animals
+In total, Willy has 12 + 36 = <<12+36=48>>48 stuffed animals
+#### 48
+Question: Timothy's locker is 24 cubic inches. Zack's locker is half as big as Timothy's locker. Peter's locker is 1/4 as big as Zack's locker. How big is Peter's locker in cubic inches?","To find the size of Peter's locker, we need to follow these steps:
 
-- Bethany: 10 laps
-- Trey: 10 + 4 = 14 laps
-- Shaelyn: 14 / 2 = 7 laps
-- Quinn: 7 - 2 = 5 laps
+1. Zack's locker is half as big as Timothy's locker, so Zack's locker is 24 / 2 = 12 cubic inches.
+2. Peter's locker is 1/4 as big as Zack's locker, so Peter's locker is 12 / 4 = <<12/4=3>>3 cubic inches.
 
-Now, we can calculate how many more laps Bethany can run compared to Quinn:
-
-Bethany - Quinn = 10 - 5 = 5 laps
-
-Therefore, Bethany can run 5 more laps than Quinn.","Trey can run 10 + 4 = <<10+4=14>>14 laps in one hour.
-Shaelyn can run 14 / 2 = <<14/2=7>>7 laps in one hour.
-Quinn can run 7 - 2 = <<7-2=5>>5 laps.
-Bethany can run 10 - 5 = <<10-5=5>>5 more laps compared to Quinn.
-#### 5"
-Math,3a,"Question: Jake and Penny are hunting snakes. Jake's snake is 12 inches longer than Jenny's snake. If the two snakes have a combined length of 70 inches, how long is Jake's snake?
-Answer: Let j be the length of Jake's snake and p be length of Penny's snake. We know that j + p = 70, and j = p + 12.
-We can substitute the second equation into the first equation to get p + 12 + p = 70
-Combining like terms, we get 2p + 12 = 70
-Subtracting 12 from both sides, we get 2p = 58
-Dividing both sides by 2, we get p = 58 / 2 = <<58/2=29>>29 inches. Penny's snake is 29 inches.
-Substituting that length in to the equation j = p + 12, we get j = 29 inches + 12 inches = <<29+12=41>>41 inches
-#### 41
-Question: Carly is a pet groomer. Today, her task was trimming the four nails on dogs’ paws. She trimmed 164 nails, but three of the dogs had only three legs. How many dogs did Carly work on?
-Answer: Let N be the number of dogs with 4 legs Carly worked on.
-All the dogs with 4 legs had 4N paws.
-There were 3 * 3 = <<3*3=9>>9 paws on dogs with 3 legs.
-At 4 nails per paw, she trimmed 164 / 4 = <<164/4=41>>41 paws.
-She worked on 4N + 9 = 41 paws.
-Thus, she worked on 4N = 32 paws on dogs with 4 legs.
-She worked on N = 32 / 4 = <<32/4=8>>8 dogs with 4 legs.
-Thus, Carly worked on 8 + 3 = <<8+3=11>>11 dogs.
+Therefore, Peter's locker is 3 cubic inches in size.","Zack's locker is 24/2=<<24/2=12>>12 cubic inches.
+Peter's locker is 12/4=<<12/4=3>>3 cubic inches.
+#### 3"
+Math,3b,"Question: Peggy fell off her bike and skinned her knees.  She needed two bandages on her left knee and three bandages on her right knee.  If the box of bandages had 8 less than two dozen bandages before Peggy skinned her knees, how many bandages were left in the box after Peggy finished putting bandages on her knees?
+Answer: Two dozen is 12*2=<<12*2=24>>24.
+Eight less than two dozen bandages is 24-8=<<24-8=16>>16 bandages.
+She needed two bandages on her left knee and three bandages on her right knee for a total of 2+3=<<2+3=5>>5 bandages.
+Therefore, after Peggy finished putting bandages on her knees there were 16-5=<<16-5=11>>11 bandages remaining in the box.
 #### 11
-Question: Jake and Penny are hunting snakes. Jake's snake is 12 inches longer than Jenny's snake. If the two snakes have a combined length of 70 inches, how long is Jake's snake?
-Answer: Let j be the length of Jake's snake and p be length of Penny's snake. We know that j + p = 70, and j = p + 12.
-We can substitute the second equation into the first equation to get p + 12 + p = 70
-Combining like terms, we get 2p + 12 = 70
-Subtracting 12 from both sides, we get 2p = 58
-Dividing both sides by 2, we get p = 58 / 2 = <<58/2=29>>29 inches. Penny's snake is 29 inches.
-Substituting that length in to the equation j = p + 12, we get j = 29 inches + 12 inches = <<29+12=41>>41 inches
-#### 41
-Question: Carly is a pet groomer. Today, her task was trimming the four nails on dogs’ paws. She trimmed 164 nails, but three of the dogs had only three legs. How many dogs did Carly work on?
-Answer: Let N be the number of dogs with 4 legs Carly worked on.
-All the dogs with 4 legs had 4N paws.
-There were 3 * 3 = <<3*3=9>>9 paws on dogs with 3 legs.
-At 4 nails per paw, she trimmed 164 / 4 = <<164/4=41>>41 paws.
-She worked on 4N + 9 = 41 paws.
-Thus, she worked on 4N = 32 paws on dogs with 4 legs.
-She worked on N = 32 / 4 = <<32/4=8>>8 dogs with 4 legs.
-Thus, Carly worked on 8 + 3 = <<8+3=11>>11 dogs.
+Question: Marnie makes bead bracelets. She bought 5 bags of 50 beads and 2 bags of 100 beads. If 50 beads are used to make one bracelet, how many bracelets will Marnie be able to make out of the beads she bought?
+Answer: Marnie bought 50 x 5 = <<50*5=250>>250 beads from the 5 bags of 50 beads.
+She also bought 100 x 2 = <<100*2=200>>200 beads from the 2 bags of 100 beads.
+She has a total of 250 + 200 = <<250+200=450>>450 beads.
+Hence, she will be able to make 450/50 = <<450/50=9>>9 bracelets.
+#### 9
+Question: Peggy fell off her bike and skinned her knees.  She needed two bandages on her left knee and three bandages on her right knee.  If the box of bandages had 8 less than two dozen bandages before Peggy skinned her knees, how many bandages were left in the box after Peggy finished putting bandages on her knees?
+Answer: Two dozen is 12*2=<<12*2=24>>24.
+Eight less than two dozen bandages is 24-8=<<24-8=16>>16 bandages.
+She needed two bandages on her left knee and three bandages on her right knee for a total of 2+3=<<2+3=5>>5 bandages.
+Therefore, after Peggy finished putting bandages on her knees there were 16-5=<<16-5=11>>11 bandages remaining in the box.
 #### 11
-Q: Bethany can run 10 laps on the track in one hour.  Trey can run 4 more laps than Bethany.  Shaelyn can run half as many laps as Trey.  Quinn can run 2 fewer laps than Shaelyn.  How many more laps can Bethany run compared to Quinn?","Let's first find out how many laps Trey, Shaelyn, and Quinn can run.
-
-Trey can run 10 + 4 = 14 laps in one hour.
-Shaelyn can run half as many laps as Trey, which is 14 / 2 = 7 laps.
-Quinn can run 7 - 2 = 5 laps.
-
-Now, we can calculate the difference in the number of laps Bethany and Quinn can run.
-Bethany can run 10 laps in one hour, while Quinn can run 5 laps.
-Therefore, Bethany can run 10 - 5 = 5 more laps than Quinn. 
-
-Therefore, Bethany can run 5 more laps compared to Quinn.","Trey can run 10 + 4 = <<10+4=14>>14 laps in one hour.
-Shaelyn can run 14 / 2 = <<14/2=7>>7 laps in one hour.
-Quinn can run 7 - 2 = <<7-2=5>>5 laps.
-Bethany can run 10 - 5 = <<10-5=5>>5 more laps compared to Quinn.
-#### 5"
-Math,3b,"Question: Hattie and her friend Lorelei are doing a jumping contest using a jumping rope. Hattie does 180 jumps in the first round, while Lorelei jumps 3/4 as many times as Hattie jumped. In the second round, Lorelei does 50 more jumps than Hattie. If Hattie managed to jump 2/3 times the number of jumps she did in the first round, calculate the total number of jumps the two did in the two rounds.
-Answer: In the first round, Lorelei did 3/4 * 180 jumps = <<3/4*180=135>>135 jumps.
-In the second round, Hattie did 2/3 * 180 jumps = <<2/3*180=120>>120 jumps, while
-Lorelei did 120 jumps + 50 jumps = <<120+50=170>>170 jumps.
-The total number of jumps for the two in both rounds is 170 jumps + 120 jumps + 135 jumps + 180 jumps = <<170+120+135+180=605>>605 jumps
-#### 605
-Question: 4.5 gallons of coffee were divided among 18 thermoses. Genevieve drank 3 thermoses. How many pints of coffee did Genevieve drink?
-Answer: 4.5 gallons = 4.5 * 8 pints = <<4.5*8=36>>36 pints
-36/18 = <<36/18=2>>2 pints
-Genevieve drank 2*3=<<2*3=6>>6 pints of coffee.
-#### 6
-Question: Hattie and her friend Lorelei are doing a jumping contest using a jumping rope. Hattie does 180 jumps in the first round, while Lorelei jumps 3/4 as many times as Hattie jumped. In the second round, Lorelei does 50 more jumps than Hattie. If Hattie managed to jump 2/3 times the number of jumps she did in the first round, calculate the total number of jumps the two did in the two rounds.
-Answer: In the first round, Lorelei did 3/4 * 180 jumps = <<3/4*180=135>>135 jumps.
-In the second round, Hattie did 2/3 * 180 jumps = <<2/3*180=120>>120 jumps, while
-Lorelei did 120 jumps + 50 jumps = <<120+50=170>>170 jumps.
-The total number of jumps for the two in both rounds is 170 jumps + 120 jumps + 135 jumps + 180 jumps = <<170+120+135+180=605>>605 jumps
-#### 605
-Question: 4.5 gallons of coffee were divided among 18 thermoses. Genevieve drank 3 thermoses. How many pints of coffee did Genevieve drink?
-Answer: 4.5 gallons = 4.5 * 8 pints = <<4.5*8=36>>36 pints
-36/18 = <<36/18=2>>2 pints
-Genevieve drank 2*3=<<2*3=6>>6 pints of coffee.
-#### 6
-Q: Bethany can run 10 laps on the track in one hour.  Trey can run 4 more laps than Bethany.  Shaelyn can run half as many laps as Trey.  Quinn can run 2 fewer laps than Shaelyn.  How many more laps can Bethany run compared to Quinn?","First, we calculate how many laps Trey can run:
-Trey = Bethany + 4 = 10 + 4 = 14 laps
-
-Next, we calculate how many laps Shaelyn can run:
-Shaelyn = 1/2 * Trey = 1/2 * 14 = 7 laps
-
-Then, we calculate how many laps Quinn can run:
-Quinn = Shaelyn - 2 = 7 - 2 = 5 laps
-
-Finally, we calculate how many more laps Bethany can run compared to Quinn:
-Bethany - Quinn = 10 - 5 = 5 laps
-
-Therefore, Bethany can run 5 more laps than Quinn.","Trey can run 10 + 4 = <<10+4=14>>14 laps in one hour.
-Shaelyn can run 14 / 2 = <<14/2=7>>7 laps in one hour.
-Quinn can run 7 - 2 = <<7-2=5>>5 laps.
-Bethany can run 10 - 5 = <<10-5=5>>5 more laps compared to Quinn.
-#### 5"
-CSQA,1a,"Question: What do children often do before bed?
-A: play games
-B: push ups
-C: play with toys
-D: hear stories
-E: throw things
-Answer: D
-Question: The baking open is sometimes made of brick in what kind of place where you get round food?
-A: stove
-B: house
-C: person's kitchen
-D: pizza parlor
-E: new york
-Answer: D
-Q: What state is the John Davis  Lodge toll road found in?
-A: new jersey
-B: eastern united states
-C: good repair
-D: connecticut
-E: arizona",Answer: D,D
-CSQA,1a,"Question: I need a balloon to decorate something, what am I buying it for?
-A: sky
-B: birthday party
-C: child's hand
-D: grocery store
-E: car
-Answer: B
-Question: Where in a town would you see trees near houses?
-A: orchard
-B: conservation land
-C: countryside
-D: yard
-E: surface of earth
-Answer: D
-Q: What state is the John Davis  Lodge toll road found in?
-A: new jersey
-B: eastern united states
-C: good repair
-D: connecticut
-E: arizona",Answer: D,D
-CSQA,2,"Question: What do children often do before bed?
-A: play games
-B: push ups
-C: play with toys
-D: hear stories
-E: throw things
-Answer: D
-Question: The baking open is sometimes made of brick in what kind of place where you get round food?
-A: stove
-B: house
-C: person's kitchen
-D: pizza parlor
-E: new york
-Answer: D
-Question: I need a balloon to decorate something, what am I buying it for?
-A: sky
-B: birthday party
-C: child's hand
-D: grocery store
-E: car
-Answer: B
-Question: Where in a town would you see trees near houses?
-A: orchard
-B: conservation land
-C: countryside
-D: yard
-E: surface of earth
-Answer: D
-Q: What state is the John Davis  Lodge toll road found in?
-A: new jersey
-B: eastern united states
-C: good repair
-D: connecticut
-E: arizona",Answer: D,D
-CSQA,3a,"Question: What do children often do before bed?
-A: play games
-B: push ups
-C: play with toys
-D: hear stories
-E: throw things
-Answer: D
-Question: The baking open is sometimes made of brick in what kind of place where you get round food?
-A: stove
-B: house
-C: person's kitchen
-D: pizza parlor
-E: new york
-Answer: D
-Question: What do children often do before bed?
-A: play games
-B: push ups
-C: play with toys
-D: hear stories
-E: throw things
-Answer: D
-Question: The baking open is sometimes made of brick in what kind of place where you get round food?
-A: stove
-B: house
-C: person's kitchen
-D: pizza parlor
-E: new york
-Answer: D
-Q: What state is the John Davis  Lodge toll road found in?
-A: new jersey
-B: eastern united states
-C: good repair
-D: connecticut
-E: arizona",A: Connecticut,D
-CSQA,3b,"Question: I need a balloon to decorate something, what am I buying it for?
-A: sky
-B: birthday party
-C: child's hand
-D: grocery store
-E: car
-Answer: B
-Question: Where in a town would you see trees near houses?
-A: orchard
-B: conservation land
-C: countryside
-D: yard
-E: surface of earth
-Answer: D
-Question: I need a balloon to decorate something, what am I buying it for?
-A: sky
-B: birthday party
-C: child's hand
-D: grocery store
-E: car
-Answer: B
-Question: Where in a town would you see trees near houses?
-A: orchard
-B: conservation land
-C: countryside
-D: yard
-E: surface of earth
-Answer: D
-Q: What state is the John Davis  Lodge toll road found in?
-A: new jersey
-B: eastern united states
-C: good repair
-D: connecticut
-E: arizona",A: new jersey,D
-StrategyQA,1a,"Question: Based on the American Culinary Federation, the minimum requirements for entering culinary apprenticeships include being 17 years old and having a high school diploma or equivalent. Michael Jordan graduated from Laney High School in 1981. Michael Jordan was born on February 17, 1963, which makes him 57 years old in 2020.
-Can Michael Jordan become a professional cook in America? 
-Answer: True
-Question: Igor Karkaroff is the headmaster of Durmstrang school. Karkaroff is a former Death Eater. The Death Eaters were Voldemort's minions.
-Is Lord Voldemort associated with a staff member of Durmstrang?
-Answer: True
-Q: In the year 1900 there were 42 US states. Ancient Greece had several hundred relatively independent city-states called poleis.
-Were number of states in Ancient Greece underwhelming compared to US states in 1900?",A: True,False
-StrategyQA,1a,"Question: Capsaicin occurs naturally in chilies and other peppers. It is the substance that makes the peppers spicy. Peppers are routinely used in cooking in many cultures.
-Is capsaicin associated with cooking?
-Answer: True
-Question: Olympic medals can only be won during the Olympics. The Olympics were first held in 1896.
-Did England win any Olympic gold medals in 1800?
+Question: Marnie makes bead bracelets. She bought 5 bags of 50 beads and 2 bags of 100 beads. If 50 beads are used to make one bracelet, how many bracelets will Marnie be able to make out of the beads she bought?
+Answer: Marnie bought 50 x 5 = <<50*5=250>>250 beads from the 5 bags of 50 beads.
+She also bought 100 x 2 = <<100*2=200>>200 beads from the 2 bags of 100 beads.
+She has a total of 250 + 200 = <<250+200=450>>450 beads.
+Hence, she will be able to make 450/50 = <<450/50=9>>9 bracelets.
+#### 9
+Question: Timothy's locker is 24 cubic inches. Zack's locker is half as big as Timothy's locker. Peter's locker is 1/4 as big as Zack's locker. How big is Peter's locker in cubic inches?","To find the size of Peter's locker, we first need to find the size of Zack's locker.
+Since Zack's locker is half as big as Timothy's locker, Zack's locker is 24/2 = <<24/2=12>>12 cubic inches.
+Next, we need to find the size of Peter's locker, which is 1/4 as big as Zack's locker.
+Peter's locker is 12/4 = <<12/4=3>>3 cubic inches.
+Therefore, Peter's locker is 3 cubic inches in size.","Zack's locker is 24/2=<<24/2=12>>12 cubic inches.
+Peter's locker is 12/4=<<12/4=3>>3 cubic inches.
+#### 3"
+CSQA,1a,"Question: Billy liked seeing new teachers at school.   He enjoyed meeting new people, but didn't care about the quality of his what?
+A: excitement
+B: university of chicago
+C: fear
+D: envy
+E: education
+Answer: E
+Question: The person knew what he had to do to achieve his dreams, so what did he do?
+A: spring into action
+B: accept his fate
+C: cross street
+D: feel upset
+E: travel to europe
+Answer: A
+Question: What is eating too much dinner likely to result in?
+A: tiredness
+B: living longer
+C: stomach ache
+D: illness
+E: acid reflux",Answer: C,C
+CSQA,1a,"Question: What popular clothing retailer often has a fitting room to try on clothing?
+A: gap
+B: car dealership
+C: department store
+D: mall
+E: appropriate
+Answer: A
+Question: Where can you can enjoy music in public ?
+A: theatre
+B: elevator
+C: opera
+D: cassettes
+E: store
+Answer: A
+Question: What is eating too much dinner likely to result in?
+A: tiredness
+B: living longer
+C: stomach ache
+D: illness
+E: acid reflux",Answer: C,C
+CSQA,2,"Question: Billy liked seeing new teachers at school.   He enjoyed meeting new people, but didn't care about the quality of his what?
+A: excitement
+B: university of chicago
+C: fear
+D: envy
+E: education
+Answer: E
+Question: The person knew what he had to do to achieve his dreams, so what did he do?
+A: spring into action
+B: accept his fate
+C: cross street
+D: feel upset
+E: travel to europe
+Answer: A
+Question: What popular clothing retailer often has a fitting room to try on clothing?
+A: gap
+B: car dealership
+C: department store
+D: mall
+E: appropriate
+Answer: A
+Question: Where can you can enjoy music in public ?
+A: theatre
+B: elevator
+C: opera
+D: cassettes
+E: store
+Answer: A
+Question: What is eating too much dinner likely to result in?
+A: tiredness
+B: living longer
+C: stomach ache
+D: illness
+E: acid reflux",Answer: C,C
+CSQA,3a,"Question: Billy liked seeing new teachers at school.   He enjoyed meeting new people, but didn't care about the quality of his what?
+A: excitement
+B: university of chicago
+C: fear
+D: envy
+E: education
+Answer: E
+Question: The person knew what he had to do to achieve his dreams, so what did he do?
+A: spring into action
+B: accept his fate
+C: cross street
+D: feel upset
+E: travel to europe
+Answer: A
+Question: Billy liked seeing new teachers at school.   He enjoyed meeting new people, but didn't care about the quality of his what?
+A: excitement
+B: university of chicago
+C: fear
+D: envy
+E: education
+Answer: E
+Question: The person knew what he had to do to achieve his dreams, so what did he do?
+A: spring into action
+B: accept his fate
+C: cross street
+D: feel upset
+E: travel to europe
+Answer: A
+Question: What is eating too much dinner likely to result in?
+A: tiredness
+B: living longer
+C: stomach ache
+D: illness
+E: acid reflux",Answer: C,C
+CSQA,3b,"Question: What popular clothing retailer often has a fitting room to try on clothing?
+A: gap
+B: car dealership
+C: department store
+D: mall
+E: appropriate
+Answer: A
+Question: Where can you can enjoy music in public ?
+A: theatre
+B: elevator
+C: opera
+D: cassettes
+E: store
+Answer: A
+Question: What popular clothing retailer often has a fitting room to try on clothing?
+A: gap
+B: car dealership
+C: department store
+D: mall
+E: appropriate
+Answer: A
+Question: Where can you can enjoy music in public ?
+A: theatre
+B: elevator
+C: opera
+D: cassettes
+E: store
+Answer: A
+Question: What is eating too much dinner likely to result in?
+A: tiredness
+B: living longer
+C: stomach ache
+D: illness
+E: acid reflux",Answer: C,C
+StrategyQA,1a,"Question: Dusseldorf is a city in Germany. Stonehenge is a prehistoric monument in Wiltshire, England. Wiltshire England is around seven hours away from Dusseldorf Germany by car.
+Can you see Stonehenge from a window in Dusseldorf?
 Answer: False
-Q: In the year 1900 there were 42 US states. Ancient Greece had several hundred relatively independent city-states called poleis.
-Were number of states in Ancient Greece underwhelming compared to US states in 1900?",A: True,False
-StrategyQA,2,"Question: Based on the American Culinary Federation, the minimum requirements for entering culinary apprenticeships include being 17 years old and having a high school diploma or equivalent. Michael Jordan graduated from Laney High School in 1981. Michael Jordan was born on February 17, 1963, which makes him 57 years old in 2020.
-Can Michael Jordan become a professional cook in America? 
-Answer: True
-Question: Igor Karkaroff is the headmaster of Durmstrang school. Karkaroff is a former Death Eater. The Death Eaters were Voldemort's minions.
-Is Lord Voldemort associated with a staff member of Durmstrang?
-Answer: True
-Question: Capsaicin occurs naturally in chilies and other peppers. It is the substance that makes the peppers spicy. Peppers are routinely used in cooking in many cultures.
-Is capsaicin associated with cooking?
-Answer: True
-Question: Olympic medals can only be won during the Olympics. The Olympics were first held in 1896.
-Did England win any Olympic gold medals in 1800?
+Question: The Vellore Fort was a 16th century stronghold in India. Grizzly Bears are native to the North American continent.
+Did occupants of Vellore Fort need to defend themselves from Grizzly Bears?
 Answer: False
-Q: In the year 1900 there were 42 US states. Ancient Greece had several hundred relatively independent city-states called poleis.
-Were number of states in Ancient Greece underwhelming compared to US states in 1900?",True,False
-StrategyQA,3a,"Question: Based on the American Culinary Federation, the minimum requirements for entering culinary apprenticeships include being 17 years old and having a high school diploma or equivalent. Michael Jordan graduated from Laney High School in 1981. Michael Jordan was born on February 17, 1963, which makes him 57 years old in 2020.
-Can Michael Jordan become a professional cook in America? 
+Question: The Doctor grew up on a planet called Gallifrey. The planet Gallifrey was destroyed in a time war. The Doctor's ship doesn't require docking.
+Does The Doctor keep his ship in his childhood home?",Answer: False,False
+StrategyQA,1a,"Question: Taco Bell has over 7,072 restaurants as of 2018. Roy Rogers had over 600 restaurants at its peak. Roy Rogers has 48 locations as of 2019.
+Will more people go in and out of Taco Bell than a Roy Rogers each year?
 Answer: True
-Question: Igor Karkaroff is the headmaster of Durmstrang school. Karkaroff is a former Death Eater. The Death Eaters were Voldemort's minions.
-Is Lord Voldemort associated with a staff member of Durmstrang?
-Answer: True
-Question: Based on the American Culinary Federation, the minimum requirements for entering culinary apprenticeships include being 17 years old and having a high school diploma or equivalent. Michael Jordan graduated from Laney High School in 1981. Michael Jordan was born on February 17, 1963, which makes him 57 years old in 2020.
-Can Michael Jordan become a professional cook in America? 
-Answer: True
-Question: Igor Karkaroff is the headmaster of Durmstrang school. Karkaroff is a former Death Eater. The Death Eaters were Voldemort's minions.
-Is Lord Voldemort associated with a staff member of Durmstrang?
-Answer: True
-Q: In the year 1900 there were 42 US states. Ancient Greece had several hundred relatively independent city-states called poleis.
-Were number of states in Ancient Greece underwhelming compared to US states in 1900?",False,False
-StrategyQA,3b,"Question: Capsaicin occurs naturally in chilies and other peppers. It is the substance that makes the peppers spicy. Peppers are routinely used in cooking in many cultures.
-Is capsaicin associated with cooking?
-Answer: True
-Question: Olympic medals can only be won during the Olympics. The Olympics were first held in 1896.
-Did England win any Olympic gold medals in 1800?
+Question: The Panzer VIII Maus tank missile had a range of around 2.2 miles. The distance from Barcelona to Madrid is 385 miles. Motion sickness is a common problem in cats.
+Could a cat ride Panzer VIII Maus tank missile from Barcelona to Madrid?
 Answer: False
-Question: Capsaicin occurs naturally in chilies and other peppers. It is the substance that makes the peppers spicy. Peppers are routinely used in cooking in many cultures.
-Is capsaicin associated with cooking?
-Answer: True
-Question: Olympic medals can only be won during the Olympics. The Olympics were first held in 1896.
-Did England win any Olympic gold medals in 1800?
+Question: The Doctor grew up on a planet called Gallifrey. The planet Gallifrey was destroyed in a time war. The Doctor's ship doesn't require docking.
+Does The Doctor keep his ship in his childhood home?",Answer: False,False
+StrategyQA,2,"Question: Dusseldorf is a city in Germany. Stonehenge is a prehistoric monument in Wiltshire, England. Wiltshire England is around seven hours away from Dusseldorf Germany by car.
+Can you see Stonehenge from a window in Dusseldorf?
 Answer: False
-Q: In the year 1900 there were 42 US states. Ancient Greece had several hundred relatively independent city-states called poleis.
-Were number of states in Ancient Greece underwhelming compared to US states in 1900?",A: True,False
-SayCan,1a,"Question: Go to the table.
-Answer: 1. go to the table, 2. done
-Question: Restock chips in the drawer.
-Answer: 1. find the bag of chips, 2. pick up the bag of chips, 3. go to the drawer, 4. put down the bag of chips, 5. open the drawer, 6. pick up the bag of chips, 7. put down the bag of chips, 8. close the drawer, 9. done
-Q: Bring me three different drinks.","A: 1. find three different drinks, 2. pick up the first drink, 3. bring it to you, 4. pick up the second drink, 5. bring it to you, 6. pick up the third drink, 7. bring it to you, 8. done","1. find a coke, 2. pick up the coke, 3. bring it to you, 4. put down the coke, 5. find a lime soda, 6. pick up the lime soda, 7. bring it to you, 8. put down the lime soda, 9. find a redbull, 10. pick up the redbull, 11. bring it to you, 12. put down the redbull, 13. done"
-SayCan,1a,"Question: Throw away the apple.
-Answer: 1. find an apple, 2. pick up the apple, 3. go to the trash, 4. put down the apple, 5. done
-Question: Navigate to the table.
-Answer: 1. go to the table, 2. done
-Q: Bring me three different drinks.","A: 1. locate three different drinks, 2. pick up the drinks, 3. bring the drinks to you, 4. done","1. find a coke, 2. pick up the coke, 3. bring it to you, 4. put down the coke, 5. find a lime soda, 6. pick up the lime soda, 7. bring it to you, 8. put down the lime soda, 9. find a redbull, 10. pick up the redbull, 11. bring it to you, 12. put down the redbull, 13. done"
-SayCan,2,"Question: Go to the table.
-Answer: 1. go to the table, 2. done
-Question: Restock chips in the drawer.
-Answer: 1. find the bag of chips, 2. pick up the bag of chips, 3. go to the drawer, 4. put down the bag of chips, 5. open the drawer, 6. pick up the bag of chips, 7. put down the bag of chips, 8. close the drawer, 9. done
-Question: Throw away the apple.
-Answer: 1. find an apple, 2. pick up the apple, 3. go to the trash, 4. put down the apple, 5. done
-Question: Navigate to the table.
-Answer: 1. go to the table, 2. done
-Q: Bring me three different drinks.","A: 1. find three different drinks, 2. pick up the three different drinks, 3. go to the destination, 4. put down the three different drinks, 5. done","1. find a coke, 2. pick up the coke, 3. bring it to you, 4. put down the coke, 5. find a lime soda, 6. pick up the lime soda, 7. bring it to you, 8. put down the lime soda, 9. find a redbull, 10. pick up the redbull, 11. bring it to you, 12. put down the redbull, 13. done"
-SayCan,3a,"Question: Go to the table.
-Answer: 1. go to the table, 2. done
-Question: Restock chips in the drawer.
-Answer: 1. find the bag of chips, 2. pick up the bag of chips, 3. go to the drawer, 4. put down the bag of chips, 5. open the drawer, 6. pick up the bag of chips, 7. put down the bag of chips, 8. close the drawer, 9. done
-Question: Go to the table.
-Answer: 1. go to the table, 2. done
-Question: Restock chips in the drawer.
-Answer: 1. find the bag of chips, 2. pick up the bag of chips, 3. go to the drawer, 4. put down the bag of chips, 5. open the drawer, 6. pick up the bag of chips, 7. put down the bag of chips, 8. close the drawer, 9. done
-Q: Bring me three different drinks.","A: 1. go to the refrigerator, 2. open the refrigerator, 3. look for three different drinks, 4. pick up the first drink, 5. close the refrigerator, 6. go to the table, 7. put down the first drink, 8. pick up the second drink, 9. go to the table, 10. put down the second drink, 11. pick up the third drink, 12. go to the table, 13. put down the third drink, 14. done","1. find a coke, 2. pick up the coke, 3. bring it to you, 4. put down the coke, 5. find a lime soda, 6. pick up the lime soda, 7. bring it to you, 8. put down the lime soda, 9. find a redbull, 10. pick up the redbull, 11. bring it to you, 12. put down the redbull, 13. done"
-SayCan,3b,"Question: Throw away the apple.
-Answer: 1. find an apple, 2. pick up the apple, 3. go to the trash, 4. put down the apple, 5. done
-Question: Navigate to the table.
-Answer: 1. go to the table, 2. done
-Question: Throw away the apple.
-Answer: 1. find an apple, 2. pick up the apple, 3. go to the trash, 4. put down the apple, 5. done
-Question: Navigate to the table.
-Answer: 1. go to the table, 2. done
-Q: Bring me three different drinks.","A: 1. Find three different drinks, 2. pick up the drinks, 3. bring the drinks to you, 4. place the drinks in front of you, 5. done","1. find a coke, 2. pick up the coke, 3. bring it to you, 4. put down the coke, 5. find a lime soda, 6. pick up the lime soda, 7. bring it to you, 8. put down the lime soda, 9. find a redbull, 10. pick up the redbull, 11. bring it to you, 12. put down the redbull, 13. done"
+Question: The Vellore Fort was a 16th century stronghold in India. Grizzly Bears are native to the North American continent.
+Did occupants of Vellore Fort need to defend themselves from Grizzly Bears?
+Answer: False
+Question: Taco Bell has over 7,072 restaurants as of 2018. Roy Rogers had over 600 restaurants at its peak. Roy Rogers has 48 locations as of 2019.
+Will more people go in and out of Taco Bell than a Roy Rogers each year?
+Answer: True
+Question: The Panzer VIII Maus tank missile had a range of around 2.2 miles. The distance from Barcelona to Madrid is 385 miles. Motion sickness is a common problem in cats.
+Could a cat ride Panzer VIII Maus tank missile from Barcelona to Madrid?
+Answer: False
+Question: The Doctor grew up on a planet called Gallifrey. The planet Gallifrey was destroyed in a time war. The Doctor's ship doesn't require docking.
+Does The Doctor keep his ship in his childhood home?",Answer: False,False
+StrategyQA,3a,"Question: Dusseldorf is a city in Germany. Stonehenge is a prehistoric monument in Wiltshire, England. Wiltshire England is around seven hours away from Dusseldorf Germany by car.
+Can you see Stonehenge from a window in Dusseldorf?
+Answer: False
+Question: The Vellore Fort was a 16th century stronghold in India. Grizzly Bears are native to the North American continent.
+Did occupants of Vellore Fort need to defend themselves from Grizzly Bears?
+Answer: False
+Question: Dusseldorf is a city in Germany. Stonehenge is a prehistoric monument in Wiltshire, England. Wiltshire England is around seven hours away from Dusseldorf Germany by car.
+Can you see Stonehenge from a window in Dusseldorf?
+Answer: False
+Question: The Vellore Fort was a 16th century stronghold in India. Grizzly Bears are native to the North American continent.
+Did occupants of Vellore Fort need to defend themselves from Grizzly Bears?
+Answer: False
+Question: The Doctor grew up on a planet called Gallifrey. The planet Gallifrey was destroyed in a time war. The Doctor's ship doesn't require docking.
+Does The Doctor keep his ship in his childhood home?",Answer: True,False
+StrategyQA,3b,"Question: Taco Bell has over 7,072 restaurants as of 2018. Roy Rogers had over 600 restaurants at its peak. Roy Rogers has 48 locations as of 2019.
+Will more people go in and out of Taco Bell than a Roy Rogers each year?
+Answer: True
+Question: The Panzer VIII Maus tank missile had a range of around 2.2 miles. The distance from Barcelona to Madrid is 385 miles. Motion sickness is a common problem in cats.
+Could a cat ride Panzer VIII Maus tank missile from Barcelona to Madrid?
+Answer: False
+Question: Taco Bell has over 7,072 restaurants as of 2018. Roy Rogers had over 600 restaurants at its peak. Roy Rogers has 48 locations as of 2019.
+Will more people go in and out of Taco Bell than a Roy Rogers each year?
+Answer: True
+Question: The Panzer VIII Maus tank missile had a range of around 2.2 miles. The distance from Barcelona to Madrid is 385 miles. Motion sickness is a common problem in cats.
+Could a cat ride Panzer VIII Maus tank missile from Barcelona to Madrid?
+Answer: False
+Question: The Doctor grew up on a planet called Gallifrey. The planet Gallifrey was destroyed in a time war. The Doctor's ship doesn't require docking.
+Does The Doctor keep his ship in his childhood home?",Answer: False,False
+SayCan,1a,"Question: Bring me a fruit, a soda, and a bag of chips for lunch.
+Answer: 1. find the bag of chips, 2. pick up the bag of chips, 3. bring it to you, 4. put down the bag of chips, 5. find a coke can, 6. pick up the coke can, 7. bring it to you, 8. put down the coke can, 9. find a banana, 10. pick up the banana, 11. bring it to you, 12. put down the banana, 13. done
+Question: Bring me an apple from the drawer.
+Answer: 1. go to the drawer, 2. open the drawer, 3. pick up the apple, 4. close the drawer, 5. bring it to you, 6. put down the apple, 7. done
+Question: Throw the coke can away.","Answer: 1. find the coke can, 2. pick up the coke can, 3. go to the trash can, 4. throw away the coke can, 5. done","1. find a coke can, 2. pick up the coke can, 3. go to the trash, 4. put down the coke can, 5. done"
+SayCan,1a,"Question: Put a bag of chips and water bottle on the table.
+Answer: 1. find the bag of chips, 2. pick up the bag of chips, 3. go to the table, 4. put down the bag of chips, 5. find a water bottle, 6. pick up the water bottle, 7. go to the table, 8. put down the water bottle, 9. done
+Question: How would you visit the counter and the table in the kitchen?
+Answer: 1. go to the counter, 2. go to the table, 3. done
+Question: Throw the coke can away.","Answer: 1. find the coke can, 2. pick up the coke can, 3. go to the trash can, 4. open the trash can, 5. throw away the coke can, 6. done","1. find a coke can, 2. pick up the coke can, 3. go to the trash, 4. put down the coke can, 5. done"
+SayCan,2,"Question: Bring me a fruit, a soda, and a bag of chips for lunch.
+Answer: 1. find the bag of chips, 2. pick up the bag of chips, 3. bring it to you, 4. put down the bag of chips, 5. find a coke can, 6. pick up the coke can, 7. bring it to you, 8. put down the coke can, 9. find a banana, 10. pick up the banana, 11. bring it to you, 12. put down the banana, 13. done
+Question: Bring me an apple from the drawer.
+Answer: 1. go to the drawer, 2. open the drawer, 3. pick up the apple, 4. close the drawer, 5. bring it to you, 6. put down the apple, 7. done
+Question: Put a bag of chips and water bottle on the table.
+Answer: 1. find the bag of chips, 2. pick up the bag of chips, 3. go to the table, 4. put down the bag of chips, 5. find a water bottle, 6. pick up the water bottle, 7. go to the table, 8. put down the water bottle, 9. done
+Question: How would you visit the counter and the table in the kitchen?
+Answer: 1. go to the counter, 2. go to the table, 3. done
+Question: Throw the coke can away.","Answer: 1. pick up the coke can, 2. find the trash can, 3. open the trash can, 4. throw away the coke can, 5. close the trash can, 6. done","1. find a coke can, 2. pick up the coke can, 3. go to the trash, 4. put down the coke can, 5. done"
+SayCan,3a,"Question: Bring me a fruit, a soda, and a bag of chips for lunch.
+Answer: 1. find the bag of chips, 2. pick up the bag of chips, 3. bring it to you, 4. put down the bag of chips, 5. find a coke can, 6. pick up the coke can, 7. bring it to you, 8. put down the coke can, 9. find a banana, 10. pick up the banana, 11. bring it to you, 12. put down the banana, 13. done
+Question: Bring me an apple from the drawer.
+Answer: 1. go to the drawer, 2. open the drawer, 3. pick up the apple, 4. close the drawer, 5. bring it to you, 6. put down the apple, 7. done
+Question: Bring me a fruit, a soda, and a bag of chips for lunch.
+Answer: 1. find the bag of chips, 2. pick up the bag of chips, 3. bring it to you, 4. put down the bag of chips, 5. find a coke can, 6. pick up the coke can, 7. bring it to you, 8. put down the coke can, 9. find a banana, 10. pick up the banana, 11. bring it to you, 12. put down the banana, 13. done
+Question: Bring me an apple from the drawer.
+Answer: 1. go to the drawer, 2. open the drawer, 3. pick up the apple, 4. close the drawer, 5. bring it to you, 6. put down the apple, 7. done
+Question: Throw the coke can away.","Answer: 1. find the coke can, 2. pick up the coke can, 3. go to the trash bin, 4. throw away the coke can, 5. done","1. find a coke can, 2. pick up the coke can, 3. go to the trash, 4. put down the coke can, 5. done"
+SayCan,3b,"Question: Put a bag of chips and water bottle on the table.
+Answer: 1. find the bag of chips, 2. pick up the bag of chips, 3. go to the table, 4. put down the bag of chips, 5. find a water bottle, 6. pick up the water bottle, 7. go to the table, 8. put down the water bottle, 9. done
+Question: How would you visit the counter and the table in the kitchen?
+Answer: 1. go to the counter, 2. go to the table, 3. done
+Question: Put a bag of chips and water bottle on the table.
+Answer: 1. find the bag of chips, 2. pick up the bag of chips, 3. go to the table, 4. put down the bag of chips, 5. find a water bottle, 6. pick up the water bottle, 7. go to the table, 8. put down the water bottle, 9. done
+Question: How would you visit the counter and the table in the kitchen?
+Answer: 1. go to the counter, 2. go to the table, 3. done
+Question: Throw the coke can away.","Answer: 1. find the coke can, 2. pick up the coke can, 3. go to the trash can, 4. throw away the coke can, 5. done","1. find a coke can, 2. pick up the coke can, 3. go to the trash, 4. put down the coke can, 5. done"

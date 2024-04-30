@@ -1,353 +1,383 @@
 Task Class,Case,Prompt,Response,Expected
-Math,1a,"Question: Carter is a professional drummer.  He goes through 5 sets of drum sticks per show.  After the end of each show, he tosses 6 new drum stick sets to audience members.  He does this for 30 nights straight.  How many sets of drum sticks does he go through?
-Answer: He uses 5 sets a night and tosses 6 sets to fans so he needs 5+6 = <<5+6=11>>11 sets a night
-He goes through 11 sets a night for 30 nights so he needs 11*30 = <<11*30=330>>330 drum stick sets
-#### 330
-Question: Rich likes to take long walks through town.  First he walks 20 feet from his house to the sidewalk.  Then he walks 200 feet down the sidewalk to the end of the road.  Then he makes a left and walks double his total distance so far until he reaches the next intersection.  Then he walks half the total distance up to this point again to the end of his route, before turning around and walking the same path all the way back home.  How many feet did Rich walk?
-Answer: Rich walks 20+200= <<20+200=220>>220 feet to get to the end of the road.
-He then walks double that distance, 220*2= <<220*2=440>>440 feet to the next intersection.
-This makes a total of 220+440= <<220+440=660>>660 feet.
-He then walks half that distance, 660/2= <<660/2=330>>330 feet to get to the end of his route.
-This makes a total of 660+330=<<660+330=990>>990 feet so far.
-He then walks that same distance back, for a total of 990*2= <<990*2=1980>>1980 feet in total.
-#### 1980
-Q: The basketball team went to the steakhouse to eat dinner.  The first player ate a 6-ounce steak.  The second player ate beef tips, containing 8 beef tips, each an ounce in size.  The third player ate a one-pound steak.  And the fourth and fifth players ordered vegetarian meals.  In total, how many ounces of meat were consumed by the team?","A: The second player ate 8 ounces of beef tips, the third player ate 16 ounces of steak, and the first player ate 6 ounces of steak. This means they consumed 8 + 16 + 6 = <<8+16+6=30>>30 ounces of meat.","The second player consumed 8 1-ounce beef tips, for a total weight of 8*1=<<8*1=8>>8 ounces.
-Thus, the total combined weight includes 6 ounces from the first player, 8 ounces from the second player, and 1 pound, which is 16 ounces, from the third player, for a combined total of 6+8+16=<<6+8+16=30>>30 ounces.
-#### 30"
-Math,1a,"Question: Charley bought 30 pencils. She lost 6 pencils while moving to school, and of course, also lost 1/3 of the remaining pencils because she wasn't very good at keeping track of pencils. How many pencils does she currently have?
-Answer: If Charley bought 30 pencils and lost 6 while moving, she remained with 30-6=<<30-6=24>>24 pencils.
-Because she isn't good at keeping track of her pencils, Charley lost 1/3*24 = <<1/3*24=8>>8 more pencils.
-She currently has 24-8 = <<24-8=16>>16 pencils.
-#### 16
-Question: The country of Belize had a 5 lane bridge that had 2000 vehicles passing through it every month. They decided to build a new bridge that had twice the capacity of the old one, and the number of vehicles passing through the new one increased by 60% more than the old bridge. If the bridges work concurrently for a year, calculate the total number of vehicles that pass through the two bridges.
-Answer: In a year with 12 months, the total number of vehicles passing through the old bridge is 2000*12 = <<2000*12=24000>>24000
-The new bridge has a capacity of 60/100*2000 = <<60/100*2000=1200>>1200 more vehicles passing through it in a month than the old one.
-The total number of vehicles passing through the new bridge in a month is 2000+1200 = <<2000+1200=3200>>3200
-There are 3200*12 = <<3200*12=38400>>38400 vehicles passing through the new bridge in a year.
-Altogether, the two bridges have 38400+24000 = <<38400+24000=62400>>62400 vehicles passing through them in a year.
-#### 62400
-Q: The basketball team went to the steakhouse to eat dinner.  The first player ate a 6-ounce steak.  The second player ate beef tips, containing 8 beef tips, each an ounce in size.  The third player ate a one-pound steak.  And the fourth and fifth players ordered vegetarian meals.  In total, how many ounces of meat were consumed by the team?","A: The second player ate 8 beef tips, each an ounce in size, so they consumed 8 ounces of beef tips. The third player ate a one-pound steak, which is equivalent to 16 ounces. Therefore, in total, the team consumed 6 (first player) + 8 (second player) + 16 (third player) = 30 ounces of meat.","The second player consumed 8 1-ounce beef tips, for a total weight of 8*1=<<8*1=8>>8 ounces.
-Thus, the total combined weight includes 6 ounces from the first player, 8 ounces from the second player, and 1 pound, which is 16 ounces, from the third player, for a combined total of 6+8+16=<<6+8+16=30>>30 ounces.
-#### 30"
-Math,2,"Question: Carter is a professional drummer.  He goes through 5 sets of drum sticks per show.  After the end of each show, he tosses 6 new drum stick sets to audience members.  He does this for 30 nights straight.  How many sets of drum sticks does he go through?
-Answer: He uses 5 sets a night and tosses 6 sets to fans so he needs 5+6 = <<5+6=11>>11 sets a night
-He goes through 11 sets a night for 30 nights so he needs 11*30 = <<11*30=330>>330 drum stick sets
-#### 330
-Question: Rich likes to take long walks through town.  First he walks 20 feet from his house to the sidewalk.  Then he walks 200 feet down the sidewalk to the end of the road.  Then he makes a left and walks double his total distance so far until he reaches the next intersection.  Then he walks half the total distance up to this point again to the end of his route, before turning around and walking the same path all the way back home.  How many feet did Rich walk?
-Answer: Rich walks 20+200= <<20+200=220>>220 feet to get to the end of the road.
-He then walks double that distance, 220*2= <<220*2=440>>440 feet to the next intersection.
-This makes a total of 220+440= <<220+440=660>>660 feet.
-He then walks half that distance, 660/2= <<660/2=330>>330 feet to get to the end of his route.
-This makes a total of 660+330=<<660+330=990>>990 feet so far.
-He then walks that same distance back, for a total of 990*2= <<990*2=1980>>1980 feet in total.
-#### 1980
-Question: Charley bought 30 pencils. She lost 6 pencils while moving to school, and of course, also lost 1/3 of the remaining pencils because she wasn't very good at keeping track of pencils. How many pencils does she currently have?
-Answer: If Charley bought 30 pencils and lost 6 while moving, she remained with 30-6=<<30-6=24>>24 pencils.
-Because she isn't good at keeping track of her pencils, Charley lost 1/3*24 = <<1/3*24=8>>8 more pencils.
-She currently has 24-8 = <<24-8=16>>16 pencils.
-#### 16
-Question: The country of Belize had a 5 lane bridge that had 2000 vehicles passing through it every month. They decided to build a new bridge that had twice the capacity of the old one, and the number of vehicles passing through the new one increased by 60% more than the old bridge. If the bridges work concurrently for a year, calculate the total number of vehicles that pass through the two bridges.
-Answer: In a year with 12 months, the total number of vehicles passing through the old bridge is 2000*12 = <<2000*12=24000>>24000
-The new bridge has a capacity of 60/100*2000 = <<60/100*2000=1200>>1200 more vehicles passing through it in a month than the old one.
-The total number of vehicles passing through the new bridge in a month is 2000+1200 = <<2000+1200=3200>>3200
-There are 3200*12 = <<3200*12=38400>>38400 vehicles passing through the new bridge in a year.
-Altogether, the two bridges have 38400+24000 = <<38400+24000=62400>>62400 vehicles passing through them in a year.
-#### 62400
-Q: The basketball team went to the steakhouse to eat dinner.  The first player ate a 6-ounce steak.  The second player ate beef tips, containing 8 beef tips, each an ounce in size.  The third player ate a one-pound steak.  And the fourth and fifth players ordered vegetarian meals.  In total, how many ounces of meat were consumed by the team?","A: The first player ate 6 ounces of steak, the second player ate 8 ounces of beef tips, and the third player ate 16 ounces of steak (1 pound = 16 ounces). 
-So, the total amount of meat consumed by the first three players is 6 + 8 + 16 = 30 ounces. 
-Since the fourth and fifth players ordered vegetarian meals, they did not consume any meat. 
-Therefore, the total amount of meat consumed by the team is 30 ounces.","The second player consumed 8 1-ounce beef tips, for a total weight of 8*1=<<8*1=8>>8 ounces.
-Thus, the total combined weight includes 6 ounces from the first player, 8 ounces from the second player, and 1 pound, which is 16 ounces, from the third player, for a combined total of 6+8+16=<<6+8+16=30>>30 ounces.
-#### 30"
-Math,3a,"Question: Carter is a professional drummer.  He goes through 5 sets of drum sticks per show.  After the end of each show, he tosses 6 new drum stick sets to audience members.  He does this for 30 nights straight.  How many sets of drum sticks does he go through?
-Answer: He uses 5 sets a night and tosses 6 sets to fans so he needs 5+6 = <<5+6=11>>11 sets a night
-He goes through 11 sets a night for 30 nights so he needs 11*30 = <<11*30=330>>330 drum stick sets
-#### 330
-Question: Rich likes to take long walks through town.  First he walks 20 feet from his house to the sidewalk.  Then he walks 200 feet down the sidewalk to the end of the road.  Then he makes a left and walks double his total distance so far until he reaches the next intersection.  Then he walks half the total distance up to this point again to the end of his route, before turning around and walking the same path all the way back home.  How many feet did Rich walk?
-Answer: Rich walks 20+200= <<20+200=220>>220 feet to get to the end of the road.
-He then walks double that distance, 220*2= <<220*2=440>>440 feet to the next intersection.
-This makes a total of 220+440= <<220+440=660>>660 feet.
-He then walks half that distance, 660/2= <<660/2=330>>330 feet to get to the end of his route.
-This makes a total of 660+330=<<660+330=990>>990 feet so far.
-He then walks that same distance back, for a total of 990*2= <<990*2=1980>>1980 feet in total.
-#### 1980
-Question: Carter is a professional drummer.  He goes through 5 sets of drum sticks per show.  After the end of each show, he tosses 6 new drum stick sets to audience members.  He does this for 30 nights straight.  How many sets of drum sticks does he go through?
-Answer: He uses 5 sets a night and tosses 6 sets to fans so he needs 5+6 = <<5+6=11>>11 sets a night
-He goes through 11 sets a night for 30 nights so he needs 11*30 = <<11*30=330>>330 drum stick sets
-#### 330
-Question: Rich likes to take long walks through town.  First he walks 20 feet from his house to the sidewalk.  Then he walks 200 feet down the sidewalk to the end of the road.  Then he makes a left and walks double his total distance so far until he reaches the next intersection.  Then he walks half the total distance up to this point again to the end of his route, before turning around and walking the same path all the way back home.  How many feet did Rich walk?
-Answer: Rich walks 20+200= <<20+200=220>>220 feet to get to the end of the road.
-He then walks double that distance, 220*2= <<220*2=440>>440 feet to the next intersection.
-This makes a total of 220+440= <<220+440=660>>660 feet.
-He then walks half that distance, 660/2= <<660/2=330>>330 feet to get to the end of his route.
-This makes a total of 660+330=<<660+330=990>>990 feet so far.
-He then walks that same distance back, for a total of 990*2= <<990*2=1980>>1980 feet in total.
-#### 1980
-Q: The basketball team went to the steakhouse to eat dinner.  The first player ate a 6-ounce steak.  The second player ate beef tips, containing 8 beef tips, each an ounce in size.  The third player ate a one-pound steak.  And the fourth and fifth players ordered vegetarian meals.  In total, how many ounces of meat were consumed by the team?","A: The first player ate 6 ounces, the second player ate 8 ounces (1 ounce per beef tip, 8 beef tips), the third player ate 16 ounces (1 pound steak = 16 ounces), and the fourth and fifth players ordered vegetarian meals (0 ounces). Therefore, the team consumed 6 + 8 + 16 + 0 + 0 = 30 ounces of meat.","The second player consumed 8 1-ounce beef tips, for a total weight of 8*1=<<8*1=8>>8 ounces.
-Thus, the total combined weight includes 6 ounces from the first player, 8 ounces from the second player, and 1 pound, which is 16 ounces, from the third player, for a combined total of 6+8+16=<<6+8+16=30>>30 ounces.
-#### 30"
-Math,3b,"Question: Charley bought 30 pencils. She lost 6 pencils while moving to school, and of course, also lost 1/3 of the remaining pencils because she wasn't very good at keeping track of pencils. How many pencils does she currently have?
-Answer: If Charley bought 30 pencils and lost 6 while moving, she remained with 30-6=<<30-6=24>>24 pencils.
-Because she isn't good at keeping track of her pencils, Charley lost 1/3*24 = <<1/3*24=8>>8 more pencils.
-She currently has 24-8 = <<24-8=16>>16 pencils.
-#### 16
-Question: The country of Belize had a 5 lane bridge that had 2000 vehicles passing through it every month. They decided to build a new bridge that had twice the capacity of the old one, and the number of vehicles passing through the new one increased by 60% more than the old bridge. If the bridges work concurrently for a year, calculate the total number of vehicles that pass through the two bridges.
-Answer: In a year with 12 months, the total number of vehicles passing through the old bridge is 2000*12 = <<2000*12=24000>>24000
-The new bridge has a capacity of 60/100*2000 = <<60/100*2000=1200>>1200 more vehicles passing through it in a month than the old one.
-The total number of vehicles passing through the new bridge in a month is 2000+1200 = <<2000+1200=3200>>3200
-There are 3200*12 = <<3200*12=38400>>38400 vehicles passing through the new bridge in a year.
-Altogether, the two bridges have 38400+24000 = <<38400+24000=62400>>62400 vehicles passing through them in a year.
-#### 62400
-Question: Charley bought 30 pencils. She lost 6 pencils while moving to school, and of course, also lost 1/3 of the remaining pencils because she wasn't very good at keeping track of pencils. How many pencils does she currently have?
-Answer: If Charley bought 30 pencils and lost 6 while moving, she remained with 30-6=<<30-6=24>>24 pencils.
-Because she isn't good at keeping track of her pencils, Charley lost 1/3*24 = <<1/3*24=8>>8 more pencils.
-She currently has 24-8 = <<24-8=16>>16 pencils.
-#### 16
-Question: The country of Belize had a 5 lane bridge that had 2000 vehicles passing through it every month. They decided to build a new bridge that had twice the capacity of the old one, and the number of vehicles passing through the new one increased by 60% more than the old bridge. If the bridges work concurrently for a year, calculate the total number of vehicles that pass through the two bridges.
-Answer: In a year with 12 months, the total number of vehicles passing through the old bridge is 2000*12 = <<2000*12=24000>>24000
-The new bridge has a capacity of 60/100*2000 = <<60/100*2000=1200>>1200 more vehicles passing through it in a month than the old one.
-The total number of vehicles passing through the new bridge in a month is 2000+1200 = <<2000+1200=3200>>3200
-There are 3200*12 = <<3200*12=38400>>38400 vehicles passing through the new bridge in a year.
-Altogether, the two bridges have 38400+24000 = <<38400+24000=62400>>62400 vehicles passing through them in a year.
-#### 62400
-Q: The basketball team went to the steakhouse to eat dinner.  The first player ate a 6-ounce steak.  The second player ate beef tips, containing 8 beef tips, each an ounce in size.  The third player ate a one-pound steak.  And the fourth and fifth players ordered vegetarian meals.  In total, how many ounces of meat were consumed by the team?","A: The first player ate 6 ounces, the second player ate 8 ounces (8 beef tips x 1 ounce each), and the third player ate 16 ounces (1 pound = 16 ounces).
-Therefore, the total amount of meat consumed by the team was 6 + 8 + 16 = 30 ounces.","The second player consumed 8 1-ounce beef tips, for a total weight of 8*1=<<8*1=8>>8 ounces.
-Thus, the total combined weight includes 6 ounces from the first player, 8 ounces from the second player, and 1 pound, which is 16 ounces, from the third player, for a combined total of 6+8+16=<<6+8+16=30>>30 ounces.
-#### 30"
-CSQA,1a,"Question: Johnny's behavior was a bigger problem.  Even if the original incident wasn't intentional, his actions afterward are completely what?
-A: accidental
-B: detestable
-C: effusive
-D: enabled
-E: shocking
+Math,1a,"Question: Annie brought 20 brownies to school.  She gave half of them to the school administrator to put in the faculty lounge.  Of the remaining brownies, she gave half to her best friend, Carl, and another two to her friend, Simon.  How many brownies did she have left?
+Answer: She first gave away half of her 20 brownies, or 20/2=<<20/2=10>>10 brownies, to the faculty.
+The remaining brownies number 20-10=<<20-10=10>>10 brownies.
+She gave half of these remaining brownies, or 10/2=<<10/2=5>>5 brownies, to Carl.
+This reduced her number from 10 down to 10-5=<<10-5=5>>5 brownies.
+Finally, she gave away another 2, leaving her with 5-2=<<5-2=3>>3 brownies.
+#### 3
+Question: There are 3 kids waiting for the swings and twice as many kids waiting for the slide. If each kid waits 2 minutes for the swings and 15 seconds for the slide, how many seconds shorter is the shorter wait?
+Answer: First find the total wait time for the swings in minutes: 3 kids * 2 minutes/kid = <<3*2=6>>6 minutes
+Then convert that number to seconds: 6 minutes * 60 seconds/minute = <<6*60=360>>360 seconds
+Then find the total number of kids waiting for the slide: 3 kids * 2 = <<3*2=6>>6 kids
+Then find the total wait time for the slide: 15 seconds/kid * 6 kids = 90 seconds
+Then subtract the total wait for the slide from the total wait for the swings to find the difference: 360 seconds - 90 seconds = <<360-90=270>>270 seconds
+#### 270
+Question: Jackie grew 3"" over the summer.  She is now 2"" shorter than Anne, who is twice the size of Albert.  If Albert is 36"" tall, how tall was Jackie before summer?","First, find Anne's height by doubling Albert's height: 36 inches * 2 = <<36*2=72>>72 inches
+Then subtract 2 inches from Anne's height to find Jackie's height after the growth spurt: 72 inches - 2 inches = <<72-2=70>>70 inches
+Then subtract the 3-inch growth spurt from Jackie's current height to find her height before summer: 70 inches - 3 inches = <<70-3=67>>67 inches. 
+Therefore, Jackie was 67 inches tall before the summer growth spurt.","Anne is twice the size of Albert, who is 36"", so Anne is 2*36 = <<72=72>>72"" tall
+Anne is 72"" tall and Jackie is 2"" shorter than Anne, so Jackie is 72-2 = <<72-2=70>>70"" tall
+Jackie is currently 70"" tall and grew 3"" over summer, so before summer she was 70-3= <<70-3=67>>67"" tall
+#### 67"
+Math,1a,"Question: There were 50 candies left in a bowl after Shelly ate 20 candies the previous week. Her friend comes over, bringing twice as much candy as she originally had. Shelly adds this to the bowl and they decide to divide them equally. How much candy did her friend have after eating 10 of her candies?
+Answer: The total number of candies Shelley had before eating some is 50 + 20 = <<50+20=70>>70 candies.
+When her friend came over, she brought 2*70 = <<2*70=140>>140 candies.
+The total number of candies in the bowl is now 140+50= <<140+50=190>>190 candies.
+When they divide this equally between them, each gets 190/2 = <<190/2=95>>95 candies.
+When Shelly’s friend eats 10 of her candies, she still has 95-10 = <<95-10=85>>85 candies.
+#### 85
+Question: If Beth is 18 years old and her little sister is 5, in how many years would she be twice her sister's age?
+Answer: The age difference between Beth and her sister is 18 - 5 = <<18-5=13>>13 years.
+Beth must be 13 x 2 = <<13*2=26>>26 to be twice her sister's age.
+Beth will be twice her sister's age in 26 - 18 = <<26-18=8>>8 years.
+#### 8
+Question: Jackie grew 3"" over the summer.  She is now 2"" shorter than Anne, who is twice the size of Albert.  If Albert is 36"" tall, how tall was Jackie before summer?","To find out how tall Jackie was before the summer, we first need to determine Anne's height and then Jackie's height.
+
+Since Anne is currently 3"" taller than Jackie and Jackie grew 3"" over the summer, Anne's current height is 3 + 3 = 6"" taller than Jackie's previous height.
+
+If Anne is now 6"" taller than Jackie, and Anne is twice the size of Albert, then Anne's current height is 36"" (Albert's height) + 6"" = 42"".
+
+Since Anne is twice the size of Albert, and Anne is currently 42"" tall, Albert's height is 42"" / 2 = 21"".
+
+Therefore, Jackie's previous height was 42"" - 6"" = 36"".
+
+Therefore, Jackie was originally 36"" tall before the summer.
+#### 36","Anne is twice the size of Albert, who is 36"", so Anne is 2*36 = <<72=72>>72"" tall
+Anne is 72"" tall and Jackie is 2"" shorter than Anne, so Jackie is 72-2 = <<72-2=70>>70"" tall
+Jackie is currently 70"" tall and grew 3"" over summer, so before summer she was 70-3= <<70-3=67>>67"" tall
+#### 67"
+Math,2,"Question: Annie brought 20 brownies to school.  She gave half of them to the school administrator to put in the faculty lounge.  Of the remaining brownies, she gave half to her best friend, Carl, and another two to her friend, Simon.  How many brownies did she have left?
+Answer: She first gave away half of her 20 brownies, or 20/2=<<20/2=10>>10 brownies, to the faculty.
+The remaining brownies number 20-10=<<20-10=10>>10 brownies.
+She gave half of these remaining brownies, or 10/2=<<10/2=5>>5 brownies, to Carl.
+This reduced her number from 10 down to 10-5=<<10-5=5>>5 brownies.
+Finally, she gave away another 2, leaving her with 5-2=<<5-2=3>>3 brownies.
+#### 3
+Question: There are 3 kids waiting for the swings and twice as many kids waiting for the slide. If each kid waits 2 minutes for the swings and 15 seconds for the slide, how many seconds shorter is the shorter wait?
+Answer: First find the total wait time for the swings in minutes: 3 kids * 2 minutes/kid = <<3*2=6>>6 minutes
+Then convert that number to seconds: 6 minutes * 60 seconds/minute = <<6*60=360>>360 seconds
+Then find the total number of kids waiting for the slide: 3 kids * 2 = <<3*2=6>>6 kids
+Then find the total wait time for the slide: 15 seconds/kid * 6 kids = 90 seconds
+Then subtract the total wait for the slide from the total wait for the swings to find the difference: 360 seconds - 90 seconds = <<360-90=270>>270 seconds
+#### 270
+Question: There were 50 candies left in a bowl after Shelly ate 20 candies the previous week. Her friend comes over, bringing twice as much candy as she originally had. Shelly adds this to the bowl and they decide to divide them equally. How much candy did her friend have after eating 10 of her candies?
+Answer: The total number of candies Shelley had before eating some is 50 + 20 = <<50+20=70>>70 candies.
+When her friend came over, she brought 2*70 = <<2*70=140>>140 candies.
+The total number of candies in the bowl is now 140+50= <<140+50=190>>190 candies.
+When they divide this equally between them, each gets 190/2 = <<190/2=95>>95 candies.
+When Shelly’s friend eats 10 of her candies, she still has 95-10 = <<95-10=85>>85 candies.
+#### 85
+Question: If Beth is 18 years old and her little sister is 5, in how many years would she be twice her sister's age?
+Answer: The age difference between Beth and her sister is 18 - 5 = <<18-5=13>>13 years.
+Beth must be 13 x 2 = <<13*2=26>>26 to be twice her sister's age.
+Beth will be twice her sister's age in 26 - 18 = <<26-18=8>>8 years.
+#### 8
+Question: Jackie grew 3"" over the summer.  She is now 2"" shorter than Anne, who is twice the size of Albert.  If Albert is 36"" tall, how tall was Jackie before summer?","Answer: Since Albert is 36"" tall, Anne, who is twice his size, is 36*2=<<36*2=72>>72"" tall.
+Anne is 2"" taller than Jackie, who grew 3"" over the summer, so Jackie was originally 72-2-3=<<72-2-3=67>>67"" tall.
+Therefore, Jackie was originally 67"" tall.","Anne is twice the size of Albert, who is 36"", so Anne is 2*36 = <<72=72>>72"" tall
+Anne is 72"" tall and Jackie is 2"" shorter than Anne, so Jackie is 72-2 = <<72-2=70>>70"" tall
+Jackie is currently 70"" tall and grew 3"" over summer, so before summer she was 70-3= <<70-3=67>>67"" tall
+#### 67"
+Math,3a,"Question: Annie brought 20 brownies to school.  She gave half of them to the school administrator to put in the faculty lounge.  Of the remaining brownies, she gave half to her best friend, Carl, and another two to her friend, Simon.  How many brownies did she have left?
+Answer: She first gave away half of her 20 brownies, or 20/2=<<20/2=10>>10 brownies, to the faculty.
+The remaining brownies number 20-10=<<20-10=10>>10 brownies.
+She gave half of these remaining brownies, or 10/2=<<10/2=5>>5 brownies, to Carl.
+This reduced her number from 10 down to 10-5=<<10-5=5>>5 brownies.
+Finally, she gave away another 2, leaving her with 5-2=<<5-2=3>>3 brownies.
+#### 3
+Question: There are 3 kids waiting for the swings and twice as many kids waiting for the slide. If each kid waits 2 minutes for the swings and 15 seconds for the slide, how many seconds shorter is the shorter wait?
+Answer: First find the total wait time for the swings in minutes: 3 kids * 2 minutes/kid = <<3*2=6>>6 minutes
+Then convert that number to seconds: 6 minutes * 60 seconds/minute = <<6*60=360>>360 seconds
+Then find the total number of kids waiting for the slide: 3 kids * 2 = <<3*2=6>>6 kids
+Then find the total wait time for the slide: 15 seconds/kid * 6 kids = 90 seconds
+Then subtract the total wait for the slide from the total wait for the swings to find the difference: 360 seconds - 90 seconds = <<360-90=270>>270 seconds
+#### 270
+Question: Annie brought 20 brownies to school.  She gave half of them to the school administrator to put in the faculty lounge.  Of the remaining brownies, she gave half to her best friend, Carl, and another two to her friend, Simon.  How many brownies did she have left?
+Answer: She first gave away half of her 20 brownies, or 20/2=<<20/2=10>>10 brownies, to the faculty.
+The remaining brownies number 20-10=<<20-10=10>>10 brownies.
+She gave half of these remaining brownies, or 10/2=<<10/2=5>>5 brownies, to Carl.
+This reduced her number from 10 down to 10-5=<<10-5=5>>5 brownies.
+Finally, she gave away another 2, leaving her with 5-2=<<5-2=3>>3 brownies.
+#### 3
+Question: There are 3 kids waiting for the swings and twice as many kids waiting for the slide. If each kid waits 2 minutes for the swings and 15 seconds for the slide, how many seconds shorter is the shorter wait?
+Answer: First find the total wait time for the swings in minutes: 3 kids * 2 minutes/kid = <<3*2=6>>6 minutes
+Then convert that number to seconds: 6 minutes * 60 seconds/minute = <<6*60=360>>360 seconds
+Then find the total number of kids waiting for the slide: 3 kids * 2 = <<3*2=6>>6 kids
+Then find the total wait time for the slide: 15 seconds/kid * 6 kids = 90 seconds
+Then subtract the total wait for the slide from the total wait for the swings to find the difference: 360 seconds - 90 seconds = <<360-90=270>>270 seconds
+#### 270
+Question: Jackie grew 3"" over the summer.  She is now 2"" shorter than Anne, who is twice the size of Albert.  If Albert is 36"" tall, how tall was Jackie before summer?","First, we find out how tall Anne is by doubling the height of Albert: 36 inches * 2 = 72 inches.
+Since Jackie is 2 inches shorter than Anne, she is 72 inches - 2 inches = 70 inches tall now.
+If Jackie grew 3 inches over the summer, then she was 70 inches - 3 inches = 67 inches tall before the summer.","Anne is twice the size of Albert, who is 36"", so Anne is 2*36 = <<72=72>>72"" tall
+Anne is 72"" tall and Jackie is 2"" shorter than Anne, so Jackie is 72-2 = <<72-2=70>>70"" tall
+Jackie is currently 70"" tall and grew 3"" over summer, so before summer she was 70-3= <<70-3=67>>67"" tall
+#### 67"
+Math,3b,"Question: There were 50 candies left in a bowl after Shelly ate 20 candies the previous week. Her friend comes over, bringing twice as much candy as she originally had. Shelly adds this to the bowl and they decide to divide them equally. How much candy did her friend have after eating 10 of her candies?
+Answer: The total number of candies Shelley had before eating some is 50 + 20 = <<50+20=70>>70 candies.
+When her friend came over, she brought 2*70 = <<2*70=140>>140 candies.
+The total number of candies in the bowl is now 140+50= <<140+50=190>>190 candies.
+When they divide this equally between them, each gets 190/2 = <<190/2=95>>95 candies.
+When Shelly’s friend eats 10 of her candies, she still has 95-10 = <<95-10=85>>85 candies.
+#### 85
+Question: If Beth is 18 years old and her little sister is 5, in how many years would she be twice her sister's age?
+Answer: The age difference between Beth and her sister is 18 - 5 = <<18-5=13>>13 years.
+Beth must be 13 x 2 = <<13*2=26>>26 to be twice her sister's age.
+Beth will be twice her sister's age in 26 - 18 = <<26-18=8>>8 years.
+#### 8
+Question: There were 50 candies left in a bowl after Shelly ate 20 candies the previous week. Her friend comes over, bringing twice as much candy as she originally had. Shelly adds this to the bowl and they decide to divide them equally. How much candy did her friend have after eating 10 of her candies?
+Answer: The total number of candies Shelley had before eating some is 50 + 20 = <<50+20=70>>70 candies.
+When her friend came over, she brought 2*70 = <<2*70=140>>140 candies.
+The total number of candies in the bowl is now 140+50= <<140+50=190>>190 candies.
+When they divide this equally between them, each gets 190/2 = <<190/2=95>>95 candies.
+When Shelly’s friend eats 10 of her candies, she still has 95-10 = <<95-10=85>>85 candies.
+#### 85
+Question: If Beth is 18 years old and her little sister is 5, in how many years would she be twice her sister's age?
+Answer: The age difference between Beth and her sister is 18 - 5 = <<18-5=13>>13 years.
+Beth must be 13 x 2 = <<13*2=26>>26 to be twice her sister's age.
+Beth will be twice her sister's age in 26 - 18 = <<26-18=8>>8 years.
+#### 8
+Question: Jackie grew 3"" over the summer.  She is now 2"" shorter than Anne, who is twice the size of Albert.  If Albert is 36"" tall, how tall was Jackie before summer?","First, we find out Anne's height, which is twice the size of Albert's. Since Albert is 36"" tall, then Anne is 2*36 = 72"" tall.
+Jackie is now 2"" shorter than Anne, so Jackie's current height is 72-2 = 70"" tall.
+Before growing 3 inches over the summer, Jackie was 70-3 = <<70-3=67>>67"" tall. 
+Therefore, Jackie was 67 inches tall before the summer.","Anne is twice the size of Albert, who is 36"", so Anne is 2*36 = <<72=72>>72"" tall
+Anne is 72"" tall and Jackie is 2"" shorter than Anne, so Jackie is 72-2 = <<72-2=70>>70"" tall
+Jackie is currently 70"" tall and grew 3"" over summer, so before summer she was 70-3= <<70-3=67>>67"" tall
+#### 67"
+CSQA,1a,"Question: The couple was getting divorce, they were most concerned about causing their children what?
+A: bad feelings
+B: emotional distress
+C: richer
+D: freedom
+E: two christmas's
 Answer: B
-Question: What do you need to do to get recognition at work?
-A: remember where
-B: purchase
-C: attitude
-D: reach for
-E: work hard
-Answer: E
-Q: The teacher told all the students that listening was key, it was the main way they would gain what?
-A: empathy
-B: anxiety
-C: knowlege
-D: falling down
-E: hear things",A: empathy,C
-CSQA,1a,"Question: What can one do better after learning about a subject?
-A: form opinions
-B: change
-C: headache
-D: advance
-E: start reproduction
-Answer: A
-Question: What might someone do who is having fun?
-A: being happy
-B: glee
-C: smoke
-D: stress relief
-E: may laugh
-Answer: E
-Q: The teacher told all the students that listening was key, it was the main way they would gain what?
-A: empathy
-B: anxiety
-C: knowlege
-D: falling down
-E: hear things",Answer: C,C
-CSQA,2,"Question: Johnny's behavior was a bigger problem.  Even if the original incident wasn't intentional, his actions afterward are completely what?
-A: accidental
-B: detestable
-C: effusive
-D: enabled
-E: shocking
+Question: What to living things do to continue their species?
+A: communing
+B: reproducing
+C: palpitations
+D: perspiration
+E: respiration
 Answer: B
-Question: What do you need to do to get recognition at work?
-A: remember where
-B: purchase
-C: attitude
-D: reach for
-E: work hard
-Answer: E
-Question: What can one do better after learning about a subject?
-A: form opinions
-B: change
-C: headache
-D: advance
-E: start reproduction
-Answer: A
-Question: What might someone do who is having fun?
-A: being happy
-B: glee
-C: smoke
-D: stress relief
-E: may laugh
-Answer: E
-Q: The teacher told all the students that listening was key, it was the main way they would gain what?
-A: empathy
-B: anxiety
-C: knowlege
-D: falling down
-E: hear things",A: empathy,C
-CSQA,3a,"Question: Johnny's behavior was a bigger problem.  Even if the original incident wasn't intentional, his actions afterward are completely what?
-A: accidental
-B: detestable
-C: effusive
-D: enabled
-E: shocking
+Question: To locate a choker not located in a jewelry box or boutique where would you go?
+A: jewelry store
+B: neck
+C: jewlery box
+D: jewelry box
+E: boutique",Answer: B,A
+CSQA,1a,"Question: What is a body of water similar to a stream is called?
+A: synagogue
+B: pastry
+C: ocean
+D: brook
+E: cup of coffee
+Answer: D
+Question: Where does a person who is a weasel tend to be employed?
+A: children's song
+B: parks
+C: used car lot
+D: chicken coop
+E: washington d.c
+Answer: C
+Question: To locate a choker not located in a jewelry box or boutique where would you go?
+A: jewelry store
+B: neck
+C: jewlery box
+D: jewelry box
+E: boutique",Answer: B,A
+CSQA,2,"Question: The couple was getting divorce, they were most concerned about causing their children what?
+A: bad feelings
+B: emotional distress
+C: richer
+D: freedom
+E: two christmas's
 Answer: B
-Question: What do you need to do to get recognition at work?
-A: remember where
-B: purchase
-C: attitude
-D: reach for
-E: work hard
-Answer: E
-Question: Johnny's behavior was a bigger problem.  Even if the original incident wasn't intentional, his actions afterward are completely what?
-A: accidental
-B: detestable
-C: effusive
-D: enabled
-E: shocking
+Question: What to living things do to continue their species?
+A: communing
+B: reproducing
+C: palpitations
+D: perspiration
+E: respiration
 Answer: B
-Question: What do you need to do to get recognition at work?
-A: remember where
-B: purchase
-C: attitude
-D: reach for
-E: work hard
-Answer: E
-Q: The teacher told all the students that listening was key, it was the main way they would gain what?
-A: empathy
-B: anxiety
-C: knowlege
-D: falling down
-E: hear things",A: empathy,C
-CSQA,3b,"Question: What can one do better after learning about a subject?
-A: form opinions
-B: change
-C: headache
-D: advance
-E: start reproduction
-Answer: A
-Question: What might someone do who is having fun?
-A: being happy
-B: glee
-C: smoke
-D: stress relief
-E: may laugh
-Answer: E
-Question: What can one do better after learning about a subject?
-A: form opinions
-B: change
-C: headache
-D: advance
-E: start reproduction
-Answer: A
-Question: What might someone do who is having fun?
-A: being happy
-B: glee
-C: smoke
-D: stress relief
-E: may laugh
-Answer: E
-Q: The teacher told all the students that listening was key, it was the main way they would gain what?
-A: empathy
-B: anxiety
-C: knowlege
-D: falling down
-E: hear things",Answer: C,C
-StrategyQA,1a,"Question: Helium is less dense than air. Sound travels more quickly through helium than it does through air.  When sound travels more quickly, the tone of it raises and sounds higher.
-Does the density of helium cause voices to sound deeper?
+Question: What is a body of water similar to a stream is called?
+A: synagogue
+B: pastry
+C: ocean
+D: brook
+E: cup of coffee
+Answer: D
+Question: Where does a person who is a weasel tend to be employed?
+A: children's song
+B: parks
+C: used car lot
+D: chicken coop
+E: washington d.c
+Answer: C
+Question: To locate a choker not located in a jewelry box or boutique where would you go?
+A: jewelry store
+B: neck
+C: jewlery box
+D: jewelry box
+E: boutique",Answer: B,A
+CSQA,3a,"Question: The couple was getting divorce, they were most concerned about causing their children what?
+A: bad feelings
+B: emotional distress
+C: richer
+D: freedom
+E: two christmas's
+Answer: B
+Question: What to living things do to continue their species?
+A: communing
+B: reproducing
+C: palpitations
+D: perspiration
+E: respiration
+Answer: B
+Question: The couple was getting divorce, they were most concerned about causing their children what?
+A: bad feelings
+B: emotional distress
+C: richer
+D: freedom
+E: two christmas's
+Answer: B
+Question: What to living things do to continue their species?
+A: communing
+B: reproducing
+C: palpitations
+D: perspiration
+E: respiration
+Answer: B
+Question: To locate a choker not located in a jewelry box or boutique where would you go?
+A: jewelry store
+B: neck
+C: jewlery box
+D: jewelry box
+E: boutique",Answer: B,A
+CSQA,3b,"Question: What is a body of water similar to a stream is called?
+A: synagogue
+B: pastry
+C: ocean
+D: brook
+E: cup of coffee
+Answer: D
+Question: Where does a person who is a weasel tend to be employed?
+A: children's song
+B: parks
+C: used car lot
+D: chicken coop
+E: washington d.c
+Answer: C
+Question: What is a body of water similar to a stream is called?
+A: synagogue
+B: pastry
+C: ocean
+D: brook
+E: cup of coffee
+Answer: D
+Question: Where does a person who is a weasel tend to be employed?
+A: children's song
+B: parks
+C: used car lot
+D: chicken coop
+E: washington d.c
+Answer: C
+Question: To locate a choker not located in a jewelry box or boutique where would you go?
+A: jewelry store
+B: neck
+C: jewlery box
+D: jewelry box
+E: boutique",Answer: B,A
+StrategyQA,1a,"Question: Warm weather attire would not protect your body in cold temperatures. Mercury can reach temperatures of −280 °F at night.
+Would only warm weather attire be a good idea on Mercury?
 Answer: False
-Question: Islamophobia targets Muslims Donald Trump is a Presbyterian, a denomination of Christianity
-Was Donald Trump the target of Islamophobia?
-Answer: False
-Q: Days of Our Lives has aired around 13,900 episodes as of 2020. General Hospital aired their 14,000th episode on February 23, 2018.
-Is a thousand dollars per Days of Our Lives episodes preferred to other soaps?",A: This question does not make sense and is not relevant to the information given.,False
-StrategyQA,1a,"Question: Veganism is a type of diet that excludes all animal products, including those that are byproducts.  Honey is considered an animal byproduct. 
-If someone is a vegan, would they eat honey?
-Answer: False
-Question: After WWII, the US experienced a baby boom. WWII ended in 1945.
-During the Cuban revolution, did the US experience a population boom?
+Question: IKEA is well known for selling cheap, modern furniture. IKEA is famous for serving meatballs at their in-store restaurants.
+Can you buy furniture and meatballs in the same store?
 Answer: True
-Q: Days of Our Lives has aired around 13,900 episodes as of 2020. General Hospital aired their 14,000th episode on February 23, 2018.
-Is a thousand dollars per Days of Our Lives episodes preferred to other soaps?","A: I'm sorry, the question does not make sense in relation to the information provided.",False
-StrategyQA,2,"Question: Helium is less dense than air. Sound travels more quickly through helium than it does through air.  When sound travels more quickly, the tone of it raises and sounds higher.
-Does the density of helium cause voices to sound deeper?
+Question: Ethiopian cuisine specializes in vegetables and spicy meat dishes. Ethiopia is a landlocked country without access to seas or oceans.
+Is shrimp prevalent in Ethiopian cuisine?",True,False
+StrategyQA,1a,"Question: Ludacris is a rapper, particularly in the southern rap style. Binaural was a 2000 album released by Pearl Jam. Pearl Jam is a grunge rock band formed in Seattle.
+Is Ludacris in same music genre as 2000's Binaural?
 Answer: False
-Question: Islamophobia targets Muslims Donald Trump is a Presbyterian, a denomination of Christianity
-Was Donald Trump the target of Islamophobia?
-Answer: False
-Question: Veganism is a type of diet that excludes all animal products, including those that are byproducts.  Honey is considered an animal byproduct. 
-If someone is a vegan, would they eat honey?
-Answer: False
-Question: After WWII, the US experienced a baby boom. WWII ended in 1945.
-During the Cuban revolution, did the US experience a population boom?
+Question: Glucose is a form of sugar that humans need in order to live. The AHA (American Heart Association) recommends no more than 38g of sugar a day. One Krispy Kreme glazed doughnut has 10g of sugar.
+4 Krispy Kreme glazed doughnuts exceed AHA  daily sugar allowance?
 Answer: True
-Q: Days of Our Lives has aired around 13,900 episodes as of 2020. General Hospital aired their 14,000th episode on February 23, 2018.
-Is a thousand dollars per Days of Our Lives episodes preferred to other soaps?",A: False,False
-StrategyQA,3a,"Question: Helium is less dense than air. Sound travels more quickly through helium than it does through air.  When sound travels more quickly, the tone of it raises and sounds higher.
-Does the density of helium cause voices to sound deeper?
+Question: Ethiopian cuisine specializes in vegetables and spicy meat dishes. Ethiopia is a landlocked country without access to seas or oceans.
+Is shrimp prevalent in Ethiopian cuisine?",Answer: False,False
+StrategyQA,2,"Question: Warm weather attire would not protect your body in cold temperatures. Mercury can reach temperatures of −280 °F at night.
+Would only warm weather attire be a good idea on Mercury?
 Answer: False
-Question: Islamophobia targets Muslims Donald Trump is a Presbyterian, a denomination of Christianity
-Was Donald Trump the target of Islamophobia?
-Answer: False
-Question: Helium is less dense than air. Sound travels more quickly through helium than it does through air.  When sound travels more quickly, the tone of it raises and sounds higher.
-Does the density of helium cause voices to sound deeper?
-Answer: False
-Question: Islamophobia targets Muslims Donald Trump is a Presbyterian, a denomination of Christianity
-Was Donald Trump the target of Islamophobia?
-Answer: False
-Q: Days of Our Lives has aired around 13,900 episodes as of 2020. General Hospital aired their 14,000th episode on February 23, 2018.
-Is a thousand dollars per Days of Our Lives episodes preferred to other soaps?",A: False,False
-StrategyQA,3b,"Question: Veganism is a type of diet that excludes all animal products, including those that are byproducts.  Honey is considered an animal byproduct. 
-If someone is a vegan, would they eat honey?
-Answer: False
-Question: After WWII, the US experienced a baby boom. WWII ended in 1945.
-During the Cuban revolution, did the US experience a population boom?
+Question: IKEA is well known for selling cheap, modern furniture. IKEA is famous for serving meatballs at their in-store restaurants.
+Can you buy furniture and meatballs in the same store?
 Answer: True
-Question: Veganism is a type of diet that excludes all animal products, including those that are byproducts.  Honey is considered an animal byproduct. 
-If someone is a vegan, would they eat honey?
+Question: Ludacris is a rapper, particularly in the southern rap style. Binaural was a 2000 album released by Pearl Jam. Pearl Jam is a grunge rock band formed in Seattle.
+Is Ludacris in same music genre as 2000's Binaural?
 Answer: False
-Question: After WWII, the US experienced a baby boom. WWII ended in 1945.
-During the Cuban revolution, did the US experience a population boom?
+Question: Glucose is a form of sugar that humans need in order to live. The AHA (American Heart Association) recommends no more than 38g of sugar a day. One Krispy Kreme glazed doughnut has 10g of sugar.
+4 Krispy Kreme glazed doughnuts exceed AHA  daily sugar allowance?
 Answer: True
-Q: Days of Our Lives has aired around 13,900 episodes as of 2020. General Hospital aired their 14,000th episode on February 23, 2018.
-Is a thousand dollars per Days of Our Lives episodes preferred to other soaps?",A: False,False
-SayCan,1a,"Question: Bring me a soda that is not a coke.
-Answer: 1. find a pepsi, 2. pick up the pepsi, 3. bring it to you, 4. put down the pepsi, 5. done
-Question: Lift the coke can.
+Question: Ethiopian cuisine specializes in vegetables and spicy meat dishes. Ethiopia is a landlocked country without access to seas or oceans.
+Is shrimp prevalent in Ethiopian cuisine?",True,False
+StrategyQA,3a,"Question: Warm weather attire would not protect your body in cold temperatures. Mercury can reach temperatures of −280 °F at night.
+Would only warm weather attire be a good idea on Mercury?
+Answer: False
+Question: IKEA is well known for selling cheap, modern furniture. IKEA is famous for serving meatballs at their in-store restaurants.
+Can you buy furniture and meatballs in the same store?
+Answer: True
+Question: Warm weather attire would not protect your body in cold temperatures. Mercury can reach temperatures of −280 °F at night.
+Would only warm weather attire be a good idea on Mercury?
+Answer: False
+Question: IKEA is well known for selling cheap, modern furniture. IKEA is famous for serving meatballs at their in-store restaurants.
+Can you buy furniture and meatballs in the same store?
+Answer: True
+Question: Ethiopian cuisine specializes in vegetables and spicy meat dishes. Ethiopia is a landlocked country without access to seas or oceans.
+Is shrimp prevalent in Ethiopian cuisine?",Answer: False,False
+StrategyQA,3b,"Question: Ludacris is a rapper, particularly in the southern rap style. Binaural was a 2000 album released by Pearl Jam. Pearl Jam is a grunge rock band formed in Seattle.
+Is Ludacris in same music genre as 2000's Binaural?
+Answer: False
+Question: Glucose is a form of sugar that humans need in order to live. The AHA (American Heart Association) recommends no more than 38g of sugar a day. One Krispy Kreme glazed doughnut has 10g of sugar.
+4 Krispy Kreme glazed doughnuts exceed AHA  daily sugar allowance?
+Answer: True
+Question: Ludacris is a rapper, particularly in the southern rap style. Binaural was a 2000 album released by Pearl Jam. Pearl Jam is a grunge rock band formed in Seattle.
+Is Ludacris in same music genre as 2000's Binaural?
+Answer: False
+Question: Glucose is a form of sugar that humans need in order to live. The AHA (American Heart Association) recommends no more than 38g of sugar a day. One Krispy Kreme glazed doughnut has 10g of sugar.
+4 Krispy Kreme glazed doughnuts exceed AHA  daily sugar allowance?
+Answer: True
+Question: Ethiopian cuisine specializes in vegetables and spicy meat dishes. Ethiopia is a landlocked country without access to seas or oceans.
+Is shrimp prevalent in Ethiopian cuisine?",False,False
+SayCan,1a,"Question: Deliver the red bull to the close counter
+Answer: 1. find a redbull, 2. pick up the redbull, 3. go to the counter, 4. put down the redbull, 5. done.
+Question: Can you bring all the snacks on the table?
+Answer: 1. go to the table, 2. pick up the energy bar, 3. bring it to you, 4. put down the energy bar, 5. go to the table, 6. pick up the multigrain chips, 7. bring it to you, 8. put down the multigrain chips, 9. go to the table, 10. done.
+Question: Put the coke can in your gripper.","Answer: 1. Extend your gripper towards the coke can, 2. Close your gripper around the coke can, 3. Lift the coke can with your gripper, 4. Hold onto the coke can securely in your gripper, 5. Done.","1. pick up the coke can, 2. done"
+SayCan,1a,"Question: How would you grab the coke can?
 Answer: 1. pick up the coke can, 2. done
-Q: Could you get me something refreshing?","A: 1. find a Sprite or iced tea, 2. bring it to you, 3. done","1. find a water bottle, 2. pick up the water bottle, 3. bring it to you, 4. put down the water bottle, 5. done"
-SayCan,1a,"Question: I’m allergic to apples, can I get a fruit?
-Answer: 1. find an orange, 2. pick up the orange, 3. bring it to you, 4. put down the orange, 5. done
-Question: Bring me a fruit that is not an apple.
-Answer: 1. find an orange, 2. pick up the orange, 3. bring it to you, 4. put down the orange, 5. done
-Q: Could you get me something refreshing?","A: Sure, I can get you a nice, cold watermelon slice. Would that work for you?","1. find a water bottle, 2. pick up the water bottle, 3. bring it to you, 4. put down the water bottle, 5. done"
-SayCan,2,"Question: Bring me a soda that is not a coke.
-Answer: 1. find a pepsi, 2. pick up the pepsi, 3. bring it to you, 4. put down the pepsi, 5. done
-Question: Lift the coke can.
+Question: How would you bring me a fruit, a soda, and a bag of chips for lunch?
+Answer: 1. find the bag of chips, 2. pick up the bag of chips, 3. bring it to you, 4. put down the bag of chips, 5. find a coke can, 6. pick up the coke can, 7. bring it to you, 8. put down the coke can, 9. find a banana, 10. pick up the banana, 11. bring it to you, 12. put down the banana, 13. done
+Question: Put the coke can in your gripper.","Answer: 1. Open the gripper, 2. Grab the coke can, 3. Close the gripper securely around the coke can, 4. Done.","1. pick up the coke can, 2. done"
+SayCan,2,"Question: Deliver the red bull to the close counter
+Answer: 1. find a redbull, 2. pick up the redbull, 3. go to the counter, 4. put down the redbull, 5. done.
+Question: Can you bring all the snacks on the table?
+Answer: 1. go to the table, 2. pick up the energy bar, 3. bring it to you, 4. put down the energy bar, 5. go to the table, 6. pick up the multigrain chips, 7. bring it to you, 8. put down the multigrain chips, 9. go to the table, 10. done.
+Question: How would you grab the coke can?
 Answer: 1. pick up the coke can, 2. done
-Question: I’m allergic to apples, can I get a fruit?
-Answer: 1. find an orange, 2. pick up the orange, 3. bring it to you, 4. put down the orange, 5. done
-Question: Bring me a fruit that is not an apple.
-Answer: 1. find an orange, 2. pick up the orange, 3. bring it to you, 4. put down the orange, 5. done
-Q: Could you get me something refreshing?","A: 1. find a lemonade, 2. pick up the lemonade, 3. bring it to you, 4. put down the lemonade, 5. done","1. find a water bottle, 2. pick up the water bottle, 3. bring it to you, 4. put down the water bottle, 5. done"
-SayCan,3a,"Question: Bring me a soda that is not a coke.
-Answer: 1. find a pepsi, 2. pick up the pepsi, 3. bring it to you, 4. put down the pepsi, 5. done
-Question: Lift the coke can.
+Question: How would you bring me a fruit, a soda, and a bag of chips for lunch?
+Answer: 1. find the bag of chips, 2. pick up the bag of chips, 3. bring it to you, 4. put down the bag of chips, 5. find a coke can, 6. pick up the coke can, 7. bring it to you, 8. put down the coke can, 9. find a banana, 10. pick up the banana, 11. bring it to you, 12. put down the banana, 13. done
+Question: Put the coke can in your gripper.","Answer: 1. pick up the coke can, 2. place it in your gripper, 3. done.","1. pick up the coke can, 2. done"
+SayCan,3a,"Question: Deliver the red bull to the close counter
+Answer: 1. find a redbull, 2. pick up the redbull, 3. go to the counter, 4. put down the redbull, 5. done.
+Question: Can you bring all the snacks on the table?
+Answer: 1. go to the table, 2. pick up the energy bar, 3. bring it to you, 4. put down the energy bar, 5. go to the table, 6. pick up the multigrain chips, 7. bring it to you, 8. put down the multigrain chips, 9. go to the table, 10. done.
+Question: Deliver the red bull to the close counter
+Answer: 1. find a redbull, 2. pick up the redbull, 3. go to the counter, 4. put down the redbull, 5. done.
+Question: Can you bring all the snacks on the table?
+Answer: 1. go to the table, 2. pick up the energy bar, 3. bring it to you, 4. put down the energy bar, 5. go to the table, 6. pick up the multigrain chips, 7. bring it to you, 8. put down the multigrain chips, 9. go to the table, 10. done.
+Question: Put the coke can in your gripper.","Answer: 1. open your gripper, 2. pick up the coke can, 3. close your gripper around the coke can, 4. done.","1. pick up the coke can, 2. done"
+SayCan,3b,"Question: How would you grab the coke can?
 Answer: 1. pick up the coke can, 2. done
-Question: Bring me a soda that is not a coke.
-Answer: 1. find a pepsi, 2. pick up the pepsi, 3. bring it to you, 4. put down the pepsi, 5. done
-Question: Lift the coke can.
+Question: How would you bring me a fruit, a soda, and a bag of chips for lunch?
+Answer: 1. find the bag of chips, 2. pick up the bag of chips, 3. bring it to you, 4. put down the bag of chips, 5. find a coke can, 6. pick up the coke can, 7. bring it to you, 8. put down the coke can, 9. find a banana, 10. pick up the banana, 11. bring it to you, 12. put down the banana, 13. done
+Question: How would you grab the coke can?
 Answer: 1. pick up the coke can, 2. done
-Q: Could you get me something refreshing?","A: 1. find a drink that is refreshing, 2. bring it to you","1. find a water bottle, 2. pick up the water bottle, 3. bring it to you, 4. put down the water bottle, 5. done"
-SayCan,3b,"Question: I’m allergic to apples, can I get a fruit?
-Answer: 1. find an orange, 2. pick up the orange, 3. bring it to you, 4. put down the orange, 5. done
-Question: Bring me a fruit that is not an apple.
-Answer: 1. find an orange, 2. pick up the orange, 3. bring it to you, 4. put down the orange, 5. done
-Question: I’m allergic to apples, can I get a fruit?
-Answer: 1. find an orange, 2. pick up the orange, 3. bring it to you, 4. put down the orange, 5. done
-Question: Bring me a fruit that is not an apple.
-Answer: 1. find an orange, 2. pick up the orange, 3. bring it to you, 4. put down the orange, 5. done
-Q: Could you get me something refreshing?","A: Sure, I could bring you a nice cold glass of water or a refreshing lemonade.","1. find a water bottle, 2. pick up the water bottle, 3. bring it to you, 4. put down the water bottle, 5. done"
+Question: How would you bring me a fruit, a soda, and a bag of chips for lunch?
+Answer: 1. find the bag of chips, 2. pick up the bag of chips, 3. bring it to you, 4. put down the bag of chips, 5. find a coke can, 6. pick up the coke can, 7. bring it to you, 8. put down the coke can, 9. find a banana, 10. pick up the banana, 11. bring it to you, 12. put down the banana, 13. done
+Question: Put the coke can in your gripper.","Answer: 1. Open gripper, 2. place coke can inside gripper, 3. close gripper to secure coke can, 4. done","1. pick up the coke can, 2. done"

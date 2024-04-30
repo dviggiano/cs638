@@ -1,404 +1,361 @@
 Task Class,Case,Prompt,Response,Expected
-Math,1a,"Question: Pat is having a picnic with her family. She has 42 cookies. She also has 63 pieces of candy and 21 brownies. There are 7 people in her family. If each person gets the same number of each dessert, how much will each person get?
-Answer: Each person gets 42 cookies / 7 people = <<42/7=6>>6 cookies.
-Each person gets 63 pieces of candy / 7 people = <<63/7=9>>9 pieces of candy.
-Each person gets 21 brownies / 7 people = <<21/7=3>>3 brownies.
-Each person will get 6 + 9 + 3 = <<6+9+3=18>>18 desserts.
-#### 18
-Question: Mrs. Gable’s third grade class is on a field trip to the beach. For lunch, Mrs. Gable brought 20 lunches for the 20 students in her class. She included a pack of animal crackers in each lunch bag for dessert. Each pack of animal crackers contained 10 animal crackers. If 2 students did not eat their animal crackers, how many animal crackers were eaten in total among Mrs. Gable’s students?
-Answer: Since 2 students did not eat their animal crackers, 20 - 2 = <<20-2=18>>18 students ate their animal crackers.
-The students ate a total of 18 * 10 =<<18*10=180>>180 animal crackers
-#### 180
-Q: Suzie loves to chew fruit-flavored gum. She bought four packs of gum the last time she was at the store. She got two packs of her favorite flavor, strawberry. She paid $2 for a pack of grape gum that she also liked. She wanted to try something new, so she paid half as much for a small pack of green apple gum. If she paid $7 in all, how many dollars did each pack of strawberry gum cost?","Let's denote the cost of each pack of strawberry gum as x.
-
-Since she bought 2 packs of strawberry gum, the total cost for them would be 2x.
-
-She bought 1 pack of grape gum for $2, and 1 pack of green apple gum for $1 (half the price of the grape gum).
-
-So, the total cost of all the gum she bought is 2x + $2 + $1 = $7.
-
-This can be written as:
-2x + 2 + 1 = 7
-2x + 3 = 7
-2x = 7 - 3
-2x = 4
-x = 4 / 2
-x = 2
-
-Therefore, each pack of strawberry gum cost $2.
-#### Each pack of strawberry gum cost $2.","The green apple gum cost half as much as the $2 grape gum, so it cost 2 / 2 = $<<2/2=1>>1.
-Thus, the two packs of strawberry gum cost 7 - 2 - 1 = $<<7-2-1=4>>4.
-Therefore, each pack of strawberry gum cost 4 / 2 = $<<4/2=2>>2.
-#### 2"
-Math,1a,"Question: Bryan bought three different bottles of milk. The bottles contain the following volumes of milk: 2 liters, 750 milliliters, 250 milliliters. How many liters of milk did Bryan buy in total?
-Answer: Bryan bought a total of 750 + 250 = <<750+250=1000>>1000 milliliters of milk from the two smaller bottles.
-Since 1 liter is equal to 1000 milliliters, then 1000 milliliters is equal to 1000/1000 = <<1000/1000=1>>1 liter.
-Therefore, Bryan bought a total of 2 + 1 = <<2+1=3>>3 liters of milk.
-#### 3
-Question: Darlene's car gets 20 miles/gallon. Martha's car gets half as many miles per gallon as Darlene’s car. How many gallons does Martha’s car require to make a 300-mile trip?
-Answer: Martha’s car gets 20/2 = <<20/2=10>>10 miles per gallon.
-Total gallons Martha’s car requires is 300/10 = <<300/10=30>>30 gallons.
-#### 30
-Q: Suzie loves to chew fruit-flavored gum. She bought four packs of gum the last time she was at the store. She got two packs of her favorite flavor, strawberry. She paid $2 for a pack of grape gum that she also liked. She wanted to try something new, so she paid half as much for a small pack of green apple gum. If she paid $7 in all, how many dollars did each pack of strawberry gum cost?","Let's denote the cost of each pack of strawberry gum as x.
-
-Suzie bought 2 packs of her favorite flavor, so she spent 2*x dollars on those.
-
-She paid $2 for a pack of grape gum and half as much for a pack of green apple gum, which means she paid $1 for the green apple gum.
-
-In total, she spent 2*x + $2 + $1 = $7.
-
-Combining like terms, we get 2*x + $3 = $7.
-
-Subtracting $3 from both sides, we get 2*x = $4.
-
-Dividing by 2, we find x = $2.
-
-Each pack of strawberry gum cost $2.","The green apple gum cost half as much as the $2 grape gum, so it cost 2 / 2 = $<<2/2=1>>1.
-Thus, the two packs of strawberry gum cost 7 - 2 - 1 = $<<7-2-1=4>>4.
-Therefore, each pack of strawberry gum cost 4 / 2 = $<<4/2=2>>2.
-#### 2"
-Math,2,"Question: Pat is having a picnic with her family. She has 42 cookies. She also has 63 pieces of candy and 21 brownies. There are 7 people in her family. If each person gets the same number of each dessert, how much will each person get?
-Answer: Each person gets 42 cookies / 7 people = <<42/7=6>>6 cookies.
-Each person gets 63 pieces of candy / 7 people = <<63/7=9>>9 pieces of candy.
-Each person gets 21 brownies / 7 people = <<21/7=3>>3 brownies.
-Each person will get 6 + 9 + 3 = <<6+9+3=18>>18 desserts.
-#### 18
-Question: Mrs. Gable’s third grade class is on a field trip to the beach. For lunch, Mrs. Gable brought 20 lunches for the 20 students in her class. She included a pack of animal crackers in each lunch bag for dessert. Each pack of animal crackers contained 10 animal crackers. If 2 students did not eat their animal crackers, how many animal crackers were eaten in total among Mrs. Gable’s students?
-Answer: Since 2 students did not eat their animal crackers, 20 - 2 = <<20-2=18>>18 students ate their animal crackers.
-The students ate a total of 18 * 10 =<<18*10=180>>180 animal crackers
-#### 180
-Question: Bryan bought three different bottles of milk. The bottles contain the following volumes of milk: 2 liters, 750 milliliters, 250 milliliters. How many liters of milk did Bryan buy in total?
-Answer: Bryan bought a total of 750 + 250 = <<750+250=1000>>1000 milliliters of milk from the two smaller bottles.
-Since 1 liter is equal to 1000 milliliters, then 1000 milliliters is equal to 1000/1000 = <<1000/1000=1>>1 liter.
-Therefore, Bryan bought a total of 2 + 1 = <<2+1=3>>3 liters of milk.
-#### 3
-Question: Darlene's car gets 20 miles/gallon. Martha's car gets half as many miles per gallon as Darlene’s car. How many gallons does Martha’s car require to make a 300-mile trip?
-Answer: Martha’s car gets 20/2 = <<20/2=10>>10 miles per gallon.
-Total gallons Martha’s car requires is 300/10 = <<300/10=30>>30 gallons.
-#### 30
-Q: Suzie loves to chew fruit-flavored gum. She bought four packs of gum the last time she was at the store. She got two packs of her favorite flavor, strawberry. She paid $2 for a pack of grape gum that she also liked. She wanted to try something new, so she paid half as much for a small pack of green apple gum. If she paid $7 in all, how many dollars did each pack of strawberry gum cost?","A: Let's denote the cost of each pack of strawberry gum as $x.
-Since she bought two packs of strawberry gum, the total cost for strawberry gum is 2*x = 2x.
-She paid $2 for the pack of grape gum and half as much for a small pack of green apple gum, so the cost of the green apple gum is $2/2 = $1.
-Therefore, the total cost of all the gum is 2x + $2 + $1 = 2x + $3.
-Since she paid $7 in all, we can set up the equation 2x + $3 = $7.
-Subtracting $3 from both sides gives 2x = $4.
-Dividing both sides by 2 gives x = $2.
-Therefore, each pack of strawberry gum costs $2.","The green apple gum cost half as much as the $2 grape gum, so it cost 2 / 2 = $<<2/2=1>>1.
-Thus, the two packs of strawberry gum cost 7 - 2 - 1 = $<<7-2-1=4>>4.
-Therefore, each pack of strawberry gum cost 4 / 2 = $<<4/2=2>>2.
-#### 2"
-Math,3a,"Question: Pat is having a picnic with her family. She has 42 cookies. She also has 63 pieces of candy and 21 brownies. There are 7 people in her family. If each person gets the same number of each dessert, how much will each person get?
-Answer: Each person gets 42 cookies / 7 people = <<42/7=6>>6 cookies.
-Each person gets 63 pieces of candy / 7 people = <<63/7=9>>9 pieces of candy.
-Each person gets 21 brownies / 7 people = <<21/7=3>>3 brownies.
-Each person will get 6 + 9 + 3 = <<6+9+3=18>>18 desserts.
-#### 18
-Question: Mrs. Gable’s third grade class is on a field trip to the beach. For lunch, Mrs. Gable brought 20 lunches for the 20 students in her class. She included a pack of animal crackers in each lunch bag for dessert. Each pack of animal crackers contained 10 animal crackers. If 2 students did not eat their animal crackers, how many animal crackers were eaten in total among Mrs. Gable’s students?
-Answer: Since 2 students did not eat their animal crackers, 20 - 2 = <<20-2=18>>18 students ate their animal crackers.
-The students ate a total of 18 * 10 =<<18*10=180>>180 animal crackers
-#### 180
-Question: Pat is having a picnic with her family. She has 42 cookies. She also has 63 pieces of candy and 21 brownies. There are 7 people in her family. If each person gets the same number of each dessert, how much will each person get?
-Answer: Each person gets 42 cookies / 7 people = <<42/7=6>>6 cookies.
-Each person gets 63 pieces of candy / 7 people = <<63/7=9>>9 pieces of candy.
-Each person gets 21 brownies / 7 people = <<21/7=3>>3 brownies.
-Each person will get 6 + 9 + 3 = <<6+9+3=18>>18 desserts.
-#### 18
-Question: Mrs. Gable’s third grade class is on a field trip to the beach. For lunch, Mrs. Gable brought 20 lunches for the 20 students in her class. She included a pack of animal crackers in each lunch bag for dessert. Each pack of animal crackers contained 10 animal crackers. If 2 students did not eat their animal crackers, how many animal crackers were eaten in total among Mrs. Gable’s students?
-Answer: Since 2 students did not eat their animal crackers, 20 - 2 = <<20-2=18>>18 students ate their animal crackers.
-The students ate a total of 18 * 10 =<<18*10=180>>180 animal crackers
-#### 180
-Q: Suzie loves to chew fruit-flavored gum. She bought four packs of gum the last time she was at the store. She got two packs of her favorite flavor, strawberry. She paid $2 for a pack of grape gum that she also liked. She wanted to try something new, so she paid half as much for a small pack of green apple gum. If she paid $7 in all, how many dollars did each pack of strawberry gum cost?","Let's denote the cost of each pack of strawberry gum as x.
-
-Suzie bought 2 packs of her favorite flavor, so the total cost of the strawberry gum packs is 2x.
-She also bought 1 pack of grape gum for $2 and 1 pack of green apple gum for $1 (half the price of grape gum).
-
-So, the total cost of all the gum packs is 2x + $2 + $1 = $7.
-
-Combining like terms, we get:
-2x + $3 = $7
-
-Subtracting $3 from both sides, we get:
-2x = $4
-
-Dividing by 2, we find:
-x = $2
-
-Therefore, each pack of strawberry gum cost $2.","The green apple gum cost half as much as the $2 grape gum, so it cost 2 / 2 = $<<2/2=1>>1.
-Thus, the two packs of strawberry gum cost 7 - 2 - 1 = $<<7-2-1=4>>4.
-Therefore, each pack of strawberry gum cost 4 / 2 = $<<4/2=2>>2.
-#### 2"
-Math,3b,"Question: Bryan bought three different bottles of milk. The bottles contain the following volumes of milk: 2 liters, 750 milliliters, 250 milliliters. How many liters of milk did Bryan buy in total?
-Answer: Bryan bought a total of 750 + 250 = <<750+250=1000>>1000 milliliters of milk from the two smaller bottles.
-Since 1 liter is equal to 1000 milliliters, then 1000 milliliters is equal to 1000/1000 = <<1000/1000=1>>1 liter.
-Therefore, Bryan bought a total of 2 + 1 = <<2+1=3>>3 liters of milk.
-#### 3
-Question: Darlene's car gets 20 miles/gallon. Martha's car gets half as many miles per gallon as Darlene’s car. How many gallons does Martha’s car require to make a 300-mile trip?
-Answer: Martha’s car gets 20/2 = <<20/2=10>>10 miles per gallon.
-Total gallons Martha’s car requires is 300/10 = <<300/10=30>>30 gallons.
-#### 30
-Question: Bryan bought three different bottles of milk. The bottles contain the following volumes of milk: 2 liters, 750 milliliters, 250 milliliters. How many liters of milk did Bryan buy in total?
-Answer: Bryan bought a total of 750 + 250 = <<750+250=1000>>1000 milliliters of milk from the two smaller bottles.
-Since 1 liter is equal to 1000 milliliters, then 1000 milliliters is equal to 1000/1000 = <<1000/1000=1>>1 liter.
-Therefore, Bryan bought a total of 2 + 1 = <<2+1=3>>3 liters of milk.
-#### 3
-Question: Darlene's car gets 20 miles/gallon. Martha's car gets half as many miles per gallon as Darlene’s car. How many gallons does Martha’s car require to make a 300-mile trip?
-Answer: Martha’s car gets 20/2 = <<20/2=10>>10 miles per gallon.
-Total gallons Martha’s car requires is 300/10 = <<300/10=30>>30 gallons.
-#### 30
-Q: Suzie loves to chew fruit-flavored gum. She bought four packs of gum the last time she was at the store. She got two packs of her favorite flavor, strawberry. She paid $2 for a pack of grape gum that she also liked. She wanted to try something new, so she paid half as much for a small pack of green apple gum. If she paid $7 in all, how many dollars did each pack of strawberry gum cost?","Let the cost of each pack of strawberry gum be x.
-
-Since she bought two packs of strawberry gum, the total cost for them would be 2x.
-
-She paid $2 for the pack of grape gum and half of x for the pack of green apple gum.
-
-Therefore, the total cost of all the gum packs can be represented as:
-2x + $2 + ($1/2)x = $7
-
-Combining like terms, we get:
-2x + $2 + $0.5x = $7
-2.5x + $2 = $7
-2.5x = $5
-x = $5 / 2.5
-x = $2
-
-Therefore, each pack of strawberry gum costs $2.","The green apple gum cost half as much as the $2 grape gum, so it cost 2 / 2 = $<<2/2=1>>1.
-Thus, the two packs of strawberry gum cost 7 - 2 - 1 = $<<7-2-1=4>>4.
-Therefore, each pack of strawberry gum cost 4 / 2 = $<<4/2=2>>2.
-#### 2"
-CSQA,1a,"Question: The therapist told him he had to communicate his problems, he said to just be willing to do what?
-A: write in code
-B: listen
-C: send email
-D: talk to people
-E: talk with people
-Answer: E
-Question: The journalist had a simple approach, see story; do what?
-A: sit down
-B: would read
-C: reading
-D: remember
-E: write down
-Answer: E
-Q: Before getting a divorce, what did the wife feel who was doing all the work?
-A: harder
-B: anguish
-C: bitterness
-D: tears
-E: sadness",A: harder,C
-CSQA,1a,"Question: What do all rooms facing outside have?
-A: square shape
-B: different sizes
-C: flowers
-D: doors and windows
-E: high walls
+Math,1a,"Question: Emmalyn decided to paint fences in her neighborhood for twenty cents per meter. If there were 50 fences in the neighborhood that she had to paint and each fence was 500 meters long, calculate the total amount she earned from painting the fences.
+Answer: The total length for the fifty fences is 50*500 = <<50*500=25000>>25000 meters.
+If Emmalyn charged twenty cents to paint a meter of a fence, the total income she got from painting the fences is $0.20*25000 =$5000
+#### 5000
+Question: Billy wants to watch something fun on YouTube but doesn't know what to watch.  He has the website generate 15 suggestions but, after watching each in one, he doesn't like any of them.  Billy's very picky so he does this a total of 5 times before he finally finds a video he thinks is worth watching.  He then picks the 5th show suggested on the final suggestion list.  What number of videos does Billy watch?
+Answer: Billy has 15 suggestions generate for him 5 times for 15*5=<<15*5=75>>75 videos.
+There are 15-5 = <<15-5=10>>10 shows in the final set of suggestions he doesn't consider
+This means he picks the 75 - 10 = <<75-10=65>>65th show YouTube suggests
+#### 65
+Question: Pamela reapplies an ounce of sunscreen every hour she's outside.  Her sunscreen comes in 8-ounce bottles.  While on vacation, if she will be outside 4 hours a day over 8 days, how many bottles of sunscreen will she need to pack?","Answer: Pamela will be outside for a total of 4 hours/day * 8 days = 32 hours.
+Since she reapplies sunscreen every hour, she will need 32 ounces of sunscreen in total.
+Since her sunscreen comes in 8-ounce bottles, Pamela will need to pack 32 ounces / 8 ounces/bottle = 4 bottles of sunscreen.
+Therefore, she will need to pack 4 bottles of sunscreen.","She will be outside 4 hours a day for 8 days so that's 4*8 = <<4*8=32>>32 hours
+She applies 1 ounce of sunscreen every hour and she'll be outside for 32 hours so she needs 1*32 = <<1*32=32>>32 ounces of sunscreen
+Her bottle holds 8 ounces of sunscreen and she needs 32 ounces so she will need to pack 32/8 = 4 bottles of sunscreen
+#### 4"
+Math,1a,"Question: The Parker family needs to leave the house by 5 pm for a dinner party. Mrs. Parker was waiting to get into the bathroom at 2:30 pm. Her oldest daughter used the bathroom for 45 minutes and her youngest daughter used the bathroom for another 30 minutes. Then her husband used it for 20 minutes. How much time will Mrs. Parker have to use the bathroom to leave on time?
+Answer: Between 2:30 pm and 5:00 pm, there are 2.5 hours.
+There are 60 minutes in an hour, so 2.5 hours x 60 = <<2.5*60=150>>150 minutes.
+Her family was in the bathroom 45 + 30 + 20 = <<45+30+20=95>>95 minutes.
+Mrs. Parker has 150 minutes – 95 minutes = <<150-95=55>>55 minutes in the bathroom.
+#### 55
+Question: The class has to guess how many jellybeans are in a jar the teacher brought in. He lets 4 students make their guesses. The first thinks it contains 100 jellybeans. The second says there are 8 times as many. The third guesses 200 less than the third. The fourth takes the average of the first three guesses, and then adds 25 to it. How many jellybeans did the fourth student guess?
+Answer: The second student guessed 800 because 8 x 100 = <<800=800>>800
+The third guessed 600 because 800 - 200 = <<800-200=600>>600
+The total guesses of the first three is 1500 because 100 + 800 + 600 = <<100+800+600=1500>>1500
+The average of the first three guesses is 500 because 1500 / 3 = <<1500/3=500>>500
+The fourth student guessed 525 because 500 + 25 = <<500+25=525>>525
+#### 525
+Question: Pamela reapplies an ounce of sunscreen every hour she's outside.  Her sunscreen comes in 8-ounce bottles.  While on vacation, if she will be outside 4 hours a day over 8 days, how many bottles of sunscreen will she need to pack?","Answer: Pamela will be outside a total of 4 hours x 8 days = 32 hours.
+Since she reapplies sunscreen every hour, she will need a total of 32 ounces of sunscreen for the entire vacation.
+Since her sunscreen comes in 8-ounce bottles, she will need 32 ounces / 8 ounces per bottle = 4 bottles of sunscreen.
+Therefore, Pamela will need to pack 4 bottles of sunscreen for her vacation.","She will be outside 4 hours a day for 8 days so that's 4*8 = <<4*8=32>>32 hours
+She applies 1 ounce of sunscreen every hour and she'll be outside for 32 hours so she needs 1*32 = <<1*32=32>>32 ounces of sunscreen
+Her bottle holds 8 ounces of sunscreen and she needs 32 ounces so she will need to pack 32/8 = 4 bottles of sunscreen
+#### 4"
+Math,2,"Question: Emmalyn decided to paint fences in her neighborhood for twenty cents per meter. If there were 50 fences in the neighborhood that she had to paint and each fence was 500 meters long, calculate the total amount she earned from painting the fences.
+Answer: The total length for the fifty fences is 50*500 = <<50*500=25000>>25000 meters.
+If Emmalyn charged twenty cents to paint a meter of a fence, the total income she got from painting the fences is $0.20*25000 =$5000
+#### 5000
+Question: Billy wants to watch something fun on YouTube but doesn't know what to watch.  He has the website generate 15 suggestions but, after watching each in one, he doesn't like any of them.  Billy's very picky so he does this a total of 5 times before he finally finds a video he thinks is worth watching.  He then picks the 5th show suggested on the final suggestion list.  What number of videos does Billy watch?
+Answer: Billy has 15 suggestions generate for him 5 times for 15*5=<<15*5=75>>75 videos.
+There are 15-5 = <<15-5=10>>10 shows in the final set of suggestions he doesn't consider
+This means he picks the 75 - 10 = <<75-10=65>>65th show YouTube suggests
+#### 65
+Question: The Parker family needs to leave the house by 5 pm for a dinner party. Mrs. Parker was waiting to get into the bathroom at 2:30 pm. Her oldest daughter used the bathroom for 45 minutes and her youngest daughter used the bathroom for another 30 minutes. Then her husband used it for 20 minutes. How much time will Mrs. Parker have to use the bathroom to leave on time?
+Answer: Between 2:30 pm and 5:00 pm, there are 2.5 hours.
+There are 60 minutes in an hour, so 2.5 hours x 60 = <<2.5*60=150>>150 minutes.
+Her family was in the bathroom 45 + 30 + 20 = <<45+30+20=95>>95 minutes.
+Mrs. Parker has 150 minutes – 95 minutes = <<150-95=55>>55 minutes in the bathroom.
+#### 55
+Question: The class has to guess how many jellybeans are in a jar the teacher brought in. He lets 4 students make their guesses. The first thinks it contains 100 jellybeans. The second says there are 8 times as many. The third guesses 200 less than the third. The fourth takes the average of the first three guesses, and then adds 25 to it. How many jellybeans did the fourth student guess?
+Answer: The second student guessed 800 because 8 x 100 = <<800=800>>800
+The third guessed 600 because 800 - 200 = <<800-200=600>>600
+The total guesses of the first three is 1500 because 100 + 800 + 600 = <<100+800+600=1500>>1500
+The average of the first three guesses is 500 because 1500 / 3 = <<1500/3=500>>500
+The fourth student guessed 525 because 500 + 25 = <<500+25=525>>525
+#### 525
+Question: Pamela reapplies an ounce of sunscreen every hour she's outside.  Her sunscreen comes in 8-ounce bottles.  While on vacation, if she will be outside 4 hours a day over 8 days, how many bottles of sunscreen will she need to pack?","Answer: Pamela will be outside for a total of 4 hours/day * 8 days = <<4*8=32>>32 hours.
+Since she reapplies sunscreen every hour, she will need a total of 32 ounces of sunscreen for the entire vacation.
+Since each bottle contains 8 ounces of sunscreen, Pamela will need to pack 32 ounces / 8 ounces/bottle = <<32/8=4>>4 bottles of sunscreen.
+#### 4","She will be outside 4 hours a day for 8 days so that's 4*8 = <<4*8=32>>32 hours
+She applies 1 ounce of sunscreen every hour and she'll be outside for 32 hours so she needs 1*32 = <<1*32=32>>32 ounces of sunscreen
+Her bottle holds 8 ounces of sunscreen and she needs 32 ounces so she will need to pack 32/8 = 4 bottles of sunscreen
+#### 4"
+Math,3a,"Question: Emmalyn decided to paint fences in her neighborhood for twenty cents per meter. If there were 50 fences in the neighborhood that she had to paint and each fence was 500 meters long, calculate the total amount she earned from painting the fences.
+Answer: The total length for the fifty fences is 50*500 = <<50*500=25000>>25000 meters.
+If Emmalyn charged twenty cents to paint a meter of a fence, the total income she got from painting the fences is $0.20*25000 =$5000
+#### 5000
+Question: Billy wants to watch something fun on YouTube but doesn't know what to watch.  He has the website generate 15 suggestions but, after watching each in one, he doesn't like any of them.  Billy's very picky so he does this a total of 5 times before he finally finds a video he thinks is worth watching.  He then picks the 5th show suggested on the final suggestion list.  What number of videos does Billy watch?
+Answer: Billy has 15 suggestions generate for him 5 times for 15*5=<<15*5=75>>75 videos.
+There are 15-5 = <<15-5=10>>10 shows in the final set of suggestions he doesn't consider
+This means he picks the 75 - 10 = <<75-10=65>>65th show YouTube suggests
+#### 65
+Question: Emmalyn decided to paint fences in her neighborhood for twenty cents per meter. If there were 50 fences in the neighborhood that she had to paint and each fence was 500 meters long, calculate the total amount she earned from painting the fences.
+Answer: The total length for the fifty fences is 50*500 = <<50*500=25000>>25000 meters.
+If Emmalyn charged twenty cents to paint a meter of a fence, the total income she got from painting the fences is $0.20*25000 =$5000
+#### 5000
+Question: Billy wants to watch something fun on YouTube but doesn't know what to watch.  He has the website generate 15 suggestions but, after watching each in one, he doesn't like any of them.  Billy's very picky so he does this a total of 5 times before he finally finds a video he thinks is worth watching.  He then picks the 5th show suggested on the final suggestion list.  What number of videos does Billy watch?
+Answer: Billy has 15 suggestions generate for him 5 times for 15*5=<<15*5=75>>75 videos.
+There are 15-5 = <<15-5=10>>10 shows in the final set of suggestions he doesn't consider
+This means he picks the 75 - 10 = <<75-10=65>>65th show YouTube suggests
+#### 65
+Question: Pamela reapplies an ounce of sunscreen every hour she's outside.  Her sunscreen comes in 8-ounce bottles.  While on vacation, if she will be outside 4 hours a day over 8 days, how many bottles of sunscreen will she need to pack?","Answer: Pamela will be outside for a total of 4*8 = <<4*8=32>>32 hours.
+Since she reapplies sunscreen every hour, she will need a total of 32 ounces of sunscreen.
+Since her sunscreen comes in 8-ounce bottles, she will need to pack 32/8 = <<32/8=4>>4 bottles of sunscreen.
+#### 4","She will be outside 4 hours a day for 8 days so that's 4*8 = <<4*8=32>>32 hours
+She applies 1 ounce of sunscreen every hour and she'll be outside for 32 hours so she needs 1*32 = <<1*32=32>>32 ounces of sunscreen
+Her bottle holds 8 ounces of sunscreen and she needs 32 ounces so she will need to pack 32/8 = 4 bottles of sunscreen
+#### 4"
+Math,3b,"Question: The Parker family needs to leave the house by 5 pm for a dinner party. Mrs. Parker was waiting to get into the bathroom at 2:30 pm. Her oldest daughter used the bathroom for 45 minutes and her youngest daughter used the bathroom for another 30 minutes. Then her husband used it for 20 minutes. How much time will Mrs. Parker have to use the bathroom to leave on time?
+Answer: Between 2:30 pm and 5:00 pm, there are 2.5 hours.
+There are 60 minutes in an hour, so 2.5 hours x 60 = <<2.5*60=150>>150 minutes.
+Her family was in the bathroom 45 + 30 + 20 = <<45+30+20=95>>95 minutes.
+Mrs. Parker has 150 minutes – 95 minutes = <<150-95=55>>55 minutes in the bathroom.
+#### 55
+Question: The class has to guess how many jellybeans are in a jar the teacher brought in. He lets 4 students make their guesses. The first thinks it contains 100 jellybeans. The second says there are 8 times as many. The third guesses 200 less than the third. The fourth takes the average of the first three guesses, and then adds 25 to it. How many jellybeans did the fourth student guess?
+Answer: The second student guessed 800 because 8 x 100 = <<800=800>>800
+The third guessed 600 because 800 - 200 = <<800-200=600>>600
+The total guesses of the first three is 1500 because 100 + 800 + 600 = <<100+800+600=1500>>1500
+The average of the first three guesses is 500 because 1500 / 3 = <<1500/3=500>>500
+The fourth student guessed 525 because 500 + 25 = <<500+25=525>>525
+#### 525
+Question: The Parker family needs to leave the house by 5 pm for a dinner party. Mrs. Parker was waiting to get into the bathroom at 2:30 pm. Her oldest daughter used the bathroom for 45 minutes and her youngest daughter used the bathroom for another 30 minutes. Then her husband used it for 20 minutes. How much time will Mrs. Parker have to use the bathroom to leave on time?
+Answer: Between 2:30 pm and 5:00 pm, there are 2.5 hours.
+There are 60 minutes in an hour, so 2.5 hours x 60 = <<2.5*60=150>>150 minutes.
+Her family was in the bathroom 45 + 30 + 20 = <<45+30+20=95>>95 minutes.
+Mrs. Parker has 150 minutes – 95 minutes = <<150-95=55>>55 minutes in the bathroom.
+#### 55
+Question: The class has to guess how many jellybeans are in a jar the teacher brought in. He lets 4 students make their guesses. The first thinks it contains 100 jellybeans. The second says there are 8 times as many. The third guesses 200 less than the third. The fourth takes the average of the first three guesses, and then adds 25 to it. How many jellybeans did the fourth student guess?
+Answer: The second student guessed 800 because 8 x 100 = <<800=800>>800
+The third guessed 600 because 800 - 200 = <<800-200=600>>600
+The total guesses of the first three is 1500 because 100 + 800 + 600 = <<100+800+600=1500>>1500
+The average of the first three guesses is 500 because 1500 / 3 = <<1500/3=500>>500
+The fourth student guessed 525 because 500 + 25 = <<500+25=525>>525
+#### 525
+Question: Pamela reapplies an ounce of sunscreen every hour she's outside.  Her sunscreen comes in 8-ounce bottles.  While on vacation, if she will be outside 4 hours a day over 8 days, how many bottles of sunscreen will she need to pack?","Answer: Since Pamela will be outside for 4 hours a day for 8 days, she will need sunscreen for a total of 4 x 8 = 32 hours.
+Since she applies an ounce of sunscreen every hour, she will use a total of 32 ounces of sunscreen.
+Since her sunscreen comes in 8-ounce bottles, she will need to pack 32 / 8 = 4 bottles of sunscreen.
+Therefore, Pamela will need to pack 4 bottles of sunscreen for her vacation.","She will be outside 4 hours a day for 8 days so that's 4*8 = <<4*8=32>>32 hours
+She applies 1 ounce of sunscreen every hour and she'll be outside for 32 hours so she needs 1*32 = <<1*32=32>>32 ounces of sunscreen
+Her bottle holds 8 ounces of sunscreen and she needs 32 ounces so she will need to pack 32/8 = 4 bottles of sunscreen
+#### 4"
+CSQA,1a,"Question: Where is a market likely to be enclosed?
+A: field
+B: village
+C: rural area
+D: city
+E: mexico
 Answer: D
-Question: Soldiers who have been killing people during what experience what when they return home?
-A: hate
-B: suicidal thoughts
-C: murder
-D: get killed
-E: feel remorse
+Question: If I have a soapy sponge and a place to use it further away, how should I use it at that moment?
+A: wet surface
+B: collect water
+C: hold it
+D: clean dishes
+E: hold water
 Answer: E
-Q: Before getting a divorce, what did the wife feel who was doing all the work?
-A: harder
-B: anguish
-C: bitterness
-D: tears
-E: sadness",Answer: E,C
-CSQA,2,"Question: The therapist told him he had to communicate his problems, he said to just be willing to do what?
-A: write in code
-B: listen
-C: send email
-D: talk to people
-E: talk with people
-Answer: E
-Question: The journalist had a simple approach, see story; do what?
-A: sit down
-B: would read
-C: reading
-D: remember
-E: write down
-Answer: E
-Question: What do all rooms facing outside have?
-A: square shape
-B: different sizes
-C: flowers
-D: doors and windows
-E: high walls
+Question: To locate a choker not located in a jewelry box or boutique where would you go?
+A: jewelry store
+B: neck
+C: jewlery box
+D: jewelry box
+E: boutique",Answer: B,A
+CSQA,1a,"Question: Where can you find a bar before traveling a long distance?
+A: las vegas
+B: public house
+C: airport
+D: restaurant
+E: michigan
+Answer: C
+Question: Where would you put an eyeglasses case if you are a man?
+A: store
+B: bag
+C: drawer
+D: purse
+E: pant pocket
+Answer: B
+Question: To locate a choker not located in a jewelry box or boutique where would you go?
+A: jewelry store
+B: neck
+C: jewlery box
+D: jewelry box
+E: boutique",Answer: B,A
+CSQA,2,"Question: Where is a market likely to be enclosed?
+A: field
+B: village
+C: rural area
+D: city
+E: mexico
 Answer: D
-Question: Soldiers who have been killing people during what experience what when they return home?
-A: hate
-B: suicidal thoughts
-C: murder
-D: get killed
-E: feel remorse
+Question: If I have a soapy sponge and a place to use it further away, how should I use it at that moment?
+A: wet surface
+B: collect water
+C: hold it
+D: clean dishes
+E: hold water
 Answer: E
-Q: Before getting a divorce, what did the wife feel who was doing all the work?
-A: harder
-B: anguish
-C: bitterness
-D: tears
-E: sadness",Answer: C,C
-CSQA,3a,"Question: The therapist told him he had to communicate his problems, he said to just be willing to do what?
-A: write in code
-B: listen
-C: send email
-D: talk to people
-E: talk with people
-Answer: E
-Question: The journalist had a simple approach, see story; do what?
-A: sit down
-B: would read
-C: reading
-D: remember
-E: write down
-Answer: E
-Question: The therapist told him he had to communicate his problems, he said to just be willing to do what?
-A: write in code
-B: listen
-C: send email
-D: talk to people
-E: talk with people
-Answer: E
-Question: The journalist had a simple approach, see story; do what?
-A: sit down
-B: would read
-C: reading
-D: remember
-E: write down
-Answer: E
-Q: Before getting a divorce, what did the wife feel who was doing all the work?
-A: harder
-B: anguish
-C: bitterness
-D: tears
-E: sadness",A: harder,C
-CSQA,3b,"Question: What do all rooms facing outside have?
-A: square shape
-B: different sizes
-C: flowers
-D: doors and windows
-E: high walls
+Question: Where can you find a bar before traveling a long distance?
+A: las vegas
+B: public house
+C: airport
+D: restaurant
+E: michigan
+Answer: C
+Question: Where would you put an eyeglasses case if you are a man?
+A: store
+B: bag
+C: drawer
+D: purse
+E: pant pocket
+Answer: B
+Question: To locate a choker not located in a jewelry box or boutique where would you go?
+A: jewelry store
+B: neck
+C: jewlery box
+D: jewelry box
+E: boutique",Answer: B,A
+CSQA,3a,"Question: Where is a market likely to be enclosed?
+A: field
+B: village
+C: rural area
+D: city
+E: mexico
 Answer: D
-Question: Soldiers who have been killing people during what experience what when they return home?
-A: hate
-B: suicidal thoughts
-C: murder
-D: get killed
-E: feel remorse
+Question: If I have a soapy sponge and a place to use it further away, how should I use it at that moment?
+A: wet surface
+B: collect water
+C: hold it
+D: clean dishes
+E: hold water
 Answer: E
-Question: What do all rooms facing outside have?
-A: square shape
-B: different sizes
-C: flowers
-D: doors and windows
-E: high walls
+Question: Where is a market likely to be enclosed?
+A: field
+B: village
+C: rural area
+D: city
+E: mexico
 Answer: D
-Question: Soldiers who have been killing people during what experience what when they return home?
-A: hate
-B: suicidal thoughts
-C: murder
-D: get killed
-E: feel remorse
+Question: If I have a soapy sponge and a place to use it further away, how should I use it at that moment?
+A: wet surface
+B: collect water
+C: hold it
+D: clean dishes
+E: hold water
 Answer: E
-Q: Before getting a divorce, what did the wife feel who was doing all the work?
-A: harder
-B: anguish
-C: bitterness
-D: tears
-E: sadness",A: harder,C
-StrategyQA,1a,"Question: Germaphobia is a term used by psychologists to describe a pathological fear of germs, bacteria, microbes, contamination and infection. If you’re training Judo, you will also find yourself getting into close proximity to the people you are training with, and rolling around on matted floors too.  Additionally, you will sweat and roll around on a shared mat when practicing judo.
-Would a Germaphobia be able to participate in Judo?
-Answer: False
-Question: A chipmunk can fit up to two tbsp of food in his mouth. There are about 20-25 chocolate chips in a tbsp.
-Could a chipmunk fit 100 chocolate chips in his mouth?
-Answer: False
-Q: John the Baptist was a preacher that became a Catholic Saint. John the Baptist was beheaded by king Herod. A cephalophore is a Saint martyred by beheading, and is depicted in art as carrying their own head. Saint Denis was one of several beheaded saints that is said to have carried his own head and is depicted as such in art. John the Baptist did not carry his head, since it was on a plate owned by King Herod's stepdaughter.
-Would John the Baptist be invited to a hypothetical cephalophore reunion in heaven?",False,False
-StrategyQA,1a,"Question: Pride parades are annual festivals held to celebrate the gay community. Chick-fil-A is a fast food restaurant founded by S. Truett Cathy. S. Truett Cathy was a devout Southern Baptist.  Chick-fil-A's opposition to same-sex marriage has been the subject of public controversy.
-Will Chick-fil-A hypothetically refuse to sponsor a Pride parade?
+Question: To locate a choker not located in a jewelry box or boutique where would you go?
+A: jewelry store
+B: neck
+C: jewlery box
+D: jewelry box
+E: boutique",Answer: B,A
+CSQA,3b,"Question: Where can you find a bar before traveling a long distance?
+A: las vegas
+B: public house
+C: airport
+D: restaurant
+E: michigan
+Answer: C
+Question: Where would you put an eyeglasses case if you are a man?
+A: store
+B: bag
+C: drawer
+D: purse
+E: pant pocket
+Answer: B
+Question: Where can you find a bar before traveling a long distance?
+A: las vegas
+B: public house
+C: airport
+D: restaurant
+E: michigan
+Answer: C
+Question: Where would you put an eyeglasses case if you are a man?
+A: store
+B: bag
+C: drawer
+D: purse
+E: pant pocket
+Answer: B
+Question: To locate a choker not located in a jewelry box or boutique where would you go?
+A: jewelry store
+B: neck
+C: jewlery box
+D: jewelry box
+E: boutique",Answer: B,A
+StrategyQA,1a,"Question: In British Cuisine, baked beans are served with toast for breakfast. In the US, baked beans are served alongside barbecue dinners. British 'Full breakfasts' include grilled vegetables like mushrooms and whole cherry tomatoes. Grilled mushrooms and tomatoes are used more often in evening dishes in the US.
+Could an American confuse breakfast in British cuisine for dinner?
 Answer: True
-Question: Israel, a small Middle Eastern nation which is considered the Jewish holy land, contains the ancient city of Jerusalem and other ancient holy sites. Jerusalem is the third most holy site for Muslims, after Mecca and Medina. Prior to English occupation in the 18th-20th centuries, the Muslim-based Ottoman Empire controlled Jerusalem. The Muslims want to reclaim Jerusalem and the surrounding holy lands.
-Is the Muslim world hostile to Israel?
-Answer: True
-Q: John the Baptist was a preacher that became a Catholic Saint. John the Baptist was beheaded by king Herod. A cephalophore is a Saint martyred by beheading, and is depicted in art as carrying their own head. Saint Denis was one of several beheaded saints that is said to have carried his own head and is depicted as such in art. John the Baptist did not carry his head, since it was on a plate owned by King Herod's stepdaughter.
-Would John the Baptist be invited to a hypothetical cephalophore reunion in heaven?",A: False,False
-StrategyQA,2,"Question: Germaphobia is a term used by psychologists to describe a pathological fear of germs, bacteria, microbes, contamination and infection. If you’re training Judo, you will also find yourself getting into close proximity to the people you are training with, and rolling around on matted floors too.  Additionally, you will sweat and roll around on a shared mat when practicing judo.
-Would a Germaphobia be able to participate in Judo?
+Question: Aretha Franklin was born in 1942. Aretha Franklin had her second child in 1957. You must be at least 18 years old to vote in a presidential election in the United States.
+Could Aretha Franklin vote for a president when her second child was born?
 Answer: False
-Question: A chipmunk can fit up to two tbsp of food in his mouth. There are about 20-25 chocolate chips in a tbsp.
-Could a chipmunk fit 100 chocolate chips in his mouth?
+Question: Super Mario is a video game. Video games are played on electronic devices. Electronic devices require electricity to function.
+Does Super Mario require electricity to play?",True,True
+StrategyQA,1a,"Question: Researchers at BYU have been developing smaller surgical instruments to improve medical procedures. BYU researchers  created robotically-controlled forceps that can pass through a hole about 3 millimeters in size. The eye of a fly is considerably small and estimates range from .5mm to 2mm.
+Would Eye surgery on a fly be in vain?
+Answer: True
+Question: Disneyland Paris contains two parks, several hotels, and a shopping district. By comparison, Walt Disney World in Florida contains four parks, two waterparks, a shopping district, and many hotels. Disney World is bigger than Disneyland Paris Resort and Disneyland California Resort combined.
+Is Disneyland Paris the largest Disney resort?
 Answer: False
-Question: Pride parades are annual festivals held to celebrate the gay community. Chick-fil-A is a fast food restaurant founded by S. Truett Cathy. S. Truett Cathy was a devout Southern Baptist.  Chick-fil-A's opposition to same-sex marriage has been the subject of public controversy.
-Will Chick-fil-A hypothetically refuse to sponsor a Pride parade?
+Question: Super Mario is a video game. Video games are played on electronic devices. Electronic devices require electricity to function.
+Does Super Mario require electricity to play?",Answer: True,True
+StrategyQA,2,"Question: In British Cuisine, baked beans are served with toast for breakfast. In the US, baked beans are served alongside barbecue dinners. British 'Full breakfasts' include grilled vegetables like mushrooms and whole cherry tomatoes. Grilled mushrooms and tomatoes are used more often in evening dishes in the US.
+Could an American confuse breakfast in British cuisine for dinner?
 Answer: True
-Question: Israel, a small Middle Eastern nation which is considered the Jewish holy land, contains the ancient city of Jerusalem and other ancient holy sites. Jerusalem is the third most holy site for Muslims, after Mecca and Medina. Prior to English occupation in the 18th-20th centuries, the Muslim-based Ottoman Empire controlled Jerusalem. The Muslims want to reclaim Jerusalem and the surrounding holy lands.
-Is the Muslim world hostile to Israel?
-Answer: True
-Q: John the Baptist was a preacher that became a Catholic Saint. John the Baptist was beheaded by king Herod. A cephalophore is a Saint martyred by beheading, and is depicted in art as carrying their own head. Saint Denis was one of several beheaded saints that is said to have carried his own head and is depicted as such in art. John the Baptist did not carry his head, since it was on a plate owned by King Herod's stepdaughter.
-Would John the Baptist be invited to a hypothetical cephalophore reunion in heaven?",Answer: True,False
-StrategyQA,3a,"Question: Germaphobia is a term used by psychologists to describe a pathological fear of germs, bacteria, microbes, contamination and infection. If you’re training Judo, you will also find yourself getting into close proximity to the people you are training with, and rolling around on matted floors too.  Additionally, you will sweat and roll around on a shared mat when practicing judo.
-Would a Germaphobia be able to participate in Judo?
+Question: Aretha Franklin was born in 1942. Aretha Franklin had her second child in 1957. You must be at least 18 years old to vote in a presidential election in the United States.
+Could Aretha Franklin vote for a president when her second child was born?
 Answer: False
-Question: A chipmunk can fit up to two tbsp of food in his mouth. There are about 20-25 chocolate chips in a tbsp.
-Could a chipmunk fit 100 chocolate chips in his mouth?
+Question: Researchers at BYU have been developing smaller surgical instruments to improve medical procedures. BYU researchers  created robotically-controlled forceps that can pass through a hole about 3 millimeters in size. The eye of a fly is considerably small and estimates range from .5mm to 2mm.
+Would Eye surgery on a fly be in vain?
+Answer: True
+Question: Disneyland Paris contains two parks, several hotels, and a shopping district. By comparison, Walt Disney World in Florida contains four parks, two waterparks, a shopping district, and many hotels. Disney World is bigger than Disneyland Paris Resort and Disneyland California Resort combined.
+Is Disneyland Paris the largest Disney resort?
 Answer: False
-Question: Germaphobia is a term used by psychologists to describe a pathological fear of germs, bacteria, microbes, contamination and infection. If you’re training Judo, you will also find yourself getting into close proximity to the people you are training with, and rolling around on matted floors too.  Additionally, you will sweat and roll around on a shared mat when practicing judo.
-Would a Germaphobia be able to participate in Judo?
+Question: Super Mario is a video game. Video games are played on electronic devices. Electronic devices require electricity to function.
+Does Super Mario require electricity to play?",Answer: True,True
+StrategyQA,3a,"Question: In British Cuisine, baked beans are served with toast for breakfast. In the US, baked beans are served alongside barbecue dinners. British 'Full breakfasts' include grilled vegetables like mushrooms and whole cherry tomatoes. Grilled mushrooms and tomatoes are used more often in evening dishes in the US.
+Could an American confuse breakfast in British cuisine for dinner?
+Answer: True
+Question: Aretha Franklin was born in 1942. Aretha Franklin had her second child in 1957. You must be at least 18 years old to vote in a presidential election in the United States.
+Could Aretha Franklin vote for a president when her second child was born?
 Answer: False
-Question: A chipmunk can fit up to two tbsp of food in his mouth. There are about 20-25 chocolate chips in a tbsp.
-Could a chipmunk fit 100 chocolate chips in his mouth?
+Question: In British Cuisine, baked beans are served with toast for breakfast. In the US, baked beans are served alongside barbecue dinners. British 'Full breakfasts' include grilled vegetables like mushrooms and whole cherry tomatoes. Grilled mushrooms and tomatoes are used more often in evening dishes in the US.
+Could an American confuse breakfast in British cuisine for dinner?
+Answer: True
+Question: Aretha Franklin was born in 1942. Aretha Franklin had her second child in 1957. You must be at least 18 years old to vote in a presidential election in the United States.
+Could Aretha Franklin vote for a president when her second child was born?
 Answer: False
-Q: John the Baptist was a preacher that became a Catholic Saint. John the Baptist was beheaded by king Herod. A cephalophore is a Saint martyred by beheading, and is depicted in art as carrying their own head. Saint Denis was one of several beheaded saints that is said to have carried his own head and is depicted as such in art. John the Baptist did not carry his head, since it was on a plate owned by King Herod's stepdaughter.
-Would John the Baptist be invited to a hypothetical cephalophore reunion in heaven?",A: False,False
-StrategyQA,3b,"Question: Pride parades are annual festivals held to celebrate the gay community. Chick-fil-A is a fast food restaurant founded by S. Truett Cathy. S. Truett Cathy was a devout Southern Baptist.  Chick-fil-A's opposition to same-sex marriage has been the subject of public controversy.
-Will Chick-fil-A hypothetically refuse to sponsor a Pride parade?
+Question: Super Mario is a video game. Video games are played on electronic devices. Electronic devices require electricity to function.
+Does Super Mario require electricity to play?",Answer: True,True
+StrategyQA,3b,"Question: Researchers at BYU have been developing smaller surgical instruments to improve medical procedures. BYU researchers  created robotically-controlled forceps that can pass through a hole about 3 millimeters in size. The eye of a fly is considerably small and estimates range from .5mm to 2mm.
+Would Eye surgery on a fly be in vain?
 Answer: True
-Question: Israel, a small Middle Eastern nation which is considered the Jewish holy land, contains the ancient city of Jerusalem and other ancient holy sites. Jerusalem is the third most holy site for Muslims, after Mecca and Medina. Prior to English occupation in the 18th-20th centuries, the Muslim-based Ottoman Empire controlled Jerusalem. The Muslims want to reclaim Jerusalem and the surrounding holy lands.
-Is the Muslim world hostile to Israel?
+Question: Disneyland Paris contains two parks, several hotels, and a shopping district. By comparison, Walt Disney World in Florida contains four parks, two waterparks, a shopping district, and many hotels. Disney World is bigger than Disneyland Paris Resort and Disneyland California Resort combined.
+Is Disneyland Paris the largest Disney resort?
+Answer: False
+Question: Researchers at BYU have been developing smaller surgical instruments to improve medical procedures. BYU researchers  created robotically-controlled forceps that can pass through a hole about 3 millimeters in size. The eye of a fly is considerably small and estimates range from .5mm to 2mm.
+Would Eye surgery on a fly be in vain?
 Answer: True
-Question: Pride parades are annual festivals held to celebrate the gay community. Chick-fil-A is a fast food restaurant founded by S. Truett Cathy. S. Truett Cathy was a devout Southern Baptist.  Chick-fil-A's opposition to same-sex marriage has been the subject of public controversy.
-Will Chick-fil-A hypothetically refuse to sponsor a Pride parade?
-Answer: True
-Question: Israel, a small Middle Eastern nation which is considered the Jewish holy land, contains the ancient city of Jerusalem and other ancient holy sites. Jerusalem is the third most holy site for Muslims, after Mecca and Medina. Prior to English occupation in the 18th-20th centuries, the Muslim-based Ottoman Empire controlled Jerusalem. The Muslims want to reclaim Jerusalem and the surrounding holy lands.
-Is the Muslim world hostile to Israel?
-Answer: True
-Q: John the Baptist was a preacher that became a Catholic Saint. John the Baptist was beheaded by king Herod. A cephalophore is a Saint martyred by beheading, and is depicted in art as carrying their own head. Saint Denis was one of several beheaded saints that is said to have carried his own head and is depicted as such in art. John the Baptist did not carry his head, since it was on a plate owned by King Herod's stepdaughter.
-Would John the Baptist be invited to a hypothetical cephalophore reunion in heaven?",A: False,False
-SayCan,1a,"Question: Bring me a soda that isn’t a coke.
-Answer: 1. find a pepsi, 2. pick up the pepsi, 3. bring it to you, 4. put down the pepsi, 5. done.
-Question: I’d like a clear soda.
-Answer: 1. find a 7up, 2. pick up the 7up, 3. bring it to you, 4. put down the 7up, 5. done
-Q: Visit the counter and the table in the kitchen.","A: 1. Walk to the counter, 2. Look around the counter, 3. Walk to the kitchen table, 4. Check the items on the table, 5. Complete the task.","1. go to the counter, 2. go to the table, 3. done"
-SayCan,1a,"Question: I’d like a clear soda.
-Answer: 1. find a 7up, 2. pick up the 7up, 3. bring it to you, 4. put down the 7up, 5. done.
+Question: Disneyland Paris contains two parks, several hotels, and a shopping district. By comparison, Walt Disney World in Florida contains four parks, two waterparks, a shopping district, and many hotels. Disney World is bigger than Disneyland Paris Resort and Disneyland California Resort combined.
+Is Disneyland Paris the largest Disney resort?
+Answer: False
+Question: Super Mario is a video game. Video games are played on electronic devices. Electronic devices require electricity to function.
+Does Super Mario require electricity to play?",Answer: True,True
+SayCan,1a,"Question: Bring me a drink that isn’t an water or a coke.
+Answer: 1. find a tea, 2. pick up the tea, 3. bring it to you, 4. put down the tea, 5. done.
 Question: I love spice, can you get something to eat?
 Answer: 1. find the jalapeno chips, 2. pick up the jalapeno chips, 3. bring it to you, 4. put down the jalapeno chips, 5. done
-Q: Visit the counter and the table in the kitchen.","A: 1. Walk over to the counter in the kitchen, 2. examine the items on the counter, 3. walk over to the table in the kitchen, 4. inspect the items on the table, 5. return to your original location.","1. go to the counter, 2. go to the table, 3. done"
-SayCan,2,"Question: Bring me a soda that isn’t a coke.
-Answer: 1. find a pepsi, 2. pick up the pepsi, 3. bring it to you, 4. put down the pepsi, 5. done.
-Question: I’d like a clear soda.
-Answer: 1. find a 7up, 2. pick up the 7up, 3. bring it to you, 4. put down the 7up, 5. done
-Question: I’d like a clear soda.
-Answer: 1. find a 7up, 2. pick up the 7up, 3. bring it to you, 4. put down the 7up, 5. done.
+Question: I opened a sprite earlier.  Bring me the open can.","Answer: 1. find the open can of sprite, 2. pick up the can of sprite, 3. bring it to you, 4. give you the open can of sprite, 5. done.","1. find a sprite can, 2. pick up the sprite can, 3. bring it to you, 4. put down the sprite can, 5. done"
+SayCan,1a,"Question: Put the coke can in your gripper.
+Answer: 1. pick up the coke can, 2. done
+Question: How would you visit the counter and the table in the kitchen?
+Answer: 1. go to the counter, 2. go to the table, 3. done
+Question: I opened a sprite earlier.  Bring me the open can.","Answer: 1. locate the open sprite can, 2. bring the can to you, 3. done","1. find a sprite can, 2. pick up the sprite can, 3. bring it to you, 4. put down the sprite can, 5. done"
+SayCan,2,"Question: Bring me a drink that isn’t an water or a coke.
+Answer: 1. find a tea, 2. pick up the tea, 3. bring it to you, 4. put down the tea, 5. done.
 Question: I love spice, can you get something to eat?
 Answer: 1. find the jalapeno chips, 2. pick up the jalapeno chips, 3. bring it to you, 4. put down the jalapeno chips, 5. done
-Q: Visit the counter and the table in the kitchen.","A: 1. Go to the kitchen, 2. Visit the counter, 3. Visit the table, 4. Done.","1. go to the counter, 2. go to the table, 3. done"
-SayCan,3a,"Question: Bring me a soda that isn’t a coke.
-Answer: 1. find a pepsi, 2. pick up the pepsi, 3. bring it to you, 4. put down the pepsi, 5. done.
-Question: I’d like a clear soda.
-Answer: 1. find a 7up, 2. pick up the 7up, 3. bring it to you, 4. put down the 7up, 5. done
-Question: Bring me a soda that isn’t a coke.
-Answer: 1. find a pepsi, 2. pick up the pepsi, 3. bring it to you, 4. put down the pepsi, 5. done.
-Question: I’d like a clear soda.
-Answer: 1. find a 7up, 2. pick up the 7up, 3. bring it to you, 4. put down the 7up, 5. done
-Q: Visit the counter and the table in the kitchen.","A: 1. Go to the counter in the kitchen, 2. Look around for any items on the counter, 3. Go to the table in the kitchen, 4. Examine what is on the table, 5. Done.","1. go to the counter, 2. go to the table, 3. done"
-SayCan,3b,"Question: I’d like a clear soda.
-Answer: 1. find a 7up, 2. pick up the 7up, 3. bring it to you, 4. put down the 7up, 5. done.
+Question: Put the coke can in your gripper.
+Answer: 1. pick up the coke can, 2. done
+Question: How would you visit the counter and the table in the kitchen?
+Answer: 1. go to the counter, 2. go to the table, 3. done
+Question: I opened a sprite earlier.  Bring me the open can.","Answer: 1. find the open sprite can, 2. pick up the open sprite can, 3. bring it to you, 4. put down the open sprite can, 5. done","1. find a sprite can, 2. pick up the sprite can, 3. bring it to you, 4. put down the sprite can, 5. done"
+SayCan,3a,"Question: Bring me a drink that isn’t an water or a coke.
+Answer: 1. find a tea, 2. pick up the tea, 3. bring it to you, 4. put down the tea, 5. done.
 Question: I love spice, can you get something to eat?
 Answer: 1. find the jalapeno chips, 2. pick up the jalapeno chips, 3. bring it to you, 4. put down the jalapeno chips, 5. done
-Question: I’d like a clear soda.
-Answer: 1. find a 7up, 2. pick up the 7up, 3. bring it to you, 4. put down the 7up, 5. done.
+Question: Bring me a drink that isn’t an water or a coke.
+Answer: 1. find a tea, 2. pick up the tea, 3. bring it to you, 4. put down the tea, 5. done.
 Question: I love spice, can you get something to eat?
 Answer: 1. find the jalapeno chips, 2. pick up the jalapeno chips, 3. bring it to you, 4. put down the jalapeno chips, 5. done
-Q: Visit the counter and the table in the kitchen.","A: 1. Walk to the kitchen counter, 2. Look at the items on the counter, 3. Walk to the kitchen table, 4. Look at the items on the table, 5. Done.","1. go to the counter, 2. go to the table, 3. done"
+Question: I opened a sprite earlier.  Bring me the open can.","Answer: 1. locate the open sprite can, 2. pick up the open sprite can, 3. bring it to you, 4. put down the open sprite can, 5. done.","1. find a sprite can, 2. pick up the sprite can, 3. bring it to you, 4. put down the sprite can, 5. done"
+SayCan,3b,"Question: Put the coke can in your gripper.
+Answer: 1. pick up the coke can, 2. done
+Question: How would you visit the counter and the table in the kitchen?
+Answer: 1. go to the counter, 2. go to the table, 3. done
+Question: Put the coke can in your gripper.
+Answer: 1. pick up the coke can, 2. done
+Question: How would you visit the counter and the table in the kitchen?
+Answer: 1. go to the counter, 2. go to the table, 3. done
+Question: I opened a sprite earlier.  Bring me the open can.","Answer: 1. locate the open sprite can, 2. bring the open sprite can to you, 3. done","1. find a sprite can, 2. pick up the sprite can, 3. bring it to you, 4. put down the sprite can, 5. done"

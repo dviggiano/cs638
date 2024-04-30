@@ -1,424 +1,341 @@
 Task Class,Case,Prompt,Response,Expected
-Math,1a,"Question: Tim's website got 100 visitors a day for the first 6 days and then on the last day of the week it got twice as many visitors as every other day combined.  If he gets $.01 per visit how much did he make that week?
-Answer: In the first 6 days, he got 6*100=<<6*100=600>>600 visits
-So on the 7th day, he got 600*2=<<600*2=1200>>1200 visitors
-So he got a total of 1200+600=<<1200+600=1800>>1800 visitors
-That means he made 1800*.01=$<<1800*.01=18>>18
-#### 18
-Question: A cat has nine lives.  A dog has 3 less lives than a cat.  A mouse has 7 more lives than a dog.  How many lives does a mouse have?
-Answer: Dog:9-3=<<9-3=6>>6 lives
-Mouse:6+7=<<6+7=13>>13 lives
-#### 13
-Q: A tank has a capacity of 18000 gallons. Wanda and Ms. B decided to pump water from a pond to fill the tank in two days. On the first day, working in shifts, Wanda filled 1/4 of the tank's capacity with water, and Ms. B pumped 3/4 as much water as Wanda pumped into the tank that day. On the second day, Wanda pumped 2/3 of the amount of water she pumped on the previous day, while Ms. B only pumped 1/3 of the number of gallons she pumped on the first day. How many gallons of water are remaining for the tank to be full?","A tank's capacity is 18000 gallons.
-
-On the first day, Wanda filled 1/4 of the tank's capacity, which is 1/4 * 18000 = 4500 gallons.
-Ms. B pumped 3/4 as much water as Wanda pumped, so she pumped 3/4 * 4500 = 3375 gallons on the first day.
-Together, they pumped 4500 + 3375 = 7875 gallons on the first day.
-
-On the second day, Wanda pumped 2/3 of the amount she pumped on the first day, which is 2/3 * 4500 = 3000 gallons.
-Ms. B pumped 1/3 of the amount she pumped on the first day, which is 1/3 * 3375 = 1125 gallons on the second day.
-Together, they pumped 3000 + 1125 = 4125 gallons on the second day.
-
-Adding up the total amount of water pumped in two days, they pumped 7875 + 4125 = 12000 gallons.
-Therefore, the amount of water remaining in the tank to be full is 18000 - 12000 = 6000 gallons.","On the first day, Wanda pumped 1/4*18000 gallons = <<1/4*18000=4500>>4500 gallons of water.
-On the same day, Ms. B pumped 3/4*4500 gallons = <<3/4*4500=3375>>3375 gallons of water into the tank.
-They pumped a total of 3375 gallons+ 4500 gallons = <<3375+4500=7875>>7875 gallons together on the first day
-On the second day, Wanda pumped 2/3 * 4500 gallons = <<2/3*4500=3000>>3000 gallons
-Ms. B also pumped 3375 gallons * 1/3 = <<3375*1/3=1125>>1125 gallons
-Together, on the second day, they pumped 3000 gallons + 1125 gallons = <<3000+1125=4125>>4125 gallons
-In the two days, they pumped a total of 4125 gallons + 7875 gallons = <<4125+7875=12000>>12000 gallons
-The amount of gallons remaining for the tank to be full is 18000 gallons - 12000 gallons = <<18000-12000=6000>>6000 gallons
-#### 6000"
-Math,1a,"Question: Joshua bought 25 oranges for $12.50. If he sells each one for 60c, how much profit in cents will he make on each orange?
-Answer: $1 is equivalent to 100 cents so $12.50 is equivalent to 100*12.50 = <<12.50*100=1250>>1250 cents
-He bought 25 oranges for 1250 cents so each orange cost 1250/25 = <<1250/25=50>>50 cents each
-If he sells each orange for 60 cents, he is making a profit of 60-50 = <<60-50=10>>10 cents on each one.
-#### 10
-Question: Evan’s dog weighs 63 pounds; it weighs 7 times as much as Ivan’s dog.  Together, what is the weight of the dogs?
-Answer: Ivan's dog weighs 63/7 = <<63/7=9>>9 pounds.
-Thus, the two dogs weigh 63 + 9 = <<63+9=72>>72 pounds.
-#### 72
-Q: A tank has a capacity of 18000 gallons. Wanda and Ms. B decided to pump water from a pond to fill the tank in two days. On the first day, working in shifts, Wanda filled 1/4 of the tank's capacity with water, and Ms. B pumped 3/4 as much water as Wanda pumped into the tank that day. On the second day, Wanda pumped 2/3 of the amount of water she pumped on the previous day, while Ms. B only pumped 1/3 of the number of gallons she pumped on the first day. How many gallons of water are remaining for the tank to be full?","Let's calculate the amount of water each person pumped on the first day:
-
-Wanda pumped 1/4 * 18000 = 4500 gallons on the first day.
-Ms. B pumped 3/4 * 4500 = 3375 gallons on the first day.
-
-Together, they pumped 4500 + 3375 = 7875 gallons on the first day.
-
-Now let's calculate the amount of water pumped on the second day:
-
-Wanda pumped 2/3 * 4500 = 3000 gallons on the second day.
-Ms. B pumped 1/3 * 3375 = 1125 gallons on the second day.
-
-Together, they pumped 3000 + 1125 = 4125 gallons on the second day.
-
-The total amount of water pumped over the two days is 7875 + 4125 = 12000 gallons.
-
-Therefore, there are 18000 - 12000 = 6000 gallons of water remaining for the tank to be full.","On the first day, Wanda pumped 1/4*18000 gallons = <<1/4*18000=4500>>4500 gallons of water.
-On the same day, Ms. B pumped 3/4*4500 gallons = <<3/4*4500=3375>>3375 gallons of water into the tank.
-They pumped a total of 3375 gallons+ 4500 gallons = <<3375+4500=7875>>7875 gallons together on the first day
-On the second day, Wanda pumped 2/3 * 4500 gallons = <<2/3*4500=3000>>3000 gallons
-Ms. B also pumped 3375 gallons * 1/3 = <<3375*1/3=1125>>1125 gallons
-Together, on the second day, they pumped 3000 gallons + 1125 gallons = <<3000+1125=4125>>4125 gallons
-In the two days, they pumped a total of 4125 gallons + 7875 gallons = <<4125+7875=12000>>12000 gallons
-The amount of gallons remaining for the tank to be full is 18000 gallons - 12000 gallons = <<18000-12000=6000>>6000 gallons
-#### 6000"
-Math,2,"Question: Tim's website got 100 visitors a day for the first 6 days and then on the last day of the week it got twice as many visitors as every other day combined.  If he gets $.01 per visit how much did he make that week?
-Answer: In the first 6 days, he got 6*100=<<6*100=600>>600 visits
-So on the 7th day, he got 600*2=<<600*2=1200>>1200 visitors
-So he got a total of 1200+600=<<1200+600=1800>>1800 visitors
-That means he made 1800*.01=$<<1800*.01=18>>18
-#### 18
-Question: A cat has nine lives.  A dog has 3 less lives than a cat.  A mouse has 7 more lives than a dog.  How many lives does a mouse have?
-Answer: Dog:9-3=<<9-3=6>>6 lives
-Mouse:6+7=<<6+7=13>>13 lives
-#### 13
-Question: Joshua bought 25 oranges for $12.50. If he sells each one for 60c, how much profit in cents will he make on each orange?
-Answer: $1 is equivalent to 100 cents so $12.50 is equivalent to 100*12.50 = <<12.50*100=1250>>1250 cents
-He bought 25 oranges for 1250 cents so each orange cost 1250/25 = <<1250/25=50>>50 cents each
-If he sells each orange for 60 cents, he is making a profit of 60-50 = <<60-50=10>>10 cents on each one.
-#### 10
-Question: Evan’s dog weighs 63 pounds; it weighs 7 times as much as Ivan’s dog.  Together, what is the weight of the dogs?
-Answer: Ivan's dog weighs 63/7 = <<63/7=9>>9 pounds.
-Thus, the two dogs weigh 63 + 9 = <<63+9=72>>72 pounds.
-#### 72
-Q: A tank has a capacity of 18000 gallons. Wanda and Ms. B decided to pump water from a pond to fill the tank in two days. On the first day, working in shifts, Wanda filled 1/4 of the tank's capacity with water, and Ms. B pumped 3/4 as much water as Wanda pumped into the tank that day. On the second day, Wanda pumped 2/3 of the amount of water she pumped on the previous day, while Ms. B only pumped 1/3 of the number of gallons she pumped on the first day. How many gallons of water are remaining for the tank to be full?","A tank has a capacity of 18000 gallons. 
-On the first day:
-- Wanda filled 1/4 of the tank's capacity: 1/4 * 18000 = 4500 gallons
-- Ms. B pumped 3/4 as much water as Wanda pumped: 3/4 * 4500 = 3375 gallons
-Total on the first day: 4500 + 3375 = 7875 gallons
-
-On the second day:
-- Wanda pumped 2/3 of the amount of water she pumped on the previous day: 2/3 * 4500 = 3000 gallons
-- Ms. B pumped 1/3 of the number of gallons she pumped on the first day: 1/3 * 3375 = 1125 gallons
-Total on the second day: 3000 + 1125 = 4125 gallons
-
-Total water pumped in two days: 7875 + 4125 = 12000 gallons
-Remaining capacity in the tank: 18000 - 12000 = 6000 gallons
-
-Therefore, there are 6000 gallons of water remaining for the tank to be full.","On the first day, Wanda pumped 1/4*18000 gallons = <<1/4*18000=4500>>4500 gallons of water.
-On the same day, Ms. B pumped 3/4*4500 gallons = <<3/4*4500=3375>>3375 gallons of water into the tank.
-They pumped a total of 3375 gallons+ 4500 gallons = <<3375+4500=7875>>7875 gallons together on the first day
-On the second day, Wanda pumped 2/3 * 4500 gallons = <<2/3*4500=3000>>3000 gallons
-Ms. B also pumped 3375 gallons * 1/3 = <<3375*1/3=1125>>1125 gallons
-Together, on the second day, they pumped 3000 gallons + 1125 gallons = <<3000+1125=4125>>4125 gallons
-In the two days, they pumped a total of 4125 gallons + 7875 gallons = <<4125+7875=12000>>12000 gallons
-The amount of gallons remaining for the tank to be full is 18000 gallons - 12000 gallons = <<18000-12000=6000>>6000 gallons
-#### 6000"
-Math,3a,"Question: Tim's website got 100 visitors a day for the first 6 days and then on the last day of the week it got twice as many visitors as every other day combined.  If he gets $.01 per visit how much did he make that week?
-Answer: In the first 6 days, he got 6*100=<<6*100=600>>600 visits
-So on the 7th day, he got 600*2=<<600*2=1200>>1200 visitors
-So he got a total of 1200+600=<<1200+600=1800>>1800 visitors
-That means he made 1800*.01=$<<1800*.01=18>>18
-#### 18
-Question: A cat has nine lives.  A dog has 3 less lives than a cat.  A mouse has 7 more lives than a dog.  How many lives does a mouse have?
-Answer: Dog:9-3=<<9-3=6>>6 lives
-Mouse:6+7=<<6+7=13>>13 lives
-#### 13
-Question: Tim's website got 100 visitors a day for the first 6 days and then on the last day of the week it got twice as many visitors as every other day combined.  If he gets $.01 per visit how much did he make that week?
-Answer: In the first 6 days, he got 6*100=<<6*100=600>>600 visits
-So on the 7th day, he got 600*2=<<600*2=1200>>1200 visitors
-So he got a total of 1200+600=<<1200+600=1800>>1800 visitors
-That means he made 1800*.01=$<<1800*.01=18>>18
-#### 18
-Question: A cat has nine lives.  A dog has 3 less lives than a cat.  A mouse has 7 more lives than a dog.  How many lives does a mouse have?
-Answer: Dog:9-3=<<9-3=6>>6 lives
-Mouse:6+7=<<6+7=13>>13 lives
-#### 13
-Q: A tank has a capacity of 18000 gallons. Wanda and Ms. B decided to pump water from a pond to fill the tank in two days. On the first day, working in shifts, Wanda filled 1/4 of the tank's capacity with water, and Ms. B pumped 3/4 as much water as Wanda pumped into the tank that day. On the second day, Wanda pumped 2/3 of the amount of water she pumped on the previous day, while Ms. B only pumped 1/3 of the number of gallons she pumped on the first day. How many gallons of water are remaining for the tank to be full?","A tank has a capacity of 18000 gallons. 
-On the first day:
-Wanda filled 1/4*18000 = 4500 gallons
-Ms. B pumped 3/4*4500 = 3375 gallons
-Total on the first day = 4500+3375 = 7875 gallons
-
-On the second day:
-Wanda pumped 2/3*4500 = 3000 gallons
-Ms. B pumped 1/3*3375 = 1125 gallons
-Total on the second day = 3000+1125 = 4125 gallons
-
-Total pumped in two days = 7875+4125 = 12000 gallons
-Remaining capacity = 18000-12000 = 6000 gallons
-
-Therefore, there are 6000 gallons of water remaining for the tank to be full.","On the first day, Wanda pumped 1/4*18000 gallons = <<1/4*18000=4500>>4500 gallons of water.
-On the same day, Ms. B pumped 3/4*4500 gallons = <<3/4*4500=3375>>3375 gallons of water into the tank.
-They pumped a total of 3375 gallons+ 4500 gallons = <<3375+4500=7875>>7875 gallons together on the first day
-On the second day, Wanda pumped 2/3 * 4500 gallons = <<2/3*4500=3000>>3000 gallons
-Ms. B also pumped 3375 gallons * 1/3 = <<3375*1/3=1125>>1125 gallons
-Together, on the second day, they pumped 3000 gallons + 1125 gallons = <<3000+1125=4125>>4125 gallons
-In the two days, they pumped a total of 4125 gallons + 7875 gallons = <<4125+7875=12000>>12000 gallons
-The amount of gallons remaining for the tank to be full is 18000 gallons - 12000 gallons = <<18000-12000=6000>>6000 gallons
-#### 6000"
-Math,3b,"Question: Joshua bought 25 oranges for $12.50. If he sells each one for 60c, how much profit in cents will he make on each orange?
-Answer: $1 is equivalent to 100 cents so $12.50 is equivalent to 100*12.50 = <<12.50*100=1250>>1250 cents
-He bought 25 oranges for 1250 cents so each orange cost 1250/25 = <<1250/25=50>>50 cents each
-If he sells each orange for 60 cents, he is making a profit of 60-50 = <<60-50=10>>10 cents on each one.
-#### 10
-Question: Evan’s dog weighs 63 pounds; it weighs 7 times as much as Ivan’s dog.  Together, what is the weight of the dogs?
-Answer: Ivan's dog weighs 63/7 = <<63/7=9>>9 pounds.
-Thus, the two dogs weigh 63 + 9 = <<63+9=72>>72 pounds.
-#### 72
-Question: Joshua bought 25 oranges for $12.50. If he sells each one for 60c, how much profit in cents will he make on each orange?
-Answer: $1 is equivalent to 100 cents so $12.50 is equivalent to 100*12.50 = <<12.50*100=1250>>1250 cents
-He bought 25 oranges for 1250 cents so each orange cost 1250/25 = <<1250/25=50>>50 cents each
-If he sells each orange for 60 cents, he is making a profit of 60-50 = <<60-50=10>>10 cents on each one.
-#### 10
-Question: Evan’s dog weighs 63 pounds; it weighs 7 times as much as Ivan’s dog.  Together, what is the weight of the dogs?
-Answer: Ivan's dog weighs 63/7 = <<63/7=9>>9 pounds.
-Thus, the two dogs weigh 63 + 9 = <<63+9=72>>72 pounds.
-#### 72
-Q: A tank has a capacity of 18000 gallons. Wanda and Ms. B decided to pump water from a pond to fill the tank in two days. On the first day, working in shifts, Wanda filled 1/4 of the tank's capacity with water, and Ms. B pumped 3/4 as much water as Wanda pumped into the tank that day. On the second day, Wanda pumped 2/3 of the amount of water she pumped on the previous day, while Ms. B only pumped 1/3 of the number of gallons she pumped on the first day. How many gallons of water are remaining for the tank to be full?","A tank with a capacity of 18000 gallons was partially filled on the first day. Wanda filled 1/4 of the tank, which is 1/4 * 18000 = 4500 gallons. 
-Ms. B pumped 3/4 as much water as Wanda, so she pumped 3/4 * 4500 = 3375 gallons that day.  
-Together, they pumped 4500 + 3375 = 7875 gallons on the first day.
-
-On the second day, Wanda pumped 2/3 of the amount she pumped on the first day, which is 2/3 * 4500 = 3000 gallons.
-Ms. B pumped 1/3 of the amount she pumped on the first day, which is 1/3 * 3375 = 1125 gallons.
-
-The total amount pumped on the second day is 3000 + 1125 = 4125 gallons.
-
-Therefore, the total amount pumped in two days is 7875 + 4125 = 12000 gallons. 
-The remaining amount of water needed to fill the tank is 18000 - 12000 = 6000 gallons.","On the first day, Wanda pumped 1/4*18000 gallons = <<1/4*18000=4500>>4500 gallons of water.
-On the same day, Ms. B pumped 3/4*4500 gallons = <<3/4*4500=3375>>3375 gallons of water into the tank.
-They pumped a total of 3375 gallons+ 4500 gallons = <<3375+4500=7875>>7875 gallons together on the first day
-On the second day, Wanda pumped 2/3 * 4500 gallons = <<2/3*4500=3000>>3000 gallons
-Ms. B also pumped 3375 gallons * 1/3 = <<3375*1/3=1125>>1125 gallons
-Together, on the second day, they pumped 3000 gallons + 1125 gallons = <<3000+1125=4125>>4125 gallons
-In the two days, they pumped a total of 4125 gallons + 7875 gallons = <<4125+7875=12000>>12000 gallons
-The amount of gallons remaining for the tank to be full is 18000 gallons - 12000 gallons = <<18000-12000=6000>>6000 gallons
-#### 6000"
-CSQA,1a,"Question: Where can someone find the freshest green beans?
-A: fields
-B: mouth
-C: farmer's market
-D: container
-E: plate
-Answer: C
-Question: Where would you grab an object contained by a doorway?
-A: television
-B: control panel
-C: opening doors
-D: doorknob
-E: doorway
-Answer: E
-Q: She needs to visit a bookshop after buying the latest fashion, where should she look?
-A: student union
-B: mall
-C: department store
-D: library
-E: town or city",Answer: B,B
-CSQA,1a,"Question: They wanted to eat at home but the cupboards were barren, so they had to go what?
-A: cook dinner
-B: eat
-C: go back to work
-D: make food
-E: get food
-Answer: E
-Question: When a young child is sleeping what is something that is common for their age?
-A: snoring
-B: wetting bed
-C: sleepwalking
-D: talking
-E: laughing loud
+Math,1a,"Question: Linda makes $10.00 an hour babysitting.  There is a $25.00 application fee for each college application she submits.  If she is applying to 6 colleges, how many hours will she need to babysit to cover the application fees?
+Answer: The application fee is $25.00 per college and she is applying to 6 colleges so that's 25*6 = $<<25*6=150.00>>150.00
+She makes $10.00 an hour babysitting. Her application fees total $150.00 so she needs to work 150/10 = <<150/10=15>>15 hours to cover the cost
+#### 15
+Question: A convenience store sold 100 bags of chips in a month. In the first week, 15 bags of chips were sold. In the second week, thrice as many bags of chips were sold. There was an equal number of chips sold in the third and fourth week. How many chips was each sold in the third and fourth week?
+Answer: In the second week, 15 x 3 = <<15*3=45>>45 bags of chips were sold.
+So there was a total of 45 + 15 = <<45+15=60>>60 bags of chips sold on the first and second week.
+Thus, a total of 100 - 60 = <<100-60=40>>40 bags of chips were sold on the third and fourth week.
+Therefore, 40/2 = <<40/2=20>>20 bags of chips were each sold on the third and fourth week.
+#### 20
+Question: A company produces chocolate in bars. In one day, it can produce 5000 bars. The company sells all the produced bars for $2 per bar. How much money will the company receive for selling produced chocolate bars during two weeks?","Answer: The company produces 5000 bars per day and sells them for $2 per bar, so they earn 5000 * $2 = $<<5000*2=10000.00>>10000.00 per day.
+In two weeks, there are 14 days, so the company will earn $10000 * 14 = $<<10000*14=140000.00>>140,000.00 for selling the produced chocolate bars during two weeks.
+Therefore, the company will receive $140,000.00 for selling the produced chocolate bars during two weeks.","During two weeks the company can produce 14 * 5000 = <<14*5000=70000>>70000.
+If the price of 1 bar is $2, the company will be able to make 70000 * 2 = $<<70000*2=140000>>140000 from the sales.
+#### 140000"
+Math,1a,"Question: A man intends to complete a journey of 24 km in 8 hours. If he travels at a speed of 4km/hr for the first four hours, at what speed does he need to travel for the remainder of the journey to be right on time?
+Answer: He covers 4km/hr*4hrs = <<4*4=16>>16km in the first 4 hours
+He has 24-16 = <<24-16=8>>8km left to cover
+He has 8-4 = <<8-4=4>>4 hours to cover the remaining 8km
+He has to travel at a speed of 8km/4hrs = 2km/hr to be right on time
+#### 2
+Question: Mark orders 100 chicken nuggets.  A 20 box of chicken nuggets cost $4.  How much did he pay for the chicken nuggets?
+Answer: He orders 100/20=<<100/20=5>>5 boxes
+So that means he spent 5*4=$<<5*4=20>>20 on nuggets
+#### 20
+Question: A company produces chocolate in bars. In one day, it can produce 5000 bars. The company sells all the produced bars for $2 per bar. How much money will the company receive for selling produced chocolate bars during two weeks?","Answer: The company produces 5000 bars per day, so in two weeks (14 days), they will produce 5000*14 = <<5000*14=70000>>70000 bars
+If they sell each bar for $2, they will receive 70000*$2 = $<<70000*2=140000>>140,000 for selling produced chocolate bars during two weeks.","During two weeks the company can produce 14 * 5000 = <<14*5000=70000>>70000.
+If the price of 1 bar is $2, the company will be able to make 70000 * 2 = $<<70000*2=140000>>140000 from the sales.
+#### 140000"
+Math,2,"Question: Linda makes $10.00 an hour babysitting.  There is a $25.00 application fee for each college application she submits.  If she is applying to 6 colleges, how many hours will she need to babysit to cover the application fees?
+Answer: The application fee is $25.00 per college and she is applying to 6 colleges so that's 25*6 = $<<25*6=150.00>>150.00
+She makes $10.00 an hour babysitting. Her application fees total $150.00 so she needs to work 150/10 = <<150/10=15>>15 hours to cover the cost
+#### 15
+Question: A convenience store sold 100 bags of chips in a month. In the first week, 15 bags of chips were sold. In the second week, thrice as many bags of chips were sold. There was an equal number of chips sold in the third and fourth week. How many chips was each sold in the third and fourth week?
+Answer: In the second week, 15 x 3 = <<15*3=45>>45 bags of chips were sold.
+So there was a total of 45 + 15 = <<45+15=60>>60 bags of chips sold on the first and second week.
+Thus, a total of 100 - 60 = <<100-60=40>>40 bags of chips were sold on the third and fourth week.
+Therefore, 40/2 = <<40/2=20>>20 bags of chips were each sold on the third and fourth week.
+#### 20
+Question: A man intends to complete a journey of 24 km in 8 hours. If he travels at a speed of 4km/hr for the first four hours, at what speed does he need to travel for the remainder of the journey to be right on time?
+Answer: He covers 4km/hr*4hrs = <<4*4=16>>16km in the first 4 hours
+He has 24-16 = <<24-16=8>>8km left to cover
+He has 8-4 = <<8-4=4>>4 hours to cover the remaining 8km
+He has to travel at a speed of 8km/4hrs = 2km/hr to be right on time
+#### 2
+Question: Mark orders 100 chicken nuggets.  A 20 box of chicken nuggets cost $4.  How much did he pay for the chicken nuggets?
+Answer: He orders 100/20=<<100/20=5>>5 boxes
+So that means he spent 5*4=$<<5*4=20>>20 on nuggets
+#### 20
+Question: A company produces chocolate in bars. In one day, it can produce 5000 bars. The company sells all the produced bars for $2 per bar. How much money will the company receive for selling produced chocolate bars during two weeks?","Answer: The company produces 5000 chocolate bars per day, so in one week (5 days), they produce 5000*5 = 25000 chocolate bars.
+In two weeks (10 days), the company will produce 25000*2 = 50000 chocolate bars.
+If each chocolate bar is sold for $2, the company will receive 50000*$2 = $<<50000*2=100000.00>>100,000.00 for selling produced chocolate bars during two weeks.","During two weeks the company can produce 14 * 5000 = <<14*5000=70000>>70000.
+If the price of 1 bar is $2, the company will be able to make 70000 * 2 = $<<70000*2=140000>>140000 from the sales.
+#### 140000"
+Math,3a,"Question: Linda makes $10.00 an hour babysitting.  There is a $25.00 application fee for each college application she submits.  If she is applying to 6 colleges, how many hours will she need to babysit to cover the application fees?
+Answer: The application fee is $25.00 per college and she is applying to 6 colleges so that's 25*6 = $<<25*6=150.00>>150.00
+She makes $10.00 an hour babysitting. Her application fees total $150.00 so she needs to work 150/10 = <<150/10=15>>15 hours to cover the cost
+#### 15
+Question: A convenience store sold 100 bags of chips in a month. In the first week, 15 bags of chips were sold. In the second week, thrice as many bags of chips were sold. There was an equal number of chips sold in the third and fourth week. How many chips was each sold in the third and fourth week?
+Answer: In the second week, 15 x 3 = <<15*3=45>>45 bags of chips were sold.
+So there was a total of 45 + 15 = <<45+15=60>>60 bags of chips sold on the first and second week.
+Thus, a total of 100 - 60 = <<100-60=40>>40 bags of chips were sold on the third and fourth week.
+Therefore, 40/2 = <<40/2=20>>20 bags of chips were each sold on the third and fourth week.
+#### 20
+Question: Linda makes $10.00 an hour babysitting.  There is a $25.00 application fee for each college application she submits.  If she is applying to 6 colleges, how many hours will she need to babysit to cover the application fees?
+Answer: The application fee is $25.00 per college and she is applying to 6 colleges so that's 25*6 = $<<25*6=150.00>>150.00
+She makes $10.00 an hour babysitting. Her application fees total $150.00 so she needs to work 150/10 = <<150/10=15>>15 hours to cover the cost
+#### 15
+Question: A convenience store sold 100 bags of chips in a month. In the first week, 15 bags of chips were sold. In the second week, thrice as many bags of chips were sold. There was an equal number of chips sold in the third and fourth week. How many chips was each sold in the third and fourth week?
+Answer: In the second week, 15 x 3 = <<15*3=45>>45 bags of chips were sold.
+So there was a total of 45 + 15 = <<45+15=60>>60 bags of chips sold on the first and second week.
+Thus, a total of 100 - 60 = <<100-60=40>>40 bags of chips were sold on the third and fourth week.
+Therefore, 40/2 = <<40/2=20>>20 bags of chips were each sold on the third and fourth week.
+#### 20
+Question: A company produces chocolate in bars. In one day, it can produce 5000 bars. The company sells all the produced bars for $2 per bar. How much money will the company receive for selling produced chocolate bars during two weeks?","Answer: The company produces 5000 bars per day, so in one week (7 days) it produces 5000 * 7 = 35000 bars.
+In two weeks, it will produce 35000 * 2 = 70000 bars.
+If each bar is sold for $2, the company will receive 70000 * 2 = $<<70000*2=140000>>140000 for selling produced chocolate bars during two weeks.","During two weeks the company can produce 14 * 5000 = <<14*5000=70000>>70000.
+If the price of 1 bar is $2, the company will be able to make 70000 * 2 = $<<70000*2=140000>>140000 from the sales.
+#### 140000"
+Math,3b,"Question: A man intends to complete a journey of 24 km in 8 hours. If he travels at a speed of 4km/hr for the first four hours, at what speed does he need to travel for the remainder of the journey to be right on time?
+Answer: He covers 4km/hr*4hrs = <<4*4=16>>16km in the first 4 hours
+He has 24-16 = <<24-16=8>>8km left to cover
+He has 8-4 = <<8-4=4>>4 hours to cover the remaining 8km
+He has to travel at a speed of 8km/4hrs = 2km/hr to be right on time
+#### 2
+Question: Mark orders 100 chicken nuggets.  A 20 box of chicken nuggets cost $4.  How much did he pay for the chicken nuggets?
+Answer: He orders 100/20=<<100/20=5>>5 boxes
+So that means he spent 5*4=$<<5*4=20>>20 on nuggets
+#### 20
+Question: A man intends to complete a journey of 24 km in 8 hours. If he travels at a speed of 4km/hr for the first four hours, at what speed does he need to travel for the remainder of the journey to be right on time?
+Answer: He covers 4km/hr*4hrs = <<4*4=16>>16km in the first 4 hours
+He has 24-16 = <<24-16=8>>8km left to cover
+He has 8-4 = <<8-4=4>>4 hours to cover the remaining 8km
+He has to travel at a speed of 8km/4hrs = 2km/hr to be right on time
+#### 2
+Question: Mark orders 100 chicken nuggets.  A 20 box of chicken nuggets cost $4.  How much did he pay for the chicken nuggets?
+Answer: He orders 100/20=<<100/20=5>>5 boxes
+So that means he spent 5*4=$<<5*4=20>>20 on nuggets
+#### 20
+Question: A company produces chocolate in bars. In one day, it can produce 5000 bars. The company sells all the produced bars for $2 per bar. How much money will the company receive for selling produced chocolate bars during two weeks?","Answer: The company produces 5000 bars per day, so in two weeks, which is 14 days, it will produce 5000*14 = 70000 bars.
+If each bar is sold for $2, the company will receive 70000*$2 = $140,000 for selling the produced chocolate bars during two weeks.","During two weeks the company can produce 14 * 5000 = <<14*5000=70000>>70000.
+If the price of 1 bar is $2, the company will be able to make 70000 * 2 = $<<70000*2=140000>>140000 from the sales.
+#### 140000"
+CSQA,1a,"Question: Most people have what which they use to carry things?
+A: two eyes
+B: two hands
+C: two arms
+D: carry bags
+E: ears
 Answer: B
-Q: She needs to visit a bookshop after buying the latest fashion, where should she look?
-A: student union
-B: mall
-C: department store
-D: library
-E: town or city",Answer: D,B
-CSQA,2,"Question: Where can someone find the freshest green beans?
-A: fields
-B: mouth
-C: farmer's market
-D: container
-E: plate
+Question: What can happen to you when eating hamburger from someone that you do not know that does not happen when you usually eat a hamburger?
+A: allergic reaction
+B: gain weight
+C: have fun
+D: heartburn
+E: food poisoning
+Answer: E
+Question: Where would you expect to find a pizzeria while shopping?
+A: chicago
+B: street
+C: little italy
+D: food court
+E: capital cities",Answer: D,D
+CSQA,1a,"Question: What is someone likely to feel after receiving a gift that is not common?
+A: special
+B: personal
+C: offended
+D: unique
+E: rare
+Answer: A
+Question: She was known for be soft and sensitive, but when all their wills were tested she was the only one who stood what?
+A: non sensitive
+B: resistant
+C: stoic
+D: hardened
+E: uncaring
 Answer: C
-Question: Where would you grab an object contained by a doorway?
-A: television
-B: control panel
-C: opening doors
-D: doorknob
-E: doorway
-Answer: E
-Question: They wanted to eat at home but the cupboards were barren, so they had to go what?
-A: cook dinner
-B: eat
-C: go back to work
-D: make food
-E: get food
-Answer: E
-Question: When a young child is sleeping what is something that is common for their age?
-A: snoring
-B: wetting bed
-C: sleepwalking
-D: talking
-E: laughing loud
+Question: Where would you expect to find a pizzeria while shopping?
+A: chicago
+B: street
+C: little italy
+D: food court
+E: capital cities",Answer: D,D
+CSQA,2,"Question: Most people have what which they use to carry things?
+A: two eyes
+B: two hands
+C: two arms
+D: carry bags
+E: ears
 Answer: B
-Q: She needs to visit a bookshop after buying the latest fashion, where should she look?
-A: student union
-B: mall
-C: department store
-D: library
-E: town or city",Answer: B,B
-CSQA,3a,"Question: Where can someone find the freshest green beans?
-A: fields
-B: mouth
-C: farmer's market
-D: container
-E: plate
+Question: What can happen to you when eating hamburger from someone that you do not know that does not happen when you usually eat a hamburger?
+A: allergic reaction
+B: gain weight
+C: have fun
+D: heartburn
+E: food poisoning
+Answer: E
+Question: What is someone likely to feel after receiving a gift that is not common?
+A: special
+B: personal
+C: offended
+D: unique
+E: rare
+Answer: A
+Question: She was known for be soft and sensitive, but when all their wills were tested she was the only one who stood what?
+A: non sensitive
+B: resistant
+C: stoic
+D: hardened
+E: uncaring
 Answer: C
-Question: Where would you grab an object contained by a doorway?
-A: television
-B: control panel
-C: opening doors
-D: doorknob
-E: doorway
+Question: Where would you expect to find a pizzeria while shopping?
+A: chicago
+B: street
+C: little italy
+D: food court
+E: capital cities",Answer: D,D
+CSQA,3a,"Question: Most people have what which they use to carry things?
+A: two eyes
+B: two hands
+C: two arms
+D: carry bags
+E: ears
+Answer: B
+Question: What can happen to you when eating hamburger from someone that you do not know that does not happen when you usually eat a hamburger?
+A: allergic reaction
+B: gain weight
+C: have fun
+D: heartburn
+E: food poisoning
 Answer: E
-Question: Where can someone find the freshest green beans?
-A: fields
-B: mouth
-C: farmer's market
-D: container
-E: plate
+Question: Most people have what which they use to carry things?
+A: two eyes
+B: two hands
+C: two arms
+D: carry bags
+E: ears
+Answer: B
+Question: What can happen to you when eating hamburger from someone that you do not know that does not happen when you usually eat a hamburger?
+A: allergic reaction
+B: gain weight
+C: have fun
+D: heartburn
+E: food poisoning
+Answer: E
+Question: Where would you expect to find a pizzeria while shopping?
+A: chicago
+B: street
+C: little italy
+D: food court
+E: capital cities",Answer: D,D
+CSQA,3b,"Question: What is someone likely to feel after receiving a gift that is not common?
+A: special
+B: personal
+C: offended
+D: unique
+E: rare
+Answer: A
+Question: She was known for be soft and sensitive, but when all their wills were tested she was the only one who stood what?
+A: non sensitive
+B: resistant
+C: stoic
+D: hardened
+E: uncaring
 Answer: C
-Question: Where would you grab an object contained by a doorway?
-A: television
-B: control panel
-C: opening doors
-D: doorknob
-E: doorway
-Answer: E
-Q: She needs to visit a bookshop after buying the latest fashion, where should she look?
-A: student union
-B: mall
-C: department store
-D: library
-E: town or city",Answer: B: mall,B
-CSQA,3b,"Question: They wanted to eat at home but the cupboards were barren, so they had to go what?
-A: cook dinner
-B: eat
-C: go back to work
-D: make food
-E: get food
-Answer: E
-Question: When a young child is sleeping what is something that is common for their age?
-A: snoring
-B: wetting bed
-C: sleepwalking
-D: talking
-E: laughing loud
-Answer: B
-Question: They wanted to eat at home but the cupboards were barren, so they had to go what?
-A: cook dinner
-B: eat
-C: go back to work
-D: make food
-E: get food
-Answer: E
-Question: When a young child is sleeping what is something that is common for their age?
-A: snoring
-B: wetting bed
-C: sleepwalking
-D: talking
-E: laughing loud
-Answer: B
-Q: She needs to visit a bookshop after buying the latest fashion, where should she look?
-A: student union
-B: mall
-C: department store
-D: library
-E: town or city",Answer: D,B
-StrategyQA,1a,"Question: To be alliterative, words must have the same initial consonant sound. The names of The Powerpuff Girls are Blossom, Buttercup, and Bubbles.
-Are the names of The Powerpuff Girls alliterative? 
+Question: What is someone likely to feel after receiving a gift that is not common?
+A: special
+B: personal
+C: offended
+D: unique
+E: rare
+Answer: A
+Question: She was known for be soft and sensitive, but when all their wills were tested she was the only one who stood what?
+A: non sensitive
+B: resistant
+C: stoic
+D: hardened
+E: uncaring
+Answer: C
+Question: Where would you expect to find a pizzeria while shopping?
+A: chicago
+B: street
+C: little italy
+D: food court
+E: capital cities",Answer: D,D
+StrategyQA,1a,"Question: The saltwater crocodile is listed as ""least concern"" on the International Union for the Conservation of Nature Red List. The European otter is listed as ""near threatened"" on the International Union for the Conservation of Nature Red List. The International Union for the Conservation of Nature Red List starts with ""least concern"", then ""near threatened"", ""vulnerable"", ""endangered"", ""critically endangered"", ""extinct in the wild"", and ""extinct"".
+Is the saltwater crocodile less endangered than the European otter?
 Answer: True
-Question: Brooklyn and NYC bagels are known around the world for being high quality. Brooklyn pizza is regarded as the best in the country. 
-Is Brooklyn known for its bread products?
-Answer: True
-Q: Turkey enjoys a wide variety of regional variations of börek among the different cultures and ethnicities composing it. Börek is very popular in the cuisines of the former Ottoman Empire, especially in North Africa and throughout the Balkans. Recep Tayyip Erdoğan is the current president of Turkey and he was born and raised there.
-Would Recep Tayyip Erdoğan be unfamiliar with börek?",A: False,False
-StrategyQA,1a,"Question: Jack Dempsey competed as a heavyweight and a lightheavyweight. Jack Dempsey only had a handful of title defenses as heavyweight champion. Wladimir Klitschko had 25 heavyweight title fight wins. Jack Dempsey did not hold the lightheavyweight title. Dariusz Michalczewski had 23 lightheavyweight title fight wins.
-Did Jack Dempsey have most title fight wins in either of his weight classes?
+Question: When milk becomes acidic, the water and fats separate from each other. When the water and fats separate in milk, it becomes clumpy and has a bad texture. Lemon is highly acidic.
+Does Lemon enhance the flavor of milk?
 Answer: False
-Question: Winter runs from about December 20 to about March 20. Government holidays include Christmas, New Year, King Day, and President's Day. Christmas is always December 25, New Year is always January 1, King Day is a Monday in the middle of January, and President's Day is a Monday in late February.
-Are there multiple American government holidays during winter?
+Question: Psychotherapy is useful for couples navigating relationship issues. Grief is a common reason that people seek psychotherapy. 
+Do some psychotherapy patients have no mental illness?",Answer: True,True
+StrategyQA,1a,"Question: Hanuman, the divine Hindu monkey, is a god of strength, knowledge, and victory. Athena was the Greek goddess of war, and wisdom.
+Does Hanuman have some of the same duties as Athena?
 Answer: True
-Q: Turkey enjoys a wide variety of regional variations of börek among the different cultures and ethnicities composing it. Börek is very popular in the cuisines of the former Ottoman Empire, especially in North Africa and throughout the Balkans. Recep Tayyip Erdoğan is the current president of Turkey and he was born and raised there.
-Would Recep Tayyip Erdoğan be unfamiliar with börek?",A: False,False
-StrategyQA,2,"Question: To be alliterative, words must have the same initial consonant sound. The names of The Powerpuff Girls are Blossom, Buttercup, and Bubbles.
-Are the names of The Powerpuff Girls alliterative? 
+Question: Metallica famously cut their hair in 1996 which caused a huge divide in their fanbase. Metallica's best selling album, The Black Album, was released in 1991 and has sold over 20 million copies. Since 1996, Metallica have released 5 studio albums. Metalica's 5 studio albums since 1996 have sold around a combined 14 million copies
+Did Metallica band members cutting their hair hurt their sales?
 Answer: True
-Question: Brooklyn and NYC bagels are known around the world for being high quality. Brooklyn pizza is regarded as the best in the country. 
-Is Brooklyn known for its bread products?
+Question: Psychotherapy is useful for couples navigating relationship issues. Grief is a common reason that people seek psychotherapy. 
+Do some psychotherapy patients have no mental illness?",Answer: True,True
+StrategyQA,2,"Question: The saltwater crocodile is listed as ""least concern"" on the International Union for the Conservation of Nature Red List. The European otter is listed as ""near threatened"" on the International Union for the Conservation of Nature Red List. The International Union for the Conservation of Nature Red List starts with ""least concern"", then ""near threatened"", ""vulnerable"", ""endangered"", ""critically endangered"", ""extinct in the wild"", and ""extinct"".
+Is the saltwater crocodile less endangered than the European otter?
 Answer: True
-Question: Jack Dempsey competed as a heavyweight and a lightheavyweight. Jack Dempsey only had a handful of title defenses as heavyweight champion. Wladimir Klitschko had 25 heavyweight title fight wins. Jack Dempsey did not hold the lightheavyweight title. Dariusz Michalczewski had 23 lightheavyweight title fight wins.
-Did Jack Dempsey have most title fight wins in either of his weight classes?
+Question: When milk becomes acidic, the water and fats separate from each other. When the water and fats separate in milk, it becomes clumpy and has a bad texture. Lemon is highly acidic.
+Does Lemon enhance the flavor of milk?
 Answer: False
-Question: Winter runs from about December 20 to about March 20. Government holidays include Christmas, New Year, King Day, and President's Day. Christmas is always December 25, New Year is always January 1, King Day is a Monday in the middle of January, and President's Day is a Monday in late February.
-Are there multiple American government holidays during winter?
+Question: Hanuman, the divine Hindu monkey, is a god of strength, knowledge, and victory. Athena was the Greek goddess of war, and wisdom.
+Does Hanuman have some of the same duties as Athena?
 Answer: True
-Q: Turkey enjoys a wide variety of regional variations of börek among the different cultures and ethnicities composing it. Börek is very popular in the cuisines of the former Ottoman Empire, especially in North Africa and throughout the Balkans. Recep Tayyip Erdoğan is the current president of Turkey and he was born and raised there.
-Would Recep Tayyip Erdoğan be unfamiliar with börek?",Answer: False,False
-StrategyQA,3a,"Question: To be alliterative, words must have the same initial consonant sound. The names of The Powerpuff Girls are Blossom, Buttercup, and Bubbles.
-Are the names of The Powerpuff Girls alliterative? 
+Question: Metallica famously cut their hair in 1996 which caused a huge divide in their fanbase. Metallica's best selling album, The Black Album, was released in 1991 and has sold over 20 million copies. Since 1996, Metallica have released 5 studio albums. Metalica's 5 studio albums since 1996 have sold around a combined 14 million copies
+Did Metallica band members cutting their hair hurt their sales?
 Answer: True
-Question: Brooklyn and NYC bagels are known around the world for being high quality. Brooklyn pizza is regarded as the best in the country. 
-Is Brooklyn known for its bread products?
+Question: Psychotherapy is useful for couples navigating relationship issues. Grief is a common reason that people seek psychotherapy. 
+Do some psychotherapy patients have no mental illness?",Answer: True,True
+StrategyQA,3a,"Question: The saltwater crocodile is listed as ""least concern"" on the International Union for the Conservation of Nature Red List. The European otter is listed as ""near threatened"" on the International Union for the Conservation of Nature Red List. The International Union for the Conservation of Nature Red List starts with ""least concern"", then ""near threatened"", ""vulnerable"", ""endangered"", ""critically endangered"", ""extinct in the wild"", and ""extinct"".
+Is the saltwater crocodile less endangered than the European otter?
 Answer: True
-Question: To be alliterative, words must have the same initial consonant sound. The names of The Powerpuff Girls are Blossom, Buttercup, and Bubbles.
-Are the names of The Powerpuff Girls alliterative? 
-Answer: True
-Question: Brooklyn and NYC bagels are known around the world for being high quality. Brooklyn pizza is regarded as the best in the country. 
-Is Brooklyn known for its bread products?
-Answer: True
-Q: Turkey enjoys a wide variety of regional variations of börek among the different cultures and ethnicities composing it. Börek is very popular in the cuisines of the former Ottoman Empire, especially in North Africa and throughout the Balkans. Recep Tayyip Erdoğan is the current president of Turkey and he was born and raised there.
-Would Recep Tayyip Erdoğan be unfamiliar with börek?",Answer: False,False
-StrategyQA,3b,"Question: Jack Dempsey competed as a heavyweight and a lightheavyweight. Jack Dempsey only had a handful of title defenses as heavyweight champion. Wladimir Klitschko had 25 heavyweight title fight wins. Jack Dempsey did not hold the lightheavyweight title. Dariusz Michalczewski had 23 lightheavyweight title fight wins.
-Did Jack Dempsey have most title fight wins in either of his weight classes?
+Question: When milk becomes acidic, the water and fats separate from each other. When the water and fats separate in milk, it becomes clumpy and has a bad texture. Lemon is highly acidic.
+Does Lemon enhance the flavor of milk?
 Answer: False
-Question: Winter runs from about December 20 to about March 20. Government holidays include Christmas, New Year, King Day, and President's Day. Christmas is always December 25, New Year is always January 1, King Day is a Monday in the middle of January, and President's Day is a Monday in late February.
-Are there multiple American government holidays during winter?
+Question: The saltwater crocodile is listed as ""least concern"" on the International Union for the Conservation of Nature Red List. The European otter is listed as ""near threatened"" on the International Union for the Conservation of Nature Red List. The International Union for the Conservation of Nature Red List starts with ""least concern"", then ""near threatened"", ""vulnerable"", ""endangered"", ""critically endangered"", ""extinct in the wild"", and ""extinct"".
+Is the saltwater crocodile less endangered than the European otter?
 Answer: True
-Question: Jack Dempsey competed as a heavyweight and a lightheavyweight. Jack Dempsey only had a handful of title defenses as heavyweight champion. Wladimir Klitschko had 25 heavyweight title fight wins. Jack Dempsey did not hold the lightheavyweight title. Dariusz Michalczewski had 23 lightheavyweight title fight wins.
-Did Jack Dempsey have most title fight wins in either of his weight classes?
+Question: When milk becomes acidic, the water and fats separate from each other. When the water and fats separate in milk, it becomes clumpy and has a bad texture. Lemon is highly acidic.
+Does Lemon enhance the flavor of milk?
 Answer: False
-Question: Winter runs from about December 20 to about March 20. Government holidays include Christmas, New Year, King Day, and President's Day. Christmas is always December 25, New Year is always January 1, King Day is a Monday in the middle of January, and President's Day is a Monday in late February.
-Are there multiple American government holidays during winter?
+Question: Psychotherapy is useful for couples navigating relationship issues. Grief is a common reason that people seek psychotherapy. 
+Do some psychotherapy patients have no mental illness?",Answer: True,True
+StrategyQA,3b,"Question: Hanuman, the divine Hindu monkey, is a god of strength, knowledge, and victory. Athena was the Greek goddess of war, and wisdom.
+Does Hanuman have some of the same duties as Athena?
 Answer: True
-Q: Turkey enjoys a wide variety of regional variations of börek among the different cultures and ethnicities composing it. Börek is very popular in the cuisines of the former Ottoman Empire, especially in North Africa and throughout the Balkans. Recep Tayyip Erdoğan is the current president of Turkey and he was born and raised there.
-Would Recep Tayyip Erdoğan be unfamiliar with börek?",A: False,False
-SayCan,1a,"Question: Can you bring me a spicy snack?
-Answer: 1. find a jalapeno chips, 2. pick up the jalapeno chips, 3. bring it to you, 4. put down the jalapeno chips, 5. done.
-Question: Put the coke can in your gripper.
-Answer: 1. pick up the coke, 2. done
-Q: Navigate to the table.","A: 1. Identify the table, 2. Approach the table, 3. Stop at the table.","1. go to the table, 2. done"
-SayCan,1a,"Question: Park at the table.
+Question: Metallica famously cut their hair in 1996 which caused a huge divide in their fanbase. Metallica's best selling album, The Black Album, was released in 1991 and has sold over 20 million copies. Since 1996, Metallica have released 5 studio albums. Metalica's 5 studio albums since 1996 have sold around a combined 14 million copies
+Did Metallica band members cutting their hair hurt their sales?
+Answer: True
+Question: Hanuman, the divine Hindu monkey, is a god of strength, knowledge, and victory. Athena was the Greek goddess of war, and wisdom.
+Does Hanuman have some of the same duties as Athena?
+Answer: True
+Question: Metallica famously cut their hair in 1996 which caused a huge divide in their fanbase. Metallica's best selling album, The Black Album, was released in 1991 and has sold over 20 million copies. Since 1996, Metallica have released 5 studio albums. Metalica's 5 studio albums since 1996 have sold around a combined 14 million copies
+Did Metallica band members cutting their hair hurt their sales?
+Answer: True
+Question: Psychotherapy is useful for couples navigating relationship issues. Grief is a common reason that people seek psychotherapy. 
+Do some psychotherapy patients have no mental illness?",True,True
+SayCan,1a,"Question: Bring me a soda that is not a coke.
+Answer: 1. find a pepsi, 2. pick up the pepsi, 3. bring it to you, 4. put down the pepsi, 5. done
+Question: Can you bring me something spicy?
+Answer: 1. find the jalapeno chips, 2. pick up the jalapeno chips, 3. bring it to you, 4. put down the jalapeno chips, 5. done
+Question: Pick up the coke can.","Answer: 1. find the coke can, 2. pick up the coke can, 3. bring it to you, 4. put down the coke can, 5. done","1. pick up the coke can, 2. done"
+SayCan,1a,"Question: Can you bring me a salty snack?
+Answer: 1. find a sea salt chips, 2. pick up the sea salt chips, 3. bring it to you, 4. put down the sea salt chips, 5. done.
+Question: How would you navigate to the table?
 Answer: 1. go to the table, 2. done
-Question: Put a bag of chips and water bottle on the table.
-Answer: 1. find the bag of chips, 2. pick up the bag of chips, 3. go to the table, 4. put down the bag of chips, 5. find a water bottle, 6. pick up the water bottle, 7. go to the table, 8. put down the water bottle, 9. done
-Q: Navigate to the table.","A: 1. Stand up from your current location, 2. Walk towards the table, 3. Stop when you reach the table, 4. Done","1. go to the table, 2. done"
-SayCan,2,"Question: Can you bring me a spicy snack?
-Answer: 1. find a jalapeno chips, 2. pick up the jalapeno chips, 3. bring it to you, 4. put down the jalapeno chips, 5. done.
-Question: Put the coke can in your gripper.
-Answer: 1. pick up the coke, 2. done
-Question: Park at the table.
+Question: Pick up the coke can.","Answer: 1. Reach for the coke can, 2. Pick up the coke can, 3. Hand you the coke can, 4. Done.","1. pick up the coke can, 2. done"
+SayCan,2,"Question: Bring me a soda that is not a coke.
+Answer: 1. find a pepsi, 2. pick up the pepsi, 3. bring it to you, 4. put down the pepsi, 5. done
+Question: Can you bring me something spicy?
+Answer: 1. find the jalapeno chips, 2. pick up the jalapeno chips, 3. bring it to you, 4. put down the jalapeno chips, 5. done
+Question: Can you bring me a salty snack?
+Answer: 1. find a sea salt chips, 2. pick up the sea salt chips, 3. bring it to you, 4. put down the sea salt chips, 5. done.
+Question: How would you navigate to the table?
 Answer: 1. go to the table, 2. done
-Question: Put a bag of chips and water bottle on the table.
-Answer: 1. find the bag of chips, 2. pick up the bag of chips, 3. go to the table, 4. put down the bag of chips, 5. find a water bottle, 6. pick up the water bottle, 7. go to the table, 8. put down the water bottle, 9. done
-Q: Navigate to the table.","A: 1. go to the table, 2. done","1. go to the table, 2. done"
-SayCan,3a,"Question: Can you bring me a spicy snack?
-Answer: 1. find a jalapeno chips, 2. pick up the jalapeno chips, 3. bring it to you, 4. put down the jalapeno chips, 5. done.
-Question: Put the coke can in your gripper.
-Answer: 1. pick up the coke, 2. done
-Question: Can you bring me a spicy snack?
-Answer: 1. find a jalapeno chips, 2. pick up the jalapeno chips, 3. bring it to you, 4. put down the jalapeno chips, 5. done.
-Question: Put the coke can in your gripper.
-Answer: 1. pick up the coke, 2. done
-Q: Navigate to the table.","A: I'm sorry, I am not able to physically navigate.","1. go to the table, 2. done"
-SayCan,3b,"Question: Park at the table.
+Question: Pick up the coke can.","Answer: 1. find a coke can, 2. pick up the coke can, 3. bring it to you, 4. put down the coke can, 5. done","1. pick up the coke can, 2. done"
+SayCan,3a,"Question: Bring me a soda that is not a coke.
+Answer: 1. find a pepsi, 2. pick up the pepsi, 3. bring it to you, 4. put down the pepsi, 5. done
+Question: Can you bring me something spicy?
+Answer: 1. find the jalapeno chips, 2. pick up the jalapeno chips, 3. bring it to you, 4. put down the jalapeno chips, 5. done
+Question: Bring me a soda that is not a coke.
+Answer: 1. find a pepsi, 2. pick up the pepsi, 3. bring it to you, 4. put down the pepsi, 5. done
+Question: Can you bring me something spicy?
+Answer: 1. find the jalapeno chips, 2. pick up the jalapeno chips, 3. bring it to you, 4. put down the jalapeno chips, 5. done
+Question: Pick up the coke can.","Answer: 1. locate the coke can, 2. pick up the coke can, 3. bring it to you, 4. hand you the coke can, 5. task completed","1. pick up the coke can, 2. done"
+SayCan,3b,"Question: Can you bring me a salty snack?
+Answer: 1. find a sea salt chips, 2. pick up the sea salt chips, 3. bring it to you, 4. put down the sea salt chips, 5. done.
+Question: How would you navigate to the table?
 Answer: 1. go to the table, 2. done
-Question: Put a bag of chips and water bottle on the table.
-Answer: 1. find the bag of chips, 2. pick up the bag of chips, 3. go to the table, 4. put down the bag of chips, 5. find a water bottle, 6. pick up the water bottle, 7. go to the table, 8. put down the water bottle, 9. done
-Question: Park at the table.
+Question: Can you bring me a salty snack?
+Answer: 1. find a sea salt chips, 2. pick up the sea salt chips, 3. bring it to you, 4. put down the sea salt chips, 5. done.
+Question: How would you navigate to the table?
 Answer: 1. go to the table, 2. done
-Question: Put a bag of chips and water bottle on the table.
-Answer: 1. find the bag of chips, 2. pick up the bag of chips, 3. go to the table, 4. put down the bag of chips, 5. find a water bottle, 6. pick up the water bottle, 7. go to the table, 8. put down the water bottle, 9. done
-Q: Navigate to the table.","A: 1. Walk to the table, 2. Arrive at the table","1. go to the table, 2. done"
+Question: Pick up the coke can.","Answer: 1. Pick up the coke can, 2. done.","1. pick up the coke can, 2. done"

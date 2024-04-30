@@ -1,374 +1,383 @@
 Task Class,Case,Prompt,Response,Expected
-Math,1a,"Question: There are 6 times as many lab coats as uniforms in the lab. The number of lab techs is half of the number of uniforms. If there are 12 uniforms in the lab, and the lab techs share the coats and uniforms equally among them, how many coats and uniforms in total does each lab tech get?
-Answer: If there are 12 uniforms, and the lab coats are 6 times as many as the number of uniforms, there are 6*12 = <<12*6=72>>72 lab coats.
-The total number of lab coats and uniforms in the lab is 72+12 = <<72+12=84>>84
-If the number of lab techs is half the number of uniforms, then there are 12/2 = <<12/2=6>>6 lab techs
-If they share the lab coats and uniforms equally, each lab tech will get 84/6 = <<84/6=14>>14 lab coats and uniforms.
-#### 14
-Question: Geli is committed to her 3 times a week workout. On her first day, she started doing 10 push-ups. Her fitness trainer encouraged her to add 5 more push-ups each day. How many push-ups will she do in total throughout her first week?
-Answer: On the first day, she will do 10 push-ups.
-On the second day, she will do 10 + 5 = <<10+5=15>>15 push-ups.
-On the third day, she will do 15 + 5 = <<15+5=20>>20 push-ups.
-So, Geli will do a total of 10 + 15 + 20 = <<10+15+20=45>>45 push-ups in a week.
-#### 45
-Q: Grandma walks 3 miles every day on her favorite walking trail, which includes 2 miles of walking on the beach and 1 mile of walking on the sidewalk.  On the sidewalk, Grandma walks at twice the rate of speed that she does on the beach.  If 40 minutes of her walk is spent on the beach, how long does it take for her to complete the entire 3-mile walk, in minutes?","A: Since Grandma walks 2 miles on the beach and 1 mile on the sidewalk, the total distance she walks is 3 miles.
-
-If she spends 40 minutes walking on the beach, and the sidewalk is walked at twice the speed of the beach, then she spends 40 / 2 = 20 minutes walking on the sidewalk.
-
-Therefore, Grandma takes 40 + 20 = 60 minutes to complete her 3-mile walk.
-#### 60","On the beach, Grandma walks at a rate of 2 miles per 40 minutes, or 2/40 = 1/20 miles per minute.
-On the sidewalk, she walks at twice the rate of speed as when she is on the sand, or 2 * 1/20 = 1/10 miles per minute.
-To walk 1 mile on the sidewalk, it takes her 1/(1/10) = <<1/(1/10)=10>>10 minutes.
-Thus, in total, it takes Grandma 40+10 = <<40+10=50>>50 minutes to walk her favorite route.
-#### 50"
-Math,1a,"Question: Arlene hiked 24 miles on Saturday, carrying a 60-pound backpack. She is exactly 5 feet tall. She spent 6 hours hiking. The temperature during the day was 60 degrees Fahrenheit. What was Arlene's average hiking pace, in miles per hour?
-Answer: She hiked 24 miles.
-She spent 6 hours hiking.
-Her average pace was 24/6=<<24/6=4>>4 mph.
+Math,1a,"Question: James watched 2 episodes of Jeopardy and 2 episodes of Wheel of Fortune.  Jeopardy is 20 minutes and Wheel of Fortune is twice as long.  How many hours did he watch TV?
+Answer: He watched 2*20=<<2*20=40>>40 minutes of Jeopardy.
+Wheel of Fortune is 2*20=<<2*20=40>>40 minutes each.
+So he watched it for 40*2=<<40*2=80>>80 minutes.
+So he watched 40+80=<<40+80=120>>120 minutes of TV.
+That means he watched 120/60=<<120/60=2>>2 hours of TV.
+#### 2
+Question: In a classroom of 81 students, two-thirds are wearing striped shirts while the others are wearing checkered shirts. If there are 19 more students wearing shorts than checkered shirts, how many more students are wearing striped shirts than shorts?
+Answer: 81/3 = <<81/3=27>>27 students are wearing checkered shirts.
+27 x 2 = <<27*2=54>>54 students are wearing striped shirts.
+27 + 19 = <<27+19=46>>46 students are wearing shorts.
+54 - 46 = <<54-46=8>>8 more students are wearing striped shirts than shorts.
+#### 8
+Question: A basic manicure starts at $35 while a pedicure starts at $40. A certain salon offers 20% off if you get both. Suppose Karen chooses to do both and would also like to add nail art on each of her fingers, which costs $3 per nail. How much would she pay in all?","Answer: The total cost of the manicure and pedicure without any discounts or add-ons is $35 + $40 = $75.
+Karen receives a 20% discount for getting both services, so she pays 80% of the original cost, which is 0.80 x $75 = $60.
+Adding nail art on each finger would cost $3 x 10 = $30.
+Therefore, Karen would pay a total of $60 + $30 = $90 in all.","The cost for both manicure and pedicure is $35+$40=$<<35+40=75>>75.
+The discount is $75*0.2=$<<75*0.2=15>>15.
+So, Karen would only pay $75-$15=$<<75-15=60>>60 for both services.
+The cost of the nail art for 10 fingers is $3*$10=$<<3*10=30>>30.
+Therefore, Karen would pay a total of $60+$30=$<<60+30=90>>90.
+#### 90"
+Math,1a,"Question: There are twice as many centipedes as humans on a certain island and half as many sheep as humans. How many sheep and humans in total are on the island if the number of centipedes is 100?
+Answer: The number of humans on the island is 100 / 2 = <<100/2=50>>50.
+There are 1/2 * 50 = <<1/2*50=25>>25 sheep on the island.
+The total number of sheep and humans is 25 + 50 = <<25+50=75>>75.
+#### 75
+Question: Tom needs to lower a rope down 6 stories.   One story is 10 feet.  The only rope being sold is 20 feet long but you lose 25% when lashing them together.  How many pieces of rope will he need to buy?
+Answer: He needs 10*6=<<10*6=60>>60 feet
+He loses 20*.25=<<20*.25=5>>5 feet each time
+So he gets 20-5=<<20-5=15>>15 feet from each piece
+That means he needs 60/15=<<60/15=4>>4 pieces of rope
 #### 4
-Question: The pirates plan to explore 4 islands. Two islands require walking 20 miles per day while the other two islands require 25 miles per day. How many miles will they have to walk if it takes 1.5 days to explore each island?
-Answer: It will take 1.5 days x 2 = <<1.5*2=3>>3 days to explore 2 islands.
-So, the pirates will walk 20 miles x 3 days = <<20*3=60>>60 miles to explore two islands.
-The other 2 islands will be explored by walking 25 miles x 3 days = <<25*3=75>>75 miles.
-Thus, the pirates will need to walk 60 + 75 = <<60+75=135>>135 miles to explore the 4 islands.
-#### 135
-Q: Grandma walks 3 miles every day on her favorite walking trail, which includes 2 miles of walking on the beach and 1 mile of walking on the sidewalk.  On the sidewalk, Grandma walks at twice the rate of speed that she does on the beach.  If 40 minutes of her walk is spent on the beach, how long does it take for her to complete the entire 3-mile walk, in minutes?","A: Grandma spends 40 minutes walking on the beach, which is 2 miles, so she walks at a rate of 2/40 = 0.05 miles per minute.
-This means on the sidewalk she walks at 0.05 x 2 = 0.1 miles per minute.
-To walk 1 mile at 0.1 miles per minute, it will take 1/0.1 = 10 minutes.
-So, Grandma completes the 3-mile walk in 40 + 10 = <<40+10=50>>50 minutes.","On the beach, Grandma walks at a rate of 2 miles per 40 minutes, or 2/40 = 1/20 miles per minute.
-On the sidewalk, she walks at twice the rate of speed as when she is on the sand, or 2 * 1/20 = 1/10 miles per minute.
-To walk 1 mile on the sidewalk, it takes her 1/(1/10) = <<1/(1/10)=10>>10 minutes.
-Thus, in total, it takes Grandma 40+10 = <<40+10=50>>50 minutes to walk her favorite route.
-#### 50"
-Math,2,"Question: There are 6 times as many lab coats as uniforms in the lab. The number of lab techs is half of the number of uniforms. If there are 12 uniforms in the lab, and the lab techs share the coats and uniforms equally among them, how many coats and uniforms in total does each lab tech get?
-Answer: If there are 12 uniforms, and the lab coats are 6 times as many as the number of uniforms, there are 6*12 = <<12*6=72>>72 lab coats.
-The total number of lab coats and uniforms in the lab is 72+12 = <<72+12=84>>84
-If the number of lab techs is half the number of uniforms, then there are 12/2 = <<12/2=6>>6 lab techs
-If they share the lab coats and uniforms equally, each lab tech will get 84/6 = <<84/6=14>>14 lab coats and uniforms.
-#### 14
-Question: Geli is committed to her 3 times a week workout. On her first day, she started doing 10 push-ups. Her fitness trainer encouraged her to add 5 more push-ups each day. How many push-ups will she do in total throughout her first week?
-Answer: On the first day, she will do 10 push-ups.
-On the second day, she will do 10 + 5 = <<10+5=15>>15 push-ups.
-On the third day, she will do 15 + 5 = <<15+5=20>>20 push-ups.
-So, Geli will do a total of 10 + 15 + 20 = <<10+15+20=45>>45 push-ups in a week.
-#### 45
-Question: Arlene hiked 24 miles on Saturday, carrying a 60-pound backpack. She is exactly 5 feet tall. She spent 6 hours hiking. The temperature during the day was 60 degrees Fahrenheit. What was Arlene's average hiking pace, in miles per hour?
-Answer: She hiked 24 miles.
-She spent 6 hours hiking.
-Her average pace was 24/6=<<24/6=4>>4 mph.
+Question: A basic manicure starts at $35 while a pedicure starts at $40. A certain salon offers 20% off if you get both. Suppose Karen chooses to do both and would also like to add nail art on each of her fingers, which costs $3 per nail. How much would she pay in all?","Answer: The total cost of the manicure and pedicure without the discount would be $35 + $40 = $75.
+With the 20% discount, she would pay 0.2 * $75 = $<<0.2*75=15>>15 less.
+So, her total cost after the discount would be $75 - $15 = $60.
+To add nail art on each finger, she would pay $3 * 10 = $<<3*10=30>>30.
+Therefore, Karen would pay a total of $60 + $30 = $<<60+30=90>>90 in all.","The cost for both manicure and pedicure is $35+$40=$<<35+40=75>>75.
+The discount is $75*0.2=$<<75*0.2=15>>15.
+So, Karen would only pay $75-$15=$<<75-15=60>>60 for both services.
+The cost of the nail art for 10 fingers is $3*$10=$<<3*10=30>>30.
+Therefore, Karen would pay a total of $60+$30=$<<60+30=90>>90.
+#### 90"
+Math,2,"Question: James watched 2 episodes of Jeopardy and 2 episodes of Wheel of Fortune.  Jeopardy is 20 minutes and Wheel of Fortune is twice as long.  How many hours did he watch TV?
+Answer: He watched 2*20=<<2*20=40>>40 minutes of Jeopardy.
+Wheel of Fortune is 2*20=<<2*20=40>>40 minutes each.
+So he watched it for 40*2=<<40*2=80>>80 minutes.
+So he watched 40+80=<<40+80=120>>120 minutes of TV.
+That means he watched 120/60=<<120/60=2>>2 hours of TV.
+#### 2
+Question: In a classroom of 81 students, two-thirds are wearing striped shirts while the others are wearing checkered shirts. If there are 19 more students wearing shorts than checkered shirts, how many more students are wearing striped shirts than shorts?
+Answer: 81/3 = <<81/3=27>>27 students are wearing checkered shirts.
+27 x 2 = <<27*2=54>>54 students are wearing striped shirts.
+27 + 19 = <<27+19=46>>46 students are wearing shorts.
+54 - 46 = <<54-46=8>>8 more students are wearing striped shirts than shorts.
+#### 8
+Question: There are twice as many centipedes as humans on a certain island and half as many sheep as humans. How many sheep and humans in total are on the island if the number of centipedes is 100?
+Answer: The number of humans on the island is 100 / 2 = <<100/2=50>>50.
+There are 1/2 * 50 = <<1/2*50=25>>25 sheep on the island.
+The total number of sheep and humans is 25 + 50 = <<25+50=75>>75.
+#### 75
+Question: Tom needs to lower a rope down 6 stories.   One story is 10 feet.  The only rope being sold is 20 feet long but you lose 25% when lashing them together.  How many pieces of rope will he need to buy?
+Answer: He needs 10*6=<<10*6=60>>60 feet
+He loses 20*.25=<<20*.25=5>>5 feet each time
+So he gets 20-5=<<20-5=15>>15 feet from each piece
+That means he needs 60/15=<<60/15=4>>4 pieces of rope
 #### 4
-Question: The pirates plan to explore 4 islands. Two islands require walking 20 miles per day while the other two islands require 25 miles per day. How many miles will they have to walk if it takes 1.5 days to explore each island?
-Answer: It will take 1.5 days x 2 = <<1.5*2=3>>3 days to explore 2 islands.
-So, the pirates will walk 20 miles x 3 days = <<20*3=60>>60 miles to explore two islands.
-The other 2 islands will be explored by walking 25 miles x 3 days = <<25*3=75>>75 miles.
-Thus, the pirates will need to walk 60 + 75 = <<60+75=135>>135 miles to explore the 4 islands.
-#### 135
-Q: Grandma walks 3 miles every day on her favorite walking trail, which includes 2 miles of walking on the beach and 1 mile of walking on the sidewalk.  On the sidewalk, Grandma walks at twice the rate of speed that she does on the beach.  If 40 minutes of her walk is spent on the beach, how long does it take for her to complete the entire 3-mile walk, in minutes?","A: If Grandma spends 40 minutes walking on the beach, which is 2 miles, then she walks 2 miles/40 minutes = 1 mile per 20 minutes on the beach.
-Since she walks at twice the speed on the sidewalk, she walks 1 mile in half the time, which is 20 minutes on the sidewalk.
-Therefore, Grandma completes the entire 3-mile walk in 40 minutes + 20 minutes = 60 minutes.
-So, it takes Grandma 60 minutes to complete the entire 3-mile walk.","On the beach, Grandma walks at a rate of 2 miles per 40 minutes, or 2/40 = 1/20 miles per minute.
-On the sidewalk, she walks at twice the rate of speed as when she is on the sand, or 2 * 1/20 = 1/10 miles per minute.
-To walk 1 mile on the sidewalk, it takes her 1/(1/10) = <<1/(1/10)=10>>10 minutes.
-Thus, in total, it takes Grandma 40+10 = <<40+10=50>>50 minutes to walk her favorite route.
-#### 50"
-Math,3a,"Question: There are 6 times as many lab coats as uniforms in the lab. The number of lab techs is half of the number of uniforms. If there are 12 uniforms in the lab, and the lab techs share the coats and uniforms equally among them, how many coats and uniforms in total does each lab tech get?
-Answer: If there are 12 uniforms, and the lab coats are 6 times as many as the number of uniforms, there are 6*12 = <<12*6=72>>72 lab coats.
-The total number of lab coats and uniforms in the lab is 72+12 = <<72+12=84>>84
-If the number of lab techs is half the number of uniforms, then there are 12/2 = <<12/2=6>>6 lab techs
-If they share the lab coats and uniforms equally, each lab tech will get 84/6 = <<84/6=14>>14 lab coats and uniforms.
-#### 14
-Question: Geli is committed to her 3 times a week workout. On her first day, she started doing 10 push-ups. Her fitness trainer encouraged her to add 5 more push-ups each day. How many push-ups will she do in total throughout her first week?
-Answer: On the first day, she will do 10 push-ups.
-On the second day, she will do 10 + 5 = <<10+5=15>>15 push-ups.
-On the third day, she will do 15 + 5 = <<15+5=20>>20 push-ups.
-So, Geli will do a total of 10 + 15 + 20 = <<10+15+20=45>>45 push-ups in a week.
-#### 45
-Question: There are 6 times as many lab coats as uniforms in the lab. The number of lab techs is half of the number of uniforms. If there are 12 uniforms in the lab, and the lab techs share the coats and uniforms equally among them, how many coats and uniforms in total does each lab tech get?
-Answer: If there are 12 uniforms, and the lab coats are 6 times as many as the number of uniforms, there are 6*12 = <<12*6=72>>72 lab coats.
-The total number of lab coats and uniforms in the lab is 72+12 = <<72+12=84>>84
-If the number of lab techs is half the number of uniforms, then there are 12/2 = <<12/2=6>>6 lab techs
-If they share the lab coats and uniforms equally, each lab tech will get 84/6 = <<84/6=14>>14 lab coats and uniforms.
-#### 14
-Question: Geli is committed to her 3 times a week workout. On her first day, she started doing 10 push-ups. Her fitness trainer encouraged her to add 5 more push-ups each day. How many push-ups will she do in total throughout her first week?
-Answer: On the first day, she will do 10 push-ups.
-On the second day, she will do 10 + 5 = <<10+5=15>>15 push-ups.
-On the third day, she will do 15 + 5 = <<15+5=20>>20 push-ups.
-So, Geli will do a total of 10 + 15 + 20 = <<10+15+20=45>>45 push-ups in a week.
-#### 45
-Q: Grandma walks 3 miles every day on her favorite walking trail, which includes 2 miles of walking on the beach and 1 mile of walking on the sidewalk.  On the sidewalk, Grandma walks at twice the rate of speed that she does on the beach.  If 40 minutes of her walk is spent on the beach, how long does it take for her to complete the entire 3-mile walk, in minutes?","A: Since Grandma walks 2 miles on the beach and 1 mile on the sidewalk, and spends 40 minutes on the beach, she walks 2 miles in 40 minutes.
-
-If she walks at twice the speed on the sidewalk, then she would walk 1 mile in half the time it takes her on the beach, which would be 40 minutes / 2 = 20 minutes.
-
-Therefore, Grandma spends 40 + 20 = <<40+20=60>>60 minutes to complete the entire 3-mile walk.","On the beach, Grandma walks at a rate of 2 miles per 40 minutes, or 2/40 = 1/20 miles per minute.
-On the sidewalk, she walks at twice the rate of speed as when she is on the sand, or 2 * 1/20 = 1/10 miles per minute.
-To walk 1 mile on the sidewalk, it takes her 1/(1/10) = <<1/(1/10)=10>>10 minutes.
-Thus, in total, it takes Grandma 40+10 = <<40+10=50>>50 minutes to walk her favorite route.
-#### 50"
-Math,3b,"Question: Arlene hiked 24 miles on Saturday, carrying a 60-pound backpack. She is exactly 5 feet tall. She spent 6 hours hiking. The temperature during the day was 60 degrees Fahrenheit. What was Arlene's average hiking pace, in miles per hour?
-Answer: She hiked 24 miles.
-She spent 6 hours hiking.
-Her average pace was 24/6=<<24/6=4>>4 mph.
+Question: A basic manicure starts at $35 while a pedicure starts at $40. A certain salon offers 20% off if you get both. Suppose Karen chooses to do both and would also like to add nail art on each of her fingers, which costs $3 per nail. How much would she pay in all?","Answer: The total cost of the basic manicure and pedicure before the discount is $35 (manicure) + $40 (pedicure) = $75.
+Karen will get a 20% discount on $75, which is 0.20 * $75 = $15.
+So, the discounted price for both services is $75 - $15 = $60.
+Adding nail art to each finger (assuming 10 fingers) will cost $3 * 10 = $30.
+Therefore, Karen will pay $60 (for manicure and pedicure) + $30 (for nail art) = $90 in all.","The cost for both manicure and pedicure is $35+$40=$<<35+40=75>>75.
+The discount is $75*0.2=$<<75*0.2=15>>15.
+So, Karen would only pay $75-$15=$<<75-15=60>>60 for both services.
+The cost of the nail art for 10 fingers is $3*$10=$<<3*10=30>>30.
+Therefore, Karen would pay a total of $60+$30=$<<60+30=90>>90.
+#### 90"
+Math,3a,"Question: James watched 2 episodes of Jeopardy and 2 episodes of Wheel of Fortune.  Jeopardy is 20 minutes and Wheel of Fortune is twice as long.  How many hours did he watch TV?
+Answer: He watched 2*20=<<2*20=40>>40 minutes of Jeopardy.
+Wheel of Fortune is 2*20=<<2*20=40>>40 minutes each.
+So he watched it for 40*2=<<40*2=80>>80 minutes.
+So he watched 40+80=<<40+80=120>>120 minutes of TV.
+That means he watched 120/60=<<120/60=2>>2 hours of TV.
+#### 2
+Question: In a classroom of 81 students, two-thirds are wearing striped shirts while the others are wearing checkered shirts. If there are 19 more students wearing shorts than checkered shirts, how many more students are wearing striped shirts than shorts?
+Answer: 81/3 = <<81/3=27>>27 students are wearing checkered shirts.
+27 x 2 = <<27*2=54>>54 students are wearing striped shirts.
+27 + 19 = <<27+19=46>>46 students are wearing shorts.
+54 - 46 = <<54-46=8>>8 more students are wearing striped shirts than shorts.
+#### 8
+Question: James watched 2 episodes of Jeopardy and 2 episodes of Wheel of Fortune.  Jeopardy is 20 minutes and Wheel of Fortune is twice as long.  How many hours did he watch TV?
+Answer: He watched 2*20=<<2*20=40>>40 minutes of Jeopardy.
+Wheel of Fortune is 2*20=<<2*20=40>>40 minutes each.
+So he watched it for 40*2=<<40*2=80>>80 minutes.
+So he watched 40+80=<<40+80=120>>120 minutes of TV.
+That means he watched 120/60=<<120/60=2>>2 hours of TV.
+#### 2
+Question: In a classroom of 81 students, two-thirds are wearing striped shirts while the others are wearing checkered shirts. If there are 19 more students wearing shorts than checkered shirts, how many more students are wearing striped shirts than shorts?
+Answer: 81/3 = <<81/3=27>>27 students are wearing checkered shirts.
+27 x 2 = <<27*2=54>>54 students are wearing striped shirts.
+27 + 19 = <<27+19=46>>46 students are wearing shorts.
+54 - 46 = <<54-46=8>>8 more students are wearing striped shirts than shorts.
+#### 8
+Question: A basic manicure starts at $35 while a pedicure starts at $40. A certain salon offers 20% off if you get both. Suppose Karen chooses to do both and would also like to add nail art on each of her fingers, which costs $3 per nail. How much would she pay in all?","Answer: The cost of the basic manicure is $35 and the cost of the pedicure is $40, so if Karen chooses to do both, the total cost would be $35 + $40 = $75.
+Karen wants nail art on each of her fingers, and since she has 10 fingers, the total cost for nail art would be $3 x 10 = $30.
+With a 20% discount for getting both a manicure and a pedicure, Karen would save 20% of $75, which is $75 x 0.20 = $15.
+Therefore, the total cost for Karen would be $75 + $30 - $15 = $90. 
+So, Karen would pay a total of $90.","The cost for both manicure and pedicure is $35+$40=$<<35+40=75>>75.
+The discount is $75*0.2=$<<75*0.2=15>>15.
+So, Karen would only pay $75-$15=$<<75-15=60>>60 for both services.
+The cost of the nail art for 10 fingers is $3*$10=$<<3*10=30>>30.
+Therefore, Karen would pay a total of $60+$30=$<<60+30=90>>90.
+#### 90"
+Math,3b,"Question: There are twice as many centipedes as humans on a certain island and half as many sheep as humans. How many sheep and humans in total are on the island if the number of centipedes is 100?
+Answer: The number of humans on the island is 100 / 2 = <<100/2=50>>50.
+There are 1/2 * 50 = <<1/2*50=25>>25 sheep on the island.
+The total number of sheep and humans is 25 + 50 = <<25+50=75>>75.
+#### 75
+Question: Tom needs to lower a rope down 6 stories.   One story is 10 feet.  The only rope being sold is 20 feet long but you lose 25% when lashing them together.  How many pieces of rope will he need to buy?
+Answer: He needs 10*6=<<10*6=60>>60 feet
+He loses 20*.25=<<20*.25=5>>5 feet each time
+So he gets 20-5=<<20-5=15>>15 feet from each piece
+That means he needs 60/15=<<60/15=4>>4 pieces of rope
 #### 4
-Question: The pirates plan to explore 4 islands. Two islands require walking 20 miles per day while the other two islands require 25 miles per day. How many miles will they have to walk if it takes 1.5 days to explore each island?
-Answer: It will take 1.5 days x 2 = <<1.5*2=3>>3 days to explore 2 islands.
-So, the pirates will walk 20 miles x 3 days = <<20*3=60>>60 miles to explore two islands.
-The other 2 islands will be explored by walking 25 miles x 3 days = <<25*3=75>>75 miles.
-Thus, the pirates will need to walk 60 + 75 = <<60+75=135>>135 miles to explore the 4 islands.
-#### 135
-Question: Arlene hiked 24 miles on Saturday, carrying a 60-pound backpack. She is exactly 5 feet tall. She spent 6 hours hiking. The temperature during the day was 60 degrees Fahrenheit. What was Arlene's average hiking pace, in miles per hour?
-Answer: She hiked 24 miles.
-She spent 6 hours hiking.
-Her average pace was 24/6=<<24/6=4>>4 mph.
+Question: There are twice as many centipedes as humans on a certain island and half as many sheep as humans. How many sheep and humans in total are on the island if the number of centipedes is 100?
+Answer: The number of humans on the island is 100 / 2 = <<100/2=50>>50.
+There are 1/2 * 50 = <<1/2*50=25>>25 sheep on the island.
+The total number of sheep and humans is 25 + 50 = <<25+50=75>>75.
+#### 75
+Question: Tom needs to lower a rope down 6 stories.   One story is 10 feet.  The only rope being sold is 20 feet long but you lose 25% when lashing them together.  How many pieces of rope will he need to buy?
+Answer: He needs 10*6=<<10*6=60>>60 feet
+He loses 20*.25=<<20*.25=5>>5 feet each time
+So he gets 20-5=<<20-5=15>>15 feet from each piece
+That means he needs 60/15=<<60/15=4>>4 pieces of rope
 #### 4
-Question: The pirates plan to explore 4 islands. Two islands require walking 20 miles per day while the other two islands require 25 miles per day. How many miles will they have to walk if it takes 1.5 days to explore each island?
-Answer: It will take 1.5 days x 2 = <<1.5*2=3>>3 days to explore 2 islands.
-So, the pirates will walk 20 miles x 3 days = <<20*3=60>>60 miles to explore two islands.
-The other 2 islands will be explored by walking 25 miles x 3 days = <<25*3=75>>75 miles.
-Thus, the pirates will need to walk 60 + 75 = <<60+75=135>>135 miles to explore the 4 islands.
-#### 135
-Q: Grandma walks 3 miles every day on her favorite walking trail, which includes 2 miles of walking on the beach and 1 mile of walking on the sidewalk.  On the sidewalk, Grandma walks at twice the rate of speed that she does on the beach.  If 40 minutes of her walk is spent on the beach, how long does it take for her to complete the entire 3-mile walk, in minutes?","A: If Grandma spends 40 minutes on the beach (2 miles), then she spends 40/2 = 20 minutes per mile on the beach.
-Since she walks twice as fast on the sidewalk compared to the beach, she spends 20/2 = <<20/2=10>>10 minutes per mile on the sidewalk.
-Therefore, it takes Grandma 10 minutes to walk 1 mile on the sidewalk, and since she walks 1 mile on the sidewalk, it will take her 10 minutes to complete that part of the walk.
-In total, it will take Grandma 40 minutes on the beach + 10 minutes on the sidewalk = <<40+10=50>>50 minutes to complete the 3-mile walk.
-So, it will take Grandma 50 minutes to complete the entire 3-mile walk.","On the beach, Grandma walks at a rate of 2 miles per 40 minutes, or 2/40 = 1/20 miles per minute.
-On the sidewalk, she walks at twice the rate of speed as when she is on the sand, or 2 * 1/20 = 1/10 miles per minute.
-To walk 1 mile on the sidewalk, it takes her 1/(1/10) = <<1/(1/10)=10>>10 minutes.
-Thus, in total, it takes Grandma 40+10 = <<40+10=50>>50 minutes to walk her favorite route.
-#### 50"
-CSQA,1a,"Question: Where is a good place for a safabed to be so it can also be used for seating?
-A: garage
-B: sitting room
-C: spare room
-D: livingroom
-E: dinning roam
-Answer: B
-Question: What will happen if you get warm too much?
-A: feelin guilty
-B: sleep
-C: sweating
-D: feel more comfortable
-E: cuddle
-Answer: C
-Q: Where would you expect to find a pizzeria while shopping?
-A: chicago
-B: street
-C: little italy
-D: food court
-E: capital cities",Answer: D,D
-CSQA,1a,"Question: You will find many a cannon on what vessel full of criminals?
-A: jail
-B: fort
-C: war museum
-D: pirate ship
-E: warship
-Answer: D
-Question: How may one feel after playing games for a long time?
-A: fatigue
-B: happiness
-C: bournout
-D: learning
-E: losing
+Question: A basic manicure starts at $35 while a pedicure starts at $40. A certain salon offers 20% off if you get both. Suppose Karen chooses to do both and would also like to add nail art on each of her fingers, which costs $3 per nail. How much would she pay in all?","Answer: The total cost of the manicure and pedicure without the discount is $35 + $40 = $75.
+With a 20% discount, Karen would get $75 * 0.20 = $15 off.
+So the final cost before adding nail art would be $75 - $15 = $60.
+Adding nail art to all her fingers would cost $3 * 10 = $30.
+Therefore, Karen would pay $60 + $30 = $90 in total.","The cost for both manicure and pedicure is $35+$40=$<<35+40=75>>75.
+The discount is $75*0.2=$<<75*0.2=15>>15.
+So, Karen would only pay $75-$15=$<<75-15=60>>60 for both services.
+The cost of the nail art for 10 fingers is $3*$10=$<<3*10=30>>30.
+Therefore, Karen would pay a total of $60+$30=$<<60+30=90>>90.
+#### 90"
+CSQA,1a,"Question: What part of dogs can you see?
+A: pointed ears
+B: fleas
+C: ticks
+D: no consciousness
+E: bad breath
 Answer: A
-Q: Where would you expect to find a pizzeria while shopping?
-A: chicago
-B: street
-C: little italy
-D: food court
-E: capital cities",Answer: D,D
-CSQA,2,"Question: Where is a good place for a safabed to be so it can also be used for seating?
-A: garage
-B: sitting room
-C: spare room
-D: livingroom
-E: dinning roam
-Answer: B
-Question: What will happen if you get warm too much?
-A: feelin guilty
-B: sleep
-C: sweating
-D: feel more comfortable
-E: cuddle
-Answer: C
-Question: You will find many a cannon on what vessel full of criminals?
-A: jail
-B: fort
-C: war museum
-D: pirate ship
-E: warship
-Answer: D
-Question: How may one feel after playing games for a long time?
-A: fatigue
-B: happiness
-C: bournout
-D: learning
-E: losing
+Question: Sex is often referred to being part of what for everyone?
+A: human experience
+B: reproductive cycle
+C: procreation
+D: gaining strength
+E: effect of insemination
 Answer: A
-Q: Where would you expect to find a pizzeria while shopping?
-A: chicago
-B: street
-C: little italy
-D: food court
-E: capital cities",Answer: D,D
-CSQA,3a,"Question: Where is a good place for a safabed to be so it can also be used for seating?
-A: garage
-B: sitting room
-C: spare room
-D: livingroom
-E: dinning roam
-Answer: B
-Question: What will happen if you get warm too much?
-A: feelin guilty
-B: sleep
-C: sweating
-D: feel more comfortable
-E: cuddle
-Answer: C
-Question: Where is a good place for a safabed to be so it can also be used for seating?
-A: garage
-B: sitting room
-C: spare room
-D: livingroom
-E: dinning roam
-Answer: B
-Question: What will happen if you get warm too much?
-A: feelin guilty
-B: sleep
-C: sweating
-D: feel more comfortable
-E: cuddle
-Answer: C
-Q: Where would you expect to find a pizzeria while shopping?
-A: chicago
-B: street
-C: little italy
-D: food court
-E: capital cities",Answer: D. food court,D
-CSQA,3b,"Question: You will find many a cannon on what vessel full of criminals?
-A: jail
-B: fort
-C: war museum
-D: pirate ship
-E: warship
-Answer: D
-Question: How may one feel after playing games for a long time?
-A: fatigue
-B: happiness
-C: bournout
-D: learning
-E: losing
+Question: James was cooling off two quickly.  He would die if he didn't find some way to stop what?
+A: loss of heat
+B: revenge
+C: expansion
+D: relaxation
+E: calm down",Answer: A,A
+CSQA,1a,"Question: There was a lot of anger for the guilty party as the judge did what?
+A: pass sentence
+B: instruct jury
+C: fight
+D: illustrate point
+E: wrestle
 Answer: A
-Question: You will find many a cannon on what vessel full of criminals?
-A: jail
-B: fort
-C: war museum
-D: pirate ship
-E: warship
-Answer: D
-Question: How may one feel after playing games for a long time?
-A: fatigue
-B: happiness
-C: bournout
-D: learning
-E: losing
+Question: When children are in a hurry, what might they do?
+A: play video games
+B: teach parents
+C: reach over
+D: run
+E: rush around
+Answer: E
+Question: James was cooling off two quickly.  He would die if he didn't find some way to stop what?
+A: loss of heat
+B: revenge
+C: expansion
+D: relaxation
+E: calm down",Answer: A,A
+CSQA,2,"Question: What part of dogs can you see?
+A: pointed ears
+B: fleas
+C: ticks
+D: no consciousness
+E: bad breath
 Answer: A
-Q: Where would you expect to find a pizzeria while shopping?
-A: chicago
-B: street
-C: little italy
-D: food court
-E: capital cities",Answer: D,D
-StrategyQA,1a,"Question: High Speed 1 (HS1), legally the Channel Tunnel Rail Link (CTRL), is a 67-mile (108 km) high-speed railway. The CERN collider is contained in a circular tunnel, with a circumference of 26.7 kilometres (16.6 mi). The circumference of a circle is the length of the enclosing boundary.
-Would the tunnels at CERN fit onto the High Speed 1 rails?
-Answer: True
-Question: LeBron James is 6 feet 9 inches tall. Yuri Gagarin was 5 feet 2 inches tall. Typically shorter individuals look up at taller individuals when they are speaking as it is polite to look face to face at someone when you are speaking to them.
-Would LeBron James hypothetically glance upwards at Yuri Gagarin?
+Question: Sex is often referred to being part of what for everyone?
+A: human experience
+B: reproductive cycle
+C: procreation
+D: gaining strength
+E: effect of insemination
+Answer: A
+Question: There was a lot of anger for the guilty party as the judge did what?
+A: pass sentence
+B: instruct jury
+C: fight
+D: illustrate point
+E: wrestle
+Answer: A
+Question: When children are in a hurry, what might they do?
+A: play video games
+B: teach parents
+C: reach over
+D: run
+E: rush around
+Answer: E
+Question: James was cooling off two quickly.  He would die if he didn't find some way to stop what?
+A: loss of heat
+B: revenge
+C: expansion
+D: relaxation
+E: calm down",Answer: A,A
+CSQA,3a,"Question: What part of dogs can you see?
+A: pointed ears
+B: fleas
+C: ticks
+D: no consciousness
+E: bad breath
+Answer: A
+Question: Sex is often referred to being part of what for everyone?
+A: human experience
+B: reproductive cycle
+C: procreation
+D: gaining strength
+E: effect of insemination
+Answer: A
+Question: What part of dogs can you see?
+A: pointed ears
+B: fleas
+C: ticks
+D: no consciousness
+E: bad breath
+Answer: A
+Question: Sex is often referred to being part of what for everyone?
+A: human experience
+B: reproductive cycle
+C: procreation
+D: gaining strength
+E: effect of insemination
+Answer: A
+Question: James was cooling off two quickly.  He would die if he didn't find some way to stop what?
+A: loss of heat
+B: revenge
+C: expansion
+D: relaxation
+E: calm down",Answer: A,A
+CSQA,3b,"Question: There was a lot of anger for the guilty party as the judge did what?
+A: pass sentence
+B: instruct jury
+C: fight
+D: illustrate point
+E: wrestle
+Answer: A
+Question: When children are in a hurry, what might they do?
+A: play video games
+B: teach parents
+C: reach over
+D: run
+E: rush around
+Answer: E
+Question: There was a lot of anger for the guilty party as the judge did what?
+A: pass sentence
+B: instruct jury
+C: fight
+D: illustrate point
+E: wrestle
+Answer: A
+Question: When children are in a hurry, what might they do?
+A: play video games
+B: teach parents
+C: reach over
+D: run
+E: rush around
+Answer: E
+Question: James was cooling off two quickly.  He would die if he didn't find some way to stop what?
+A: loss of heat
+B: revenge
+C: expansion
+D: relaxation
+E: calm down",Answer: A,A
+StrategyQA,1a,"Question: Aurangabad is located in Maharashtra. Marathi is an Indo-Aryan language spoken predominantly by around 100 million Marathi people of Maharashtra, India. Rahul Dravid is fluent in Marathi.
+Is it hard for Rahul Dravid to order food at a restaurant in Aurangabad?
 Answer: False
-Q: Maritime pilots are human beings. COVID-19 can spread among human population. 
-Can COVID-19 spread to maritime pilots?",A: True,True
-StrategyQA,1a,"Question: The primary language spoken in Saint Vincent and the Grenadines is Vincentian Creole. Vincentian Creole is English-based, with elements of French, Antillean Creole, and indigenous South American and African languages.
-Is the language used in Saint Vincent and the Grenadines rooted in English?
-Answer: True
-Question: The New York Stock Exchange is located in New York, USA. Universal Music Group's headquarters is located in Santa Monica, California. Santa Monica is about 2800 miles from New York. A shout can be heard up to 100 meters away.
-Will NY Stock Exchange closing bell be heard in Universal Music Group's headquarters?
+Question: Nine Inch Nails is a industrial heavy rock band. Aretha Franklin was a soul and R&B singer. Aretha Franklin began singing in a gospel choir. Nine Inch Nails lyrics have been described as profane and anti-God.
+Did Nine Inch Nails inspire Aretha Franklin's sound?
 Answer: False
-Q: Maritime pilots are human beings. COVID-19 can spread among human population. 
-Can COVID-19 spread to maritime pilots?",A: True,True
-StrategyQA,2,"Question: High Speed 1 (HS1), legally the Channel Tunnel Rail Link (CTRL), is a 67-mile (108 km) high-speed railway. The CERN collider is contained in a circular tunnel, with a circumference of 26.7 kilometres (16.6 mi). The circumference of a circle is the length of the enclosing boundary.
-Would the tunnels at CERN fit onto the High Speed 1 rails?
+Question: The Daytona 500 is 500 miles A hoverboard can move at six to eight miles per hour E6000 fully cures in 24 to 72 hours
+Can E6000 cure before a hoverboard finishes the Daytona 500? ",Answer: True,True
+StrategyQA,1a,"Question: H forms the most common two letter pair in the English language along with the letter T. The Wheel of Fortune bonus round gives the player six free letters: R, S, T, L, N, E.
+Is H's most common two letter pair partner a freebie in Wheel of Fortune bonus round?
 Answer: True
-Question: LeBron James is 6 feet 9 inches tall. Yuri Gagarin was 5 feet 2 inches tall. Typically shorter individuals look up at taller individuals when they are speaking as it is polite to look face to face at someone when you are speaking to them.
-Would LeBron James hypothetically glance upwards at Yuri Gagarin?
+Question: Red blood cells are about 40-50% of what makes up human blood. White blood cells make up about 1% of the blood in a human body.
+Do white blood cells outnumber red blood cells in the human body?
 Answer: False
-Question: The primary language spoken in Saint Vincent and the Grenadines is Vincentian Creole. Vincentian Creole is English-based, with elements of French, Antillean Creole, and indigenous South American and African languages.
-Is the language used in Saint Vincent and the Grenadines rooted in English?
+Question: The Daytona 500 is 500 miles A hoverboard can move at six to eight miles per hour E6000 fully cures in 24 to 72 hours
+Can E6000 cure before a hoverboard finishes the Daytona 500? ",Answer: True,True
+StrategyQA,2,"Question: Aurangabad is located in Maharashtra. Marathi is an Indo-Aryan language spoken predominantly by around 100 million Marathi people of Maharashtra, India. Rahul Dravid is fluent in Marathi.
+Is it hard for Rahul Dravid to order food at a restaurant in Aurangabad?
+Answer: False
+Question: Nine Inch Nails is a industrial heavy rock band. Aretha Franklin was a soul and R&B singer. Aretha Franklin began singing in a gospel choir. Nine Inch Nails lyrics have been described as profane and anti-God.
+Did Nine Inch Nails inspire Aretha Franklin's sound?
+Answer: False
+Question: H forms the most common two letter pair in the English language along with the letter T. The Wheel of Fortune bonus round gives the player six free letters: R, S, T, L, N, E.
+Is H's most common two letter pair partner a freebie in Wheel of Fortune bonus round?
 Answer: True
-Question: The New York Stock Exchange is located in New York, USA. Universal Music Group's headquarters is located in Santa Monica, California. Santa Monica is about 2800 miles from New York. A shout can be heard up to 100 meters away.
-Will NY Stock Exchange closing bell be heard in Universal Music Group's headquarters?
+Question: Red blood cells are about 40-50% of what makes up human blood. White blood cells make up about 1% of the blood in a human body.
+Do white blood cells outnumber red blood cells in the human body?
 Answer: False
-Q: Maritime pilots are human beings. COVID-19 can spread among human population. 
-Can COVID-19 spread to maritime pilots?",A: True,True
-StrategyQA,3a,"Question: High Speed 1 (HS1), legally the Channel Tunnel Rail Link (CTRL), is a 67-mile (108 km) high-speed railway. The CERN collider is contained in a circular tunnel, with a circumference of 26.7 kilometres (16.6 mi). The circumference of a circle is the length of the enclosing boundary.
-Would the tunnels at CERN fit onto the High Speed 1 rails?
+Question: The Daytona 500 is 500 miles A hoverboard can move at six to eight miles per hour E6000 fully cures in 24 to 72 hours
+Can E6000 cure before a hoverboard finishes the Daytona 500? ",Answer: True,True
+StrategyQA,3a,"Question: Aurangabad is located in Maharashtra. Marathi is an Indo-Aryan language spoken predominantly by around 100 million Marathi people of Maharashtra, India. Rahul Dravid is fluent in Marathi.
+Is it hard for Rahul Dravid to order food at a restaurant in Aurangabad?
+Answer: False
+Question: Nine Inch Nails is a industrial heavy rock band. Aretha Franklin was a soul and R&B singer. Aretha Franklin began singing in a gospel choir. Nine Inch Nails lyrics have been described as profane and anti-God.
+Did Nine Inch Nails inspire Aretha Franklin's sound?
+Answer: False
+Question: Aurangabad is located in Maharashtra. Marathi is an Indo-Aryan language spoken predominantly by around 100 million Marathi people of Maharashtra, India. Rahul Dravid is fluent in Marathi.
+Is it hard for Rahul Dravid to order food at a restaurant in Aurangabad?
+Answer: False
+Question: Nine Inch Nails is a industrial heavy rock band. Aretha Franklin was a soul and R&B singer. Aretha Franklin began singing in a gospel choir. Nine Inch Nails lyrics have been described as profane and anti-God.
+Did Nine Inch Nails inspire Aretha Franklin's sound?
+Answer: False
+Question: The Daytona 500 is 500 miles A hoverboard can move at six to eight miles per hour E6000 fully cures in 24 to 72 hours
+Can E6000 cure before a hoverboard finishes the Daytona 500? ",Answer: True,True
+StrategyQA,3b,"Question: H forms the most common two letter pair in the English language along with the letter T. The Wheel of Fortune bonus round gives the player six free letters: R, S, T, L, N, E.
+Is H's most common two letter pair partner a freebie in Wheel of Fortune bonus round?
 Answer: True
-Question: LeBron James is 6 feet 9 inches tall. Yuri Gagarin was 5 feet 2 inches tall. Typically shorter individuals look up at taller individuals when they are speaking as it is polite to look face to face at someone when you are speaking to them.
-Would LeBron James hypothetically glance upwards at Yuri Gagarin?
+Question: Red blood cells are about 40-50% of what makes up human blood. White blood cells make up about 1% of the blood in a human body.
+Do white blood cells outnumber red blood cells in the human body?
 Answer: False
-Question: High Speed 1 (HS1), legally the Channel Tunnel Rail Link (CTRL), is a 67-mile (108 km) high-speed railway. The CERN collider is contained in a circular tunnel, with a circumference of 26.7 kilometres (16.6 mi). The circumference of a circle is the length of the enclosing boundary.
-Would the tunnels at CERN fit onto the High Speed 1 rails?
+Question: H forms the most common two letter pair in the English language along with the letter T. The Wheel of Fortune bonus round gives the player six free letters: R, S, T, L, N, E.
+Is H's most common two letter pair partner a freebie in Wheel of Fortune bonus round?
 Answer: True
-Question: LeBron James is 6 feet 9 inches tall. Yuri Gagarin was 5 feet 2 inches tall. Typically shorter individuals look up at taller individuals when they are speaking as it is polite to look face to face at someone when you are speaking to them.
-Would LeBron James hypothetically glance upwards at Yuri Gagarin?
+Question: Red blood cells are about 40-50% of what makes up human blood. White blood cells make up about 1% of the blood in a human body.
+Do white blood cells outnumber red blood cells in the human body?
 Answer: False
-Q: Maritime pilots are human beings. COVID-19 can spread among human population. 
-Can COVID-19 spread to maritime pilots?",A: Yes.,True
-StrategyQA,3b,"Question: The primary language spoken in Saint Vincent and the Grenadines is Vincentian Creole. Vincentian Creole is English-based, with elements of French, Antillean Creole, and indigenous South American and African languages.
-Is the language used in Saint Vincent and the Grenadines rooted in English?
-Answer: True
-Question: The New York Stock Exchange is located in New York, USA. Universal Music Group's headquarters is located in Santa Monica, California. Santa Monica is about 2800 miles from New York. A shout can be heard up to 100 meters away.
-Will NY Stock Exchange closing bell be heard in Universal Music Group's headquarters?
-Answer: False
-Question: The primary language spoken in Saint Vincent and the Grenadines is Vincentian Creole. Vincentian Creole is English-based, with elements of French, Antillean Creole, and indigenous South American and African languages.
-Is the language used in Saint Vincent and the Grenadines rooted in English?
-Answer: True
-Question: The New York Stock Exchange is located in New York, USA. Universal Music Group's headquarters is located in Santa Monica, California. Santa Monica is about 2800 miles from New York. A shout can be heard up to 100 meters away.
-Will NY Stock Exchange closing bell be heard in Universal Music Group's headquarters?
-Answer: False
-Q: Maritime pilots are human beings. COVID-19 can spread among human population. 
-Can COVID-19 spread to maritime pilots?",A: True,True
-SayCan,1a,"Question: Could you get me something refreshing?
-Answer: 1. find a water bottle, 2. pick up the water bottle, 3. bring it to you, 4. put down the water bottle, 5. done
-Question: I love spice, can you get something to eat?
-Answer: 1. find a jalapeno chips, 2. pick up the jalapeno chips, 3. bring it to you, 4. put down the jalapeno chips, 5. done.
-Q: How would you pick up the coke can?","A: To pick up the coke can, you would use your hand and grasp it firmly to lift it off the surface it is on.","1. pick up the coke can, 2. done"
-SayCan,1a,"Question: Lift the coke
-Answer: 1. pick up the coke, 2. done
-Question: How would you restock chips in the drawer?
-Answer: 1. find the bag of chips, 2. pick up the bag of chips, 3. go to the drawer, 4. put down the bag of chips, 5. open the drawer, 6. pick up the bag of chips, 7. put down the bag of chips, 8. close the drawer, 9. done
-Q: How would you pick up the coke can?","A: 1. Reach out for the coke can, 2. grasp the coke can, 3. lift the coke can off the table, 4. hold the coke can securely, 5. done","1. pick up the coke can, 2. done"
-SayCan,2,"Question: Could you get me something refreshing?
-Answer: 1. find a water bottle, 2. pick up the water bottle, 3. bring it to you, 4. put down the water bottle, 5. done
-Question: I love spice, can you get something to eat?
-Answer: 1. find a jalapeno chips, 2. pick up the jalapeno chips, 3. bring it to you, 4. put down the jalapeno chips, 5. done.
-Question: Lift the coke
-Answer: 1. pick up the coke, 2. done
-Question: How would you restock chips in the drawer?
-Answer: 1. find the bag of chips, 2. pick up the bag of chips, 3. go to the drawer, 4. put down the bag of chips, 5. open the drawer, 6. pick up the bag of chips, 7. put down the bag of chips, 8. close the drawer, 9. done
-Q: How would you pick up the coke can?","A: 1. reach for the coke can, 2. pick up the coke can, 3. done","1. pick up the coke can, 2. done"
-SayCan,3a,"Question: Could you get me something refreshing?
-Answer: 1. find a water bottle, 2. pick up the water bottle, 3. bring it to you, 4. put down the water bottle, 5. done
-Question: I love spice, can you get something to eat?
-Answer: 1. find a jalapeno chips, 2. pick up the jalapeno chips, 3. bring it to you, 4. put down the jalapeno chips, 5. done.
-Question: Could you get me something refreshing?
-Answer: 1. find a water bottle, 2. pick up the water bottle, 3. bring it to you, 4. put down the water bottle, 5. done
-Question: I love spice, can you get something to eat?
-Answer: 1. find a jalapeno chips, 2. pick up the jalapeno chips, 3. bring it to you, 4. put down the jalapeno chips, 5. done.
-Q: How would you pick up the coke can?","A: 1. locate the can of coke, 2. grasp it with your hand, 3. lift it off the surface, 4. bring it to your desired location, 5. release your grip on the can, 6. done.","1. pick up the coke can, 2. done"
-SayCan,3b,"Question: Lift the coke
-Answer: 1. pick up the coke, 2. done
-Question: How would you restock chips in the drawer?
-Answer: 1. find the bag of chips, 2. pick up the bag of chips, 3. go to the drawer, 4. put down the bag of chips, 5. open the drawer, 6. pick up the bag of chips, 7. put down the bag of chips, 8. close the drawer, 9. done
-Question: Lift the coke
-Answer: 1. pick up the coke, 2. done
-Question: How would you restock chips in the drawer?
-Answer: 1. find the bag of chips, 2. pick up the bag of chips, 3. go to the drawer, 4. put down the bag of chips, 5. open the drawer, 6. pick up the bag of chips, 7. put down the bag of chips, 8. close the drawer, 9. done
-Q: How would you pick up the coke can?","A: 1. Reach for the coke can, 2. grasp it firmly, 3. lift the coke can, 4. done","1. pick up the coke can, 2. done"
+Question: The Daytona 500 is 500 miles A hoverboard can move at six to eight miles per hour E6000 fully cures in 24 to 72 hours
+Can E6000 cure before a hoverboard finishes the Daytona 500? ",Answer: Yes,True
+SayCan,1a,"Question: Bring me a fruit that is not an apple.
+Answer: 1. find an orange, 2. pick up the orange, 3. bring it to you, 4. put down the orange, 5. done
+Question: Move the chips bag from the table to the counter.
+Answer: 1. find the bag of chips, 2. pick up the bag of chips, 3. go to the counter, 4. put down the bag of chips, 5. done
+Question: Can you bring me a spicy snack?","Answer: 1. find a spicy snack, 2. bring it to you, 3. hand it to you, 4. done","1. find a jalapeno chips, 2. pick up the jalapeno chips, 3. bring it to you, 4. put down the jalapeno chips, 5. done."
+SayCan,1a,"Question: Go to the table.
+Answer: 1. go to the table, 2. done
+Question: Throw away the apple.
+Answer: 1. find an apple, 2. pick up the apple, 3. go to the trash, 4. put down the apple, 5. done
+Question: Can you bring me a spicy snack?","Answer: 1. find a spicy snack, 2. bring the spicy snack to you, 3. done","1. find a jalapeno chips, 2. pick up the jalapeno chips, 3. bring it to you, 4. put down the jalapeno chips, 5. done."
+SayCan,2,"Question: Bring me a fruit that is not an apple.
+Answer: 1. find an orange, 2. pick up the orange, 3. bring it to you, 4. put down the orange, 5. done
+Question: Move the chips bag from the table to the counter.
+Answer: 1. find the bag of chips, 2. pick up the bag of chips, 3. go to the counter, 4. put down the bag of chips, 5. done
+Question: Go to the table.
+Answer: 1. go to the table, 2. done
+Question: Throw away the apple.
+Answer: 1. find an apple, 2. pick up the apple, 3. go to the trash, 4. put down the apple, 5. done
+Question: Can you bring me a spicy snack?","Answer: 1. find a spicy snack, 2. pick up the spicy snack, 3. bring it to you, 4. put down the spicy snack, 5. done","1. find a jalapeno chips, 2. pick up the jalapeno chips, 3. bring it to you, 4. put down the jalapeno chips, 5. done."
+SayCan,3a,"Question: Bring me a fruit that is not an apple.
+Answer: 1. find an orange, 2. pick up the orange, 3. bring it to you, 4. put down the orange, 5. done
+Question: Move the chips bag from the table to the counter.
+Answer: 1. find the bag of chips, 2. pick up the bag of chips, 3. go to the counter, 4. put down the bag of chips, 5. done
+Question: Bring me a fruit that is not an apple.
+Answer: 1. find an orange, 2. pick up the orange, 3. bring it to you, 4. put down the orange, 5. done
+Question: Move the chips bag from the table to the counter.
+Answer: 1. find the bag of chips, 2. pick up the bag of chips, 3. go to the counter, 4. put down the bag of chips, 5. done
+Question: Can you bring me a spicy snack?","Answer: 1. find a bag of spicy chips, 2. pick up the bag of spicy chips, 3. bring it to you, 4. put down the bag of spicy chips, 5. done","1. find a jalapeno chips, 2. pick up the jalapeno chips, 3. bring it to you, 4. put down the jalapeno chips, 5. done."
+SayCan,3b,"Question: Go to the table.
+Answer: 1. go to the table, 2. done
+Question: Throw away the apple.
+Answer: 1. find an apple, 2. pick up the apple, 3. go to the trash, 4. put down the apple, 5. done
+Question: Go to the table.
+Answer: 1. go to the table, 2. done
+Question: Throw away the apple.
+Answer: 1. find an apple, 2. pick up the apple, 3. go to the trash, 4. put down the apple, 5. done
+Question: Can you bring me a spicy snack?","Answer: 1. sure, let me find a spicy snack for you, 2. I have found a spicy snack for you, 3. here you go, enjoy!","1. find a jalapeno chips, 2. pick up the jalapeno chips, 3. bring it to you, 4. put down the jalapeno chips, 5. done."

@@ -1,387 +1,353 @@
 Task Class,Case,Prompt,Response,Expected
-Math,1a,"Question: Bob orders a pizza with 8 slices.  He eats half of it and each slice was 300 calories.  How many calories did he eat?
-Answer: He ate 8/2=<<8/2=4>>4 slices
-So he ate 4*300=<<4*300=1200>>1200 calories
-#### 1200
-Question: The ratio of boys to girls at the dance was 3:4. There were 60 girls at the dance. The teachers were 20% of the number of boys. How many people were at the dance?
-Answer: 60 girls represent 4 parts, so one part of students is 60 / 4 = <<60/4=15>>15 students.
-There are 15 * 3 = <<15*3=45>>45 boys at the dance.
-The teachers at the dance are 45 * 0,2 = 9 teachers at the dance.
-There are 60 + 45 + 9 = <<60+45+9=114>>114 people at the dance.
-#### 114
-Q: Aiden and 12 of his friends are going to see a film at the cinema, and meet up with 7 more friends there. They each save a seat and then buy enough drinks and snacks to fill the seats. Each seat has enough room to hold one person, two drinks, and three snacks. If drinks and snacks cost $2 each, how much money, in dollars, has the group spent overall on snacks and drinks?","A: Aiden and his 12 friends make a total of 12 + 1 = <<12+1=13>>13 people at the cinema.
-Including the extra 7 friends, there are now 13 + 7 = 20 people in total at the cinema.
-For each person, they buy 2 drinks and 3 snacks, which cost 2 * $2 + 3 * $2 = $10 per person.
-With 20 people in total, they spend $10 * 20 = $<<10*20=200>>200 overall on snacks and drinks. 
-Therefore, the group has spent $200 overall on snacks and drinks.","Including Aiden, the whole group saves 1 + 12 + 7 = <<1+12+7=20>>20 seats.
-In total, the seats can hold 2 drinks * 20 seats = <<2*20=40>>40 drinks.
-In total, the seats can hold 3 snacks * 20 seats = <<3*20=60>>60 snacks.
-So in total, the group buys 40 drinks + 60 snacks = <<40+60=100>>100 items.
-As snacks and drinks cost $2 each, the group has spent 100 items * $2 = $<<100*2=200>>200 overall.
-#### 200"
-Math,1a,"Question: James decides to build a tin house by collecting 500 tins in a week. On the first day, he collects 50 tins. On the second day, he manages to collect 3 times that number. On the third day, he collects 50 tins fewer than the number he collected on the second day. If he collects an equal number of tins on the remaining days of the week, what's the number of tins he collected each day for the rest of the week?
-Answer: On the second day, he collected 3 times the number of tins he collected on the first day, which is 3*50 = <<3*50=150>>150 tins.
-On the third day, he collected 50 tins fewer than the second day, which is 150-50 = <<150-50=100>>100 tins
-The total for the three days is 150+100+50 = <<150+100+50=300>>300 tins.
-To reach his goal, he still needs 500-300 = <<500-300=200>>200 tins.
-Since the total number of days left in the week is 4, he'll need to collect 200/4 = <<200/4=50>>50 tins per day to reach his goal
-#### 50
-Question: In the garden, the gecko eats 12 bugs.  The lizard eats half as many bugs as the gecko.  The frog eats 3 times as many bugs as the lizard.  The toad eats 50% more bugs than the frog. How many bugs are eaten in total by all of them?
-Answer: Lizard eats 12 / 2 = <<12/2=6>>6 bugs.
-Frog eats 6 x 3 = <<6*3=18>>18 bugs.
-Toad eats 18 x 1.50 = <<18*1.50=27>>27 bugs.
-The lizard, frog and toad eat 6 + 18 + 27 = <<6+18+27=51>>51 bugs.
-Adding what the gecko eats, a total of 12 + 51 = <<12+51=63>>63 bugs are eaten.
-#### 63
-Q: Aiden and 12 of his friends are going to see a film at the cinema, and meet up with 7 more friends there. They each save a seat and then buy enough drinks and snacks to fill the seats. Each seat has enough room to hold one person, two drinks, and three snacks. If drinks and snacks cost $2 each, how much money, in dollars, has the group spent overall on snacks and drinks?","Aiden and his 12 friends make a total of 1 + 12 = <<1+12=13>>13 people.
-When they meet up with the 7 friends, there are now 13 + 7 = <<13+7=20>>20 people in total.
-They buy enough drinks and snacks for each of the 20 people, which means they buy 20 x 2 = <<20*2=40>>40 drinks.
-They also buy 20 x 3 = <<20*3=60>>60 snacks.
-Together, they have spent 40 + 60 = <<40+60=100>>100 dollars on drinks and snacks overall. 
-#### 100","Including Aiden, the whole group saves 1 + 12 + 7 = <<1+12+7=20>>20 seats.
-In total, the seats can hold 2 drinks * 20 seats = <<2*20=40>>40 drinks.
-In total, the seats can hold 3 snacks * 20 seats = <<3*20=60>>60 snacks.
-So in total, the group buys 40 drinks + 60 snacks = <<40+60=100>>100 items.
-As snacks and drinks cost $2 each, the group has spent 100 items * $2 = $<<100*2=200>>200 overall.
-#### 200"
-Math,2,"Question: Bob orders a pizza with 8 slices.  He eats half of it and each slice was 300 calories.  How many calories did he eat?
-Answer: He ate 8/2=<<8/2=4>>4 slices
-So he ate 4*300=<<4*300=1200>>1200 calories
-#### 1200
-Question: The ratio of boys to girls at the dance was 3:4. There were 60 girls at the dance. The teachers were 20% of the number of boys. How many people were at the dance?
-Answer: 60 girls represent 4 parts, so one part of students is 60 / 4 = <<60/4=15>>15 students.
-There are 15 * 3 = <<15*3=45>>45 boys at the dance.
-The teachers at the dance are 45 * 0,2 = 9 teachers at the dance.
-There are 60 + 45 + 9 = <<60+45+9=114>>114 people at the dance.
-#### 114
-Question: James decides to build a tin house by collecting 500 tins in a week. On the first day, he collects 50 tins. On the second day, he manages to collect 3 times that number. On the third day, he collects 50 tins fewer than the number he collected on the second day. If he collects an equal number of tins on the remaining days of the week, what's the number of tins he collected each day for the rest of the week?
-Answer: On the second day, he collected 3 times the number of tins he collected on the first day, which is 3*50 = <<3*50=150>>150 tins.
-On the third day, he collected 50 tins fewer than the second day, which is 150-50 = <<150-50=100>>100 tins
-The total for the three days is 150+100+50 = <<150+100+50=300>>300 tins.
-To reach his goal, he still needs 500-300 = <<500-300=200>>200 tins.
-Since the total number of days left in the week is 4, he'll need to collect 200/4 = <<200/4=50>>50 tins per day to reach his goal
-#### 50
-Question: In the garden, the gecko eats 12 bugs.  The lizard eats half as many bugs as the gecko.  The frog eats 3 times as many bugs as the lizard.  The toad eats 50% more bugs than the frog. How many bugs are eaten in total by all of them?
-Answer: Lizard eats 12 / 2 = <<12/2=6>>6 bugs.
-Frog eats 6 x 3 = <<6*3=18>>18 bugs.
-Toad eats 18 x 1.50 = <<18*1.50=27>>27 bugs.
-The lizard, frog and toad eat 6 + 18 + 27 = <<6+18+27=51>>51 bugs.
-Adding what the gecko eats, a total of 12 + 51 = <<12+51=63>>63 bugs are eaten.
-#### 63
-Q: Aiden and 12 of his friends are going to see a film at the cinema, and meet up with 7 more friends there. They each save a seat and then buy enough drinks and snacks to fill the seats. Each seat has enough room to hold one person, two drinks, and three snacks. If drinks and snacks cost $2 each, how much money, in dollars, has the group spent overall on snacks and drinks?","A: Aiden and his 12 friends make a group of 1 + 12 = 13 people.
-When they meet up with 7 more friends, their group grows to 13 + 7 = <<13+7=20>>20 people.
-They will need to buy drinks and snacks for each seat, which means they need to buy for 20 seats.
-Each seat needs 2 drinks and 3 snacks, which cost a total of 2 + 2 + 3 + 3 + 3 = $<<2+2+3+3+3=13>>13 per seat.
-For 20 seats, they will spend 13 x 20 = $<<13*20=260>>260 on drinks and snacks overall. 
-Therefore, the group has spent $260 overall on snacks and drinks.","Including Aiden, the whole group saves 1 + 12 + 7 = <<1+12+7=20>>20 seats.
-In total, the seats can hold 2 drinks * 20 seats = <<2*20=40>>40 drinks.
-In total, the seats can hold 3 snacks * 20 seats = <<3*20=60>>60 snacks.
-So in total, the group buys 40 drinks + 60 snacks = <<40+60=100>>100 items.
-As snacks and drinks cost $2 each, the group has spent 100 items * $2 = $<<100*2=200>>200 overall.
-#### 200"
-Math,3a,"Question: Bob orders a pizza with 8 slices.  He eats half of it and each slice was 300 calories.  How many calories did he eat?
-Answer: He ate 8/2=<<8/2=4>>4 slices
-So he ate 4*300=<<4*300=1200>>1200 calories
-#### 1200
-Question: The ratio of boys to girls at the dance was 3:4. There were 60 girls at the dance. The teachers were 20% of the number of boys. How many people were at the dance?
-Answer: 60 girls represent 4 parts, so one part of students is 60 / 4 = <<60/4=15>>15 students.
-There are 15 * 3 = <<15*3=45>>45 boys at the dance.
-The teachers at the dance are 45 * 0,2 = 9 teachers at the dance.
-There are 60 + 45 + 9 = <<60+45+9=114>>114 people at the dance.
-#### 114
-Question: Bob orders a pizza with 8 slices.  He eats half of it and each slice was 300 calories.  How many calories did he eat?
-Answer: He ate 8/2=<<8/2=4>>4 slices
-So he ate 4*300=<<4*300=1200>>1200 calories
-#### 1200
-Question: The ratio of boys to girls at the dance was 3:4. There were 60 girls at the dance. The teachers were 20% of the number of boys. How many people were at the dance?
-Answer: 60 girls represent 4 parts, so one part of students is 60 / 4 = <<60/4=15>>15 students.
-There are 15 * 3 = <<15*3=45>>45 boys at the dance.
-The teachers at the dance are 45 * 0,2 = 9 teachers at the dance.
-There are 60 + 45 + 9 = <<60+45+9=114>>114 people at the dance.
-#### 114
-Q: Aiden and 12 of his friends are going to see a film at the cinema, and meet up with 7 more friends there. They each save a seat and then buy enough drinks and snacks to fill the seats. Each seat has enough room to hold one person, two drinks, and three snacks. If drinks and snacks cost $2 each, how much money, in dollars, has the group spent overall on snacks and drinks?","Aiden and his 12 friends make a group of 12 + 1 = 13 people.
-When they meet up with the 7 friends, the total number of people in the group is 13 + 7 = <<13+7=20>>20 people.
-They buy enough drinks and snacks for each person in the group, which is 20 seats * $2 per drink/snack * (2 drinks + 3 snacks) = $<<20*2*(2+3)=200>>200.
-The group has spent $200 overall on snacks and drinks.","Including Aiden, the whole group saves 1 + 12 + 7 = <<1+12+7=20>>20 seats.
-In total, the seats can hold 2 drinks * 20 seats = <<2*20=40>>40 drinks.
-In total, the seats can hold 3 snacks * 20 seats = <<3*20=60>>60 snacks.
-So in total, the group buys 40 drinks + 60 snacks = <<40+60=100>>100 items.
-As snacks and drinks cost $2 each, the group has spent 100 items * $2 = $<<100*2=200>>200 overall.
-#### 200"
-Math,3b,"Question: James decides to build a tin house by collecting 500 tins in a week. On the first day, he collects 50 tins. On the second day, he manages to collect 3 times that number. On the third day, he collects 50 tins fewer than the number he collected on the second day. If he collects an equal number of tins on the remaining days of the week, what's the number of tins he collected each day for the rest of the week?
-Answer: On the second day, he collected 3 times the number of tins he collected on the first day, which is 3*50 = <<3*50=150>>150 tins.
-On the third day, he collected 50 tins fewer than the second day, which is 150-50 = <<150-50=100>>100 tins
-The total for the three days is 150+100+50 = <<150+100+50=300>>300 tins.
-To reach his goal, he still needs 500-300 = <<500-300=200>>200 tins.
-Since the total number of days left in the week is 4, he'll need to collect 200/4 = <<200/4=50>>50 tins per day to reach his goal
-#### 50
-Question: In the garden, the gecko eats 12 bugs.  The lizard eats half as many bugs as the gecko.  The frog eats 3 times as many bugs as the lizard.  The toad eats 50% more bugs than the frog. How many bugs are eaten in total by all of them?
-Answer: Lizard eats 12 / 2 = <<12/2=6>>6 bugs.
-Frog eats 6 x 3 = <<6*3=18>>18 bugs.
-Toad eats 18 x 1.50 = <<18*1.50=27>>27 bugs.
-The lizard, frog and toad eat 6 + 18 + 27 = <<6+18+27=51>>51 bugs.
-Adding what the gecko eats, a total of 12 + 51 = <<12+51=63>>63 bugs are eaten.
-#### 63
-Question: James decides to build a tin house by collecting 500 tins in a week. On the first day, he collects 50 tins. On the second day, he manages to collect 3 times that number. On the third day, he collects 50 tins fewer than the number he collected on the second day. If he collects an equal number of tins on the remaining days of the week, what's the number of tins he collected each day for the rest of the week?
-Answer: On the second day, he collected 3 times the number of tins he collected on the first day, which is 3*50 = <<3*50=150>>150 tins.
-On the third day, he collected 50 tins fewer than the second day, which is 150-50 = <<150-50=100>>100 tins
-The total for the three days is 150+100+50 = <<150+100+50=300>>300 tins.
-To reach his goal, he still needs 500-300 = <<500-300=200>>200 tins.
-Since the total number of days left in the week is 4, he'll need to collect 200/4 = <<200/4=50>>50 tins per day to reach his goal
-#### 50
-Question: In the garden, the gecko eats 12 bugs.  The lizard eats half as many bugs as the gecko.  The frog eats 3 times as many bugs as the lizard.  The toad eats 50% more bugs than the frog. How many bugs are eaten in total by all of them?
-Answer: Lizard eats 12 / 2 = <<12/2=6>>6 bugs.
-Frog eats 6 x 3 = <<6*3=18>>18 bugs.
-Toad eats 18 x 1.50 = <<18*1.50=27>>27 bugs.
-The lizard, frog and toad eat 6 + 18 + 27 = <<6+18+27=51>>51 bugs.
-Adding what the gecko eats, a total of 12 + 51 = <<12+51=63>>63 bugs are eaten.
-#### 63
-Q: Aiden and 12 of his friends are going to see a film at the cinema, and meet up with 7 more friends there. They each save a seat and then buy enough drinks and snacks to fill the seats. Each seat has enough room to hold one person, two drinks, and three snacks. If drinks and snacks cost $2 each, how much money, in dollars, has the group spent overall on snacks and drinks?","Aiden and his 12 friends make a total of 12 + 1 (Aiden himself) = 13 people.
-When Aiden and his friends meet 7 more friends, the total number of people becomes 13 + 7 = 20 people.
-To find the total number of drinks needed, we calculate 20 people * 2 drinks = 40 drinks.
-To find the total number of snacks needed, we calculate 20 people * 3 snacks = 60 snacks.
-The total cost of the drinks is 40 drinks * $2 = $80.
-The total cost of the snacks is 60 snacks * $2 = $120.
-Therefore, the group has spent a total of $80 + $120 = $200 on snacks and drinks.","Including Aiden, the whole group saves 1 + 12 + 7 = <<1+12+7=20>>20 seats.
-In total, the seats can hold 2 drinks * 20 seats = <<2*20=40>>40 drinks.
-In total, the seats can hold 3 snacks * 20 seats = <<3*20=60>>60 snacks.
-So in total, the group buys 40 drinks + 60 snacks = <<40+60=100>>100 items.
-As snacks and drinks cost $2 each, the group has spent 100 items * $2 = $<<100*2=200>>200 overall.
-#### 200"
-CSQA,1a,"Question: Where might a snake drop from?
-A: tree
-B: pet shops
-C: feild
-D: tropical forest
-E: cage
+Math,1a,"Question: There are 8 loads of laundry that need to be washed. Each load of laundry takes around 45 minutes to complete in the wash cycle and 1 hour in the dry cycle. How long, in hours, will it take to complete the entire set of laundry?
+Answer: Each load takes 60 + 45 = <<60+45=105>>105 minutes
+There are 8 loads that take 8*105=<<8*105=840>>840 minutes
+It takes 840/60=<<840/60=14>>14 hours
+#### 14
+Question: It will cost $60 to rent a sailboat and $80 per hour to rent a ski boat. Ken rented a sailboat while Aldrich rented a ski boat. How much more did it cost Aldrich to rent the ski boat than Ken to rent a sailboat for three hours a day in two days?
+Answer: Ken paid $60 x 3 = $<<60*3=180>>180 to rent a sailboat for 3 hours in a day
+Aldrich paid $80 x 3 = $<<80*3=240>>240 to rent a ski boat in 3 hours in a day.
+So Aldrich paid $240 - $180 = $<<240-180=60>>60 more to rent a ski boat than Ken to rent the sailboat each day.
+Therefore, it cost Aldrich $60 x 2 = $<<60*2=120>>120 more to rent a ski boat than Ken to rent the sailboat in two days.
+#### 120
+Question: Argo has 200 toys. He gives 40 toys to Alyssa, 80 to Bonnie, and 30 to Nicky. How many toys does Argo have now?","Answer: After giving away toys, Argo will have 200 - 40 - 80 - 30 = <<200-40-80-30=50>>50 toys.
+Therefore, Argo has 50 toys left.","After Argo gives 40 toys to Alyssa, he remains with 200-40 =<<200-40=160>>160
+Argo also gives 80 Bonnie 80 toys and remains with 160-80 = 80 toys
+If he also gave Nicky 30 toys, the number of toys Arge remains with is 80-30 = <<80-30=50>>50.
+#### 50"
+Math,1a,"Question: Melody planted sunflowers from two different seed packets. She found that the sunflowers from Packet A were 20% taller than the sunflowers from Packet B. If the sunflowers from Packet A were 192 inches tall, how tall were the sunflowers from Packet B?
+Answer: The height of the sunflowers from Packet A is the same as the height of the sunflowers from Packet B + 20%. If Y represents the height of the sunflowers from Packet B, Y + 0.20Y = the height of sunflowers from Packet A.
+We know the height of the sunflowers from Packet A is 192 inches = Y + 0.20Y or 1.2Y.
+To figure out Y, we would divide both sides of the equation by 1.2, like this: 192 / 1.2 = 1.2Y / 1.2 or 160 = Y.
+#### 160
+Question: Coral reads 30 pages of a book on night 1, and 2 less than twice that on night 2.  Night 3 Coral reads 3 more pages than the sum of the first two nights.  How many total pages did Coral read in the 3 nights?
+Answer: Night 1:30 pages
+Night 2:2(30)-2=58 pages
+Night 3:3+(30+58)=91 pages
+Total:30+58+91=<<30+58+91=179>>179 pages
+#### 179
+Question: Argo has 200 toys. He gives 40 toys to Alyssa, 80 to Bonnie, and 30 to Nicky. How many toys does Argo have now?","Answer: Argo gave a total of 40 + 80 + 30 = <<40+80+30=150>>150 toys to Alyssa, Bonnie, and Nicky.
+Argo now has 200 - 150 = <<200-150=50>>50 toys.
+#### 50","After Argo gives 40 toys to Alyssa, he remains with 200-40 =<<200-40=160>>160
+Argo also gives 80 Bonnie 80 toys and remains with 160-80 = 80 toys
+If he also gave Nicky 30 toys, the number of toys Arge remains with is 80-30 = <<80-30=50>>50.
+#### 50"
+Math,2,"Question: There are 8 loads of laundry that need to be washed. Each load of laundry takes around 45 minutes to complete in the wash cycle and 1 hour in the dry cycle. How long, in hours, will it take to complete the entire set of laundry?
+Answer: Each load takes 60 + 45 = <<60+45=105>>105 minutes
+There are 8 loads that take 8*105=<<8*105=840>>840 minutes
+It takes 840/60=<<840/60=14>>14 hours
+#### 14
+Question: It will cost $60 to rent a sailboat and $80 per hour to rent a ski boat. Ken rented a sailboat while Aldrich rented a ski boat. How much more did it cost Aldrich to rent the ski boat than Ken to rent a sailboat for three hours a day in two days?
+Answer: Ken paid $60 x 3 = $<<60*3=180>>180 to rent a sailboat for 3 hours in a day
+Aldrich paid $80 x 3 = $<<80*3=240>>240 to rent a ski boat in 3 hours in a day.
+So Aldrich paid $240 - $180 = $<<240-180=60>>60 more to rent a ski boat than Ken to rent the sailboat each day.
+Therefore, it cost Aldrich $60 x 2 = $<<60*2=120>>120 more to rent a ski boat than Ken to rent the sailboat in two days.
+#### 120
+Question: Melody planted sunflowers from two different seed packets. She found that the sunflowers from Packet A were 20% taller than the sunflowers from Packet B. If the sunflowers from Packet A were 192 inches tall, how tall were the sunflowers from Packet B?
+Answer: The height of the sunflowers from Packet A is the same as the height of the sunflowers from Packet B + 20%. If Y represents the height of the sunflowers from Packet B, Y + 0.20Y = the height of sunflowers from Packet A.
+We know the height of the sunflowers from Packet A is 192 inches = Y + 0.20Y or 1.2Y.
+To figure out Y, we would divide both sides of the equation by 1.2, like this: 192 / 1.2 = 1.2Y / 1.2 or 160 = Y.
+#### 160
+Question: Coral reads 30 pages of a book on night 1, and 2 less than twice that on night 2.  Night 3 Coral reads 3 more pages than the sum of the first two nights.  How many total pages did Coral read in the 3 nights?
+Answer: Night 1:30 pages
+Night 2:2(30)-2=58 pages
+Night 3:3+(30+58)=91 pages
+Total:30+58+91=<<30+58+91=179>>179 pages
+#### 179
+Question: Argo has 200 toys. He gives 40 toys to Alyssa, 80 to Bonnie, and 30 to Nicky. How many toys does Argo have now?","Answer: Argo gave a total of 40 + 80 + 30 = <<40+80+30=150>>150 toys.
+Argo now has 200 - 150 = <<200-150=50>>50 toys.
+Argo now has 50 toys remaining.","After Argo gives 40 toys to Alyssa, he remains with 200-40 =<<200-40=160>>160
+Argo also gives 80 Bonnie 80 toys and remains with 160-80 = 80 toys
+If he also gave Nicky 30 toys, the number of toys Arge remains with is 80-30 = <<80-30=50>>50.
+#### 50"
+Math,3a,"Question: There are 8 loads of laundry that need to be washed. Each load of laundry takes around 45 minutes to complete in the wash cycle and 1 hour in the dry cycle. How long, in hours, will it take to complete the entire set of laundry?
+Answer: Each load takes 60 + 45 = <<60+45=105>>105 minutes
+There are 8 loads that take 8*105=<<8*105=840>>840 minutes
+It takes 840/60=<<840/60=14>>14 hours
+#### 14
+Question: It will cost $60 to rent a sailboat and $80 per hour to rent a ski boat. Ken rented a sailboat while Aldrich rented a ski boat. How much more did it cost Aldrich to rent the ski boat than Ken to rent a sailboat for three hours a day in two days?
+Answer: Ken paid $60 x 3 = $<<60*3=180>>180 to rent a sailboat for 3 hours in a day
+Aldrich paid $80 x 3 = $<<80*3=240>>240 to rent a ski boat in 3 hours in a day.
+So Aldrich paid $240 - $180 = $<<240-180=60>>60 more to rent a ski boat than Ken to rent the sailboat each day.
+Therefore, it cost Aldrich $60 x 2 = $<<60*2=120>>120 more to rent a ski boat than Ken to rent the sailboat in two days.
+#### 120
+Question: There are 8 loads of laundry that need to be washed. Each load of laundry takes around 45 minutes to complete in the wash cycle and 1 hour in the dry cycle. How long, in hours, will it take to complete the entire set of laundry?
+Answer: Each load takes 60 + 45 = <<60+45=105>>105 minutes
+There are 8 loads that take 8*105=<<8*105=840>>840 minutes
+It takes 840/60=<<840/60=14>>14 hours
+#### 14
+Question: It will cost $60 to rent a sailboat and $80 per hour to rent a ski boat. Ken rented a sailboat while Aldrich rented a ski boat. How much more did it cost Aldrich to rent the ski boat than Ken to rent a sailboat for three hours a day in two days?
+Answer: Ken paid $60 x 3 = $<<60*3=180>>180 to rent a sailboat for 3 hours in a day
+Aldrich paid $80 x 3 = $<<80*3=240>>240 to rent a ski boat in 3 hours in a day.
+So Aldrich paid $240 - $180 = $<<240-180=60>>60 more to rent a ski boat than Ken to rent the sailboat each day.
+Therefore, it cost Aldrich $60 x 2 = $<<60*2=120>>120 more to rent a ski boat than Ken to rent the sailboat in two days.
+#### 120
+Question: Argo has 200 toys. He gives 40 toys to Alyssa, 80 to Bonnie, and 30 to Nicky. How many toys does Argo have now?","Answer: Argo gave a total of 40 + 80 + 30 = 150 toys.
+Argo now has 200 - 150 = 50 toys.","After Argo gives 40 toys to Alyssa, he remains with 200-40 =<<200-40=160>>160
+Argo also gives 80 Bonnie 80 toys and remains with 160-80 = 80 toys
+If he also gave Nicky 30 toys, the number of toys Arge remains with is 80-30 = <<80-30=50>>50.
+#### 50"
+Math,3b,"Question: Melody planted sunflowers from two different seed packets. She found that the sunflowers from Packet A were 20% taller than the sunflowers from Packet B. If the sunflowers from Packet A were 192 inches tall, how tall were the sunflowers from Packet B?
+Answer: The height of the sunflowers from Packet A is the same as the height of the sunflowers from Packet B + 20%. If Y represents the height of the sunflowers from Packet B, Y + 0.20Y = the height of sunflowers from Packet A.
+We know the height of the sunflowers from Packet A is 192 inches = Y + 0.20Y or 1.2Y.
+To figure out Y, we would divide both sides of the equation by 1.2, like this: 192 / 1.2 = 1.2Y / 1.2 or 160 = Y.
+#### 160
+Question: Coral reads 30 pages of a book on night 1, and 2 less than twice that on night 2.  Night 3 Coral reads 3 more pages than the sum of the first two nights.  How many total pages did Coral read in the 3 nights?
+Answer: Night 1:30 pages
+Night 2:2(30)-2=58 pages
+Night 3:3+(30+58)=91 pages
+Total:30+58+91=<<30+58+91=179>>179 pages
+#### 179
+Question: Melody planted sunflowers from two different seed packets. She found that the sunflowers from Packet A were 20% taller than the sunflowers from Packet B. If the sunflowers from Packet A were 192 inches tall, how tall were the sunflowers from Packet B?
+Answer: The height of the sunflowers from Packet A is the same as the height of the sunflowers from Packet B + 20%. If Y represents the height of the sunflowers from Packet B, Y + 0.20Y = the height of sunflowers from Packet A.
+We know the height of the sunflowers from Packet A is 192 inches = Y + 0.20Y or 1.2Y.
+To figure out Y, we would divide both sides of the equation by 1.2, like this: 192 / 1.2 = 1.2Y / 1.2 or 160 = Y.
+#### 160
+Question: Coral reads 30 pages of a book on night 1, and 2 less than twice that on night 2.  Night 3 Coral reads 3 more pages than the sum of the first two nights.  How many total pages did Coral read in the 3 nights?
+Answer: Night 1:30 pages
+Night 2:2(30)-2=58 pages
+Night 3:3+(30+58)=91 pages
+Total:30+58+91=<<30+58+91=179>>179 pages
+#### 179
+Question: Argo has 200 toys. He gives 40 toys to Alyssa, 80 to Bonnie, and 30 to Nicky. How many toys does Argo have now?","Answer: Argo gave away a total of 40 + 80 + 30 = <<40+80+30=150>>150 toys.
+Argo now has 200 - 150 = <<200-150=50>>50 toys.","After Argo gives 40 toys to Alyssa, he remains with 200-40 =<<200-40=160>>160
+Argo also gives 80 Bonnie 80 toys and remains with 160-80 = 80 toys
+If he also gave Nicky 30 toys, the number of toys Arge remains with is 80-30 = <<80-30=50>>50.
+#### 50"
+CSQA,1a,"Question: What is the reason for having a gardener?
+A: manicure the lawn
+B: garden backyards
+C: water plants
+D: grow plants
+E: pick flowers
+Answer: D
+Question: What is learning about the world and it's injustices  likely to cause?
+A: anger
+B: loss of innocence
+C: happiness
+D: pleasure
+E: enlightenment
 Answer: A
-Question: Bill loved riding his bike and did it all the time.  He had trouble going up hills and sometimes pushed himself to the point of what?
-A: falling down
-B: give up
-C: exhaustion
-D: travelling
-E: going somewhere
-Answer: C
-Q: Sammy wanted to go to where the people were.  Where might he go?
-A: race track
-B: populated areas
-C: the desert
-D: apartment
-E: roadblock",Answer: B,B
-CSQA,1a,"Question: He was learning about the use of color and all their tints, and even how to use what technique?
-A: black white
-B: old timey
-C: white black
-D: dark
-E: monochromatic
-Answer: E
-Question: Where do soldiers not deployed eat their food?
-A: neighbor's house
-B: at home
-C: military base
-D: shelf
-E: kitchen
-Answer: C
-Q: Sammy wanted to go to where the people were.  Where might he go?
-A: race track
-B: populated areas
-C: the desert
-D: apartment
-E: roadblock",A: populated areas,B
-CSQA,2,"Question: Where might a snake drop from?
-A: tree
-B: pet shops
-C: feild
-D: tropical forest
-E: cage
+Question: What might you feel after doing housework for hours?
+A: anger
+B: not boredom
+C: stress
+D: boredom
+E: anxiety",Answer: C,C
+CSQA,1a,"Question: What is something that isn't the main focus of a video?
+A: peripheral
+B: secondary
+C: maintopmast
+D: characters
+E: minor
 Answer: A
-Question: Bill loved riding his bike and did it all the time.  He had trouble going up hills and sometimes pushed himself to the point of what?
-A: falling down
-B: give up
-C: exhaustion
-D: travelling
-E: going somewhere
-Answer: C
-Question: He was learning about the use of color and all their tints, and even how to use what technique?
-A: black white
-B: old timey
-C: white black
-D: dark
-E: monochromatic
+Question: It was t he biggest concert in town, there wasn't an empty seat in the what?
+A: theatre
+B: building
+C: show
+D: airplane
+E: auditorium
 Answer: E
-Question: Where do soldiers not deployed eat their food?
-A: neighbor's house
-B: at home
-C: military base
-D: shelf
-E: kitchen
-Answer: C
-Q: Sammy wanted to go to where the people were.  Where might he go?
-A: race track
-B: populated areas
-C: the desert
-D: apartment
-E: roadblock",Answer: B,B
-CSQA,3a,"Question: Where might a snake drop from?
-A: tree
-B: pet shops
-C: feild
-D: tropical forest
-E: cage
+Question: What might you feel after doing housework for hours?
+A: anger
+B: not boredom
+C: stress
+D: boredom
+E: anxiety",Answer: C,C
+CSQA,2,"Question: What is the reason for having a gardener?
+A: manicure the lawn
+B: garden backyards
+C: water plants
+D: grow plants
+E: pick flowers
+Answer: D
+Question: What is learning about the world and it's injustices  likely to cause?
+A: anger
+B: loss of innocence
+C: happiness
+D: pleasure
+E: enlightenment
 Answer: A
-Question: Bill loved riding his bike and did it all the time.  He had trouble going up hills and sometimes pushed himself to the point of what?
-A: falling down
-B: give up
-C: exhaustion
-D: travelling
-E: going somewhere
-Answer: C
-Question: Where might a snake drop from?
-A: tree
-B: pet shops
-C: feild
-D: tropical forest
-E: cage
+Question: What is something that isn't the main focus of a video?
+A: peripheral
+B: secondary
+C: maintopmast
+D: characters
+E: minor
 Answer: A
-Question: Bill loved riding his bike and did it all the time.  He had trouble going up hills and sometimes pushed himself to the point of what?
-A: falling down
-B: give up
-C: exhaustion
-D: travelling
-E: going somewhere
-Answer: C
-Q: Sammy wanted to go to where the people were.  Where might he go?
-A: race track
-B: populated areas
-C: the desert
-D: apartment
-E: roadblock",A: populated areas,B
-CSQA,3b,"Question: He was learning about the use of color and all their tints, and even how to use what technique?
-A: black white
-B: old timey
-C: white black
-D: dark
-E: monochromatic
+Question: It was t he biggest concert in town, there wasn't an empty seat in the what?
+A: theatre
+B: building
+C: show
+D: airplane
+E: auditorium
 Answer: E
-Question: Where do soldiers not deployed eat their food?
-A: neighbor's house
-B: at home
-C: military base
-D: shelf
-E: kitchen
-Answer: C
-Question: He was learning about the use of color and all their tints, and even how to use what technique?
-A: black white
-B: old timey
-C: white black
-D: dark
-E: monochromatic
+Question: What might you feel after doing housework for hours?
+A: anger
+B: not boredom
+C: stress
+D: boredom
+E: anxiety",Answer: D,C
+CSQA,3a,"Question: What is the reason for having a gardener?
+A: manicure the lawn
+B: garden backyards
+C: water plants
+D: grow plants
+E: pick flowers
+Answer: D
+Question: What is learning about the world and it's injustices  likely to cause?
+A: anger
+B: loss of innocence
+C: happiness
+D: pleasure
+E: enlightenment
+Answer: A
+Question: What is the reason for having a gardener?
+A: manicure the lawn
+B: garden backyards
+C: water plants
+D: grow plants
+E: pick flowers
+Answer: D
+Question: What is learning about the world and it's injustices  likely to cause?
+A: anger
+B: loss of innocence
+C: happiness
+D: pleasure
+E: enlightenment
+Answer: A
+Question: What might you feel after doing housework for hours?
+A: anger
+B: not boredom
+C: stress
+D: boredom
+E: anxiety",Answer: C,C
+CSQA,3b,"Question: What is something that isn't the main focus of a video?
+A: peripheral
+B: secondary
+C: maintopmast
+D: characters
+E: minor
+Answer: A
+Question: It was t he biggest concert in town, there wasn't an empty seat in the what?
+A: theatre
+B: building
+C: show
+D: airplane
+E: auditorium
 Answer: E
-Question: Where do soldiers not deployed eat their food?
-A: neighbor's house
-B: at home
-C: military base
-D: shelf
-E: kitchen
-Answer: C
-Q: Sammy wanted to go to where the people were.  Where might he go?
-A: race track
-B: populated areas
-C: the desert
-D: apartment
-E: roadblock",A: populated areas,B
-StrategyQA,1a,"Question: Seismophobia is the extreme fear of earthquakes. The Supreme Court of Canada is located in Ottawa. The Ottawa-Gattineau region is located far from active tectonic plates.
-Is clerk of Supreme Court of Canada safe profession for someone with seismophobia?
+Question: What is something that isn't the main focus of a video?
+A: peripheral
+B: secondary
+C: maintopmast
+D: characters
+E: minor
+Answer: A
+Question: It was t he biggest concert in town, there wasn't an empty seat in the what?
+A: theatre
+B: building
+C: show
+D: airplane
+E: auditorium
+Answer: E
+Question: What might you feel after doing housework for hours?
+A: anger
+B: not boredom
+C: stress
+D: boredom
+E: anxiety",Answer: C,C
+StrategyQA,1a,"Question: Sophist's were teachers in ancient Greece that used rhetoric. Lawyers must persuade juries that their side of the case is correct. Rhetoric is the ancient art of persuasion that was meant to sway audiences in specific situations.
+Would Sophist's have hypothetically made good lawyers?
 Answer: True
-Question: Dermatitis causes rashes, redness, blisters, cracking of the skin, and scarring.  Hand models tend to have flawless skin and hands.
-Can someone with dermatitis be a hand model?
+Question: The Warsaw Ghetto existed during the second world war. Cell phones with video recording capability did not exist until the 2000s.
+Did the population of the Warsaw Ghetto record secret police on cell phones?
 Answer: False
-Q: The Space Race was a competition between the USA and USSR regarding spaceflight and exploration Relay batons are used in relay races Relay races are athletic track and field events
-Did the Space Race use relay batons?",A: False,False
-StrategyQA,1a,"Question: Artillery refers to ranged weaponry that is predominantly used in breaching fortifications. Examples of artillery include: howitzers, mortars, and rockets. Mortars can have a range up to 4,680m. A slingshot is a string weapon that propels a rock or other small projectile. Some slingshots can fire projectiles up to 9m.
-Would a slingshot be improperly classified as artillery?
-Answer: True
-Question: Black Lives Matter has held numerous protests Protesters at Black Lives Matter events have had pepper spray used against them by police Capsaicin is the main ingredient of pepper spray
-Is Black Lives Matter connected with capsaicin?
-Answer: True
-Q: The Space Race was a competition between the USA and USSR regarding spaceflight and exploration Relay batons are used in relay races Relay races are athletic track and field events
-Did the Space Race use relay batons?",Answer: False,False
-StrategyQA,2,"Question: Seismophobia is the extreme fear of earthquakes. The Supreme Court of Canada is located in Ottawa. The Ottawa-Gattineau region is located far from active tectonic plates.
-Is clerk of Supreme Court of Canada safe profession for someone with seismophobia?
-Answer: True
-Question: Dermatitis causes rashes, redness, blisters, cracking of the skin, and scarring.  Hand models tend to have flawless skin and hands.
-Can someone with dermatitis be a hand model?
+Question: The Coen brothers were born in 1954 and 1957. The Brothers Grimm died in 1859 and 1863.
+Did the Coen brothers ever collaborate with the Brothers Grimm?",Answer: False,False
+StrategyQA,1a,"Question: Oak trees are deciduous. Deciduous trees lose their leaves during autumn, and they grow back during spring. Winter is between autumn and spring.
+Do oak trees have leaves during winter?
 Answer: False
-Question: Artillery refers to ranged weaponry that is predominantly used in breaching fortifications. Examples of artillery include: howitzers, mortars, and rockets. Mortars can have a range up to 4,680m. A slingshot is a string weapon that propels a rock or other small projectile. Some slingshots can fire projectiles up to 9m.
-Would a slingshot be improperly classified as artillery?
+Question: Dave Chappelle converted to Islam in 1998. Dave Chappelle has not deviated from his religious beliefs since 1998 and is a practicing Muslim. Practicing Muslims pray often.
+Would Dave Chappelle pray over a Quran?
 Answer: True
-Question: Black Lives Matter has held numerous protests Protesters at Black Lives Matter events have had pepper spray used against them by police Capsaicin is the main ingredient of pepper spray
-Is Black Lives Matter connected with capsaicin?
+Question: The Coen brothers were born in 1954 and 1957. The Brothers Grimm died in 1859 and 1863.
+Did the Coen brothers ever collaborate with the Brothers Grimm?",Answer: False,False
+StrategyQA,2,"Question: Sophist's were teachers in ancient Greece that used rhetoric. Lawyers must persuade juries that their side of the case is correct. Rhetoric is the ancient art of persuasion that was meant to sway audiences in specific situations.
+Would Sophist's have hypothetically made good lawyers?
 Answer: True
-Q: The Space Race was a competition between the USA and USSR regarding spaceflight and exploration Relay batons are used in relay races Relay races are athletic track and field events
-Did the Space Race use relay batons?",False,False
-StrategyQA,3a,"Question: Seismophobia is the extreme fear of earthquakes. The Supreme Court of Canada is located in Ottawa. The Ottawa-Gattineau region is located far from active tectonic plates.
-Is clerk of Supreme Court of Canada safe profession for someone with seismophobia?
-Answer: True
-Question: Dermatitis causes rashes, redness, blisters, cracking of the skin, and scarring.  Hand models tend to have flawless skin and hands.
-Can someone with dermatitis be a hand model?
+Question: The Warsaw Ghetto existed during the second world war. Cell phones with video recording capability did not exist until the 2000s.
+Did the population of the Warsaw Ghetto record secret police on cell phones?
 Answer: False
-Question: Seismophobia is the extreme fear of earthquakes. The Supreme Court of Canada is located in Ottawa. The Ottawa-Gattineau region is located far from active tectonic plates.
-Is clerk of Supreme Court of Canada safe profession for someone with seismophobia?
-Answer: True
-Question: Dermatitis causes rashes, redness, blisters, cracking of the skin, and scarring.  Hand models tend to have flawless skin and hands.
-Can someone with dermatitis be a hand model?
+Question: Oak trees are deciduous. Deciduous trees lose their leaves during autumn, and they grow back during spring. Winter is between autumn and spring.
+Do oak trees have leaves during winter?
 Answer: False
-Q: The Space Race was a competition between the USA and USSR regarding spaceflight and exploration Relay batons are used in relay races Relay races are athletic track and field events
-Did the Space Race use relay batons?",Answer: False,False
-StrategyQA,3b,"Question: Artillery refers to ranged weaponry that is predominantly used in breaching fortifications. Examples of artillery include: howitzers, mortars, and rockets. Mortars can have a range up to 4,680m. A slingshot is a string weapon that propels a rock or other small projectile. Some slingshots can fire projectiles up to 9m.
-Would a slingshot be improperly classified as artillery?
+Question: Dave Chappelle converted to Islam in 1998. Dave Chappelle has not deviated from his religious beliefs since 1998 and is a practicing Muslim. Practicing Muslims pray often.
+Would Dave Chappelle pray over a Quran?
 Answer: True
-Question: Black Lives Matter has held numerous protests Protesters at Black Lives Matter events have had pepper spray used against them by police Capsaicin is the main ingredient of pepper spray
-Is Black Lives Matter connected with capsaicin?
+Question: The Coen brothers were born in 1954 and 1957. The Brothers Grimm died in 1859 and 1863.
+Did the Coen brothers ever collaborate with the Brothers Grimm?",Answer: False,False
+StrategyQA,3a,"Question: Sophist's were teachers in ancient Greece that used rhetoric. Lawyers must persuade juries that their side of the case is correct. Rhetoric is the ancient art of persuasion that was meant to sway audiences in specific situations.
+Would Sophist's have hypothetically made good lawyers?
 Answer: True
-Question: Artillery refers to ranged weaponry that is predominantly used in breaching fortifications. Examples of artillery include: howitzers, mortars, and rockets. Mortars can have a range up to 4,680m. A slingshot is a string weapon that propels a rock or other small projectile. Some slingshots can fire projectiles up to 9m.
-Would a slingshot be improperly classified as artillery?
+Question: The Warsaw Ghetto existed during the second world war. Cell phones with video recording capability did not exist until the 2000s.
+Did the population of the Warsaw Ghetto record secret police on cell phones?
+Answer: False
+Question: Sophist's were teachers in ancient Greece that used rhetoric. Lawyers must persuade juries that their side of the case is correct. Rhetoric is the ancient art of persuasion that was meant to sway audiences in specific situations.
+Would Sophist's have hypothetically made good lawyers?
 Answer: True
-Question: Black Lives Matter has held numerous protests Protesters at Black Lives Matter events have had pepper spray used against them by police Capsaicin is the main ingredient of pepper spray
-Is Black Lives Matter connected with capsaicin?
+Question: The Warsaw Ghetto existed during the second world war. Cell phones with video recording capability did not exist until the 2000s.
+Did the population of the Warsaw Ghetto record secret police on cell phones?
+Answer: False
+Question: The Coen brothers were born in 1954 and 1957. The Brothers Grimm died in 1859 and 1863.
+Did the Coen brothers ever collaborate with the Brothers Grimm?",Answer: False,False
+StrategyQA,3b,"Question: Oak trees are deciduous. Deciduous trees lose their leaves during autumn, and they grow back during spring. Winter is between autumn and spring.
+Do oak trees have leaves during winter?
+Answer: False
+Question: Dave Chappelle converted to Islam in 1998. Dave Chappelle has not deviated from his religious beliefs since 1998 and is a practicing Muslim. Practicing Muslims pray often.
+Would Dave Chappelle pray over a Quran?
 Answer: True
-Q: The Space Race was a competition between the USA and USSR regarding spaceflight and exploration Relay batons are used in relay races Relay races are athletic track and field events
-Did the Space Race use relay batons?",Answer: False,False
-SayCan,1a,"Question: Bring me a sprite.
-Answer: 1. find a sprite can, 2. pick up the sprite can, 3. bring it to you, 4. put down the sprite can, 5. done
-Question: Can you bring me a salty snack?
-Answer: 1. find the sea salt chips, 2. pick up the sea salt chips, 3. bring it to you, 4. put down the sea salt chips, 5. done
-Q: Bring me a drink and snack for lunch.","A: 1. find a drink and snack of your choice, 2. pick up the drink and snack, 3. bring them to you, 4. put them down for your lunch, 5. done","1. find a water bottle, 2. pick up the water bottle, 3. bring it to you, 4. put down the water bottle, 5. find the multigrain chips, 6. pick up the multigrain chips, 7. bring it to you, 8. put down the multigrain chips, 9. done"
-SayCan,1a,"Question: Go to the table.
-Answer: 1. go to the table, 2. done
-Question: Can I have a redbull please?
-Answer: 1. find a redbull can, 2. pick up the redbull can, 3. bring it to you, 4. put down the redbull can, 5. done
-Q: Bring me a drink and snack for lunch.","A: 1. find a drink and snack, 2. pick up the drink and snack, 3. bring it to you, 4. place them on the table, 5. done","1. find a water bottle, 2. pick up the water bottle, 3. bring it to you, 4. put down the water bottle, 5. find the multigrain chips, 6. pick up the multigrain chips, 7. bring it to you, 8. put down the multigrain chips, 9. done"
-SayCan,2,"Question: Bring me a sprite.
-Answer: 1. find a sprite can, 2. pick up the sprite can, 3. bring it to you, 4. put down the sprite can, 5. done
-Question: Can you bring me a salty snack?
-Answer: 1. find the sea salt chips, 2. pick up the sea salt chips, 3. bring it to you, 4. put down the sea salt chips, 5. done
-Question: Go to the table.
-Answer: 1. go to the table, 2. done
-Question: Can I have a redbull please?
-Answer: 1. find a redbull can, 2. pick up the redbull can, 3. bring it to you, 4. put down the redbull can, 5. done
-Q: Bring me a drink and snack for lunch.","A: 1. Find a drink and snack, 2. Pick up the drink and snack, 3. Bring them to you, 4. Put them down, 5. Done","1. find a water bottle, 2. pick up the water bottle, 3. bring it to you, 4. put down the water bottle, 5. find the multigrain chips, 6. pick up the multigrain chips, 7. bring it to you, 8. put down the multigrain chips, 9. done"
-SayCan,3a,"Question: Bring me a sprite.
-Answer: 1. find a sprite can, 2. pick up the sprite can, 3. bring it to you, 4. put down the sprite can, 5. done
-Question: Can you bring me a salty snack?
-Answer: 1. find the sea salt chips, 2. pick up the sea salt chips, 3. bring it to you, 4. put down the sea salt chips, 5. done
-Question: Bring me a sprite.
-Answer: 1. find a sprite can, 2. pick up the sprite can, 3. bring it to you, 4. put down the sprite can, 5. done
-Question: Can you bring me a salty snack?
-Answer: 1. find the sea salt chips, 2. pick up the sea salt chips, 3. bring it to you, 4. put down the sea salt chips, 5. done
-Q: Bring me a drink and snack for lunch.","A: 1. find a drink and snack, 2. pick up the items, 3. bring them to you, 4. put down the items, 5. done","1. find a water bottle, 2. pick up the water bottle, 3. bring it to you, 4. put down the water bottle, 5. find the multigrain chips, 6. pick up the multigrain chips, 7. bring it to you, 8. put down the multigrain chips, 9. done"
-SayCan,3b,"Question: Go to the table.
-Answer: 1. go to the table, 2. done
-Question: Can I have a redbull please?
-Answer: 1. find a redbull can, 2. pick up the redbull can, 3. bring it to you, 4. put down the redbull can, 5. done
-Question: Go to the table.
-Answer: 1. go to the table, 2. done
-Question: Can I have a redbull please?
-Answer: 1. find a redbull can, 2. pick up the redbull can, 3. bring it to you, 4. put down the redbull can, 5. done
-Q: Bring me a drink and snack for lunch.","A: 1. find a drink and snack, 2. pick up the drink and snack, 3. bring it to you, 4. put down the drink and snack, 5. done","1. find a water bottle, 2. pick up the water bottle, 3. bring it to you, 4. put down the water bottle, 5. find the multigrain chips, 6. pick up the multigrain chips, 7. bring it to you, 8. put down the multigrain chips, 9. done"
+Question: Oak trees are deciduous. Deciduous trees lose their leaves during autumn, and they grow back during spring. Winter is between autumn and spring.
+Do oak trees have leaves during winter?
+Answer: False
+Question: Dave Chappelle converted to Islam in 1998. Dave Chappelle has not deviated from his religious beliefs since 1998 and is a practicing Muslim. Practicing Muslims pray often.
+Would Dave Chappelle pray over a Quran?
+Answer: True
+Question: The Coen brothers were born in 1954 and 1957. The Brothers Grimm died in 1859 and 1863.
+Did the Coen brothers ever collaborate with the Brothers Grimm?",Answer: False,False
+SayCan,1a,"Question: I love spice, can you get something to eat?
+Answer: 1. find the jalapeno chips, 2. pick up the jalapeno chips, 3. bring it to you, 4. put down the jalapeno chips, 5. done
+Question: Bring me a drink that isn’t an water or a coke.
+Answer: 1. find a tea, 2. pick up the tea, 3. bring it to you, 4. put down the tea, 5. done.
+Question: Can you bring me something salty?","Answer: 1. find the pretzels, 2. pick up the pretzels, 3. bring it to you, 4. put down the pretzels, 5. done.","1. find the sea salt chips, 2. pick up the sea salt chips, 3. bring it to you, 4. put down the sea salt chips, 5. done"
+SayCan,1a,"Question: Can you bring all the snacks on the table?
+Answer: 1. go to the table, 2. pick up the energy bar, 3. bring it to you, 4. put down the energy bar, 5. go to the table, 6. pick up the multigrain chips, 7. bring it to you, 8. put down the multigrain chips, 9. go to the table, 10. done.
+Question: Go to the table and the counter?
+Answer: 1. go to the table, 2. go to the counter, 3. done
+Question: Can you bring me something salty?","Answer: 1. go to the pantry, 2. pick up the bag of pretzels, 3. bring it to you, 4. put down the bag of pretzels, 5. done","1. find the sea salt chips, 2. pick up the sea salt chips, 3. bring it to you, 4. put down the sea salt chips, 5. done"
+SayCan,2,"Question: I love spice, can you get something to eat?
+Answer: 1. find the jalapeno chips, 2. pick up the jalapeno chips, 3. bring it to you, 4. put down the jalapeno chips, 5. done
+Question: Bring me a drink that isn’t an water or a coke.
+Answer: 1. find a tea, 2. pick up the tea, 3. bring it to you, 4. put down the tea, 5. done.
+Question: Can you bring all the snacks on the table?
+Answer: 1. go to the table, 2. pick up the energy bar, 3. bring it to you, 4. put down the energy bar, 5. go to the table, 6. pick up the multigrain chips, 7. bring it to you, 8. put down the multigrain chips, 9. go to the table, 10. done.
+Question: Go to the table and the counter?
+Answer: 1. go to the table, 2. go to the counter, 3. done
+Question: Can you bring me something salty?","Answer: 1. find the pretzels, 2. pick up the pretzels, 3. bring it to you, 4. put down the pretzels, 5. done.","1. find the sea salt chips, 2. pick up the sea salt chips, 3. bring it to you, 4. put down the sea salt chips, 5. done"
+SayCan,3a,"Question: I love spice, can you get something to eat?
+Answer: 1. find the jalapeno chips, 2. pick up the jalapeno chips, 3. bring it to you, 4. put down the jalapeno chips, 5. done
+Question: Bring me a drink that isn’t an water or a coke.
+Answer: 1. find a tea, 2. pick up the tea, 3. bring it to you, 4. put down the tea, 5. done.
+Question: I love spice, can you get something to eat?
+Answer: 1. find the jalapeno chips, 2. pick up the jalapeno chips, 3. bring it to you, 4. put down the jalapeno chips, 5. done
+Question: Bring me a drink that isn’t an water or a coke.
+Answer: 1. find a tea, 2. pick up the tea, 3. bring it to you, 4. put down the tea, 5. done.
+Question: Can you bring me something salty?","Answer: 1. find the bag of pretzels, 2. pick up the bag of pretzels, 3. bring it to you, 4. put down the bag of pretzels, 5. done.","1. find the sea salt chips, 2. pick up the sea salt chips, 3. bring it to you, 4. put down the sea salt chips, 5. done"
+SayCan,3b,"Question: Can you bring all the snacks on the table?
+Answer: 1. go to the table, 2. pick up the energy bar, 3. bring it to you, 4. put down the energy bar, 5. go to the table, 6. pick up the multigrain chips, 7. bring it to you, 8. put down the multigrain chips, 9. go to the table, 10. done.
+Question: Go to the table and the counter?
+Answer: 1. go to the table, 2. go to the counter, 3. done
+Question: Can you bring all the snacks on the table?
+Answer: 1. go to the table, 2. pick up the energy bar, 3. bring it to you, 4. put down the energy bar, 5. go to the table, 6. pick up the multigrain chips, 7. bring it to you, 8. put down the multigrain chips, 9. go to the table, 10. done.
+Question: Go to the table and the counter?
+Answer: 1. go to the table, 2. go to the counter, 3. done
+Question: Can you bring me something salty?","Answer: Sure, I will bring you something salty.","1. find the sea salt chips, 2. pick up the sea salt chips, 3. bring it to you, 4. put down the sea salt chips, 5. done"

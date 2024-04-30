@@ -1,365 +1,358 @@
 Task Class,Case,Prompt,Response,Expected
-Math,1a,"Question: Devin teaches one math course per year. He taught Calculus for 4 years, Algebra for twice as many years, and Statistics for 5 times as long as he taught Algebra. How many years has Devin taught?
-Answer: Calculus: <<4=4>>4 years
-Algebra: 4(2)=8 years
-Statistics: 8(5)=<<8*5=40>>40 years
-Total number of years taught: 4+8+40=<<4+8+40=52>>52 years
-#### 52
-Question: A tailor purchased buttons for the clothes. She bought 90 green buttons, 10 more yellow buttons than the green buttons, and 5 fewer blue buttons than the green buttons. How many buttons did the tailor purchase?
-Answer: The tailor bought 90 + 10 = <<90+10=100>>100 yellow buttons.
-He also bought 90 - 5 = <<90-5=85>>85 blue buttons.
-Therefore, The tailor purchased 90 + 100 + 85 = <<90+100+85=275>>275 buttons.
-#### 275
-Q: Mark was unwell for 3 months, during which he lost 10 pounds per month. If his final weight was 70 pounds, what was his initial weight?","Let x be Mark's initial weight.
-Mark lost 10 pounds per month for 3 months, so he lost a total of 10*3 = 30 pounds.
-If his final weight was 70 pounds, then his initial weight x minus the 30 pounds lost equals 70 pounds.
-Therefore, the equation is x - 30 = 70.
-Adding 30 to both sides, we get x = 70 + 30 = 100.
-Therefore, Mark's initial weight was <<100>>100 pounds.","Since Mark was losing 10 pounds each month, in 3 months he lost 10 * 3 = <<10*3=30>>30 pounds.
-Adding the weight lost to the final weight gives an initial weight of 70 + 30 = <<70+30=100>>100 pounds.
-Mark's initial weight was 100 pounds.
-#### 100"
-Math,1a,"Question: Xavier needs 84 paper plates for a housewarming party. He already has 21 green plates and 28 red plates. How many more plates should Xavier buy?
-Answer: The total number of green and red plates is 28 + 21 = <<28+21=49>>49.
-Xavier should buy 84 − 49 = 35 more plates.
-#### 35
-Question: A car is driving through a tunnel with many turns. After a while, the car must travel through a ring that requires a total of 4 right-hand turns. After the 1st turn, it travels 5 meters. After the 2nd turn, it travels 8 meters. After the 3rd turn, it travels a little further and at the 4th turn, it immediately exits the tunnel. If the car has driven a total of 23 meters around the ring, how far did it have to travel after the 3rd turn?
-Answer: From the details given, the car has traveled 5 meters at the 1st turn + 8 meters after the 2nd turn + 0 meters after the 4th turn = <<5+8+0=13>>13 meters around the ring.
-It must therefore have driven 23 total meters – 13 calculated meters = 10 meters after the 3rd turn.
-#### 10
-Q: Mark was unwell for 3 months, during which he lost 10 pounds per month. If his final weight was 70 pounds, what was his initial weight?","A: Mark lost a total of 10 pounds/month x 3 months = 30 pounds.
-Therefore, Mark's initial weight was 70 pounds + 30 pounds = 100 pounds. 
-#### 100","Since Mark was losing 10 pounds each month, in 3 months he lost 10 * 3 = <<10*3=30>>30 pounds.
-Adding the weight lost to the final weight gives an initial weight of 70 + 30 = <<70+30=100>>100 pounds.
-Mark's initial weight was 100 pounds.
-#### 100"
-Math,2,"Question: Devin teaches one math course per year. He taught Calculus for 4 years, Algebra for twice as many years, and Statistics for 5 times as long as he taught Algebra. How many years has Devin taught?
-Answer: Calculus: <<4=4>>4 years
-Algebra: 4(2)=8 years
-Statistics: 8(5)=<<8*5=40>>40 years
-Total number of years taught: 4+8+40=<<4+8+40=52>>52 years
-#### 52
-Question: A tailor purchased buttons for the clothes. She bought 90 green buttons, 10 more yellow buttons than the green buttons, and 5 fewer blue buttons than the green buttons. How many buttons did the tailor purchase?
-Answer: The tailor bought 90 + 10 = <<90+10=100>>100 yellow buttons.
-He also bought 90 - 5 = <<90-5=85>>85 blue buttons.
-Therefore, The tailor purchased 90 + 100 + 85 = <<90+100+85=275>>275 buttons.
-#### 275
-Question: Xavier needs 84 paper plates for a housewarming party. He already has 21 green plates and 28 red plates. How many more plates should Xavier buy?
-Answer: The total number of green and red plates is 28 + 21 = <<28+21=49>>49.
-Xavier should buy 84 − 49 = 35 more plates.
-#### 35
-Question: A car is driving through a tunnel with many turns. After a while, the car must travel through a ring that requires a total of 4 right-hand turns. After the 1st turn, it travels 5 meters. After the 2nd turn, it travels 8 meters. After the 3rd turn, it travels a little further and at the 4th turn, it immediately exits the tunnel. If the car has driven a total of 23 meters around the ring, how far did it have to travel after the 3rd turn?
-Answer: From the details given, the car has traveled 5 meters at the 1st turn + 8 meters after the 2nd turn + 0 meters after the 4th turn = <<5+8+0=13>>13 meters around the ring.
-It must therefore have driven 23 total meters – 13 calculated meters = 10 meters after the 3rd turn.
-#### 10
-Q: Mark was unwell for 3 months, during which he lost 10 pounds per month. If his final weight was 70 pounds, what was his initial weight?","A: Mark's weight loss over 3 months is 10 pounds per month x 3 months = 30 pounds.
-Therefore, Mark's initial weight was 70 pounds + 30 pounds = 100 pounds. 
-#### 100","Since Mark was losing 10 pounds each month, in 3 months he lost 10 * 3 = <<10*3=30>>30 pounds.
-Adding the weight lost to the final weight gives an initial weight of 70 + 30 = <<70+30=100>>100 pounds.
-Mark's initial weight was 100 pounds.
-#### 100"
-Math,3a,"Question: Devin teaches one math course per year. He taught Calculus for 4 years, Algebra for twice as many years, and Statistics for 5 times as long as he taught Algebra. How many years has Devin taught?
-Answer: Calculus: <<4=4>>4 years
-Algebra: 4(2)=8 years
-Statistics: 8(5)=<<8*5=40>>40 years
-Total number of years taught: 4+8+40=<<4+8+40=52>>52 years
-#### 52
-Question: A tailor purchased buttons for the clothes. She bought 90 green buttons, 10 more yellow buttons than the green buttons, and 5 fewer blue buttons than the green buttons. How many buttons did the tailor purchase?
-Answer: The tailor bought 90 + 10 = <<90+10=100>>100 yellow buttons.
-He also bought 90 - 5 = <<90-5=85>>85 blue buttons.
-Therefore, The tailor purchased 90 + 100 + 85 = <<90+100+85=275>>275 buttons.
-#### 275
-Question: Devin teaches one math course per year. He taught Calculus for 4 years, Algebra for twice as many years, and Statistics for 5 times as long as he taught Algebra. How many years has Devin taught?
-Answer: Calculus: <<4=4>>4 years
-Algebra: 4(2)=8 years
-Statistics: 8(5)=<<8*5=40>>40 years
-Total number of years taught: 4+8+40=<<4+8+40=52>>52 years
-#### 52
-Question: A tailor purchased buttons for the clothes. She bought 90 green buttons, 10 more yellow buttons than the green buttons, and 5 fewer blue buttons than the green buttons. How many buttons did the tailor purchase?
-Answer: The tailor bought 90 + 10 = <<90+10=100>>100 yellow buttons.
-He also bought 90 - 5 = <<90-5=85>>85 blue buttons.
-Therefore, The tailor purchased 90 + 100 + 85 = <<90+100+85=275>>275 buttons.
-#### 275
-Q: Mark was unwell for 3 months, during which he lost 10 pounds per month. If his final weight was 70 pounds, what was his initial weight?","Let X be Mark's initial weight.
-
-Mark lost 10 pounds per month for 3 months, so he lost 3 * 10 = 30 pounds in total.
-
-His final weight was 70 pounds, so his initial weight X can be calculated as:
-
-X - 30 = 70
-X = 70 + 30
-X = 100
-
-Therefore, Mark's initial weight was 100 pounds.","Since Mark was losing 10 pounds each month, in 3 months he lost 10 * 3 = <<10*3=30>>30 pounds.
-Adding the weight lost to the final weight gives an initial weight of 70 + 30 = <<70+30=100>>100 pounds.
-Mark's initial weight was 100 pounds.
-#### 100"
-Math,3b,"Question: Xavier needs 84 paper plates for a housewarming party. He already has 21 green plates and 28 red plates. How many more plates should Xavier buy?
-Answer: The total number of green and red plates is 28 + 21 = <<28+21=49>>49.
-Xavier should buy 84 − 49 = 35 more plates.
-#### 35
-Question: A car is driving through a tunnel with many turns. After a while, the car must travel through a ring that requires a total of 4 right-hand turns. After the 1st turn, it travels 5 meters. After the 2nd turn, it travels 8 meters. After the 3rd turn, it travels a little further and at the 4th turn, it immediately exits the tunnel. If the car has driven a total of 23 meters around the ring, how far did it have to travel after the 3rd turn?
-Answer: From the details given, the car has traveled 5 meters at the 1st turn + 8 meters after the 2nd turn + 0 meters after the 4th turn = <<5+8+0=13>>13 meters around the ring.
-It must therefore have driven 23 total meters – 13 calculated meters = 10 meters after the 3rd turn.
-#### 10
-Question: Xavier needs 84 paper plates for a housewarming party. He already has 21 green plates and 28 red plates. How many more plates should Xavier buy?
-Answer: The total number of green and red plates is 28 + 21 = <<28+21=49>>49.
-Xavier should buy 84 − 49 = 35 more plates.
-#### 35
-Question: A car is driving through a tunnel with many turns. After a while, the car must travel through a ring that requires a total of 4 right-hand turns. After the 1st turn, it travels 5 meters. After the 2nd turn, it travels 8 meters. After the 3rd turn, it travels a little further and at the 4th turn, it immediately exits the tunnel. If the car has driven a total of 23 meters around the ring, how far did it have to travel after the 3rd turn?
-Answer: From the details given, the car has traveled 5 meters at the 1st turn + 8 meters after the 2nd turn + 0 meters after the 4th turn = <<5+8+0=13>>13 meters around the ring.
-It must therefore have driven 23 total meters – 13 calculated meters = 10 meters after the 3rd turn.
-#### 10
-Q: Mark was unwell for 3 months, during which he lost 10 pounds per month. If his final weight was 70 pounds, what was his initial weight?","Let x be Mark's initial weight.
-
-After 3 months of losing 10 pounds per month, his weight decreased by 3 * 10 = 30 pounds.
-
-His final weight was 70 pounds, so we can set up the equation:
-
-x - 30 = 70
-
-Adding 30 to both sides, we get:
-
-x = 100
-
-Therefore, Mark's initial weight was 100 pounds.","Since Mark was losing 10 pounds each month, in 3 months he lost 10 * 3 = <<10*3=30>>30 pounds.
-Adding the weight lost to the final weight gives an initial weight of 70 + 30 = <<70+30=100>>100 pounds.
-Mark's initial weight was 100 pounds.
-#### 100"
-CSQA,1a,"Question: Where does dust usually end up in the corner?
-A: windowsill
-B: carpet
-C: frogs
-D: ground
-E: corner
-Answer: D
-Question: The old man was retired and liked the simple things, he would do crossword puzzle every morning simply just to do what?
-A: you're bored
-B: pass time
-C: relax
-D: mentally challenged
-E: win
-Answer: B
-Q: To locate a choker not located in a jewelry box or boutique where would you go?
-A: jewelry store
-B: neck
-C: jewlery box
-D: jewelry box
-E: boutique",Answer: B,A
-CSQA,1a,"Question: James lost hs return ticket during his vacation.  He was very frustrated and couldn't get a replacement.  Because of this, he missed what?
-A: tickets
-B: plane
-C: suitcase
-D: pocket
-E: airport
-Answer: B
-Question: If a couple is having financial issues, buying products can lead to what?
-A: economic boom
-B: being able to use
-C: disagreements
-D: spending money
-E: joy
-Answer: C
-Q: To locate a choker not located in a jewelry box or boutique where would you go?
-A: jewelry store
-B: neck
-C: jewlery box
-D: jewelry box
-E: boutique",Answer: B,A
-CSQA,2,"Question: Where does dust usually end up in the corner?
-A: windowsill
-B: carpet
-C: frogs
-D: ground
-E: corner
-Answer: D
-Question: The old man was retired and liked the simple things, he would do crossword puzzle every morning simply just to do what?
-A: you're bored
-B: pass time
-C: relax
-D: mentally challenged
-E: win
-Answer: B
-Question: James lost hs return ticket during his vacation.  He was very frustrated and couldn't get a replacement.  Because of this, he missed what?
-A: tickets
-B: plane
-C: suitcase
-D: pocket
-E: airport
-Answer: B
-Question: If a couple is having financial issues, buying products can lead to what?
-A: economic boom
-B: being able to use
-C: disagreements
-D: spending money
-E: joy
-Answer: C
-Q: To locate a choker not located in a jewelry box or boutique where would you go?
-A: jewelry store
-B: neck
-C: jewlery box
-D: jewelry box
-E: boutique",Answer: B,A
-CSQA,3a,"Question: Where does dust usually end up in the corner?
-A: windowsill
-B: carpet
-C: frogs
-D: ground
-E: corner
-Answer: D
-Question: The old man was retired and liked the simple things, he would do crossword puzzle every morning simply just to do what?
-A: you're bored
-B: pass time
-C: relax
-D: mentally challenged
-E: win
-Answer: B
-Question: Where does dust usually end up in the corner?
-A: windowsill
-B: carpet
-C: frogs
-D: ground
-E: corner
-Answer: D
-Question: The old man was retired and liked the simple things, he would do crossword puzzle every morning simply just to do what?
-A: you're bored
-B: pass time
-C: relax
-D: mentally challenged
-E: win
-Answer: B
-Q: To locate a choker not located in a jewelry box or boutique where would you go?
-A: jewelry store
-B: neck
-C: jewlery box
-D: jewelry box
-E: boutique",Answer: B,A
-CSQA,3b,"Question: James lost hs return ticket during his vacation.  He was very frustrated and couldn't get a replacement.  Because of this, he missed what?
-A: tickets
-B: plane
-C: suitcase
-D: pocket
-E: airport
-Answer: B
-Question: If a couple is having financial issues, buying products can lead to what?
-A: economic boom
-B: being able to use
-C: disagreements
-D: spending money
-E: joy
-Answer: C
-Question: James lost hs return ticket during his vacation.  He was very frustrated and couldn't get a replacement.  Because of this, he missed what?
-A: tickets
-B: plane
-C: suitcase
-D: pocket
-E: airport
-Answer: B
-Question: If a couple is having financial issues, buying products can lead to what?
-A: economic boom
-B: being able to use
-C: disagreements
-D: spending money
-E: joy
-Answer: C
-Q: To locate a choker not located in a jewelry box or boutique where would you go?
-A: jewelry store
-B: neck
-C: jewlery box
-D: jewelry box
-E: boutique",Answer: B,A
-StrategyQA,1a,"Question: The average age that someone gets their doctorate at is 33.  A doctorate takes an average of 8.5 years.
-Should you be skeptical of a 21 year old claiming to have a doctorate?
-Answer: True
-Question: Aretha Franklin was born in 1942. Aretha Franklin had her second child in 1957. You must be at least 18 years old to vote in a presidential election in the United States.
-Could Aretha Franklin vote for a president when her second child was born?
+Math,1a,"Question: Antoinette weighs 7 less kilograms than twice Rupert's weight. Together they weigh 98 kilograms. How many kilograms does Antoinette weigh?
+Answer: Let R = Rupert's weight
+Antoinette = 2R - 7
+R + 2R - 7 = 98
+3R = 105
+Rupert = <<35=35>>35 kg
+Antoinette = 2 * 35 - 7 = <<2*35-7=63>>63 kg
+Antoinette weighs 63 kilograms.
+#### 63
+Question: There are 14 red crayons, 5 more blue crayons than red crayons, and 6 less yellow crayons than double the blue crayons.  How many yellow crayons are there?
+Answer: Red:14 crayons
+Blue:5+14=<<5+14=19>>19 crayons
+Yellow:19(2)-6=32 crayons
+#### 32
+Question: Emma can make and upload 72 vlogs per month. But she was only able to make 18 vlogs for the first week, 21 vlogs for the second week, and 15 vlogs for the third week. How many vlogs should she do to complete the 72 vlogs per month?","Answer: Emma made a total of 18 + 21 + 15 = 54 vlogs in three weeks.
+She needs to make 72 - 54 = <<72-54=18>>18 more vlogs to complete the 72 vlogs per month.
+Therefore, Emma should do 18 vlogs to complete the 72 vlogs per month.","Emma was able to make 18 + 21 + 15 = <<18+21+15=54>>54 vlogs for 3 weeks.
+Therefore, Emma needs to do 72 - 54 = <<72-54=18>>18 more vlogs to complete the 72 vlogs.
+#### 18"
+Math,1a,"Question: The hospital has 11 doctors and 18 nurses. If 5 doctors and 2 nurses quit, how many doctors and nurses are left?
+Answer: There are 11 doctors - 5 doctors = <<11-5=6>>6 doctors left.
+There are 18 nurses - 2 nurses = <<18-2=16>>16 nurses left.
+In total there are 6 doctors + 16 nurses = <<6+16=22>>22 doctors and nurses left.
+#### 22
+Question: The PTA had saved $400 set aside after a fundraising event. They spent a fourth of the money on school supplies. Then they spent half of what was left on food for the faculty. How much money did they have left?
+Answer: They spent $400/4=$<<400/4=100>>100 on school supplies.
+They spent $300/2=$<<300/2=150>>150 on food.
+They had $300-150=$<<300-150=150>>150 left.
+#### 150
+Question: Emma can make and upload 72 vlogs per month. But she was only able to make 18 vlogs for the first week, 21 vlogs for the second week, and 15 vlogs for the third week. How many vlogs should she do to complete the 72 vlogs per month?","To complete 72 vlogs per month, Emma needs to make 72 - 18 - 21 - 15 = <<72-18-21-15=18>>18 more vlogs.
+Therefore, Emma should make 18 more vlogs to complete the 72 vlogs per month.","Emma was able to make 18 + 21 + 15 = <<18+21+15=54>>54 vlogs for 3 weeks.
+Therefore, Emma needs to do 72 - 54 = <<72-54=18>>18 more vlogs to complete the 72 vlogs.
+#### 18"
+Math,2,"Question: Antoinette weighs 7 less kilograms than twice Rupert's weight. Together they weigh 98 kilograms. How many kilograms does Antoinette weigh?
+Answer: Let R = Rupert's weight
+Antoinette = 2R - 7
+R + 2R - 7 = 98
+3R = 105
+Rupert = <<35=35>>35 kg
+Antoinette = 2 * 35 - 7 = <<2*35-7=63>>63 kg
+Antoinette weighs 63 kilograms.
+#### 63
+Question: There are 14 red crayons, 5 more blue crayons than red crayons, and 6 less yellow crayons than double the blue crayons.  How many yellow crayons are there?
+Answer: Red:14 crayons
+Blue:5+14=<<5+14=19>>19 crayons
+Yellow:19(2)-6=32 crayons
+#### 32
+Question: The hospital has 11 doctors and 18 nurses. If 5 doctors and 2 nurses quit, how many doctors and nurses are left?
+Answer: There are 11 doctors - 5 doctors = <<11-5=6>>6 doctors left.
+There are 18 nurses - 2 nurses = <<18-2=16>>16 nurses left.
+In total there are 6 doctors + 16 nurses = <<6+16=22>>22 doctors and nurses left.
+#### 22
+Question: The PTA had saved $400 set aside after a fundraising event. They spent a fourth of the money on school supplies. Then they spent half of what was left on food for the faculty. How much money did they have left?
+Answer: They spent $400/4=$<<400/4=100>>100 on school supplies.
+They spent $300/2=$<<300/2=150>>150 on food.
+They had $300-150=$<<300-150=150>>150 left.
+#### 150
+Question: Emma can make and upload 72 vlogs per month. But she was only able to make 18 vlogs for the first week, 21 vlogs for the second week, and 15 vlogs for the third week. How many vlogs should she do to complete the 72 vlogs per month?","Answer: Emma made a total of 18 + 21 + 15 = <<18+21+15=54>>54 vlogs in three weeks.
+She needs to make 72 - 54 = <<72-54=18>>18 more vlogs to complete the 72 vlogs per month.
+Therefore, Emma should make 18 more vlogs to complete the 72 vlogs per month.","Emma was able to make 18 + 21 + 15 = <<18+21+15=54>>54 vlogs for 3 weeks.
+Therefore, Emma needs to do 72 - 54 = <<72-54=18>>18 more vlogs to complete the 72 vlogs.
+#### 18"
+Math,3a,"Question: Antoinette weighs 7 less kilograms than twice Rupert's weight. Together they weigh 98 kilograms. How many kilograms does Antoinette weigh?
+Answer: Let R = Rupert's weight
+Antoinette = 2R - 7
+R + 2R - 7 = 98
+3R = 105
+Rupert = <<35=35>>35 kg
+Antoinette = 2 * 35 - 7 = <<2*35-7=63>>63 kg
+Antoinette weighs 63 kilograms.
+#### 63
+Question: There are 14 red crayons, 5 more blue crayons than red crayons, and 6 less yellow crayons than double the blue crayons.  How many yellow crayons are there?
+Answer: Red:14 crayons
+Blue:5+14=<<5+14=19>>19 crayons
+Yellow:19(2)-6=32 crayons
+#### 32
+Question: Antoinette weighs 7 less kilograms than twice Rupert's weight. Together they weigh 98 kilograms. How many kilograms does Antoinette weigh?
+Answer: Let R = Rupert's weight
+Antoinette = 2R - 7
+R + 2R - 7 = 98
+3R = 105
+Rupert = <<35=35>>35 kg
+Antoinette = 2 * 35 - 7 = <<2*35-7=63>>63 kg
+Antoinette weighs 63 kilograms.
+#### 63
+Question: There are 14 red crayons, 5 more blue crayons than red crayons, and 6 less yellow crayons than double the blue crayons.  How many yellow crayons are there?
+Answer: Red:14 crayons
+Blue:5+14=<<5+14=19>>19 crayons
+Yellow:19(2)-6=32 crayons
+#### 32
+Question: Emma can make and upload 72 vlogs per month. But she was only able to make 18 vlogs for the first week, 21 vlogs for the second week, and 15 vlogs for the third week. How many vlogs should she do to complete the 72 vlogs per month?","Answer: Emma has already made 18 + 21 + 15 = 54 vlogs in three weeks.
+To complete the 72 vlogs per month, she should do 72 - 54 = <<72-54=18>>18 vlogs in the last week.
+Therefore, Emma should do 18 vlogs in the last week to complete 72 vlogs per month.","Emma was able to make 18 + 21 + 15 = <<18+21+15=54>>54 vlogs for 3 weeks.
+Therefore, Emma needs to do 72 - 54 = <<72-54=18>>18 more vlogs to complete the 72 vlogs.
+#### 18"
+Math,3b,"Question: The hospital has 11 doctors and 18 nurses. If 5 doctors and 2 nurses quit, how many doctors and nurses are left?
+Answer: There are 11 doctors - 5 doctors = <<11-5=6>>6 doctors left.
+There are 18 nurses - 2 nurses = <<18-2=16>>16 nurses left.
+In total there are 6 doctors + 16 nurses = <<6+16=22>>22 doctors and nurses left.
+#### 22
+Question: The PTA had saved $400 set aside after a fundraising event. They spent a fourth of the money on school supplies. Then they spent half of what was left on food for the faculty. How much money did they have left?
+Answer: They spent $400/4=$<<400/4=100>>100 on school supplies.
+They spent $300/2=$<<300/2=150>>150 on food.
+They had $300-150=$<<300-150=150>>150 left.
+#### 150
+Question: The hospital has 11 doctors and 18 nurses. If 5 doctors and 2 nurses quit, how many doctors and nurses are left?
+Answer: There are 11 doctors - 5 doctors = <<11-5=6>>6 doctors left.
+There are 18 nurses - 2 nurses = <<18-2=16>>16 nurses left.
+In total there are 6 doctors + 16 nurses = <<6+16=22>>22 doctors and nurses left.
+#### 22
+Question: The PTA had saved $400 set aside after a fundraising event. They spent a fourth of the money on school supplies. Then they spent half of what was left on food for the faculty. How much money did they have left?
+Answer: They spent $400/4=$<<400/4=100>>100 on school supplies.
+They spent $300/2=$<<300/2=150>>150 on food.
+They had $300-150=$<<300-150=150>>150 left.
+#### 150
+Question: Emma can make and upload 72 vlogs per month. But she was only able to make 18 vlogs for the first week, 21 vlogs for the second week, and 15 vlogs for the third week. How many vlogs should she do to complete the 72 vlogs per month?","Answer: Emma has already made a total of 18 vlogs + 21 vlogs + 15 vlogs = <<18+21+15=54>>54 vlogs.
+To complete the 72 vlogs per month, she should do 72 vlogs - 54 vlogs = <<72-54=18>>18 more vlogs.
+#### 18","Emma was able to make 18 + 21 + 15 = <<18+21+15=54>>54 vlogs for 3 weeks.
+Therefore, Emma needs to do 72 - 54 = <<72-54=18>>18 more vlogs to complete the 72 vlogs.
+#### 18"
+CSQA,1a,"Question: Where would you put clothing that you have already used?
+A: hamper
+B: person
+C: check
+D: house
+E: backpack
+Answer: A
+Question: The small dog had died and, the family treasured him a lot, where did they decide to place it?
+A: coffin
+B: denmark
+C: bucket
+D: basket
+E: new hampshire
+Answer: A
+Question: What does sex often make happen in people?
+A: making love
+B: feel good
+C: happyness
+D: wonderful thing
+E: cloud judgment",Answer: E,B
+CSQA,1a,"Question: Where is a pleasure garden likely to have orginated?
+A: fairy tale
+B: resort town
+C: english courtyard
+D: palace
+E: japan
+Answer: E
+Question: What writing device uses an electric motor and has a keyboard?
+A: electric fan
+B: drum sander
+C: electric refrigerator
+D: electric locomotive
+E: electric typewriter
+Answer: E
+Question: What does sex often make happen in people?
+A: making love
+B: feel good
+C: happyness
+D: wonderful thing
+E: cloud judgment",Answer: E,B
+CSQA,2,"Question: Where would you put clothing that you have already used?
+A: hamper
+B: person
+C: check
+D: house
+E: backpack
+Answer: A
+Question: The small dog had died and, the family treasured him a lot, where did they decide to place it?
+A: coffin
+B: denmark
+C: bucket
+D: basket
+E: new hampshire
+Answer: A
+Question: Where is a pleasure garden likely to have orginated?
+A: fairy tale
+B: resort town
+C: english courtyard
+D: palace
+E: japan
+Answer: E
+Question: What writing device uses an electric motor and has a keyboard?
+A: electric fan
+B: drum sander
+C: electric refrigerator
+D: electric locomotive
+E: electric typewriter
+Answer: E
+Question: What does sex often make happen in people?
+A: making love
+B: feel good
+C: happyness
+D: wonderful thing
+E: cloud judgment",Answer: E,B
+CSQA,3a,"Question: Where would you put clothing that you have already used?
+A: hamper
+B: person
+C: check
+D: house
+E: backpack
+Answer: A
+Question: The small dog had died and, the family treasured him a lot, where did they decide to place it?
+A: coffin
+B: denmark
+C: bucket
+D: basket
+E: new hampshire
+Answer: A
+Question: Where would you put clothing that you have already used?
+A: hamper
+B: person
+C: check
+D: house
+E: backpack
+Answer: A
+Question: The small dog had died and, the family treasured him a lot, where did they decide to place it?
+A: coffin
+B: denmark
+C: bucket
+D: basket
+E: new hampshire
+Answer: A
+Question: What does sex often make happen in people?
+A: making love
+B: feel good
+C: happyness
+D: wonderful thing
+E: cloud judgment",Answer: E,B
+CSQA,3b,"Question: Where is a pleasure garden likely to have orginated?
+A: fairy tale
+B: resort town
+C: english courtyard
+D: palace
+E: japan
+Answer: E
+Question: What writing device uses an electric motor and has a keyboard?
+A: electric fan
+B: drum sander
+C: electric refrigerator
+D: electric locomotive
+E: electric typewriter
+Answer: E
+Question: Where is a pleasure garden likely to have orginated?
+A: fairy tale
+B: resort town
+C: english courtyard
+D: palace
+E: japan
+Answer: E
+Question: What writing device uses an electric motor and has a keyboard?
+A: electric fan
+B: drum sander
+C: electric refrigerator
+D: electric locomotive
+E: electric typewriter
+Answer: E
+Question: What does sex often make happen in people?
+A: making love
+B: feel good
+C: happyness
+D: wonderful thing
+E: cloud judgment",Answer: E,B
+StrategyQA,1a,"Question: Reddit is an online social networking forum and community Walmart sells tangible goods and services
+Can you buy Reddit at Walmart?
 Answer: False
-Q: Beeswax food wrapping is typically made of two ingredients. Beeswax food wrap is composed of cotton fabric and beeswax. Neither cotton nor beeswax contains plastic.
-Do beeswax alternatives to cling wrap use plsatic?",A: False,False
-StrategyQA,1a,"Question: There are 168 hours in a week. The entire Ugly Betty series is 85 hours long.
-Would a week be enough time to watch every episode of Ugly Betty?
-Answer: True
-Question: The average number of peas in a pod is 6 or 7. A billion is a number that has three commas in it.
-Is average number of peas in a pod enough commas for a billion?
-Answer: True
-Q: Beeswax food wrapping is typically made of two ingredients. Beeswax food wrap is composed of cotton fabric and beeswax. Neither cotton nor beeswax contains plastic.
-Do beeswax alternatives to cling wrap use plsatic?",A: False,False
-StrategyQA,2,"Question: The average age that someone gets their doctorate at is 33.  A doctorate takes an average of 8.5 years.
-Should you be skeptical of a 21 year old claiming to have a doctorate?
-Answer: True
-Question: Aretha Franklin was born in 1942. Aretha Franklin had her second child in 1957. You must be at least 18 years old to vote in a presidential election in the United States.
-Could Aretha Franklin vote for a president when her second child was born?
+Question: Sea shanties are sung on seaborne vessels The Oregon Trail was a land-based emigration trail
+Did travelers sing sea shanties on the Oregon Trail?
 Answer: False
-Question: There are 168 hours in a week. The entire Ugly Betty series is 85 hours long.
-Would a week be enough time to watch every episode of Ugly Betty?
-Answer: True
-Question: The average number of peas in a pod is 6 or 7. A billion is a number that has three commas in it.
-Is average number of peas in a pod enough commas for a billion?
-Answer: True
-Q: Beeswax food wrapping is typically made of two ingredients. Beeswax food wrap is composed of cotton fabric and beeswax. Neither cotton nor beeswax contains plastic.
-Do beeswax alternatives to cling wrap use plsatic?",A: False,False
-StrategyQA,3a,"Question: The average age that someone gets their doctorate at is 33.  A doctorate takes an average of 8.5 years.
-Should you be skeptical of a 21 year old claiming to have a doctorate?
-Answer: True
-Question: Aretha Franklin was born in 1942. Aretha Franklin had her second child in 1957. You must be at least 18 years old to vote in a presidential election in the United States.
-Could Aretha Franklin vote for a president when her second child was born?
+Question: Paypal prohibits the use of their platform for drugs or drug paraphernalia.  Using paypal leaves a digital footprint of any drug purchase.
+Would it be unusual to use paypal for drug deals?","Answer: It would be unusual to use PayPal for drug deals due to their strict policies prohibiting such transactions. Additionally, using PayPal leaves a digital footprint, which would make it easier for law enforcement to track any illegal activity.",True
+StrategyQA,1a,"Question: Hamas is a Sunni-Islam fundamentalist group that strictly prohibits the eating of a pig. Sunni Islam has a concept called the Law of Necessity. The Law of Necessity states that, ""That which is necessary makes the forbidden permissible.""
+Is starving Hamas agent eating pig bad?
 Answer: False
-Question: The average age that someone gets their doctorate at is 33.  A doctorate takes an average of 8.5 years.
-Should you be skeptical of a 21 year old claiming to have a doctorate?
-Answer: True
-Question: Aretha Franklin was born in 1942. Aretha Franklin had her second child in 1957. You must be at least 18 years old to vote in a presidential election in the United States.
-Could Aretha Franklin vote for a president when her second child was born?
+Question: Hurricane Maria was a deadly category 5 hurricane with wind speed up to 175mph. It is extremely dangerous and impossible to windsurf with wind speed higher than 100mph. 
+Could you windsurf in Puerto Rico during Hurricane Maria?
 Answer: False
-Q: Beeswax food wrapping is typically made of two ingredients. Beeswax food wrap is composed of cotton fabric and beeswax. Neither cotton nor beeswax contains plastic.
-Do beeswax alternatives to cling wrap use plsatic?",A: False,False
-StrategyQA,3b,"Question: There are 168 hours in a week. The entire Ugly Betty series is 85 hours long.
-Would a week be enough time to watch every episode of Ugly Betty?
-Answer: True
-Question: The average number of peas in a pod is 6 or 7. A billion is a number that has three commas in it.
-Is average number of peas in a pod enough commas for a billion?
-Answer: True
-Question: There are 168 hours in a week. The entire Ugly Betty series is 85 hours long.
-Would a week be enough time to watch every episode of Ugly Betty?
-Answer: True
-Question: The average number of peas in a pod is 6 or 7. A billion is a number that has three commas in it.
-Is average number of peas in a pod enough commas for a billion?
-Answer: True
-Q: Beeswax food wrapping is typically made of two ingredients. Beeswax food wrap is composed of cotton fabric and beeswax. Neither cotton nor beeswax contains plastic.
-Do beeswax alternatives to cling wrap use plsatic?",A: False,False
-SayCan,1a,"Question: Bring me an apple from the drawer.
-Answer: 1. go to the drawer, 2. open the drawer, 3. pick up the apple, 4. close the drawer, 5. bring it to you, 6. put down the apple, 7. done
-Question: How would you lift the coke can?
-Answer: 1. pick up the coke can, 2. done
-Q: How would you move the chips bag from the table to the counter?","A: 1. pick up the chips bag, 2. carry it to the counter, 3. place it on the counter, 4. done","1. find the bag of chips, 2. pick up the bag of chips, 3. go to the counter, 4. put down the bag of chips, 5. done"
-SayCan,1a,"Question: Throw away all the fruits on the table.
-Answer: 1. go to the table, 2. pick up the apple, 3. go to the trash, 4. put down the apple, 5. go to the table, 6. pick up the orange, 7. go to the trash, 8. put down the orange, 9. done
-Question: Deliver the red bull to the close counter
-Answer: 1. find a redbull, 2. pick up the redbull, 3. go to the counter, 4. put down the redbull, 5. done.
-Q: How would you move the chips bag from the table to the counter?","A: 1. go to the table, 2. pick up the chips bag, 3. go to the counter, 4. put down the chips bag, 5. done","1. find the bag of chips, 2. pick up the bag of chips, 3. go to the counter, 4. put down the bag of chips, 5. done"
-SayCan,2,"Question: Bring me an apple from the drawer.
-Answer: 1. go to the drawer, 2. open the drawer, 3. pick up the apple, 4. close the drawer, 5. bring it to you, 6. put down the apple, 7. done
-Question: How would you lift the coke can?
-Answer: 1. pick up the coke can, 2. done
-Question: Throw away all the fruits on the table.
-Answer: 1. go to the table, 2. pick up the apple, 3. go to the trash, 4. put down the apple, 5. go to the table, 6. pick up the orange, 7. go to the trash, 8. put down the orange, 9. done
-Question: Deliver the red bull to the close counter
-Answer: 1. find a redbull, 2. pick up the redbull, 3. go to the counter, 4. put down the redbull, 5. done.
-Q: How would you move the chips bag from the table to the counter?","A: 1. pick up the chips bag, 2. go to the counter, 3. put down the chips bag, 4. done","1. find the bag of chips, 2. pick up the bag of chips, 3. go to the counter, 4. put down the bag of chips, 5. done"
-SayCan,3a,"Question: Bring me an apple from the drawer.
-Answer: 1. go to the drawer, 2. open the drawer, 3. pick up the apple, 4. close the drawer, 5. bring it to you, 6. put down the apple, 7. done
-Question: How would you lift the coke can?
-Answer: 1. pick up the coke can, 2. done
-Question: Bring me an apple from the drawer.
-Answer: 1. go to the drawer, 2. open the drawer, 3. pick up the apple, 4. close the drawer, 5. bring it to you, 6. put down the apple, 7. done
-Question: How would you lift the coke can?
-Answer: 1. pick up the coke can, 2. done
-Q: How would you move the chips bag from the table to the counter?","A: 1. pick up the chips bag, 2. walk to the counter, 3. place the chips bag on the counter, 4. done","1. find the bag of chips, 2. pick up the bag of chips, 3. go to the counter, 4. put down the bag of chips, 5. done"
-SayCan,3b,"Question: Throw away all the fruits on the table.
-Answer: 1. go to the table, 2. pick up the apple, 3. go to the trash, 4. put down the apple, 5. go to the table, 6. pick up the orange, 7. go to the trash, 8. put down the orange, 9. done
-Question: Deliver the red bull to the close counter
-Answer: 1. find a redbull, 2. pick up the redbull, 3. go to the counter, 4. put down the redbull, 5. done.
-Question: Throw away all the fruits on the table.
-Answer: 1. go to the table, 2. pick up the apple, 3. go to the trash, 4. put down the apple, 5. go to the table, 6. pick up the orange, 7. go to the trash, 8. put down the orange, 9. done
-Question: Deliver the red bull to the close counter
-Answer: 1. find a redbull, 2. pick up the redbull, 3. go to the counter, 4. put down the redbull, 5. done.
-Q: How would you move the chips bag from the table to the counter?","A: 1. Pick up the chips bag, 2. Walk to the counter, 3. Put down the chips bag on the counter, 4. Done.","1. find the bag of chips, 2. pick up the bag of chips, 3. go to the counter, 4. put down the bag of chips, 5. done"
+Question: Paypal prohibits the use of their platform for drugs or drug paraphernalia.  Using paypal leaves a digital footprint of any drug purchase.
+Would it be unusual to use paypal for drug deals?",Answer: False,True
+StrategyQA,2,"Question: Reddit is an online social networking forum and community Walmart sells tangible goods and services
+Can you buy Reddit at Walmart?
+Answer: False
+Question: Sea shanties are sung on seaborne vessels The Oregon Trail was a land-based emigration trail
+Did travelers sing sea shanties on the Oregon Trail?
+Answer: False
+Question: Hamas is a Sunni-Islam fundamentalist group that strictly prohibits the eating of a pig. Sunni Islam has a concept called the Law of Necessity. The Law of Necessity states that, ""That which is necessary makes the forbidden permissible.""
+Is starving Hamas agent eating pig bad?
+Answer: False
+Question: Hurricane Maria was a deadly category 5 hurricane with wind speed up to 175mph. It is extremely dangerous and impossible to windsurf with wind speed higher than 100mph. 
+Could you windsurf in Puerto Rico during Hurricane Maria?
+Answer: False
+Question: Paypal prohibits the use of their platform for drugs or drug paraphernalia.  Using paypal leaves a digital footprint of any drug purchase.
+Would it be unusual to use paypal for drug deals?",Answer: False,True
+StrategyQA,3a,"Question: Reddit is an online social networking forum and community Walmart sells tangible goods and services
+Can you buy Reddit at Walmart?
+Answer: False
+Question: Sea shanties are sung on seaborne vessels The Oregon Trail was a land-based emigration trail
+Did travelers sing sea shanties on the Oregon Trail?
+Answer: False
+Question: Reddit is an online social networking forum and community Walmart sells tangible goods and services
+Can you buy Reddit at Walmart?
+Answer: False
+Question: Sea shanties are sung on seaborne vessels The Oregon Trail was a land-based emigration trail
+Did travelers sing sea shanties on the Oregon Trail?
+Answer: False
+Question: Paypal prohibits the use of their platform for drugs or drug paraphernalia.  Using paypal leaves a digital footprint of any drug purchase.
+Would it be unusual to use paypal for drug deals?",Answer: False,True
+StrategyQA,3b,"Question: Hamas is a Sunni-Islam fundamentalist group that strictly prohibits the eating of a pig. Sunni Islam has a concept called the Law of Necessity. The Law of Necessity states that, ""That which is necessary makes the forbidden permissible.""
+Is starving Hamas agent eating pig bad?
+Answer: False
+Question: Hurricane Maria was a deadly category 5 hurricane with wind speed up to 175mph. It is extremely dangerous and impossible to windsurf with wind speed higher than 100mph. 
+Could you windsurf in Puerto Rico during Hurricane Maria?
+Answer: False
+Question: Hamas is a Sunni-Islam fundamentalist group that strictly prohibits the eating of a pig. Sunni Islam has a concept called the Law of Necessity. The Law of Necessity states that, ""That which is necessary makes the forbidden permissible.""
+Is starving Hamas agent eating pig bad?
+Answer: False
+Question: Hurricane Maria was a deadly category 5 hurricane with wind speed up to 175mph. It is extremely dangerous and impossible to windsurf with wind speed higher than 100mph. 
+Could you windsurf in Puerto Rico during Hurricane Maria?
+Answer: False
+Question: Paypal prohibits the use of their platform for drugs or drug paraphernalia.  Using paypal leaves a digital footprint of any drug purchase.
+Would it be unusual to use paypal for drug deals?",Answer: True,True
+SayCan,1a,"Question: How would you throw a coke can away?
+Answer: 1. find a coke can, 2. pick up the coke can, 3. go to the trash, 4. put down the coke can, 5. done
+Question: How would you restock chips in the drawer?
+Answer: 1. find the bag of chips, 2. pick up the bag of chips, 3. go to the drawer, 4. put down the bag of chips, 5. open the drawer, 6. pick up the bag of chips, 7. put down the bag of chips, 8. close the drawer, 9. done
+Question: I opened a sprite earlier.  Bring me the open can.","Answer: 1. Find the open sprite can, 2. pick up the open sprite can, 3. bring the open sprite can to the person who opened it.","1. find a sprite can, 2. pick up the sprite can, 3. bring it to you, 4. put down the sprite can, 5. done"
+SayCan,1a,"Question: I’d like a clear soda.
+Answer: 1. find a 7up, 2. pick up the 7up, 3. bring it to you, 4. put down the 7up, 5. done.
+Question: Can I have a redbull please?
+Answer: 1. find a redbull can, 2. pick up the redbull can, 3. bring it to you, 4. put down the redbull can, 5. done
+Question: I opened a sprite earlier.  Bring me the open can.","Answer: 1. find the opened sprite can, 2. pick up the opened sprite can, 3. bring it to you, 4. hand you the opened sprite can, 5. done.","1. find a sprite can, 2. pick up the sprite can, 3. bring it to you, 4. put down the sprite can, 5. done"
+SayCan,2,"Question: How would you throw a coke can away?
+Answer: 1. find a coke can, 2. pick up the coke can, 3. go to the trash, 4. put down the coke can, 5. done
+Question: How would you restock chips in the drawer?
+Answer: 1. find the bag of chips, 2. pick up the bag of chips, 3. go to the drawer, 4. put down the bag of chips, 5. open the drawer, 6. pick up the bag of chips, 7. put down the bag of chips, 8. close the drawer, 9. done
+Question: I’d like a clear soda.
+Answer: 1. find a 7up, 2. pick up the 7up, 3. bring it to you, 4. put down the 7up, 5. done.
+Question: Can I have a redbull please?
+Answer: 1. find a redbull can, 2. pick up the redbull can, 3. bring it to you, 4. put down the redbull can, 5. done
+Question: I opened a sprite earlier.  Bring me the open can.","Answer: 1. find the open sprite can, 2. pick up the open sprite can, 3. bring it to you, 4. put down the open sprite can, 5. done","1. find a sprite can, 2. pick up the sprite can, 3. bring it to you, 4. put down the sprite can, 5. done"
+SayCan,3a,"Question: How would you throw a coke can away?
+Answer: 1. find a coke can, 2. pick up the coke can, 3. go to the trash, 4. put down the coke can, 5. done
+Question: How would you restock chips in the drawer?
+Answer: 1. find the bag of chips, 2. pick up the bag of chips, 3. go to the drawer, 4. put down the bag of chips, 5. open the drawer, 6. pick up the bag of chips, 7. put down the bag of chips, 8. close the drawer, 9. done
+Question: How would you throw a coke can away?
+Answer: 1. find a coke can, 2. pick up the coke can, 3. go to the trash, 4. put down the coke can, 5. done
+Question: How would you restock chips in the drawer?
+Answer: 1. find the bag of chips, 2. pick up the bag of chips, 3. go to the drawer, 4. put down the bag of chips, 5. open the drawer, 6. pick up the bag of chips, 7. put down the bag of chips, 8. close the drawer, 9. done
+Question: I opened a sprite earlier.  Bring me the open can.","Answer: 1. find the open sprite can, 2. pick up the open sprite can, 3. bring the open sprite can to the person who opened it.","1. find a sprite can, 2. pick up the sprite can, 3. bring it to you, 4. put down the sprite can, 5. done"
+SayCan,3b,"Question: I’d like a clear soda.
+Answer: 1. find a 7up, 2. pick up the 7up, 3. bring it to you, 4. put down the 7up, 5. done.
+Question: Can I have a redbull please?
+Answer: 1. find a redbull can, 2. pick up the redbull can, 3. bring it to you, 4. put down the redbull can, 5. done
+Question: I’d like a clear soda.
+Answer: 1. find a 7up, 2. pick up the 7up, 3. bring it to you, 4. put down the 7up, 5. done.
+Question: Can I have a redbull please?
+Answer: 1. find a redbull can, 2. pick up the redbull can, 3. bring it to you, 4. put down the redbull can, 5. done
+Question: I opened a sprite earlier.  Bring me the open can.","Answer: I'm sorry, I cannot bring you an open can. You may want to finish it yourself or get a new one.","1. find a sprite can, 2. pick up the sprite can, 3. bring it to you, 4. put down the sprite can, 5. done"

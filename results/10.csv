@@ -1,391 +1,390 @@
 Task Class,Case,Prompt,Response,Expected
-Math,1a,"Question: John uses the bathroom every 50 minutes.  How many times does he use the bathroom during a 2.5-hour movie?
-Answer: The movie last 2.5*60=<<2.5*60=150>>150 minutes
-So he uses the bathroom 150/50=<<150/50=3>>3 times
-#### 3
-Question: Karen is planning writing assignments for her fifth grade class. She knows each short-answer question takes 3 minutes to answer, each paragraph takes 15 minutes to write, and each essay takes an hour to write. If Karen assigns 2 essays and 5 paragraphs, how many short-answer questions should she assign if she wants to assign 4 hours of homework total?
-Answer: First figure out how many minutes 4 hours is: 4 hours * 60 minutes/hour = <<4*60=240>>240 minutes
-Then figure out how long the two essays will take by multiplying the time per essay by the number of essays: 2 essays * 1 hour/essay * 60 minutes/hour = <<2*1*60=120>>120 minutes
-Use the same method to find the total time spent writing paragraphs: 15 minutes/paragraph * 5 paragraphs = <<15*5=75>>75 minutes
-Now subtract the time spent on essays and paragraphs from the total time to find the time spent on all the short answer questions: 240 minutes - 120 minutes - 75 minutes = <<240-120-75=45>>45 minutes
-Finally, divide the total time spent on short-answer questions by the time per question to find the number of questions: 45 minutes / 3 minutes/question = <<45/3=15>>15 questions
-#### 15
-Q: Octavia wants to make a quilt for her sister. She is going to build it from small, medium, and large t-shirts that her family is done with. A small t-shirt is 3 square feet of fabric. A medium one is 4 square feet. A large one is 6 square feet. If she uses 11 small shirts, 8 medium, and 6 large shirts, how many square feet is the quilt?","A: First, find the total square footage from the small shirts: 11 shirts * 3 square feet/shirt = 33 square feet
-Next, find the total square footage from the medium shirts: 8 shirts * 4 square feet/shirt = 32 square feet
-Then, find the total square footage from the large shirts: 6 shirts * 6 square feet/shirt = 36 square feet
-Add the square footage from each size of shirt to find the total square footage: 33 square feet + 32 square feet + 36 square feet = 101 square feet
-So, the quilt will be 101 square feet.","The quilt has 33 square feet from small shirts because 11 x 3 = <<11*3=33>>33
-The quilt has 32 square feet from medium shirts because 8 x 4 = <<8*4=32>>32
-The quilt has 36 square feet from large shirts because 6 x 6 = <<6*6=36>>36
-The quilt is 101 square feet because 33 + 32 + 36 = <<33+32+36=101>>101
-#### 101"
-Math,1a,"Question: If it takes 10 people 10 days to shovel 10,000 pounds of coal, how many days will it take half of these ten people to shovel 40,000 pounds of coal?
-Answer: The 10 people shovel 10,000 pounds per 10 days, or 10,000/10=<<10000/10=1000>>1000 pounds per day per 10 people.
-And 1000 pounds per day per 10 people is 1000/10=<<1000/10=100>>100 pounds per day per person.
-Half of ten people is 10/2=<<10/2=5>>5 people.
-At 100 pounds per day per person, 5 people can shovel 5*100=<<5*100=500>>500 pounds per day.
-Therefore, for 5 people to shovel 40,000 pounds, it will take 40,000/500=<<40000/500=80>>80 days.
-#### 80
-Question: Davonte is trying to figure out how much space his art collection takes up. He measures his paintings and finds he has three square 6-foot by 6-foot paintings, four small 2-foot by 3-foot paintings, and one large 10-foot by 15-foot painting. How many square feet does his collection take up?
-Answer: His square paintings take up 36 square feet each because 6 x 6 = <<6*6=36>>36
-His small paintings take 6 square feet each because 2 x 3 = <<2*3=6>>6
-His large painting takes up 150 square feet because 10 x 15 = <<10*15=150>>150.
-Combined, his square paintings take up 108 square feet because 3 x 36 = <<3*36=108>>108
-Combined, his small paintings take up 24 square feet because 4 x 6 = <<4*6=24>>24
-In total, his paintings take up 282 square feet because 150 + 108 + 24 = <<150+108+24=282>>282
-#### 282
-Q: Octavia wants to make a quilt for her sister. She is going to build it from small, medium, and large t-shirts that her family is done with. A small t-shirt is 3 square feet of fabric. A medium one is 4 square feet. A large one is 6 square feet. If she uses 11 small shirts, 8 medium, and 6 large shirts, how many square feet is the quilt?","A small t-shirt is 3 square feet, a medium t-shirt is 4 square feet, and a large t-shirt is 6 square feet.
+Math,1a,"Question: John builds a box.  The box is 26 inches by 26 inches by 14 inches.  The walls are 1 inch thick on each side.  How much is the internal volume in cubic feet?
+Answer: The walls take away 2*1=<<2*1=2>>2 inches from each dimension
+So the longer sides are 26-2=<<26-2=24>>24 inches
+That is 24/12=<<24/12=2>>2 feet
+The smaller dimension is 14-2=<<14-2=12>>12 inches
+That is 12/12=<<12/12=1>>1 foot
+So the internal volume is 2*2*1=<<2*2*1=4>>4 cubic feet
+#### 4
+Question: Frank's laundry detergent is double concentrated and will wash 80 loads of laundry.  His detergent is usually $25.00 a bottle but they're having a sale.  If he buys 2 bottles, both bottles will drop to $20.00 a bottle.  How much does he spend, in cents, per load of laundry, if he buys 2 bottles of detergent?
+Answer: If he buys 2 bottles, the price drops to $20.00 per bottle so they cost 2*20 = $<<2*20=40.00>>40.00
+He can get 80 loads of laundry per bottle and he bought 2 bottles so that's 80*2 = <<80*2=160>>160 loads of laundry
+The detergent cost $40.00 and he will be able to wash 160 loads of laundry so each load costs 40/160 = $<<40/160=0.25>>0.25
+#### 25
+Question: Maggie's oven is malfunctioning. When she sets it to 450 the actual temperature is 468. If it's off by the same percentage for any recipe, what temperature should she set it at if her recipe calls for 520 degrees?","Answer: The oven is off by 468 - 450 = <<468-450=18>>18 degrees.
+This is a percentage increase of 18/450 * 100% = <<18/450*100>>4%.
+If her recipe calls for 520 degrees, she should set the oven to 520 + 4% of 520 = 520 + 0.04 * 520 = 520 + <<520*0.04=20.8>>20.8 = <<520+520*0.04=540.8>>540.8 degrees.","The oven off by 18 degrees because 468 - 450 = <<468-450=18>>18
+The oven is off by 4% because 18 / 450 x 100 = <<18/450*100=4>>4%
+Therefore X + .04X = 520
+Therefore 1.04X = 520
+The temperature to set it is 500 because 520 / 1.04 = <<520/1.04=500>>500
+#### 500"
+Math,1a,"Question: Rebecca makes her own earrings out of buttons, magnets, and gemstones.  For every earring, she uses two magnets, half as many buttons as magnets, and three times as many gemstones as buttons.  If Rebecca wants to make 4 sets of earrings, how many gemstones will she need?
+Answer: Four sets of earrings is 2*4=<<2*4=8>>8 earrings.
+Since for one earring, she uses two magnets, for eight earrings she uses 2*8=<<2*8=16>>16 magnets.
+Since she uses half as many buttons as magnets, then for 8 earrings she would use 16/2=8 buttons.
+Since she uses three times as many gemstones as buttons, then in 8 earrings, she will use 8*3=<<24=24>>24 gemstones.
+#### 24
+Question: Ibrahim wants to buy an MP3 player for 120 euros and a CD for 19 euros. He has 55 euros in savings. His father participates in his purchase by giving him 20 euros. How much money does Ibrahim lack?
+Answer: The total price of the purchases is 120 + 19 = <<120+19=139>>139 euros.
+The amount of money he has after his father's help is 55 + 20 = <<55+20=75>>75 euros.
+The purchase amount is 139 euros, so he is missing 139 – 75 = <<139-75=64>>64 euros.
+#### 64
+Question: Maggie's oven is malfunctioning. When she sets it to 450 the actual temperature is 468. If it's off by the same percentage for any recipe, what temperature should she set it at if her recipe calls for 520 degrees?","Answer: The percentage error is (468-450) / 450 * 100% = 4%.
+To find the temperature she should set for 520 degrees with the same percentage error, she should set it at 520 * (1 + 0.04) = 540.8 degrees.
+Therefore, Maggie should set her oven to 540.8 degrees for a recipe that calls for 520 degrees.","The oven off by 18 degrees because 468 - 450 = <<468-450=18>>18
+The oven is off by 4% because 18 / 450 x 100 = <<18/450*100=4>>4%
+Therefore X + .04X = 520
+Therefore 1.04X = 520
+The temperature to set it is 500 because 520 / 1.04 = <<520/1.04=500>>500
+#### 500"
+Math,2,"Question: John builds a box.  The box is 26 inches by 26 inches by 14 inches.  The walls are 1 inch thick on each side.  How much is the internal volume in cubic feet?
+Answer: The walls take away 2*1=<<2*1=2>>2 inches from each dimension
+So the longer sides are 26-2=<<26-2=24>>24 inches
+That is 24/12=<<24/12=2>>2 feet
+The smaller dimension is 14-2=<<14-2=12>>12 inches
+That is 12/12=<<12/12=1>>1 foot
+So the internal volume is 2*2*1=<<2*2*1=4>>4 cubic feet
+#### 4
+Question: Frank's laundry detergent is double concentrated and will wash 80 loads of laundry.  His detergent is usually $25.00 a bottle but they're having a sale.  If he buys 2 bottles, both bottles will drop to $20.00 a bottle.  How much does he spend, in cents, per load of laundry, if he buys 2 bottles of detergent?
+Answer: If he buys 2 bottles, the price drops to $20.00 per bottle so they cost 2*20 = $<<2*20=40.00>>40.00
+He can get 80 loads of laundry per bottle and he bought 2 bottles so that's 80*2 = <<80*2=160>>160 loads of laundry
+The detergent cost $40.00 and he will be able to wash 160 loads of laundry so each load costs 40/160 = $<<40/160=0.25>>0.25
+#### 25
+Question: Rebecca makes her own earrings out of buttons, magnets, and gemstones.  For every earring, she uses two magnets, half as many buttons as magnets, and three times as many gemstones as buttons.  If Rebecca wants to make 4 sets of earrings, how many gemstones will she need?
+Answer: Four sets of earrings is 2*4=<<2*4=8>>8 earrings.
+Since for one earring, she uses two magnets, for eight earrings she uses 2*8=<<2*8=16>>16 magnets.
+Since she uses half as many buttons as magnets, then for 8 earrings she would use 16/2=8 buttons.
+Since she uses three times as many gemstones as buttons, then in 8 earrings, she will use 8*3=<<24=24>>24 gemstones.
+#### 24
+Question: Ibrahim wants to buy an MP3 player for 120 euros and a CD for 19 euros. He has 55 euros in savings. His father participates in his purchase by giving him 20 euros. How much money does Ibrahim lack?
+Answer: The total price of the purchases is 120 + 19 = <<120+19=139>>139 euros.
+The amount of money he has after his father's help is 55 + 20 = <<55+20=75>>75 euros.
+The purchase amount is 139 euros, so he is missing 139 – 75 = <<139-75=64>>64 euros.
+#### 64
+Question: Maggie's oven is malfunctioning. When she sets it to 450 the actual temperature is 468. If it's off by the same percentage for any recipe, what temperature should she set it at if her recipe calls for 520 degrees?","Answer: The oven is off by 468-450 = <<468-450=18>>18 degrees.
+This is a 18/450 = 0.04 or 4% difference.
+If Maggie's recipe calls for 520 degrees, she should set her oven to 520 + (0.04*520) = <<520+(0.04*520)=540.8>>540.8 degrees. 
+Therefore, she should set her oven to 541 degrees.","The oven off by 18 degrees because 468 - 450 = <<468-450=18>>18
+The oven is off by 4% because 18 / 450 x 100 = <<18/450*100=4>>4%
+Therefore X + .04X = 520
+Therefore 1.04X = 520
+The temperature to set it is 500 because 520 / 1.04 = <<520/1.04=500>>500
+#### 500"
+Math,3a,"Question: John builds a box.  The box is 26 inches by 26 inches by 14 inches.  The walls are 1 inch thick on each side.  How much is the internal volume in cubic feet?
+Answer: The walls take away 2*1=<<2*1=2>>2 inches from each dimension
+So the longer sides are 26-2=<<26-2=24>>24 inches
+That is 24/12=<<24/12=2>>2 feet
+The smaller dimension is 14-2=<<14-2=12>>12 inches
+That is 12/12=<<12/12=1>>1 foot
+So the internal volume is 2*2*1=<<2*2*1=4>>4 cubic feet
+#### 4
+Question: Frank's laundry detergent is double concentrated and will wash 80 loads of laundry.  His detergent is usually $25.00 a bottle but they're having a sale.  If he buys 2 bottles, both bottles will drop to $20.00 a bottle.  How much does he spend, in cents, per load of laundry, if he buys 2 bottles of detergent?
+Answer: If he buys 2 bottles, the price drops to $20.00 per bottle so they cost 2*20 = $<<2*20=40.00>>40.00
+He can get 80 loads of laundry per bottle and he bought 2 bottles so that's 80*2 = <<80*2=160>>160 loads of laundry
+The detergent cost $40.00 and he will be able to wash 160 loads of laundry so each load costs 40/160 = $<<40/160=0.25>>0.25
+#### 25
+Question: John builds a box.  The box is 26 inches by 26 inches by 14 inches.  The walls are 1 inch thick on each side.  How much is the internal volume in cubic feet?
+Answer: The walls take away 2*1=<<2*1=2>>2 inches from each dimension
+So the longer sides are 26-2=<<26-2=24>>24 inches
+That is 24/12=<<24/12=2>>2 feet
+The smaller dimension is 14-2=<<14-2=12>>12 inches
+That is 12/12=<<12/12=1>>1 foot
+So the internal volume is 2*2*1=<<2*2*1=4>>4 cubic feet
+#### 4
+Question: Frank's laundry detergent is double concentrated and will wash 80 loads of laundry.  His detergent is usually $25.00 a bottle but they're having a sale.  If he buys 2 bottles, both bottles will drop to $20.00 a bottle.  How much does he spend, in cents, per load of laundry, if he buys 2 bottles of detergent?
+Answer: If he buys 2 bottles, the price drops to $20.00 per bottle so they cost 2*20 = $<<2*20=40.00>>40.00
+He can get 80 loads of laundry per bottle and he bought 2 bottles so that's 80*2 = <<80*2=160>>160 loads of laundry
+The detergent cost $40.00 and he will be able to wash 160 loads of laundry so each load costs 40/160 = $<<40/160=0.25>>0.25
+#### 25
+Question: Maggie's oven is malfunctioning. When she sets it to 450 the actual temperature is 468. If it's off by the same percentage for any recipe, what temperature should she set it at if her recipe calls for 520 degrees?","Answer: The oven is off by 18 degrees (468-450 = 18) when set to 450 degrees.
+This is an error of (18/450) * 100 = 4%.
+To calculate the correct temperature to set for 520 degrees, she should increase it by 4%.
+4% of 520 is (4/100) * 520 = 20.8.
+Therefore, she should set the oven to 520 + 20.8 = 540.8 degrees.","The oven off by 18 degrees because 468 - 450 = <<468-450=18>>18
+The oven is off by 4% because 18 / 450 x 100 = <<18/450*100=4>>4%
+Therefore X + .04X = 520
+Therefore 1.04X = 520
+The temperature to set it is 500 because 520 / 1.04 = <<520/1.04=500>>500
+#### 500"
+Math,3b,"Question: Rebecca makes her own earrings out of buttons, magnets, and gemstones.  For every earring, she uses two magnets, half as many buttons as magnets, and three times as many gemstones as buttons.  If Rebecca wants to make 4 sets of earrings, how many gemstones will she need?
+Answer: Four sets of earrings is 2*4=<<2*4=8>>8 earrings.
+Since for one earring, she uses two magnets, for eight earrings she uses 2*8=<<2*8=16>>16 magnets.
+Since she uses half as many buttons as magnets, then for 8 earrings she would use 16/2=8 buttons.
+Since she uses three times as many gemstones as buttons, then in 8 earrings, she will use 8*3=<<24=24>>24 gemstones.
+#### 24
+Question: Ibrahim wants to buy an MP3 player for 120 euros and a CD for 19 euros. He has 55 euros in savings. His father participates in his purchase by giving him 20 euros. How much money does Ibrahim lack?
+Answer: The total price of the purchases is 120 + 19 = <<120+19=139>>139 euros.
+The amount of money he has after his father's help is 55 + 20 = <<55+20=75>>75 euros.
+The purchase amount is 139 euros, so he is missing 139 – 75 = <<139-75=64>>64 euros.
+#### 64
+Question: Rebecca makes her own earrings out of buttons, magnets, and gemstones.  For every earring, she uses two magnets, half as many buttons as magnets, and three times as many gemstones as buttons.  If Rebecca wants to make 4 sets of earrings, how many gemstones will she need?
+Answer: Four sets of earrings is 2*4=<<2*4=8>>8 earrings.
+Since for one earring, she uses two magnets, for eight earrings she uses 2*8=<<2*8=16>>16 magnets.
+Since she uses half as many buttons as magnets, then for 8 earrings she would use 16/2=8 buttons.
+Since she uses three times as many gemstones as buttons, then in 8 earrings, she will use 8*3=<<24=24>>24 gemstones.
+#### 24
+Question: Ibrahim wants to buy an MP3 player for 120 euros and a CD for 19 euros. He has 55 euros in savings. His father participates in his purchase by giving him 20 euros. How much money does Ibrahim lack?
+Answer: The total price of the purchases is 120 + 19 = <<120+19=139>>139 euros.
+The amount of money he has after his father's help is 55 + 20 = <<55+20=75>>75 euros.
+The purchase amount is 139 euros, so he is missing 139 – 75 = <<139-75=64>>64 euros.
+#### 64
+Question: Maggie's oven is malfunctioning. When she sets it to 450 the actual temperature is 468. If it's off by the same percentage for any recipe, what temperature should she set it at if her recipe calls for 520 degrees?","To find the correct setting for Maggie's oven, we need to calculate the percentage error first.
 
-Octavia has 11 small shirts, so they will cover 11 * 3 = 33 square feet.
-She also has 8 medium shirts, so they will cover 8 * 4 = 32 square feet.
-Finally, she has 6 large shirts, so they will cover 6 * 6 = 36 square feet.
+Percentage error = ((actual temperature - set temperature) / set temperature) * 100
+Percentage error = ((468 - 450) / 450) * 100
+Percentage error = (18 / 450) * 100
+Percentage error = 0.04 * 100
+Percentage error = 4%
 
-In total, the quilt will be made of 33 + 32 + 36 = 101 square feet of fabric. 
+Now that we know the percentage error is 4%, we can calculate the correct setting for 520 degrees.
 
-Therefore, the quilt will be 101 square feet in total.
-#### 101 square feet","The quilt has 33 square feet from small shirts because 11 x 3 = <<11*3=33>>33
-The quilt has 32 square feet from medium shirts because 8 x 4 = <<8*4=32>>32
-The quilt has 36 square feet from large shirts because 6 x 6 = <<6*6=36>>36
-The quilt is 101 square feet because 33 + 32 + 36 = <<33+32+36=101>>101
-#### 101"
-Math,2,"Question: John uses the bathroom every 50 minutes.  How many times does he use the bathroom during a 2.5-hour movie?
-Answer: The movie last 2.5*60=<<2.5*60=150>>150 minutes
-So he uses the bathroom 150/50=<<150/50=3>>3 times
-#### 3
-Question: Karen is planning writing assignments for her fifth grade class. She knows each short-answer question takes 3 minutes to answer, each paragraph takes 15 minutes to write, and each essay takes an hour to write. If Karen assigns 2 essays and 5 paragraphs, how many short-answer questions should she assign if she wants to assign 4 hours of homework total?
-Answer: First figure out how many minutes 4 hours is: 4 hours * 60 minutes/hour = <<4*60=240>>240 minutes
-Then figure out how long the two essays will take by multiplying the time per essay by the number of essays: 2 essays * 1 hour/essay * 60 minutes/hour = <<2*1*60=120>>120 minutes
-Use the same method to find the total time spent writing paragraphs: 15 minutes/paragraph * 5 paragraphs = <<15*5=75>>75 minutes
-Now subtract the time spent on essays and paragraphs from the total time to find the time spent on all the short answer questions: 240 minutes - 120 minutes - 75 minutes = <<240-120-75=45>>45 minutes
-Finally, divide the total time spent on short-answer questions by the time per question to find the number of questions: 45 minutes / 3 minutes/question = <<45/3=15>>15 questions
-#### 15
-Question: If it takes 10 people 10 days to shovel 10,000 pounds of coal, how many days will it take half of these ten people to shovel 40,000 pounds of coal?
-Answer: The 10 people shovel 10,000 pounds per 10 days, or 10,000/10=<<10000/10=1000>>1000 pounds per day per 10 people.
-And 1000 pounds per day per 10 people is 1000/10=<<1000/10=100>>100 pounds per day per person.
-Half of ten people is 10/2=<<10/2=5>>5 people.
-At 100 pounds per day per person, 5 people can shovel 5*100=<<5*100=500>>500 pounds per day.
-Therefore, for 5 people to shovel 40,000 pounds, it will take 40,000/500=<<40000/500=80>>80 days.
-#### 80
-Question: Davonte is trying to figure out how much space his art collection takes up. He measures his paintings and finds he has three square 6-foot by 6-foot paintings, four small 2-foot by 3-foot paintings, and one large 10-foot by 15-foot painting. How many square feet does his collection take up?
-Answer: His square paintings take up 36 square feet each because 6 x 6 = <<6*6=36>>36
-His small paintings take 6 square feet each because 2 x 3 = <<2*3=6>>6
-His large painting takes up 150 square feet because 10 x 15 = <<10*15=150>>150.
-Combined, his square paintings take up 108 square feet because 3 x 36 = <<3*36=108>>108
-Combined, his small paintings take up 24 square feet because 4 x 6 = <<4*6=24>>24
-In total, his paintings take up 282 square feet because 150 + 108 + 24 = <<150+108+24=282>>282
-#### 282
-Q: Octavia wants to make a quilt for her sister. She is going to build it from small, medium, and large t-shirts that her family is done with. A small t-shirt is 3 square feet of fabric. A medium one is 4 square feet. A large one is 6 square feet. If she uses 11 small shirts, 8 medium, and 6 large shirts, how many square feet is the quilt?","A small shirt is 3 square feet, so 11 small shirts would be 11 * 3 = 33 square feet.
-A medium shirt is 4 square feet, so 8 medium shirts would be 8 * 4 = 32 square feet.
-A large shirt is 6 square feet, so 6 large shirts would be 6 * 6 = 36 square feet.
-Therefore, the quilt would be a total of 33 + 32 + 36 = 101 square feet.","The quilt has 33 square feet from small shirts because 11 x 3 = <<11*3=33>>33
-The quilt has 32 square feet from medium shirts because 8 x 4 = <<8*4=32>>32
-The quilt has 36 square feet from large shirts because 6 x 6 = <<6*6=36>>36
-The quilt is 101 square feet because 33 + 32 + 36 = <<33+32+36=101>>101
-#### 101"
-Math,3a,"Question: John uses the bathroom every 50 minutes.  How many times does he use the bathroom during a 2.5-hour movie?
-Answer: The movie last 2.5*60=<<2.5*60=150>>150 minutes
-So he uses the bathroom 150/50=<<150/50=3>>3 times
-#### 3
-Question: Karen is planning writing assignments for her fifth grade class. She knows each short-answer question takes 3 minutes to answer, each paragraph takes 15 minutes to write, and each essay takes an hour to write. If Karen assigns 2 essays and 5 paragraphs, how many short-answer questions should she assign if she wants to assign 4 hours of homework total?
-Answer: First figure out how many minutes 4 hours is: 4 hours * 60 minutes/hour = <<4*60=240>>240 minutes
-Then figure out how long the two essays will take by multiplying the time per essay by the number of essays: 2 essays * 1 hour/essay * 60 minutes/hour = <<2*1*60=120>>120 minutes
-Use the same method to find the total time spent writing paragraphs: 15 minutes/paragraph * 5 paragraphs = <<15*5=75>>75 minutes
-Now subtract the time spent on essays and paragraphs from the total time to find the time spent on all the short answer questions: 240 minutes - 120 minutes - 75 minutes = <<240-120-75=45>>45 minutes
-Finally, divide the total time spent on short-answer questions by the time per question to find the number of questions: 45 minutes / 3 minutes/question = <<45/3=15>>15 questions
-#### 15
-Question: John uses the bathroom every 50 minutes.  How many times does he use the bathroom during a 2.5-hour movie?
-Answer: The movie last 2.5*60=<<2.5*60=150>>150 minutes
-So he uses the bathroom 150/50=<<150/50=3>>3 times
-#### 3
-Question: Karen is planning writing assignments for her fifth grade class. She knows each short-answer question takes 3 minutes to answer, each paragraph takes 15 minutes to write, and each essay takes an hour to write. If Karen assigns 2 essays and 5 paragraphs, how many short-answer questions should she assign if she wants to assign 4 hours of homework total?
-Answer: First figure out how many minutes 4 hours is: 4 hours * 60 minutes/hour = <<4*60=240>>240 minutes
-Then figure out how long the two essays will take by multiplying the time per essay by the number of essays: 2 essays * 1 hour/essay * 60 minutes/hour = <<2*1*60=120>>120 minutes
-Use the same method to find the total time spent writing paragraphs: 15 minutes/paragraph * 5 paragraphs = <<15*5=75>>75 minutes
-Now subtract the time spent on essays and paragraphs from the total time to find the time spent on all the short answer questions: 240 minutes - 120 minutes - 75 minutes = <<240-120-75=45>>45 minutes
-Finally, divide the total time spent on short-answer questions by the time per question to find the number of questions: 45 minutes / 3 minutes/question = <<45/3=15>>15 questions
-#### 15
-Q: Octavia wants to make a quilt for her sister. She is going to build it from small, medium, and large t-shirts that her family is done with. A small t-shirt is 3 square feet of fabric. A medium one is 4 square feet. A large one is 6 square feet. If she uses 11 small shirts, 8 medium, and 6 large shirts, how many square feet is the quilt?","A: First calculate the total square feet from the small shirts: 3 square feet * 11 shirts = 33 square feet
-Next, calculate the total square feet from the medium shirts: 4 square feet * 8 shirts = 32 square feet
-Then calculate the total square feet from the large shirts: 6 square feet * 6 shirts = 36 square feet
-Add the square feet from each size of shirt to find the total square feet: 33 square feet + 32 square feet + 36 square feet = 101 square feet
-So, the quilt will be 101 square feet.","The quilt has 33 square feet from small shirts because 11 x 3 = <<11*3=33>>33
-The quilt has 32 square feet from medium shirts because 8 x 4 = <<8*4=32>>32
-The quilt has 36 square feet from large shirts because 6 x 6 = <<6*6=36>>36
-The quilt is 101 square feet because 33 + 32 + 36 = <<33+32+36=101>>101
-#### 101"
-Math,3b,"Question: If it takes 10 people 10 days to shovel 10,000 pounds of coal, how many days will it take half of these ten people to shovel 40,000 pounds of coal?
-Answer: The 10 people shovel 10,000 pounds per 10 days, or 10,000/10=<<10000/10=1000>>1000 pounds per day per 10 people.
-And 1000 pounds per day per 10 people is 1000/10=<<1000/10=100>>100 pounds per day per person.
-Half of ten people is 10/2=<<10/2=5>>5 people.
-At 100 pounds per day per person, 5 people can shovel 5*100=<<5*100=500>>500 pounds per day.
-Therefore, for 5 people to shovel 40,000 pounds, it will take 40,000/500=<<40000/500=80>>80 days.
-#### 80
-Question: Davonte is trying to figure out how much space his art collection takes up. He measures his paintings and finds he has three square 6-foot by 6-foot paintings, four small 2-foot by 3-foot paintings, and one large 10-foot by 15-foot painting. How many square feet does his collection take up?
-Answer: His square paintings take up 36 square feet each because 6 x 6 = <<6*6=36>>36
-His small paintings take 6 square feet each because 2 x 3 = <<2*3=6>>6
-His large painting takes up 150 square feet because 10 x 15 = <<10*15=150>>150.
-Combined, his square paintings take up 108 square feet because 3 x 36 = <<3*36=108>>108
-Combined, his small paintings take up 24 square feet because 4 x 6 = <<4*6=24>>24
-In total, his paintings take up 282 square feet because 150 + 108 + 24 = <<150+108+24=282>>282
-#### 282
-Question: If it takes 10 people 10 days to shovel 10,000 pounds of coal, how many days will it take half of these ten people to shovel 40,000 pounds of coal?
-Answer: The 10 people shovel 10,000 pounds per 10 days, or 10,000/10=<<10000/10=1000>>1000 pounds per day per 10 people.
-And 1000 pounds per day per 10 people is 1000/10=<<1000/10=100>>100 pounds per day per person.
-Half of ten people is 10/2=<<10/2=5>>5 people.
-At 100 pounds per day per person, 5 people can shovel 5*100=<<5*100=500>>500 pounds per day.
-Therefore, for 5 people to shovel 40,000 pounds, it will take 40,000/500=<<40000/500=80>>80 days.
-#### 80
-Question: Davonte is trying to figure out how much space his art collection takes up. He measures his paintings and finds he has three square 6-foot by 6-foot paintings, four small 2-foot by 3-foot paintings, and one large 10-foot by 15-foot painting. How many square feet does his collection take up?
-Answer: His square paintings take up 36 square feet each because 6 x 6 = <<6*6=36>>36
-His small paintings take 6 square feet each because 2 x 3 = <<2*3=6>>6
-His large painting takes up 150 square feet because 10 x 15 = <<10*15=150>>150.
-Combined, his square paintings take up 108 square feet because 3 x 36 = <<3*36=108>>108
-Combined, his small paintings take up 24 square feet because 4 x 6 = <<4*6=24>>24
-In total, his paintings take up 282 square feet because 150 + 108 + 24 = <<150+108+24=282>>282
-#### 282
-Q: Octavia wants to make a quilt for her sister. She is going to build it from small, medium, and large t-shirts that her family is done with. A small t-shirt is 3 square feet of fabric. A medium one is 4 square feet. A large one is 6 square feet. If she uses 11 small shirts, 8 medium, and 6 large shirts, how many square feet is the quilt?","A small shirt is 3 square feet, so 11 small shirts would be 3 x 11 = <<3*11=33>>33 square feet.
-A medium shirt is 4 square feet, so 8 medium shirts would be 4 x 8 = <<4*8=32>>32 square feet.
-A large shirt is 6 square feet, so 6 large shirts would be 6 x 6 = <<6*6=36>>36 square feet.
-In total, the quilt would be 33 + 32 + 36 = <<33+32+36=101>>101 square feet.
-Therefore, the quilt would be 101 square feet in total.","The quilt has 33 square feet from small shirts because 11 x 3 = <<11*3=33>>33
-The quilt has 32 square feet from medium shirts because 8 x 4 = <<8*4=32>>32
-The quilt has 36 square feet from large shirts because 6 x 6 = <<6*6=36>>36
-The quilt is 101 square feet because 33 + 32 + 36 = <<33+32+36=101>>101
-#### 101"
-CSQA,1a,"Question: The young attractive people began drinking alcohol, with their inhibitions lowered it wasn't long before they were what?
-A: disorientation
-B: having sex
-C: throwing up
-D: calling uber
-E: frequent urination
+Correct temperature = set temperature / (1 + error percentage)
+Correct temperature = 520 / (1 + 0.04)
+Correct temperature = 520 / 1.04
+Correct temperature = <<499.03=520/1.04>>499.03 degrees
+
+Therefore, Maggie should set her oven to 499 degrees if her recipe calls for 520 degrees.","The oven off by 18 degrees because 468 - 450 = <<468-450=18>>18
+The oven is off by 4% because 18 / 450 x 100 = <<18/450*100=4>>4%
+Therefore X + .04X = 520
+Therefore 1.04X = 520
+The temperature to set it is 500 because 520 / 1.04 = <<520/1.04=500>>500
+#### 500"
+CSQA,1a,"Question: She was bad at dancing, so what basic skill did the instructor teach her?
+A: euphoria
+B: rhythmic movement
+C: music
+D: moving body
+E: having fun
 Answer: B
-Question: Why might someone without much to do keep driving?
-A: boredom
-B: enjoy
-C: moving
-D: fatigue
-E: injuries
+Question: What must someone purchase if they plan on going to a play?
+A: tickets
+B: having ticket
+C: patience
+D: time
+E: a hat
 Answer: A
-Q: The fox walked from the city into the forest, what was it looking for?
-A: pretty flowers.
-B: hen house
-C: natural habitat
-D: storybook
-E: dense forest",Answer: B,C
-CSQA,1a,"Question: Where would you find a sloth that is not afraid of being hunted?
-A: forest canopy
-B: nature preserve
-C: zoo
-D: tropical rainforest
-E: commercial
-Answer: B
-Question: Where in Northern Europe would you find many canals?
-A: sydney
-B: bridge
-C: amsterdam
-D: venice
-E: michigan
-Answer: C
-Q: The fox walked from the city into the forest, what was it looking for?
-A: pretty flowers.
-B: hen house
-C: natural habitat
-D: storybook
-E: dense forest",A: pretty flowers.,C
-CSQA,2,"Question: The young attractive people began drinking alcohol, with their inhibitions lowered it wasn't long before they were what?
-A: disorientation
-B: having sex
-C: throwing up
-D: calling uber
-E: frequent urination
-Answer: B
-Question: Why might someone without much to do keep driving?
-A: boredom
-B: enjoy
-C: moving
-D: fatigue
-E: injuries
+Question: What would you do if you want to be able to earn money?
+A: apply for job
+B: stand in line
+C: take care of proposals
+D: pass course
+E: play the lottery",Answer: A,A
+CSQA,1a,"Question: Where might baggage be searched?
+A: airports
+B: helicopter
+C: cruise ship
+D: train station
+E: room
 Answer: A
-Question: Where would you find a sloth that is not afraid of being hunted?
-A: forest canopy
-B: nature preserve
-C: zoo
-D: tropical rainforest
-E: commercial
+Question: Where will more than a drop of blood be spilt?
+A: during a fight
+B: needle
+C: person
+D: battlefield
+E: test tube
+Answer: D
+Question: What would you do if you want to be able to earn money?
+A: apply for job
+B: stand in line
+C: take care of proposals
+D: pass course
+E: play the lottery",Answer: A,A
+CSQA,2,"Question: She was bad at dancing, so what basic skill did the instructor teach her?
+A: euphoria
+B: rhythmic movement
+C: music
+D: moving body
+E: having fun
 Answer: B
-Question: Where in Northern Europe would you find many canals?
-A: sydney
-B: bridge
-C: amsterdam
-D: venice
-E: michigan
-Answer: C
-Q: The fox walked from the city into the forest, what was it looking for?
-A: pretty flowers.
-B: hen house
-C: natural habitat
-D: storybook
-E: dense forest",Answer: C,C
-CSQA,3a,"Question: The young attractive people began drinking alcohol, with their inhibitions lowered it wasn't long before they were what?
-A: disorientation
-B: having sex
-C: throwing up
-D: calling uber
-E: frequent urination
-Answer: B
-Question: Why might someone without much to do keep driving?
-A: boredom
-B: enjoy
-C: moving
-D: fatigue
-E: injuries
+Question: What must someone purchase if they plan on going to a play?
+A: tickets
+B: having ticket
+C: patience
+D: time
+E: a hat
 Answer: A
-Question: The young attractive people began drinking alcohol, with their inhibitions lowered it wasn't long before they were what?
-A: disorientation
-B: having sex
-C: throwing up
-D: calling uber
-E: frequent urination
-Answer: B
-Question: Why might someone without much to do keep driving?
-A: boredom
-B: enjoy
-C: moving
-D: fatigue
-E: injuries
+Question: Where might baggage be searched?
+A: airports
+B: helicopter
+C: cruise ship
+D: train station
+E: room
 Answer: A
-Q: The fox walked from the city into the forest, what was it looking for?
-A: pretty flowers.
-B: hen house
-C: natural habitat
-D: storybook
-E: dense forest",Answer: B,C
-CSQA,3b,"Question: Where would you find a sloth that is not afraid of being hunted?
-A: forest canopy
-B: nature preserve
-C: zoo
-D: tropical rainforest
-E: commercial
+Question: Where will more than a drop of blood be spilt?
+A: during a fight
+B: needle
+C: person
+D: battlefield
+E: test tube
+Answer: D
+Question: What would you do if you want to be able to earn money?
+A: apply for job
+B: stand in line
+C: take care of proposals
+D: pass course
+E: play the lottery",Answer: A,A
+CSQA,3a,"Question: She was bad at dancing, so what basic skill did the instructor teach her?
+A: euphoria
+B: rhythmic movement
+C: music
+D: moving body
+E: having fun
 Answer: B
-Question: Where in Northern Europe would you find many canals?
-A: sydney
-B: bridge
-C: amsterdam
-D: venice
-E: michigan
-Answer: C
-Question: Where would you find a sloth that is not afraid of being hunted?
-A: forest canopy
-B: nature preserve
-C: zoo
-D: tropical rainforest
-E: commercial
+Question: What must someone purchase if they plan on going to a play?
+A: tickets
+B: having ticket
+C: patience
+D: time
+E: a hat
+Answer: A
+Question: She was bad at dancing, so what basic skill did the instructor teach her?
+A: euphoria
+B: rhythmic movement
+C: music
+D: moving body
+E: having fun
 Answer: B
-Question: Where in Northern Europe would you find many canals?
-A: sydney
-B: bridge
-C: amsterdam
-D: venice
-E: michigan
-Answer: C
-Q: The fox walked from the city into the forest, what was it looking for?
-A: pretty flowers.
-B: hen house
-C: natural habitat
-D: storybook
-E: dense forest",Answer: B,C
-StrategyQA,1a,"Question: Kaffir limes are citrus fruits originating in tropical climates. The Kaffir lime leaves and rind emit an intense citrus fragrance when crushed up. Yankee Candle, one of the largest candle companies, sells several popular varieties of citrus candles. Sage and Citrus is one of the highest rated scents that Yankee Candle sells.
-Would a kaffir lime be a good ingredient for making a candle?
+Question: What must someone purchase if they plan on going to a play?
+A: tickets
+B: having ticket
+C: patience
+D: time
+E: a hat
+Answer: A
+Question: What would you do if you want to be able to earn money?
+A: apply for job
+B: stand in line
+C: take care of proposals
+D: pass course
+E: play the lottery",Answer: A,A
+CSQA,3b,"Question: Where might baggage be searched?
+A: airports
+B: helicopter
+C: cruise ship
+D: train station
+E: room
+Answer: A
+Question: Where will more than a drop of blood be spilt?
+A: during a fight
+B: needle
+C: person
+D: battlefield
+E: test tube
+Answer: D
+Question: Where might baggage be searched?
+A: airports
+B: helicopter
+C: cruise ship
+D: train station
+E: room
+Answer: A
+Question: Where will more than a drop of blood be spilt?
+A: during a fight
+B: needle
+C: person
+D: battlefield
+E: test tube
+Answer: D
+Question: What would you do if you want to be able to earn money?
+A: apply for job
+B: stand in line
+C: take care of proposals
+D: pass course
+E: play the lottery",Answer: A,A
+StrategyQA,1a,"Question: Europa (moon) gets its name from the Greek Classical Mythology story. Europa was a woman that Zeus was in love with, and he changed into a bull to deceive her. Amunet is a primordial goddess in Ancient Egyptian religion.
+Is Europa (moon) name origin related to Amunet?
+Answer: False
+Question: Pregnancy often causes nausea and stomach upset. Small doses of ginger have been shown to help with vomiting and nausea. Doctors say that, in small doses, ginger is safe for pregnant women.
+If you're pregnant, might you be recommended ginger?
 Answer: True
-Question: In 2010, the Spirit rover sent what is recorded as its final transmission. In 2019, another rover made the news with its viral ""final words""
-Would a broadcast from Spirit make the news in 2020?
+Question: There were approximately 15 million people unemployed in 1933 due to the Great Depression. In the 1930s Tiger Stadium had a capacity around 50,000.
+Could all the unemployed people due to 1933 Great Depression fit in Tiger Stadium?",False,False
+StrategyQA,1a,"Question: Casio's first invention was the yubiwa pipe. The yubiwa pipe was a ring worn that held a cigarette in place worn on the finger. Ankles are several inches thicker than fingers.
+Could Casio's first invention be worn around the ankle?
+Answer: False
+Question: Operation Barbarossa was the Nazi advance on Russia during World War II. Operation Barbarossa was a failure that resulted in Nazi Germany being pushed back by a Soviet counter offensive. Operation Barbarossa was named after Holy Roman Emperor Frederick Barbarossa. On his final expedition, Frederick Barbarossa drowned while leading an army to help the Crusaders during the Third Crusade. The Crusaders failed to recapture Jerusalem during the Third Crusade without the support of Barbarossa and his troops.
+Did Operation Barbarossa or Barbarossa's last expedition succeed?
+Answer: False
+Question: There were approximately 15 million people unemployed in 1933 due to the Great Depression. In the 1930s Tiger Stadium had a capacity around 50,000.
+Could all the unemployed people due to 1933 Great Depression fit in Tiger Stadium?",True,False
+StrategyQA,2,"Question: Europa (moon) gets its name from the Greek Classical Mythology story. Europa was a woman that Zeus was in love with, and he changed into a bull to deceive her. Amunet is a primordial goddess in Ancient Egyptian religion.
+Is Europa (moon) name origin related to Amunet?
+Answer: False
+Question: Pregnancy often causes nausea and stomach upset. Small doses of ginger have been shown to help with vomiting and nausea. Doctors say that, in small doses, ginger is safe for pregnant women.
+If you're pregnant, might you be recommended ginger?
 Answer: True
-Q: The father of social security system is Franklin D. Roosevelt.  Franklin D. Roosevelt was in Columbia Law School in 1907. 
-Was the father of social security system serving in the white house during the Panic of 1907?",A: False,False
-StrategyQA,1a,"Question: The width of the Golden Gate Bridge is 90 feet.  A baker's dozen includes 13 items. The width of a Mac truck is around 8 feet.
-Would baker's dozen of side by side Mac Trucks jam up Golden Gate Bridge?
+Question: Casio's first invention was the yubiwa pipe. The yubiwa pipe was a ring worn that held a cigarette in place worn on the finger. Ankles are several inches thicker than fingers.
+Could Casio's first invention be worn around the ankle?
+Answer: False
+Question: Operation Barbarossa was the Nazi advance on Russia during World War II. Operation Barbarossa was a failure that resulted in Nazi Germany being pushed back by a Soviet counter offensive. Operation Barbarossa was named after Holy Roman Emperor Frederick Barbarossa. On his final expedition, Frederick Barbarossa drowned while leading an army to help the Crusaders during the Third Crusade. The Crusaders failed to recapture Jerusalem during the Third Crusade without the support of Barbarossa and his troops.
+Did Operation Barbarossa or Barbarossa's last expedition succeed?
+Answer: False
+Question: There were approximately 15 million people unemployed in 1933 due to the Great Depression. In the 1930s Tiger Stadium had a capacity around 50,000.
+Could all the unemployed people due to 1933 Great Depression fit in Tiger Stadium?",True,False
+StrategyQA,3a,"Question: Europa (moon) gets its name from the Greek Classical Mythology story. Europa was a woman that Zeus was in love with, and he changed into a bull to deceive her. Amunet is a primordial goddess in Ancient Egyptian religion.
+Is Europa (moon) name origin related to Amunet?
+Answer: False
+Question: Pregnancy often causes nausea and stomach upset. Small doses of ginger have been shown to help with vomiting and nausea. Doctors say that, in small doses, ginger is safe for pregnant women.
+If you're pregnant, might you be recommended ginger?
 Answer: True
-Question: An ocelot can run up to 61 kilometers per hour. Kindergartners are human children usually aged five to six years old. Human children under 10 are not likely to exceed 20 kilometers per hour.
-Could an ocelot outrun a kindergartner? 
+Question: Europa (moon) gets its name from the Greek Classical Mythology story. Europa was a woman that Zeus was in love with, and he changed into a bull to deceive her. Amunet is a primordial goddess in Ancient Egyptian religion.
+Is Europa (moon) name origin related to Amunet?
+Answer: False
+Question: Pregnancy often causes nausea and stomach upset. Small doses of ginger have been shown to help with vomiting and nausea. Doctors say that, in small doses, ginger is safe for pregnant women.
+If you're pregnant, might you be recommended ginger?
 Answer: True
-Q: The father of social security system is Franklin D. Roosevelt.  Franklin D. Roosevelt was in Columbia Law School in 1907. 
-Was the father of social security system serving in the white house during the Panic of 1907?",Answer: False,False
-StrategyQA,2,"Question: Kaffir limes are citrus fruits originating in tropical climates. The Kaffir lime leaves and rind emit an intense citrus fragrance when crushed up. Yankee Candle, one of the largest candle companies, sells several popular varieties of citrus candles. Sage and Citrus is one of the highest rated scents that Yankee Candle sells.
-Would a kaffir lime be a good ingredient for making a candle?
-Answer: True
-Question: In 2010, the Spirit rover sent what is recorded as its final transmission. In 2019, another rover made the news with its viral ""final words""
-Would a broadcast from Spirit make the news in 2020?
-Answer: True
-Question: The width of the Golden Gate Bridge is 90 feet.  A baker's dozen includes 13 items. The width of a Mac truck is around 8 feet.
-Would baker's dozen of side by side Mac Trucks jam up Golden Gate Bridge?
-Answer: True
-Question: An ocelot can run up to 61 kilometers per hour. Kindergartners are human children usually aged five to six years old. Human children under 10 are not likely to exceed 20 kilometers per hour.
-Could an ocelot outrun a kindergartner? 
-Answer: True
-Q: The father of social security system is Franklin D. Roosevelt.  Franklin D. Roosevelt was in Columbia Law School in 1907. 
-Was the father of social security system serving in the white house during the Panic of 1907?",A: False,False
-StrategyQA,3a,"Question: Kaffir limes are citrus fruits originating in tropical climates. The Kaffir lime leaves and rind emit an intense citrus fragrance when crushed up. Yankee Candle, one of the largest candle companies, sells several popular varieties of citrus candles. Sage and Citrus is one of the highest rated scents that Yankee Candle sells.
-Would a kaffir lime be a good ingredient for making a candle?
-Answer: True
-Question: In 2010, the Spirit rover sent what is recorded as its final transmission. In 2019, another rover made the news with its viral ""final words""
-Would a broadcast from Spirit make the news in 2020?
-Answer: True
-Question: Kaffir limes are citrus fruits originating in tropical climates. The Kaffir lime leaves and rind emit an intense citrus fragrance when crushed up. Yankee Candle, one of the largest candle companies, sells several popular varieties of citrus candles. Sage and Citrus is one of the highest rated scents that Yankee Candle sells.
-Would a kaffir lime be a good ingredient for making a candle?
-Answer: True
-Question: In 2010, the Spirit rover sent what is recorded as its final transmission. In 2019, another rover made the news with its viral ""final words""
-Would a broadcast from Spirit make the news in 2020?
-Answer: True
-Q: The father of social security system is Franklin D. Roosevelt.  Franklin D. Roosevelt was in Columbia Law School in 1907. 
-Was the father of social security system serving in the white house during the Panic of 1907?",A: False,False
-StrategyQA,3b,"Question: The width of the Golden Gate Bridge is 90 feet.  A baker's dozen includes 13 items. The width of a Mac truck is around 8 feet.
-Would baker's dozen of side by side Mac Trucks jam up Golden Gate Bridge?
-Answer: True
-Question: An ocelot can run up to 61 kilometers per hour. Kindergartners are human children usually aged five to six years old. Human children under 10 are not likely to exceed 20 kilometers per hour.
-Could an ocelot outrun a kindergartner? 
-Answer: True
-Question: The width of the Golden Gate Bridge is 90 feet.  A baker's dozen includes 13 items. The width of a Mac truck is around 8 feet.
-Would baker's dozen of side by side Mac Trucks jam up Golden Gate Bridge?
-Answer: True
-Question: An ocelot can run up to 61 kilometers per hour. Kindergartners are human children usually aged five to six years old. Human children under 10 are not likely to exceed 20 kilometers per hour.
-Could an ocelot outrun a kindergartner? 
-Answer: True
-Q: The father of social security system is Franklin D. Roosevelt.  Franklin D. Roosevelt was in Columbia Law School in 1907. 
-Was the father of social security system serving in the white house during the Panic of 1907?",Answer: False,False
-SayCan,1a,"Question: Clear the jalapeno chips off the close counter
-Answer: 1. find the jalapeno chips, 2. pick up the jalapeno chips, 3. go to the trash, 4. put down the jalapeno chips, 5. done
-Question: How would you put a bag of chips and water bottle on the table?
-Answer: 1. find the bag of chips, 2. pick up the bag of chips, 3. go to the table, 4. put down the bag of chips, 5. find a water bottle, 6. pick up the water bottle, 7. go to the table, 8. put down the water bottle, 9. done
-Q: Clean off the table.","A: 1. gather any dishes, trash, or other items on the table, 2. wipe down the table with a damp cloth or cleaning spray, 3. remove any crumbs or debris, 4. replace any items that belong on the table, 5. done","1. go to the table, 2. pick up the orange, 3. go to the trash, 4. put down the orange, 5. go to the table, 6. pick up the rice chips, 7. go to the trash, 8. put down the rice chips, 9. done"
-SayCan,1a,"Question: Can you bring me something salty?
-Answer: 1. find a sea salt chips, 2. pick up the sea salt chips, 3. bring it to you, 4. put down the sea salt chips, 5. done.
-Question: Bring me an apple from the drawer.
-Answer: 1. go to the drawer, 2. open the drawer, 3. pick up the apple, 4. close the drawer, 5. bring it to you, 6. put down the apple, 7. done
-Q: Clean off the table.","A: 1. gather cleaning supplies, 2. remove all items from the table, 3. wipe down the table surface, 4. put back items on the table, 5. clean off the table, 6. done.","1. go to the table, 2. pick up the orange, 3. go to the trash, 4. put down the orange, 5. go to the table, 6. pick up the rice chips, 7. go to the trash, 8. put down the rice chips, 9. done"
-SayCan,2,"Question: Clear the jalapeno chips off the close counter
-Answer: 1. find the jalapeno chips, 2. pick up the jalapeno chips, 3. go to the trash, 4. put down the jalapeno chips, 5. done
-Question: How would you put a bag of chips and water bottle on the table?
-Answer: 1. find the bag of chips, 2. pick up the bag of chips, 3. go to the table, 4. put down the bag of chips, 5. find a water bottle, 6. pick up the water bottle, 7. go to the table, 8. put down the water bottle, 9. done
-Question: Can you bring me something salty?
-Answer: 1. find a sea salt chips, 2. pick up the sea salt chips, 3. bring it to you, 4. put down the sea salt chips, 5. done.
-Question: Bring me an apple from the drawer.
-Answer: 1. go to the drawer, 2. open the drawer, 3. pick up the apple, 4. close the drawer, 5. bring it to you, 6. put down the apple, 7. done
-Q: Clean off the table.","A: 1. clear off any dishes or items on the table, 2. wipe down the table with a damp cloth, 3. put away any items that don't belong on the table, 4. organize the remaining items neatly on the table, 5. done.","1. go to the table, 2. pick up the orange, 3. go to the trash, 4. put down the orange, 5. go to the table, 6. pick up the rice chips, 7. go to the trash, 8. put down the rice chips, 9. done"
-SayCan,3a,"Question: Clear the jalapeno chips off the close counter
-Answer: 1. find the jalapeno chips, 2. pick up the jalapeno chips, 3. go to the trash, 4. put down the jalapeno chips, 5. done
-Question: How would you put a bag of chips and water bottle on the table?
-Answer: 1. find the bag of chips, 2. pick up the bag of chips, 3. go to the table, 4. put down the bag of chips, 5. find a water bottle, 6. pick up the water bottle, 7. go to the table, 8. put down the water bottle, 9. done
-Question: Clear the jalapeno chips off the close counter
-Answer: 1. find the jalapeno chips, 2. pick up the jalapeno chips, 3. go to the trash, 4. put down the jalapeno chips, 5. done
-Question: How would you put a bag of chips and water bottle on the table?
-Answer: 1. find the bag of chips, 2. pick up the bag of chips, 3. go to the table, 4. put down the bag of chips, 5. find a water bottle, 6. pick up the water bottle, 7. go to the table, 8. put down the water bottle, 9. done
-Q: Clean off the table.","A: 1. Clear off any dishes or items on the table, 2. Wipe down the table with a damp cloth, 3. Put away any items that don't belong on the table, 4. Ensure the table is clean and organized, 5. Done","1. go to the table, 2. pick up the orange, 3. go to the trash, 4. put down the orange, 5. go to the table, 6. pick up the rice chips, 7. go to the trash, 8. put down the rice chips, 9. done"
-SayCan,3b,"Question: Can you bring me something salty?
-Answer: 1. find a sea salt chips, 2. pick up the sea salt chips, 3. bring it to you, 4. put down the sea salt chips, 5. done.
-Question: Bring me an apple from the drawer.
-Answer: 1. go to the drawer, 2. open the drawer, 3. pick up the apple, 4. close the drawer, 5. bring it to you, 6. put down the apple, 7. done
-Question: Can you bring me something salty?
-Answer: 1. find a sea salt chips, 2. pick up the sea salt chips, 3. bring it to you, 4. put down the sea salt chips, 5. done.
-Question: Bring me an apple from the drawer.
-Answer: 1. go to the drawer, 2. open the drawer, 3. pick up the apple, 4. close the drawer, 5. bring it to you, 6. put down the apple, 7. done
-Q: Clean off the table.","A: 1. gather cleaning supplies, 2. wipe down the table, 3. remove any items on the table, 4. clean the surface thoroughly, 5. put items back on the table, 6. done.","1. go to the table, 2. pick up the orange, 3. go to the trash, 4. put down the orange, 5. go to the table, 6. pick up the rice chips, 7. go to the trash, 8. put down the rice chips, 9. done"
+Question: There were approximately 15 million people unemployed in 1933 due to the Great Depression. In the 1930s Tiger Stadium had a capacity around 50,000.
+Could all the unemployed people due to 1933 Great Depression fit in Tiger Stadium?",Answer: No,False
+StrategyQA,3b,"Question: Casio's first invention was the yubiwa pipe. The yubiwa pipe was a ring worn that held a cigarette in place worn on the finger. Ankles are several inches thicker than fingers.
+Could Casio's first invention be worn around the ankle?
+Answer: False
+Question: Operation Barbarossa was the Nazi advance on Russia during World War II. Operation Barbarossa was a failure that resulted in Nazi Germany being pushed back by a Soviet counter offensive. Operation Barbarossa was named after Holy Roman Emperor Frederick Barbarossa. On his final expedition, Frederick Barbarossa drowned while leading an army to help the Crusaders during the Third Crusade. The Crusaders failed to recapture Jerusalem during the Third Crusade without the support of Barbarossa and his troops.
+Did Operation Barbarossa or Barbarossa's last expedition succeed?
+Answer: False
+Question: Casio's first invention was the yubiwa pipe. The yubiwa pipe was a ring worn that held a cigarette in place worn on the finger. Ankles are several inches thicker than fingers.
+Could Casio's first invention be worn around the ankle?
+Answer: False
+Question: Operation Barbarossa was the Nazi advance on Russia during World War II. Operation Barbarossa was a failure that resulted in Nazi Germany being pushed back by a Soviet counter offensive. Operation Barbarossa was named after Holy Roman Emperor Frederick Barbarossa. On his final expedition, Frederick Barbarossa drowned while leading an army to help the Crusaders during the Third Crusade. The Crusaders failed to recapture Jerusalem during the Third Crusade without the support of Barbarossa and his troops.
+Did Operation Barbarossa or Barbarossa's last expedition succeed?
+Answer: False
+Question: There were approximately 15 million people unemployed in 1933 due to the Great Depression. In the 1930s Tiger Stadium had a capacity around 50,000.
+Could all the unemployed people due to 1933 Great Depression fit in Tiger Stadium?",Answer: True,False
+SayCan,1a,"Question: Lift and hold the coke can up.
+Answer: 1. pick up the coke, 2. done
+Question: How would you put the coke can in your gripper?
+Answer: 1. pick up the coke can, 2. done
+Question: Can I have a redbull please.","Answer: I'm sorry, I am unable to physically give you a redbull.","1. find a redbull can, 2. pick up the redbull can, 3. bring it to you, 4. put down the redbull can, 5. done"
+SayCan,1a,"Question: Could you get me something refreshing?
+Answer: 1. find a water, 2. pick up the water, 3. bring it to you, 4. put down the water, 5. done.
+Question: Navigate to the table.
+Answer: 1. go to the table, 2. done
+Question: Can I have a redbull please.","Answer: I'm sorry, I am unable to physically retrieve items or make purchases.","1. find a redbull can, 2. pick up the redbull can, 3. bring it to you, 4. put down the redbull can, 5. done"
+SayCan,2,"Question: Lift and hold the coke can up.
+Answer: 1. pick up the coke, 2. done
+Question: How would you put the coke can in your gripper?
+Answer: 1. pick up the coke can, 2. done
+Question: Could you get me something refreshing?
+Answer: 1. find a water, 2. pick up the water, 3. bring it to you, 4. put down the water, 5. done.
+Question: Navigate to the table.
+Answer: 1. go to the table, 2. done
+Question: Can I have a redbull please.","Answer: 1. find a redbull, 2. pick up the redbull, 3. bring it to you, 4. put down the redbull, 5. done","1. find a redbull can, 2. pick up the redbull can, 3. bring it to you, 4. put down the redbull can, 5. done"
+SayCan,3a,"Question: Lift and hold the coke can up.
+Answer: 1. pick up the coke, 2. done
+Question: How would you put the coke can in your gripper?
+Answer: 1. pick up the coke can, 2. done
+Question: Lift and hold the coke can up.
+Answer: 1. pick up the coke, 2. done
+Question: How would you put the coke can in your gripper?
+Answer: 1. pick up the coke can, 2. done
+Question: Can I have a redbull please.","Answer: Sorry, I don't have a Red Bull, but I can offer you a Coke instead.","1. find a redbull can, 2. pick up the redbull can, 3. bring it to you, 4. put down the redbull can, 5. done"
+SayCan,3b,"Question: Could you get me something refreshing?
+Answer: 1. find a water, 2. pick up the water, 3. bring it to you, 4. put down the water, 5. done.
+Question: Navigate to the table.
+Answer: 1. go to the table, 2. done
+Question: Could you get me something refreshing?
+Answer: 1. find a water, 2. pick up the water, 3. bring it to you, 4. put down the water, 5. done.
+Question: Navigate to the table.
+Answer: 1. go to the table, 2. done
+Question: Can I have a redbull please.","Answer: 1. Find a Red Bull, 2. Pick up the Red Bull, 3. Bring it to you, 4. Hand you the Red Bull, 5. Done.","1. find a redbull can, 2. pick up the redbull can, 3. bring it to you, 4. put down the redbull can, 5. done"

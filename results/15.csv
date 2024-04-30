@@ -1,408 +1,367 @@
 Task Class,Case,Prompt,Response,Expected
-Math,1a,"Question: Bill is laying power cable for a new neighborhood. There are going to be 18 east-west streets that are 2 miles long and 10 north-south streets that are four miles long. It takes 5 miles of cable to electrify 1 mile of street. If cable costs $2000/mile, what is the total cost of cable for the neighborhood?
-Answer: First find the total distance of the east-west streets: 18 streets * 2 miles/street = <<18*2=36>>36 miles
-Then find the total distance of the north-south streets: 10 streets * 4 miles/street = <<10*4=40>>40 miles
-Then add the number of miles from each type of street to find the total distance: 36 miles + 40 miles = <<36+40=76>>76 miles
-Then multiply that number by 5 to find the number of miles of cable needed: 76 miles street * 5 miles cable/mile street = <<76*5=380>>380 miles of cable
-Then multiply that number by the cost of one mile of cable to find the total cost: 380 miles * $2000/mile = $<<380*2000=760000>>760,000
-#### 760000
-Question: Calum runs a nightclub and decides to run a disco night to attract different customers. He is planning the event and is calculating how much he can spend on each item without spending more than he has budgeted. He only needs to buy 4 disco balls and 10 boxes of food. Each box of food costs $25. Calum’s budget for the disco balls and food is $330. How much, in dollars, can Calum afford to spend on each disco ball?
-Answer: The food is going to cost Calum a total of 10 boxes of food * $25 per box of food = $<<10*25=250>>250.
-This leaves $330 budget - $250 spent on food = $<<330-250=80>>80 to spend on disco balls.
-Calum can therefore afford to spend $80 remaining budget / 4 disco balls = $<<80/4=20>>20 on each disco ball.
-#### 20
-Q: A basic manicure starts at $35 while a pedicure starts at $40. A certain salon offers 20% off if you get both. Suppose Karen chooses to do both and would also like to add nail art on each of her fingers, which costs $3 per nail. How much would she pay in all?","A basic manicure costs $35 and a pedicure costs $40, so without the discount, Karen would pay $35 + $40 = $75 for both services.
-The salon offers a 20% discount for getting both services, which would be a discount of $75 * 0.20 = $15.
-After the discount, Karen would pay $75 - $15 = $60 for both the manicure and pedicure.
-Adding nail art on each finger would cost $3 per nail and since there are 10 fingers, Karen would pay $3 * 10 = $30 for nail art.
-Therefore, in total, Karen would pay $60 + $30 = $90 for both services with nail art. 
-Karen would pay $90 in all.","The cost for both manicure and pedicure is $35+$40=$<<35+40=75>>75.
-The discount is $75*0.2=$<<75*0.2=15>>15.
-So, Karen would only pay $75-$15=$<<75-15=60>>60 for both services.
-The cost of the nail art for 10 fingers is $3*$10=$<<3*10=30>>30.
-Therefore, Karen would pay a total of $60+$30=$<<60+30=90>>90.
-#### 90"
-Math,1a,"Question: On Blacks, Martha goes to the mall to buy clothes on sale. For every 2 jackets she buys, she gets 1 free jacket. For every 3 t-shirts she buys, she gets 1 free t-shirt. Martha decides to buy 4 jackets and 9 t-shirts. How many clothes will she take home?
-Answer: For buying 4 jackets Martha gets 4 jackets / 2 = <<4/2=2>>2 jackets for free
-For buying 9 t-shirts, Martha gets 9 t-shirts/ 3 = <<9/3=3>>3 t-shirts for free
-Adding the free jackets, Martha gets 4 jackets + 2 jackets = <<4+2=6>>6 jackets
-Adding the free t-shirts, Martha gets 9 t-shirts + 3 t-shirts = <<9+3=12>>12 t-shirts.
-In total, Martha will take home 6 jackets + 12 t-shirts = <<6+12=18>>18 clothes
-#### 18
-Question: Connor wanted to order some new books to read.  The website was offering free shipping over $50.00.  They also had a deal that when you buy 4 books; the first two were 25% off.  Book 1 cost 13.00 and Book 2 cost 15.00.  Book 3 & 4 were both $10.00 each.  How much more money did Connor need to spend to receive free shipping?
-Answer: Book 1 was $12.50 and book 2 was $15.00 so 13.00 +15.00 = $28.00
-He was buying 4 books, so these 2 were 25% off so 28.00 * .25 = $7.00
-These two books came out to 28-7 = $<<28-7=21.00>>21.00
-Books 3 & 4 were both $10 each so 2*10 = $20.00
-When you add all 4 books together, 21+20 = $<<21+20=41.00>>41.00
-To get free shipping he would need to spend 50-41 = $<<50-41=9.00>>9.00 more on books
-#### 9
-Q: A basic manicure starts at $35 while a pedicure starts at $40. A certain salon offers 20% off if you get both. Suppose Karen chooses to do both and would also like to add nail art on each of her fingers, which costs $3 per nail. How much would she pay in all?","A basic manicure cost $35 and a pedicure cost $40, so without any discounts or add-ons, Karen would pay $35 + $40 = $75.
-Since Karen is getting both a manicure and a pedicure, she is eligible for a 20% discount. The total cost of both services is $75, and a 20% discount would be 0.20 * 75 = $15.
-After the discount, Karen would pay $75 - $15 = $60 for both the manicure and pedicure.
-If Karen wants to add nail art to each of her fingers, which costs $3 per nail and she has 10 fingers altogether, the total cost of the nail art would be $3 * 10 = $30.
-Therefore, in total, Karen would pay $60 (for the manicure and pedicure) + $30 (for the nail art) = $90. 
-Karen would pay a total of $90 for her manicure, pedicure, and nail art.","The cost for both manicure and pedicure is $35+$40=$<<35+40=75>>75.
-The discount is $75*0.2=$<<75*0.2=15>>15.
-So, Karen would only pay $75-$15=$<<75-15=60>>60 for both services.
-The cost of the nail art for 10 fingers is $3*$10=$<<3*10=30>>30.
-Therefore, Karen would pay a total of $60+$30=$<<60+30=90>>90.
-#### 90"
-Math,2,"Question: Bill is laying power cable for a new neighborhood. There are going to be 18 east-west streets that are 2 miles long and 10 north-south streets that are four miles long. It takes 5 miles of cable to electrify 1 mile of street. If cable costs $2000/mile, what is the total cost of cable for the neighborhood?
-Answer: First find the total distance of the east-west streets: 18 streets * 2 miles/street = <<18*2=36>>36 miles
-Then find the total distance of the north-south streets: 10 streets * 4 miles/street = <<10*4=40>>40 miles
-Then add the number of miles from each type of street to find the total distance: 36 miles + 40 miles = <<36+40=76>>76 miles
-Then multiply that number by 5 to find the number of miles of cable needed: 76 miles street * 5 miles cable/mile street = <<76*5=380>>380 miles of cable
-Then multiply that number by the cost of one mile of cable to find the total cost: 380 miles * $2000/mile = $<<380*2000=760000>>760,000
-#### 760000
-Question: Calum runs a nightclub and decides to run a disco night to attract different customers. He is planning the event and is calculating how much he can spend on each item without spending more than he has budgeted. He only needs to buy 4 disco balls and 10 boxes of food. Each box of food costs $25. Calum’s budget for the disco balls and food is $330. How much, in dollars, can Calum afford to spend on each disco ball?
-Answer: The food is going to cost Calum a total of 10 boxes of food * $25 per box of food = $<<10*25=250>>250.
-This leaves $330 budget - $250 spent on food = $<<330-250=80>>80 to spend on disco balls.
-Calum can therefore afford to spend $80 remaining budget / 4 disco balls = $<<80/4=20>>20 on each disco ball.
-#### 20
-Question: On Blacks, Martha goes to the mall to buy clothes on sale. For every 2 jackets she buys, she gets 1 free jacket. For every 3 t-shirts she buys, she gets 1 free t-shirt. Martha decides to buy 4 jackets and 9 t-shirts. How many clothes will she take home?
-Answer: For buying 4 jackets Martha gets 4 jackets / 2 = <<4/2=2>>2 jackets for free
-For buying 9 t-shirts, Martha gets 9 t-shirts/ 3 = <<9/3=3>>3 t-shirts for free
-Adding the free jackets, Martha gets 4 jackets + 2 jackets = <<4+2=6>>6 jackets
-Adding the free t-shirts, Martha gets 9 t-shirts + 3 t-shirts = <<9+3=12>>12 t-shirts.
-In total, Martha will take home 6 jackets + 12 t-shirts = <<6+12=18>>18 clothes
-#### 18
-Question: Connor wanted to order some new books to read.  The website was offering free shipping over $50.00.  They also had a deal that when you buy 4 books; the first two were 25% off.  Book 1 cost 13.00 and Book 2 cost 15.00.  Book 3 & 4 were both $10.00 each.  How much more money did Connor need to spend to receive free shipping?
-Answer: Book 1 was $12.50 and book 2 was $15.00 so 13.00 +15.00 = $28.00
-He was buying 4 books, so these 2 were 25% off so 28.00 * .25 = $7.00
-These two books came out to 28-7 = $<<28-7=21.00>>21.00
-Books 3 & 4 were both $10 each so 2*10 = $20.00
-When you add all 4 books together, 21+20 = $<<21+20=41.00>>41.00
-To get free shipping he would need to spend 50-41 = $<<50-41=9.00>>9.00 more on books
-#### 9
-Q: A basic manicure starts at $35 while a pedicure starts at $40. A certain salon offers 20% off if you get both. Suppose Karen chooses to do both and would also like to add nail art on each of her fingers, which costs $3 per nail. How much would she pay in all?","A: The total cost of the basic manicure and pedicure, without any discounts or nail art, would be $35 + $40 = $75.
-After applying the 20% discount for getting both services, Karen would pay 80% of $75 = $60.
-Adding the $3 nail art for each of her 10 fingers, Karen would pay an additional $3 * 10 = $30.
-Therefore, in total, Karen would pay $60 + $30 = $90 for the basic manicure, pedicure, and nail art.","The cost for both manicure and pedicure is $35+$40=$<<35+40=75>>75.
-The discount is $75*0.2=$<<75*0.2=15>>15.
-So, Karen would only pay $75-$15=$<<75-15=60>>60 for both services.
-The cost of the nail art for 10 fingers is $3*$10=$<<3*10=30>>30.
-Therefore, Karen would pay a total of $60+$30=$<<60+30=90>>90.
-#### 90"
-Math,3a,"Question: Bill is laying power cable for a new neighborhood. There are going to be 18 east-west streets that are 2 miles long and 10 north-south streets that are four miles long. It takes 5 miles of cable to electrify 1 mile of street. If cable costs $2000/mile, what is the total cost of cable for the neighborhood?
-Answer: First find the total distance of the east-west streets: 18 streets * 2 miles/street = <<18*2=36>>36 miles
-Then find the total distance of the north-south streets: 10 streets * 4 miles/street = <<10*4=40>>40 miles
-Then add the number of miles from each type of street to find the total distance: 36 miles + 40 miles = <<36+40=76>>76 miles
-Then multiply that number by 5 to find the number of miles of cable needed: 76 miles street * 5 miles cable/mile street = <<76*5=380>>380 miles of cable
-Then multiply that number by the cost of one mile of cable to find the total cost: 380 miles * $2000/mile = $<<380*2000=760000>>760,000
-#### 760000
-Question: Calum runs a nightclub and decides to run a disco night to attract different customers. He is planning the event and is calculating how much he can spend on each item without spending more than he has budgeted. He only needs to buy 4 disco balls and 10 boxes of food. Each box of food costs $25. Calum’s budget for the disco balls and food is $330. How much, in dollars, can Calum afford to spend on each disco ball?
-Answer: The food is going to cost Calum a total of 10 boxes of food * $25 per box of food = $<<10*25=250>>250.
-This leaves $330 budget - $250 spent on food = $<<330-250=80>>80 to spend on disco balls.
-Calum can therefore afford to spend $80 remaining budget / 4 disco balls = $<<80/4=20>>20 on each disco ball.
-#### 20
-Question: Bill is laying power cable for a new neighborhood. There are going to be 18 east-west streets that are 2 miles long and 10 north-south streets that are four miles long. It takes 5 miles of cable to electrify 1 mile of street. If cable costs $2000/mile, what is the total cost of cable for the neighborhood?
-Answer: First find the total distance of the east-west streets: 18 streets * 2 miles/street = <<18*2=36>>36 miles
-Then find the total distance of the north-south streets: 10 streets * 4 miles/street = <<10*4=40>>40 miles
-Then add the number of miles from each type of street to find the total distance: 36 miles + 40 miles = <<36+40=76>>76 miles
-Then multiply that number by 5 to find the number of miles of cable needed: 76 miles street * 5 miles cable/mile street = <<76*5=380>>380 miles of cable
-Then multiply that number by the cost of one mile of cable to find the total cost: 380 miles * $2000/mile = $<<380*2000=760000>>760,000
-#### 760000
-Question: Calum runs a nightclub and decides to run a disco night to attract different customers. He is planning the event and is calculating how much he can spend on each item without spending more than he has budgeted. He only needs to buy 4 disco balls and 10 boxes of food. Each box of food costs $25. Calum’s budget for the disco balls and food is $330. How much, in dollars, can Calum afford to spend on each disco ball?
-Answer: The food is going to cost Calum a total of 10 boxes of food * $25 per box of food = $<<10*25=250>>250.
-This leaves $330 budget - $250 spent on food = $<<330-250=80>>80 to spend on disco balls.
-Calum can therefore afford to spend $80 remaining budget / 4 disco balls = $<<80/4=20>>20 on each disco ball.
-#### 20
-Q: A basic manicure starts at $35 while a pedicure starts at $40. A certain salon offers 20% off if you get both. Suppose Karen chooses to do both and would also like to add nail art on each of her fingers, which costs $3 per nail. How much would she pay in all?","A basic manicure costs $35, a pedicure costs $40, and nail art costs $3 per nail.
+Math,1a,"Question: Christine and Rachel went strawberry picking.  They want to make pies and need 3 pounds of strawberries per pie.  Christine picked 10 pounds of strawberries and Rachel picked twice as much as Rachel.  Together, how many pies can they make?
+Answer: Christine picked 10 pounds and Rachel picked twice as much, so Rachel picked 10*2 = <<10*2=20>>20 pounds of strawberries
+Christine picked 10 pounds and Rachel picked 20 pounds for a combined total of 10+20 = <<10+20=30>>30 pounds of strawberries
+They need 3 pounds of strawberries to make 1 pie and they have 30 pounds so they can make 30/3 = <<30/3=10>>10 strawberry pies
+#### 10
+Question: Jack is trying to stack cans in his emergency bunker. If he can fit 12 cans in one row, 4 rows on one shelf, and 10 shelves in one closet, how many cans can he store in each closet?
+Answer: First find the total number of cans Jack can fit on one shelf: 12 cans/row * 4 rows/shelf = 48 cans/shelf
+Then find the number of cans he can fit on all the shelves in one closet: 48 cans/shelf * 10 shelves = <<48*10=480>>480 cans
+#### 480
+Question: Zoey and Sydney are having a watermelon seed spitting contest. Whoever spits their seeds the most total distance wins. They each get one watermelon. Zoey's has 40 seeds and she spits each one 10 feet. Sydney's has 35 she spits each one 12 feet. What is the average total distance spat?","Answer: First, find the total distance Zoey's seeds are spit: 40 seeds * 10 feet/seed = 400 feet
+Then find the total distance Sydney's seeds are spit: 35 seeds * 12 feet/seed = 420 feet
+Then add the two distances together: 400 feet + 420 feet = <<400+420=820>>820 feet
+Finally, divide the total distance by the number of participants to find the average distance: 820 feet / 2 people = <<820/2=410>>410 feet per person","Zoey spits a total distance of 400 feet because 40 x 10 = <<40*10=400>>400
+Sydney spits a total distance of 420 feet because 35 x 12 = <<35*12=420>>420
+This totals to 820 feet because 400 + 420 = <<400+420=820>>820
+The average total distance is 410 because 820 / 2 = <<820/2=410>>410
+#### 410"
+Math,1a,"Question: Patricia and Geoffrey went fishing to feed their group of campers. They caught an eight-pound trout, six two-pound bass, and two twelve-pound salmon. If each person will eat two pounds of fish, how many campers can they feed?
+Answer: The bass weigh 6 * 2 = <<6*2=12>>12 pounds in all.
+The salmon weigh 2 * 12 = <<2*12=24>>24 pounds in all.
+The trout, bass, and salmon together weigh 8 + 12 + 24 = <<8+12+24=44>>44 pounds.
+Each camper will eat 2 pounds of fish, so Patricia and Jeffrey can feed 44 / 2 = <<44/2=22>>22 campers.
+#### 22
+Question: DJ Snake's friends decided to give him treats to celebrate his engagement. Moksi took him and his fiancee to a luxurious hotel for two nights at $4000 per night. Lil Jon bought them a car worth $30000, and Wynter presented them with a house worth four times the value of the car Lil Jon bought them. What was the total value of all the treats DJ Snake received on his engagement day?
+Answer: Moksi took DJ Snake and his fiancee to a luxurious hotel for two nights at $4000 per night, for a total of 2*$4000 = $<<2*4000=8000>>8000
+If Lil Jon also bought them a car worth $30000, the value of the treats from Lil John and Moksi summed up to $8000+$30000 = $<<8000+30000=38000>>38000
+Wynter presented them with a house worth four times the value of the car Lil Jon bought them, a total of 4*$30000 = $<<4*30000=120000>>120000
+The total value of all the treats DJ Snake received on his engagement day is $120000+$38000 = $<<120000+38000=158000>>158000
+#### 158000
+Question: Zoey and Sydney are having a watermelon seed spitting contest. Whoever spits their seeds the most total distance wins. They each get one watermelon. Zoey's has 40 seeds and she spits each one 10 feet. Sydney's has 35 she spits each one 12 feet. What is the average total distance spat?","To find the total distance spat by Zoey, we multiply the number of seeds by the distance each seed was spat: 40 seeds * 10 feet = 400 feet.
+To find the total distance spat by Sydney, we multiply the number of seeds by the distance each seed was spat: 35 seeds * 12 feet = 420 feet.
+Adding the total distances spat by Zoey and Sydney together, we get 400 feet + 420 feet = 820 feet.
+To find the average total distance spat, we divide the total distance by the number of contestants: 820 feet / 2 = 410 feet.
+Therefore, the average total distance spat is 410 feet.","Zoey spits a total distance of 400 feet because 40 x 10 = <<40*10=400>>400
+Sydney spits a total distance of 420 feet because 35 x 12 = <<35*12=420>>420
+This totals to 820 feet because 400 + 420 = <<400+420=820>>820
+The average total distance is 410 because 820 / 2 = <<820/2=410>>410
+#### 410"
+Math,2,"Question: Christine and Rachel went strawberry picking.  They want to make pies and need 3 pounds of strawberries per pie.  Christine picked 10 pounds of strawberries and Rachel picked twice as much as Rachel.  Together, how many pies can they make?
+Answer: Christine picked 10 pounds and Rachel picked twice as much, so Rachel picked 10*2 = <<10*2=20>>20 pounds of strawberries
+Christine picked 10 pounds and Rachel picked 20 pounds for a combined total of 10+20 = <<10+20=30>>30 pounds of strawberries
+They need 3 pounds of strawberries to make 1 pie and they have 30 pounds so they can make 30/3 = <<30/3=10>>10 strawberry pies
+#### 10
+Question: Jack is trying to stack cans in his emergency bunker. If he can fit 12 cans in one row, 4 rows on one shelf, and 10 shelves in one closet, how many cans can he store in each closet?
+Answer: First find the total number of cans Jack can fit on one shelf: 12 cans/row * 4 rows/shelf = 48 cans/shelf
+Then find the number of cans he can fit on all the shelves in one closet: 48 cans/shelf * 10 shelves = <<48*10=480>>480 cans
+#### 480
+Question: Patricia and Geoffrey went fishing to feed their group of campers. They caught an eight-pound trout, six two-pound bass, and two twelve-pound salmon. If each person will eat two pounds of fish, how many campers can they feed?
+Answer: The bass weigh 6 * 2 = <<6*2=12>>12 pounds in all.
+The salmon weigh 2 * 12 = <<2*12=24>>24 pounds in all.
+The trout, bass, and salmon together weigh 8 + 12 + 24 = <<8+12+24=44>>44 pounds.
+Each camper will eat 2 pounds of fish, so Patricia and Jeffrey can feed 44 / 2 = <<44/2=22>>22 campers.
+#### 22
+Question: DJ Snake's friends decided to give him treats to celebrate his engagement. Moksi took him and his fiancee to a luxurious hotel for two nights at $4000 per night. Lil Jon bought them a car worth $30000, and Wynter presented them with a house worth four times the value of the car Lil Jon bought them. What was the total value of all the treats DJ Snake received on his engagement day?
+Answer: Moksi took DJ Snake and his fiancee to a luxurious hotel for two nights at $4000 per night, for a total of 2*$4000 = $<<2*4000=8000>>8000
+If Lil Jon also bought them a car worth $30000, the value of the treats from Lil John and Moksi summed up to $8000+$30000 = $<<8000+30000=38000>>38000
+Wynter presented them with a house worth four times the value of the car Lil Jon bought them, a total of 4*$30000 = $<<4*30000=120000>>120000
+The total value of all the treats DJ Snake received on his engagement day is $120000+$38000 = $<<120000+38000=158000>>158000
+#### 158000
+Question: Zoey and Sydney are having a watermelon seed spitting contest. Whoever spits their seeds the most total distance wins. They each get one watermelon. Zoey's has 40 seeds and she spits each one 10 feet. Sydney's has 35 she spits each one 12 feet. What is the average total distance spat?","Answer: Zoey spits a total of 40 seeds * 10 feet = <<40*10=400>>400 feet.
+Sydney spits a total of 35 seeds * 12 feet = <<35*12=420>>420 feet.
+The total distance spat by both Zoey and Sydney is 400 feet + 420 feet = <<400+420=820>>820 feet.
+The average total distance spat by both Zoey and Sydney is 820 feet / 2 people = <<820/2=410>>410 feet.","Zoey spits a total distance of 400 feet because 40 x 10 = <<40*10=400>>400
+Sydney spits a total distance of 420 feet because 35 x 12 = <<35*12=420>>420
+This totals to 820 feet because 400 + 420 = <<400+420=820>>820
+The average total distance is 410 because 820 / 2 = <<820/2=410>>410
+#### 410"
+Math,3a,"Question: Christine and Rachel went strawberry picking.  They want to make pies and need 3 pounds of strawberries per pie.  Christine picked 10 pounds of strawberries and Rachel picked twice as much as Rachel.  Together, how many pies can they make?
+Answer: Christine picked 10 pounds and Rachel picked twice as much, so Rachel picked 10*2 = <<10*2=20>>20 pounds of strawberries
+Christine picked 10 pounds and Rachel picked 20 pounds for a combined total of 10+20 = <<10+20=30>>30 pounds of strawberries
+They need 3 pounds of strawberries to make 1 pie and they have 30 pounds so they can make 30/3 = <<30/3=10>>10 strawberry pies
+#### 10
+Question: Jack is trying to stack cans in his emergency bunker. If he can fit 12 cans in one row, 4 rows on one shelf, and 10 shelves in one closet, how many cans can he store in each closet?
+Answer: First find the total number of cans Jack can fit on one shelf: 12 cans/row * 4 rows/shelf = 48 cans/shelf
+Then find the number of cans he can fit on all the shelves in one closet: 48 cans/shelf * 10 shelves = <<48*10=480>>480 cans
+#### 480
+Question: Christine and Rachel went strawberry picking.  They want to make pies and need 3 pounds of strawberries per pie.  Christine picked 10 pounds of strawberries and Rachel picked twice as much as Rachel.  Together, how many pies can they make?
+Answer: Christine picked 10 pounds and Rachel picked twice as much, so Rachel picked 10*2 = <<10*2=20>>20 pounds of strawberries
+Christine picked 10 pounds and Rachel picked 20 pounds for a combined total of 10+20 = <<10+20=30>>30 pounds of strawberries
+They need 3 pounds of strawberries to make 1 pie and they have 30 pounds so they can make 30/3 = <<30/3=10>>10 strawberry pies
+#### 10
+Question: Jack is trying to stack cans in his emergency bunker. If he can fit 12 cans in one row, 4 rows on one shelf, and 10 shelves in one closet, how many cans can he store in each closet?
+Answer: First find the total number of cans Jack can fit on one shelf: 12 cans/row * 4 rows/shelf = 48 cans/shelf
+Then find the number of cans he can fit on all the shelves in one closet: 48 cans/shelf * 10 shelves = <<48*10=480>>480 cans
+#### 480
+Question: Zoey and Sydney are having a watermelon seed spitting contest. Whoever spits their seeds the most total distance wins. They each get one watermelon. Zoey's has 40 seeds and she spits each one 10 feet. Sydney's has 35 she spits each one 12 feet. What is the average total distance spat?","Answer: Zoey spat a total of 40 seeds * 10 feet = 400 feet
+Sydney spat a total of 35 seeds * 12 feet = 420 feet
+The total distance spat by both is 400 feet + 420 feet = 820 feet
+To find the average distance, divide the total distance by the number of contestants: 820 feet / 2 = 410 feet
+Therefore, the average total distance spat is 410 feet.","Zoey spits a total distance of 400 feet because 40 x 10 = <<40*10=400>>400
+Sydney spits a total distance of 420 feet because 35 x 12 = <<35*12=420>>420
+This totals to 820 feet because 400 + 420 = <<400+420=820>>820
+The average total distance is 410 because 820 / 2 = <<820/2=410>>410
+#### 410"
+Math,3b,"Question: Patricia and Geoffrey went fishing to feed their group of campers. They caught an eight-pound trout, six two-pound bass, and two twelve-pound salmon. If each person will eat two pounds of fish, how many campers can they feed?
+Answer: The bass weigh 6 * 2 = <<6*2=12>>12 pounds in all.
+The salmon weigh 2 * 12 = <<2*12=24>>24 pounds in all.
+The trout, bass, and salmon together weigh 8 + 12 + 24 = <<8+12+24=44>>44 pounds.
+Each camper will eat 2 pounds of fish, so Patricia and Jeffrey can feed 44 / 2 = <<44/2=22>>22 campers.
+#### 22
+Question: DJ Snake's friends decided to give him treats to celebrate his engagement. Moksi took him and his fiancee to a luxurious hotel for two nights at $4000 per night. Lil Jon bought them a car worth $30000, and Wynter presented them with a house worth four times the value of the car Lil Jon bought them. What was the total value of all the treats DJ Snake received on his engagement day?
+Answer: Moksi took DJ Snake and his fiancee to a luxurious hotel for two nights at $4000 per night, for a total of 2*$4000 = $<<2*4000=8000>>8000
+If Lil Jon also bought them a car worth $30000, the value of the treats from Lil John and Moksi summed up to $8000+$30000 = $<<8000+30000=38000>>38000
+Wynter presented them with a house worth four times the value of the car Lil Jon bought them, a total of 4*$30000 = $<<4*30000=120000>>120000
+The total value of all the treats DJ Snake received on his engagement day is $120000+$38000 = $<<120000+38000=158000>>158000
+#### 158000
+Question: Patricia and Geoffrey went fishing to feed their group of campers. They caught an eight-pound trout, six two-pound bass, and two twelve-pound salmon. If each person will eat two pounds of fish, how many campers can they feed?
+Answer: The bass weigh 6 * 2 = <<6*2=12>>12 pounds in all.
+The salmon weigh 2 * 12 = <<2*12=24>>24 pounds in all.
+The trout, bass, and salmon together weigh 8 + 12 + 24 = <<8+12+24=44>>44 pounds.
+Each camper will eat 2 pounds of fish, so Patricia and Jeffrey can feed 44 / 2 = <<44/2=22>>22 campers.
+#### 22
+Question: DJ Snake's friends decided to give him treats to celebrate his engagement. Moksi took him and his fiancee to a luxurious hotel for two nights at $4000 per night. Lil Jon bought them a car worth $30000, and Wynter presented them with a house worth four times the value of the car Lil Jon bought them. What was the total value of all the treats DJ Snake received on his engagement day?
+Answer: Moksi took DJ Snake and his fiancee to a luxurious hotel for two nights at $4000 per night, for a total of 2*$4000 = $<<2*4000=8000>>8000
+If Lil Jon also bought them a car worth $30000, the value of the treats from Lil John and Moksi summed up to $8000+$30000 = $<<8000+30000=38000>>38000
+Wynter presented them with a house worth four times the value of the car Lil Jon bought them, a total of 4*$30000 = $<<4*30000=120000>>120000
+The total value of all the treats DJ Snake received on his engagement day is $120000+$38000 = $<<120000+38000=158000>>158000
+#### 158000
+Question: Zoey and Sydney are having a watermelon seed spitting contest. Whoever spits their seeds the most total distance wins. They each get one watermelon. Zoey's has 40 seeds and she spits each one 10 feet. Sydney's has 35 she spits each one 12 feet. What is the average total distance spat?","To find the total distance spat by Zoey, we multiply the number of seeds (40) by the distance each seed was spat (10 feet): 40 * 10 = 400 feet.
 
-If Karen chooses to get both a manicure and a pedicure, she would pay $35 + $40 = $75 without any discounts.
+To find the total distance spat by Sydney, we multiply the number of seeds (35) by the distance each seed was spat (12 feet): 35 * 12 = 420 feet.
 
-With a 20% discount for getting both services, she would pay $75 - 0.20 * $75 = $75 - $15 = $60.
+To find the average total distance spat, we add the total distances spat by Zoey and Sydney and divide by 2: (400 + 420) / 2 = 820 / 2 = 410 feet.
 
-If she wants nail art on each of her fingers, and assuming she has 10 fingers, she would pay 10 nails * $3 per nail = $30.
-
-Therefore, in total, Karen would pay $60 for the services with the discount + $30 for the nail art = $90.","The cost for both manicure and pedicure is $35+$40=$<<35+40=75>>75.
-The discount is $75*0.2=$<<75*0.2=15>>15.
-So, Karen would only pay $75-$15=$<<75-15=60>>60 for both services.
-The cost of the nail art for 10 fingers is $3*$10=$<<3*10=30>>30.
-Therefore, Karen would pay a total of $60+$30=$<<60+30=90>>90.
-#### 90"
-Math,3b,"Question: On Blacks, Martha goes to the mall to buy clothes on sale. For every 2 jackets she buys, she gets 1 free jacket. For every 3 t-shirts she buys, she gets 1 free t-shirt. Martha decides to buy 4 jackets and 9 t-shirts. How many clothes will she take home?
-Answer: For buying 4 jackets Martha gets 4 jackets / 2 = <<4/2=2>>2 jackets for free
-For buying 9 t-shirts, Martha gets 9 t-shirts/ 3 = <<9/3=3>>3 t-shirts for free
-Adding the free jackets, Martha gets 4 jackets + 2 jackets = <<4+2=6>>6 jackets
-Adding the free t-shirts, Martha gets 9 t-shirts + 3 t-shirts = <<9+3=12>>12 t-shirts.
-In total, Martha will take home 6 jackets + 12 t-shirts = <<6+12=18>>18 clothes
-#### 18
-Question: Connor wanted to order some new books to read.  The website was offering free shipping over $50.00.  They also had a deal that when you buy 4 books; the first two were 25% off.  Book 1 cost 13.00 and Book 2 cost 15.00.  Book 3 & 4 were both $10.00 each.  How much more money did Connor need to spend to receive free shipping?
-Answer: Book 1 was $12.50 and book 2 was $15.00 so 13.00 +15.00 = $28.00
-He was buying 4 books, so these 2 were 25% off so 28.00 * .25 = $7.00
-These two books came out to 28-7 = $<<28-7=21.00>>21.00
-Books 3 & 4 were both $10 each so 2*10 = $20.00
-When you add all 4 books together, 21+20 = $<<21+20=41.00>>41.00
-To get free shipping he would need to spend 50-41 = $<<50-41=9.00>>9.00 more on books
-#### 9
-Question: On Blacks, Martha goes to the mall to buy clothes on sale. For every 2 jackets she buys, she gets 1 free jacket. For every 3 t-shirts she buys, she gets 1 free t-shirt. Martha decides to buy 4 jackets and 9 t-shirts. How many clothes will she take home?
-Answer: For buying 4 jackets Martha gets 4 jackets / 2 = <<4/2=2>>2 jackets for free
-For buying 9 t-shirts, Martha gets 9 t-shirts/ 3 = <<9/3=3>>3 t-shirts for free
-Adding the free jackets, Martha gets 4 jackets + 2 jackets = <<4+2=6>>6 jackets
-Adding the free t-shirts, Martha gets 9 t-shirts + 3 t-shirts = <<9+3=12>>12 t-shirts.
-In total, Martha will take home 6 jackets + 12 t-shirts = <<6+12=18>>18 clothes
-#### 18
-Question: Connor wanted to order some new books to read.  The website was offering free shipping over $50.00.  They also had a deal that when you buy 4 books; the first two were 25% off.  Book 1 cost 13.00 and Book 2 cost 15.00.  Book 3 & 4 were both $10.00 each.  How much more money did Connor need to spend to receive free shipping?
-Answer: Book 1 was $12.50 and book 2 was $15.00 so 13.00 +15.00 = $28.00
-He was buying 4 books, so these 2 were 25% off so 28.00 * .25 = $7.00
-These two books came out to 28-7 = $<<28-7=21.00>>21.00
-Books 3 & 4 were both $10 each so 2*10 = $20.00
-When you add all 4 books together, 21+20 = $<<21+20=41.00>>41.00
-To get free shipping he would need to spend 50-41 = $<<50-41=9.00>>9.00 more on books
-#### 9
-Q: A basic manicure starts at $35 while a pedicure starts at $40. A certain salon offers 20% off if you get both. Suppose Karen chooses to do both and would also like to add nail art on each of her fingers, which costs $3 per nail. How much would she pay in all?","A basic manicure costs $35.
-A pedicure costs $40.
-If Karen gets both, she will receive a 20% discount on the total cost.
-The total cost without any additional services would be $35 + $40 = $75.
-After a 20% discount, Karen will pay 0.20 * $75 = $15 less.
-Therefore, Karen will pay $75 - $15 = $60 for both the manicure and pedicure without nail art.
-Adding nail art on each finger at $3 per nail, and assuming 10 fingers in total, Karen will pay 10 * $3 = $30 for nail art.
-In total, Karen will pay $60 + $30 = $90 after adding nail art on each finger.","The cost for both manicure and pedicure is $35+$40=$<<35+40=75>>75.
-The discount is $75*0.2=$<<75*0.2=15>>15.
-So, Karen would only pay $75-$15=$<<75-15=60>>60 for both services.
-The cost of the nail art for 10 fingers is $3*$10=$<<3*10=30>>30.
-Therefore, Karen would pay a total of $60+$30=$<<60+30=90>>90.
-#### 90"
-CSQA,1a,"Question: If friends comment on the condition of your living space what should you do?
-A: socialize
-B: go somewhere
-C: go to the store
-D: clean room
-E: going out at night
-Answer: D
-Question: Lindy was a senior.  He lived with his children because he didn't want to go where?
-A: republican party
-B: old people's home
-C: office
-D: park
-E: high school or college
+Therefore, the average total distance spat by Zoey and Sydney is 410 feet.","Zoey spits a total distance of 400 feet because 40 x 10 = <<40*10=400>>400
+Sydney spits a total distance of 420 feet because 35 x 12 = <<35*12=420>>420
+This totals to 820 feet because 400 + 420 = <<400+420=820>>820
+The average total distance is 410 because 820 / 2 = <<820/2=410>>410
+#### 410"
+CSQA,1a,"Question: The scientists dealt with many preserved specimens, so their what was equipped with cold storage?
+A: warehouse
+B: laboratory
+C: freezer
+D: book store
+E: refrigerator
 Answer: B
-Q: What do drugs do?
-A: damage
-B: cloud mind
-C: lower i.q
-D: cause illness
-E: cause accidents","Answer: A, B, C, D, E",E
-CSQA,1a,"Question: Dave wants to build a new ranch house, but he's worried about mudslides, fires, earthquakes,  and restrictive zoning codes.  Where might he live?
-A: montana
-B: west
-C: california
-D: outback
-E: texas
-Answer: C
-Question: Billy bought some silk clothing for his wife.  What might he have gotten?
-A: nightgown
-B: expensive clothing
-C: chinatown
-D: garments
-E: sexy
+Question: What could silicone get stuck to and cause irritation?
+A: contact lens
+B: hardware store
+C: artificial breasts
+D: tube
+E: home
 Answer: A
-Q: What do drugs do?
-A: damage
-B: cloud mind
-C: lower i.q
-D: cause illness
-E: cause accidents",Answer: B,E
-CSQA,2,"Question: If friends comment on the condition of your living space what should you do?
-A: socialize
-B: go somewhere
-C: go to the store
-D: clean room
-E: going out at night
-Answer: D
-Question: Lindy was a senior.  He lived with his children because he didn't want to go where?
-A: republican party
-B: old people's home
-C: office
-D: park
-E: high school or college
+Question: The man was eating lunch, but rushed when he looked at his watch, why did he rush?
+A: gain weight
+B: late for work
+C: heartburn
+D: bad breath
+E: early for work",Answer: B,B
+CSQA,1a,"Question: She had taken her ring from her finger and placed it on the windowsill so she wouldn't get it wet while she was in what?
+A: bath tub
+B: finger
+C: windowsill
+D: wedding ceremony
+E: a coma
+Answer: A
+Question: Why does this person eat so much?
+A: gain weight
+B: promise to do
+C: catch cold
+D: finish food
+E: fear death
+Answer: A
+Question: The man was eating lunch, but rushed when he looked at his watch, why did he rush?
+A: gain weight
+B: late for work
+C: heartburn
+D: bad breath
+E: early for work",Answer: B,B
+CSQA,2,"Question: The scientists dealt with many preserved specimens, so their what was equipped with cold storage?
+A: warehouse
+B: laboratory
+C: freezer
+D: book store
+E: refrigerator
 Answer: B
-Question: Dave wants to build a new ranch house, but he's worried about mudslides, fires, earthquakes,  and restrictive zoning codes.  Where might he live?
-A: montana
-B: west
-C: california
-D: outback
-E: texas
-Answer: C
-Question: Billy bought some silk clothing for his wife.  What might he have gotten?
-A: nightgown
-B: expensive clothing
-C: chinatown
-D: garments
-E: sexy
+Question: What could silicone get stuck to and cause irritation?
+A: contact lens
+B: hardware store
+C: artificial breasts
+D: tube
+E: home
 Answer: A
-Q: What do drugs do?
-A: damage
-B: cloud mind
-C: lower i.q
-D: cause illness
-E: cause accidents","Answer: A, B, C, D, E",E
-CSQA,3a,"Question: If friends comment on the condition of your living space what should you do?
-A: socialize
-B: go somewhere
-C: go to the store
-D: clean room
-E: going out at night
-Answer: D
-Question: Lindy was a senior.  He lived with his children because he didn't want to go where?
-A: republican party
-B: old people's home
-C: office
-D: park
-E: high school or college
+Question: She had taken her ring from her finger and placed it on the windowsill so she wouldn't get it wet while she was in what?
+A: bath tub
+B: finger
+C: windowsill
+D: wedding ceremony
+E: a coma
+Answer: A
+Question: Why does this person eat so much?
+A: gain weight
+B: promise to do
+C: catch cold
+D: finish food
+E: fear death
+Answer: A
+Question: The man was eating lunch, but rushed when he looked at his watch, why did he rush?
+A: gain weight
+B: late for work
+C: heartburn
+D: bad breath
+E: early for work",Answer: B,B
+CSQA,3a,"Question: The scientists dealt with many preserved specimens, so their what was equipped with cold storage?
+A: warehouse
+B: laboratory
+C: freezer
+D: book store
+E: refrigerator
 Answer: B
-Question: If friends comment on the condition of your living space what should you do?
-A: socialize
-B: go somewhere
-C: go to the store
-D: clean room
-E: going out at night
-Answer: D
-Question: Lindy was a senior.  He lived with his children because he didn't want to go where?
-A: republican party
-B: old people's home
-C: office
-D: park
-E: high school or college
+Question: What could silicone get stuck to and cause irritation?
+A: contact lens
+B: hardware store
+C: artificial breasts
+D: tube
+E: home
+Answer: A
+Question: The scientists dealt with many preserved specimens, so their what was equipped with cold storage?
+A: warehouse
+B: laboratory
+C: freezer
+D: book store
+E: refrigerator
 Answer: B
-Q: What do drugs do?
-A: damage
-B: cloud mind
-C: lower i.q
-D: cause illness
-E: cause accidents","A: damage
-B: cloud mind
-C: lower i.q
-D: cause illness
-E: cause accidents",E
-CSQA,3b,"Question: Dave wants to build a new ranch house, but he's worried about mudslides, fires, earthquakes,  and restrictive zoning codes.  Where might he live?
-A: montana
-B: west
-C: california
-D: outback
-E: texas
-Answer: C
-Question: Billy bought some silk clothing for his wife.  What might he have gotten?
-A: nightgown
-B: expensive clothing
-C: chinatown
-D: garments
-E: sexy
+Question: What could silicone get stuck to and cause irritation?
+A: contact lens
+B: hardware store
+C: artificial breasts
+D: tube
+E: home
 Answer: A
-Question: Dave wants to build a new ranch house, but he's worried about mudslides, fires, earthquakes,  and restrictive zoning codes.  Where might he live?
-A: montana
-B: west
-C: california
-D: outback
-E: texas
-Answer: C
-Question: Billy bought some silk clothing for his wife.  What might he have gotten?
-A: nightgown
-B: expensive clothing
-C: chinatown
-D: garments
-E: sexy
+Question: The man was eating lunch, but rushed when he looked at his watch, why did he rush?
+A: gain weight
+B: late for work
+C: heartburn
+D: bad breath
+E: early for work",Answer: B,B
+CSQA,3b,"Question: She had taken her ring from her finger and placed it on the windowsill so she wouldn't get it wet while she was in what?
+A: bath tub
+B: finger
+C: windowsill
+D: wedding ceremony
+E: a coma
 Answer: A
-Q: What do drugs do?
-A: damage
-B: cloud mind
-C: lower i.q
-D: cause illness
-E: cause accidents",Answer: B,E
-StrategyQA,1a,"Question: Amy Winehouse died at home and was found in her home by her bodyguard. Amy Winehouse's cause of death was alcohol poisoning. 
-Were paparazzi directly responsible for the death of Amy Winehouse?
-Answer: False
-Question: The Common Era has lasted for over 2,000 years as of 2020. A tree named Methuselah, from California's White Mountains, is almost 5,000 years old.
-Is entire Common Era minuscule to lifespan of some trees?
+Question: Why does this person eat so much?
+A: gain weight
+B: promise to do
+C: catch cold
+D: finish food
+E: fear death
+Answer: A
+Question: She had taken her ring from her finger and placed it on the windowsill so she wouldn't get it wet while she was in what?
+A: bath tub
+B: finger
+C: windowsill
+D: wedding ceremony
+E: a coma
+Answer: A
+Question: Why does this person eat so much?
+A: gain weight
+B: promise to do
+C: catch cold
+D: finish food
+E: fear death
+Answer: A
+Question: The man was eating lunch, but rushed when he looked at his watch, why did he rush?
+A: gain weight
+B: late for work
+C: heartburn
+D: bad breath
+E: early for work",Answer: B,B
+StrategyQA,1a,"Question: New York Harbor is a body of water between south Manhattan and the Atlantic Ocean The Statue of Liberty stands in New York Harbor The Statue of Liberty is a very large, green statue of a woman
+Does a giant green lady stand in New York Harbor?
 Answer: True
-Q: ""Mix"" means to combine in english. M equals one thousand in roman numerals I equals one in roman numerals  I before X in roman numerals equals nine. MIX equals one thousand nine in roman numerals. 
-Is MIX a word and a roman numeral?",A: False,True
-StrategyQA,1a,"Question: Immanuel Kant believed that Africans occupied the second lowest position on his racial hierarchy, below Whites and Asians. The Black Lives Matter movement advocates for racial equality and anti-racism.
-Would Immanuel Kant be disgusted by the Black Lives Matter movement?
+Question: A fever is a medical symptom that elevates the core body temperature.  Eating under cooked meat can cause food poisoning. One of the symptoms of food poisoning is elevated core body temperature. 
+Can you get a fever from consuming meat?
 Answer: True
-Question: The US Census takes place every ten years. The 24th US Census took place in 2020. The 25th US Census will take place in 2030. The average lifespan of an anchovy is five years.
-Can an anchovy born in 2020 survive 25th US census?
-Answer: False
-Q: ""Mix"" means to combine in english. M equals one thousand in roman numerals I equals one in roman numerals  I before X in roman numerals equals nine. MIX equals one thousand nine in roman numerals. 
-Is MIX a word and a roman numeral?",Answer: True,True
-StrategyQA,2,"Question: Amy Winehouse died at home and was found in her home by her bodyguard. Amy Winehouse's cause of death was alcohol poisoning. 
-Were paparazzi directly responsible for the death of Amy Winehouse?
-Answer: False
-Question: The Common Era has lasted for over 2,000 years as of 2020. A tree named Methuselah, from California's White Mountains, is almost 5,000 years old.
-Is entire Common Era minuscule to lifespan of some trees?
+Question: The famous D'artagnan was a musketeer based on a count that served Louis XIV There are at least three famous Apollo's: Apollo Creed, Apollo (Greek mythology), and Apollo Crews. Apollo, the Greek god of the sun and healing, is immortal.
+Could all of the famous Apollo's hypothetically defeat all of the famous D'Artagnan's?",Answer: False,True
+StrategyQA,1a,"Question: Brad Peyton directed the movie San Andreas San Andreas is an earthquake disaster film Seismology is the science of earthquakes and related phenomena
+Did Brad Peyton need to know about seismology?
 Answer: True
-Question: Immanuel Kant believed that Africans occupied the second lowest position on his racial hierarchy, below Whites and Asians. The Black Lives Matter movement advocates for racial equality and anti-racism.
-Would Immanuel Kant be disgusted by the Black Lives Matter movement?
-Answer: True
-Question: The US Census takes place every ten years. The 24th US Census took place in 2020. The 25th US Census will take place in 2030. The average lifespan of an anchovy is five years.
-Can an anchovy born in 2020 survive 25th US census?
+Question: Reza Shah, the founder of the Imperial state of Iran, was a Twelver Shia Muslim. Twelver Shia Muslims believe that there are 12 Imams. Jesus is typically represented as having 12 disciples.
+Did number of Imams Reza Shah believed in exceed number of Jesus's disciples?
 Answer: False
-Q: ""Mix"" means to combine in english. M equals one thousand in roman numerals I equals one in roman numerals  I before X in roman numerals equals nine. MIX equals one thousand nine in roman numerals. 
-Is MIX a word and a roman numeral?",A: True,True
-StrategyQA,3a,"Question: Amy Winehouse died at home and was found in her home by her bodyguard. Amy Winehouse's cause of death was alcohol poisoning. 
-Were paparazzi directly responsible for the death of Amy Winehouse?
-Answer: False
-Question: The Common Era has lasted for over 2,000 years as of 2020. A tree named Methuselah, from California's White Mountains, is almost 5,000 years old.
-Is entire Common Era minuscule to lifespan of some trees?
+Question: The famous D'artagnan was a musketeer based on a count that served Louis XIV There are at least three famous Apollo's: Apollo Creed, Apollo (Greek mythology), and Apollo Crews. Apollo, the Greek god of the sun and healing, is immortal.
+Could all of the famous Apollo's hypothetically defeat all of the famous D'Artagnan's?",Answer: True,True
+StrategyQA,2,"Question: New York Harbor is a body of water between south Manhattan and the Atlantic Ocean The Statue of Liberty stands in New York Harbor The Statue of Liberty is a very large, green statue of a woman
+Does a giant green lady stand in New York Harbor?
 Answer: True
-Question: Amy Winehouse died at home and was found in her home by her bodyguard. Amy Winehouse's cause of death was alcohol poisoning. 
-Were paparazzi directly responsible for the death of Amy Winehouse?
-Answer: False
-Question: The Common Era has lasted for over 2,000 years as of 2020. A tree named Methuselah, from California's White Mountains, is almost 5,000 years old.
-Is entire Common Era minuscule to lifespan of some trees?
+Question: A fever is a medical symptom that elevates the core body temperature.  Eating under cooked meat can cause food poisoning. One of the symptoms of food poisoning is elevated core body temperature. 
+Can you get a fever from consuming meat?
 Answer: True
-Q: ""Mix"" means to combine in english. M equals one thousand in roman numerals I equals one in roman numerals  I before X in roman numerals equals nine. MIX equals one thousand nine in roman numerals. 
-Is MIX a word and a roman numeral?",A: No,True
-StrategyQA,3b,"Question: Immanuel Kant believed that Africans occupied the second lowest position on his racial hierarchy, below Whites and Asians. The Black Lives Matter movement advocates for racial equality and anti-racism.
-Would Immanuel Kant be disgusted by the Black Lives Matter movement?
+Question: Brad Peyton directed the movie San Andreas San Andreas is an earthquake disaster film Seismology is the science of earthquakes and related phenomena
+Did Brad Peyton need to know about seismology?
 Answer: True
-Question: The US Census takes place every ten years. The 24th US Census took place in 2020. The 25th US Census will take place in 2030. The average lifespan of an anchovy is five years.
-Can an anchovy born in 2020 survive 25th US census?
+Question: Reza Shah, the founder of the Imperial state of Iran, was a Twelver Shia Muslim. Twelver Shia Muslims believe that there are 12 Imams. Jesus is typically represented as having 12 disciples.
+Did number of Imams Reza Shah believed in exceed number of Jesus's disciples?
 Answer: False
-Question: Immanuel Kant believed that Africans occupied the second lowest position on his racial hierarchy, below Whites and Asians. The Black Lives Matter movement advocates for racial equality and anti-racism.
-Would Immanuel Kant be disgusted by the Black Lives Matter movement?
+Question: The famous D'artagnan was a musketeer based on a count that served Louis XIV There are at least three famous Apollo's: Apollo Creed, Apollo (Greek mythology), and Apollo Crews. Apollo, the Greek god of the sun and healing, is immortal.
+Could all of the famous Apollo's hypothetically defeat all of the famous D'Artagnan's?",Answer: False,True
+StrategyQA,3a,"Question: New York Harbor is a body of water between south Manhattan and the Atlantic Ocean The Statue of Liberty stands in New York Harbor The Statue of Liberty is a very large, green statue of a woman
+Does a giant green lady stand in New York Harbor?
 Answer: True
-Question: The US Census takes place every ten years. The 24th US Census took place in 2020. The 25th US Census will take place in 2030. The average lifespan of an anchovy is five years.
-Can an anchovy born in 2020 survive 25th US census?
+Question: A fever is a medical symptom that elevates the core body temperature.  Eating under cooked meat can cause food poisoning. One of the symptoms of food poisoning is elevated core body temperature. 
+Can you get a fever from consuming meat?
+Answer: True
+Question: New York Harbor is a body of water between south Manhattan and the Atlantic Ocean The Statue of Liberty stands in New York Harbor The Statue of Liberty is a very large, green statue of a woman
+Does a giant green lady stand in New York Harbor?
+Answer: True
+Question: A fever is a medical symptom that elevates the core body temperature.  Eating under cooked meat can cause food poisoning. One of the symptoms of food poisoning is elevated core body temperature. 
+Can you get a fever from consuming meat?
+Answer: True
+Question: The famous D'artagnan was a musketeer based on a count that served Louis XIV There are at least three famous Apollo's: Apollo Creed, Apollo (Greek mythology), and Apollo Crews. Apollo, the Greek god of the sun and healing, is immortal.
+Could all of the famous Apollo's hypothetically defeat all of the famous D'Artagnan's?",Answer: False,True
+StrategyQA,3b,"Question: Brad Peyton directed the movie San Andreas San Andreas is an earthquake disaster film Seismology is the science of earthquakes and related phenomena
+Did Brad Peyton need to know about seismology?
+Answer: True
+Question: Reza Shah, the founder of the Imperial state of Iran, was a Twelver Shia Muslim. Twelver Shia Muslims believe that there are 12 Imams. Jesus is typically represented as having 12 disciples.
+Did number of Imams Reza Shah believed in exceed number of Jesus's disciples?
 Answer: False
-Q: ""Mix"" means to combine in english. M equals one thousand in roman numerals I equals one in roman numerals  I before X in roman numerals equals nine. MIX equals one thousand nine in roman numerals. 
-Is MIX a word and a roman numeral?",A: False,True
-SayCan,1a,"Question: Clear the jalapeno chips off the close counter
-Answer: 1. find the jalapeno chips, 2. pick up the jalapeno chips, 3. go to the trash, 4. put down the jalapeno chips, 5. done
-Question: Can you bring me a spicy snack?
-Answer: 1. find the jalapeno chips, 2. pick up the jalapeno chips, 3. bring it to you, 4. put down the jalapeno chips, 5. done
-Q: Navigate to the table.","A: 1. Stand up, 2. Locate the table, 3. Walk towards the table, 4. Arrive at the table.","1. go to the table, 2. done"
-SayCan,1a,"Question: Bring me something that is not an apple.
-Answer: 1. find a orange, 2. pick up the orange, 3. bring it to you, 4. put down the orange, 5. done.
-Question: Bring me everything from the table.
-Answer: 1. go to the table, 2. pick up the energy bar, 3. bring it to you, 4. put down the energy bar, 5. go to the table, 6. pick up the multigrain chips, 7. bring it to you, 8. put down the multigrain chips, 9. done
-Q: Navigate to the table.","A: 1. Stand up from your current location, 2. Walk towards the table, 3. Stop when you reach the table, 4. Done.","1. go to the table, 2. done"
-SayCan,2,"Question: Clear the jalapeno chips off the close counter
-Answer: 1. find the jalapeno chips, 2. pick up the jalapeno chips, 3. go to the trash, 4. put down the jalapeno chips, 5. done
-Question: Can you bring me a spicy snack?
-Answer: 1. find the jalapeno chips, 2. pick up the jalapeno chips, 3. bring it to you, 4. put down the jalapeno chips, 5. done
-Question: Bring me something that is not an apple.
-Answer: 1. find a orange, 2. pick up the orange, 3. bring it to you, 4. put down the orange, 5. done.
-Question: Bring me everything from the table.
-Answer: 1. go to the table, 2. pick up the energy bar, 3. bring it to you, 4. put down the energy bar, 5. go to the table, 6. pick up the multigrain chips, 7. bring it to you, 8. put down the multigrain chips, 9. done
-Q: Navigate to the table.","A: 1. Walk to the table, 2. Arrive at the table.","1. go to the table, 2. done"
-SayCan,3a,"Question: Clear the jalapeno chips off the close counter
-Answer: 1. find the jalapeno chips, 2. pick up the jalapeno chips, 3. go to the trash, 4. put down the jalapeno chips, 5. done
-Question: Can you bring me a spicy snack?
-Answer: 1. find the jalapeno chips, 2. pick up the jalapeno chips, 3. bring it to you, 4. put down the jalapeno chips, 5. done
-Question: Clear the jalapeno chips off the close counter
-Answer: 1. find the jalapeno chips, 2. pick up the jalapeno chips, 3. go to the trash, 4. put down the jalapeno chips, 5. done
-Question: Can you bring me a spicy snack?
-Answer: 1. find the jalapeno chips, 2. pick up the jalapeno chips, 3. bring it to you, 4. put down the jalapeno chips, 5. done
-Q: Navigate to the table.","A: 1. Locate the table, 2. Walk or move to the table, 3. Arrive at the table, 4. Done.","1. go to the table, 2. done"
-SayCan,3b,"Question: Bring me something that is not an apple.
-Answer: 1. find a orange, 2. pick up the orange, 3. bring it to you, 4. put down the orange, 5. done.
-Question: Bring me everything from the table.
-Answer: 1. go to the table, 2. pick up the energy bar, 3. bring it to you, 4. put down the energy bar, 5. go to the table, 6. pick up the multigrain chips, 7. bring it to you, 8. put down the multigrain chips, 9. done
-Question: Bring me something that is not an apple.
-Answer: 1. find a orange, 2. pick up the orange, 3. bring it to you, 4. put down the orange, 5. done.
-Question: Bring me everything from the table.
-Answer: 1. go to the table, 2. pick up the energy bar, 3. bring it to you, 4. put down the energy bar, 5. go to the table, 6. pick up the multigrain chips, 7. bring it to you, 8. put down the multigrain chips, 9. done
-Q: Navigate to the table.","A: 1. Stand up from the current position, 2. Walk towards the table, 3. Arrive at the table.","1. go to the table, 2. done"
+Question: Brad Peyton directed the movie San Andreas San Andreas is an earthquake disaster film Seismology is the science of earthquakes and related phenomena
+Did Brad Peyton need to know about seismology?
+Answer: True
+Question: Reza Shah, the founder of the Imperial state of Iran, was a Twelver Shia Muslim. Twelver Shia Muslims believe that there are 12 Imams. Jesus is typically represented as having 12 disciples.
+Did number of Imams Reza Shah believed in exceed number of Jesus's disciples?
+Answer: False
+Question: The famous D'artagnan was a musketeer based on a count that served Louis XIV There are at least three famous Apollo's: Apollo Creed, Apollo (Greek mythology), and Apollo Crews. Apollo, the Greek god of the sun and healing, is immortal.
+Could all of the famous Apollo's hypothetically defeat all of the famous D'Artagnan's?",Answer: True,True
+SayCan,1a,"Question: Bring me a drink and snack for lunch.
+Answer: 1. find a water bottle, 2. pick up the water bottle, 3. bring it to you, 4. put down the water bottle, 5. find the multigrain chips, 6. pick up the multigrain chips, 7. bring it to you, 8. put down the multigrain chips, 9. done
+Question: Put the coke can in your gripper.
+Answer: 1. pick up the coke can, 2. done
+Question: Lift the coke can.","Answer: 1. find the coke can, 2. pick up the coke can, 3. lift it, 4. done","1. pick up the coke can, 2. done"
+SayCan,1a,"Question: Could you get me something refreshing?
+Answer: 1. find a water bottle, 2. pick up the water bottle, 3. bring it to you, 4. put down the water bottle, 5. done
+Question: Throw the coke can away.
+Answer: 1. find a coke can, 2. pick up the coke can, 3. go to the trash, 4. put down the coke can, 5. done
+Question: Lift the coke can.","Answer: 1. find a coke can, 2. pick up the coke can.","1. pick up the coke can, 2. done"
+SayCan,2,"Question: Bring me a drink and snack for lunch.
+Answer: 1. find a water bottle, 2. pick up the water bottle, 3. bring it to you, 4. put down the water bottle, 5. find the multigrain chips, 6. pick up the multigrain chips, 7. bring it to you, 8. put down the multigrain chips, 9. done
+Question: Put the coke can in your gripper.
+Answer: 1. pick up the coke can, 2. done
+Question: Could you get me something refreshing?
+Answer: 1. find a water bottle, 2. pick up the water bottle, 3. bring it to you, 4. put down the water bottle, 5. done
+Question: Throw the coke can away.
+Answer: 1. find a coke can, 2. pick up the coke can, 3. go to the trash, 4. put down the coke can, 5. done
+Question: Lift the coke can.","Answer: 1. find the coke can, 2. pick up the coke can, 3. done","1. pick up the coke can, 2. done"
+SayCan,3a,"Question: Bring me a drink and snack for lunch.
+Answer: 1. find a water bottle, 2. pick up the water bottle, 3. bring it to you, 4. put down the water bottle, 5. find the multigrain chips, 6. pick up the multigrain chips, 7. bring it to you, 8. put down the multigrain chips, 9. done
+Question: Put the coke can in your gripper.
+Answer: 1. pick up the coke can, 2. done
+Question: Bring me a drink and snack for lunch.
+Answer: 1. find a water bottle, 2. pick up the water bottle, 3. bring it to you, 4. put down the water bottle, 5. find the multigrain chips, 6. pick up the multigrain chips, 7. bring it to you, 8. put down the multigrain chips, 9. done
+Question: Put the coke can in your gripper.
+Answer: 1. pick up the coke can, 2. done
+Question: Lift the coke can.","Answer: 1. reach for the coke can, 2. grip the coke can, 3. lift the coke can, 4. hold the coke can steady, 5. done","1. pick up the coke can, 2. done"
+SayCan,3b,"Question: Could you get me something refreshing?
+Answer: 1. find a water bottle, 2. pick up the water bottle, 3. bring it to you, 4. put down the water bottle, 5. done
+Question: Throw the coke can away.
+Answer: 1. find a coke can, 2. pick up the coke can, 3. go to the trash, 4. put down the coke can, 5. done
+Question: Could you get me something refreshing?
+Answer: 1. find a water bottle, 2. pick up the water bottle, 3. bring it to you, 4. put down the water bottle, 5. done
+Question: Throw the coke can away.
+Answer: 1. find a coke can, 2. pick up the coke can, 3. go to the trash, 4. put down the coke can, 5. done
+Question: Lift the coke can.","Answer: 1. find the coke can, 2. pick up the coke can, 3. hold it up, 4. put down the coke can, 5. done","1. pick up the coke can, 2. done"

@@ -1,369 +1,383 @@
 Task Class,Case,Prompt,Response,Expected
-Math,1a,"Question: A courier received 80 packages yesterday and twice as many today.  All of these should be delivered tomorrow. How many packages should be delivered tomorrow?
-Answer: There are 80 x 2 = <<80*2=160>>160 packages today.
-So, the courier will deliver 80 + 160 = <<80+160=240>>240 packages.
-#### 240
-Question: Bob orders a pizza with 8 slices.  He eats half of it and each slice was 300 calories.  How many calories did he eat?
-Answer: He ate 8/2=<<8/2=4>>4 slices
-So he ate 4*300=<<4*300=1200>>1200 calories
-#### 1200
-Q: Miss Albert's class is composed of 12 boys and 12 girls. One-third of the girls and one-fourth of the boys are on varsity. How many students are not on varsity?","A: One-third of the girls is 12 / 3 = <<12/3=4>>4 girls.
-One-fourth of the boys is 12 / 4 = <<12/4=3>>3 boys.
-So, there are 12 - 4 = <<12-4=8>>8 girls not on varsity.
-And there are 12 - 3 = <<12-3=9>>9 boys not on varsity.
-Therefore, there are 8 + 9 = <<8+9=17>>17 students in total who are not on varsity.","There are 12 + 12 = <<12+12=24>>24 students in Miss Albert's class.
-12 x 1/3 = <<12*1/3=4>>4 girls are on varsity.
-12 x 1/4 = <<12*1/4=3>>3 boys are on varsity.
-A total of 4 + 3 = <<4+3=7>>7 students in Miss Albert's class are on varsity.
-Therefore, 24 - 7 = <<24-7=17>>17 students are not on varsity.
-#### 17"
-Math,1a,"Question: Edith is a receptionist at a local office and is organizing files into cabinets. She had 60 files and finished organizing half of them this morning. She has another 15 files to organize in the afternoon and the rest of the files are missing. How many files are missing?
-Answer: Edith has already organized 60 files / 2 = <<60/2=30>>30 files in the morning.
-She has files left to organize so she must still have 30 + 15 = <<30+15=45>>45 files in the office.
-This means there are 60 total files – 45 organized files = <<60-45=15>>15 missing files.
-#### 15
-Question: Tim decides to run a campaign for governor.  He gets the maximum $1200 donation from 500 people, and three times as many people donated half this sum of money to his campaign.  These donations together accounted for 40% of the total money that Tim raised.  How much total money did he raise?
-Answer: He got 1200*500=$<<1200*500=600000>>600,000 from maxed donors
-The smaller donors donated 1200/2=$<<1200/2=600>>600
-He had 500*3=<<500*3=1500>>1500 of these donors
-So they donated 1500*600=$<<1500*600=900000>>900,000
-So large donations where worth 900,000+600,000=$<<900000+600000=1500000>>1,500,000
-So he raised 1,500,000/.4=$<<1500000/.4=3750000>>3750000
-#### 3750000
-Q: Miss Albert's class is composed of 12 boys and 12 girls. One-third of the girls and one-fourth of the boys are on varsity. How many students are not on varsity?","A: One-third of the girls in the class is 12 * (1/3) = <<12*(1/3)=4>>4 girls on varsity.
-One-fourth of the boys in the class is 12 * (1/4) = <<12*(1/4)=3>>3 boys on varsity.
-So, the total number of students on varsity is 4 + 3 = <<4+3=7>>7 students.
-Since there are 12 girls + 12 boys = <<12+12=24>>24 students in the class in total, the number of students not on varsity is 24 - 7 = <<24-7=17>>17 students.","There are 12 + 12 = <<12+12=24>>24 students in Miss Albert's class.
-12 x 1/3 = <<12*1/3=4>>4 girls are on varsity.
-12 x 1/4 = <<12*1/4=3>>3 boys are on varsity.
-A total of 4 + 3 = <<4+3=7>>7 students in Miss Albert's class are on varsity.
-Therefore, 24 - 7 = <<24-7=17>>17 students are not on varsity.
-#### 17"
-Math,2,"Question: A courier received 80 packages yesterday and twice as many today.  All of these should be delivered tomorrow. How many packages should be delivered tomorrow?
-Answer: There are 80 x 2 = <<80*2=160>>160 packages today.
-So, the courier will deliver 80 + 160 = <<80+160=240>>240 packages.
-#### 240
-Question: Bob orders a pizza with 8 slices.  He eats half of it and each slice was 300 calories.  How many calories did he eat?
-Answer: He ate 8/2=<<8/2=4>>4 slices
-So he ate 4*300=<<4*300=1200>>1200 calories
-#### 1200
-Question: Edith is a receptionist at a local office and is organizing files into cabinets. She had 60 files and finished organizing half of them this morning. She has another 15 files to organize in the afternoon and the rest of the files are missing. How many files are missing?
-Answer: Edith has already organized 60 files / 2 = <<60/2=30>>30 files in the morning.
-She has files left to organize so she must still have 30 + 15 = <<30+15=45>>45 files in the office.
-This means there are 60 total files – 45 organized files = <<60-45=15>>15 missing files.
-#### 15
-Question: Tim decides to run a campaign for governor.  He gets the maximum $1200 donation from 500 people, and three times as many people donated half this sum of money to his campaign.  These donations together accounted for 40% of the total money that Tim raised.  How much total money did he raise?
-Answer: He got 1200*500=$<<1200*500=600000>>600,000 from maxed donors
-The smaller donors donated 1200/2=$<<1200/2=600>>600
-He had 500*3=<<500*3=1500>>1500 of these donors
-So they donated 1500*600=$<<1500*600=900000>>900,000
-So large donations where worth 900,000+600,000=$<<900000+600000=1500000>>1,500,000
-So he raised 1,500,000/.4=$<<1500000/.4=3750000>>3750000
-#### 3750000
-Q: Miss Albert's class is composed of 12 boys and 12 girls. One-third of the girls and one-fourth of the boys are on varsity. How many students are not on varsity?","A: One-third of the girls is 12 girls / 3 = <<12/3=4>>4 girls on varsity.
-One-fourth of the boys is 12 boys / 4 = <<12/4=3>>3 boys on varsity.
-So, a total of 4 girls + 3 boys = <<4+3=7>>7 students are on varsity.
-There are 12 boys + 12 girls = <<12+12=24>>24 students in the class.
-Therefore, 24 total students - 7 students on varsity = <<24-7=17>>17 students are not on varsity.","There are 12 + 12 = <<12+12=24>>24 students in Miss Albert's class.
-12 x 1/3 = <<12*1/3=4>>4 girls are on varsity.
-12 x 1/4 = <<12*1/4=3>>3 boys are on varsity.
-A total of 4 + 3 = <<4+3=7>>7 students in Miss Albert's class are on varsity.
-Therefore, 24 - 7 = <<24-7=17>>17 students are not on varsity.
-#### 17"
-Math,3a,"Question: A courier received 80 packages yesterday and twice as many today.  All of these should be delivered tomorrow. How many packages should be delivered tomorrow?
-Answer: There are 80 x 2 = <<80*2=160>>160 packages today.
-So, the courier will deliver 80 + 160 = <<80+160=240>>240 packages.
-#### 240
-Question: Bob orders a pizza with 8 slices.  He eats half of it and each slice was 300 calories.  How many calories did he eat?
-Answer: He ate 8/2=<<8/2=4>>4 slices
-So he ate 4*300=<<4*300=1200>>1200 calories
-#### 1200
-Question: A courier received 80 packages yesterday and twice as many today.  All of these should be delivered tomorrow. How many packages should be delivered tomorrow?
-Answer: There are 80 x 2 = <<80*2=160>>160 packages today.
-So, the courier will deliver 80 + 160 = <<80+160=240>>240 packages.
-#### 240
-Question: Bob orders a pizza with 8 slices.  He eats half of it and each slice was 300 calories.  How many calories did he eat?
-Answer: He ate 8/2=<<8/2=4>>4 slices
-So he ate 4*300=<<4*300=1200>>1200 calories
-#### 1200
-Q: Miss Albert's class is composed of 12 boys and 12 girls. One-third of the girls and one-fourth of the boys are on varsity. How many students are not on varsity?","A: One-third of 12 girls is 12/3 = 4 girls on varsity.
-One-fourth of 12 boys is 12/4 = 3 boys on varsity.
-There are a total of 12 girls + 12 boys = 24 students in the class.
-So, 24 students - 4 girls on varsity - 3 boys on varsity = <<24-4-3=17>>17 students are not on varsity.","There are 12 + 12 = <<12+12=24>>24 students in Miss Albert's class.
-12 x 1/3 = <<12*1/3=4>>4 girls are on varsity.
-12 x 1/4 = <<12*1/4=3>>3 boys are on varsity.
-A total of 4 + 3 = <<4+3=7>>7 students in Miss Albert's class are on varsity.
-Therefore, 24 - 7 = <<24-7=17>>17 students are not on varsity.
-#### 17"
-Math,3b,"Question: Edith is a receptionist at a local office and is organizing files into cabinets. She had 60 files and finished organizing half of them this morning. She has another 15 files to organize in the afternoon and the rest of the files are missing. How many files are missing?
-Answer: Edith has already organized 60 files / 2 = <<60/2=30>>30 files in the morning.
-She has files left to organize so she must still have 30 + 15 = <<30+15=45>>45 files in the office.
-This means there are 60 total files – 45 organized files = <<60-45=15>>15 missing files.
-#### 15
-Question: Tim decides to run a campaign for governor.  He gets the maximum $1200 donation from 500 people, and three times as many people donated half this sum of money to his campaign.  These donations together accounted for 40% of the total money that Tim raised.  How much total money did he raise?
-Answer: He got 1200*500=$<<1200*500=600000>>600,000 from maxed donors
-The smaller donors donated 1200/2=$<<1200/2=600>>600
-He had 500*3=<<500*3=1500>>1500 of these donors
-So they donated 1500*600=$<<1500*600=900000>>900,000
-So large donations where worth 900,000+600,000=$<<900000+600000=1500000>>1,500,000
-So he raised 1,500,000/.4=$<<1500000/.4=3750000>>3750000
-#### 3750000
-Question: Edith is a receptionist at a local office and is organizing files into cabinets. She had 60 files and finished organizing half of them this morning. She has another 15 files to organize in the afternoon and the rest of the files are missing. How many files are missing?
-Answer: Edith has already organized 60 files / 2 = <<60/2=30>>30 files in the morning.
-She has files left to organize so she must still have 30 + 15 = <<30+15=45>>45 files in the office.
-This means there are 60 total files – 45 organized files = <<60-45=15>>15 missing files.
-#### 15
-Question: Tim decides to run a campaign for governor.  He gets the maximum $1200 donation from 500 people, and three times as many people donated half this sum of money to his campaign.  These donations together accounted for 40% of the total money that Tim raised.  How much total money did he raise?
-Answer: He got 1200*500=$<<1200*500=600000>>600,000 from maxed donors
-The smaller donors donated 1200/2=$<<1200/2=600>>600
-He had 500*3=<<500*3=1500>>1500 of these donors
-So they donated 1500*600=$<<1500*600=900000>>900,000
-So large donations where worth 900,000+600,000=$<<900000+600000=1500000>>1,500,000
-So he raised 1,500,000/.4=$<<1500000/.4=3750000>>3750000
-#### 3750000
-Q: Miss Albert's class is composed of 12 boys and 12 girls. One-third of the girls and one-fourth of the boys are on varsity. How many students are not on varsity?","A: One-third of 12 girls is 12 / 3 = 4 girls on varsity.
-One-fourth of 12 boys is 12 / 4 = 3 boys on varsity.
-So a total of 4 girls + 3 boys = 7 students are on varsity.
-This means that 12 boys + 12 girls - 7 students on varsity = 17 students are not on varsity.","There are 12 + 12 = <<12+12=24>>24 students in Miss Albert's class.
-12 x 1/3 = <<12*1/3=4>>4 girls are on varsity.
-12 x 1/4 = <<12*1/4=3>>3 boys are on varsity.
-A total of 4 + 3 = <<4+3=7>>7 students in Miss Albert's class are on varsity.
-Therefore, 24 - 7 = <<24-7=17>>17 students are not on varsity.
-#### 17"
-CSQA,1a,"Question: Joe wanted to own a neighborhood barbershop but he had trouble with city zoning laws.  What might the city have required of his shop that was a problem?
-A: flush
-B: razor
-C: commercial area
-D: city
-E: water
-Answer: C
-Question: It is a lovely day, let's go outside and skate instead of doing what?
-A: really
-B: put on helmet
-C: sing
-D: not work so hard
-E: falling down
+Math,1a,"Question: Jim decides he wants to practice for a marathon coming up.  He starts off by running 5 miles every day for 30 days straight.  He then pushes himself to run 10 miles a day for the next 30 days.  Finally, as marathon day gets closer Jim runs 20 miles a day for 30 days straight.  How many miles does Jim run in total during the 90 days?
+Answer: Jim runs 5 miles a day for 30 days for a total of 5*30=<<5*30=150>>150 miles.
+The next month Jim runs 10 miles a day for 10*30= <<10*30=300>>300 miles.
+The last month Jim runs 20 miles a day for 20*30=<<20*30=600>>600 a month.
+All together, Jim runs 150+300+600= <<150+300+600=1050>>1050 miles in three months.
+#### 1050
+Question: Chloe and Max played Mario Kart together. The ratio of Chloe’s wins to Max’s wins is 8:3. Chloe won 24 times. How many times did Max win?
+Answer: We are trying to figure out how many times Max won at Mario Kart, so we'll call that number Y.
+We know the ratio of Chloe’s wins to Max’s wins is 8/3, so 8/3 = 24/Y.
+Next, we will multiply to find the cross-products. 8 x Y = 3 x 24 or 8Y = 72.
+We want to get figure out Y, so we need to get it by itself by dividing by 8, like this: 8Y / 8 = 72 / 8.
+Y = <<9=9>>9, so Max won 9 times.
+#### 9
+Question: Tyler wants to buy a dictionary that costs $18, a dinosaur book that costs $13, and a children's cookbook that costs $8. He has saved $14 from his allowance. If Tyler earns $5 per hour, how many hours does he have to work to afford his books?","First, let's calculate the total cost of the books Tyler wants to buy. 
+
+Total cost = $18 (dictionary) + $13 (dinosaur book) + $8 (children's cookbook) = $39
+
+Next, let's subtract the $14 Tyler has already saved from his total cost to find out how much more money he needs to earn.
+
+Amount still needed = $39 (total cost) - $14 (saved) = $25
+
+Now, we need to figure out how many hours Tyler needs to work to earn $25 at a rate of $5 per hour.
+
+Hours needed to work = $25 (amount needed) ÷ $5 (earnings per hour) = 5 hours
+
+Tyler needs to work for 5 hours to afford the books he wants to buy.
+So, Tyler needs to work for **5 hours**.","Tyler wants to purchase books that cost $18 + $13 + $8 = $<<18+13+8=39>>39.
+Tyler needs $39 and currently has $14, so he needs to earn $39 - $14 = $<<39-14=25>>25.
+Tyler can earn $25 at a rate of $5 per hour by doing 25 / $5 = <<25/5=5>>5 hours of work.
+#### 5"
+Math,1a,"Question: Carly is making a beaded corset. She's going to add 50 rows of purple beads with 20 beads per row, 40 rows of blue beads with 18 beads per row, and 80 gold beads. If beads cost $1 per 10 beads, how much do all the beads she bought cost?
+Answer: First find the total number of purple beads Carly needs: 50 rows * 20 beads/row = <<50*20=1000>>1000 beads
+Then find the total number of blue beads Carly needs: 40 rows * 18 beads/row = <<40*18=720>>720 beads
+Then add the number of each color she needs to find the total number she needs: 1000 beads + 720 beads + 80 beads = <<1000+720+80=1800>>1800 beads
+Then divide the number of beads by 10 to find the cost: 1800 beads / 10 beads/$1 = $<<1800/10=180>>180
+#### 180
+Question: Paddington has 40 more goats than Washington. If Washington has 140 goats, how many goats do they have in total?
+Answer: If Washington has 140 goats, Washington has 140+40 = <<140+40=180>>180 goats.
+In total, they have 140+180 = <<140+180=320>>320 goats
+#### 320
+Question: Tyler wants to buy a dictionary that costs $18, a dinosaur book that costs $13, and a children's cookbook that costs $8. He has saved $14 from his allowance. If Tyler earns $5 per hour, how many hours does he have to work to afford his books?","Answer: First, find the total cost of the books Tyler wants to buy: $18 + $13 + $8 = $39
+Then subtract the amount Tyler saved from the total cost to find how much more he needs: $39 - $14 = $25
+Then divide the remaining amount by Tyler's earnings per hour to find how many hours he needs to work: $25 / $5/hour = 5 hours
+#### 5","Tyler wants to purchase books that cost $18 + $13 + $8 = $<<18+13+8=39>>39.
+Tyler needs $39 and currently has $14, so he needs to earn $39 - $14 = $<<39-14=25>>25.
+Tyler can earn $25 at a rate of $5 per hour by doing 25 / $5 = <<25/5=5>>5 hours of work.
+#### 5"
+Math,2,"Question: Jim decides he wants to practice for a marathon coming up.  He starts off by running 5 miles every day for 30 days straight.  He then pushes himself to run 10 miles a day for the next 30 days.  Finally, as marathon day gets closer Jim runs 20 miles a day for 30 days straight.  How many miles does Jim run in total during the 90 days?
+Answer: Jim runs 5 miles a day for 30 days for a total of 5*30=<<5*30=150>>150 miles.
+The next month Jim runs 10 miles a day for 10*30= <<10*30=300>>300 miles.
+The last month Jim runs 20 miles a day for 20*30=<<20*30=600>>600 a month.
+All together, Jim runs 150+300+600= <<150+300+600=1050>>1050 miles in three months.
+#### 1050
+Question: Chloe and Max played Mario Kart together. The ratio of Chloe’s wins to Max’s wins is 8:3. Chloe won 24 times. How many times did Max win?
+Answer: We are trying to figure out how many times Max won at Mario Kart, so we'll call that number Y.
+We know the ratio of Chloe’s wins to Max’s wins is 8/3, so 8/3 = 24/Y.
+Next, we will multiply to find the cross-products. 8 x Y = 3 x 24 or 8Y = 72.
+We want to get figure out Y, so we need to get it by itself by dividing by 8, like this: 8Y / 8 = 72 / 8.
+Y = <<9=9>>9, so Max won 9 times.
+#### 9
+Question: Carly is making a beaded corset. She's going to add 50 rows of purple beads with 20 beads per row, 40 rows of blue beads with 18 beads per row, and 80 gold beads. If beads cost $1 per 10 beads, how much do all the beads she bought cost?
+Answer: First find the total number of purple beads Carly needs: 50 rows * 20 beads/row = <<50*20=1000>>1000 beads
+Then find the total number of blue beads Carly needs: 40 rows * 18 beads/row = <<40*18=720>>720 beads
+Then add the number of each color she needs to find the total number she needs: 1000 beads + 720 beads + 80 beads = <<1000+720+80=1800>>1800 beads
+Then divide the number of beads by 10 to find the cost: 1800 beads / 10 beads/$1 = $<<1800/10=180>>180
+#### 180
+Question: Paddington has 40 more goats than Washington. If Washington has 140 goats, how many goats do they have in total?
+Answer: If Washington has 140 goats, Washington has 140+40 = <<140+40=180>>180 goats.
+In total, they have 140+180 = <<140+180=320>>320 goats
+#### 320
+Question: Tyler wants to buy a dictionary that costs $18, a dinosaur book that costs $13, and a children's cookbook that costs $8. He has saved $14 from his allowance. If Tyler earns $5 per hour, how many hours does he have to work to afford his books?","Answer: First, we need to find the total cost of all the books Tyler wants to buy. 
+
+The dictionary costs $18, the dinosaur book costs $13, and the children's cookbook costs $8, so the total cost is $18 + $13 + $8 = $39.
+
+Tyler has saved $14, so he still needs $39 - $14 = $25.
+
+If Tyler earns $5 per hour, he needs to work $25 / $5 per hour = 5 hours to afford all his books. 
+
+Therefore, Tyler needs to work 5 hours to afford his books.","Tyler wants to purchase books that cost $18 + $13 + $8 = $<<18+13+8=39>>39.
+Tyler needs $39 and currently has $14, so he needs to earn $39 - $14 = $<<39-14=25>>25.
+Tyler can earn $25 at a rate of $5 per hour by doing 25 / $5 = <<25/5=5>>5 hours of work.
+#### 5"
+Math,3a,"Question: Jim decides he wants to practice for a marathon coming up.  He starts off by running 5 miles every day for 30 days straight.  He then pushes himself to run 10 miles a day for the next 30 days.  Finally, as marathon day gets closer Jim runs 20 miles a day for 30 days straight.  How many miles does Jim run in total during the 90 days?
+Answer: Jim runs 5 miles a day for 30 days for a total of 5*30=<<5*30=150>>150 miles.
+The next month Jim runs 10 miles a day for 10*30= <<10*30=300>>300 miles.
+The last month Jim runs 20 miles a day for 20*30=<<20*30=600>>600 a month.
+All together, Jim runs 150+300+600= <<150+300+600=1050>>1050 miles in three months.
+#### 1050
+Question: Chloe and Max played Mario Kart together. The ratio of Chloe’s wins to Max’s wins is 8:3. Chloe won 24 times. How many times did Max win?
+Answer: We are trying to figure out how many times Max won at Mario Kart, so we'll call that number Y.
+We know the ratio of Chloe’s wins to Max’s wins is 8/3, so 8/3 = 24/Y.
+Next, we will multiply to find the cross-products. 8 x Y = 3 x 24 or 8Y = 72.
+We want to get figure out Y, so we need to get it by itself by dividing by 8, like this: 8Y / 8 = 72 / 8.
+Y = <<9=9>>9, so Max won 9 times.
+#### 9
+Question: Jim decides he wants to practice for a marathon coming up.  He starts off by running 5 miles every day for 30 days straight.  He then pushes himself to run 10 miles a day for the next 30 days.  Finally, as marathon day gets closer Jim runs 20 miles a day for 30 days straight.  How many miles does Jim run in total during the 90 days?
+Answer: Jim runs 5 miles a day for 30 days for a total of 5*30=<<5*30=150>>150 miles.
+The next month Jim runs 10 miles a day for 10*30= <<10*30=300>>300 miles.
+The last month Jim runs 20 miles a day for 20*30=<<20*30=600>>600 a month.
+All together, Jim runs 150+300+600= <<150+300+600=1050>>1050 miles in three months.
+#### 1050
+Question: Chloe and Max played Mario Kart together. The ratio of Chloe’s wins to Max’s wins is 8:3. Chloe won 24 times. How many times did Max win?
+Answer: We are trying to figure out how many times Max won at Mario Kart, so we'll call that number Y.
+We know the ratio of Chloe’s wins to Max’s wins is 8/3, so 8/3 = 24/Y.
+Next, we will multiply to find the cross-products. 8 x Y = 3 x 24 or 8Y = 72.
+We want to get figure out Y, so we need to get it by itself by dividing by 8, like this: 8Y / 8 = 72 / 8.
+Y = <<9=9>>9, so Max won 9 times.
+#### 9
+Question: Tyler wants to buy a dictionary that costs $18, a dinosaur book that costs $13, and a children's cookbook that costs $8. He has saved $14 from his allowance. If Tyler earns $5 per hour, how many hours does he have to work to afford his books?","First, we need to determine the total cost of the books Tyler wants to buy. The dictionary costs $18, the dinosaur book costs $13, and the children's cookbook costs $8. Adding these together gives us $18 + $13 + $8 = $<<18+13+8=39>>39.
+
+Next, we need to subtract the $14 Tyler has saved from his total cost to determine how much he still needs to earn. So, $39 - $14 = $<<39-14=25>>25.
+
+If Tyler earns $5 per hour, we can now divide the amount he still needs to earn by his hourly wage to find out how many hours he needs to work. Therefore, $25 / $5 = <<25/5=5>>5 hours.
+
+Tyler needs to work 5 hours to afford the books he wants to buy.","Tyler wants to purchase books that cost $18 + $13 + $8 = $<<18+13+8=39>>39.
+Tyler needs $39 and currently has $14, so he needs to earn $39 - $14 = $<<39-14=25>>25.
+Tyler can earn $25 at a rate of $5 per hour by doing 25 / $5 = <<25/5=5>>5 hours of work.
+#### 5"
+Math,3b,"Question: Carly is making a beaded corset. She's going to add 50 rows of purple beads with 20 beads per row, 40 rows of blue beads with 18 beads per row, and 80 gold beads. If beads cost $1 per 10 beads, how much do all the beads she bought cost?
+Answer: First find the total number of purple beads Carly needs: 50 rows * 20 beads/row = <<50*20=1000>>1000 beads
+Then find the total number of blue beads Carly needs: 40 rows * 18 beads/row = <<40*18=720>>720 beads
+Then add the number of each color she needs to find the total number she needs: 1000 beads + 720 beads + 80 beads = <<1000+720+80=1800>>1800 beads
+Then divide the number of beads by 10 to find the cost: 1800 beads / 10 beads/$1 = $<<1800/10=180>>180
+#### 180
+Question: Paddington has 40 more goats than Washington. If Washington has 140 goats, how many goats do they have in total?
+Answer: If Washington has 140 goats, Washington has 140+40 = <<140+40=180>>180 goats.
+In total, they have 140+180 = <<140+180=320>>320 goats
+#### 320
+Question: Carly is making a beaded corset. She's going to add 50 rows of purple beads with 20 beads per row, 40 rows of blue beads with 18 beads per row, and 80 gold beads. If beads cost $1 per 10 beads, how much do all the beads she bought cost?
+Answer: First find the total number of purple beads Carly needs: 50 rows * 20 beads/row = <<50*20=1000>>1000 beads
+Then find the total number of blue beads Carly needs: 40 rows * 18 beads/row = <<40*18=720>>720 beads
+Then add the number of each color she needs to find the total number she needs: 1000 beads + 720 beads + 80 beads = <<1000+720+80=1800>>1800 beads
+Then divide the number of beads by 10 to find the cost: 1800 beads / 10 beads/$1 = $<<1800/10=180>>180
+#### 180
+Question: Paddington has 40 more goats than Washington. If Washington has 140 goats, how many goats do they have in total?
+Answer: If Washington has 140 goats, Washington has 140+40 = <<140+40=180>>180 goats.
+In total, they have 140+180 = <<140+180=320>>320 goats
+#### 320
+Question: Tyler wants to buy a dictionary that costs $18, a dinosaur book that costs $13, and a children's cookbook that costs $8. He has saved $14 from his allowance. If Tyler earns $5 per hour, how many hours does he have to work to afford his books?","First, find the total cost of the books by adding up the cost of each book: $18 + $13 + $8 = $39
+Then subtract the amount Tyler saved from the total cost to find how much more he needs to earn: $39 - $14 = $25
+Finally, divide the remaining amount by Tyler's hourly wage to find how many hours he needs to work: $25 / $5/hour = 5 hours
+Tyler needs to work 5 hours to afford his books.","Tyler wants to purchase books that cost $18 + $13 + $8 = $<<18+13+8=39>>39.
+Tyler needs $39 and currently has $14, so he needs to earn $39 - $14 = $<<39-14=25>>25.
+Tyler can earn $25 at a rate of $5 per hour by doing 25 / $5 = <<25/5=5>>5 hours of work.
+#### 5"
+CSQA,1a,"Question: What would someone say about a tube television?
+A: obsolete
+B: addictive
+C: entertaining
+D: bycone
+E: legal
+Answer: A
+Question: Where do people typically make a friend as an adult?
+A: at school
+B: neighbor's house
+C: at a bar
+D: workplace
+E: unexpected place
 Answer: D
-Q: The person gave a good hands on what to show how to do the work?
-A: demonstration
-B: garage
-C: building
-D: barn
-E: synagogue",Answer: A,A
-CSQA,1a,"Question: In architecture, where are all buildings found?
-A: table
-B: inside
-C: all buildings
-D: restaurant
-E: synagogue
-Answer: C
-Question: Where can personal mushrooms be kept fresh?
-A: ocean
-B: grocery store
-C: supermarket
-D: refrigerator
-E: pizza
+Question: When eating everything on the tasting menu, what does one tend to feel?
+A: full stomach
+B: getting full
+C: gaining weight
+D: sick
+E: satisfaction",Answer: E,B
+CSQA,1a,"Question: Where could you go to spend money?
+A: supermarket
+B: car show
+C: water fountain
+D: bank vault
+E: art show
+Answer: E
+Question: If I am reading a letter from a friend who I asked to write me a response, what might I be looking for?
+A: get news
+B: envelope
+C: happiness
+D: though
+E: answer
+Answer: E
+Question: When eating everything on the tasting menu, what does one tend to feel?
+A: full stomach
+B: getting full
+C: gaining weight
+D: sick
+E: satisfaction",Answer: E,B
+CSQA,2,"Question: What would someone say about a tube television?
+A: obsolete
+B: addictive
+C: entertaining
+D: bycone
+E: legal
+Answer: A
+Question: Where do people typically make a friend as an adult?
+A: at school
+B: neighbor's house
+C: at a bar
+D: workplace
+E: unexpected place
 Answer: D
-Q: The person gave a good hands on what to show how to do the work?
-A: demonstration
-B: garage
-C: building
-D: barn
-E: synagogue",A: demonstration,A
-CSQA,2,"Question: Joe wanted to own a neighborhood barbershop but he had trouble with city zoning laws.  What might the city have required of his shop that was a problem?
-A: flush
-B: razor
-C: commercial area
-D: city
-E: water
-Answer: C
-Question: It is a lovely day, let's go outside and skate instead of doing what?
-A: really
-B: put on helmet
-C: sing
-D: not work so hard
-E: falling down
+Question: Where could you go to spend money?
+A: supermarket
+B: car show
+C: water fountain
+D: bank vault
+E: art show
+Answer: E
+Question: If I am reading a letter from a friend who I asked to write me a response, what might I be looking for?
+A: get news
+B: envelope
+C: happiness
+D: though
+E: answer
+Answer: E
+Question: When eating everything on the tasting menu, what does one tend to feel?
+A: full stomach
+B: getting full
+C: gaining weight
+D: sick
+E: satisfaction",Answer: E,B
+CSQA,3a,"Question: What would someone say about a tube television?
+A: obsolete
+B: addictive
+C: entertaining
+D: bycone
+E: legal
+Answer: A
+Question: Where do people typically make a friend as an adult?
+A: at school
+B: neighbor's house
+C: at a bar
+D: workplace
+E: unexpected place
 Answer: D
-Question: In architecture, where are all buildings found?
-A: table
-B: inside
-C: all buildings
-D: restaurant
-E: synagogue
-Answer: C
-Question: Where can personal mushrooms be kept fresh?
-A: ocean
-B: grocery store
-C: supermarket
-D: refrigerator
-E: pizza
+Question: What would someone say about a tube television?
+A: obsolete
+B: addictive
+C: entertaining
+D: bycone
+E: legal
+Answer: A
+Question: Where do people typically make a friend as an adult?
+A: at school
+B: neighbor's house
+C: at a bar
+D: workplace
+E: unexpected place
 Answer: D
-Q: The person gave a good hands on what to show how to do the work?
-A: demonstration
-B: garage
-C: building
-D: barn
-E: synagogue",A: demonstration,A
-CSQA,3a,"Question: Joe wanted to own a neighborhood barbershop but he had trouble with city zoning laws.  What might the city have required of his shop that was a problem?
-A: flush
-B: razor
-C: commercial area
-D: city
-E: water
-Answer: C
-Question: It is a lovely day, let's go outside and skate instead of doing what?
-A: really
-B: put on helmet
-C: sing
-D: not work so hard
-E: falling down
-Answer: D
-Question: Joe wanted to own a neighborhood barbershop but he had trouble with city zoning laws.  What might the city have required of his shop that was a problem?
-A: flush
-B: razor
-C: commercial area
-D: city
-E: water
-Answer: C
-Question: It is a lovely day, let's go outside and skate instead of doing what?
-A: really
-B: put on helmet
-C: sing
-D: not work so hard
-E: falling down
-Answer: D
-Q: The person gave a good hands on what to show how to do the work?
-A: demonstration
-B: garage
-C: building
-D: barn
-E: synagogue",A: demonstration,A
-CSQA,3b,"Question: In architecture, where are all buildings found?
-A: table
-B: inside
-C: all buildings
-D: restaurant
-E: synagogue
-Answer: C
-Question: Where can personal mushrooms be kept fresh?
-A: ocean
-B: grocery store
-C: supermarket
-D: refrigerator
-E: pizza
-Answer: D
-Question: In architecture, where are all buildings found?
-A: table
-B: inside
-C: all buildings
-D: restaurant
-E: synagogue
-Answer: C
-Question: Where can personal mushrooms be kept fresh?
-A: ocean
-B: grocery store
-C: supermarket
-D: refrigerator
-E: pizza
-Answer: D
-Q: The person gave a good hands on what to show how to do the work?
-A: demonstration
-B: garage
-C: building
-D: barn
-E: synagogue",A: demonstration,A
-StrategyQA,1a,"Question: The Hundred Years' War was a conflict between England and France from 1337-1453 Cesare Borgia, the son of Pope Alexander VI, was the first Duke of Valentinois. Cesare Borgia was born in 1475.
-Did the first Duke of Valentinois play a key role in the Hundred Years' War?
-Answer: False
-Question: Grand master is the highest title a chess player can get. The French Defense is a well known chess opening that is in many books.
-Would most grand masters know what the French Defense is?
+Question: When eating everything on the tasting menu, what does one tend to feel?
+A: full stomach
+B: getting full
+C: gaining weight
+D: sick
+E: satisfaction",Answer: E,B
+CSQA,3b,"Question: Where could you go to spend money?
+A: supermarket
+B: car show
+C: water fountain
+D: bank vault
+E: art show
+Answer: E
+Question: If I am reading a letter from a friend who I asked to write me a response, what might I be looking for?
+A: get news
+B: envelope
+C: happiness
+D: though
+E: answer
+Answer: E
+Question: Where could you go to spend money?
+A: supermarket
+B: car show
+C: water fountain
+D: bank vault
+E: art show
+Answer: E
+Question: If I am reading a letter from a friend who I asked to write me a response, what might I be looking for?
+A: get news
+B: envelope
+C: happiness
+D: though
+E: answer
+Answer: E
+Question: When eating everything on the tasting menu, what does one tend to feel?
+A: full stomach
+B: getting full
+C: gaining weight
+D: sick
+E: satisfaction",Answer: E: satisfaction,B
+StrategyQA,1a,"Question: Italian wedding soup has large chunks including meatballs and pasta which require chewing. Chicken Noodle soup has chunks of chicken and large noodles in it that require chewing.
+While on a liquid diet, are there some types of soup you cannot eat?
 Answer: True
-Q: Kindergartners are usually between 4 and 6 years of age. Kindergartners are tasked with learning the alphabet and how to write their own names.
-Would a thesis paper be unusual to assign to kindergartners? ",A: True,True
-StrategyQA,1a,"Question: Jimmy Vee is a dwarf. Dwarfism is defined as someone who is medically short-statured. Short stature due to a bone deficiency is one of the categories for paralympic athletes.
-Would Jimmy Vee be eligible to compete in the Paralympic Games?
+Question: Pompey, Julius Caesar, and Marcus Licinius Crassus formed a political association called a triumvirate. A triumvirate spits rule between three powerful people that get to make decisions. Reality show The Challenge: Total Madness appoints three weekly winners to make decisions for the group, known as the Tribunal. Reality show American Idol has had three judges making decisions about which contestants advance.
+Has type of political association Pompey had with Caesar influenced reality TV?
 Answer: True
-Question: Romeo and Juliet has topped multiple 'Top Read Books In High School' lists. Romeo and Juliet is available in multiple editions targeted at school age children.
-Is Romeo and Juliet an unusual title to teach high schoolers?
+Question: A blooming onion is a dish for sharing, featuring a sliced and deep fried onion made to resemble petals. A shallot is very small and would only make a few ""petals""
+Would a blooming onion be possible with a shallot?",False,False
+StrategyQA,1a,"Question: One Thousand and One Nights was compiled during the Islamic Golden Age. The Islamic Golden Age lasted from 800 AD to 1258 AD. The Canterbury Tales was written in 1392.
+Was The Canterbury Tales written before One Thousand and One Nights?
 Answer: False
-Q: Kindergartners are usually between 4 and 6 years of age. Kindergartners are tasked with learning the alphabet and how to write their own names.
-Would a thesis paper be unusual to assign to kindergartners? ",True,True
-StrategyQA,2,"Question: The Hundred Years' War was a conflict between England and France from 1337-1453 Cesare Borgia, the son of Pope Alexander VI, was the first Duke of Valentinois. Cesare Borgia was born in 1475.
-Did the first Duke of Valentinois play a key role in the Hundred Years' War?
-Answer: False
-Question: Grand master is the highest title a chess player can get. The French Defense is a well known chess opening that is in many books.
-Would most grand masters know what the French Defense is?
+Question: The Black Death is a bacterial disease called bubonic plague. Yersinia pestis has been found to grow and thrive inside amoebas. Bubonic plague is caused by Yersinia pestis.
+Could amoebas have played a part in the Black Death?
 Answer: True
-Question: Jimmy Vee is a dwarf. Dwarfism is defined as someone who is medically short-statured. Short stature due to a bone deficiency is one of the categories for paralympic athletes.
-Would Jimmy Vee be eligible to compete in the Paralympic Games?
+Question: A blooming onion is a dish for sharing, featuring a sliced and deep fried onion made to resemble petals. A shallot is very small and would only make a few ""petals""
+Would a blooming onion be possible with a shallot?",Answer: False,False
+StrategyQA,2,"Question: Italian wedding soup has large chunks including meatballs and pasta which require chewing. Chicken Noodle soup has chunks of chicken and large noodles in it that require chewing.
+While on a liquid diet, are there some types of soup you cannot eat?
 Answer: True
-Question: Romeo and Juliet has topped multiple 'Top Read Books In High School' lists. Romeo and Juliet is available in multiple editions targeted at school age children.
-Is Romeo and Juliet an unusual title to teach high schoolers?
-Answer: False
-Q: Kindergartners are usually between 4 and 6 years of age. Kindergartners are tasked with learning the alphabet and how to write their own names.
-Would a thesis paper be unusual to assign to kindergartners? ",Answer: True,True
-StrategyQA,3a,"Question: The Hundred Years' War was a conflict between England and France from 1337-1453 Cesare Borgia, the son of Pope Alexander VI, was the first Duke of Valentinois. Cesare Borgia was born in 1475.
-Did the first Duke of Valentinois play a key role in the Hundred Years' War?
-Answer: False
-Question: Grand master is the highest title a chess player can get. The French Defense is a well known chess opening that is in many books.
-Would most grand masters know what the French Defense is?
+Question: Pompey, Julius Caesar, and Marcus Licinius Crassus formed a political association called a triumvirate. A triumvirate spits rule between three powerful people that get to make decisions. Reality show The Challenge: Total Madness appoints three weekly winners to make decisions for the group, known as the Tribunal. Reality show American Idol has had three judges making decisions about which contestants advance.
+Has type of political association Pompey had with Caesar influenced reality TV?
 Answer: True
-Question: The Hundred Years' War was a conflict between England and France from 1337-1453 Cesare Borgia, the son of Pope Alexander VI, was the first Duke of Valentinois. Cesare Borgia was born in 1475.
-Did the first Duke of Valentinois play a key role in the Hundred Years' War?
+Question: One Thousand and One Nights was compiled during the Islamic Golden Age. The Islamic Golden Age lasted from 800 AD to 1258 AD. The Canterbury Tales was written in 1392.
+Was The Canterbury Tales written before One Thousand and One Nights?
 Answer: False
-Question: Grand master is the highest title a chess player can get. The French Defense is a well known chess opening that is in many books.
-Would most grand masters know what the French Defense is?
+Question: The Black Death is a bacterial disease called bubonic plague. Yersinia pestis has been found to grow and thrive inside amoebas. Bubonic plague is caused by Yersinia pestis.
+Could amoebas have played a part in the Black Death?
 Answer: True
-Q: Kindergartners are usually between 4 and 6 years of age. Kindergartners are tasked with learning the alphabet and how to write their own names.
-Would a thesis paper be unusual to assign to kindergartners? ",A: True,True
-StrategyQA,3b,"Question: Jimmy Vee is a dwarf. Dwarfism is defined as someone who is medically short-statured. Short stature due to a bone deficiency is one of the categories for paralympic athletes.
-Would Jimmy Vee be eligible to compete in the Paralympic Games?
+Question: A blooming onion is a dish for sharing, featuring a sliced and deep fried onion made to resemble petals. A shallot is very small and would only make a few ""petals""
+Would a blooming onion be possible with a shallot?",False,False
+StrategyQA,3a,"Question: Italian wedding soup has large chunks including meatballs and pasta which require chewing. Chicken Noodle soup has chunks of chicken and large noodles in it that require chewing.
+While on a liquid diet, are there some types of soup you cannot eat?
 Answer: True
-Question: Romeo and Juliet has topped multiple 'Top Read Books In High School' lists. Romeo and Juliet is available in multiple editions targeted at school age children.
-Is Romeo and Juliet an unusual title to teach high schoolers?
+Question: Pompey, Julius Caesar, and Marcus Licinius Crassus formed a political association called a triumvirate. A triumvirate spits rule between three powerful people that get to make decisions. Reality show The Challenge: Total Madness appoints three weekly winners to make decisions for the group, known as the Tribunal. Reality show American Idol has had three judges making decisions about which contestants advance.
+Has type of political association Pompey had with Caesar influenced reality TV?
+Answer: True
+Question: Italian wedding soup has large chunks including meatballs and pasta which require chewing. Chicken Noodle soup has chunks of chicken and large noodles in it that require chewing.
+While on a liquid diet, are there some types of soup you cannot eat?
+Answer: True
+Question: Pompey, Julius Caesar, and Marcus Licinius Crassus formed a political association called a triumvirate. A triumvirate spits rule between three powerful people that get to make decisions. Reality show The Challenge: Total Madness appoints three weekly winners to make decisions for the group, known as the Tribunal. Reality show American Idol has had three judges making decisions about which contestants advance.
+Has type of political association Pompey had with Caesar influenced reality TV?
+Answer: True
+Question: A blooming onion is a dish for sharing, featuring a sliced and deep fried onion made to resemble petals. A shallot is very small and would only make a few ""petals""
+Would a blooming onion be possible with a shallot?",Answer: False,False
+StrategyQA,3b,"Question: One Thousand and One Nights was compiled during the Islamic Golden Age. The Islamic Golden Age lasted from 800 AD to 1258 AD. The Canterbury Tales was written in 1392.
+Was The Canterbury Tales written before One Thousand and One Nights?
 Answer: False
-Question: Jimmy Vee is a dwarf. Dwarfism is defined as someone who is medically short-statured. Short stature due to a bone deficiency is one of the categories for paralympic athletes.
-Would Jimmy Vee be eligible to compete in the Paralympic Games?
+Question: The Black Death is a bacterial disease called bubonic plague. Yersinia pestis has been found to grow and thrive inside amoebas. Bubonic plague is caused by Yersinia pestis.
+Could amoebas have played a part in the Black Death?
 Answer: True
-Question: Romeo and Juliet has topped multiple 'Top Read Books In High School' lists. Romeo and Juliet is available in multiple editions targeted at school age children.
-Is Romeo and Juliet an unusual title to teach high schoolers?
+Question: One Thousand and One Nights was compiled during the Islamic Golden Age. The Islamic Golden Age lasted from 800 AD to 1258 AD. The Canterbury Tales was written in 1392.
+Was The Canterbury Tales written before One Thousand and One Nights?
 Answer: False
-Q: Kindergartners are usually between 4 and 6 years of age. Kindergartners are tasked with learning the alphabet and how to write their own names.
-Would a thesis paper be unusual to assign to kindergartners? ",A: True,True
-SayCan,1a,"Question: I’m exhausted, can you bring me a drink?
-Answer: 1. find a redbull, 2. pick up the redbull, 3. bring it to you, 4. put down the redbull, 5. done
+Question: The Black Death is a bacterial disease called bubonic plague. Yersinia pestis has been found to grow and thrive inside amoebas. Bubonic plague is caused by Yersinia pestis.
+Could amoebas have played a part in the Black Death?
+Answer: True
+Question: A blooming onion is a dish for sharing, featuring a sliced and deep fried onion made to resemble petals. A shallot is very small and would only make a few ""petals""
+Would a blooming onion be possible with a shallot?",Answer: False,False
+SayCan,1a,"Question: Can you bring me a spicy snack?
+Answer: 1. find a jalapeno chips, 2. pick up the jalapeno chips, 3. bring it to you, 4. put down the jalapeno chips, 5. done.
+Question: How would you move a banana to the table?
+Answer: 1. pick up the banana, 2. go to the table, 3. put down the banana, 4. done, I opened a sprite earlier.
+Question: Could you get me something refreshing?","Answer: 1. find a cold bottle of water, 2. pick up the bottle of water, 3. bring it to you, 4. put down the bottle of water, 5. done.","1. find a water bottle, 2. pick up the water bottle, 3. bring it to you, 4. put down the water bottle, 5. done"
+SayCan,1a,"Question: How would you bring me a fruit?
+Answer: 1. find a banana, 2. pick up the banana, 3. bring it to you, 4. put down the banana, 5. done
 Question: How would you bring me the open can?
 Answer: 1. find a sprite can, 2. pick up the sprite can, 3. bring it to you, 4. put down the sprite can, 5. done
-Q: How would you pick up the coke can?","A: 1. find a coke can, 2. pick up the coke can, 3. bring it to you, 4. put down the coke can, 5. done","1. pick up the coke can, 2. done"
-SayCan,1a,"Question: How would you throw a coke can away?
-Answer: 1. find a coke can, 2. pick up the coke can, 3. go to the trash, 4. put down the coke can, 5. done
-Question: How would you put a bag of chips and water bottle on the table?
-Answer: 1. find the bag of chips, 2. pick up the bag of chips, 3. go to the table, 4. put down the bag of chips, 5. find a water bottle, 6. pick up the water bottle, 7. go to the table, 8. put down the water bottle, 9. done
-Q: How would you pick up the coke can?","A: 1. locate the coke can, 2. reach out and grasp the coke can with your hand, 3. lift the coke can off the surface, 4. hold the coke can securely in your hand, 5. done","1. pick up the coke can, 2. done"
-SayCan,2,"Question: I’m exhausted, can you bring me a drink?
-Answer: 1. find a redbull, 2. pick up the redbull, 3. bring it to you, 4. put down the redbull, 5. done
+Question: Could you get me something refreshing?","Answer: 1. find a bottle of water or a glass of iced tea, 2. bring it to you, 3. offer it to you to refresh yourself, 4. done","1. find a water bottle, 2. pick up the water bottle, 3. bring it to you, 4. put down the water bottle, 5. done"
+SayCan,2,"Question: Can you bring me a spicy snack?
+Answer: 1. find a jalapeno chips, 2. pick up the jalapeno chips, 3. bring it to you, 4. put down the jalapeno chips, 5. done.
+Question: How would you move a banana to the table?
+Answer: 1. pick up the banana, 2. go to the table, 3. put down the banana, 4. done, I opened a sprite earlier.
+Question: How would you bring me a fruit?
+Answer: 1. find a banana, 2. pick up the banana, 3. bring it to you, 4. put down the banana, 5. done
 Question: How would you bring me the open can?
 Answer: 1. find a sprite can, 2. pick up the sprite can, 3. bring it to you, 4. put down the sprite can, 5. done
-Question: How would you throw a coke can away?
-Answer: 1. find a coke can, 2. pick up the coke can, 3. go to the trash, 4. put down the coke can, 5. done
-Question: How would you put a bag of chips and water bottle on the table?
-Answer: 1. find the bag of chips, 2. pick up the bag of chips, 3. go to the table, 4. put down the bag of chips, 5. find a water bottle, 6. pick up the water bottle, 7. go to the table, 8. put down the water bottle, 9. done
-Q: How would you pick up the coke can?","A: 1. Locate the coke can, 2. Reach for the coke can, 3. Grasp the coke can, 4. Lift the coke can off the surface, 5. Hold onto the coke can securely, 6. Transfer the coke can to your other hand if needed, 7. Bring the coke can to your desired location, 8. Release your grip on the coke can.","1. pick up the coke can, 2. done"
-SayCan,3a,"Question: I’m exhausted, can you bring me a drink?
-Answer: 1. find a redbull, 2. pick up the redbull, 3. bring it to you, 4. put down the redbull, 5. done
+Question: Could you get me something refreshing?","Answer: 1. find a cold glass of water or an iced tea, 2. pick up the refreshing beverage, 3. bring it to you, 4. put it down for you to enjoy, 5. done","1. find a water bottle, 2. pick up the water bottle, 3. bring it to you, 4. put down the water bottle, 5. done"
+SayCan,3a,"Question: Can you bring me a spicy snack?
+Answer: 1. find a jalapeno chips, 2. pick up the jalapeno chips, 3. bring it to you, 4. put down the jalapeno chips, 5. done.
+Question: How would you move a banana to the table?
+Answer: 1. pick up the banana, 2. go to the table, 3. put down the banana, 4. done, I opened a sprite earlier.
+Question: Can you bring me a spicy snack?
+Answer: 1. find a jalapeno chips, 2. pick up the jalapeno chips, 3. bring it to you, 4. put down the jalapeno chips, 5. done.
+Question: How would you move a banana to the table?
+Answer: 1. pick up the banana, 2. go to the table, 3. put down the banana, 4. done, I opened a sprite earlier.
+Question: Could you get me something refreshing?","Answer: Sure, would you like a glass of cold water or a refreshing fruit salad?","1. find a water bottle, 2. pick up the water bottle, 3. bring it to you, 4. put down the water bottle, 5. done"
+SayCan,3b,"Question: How would you bring me a fruit?
+Answer: 1. find a banana, 2. pick up the banana, 3. bring it to you, 4. put down the banana, 5. done
 Question: How would you bring me the open can?
 Answer: 1. find a sprite can, 2. pick up the sprite can, 3. bring it to you, 4. put down the sprite can, 5. done
-Question: I’m exhausted, can you bring me a drink?
-Answer: 1. find a redbull, 2. pick up the redbull, 3. bring it to you, 4. put down the redbull, 5. done
+Question: How would you bring me a fruit?
+Answer: 1. find a banana, 2. pick up the banana, 3. bring it to you, 4. put down the banana, 5. done
 Question: How would you bring me the open can?
 Answer: 1. find a sprite can, 2. pick up the sprite can, 3. bring it to you, 4. put down the sprite can, 5. done
-Q: How would you pick up the coke can?","A: 1. find a coke can, 2. pick up the coke can, 3. bring it to you, 4. put down the coke can, 5. done","1. pick up the coke can, 2. done"
-SayCan,3b,"Question: How would you throw a coke can away?
-Answer: 1. find a coke can, 2. pick up the coke can, 3. go to the trash, 4. put down the coke can, 5. done
-Question: How would you put a bag of chips and water bottle on the table?
-Answer: 1. find the bag of chips, 2. pick up the bag of chips, 3. go to the table, 4. put down the bag of chips, 5. find a water bottle, 6. pick up the water bottle, 7. go to the table, 8. put down the water bottle, 9. done
-Question: How would you throw a coke can away?
-Answer: 1. find a coke can, 2. pick up the coke can, 3. go to the trash, 4. put down the coke can, 5. done
-Question: How would you put a bag of chips and water bottle on the table?
-Answer: 1. find the bag of chips, 2. pick up the bag of chips, 3. go to the table, 4. put down the bag of chips, 5. find a water bottle, 6. pick up the water bottle, 7. go to the table, 8. put down the water bottle, 9. done
-Q: How would you pick up the coke can?",A: Simply reach out and grab the coke can with your hand.,"1. pick up the coke can, 2. done"
+Question: Could you get me something refreshing?","Answer: Sure, I can get you a cold drink like water or a soda. Just let me know what you prefer.","1. find a water bottle, 2. pick up the water bottle, 3. bring it to you, 4. put down the water bottle, 5. done"

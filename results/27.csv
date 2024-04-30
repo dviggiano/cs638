@@ -1,387 +1,383 @@
 Task Class,Case,Prompt,Response,Expected
-Math,1a,"Question: Janet is getting paid to moderate social media posts. She gets paid 25 cents per post she checks. If it takes her 10 seconds to check a post, how much does she earn per hour?
-Answer: First find the number of seconds in an hour: 1 hour * 60 minutes/hour * 60 seconds/minute = <<1*60*60=3600>>3600 seconds/hour.
-Then divide the total number of seconds per hour by the number of seconds it takes Janet to read one post: 3600 seconds/hour / 10 seconds/post = <<3600/10=360>>360 posts/hour.
-Then multiply the number of posts she checks per hour by her pay per post to find her hourly pay: $0.25/post * 360 posts/hour = $<<0.25*360=90>>90/hour.
+Math,1a,"Question: Kris is blowing u balloons for her sister’s party. She has 30 minutes to blow up as many balloons as possible and decides to enlist her brother’s help to increase the number of balloons. Kris can blow up a total of 2 balloon per minute, and her brother works twice as fast. After 15 minutes, her brother doubles his speed and works at this new speed for the remaining 15 minutes. After the 30 minutes, how many balloons, in total, did Kris and her brother blow up?
+Answer: Throughout the 30 minutes, Kris blows up 2 balloons per minute * 30 minutes = <<2*30=60>>60 balloons.
+Her brother works at double Kris' speed in the first 15 minutes so he works at 2 balloons per minute * 2 = <<2*2=4>>4 balloons per minute.
+So in the first 15 minutes, he blows up 4 balloons per minute * 15 minutes = <<4*15=60>>60 balloons.
+In the second 15 minutes, he is working at double the rate he did previously, so he blows up 4 balloons per minute * 2 = <<4*2=8>>8 balloons per minute.
+In the second 15 minutes, Kris’ brother therefore blows up 8 balloons per minute * 15 minutes = <<8*15=120>>120 balloons.
+Throughout the 30 minutes, he has blown up a total of 60 + 120 = <<60+120=180>>180 balloons.
+Kris and her brother therefore blew up a total of 60 balloons from Kris + 180 balloons from Kris’ brother = <<60+180=240>>240 balloons.
+#### 240
+Question: One logger can cut down 6 trees per day. The forest is a rectangle measuring 4 miles by 6 miles, and each square mile has 600 trees. If there are 30 days in each month, how many months will it take 8 loggers to cut down all the trees?
+Answer: First find the total area of the forest: 4 miles * 6 miles = <<4*6=24>>24 square miles
+Then find the total number of trees in that area: 600 trees/square mile * 24 square miles = <<600*24=14400>>14400 trees
+Then find the number of trees all the loggers can cut down in one day: 8 loggers * 6 trees/logger = <<8*6=48>>48 trees
+Then divide the total number of trees by the number cut down per day to find the number of days it takes to clear the forest: 14400 trees / 48 trees/day = <<14400/48=300>>300 days
+Then divide the time in days by the number of days per month to find the time in months: 300 days / 30 days/month = <<300/30=10>>10 months
+#### 10
+Question: Siobhan has 2 fewer jewels than Aaron. Aaron has 5 more jewels than half of Raymond's jewels. If Raymond has 40 jewels, how many jewels does Siobhan have?","First, find how many jewels Aaron has by dividing Raymond's jewels by 2 and then adding 5: 40 jewels / 2 = 20 jewels
+Aaron has 20 jewels + 5 jewels = 25 jewels
+Finally, subtract 2 from Aaron's total to find how many jewels Siobhan has: 25 jewels - 2 jewels = 23 jewels. 
+Therefore, Siobhan has 23 jewels.","Half of Raymond's jewels is 40/2 = <<40/2=20>>20
+Since Aaron has 5 more jewels than half of Raymond's jewels, he has 20+5 = <<5+20=25>>25 jewels.
+If Siobhan has 2 fewer jewels than Aaron, he has 25-2 = 23 jewels.
+#### 23"
+Math,1a,"Question: Maya wants to learn how to lift and right now she can only lift a fourth of what America can. America can lift 240 pounds. As Maya grows stronger, she can add 10 more pounds to what she previously could lift. America follows this and now she has hit her peak lift at 300 pounds. If Maya reaches her absolute peak and can lift half of what America can lift, how many more pounds can Maya lift now than when she started?
+Answer: Maya can lift 240*0.25=<<240*0.25=60>>60 pounds.
+Gaining progress, she can lift up to 60+10=<<60+10=70>>70 pounds.
+At her peak, she can lift 300*0.5=<<300*0.5=150>>150 pounds.
+Maya's peak is 150 pounds - 60 pounds when she started = <<150-60=90>>90 more pounds than when she started.
 #### 90
-Question: Dustin and Sam are both reading. Dustin can read 75 pages in an hour. Sam can read 24 pages in an hour. How many more pages does Dustin read in 40 minutes compared to Sam?
-Answer: Dustin reads 1.25 pages a minute because 75 / 60 = <<75/60=1.25>>1.25
-Dustin reads 50 pages in 40 minutes because 40 x 1.25 = <<40*1.25=50>>50
-Sam reads .4 pages a minute because 24 / 60 = <<24/60=.4>>.4
-Sam reads 16 pages in 40 minutes because 40 x .4 = <<40*.4=16>>16
-Dustin reads 34 more pages than Sam because 50 - 16 = <<34=34>>34
-#### 34
-Q: Nate is feeding his livestock hay. Each goat needs 5 pounds, and each sheep needs 3 pounds less than twice the amount each goat needs. If there are 15 goats and 12 sheep, how many pounds of hay does Nate need?","First, calculate how much hay each sheep needs. Twice the amount each goat needs is 5 * 2 = 10 pounds.
-Since each sheep needs 3 pounds less than twice the amount each goat needs, each sheep needs 10 - 3 = 7 pounds.
-Calculate the total amount of hay needed for the sheep by multiplying the amount each sheep needs by the number of sheep: 12 sheep * 7 pounds/sheep = 84 pounds.
-Calculate the total amount of hay needed for the goats by multiplying the amount each goat needs by the number of goats: 15 goats * 5 pounds/goat = 75 pounds.
-Add the amount of hay needed for the goats and the amount needed for the sheep to find the total amount of hay needed: 84 pounds + 75 pounds = 159 pounds. 
-Nate needs 159 pounds of hay in total.","First figure out how much hay each sheep needs: 5 pounds * 2 - 3 = <<5*2-3=7>>7 pounds/sheep
-Now figure out how much hay total the sheep need: 7 pounds/sheep * 12 sheep = <<7*12=84>>84 pounds
-Now figure out how much hay total the goats need: 5 pounds/goat * 15 goats = <<5*15=75>>75 pounds
-Now add the two amounts of hay to find the total: 84 pounds + 75 pounds = <<84+75=159>>159 pounds
-#### 159"
-Math,1a,"Question: Juanita enters a drumming contest. It costs $10 to enter. She has 2 minutes to hit as many drums as she can. If she hits 200 drums, she can start to make money, equal to 2.5 cents for every drum hit. How many drums does she hit if she lost $7.5 for joining the contest?
-Answer: She made $2.5 from hitting drums because 10 - 7.5 = <<10-7.5=2.5>>2.5
-She hit 200 drums to start making money
-She hit 100 drums in order to make the $2.5 because 2.5/.025 = 100
-She hit 300 drums in total because 100 + 200 = <<100+200=300>>300
-#### 300
-Question: Levi has 5 lemons. Jayden has 6 more lemons than Levi. Jayden has one-third as many lemons as Eli has while Eli has one-half as many lemons as Ian has. How many lemons do they have in all?
-Answer: Jayden has 5 + 6 = <<5+6=11>>11 lemons.
-Eli has 11 x 3 = <<11*3=33>>33 lemons.
-Ian has 33 x 2 = <<33*2=66>>66 lemons.
-Thus, the 4 of them have a total of 5 + 11 + 33 + 66 = <<5+11+33+66=115>>115 lemons.
-#### 115
-Q: Nate is feeding his livestock hay. Each goat needs 5 pounds, and each sheep needs 3 pounds less than twice the amount each goat needs. If there are 15 goats and 12 sheep, how many pounds of hay does Nate need?","A goat needs 5 pounds of hay.
-Twice the amount a goat needs is 5 x 2 = <<5*2=10>>10 pounds.
-So, a sheep needs 10 - 3 = <<10-3=7>>7 pounds of hay.
-Nate needs 15 goats x 5 pounds = <<15*5=75>>75 pounds of hay for the goats.
-He also needs 12 sheep x 7 pounds = <<12*7=84>>84 pounds of hay for the sheep.
-Therefore, Nate needs a total of 75 + 84 = <<75+84=159>>159 pounds of hay.
-#### 159","First figure out how much hay each sheep needs: 5 pounds * 2 - 3 = <<5*2-3=7>>7 pounds/sheep
-Now figure out how much hay total the sheep need: 7 pounds/sheep * 12 sheep = <<7*12=84>>84 pounds
-Now figure out how much hay total the goats need: 5 pounds/goat * 15 goats = <<5*15=75>>75 pounds
-Now add the two amounts of hay to find the total: 84 pounds + 75 pounds = <<84+75=159>>159 pounds
-#### 159"
-Math,2,"Question: Janet is getting paid to moderate social media posts. She gets paid 25 cents per post she checks. If it takes her 10 seconds to check a post, how much does she earn per hour?
-Answer: First find the number of seconds in an hour: 1 hour * 60 minutes/hour * 60 seconds/minute = <<1*60*60=3600>>3600 seconds/hour.
-Then divide the total number of seconds per hour by the number of seconds it takes Janet to read one post: 3600 seconds/hour / 10 seconds/post = <<3600/10=360>>360 posts/hour.
-Then multiply the number of posts she checks per hour by her pay per post to find her hourly pay: $0.25/post * 360 posts/hour = $<<0.25*360=90>>90/hour.
+Question: Adam has 50 balls. 20 balls are red, 10 are blue, and the rest are either pink or orange. If there are 3 times as many pink as orange balls, how many orange balls are there?
+Answer: Adam has a total of 50 balls - 20 red - 10 blue = <<50-20-10=20>>20 pink and orange balls combined
+If we let x be the total number of orange balls, we know that 3x is the number of pink balls
+Therefore, 20 balls = x + 3x = 4x
+The number of orange balls, x, is 20 balls / 4 = <<20/4=5>>5 balls
+#### 5
+Question: Siobhan has 2 fewer jewels than Aaron. Aaron has 5 more jewels than half of Raymond's jewels. If Raymond has 40 jewels, how many jewels does Siobhan have?","Answer: Aaron has 5 more jewels than half of Raymond's jewels, which means Aaron has 40 jewels / 2 = 20 jewels + 5 = 25 jewels
+Siobhan has 2 fewer jewels than Aaron, so Siobhan has 25 jewels - 2 = 23 jewels
+Therefore, Siobhan has 23 jewels.
+#### 23","Half of Raymond's jewels is 40/2 = <<40/2=20>>20
+Since Aaron has 5 more jewels than half of Raymond's jewels, he has 20+5 = <<5+20=25>>25 jewels.
+If Siobhan has 2 fewer jewels than Aaron, he has 25-2 = 23 jewels.
+#### 23"
+Math,2,"Question: Kris is blowing u balloons for her sister’s party. She has 30 minutes to blow up as many balloons as possible and decides to enlist her brother’s help to increase the number of balloons. Kris can blow up a total of 2 balloon per minute, and her brother works twice as fast. After 15 minutes, her brother doubles his speed and works at this new speed for the remaining 15 minutes. After the 30 minutes, how many balloons, in total, did Kris and her brother blow up?
+Answer: Throughout the 30 minutes, Kris blows up 2 balloons per minute * 30 minutes = <<2*30=60>>60 balloons.
+Her brother works at double Kris' speed in the first 15 minutes so he works at 2 balloons per minute * 2 = <<2*2=4>>4 balloons per minute.
+So in the first 15 minutes, he blows up 4 balloons per minute * 15 minutes = <<4*15=60>>60 balloons.
+In the second 15 minutes, he is working at double the rate he did previously, so he blows up 4 balloons per minute * 2 = <<4*2=8>>8 balloons per minute.
+In the second 15 minutes, Kris’ brother therefore blows up 8 balloons per minute * 15 minutes = <<8*15=120>>120 balloons.
+Throughout the 30 minutes, he has blown up a total of 60 + 120 = <<60+120=180>>180 balloons.
+Kris and her brother therefore blew up a total of 60 balloons from Kris + 180 balloons from Kris’ brother = <<60+180=240>>240 balloons.
+#### 240
+Question: One logger can cut down 6 trees per day. The forest is a rectangle measuring 4 miles by 6 miles, and each square mile has 600 trees. If there are 30 days in each month, how many months will it take 8 loggers to cut down all the trees?
+Answer: First find the total area of the forest: 4 miles * 6 miles = <<4*6=24>>24 square miles
+Then find the total number of trees in that area: 600 trees/square mile * 24 square miles = <<600*24=14400>>14400 trees
+Then find the number of trees all the loggers can cut down in one day: 8 loggers * 6 trees/logger = <<8*6=48>>48 trees
+Then divide the total number of trees by the number cut down per day to find the number of days it takes to clear the forest: 14400 trees / 48 trees/day = <<14400/48=300>>300 days
+Then divide the time in days by the number of days per month to find the time in months: 300 days / 30 days/month = <<300/30=10>>10 months
+#### 10
+Question: Maya wants to learn how to lift and right now she can only lift a fourth of what America can. America can lift 240 pounds. As Maya grows stronger, she can add 10 more pounds to what she previously could lift. America follows this and now she has hit her peak lift at 300 pounds. If Maya reaches her absolute peak and can lift half of what America can lift, how many more pounds can Maya lift now than when she started?
+Answer: Maya can lift 240*0.25=<<240*0.25=60>>60 pounds.
+Gaining progress, she can lift up to 60+10=<<60+10=70>>70 pounds.
+At her peak, she can lift 300*0.5=<<300*0.5=150>>150 pounds.
+Maya's peak is 150 pounds - 60 pounds when she started = <<150-60=90>>90 more pounds than when she started.
 #### 90
-Question: Dustin and Sam are both reading. Dustin can read 75 pages in an hour. Sam can read 24 pages in an hour. How many more pages does Dustin read in 40 minutes compared to Sam?
-Answer: Dustin reads 1.25 pages a minute because 75 / 60 = <<75/60=1.25>>1.25
-Dustin reads 50 pages in 40 minutes because 40 x 1.25 = <<40*1.25=50>>50
-Sam reads .4 pages a minute because 24 / 60 = <<24/60=.4>>.4
-Sam reads 16 pages in 40 minutes because 40 x .4 = <<40*.4=16>>16
-Dustin reads 34 more pages than Sam because 50 - 16 = <<34=34>>34
-#### 34
-Question: Juanita enters a drumming contest. It costs $10 to enter. She has 2 minutes to hit as many drums as she can. If she hits 200 drums, she can start to make money, equal to 2.5 cents for every drum hit. How many drums does she hit if she lost $7.5 for joining the contest?
-Answer: She made $2.5 from hitting drums because 10 - 7.5 = <<10-7.5=2.5>>2.5
-She hit 200 drums to start making money
-She hit 100 drums in order to make the $2.5 because 2.5/.025 = 100
-She hit 300 drums in total because 100 + 200 = <<100+200=300>>300
-#### 300
-Question: Levi has 5 lemons. Jayden has 6 more lemons than Levi. Jayden has one-third as many lemons as Eli has while Eli has one-half as many lemons as Ian has. How many lemons do they have in all?
-Answer: Jayden has 5 + 6 = <<5+6=11>>11 lemons.
-Eli has 11 x 3 = <<11*3=33>>33 lemons.
-Ian has 33 x 2 = <<33*2=66>>66 lemons.
-Thus, the 4 of them have a total of 5 + 11 + 33 + 66 = <<5+11+33+66=115>>115 lemons.
-#### 115
-Q: Nate is feeding his livestock hay. Each goat needs 5 pounds, and each sheep needs 3 pounds less than twice the amount each goat needs. If there are 15 goats and 12 sheep, how many pounds of hay does Nate need?","A goat needs 5 pounds of hay, so each sheep needs (2*5)-3=7 pounds of hay.
-There are 15 goats in total, so they need 15*5=75 pounds of hay.
-There are 12 sheep in total, so they need 12*7=84 pounds of hay.
-Therefore, Nate needs 75+84=159 pounds of hay in total.","First figure out how much hay each sheep needs: 5 pounds * 2 - 3 = <<5*2-3=7>>7 pounds/sheep
-Now figure out how much hay total the sheep need: 7 pounds/sheep * 12 sheep = <<7*12=84>>84 pounds
-Now figure out how much hay total the goats need: 5 pounds/goat * 15 goats = <<5*15=75>>75 pounds
-Now add the two amounts of hay to find the total: 84 pounds + 75 pounds = <<84+75=159>>159 pounds
-#### 159"
-Math,3a,"Question: Janet is getting paid to moderate social media posts. She gets paid 25 cents per post she checks. If it takes her 10 seconds to check a post, how much does she earn per hour?
-Answer: First find the number of seconds in an hour: 1 hour * 60 minutes/hour * 60 seconds/minute = <<1*60*60=3600>>3600 seconds/hour.
-Then divide the total number of seconds per hour by the number of seconds it takes Janet to read one post: 3600 seconds/hour / 10 seconds/post = <<3600/10=360>>360 posts/hour.
-Then multiply the number of posts she checks per hour by her pay per post to find her hourly pay: $0.25/post * 360 posts/hour = $<<0.25*360=90>>90/hour.
+Question: Adam has 50 balls. 20 balls are red, 10 are blue, and the rest are either pink or orange. If there are 3 times as many pink as orange balls, how many orange balls are there?
+Answer: Adam has a total of 50 balls - 20 red - 10 blue = <<50-20-10=20>>20 pink and orange balls combined
+If we let x be the total number of orange balls, we know that 3x is the number of pink balls
+Therefore, 20 balls = x + 3x = 4x
+The number of orange balls, x, is 20 balls / 4 = <<20/4=5>>5 balls
+#### 5
+Question: Siobhan has 2 fewer jewels than Aaron. Aaron has 5 more jewels than half of Raymond's jewels. If Raymond has 40 jewels, how many jewels does Siobhan have?","Answer: Half of Raymond's jewels is 40 jewels / 2 = 20 jewels.
+Aaron has 20 jewels + 5 jewels = 25 jewels.
+Siobhan has 25 jewels - 2 jewels = 23 jewels.
+Therefore, Siobhan has 23 jewels.","Half of Raymond's jewels is 40/2 = <<40/2=20>>20
+Since Aaron has 5 more jewels than half of Raymond's jewels, he has 20+5 = <<5+20=25>>25 jewels.
+If Siobhan has 2 fewer jewels than Aaron, he has 25-2 = 23 jewels.
+#### 23"
+Math,3a,"Question: Kris is blowing u balloons for her sister’s party. She has 30 minutes to blow up as many balloons as possible and decides to enlist her brother’s help to increase the number of balloons. Kris can blow up a total of 2 balloon per minute, and her brother works twice as fast. After 15 minutes, her brother doubles his speed and works at this new speed for the remaining 15 minutes. After the 30 minutes, how many balloons, in total, did Kris and her brother blow up?
+Answer: Throughout the 30 minutes, Kris blows up 2 balloons per minute * 30 minutes = <<2*30=60>>60 balloons.
+Her brother works at double Kris' speed in the first 15 minutes so he works at 2 balloons per minute * 2 = <<2*2=4>>4 balloons per minute.
+So in the first 15 minutes, he blows up 4 balloons per minute * 15 minutes = <<4*15=60>>60 balloons.
+In the second 15 minutes, he is working at double the rate he did previously, so he blows up 4 balloons per minute * 2 = <<4*2=8>>8 balloons per minute.
+In the second 15 minutes, Kris’ brother therefore blows up 8 balloons per minute * 15 minutes = <<8*15=120>>120 balloons.
+Throughout the 30 minutes, he has blown up a total of 60 + 120 = <<60+120=180>>180 balloons.
+Kris and her brother therefore blew up a total of 60 balloons from Kris + 180 balloons from Kris’ brother = <<60+180=240>>240 balloons.
+#### 240
+Question: One logger can cut down 6 trees per day. The forest is a rectangle measuring 4 miles by 6 miles, and each square mile has 600 trees. If there are 30 days in each month, how many months will it take 8 loggers to cut down all the trees?
+Answer: First find the total area of the forest: 4 miles * 6 miles = <<4*6=24>>24 square miles
+Then find the total number of trees in that area: 600 trees/square mile * 24 square miles = <<600*24=14400>>14400 trees
+Then find the number of trees all the loggers can cut down in one day: 8 loggers * 6 trees/logger = <<8*6=48>>48 trees
+Then divide the total number of trees by the number cut down per day to find the number of days it takes to clear the forest: 14400 trees / 48 trees/day = <<14400/48=300>>300 days
+Then divide the time in days by the number of days per month to find the time in months: 300 days / 30 days/month = <<300/30=10>>10 months
+#### 10
+Question: Kris is blowing u balloons for her sister’s party. She has 30 minutes to blow up as many balloons as possible and decides to enlist her brother’s help to increase the number of balloons. Kris can blow up a total of 2 balloon per minute, and her brother works twice as fast. After 15 minutes, her brother doubles his speed and works at this new speed for the remaining 15 minutes. After the 30 minutes, how many balloons, in total, did Kris and her brother blow up?
+Answer: Throughout the 30 minutes, Kris blows up 2 balloons per minute * 30 minutes = <<2*30=60>>60 balloons.
+Her brother works at double Kris' speed in the first 15 minutes so he works at 2 balloons per minute * 2 = <<2*2=4>>4 balloons per minute.
+So in the first 15 minutes, he blows up 4 balloons per minute * 15 minutes = <<4*15=60>>60 balloons.
+In the second 15 minutes, he is working at double the rate he did previously, so he blows up 4 balloons per minute * 2 = <<4*2=8>>8 balloons per minute.
+In the second 15 minutes, Kris’ brother therefore blows up 8 balloons per minute * 15 minutes = <<8*15=120>>120 balloons.
+Throughout the 30 minutes, he has blown up a total of 60 + 120 = <<60+120=180>>180 balloons.
+Kris and her brother therefore blew up a total of 60 balloons from Kris + 180 balloons from Kris’ brother = <<60+180=240>>240 balloons.
+#### 240
+Question: One logger can cut down 6 trees per day. The forest is a rectangle measuring 4 miles by 6 miles, and each square mile has 600 trees. If there are 30 days in each month, how many months will it take 8 loggers to cut down all the trees?
+Answer: First find the total area of the forest: 4 miles * 6 miles = <<4*6=24>>24 square miles
+Then find the total number of trees in that area: 600 trees/square mile * 24 square miles = <<600*24=14400>>14400 trees
+Then find the number of trees all the loggers can cut down in one day: 8 loggers * 6 trees/logger = <<8*6=48>>48 trees
+Then divide the total number of trees by the number cut down per day to find the number of days it takes to clear the forest: 14400 trees / 48 trees/day = <<14400/48=300>>300 days
+Then divide the time in days by the number of days per month to find the time in months: 300 days / 30 days/month = <<300/30=10>>10 months
+#### 10
+Question: Siobhan has 2 fewer jewels than Aaron. Aaron has 5 more jewels than half of Raymond's jewels. If Raymond has 40 jewels, how many jewels does Siobhan have?","Answer: First, find how many jewels Aaron has by dividing Raymond's jewels by 2 and adding 5: 40 jewels / 2 = 20 jewels + 5 jewels = 25 jewels
+Then subtract 2 jewels from Aaron's total to find how many jewels Siobhan has: 25 jewels - 2 jewels = 23 jewels
+Therefore, Siobhan has 23 jewels.","Half of Raymond's jewels is 40/2 = <<40/2=20>>20
+Since Aaron has 5 more jewels than half of Raymond's jewels, he has 20+5 = <<5+20=25>>25 jewels.
+If Siobhan has 2 fewer jewels than Aaron, he has 25-2 = 23 jewels.
+#### 23"
+Math,3b,"Question: Maya wants to learn how to lift and right now she can only lift a fourth of what America can. America can lift 240 pounds. As Maya grows stronger, she can add 10 more pounds to what she previously could lift. America follows this and now she has hit her peak lift at 300 pounds. If Maya reaches her absolute peak and can lift half of what America can lift, how many more pounds can Maya lift now than when she started?
+Answer: Maya can lift 240*0.25=<<240*0.25=60>>60 pounds.
+Gaining progress, she can lift up to 60+10=<<60+10=70>>70 pounds.
+At her peak, she can lift 300*0.5=<<300*0.5=150>>150 pounds.
+Maya's peak is 150 pounds - 60 pounds when she started = <<150-60=90>>90 more pounds than when she started.
 #### 90
-Question: Dustin and Sam are both reading. Dustin can read 75 pages in an hour. Sam can read 24 pages in an hour. How many more pages does Dustin read in 40 minutes compared to Sam?
-Answer: Dustin reads 1.25 pages a minute because 75 / 60 = <<75/60=1.25>>1.25
-Dustin reads 50 pages in 40 minutes because 40 x 1.25 = <<40*1.25=50>>50
-Sam reads .4 pages a minute because 24 / 60 = <<24/60=.4>>.4
-Sam reads 16 pages in 40 minutes because 40 x .4 = <<40*.4=16>>16
-Dustin reads 34 more pages than Sam because 50 - 16 = <<34=34>>34
-#### 34
-Question: Janet is getting paid to moderate social media posts. She gets paid 25 cents per post she checks. If it takes her 10 seconds to check a post, how much does she earn per hour?
-Answer: First find the number of seconds in an hour: 1 hour * 60 minutes/hour * 60 seconds/minute = <<1*60*60=3600>>3600 seconds/hour.
-Then divide the total number of seconds per hour by the number of seconds it takes Janet to read one post: 3600 seconds/hour / 10 seconds/post = <<3600/10=360>>360 posts/hour.
-Then multiply the number of posts she checks per hour by her pay per post to find her hourly pay: $0.25/post * 360 posts/hour = $<<0.25*360=90>>90/hour.
+Question: Adam has 50 balls. 20 balls are red, 10 are blue, and the rest are either pink or orange. If there are 3 times as many pink as orange balls, how many orange balls are there?
+Answer: Adam has a total of 50 balls - 20 red - 10 blue = <<50-20-10=20>>20 pink and orange balls combined
+If we let x be the total number of orange balls, we know that 3x is the number of pink balls
+Therefore, 20 balls = x + 3x = 4x
+The number of orange balls, x, is 20 balls / 4 = <<20/4=5>>5 balls
+#### 5
+Question: Maya wants to learn how to lift and right now she can only lift a fourth of what America can. America can lift 240 pounds. As Maya grows stronger, she can add 10 more pounds to what she previously could lift. America follows this and now she has hit her peak lift at 300 pounds. If Maya reaches her absolute peak and can lift half of what America can lift, how many more pounds can Maya lift now than when she started?
+Answer: Maya can lift 240*0.25=<<240*0.25=60>>60 pounds.
+Gaining progress, she can lift up to 60+10=<<60+10=70>>70 pounds.
+At her peak, she can lift 300*0.5=<<300*0.5=150>>150 pounds.
+Maya's peak is 150 pounds - 60 pounds when she started = <<150-60=90>>90 more pounds than when she started.
 #### 90
-Question: Dustin and Sam are both reading. Dustin can read 75 pages in an hour. Sam can read 24 pages in an hour. How many more pages does Dustin read in 40 minutes compared to Sam?
-Answer: Dustin reads 1.25 pages a minute because 75 / 60 = <<75/60=1.25>>1.25
-Dustin reads 50 pages in 40 minutes because 40 x 1.25 = <<40*1.25=50>>50
-Sam reads .4 pages a minute because 24 / 60 = <<24/60=.4>>.4
-Sam reads 16 pages in 40 minutes because 40 x .4 = <<40*.4=16>>16
-Dustin reads 34 more pages than Sam because 50 - 16 = <<34=34>>34
-#### 34
-Q: Nate is feeding his livestock hay. Each goat needs 5 pounds, and each sheep needs 3 pounds less than twice the amount each goat needs. If there are 15 goats and 12 sheep, how many pounds of hay does Nate need?","A: First, calculate the total amount of hay needed for the goats: 5 pounds/goat * 15 goats = 75 pounds.
-Next, calculate the amount of hay needed for each sheep: 2 * 5 pounds/goat - 3 pounds = 10 pounds/goat - 3 pounds = 7 pounds/sheep.
-Then calculate the total amount of hay needed for the sheep: 7 pounds/sheep * 12 sheep = 84 pounds.
-Finally, add the total amount of hay needed for the goats and sheep to find the total amount of hay Nate needs: 75 pounds + 84 pounds = 159 pounds. 
-Therefore, Nate needs 159 pounds of hay.","First figure out how much hay each sheep needs: 5 pounds * 2 - 3 = <<5*2-3=7>>7 pounds/sheep
-Now figure out how much hay total the sheep need: 7 pounds/sheep * 12 sheep = <<7*12=84>>84 pounds
-Now figure out how much hay total the goats need: 5 pounds/goat * 15 goats = <<5*15=75>>75 pounds
-Now add the two amounts of hay to find the total: 84 pounds + 75 pounds = <<84+75=159>>159 pounds
-#### 159"
-Math,3b,"Question: Juanita enters a drumming contest. It costs $10 to enter. She has 2 minutes to hit as many drums as she can. If she hits 200 drums, she can start to make money, equal to 2.5 cents for every drum hit. How many drums does she hit if she lost $7.5 for joining the contest?
-Answer: She made $2.5 from hitting drums because 10 - 7.5 = <<10-7.5=2.5>>2.5
-She hit 200 drums to start making money
-She hit 100 drums in order to make the $2.5 because 2.5/.025 = 100
-She hit 300 drums in total because 100 + 200 = <<100+200=300>>300
-#### 300
-Question: Levi has 5 lemons. Jayden has 6 more lemons than Levi. Jayden has one-third as many lemons as Eli has while Eli has one-half as many lemons as Ian has. How many lemons do they have in all?
-Answer: Jayden has 5 + 6 = <<5+6=11>>11 lemons.
-Eli has 11 x 3 = <<11*3=33>>33 lemons.
-Ian has 33 x 2 = <<33*2=66>>66 lemons.
-Thus, the 4 of them have a total of 5 + 11 + 33 + 66 = <<5+11+33+66=115>>115 lemons.
-#### 115
-Question: Juanita enters a drumming contest. It costs $10 to enter. She has 2 minutes to hit as many drums as she can. If she hits 200 drums, she can start to make money, equal to 2.5 cents for every drum hit. How many drums does she hit if she lost $7.5 for joining the contest?
-Answer: She made $2.5 from hitting drums because 10 - 7.5 = <<10-7.5=2.5>>2.5
-She hit 200 drums to start making money
-She hit 100 drums in order to make the $2.5 because 2.5/.025 = 100
-She hit 300 drums in total because 100 + 200 = <<100+200=300>>300
-#### 300
-Question: Levi has 5 lemons. Jayden has 6 more lemons than Levi. Jayden has one-third as many lemons as Eli has while Eli has one-half as many lemons as Ian has. How many lemons do they have in all?
-Answer: Jayden has 5 + 6 = <<5+6=11>>11 lemons.
-Eli has 11 x 3 = <<11*3=33>>33 lemons.
-Ian has 33 x 2 = <<33*2=66>>66 lemons.
-Thus, the 4 of them have a total of 5 + 11 + 33 + 66 = <<5+11+33+66=115>>115 lemons.
-#### 115
-Q: Nate is feeding his livestock hay. Each goat needs 5 pounds, and each sheep needs 3 pounds less than twice the amount each goat needs. If there are 15 goats and 12 sheep, how many pounds of hay does Nate need?","A goat needs 5 pounds of hay.
-
-Twice the amount a goat needs is 5 x 2 = 10 pounds.
-
-Each sheep needs 10 - 3 = <<10-3=7>>7 pounds of hay.
-
-Nate needs 15 x 5 = <<15*5=75>>75 pounds for the goats.
-
-Nate needs 12 x 7 = <<12*7=84>>84 pounds for the sheep.
-
-In total, Nate needs 75 + 84 = <<75+84=159>>159 pounds of hay.","First figure out how much hay each sheep needs: 5 pounds * 2 - 3 = <<5*2-3=7>>7 pounds/sheep
-Now figure out how much hay total the sheep need: 7 pounds/sheep * 12 sheep = <<7*12=84>>84 pounds
-Now figure out how much hay total the goats need: 5 pounds/goat * 15 goats = <<5*15=75>>75 pounds
-Now add the two amounts of hay to find the total: 84 pounds + 75 pounds = <<84+75=159>>159 pounds
-#### 159"
-CSQA,1a,"Question: Danny was visiting a museum.  He spent all day looking at exhibits.  He studied them all careful.  In the end, he went home.  Why might he have gone home?
-A: tired feet
-B: pondering
-C: gaining knowledge
-D: exhilaration
-E: wonder
+Question: Adam has 50 balls. 20 balls are red, 10 are blue, and the rest are either pink or orange. If there are 3 times as many pink as orange balls, how many orange balls are there?
+Answer: Adam has a total of 50 balls - 20 red - 10 blue = <<50-20-10=20>>20 pink and orange balls combined
+If we let x be the total number of orange balls, we know that 3x is the number of pink balls
+Therefore, 20 balls = x + 3x = 4x
+The number of orange balls, x, is 20 balls / 4 = <<20/4=5>>5 balls
+#### 5
+Question: Siobhan has 2 fewer jewels than Aaron. Aaron has 5 more jewels than half of Raymond's jewels. If Raymond has 40 jewels, how many jewels does Siobhan have?","Answer: Aaron has 5 more jewels than half of Raymond's jewels, so Aaron has 40/2 + 5 = 25 + 5 = 30 jewels.
+Siobhan has 2 fewer jewels than Aaron, so Siobhan has 30 - 2 = 28 jewels.
+Therefore, Siobhan has 28 jewels.","Half of Raymond's jewels is 40/2 = <<40/2=20>>20
+Since Aaron has 5 more jewels than half of Raymond's jewels, he has 20+5 = <<5+20=25>>25 jewels.
+If Siobhan has 2 fewer jewels than Aaron, he has 25-2 = 23 jewels.
+#### 23"
+CSQA,1a,"Question: If you're giving assistance to people in need what are you likely to see on their faces?
+A: smiles
+B: warm expressions
+C: happiness
+D: dependence
+E: good will
 Answer: A
-Question: Where could you put some olives to keep them fresh?
-A: jar
-B: pressed for thier oil
-C: ice box
-D: pizza
-E: refrigerator
+Question: He appreciated the small park and its taste of nature, living in the city just felt so what?
+A: very hard
+B: city
+C: man made
+D: indoors
+E: artificial
 Answer: E
-Q: What is a person chatting with friends likely hoping to accomplish?
-A: gathering of information
-B: communication
-C: feel relaxed
-D: kill boredom
-E: social bonding",Answer: E,E
-CSQA,1a,"Question: What could a dog get completely dirty?
-A: table
-B: pet store
-C: outside
-D: car
-E: rug
-Answer: E
-Question: Someone charged with killing people is likely to reside where?
-A: going to jail
-B: terrible
-C: murder
-D: home
-E: get arrested
+Question: WHat do cats get into when they are ripping things apart?
+A: dog's mouth
+B: floor
+C: garage
+D: trouble
+E: nature",Answer: D,D
+CSQA,1a,"Question: If someone is talent but doesn't like performing, they probably suffer from what?
+A: injury
+B: talent persons cannot suffer from injury and butterflies
+C: anxiety
+D: happiness
+E: energetic
+Answer: C
+Question: Where might a student store a pencil when traveling
+A: backpack
+B: desktop
+C: classroom
+D: desk drawer
+E: pocket
 Answer: A
-Q: What is a person chatting with friends likely hoping to accomplish?
-A: gathering of information
-B: communication
-C: feel relaxed
-D: kill boredom
-E: social bonding",Answer: E,E
-CSQA,2,"Question: Danny was visiting a museum.  He spent all day looking at exhibits.  He studied them all careful.  In the end, he went home.  Why might he have gone home?
-A: tired feet
-B: pondering
-C: gaining knowledge
-D: exhilaration
-E: wonder
+Question: WHat do cats get into when they are ripping things apart?
+A: dog's mouth
+B: floor
+C: garage
+D: trouble
+E: nature",Answer: D,D
+CSQA,2,"Question: If you're giving assistance to people in need what are you likely to see on their faces?
+A: smiles
+B: warm expressions
+C: happiness
+D: dependence
+E: good will
 Answer: A
-Question: Where could you put some olives to keep them fresh?
-A: jar
-B: pressed for thier oil
-C: ice box
-D: pizza
-E: refrigerator
+Question: He appreciated the small park and its taste of nature, living in the city just felt so what?
+A: very hard
+B: city
+C: man made
+D: indoors
+E: artificial
 Answer: E
-Question: What could a dog get completely dirty?
-A: table
-B: pet store
-C: outside
-D: car
-E: rug
-Answer: E
-Question: Someone charged with killing people is likely to reside where?
-A: going to jail
-B: terrible
-C: murder
-D: home
-E: get arrested
+Question: If someone is talent but doesn't like performing, they probably suffer from what?
+A: injury
+B: talent persons cannot suffer from injury and butterflies
+C: anxiety
+D: happiness
+E: energetic
+Answer: C
+Question: Where might a student store a pencil when traveling
+A: backpack
+B: desktop
+C: classroom
+D: desk drawer
+E: pocket
 Answer: A
-Q: What is a person chatting with friends likely hoping to accomplish?
-A: gathering of information
-B: communication
-C: feel relaxed
-D: kill boredom
-E: social bonding",Answer: C,E
-CSQA,3a,"Question: Danny was visiting a museum.  He spent all day looking at exhibits.  He studied them all careful.  In the end, he went home.  Why might he have gone home?
-A: tired feet
-B: pondering
-C: gaining knowledge
-D: exhilaration
-E: wonder
+Question: WHat do cats get into when they are ripping things apart?
+A: dog's mouth
+B: floor
+C: garage
+D: trouble
+E: nature",Answer: D,D
+CSQA,3a,"Question: If you're giving assistance to people in need what are you likely to see on their faces?
+A: smiles
+B: warm expressions
+C: happiness
+D: dependence
+E: good will
 Answer: A
-Question: Where could you put some olives to keep them fresh?
-A: jar
-B: pressed for thier oil
-C: ice box
-D: pizza
-E: refrigerator
+Question: He appreciated the small park and its taste of nature, living in the city just felt so what?
+A: very hard
+B: city
+C: man made
+D: indoors
+E: artificial
 Answer: E
-Question: Danny was visiting a museum.  He spent all day looking at exhibits.  He studied them all careful.  In the end, he went home.  Why might he have gone home?
-A: tired feet
-B: pondering
-C: gaining knowledge
-D: exhilaration
-E: wonder
+Question: If you're giving assistance to people in need what are you likely to see on their faces?
+A: smiles
+B: warm expressions
+C: happiness
+D: dependence
+E: good will
 Answer: A
-Question: Where could you put some olives to keep them fresh?
-A: jar
-B: pressed for thier oil
-C: ice box
-D: pizza
-E: refrigerator
+Question: He appreciated the small park and its taste of nature, living in the city just felt so what?
+A: very hard
+B: city
+C: man made
+D: indoors
+E: artificial
 Answer: E
-Q: What is a person chatting with friends likely hoping to accomplish?
-A: gathering of information
-B: communication
-C: feel relaxed
-D: kill boredom
-E: social bonding",Answer: E: social bonding,E
-CSQA,3b,"Question: What could a dog get completely dirty?
-A: table
-B: pet store
-C: outside
-D: car
-E: rug
-Answer: E
-Question: Someone charged with killing people is likely to reside where?
-A: going to jail
-B: terrible
-C: murder
-D: home
-E: get arrested
+Question: WHat do cats get into when they are ripping things apart?
+A: dog's mouth
+B: floor
+C: garage
+D: trouble
+E: nature",Answer: D,D
+CSQA,3b,"Question: If someone is talent but doesn't like performing, they probably suffer from what?
+A: injury
+B: talent persons cannot suffer from injury and butterflies
+C: anxiety
+D: happiness
+E: energetic
+Answer: C
+Question: Where might a student store a pencil when traveling
+A: backpack
+B: desktop
+C: classroom
+D: desk drawer
+E: pocket
 Answer: A
-Question: What could a dog get completely dirty?
-A: table
-B: pet store
-C: outside
-D: car
-E: rug
-Answer: E
-Question: Someone charged with killing people is likely to reside where?
-A: going to jail
-B: terrible
-C: murder
-D: home
-E: get arrested
+Question: If someone is talent but doesn't like performing, they probably suffer from what?
+A: injury
+B: talent persons cannot suffer from injury and butterflies
+C: anxiety
+D: happiness
+E: energetic
+Answer: C
+Question: Where might a student store a pencil when traveling
+A: backpack
+B: desktop
+C: classroom
+D: desk drawer
+E: pocket
 Answer: A
-Q: What is a person chatting with friends likely hoping to accomplish?
-A: gathering of information
-B: communication
-C: feel relaxed
-D: kill boredom
-E: social bonding",Answer: E,E
-StrategyQA,1a,"Question: Internet Trolls flock to any popular platform on the internet. Reddit is the 19th most popular website online.
-Can you avoid internet trolls on reddit?
+Question: WHat do cats get into when they are ripping things apart?
+A: dog's mouth
+B: floor
+C: garage
+D: trouble
+E: nature",Answer: D,D
+StrategyQA,1a,"Question: Moss is a type of non-vascular and flowerless plant. Moss typically grows in dark green clumps in damp and shady locations. A beard is facial hair that grows on the chin and cheeks of a human. Facial hair is not a plant. 
+Is a beard is moss that grows on a human?
 Answer: False
-Question: Nissan's headquarters are located in Yokohama, Japan. It is customary to eat with chopsticks in East Asian countries. Japan is a country in East Asia.
-Do workers at Nissan's headquarters eat with chopsticks?
-Answer: True
-Q: Lucille Ball was the star of ""I Love Lucy"". On ""I Love Lucy"", Lucille's character fails miserably while stomping grapes for wine.
-Do people remember Lucille Ball's winemaking as successful?",A: False,False
-StrategyQA,1a,"Question: On average, Americans prefer milder salsa than Europeans. The Carolina Reaper is the hottest pepper in the world.  The Carolina Reaper is rated as 2,200,000 Scoville Heat Units.
-Would Carolina Reaper decrease sales if added to all US salsa?
-Answer: True
-Question: The cosmic microwave background is faint electromagnetic radiation in space that is a remnant of the Big Bang. Food can be cooked in a microwave oven, but not in the remnants of space radiation.
-Can food be cooked in the cosmic microwave background?
+Question: Jacques Duèze was later Pope John XXII. The Pope is the head of the Catholic Church, a Christian organization. Christianity is a religion. Richard Dawkins is a prominent critic of religion.
+Would Jacques Duèze have been friends with Richard Dawkins?
 Answer: False
-Q: Lucille Ball was the star of ""I Love Lucy"". On ""I Love Lucy"", Lucille's character fails miserably while stomping grapes for wine.
-Do people remember Lucille Ball's winemaking as successful?",A: False,False
-StrategyQA,2,"Question: Internet Trolls flock to any popular platform on the internet. Reddit is the 19th most popular website online.
-Can you avoid internet trolls on reddit?
-Answer: False
-Question: Nissan's headquarters are located in Yokohama, Japan. It is customary to eat with chopsticks in East Asian countries. Japan is a country in East Asia.
-Do workers at Nissan's headquarters eat with chopsticks?
+Question: The Constitution of the Philippines is a document ratified in 1987 The British constitution is not an actual document, but a collection of legal statutes, precedent, political custom and social convention
+Does the Constitution of the Philippines copy text from the British constitution?",Answer: False,False
+StrategyQA,1a,"Question: The 2008 Summer Olympics had 4,637 women compete. The 2008 Summer Olympics had 6,305 men compete.
+Could all of the 2008 Summer Olympics women find a hookup athlete partner?
 Answer: True
-Question: On average, Americans prefer milder salsa than Europeans. The Carolina Reaper is the hottest pepper in the world.  The Carolina Reaper is rated as 2,200,000 Scoville Heat Units.
-Would Carolina Reaper decrease sales if added to all US salsa?
+Question: The Dodgers are a baseball team located in Los Angeles The White Sox are a baseball team located in Chicago The distance between Los Angeles and Chicago is 2,015 miles The length of the main section of the Great Wall of China is 2,145 miles
+Could the Great Wall of China connect the Dodgers to the White Sox?
 Answer: True
-Question: The cosmic microwave background is faint electromagnetic radiation in space that is a remnant of the Big Bang. Food can be cooked in a microwave oven, but not in the remnants of space radiation.
-Can food be cooked in the cosmic microwave background?
+Question: The Constitution of the Philippines is a document ratified in 1987 The British constitution is not an actual document, but a collection of legal statutes, precedent, political custom and social convention
+Does the Constitution of the Philippines copy text from the British constitution?",False,False
+StrategyQA,2,"Question: Moss is a type of non-vascular and flowerless plant. Moss typically grows in dark green clumps in damp and shady locations. A beard is facial hair that grows on the chin and cheeks of a human. Facial hair is not a plant. 
+Is a beard is moss that grows on a human?
 Answer: False
-Q: Lucille Ball was the star of ""I Love Lucy"". On ""I Love Lucy"", Lucille's character fails miserably while stomping grapes for wine.
-Do people remember Lucille Ball's winemaking as successful?",A: False,False
-StrategyQA,3a,"Question: Internet Trolls flock to any popular platform on the internet. Reddit is the 19th most popular website online.
-Can you avoid internet trolls on reddit?
+Question: Jacques Duèze was later Pope John XXII. The Pope is the head of the Catholic Church, a Christian organization. Christianity is a religion. Richard Dawkins is a prominent critic of religion.
+Would Jacques Duèze have been friends with Richard Dawkins?
 Answer: False
-Question: Nissan's headquarters are located in Yokohama, Japan. It is customary to eat with chopsticks in East Asian countries. Japan is a country in East Asia.
-Do workers at Nissan's headquarters eat with chopsticks?
+Question: The 2008 Summer Olympics had 4,637 women compete. The 2008 Summer Olympics had 6,305 men compete.
+Could all of the 2008 Summer Olympics women find a hookup athlete partner?
 Answer: True
-Question: Internet Trolls flock to any popular platform on the internet. Reddit is the 19th most popular website online.
-Can you avoid internet trolls on reddit?
-Answer: False
-Question: Nissan's headquarters are located in Yokohama, Japan. It is customary to eat with chopsticks in East Asian countries. Japan is a country in East Asia.
-Do workers at Nissan's headquarters eat with chopsticks?
+Question: The Dodgers are a baseball team located in Los Angeles The White Sox are a baseball team located in Chicago The distance between Los Angeles and Chicago is 2,015 miles The length of the main section of the Great Wall of China is 2,145 miles
+Could the Great Wall of China connect the Dodgers to the White Sox?
 Answer: True
-Q: Lucille Ball was the star of ""I Love Lucy"". On ""I Love Lucy"", Lucille's character fails miserably while stomping grapes for wine.
-Do people remember Lucille Ball's winemaking as successful?",A: False,False
-StrategyQA,3b,"Question: On average, Americans prefer milder salsa than Europeans. The Carolina Reaper is the hottest pepper in the world.  The Carolina Reaper is rated as 2,200,000 Scoville Heat Units.
-Would Carolina Reaper decrease sales if added to all US salsa?
-Answer: True
-Question: The cosmic microwave background is faint electromagnetic radiation in space that is a remnant of the Big Bang. Food can be cooked in a microwave oven, but not in the remnants of space radiation.
-Can food be cooked in the cosmic microwave background?
+Question: The Constitution of the Philippines is a document ratified in 1987 The British constitution is not an actual document, but a collection of legal statutes, precedent, political custom and social convention
+Does the Constitution of the Philippines copy text from the British constitution?",Answer: False,False
+StrategyQA,3a,"Question: Moss is a type of non-vascular and flowerless plant. Moss typically grows in dark green clumps in damp and shady locations. A beard is facial hair that grows on the chin and cheeks of a human. Facial hair is not a plant. 
+Is a beard is moss that grows on a human?
 Answer: False
-Question: On average, Americans prefer milder salsa than Europeans. The Carolina Reaper is the hottest pepper in the world.  The Carolina Reaper is rated as 2,200,000 Scoville Heat Units.
-Would Carolina Reaper decrease sales if added to all US salsa?
-Answer: True
-Question: The cosmic microwave background is faint electromagnetic radiation in space that is a remnant of the Big Bang. Food can be cooked in a microwave oven, but not in the remnants of space radiation.
-Can food be cooked in the cosmic microwave background?
+Question: Jacques Duèze was later Pope John XXII. The Pope is the head of the Catholic Church, a Christian organization. Christianity is a religion. Richard Dawkins is a prominent critic of religion.
+Would Jacques Duèze have been friends with Richard Dawkins?
 Answer: False
-Q: Lucille Ball was the star of ""I Love Lucy"". On ""I Love Lucy"", Lucille's character fails miserably while stomping grapes for wine.
-Do people remember Lucille Ball's winemaking as successful?",A: False,False
-SayCan,1a,"Question: Can you bring me a salty snack?
-Answer: 1. find a sea salt chips, 2. pick up the sea salt chips, 3. bring it to you, 4. put down the sea salt chips, 5. done.
-Question: How would you go to the table?
-Answer: 1. go to the table, 2. done
-Q: How would you move a banana to the table?","A: 1. pick up the banana, 2. walk to the table, 3. place the banana on the table, 4. done.","1. pick up the banana, 2. go to the table, 3. put down the banana, 4. done, I opened a sprite earlier."
-SayCan,1a,"Question: How would you pick up the coke can?
-Answer: 1. pick up the coke can, 2. done
-Question: Deliver the red bull to the close counter
-Answer: 1. find a redbull, 2. pick up the redbull, 3. go to the counter, 4. put down the redbull, 5. done.
-Q: How would you move a banana to the table?","A: 1. pick up the banana, 2. walk over to the table, 3. place the banana on the table, 4. done.","1. pick up the banana, 2. go to the table, 3. put down the banana, 4. done, I opened a sprite earlier."
-SayCan,2,"Question: Can you bring me a salty snack?
-Answer: 1. find a sea salt chips, 2. pick up the sea salt chips, 3. bring it to you, 4. put down the sea salt chips, 5. done.
-Question: How would you go to the table?
-Answer: 1. go to the table, 2. done
-Question: How would you pick up the coke can?
-Answer: 1. pick up the coke can, 2. done
-Question: Deliver the red bull to the close counter
-Answer: 1. find a redbull, 2. pick up the redbull, 3. go to the counter, 4. put down the redbull, 5. done.
-Q: How would you move a banana to the table?","A: 1. Pick up the banana, 2. Walk to the table, 3. Place the banana on the table, 4. Done.","1. pick up the banana, 2. go to the table, 3. put down the banana, 4. done, I opened a sprite earlier."
-SayCan,3a,"Question: Can you bring me a salty snack?
-Answer: 1. find a sea salt chips, 2. pick up the sea salt chips, 3. bring it to you, 4. put down the sea salt chips, 5. done.
-Question: How would you go to the table?
-Answer: 1. go to the table, 2. done
+Question: Moss is a type of non-vascular and flowerless plant. Moss typically grows in dark green clumps in damp and shady locations. A beard is facial hair that grows on the chin and cheeks of a human. Facial hair is not a plant. 
+Is a beard is moss that grows on a human?
+Answer: False
+Question: Jacques Duèze was later Pope John XXII. The Pope is the head of the Catholic Church, a Christian organization. Christianity is a religion. Richard Dawkins is a prominent critic of religion.
+Would Jacques Duèze have been friends with Richard Dawkins?
+Answer: False
+Question: The Constitution of the Philippines is a document ratified in 1987 The British constitution is not an actual document, but a collection of legal statutes, precedent, political custom and social convention
+Does the Constitution of the Philippines copy text from the British constitution?",Answer: False,False
+StrategyQA,3b,"Question: The 2008 Summer Olympics had 4,637 women compete. The 2008 Summer Olympics had 6,305 men compete.
+Could all of the 2008 Summer Olympics women find a hookup athlete partner?
+Answer: True
+Question: The Dodgers are a baseball team located in Los Angeles The White Sox are a baseball team located in Chicago The distance between Los Angeles and Chicago is 2,015 miles The length of the main section of the Great Wall of China is 2,145 miles
+Could the Great Wall of China connect the Dodgers to the White Sox?
+Answer: True
+Question: The 2008 Summer Olympics had 4,637 women compete. The 2008 Summer Olympics had 6,305 men compete.
+Could all of the 2008 Summer Olympics women find a hookup athlete partner?
+Answer: True
+Question: The Dodgers are a baseball team located in Los Angeles The White Sox are a baseball team located in Chicago The distance between Los Angeles and Chicago is 2,015 miles The length of the main section of the Great Wall of China is 2,145 miles
+Could the Great Wall of China connect the Dodgers to the White Sox?
+Answer: True
+Question: The Constitution of the Philippines is a document ratified in 1987 The British constitution is not an actual document, but a collection of legal statutes, precedent, political custom and social convention
+Does the Constitution of the Philippines copy text from the British constitution?",Answer: False,False
+SayCan,1a,"Question: Bring me a soda that isn’t a coke.
+Answer: 1. find a pepsi, 2. pick up the pepsi, 3. bring it to you, 4. put down the pepsi, 5. done.
+Question: Bring me chips from the drawer.
+Answer: 1. go to the drawer, 2. open the drawer, 3. pick up the bag of chips, 4. close the drawer, 5. bring it to you, 6. put down the bag of chips, 7. done
+Question: Bring me three different drinks.","Answer: 1. find a bottle of water, 2. find a can of iced tea, 3. find a glass of orange juice, 4. pick up all three drinks, 5. bring them to you, 6. put down the drinks, 7. done.","1. find a coke, 2. pick up the coke, 3. bring it to you, 4. put down the coke, 5. find a lime soda, 6. pick up the lime soda, 7. bring it to you, 8. put down the lime soda, 9. find a redbull, 10. pick up the redbull, 11. bring it to you, 12. put down the redbull, 13. done"
+SayCan,1a,"Question: Bring me a soda that is not a coke.
+Answer: 1. find a pepsi, 2. pick up the pepsi, 3. bring it to you, 4. put down the pepsi, 5. done
 Question: Can you bring me a salty snack?
-Answer: 1. find a sea salt chips, 2. pick up the sea salt chips, 3. bring it to you, 4. put down the sea salt chips, 5. done.
-Question: How would you go to the table?
-Answer: 1. go to the table, 2. done
-Q: How would you move a banana to the table?","A: 1. pick up the banana, 2. walk to the table, 3. place the banana on the table, 4. done.","1. pick up the banana, 2. go to the table, 3. put down the banana, 4. done, I opened a sprite earlier."
-SayCan,3b,"Question: How would you pick up the coke can?
-Answer: 1. pick up the coke can, 2. done
-Question: Deliver the red bull to the close counter
-Answer: 1. find a redbull, 2. pick up the redbull, 3. go to the counter, 4. put down the redbull, 5. done.
-Question: How would you pick up the coke can?
-Answer: 1. pick up the coke can, 2. done
-Question: Deliver the red bull to the close counter
-Answer: 1. find a redbull, 2. pick up the redbull, 3. go to the counter, 4. put down the redbull, 5. done.
-Q: How would you move a banana to the table?","A: 1. Pick up the banana, 2. walk to the table, 3. place the banana on the table, 4. done.","1. pick up the banana, 2. go to the table, 3. put down the banana, 4. done, I opened a sprite earlier."
+Answer: 1. find the sea salt chips, 2. pick up the sea salt chips, 3. bring it to you, 4. put down the sea salt chips, 5. done
+Question: Bring me three different drinks.","Answer: 1. find a water bottle, a lemonade, and an iced tea, 2. pick up the water bottle, lemonade, and iced tea, 3. bring them to you, 4. put them down in front of you, 5. done","1. find a coke, 2. pick up the coke, 3. bring it to you, 4. put down the coke, 5. find a lime soda, 6. pick up the lime soda, 7. bring it to you, 8. put down the lime soda, 9. find a redbull, 10. pick up the redbull, 11. bring it to you, 12. put down the redbull, 13. done"
+SayCan,2,"Question: Bring me a soda that isn’t a coke.
+Answer: 1. find a pepsi, 2. pick up the pepsi, 3. bring it to you, 4. put down the pepsi, 5. done.
+Question: Bring me chips from the drawer.
+Answer: 1. go to the drawer, 2. open the drawer, 3. pick up the bag of chips, 4. close the drawer, 5. bring it to you, 6. put down the bag of chips, 7. done
+Question: Bring me a soda that is not a coke.
+Answer: 1. find a pepsi, 2. pick up the pepsi, 3. bring it to you, 4. put down the pepsi, 5. done
+Question: Can you bring me a salty snack?
+Answer: 1. find the sea salt chips, 2. pick up the sea salt chips, 3. bring it to you, 4. put down the sea salt chips, 5. done
+Question: Bring me three different drinks.","Answer: 1. find a water, a juice, and a sports drink, 2. pick up all three drinks, 3. bring them to you, 4. put down the drinks, 5. done.","1. find a coke, 2. pick up the coke, 3. bring it to you, 4. put down the coke, 5. find a lime soda, 6. pick up the lime soda, 7. bring it to you, 8. put down the lime soda, 9. find a redbull, 10. pick up the redbull, 11. bring it to you, 12. put down the redbull, 13. done"
+SayCan,3a,"Question: Bring me a soda that isn’t a coke.
+Answer: 1. find a pepsi, 2. pick up the pepsi, 3. bring it to you, 4. put down the pepsi, 5. done.
+Question: Bring me chips from the drawer.
+Answer: 1. go to the drawer, 2. open the drawer, 3. pick up the bag of chips, 4. close the drawer, 5. bring it to you, 6. put down the bag of chips, 7. done
+Question: Bring me a soda that isn’t a coke.
+Answer: 1. find a pepsi, 2. pick up the pepsi, 3. bring it to you, 4. put down the pepsi, 5. done.
+Question: Bring me chips from the drawer.
+Answer: 1. go to the drawer, 2. open the drawer, 3. pick up the bag of chips, 4. close the drawer, 5. bring it to you, 6. put down the bag of chips, 7. done
+Question: Bring me three different drinks.","Answer: 1. Find three different drinks, 2. Pick up each drink one by one, 3. Bring all three drinks to you, 4. Put down the drinks, 5. Done.","1. find a coke, 2. pick up the coke, 3. bring it to you, 4. put down the coke, 5. find a lime soda, 6. pick up the lime soda, 7. bring it to you, 8. put down the lime soda, 9. find a redbull, 10. pick up the redbull, 11. bring it to you, 12. put down the redbull, 13. done"
+SayCan,3b,"Question: Bring me a soda that is not a coke.
+Answer: 1. find a pepsi, 2. pick up the pepsi, 3. bring it to you, 4. put down the pepsi, 5. done
+Question: Can you bring me a salty snack?
+Answer: 1. find the sea salt chips, 2. pick up the sea salt chips, 3. bring it to you, 4. put down the sea salt chips, 5. done
+Question: Bring me a soda that is not a coke.
+Answer: 1. find a pepsi, 2. pick up the pepsi, 3. bring it to you, 4. put down the pepsi, 5. done
+Question: Can you bring me a salty snack?
+Answer: 1. find the sea salt chips, 2. pick up the sea salt chips, 3. bring it to you, 4. put down the sea salt chips, 5. done
+Question: Bring me three different drinks.","Answer: 1. Find a water bottle, 2. Find an orange juice, 3. Find a lemonade, 4. Pick up all three drinks, 5. Bring them to you, 6. Put them down, 7. Done.","1. find a coke, 2. pick up the coke, 3. bring it to you, 4. put down the coke, 5. find a lime soda, 6. pick up the lime soda, 7. bring it to you, 8. put down the lime soda, 9. find a redbull, 10. pick up the redbull, 11. bring it to you, 12. put down the redbull, 13. done"
