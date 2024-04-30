@@ -1,0 +1,49 @@
+Task Class,Case,Response,True Answer
+Math,1a,"A: Ahmed has read half the number of books as Ezra, so Ahmed has read 300 / 2 = 150 books.
+Ezra decided to read 150 more books, so together they have read 300 + 150 = 450 books.
+Altogether, they have read 150 + 300 = 450 + 150 = <<150+300+150=600>>600 books. 
+#### 600","If Ezra has read 300 books this hour and decided to read 150 more in the next hour, he has read a total of 300+150=<<300+150=450>>450
+Since Ezra reads twice as many books as Ahmed, Ahmed has read 450/2=<<450/2=225>>225 books.
+Together, Ahmed and Ezra has read 225+450=<<225+450=675>>675 books
+#### 675"
+Math,1a,"A: Since Ezra read twice as many books as Ahmed, Ahmed has read 300/2 = 150 books.
+After deciding to read 150 more books, Ezra has read a total of 300 + 150 = <<300+150=450>>450 books.
+Adding Ahmed's 150 books, they have read a total of 450 + 150 = <<450+150=600>>600 books altogether. 
+#### 600","If Ezra has read 300 books this hour and decided to read 150 more in the next hour, he has read a total of 300+150=<<300+150=450>>450
+Since Ezra reads twice as many books as Ahmed, Ahmed has read 450/2=<<450/2=225>>225 books.
+Together, Ahmed and Ezra has read 225+450=<<225+450=675>>675 books
+#### 675"
+Math,2,"A: If Ezra read 300 books in one hour and decided to read 150 more, he read a total of 300 + 150 = <<300+150=450>>450 books.
+Since Ezra read twice as many books as Ahmed in the first hour, Ahmed read 300 / 2 = <<300/2=150>>150 books in the first hour.
+Therefore, Ezra and Ahmed have read a total of 450 + 150 = <<450+150=600>>600 books altogether. 
+#### 600","If Ezra has read 300 books this hour and decided to read 150 more in the next hour, he has read a total of 300+150=<<300+150=450>>450
+Since Ezra reads twice as many books as Ahmed, Ahmed has read 450/2=<<450/2=225>>225 books.
+Together, Ahmed and Ezra has read 225+450=<<225+450=675>>675 books
+#### 675"
+Math,3a,"A: Ahmed read half the number of books as Ezra, so he read 300 / 2 = 150 books.
+Together, they have read 300 + 150 = 450 books. 
+Therefore, Ezra and Ahmed have read 450 + 150 = 600 books altogether.","If Ezra has read 300 books this hour and decided to read 150 more in the next hour, he has read a total of 300+150=<<300+150=450>>450
+Since Ezra reads twice as many books as Ahmed, Ahmed has read 450/2=<<450/2=225>>225 books.
+Together, Ahmed and Ezra has read 225+450=<<225+450=675>>675 books
+#### 675"
+Math,3b,"A: If Ezra has read 300 books this hour, then Ahmed has read 300/2 = 150 books this hour.
+Together, they have read 300 + 150 = <<300+150=450>>450 books in total. 
+So, they have read 450 books altogether.","If Ezra has read 300 books this hour and decided to read 150 more in the next hour, he has read a total of 300+150=<<300+150=450>>450
+Since Ezra reads twice as many books as Ahmed, Ahmed has read 450/2=<<450/2=225>>225 books.
+Together, Ahmed and Ezra has read 225+450=<<225+450=675>>675 books
+#### 675"
+CSQA,1a,A: D,
+CSQA,1a,A: D,
+CSQA,2,A: D,
+CSQA,3a,A: D,
+CSQA,3b,A: D,
+StrategyQA,1a,A: False,False
+StrategyQA,1a,A: False,False
+StrategyQA,2,A: False,False
+StrategyQA,3a,A: False,False
+StrategyQA,3b,A: False,False
+SayCan,1a,"A: 1. find a sprite, 2. pick up the sprite, 3. bring it to you, 4. put down the sprite, 5. done","1. find a sprite can, 2. pick up the sprite can, 3. bring it to you, 4. put down the sprite can, 5. done"
+SayCan,1a,"A: 1. find a sprite can, 2. pick up the sprite can, 3. bring it to you, 4. put down the sprite can, 5. done","1. find a sprite can, 2. pick up the sprite can, 3. bring it to you, 4. put down the sprite can, 5. done"
+SayCan,2,"A: 1. find a sprite can, 2. pick up the sprite can, 3. bring it to you, 4. put down the sprite can, 5. done","1. find a sprite can, 2. pick up the sprite can, 3. bring it to you, 4. put down the sprite can, 5. done"
+SayCan,3a,"A: 1. find a sprite, 2. pick up the sprite, 3. bring it to you, 4. put down the sprite, 5. done.","1. find a sprite can, 2. pick up the sprite can, 3. bring it to you, 4. put down the sprite can, 5. done"
+SayCan,3b,"A: 1. find a sprite can, 2. pick up the sprite can, 3. bring it to you, 4. put down the sprite can, 5. done","1. find a sprite can, 2. pick up the sprite can, 3. bring it to you, 4. put down the sprite can, 5. done"

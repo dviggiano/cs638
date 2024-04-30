@@ -1,0 +1,48 @@
+Task Class,Case,Response,True Answer
+Math,1a,"A: If each class has 80 students total and 40% of the students are girls, then 60% of the students are boys.
+So, in each class, there are 80 students x 60% = 48 boys.
+Therefore, there are 48 boys in each class.","If both classes have the same amount of students, that means each of them has 80 / 2 = <<80/2=40>>40 students.
+The girls in each class make up to 40%, so there are 40/100 * 40 = <<40/100*40=16>>16 girls in each of them.
+That means the rest of the class are boys, so there are 40 - 16 = <<40-16=24>>24 boys in each class.
+#### 24"
+Math,1a,"A: If 40% of the students in each class are girls, then 60% are boys.
+Since each class has the same number of students, then 60% of the students in each class are boys.
+This means that 60% of the students in each class are boys, so there are 60/100 * 80 = <<60/100*80=48>>48 boys in each class.
+So, there are 48 boys in each class.","If both classes have the same amount of students, that means each of them has 80 / 2 = <<80/2=40>>40 students.
+The girls in each class make up to 40%, so there are 40/100 * 40 = <<40/100*40=16>>16 girls in each of them.
+That means the rest of the class are boys, so there are 40 - 16 = <<40-16=24>>24 boys in each class.
+#### 24"
+Math,2,"A: If each class has the same amount of students, then each class has 80 students / 2 = <<80/2=40>>40 students.
+If 40% of the students in each class are girls, then 60% are boys.
+Therefore, there are 40 students x 60% = <<40*60*.01=24>>24 boys in each class.","If both classes have the same amount of students, that means each of them has 80 / 2 = <<80/2=40>>40 students.
+The girls in each class make up to 40%, so there are 40/100 * 40 = <<40/100*40=16>>16 girls in each of them.
+That means the rest of the class are boys, so there are 40 - 16 = <<40-16=24>>24 boys in each class.
+#### 24"
+Math,3a,"A: Since each class has the same number of students and 40% are girls, then 60% are boys in each class.
+If the total number of students in both classes is 80, then each class has 80 / 2 = 40 students.
+60% of 40 students is 0.60 * 40 = <<0.60*40=24>>24 boys in each class.
+Therefore, each class has 24 boys.","If both classes have the same amount of students, that means each of them has 80 / 2 = <<80/2=40>>40 students.
+The girls in each class make up to 40%, so there are 40/100 * 40 = <<40/100*40=16>>16 girls in each of them.
+That means the rest of the class are boys, so there are 40 - 16 = <<40-16=24>>24 boys in each class.
+#### 24"
+Math,3b,"A: If each class has the same number of students and 40% of the students are girls, then 60% are boys.
+So, in each class, 60% of the students are boys, which means there are 0.6 * 80 = 48 boys in each class. 
+Therefore, there are 48 boys in each class.","If both classes have the same amount of students, that means each of them has 80 / 2 = <<80/2=40>>40 students.
+The girls in each class make up to 40%, so there are 40/100 * 40 = <<40/100*40=16>>16 girls in each of them.
+That means the rest of the class are boys, so there are 40 - 16 = <<40-16=24>>24 boys in each class.
+#### 24"
+CSQA,1a,A: C,
+CSQA,1a,A: C,
+CSQA,2,A: C,
+CSQA,3a,C,
+CSQA,3b,A: C,
+StrategyQA,1a,A: False,False
+StrategyQA,1a,A: False,False
+StrategyQA,2,A: False,False
+StrategyQA,3a,A: False,False
+StrategyQA,3b,A: False.,False
+SayCan,1a,"A: 1. find a sprite or 7up, 2. pick up the soda, 3. bring it to you, 4. put down the soda, 5. done","1. find a 7up, 2. pick up the 7up, 3. bring it to you, 4. put down the 7up, 5. done"
+SayCan,1a,"A: 1. find a Sprite, 2. pick up the Sprite, 3. bring it to you, 4. put down the Sprite, 5. done.","1. find a 7up, 2. pick up the 7up, 3. bring it to you, 4. put down the 7up, 5. done"
+SayCan,2,"A: 1. find a Sprite, 2. pick up the Sprite, 3. bring it to you, 4. put down the Sprite, 5. done.","1. find a 7up, 2. pick up the 7up, 3. bring it to you, 4. put down the 7up, 5. done"
+SayCan,3a,"A: 1. find a Sprite, 2. pick up the Sprite, 3. bring it to you, 4. put down the Sprite, 5. done.","1. find a 7up, 2. pick up the 7up, 3. bring it to you, 4. put down the 7up, 5. done"
+SayCan,3b,"A: 1. find a 7up, 2. pick up the 7up, 3. bring it to you, 4. put down the 7up, 5. done.","1. find a 7up, 2. pick up the 7up, 3. bring it to you, 4. put down the 7up, 5. done"

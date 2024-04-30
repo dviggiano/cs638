@@ -1,0 +1,48 @@
+Task Class,Case,Response,True Answer
+Math,1a,"A: With $6.00, Erin can buy 4 scoops of ice cream. 
+She can buy 2 scoops and get 1 free, so a total of 3 scoops for $4.50. 
+She will have $1.50 left over for 1 more scoop, bringing the total to 4 scoops.","Each scoop cost $1.50. If she buys 2, she gets one free. So it will cost her 2 * 1.50 = $<<2*1.50=3.00>>3.00 for thee scoops total.
+If you break it down, 3 scoops of ice cream cost $3.00 so 3/3 = $<<3/3=1.00>>1.00 per scoop
+Erin has $6.00 and each scoop ends up costing $1.00 each then 6/1 = <<6/1=6>>6 scoops total
+#### 6"
+Math,1a,"A: Erin can get 2 scoops for $1.50 each, totaling $3.00.
+With the deal, she would get 1 extra scoop for free.
+So, Erin would only need to spend $3.00 to get a total of 3 scoops of ice cream.
+Therefore, Erin should buy 3 scoops of ice cream.","Each scoop cost $1.50. If she buys 2, she gets one free. So it will cost her 2 * 1.50 = $<<2*1.50=3.00>>3.00 for thee scoops total.
+If you break it down, 3 scoops of ice cream cost $3.00 so 3/3 = $<<3/3=1.00>>1.00 per scoop
+Erin has $6.00 and each scoop ends up costing $1.00 each then 6/1 = <<6/1=6>>6 scoops total
+#### 6"
+Math,2,"A: With $6.00, Erin can buy 4 scoops of ice cream (2 scoops for $3.00 and get 1 free scoop, totaling 3 scoops for $4.50). So, Erin should buy 4 scoops of ice cream.","Each scoop cost $1.50. If she buys 2, she gets one free. So it will cost her 2 * 1.50 = $<<2*1.50=3.00>>3.00 for thee scoops total.
+If you break it down, 3 scoops of ice cream cost $3.00 so 3/3 = $<<3/3=1.00>>1.00 per scoop
+Erin has $6.00 and each scoop ends up costing $1.00 each then 6/1 = <<6/1=6>>6 scoops total
+#### 6"
+Math,3a,"A: With $6.00, Erin can buy 4 scoops of ice cream since she gets 1 scoop free, meaning she pays for 2 scoops and gets the 3rd free for a total of 3 scoops.
+
+If each scoop costs $1.50, then for 3 scoops, Erin would pay 2*$1.50 = $3.00.
+
+Therefore, Erin should buy 3 scoops of ice cream.","Each scoop cost $1.50. If she buys 2, she gets one free. So it will cost her 2 * 1.50 = $<<2*1.50=3.00>>3.00 for thee scoops total.
+If you break it down, 3 scoops of ice cream cost $3.00 so 3/3 = $<<3/3=1.00>>1.00 per scoop
+Erin has $6.00 and each scoop ends up costing $1.00 each then 6/1 = <<6/1=6>>6 scoops total
+#### 6"
+Math,3b,"A: Erin should buy 4 scoops of ice cream. 
+She can buy 2 scoops for $3.00 and get 1 scoop free, so she gets a total of 3 scoops for $3.00.
+Since each scoop costs $1.50, Erin can buy 3 scoops for $4.50, leaving her with $1.50.
+With the remaining $1.50, Erin can buy 1 more scoop of ice cream, giving her a total of 4 scoops for $6.00.","Each scoop cost $1.50. If she buys 2, she gets one free. So it will cost her 2 * 1.50 = $<<2*1.50=3.00>>3.00 for thee scoops total.
+If you break it down, 3 scoops of ice cream cost $3.00 so 3/3 = $<<3/3=1.00>>1.00 per scoop
+Erin has $6.00 and each scoop ends up costing $1.00 each then 6/1 = <<6/1=6>>6 scoops total
+#### 6"
+CSQA,1a,A: C,
+CSQA,1a,A: C,
+CSQA,2,A: C,
+CSQA,3a,A: C,
+CSQA,3b,A: C,
+StrategyQA,1a,A: False,False
+StrategyQA,1a,False,False
+StrategyQA,2,A: False,False
+StrategyQA,3a,A: False,False
+StrategyQA,3b,A: False,False
+SayCan,1a,"A: 1. find something spicy, 2. pick it up, 3. bring it to you, 4. put it down, 5. done","1. find a jalapeno chips, 2. pick up the jalapeno chips, 3. bring it to you, 4. put down the jalapeno chips, 5. done."
+SayCan,1a,"A: 1. find some hot sauce or spicy snack, 2. pick it up, 3. bring it to you, 4. put it down, 5. done","1. find a jalapeno chips, 2. pick up the jalapeno chips, 3. bring it to you, 4. put down the jalapeno chips, 5. done."
+SayCan,2,"A: 1. find the jalapeno chips, 2. pick up the jalapeno chips, 3. bring it to you, 4. put down the jalapeno chips, 5. done","1. find a jalapeno chips, 2. pick up the jalapeno chips, 3. bring it to you, 4. put down the jalapeno chips, 5. done."
+SayCan,3a,"A: 1. find something spicy, 2. bring it to you, 3. done","1. find a jalapeno chips, 2. pick up the jalapeno chips, 3. bring it to you, 4. put down the jalapeno chips, 5. done."
+SayCan,3b,"A: 1. find some hot sauce, 2. pick up the hot sauce, 3. bring it to you, 4. put down the hot sauce, 5. done","1. find a jalapeno chips, 2. pick up the jalapeno chips, 3. bring it to you, 4. put down the jalapeno chips, 5. done."

@@ -1,0 +1,54 @@
+Task Class,Case,Response,True Answer
+Math,1a,"A: Monic has 40 - 4 = <<40-4=36>>36 crabs
+Rani has 36 + 10 = <<36+10=46>>46 crabs
+Together, they have 40 + 36 + 46 = <<40+36+46=122>>122 crabs. 
+Therefore, the total number of crabs the three have together is 122.","If Bo has 40 crabs, then Monic, who has 4 fewer crabs than Bo, has 40-4 = <<40-4=36>>36 crabs.
+Bo and Monic have a total of 36+40 = <<36+40=76>>76 crabs.
+Since Monic has 36 crabs, Rani's number of crabs is 36+ 10 = <<36+10=46>>46.
+Together, the three have 76+46 = <<76+46=122>>122 crabs.
+#### 122"
+Math,1a,"A: Monic has 40 - 4 = <<40-4=36>>36 crabs.
+Rani has 36 + 10 = <<36+10=46>>46 crabs.
+Together, they have 40 + 36 + 46 = <<40+36+46=122>>122 crabs.","If Bo has 40 crabs, then Monic, who has 4 fewer crabs than Bo, has 40-4 = <<40-4=36>>36 crabs.
+Bo and Monic have a total of 36+40 = <<36+40=76>>76 crabs.
+Since Monic has 36 crabs, Rani's number of crabs is 36+ 10 = <<36+10=46>>46.
+Together, the three have 76+46 = <<76+46=122>>122 crabs.
+#### 122"
+Math,2,"A: If Bo has 40 crabs, then Monic has 40-4 = 36 crabs.
+Rani has 10 more crabs than Monic, so Rani has 36+10 = 46 crabs.
+The total number of crabs the three have together is 40 (Bo) + 36 (Monic) + 46 (Rani) = 122 crabs.","If Bo has 40 crabs, then Monic, who has 4 fewer crabs than Bo, has 40-4 = <<40-4=36>>36 crabs.
+Bo and Monic have a total of 36+40 = <<36+40=76>>76 crabs.
+Since Monic has 36 crabs, Rani's number of crabs is 36+ 10 = <<36+10=46>>46.
+Together, the three have 76+46 = <<76+46=122>>122 crabs.
+#### 122"
+Math,3a,"A: Monic has 40 - 4 = <<40-4=36>>36 crabs.
+Rani has 36 + 10 = <<36+10=46>>46 crabs.
+Together, the three have 40 + 36 + 46 = <<40+36+46=122>>122 crabs. 
+So, the total number of crabs the three have together is 122.","If Bo has 40 crabs, then Monic, who has 4 fewer crabs than Bo, has 40-4 = <<40-4=36>>36 crabs.
+Bo and Monic have a total of 36+40 = <<36+40=76>>76 crabs.
+Since Monic has 36 crabs, Rani's number of crabs is 36+ 10 = <<36+10=46>>46.
+Together, the three have 76+46 = <<76+46=122>>122 crabs.
+#### 122"
+Math,3b,"A: If Bo has 40 crabs, and Monic has 4 fewer crabs than Bo, then Monic has 40 crabs - 4 crabs = 36 crabs.
+Rani has ten more crabs than Monic, so Rani has 36 crabs + 10 crabs = 46 crabs.
+Together, they have 40 crabs (Bo) + 36 crabs (Monic) + 46 crabs (Rani) = 122 crabs. 
+Therefore, the total number of crabs the three have together is 122.","If Bo has 40 crabs, then Monic, who has 4 fewer crabs than Bo, has 40-4 = <<40-4=36>>36 crabs.
+Bo and Monic have a total of 36+40 = <<36+40=76>>76 crabs.
+Since Monic has 36 crabs, Rani's number of crabs is 36+ 10 = <<36+10=46>>46.
+Together, the three have 76+46 = <<76+46=122>>122 crabs.
+#### 122"
+CSQA,1a,A: E,
+CSQA,1a,A: C,
+CSQA,2,A: E,
+CSQA,3a,A: C,
+CSQA,3b,A: C,
+StrategyQA,1a,A: True,False
+StrategyQA,1a,A: True,False
+StrategyQA,2,A: False,False
+StrategyQA,3a,A: True,False
+StrategyQA,3b,A: False,False
+SayCan,1a,"A: 1. find a banana, 2. pick up the banana, 3. go to the counter, 4. put down the banana, 5. done","1. pick up the banana, 2. go to the counter, 3. put down the banana, 4. done"
+SayCan,1a,"A: 1. find a banana, 2. pick up the banana, 3. go to the counter, 4. put down the banana on the counter, 5. done","1. pick up the banana, 2. go to the counter, 3. put down the banana, 4. done"
+SayCan,2,"A: 1. pick up the banana, 2. go to the counter, 3. place the banana on the counter, 4. done","1. pick up the banana, 2. go to the counter, 3. put down the banana, 4. done"
+SayCan,3a,"A: 1. Pick up the banana, 2. Go to the counter, 3. Place the banana on the counter, 4. Done.","1. pick up the banana, 2. go to the counter, 3. put down the banana, 4. done"
+SayCan,3b,"A: 1. find a banana, 2. pick up the banana, 3. place it on the counter, 4. done","1. pick up the banana, 2. go to the counter, 3. put down the banana, 4. done"
