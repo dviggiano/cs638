@@ -2,3 +2,5 @@ venv
 .idea
 .env
 .DS_Store
+__pycache__
+.ipynb_checkpoints
